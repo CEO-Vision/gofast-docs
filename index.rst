@@ -9,4 +9,4 @@ Utilisation avancée GoFAST (mobilité, dématérialisation, signature, ...)
    :maxdepth: 2
    :caption: User Documentation
 
-   utilisation-avancee/index
+   utilisation-avancee
