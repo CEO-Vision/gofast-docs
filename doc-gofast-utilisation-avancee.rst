@@ -33,7 +33,7 @@ réseau disponible.
 |image0|\ |image1|\ |image2|
 
 Installation CMISSync
----------------------
+^^^^^^^^^^^^^^^^^^^^^
 L'outil est disponible pour Windows, Mac (beta) et Linux et peut être
 téléchargé ici : https://bitbucket.org/aegif/cmissync/downloads
 
@@ -69,27 +69,23 @@ Une fois configuré il est possible de faire plusieurs actions comme
 ouvrir le dossier local de synchronisation, mettre en pause la
 synchronisation ou changer les paramètres.
 
-+----+------------+
-+====+============+
-|    | |image5|   |
-+----+------------+
+|image5|
 
-.. DANGER:: Dans les paramètres il est possible de baisser la fréquence de synchronisation, option utile si CMISSync est largement
-diffusé dans l'organisation ceci pouvant charger la plateforme GoFAST.
-En effet CMISSync consomme de la bande passante coté serveur et du
-CPU
+
+.. IMPORTANT:: Dans les paramètres il est possible de baisser la fréquence de synchronisation, option utile si CMISSync est largement
+diffusé dans l'organisation ceci pouvant charger la plateforme GoFAST. En effet CMISSync consomme de la bande passante coté serveur et du CPU
 
 |image6|
 
-**Fonctionnement\***\ \*\*\*
-
+Fonctionnement
+^^^^^^^^^^^^^^
 Lorsque l'ordinateur est connecté au réseau, CMISSync vérifie
 périodiquement si des documents ont été changés sur la plateforme
 GoFAST. Si oui ces documents sont copiés localement.
 
 |image7|
 
-**Note\***\ \*:\ **** si vous faites des modifications en mode
+.. NOTE:: si vous faites des modifications en mode
 déconnecté (offline), lors de la reconnexion sur le serveur GoFAST,
 votre version sera téléchargée et versionnée sauf si un utilisateur a
 fait des modifications entre-temps sur la GoFAST. Dans ce cas une «
