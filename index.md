@@ -1,3 +1,5 @@
+[TOC]
+
 ## Synchronisation locale (GoFAST hors-ligne)
 
 CMISSync est un outil puissant qui permet une synchronisation sur un PC d'un ou plusieurs espaces collaboratifs de GoFAST.
