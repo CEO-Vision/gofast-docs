@@ -10,3 +10,4 @@ Utilisation avancée GoFAST (mobilité, dématérialisation, signature, ...)
    :caption: GoFAST Exploitation
 
    gofast-exploitation
+   doc_gofast_mobilite
