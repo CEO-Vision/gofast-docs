@@ -10,4 +10,11 @@ Utilisation avancée GoFAST (mobilité, dématérialisation, signature, ...)
    :caption: GoFAST Exploitation
 
    gofast-exploitation
+   
+.. _mobi-docs:
+
+.. toctree::
+   :maxdepth: 2
+   :caption: GoFAST Mobilité
+
    doc_gofast_mobilite
