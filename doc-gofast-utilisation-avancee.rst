@@ -9,11 +9,13 @@ logiciels tiers fonctionnant avec la plate-forme GoFAST.
 Ces outils complémentaires permettent :
 
 * Des outils complémentaires en mobilité
+
  * Une synchronisation de GoFAST avec un PC pour travailler en mode « déconnecté » (type DropBox)
  * L'accès à GoFAST sur les terminaux mobiles (tablettes,…) par explorateur de fichiers
  * La visualisation et l'édition en ligne de documents Office sur tablette GalaxyTab (et visualisation seulementsur iOS)
  * La messagerie instantanée (« chat ») sur mobile
  * La vidéoconférence sur mobile
+ 
 * Des outils de dématérialisation
 * Des outils de signature
 
@@ -213,9 +215,11 @@ comptes :
 
 **Identifiant** : identifiant\_gofast@gofast-comm.xxxxx.yyy
 
-**Dématérialiser vers GoFAST\***\ \*\*\*
+Dématérialiser vers GoFAST
+--------------------------
 
-**Dématérialiser à partir d’un smartphone\***\ \*\*\*
+Dématérialiser à partir d’un smartphone
+---------------------------------------
 
 Il est possible de dématérialiser des notes de frais directement à
 partir d’un smartphone et de les envoyer directement dans GoFAST.
