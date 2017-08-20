@@ -58,7 +58,7 @@ En production, de nombreux processus sont créés afin derépondre à
 chacune des requêtes http effectuées par les clients. Ces processussont
 nommés «/usr/sbin/httpd »
 
-.. figure:: img\exploit\clip_image002.jpg
+.. figure:: img/exploit/clip_image002.jpg
    :alt: 
 
  
@@ -75,7 +75,7 @@ De même la partie «Gestion de processus » est assuréepar le logiciel
 Bonitasoft, qui est une application développée en Java, ce quinécessite
 également un serveur web Tomcat pour fonctionner
 
-.. figure:: img\exploit\clip_image004.jpg
+.. figure:: img/exploit/clip_image004.jpg
    :alt: 
 
  
@@ -108,7 +108,7 @@ En production, cela se traduit par deuxprocessus :
 --log-error=/var/log/mysqld.log--pid-file=/var/run/mysqld/mysqld.pid
 --socket=/var/lib/mysql/mysql.sock
 
-.. figure:: img\exploit\clip_image006.jpg
+.. figure:: img/exploit/clip_image006.jpg
    :alt: 
 
 Moteur de recherche Solr
@@ -120,7 +120,7 @@ assurées par Apache Solr.
 En production, cela se traduit par un processus qui senomme «java –jar
 start.jar »
 
-.. figure:: img\exploit\clip_image008.jpg
+.. figure:: img/exploit/clip_image008.jpg
    :alt: 
 
 Serveur LDAP
@@ -132,7 +132,7 @@ lesdifférents composants de la plateforme.
 
 En production, cela se traduit par un processus « /usr/sbin/slapd »
 
-.. figure:: img\exploit\clip_image010.jpg
+.. figure:: img/exploit/clip_image010.jpg
    :alt: 
 
 Composant de prévisualisation de documents
@@ -181,10 +181,10 @@ Les principales informations supervisées sont lessuivantes :
 En production, cela setraduit par deux processus « /usr/sbin/nrsysmond
 »qui effectuent des requêtes vers internet toutes les 3 minutes.
 
-.. figure:: img\exploit\clip_image014.jpg
+.. figure:: img/exploit/clip_image014.jpg
    :alt: 
 
-.. figure:: img\exploit\clip_image016.jpg
+.. figure:: img/exploit/clip_image016.jpg
    :alt: 
 
 --------------
@@ -402,5 +402,5 @@ Si l'on veut une sauvegarde par jour, il faut indiquer unefréquence de
 24h et démarrer l'application à l'heure où l'on souhaite
 lasynchronisation différentielle.
 
-.. |image0| image:: img\exploit\clip_image012.jpg
-.. |image1| image:: img\exploit\clip_image018.jpg
+.. |image0| image:: img/exploit/clip_image012.jpg
+.. |image1| image:: img/exploit/clip_image018.jpg
