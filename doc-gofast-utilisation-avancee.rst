@@ -120,16 +120,15 @@ version de B va être écrasée sur le serveur GoFAST après versionnage
 c) Fusionner les 2 versions dans **courrier.doc**, puis effacer
 **courrier.doc\_UserB-version**
 
-**Important\***\ \*: si vous effacez un répertoire en local dans
-l'arborescence synchronisée, les répertoires distants seront supprimés.
-Par mesure de précaution, il est préférable d'éviter de supprimer un
-répertoire en local dans l'arborescence synchronisée.\ **\*\***
+.. Danger:: si vous effacez un répertoire en local dans
+            l'arborescence synchronisée, les répertoires distants seront supprimés.
+            Par mesure de précaution, il est préférable d'éviter de supprimer un
+            répertoire en local dans l'arborescence synchronisée
+            GoFAST ne supprime pas définitivement les documents mais une
+            procédure de « republication » doit être faite
 
-**La GoFAST ne supprime pas définitivement les documents mais une
-procédure de « republication » doit être faite.\***\ \*\*\*
-
-**Accès aux fichiers de la GoFAST sur Tablette et Smartphone\***\ \*\*\*
-
+Accès aux fichiers de la GoFAST sur Tablette et Smartphone
+----------------------------------------------------------
 Il est possible d'accéder à la plateforme GoFAST à partir de tablettes
 Android (ex. GalaxyTab), iOS (iPAD) et smartphones dont Blackberry.
 
@@ -146,10 +145,10 @@ disponible sous le nom **« Webdav Nav+ »**
 
 |image10|
 
-**Éditer des fichiers Office sur Tablette\***\ \*\*\*
-
-**Tablette Android\***\ \*\*\*
-
+Éditer des fichiers Office sur Tablette
+---------------------------------------
+Tablette Android
+^^^^^^^^^^^^^^^^
 Pour ce type de tablette nous recommandons d'utiliser la suite Office «
 **WPS Office** » disponible sur GooglePlay.
 
@@ -167,13 +166,12 @@ page peut être différente de celle sous PC.
 
 La sauvegarde peut de même changer légèrement la mise en page.
 
-**Important\***\ \*: Lorsqu'on sauvegarde le document, celui-ci est
-d'abord sauvegardé en local sur la tablette. Une fois que l'application
-est fermée (X), la synchronisation est effectuée avec la
-GoFAST\ **\*\***
+.. Important:: Lorsqu'on sauvegarde le document, celui-ci est
+              d'abord sauvegardé en local sur la tablette. Une fois que l'application
+              est fermée (X), la synchronisation est effectuée avec GoFAST
 
-**Tablette iPad\***\ \*\*\*
-
+Tablette iPad
+^^^^^^^^^^^^^
 Si vous souhaitez uniquement consulter les documents Office, nous vous
 conseillons également « **WPS Office** ».
 
@@ -195,8 +193,8 @@ Dans l'attente de ce correctif, il est possible d'utiliser la suite «
 |    | |image14|   |
 +----+-------------+
 
-**Messagerie instantanée (« chat ») sur mobiles \*\***\ \*\*
-
+Messagerie instantanée (« chat ») sur mobiles 
+---------------------------------------------
 |image15|
 
 Avec GoFAST vous avez une messagerie instantanée privée, équivalent de «
