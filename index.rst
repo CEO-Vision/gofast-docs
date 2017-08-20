@@ -17,4 +17,4 @@ Utilisation avancée GoFAST (mobilité, dématérialisation, signature, ...)
    :maxdepth: 2
    :caption: GoFAST Mobilité
 
-   doc_gofast_mobilite
+   doc-gofast-mobilite
