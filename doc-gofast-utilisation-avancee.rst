@@ -46,10 +46,7 @@ le nom de votre organisation)
 L'adresse à utiliser :
 `https://gofast. <https://gofast.myorg.com/alfresco/api/-default-/public/cmis/versions/1.1/atom>`__\ `**myorg** <https://gofast.myorg.com/alfresco/api/-default-/public/cmis/versions/1.1/atom>`__\ `.com/alfresco/api/-default-/public/cmis/versions/1.1/atom <https://gofast.myorg.com/alfresco/api/-default-/public/cmis/versions/1.1/atom>`__
 
-+----+------------+
-+====+============+
-|    | |image3|   |
-+----+------------+
+|image3|
 
 A cette étape il est possible de choisir l'espace collaboratif que l'on
 souhaite synchroniser. Bien sûr si cet espace collaboratif contient des
@@ -60,10 +57,7 @@ minutes de synchronisation pour 1700 fichiers / 1.2 Go.
 Si vous voulez donc tout synchroniser, choisir l'espace 'racine', ici
 'Main Repository'
 
-+----+------------+
-+====+============+
-|    | |image4|   |
-+----+------------+
+|image4|
 
 Une fois configuré il est possible de faire plusieurs actions comme
 ouvrir le dossier local de synchronisation, mettre en pause la
@@ -86,13 +80,11 @@ Lorsque l'ordinateur est connecté au réseau, CMISSync vérifie
 périodiquement si des documents ont été changés sur la plateforme
 GoFAST. Si oui ces documents sont copiés localement.
 
-|image7|
-
 .. NOTE:: si vous faites des modifications en mode
-déconnecté (offline), lors de la reconnexion sur le serveur GoFAST,
-votre version sera téléchargée et versionnée sauf si un utilisateur a
-fait des modifications entre-temps sur la GoFAST. Dans ce cas une «
-gestion des conflits » se déclenche (voir ci dessous)
+          déconnecté (offline), lors de la reconnexion sur le serveur GoFAST,
+          votre version sera téléchargée et versionnée sauf si un utilisateur a
+          fait des modifications entre-temps sur la GoFAST. Dans ce cas une «
+          gestion des conflits » se déclenche (voir ci dessous)
 
 |image8|
 
