@@ -1,4 +1,4 @@
-#Documentation GoFAST
-
-##Utilisation avancée GoFAST (mobilité, dématérialisation, signature, ...)
-
+Documentation GoFAST
+####################
+Utilisation avancée GoFAST (mobilité, dématérialisation, signature, ...)
+------------------------------------------------------------------------
