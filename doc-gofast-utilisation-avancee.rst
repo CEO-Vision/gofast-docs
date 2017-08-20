@@ -72,13 +72,16 @@ synchronisation ou changer les paramètres.
 |image5|
 
 
-.. IMPORTANT:: Dans les paramètres il est possible de baisser la fréquence de synchronisation, option utile si CMISSync est largement
-diffusé dans l'organisation ceci pouvant charger la plateforme GoFAST. En effet CMISSync consomme de la bande passante coté serveur et du CPU
+.. IMPORTANT:: Dans les paramètres il est possible de baisser la fréquence de synchronisation, 
+               option utile si CMISSync est largement diffusé dans l'organisation ceci pouvant 
+               charger la plateforme GoFAST. En effet CMISSync consomme de la bande passante coté 
+               serveur et du CPU
 
 |image6|
 
-Fonctionnement
-^^^^^^^^^^^^^^
+
+Utilisation
+^^^^^^^^^^^
 Lorsque l'ordinateur est connecté au réseau, CMISSync vérifie
 périodiquement si des documents ont été changés sur la plateforme
 GoFAST. Si oui ces documents sont copiés localement.
@@ -89,8 +92,7 @@ GoFAST. Si oui ces documents sont copiés localement.
 déconnecté (offline), lors de la reconnexion sur le serveur GoFAST,
 votre version sera téléchargée et versionnée sauf si un utilisateur a
 fait des modifications entre-temps sur la GoFAST. Dans ce cas une «
-gestion des conflits » se déclenche (voir ci dessous)\ **\*\***
-
+gestion des conflits » se déclenche (voir ci dessous)
 
 |image8|
 
