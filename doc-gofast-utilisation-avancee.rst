@@ -1,3 +1,6 @@
+GoFAST : Utilisation Avancée
+============================
+
 Introduction
 ------------
 Ce document a pour but de donner les instructions de configuration de
@@ -5,20 +8,17 @@ logiciels tiers fonctionnant avec la plate-forme GoFAST.
 
 Ces outils complémentaires permettent :
 
-1. Une synchronisation de la GoFAST avec un PC pour travailler en mode «
-   déconnecté » (équivalent de DropBox)
+* Des outils complémentaires en mobilité
+ * Une synchronisation de GoFAST avec un PC pour travailler en mode « déconnecté » (type DropBox)
+ * L'accès à GoFAST sur les terminaux mobiles (tablettes,…) par explorateur de fichiers
+ * La visualisation et l'édition en ligne de documents Office sur tablette GalaxyTab (et visualisation seulementsur iOS)
+ * La messagerie instantanée (« chat ») sur mobile
+ * La vidéoconférence sur mobile
+* Des outils de dématérialisation
+* Des outils de signature
 
-2. L'accès à la GoFAST sur les terminaux mobiles (tablettes,…) par
-   explorateur de fichiers
-
-3. La visualisation et l'édition en ligne de documents Office sur
-   tablette GalaxyTab (et visualisation seulement sur iOS)
-
-4. La messagerie instantanée (« chat ») sur mobiles
-
-5. La vidéoconférence sur mobile
-
-**Synchronisation locale (CMISSync)\***\ \*\*\*
+Synchronisation locale (GoFAST hors-ligne)
+------------------------------------------
 
 CMISSync est un outil puissant et fiable qui permet une synchronisation
 sur un PC d'un ou plusieurs espaces collaboratifs de la GoFAST.
@@ -32,8 +32,8 @@ réseau disponible.
 
 |image0|\ |image1|\ |image2|
 
-**Installation\***\ \*\*\*
-
+Installation CMISSync
+---------------------
 L'outil est disponible pour Windows, Mac (beta) et Linux et peut être
 téléchargé ici : https://bitbucket.org/aegif/cmissync/downloads
 
@@ -74,11 +74,10 @@ synchronisation ou changer les paramètres.
 |    | |image5|   |
 +----+------------+
 
-**Note\***\ \*:\ ***Dans les paramètres il est possible de baisser la
-fréquence de synchronisation, option utile si CMISSync est largement
+.. DANGER:: Dans les paramètres il est possible de baisser la fréquence de synchronisation, option utile si CMISSync est largement
 diffusé dans l'organisation ceci pouvant charger la plateforme GoFAST.
 En effet CMISSync consomme de la bande passante coté serveur et du
-CPU***\ \*\*
+CPU
 
 |image6|
 
@@ -96,10 +95,9 @@ votre version sera téléchargée et versionnée sauf si un utilisateur a
 fait des modifications entre-temps sur la GoFAST. Dans ce cas une «
 gestion des conflits » se déclenche (voir ci dessous)\ **\*\***
 
-+----+------------+
-+====+============+
-|    | |image8|   |
-+----+------------+
+
+|image8|
+
 
 Exemple de notification (version anglaise)
 
