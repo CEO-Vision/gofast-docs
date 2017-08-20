@@ -32,7 +32,6 @@ ordinateur.
 Si vous les modifiez ils seront directement synchronisés une fois le
 réseau disponible.
 
-|image0|\ |image1|\ |image2|
 
 Installation CMISSync
 ^^^^^^^^^^^^^^^^^^^^^
@@ -129,8 +128,8 @@ c) Fusionner les 2 versions dans **courrier.doc**, puis effacer
             GoFAST ne supprime pas définitivement les documents mais une
             procédure de « republication » doit être faite
 
-Accès aux fichiers de la GoFAST sur Tablette et Smartphone
-----------------------------------------------------------
+Accès aux fichiers GoFAST sur Tablette et Smartphone
+----------------------------------------------------
 Il est possible d'accéder à la plateforme GoFAST à partir de tablettes
 Android (ex. GalaxyTab), iOS (iPAD) et smartphones dont Blackberry.
 
@@ -185,15 +184,9 @@ L'éditeur est notifié de ce bug et un correctif devrait être produit.
 Dans l'attente de ce correctif, il est possible d'utiliser la suite «
 **Citrix ShareFile QuickEdit** »
 
-+----+-------------+
-+====+=============+
-|    | |image13|   |
-+----+-------------+
+|image13|
 
-+----+-------------+
-+====+=============+
-|    | |image14|   |
-+----+-------------+
+|image14|
 
 Messagerie instantanée (« chat ») sur mobiles 
 ---------------------------------------------
