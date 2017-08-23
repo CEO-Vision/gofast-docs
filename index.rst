@@ -17,4 +17,4 @@ Utilisation avancée GoFAST (mobilité, dématérialisation, signature, ...)
    :maxdepth: 2
    :caption: GoFAST Utilisation Avancée
 
-   doc-gofast-utilisation-avancee/doc-gofast-utilisation-avancee
+   doc-gofast-technical/doc-gofast-utilisation-avancee
