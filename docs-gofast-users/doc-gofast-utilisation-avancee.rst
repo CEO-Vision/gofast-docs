@@ -238,8 +238,8 @@ Pour cela vous devez avoir 2 applications :
 .. |image6| image:: img/clip_image013.png
 .. |image7| image:: img/mobilite/wps7DBE.tmp.jpg
 .. |image8| image:: img/clip_image017.png
-.. |image9| image:: img/webdavnav config.png
-.. |image10| image:: img/webdavnav browse.png
+.. |image9| image:: img/webdavnav_config.png
+.. |image10| image:: img/webdavnav_browse.png
 .. |image11| image:: img/mobilite/wps7DC2.tmp.png
 .. |image12| image:: img/mobilite/wps7DD2.tmp.jpg
 .. |image13| image:: img/mobilite/wps7DD3.tmp.jpg
