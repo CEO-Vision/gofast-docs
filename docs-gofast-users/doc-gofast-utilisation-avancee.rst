@@ -160,9 +160,12 @@ par « Ouvrir/Ajouter un stockage en nuage » puis choisir « Webdav » et
 entrer l'adresse « https://gofast.mycomp.com/alfresco/webdav » ou vous
 devez remplacer mycomp.com par l'adresse de votre organisation.
 
-|image14||image15||image16|
+|image14|
+|image15|
 L'application va vous demander ensuite votre
 identifiant et mot de passe sur la GoFAST.
+
+|image16|
 
 Il est ensuite possible d'ouvrir un document directement sur la GoFAST.
 Certaines polices de caractère n'existent pas sous Android, la mise en
@@ -190,7 +193,7 @@ Dans l'attente de ce correctif, il est possible d'utiliser la suite «
 
 Messagerie instantanée (« chat ») sur mobiles 
 ---------------------------------------------
-|image15|
+|image6|
 
 Avec GoFAST vous avez une messagerie instantanée privée, équivalent de «
 WhatsApp » pour votre Organisation, fonctionnant sur le standard ouvert
@@ -242,13 +245,14 @@ Nous parlerons ici de la configuration de Scanbot dont l'utilisation est simplif
 .. |image3| image:: img/clip_image007.png
 .. |image4| image:: img/clip_image009.png
 .. |image5| image:: img/clip_image011.png
-.. |image6| image:: img/clip_image013.png
+.. |image6| image:: img/clip_image034.png
+			:scale: 50
 .. |image7| image:: img/mobilite/wps7DBE.tmp.jpg
 .. |image8| image:: img/clip_image017.png
 .. |image9| image:: img/webdavnav_config.png
 .. |image10| image:: img/webdavnav_browse.png
 .. |image11| image:: img/scanbot_ajout_webdav.png
-             :scale: 50 %
+             :scale: 50
 .. |image12| image:: img/scanbot_choix_webdav.png
 .. |image13| image:: img/scanbot_config_webdav.png
 .. |image14| image:: img/clip_image028.png
