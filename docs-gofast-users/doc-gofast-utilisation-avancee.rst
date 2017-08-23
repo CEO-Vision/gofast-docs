@@ -226,12 +226,12 @@ Pour cela vous devez avoir 2 applications :
 .. |image0| image:: img/mobilite/wps7DA7.tmp.jpg
 .. |image1| image:: img/mobilite/wps7DB8.tmp.jpg
 .. |image2| image:: img/mobilite/wps7DB9.tmp.jpg
-.. |image3| image:: img/mobilite/wps7DBA.tmp.jpg
-.. |image4| image:: img/mobilite/wps7DBB.tmp.jpg
-.. |image5| image:: img/mobilite/wps7DBC.tmp.jpg
-.. |image6| image:: img/mobilite/wps7DBD.tmp.jpg
+.. |image3| image:: img/clip_image007.png
+.. |image4| image:: img/clip_image009.png
+.. |image5| image:: img/clip_image011.png
+.. |image6| image:: img/clip_image013.png
 .. |image7| image:: img/mobilite/wps7DBE.tmp.jpg
-.. |image8| image:: img/mobilite/wps7DBF.tmp.jpg
+.. |image8| image:: img/clip_image017.png
 .. |image9| image:: img/mobilite/wps7DC0.tmp.jpg
 .. |image10| image:: img/mobilite/wps7DC1.tmp.jpg
 .. |image11| image:: img/mobilite/wps7DC2.tmp.png
