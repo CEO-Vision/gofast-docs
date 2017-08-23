@@ -246,7 +246,7 @@ Nous parlerons ici de la configuration de Scanbot dont l'utilisation est simplif
 .. |image4| image:: img/clip_image009.png
 .. |image5| image:: img/clip_image011.png
 .. |image6| image:: img/clip_image034.png
-			:scale: 50
+			:scale: 75
 .. |image7| image:: img/mobilite/wps7DBE.tmp.jpg
 .. |image8| image:: img/clip_image017.png
 .. |image9| image:: img/webdavnav_config.png
