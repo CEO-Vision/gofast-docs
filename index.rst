@@ -16,4 +16,4 @@ Documentation GoFAST
    :maxdepth: 2
    :caption: GoFAST Utilisation Avancée
 
-   docs-gofast-technical/doc-gofast-utilisation-avancee
+   docs-gofast-users/doc-gofast-utilisation-avancee
