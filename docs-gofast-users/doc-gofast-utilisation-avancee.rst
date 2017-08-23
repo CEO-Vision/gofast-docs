@@ -160,7 +160,8 @@ par « Ouvrir/Ajouter un stockage en nuage » puis choisir « Webdav » et
 entrer l'adresse « https://gofast.mycomp.com/alfresco/webdav » ou vous
 devez remplacer mycomp.com par l'adresse de votre organisation.
 
-|image11|\ |image12|\ L'application va vous demander ensuite votre
+|image14||image15||image16|
+L'application va vous demander ensuite votre
 identifiant et mot de passe sur la GoFAST.
 
 Il est ensuite possible d'ouvrir un document directement sur la GoFAST.
@@ -186,9 +187,6 @@ L'éditeur est notifié de ce bug et un correctif devrait être produit.
 Dans l'attente de ce correctif, il est possible d'utiliser la suite «
 **Citrix ShareFile QuickEdit** »
 
-|image13|
-
-|image14|
 
 Messagerie instantanée (« chat ») sur mobiles 
 ---------------------------------------------
@@ -253,5 +251,7 @@ Nous parlerons ici de la configuration de Scanbot dont l'utilisation est simplif
               :scale: 50 %
 .. |image12| image:: img/scanbot_choix_webdav.png
 .. |image13| image:: img/scanbot_config_webdav.png
-.. |image14| image:: img/mobilite/wps7DD4.tmp.jpg
-.. |image15| image:: img/mobilite/wps7DD5.tmp.jpg
+.. |image14| image:: img/clip_image028.png
+.. |image15| image:: img/clip_image030.png
+.. |image16| image:: img/clip_image032.png
+
