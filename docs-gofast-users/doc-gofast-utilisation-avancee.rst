@@ -131,10 +131,16 @@ c) Fusionner les 2 versions dans **courrier.doc**, puis effacer
 Accès aux fichiers GoFAST sur Tablette et Smartphone
 ----------------------------------------------------
 Il est possible d'accéder à la plateforme GoFAST à partir de tablettes
-Android (ex. GalaxyTab), iOS (iPAD) et smartphones dont Blackberry.
+Android (ex. GalaxyTab), iOS (iPAD) et smartphones (Android, iOS, Blackberry).
 
 Pour cela vous devez installer le logiciel gratuit **« Webdav Navigator
 »** sur iTunes, GooglePlay ou Blackberry AppWorld.
+
+|image9|
+
+Vous aurez ensuite la possibilité d'accéder à vos fichiers GoFAST sur votre smartphone :
+
+|image10|
 
 Le site de l'éditeur se trouve à l'adresse suivante :
 http://seanashton.net/webdav/
@@ -142,9 +148,9 @@ http://seanashton.net/webdav/
 A noter qu'une version payante incluant la synchronisation locale est
 disponible sous le nom **« Webdav Nav+ »**
 
-|image9|
 
-|image10|
+
+
 
 Éditer des fichiers Office sur Tablette
 ---------------------------------------
@@ -232,8 +238,8 @@ Pour cela vous devez avoir 2 applications :
 .. |image6| image:: img/clip_image013.png
 .. |image7| image:: img/mobilite/wps7DBE.tmp.jpg
 .. |image8| image:: img/clip_image017.png
-.. |image9| image:: img/mobilite/wps7DC0.tmp.jpg
-.. |image10| image:: img/mobilite/wps7DC1.tmp.jpg
+.. |image9| image:: img/webdavnav config.png
+.. |image10| image:: img/webdavnav browse.png
 .. |image11| image:: img/mobilite/wps7DC2.tmp.png
 .. |image12| image:: img/mobilite/wps7DD2.tmp.jpg
 .. |image13| image:: img/mobilite/wps7DD3.tmp.jpg
