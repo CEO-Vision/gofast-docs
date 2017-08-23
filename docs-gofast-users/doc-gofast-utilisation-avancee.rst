@@ -133,8 +133,9 @@ Accès aux fichiers GoFAST sur Tablette et Smartphone
 Il est possible d'accéder à la plateforme GoFAST à partir de tablettes
 Android (ex. GalaxyTab), iOS (iPAD) et smartphones (Android, iOS, Blackberry).
 
-Pour cela vous devez installer le logiciel gratuit **« Webdav Navigator
-»** sur iTunes, GooglePlay ou Blackberry AppWorld.
+Pour cela vous devez installer le logiciel gratuit **« Webdav Navigator Lite
+»** sur iTunes, GooglePlay ou Blackberry AppWorld. A noter qu'une version payante incluant la synchronisation locale est
+disponible sous le nom **« Webdav Navigator »**
 
 |image9|
 
@@ -144,11 +145,6 @@ Vous aurez ensuite la possibilité d'accéder à vos fichiers GoFAST sur votre s
 
 Le site de l'éditeur se trouve à l'adresse suivante :
 http://seanashton.net/webdav/
-
-A noter qu'une version payante incluant la synchronisation locale est
-disponible sous le nom **« Webdav Nav+ »**
-
-
 
 
 
@@ -217,17 +213,30 @@ comptes :
 Dématérialiser vers GoFAST
 --------------------------
 
+Il est possible de créer un dossier permettant de déposer des PDF "Images" et que ceux-ci soient 
+transformés en PDF "Interrogeables" grace à un logiciel commercial de reconnaissance de caractères (OCR) installé
+sur le PC, "ABBYY Hot Folder".
+
 Dématérialiser à partir d’un smartphone
 ---------------------------------------
 
-Il est possible de dématérialiser des notes de frais directement à
+Il est possible de dématérialiser par exemple des notes de frais directement à
 partir d’un smartphone et de les envoyer directement dans GoFAST.
 
-Pour cela vous devez avoir 2 applications :
+Pour cela vous devez avoir installé :
 
--  CamScanner
+-  CamScanner et "Webdav Navigator"
+ou
+-  Scanbot
 
--  Webdavnav (voir section précédente)
+Nous parlerons ici de la configuration de Scanbot dont l'utilisation est simplifiée.
+
+|image11|
+
+|image12|
+
+|image13|
+
 
 .. |image0| image:: img/mobilite/wps7DA7.tmp.jpg
 .. |image1| image:: img/mobilite/wps7DB8.tmp.jpg
@@ -240,8 +249,8 @@ Pour cela vous devez avoir 2 applications :
 .. |image8| image:: img/clip_image017.png
 .. |image9| image:: img/webdavnav_config.png
 .. |image10| image:: img/webdavnav_browse.png
-.. |image11| image:: img/mobilite/wps7DC2.tmp.png
-.. |image12| image:: img/mobilite/wps7DD2.tmp.jpg
-.. |image13| image:: img/mobilite/wps7DD3.tmp.jpg
+.. |image11| image:: img/scanbot_ajout_webdav.png
+.. |image12| image:: img/scanbot_choix_webdav.png
+.. |image13| image:: img/scanbot_config_webdav.png
 .. |image14| image:: img/mobilite/wps7DD4.tmp.jpg
 .. |image15| image:: img/mobilite/wps7DD5.tmp.jpg
