@@ -14,7 +14,7 @@ Ces outils complémentaires permettent :
  * L'accès à GoFAST sur les terminaux mobiles (tablettes,…) par explorateur de fichiers
  * La visualisation et l'édition en ligne de documents Office sur tablette GalaxyTab (et visualisation seulementsur iOS)
  * La messagerie instantanée (« chat ») sur mobile
- * La vidéoconférence sur mobile
+ * La vidéoconférence sur mobile (dans navigateur)
  
 * Des outils de dématérialisation
 * Des outils de signature
@@ -210,6 +210,11 @@ Pour configurer ces clients il suffit d’entrer dans la gestion des
 comptes :
 
 **Identifiant** : identifiant\_gofast@gofast-comm.xxxxx.yyy
+
+Signature électronique des PDF
+------------------------------
+
+TODO
 
 Dématérialiser vers GoFAST
 --------------------------
