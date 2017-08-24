@@ -130,7 +130,7 @@ c) Fusionner les 2 versions dans **courrier.doc**, puis effacer
             procédure de « republication » doit être faite
 
 
-			Accès aux fichiers GoFAST sur Tablette et Smartphone
+Accès aux fichiers GoFAST sur Tablette et Smartphone
 ----------------------------------------------------
 Il est possible d'accéder à la plateforme GoFAST à partir de tablettes
 Android (ex. GalaxyTab), iOS (iPAD) et smartphones (Android, iOS, Blackberry).
