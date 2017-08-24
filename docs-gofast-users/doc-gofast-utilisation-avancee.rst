@@ -277,4 +277,5 @@ Nous parlerons ici de la configuration de Scanbot dont l'utilisation est simplif
 .. |image16| image:: img/clip_image032.png
 .. |image17| image:: img/signer_PDF_avec_GoFAST.png
 .. |image18| image:: img/scanbot_envoi_GoFAST.png
+             :align: center
 
