@@ -206,8 +206,7 @@ ce standard. Par exemple :
 
 -  iOS : à déterminer
 
-Pour configurer ces clients il suffit d’entrer dans la gestion des
-comptes :
+Pour configurer ces clients il suffit d’entrer dans la gestion des comptes :
 
 **Identifiant** : identifiant\_gofast@gofast-comm.xxxxx.yyy
 
@@ -218,6 +217,8 @@ GoFAST permet d'ouvrir un PDF avec Foxit Reader (ou Acrobat), d'y apposer une si
 directement sur la plateforme GoFAST.
 
 .. NOTE:: Vous devez avoir installé "ITHitEditDocumentOpener"
+
+|image17|
 
 Dématérialiser vers GoFAST
 --------------------------
