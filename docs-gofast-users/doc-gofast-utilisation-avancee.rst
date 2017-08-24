@@ -268,7 +268,6 @@ Nous parlerons ici de la configuration de Scanbot dont l'utilisation est simplif
 .. |image9| image:: img/webdavnav_config.png
 .. |image10| image:: img/webdavnav_browse.png
 .. |image11| image:: img/scanbot_ajout_webdav.png
-             :scale: 50
 .. |image12| image:: img/scanbot_choix_webdav.png
 .. |image13| image:: img/scanbot_config_webdav.png
 .. |image14| image:: img/clip_image028.png
