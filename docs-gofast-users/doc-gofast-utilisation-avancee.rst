@@ -19,6 +19,7 @@ Ces outils complémentaires permettent :
 * Des outils de dématérialisation
 * Des outils de signature
 
+
 Synchronisation locale (GoFAST hors-ligne)
 ------------------------------------------
 
@@ -128,7 +129,8 @@ c) Fusionner les 2 versions dans **courrier.doc**, puis effacer
             GoFAST ne supprime pas définitivement les documents mais une
             procédure de « republication » doit être faite
 
-Accès aux fichiers GoFAST sur Tablette et Smartphone
+
+			Accès aux fichiers GoFAST sur Tablette et Smartphone
 ----------------------------------------------------
 Il est possible d'accéder à la plateforme GoFAST à partir de tablettes
 Android (ex. GalaxyTab), iOS (iPAD) et smartphones (Android, iOS, Blackberry).
@@ -177,6 +179,7 @@ La sauvegarde peut de même changer légèrement la mise en page.
               d'abord sauvegardé en local sur la tablette. Une fois que l'application
               est fermée (X), la synchronisation est effectuée avec GoFAST
 
+
 Tablette iPad
 ^^^^^^^^^^^^^
 Si vous souhaitez uniquement consulter les documents Office, nous vous
@@ -210,6 +213,7 @@ Pour configurer ces clients il suffit d’entrer dans la gestion des comptes :
 
 **Identifiant** : identifiant\_gofast@gofast-comm.xxxxx.yyy
 
+
 Signature électronique des PDF
 ------------------------------
 
@@ -220,12 +224,14 @@ directement sur la plateforme GoFAST.
 
 |image17|
 
+
 Dématérialiser vers GoFAST
 --------------------------
 
 Il est possible de créer un dossier permettant de déposer des PDF "Images" et que ceux-ci soient 
 transformés en PDF "Interrogeables" grace à un logiciel commercial de reconnaissance de caractères (OCR) installé
 sur le PC, "ABBYY Hot Folder".
+
 
 Dématérialiser à partir d’un smartphone
 ---------------------------------------
