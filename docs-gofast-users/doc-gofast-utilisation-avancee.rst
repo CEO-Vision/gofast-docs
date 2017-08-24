@@ -214,7 +214,10 @@ comptes :
 Signature électronique des PDF
 ------------------------------
 
-TODO
+GoFAST permet d'ouvrir un PDF avec Foxit Reader (ou Acrobat), d'y apposer une signature et de sauvegarder le PDF signé
+directement sur la plateforme GoFAST.
+
+.. NOTE:: Vous devez avoir installé "ITHitEditDocumentOpener"
 
 Dématérialiser vers GoFAST
 --------------------------
