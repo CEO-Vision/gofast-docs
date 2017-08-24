@@ -239,6 +239,8 @@ Dématérialiser à partir d’un smartphone
 Il est possible de dématérialiser par exemple des notes de frais directement à
 partir d’un smartphone et de les envoyer directement dans GoFAST.
 
+|image18|
+
 Pour cela vous devez avoir installé :
 
 -  CamScanner et "Webdav Navigator"
@@ -274,4 +276,5 @@ Nous parlerons ici de la configuration de Scanbot dont l'utilisation est simplif
 .. |image15| image:: img/clip_image030.png
 .. |image16| image:: img/clip_image032.png
 .. |image17| image:: img/signer_PDF_avec_GoFAST.png
+.. |image18| image:: img/scanbot_envoi_GoFAST.png
 
