@@ -243,8 +243,7 @@ partir d’un smartphone et de les envoyer directement dans GoFAST.
 
 Pour cela vous devez avoir installé :
 
--  CamScanner et "Webdav Navigator"
-ou
+-  CamScanner et "Webdav Navigator" ou
 -  Scanbot
 
 Nous parlerons ici de la configuration de Scanbot dont l'utilisation est simplifiée.
