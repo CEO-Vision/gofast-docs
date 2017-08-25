@@ -163,11 +163,11 @@ entrer l'adresse « https://gofast.mycomp.com/alfresco/webdav » ou vous
 devez remplacer mycomp.com par l'adresse de votre organisation.
 
 |image14|
-|image15|
+
 L'application va vous demander ensuite votre
 identifiant et mot de passe sur la GoFAST.
 
-|image16|
+
 
 Il est ensuite possible d'ouvrir un document directement sur la GoFAST.
 Certaines polices de caractère n'existent pas sous Android, la mise en
@@ -192,7 +192,9 @@ L'éditeur est notifié de ce bug et un correctif devrait être produit.
 
 Dans l'attente de ce correctif, il est possible d'utiliser la suite «
 **Citrix ShareFile QuickEdit** »
+|image15|
 
+|image16|
 
 Messagerie instantanée (« chat ») sur mobiles 
 ---------------------------------------------
@@ -230,7 +232,8 @@ Dématérialiser vers GoFAST
 
 Il est possible de créer un dossier permettant de déposer des PDF "Images" et que ceux-ci soient 
 transformés en PDF "Interrogeables" grace à un logiciel commercial de reconnaissance de caractères (OCR) installé
-sur le PC, "ABBYY Hot Folder".
+sur le PC, "ABBYY Hot Folder" (ABBYY FineReader). Vous pouvez ainsi numériser des factures et qu'elles soient transformées en PDF Intérrogeable 
+pour qu'elles soient facilement retrouvables sur GoFAST.
 
 
 Dématérialiser à partir d’un smartphone
