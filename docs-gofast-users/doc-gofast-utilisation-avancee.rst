@@ -282,4 +282,4 @@ Nous parlerons ici de la configuration de Scanbot dont l'utilisation est simplif
 .. |image17| image:: img/signer_PDF_avec_GoFAST.png
 .. |image18| image:: img/scanbot_envoi_GoFAST.png
 .. |image19| image:: img/abbyy_hot_folder.png
-.. |image20| image:: img/abbyy_hot_folder_config-1.png
+.. |image20| image:: img/abbyy_hot_folder_config-0.png
