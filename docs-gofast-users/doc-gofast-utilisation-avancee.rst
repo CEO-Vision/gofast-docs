@@ -139,7 +139,6 @@ Pour cela vous devez installer le logiciel gratuit **« Webdav Navigator Lite
 »** sur iTunes, GooglePlay ou Blackberry AppWorld. A noter qu'une version payante incluant la synchronisation locale est
 disponible sous le nom **« Webdav Navigator »**
 
-|image9|
 
 Vous aurez ensuite la possibilité d'accéder à vos fichiers GoFAST sur votre smartphone :
 
