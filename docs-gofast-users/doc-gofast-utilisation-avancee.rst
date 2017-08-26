@@ -235,6 +235,8 @@ transformés en PDF "Interrogeables" grace à un logiciel commercial de reconnai
 sur le PC, "ABBYY Hot Folder" (ABBYY FineReader). Vous pouvez ainsi numériser des factures et qu'elles soient transformées en PDF Intérrogeable 
 pour qu'elles soient facilement retrouvables sur GoFAST.
 
+|image19|
+
 
 Dématérialiser à partir d’un smartphone
 ---------------------------------------
@@ -265,7 +267,6 @@ Nous parlerons ici de la configuration de Scanbot dont l'utilisation est simplif
 .. |image4| image:: img/clip_image009.png
 .. |image5| image:: img/clip_image011.png
 .. |image6| image:: img/clip_image034.png
-			:align: center
 .. |image7| image:: img/mobilite/wps7DBE.tmp.jpg
 .. |image8| image:: img/clip_image017.png
 .. |image9| image:: img/webdavnav_config.png
@@ -278,4 +279,4 @@ Nous parlerons ici de la configuration de Scanbot dont l'utilisation est simplif
 .. |image16| image:: img/clip_image032.png
 .. |image17| image:: img/signer_PDF_avec_GoFAST.png
 .. |image18| image:: img/scanbot_envoi_GoFAST.png
-
+.. |image19| image:: img/abbyy_hoy_folder.png
