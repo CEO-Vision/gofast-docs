@@ -273,7 +273,7 @@ Nous parlerons ici de la configuration de Scanbot dont l'utilisation est simplif
 .. |image7| image:: img/mobilite/wps7DBE.tmp.jpg
 .. |image8| image:: img/clip_image017.png
 .. |image9| image:: img/webdavnav_config-0.png
-.. |image10| image:: img/webdavnav_browse.png
+.. |image10| image:: img/webdavnav_browse-0.png
 .. |image11| image:: img/scanbot_ajout_webdav.png
 .. |image12| image:: img/scanbot_choix_webdav.png
 .. |image13| image:: img/scanbot_config_webdav.png
