@@ -237,6 +237,8 @@ pour qu'elles soient facilement retrouvables sur GoFAST.
 
 |image19|
 
+|image20|
+
 
 Dématérialiser à partir d’un smartphone
 ---------------------------------------
@@ -279,4 +281,5 @@ Nous parlerons ici de la configuration de Scanbot dont l'utilisation est simplif
 .. |image16| image:: img/clip_image032.png
 .. |image17| image:: img/signer_PDF_avec_GoFAST.png
 .. |image18| image:: img/scanbot_envoi_GoFAST.png
-.. |image19| image:: img/abbyy_hoy_folder.png
+.. |image19| image:: img/abbyy_hot_folder.png
+.. |image20| image:: img/abbyy_hot_folder_config-1.png
