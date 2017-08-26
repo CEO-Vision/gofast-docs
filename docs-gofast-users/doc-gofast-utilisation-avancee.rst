@@ -140,6 +140,8 @@ Pour cela vous devez installer le logiciel gratuit **« Webdav Navigator Lite
 disponible sous le nom **« Webdav Navigator »**
 
 
+|image9|
+
 Vous aurez ensuite la possibilité d'accéder à vos fichiers GoFAST sur votre smartphone :
 
 |image10|
