@@ -2,7 +2,9 @@ Documentation GoFAST
 ####################
 
 
-.. _user-docs:
+
+
+.. _technical-docs:
 
 .. toctree::
    :maxdepth: 1
@@ -10,7 +12,7 @@ Documentation GoFAST
 
    docs-gofast-technical/gofast-exploitation
    
-.. _mobi-docs:
+.. _users-docs:
 
 .. toctree::
    :maxdepth: 1
