@@ -12,7 +12,7 @@ Ces outils complémentaires permettent :
 
  * Une synchronisation de GoFAST avec un PC pour travailler en mode « déconnecté » (type DropBox)
  * L'accès à GoFAST sur les terminaux mobiles (tablettes,…) par explorateur de fichiers
- * La visualisation et l'édition en ligne de documents Office sur tablette GalaxyTab (et visualisation seulementsur iOS)
+ * La visualisation et/ou l'édition en ligne de documents Office sur tablette 
  * La messagerie instantanée (« chat ») sur mobile
  * La vidéoconférence sur mobile (dans navigateur)
  
