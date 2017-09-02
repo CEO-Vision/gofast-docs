@@ -6,7 +6,7 @@ Documentation GoFAST
 
 .. toctree::
    :maxdepth: 2
-   :caption: GoFAST Exploitation
+   :caption: Documentation Technique GoFAST
 
    gofast-exploitation
    
@@ -14,6 +14,6 @@ Documentation GoFAST
 
 .. toctree::
    :maxdepth: 2
-   :caption: GoFAST Utilisation Avancée
+   :caption: Documentation Utilisateurs GoFAST 
 
    docs-gofast-users/doc-gofast-utilisation-avancee
