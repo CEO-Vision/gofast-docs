@@ -5,15 +5,15 @@ Documentation GoFAST
 .. _user-docs:
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: Documentation Technique GoFAST
 
-   gofast-exploitation
+   docs-gofast-technical/gofast-exploitation
    
 .. _mobi-docs:
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: Documentation Utilisateurs GoFAST 
 
    docs-gofast-users/doc-gofast-utilisation-avancee
