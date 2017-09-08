@@ -16,7 +16,7 @@ Ces outils complémentaires permettent :
  * La messagerie instantanée (« chat ») sur mobile
  * La vidéoconférence sur mobile (dans navigateur)
  
-* Des outils de dématérialisation
+* Des outils de dématérialisation (smartphone, copieur, ...)
 * Des outils de signature
 
 
@@ -261,6 +261,11 @@ Nous parlerons ici de la configuration de Scanbot dont l'utilisation est simplif
 |image12|
 
 |image13|
+
+Dématérialisser à partir d'un copieur multi-fonction
+----------------------------------------------------
+
+Pour ceci votre copieur doit posséder un connecteur webdavs. Nous contacter pour plus de précisions
 
 
 .. |image0| image:: img/mobilite/wps7DA7.tmp.jpg
