@@ -1,3 +1,7 @@
+============
+GoFAST / Guide d'utilisation
+============
+
 INTRODUCTION
 ============
 
