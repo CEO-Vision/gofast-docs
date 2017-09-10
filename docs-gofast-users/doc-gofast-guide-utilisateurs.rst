@@ -1,8 +1,8 @@
-============
-GoFAST / Guide d'utilisation
-============
+====================== 
+GoFAST : Guide Utilisateurs
+======================
 
-INTRODUCTION
+Introduction
 ============
 
 Ce guide vous apprend à utiliser GoFAST de la manière la plus efficace
@@ -16,8 +16,8 @@ développement, ce **guide évoluera** en même temps. Et comme il est
 **sur la GoFAST** (Forum et Espace Public) , vous y trouverez toujours
 la version actualisée.
 
-    NOTE : Nous vous recommandons de lire impérativement l'annexe "Les
-    bonnes pratiques avec GoFAST"
+..NOTE:: Nous vous recommandons de lire impérativement l'annexe "Les
+bonnes pratiques avec GoFAST"
 
 Rappel des principes de la plateforme GoFAST
 --------------------------------------------
@@ -127,7 +127,7 @@ On peut rapidemment noter :
    utilisé sur un smartphone
 -  d’une version néerlandophone
 
-LES BASES
+Les Bases
 =========
 
 Connexion/Login
@@ -585,7 +585,7 @@ Vous n’aurez donc accès qu’à **une organisation** dont vous êtes membre.
    sous-groupes collaboratifs pour pouvoir travailler avec ses collègues
    sur des projets/groupes de travail transversaux.
 
-RECHERCHE
+Recherche
 =========
 
 Rechercher un document
@@ -704,8 +704,8 @@ travaillent.
 
 (Voir Annuaire : `Chercher un utilisateur <#chercher_un_utilisateur>`__)
 
-CREATION
-========
+Création de contenus
+====================
 
 Création d’un nouveau document
 ------------------------------
@@ -1119,8 +1119,8 @@ reprenant les mêmes informations et le lien URL.
 .. figure:: media-guide/image089.png
    :alt: 
 
-GESTION D’UN ESPACE COLLABORATIF/GROUPE ET DE SES MEMBRES
-=========================================================
+Gestion d'un espace collaboratifs
+=================================
 
 Voir aussi `Création d’un espace <#creation_d_un_espace>`__
 
@@ -1611,7 +1611,7 @@ sur celle qui vous intéresse pour vous y intégrer.
 .. figure:: media-guide/image128.png
    :alt: 
 
-GESTION DE DOCUMENTS
+Gestion de documents
 ====================
 
 Lors de la **prévisualisation d’un document**, vous pouvez accéder
@@ -3640,7 +3640,7 @@ emplacement, taille, date de création/modification.
 .. figure:: media-guide/image315.png
    :alt: 
 
-VOS ABONNEMENTS
+Vos abonnements
 ===============
 
 Un abonnement permet de **rester au courant** de ce qu’il se passe dans
@@ -3676,7 +3676,7 @@ document et cliquez sur le dernier icône avec les 3 barres horizontales,
 (cfr : Gestion de groupe/ « S’abonner à un groupe » p.66 et Gestion de
 documents/« Actions contextuelles »/ « S’abonner au document » p.100 )
 
-FORUM DE DISCUSSION
+Forum de discussion
 ===================
 
 Le forum général pour tous les utilisateurs de la GoFAST permet
@@ -3694,7 +3694,7 @@ et astuces via ce canal également.
 Vous pouvez d’ailleurs vous abonner à ce forum si vous voulez rester au
 courant de tout ce qu’il s’y passe.
 
-ANNUAIRE
+Annuaire
 ========
 
 Chercher un groupe
@@ -3744,8 +3744,8 @@ fait pas partie de vos espaces collaboratifs.
 .. figure:: media-guide/image323.png
    :alt: 
 
-MESSAGES
-========
+Messages internes
+=================
 
 D’une manière générale, vous verrez un **numéro** sur l’onglet de votre
 page URL vous indiquant que vous avez un nouveau message (mail ou chat)
@@ -3858,8 +3858,8 @@ Donnez un titre au mail et écrivez le contenu puis envoyez
 .. figure:: media-guide/image335.png
    :alt: 
 
-CHATTER
-=======
+Discussion temps-réelle ou Chatter
+==================================
 
 Pour **ouvrir le chat**, il faut aller sur l’extrême droite de l’écran,
 cliquer sur la barre verticale grise.
@@ -4018,8 +4018,8 @@ verticale.
 .. figure:: media-guide/image361.png
    :alt: 
 
-WORKFLOW
-========
+Workflow / Flux de travail
+==========================
 
 Vous pouvez **attribuer une tâche** à un autre utilisateur via le logo
 de rouage (entouré en jaune sur l’image).
@@ -4045,7 +4045,7 @@ Cliquez sur l’onglet voulu pour voir ce qui est en cours.
 .. figure:: media-guide/image364.png
    :alt: 
 
-FAVORIS
+Favoris
 =======
 
 Vous pouvez voir **la liste** de vos documents/groupes **favoris** en
@@ -4062,8 +4062,8 @@ de prévisualisation p. 95)
 .. figure:: media-guide/image365.png
    :alt: 
 
-FLUX D’INFOS
-============
+Flux d'information
+==================
 
 Vous pouvez voir les **news** (pareil que sur l’Intranet) via ce logo
 (Flux) sur la bande noire du menu.
@@ -4071,7 +4071,7 @@ Vous pouvez voir les **news** (pareil que sur l’Intranet) via ce logo
 .. figure:: media-guide/image366.png
    :alt: 
 
-UTILISATION AVANCEE (signature, mobilité, ...)
+Utilisation avancée (signature, mobilité, ...)
 ==============================================
 
 Un guide séparé a pour but de donner les instructions de configuration
@@ -4096,8 +4096,8 @@ Ces outils complémentaires permettent :
 Vous trouverez ce Guide ici :
 http://gofast-docs.readthedocs.io/fr/latest/docs-gofast-users/doc-gofast-utilisation-avancee.html
 
-ANNEXES : LES BONNES PRATIQUES
-==============================
+Annexes : Quelques bonnes pratiques
+===================================
 
 .. IMPORTANT:: Même si GoFAST nécessite de changer un peu ses habitudes,
 il est important que le plus grand nombre fasse l'effort de changer. Les
@@ -4109,9 +4109,12 @@ gagnant !
 
 -  Je n'envoie plus de mails avec pièce jointe, mais je mets un
    commentaire sur le document sur GoFAST, toutes les personnes
-   recevront une notification - dans de nombreux cas la pièce jointe
-   n'est déjà plus à jour quand votre destinataire la recoit de plus les
-   pièces jointes encombres les messageries.
+   recevront une notification
+
+   -  dans de nombreux cas la pièce jointe n'est déjà plus à jour quand
+      votre destinataire la recoit de plus les pièces jointes encombres
+      les messageries.
+
 -  Je n'envoie plus de mails avec pièce jointe à mes contacts n'ayant
    pas de compte GoFAST mais j'utilise la fonction "Partager par email"
 -  Je n’envoie plus de demandes de tâche ou validation par mail, mais
