@@ -184,7 +184,11 @@ travailler, dans le coin en haut à gauche (FR,EN, NL)
 Pour accéder à **votre profil**, cliquez sur votre nom. De là, vous
 pourrez également accéder à vos abonnements ou vous déconnecter.
 
-|image0| |image1|
+.. figure:: media-guide/image006.png
+   :alt: 
+   
+.. figure:: media-guide/image007.png
+   :alt: 
 
 Les 5 cases noires dans le coin gauche inférieur sont surtout **liées
 aux fichiers,**
@@ -1359,7 +1363,10 @@ b) Un onglet « \ **Activité **\ », où vous avez une vue d’ensemble de ce
    :alt: 
 
 c) Un onglet « **Documents** », où vous voyez les documents et
-   l’arborescence de ceux-ci ; |image2|
+   l’arborescence de ceux-ci ; 
+
+.. figure:: media-guide/image108.png
+   :alt: 
 
 d) Un onglet « **Calendrier** », où vous pouvez mettre des dates
    d’échéance, des rappels, … ;
@@ -1813,7 +1820,10 @@ et ne n’avoir plus que la page du document en vue plein écran.
    :alt: 
 
 Pour revenir à la prévisualisation normale avec les infos, il suffira
-d’appuyer sur le logo à 2 flèches |image7|
+d’appuyer sur le logo à 2 flèches 
+
+.. figure:: media-guide/image135.png
+   :alt: 
 
 Actions contextuelles
 ~~~~~~~~~~~~~~~~~~~~~
@@ -1844,7 +1854,12 @@ fichier via l’ action contextuelle : « \ **Rename **\ ».
 
 Changez le nom dans la case blanche et « Appliquez »
 
-|image8|\ => |image9|
+.. figure:: media-guide/image138.png
+   :alt: 
+   
+
+.. figure:: media-guide/image139.png
+   :alt: 
 
 Faites ensuite un refresh de la page pour être certain que le changement
 a été enregistré. Les petites flèches rondes apparaîtront en rouge pour
@@ -3597,7 +3612,7 @@ mappe-monde, voici comment vous accéderez à vos fichiers.
    Il se peut que vous deviez répondre à ce message d’abord,
    cliquez sur OPenURL : IT…..
 
-.. figure:: media-guide/image.png
+.. figure:: media-guide/image405.png
    :alt: 
 
 Gestion des versions
