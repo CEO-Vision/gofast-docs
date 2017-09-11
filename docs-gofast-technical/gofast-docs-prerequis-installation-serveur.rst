@@ -67,8 +67,8 @@ La plate-forme GoFAST est une application d'entreprise qui nécessite une
 architecture haute performance afin de délivrer une bonne montée en
 charge et des temps de réponse.
 
-La GoFAST, en version mono-serveur et virtualisée est notamment très
-sensible à la performance des entrées/sorties (I/O).
+.. CAUTION:: 
+   GoFAST est notamment très sensible à la performance des entrées/sorties (I/O) et au bon dimensionnement de mémoire vive (RAM)
 
 .. NOTE::
    GoFAST v3 nécessite par défaut 2 VM.
@@ -100,9 +100,9 @@ La VM GoFAST doit posséder un datastore dédié (LUN).
 +-------------------+-------------------+-------------------+
 |Stockage           | 200GB+            | 50GB              |
 +-------------------+-------------------+-------------------+
-|IOPS(FIO)          | 1000+             |                   |
+|IOPS(FIO)          | 500+              |                   |
 +-------------------+-------------------+-------------------+
-|Réseau             |                   | 100Mpbs           |
+|Réseau             | 100Mpbs           | 100Mpbs           |
 +-------------------+-------------------+-------------------+
 
 .. NOTE::
