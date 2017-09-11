@@ -1,5 +1,5 @@
-
-GoFAST : Guide Utilisateurs
+===========================
+GoFAST : Guide Utilisateurs (TITRE)
 ===========================
 
 Introduction
