@@ -16,8 +16,9 @@ développement, ce **guide évoluera** en même temps. Et comme il est
 **sur la GoFAST** (Forum et Espace Public) , vous y trouverez toujours
 la version actualisée.
 
-..NOTE:: Nous vous recommandons de lire impérativement l'annexe "Les
-bonnes pratiques avec GoFAST"
+.. NOTE:: 
+   Nous vous recommandons de lire impérativement l'annexe "Les
+   bonnes pratiques avec GoFAST"
 
 Rappel des principes de la plateforme GoFAST
 --------------------------------------------
@@ -79,7 +80,7 @@ Au-delà des espaces collaboratifs, GoFAST offre un espace personnel,
 réservé à chaque utilisateur pour ses documents personnels, brouillons,
 mémos, etc.
 
-***Pré-requis nécessaires pour l’utilisation de GoFAST :***
+**Pré-requis nécessaires pour l’utilisation de GoFAST :**
 
 -  Navigateurs préférentiels : **Firefox ou Chrome.** Mais fonctionne
    également sur les versions récentes d’Internet Explorer 11 (sauf
@@ -133,7 +134,7 @@ Les Bases
 Connexion/Login
 ---------------
 
-.. figure:: media-guide/image003.png
+.. figure:: media-guide/image001.png
    :alt: 
 
 Vous pouvez vous loguez à la GoFAST 3.0 via l’adresse URL :
@@ -141,8 +142,9 @@ https://gofast.monorganisation.com
 
 Il suffit d’entrer votre **identifiant** et votre **mot de passe**.
 
-    NOTE : si la délégation d'authentification a été activée sur votre
-    site, il s'agit de votre mot de passe Windows
+.. NOTE::
+   Si la délégation d'authentification a été activée sur votre
+   site, il s'agit de votre mot de passe Windows
 
 Accueil
 -------
