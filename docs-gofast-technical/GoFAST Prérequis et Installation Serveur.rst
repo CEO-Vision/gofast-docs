@@ -1,4 +1,4 @@
-.. figure:: C:\Users\AlexKhanh\Desktop\docs\media\image1.png
+.. figure:: media/image1.PNG
    :alt: 
 
 Autres documentations techniques disponibles :
@@ -15,17 +15,45 @@ Pré-requis et installation Serveur
 Architecture
 ------------
 
-.. figure:: C:\Users\AlexKhanh\Desktop\docs\media\image7.png
+.. figure:: media/image7.png
    :alt: 
 
-.. figure:: C:\Users\AlexKhanh\Desktop\docs\media\image8.png
+.. figure:: media/image8.png
    :alt: 
 
-.. figure:: C:\Users\AlexKhanh\Desktop\docs\media\image2.png
-   :alt: 
++--------------------------------------+--------------------------------------+
+|GoFAST3                                                                      |
++======================================+======================================+
+|OS                                    | CentOS 7 64bits                      |
++--------------------------------------+--------------------------------------+
+|CMS                                   | Drupal7                              |
++--------------------------------------+--------------------------------------+
+|Serveur Web & Reverse Proxy           | Apache 2.4 (php-fpm)                 |
++--------------------------------------+--------------------------------------+
+|Base de données                       | MySQL 5.7                            |
++--------------------------------------+--------------------------------------+
+|Annuaire                              | OpanLDAP 2.4                         |
++--------------------------------------+--------------------------------------+
+|GED                                   | Alfresco 5.2 Community               |
++--------------------------------------+--------------------------------------+
+|Recherche                             | Apache Solr 5                        |
++--------------------------------------+--------------------------------------+
+|Serveur API                           | Apache Tomcat 7                      |
++--------------------------------------+--------------------------------------+
+|Workflow                              | Bonitasoft Community 6               |
++--------------------------------------+--------------------------------------+
 
-.. figure:: C:\Users\AlexKhanh\Desktop\docs\media\image3.png
-   :alt: 
++--------------------------------------+--------------------------------------+
+|GoFAST3 Comm-Serveur                                                         |
++======================================+======================================+
+|Edition collaborative                 | OnlyOffice 4                         |
++--------------------------------------+--------------------------------------+
+|Messagerie instantannée               |eJabberd 16                           |
++--------------------------------------+--------------------------------------+
+|Webconference                         | Jitsi Meet 1.0                       |
++--------------------------------------+--------------------------------------+
+|Reverse Proxy                         | nginx 1.12                           |
++--------------------------------------+--------------------------------------+
 
 Pré-requis « serveur »
 ----------------------
@@ -37,10 +65,8 @@ charge et des temps de réponse.
 La GoFAST, en version mono-serveur et virtualisée est notamment très
 sensible à la performance des entrées/sorties (I/O).
 
-    GoFAST v3 nécessite par défaut 2 VM.
-
-{#section .ListParagraph}
-~~~~~~~~~~~~~~~~~~~~~~~~~
+.. NOTE::
+   GoFAST v3 nécessite par défaut 2 VM.
 
 Pré-requis Machine Virtuelle
 ----------------------------
@@ -60,11 +86,23 @@ et sans retour d'expérience en exploitation, XEN 6+
 
 La VM GoFAST doit posséder un datastore dédié (LUN).
 
-.. figure:: C:\Users\AlexKhanh\Desktop\docs\media\image4.png
-   :alt: 
++-------------------+-------------------+-------------------+
+|                   | VM 1 (GF)         | VM 2 (GF-COMM)    |
++===================+===================+===================+
+|Coeurs             | 4+                | 2+                |
++-------------------+-------------------+-------------------+
+|RAM                | 10GB+             | 6GB               |
++-------------------+-------------------+-------------------+
+|Stockage           | 200GB+            | 50GB              |
++-------------------+-------------------+-------------------+
+|IOPS(FIO)          | 1000+             |                   |
++-------------------+-------------------+-------------------+
+|Réseau             |                   | 100Mpbs           |
++-------------------+-------------------+-------------------+
 
-*\*\* Note : Une webconference avec 6 utilisateurs (dont 5 avec de la
-video) consomme 12Mbps (sortant), 3Mbps (entrant), 50% de CPU*
+.. NOTE::
+   Une webconference avec 6 utilisateurs (dont 5 avec de la
+   video) consomme 12Mbps (sortant), 3Mbps (entrant), 50% de CPU
 
 Évaluation des besoins de stockage
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -113,10 +151,12 @@ La **plate-forme GoFAST ne fonctionne qu'avec un certificat « serveur »
 délivré par une autorité de certification.** Le certificat doit être au
 format ``.pem``, ou\ ``.crt`` et ``.key``
 
-NOTE : Il est fortement recommandé de fournir un certificat « wildcard »
+.. NOTE::
+   Il est fortement recommandé de fournir un certificat « wildcard »
 
-NOTE : Si GoFAST n’est accessible qu'en Intranet, le certificat peut
-être généré par les « Certificate Services » d' Active Directory.
+.. NOTE::
+   Si GoFAST n’est accessible qu'en Intranet, le certificat peut
+   être généré par les « Certificate Services » d' Active Directory.
 
 Architecture Réseau
 ~~~~~~~~~~~~~~~~~~~
@@ -137,13 +177,48 @@ Liste des ports
 Voici la liste des ports qui doivent pouvoir être accessibles en entrée
 et en sortie.
 
-.. figure:: C:\Users\AlexKhanh\Desktop\docs\media\image5.png
-   :alt: 
++----------------------------------------------------------------+----------+----------+----------------------+---------------+
+|                                                                | VM1      | VM2      | Ports entrants       | Ports sortants|
++================================================================+==========+==========+======================+===============+
+| Installation de la plate-forme, mise à jour, flux RSS externex,| x        |          |                      | 80            |
+| import de page Web, supervision                                |          |          |                      |               |
++----------------------------------------------------------------+----------+----------+----------------------+---------------+
+| Accès à la plate-forme en HTTPS et WebDav                      | x        |          | 443                  |               |
++----------------------------------------------------------------+----------+----------+----------------------+---------------+
+| Accès à la plate-forme en IMAPS                                | x        |          | 993                  |               |
++----------------------------------------------------------------+----------+----------+----------------------+---------------+
+| Optionnel: import d'emails extrérieures                        | x        |          | 25                   |               |
++----------------------------------------------------------------+----------+----------+----------------------+---------------+
+| Accès à l'annuaire LDAP FoFAST par le S.I de l'enterprise      | x        |          | 636                  |               |
+| et par VM2                                                     |          |          |                      |               |
++----------------------------------------------------------------+----------+----------+----------------------+---------------+
+| Envoi des mails de notification                                | x        |          |                      | 25 | 465      |
++----------------------------------------------------------------+----------+----------+----------------------+---------------+
+| Collecte de la supervision                                     | x        | x        |                      | 443           |
++----------------------------------------------------------------+----------+----------+----------------------+---------------+
+| Télé-administration (SSH)                                      | x        | x        | 22                   |               |
++----------------------------------------------------------------+----------+----------+----------------------+---------------+
+| Optionnel: import de l'AD vers la GoG=FAST et/ou               | x        | x        |                      | 636           |
+| authentification par l'AD                                      |          |          |                      |               |
++----------------------------------------------------------------+----------+----------+----------------------+---------------+
+| OnlyOffice (Co-édition)                                        |          | x        | 443                  |               |
++----------------------------------------------------------------+----------+----------+----------------------+---------------+
+| Messagerie instantanée / Webconference                         |          | x        | 443                  |               |
+|                                                                |          +----------+----------------------+               |
+|                                                                |          | x        | 5222/TCP             |               |
+|                                                                |          +----------+----------------------+               |
+|                                                                |          | x        | 3478/TCP***          |               |
+|                                                                |          +----------+----------------------+               |
+|                                                                |          | x        | 4443/TCP*            |               |
+|                                                                |          +----------+----------------------+               |
+|                                                                |          | x        | 10000-20000/UDP***   |               |
++----------------------------------------------------------------+----------+----------+----------------------+---------------+
 
-\* si les ports udp ne peuvent être ouverts \*\* au minimum le port
-10000 \*\*\* pour la video/desktopsharing dans le chat
+\* si les ports udp ne peuvent être ouverts 
+\*\* au minimum le port 10000 
+\*\*\* pour la video/desktopsharing dans le chat
 
-.. figure:: C:\Users\AlexKhanh\Desktop\docs\media\image6.png
+.. figure:: media/image6.PNG
    :alt: 
 
 Installation
@@ -163,9 +238,7 @@ préalable suivant les prérequis et l'image disque rattachée à cette
 machine virtuelle.
 
 Pour information, l'image VMDK de VirtualBox a été au préalable
-convertie pour VMWare à l'aide des commandes suivantes :
-
-.. code:: shell
+convertie pour VMWare à l'aide des commandes suivantes: ::
 
     # vmware-vdiskmanager ‑r GoFAST-VirtualBox.VMDK -t 0 GoFAST-ESX.VMDK
     # vmware-vdiskmanager -d GoFAST-ESX.VMDK
@@ -176,9 +249,7 @@ caractéristiques réseaux (nom de domaine, …)
 
 Dans certains cas la machine virtuelle peut avoir un espace disque
 alloué supérieur au partitionnement de la VM. Dans ce cas les opérations
-suivantes sont à effectuer :
-
-    .. code:: shell
+suivantes sont à effectuer: ::
 
         # fdisk -l /dev/sda
         Disk /dev/sda: 68.7 GB, 68719476736 bytes
@@ -231,8 +302,9 @@ Post-installation de la VM
 Configuration / Paramétrage par l’Exploitant
 --------------------------------------------
 
-NOTE : Ces étapes sont très importantes et doivent etre faite le plus
-tot possible par l’exploitant/infogerant
+.. NOTE::
+   Ces étapes sont très importantes et doivent etre faite le plus
+   tot possible par l’exploitant/infogerant
 
 -  Déposer sur le serveur le certificat SSL « wildcard » (clef publique
    et privée correspondant à ``*.mydomain.tld``, ex.
@@ -288,8 +360,7 @@ Installation des sondes
 
 Installation de l'agent Serveur (monitoring physique)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-    .. code:: shell
+::
 
         # rpm -Uvh https://yum.newrelic.com/pub/newrelic/el5/x86_64/newrelic-repo-5-3.noarch.rpm
         # yum install newrelic-sysmond
@@ -298,8 +369,7 @@ Installation de l'agent Serveur (monitoring physique)
 
 Installation de l'agent PHP (monitoring applicatif)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-    .. code:: shell
+::
 
         # rpm -Uvh http://yum.newrelic.com/pub/newrelic/el5/x86_64/newrelic-repo-5-3.noarch.rpm
         # yum install newrelic-php5
@@ -320,9 +390,7 @@ Configuration initiale du réseau
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Par défaut le fichier ``/etc/sysconfig/network-scripts/ifcfg-eth0``
-contient les lignes suivantes :
-
-    .. code:: shell
+contient les lignes suivantes: ::
 
         DEVICE="eth0"
         HWADDR= ADRESSE MAC
@@ -330,9 +398,7 @@ contient les lignes suivantes :
         ONBOOT="no"
 
 Vérifier que les lignes suivantes sont présentes et correctement
-remplies
-
-    .. code:: shell
+remplies ::
 
         DEVICE="eth0"
         HWADDR= ADRESSE MAC
@@ -342,32 +408,32 @@ remplies
         IPADDR= adresse IP choisie
         NETMASK=255.255.255.0
 
-# ``cat /etc/sysconfig/network``
+::
 
-.. code:: shell
+   cat /etc/sysconfig/network
+
+::
 
     NETWORKING=yes
     HOSTNAME=gofast.MASOCIETE.COM|NET|FR
 
-# ``cat/etc/resolv.conf``
+::
 
-.. code:: shell
+   cat/etc/resolv.conf
+
+::
 
     nameserver 8.8.8.8
     nameserver 8.8.4.4
 
-Redémarrer le réseau.
-
-.. code:: shell
+Redémarrer le réseau. ::
 
     # /etc/init.d/network restart
 
 Vérification des ports ouverts
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-D'une machine autre que le serveur GoFAST, effectuer un scan des ports :
-
-.. code:: shell
+D'une machine autre que le serveur GoFAST, effectuer un scan des ports: ::
 
     # nmap 80.245.17.76
 
@@ -383,9 +449,7 @@ Vérification du fonctionnement avec proxy
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Si l'entreprise dispose d'un proxy pour les connexions vers internet, le
-paramétrage suivant doit être réalisé
-
-.. code:: shell
+paramétrage suivant doit être réalisé ::
 
     $ sudo vi ~/.bashrc
     export http_proxy="http://proxy.com:8000"
@@ -394,9 +458,7 @@ paramétrage suivant doit être réalisé
 Vérification basique des performances
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Installation de l'outil :
-
-.. code:: shell
+Installation de l'outil: ::
 
     GoFAST v1.x et 2.x
     $ sudo yum install http://dl.fedoraproject.org/pub/epel/6/x86_64/epel-release-6-8.noarch.rpm
@@ -409,15 +471,11 @@ Installation de l'outil :
 CPU
 ^^^
 
-Mesurer les performances de votre CPU en exécutant ce qui suit :
-
-.. code:: shell
+Mesurer les performances de votre CPU en exécutant ce qui suit: ::
 
     sysbench --test=cpu --cpu-max-prime=20000 --num-threads=1 run
 
-Exemple de résultat (en secondes, le plus petit le mieux):
-
-.. code:: 
+Exemple de résultat (en secondes, le plus petit le mieux): ::
 
     execution time (avg/stddev): 21.4200/0.00
 
@@ -428,34 +486,25 @@ Pour mesurer les performances des E/S (entrées/sorties) il est
 nécessaire de créer un fichier beaucoup plus grand que la mémoire vive
 (RAM) disponible car sinon le système utilise la mémoire comme cache ce
 qui fausse les résultats - 150GB est une bonne valeur pas toujours
-utilisable (manque d'espace disque) :
-
-.. code:: shell
+utilisable (manque d'espace disque): ::
 
     sysbench --test=fileio --file-total-size=100G prepare
 
-Ensuite, exécuter le benchmark:
-
-.. code:: shell
+Ensuite, exécuter le benchmark: ::
 
     sysbench --test=fileio --file-total-size=100G -‑file-test-mode=rndrw --init-rng=on --max-time=300 --max-requests=0 run
 
-Exemple de résultat:
-
-.. code:: shell
+Exemple de résultat: ::
 
     Read 595.16Mb Written 396.77Mb Total transferred 991.92Mb (3.3056Mb/sec)211.56 Requests/sec executed
 
-Puis vous pouvez effacer le fichier de test :
-
-.. code:: shell
+Puis vous pouvez effacer le fichier de test: ::
 
     sysbench --test=fileio --file-total-size=150G cleanup
 
 File IO Benchmark (FIO)
 ^^^^^^^^^^^^^^^^^^^^^^^
-
-.. code:: shell
+::
 
     yum install fio
 
@@ -466,31 +515,25 @@ MySQL Benchmark
 
 Pour mesurer la performance de la base de données MySQL, nous devons
 d'abord créer une table **test** dans la base de données **test** (crée
-manuellement) avec 1,000,000 lignes de données:
-
-.. code:: shell
+manuellement) avec 1,000,000 lignes de données: ::
 
     sysbench --test=oltp --db-driver=mysql --oltp-table-size=1000000 --mysql-db=test --mysql-user=root --mysql-password=yourrootsqlpassword prepare
 
-Ensuite, exécuter le benchmark :
-
-.. code:: shell
+Ensuite, exécuter le benchmark: ::
 
     sysbench --test=oltp --db-driver=mysql --oltp-table-size=1000000 --mysql-db=test --mysql-user=root --mysql-password=yourrootsqlpassword --max-time=60 --oltp-read-only=on --max-requests=0 --num-threads=8 run
 
-Nb : il s'agit ici d'un benchmark avec exclusivement des lectures, sinon
-utiliser ``--oltp-read-only=off ‑oltp-test-mode=complex``
+.. NOTE::
+   Il s'agit ici d'un benchmark avec exclusivement des lectures, sinon
+   utiliser ``--oltp-read-only=off ‑oltp-test-mode=complex``
 
-Exemple de résultat:
-
-.. code:: shell
+Exemple de résultat: ::
 
     transactions: 			28235 (871.01 per sec.)
 
 Indicateurs MySQL en fonctionnement normal
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-.. code:: shell
+::
 
     gofast.ceo-vision.com ~# mysqltuner -u root
 
@@ -549,8 +592,6 @@ Indicateurs MySQL en fonctionnement normal
     	tmp_table_size (> 200M)
     	max_heap_table_size (> 200M)
 
- 
--
 
 ANNEXE I : Problèmes courants
 =============================
@@ -558,9 +599,7 @@ ANNEXE I : Problèmes courants
 Pas d'envoi des mails techniques
 --------------------------------
 
-Configurer le relais SMTP dans sendmail (``/etc/postfix/main.cf``)
-
-.. code:: shell
+Configurer le relais SMTP dans sendmail (``/etc/postfix/main.cf``) ::
 
     relayhost = smtp.myorganisation.xxx # nom du relais
 
@@ -569,9 +608,7 @@ Connexion impossible à la GoFAST par la messagerie (IMAPS)
 
 Le test suivant doit fonctionner (fin de message « **\* OK IMAP4rev1
 Server GreenMail ready** ») d'un serveur interne ou externe si la GoFAST
-est sur une DMZ
-
-.. code:: shell
+est sur une DMZ ::
 
     # openssl s_client -connect gofast.mydomain.tld:993
 
