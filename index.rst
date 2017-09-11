@@ -11,6 +11,7 @@ Documentation GoFAST
    :caption: Documentation Technique GoFAST
 
    docs-gofast-technical/gofast-exploitation
+   docs-gofast-technical/gofast-docs-prerequis-installation-serveur
    
 .. _users-docs:
 
