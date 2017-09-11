@@ -1,3 +1,4 @@
+============================================
 GoFAST :  Pré-requis et installation Serveur
 ********************************************
 
@@ -141,9 +142,10 @@ Les données sont stockées dans ``/var``
 Il est recommandé mais non obligatoire de créer une partition pour
 ``/var``
 
-Il est recommandé mais non obligatoire de créer une partition pour
-``/var/backup`` pour la sauvegarde des données applicatives (ce point de
-montage devant dans l’idéal être déporté)
+..CAUTION:: 
+   Il est recommandé mais non obligatoire de créer une partition pour
+   ``/var/backup`` pour la sauvegarde des données applicatives (ce point de
+   montage devant dans l’idéal être déporté)
 
 Réseaux et Sécurité
 -------------------
