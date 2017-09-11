@@ -1,4 +1,4 @@
-============================================
+********************************************
 GoFAST :  Pré-requis et installation Serveur
 ********************************************
 
@@ -13,6 +13,8 @@ Autres documentations techniques disponibles :
 
 -  GoFAST : Mobilité et applications tierces
 
+Pré-requis et installation Serveur
+==================================
 
 Architecture
 ------------
