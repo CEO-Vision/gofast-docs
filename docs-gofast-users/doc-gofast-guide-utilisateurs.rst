@@ -4,7 +4,6 @@ GoFAST : Guide Utilisateurs (TITRE)
 
 Introduction
 ============
-Test modif!
 
 Ce guide vous apprend à utiliser GoFAST de la manière la plus efficace
 possible et de manière didactique avec de nombreuses copies d'écran de
@@ -226,11 +225,11 @@ permalien, …)
 .. figure:: media-guide/image010.png
    :alt: 
 
-(voir aussi plus loin : `Actions
-contextuelles <#actions_contextuelles>`__)
+(voir aussi plus loin : Actions contextuelles)
 
-***Petit truc** : appuyez sur Ctrl et sur le titre du document pour
-l’ouvrir dans un nouvel onglet. Cela devrait fonctionner partout.*
+.. HINT::
+   Appuyez sur Ctrl et sur le titre du document pour
+   l’ouvrir dans un nouvel onglet. Cela devrait fonctionner partout.
 
 Vous pouvez **filtrer** la liste des documents de votre fil d’activité
 selon des groupes spécifiques et le statut des documents (draft,
@@ -239,13 +238,13 @@ archivé, validé, …).
 .. figure:: media-guide/image011.png
    :alt: 
 
-Vous pouvez également choisir de masquer ou afficher les « \ **blog
+Vous pouvez également choisir de masquer ou afficher les « **blog
 messages** » = ce que vous ou les autres écrivent dans **« Partager une
 nouvelle »** et qui se retrouvent également dans le fil d’activité. Pour
 ce, appuyez sur « Display blog messages » dans les « Filtrer le fil
 d’activité »
 
-.. figure:: media-guide/image.png
+.. figure:: media-guide/image368.png
    :alt: 
 
 Pour mettre ce genre de message général sur la GoFAST (votre humeur, une
@@ -272,8 +271,6 @@ en cliquant sur la barre grise verticale.
 
 Vous retrouverez cette même barre grise verticale du côté droit pour
 afficher ou masquer le chat.
-
-.
 
 .. figure:: media-guide/image013.png
    :alt: 
@@ -358,9 +355,10 @@ accessible par des membres définis. Ces membres ont des rôles différents
    contenus dont il est l'auteur
 -  Lecture Seule
 
-    NOTE: Il est possible aussi d'avoir le droit supplémentaire
-    'broadcaster' qui permet de partager des contenus dans des espaces
-    où l'on est pas membre.
+.. NOTE::
+   Il est possible aussi d'avoir le droit supplémentaire
+   'broadcaster' qui permet de partager des contenus dans des espaces
+   où l'on est pas membre.
 
 Il existe plusieurs grandes familles d'espaces :
 
@@ -385,11 +383,13 @@ pas choisir des membres.
 Notion de partage de contenus entre espaces
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-IMPORTANT : Pour qu'un document se retrouve dans plusieurs espaces (et
-bien sûr dans doublons), il est **partagé** en changeant sa visibilité
-(sur la page sur document)
+.. IMPORTANT::
+   Pour qu'un document se retrouve dans plusieurs espaces (et
+   bien sûr dans doublons), il est **partagé** en changeant sa visibilité
+   (sur la page sur document)
 
-COPIE D ECRAN A AJOUTER
+.. figure:: media-guide/image369.png
+   :alt: 
 
 Retrouver ses espaces
 ~~~~~~~~~~~~~~~~~~~~~
@@ -473,7 +473,7 @@ besoin d’en être membre, vous y avez accès automatiquement.
 
 **Que trouve-t-on dans cet espace Public ?**
 
--  L’ancien contenu de la **Quality Platform** avec tous les processus,
+-  l’ancien contenu de la **Quality Platform** avec tous les processus,
    les templates, guidelines, checklistes, policies
 
 -  le Forum général,
@@ -487,11 +487,10 @@ besoin d’en être membre, vous y avez accès automatiquement.
 .. figure:: media-guide/image033.png
    :alt: 
 
-**..NOTE ::**
-
-​ Petite différence avec la version précédente de GoFAST v2 \ **: les
-folders de l’Espace Public deviennent des sous-espaces** par souci de
-clarté.
+.. NOTE::
+   Petite différence avec la version précédente de GoFAST v2 \ **: les
+   folders de l’Espace Public deviennent des sous-espaces** par souci de
+   clarté.
 
 Vous pouvez **vous abonner** à cet espace via le petit logo entouré en
 mauve et en cliquant sur « s’abonner ». Vous recevrez ainsi directement
@@ -507,7 +506,7 @@ Espace Extranet
 .. figure:: media-guide/image035.png
    :alt: 
 
-L’espace « \ **Extranet** » a la même fonction que dans GoFAST 2, c’est
+L’espace « **Extranet** » a la même fonction que dans GoFAST 2, c’est
 l’espace partagé avec des externes à l'organisation.
 
 Cet espace/groupe « Extranet » permet donc de partager des contenus avec
@@ -523,22 +522,20 @@ juste le mettre en « lecture seule », ainsi il ne pourra pas modifier de
 documents partagés mais juste les commenter et télécharger (attention :
 il ne pourra pas non plus en rajouter alors).
 
-**Remarques :**
-
--  Si on est administrateur d’un espace, on peut créer des comptes
+.. NOTE::
+   Si on est administrateur d’un espace, on peut créer des comptes
    d’utilisateurs mais on ne pourra mettre ces utilisateurs que dans les
    espaces dont on a la responsabilité. Il se peut donc que vous soyez
    administrateur d’un groupe mais pas d’Extranet.
 
--  GoFAST 3 permet d’envoyer, vers des personnes externes (= qui n’ont
+.. NOTE::
+   GoFAST 3 permet d’envoyer, vers des personnes externes (= qui n’ont
    pas de compte GoFAST), des messages avec le lien vers un document qui
    se trouve sur GoFAST ; ils pourront ainsi charger le lien et avoir
    accès au document pendant 15 jours. Si vous voulez donc juste
    partager des documents pour information et non pour travailler
    dessus, pas besoin de créer un compte et un groupe spécifique avec un
    externe pour cela.
-
-   ​
 
 Les Groupes (= Espaces Transversaux)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -575,14 +572,15 @@ hiérarchique de l’entreprise et chaque département (RH, IT, Financier,
 
 Vous n’aurez donc accès qu’à **une organisation** dont vous êtes membre.
 
-**Remarques :**
-
--  Si vous devez **partager** des documents entre différents
+.. NOTE::
+   Si vous devez **partager** des documents entre différents
    départements, vous devez le faire à travers un **Groupe** dédié. Par
    exemple un contrat est dans l'Organisation "Juridique" et aussi dans
    le Groupe "ProjetA" car c'est un contrat qui concerne le "ProjetA"
    dans lequel des membres de plusieurs départements sont rassemblés.
--  Un utilisateur peut faire partie d’une ou plusieurs organisations (si
+  
+.. NOTE::
+   Un utilisateur peut faire partie d’une ou plusieurs organisations (si
    fonction partagée entre 2 départements) et sous-organisations (les
    Services), et fait d’office partie de **plusieurs groupes** et
    sous-groupes collaboratifs pour pouvoir travailler avec ses collègues
@@ -705,7 +703,7 @@ Vous pouvez filtrer votre recherche d’utilisateurs par lettre
 alphabétique, organisation/groupe si vous savez dans quel service ils
 travaillent.
 
-(Voir Annuaire : `Chercher un utilisateur <#chercher_un_utilisateur>`__)
+(Voir Annuaire :"Chercher un utilisateur")
 
 Création de contenus
 ====================
@@ -772,8 +770,9 @@ Le fait de les déposer dans ce répertoire leur donne automatiquement
 l’étiquette de « Template ». Vous pourrez ensuite retrouver ces
 documents dans le Formulaire "Créer un document à partir d'un Modèle".
 
-**Remarque**: dans GoFAST 3, la catégorie « Template » n'existe plus.
-C'est à présent dans les étiquettes que vous la retrouverez.
+.. NOTE::
+   Dans GoFAST 3, la catégorie « Template » n'existe plus.
+   C'est à présent dans les étiquettes que vous la retrouverez.
 
 Vous devez créer ce folder « TEMPLATES » dans l’onglet « Documents »
 dans les espaces et les sous-espaces de type Organisation/Groupe.
@@ -963,10 +962,11 @@ collaboratifs/sous-groupes**, **si toutefois vous en avez les droits,
 c’est-à-dire si vous êtes administrateur du groupe-parent/de
 l’espace-parent.**
 
-Vous pouvez créer un nouvel espace (i) dans les groupes
-transversaux,(ii) dans les organisations (vos services/département),
-(iii) dans Public (visible par tous les utilisateurs sauf les externes)
-ou (iv) sur l’Extranet (visible aussi par les externes).
+Vous pouvez créer un nouvel espace:
+   - dans les groupes transversaux
+   - dans les organisations (vos services/département)
+   - dans Public (visible par tous les utilisateurs sauf les externes)
+   - sur l’Extranet (visible aussi par les externes)
 
 Allez sur l’onglet « Créer » puis sur la flèche à côté de « Espace »,
 vous verrez la liste des espaces dans lesquels vous pouvez créer un
@@ -981,8 +981,8 @@ page s’ouvre où vous pouvez ajouter le titre de l’espace, une brève
 description, créer une page d’accueil, choisir l’emplacement (le groupe
 parent), … puis « Enregistrez »
 
--  Même principe pour toute création d’espace dans les groupes, Public
-   et Extranet.
+Même principe pour toute création d’espace dans les groupes, Public
+et Extranet.
 
 .. figure:: media-guide/image077.png
    :alt: 
@@ -1003,7 +1003,7 @@ a) L’onglet « \ **Activité** » montre les événements qui se passent dan
 .. figure:: media-guide/image079.png
    :alt: 
 
-a) L’onglet « \ **Documents** » montre tous les fichiers qui se trouvent
+b) L’onglet « \ **Documents** » montre tous les fichiers qui se trouvent
    dans votre groupe, dans la fenêtre au centre de l’écran, et
    l’arborescence par rapport à toute la GoFAST dans la colonne de
    gauche.
@@ -1014,11 +1014,12 @@ annuler » qui lui-même se trouve dans l’arborescence (flèche rouge à
 gauche) de l’espace de base/espace-parent « Organisation », sous-espaces
 « BTCCTB » et « Test sous-organisation».
 
-**Remarque **: dans l’arborescence, on distingue les espaces avec un
-underscore devant leur nom « \_ » ; s’il n’y a rien , ce sont des
-dossiers/folders. Dans les 2 cas, vous pouvez voir leurs niveaux
-inférieurs en cliquant sur le petit « + » devant chacun. Ou les cacher
-avec le petit « - ».
+.. NOTE::
+   Dans l’arborescence, on distingue les espaces avec un
+   underscore devant leur nom « \_ » ; s’il n’y a rien , ce sont des
+   dossiers/folders. Dans les 2 cas, vous pouvez voir leurs niveaux
+   inférieurs en cliquant sur le petit « + » devant chacun. Ou les cacher
+   avec le petit « - ».
 
 On peut également voir le cheminement du fichier (path), au-dessus des
 onglets, encadré en vert ici.
@@ -1052,7 +1053,7 @@ fonctionnalités.
 .. figure:: media-guide/image083.png
    :alt: 
 
-Voir aussi `Gestion des documents <#gestion_des_documents>`__
+Voir aussi"Gestion des documents"
 
 Création d’un utilisateur
 -------------------------
@@ -1125,7 +1126,7 @@ reprenant les mêmes informations et le lien URL.
 Gestion d'un espace collaboratifs
 =================================
 
-Voir aussi `Création d’un espace <#creation_d_un_espace>`__
+Voir aussi"Création d’un espace"
 
 Devenir membre d’un espace/groupe
 ---------------------------------
@@ -1216,7 +1217,7 @@ sont.
 .. figure:: media-guide/image097.png
    :alt: 
 
-Voir aussi `Gérer les membres d’un groupe <#gerer_les_membres>`__ 
+Voir aussi"Gérer les membres d’un groupe" 
 
 Créer un utilisateur dans un espace/groupe
 ------------------------------------------
@@ -1330,7 +1331,8 @@ gestion des documents :
    supprimer des documents dont il est l’auteur (qu’il a mis lui-même
    sur GoFAST).
 
-    **Remarque **: si l’utilisateur « en lecture seule » fait des
+.. NOTE::
+    Si l’utilisateur « en lecture seule » fait des
     modifications sur un document téléchargé et le remet sur GoFAST sous
     un autre nom, il devra prévenir les autres membres du groupe de ce
     changement car il risque d‘y avoir doublon de document avec des
@@ -1350,22 +1352,22 @@ a) Une page d’\ **Accueil **;
 .. figure:: media-guide/image106.png
    :alt: 
 
-a) Un onglet « \ **Activité **\ », où vous avez une vue d’ensemble de ce
+b) Un onglet « \ **Activité **\ », où vous avez une vue d’ensemble de ce
    qui se passe dans ce groupe ;
 
 .. figure:: media-guide/image107.png
    :alt: 
 
-a) Un onglet « **Documents** », où vous voyez les documents et
+c) Un onglet « **Documents** », où vous voyez les documents et
    l’arborescence de ceux-ci ; |image2|
 
-b) Un onglet « **Calendrier** », où vous pouvez mettre des dates
+d) Un onglet « **Calendrier** », où vous pouvez mettre des dates
    d’échéance, des rappels, … ;
 
 .. figure:: media-guide/image109.png
    :alt: 
 
-a) Un onglet « **Membres** », où vous voyez les membres du groupe et
+e) Un onglet « **Membres** », où vous voyez les membres du groupe et
    leur rôle respectif
 
 .. figure:: media-guide/image110.png
@@ -1428,7 +1430,8 @@ niveau de votre sous-espace.
 .. figure:: media-guide/image115.png
    :alt: 
 
-    **Remarque** : Il est conseillé de ne pas créer trop de sous-groupes
+.. NOTE::
+    Il est conseillé de ne pas créer trop de sous-groupes
     si il n’est pas nécessaire de gérer des droits particuliers quant au
     contenu de ce groupe ; créez plutôt des folders qui resteront
     visibles à tous les membres du groupe-parent.
@@ -1446,26 +1449,25 @@ contenu.
 .. figure:: media-guide/image117.png
    :alt: 
 
-**Remarque sur les membres des sous-groupes:**
+.. NOTE::
+   Les membres d’un sous-groupe auront accès aux documents/folders qui se
+   trouvent à un niveau supérieur (dans le groupe-parent) , par contre les
+   membres du groupe-parent n’auront pas nécessairement accès aux documents
+   de ce sous-groupes car la liste des membres du sous-groupe peut varier
+   par rapport à celle des membres du groupe-parent.
 
-Les membres d’un sous-groupe auront accès aux documents/folders qui se
-trouvent à un niveau supérieur (dans le groupe-parent) , par contre les
-membres du groupe-parent n’auront pas nécessairement accès aux documents
-de ce sous-groupes car la liste des membres du sous-groupe peut varier
-par rapport à celle des membres du groupe-parent.
+**Exemple :**
 
-*Exemple :*
+-  Monsieur X est membre du *sous-groupe* « Support GoFAST », entouré
+   en rouge ; 
 
--  **Monsieur X est membre du *sous-groupe* « Support GoFAST », entouré
-   en rouge ; **
+-  Madame Y est membre du *sous-groupe* « test\_group », entouré en
+   noir ; 
 
--  **Madame Y est membre du *sous-groupe* « test\_group », entouré en
-   noir ; **
+-  Junior fait partie du *groupe-parent* ou groupe-racine « Groupes »,
+   entouré en jaune.
 
--  **Junior fait partie du *groupe-parent* ou groupe-racine « Groupes »,
-   entouré en jaune.**
-
-.. figure:: media-guide/image.png
+.. figure:: media-guide/image370.png
    :alt: 
 
 Ils voient tous les 3 ce qu’il se passe dans le groupe-racine
@@ -1481,14 +1483,14 @@ membre de ce/ces sous-groupes aussi. => nouveaux groupes et sous-groupes
 = plus de confidentialité et possibilité de membres différents d’un
 groupe à l’autre.
 
-*Autre manière d’expliquer, avec l’arborescence :*
+**Autre manière d’expliquer, avec l’arborescence :**
 
 Je suis membre du groupe « \_Support GoFAST » qui est un sous-groupe de
 l’espace « Groupes ». J’ai donc accès à tous les folders qui se trouvent
 dans « \_Groupes » et dans « \_Support GoFAST » (nom précédé d’un
 underscore = espace/groupe).
 
-.. figure:: media-guide/image.png
+.. figure:: media-guide/image371.png
    :alt: 
 
 Par contre, je ne vois pas le sous-groupe « test\_group » dans
@@ -1497,7 +1499,7 @@ l’arborescence car je n’en suis pas membre.
 Je sais juste qu’il existe parce qu’il est dans les espaces visibles à
 partir du menu.
 
-.. figure:: media-guide/image.png
+.. figure:: media-guide/image372.png
    :alt: 
 
 Et si je clique dessus à partir du menu, j’arriverai sur la page du
@@ -1506,7 +1508,7 @@ groupe « Test\_group » mais l’accès à son contenu me sera refusé.
 Je devrai demander d’en devenir membre si je veux voir le contenu et y
 travailler.
 
-.. figure:: media-guide/image.png
+.. figure:: media-guide/image373.png
    :alt: 
 
 Modifier un groupe
@@ -1595,7 +1597,7 @@ Le même message en vert vous confirme votre désabonnement
 .. figure:: media-guide/image126.png
    :alt: 
 
-Voir aussi  `Vos abonnements <#vos_abonnements>`__
+Voir aussi  "Vos abonnements"
 
 Rejoindre la discussion (à compléter après test)
 ------------------------------------------------
@@ -1640,10 +1642,11 @@ format, statut, langue, emplacement, historique, version, ….
 .. figure:: media-guide/image129.png
    :alt: 
 
-    **Remarque **: il se peut que la prévisualisation ne s’ouvre pas
-    directement et que vous ayez le message suivant :
+.. NOTE::
+   Il se peut que la prévisualisation ne s’ouvre pas
+   directement et que vous ayez le message suivant :
 
-.. figure:: media-guide/image1.png
+.. figure:: media-guide/image374.png
    :alt: 
 
 Il faudra juste cliquer sur la zone bleue « Tenter de prévisualiser à
@@ -1655,7 +1658,7 @@ exemple télécharger le document malgré tout. Allez dans les actions
 contextuelles (3 barres horizontales, dans le coin droit supérieur, à
 côté du titre) (voir plus loin pour les détails)
 
-.. figure:: media-guide/image.png
+.. figure:: media-guide/image375.png
    :alt: 
 
 Pour rappel, vous pouvez **masquer ou afficher** à tout moment la partie
@@ -1663,7 +1666,7 @@ avec l’\ **arborescence** de vos folders/groupes en cliquant sur la
 barre grise verticale qui se trouve à gauche de la partie centrale de
 l’écran. (prévisualisation ou fil d’activité)
 
-.. figure:: media-guide/image18.png
+.. figure:: media-guide/image376.png
    :alt: 
 
 Voici en détail, la liste des actions contextuelles (fonctionnalités)
@@ -1685,7 +1688,7 @@ d’outils noire.**
 Celle-ci permet certaines fonctionnalités comme la loupe, le zoom, page
 suivante, etc.
 
-.. figure:: media-guide/image.png
+.. figure:: media-guide/image377.png
    :alt: 
 
 Le premier icône, (carré gris et noir) « \ **Toggle sidebar** », permet
@@ -1694,37 +1697,37 @@ aller directement sur la page souhaitée. Ce même icône donne accès à 3
 autres options **« Show thumbnails », « Show document outline », « Show
 attachment »**
 
-.. figure:: media-guide/image.png
+.. figure:: media-guide/image378.png
    :alt: 
 
 La **loupe** permet de rechercher un mot dans le texte (= Ctrl+F)
 
-.. figure:: media-guide/image.png
+.. figure:: media-guide/image379.png
    :alt: 
 
 Les **flèches** vers le haut ou vers le bas permettent d’aller à la page
 précédente ou suivante
 
-.. figure:: media-guide/image.png
+.. figure:: media-guide/image380.png
    :alt: 
 
-« \ **Page **\ » et les numéros permettent de voir combien de pages
+«**Page **» et les numéros permettent de voir combien de pages
 comprend le document et vous pouvez changer le numéro pour atteindre la
 page souhaitée
 
-.. figure:: media-guide/image140.png
+.. figure:: media-guide/image381.png
    :alt: 
 
 Le **« -»  et le « + »** permettent de zoomer. Et l’ « \ **Automatic
 zoom** » vous donne des dimensions prédéfinies
 
-.. figure:: media-guide/image.png
+.. figure:: media-guide/image382.png
    :alt: 
 
 Le dossier blanc avec une flèche noire vers le haut permet **d’ouvrir
 votre browser** et d’aller chercher un document sur votre ordinateur.
 
-.. figure:: media-guide/image.png
+.. figure:: media-guide/image383.png
    :alt: 
 
 La feuille blanche avec une flèche noire vers le bas permet de
@@ -1732,18 +1735,26 @@ La feuille blanche avec une flèche noire vers le bas permet de
 l’ouvrir dans le coin inférieur gauche de votre écran (selon votre
 browser)
 
-|image3|\ **=>** |image4|
+.. figure:: media-guide/image384.png
+   :alt: 
+   
+.. figure:: media-guide/image385.png
+   :alt: 
 
 Un clic-droit sur l’étendard vertical permet plusieurs options, dont
 celle d’ouvrir le document ou la **prévisualisation** dans une autre
 fenêtre/onglet ou copier le lien (URL).
 
-|image5| **=>** |image6|
+.. figure:: media-guide/image386.png
+   :alt: 
+
+.. figure:: media-guide/image387.png
+   :alt: 
 
 Vous pourrez alors **consulter la version PDF** du document avec les
 fonctionnalités PDF associées
 
-.. figure:: media-guide/image.png
+.. figure:: media-guide/image388.png
    :alt: 
 
 Et enfin, le dernier icône avec les 2 flèches vers la droites ouvrent
@@ -1751,7 +1762,7 @@ d’autres options, dont « \ **Enable hand tool** », la petite main qui
 permet notamment de monter/descendre dans un PDF sans utiliser le
 curseur.
 
-.. figure:: media-guide/image.png
+.. figure:: media-guide/image389.png
    :alt: 
 
 Actions liées au fichier
@@ -1849,26 +1860,26 @@ Si vous voulez ajouter un genre de résumé/présentation à votre document,
 cliquez sur « **Modifier le Résumé** » dans les « actions contextuelles»
 dans le coin droit en haut de la prévisualisation du document.
 
-.. figure:: media-guide/image.png
+.. figure:: media-guide/image390.png
    :alt: 
 
 Une fenêtre de texte s’ouvre avec les mêmes fonctionnalités que Word :
 écrivez votre texte et sauvez en cliquant sur « Appliquer ».
 
-.. figure:: media-guide/image.png
+.. figure:: media-guide/image391.png
    :alt: 
 
 Le texte se retrouvera au-dessus de la prévisualisation de votre
 document, entre le titre et le document.
 
-.. figure:: media-guide/image.png
+.. figure:: media-guide/image392.png
    :alt: 
 
 Si vous voulez changer le contenu de ce résumé, appuyez sur « Modifier
 le Résumé», qui apparaît lorsque vous mettez la souris au niveau du
 résumé.
 
-.. figure:: media-guide/image.png
+.. figure:: media-guide/image393.png
    :alt: 
 
 Télécharger le document
@@ -1896,10 +1907,11 @@ ailleurs que sur la GoFAST.
 Ou alors il se téléchargera tout seul, et vous le retrouverez dans le
 coin inférieur gauche de votre écran
 
-.. figure:: media-guide/image.png
+.. figure:: media-guide/image394.png
    :alt: 
 
-    **Remarque :** si vous téléchargez un document, que vous y apportez
+.. NOTE::
+    Si vous téléchargez un document, que vous y apportez
     des modifications, elles ne seront pas synchronisées sur la GoFAST.
     Il faudra remettre le document au même emplacement (glisser/coller
     comme nouvelle version) pour que GoFAST les prennent en compte. Cela
@@ -1963,15 +1975,20 @@ partie que vous voulez annoter/commenter ; un logo avec un crayon
 apparaît, cliquez dessus pour ouvrir la fenêtre à annotation, écrivez
 votre petit texte, puis cliquez sur « Save ».
 
-|image10| => |image11|
+.. figure:: media-guide/image147.png
+   :alt: 
+   
+.. figure:: media-guide/image148.png
+   :alt: 
 
 Vous verrez l’endroit que vous avez annoté surligné en jaune dans la
 prévisualisation, et en cliquant dessus, vous verrez l’annotation liée.
 
-ATTENTION : Les annotations ne sont que sur une version donnée de
-prévisualisation, si la version du document change, vous ne verrez plus
-l'annotation mais celle-ci reste dans les commentaires en dessous de
-document.
+.. ATTENTION::
+   Les annotations ne sont que sur une version donnée de
+   prévisualisation, si la version du document change, vous ne verrez plus
+   l'annotation mais celle-ci reste dans les commentaires en dessous de
+   document.
 
 .. figure:: media-guide/image149.png
    :alt: 
@@ -2033,7 +2050,8 @@ Terminez par « Valider »
 Vous pouvez retrouver les versions précédentes en bas des métadonnées
 également.
 
-    **Remarque :** Vous ne pouvez glisser/coller que des documents de
+.. NOTE::
+    Vous ne pouvez glisser/coller que des documents de
     même format, ce qui veut dire que vous ne pouvez pas remplacer une
     version avec une extension « doc » par une version « docx » et
     vice-versa.
@@ -2110,7 +2128,8 @@ Vous pouvez également voir les versions précédentes, en cliquant sur
 .. figure:: media-guide/image161.png
    :alt: 
 
-    **..NOTE::** Lorsque vous êtes en train d’éditer un document (que
+.. NOTE::
+    Lorsque vous êtes en train d’éditer un document (que
     vous l’avez ouvert en ligne ), les autres personnes qui voudraient
     l’ouvrir auront ce message lors de sa prévisualisation, au-dessus
     des métadonnées « Vous êtes en lecture-seule sur ce document »
@@ -2131,12 +2150,14 @@ des documents Office dans un simple navigateur **avec d’autres personnes
 en simultané**. Vous pouvez ainsi travailler à plusieurs, en même temps,
 sur un même document.
 
-NOTE: Contrairement à GoogleDocs/Drive, **vous conservez vos formats
-Office** et vous pouvez ensuite directement ouvrir le fichier avec
-Office sans avoir à changer de format.
+.. NOTE::
+   Contrairement à GoogleDocs/Drive, **vous conservez vos formats
+   Office** et vous pouvez ensuite directement ouvrir le fichier avec
+   Office sans avoir à changer de format.
 
-NOTE: De plus OnlyOffice est dans votre datacenter limitant les besoins
-de bande passante et garantissant une confidentialité totale.
+.. NOTE::
+   De plus OnlyOffice est dans votre datacenter limitant les besoins
+   de bande passante et garantissant une confidentialité totale.
 
 Pour cela lancer la co-édition, allez dans les actions contextuelles de
 la prévisualisation et appuyez sur l’option «  Editer avec OnlyOfice »
@@ -2144,23 +2165,29 @@ la prévisualisation et appuyez sur l’option «  Editer avec OnlyOfice »
 .. figure:: media-guide/image163.png
    :alt: 
 
-IMPORTANT : Dans la version actuelle, l'édition de .doc,.xls,.ppt ne
-permet ensuite plus de prévisualiser le document. De même la version
-actuelle ne génère pas les Table de Matières, celles-ci devant être
-généré une fois le document terminé sous Word
+.. IMPORTANT::
+   Dans la version actuelle, l'édition de .doc,.xls,.ppt ne
+   permet ensuite plus de prévisualiser le document. De même la version
+   actuelle ne génère pas les Table de Matières, celles-ci devant être
+   généré une fois le document terminé sous Word
 
-NOTE : Nous vous recommandons dans tous les cas de plutôt utiliser les
-formats ouvets et plus récents .docx, .xlsx, .pptx et leurs équivalents
-normalisés .odt, ...
+.. NOTE::
+   Nous vous recommandons dans tous les cas de plutôt utiliser les
+   formats ouvets et plus récents .docx, .xlsx, .pptx et leurs équivalents
+   normalisés .odt, ...
+   
+Ce message apparaît, cliquez sur « Continuer »
 
+.. figure:: media-guide/image395.png
+   :alt: 
+   
 Voici un exemple d’un document Word ouvert avec OnlyOffice, pour
 modification. On peut noter qu'une personne est entrain d'éditer en même
 temps le document.
 
-.. figure:: media-guide/GoFAST%20coédition%20Onlyoffice.png
-   :alt: GoFAST coédition Onlyoffice
+.. figure:: media-guide/image396.png
+   :alt: 
 
-   GoFAST coédition Onlyoffice
 
 Faites vos modifications puis fermer OnlyOffice, vous serez redirigé sur
 la prévisualisation de votre document dans GoFAST ; **une fois que
@@ -2169,14 +2196,16 @@ sera créée** ; rafraichissez la page avec les petites flèches rondes
 rouges, vous verrez ainsi vos modifications enregistrées dans le
 document.
 
-NOTE : Vous pouvez utiliser de nombreuses fonctionnalités de Word,
-notamment nous vous recommandons d'activer le mode révision (en bas à
-droite), les autres éditeurs identifieront mieux vos changements.
+.. NOTE::
+   Vous pouvez utiliser de nombreuses fonctionnalités de Word,
+   notamment nous vous recommandons d'activer le mode révision (en bas à
+   droite), les autres éditeurs identifieront mieux vos changements.
 
-**Remarque** : Lorsque vous êtes en train d’éditer un document avec
-OnlyOffice (que vous l’avez ouvert en ligne), les autres personnes qui
-voudraient l’ouvrir auront ce message lors de sa prévisualisation,
-au-dessus des métadonnées « Vous êtes en lecture-seule sur ce document »
+.. NOTE::
+   Lorsque vous êtes en train d’éditer un document avec
+   OnlyOffice (que vous l’avez ouvert en ligne), les autres personnes qui
+   voudraient l’ouvrir auront ce message lors de sa prévisualisation,
+   au-dessus des métadonnées « Vous êtes en lecture-seule sur ce document »
 
 Et ils verront un petit cadenas ouvert rouge dans la barre des
 fonctionnalités de la prévisualisation, avec la photo de l’utilisateur
@@ -2187,9 +2216,10 @@ l’icône, vous pouvez voir le nom de l’utilisateur qui a ouvert en
 .. figure:: media-guide/image166.png
    :alt: 
 
-NOTE: OnlyOffice vous permet de co-éditer des contrats, des budgets, des
-présentations Powerpoint d'une façon beaucoup plus rapide que
-traditionnement, chacun travaillant à son tour.
+.. NOTE::
+   OnlyOffice vous permet de co-éditer des contrats, des budgets, des
+   présentations Powerpoint d'une façon beaucoup plus rapide que
+   traditionnement, chacun travaillant à son tour.
 
 Gérer les traductions du document
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -2231,9 +2261,10 @@ autres traductions.
 .. figure:: media-guide/image169.png
    :alt: 
 
-**Remarque** : GoFAST ne permet pas de traduire des documents, il s’agit
-ici de documents qui existent déjà en différentes langues et qu’on veut
-lier par facilité pour pouvoir passer d’une à l’autre en un clic.
+.. NOTE::
+   GoFAST ne permet pas de traduire des documents, il s’agit
+   ici de documents qui existent déjà en différentes langues et qu’on veut
+   lier par facilité pour pouvoir passer d’une à l’autre en un clic.
 
 Partager le document par mail
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -2244,9 +2275,10 @@ de destinataires ayant un compte GoFAST ou non, sans qu'ils aient à
 s'authentifier. Celui-ci sera donc automatiquement attaché à votre
 message.
 
-NOTE: Ceci permet notamment de ne plus surcharger votre boite mail avec
-des pièces jointes lourdes destinée à des personnes n'ayant pas de
-comptes GoFAST.
+.. NOTE::
+   Ceci permet notamment de ne plus surcharger votre boîte mail avec
+   des pièces jointes lourdes destinée à des personnes n'ayant pas de
+   comptes GoFAST.
 
 .. figure:: media-guide/image170.png
    :alt: 
@@ -2276,10 +2308,11 @@ via la GoFAST.
 .. figure:: media-guide/image172.png
    :alt: 
 
-**Remarque** : Pour que les non-utilisateurs de la plateforme puissent
-également avoir accès à certains documents, les liens attachés au mail
-sont utilisables pendant 15 jours. Une fois le document téléchargé, les
-non-utilisateurs peuvent le consulter de suite.
+.. NOTE::
+   Pour que les non-utilisateurs de la plateforme puissent
+   également avoir accès à certains documents, les liens attachés au mail
+   sont utilisables pendant 15 jours. Une fois le document téléchargé, les
+   non-utilisateurs peuvent le consulter de suite.
 
 **Exemple** de mail/notification reçu dans votre boîte mail normale,
 vous invitant à cliquer sur le lien attaché pour visualiser un document.
@@ -2304,12 +2337,13 @@ L’avantage de faire une publication est de garder la version d’origine
 en Word/Excel/Power Point liée au document publié (généralement en PDF),
 même si la publication se trouve dans un autre emplacement.
 
-    NOTE: Vous pouvez donc avoir 20 versions de travail d’un document
+.. NOTE::    
+    Vous pouvez donc avoir 20 versions de travail d’un document
     Office au sein d'un service avec des commentaires et ne publier que
     la version finale sans les commentaires pour tous les autres
     utilisateurs.
 
-Vous pouvez donc choisir où sera la publication de votre document de
+Vous pouvez choisir où sera la publication de votre document de
 travail, où il apparaîtra uniquement en PDF. Cochez la case
 correspondant à l’emplacement voulu pour la publication. Et « Valider »
 
@@ -2320,7 +2354,8 @@ Vous verrez alors dans les métadonnées de ce document que c’est devenu
 une publication et les emplacements de la publication par rapport au
 document d’origine.
 
-NOTE: Le document publié possède un nom se terminant par \_PUB
+.. NOTE::
+   Le document publié possède un nom se terminant par \_PUB
 
 .. figure:: media-guide/image176.png
    :alt: 
@@ -2477,11 +2512,11 @@ partir du fil d’activité. Appuyez sur la petite rue sous le nom du
 fichier pour ouvrir la liste des fonctionnalités, puis appuyez sur
 « Permalien » pour copier le lien.
 
-.. figure:: media-guide/image.png
+.. figure:: media-guide/image397.png
    :alt: 
 
 Voici ce que ça donne lorsque vous le coller :
-[*https://gofast3-integration.ceo-vision.com/node/4551*
+*https://gofast3-integration.ceo-vision.com/node/4551*
 
 Il suffira de cliquer dessus pour être renvoyé sur la GoFAST et sur la
 prévisualisation du document. (cfr : si vous n’êtes pas membre du groupe
@@ -2497,7 +2532,7 @@ coller l’URL où vous voulez.
 Ou ouvrez carrément le document sur un autre onglet/fenêtre Window avec
 l’option « Open link in new tab/window »
 
-.. figure:: media-guide/image.png
+.. figure:: media-guide/image398.png
    :alt: 
 
 Open file’s location/ ouvrir l’emplacement du document
@@ -2519,7 +2554,7 @@ l’emplacement du document ».
 Voici le genre de vue que vous aurez, où vous retrouverez votre document
 et son emplacement par rapport au reste de l’arborescence GoFAST.
 
-.. figure:: media-guide/image296.png
+.. figure:: media-guide/image399.png
    :alt: 
 
 De là, vous pouvez naviguer dans l’arborescence, chercher d’autres
@@ -2528,7 +2563,7 @@ documents, utiliser les raccourcis, …
 S’abonner au document
 ~~~~~~~~~~~~~~~~~~~~~
 
-Voir aussi `Vos abonnements <#vos_abonnements>`__
+Voir aussi"Vos abonnements"
 
 **S’abonner à un document** permet de **rester au courant** de ce qu’il
 se passe par rapport à ce document ; vous recevrez une notification par
@@ -2582,7 +2617,7 @@ appelle des «Version mineures ». Mais vous pouvez écraser ces versions
 mineures avec une version majeure, c’est-à-dire une nouvelle base de
 travail (1.11 =>2.0).
 
-***Importance des versions majeures :***
+**Importance des versions majeures :**
 
 -  Si vous archivez un document, ses versions mineures seront
    supprimées, seule sa dernière version majeure sera encore accessible.
@@ -2621,8 +2656,7 @@ majeure xx.
 .. figure:: media-guide/image205.png
    :alt: 
 
-Voir aussi `Glisser et déposer une nouvelle
-version <#glisser_et_deposer>`__
+Voir aussi "Glisser et déposer une nouvelle version"
 
 Supprimer les versions mineures du document
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -2668,7 +2702,7 @@ elles vous permettront de filtrer davantage vos résultats.
 Catégories et Etats
 ~~~~~~~~~~~~~~~~~~~
 
-.. figure:: media-guide/image21.png
+.. figure:: media-guide/image400.png
    :alt: 
 
 Les **catégories** correspondent à la nature du contenu du document :
@@ -2681,9 +2715,13 @@ Pour les modifier, allez sur « Autre » en face de « catégorie » ou
 « état » , la case bleue « Modifier » apparaît, cliquez dessus et
 choisissez la proposition adéquate.
 
-**Exemples de catégories et états : **
+**Exemples de catégories et états:**
 
-|image12| |image13|
+.. figure:: media-guide/image401.png
+   :alt: 
+   
+.. figure:: media-guide/image402.png
+   :alt: 
 
 Emplacement
 ~~~~~~~~~~~
@@ -2787,7 +2825,11 @@ cliquant sur les petites flèches rondes rouges.
 Pour vous **abonner ou désabonner** à ce « sujet »/ cette étiquette,
 revenez-y et cliquez dessus.
 
-|image14| |image15|
+.. figure:: media-guide/image224.png
+   :alt:
+   
+.. figure:: media-guide/image225.png
+   :alt:
 
 Un message vert , dans le coin droit supérieur, vous confirmera votre
 abonnement ou désabonnement à ce terme.
@@ -2891,12 +2933,11 @@ ouvrir.
 .. figure:: media-guide/image237.png
    :alt: 
 
-**Remarques **:
-
-Pour éviter de garder un trop grand nombre de versions mineures, il a
-été décidé de ne garder que les 10 dernières et d’archiver
-automatiquement celles qui sont antérieures, car tout garer prendrait
-beaucoup trop d’espace sur le serveur.
+.. NOTE::
+   Pour éviter de garder un trop grand nombre de versions mineures, il a
+   été décidé de ne garder que les 10 dernières et d’archiver
+   automatiquement celles qui sont antérieures, car tout garer prendrait
+   beaucoup trop d’espace sur le serveur.
 
 Les langues et traductions des documents
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -3181,10 +3222,11 @@ Word, Excel, Power Point, …. Vous pouvez donc y travailler normalement
 avec les options Office et terminer en le sauvant (disquette) avant de
 le refermer.
 
-**Remarque :** Dans Word et Power Point, il y a des flèches vertes sur
-la disquette d’enregistrement , ce qui prouve la synchronisation avec
-l’interface GoFAST. Il se peut que vous ne les voyiez pas sur un
-document Excel malgré que la synchronisation soit activée aussi.
+.. NOTE::
+   Dans Word et Power Point, il y a des flèches vertes sur
+   la disquette d’enregistrement , ce qui prouve la synchronisation avec
+   l’interface GoFAST. Il se peut que vous ne les voyiez pas sur un
+   document Excel malgré que la synchronisation soit activée aussi.
 
 .. figure:: media-guide/image267.png
    :alt: 
@@ -3317,9 +3359,10 @@ GoFAST.
 .. figure:: media-guide/image282.png
    :alt: 
 
-**Remarque :** Ces 2 fonctionnalités ne fonctionnent que dans la GoFAST,
-il n’y a pas la possibilité de copier/coller ou couper/coller un
-document de la GoFAST vers votre ordinateur par exemple.
+.. NOTE::
+   Ces 2 fonctionnalités ne fonctionnent que dans la GoFAST,
+   il n’y a pas la possibilité de copier/coller ou couper/coller un
+   document de la GoFAST vers votre ordinateur par exemple.
 
 Renommer/supprimer un document
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -3343,8 +3386,9 @@ page de prévisualisation, avec les métadonnées sur le côté droit.
 Vous pouvez faire de même mais en ouvrant la prévisualisation dans un
 autre onglet en choisissant l’option « Ouvrir dans un nouvel onglet ».
 
-Remarque : si vous avez un message de pop-up qui restreint cette
-fonction, choisissez l’option « Always allow ».
+.. NOTE::
+   Si vous avez un message de pop-up qui restreint cette
+   fonction, choisissez l’option « Always allow ».
 
 Ce message n’est pas toujours très visible, dans Chrome, il se cache
 sous la petite croix rouge, dans le coin droit supérieur de l’adresse
@@ -3439,8 +3483,9 @@ où vous êtes sur la GoFAST.
 .. figure:: media-guide/image295.png
    :alt: 
 
-**Remarque :** l’autre flèche à droite n’est applicable que si vous avez
-des versions à partir de Chrome 21
+.. NOTE::
+   L’autre flèche à droite n’est applicable que si vous avez
+   des versions à partir de Chrome 21
 
 .. figure:: media-guide/image296.png
    :alt: 
@@ -3530,10 +3575,11 @@ l’explorateurs de fichiers sur votre ordinateur.
 .. figure:: media-guide/image305.png
    :alt: 
 
-Il faudra d’abord charger le lien sur votre ordinateur et l’installer
-pour pouvoir utiliser cette fonctionnalité. (pour le moment, ça ne
-fonctionne que sur Firefox et vous devez demander à ICT de vous
-l’installer)
+.. NOTE::
+   Il faudra d’abord charger le lien sur votre ordinateur et l’installer
+   pour pouvoir utiliser cette fonctionnalité. (pour le moment, ça ne
+   fonctionne que sur Firefox et vous devez demander à ICT de vous
+   l’installer)
 
 .. figure:: media-guide/image306.png
    :alt: 
@@ -3547,8 +3593,9 @@ mappe-monde, voici comment vous accéderez à vos fichiers.
 .. figure:: media-guide/image307.png
    :alt: 
 
-**Remarque :** Il se peut que vous deviez répondre à ce message d’abord,
-cliquez sur OPenURL : IT…..
+.. NOTE::
+   Il se peut que vous deviez répondre à ce message d’abord,
+   cliquez sur OPenURL : IT…..
 
 .. figure:: media-guide/image.png
    :alt: 
@@ -3583,9 +3630,10 @@ sélectionné.
 .. figure:: media-guide/image311.png
    :alt: 
 
-**Rappel :** vous ne pouvez supprimer que les documents dont vous êtes
-l’auteur, sauf si vous êtes l’administrateur du groupe, vous pouvez
-alors supprimer n’importe quel document de votre groupe.
+.. NOTE::
+   Vous ne pouvez supprimer que les documents dont vous êtes
+   l’auteur, sauf si vous êtes l’administrateur du groupe, vous pouvez
+   alors supprimer n’importe quel document de votre groupe.
 
 Copier/coller un document
 ~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -3616,19 +3664,20 @@ dernier **icône noir et blanc** pour coller.
 .. figure:: media-guide/image313.png
    :alt: 
 
-**Remarques :**
-
--  **Cela évite les doublons**, il n’y alors qu’une version du document
+.. NOTE::
+   Cela évite les doublons, il n’y alors qu’une version du document
    à un seul endroit sur la GoFAST.
 
--  C’est le même principe que de déplacer **en glissant** le document
+.. NOTE::
+   C’est le même principe que de déplacer **en glissant** le document
    d’un emplacement à un autre dans l’arborescence.
 
--  Vous ne pouvez couper/coller des documents **que dans la GoFAST**.
+.. NOTE::
+   Vous ne pouvez couper/coller des documents **que dans la GoFAST**.
    Vous ne pouvez donc pas coller un document externe à la GoFAST, il
    faut le télécharger.
 
-   ​
+   
 
 Propriétés du document
 ~~~~~~~~~~~~~~~~~~~~~~
@@ -3794,7 +3843,7 @@ a) **Voici ce que vous verrez si vous appuyez sur le message vert**
 .. figure:: media-guide/image328.png
    :alt: 
 
-a) **Et voici ce que vous verrez si vous appuyez sur l’enveloppe**
+b) **Et voici ce que vous verrez si vous appuyez sur l’enveloppe**
 
     Vous voyez la liste des messages, les participants (expéditeurs et
     destinataires), la date et l’heure d’envoi et la poubelle pour le
@@ -3803,12 +3852,13 @@ a) **Et voici ce que vous verrez si vous appuyez sur l’enveloppe**
 .. figure:: media-guide/image329.png
    :alt: 
 
-    **Remarque :** si vous cliquez sur l’enveloppe , une punaise rouge
+.. NOTE::
+    Si vous cliquez sur l’enveloppe , une punaise rouge
     apparaît, ce qui fixe la fenêtre avec les messages. Pour la
     débloquer, cliquez ailleurs sur la bande noire du menu, ainsi la
     fenêtre avec la liste des messages se refermera.
 
-    .. figure:: media-guide/image330.png
+.. figure:: media-guide/image330.png
        :alt: 
 
 **Cliquez sur le titre du message pour l’ouvrir.**
@@ -3821,11 +3871,12 @@ Word. Terminez avec « Envoyer le message »
 .. figure:: media-guide/image331.png
    :alt: 
 
-**Remarque** : vous ne pouvez ni ajouter, ni supprimer un participant en
-cours de conversation, ce qui veut dire que si l’échange de mail
-commence entre 2-3 personnes, vous ne pourrez pas y ajouter/supprimer un
-participant lors de vos échanges/réponses. Il n’est donc pas possible
-non plus de transférer un message.
+.. NOTE::
+   Vous ne pouvez ni ajouter, ni supprimer un participant en
+   cours de conversation, ce qui veut dire que si l’échange de mail
+   commence entre 2-3 personnes, vous ne pourrez pas y ajouter/supprimer un
+   participant lors de vos échanges/réponses. Il n’est donc pas possible
+   non plus de transférer un message.
 
 Le service de mails sur GoFAST ne doit pas remplacer votre boîte mail
 traditionnelle (Lotus, Outlook, …) . Il est surtout utile pour converser
@@ -3895,15 +3946,22 @@ Vous voyez aussi si vous avez un **message sur le chat** avec un petit
 carré qui clignote dans le coin droit inférieur de l’écran ou avec une
 pop-up si vous n’êtes pas sur l’écran GoFAST
 
-|image16| ou |image17|
+.. figure:: media-guide/image340.png
+   :alt: 
+   
 
-ou |image18|
+.. figure:: media-guide/image341.png
+   :alt: 
+
+
+.. figure:: media-guide/image342.png
+   :alt: 
 
 Ou d’une manière plus générale, vous verrez aussi un numéro sur l’onglet
 de votre page URL vous indiquant que vous avez un nouveau message (mail
 ou chat)
 
-.. figure:: media-guide/image.png
+.. figure:: media-guide/image403.png
    :alt: 
 
 Vous pouvez alors **commencer la discussion**.
@@ -3949,21 +4007,26 @@ Il y a déjà des données enregistrées par défaut.
 .. figure:: media-guide/image348.png
    :alt: 
 
-a) Si vous voulez ajouter un contact au chat , appuyez sur « \ **Ajouter
+b) Si vous voulez ajouter un contact au chat , appuyez sur « \ **Ajouter
    un contact** » ; une fenêtre s’ouvre où vous pouvez ajouter un nom et
    un pseudo. Terminez avec « Ajouter ».
 
-|image19| |image20|
+.. figure:: media-guide/image349.png
+   :alt:
+   
+.. figure:: media-guide/image350.png
+   :alt:
 
-a) L’ « \ **Aide en ligne** » vous amène à un site externe avec des
+c) L’ « \ **Aide en ligne** » vous amène à un site externe avec des
    explications et des démos
 
-|image21| => [*https://www.jsxc.org/manual.html*
+.. figure:: media-guide/image351.png
+   :alt:
 
 .. figure:: media-guide/image352.png
    :alt: 
 
-a) Pour **rejoindre une discussion** en cours, appuyez sur « Joindre la
+d) Pour **rejoindre une discussion** en cours, appuyez sur « Joindre la
    discussion »
 
 .. figure:: media-guide/image353.png
@@ -3998,7 +4061,7 @@ vidéoconférence, elle sera barrée si ce n’est pas le cas.
 .. figure:: media-guide/image358.png
    :alt: 
 
-.. figure:: media-guide/image.png
+.. figure:: media-guide/image404.png
    :alt: 
 
 Si vous voulez terminer la conversation dans le chat, appuyez sur la
@@ -4102,13 +4165,13 @@ http://gofast-docs.readthedocs.io/fr/latest/docs-gofast-users/doc-gofast-utilisa
 Annexes : Quelques bonnes pratiques
 ===================================
 
-.. IMPORTANT:: Même si GoFAST nécessite de changer un peu ses habitudes,
-il est important que le plus grand nombre fasse l'effort de changer. Les
-gains en temps sont ensuite très importants, tout le monde est alors
-gagnant !
+.. IMPORTANT:: 
+   Même si GoFAST nécessite de changer un peu ses habitudes,
+   il est important que le plus grand nombre fasse l'effort de changer. Les
+   gains en temps sont ensuite très importants, tout le monde est alors
+   gagnant!
 
-**Objectif 1: Diminuer le nombre de mails entre collègues et partenaires
-**
+**Objectif 1: Diminuer le nombre de mails entre collègues et partenaires**
 
 -  Je n'envoie plus de mails avec pièce jointe, mais je mets un
    commentaire sur le document sur GoFAST, toutes les personnes
@@ -4127,8 +4190,7 @@ gagnant !
 -  J’utilise les forums pour mes questions/réponses au lieu des mails =>
    tout le monde partage ses connaissances.
 
-**Objectif 2: Gagner du temps dans la recherche d’information, fichiers
-et autres contenus **
+**Objectif 2: Gagner du temps dans la recherche d’information, fichiers et autres contenus**
 
 -  La totalité des contenus (même cellules d'un tableur, ....) est
    indexé (indexation "plein-texte") et le moteur de recherche est
@@ -4160,8 +4222,7 @@ et autres contenus **
 -  Je ne stocke plus mes documents dans la messagerie car un simple
    glisser-déposer suffit pour les transférer sur GoFAST.
 
-**Objectif 4: Maîtriser les processus de traitement, validation et
-signature des documents **
+**Objectif 4: Maîtriser les processus de traitement, validation et signature des documents**
 
 -  Les processus informels ou les procédures papier souvent inefficaces,
    sont modélisés dans GoFAST => grâce à des circuits de tâches
@@ -4183,27 +4244,4 @@ signature des documents **
    tableur.
 -  Je signe électroniquement les PDF avec certificat sécurisé plutôt que
    de les imprimer pour les signer et les re-scanner.
-
-.. |image0| image:: media-guide/image006.png
-.. |image1| image:: media-guide/image007.png
-.. |image2| image:: media-guide/image108.png
-.. |image3| image:: media-guide/image.png
-.. |image4| image:: media-guide/image.png
-.. |image5| image:: media-guide/image.png
-.. |image6| image:: media-guide/image.png
-.. |image7| image:: media-guide/image135.png
-.. |image8| image:: media-guide/image138.png
-.. |image9| image:: media-guide/image139.png
-.. |image10| image:: media-guide/image147.png
-.. |image11| image:: media-guide/image148.png
-.. |image12| image:: media-guide/image211.png
-.. |image13| image:: media-guide/image212.png
-.. |image14| image:: media-guide/image224.png
-.. |image15| image:: media-guide/image225.png
-.. |image16| image:: media-guide/image340.png
-.. |image17| image:: media-guide/image341.png
-.. |image18| image:: media-guide/image342.png
-.. |image19| image:: media-guide/image349.png
-.. |image20| image:: media-guide/image350.png
-.. |image21| image:: media-guide/image351.png
 
