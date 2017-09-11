@@ -142,10 +142,10 @@ Les données sont stockées dans ``/var``
 Il est recommandé mais non obligatoire de créer une partition pour
 ``/var``
 
-..CAUTION:: 
+.. CAUTION:: 
    Il est recommandé mais non obligatoire de créer une partition pour
-   ``/var/backup`` pour la sauvegarde des données applicatives (ce point de
-   montage devant dans l’idéal être déporté)
+   ``/var/backup`` pour la sauvegarde des données applicatives et ce point de
+   montage devant être déporté
 
 Réseaux et Sécurité
 -------------------
@@ -290,8 +290,8 @@ suivantes sont à effectuer: ::
         # lvextend /dev/VolGroup00/LogVol00 /dev/sda3 {change accordingly by vgdisplay result
         # resize2fs /dev/VolGroup00/LogVol00 {change accordingly by vgdisplay result}
 
-Attention la dernière opération peut prendre entre 30min et 1h30 pour
-une augmentation de 1To
+.. CAUTION::
+   la dernière opération peut prendre entre 30min et 1h30 pour une augmentation de 1To
 
 Installation par script
 -----------------------
