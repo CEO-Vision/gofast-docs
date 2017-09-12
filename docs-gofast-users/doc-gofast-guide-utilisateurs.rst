@@ -4180,6 +4180,10 @@ Annexes : Quelques bonnes pratiques
 
 -  Je n'envoie plus de mails avec pièce jointe à mes contacts n'ayant
    pas de compte GoFAST mais j'utilise la fonction "Partager par email"
+-  Je n'élabore plus un document 'chacun son tour' mais utilise la co-édition OnlyOffice
+
+   - Ceci permet de gagner du temps et limite les erreurs, évite d'avoir à fusionner les sections rédigées par chacun
+
 -  Je n’envoie plus de demandes de tâche ou validation par mail, mais
    j’utilise les ‘’workflows’’ (processus de tâches) pour relecture,
    validation, signature, etc. => tout le monde est notifié, chacun
