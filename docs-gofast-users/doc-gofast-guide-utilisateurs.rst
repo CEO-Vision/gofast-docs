@@ -472,16 +472,7 @@ besoin d’en être membre, vous y avez accès automatiquement.
 
 **Que trouve-t-on dans cet espace Public ?**
 
--  l’ancien contenu de la **Quality Platform** avec tous les processus,
-   les templates, guidelines, checklistes, policies
-
--  le Forum général,
-
--  des pages Intranet,
-
--  les contenus publics et documents officiels de la CTB qui ne se
-   retrouveront pas ailleurs (en état validé en tous cas) : des
-   publications, communications, documents qui concernent toute la CTB.
+Pour le contenus totalement transversal à l'Organisation. On peut également y mettre des forums de support et tout contenus généraux.
 
 .. figure:: media-guide/image033.png
    :alt: 
@@ -1232,13 +1223,9 @@ droits d’administrateur d’espace.
    :alt: 
 
 Ce formulaire s’ouvre, dans lequel vous pouvez soit aller chercher dans
-le LDAP, l’annuaire de la CTB , et certaines les données seront alors
+le LDAP, l’annuaire (AD) de l'Organisation (si le couplage a été fait) , et certaines les données seront alors
 préremplies ; soit remplir à la main avec les données du nouvel
 utilisateur (externe) pour lequel vous créez ce compte.
-
-Il ne faut pas remplir le champ « Mot de passe » car il est défini par
-défaut pour le satff CTB (pareil qu’Intranet) ou il sera autogénéré pour
-des externes.
 
 Terminez par « Enregistrer »
 
