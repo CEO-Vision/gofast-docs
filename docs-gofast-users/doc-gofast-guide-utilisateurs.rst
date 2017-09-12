@@ -1,5 +1,5 @@
 ===========================
-GoFAST : Guide Utilisateurs (TITRE)
+GoFAST : Guide Utilisateurs 
 ===========================
 
 Introduction
@@ -38,7 +38,7 @@ A quoi sert GoFAST?
 ~~~~~~~~~~~~~~~~~~~
 
 C’est une plateforme d’échanges d’information qui permettra à tous les
-collègues de la CTB, aussi bien siège et terrain (et même des externes)
+collègues, aussi bien siège et terrain (et même des externes)
 , de pouvoir gérer/modifier et commenter des documents, partager des
 informations, chatter en direct, échanger des expériences, s’envoyer des
 mails, … Bref, c’est un outil de collaboration moderne et interactif qui
@@ -153,10 +153,6 @@ La première fois que vous vous loguez sur la GoFAST 3.0, il se peut que
 vous arriviez sur une page d’accueil de ce genre, avec un message
 public.
 
-Il suffira de cliquer sur « \ **Accéder au fil d’activité** » dans
-« Activité » à droite de l’écran, pour arriver sur votre fil d’activité
-et la liste des événements dans vos groupes.
-
 .. figure:: media-guide/image002.png
    :alt: 
 
@@ -169,7 +165,8 @@ bas.
 .. figure:: media-guide/image003.png
    :alt: 
 
-    NOTE : Vous pouvez revenir à la page du fil d’activité à tout moment
+.. NOTE::
+    Vous pouvez revenir à la page du fil d’activité à tout moment
     en cliquant sur le symbole GoFAST, dans le coin gauche supérieur.
 
 .. figure:: media-guide/image004.png
@@ -199,24 +196,25 @@ aux fichiers,**
 .. figure:: media-guide/image009.png
    :alt: 
 
--  La 1ere, le « V », permet de sélectionner tous vos dossiers ;
+-  La 1\ :sup:`ere`, le « V », permet de sélectionner tous vos dossiers ;
 
--  La 2eme, le cercle avec les flèches, permet d’actualiser ;
+-  La 2\ :sup:`ème`, le cercle avec les flèches, permet d’actualiser ;
 
--  La 3eme, la flèche ve s le haut, permet de charger un fichier ;
+-  La 3\ :sup:`ème`, la flèche ve s le haut, permet de charger un fichier ;
 
--  La 4eme, un dossier avec un « + », permet de créer un nouveau
+-  La 4\ :sup:`ème`, un dossier avec un « + », permet de créer un nouveau
    dossier ;
 
--  La 5eme, un icône noir et blanc », permet de coller un fichier.
+-  La 5\ :sup:`ème`, un icône noir et blanc », permet de coller un fichier.
 
--  Ces options peuvent varier dès que vous sélectionnez un fichier
+.. NOTE::
+   Ces options peuvent varier dès que vous sélectionnez un fichier
    (couper, coller, suprimer, ..)
 
 Dans l’ensemble, le principe et l’utilisation du fil d’activité reste
 pareil que dans la GoFAST 2, c’est-à-dire qu’il vous donne une **vue
 d’ensemble** sur tout ce qui s’est passé dans vos espaces collaboratifs
-(groupes/organisation/ Public/Extranet)) ; vous pouvez voir les
+(groupes/organisation/ Public/Extranet) ; vous pouvez voir les
 personnes qui ont mis un nouveau document ou modifier un document ou
 commenter un document dans vos espaces collaboratifs, quel type de
 document, où il se trouve, son statut,…
@@ -242,8 +240,8 @@ archivé, validé, …).
 .. figure:: media-guide/image011.png
    :alt: 
 
-Vous pouvez également choisir de masquer ou afficher les « **blog
-messages** » = ce que vous ou les autres écrivent dans **« Partager une
+Vous pouvez également choisir de masquer ou afficher les **« blog
+messages »** = ce que vous ou les autres écrivent dans **« Partager une
 nouvelle »** et qui se retrouvent également dans le fil d’activité. Pour
 ce, appuyez sur « Display blog messages » dans les « Filtrer le fil
 d’activité »
@@ -292,7 +290,7 @@ Mon profil
 .. figure:: media-guide/image017.png
    :alt: 
 
-Vous retrouvez les données vous concernant dans « \ **Mon profil** »,
+Vous retrouvez les données vous concernant dans « **Mon profil** »,
 sous votre nom, à droite de l’écran d’accueil.
 
 Les données de votre profil restent les mêmes que dans GoFAST 2, seule
@@ -327,12 +325,9 @@ verrez d’ailleurs votre nom apparaître.
 
 Vous arriverez sur cette page, appuyez sur « Charger un fichier » pour
 aller chercher votre photo sur votre ordinateur, double-cliquez dessus
-ou cliquez sur OPEN. Vous pourrez l’adapter. Puis « Enregistrez ».
+ou cliquez sur OUVRIR. Vous pourrez l’adapter. Puis « Enregistrez ».
 
 .. figure:: media-guide/image021.png
-   :alt: 
-
-.. figure:: media-guide/image022.png
    :alt: 
 
 Votre photo apparaîtra dès lors dans votre profil et partout où vous
@@ -469,7 +464,7 @@ Par contre, les administrateurs peuvent également configurer l'espace
 public de telle sorte que certains membres de la plateforme puissent
 contribuer aussi à cet espace public: soit la lecture, soit l'écriture.
 
-Pour y accéder, allez dans « \ **Espaces** », « \ **Public **\ ». Pas
+Pour y accéder, allez dans « **Espaces** », « **Public** ». Pas
 besoin d’en être membre, vous y avez accès automatiquement.
 
 .. figure:: media-guide/image032.png
@@ -562,7 +557,7 @@ accès aux documents. (=> non défini)
 Les Organisations (= Départements/Services)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Les espaces collaboratifs appelés « \ **Organisations** » correspondent
+Les espaces collaboratifs appelés « **Organisations** » correspondent
 aux **départements** et **services** selon l'organigramme de votre
 organisation; à ce niveau, vous n’y verrez que ceux auxquels vous
 appartenez (RH, FIN, ….)
@@ -746,7 +741,7 @@ Puis enregistrez.
 Si le document existe déjà ailleurs sur votre PC, vous pouvez l’ajouter
 sur la GoFAST via ce canal-ci également.
 
-Il suffit alors de le télécharger en cliquant sur « \ **Télécharger un
+Il suffit alors de le télécharger en cliquant sur « **Télécharger un
 fichier** » et « Choose File » ; le contenu de votre PC s’ouvre,
 choisissez votre document à migrer ; choisissez l’emplacement dans
 l’arborescence. Puis enregistrez.
@@ -999,7 +994,7 @@ message, une page web, …, pour présenter votre groupe)
 .. figure:: media-guide/image078.png
    :alt: 
 
-a) L’onglet « \ **Activité** » montre les événements qui se passent dans
+a) L’onglet « **Activité** » montre les événements qui se passent dans
    ce groupe : le forum s’il y a des conversations/commentaires ; les
    pages intranet liées ; les contenus/documents les plus consultés dans
    ce groupe ; et les contenus définis avec un état (validé, draft, etc)
@@ -1007,7 +1002,7 @@ a) L’onglet « \ **Activité** » montre les événements qui se passent dan
 .. figure:: media-guide/image079.png
    :alt: 
 
-b) L’onglet « \ **Documents** » montre tous les fichiers qui se trouvent
+b) L’onglet « **Documents** » montre tous les fichiers qui se trouvent
    dans votre groupe, dans la fenêtre au centre de l’écran, et
    l’arborescence par rapport à toute la GoFAST dans la colonne de
    gauche.
@@ -1062,8 +1057,8 @@ Voir aussi"Gestion des documents"
 Création d’un utilisateur
 -------------------------
 
-Voir `Créer un utilisateur dans un
-espace/groupe <#creer_un_utilisateur>`__
+Voir 'Créer un utilisateur dans un
+espace/groupe'
 
 Chaque administrateur d’espace/groupe peut **créer un nouvel
 utilisateur** qu’il rattachera alors directement à ce groupe (et autres
@@ -1286,12 +1281,12 @@ seule). Par défaut, ils seront abonnés à ce/ces groupes, donc n’oubliez
 pas de choisir NON sous « subscription » si vous ne voulez pas qu’ils
 reçoivent automatiquement les notifications liées à ce(s) groupe(s).
 
-Terminez par « \ **Appliquer **\ »
+Terminez par « **Appliquer** »
 
 .. figure:: media-guide/image103.png
    :alt: 
 
-La 2eme partie « \ **Mettre à jour** » permet de gérer les utilisateurs
+La 2eme partie «**Mettre à jour** » permet de gérer les utilisateurs
 déjà membres de ce groupe et donc soit de les supprimer, soit de changer
 leur rôle.
 
@@ -1356,7 +1351,7 @@ a) Une page d’\ **Accueil **;
 .. figure:: media-guide/image106.png
    :alt: 
 
-b) Un onglet « \ **Activité **\ », où vous avez une vue d’ensemble de ce
+b) Un onglet « **Activité** », où vous avez une vue d’ensemble de ce
    qui se passe dans ce groupe ;
 
 .. figure:: media-guide/image107.png
@@ -1698,7 +1693,7 @@ suivante, etc.
 .. figure:: media-guide/image377.png
    :alt: 
 
-Le premier icône, (carré gris et noir) « \ **Toggle sidebar** », permet
+Le premier icône, (carré gris et noir) « **Toggle sidebar** », permet
 de voir les « slides/pages » que comprend le document. Vous pouvez ainsi
 aller directement sur la page souhaitée. Ce même icône donne accès à 3
 autres options **« Show thumbnails », « Show document outline », « Show
@@ -1718,7 +1713,7 @@ précédente ou suivante
 .. figure:: media-guide/image380.png
    :alt: 
 
-«**Page **» et les numéros permettent de voir combien de pages
+«**Page**» et les numéros permettent de voir combien de pages
 comprend le document et vous pouvez changer le numéro pour atteindre la
 page souhaitée
 
@@ -1765,7 +1760,7 @@ fonctionnalités PDF associées
    :alt: 
 
 Et enfin, le dernier icône avec les 2 flèches vers la droites ouvrent
-d’autres options, dont « \ **Enable hand tool** », la petite main qui
+d’autres options, dont « **Enable hand tool** », la petite main qui
 permet notamment de monter/descendre dans un PDF sans utiliser le
 curseur.
 
@@ -1850,7 +1845,7 @@ Renommer un document
 ~~~~~~~~~~~~~~~~~~~~
 
 Si vous en avez les droits ou en êtes l’auteur, vous pouvez renommer un
-fichier via l’ action contextuelle : « \ **Rename **\ ».
+fichier via l’ action contextuelle : «**Rename**».
 
 Changez le nom dans la case blanche et « Appliquez »
 
@@ -2105,7 +2100,7 @@ enregistrées sur la GoFAST et donc visibles à tous les membres de ce
 groupe. C’est ce qu’on appelle la synchronisation.
 
 Allez dans le menu des fonctionnalités/actions contextuelles de la
-prévisualisation et cliquez sur « \ **Editer en ligne** »…
+prévisualisation et cliquez sur « **Editer en ligne** »…
 
     .. figure:: media-guide/image157.png
        :alt: 
