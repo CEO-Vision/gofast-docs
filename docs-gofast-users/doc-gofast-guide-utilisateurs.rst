@@ -84,7 +84,7 @@ mémos, etc.
 
 -  Navigateurs préférentiels : **Firefox ou Chrome.** Mais fonctionne
    également sur les versions récentes d’Internet Explorer 11 (sauf
-   webconference), Edge, en plus d’Opera et Safari.
+   webconference), Edge, en plus d’Opera et Safari. 
 
 -  Une connexion relativement bonne est nécessaire : téléchargement de
    512 kbits/s min. et 256kbps upload . Vous pouvez d'ailleurs tester
@@ -343,10 +343,12 @@ mettre de vraies photos de profil) .
 
 Les Espaces collaboratifs
 -------------------------
+Avant de pouvoir déposer les fichiers et les documents sur la plateforme GoFAST, 
+assurez-vous de créer de bons espaces et sous-espaces collaboratifs de type Organisation,
+Groupe, Extranet! 
 
 Les espaces collaboratifs sont un ensemble de fichiers seulement
-accessible par des membres définis. Ces membres ont des rôles différents
-:
+accessibles par des membres définis. Ces membres ont des rôles différents:
 
 -  Administrateur : il peut ajouter, retirer des membres, créer des
    sous-espaces, supprimer des contenus dont il n'est pas l'auteur
@@ -372,7 +374,7 @@ soulignement devant le nom de l'espace, ex.: ``_ProjetA``
 
 Chaque espace peut contenir un ou plusieurs sous espaces. Dans ce cas il
 est possible d'avoir un sous-ensemble de membres dans les sous-espaces
-afin de restreindre encore les accès. Plus vous descendez dans
+afin de restreindre encore plus les accès aux contenus. Plus vous descendez dans
 l'arborescence, moins il y a potentiellement de membres.
 
 .. NOTE::
@@ -385,7 +387,7 @@ Notion de partage de contenus entre espaces
 
 .. IMPORTANT::
    Pour qu'un document se retrouve dans plusieurs espaces (et
-   bien sûr dans doublons), il est **partagé** en changeant sa visibilité
+   bien sûr sans doublons), il est **partagé** en changeant sa visibilité
    (sur la page sur document)
 
 .. figure:: media-guide/image369.png
