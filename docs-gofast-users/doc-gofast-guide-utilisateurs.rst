@@ -373,11 +373,12 @@ soulignement devant le nom de l'espace, ex.: ``_ProjetA``
 Chaque espace peut contenir un ou plusieurs sous espaces. Dans ce cas il
 est possible d'avoir un sous-ensemble de membres dans les sous-espaces
 afin de restreindre encore les accès. Plus vous descendez dans
-l'arborescence, moins il y a potentiellement de membre.
+l'arborescence, moins il y a potentiellement de membres.
 
-Les espaces peuvent contenir des répertoires. Ces répertoires possèdent
-les même droits que l'espace immédiatement au dessus. On ne peut donc
-pas choisir des membres.
+.. NOTE::
+   Les espaces peuvent contenir des répertoires. Ces répertoires possèdent
+   les même droits que l'espace immédiatement au dessus. On ne peut donc
+   pas choisir des membres.
 
 Notion de partage de contenus entre espaces
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
