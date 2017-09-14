@@ -30,9 +30,9 @@ GoFAST, fruit de plusieurs années de développement, est une puissante
 plateforme collaborative et de gestion documentaire. GoFAST est basée
 sur les technologies Opensource les plus reconnues du marché dont
 Alfresco, Drupal, Bonitasoft et bien d'autres. GoFAST est reconnue comme
-étant une des plateformes collaboratives les plus intuitives du marché.
+étant une des plateformes collaboratives les plus intuitives.
 Enfin, GoFAST est hébergé dans votre organisation garantissant le
-meilleur niveau de confidentialité et de sécurité.
+*meilleur niveau de confidentialité* et de sécurité.
 
 A quoi sert GoFAST?
 ~~~~~~~~~~~~~~~~~~~
@@ -56,7 +56,7 @@ mais aussi la gestion documentaire.
 Objectifs et avantages de la GoFAST
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--  Favoriser le travail collaboratif (jusqu'à la co-édition) et
+-  Favoriser le travail collaboratif (jusqu'à la co-édition simultannée) et
    l’échange d’informations
 -  Diminuer le nombre d’emails internes et supprimer les emails avec des
    pièces jointes (problèmes de quota, mauvaises versions)
@@ -85,11 +85,14 @@ mémos, etc.
 -  Navigateurs préférentiels : **Firefox ou Chrome.** Mais fonctionne
    également sur les versions récentes d’Internet Explorer 11 (sauf
    webconference), Edge, en plus d’Opera et Safari. 
+   
+-  Système d'exploitation Windows7 et plus, MacOS et Linux (Ubuntu) et en mobilité Android ou iOS
 
 -  Une connexion relativement bonne est nécessaire : téléchargement de
    512 kbits/s min. et 256kbps upload . Vous pouvez d'ailleurs tester
    directement votre connexion via ce lien http://www.speedtest.net/
    (http://beta.speedtest.net/)
+   
 
 Quoi de neuf en GoFAST v3
 -------------------------
@@ -126,6 +129,7 @@ On peut rapidemment noter :
    métadonnées sans recharger la page
 -  d'un nouvel outil de messagerie instantannée / chat pouvant même être
    utilisé sur un smartphone
+-  les téléversements en masse ne pénalisent plus ceux qui mettent un seul document
 -  d’une version néerlandophone
 
 Les Bases
