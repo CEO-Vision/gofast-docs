@@ -222,7 +222,7 @@ et en sortie.
 
 \* si les ports udp ne peuvent être ouverts 
 \*\* au minimum le port 10000 
-\*\*\* pour la video/desktopsharing dans le chat
+\*\*\* pour la video/desktopsharing dans le chat (où éventuellement la plage 49152-65535/UDP si Skype est utilisé)
 
 .. figure:: media/image6.PNG
    :alt: 
