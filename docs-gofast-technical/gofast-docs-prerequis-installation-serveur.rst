@@ -237,6 +237,7 @@ Un diagnostic réseau est possible ici : https://www.netscan.co/  (cliquer sur "
 .. NOTE::
  Contrairement au videochat, jitsi-meet ne nécessite pas de serveur STUN. 
 
+.. figure:: media/jitsi-meet-diagram.png
 
 Installation
 ============
