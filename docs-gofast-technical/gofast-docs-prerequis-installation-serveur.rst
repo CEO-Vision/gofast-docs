@@ -234,6 +234,8 @@ Le fonctionnement Webrtc est décrit ici : https://developer.mozilla.org/fr/docs
 
 Un diagnostic réseau est possible ici : https://www.netscan.co/  (cliquer sur "Scan my Network", le diagnostic est stocké sous forme d'une URL https://www.netscan.co/r/ayiIL )
 
+..NOTE::
+ Contrairement au videochat, jitsi-meet ne nécessite pas de serveur STUN. 
 
 
 Installation
