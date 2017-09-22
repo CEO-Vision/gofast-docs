@@ -226,6 +226,15 @@ et en sortie.
 
 .. figure:: media/image6.PNG
    :alt: 
+   
+Ressources WebRTC
+----------------------------
+
+Le fonctionnement Webrtc est décrit ici : https://developer.mozilla.org/fr/docs/Web/Guide/API/WebRTC/WebRTC_architecture
+
+Un diagnostic réseau est possible ici : https://www.netscan.co/  (cliquer sur "Scan my Network", le diagnostic est stocké sous forme d'une URL https://www.netscan.co/r/ayiIL )
+
+
 
 Installation
 ============
