@@ -2177,7 +2177,7 @@ la prévisualisation et appuyez sur l’option «  Editer avec OnlyOfice »
 
 .. NOTE::
    Nous vous recommandons dans tous les cas de plutôt utiliser les
-   formats ouvets et plus récents .docx, .xlsx, .pptx et leurs équivalents
+   formats ouverts et plus récents .docx, .xlsx, .pptx et leurs équivalents
    normalisés .odt, ...
    
 Ce message apparaît, cliquez sur « Continuer »
