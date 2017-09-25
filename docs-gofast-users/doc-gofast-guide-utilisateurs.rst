@@ -812,15 +812,18 @@ Configurer le "Lecteur Réseau"
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Faire un clic-droit sur "Ce PC" et choisir "Connecter un lecteur réseau"
+
 .. figure:: media-guide/config-win-webdav1.png
    :alt: 
    
 Entrer l'adresse pointant vers votre GoFAST, ex. ``\\gofast.ceo-vision.com@SSL\alfresco\webdav\``
+
 .. figure:: media-guide/config-win-webdav2.png
    :alt: 
 Une boite de dialogue s'ouvrira ensuite dans laquelle vous devrez entrer vos identifiants / mot de passe GoFAST
   
 Une fois cette opération faite, vous pouvez voir GoFAST comme un "Lecteur Réseau" et faire toute opération, commme des copier-coller de documents ou de réperoires entiers.  
+
 .. figure:: media-guide/copier-coller-webdav.png
    :alt:
 
