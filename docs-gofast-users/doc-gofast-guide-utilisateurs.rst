@@ -829,7 +829,7 @@ Une fois cette opération faite, vous pouvez voir GoFAST comme un "Lecteur Rése
 
 Vous pouvez faire toute opération, commme des copier-coller de documents ou de répertoires entiers.  
 
-..CAUTION:: Vous ne pouvez pas faire d'opérations sur les Espaces (commençant par un _)
+.. CAUTION:: Vous ne pouvez pas faire d'opérations sur les Espaces (commençant par un _)
 
 .. figure:: media-guide/copier-coller-webdav.png
    :alt:
