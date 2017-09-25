@@ -822,7 +822,14 @@ Entrer l'adresse pointant vers votre GoFAST, ex. ``\\gofast.ceo-vision.com@SSL\a
    :alt: 
 Une boite de dialogue s'ouvrira ensuite dans laquelle vous devrez entrer vos identifiants / mot de passe GoFAST
   
-Une fois cette opération faite, vous pouvez voir GoFAST comme un "Lecteur Réseau" et faire toute opération, commme des copier-coller de documents ou de réperoires entiers.  
+Une fois cette opération faite, vous pouvez voir GoFAST comme un "Lecteur Réseau", alors la même arborescence
+
+.. figure:: media-guide/webdav-gofast.png
+   :alt:
+
+Vous pouvez faire toute opération, commme des copier-coller de documents ou de répertoires entiers.  
+
+..CAUTION:: Vous ne pouvez pas faire d'opérations sur les Espaces (commençant par un _)
 
 .. figure:: media-guide/copier-coller-webdav.png
    :alt:
