@@ -805,15 +805,17 @@ Vous pouvez à tout instant glisser un document vers GoFAST, soit sur la page d'
    :alt:
 
 Ajouter un ou plusiers documents par le "Lecteur Réseau"
----------------------------------------
+--------------------------------------------------------
 Pour utiliser l'explorateur Windows (ou Explorer sous MAC) vous devez configurer celui-ci pour qu'il accède à GoFAST.
 
 Configurer le "Lecteur Réseau"
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Faire un clic-droit sur "Ce PC" et choisir "Connecter un lecteur réseau"
 .. figure:: media-guide/config-win-webdav1.png
    :alt: 
    
-Entrer l'adresse pointant vers votre GoFAST, ex. \\gofast.ceo-vision.com@SSL\alfresco\webdav\
+Entrer l'adresse pointant vers votre GoFAST, ex. ``\\gofast.ceo-vision.com@SSL\alfresco\webdav\``
 .. figure:: media-guide/config-win-webdav2.png
    :alt: 
 Une boite de dialogue s'ouvrira ensuite dans laquelle vous devrez entrer vos identifiants / mot de passe GoFAST
