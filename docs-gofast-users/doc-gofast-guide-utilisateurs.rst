@@ -796,6 +796,31 @@ de votre nouveau document.
 
 .. figure:: media-guide/image058.png
    :alt: 
+   
+Ajouter un ou plusieurs documents par glisser-déposer
+---------------------------------------
+Vous pouvez à tout instant glisser un document vers GoFAST, soit sur la page d'accueil soit dans l'explorateur de fichiers.
+
+.. figure:: media-guide/glisser-deposer-ithit.png
+   :alt:
+
+Ajouter un ou plusiers documents par le "Lecteur Réseau"
+---------------------------------------
+Pour utiliser l'explorateur Windows (ou Explorer sous MAC) vous devez configurer celui-ci pour qu'il accède à GoFAST.
+
+Configurer le "Lecteur Réseau"
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.. figure:: media-guide/config-win-webdav1.png
+   :alt: 
+   
+Entrer l'adresse pointant vers votre GoFAST, ex. \\gofast.ceo-vision.com@SSL\alfresco\webdav\
+.. figure:: media-guide/config-win-webdav2.png
+   :alt: 
+Une boite de dialogue s'ouvrira ensuite dans laquelle vous devrez entrer vos identifiants / mot de passe GoFAST
+  
+Une fois cette opération faite, vous pouvez voir GoFAST comme un "Lecteur Réseau" et faire toute opération, commme des copier-coller de documents ou de réperoires entiers.  
+.. figure:: media-guide/copier-coller-webdav.png
+   :alt:
 
 Création d’une page Intranet
 ----------------------------
