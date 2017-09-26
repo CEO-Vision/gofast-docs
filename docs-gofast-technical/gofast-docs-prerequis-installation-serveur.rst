@@ -225,7 +225,7 @@ et en sortie.
 |  \*\*\* pour la video/desktopsharing dans le chat 
 
 .. CAUTION:: 
-   Le port 10000/udp en sortie du PC doit être ouvert (ou le 4443/tcp avec une perte de qualité). Ceci peut poser des problèmes sur certains réseaux WAN
+   Le port 10000/udp en sortie du PC doit être ouvert (ou le 4443/tcp avec une perte de qualité). Ceci peut poser des problèmes sur certains réseaux WAN par exemple des sites distants connectés au siège où se trouve le serveur GoFAST
 
 .. figure:: media/image6.PNG
    :alt: 
