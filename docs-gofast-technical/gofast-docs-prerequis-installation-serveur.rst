@@ -405,8 +405,8 @@ Installation de l'agent PHP (monitoring applicatif)
         # killall newrelic-daemon
         # service php-fpm restart
 
-Dans les logs  ``tail -f /var/log/newrelic/php_agent.log``  ::
-
+Dans les logs  ``tail -f /var/log/newrelic/php_agent.log``  
+::
 2017-10-08 11:08:32.184 +0200 (30630 30630) info: New Relic 7.5.0.199 ("vaughan" - "00258123e757") [daemon='@newrelic-daemon'  php='5.6.31' zts=no sapi='fpm-fcgi'  pid=30630 ppid=1 uid=0 euid=0 gid=0 egid=0 backtrace=yes startup=agent os='Linux' rel='3.10.0-693.2.2.el7.x86_64' mach='x86_64' ver='#1 SMP Tue Sep 12 22' node='BSGOFASTPROD02.botanic.com']
 2017-10-08 11:08:32.185 +0200 (30630 30630) info: spawned daemon child pid=30631
 
