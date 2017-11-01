@@ -157,8 +157,8 @@ La **plate-forme GoFAST ne fonctionne qu'avec un certificat « serveur »
 délivré par une autorité de certification.** Le certificat doit être au
 format ``.pem``, ou\ ``.crt`` et ``.key``
 
-.. NOTE::
-   Il est fortement recommandé de fournir un certificat « wildcard »
+.. CAUTION::
+   Le certificat doit être de type « wildcard »
 
 .. NOTE::
    Si GoFAST n’est accessible qu'en Intranet, le certificat peut
