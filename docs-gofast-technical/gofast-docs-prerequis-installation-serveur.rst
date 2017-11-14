@@ -140,12 +140,18 @@ Partitionnement optionnel
 Les données sont stockées dans ``/var``
 
 Il est recommandé mais non obligatoire de créer une partition pour
-``/var``
+``/var``.
+.. CAUTION:: 
+   Si la partition ``/var`` est sur un stockage distant (NAS, SAN, ...) ceci ne doit 
+   entrainer une forte dégradations des performances (IOPS) par rapport à un stockage local
 
 .. CAUTION:: 
    Il est recommandé mais non obligatoire de créer une partition pour
    ``/var/backup`` pour la sauvegarde des données applicatives et ce point de
    montage devant être déporté
+   
+.. CAUTION::  
+   La partition ``swap`` doit être au moins égale à 50% de la mémoire physique de la machine
 
 Réseaux et Sécurité
 -------------------
