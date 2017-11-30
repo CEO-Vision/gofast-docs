@@ -322,7 +322,7 @@ Installation par script
 A noter que ce type d’installation engendre un coût supplémentaire
 (facturation en régie).
 
-Dans ce cas, une VM avec Centos 7 est mise à disposition de CEO-Vision
+Dans ce cas, une VM avec Centos 7 x64 Minimal est mise à disposition de CEO-Vision
 qui fait ensuite une installation par script.
 
 Post-installation de la VM
