@@ -87,7 +87,6 @@ GoFAST. Si oui ces documents sont copiés localement.
           fait des modifications entre-temps sur la GoFAST. Dans ce cas une «
           gestion des conflits » se déclenche (voir ci dessous)
 
-|image8|
 
 
 Exemple de notification (version anglaise)
