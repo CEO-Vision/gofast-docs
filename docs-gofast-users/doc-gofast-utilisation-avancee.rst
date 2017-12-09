@@ -39,8 +39,7 @@ Installation CMISSync
 L'outil est disponible pour Windows, Mac (beta) et Linux et peut être
 téléchargé ici : https://bitbucket.org/aegif/cmissync/downloads
 
-La version actuelle Windows recommandée\* est la **2.5.6.0 (1 Sept
-2015)**
+La version actuelle Windows recommandée\* est la **2.9.4.0**
 
 Voici les étapes pour configurer l'outil (**myorg** est à remplacer par
 le nom de votre organisation)
@@ -224,6 +223,8 @@ GoFAST permet d'ouvrir un PDF avec Foxit Reader (ou Acrobat), d'y apposer une si
 directement sur la plateforme GoFAST.
 
 .. NOTE:: Vous devez avoir installé "ITHitEditDocumentOpener"
+
+Vous pouvez alors choisir dans le menu 'Editer en ligne'. Ceci ouvrira le client installé sur votre poste (Acrobat Reader, Foxit, ...). Vous pouvez alors signer avec une signature manuscrite ou un certificat électronique puis sauvegarder directement sur GoFAST avec versionning.
 
 |image17|
 
