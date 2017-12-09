@@ -39,7 +39,7 @@ Installation CMISSync
 L'outil est disponible pour Windows, Mac (beta) et Linux et peut être
 téléchargé ici : https://bitbucket.org/aegif/cmissync/downloads
 
-La version actuelle Windows recommandée\* est la **2.9.4.0**
+La version actuelle Windows recommandée\* est la **2.9.4.0** ou 2.11.3.0 (en cours de tests)
 
 Voici les étapes pour configurer l'outil (**myorg** est à remplacer par
 le nom de votre organisation)
