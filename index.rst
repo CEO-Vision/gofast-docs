@@ -1,7 +1,7 @@
 Documentation GoFAST
 ####################
 
-. _release-docs:
+.. _release-docs:
 
 .. toctree::
    :maxdepth: 1
