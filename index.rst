@@ -17,6 +17,7 @@ Documentation GoFAST
    
    docs-gofast-technical/gofast-exploitation
    docs-gofast-technical/gofast-docs-prerequis-installation-serveur
+   docs-gofast-users/gofast-docs-problemes-connus
    
 .. _users-docs:
 
