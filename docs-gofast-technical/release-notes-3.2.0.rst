@@ -23,7 +23,7 @@ Améliorations
 Correction des bugs
 ############################################
 
-HOTFIX
+     HOTFIX
 **********************
 .. csv-table::  
    :header: "Ref.", "Description", "Catégorie"
@@ -41,7 +41,8 @@ HOTFIX
    "[3957]", "[HOTFIX]Quand on clique sur un menu d'un document, on est parfois redirigé vers l'URL au lieu d'avoir une modale", "Affichage"
    "[3959]", "La liste des workflows n'apparait pas", "Workflow"
 
-Bugs majeurs
+
+     Bugs majeurs
 **********************
 .. csv-table::  
    :header: "Ref.", "Description", "Catégorie"
@@ -60,7 +61,8 @@ Bugs majeurs
    "[3934]", "Le changement de nom/prénom n'est pas pris en compte dans les paramètres d'affichage des noms", "Utilisateur"
    "[3883]", "La régle de prévention des modifications/suppressions des dossiers d'espaces : mal créé en production", "Règles de prévention"
 
-Bugs mineurs
+
+     Bugs mineurs
 **********************
 .. csv-table::  
    :header: "Ref.", "Description", "Catégorie"
