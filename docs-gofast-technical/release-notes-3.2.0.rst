@@ -56,10 +56,10 @@ Correction des bugs
    "[3934]", "Le changement de nom/prénom n'est pas pris en compte dans les paramètres d'affichage des noms", "Utilisateur"
    "[3883]", "La régle de prévention des modifications/suppressions des dossiers d'espaces : mal créé en production", "Règles de prévention"
 
-.. csv-table:: Bugs mineurs 
+.. csv-table:: Bugs mineurs
    :header: "Ref.", "Description", "Catégorie"
    :widths: 10, 40, 10
-
+   
    "[3265]", "Lors de la mise à jour d'un document, problème d'affichage des annotations", "Commentaire"
    "[3439]", "Problème d'ajout d'un tag lors de la gestion en masse de la Taxonomie", "Tag"
    "[3532]", "Problème d'affichage du champs poste dans la carte de visite de l'annuaire", "Annuaire"
@@ -75,3 +75,4 @@ Correction des bugs
    "[3937]", "Problème de synchronisation d'un nom d'espace avec son dossier dans l'explorateur de fichiers", "Explorateur de fichiers"
    "[3946]", "Déplacer un sous-espace est partiellement fonctionnel : Temps de synchronisation long", "Temps d'attente"
    "[3949]", "Eviter les collisions lorsque plusieurs modifications sont faite simultanément", "Modification document"
+
