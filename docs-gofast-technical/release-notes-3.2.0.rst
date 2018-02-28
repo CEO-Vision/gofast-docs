@@ -7,7 +7,7 @@ Bugs
 
 .. csv-table:: BLOCKER
    :header: "Ref.", "Description", "Catégorie"
-   :widths: 40, 60, 20, 10
+   :widths: 20, 60, 20, 10
    
    "[GOFAST-3069]", "Lors d'une recherche, aucun résultat ne s'affiche", "Recherche", "[BLOCKER]"
    "[GOFAST-3074]", "[BLOCKER]Document non trouvé, après un clic pour mener au répertoire concerné", "Explorateur de fichiers"
