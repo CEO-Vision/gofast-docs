@@ -15,7 +15,7 @@ Nouvelles fonctionnalités
 
 Un nouvel onglet "Statistiques" est maintenant intégré dans la page d'accueil des espaces. Cette nouvelle fonctionnalité permet de gérer l'activité des membres actifs et inactifs. 
 
-.. figure:: media-guide/Statistiques.jpg
+.. figure:: gofast-docs/docs-gofast-users/media-guide/Statistiques.jpg
    :alt:
     
     
