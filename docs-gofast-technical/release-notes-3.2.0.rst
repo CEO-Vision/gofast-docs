@@ -19,7 +19,7 @@ Un nouvel onglet "Statistiques" est maintenant intégré dans la page d'accueil 
 .. figure:: media/Statistiques.png
    :alt:
    
-Lorsque vous êtes Administrateur de la plate-forme, dans le menu utilisateur vous avez un menu appelé "Statistiques", il vous permet alors de visualiser toutes les statistiques documentaires liées à un Espace et ainsi pouvoir choisir selectionner le Groupe et le Répertoire dont vous souhaitez extraire une liste de documents.
+Lorsque vous êtes Administrateur de la plate-forme, de nouveaux menus apparaissent tel que "Statistiques". Ce menu vous permet alors de visualiser toutes les statistiques documentaires liées à un Espace et ainsi pouvoir choisir et selectionner le Groupe et le Répertoire dont vous souhaitez extraire une liste de documents.   
 Voir Copie d'Ecran ci-dessous 
 
 .. figure:: media/Export_liste_documents.png
