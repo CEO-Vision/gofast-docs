@@ -121,4 +121,4 @@ Bugs mineurs
    "[3937]", "Problème de synchronisation d'un nom d'espace avec son dossier dans l'explorateur de fichiers", "Explorateur Web"
    "[3946]", "Déplacer un sous-espace est partiellement fonctionnel : Temps de synchronisation long", "Temps d'attente"
    "[3949]", "Eviter les collisions lorsque plusieurs modifications sont faite simultanément", "Modification document"
-
+ 
