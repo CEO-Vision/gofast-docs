@@ -17,14 +17,20 @@ Un nouvel onglet "Statistiques" est maintenant intégré dans la page d'accueil 
 
 .. figure:: media/Statistiques.png
      
-Il est maintenant possible dans la version 3.2.0 de GoFAST de pouvoir faire un export de liste de documents
+Lorsque vous êtes Administrateur de la plate-forme, dans le menu utilisateur vous avez un menu appelé "Statistiques", il vous permet alors de visualiser toutes les statistiques documentaires liées à un Espace et ainsi pouvoir choisir selectionner le Groupe et le Répertoire dont vous souhaitez extraire une liste de documents.
+Voir Copie d'Ecran ci-dessous 
 
-.. figure:: media/Statistiques.png
+.. figure:: media/Export_liste_documents.png
    :alt:
 
-Jusqu'à aujourd'hui, la gestion des listes utilisateurs et la gestion des droits d'accès se faisait manuellement. Il est maintenant possible de pouvoir Importer une liste utilisateurs dans GoFAST avec la gestion des permissions pour chacun dans les organisations, groupes et sous-groupes. 
+Jusqu'à aujourd'hui, la gestion des listes utilisateurs et la gestion des droits d'accès se faisait partiellement de manière manuelle. Il est maintenant possible de pouvoir travailler une liste d'utilisateurs et la gestion des membres par espace directement depuis un fichier Excel. Il est possible d'ainsi d'importer comme exporter ce document, que GoFAST va traiter par la suite automatiquement. Cette gestion des utilisateurs est faite par Espace.
+Trois types de fonctions est possible : 
 
-.. figure:: media/Statistiques.png
+Plusieurs options sont possibles : 
+- Extraction d'un fichier simple (vous retrouvez la gestion des membres par groupe et sous-groupes rattachés à l'Espace selectionné). 
+- Extraction d'un fichier complet (tous les utilisateurs, membres ou non de l'espace selectionné sont traités et affichés dans le fichier Excel). 
+
+.. figure:: media/Export_listes_utilisateurs_droits.png
    :alt:
 
 
