@@ -16,7 +16,7 @@ Nouvelles fonctionnalités
 
 Nouvel onglet dans les espaces : "Statistiques"
 **********************
-Un nouvel onglet "Statistiques" est maintenant intégré dans la page d'accueil des espaces. Cette nouvelle fonctionnalité permet de gérer l'activité des membres actifs et inactifs. 
+Un nouvel onglet "Statistiques" est maintenant intégré dans la page d'accueil des espaces. Cette nouvelle fonctionnalité permet de visualiser l'activité des membres actifs et inactifs. 
 
 .. figure:: media/Statistiques.png
    :alt:
