@@ -275,7 +275,7 @@ Exportation des listes de documents
 ^^^^^^^^^^^^^
 Sous le profil Administrateur de la plate-forme, de nouveaux menus apparaissent tel que « **Statistics** ». Vous retrouvez ce nouveau sous-menus sous votre Menu Utilisateur. Cette fonctionnalité vous permet alors de visualiser les différentes statistiques découpées en 3 catégories. 
 
-.. figure:: media-guide/menu-statistics-export-liste-docs.png
+.. figure:: media-guide/Menu-statistics-export-liste-docs.png
    :alt:
 
 Depuis ce nouveau menu, vous visualisez toutes les statistiques utilisateurs, documentaires et d'espaces. Vous devez cliquer sur l'onglet « **Statistiques documentaires** », afin d'accéder au menu qui permet d'exporter une liste de documents. 
