@@ -68,7 +68,7 @@ Correction des bugs
    "[3861]", "Filtres persistants dans l'annuaire utilisateur", "Annuaire"
    "[3869]", "Problème de navigation dans le forum", "Forum"
    "[3873]", "Problème des liens URL générés dans les workflow", "Workflow"
-   "[3894]", "Le clic "renommer dossier" fait disparaître le texte (nom du dossier)", "Renommer"
+   "[3894]", "Le clic -Renommer Dossier- fait disparaître le texte (nom du dossier)", "Renommer"
    "[3904]", "Problème de la pré-visualisation du format Office", "Pré-visualisation"
    "[3921]", "Problème de suppression d'un message privé. Réapparait quand on raffraichit la page", "Chat"
    "[3925]", "Pas le bon avatar affiché lorsqu'une action est faite par un autre utilisateur", "Utilisateur"
