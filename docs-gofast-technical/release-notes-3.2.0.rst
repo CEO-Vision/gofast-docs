@@ -10,8 +10,8 @@ Nouvelles fonctionnalités
    :widths: 10, 40, 10
    
    "[2703]", "Nouvel onglet dans les espaces : Système de statistiques", "Onglet"
-   "[3718]", "Développement de l'Export de listes des documents", "Export liste"
-   "[3835]", "Développement de l'Export/Import de listes utilisateurs avec gestion des permissions", "Export liste"
+   "[3718]", "Export de listes des documents sur GoFAST", "Export liste"
+   "[3835]", "Export/Import de listes utilisateurs avec gestion des permissions", "Export liste"
 
 
 Nouvel onglet dans les espaces : "Statistiques"
