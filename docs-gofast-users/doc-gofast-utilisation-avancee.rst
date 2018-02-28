@@ -262,7 +262,7 @@ Nous parlerons ici de la configuration de Scanbot dont l'utilisation est simplif
 
 |image13|
 
-Dématérialisser à partir d'un copieur multi-fonction
+Dématérialiser à partir d'un copieur multi-fonction
 ----------------------------------------------------
 
 Pour ceci votre copieur doit posséder un connecteur webdavs. Nous contacter pour plus de précisions
