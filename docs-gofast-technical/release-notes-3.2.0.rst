@@ -16,20 +16,21 @@ Nouvelles fonctionnalités
 Un nouvel onglet "Statistiques" est maintenant intégré dans la page d'accueil des espaces. Cette nouvelle fonctionnalité permet de gérer l'activité des membres actifs et inactifs. 
 
 .. figure:: media/Statistiques.png
-   :alt:
-
-    
+   :alt:
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    
 Il est maintenant possible dans la version 3.2.0 de GoFAST de pouvoir faire un export de liste de documents
 
+.. figure:: media/
+   :alt:
 
-
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Jusqu'à aujourd'hui, la gestion des listes utilisateurs et la gestion des droits d'accès se faisait manuellement. Il est maintenant possible de pouvoir Importer une liste utilisateurs dans GoFAST avec la gestion des permissions pour chacun dans les organisations, groupes et sous-groupes. 
 
-d
+.. figure:: media/
+   :alt:
 
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
 Améliorations
 ############################################
 
@@ -47,7 +48,7 @@ Améliorations
    "[3929]", "Amélioration des retours d'erreurs et de réussites lors des opérations unitaires ou en masse", "Retour"
    
 
-
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Correction des bugs
 ############################################
 
@@ -70,7 +71,7 @@ HOTFIX
    "[3959]", "La liste des workflows n'apparait pas", "Workflow"
 
 
-
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Bugs majeurs
 **********************
 .. csv-table::  
