@@ -23,7 +23,7 @@ Améliorations
 Correction des bugs
 ############################################
 
-     HOTFIX
+HOTFIX
 **********************
 .. csv-table::  
    :header: "Ref.", "Description", "Catégorie"
@@ -42,7 +42,7 @@ Correction des bugs
    "[3959]", "La liste des workflows n'apparait pas", "Workflow"
 
 
-     Bugs majeurs
+Bugs majeurs
 **********************
 .. csv-table::  
    :header: "Ref.", "Description", "Catégorie"
@@ -62,7 +62,7 @@ Correction des bugs
    "[3883]", "La régle de prévention des modifications/suppressions des dossiers d'espaces : mal créé en production", "Règles de prévention"
 
 
-     Bugs mineurs
+Bugs mineurs
 **********************
 .. csv-table::  
    :header: "Ref.", "Description", "Catégorie"
