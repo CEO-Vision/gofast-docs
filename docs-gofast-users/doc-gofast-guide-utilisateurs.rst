@@ -1121,7 +1121,7 @@ Vous avez la possibilité d'informer une Date de début et de Fin de la confére
 le lieu où se déroulera la visio-conférence et la possibilité de choisir les participants
 par Espace.
 
-Concernant le choix des participants par Espace, par exemple, vous avez la possibilité
+Par exemple, concernant le choix des participants par Espace, vous avez la possibilité
 d'inviter tous les membres liés à l'Espace Commercial. 
 
 .. figure:: media-guide/visio-conference.png
