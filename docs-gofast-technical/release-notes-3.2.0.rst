@@ -51,7 +51,7 @@ Améliorations
    "[3603]", "Possibilité d'ajouter un lieu et les membres d'un espace comme participant dans la visio-conférence", "Visio-conférence"
    "[3754]", "Mise à jour JSXC 3.3.X : Les composants pour une meilleure performance de la fonctionnalité Chat", "Chat"
    "[3780]", "E-mail notifiant la création utlisateur : Adapter la délégation d'authenfication + amélioration du thême", "Notifications"
-   "[3827]", "Amélioration du temps de chargement de la page d'un document", "Temps d'attente"
+   "[3827]", "Amélioration du temps de chargement de la page d'un document", "Performance"
    "[3929]", "Amélioration des retours d'erreurs et de réussites lors des opérations unitaires ou en masse", "Retour d'informations"
    
 
@@ -73,7 +73,7 @@ HOTFIX
    "[3952]", "Problème de pagination dans les commentaires sous un document", "Commentaire"
    "[3953]", "Impossible de publier un fichier sous format PDF : page relancée plutôt qu'informer sous pop-up", "Publication"
    "[3954]", "Problème d'auto-correction du type MIME (notamment pptx et version tecnique)", "Type MIME / Extension"
-   "[3955]", "Lenteur du fil d'ariane", "Temps d'attente"
+   "[3955]", "Lenteur du fil d'ariane", "Performance"
    "[3957]", "Quand on clique sur un menu d'un document, on est parfois redirigé vers l'URL au lieu d'avoir une modale", "Affichage"
    "[3959]", "La liste des workflows n'apparait pas", "Workflow"
 
@@ -93,7 +93,7 @@ Bugs majeurs
    "[3849]", "Lorsqu'on lie deux documents ensemble, aucune visibilité des documents pointant vers celui-ci", "Contenus liés"
    "[3854]", "Le renommage d'espace n'est pas pris en compte si l'espace contient trop de documents partagés", "Renommer"
    "[3877]", "Renommer un document fait perdre le type MIME du document", "Type MIME / Extension"
-   "[3878]", "Temps d'attente trop long avant de pouvoir charger le menu contextuel, ou les métadonnées", "Temps d'attente"
+   "[3878]", "Temps d'attente trop long avant de pouvoir charger le menu contextuel, ou les métadonnées", "Performance"
    "[3930]", "Métadonnées se mettent automatiquement sur des documents ce qui mène à un comportement étrange", "Technique"
    "[3934]", "Le changement de nom/prénom n'est pas pris en compte dans les paramètres d'affichage des noms", "Utilisateur"
    "[3883]", "La régle de prévention des modifications/suppressions des dossiers d'espaces : mal créé en production", "Règles de prévention"
@@ -119,6 +119,6 @@ Bugs mineurs
    "[3921]", "Problème de suppression d'un message privé. Réapparait quand on raffraichit la page", "Chat"
    "[3925]", "Pas le bon avatar affiché lorsqu'une action est faite par un autre utilisateur", "Utilisateur"
    "[3937]", "Problème de synchronisation d'un nom d'espace avec son dossier dans l'explorateur de fichiers", "Explorateur Web"
-   "[3946]", "Déplacer un sous-espace est partiellement fonctionnel : Temps de synchronisation long", "Temps d'attente"
+   "[3946]", "Déplacer un sous-espace est partiellement fonctionnel : Temps de synchronisation long", "Performance"
    "[3949]", "Eviter les collisions lorsque plusieurs modifications sont faite simultanément", "Modification document"
  
