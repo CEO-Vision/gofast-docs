@@ -26,13 +26,8 @@ Voir Copie d'Ecran ci-dessous
    :alt:  
   
   
-Jusqu'à aujourd'hui, la gestion des listes utilisateurs et la gestion des droits d'accès se faisait partiellement de manière manuelle. Il est maintenant possible de pouvoir travailler une liste d'utilisateurs et la gestion des membres par espace directement depuis un fichier Excel. Il est possible d'ainsi d'importer comme exporter ce document, que GoFAST va traiter par la suite automatiquement. Cette gestion des utilisateurs est faite par Espace.
-Trois types de fonctions est possible : 
+Jusqu'à aujourd'hui, la gestion des listes utilisateurs et la gestion des droits d'accès se faisait partiellement de manière manuelle. Il est maintenant possible de pouvoir travailler une liste d'utilisateurs et la gestion des membres par espace directement depuis un fichier Excel. Il est possible d'ainsi d'importer comme exporter ce document, que GoFAST va traiter par la suite automatiquement. Cette gestion des utilisateurs et droits d'accès est faite par uniquement par Espace.
 
-Plusieurs options sont possibles :          
-- Extraction d'un fichier simple (vous retrouvez la gestion des membres par groupe et sous-groupes rattachés à l'Espace selectionné).         
-- Extraction d'un fichier complet (tous les utilisateurs, membres ou non de l'espace selectionné sont traités et affichés dans le fichier Excel). 
-<br/>
 
 .. figure:: media/Export_listes_utilisateurs_droits.png
    :alt:
