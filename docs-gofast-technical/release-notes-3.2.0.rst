@@ -2,8 +2,42 @@
 GoFAST :  Version 3.2.0 
 ********************************************
 
+Nouvelles fonctionnalités
+############################################
+
+.. csv-table:: 
+   :header: "Ref.", "Description", "Catégorie"
+   :widths: 10, 40, 10
+
+
+
+Améliorations
+############################################
+
+.. csv-table:: HOTFIX
+   :header: "Ref.", "Description", "Catégorie"
+   :widths: 10, 40, 10
+   
+   
+
 Correction des bugs
 ############################################
+
+.. csv-table:: HOTFIX
+   :header: "Ref.", "Description", "Catégorie"
+   :widths: 10, 40, 10
+   
+   "[3810]", "[HOTFIX]Impossible de créer une publication si un trop grand nombres d'utilisateurs (erreur - Jitsi Meet)", "Visio-conférence"
+   "[3907]", "[HOTFIX]Pas de notification e-mail suite à la création d'une visio-conférence", "Visio-conférence"
+   "[3908]", "[HOTFIX]Evènements créés de visio-conférences ne sont pas repris dans le calendrier", "Visio-conférence"
+   "[3919]", "[HOTFIX]Mauvais positionnement de l'explorateur de fichiers suite au clique sur un emplacement", "Explorateur de fichiers"
+   "[3923]", "[HOTFIX]Pas de pré-visualisation après la création d'un fichier sous format de fichier Modèles", "Pré-visualisation"
+   "[3952]", "[HOTFIX]Problème de pagination dans les commentaires sous un document", "Commentaire"
+   "[3953]", "[HOTFIX]Impossible de publier un fichier sous format PDF : page relancée plutôt qu'informer sous pop-up", "Publication"
+   "[3954]", "[HOTFIX]Problème d'auto-correction du type MIME (notamment pptx et version tecnique)", "Type MIME / Extension"
+   "[3955]", "[HOTFIX]Lenteur du fil d'ariane", "Temps d'attente"
+   "[3957]", "[HOTFIX]Quand on clique sur un menu d'un document, on est parfois redirigé vers l'URL au lieu d'avoir une modale", "Affichage"
+   "[3959]", "La liste des workflows n'apparait pas", "Workflow"
 
 .. csv-table:: Bugs majeurs
    :header: "Ref.", "Description", "Catégorie"
@@ -22,24 +56,22 @@ Correction des bugs
    "[3934]", "Le changement de nom/prénom n'est pas pris en compte dans les paramètres d'affichage des noms", "Utilisateur"
    "[3883]", "La régle de prévention des modifications/suppressions des dossiers d'espaces : mal créé en production", "Règles de prévention"
 
-.. csv-table:: HOTFIX
+.. csv-table:: Bugs mineurs 
    :header: "Ref.", "Description", "Catégorie"
    :widths: 10, 40, 10
-   
-   "[3810]", "[HOTFIX]Impossible de créer une publication si un trop grand nombres d'utilisateurs (erreur - Jitsi Meet)", "Visio-conférence"
-   "[3907]", "[HOTFIX]Pas de notification e-mail suite à la création d'une visio-conférence", "Visio-conférence"
-   "[3908]", "[HOTFIX]Evènements créés de visio-conférences ne sont pas repris dans le calendrier", "Visio-conférence"
-   "[3919]", "[HOTFIX]Mauvais positionnement de l'explorateur de fichiers suite au clique sur un emplacement", "Explorateur de fichiers"
-   "[3923]", "[HOTFIX]Pas de pré-visualisation après la création d'un fichier sous format de fichier Modèles", "Pré-visualisation"
-   "[3952]", "[HOTFIX]Problème de pagination dans les commentaires sous un document", "Commentaire"
-   "[3953]", "[HOTFIX]Impossible de publier un fichier sous format PDF : page relancée plutôt qu'informer sous pop-up", "Publication"
-   "[3954]", "[HOTFIX]Problème d'auto-correction du type MIME (notamment pptx et version tecnique)", "Type MIME / Extension"
-   "[3955]", "[HOTFIX]Lenteur du fil d'ariane", "Temps d'attente"
-   "[3957]", "[HOTFIX]Quand on clique sur un menu d'un document, on est parfois redirigé vers l'URL au lieu d'avoir une modale", "Affichage"
-   "[3959]", "La liste des workflows n'apparait pas", "Workflow"
 
-.. csv-table::  
-   :header: "Ref.", "Description", "Catégorie"
-   :widths: 20, 60, 20
-
-" 
+"[GOFAST-3265]", "Lors de la mise à jour d'un document, problème d'affichage des annotations", "Commentaire"
+"[GOFAST-3439]", "Problème d'ajout d'un tag lors de la gestion en masse de la Taxonomie", "Tag"
+"[GOFAST-3532]", "Problème d'affichage du champs poste dans la carte de visite de l'annuaire", "Annuaire"
+"[GOFAST-3811]", "Problème de partage d'écran sous Google Chrome - (installation Plug-in)", "Visio-conférence"
+"[GOFAST-3855]", "Impossible d'avoir 2 visio-conférences sous le même nom", "Visio-conférence"
+"[GOFAST-3861]", "Filtres persistants dans l'annuaire utilisateur", "Annuaire"
+"[GOFAST-3869]", "Problème de navigation dans le forum", "Forum"
+"[GOFAST-3873]", "Problème des liens URL générés dans les workflow", "Workflow"
+"[GOFAST-3894]", "Le clic "renommer dossier" fait disparaître le texte (nom du dossier)", "Renommer"
+"[GOFAST-3904]", "Problème de la pré-visualisation du format Office", "Pré-visualisation"
+"[GOFAST-3921]", "Problème de suppression d'un message privé. Réapparait quand on raffraichit la page", "Chat"
+"[GOFAST-3925]", "Pas le bon avatar affiché lorsqu'une action est faite par un autre utilisateur", "Utilisateur"
+"[GOFAST-3937]", "Problème de synchronisation d'un nom d'espace avec son dossier dans l'explorateur de fichiers", "Explorateur de fichiers"
+"[GOFAST-3946]", "Déplacer un sous-espace est partiellement fonctionnel : Temps de synchronisation long", "Temps d'attente"
+"[GOFAST-3949]", "Eviter les collisions lorsque plusieurs modifications sont faite simultanément", "Modification document"
