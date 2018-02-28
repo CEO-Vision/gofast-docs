@@ -83,7 +83,7 @@ Bugs majeurs
    "[3069]", "Lors d'une recherche, aucun résultat ne s'affiche", "Recherche"
    "[3074]", "Document non trouvé, après un clic pour mener au répertoire concerné", "Explorateur de fichiers"
    "[3211]", "Lors de la création d'un sous-espace, pas de pré-validation de l'espace parent", "Création d'espace"
-   "[3570]", "Affichage des dates : ne s'affiche pas de partout sous format DD/MM/AAAA", "Affichage"
+   "[3570]", "Affichage des dates : ne s'affiche pas de partout sous format JJ/MM/AAAA", "Affichage"
    "[3808]", "Le formulaire de publication ne se charge pas, si un trop grand nombre d'espaces séléctionnés", "Formulaire" 
    "[3849]", "Lorsqu'on lie deux documents ensemble, aucune visibilité de l'extension vers le document lié", "Contenus liés"
    "[3854]", "Le renommage d'espace n'est pas pris en compte si l'espace contient trop de documents partagés", "Renommer les espaces"
