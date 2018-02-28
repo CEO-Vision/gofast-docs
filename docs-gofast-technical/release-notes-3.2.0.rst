@@ -7,7 +7,7 @@ Correction des bugs
 
 .. csv-table:: Bugs majeurs
    :header: "Ref.", "Description", "Catégorie"
-   :widths: 10, 50, 10
+   :widths: 10, 40, 10
    
    "[3069]", "Lors d'une recherche, aucun résultat ne s'affiche", "Recherche"
    "[3074]", "Document non trouvé, après un clic pour mener au répertoire concerné", "Explorateur de fichiers"
@@ -24,19 +24,19 @@ Correction des bugs
 
 .. csv-table:: HOTFIX
    :header: "Ref.", "Description", "Catégorie"
-   :widths: 20, 60, 20
+   :widths: 10, 40, 10
    
-   "[GOFAST-3810]", "[HOTFIX]Impossible de créer une publication si un trop grand nombres d'utilisateurs (erreur - Jitsi Meet)", "Visio-conférence"
-   "[GOFAST-3907]", "[HOTFIX]Pas de notification e-mail suite à la création d'une visio-conférence", "Visio-conférence"
-   "[GOFAST-3908]", "[HOTFIX]Evènements créés de visio-conférences ne sont pas repris dans le calendrier", "Visio-conférence"
-   "[GOFAST-3919]", "[HOTFIX]Mauvais positionnement de l'explorateur de fichiers suite au clique sur un emplacement", "Explorateur de fichiers"
-   "[GOFAST-3923]", "[HOTFIX]Pas de pré-visualisation après la création d'un fichier sous format de fichier Modèles", "Pré-visualisation"
-   "[GOFAST-3952]", "[HOTFIX]Problème de pagination dans les commentaires sous un document", "Commentaire"
-   "[GOFAST-3953]", "[HOTFIX]Impossible de publier un fichier sous format PDF : page relancée plutôt qu'informer sous pop-up", "Publication"
-   "[GOFAST-3954]", "[HOTFIX]Problème d'auto-correction du type MIME (notamment pptx et version tecnique)", "Type MIME / Extension"
-   "[GOFAST-3955]", "[HOTFIX]Lenteur du fil d'ariane", "Temps d'attente"
-   "[GOFAST-3957]", "[HOTFIX]Quand on clique sur un menu d'un document, on est parfois redirigé vers l'URL au lieu d'avoir une modale", "Affichage"
-   "[GOFAST-3959]", "La liste des workflows n'apparait pas", "Workflow"
+   "[3810]", "[HOTFIX]Impossible de créer une publication si un trop grand nombres d'utilisateurs (erreur - Jitsi Meet)", "Visio-conférence"
+   "[3907]", "[HOTFIX]Pas de notification e-mail suite à la création d'une visio-conférence", "Visio-conférence"
+   "[3908]", "[HOTFIX]Evènements créés de visio-conférences ne sont pas repris dans le calendrier", "Visio-conférence"
+   "[3919]", "[HOTFIX]Mauvais positionnement de l'explorateur de fichiers suite au clique sur un emplacement", "Explorateur de fichiers"
+   "[3923]", "[HOTFIX]Pas de pré-visualisation après la création d'un fichier sous format de fichier Modèles", "Pré-visualisation"
+   "[3952]", "[HOTFIX]Problème de pagination dans les commentaires sous un document", "Commentaire"
+   "[3953]", "[HOTFIX]Impossible de publier un fichier sous format PDF : page relancée plutôt qu'informer sous pop-up", "Publication"
+   "[3954]", "[HOTFIX]Problème d'auto-correction du type MIME (notamment pptx et version tecnique)", "Type MIME / Extension"
+   "[3955]", "[HOTFIX]Lenteur du fil d'ariane", "Temps d'attente"
+   "[3957]", "[HOTFIX]Quand on clique sur un menu d'un document, on est parfois redirigé vers l'URL au lieu d'avoir une modale", "Affichage"
+   "[3959]", "La liste des workflows n'apparait pas", "Workflow"
 
 .. csv-table::  
    :header: "Ref.", "Description", "Catégorie"
