@@ -5,22 +5,22 @@ GoFAST :  Version 3.2.0
 Correction des bugs
 ############################################
 
-.. csv-table:: BLOCKER
+.. csv-table:: Bugs majeurs
    :header: "Ref.", "Description", "Catégorie"
-   :widths: 20, 50, 20
+   :widths: 10, 50, 10
    
-   "[GOFAST-3069]", "[BLOCKER]Lors d'une recherche, aucun résultat ne s'affiche", "Recherche"
-   "[GOFAST-3074]", "[BLOCKER]Document non trouvé, après un clic pour mener au répertoire concerné", "Explorateur de fichiers"
-   "[GOFAST-3211]", "[BLOCKER]Lors de la création d'un sous-espace, pas de pré-validation de l'espace parent", "Création d'espace"
-   "[GOFAST-3570]", "[BLOCKER]Affichage des dates : ne s'affiche pas de partout sous format DD/MM/AAAA", "Affichage"
-   "[GOFAST-3808]", "[BLOCKER]Le formulaire de publication ne se charge pas, si un trop grand nombre d'espaces séléctionnés", "Formulaire" 
-   "[GOFAST-3849]", "[BLOCKER]Lorsqu'on lie deux documents ensemble, aucune visibilité de l'extension vers le document lié", "Contenus liés"
-   "[GOFAST-3854]", "[BLOCKER]Le renommage d'espace n'est pas pris en compte si l'espace contient trop de documents partagés", "Renommer les espaces"
-   "[GOFAST-3877]", "[BLOCKER]Renommer un document fait perdre le type MIME du document", "Type MIME / Extension"
-   "[GOFAST-3878]", "[BLOCKER]Temps d'attente trop long avant de pouvoir charger le menu contextuel, ou les métadonnées", "Temps d'attente"
-   "[GOFAST-3930]", "[BLOCKER]Métadonnées se mettent automatiquement sur des documents ce qui mène à un comportement étrange", "Technique"
-   "[GOFAST-3934]", "[BLOCKER]Le changement de nom/prénom n'est pas pris en compte dans les paramètres d'affichage des noms", "Utilisateur"
-   "[GOFAST-3883]", "[BLOCKER]/[HOTFIX]La régle de prévention des modifications/suppressions des dossiers d'espaces : mal créé en production", "Règles de prévention"
+   "[3069]", "Lors d'une recherche, aucun résultat ne s'affiche", "Recherche"
+   "[3074]", "Document non trouvé, après un clic pour mener au répertoire concerné", "Explorateur de fichiers"
+   "[3211]", "Lors de la création d'un sous-espace, pas de pré-validation de l'espace parent", "Création d'espace"
+   "[3570]", "Affichage des dates : ne s'affiche pas de partout sous format DD/MM/AAAA", "Affichage"
+   "[3808]", "Le formulaire de publication ne se charge pas, si un trop grand nombre d'espaces séléctionnés", "Formulaire" 
+   "[3849]", "Lorsqu'on lie deux documents ensemble, aucune visibilité de l'extension vers le document lié", "Contenus liés"
+   "[3854]", "Le renommage d'espace n'est pas pris en compte si l'espace contient trop de documents partagés", "Renommer les espaces"
+   "[3877]", "Renommer un document fait perdre le type MIME du document", "Type MIME / Extension"
+   "[3878]", "Temps d'attente trop long avant de pouvoir charger le menu contextuel, ou les métadonnées", "Temps d'attente"
+   "[3930]", "Métadonnées se mettent automatiquement sur des documents ce qui mène à un comportement étrange", "Technique"
+   "[3934]", "Le changement de nom/prénom n'est pas pris en compte dans les paramètres d'affichage des noms", "Utilisateur"
+   "[3883]", "La régle de prévention des modifications/suppressions des dossiers d'espaces : mal créé en production", "Règles de prévention"
 
 .. csv-table:: HOTFIX
    :header: "Ref.", "Description", "Catégorie"
