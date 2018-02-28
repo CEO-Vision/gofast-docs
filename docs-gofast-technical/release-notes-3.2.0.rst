@@ -15,11 +15,8 @@ Nouvelles fonctionnalités
 
 Un nouvel onglet "Statistiques" est maintenant intégré dans la page d'accueil des espaces. Cette nouvelle fonctionnalité permet de gérer l'activité des membres actifs et inactifs. 
 
-.. image:: Statistiques.jpg
-    :width: 200px
-    :align: center
-    :height: 100px
-    :alt: alternate text
+.. figure:: media-guide/statistiques.jpg
+   :alt:
     
     
 Il est maintenant possible dans la version 3.2.0 de GoFAST de pouvoir faire un export de liste de documents
