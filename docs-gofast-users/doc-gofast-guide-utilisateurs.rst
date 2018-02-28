@@ -4223,37 +4223,33 @@ Deux sous-onglets vous permet de faire un reporting, les Statistiques des membre
 
 a) Sous-onglet « **Statistique des membres** » permet de visualiser les infomations relatives aux membres actifs et inactifs, les nouveaux membres et membres connectés ; 
 
-.. figure:: media-guide/
+.. figure:: media-guide/Statistiques_membres.png
    :alt:
 
 b) Sous-onglet « **Statistique documentaires** », permet de visualiser toutes les informations relatives aux documents par sa catégorie, son état et son importance ; 
 
-.. figure:: media-guide/
+.. figure:: media-guide/Statistiques_documentaires.png
    :alt:
 
 
-Chaques utilisateurs à la possibilité de voir l'activité de l'Espace. Dans l'onglet **Statistiques**, vous pouvez ainsi choisir les informations que vous souhaitez retrouvée graphiquemet et sur la période sélectionnée. vous retrouvez les membres actifs et inactifs, si de nouveaux membres ont été rajoutés sur une période selectionnée. 
-Chaques utilisateurs à la possibilité de voir l'activité de l'Espace. Dans l'onglet **Statistiques**, vous pouvez ainsi choisir les informations que vous souhaitez retrouvée graphiquemet et sur la période sélectionnée. vous retrouvez les membres actifs et inactifs, si de nouveaux membres ont été rajoutés sur une période selectionnée. 
-
-
-
-Statistique via le profil Administrateur de plate-forme
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Menu «**Statistics**», dans le Menu Utilisateur pour un Administrateur de plate-forme
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Avec le profil "Administrateur de la plate-forme", de nouveaux sous-menus apparaissent dans votre Menu Utilisateur, comme « **Statistics** ». 
 
 .. figure:: media-guide/Menu-statistics-export-liste-docs.png
    :alt:
 
-Ce menu permet à l'Administrateur de plate-forme de visualiser 3 onglets de reporting : 
+Ce menu permet à l'Administrateur de plate-forme de visualiser 3 onglets pour effectuer des Statistics Reporting : 
 
 -  Statistiques Utilisateurs 
 -  Statistiques d'Espaces
 -  Statistiques Documentaires
 
-Les **Statistiques documentaires** permet de faire des extractions de liste de documents d'un espace selectionné. Pour plus d'informations, voir le paragraphe : 
-
 .. figure:: media-guide/onglet-statistiques-docs-export.png
-   :alt: 
+   :alt:
+
+Les **Statistiques documentaires** à la fonction supplémentaire de pouvoir effectuer une liste de documents d'un espace selectionné.
+Pour plus d'informations, voir le paragraphe : Gestion des contenus/Exportation de données/Liste de documents. 
 
 
 
