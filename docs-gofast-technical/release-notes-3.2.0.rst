@@ -6,7 +6,7 @@ Correction des bugs
 ############################################
 
 .. csv-table:: BLOCKER
-   :header: "Référence", "Description", "Catégorie"
+   :header: "Ref.", "Description", "Catégorie"
    :widths: 40, 50, 10
    
    "[GOFAST-3069]", "[BLOCKER]Lors d'une recherche, aucun résultat ne s'affiche", "Recherche"
