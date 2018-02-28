@@ -9,9 +9,9 @@ Nouvelles fonctionnalités
    :header: "Ref.", "Description", "Catégorie"
    :widths: 10, 40, 10
    
-   "[2703]", "Nouvel onglet dans les espaces : Système de statistiques", "Onglet"
-   "[3718]", "Export de listes des documents sur GoFAST", "Export liste"
-   "[3835]", "Export/Import de listes utilisateurs avec gestion des permissions", "Export liste"
+   "[2703]", "Nouvel onglet dans les espaces : Système de statistiques", "Reporting"
+   "[3718]", "Export de listes des documents sur GoFAST", "Reporting"
+   "[3835]", "Export/Import de listes utilisateurs avec gestion des permissions", "Reporting"
 
 
 Nouvel onglet dans les espaces : "Statistiques"
