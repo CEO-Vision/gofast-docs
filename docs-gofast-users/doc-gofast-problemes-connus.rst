@@ -6,5 +6,5 @@ Trouver sa version d'Office
 ===========================
 
 
-.. figure:: 'media-guide/trouver version excel.png'
+.. figure:: media-guide/trouver-version-excel.png
 :alt: 
