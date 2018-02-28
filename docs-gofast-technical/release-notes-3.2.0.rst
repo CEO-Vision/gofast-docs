@@ -7,7 +7,7 @@ Bugs
 
 .. csv-table:: BLOCKER
    :header: "Ref.", "Description", "Catégorie"
-   :widths: 30, 60, 20
+   :widths: 20, 60, 20
    
    "[GOFAST-3069]", "[BLOCKER]Lors d'une recherche, aucun résultat ne s'affiche", "Recherche"
    "[GOFAST-3074]", "[BLOCKER]Document non trouvé, après un clic pour mener au répertoire concerné", "Explorateur de fichiers"
@@ -17,5 +17,5 @@ Bugs
    "[GOFAST-3849]", "[BLOCKER]Lorsqu'on lie deux documents ensemble, aucune visibilité de l'extension vers le document lié", "Contenus liés"
    "[GOFAST-3854]", "[BLOCKER]Le renommage d'espace n'est pas pris en compte si l'espace contient trop de documents partagés", "Renommer les espaces"
    "[GOFAST-3877]", "[BLOCKER]Renommer un document fait perdre le type MIME du document", "Type MIME / Extension"
-   "[GOFAST-3878]", "[BLOCKER]
+   "[GOFAST-3878]", "[BLOCKER]Temps d'attente trop long avant de pouvoir charger le menu contextuel, ou les métadonnées", "Temps d'attente"
 
