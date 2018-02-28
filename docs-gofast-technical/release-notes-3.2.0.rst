@@ -17,24 +17,18 @@ Un nouvel onglet "Statistiques" est maintenant intégré dans la page d'accueil 
 
 .. figure:: media/Statistiques.png
    :alt:
- 
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-    
+     
 Il est maintenant possible dans la version 3.2.0 de GoFAST de pouvoir faire un export de liste de documents
 
 .. figure:: media/Statistiques.png
    :alt:
 
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Jusqu'à aujourd'hui, la gestion des listes utilisateurs et la gestion des droits d'accès se faisait manuellement. Il est maintenant possible de pouvoir Importer une liste utilisateurs dans GoFAST avec la gestion des permissions pour chacun dans les organisations, groupes et sous-groupes. 
 
 .. figure:: media/Statistiques.png
    :alt:
 
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
 Améliorations
 ############################################
 
@@ -51,8 +45,8 @@ Améliorations
    "[3827]", "Amélioration du temps de chargement de la page d'un document", "Temps d'attente"
    "[3929]", "Amélioration des retours d'erreurs et de réussites lors des opérations unitaires ou en masse", "Retour"
    
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+
 Correction des bugs
 ############################################
 
@@ -75,8 +69,7 @@ HOTFIX
    "[3959]", "La liste des workflows n'apparait pas", "Workflow"
 
 
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
 Bugs majeurs
 **********************
 .. csv-table::  
@@ -97,8 +90,6 @@ Bugs majeurs
    "[3883]", "La régle de prévention des modifications/suppressions des dossiers d'espaces : mal créé en production", "Règles de prévention"
 
 
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Bugs mineurs
 **********************
 .. csv-table::  
