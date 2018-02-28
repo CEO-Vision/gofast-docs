@@ -21,8 +21,9 @@ Lorsque vous êtes Administrateur de la plate-forme, dans le menu utilisateur vo
 Voir Copie d'Ecran ci-dessous 
 
 .. figure:: media/Export_liste_documents.png
-   :alt:
-
+   :alt:  
+  
+<br/>
 Jusqu'à aujourd'hui, la gestion des listes utilisateurs et la gestion des droits d'accès se faisait partiellement de manière manuelle. Il est maintenant possible de pouvoir travailler une liste d'utilisateurs et la gestion des membres par espace directement depuis un fichier Excel. Il est possible d'ainsi d'importer comme exporter ce document, que GoFAST va traiter par la suite automatiquement. Cette gestion des utilisateurs est faite par Espace.
 Trois types de fonctions est possible : 
 
