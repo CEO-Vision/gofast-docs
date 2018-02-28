@@ -1121,8 +1121,7 @@ Vous avez la possibilité d'informer une Date de début et de Fin de la confére
 le lieu où se déroulera la visio-conférence et la possibilité de choisir les participants
 par Espace.
 
-Par exemple, concernant le choix des participants par Espace, vous avez la possibilité
-d'inviter tous les membres liés à l'Espace Commercial. 
+Par exemple, concernant le choix des participants par Espace, vous avez la possibilité d'inviter tous les membres liés à l'Espace Commercial. 
 
 .. figure:: media-guide/visio-conference.png
    :alt: 
@@ -1400,8 +1399,7 @@ b) Un onglet « **Activité** », où vous avez une vue d’ensemble de ce
 .. figure:: media-guide/image107.png
    :alt: 
    
-c) Un onglet « **Statistiques** », où vous voyez les activités des membres
-actifs et inactifs, ainsi que les statistiques documentaires de l'espace ;
+c) Un onglet « **Statistiques** », où vous voyez les activités des membres actifs et inactifs, ainsi que les statistiques documentaires de l'espace ;
 
 .. figure:: media-guide/Statistiques.png
    :alt: 
