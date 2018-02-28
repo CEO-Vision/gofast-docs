@@ -65,7 +65,7 @@ HOTFIX
    :header: "Ref.", "Description", "Catégorie"
    :widths: 10, 40, 10
    
-   "[3810]", "Impossible de créer une publication si un trop grand nombres d'utilisateurs (erreur - Jitsi Meet)", "Visio-conférence"
+   "[3810]", "Impossible de créer une publication si un trop grand nombres d'utilisateurs (erreur - JavaScript)", "Visio-conférence"
    "[3907]", "Pas de notification e-mail suite à la création d'une visio-conférence", "Visio-conférence"
    "[3908]", "Evènements créés de visio-conférences ne sont pas repris dans le calendrier", "Visio-conférence"
    "[3919]", "Mauvais positionnement de l'explorateur de fichiers suite au clique sur un emplacement", "Explorateur Web"
