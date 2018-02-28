@@ -13,6 +13,16 @@ Nouvelles fonctionnalités
    "[3718]", "Développement de l'Export de listes des documents", "Export liste"
    "[3835]", "Développement de l'Export/Import de listes utilisateurs avec gestion des permissions", "Export liste"
 
+Un nouvel onglet "Statistiques" est maintenant intégré dans la page d'accueil des espaces. Cette nouvelle fonctionnalité permet de gérer l'activité des membres actifs et inactifs. 
+
+.. image:: Statistiques.jpg
+    :width: 200px
+    :align: center
+    :height: 100px
+    :alt: alternate text
+    
+    
+
 
 Améliorations
 ############################################
