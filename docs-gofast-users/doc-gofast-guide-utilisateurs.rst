@@ -1115,6 +1115,18 @@ propositions du système) et « Enregistrez »
 .. figure:: media-guide/image084.png
    :alt: 
 
+Vous pouvez remplir différents champs lors de la création d'une « Conférence ». 
+
+Vous avez la possibilité d'informer une Date de début et de Fin de la conférence,
+le lieu où se déroulera la visio-conférence et la possibilité de choisir les participants
+par Espace.
+
+Concernant le choix des participants par Espace, par exemple, vous avez la possibilité
+d'inviter tous les membres liés à l'Espace Commercial. 
+
+.. figure:: media-guide/visio-conference.png
+   :alt: 
+
 Une fois les participants et la date/heure de conférence introduits, et
 après avoir appuyé sur « Enregistrer », une autre fenêtre s’ouvre avec
 les données de la conférence.
@@ -1387,20 +1399,26 @@ b) Un onglet « **Activité** », où vous avez une vue d’ensemble de ce
 
 .. figure:: media-guide/image107.png
    :alt: 
+   
+c) Un onglet « **Statistiques** », où vous voyez les activités des membres
+actifs et inactifs, ainsi que les statistiques documentaires de l'espace ;
 
-c) Un onglet « **Documents** », où vous voyez les documents et
+.. figure:: media-guide/Statistiques.png
+   :alt: 
+
+d) Un onglet « **Documents** », où vous voyez les documents et
    l’arborescence de ceux-ci ; 
 
 .. figure:: media-guide/image108.png
    :alt: 
 
-d) Un onglet « **Calendrier** », où vous pouvez mettre des dates
+e) Un onglet « **Calendrier** », où vous pouvez mettre des dates
    d’échéance, des rappels, … ;
 
 .. figure:: media-guide/image109.png
    :alt: 
 
-e) Un onglet « **Membres** », où vous voyez les membres du groupe et
+f) Un onglet « **Membres** », où vous voyez les membres du groupe et
    leur rôle respectif
 
 .. figure:: media-guide/image110.png
