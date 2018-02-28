@@ -22,6 +22,23 @@ Un nouvel onglet "Statistiques" est maintenant intégré dans la page d'accueil 
     :alt: alternate text
     
     
+Il est maintenant possible dans la version 3.2.0 de GoFAST de pouvoir faire un export de liste de documents
+
+.. image:: Statistiques.jpg
+    :width: 200px
+    :align: center
+    :height: 100px
+    :alt: alternate text
+
+
+Jusqu'à aujourd'hui, la gestion des listes utilisateurs et la gestion des droits d'accès se faisait manuellement. Il est maintenant possible de pouvoir Importer une liste utilisateurs dans GoFAST avec la gestion des permissions pour chacun dans les organisations, groupes et sous-groupes. 
+
+.. image:: Statistiques.jpg
+    :width: 200px
+    :align: center
+    :height: 100px
+    :alt: alternate text
+
 
 
 Améliorations
@@ -40,6 +57,7 @@ Améliorations
    "[3827]", "Amélioration du temps de chargement de la page d'un document", "Temps d'attente"
    "[3929]", "Amélioration des retours d'erreurs et de réussites lors des opérations unitaires ou en masse", "Retour"
    
+
 
 Correction des bugs
 ############################################
@@ -63,6 +81,7 @@ HOTFIX
    "[3959]", "La liste des workflows n'apparait pas", "Workflow"
 
 
+
 Bugs majeurs
 **********************
 .. csv-table::  
@@ -81,6 +100,7 @@ Bugs majeurs
    "[3930]", "Métadonnées se mettent automatiquement sur des documents ce qui mène à un comportement étrange", "Technique"
    "[3934]", "Le changement de nom/prénom n'est pas pris en compte dans les paramètres d'affichage des noms", "Utilisateur"
    "[3883]", "La régle de prévention des modifications/suppressions des dossiers d'espaces : mal créé en production", "Règles de prévention"
+
 
 
 Bugs mineurs
