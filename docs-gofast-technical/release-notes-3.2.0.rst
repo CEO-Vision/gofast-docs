@@ -8,16 +8,27 @@ Nouvelles fonctionnalités
 .. csv-table:: 
    :header: "Ref.", "Description", "Catégorie"
    :widths: 10, 40, 10
-
+   
+   "[2703]", "Nouvel onglet dans les espaces : Système de statistiques", "Onglet"
+   "[3718]", "Développement de l'Export de listes des documents", "Export liste"
+   "[3835]", "Développement de l'Export/Import de listes utilisateurs avec gestion des permissions", "Export liste"
 
 
 Améliorations
 ############################################
 
-.. csv-table:: HOTFIX
+.. csv-table::  
    :header: "Ref.", "Description", "Catégorie"
    :widths: 10, 40, 10
    
+   "[2621]", "Correction de l'apparition de la fenêtre (pop-up) lors du multi-emplacement en masse dans l'explorateur de fichiers", "Notifications"
+   "[3574]", "Amélioration de l'apparition des fenêtres (pop-ip) sur les contenus du tableau de bord : afficher les emplacements", "Notifications"
+   "[3603]", "Possibilité d'ajouter un lieu et les membres d'un espace comme participant dans la visio-conférence", "Visio-conférence"
+   "[3754]", "Mise à jour des composants pour une meilleure performance de la fonctionnalité Chat", "Chat"
+   "[3780]", "E-mail notifiant la création utlisateur : Adapter la délégation d'authenfication + raffraichissement du thême", "Notifications"
+   "[3807]", "Durée d'Utilité Administrative (DUA) : Rechargement du menu contextuel", "DUA"
+   "[3827]", "Amélioration du temps de chargement de la page d'un document", "Temps d'attente"
+   "[3929]", "Amélioration des retours d'erreurs et de réussites lors des opérations unitaires ou en masse", "Retour"
    
 
 Correction des bugs
