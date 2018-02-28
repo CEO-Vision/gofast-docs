@@ -268,26 +268,6 @@ Dématérialiser à partir d'un copieur multi-fonction
 Pour ceci votre copieur doit posséder un connecteur webdavs. Nous contacter pour plus de précisions
 
 
-Importation/Exportation de données
-----------------------------------------------------
-
-Exportation des listes de documents
-^^^^^^^^^^^^^
-Sous le profil Administrateur de la plate-forme, de nouveaux menus apparaissent tel que « **Statistics** ». Vous retrouvez ce nouveau sous-menus sous votre Menu Utilisateur. Cette fonctionnalité vous permet alors de visualiser les différentes statistiques découpées en 3 catégories. 
-
-.. figure:: media-guide/Menu-statistics-export-liste-docs.png
-   :alt:
-
-Depuis ce nouveau menu, vous visualisez toutes les statistiques utilisateurs, documentaires et d'espaces. Vous devez cliquer sur l'onglet « **Statistiques documentaires** », afin d'accéder au menu qui permet d'exporter une liste de documents. 
-
-.. figure:: media-guide/onglet-statistiques-docs-export.png
-   :alt: 
-
-Vous faites le choix des sous-groupes et répertoires dont vous souhaitez exporter votre liste de documents. Une fois votre choix sélectionné, une extraction est faite dans un fichier Excel. 
-
-.. figure:: media-guide/Export_liste_documents.png
-   :alt:
-
 
 .. |image0| image:: img/mobilite/wps7DA7.tmp.jpg
 .. |image1| image:: img/mobilite/wps7DB8.tmp.jpg
