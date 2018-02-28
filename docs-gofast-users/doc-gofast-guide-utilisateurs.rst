@@ -4248,8 +4248,8 @@ Ce menu permet à l'Administrateur de plate-forme de visualiser 3 onglets pour e
 .. figure:: media-guide/onglet-statistiques-docs-export.png
    :alt:
 
-Les **Statistiques documentaires** à la fonction supplémentaire de pouvoir effectuer une liste de documents d'un espace selectionné.
-Pour plus d'informations, voir le paragraphe : Gestion des contenus/Exportation de données/Liste de documents. 
+L'onglet **Statistiques documentaires** à la fonction supplémentaire de pouvoir effectuer une liste de documents d'un espace selectionné.
+Pour plus d'informations, voir le paragraphe "Exportation des listes de documents" dans le Guide Utilisateurs : http://gofast-docs.readthedocs.io/fr/latest/docs-gofast-users/doc-gofast-guide-utilisateurs.html#exportation-des-listes-de-documents 
 
 
 
