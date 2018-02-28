@@ -15,19 +15,14 @@ Nouvelles fonctionnalités
 
 Un nouvel onglet "Statistiques" est maintenant intégré dans la page d'accueil des espaces. Cette nouvelle fonctionnalité permet de gérer l'activité des membres actifs et inactifs. 
 
-.. figure:: gofast-docs/docs-gofast-users/media-guide/Statistiques.png
+.. figure:: gofast-docs/docs-gofast-users/img/Statistiques.png
+   :alt:
 
-
-.. figure:: media-guide/Statistiques.png
+.. figure:: img/Statistiques.png
    :alt: 
     
 Il est maintenant possible dans la version 3.2.0 de GoFAST de pouvoir faire un export de liste de documents
 
-.. image:: Statistiques.jpg
-    :width: 200px
-    :align: center
-    :height: 100px
-    :alt: alternate text
 
 
 Jusqu'à aujourd'hui, la gestion des listes utilisateurs et la gestion des droits d'accès se faisait manuellement. Il est maintenant possible de pouvoir Importer une liste utilisateurs dans GoFAST avec la gestion des permissions pour chacun dans les organisations, groupes et sous-groupes. 
