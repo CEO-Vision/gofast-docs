@@ -17,7 +17,9 @@ Un nouvel onglet "Statistiques" est maintenant intégré dans la page d'accueil 
 
 .. figure:: gofast-docs/docs-gofast-users/media-guide/Statistiques.jpg
    :alt:
-    
+
+.. figure:: media-guide/Statistiques.jpg
+   :alt: 
     
 Il est maintenant possible dans la version 3.2.0 de GoFAST de pouvoir faire un export de liste de documents
 
