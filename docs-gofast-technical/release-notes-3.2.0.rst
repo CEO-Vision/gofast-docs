@@ -90,7 +90,7 @@ Bugs majeurs
    "[3211]", "Lors de la création d'un sous-espace, pas de pré-validation de l'espace parent", "Création d'espace"
    "[3570]", "Affichage des dates : ne s'affiche pas de partout sous format JJ/MM/AAAA", "Affichage"
    "[3808]", "Le formulaire de publication ne se charge pas, si un trop grand nombre d'espaces séléctionnés", "Formulaire" 
-   "[3849]", "Lorsqu'on lie deux documents ensemble, aucune visibilité de l'extension vers le document lié", "Contenus liés"
+   "[3849]", "Lorsqu'on lie deux documents ensemble, aucune visibilité des documents pointant vers celui-ci", "Contenus liés"
    "[3854]", "Le renommage d'espace n'est pas pris en compte si l'espace contient trop de documents partagés", "Renommer"
    "[3877]", "Renommer un document fait perdre le type MIME du document", "Type MIME / Extension"
    "[3878]", "Temps d'attente trop long avant de pouvoir charger le menu contextuel, ou les métadonnées", "Temps d'attente"
