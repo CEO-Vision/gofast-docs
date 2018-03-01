@@ -16,7 +16,7 @@ développement, ce **guide évoluera** en même temps. Et comme il est
 **sur la GoFAST** (Forum et Espace Public) , vous y trouverez toujours
 la version actualisée.
 
-   Nous vous recommandons de lire impérativement l'annexe "Les
+.. NOTE:: Nous vous recommandons de lire impérativement l'annexe "Les
    bonnes pratiques avec GoFAST"
 
 Rappel des principes de la plateforme GoFAST
