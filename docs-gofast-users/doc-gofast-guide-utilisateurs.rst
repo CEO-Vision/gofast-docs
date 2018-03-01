@@ -80,11 +80,13 @@ réservé à chaque utilisateur pour ses documents personnels, brouillons,
 mémos, etc.
 
 Pré-requis nécessaires pour l’utilisation de GoFAST
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+---------------------------------------------------
 -  Navigateurs préférentiels Windows: **Firefox 57+ ou Chrome.** Mais fonctionne
    également sur les versions récentes d’Internet Explorer 11 (sauf
    webconference), Edge, en plus d’Opera 
--  Navigateurs MacOS : Safari 11
+
+-  Navigateur MacOS : Safari 11
+
 -  Navigateur Linux : Firefox 57+
    
 -  Système d'exploitation Windows7 et plus, MacOS 10.10+ et Linux (Ubuntu 14+) et en mobilité Android ou iOS.  nb: Windows 10 ne permet pas l'édition en ligne de fichier non Office
