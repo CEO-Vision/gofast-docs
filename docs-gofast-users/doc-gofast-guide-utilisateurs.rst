@@ -79,8 +79,8 @@ Au-delà des espaces collaboratifs, GoFAST offre un espace personnel,
 réservé à chaque utilisateur pour ses documents personnels, brouillons,
 mémos, etc.
 
-**Pré-requis nécessaires pour l’utilisation de GoFAST :**
-
+Pré-requis nécessaires pour l’utilisation de GoFAST
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 -  Navigateurs préférentiels Windows: **Firefox 57+ ou Chrome.** Mais fonctionne
    également sur les versions récentes d’Internet Explorer 11 (sauf
    webconference), Edge, en plus d’Opera 
