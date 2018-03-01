@@ -91,6 +91,8 @@ Pré-requis nécessaires pour l’utilisation de GoFAST
    
 -  Système d'exploitation Windows7 et plus, MacOS 10.10+ et Linux (Ubuntu 14+) et en mobilité Android ou iOS.  nb: Windows 10 ne permet pas l'édition en ligne de fichier non Office
 
+-  Bureautique : MS-Office 2010+, LibreOffice 5+, WPS (sans support)
+
 -  Une connexion relativement bonne est nécessaire : téléchargement de
    512 kbits/s min. et 256kbps upload . Vous pouvez d'ailleurs tester
    directement votre connexion via ce lien http://www.speedtest.net/
