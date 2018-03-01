@@ -2839,6 +2839,21 @@ l’écran.
 .. figure:: media-guide/image218.png
    :alt: 
 
+Liens vers / Liens depuis
+~~~~~~~~~~~~~~~~~~~~~~~~
+Nous avons volontairement dissocié la formulation des liens "depuis" et liens "vers" pour la possibilité de modification. 
+
+Un « *lien vers* » signifie : un lien vers d'autres contenus, depuis le document sélectionné (= sur lequel vous vous trouvez).
+Un « *lien depuis* » signifie : un lien provenant depuis d'autres contenus. 
+
+Le lien vers un document a la possibilité d'être modifié depuis celui-ci, néanmoins un lien depuis un document tiers ne peut être modifié que depuis ce document tiers (non depuis le document sélectionné). 
+
+C'est sur le constat de liens entrants et sortants. 
+
+.. figure:: media-guide/lien-vers_lien-depuis.png
+   :alt:
+
+
 Liens externes
 ~~~~~~~~~~~~~~
 
@@ -4225,8 +4240,8 @@ Statistics Reporting
 ======================
 
 Onglet « Statistiques » dans un Espace
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Chaques utilisateurs à la possibilité de voir l'activité de l'Espace. Dans l'onglet **Statistiques**, vous pouvez ainsi choisir les informations que vous souhaitez retrouver graphiquement et sur une période sélectionnée. 
+--------------------------------------
+Chaque utilisateur à la possibilité de voir l'activité de l'Espace. Dans l'onglet **Statistiques**, vous pouvez ainsi choisir les informations que vous souhaitez retrouver graphiquement et sur une période sélectionnée. 
 
 Deux sous-onglets vous permet de faire un reporting, les Statistiques des membres, et les Statistiques documentaires. 
 
@@ -4242,7 +4257,7 @@ b) Sous-onglet « **Statistique documentaires** », permet de visualiser toutes 
 
 
 Menu «**Statistics**», dans le Menu Utilisateur pour un Administrateur de plate-forme
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+-------------------------------------------------------------------------------------
 Avec le profil "Administrateur de la plate-forme", de nouveaux sous-menus apparaissent dans votre Menu Utilisateur, comme « **Statistics** ». 
 
 .. figure:: media-guide/Menu-statistics-export-liste-docs.png
