@@ -1123,7 +1123,7 @@ par Espace.
 
 Par exemple, concernant le choix des participants par Espace, vous avez la possibilité d'inviter tous les membres liés à l'Espace Commercial. 
 
-.. figure:: media-guide/visio-conference.png
+.. figure:: media-guide/Visio-conference.png
    :alt: 
 
 Une fois les participants et la date/heure de conférence introduits, et
