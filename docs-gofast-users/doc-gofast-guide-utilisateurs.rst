@@ -3997,6 +3997,8 @@ Donnez un titre au mail et écrivez le contenu puis envoyez
 Discussion temps-réelle ou Chatter
 ==================================
 
+.. NOTE:: Nous parlons ici de la version dans le navigateur du Chat, vous pouvez également recevoir les messages avec votre smartphone (voir Utilisation Avancée)
+
 Pour **ouvrir le chat**, il faut aller sur l’extrême droite de l’écran,
 cliquer sur la barre verticale grise.
 
