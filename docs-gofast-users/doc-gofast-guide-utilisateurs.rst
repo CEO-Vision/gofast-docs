@@ -16,7 +16,6 @@ développement, ce **guide évoluera** en même temps. Et comme il est
 **sur la GoFAST** (Forum et Espace Public) , vous y trouverez toujours
 la version actualisée.
 
-.. NOTE:: 
    Nous vous recommandons de lire impérativement l'annexe "Les
    bonnes pratiques avec GoFAST"
 
@@ -82,16 +81,20 @@ mémos, etc.
 
 **Pré-requis nécessaires pour l’utilisation de GoFAST :**
 
--  Navigateurs préférentiels : **Firefox ou Chrome.** Mais fonctionne
+-  Navigateurs préférentiels Windows: **Firefox 57+ ou Chrome.** Mais fonctionne
    également sur les versions récentes d’Internet Explorer 11 (sauf
-   webconference), Edge, en plus d’Opera et Safari. 
+   webconference), Edge, en plus d’Opera 
+-  Navigateurs MacOS : Safari 11
+-  Navigateur Linux : Firefox 57+
    
--  Système d'exploitation Windows7 et plus, MacOS et Linux (Ubuntu) et en mobilité Android ou iOS
+-  Système d'exploitation Windows7 et plus, MacOS 10.10+ et Linux (Ubuntu 14+) et en mobilité Android ou iOS.  nb: Windows 10 ne permet pas l'édition en ligne de fichier non Office
 
 -  Une connexion relativement bonne est nécessaire : téléchargement de
    512 kbits/s min. et 256kbps upload . Vous pouvez d'ailleurs tester
    directement votre connexion via ce lien http://www.speedtest.net/
    (http://beta.speedtest.net/)
+
+-  Résolution écran 1366x768 minimum
    
 
 Quoi de neuf en GoFAST v3
