@@ -19,7 +19,6 @@ Une regression dans le composant Webdav de Microsoft de cette version de Windows
 
 Message "Echec du téléchargement" sous Office
 ===========================
-.. NOTE:: Ce problème arrive plus fréquement sous Office 2013 et des anciennes versions d'Office 2016
 
 Lors d'une édition en ligne d'un fichier Office, il peut arriver qu'au moment de l'enregistrement, un message indique que le fichier est en lecture seule et ne peut pas être enregistré. Deux solutions solutions sont ici proposées pour corriger le probléme:
 
