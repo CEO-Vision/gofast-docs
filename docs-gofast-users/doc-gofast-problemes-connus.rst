@@ -17,6 +17,10 @@ Impossible d'éditer en ligne des contenus non Office sous Windows 10 'Fall Crea
 ===========================
 Une regression dans le composant Webdav de Microsoft de cette version de Windows 10 empeche d'éditer en ligne des contenus non Office (exemple: PDF, ...)
 
+Message "Echec du téléchargement" sous Office
+===========================
+.. NOTE:: Ce problème arrive plus fréquement sous Office 2013 et des anciennes versions d'Office 2016
+
 Lors d'une édition en ligne d'un fichier Office, il peut arriver qu'au moment de l'enregistrement, un message indique que le fichier est en lecture seule et ne peut pas être enregistré. Deux solutions solutions sont ici proposées pour corriger le probléme:
 
 1/ Plutôt que "Enregistrer", allez dans "Enregistrer sous", puis cliquez sur "Récents" et enfin sélectionnez le dossier où se trouve votre fichier. Enregistrez votre version en écrasant le fichier qui est sur le serveur. 
@@ -41,6 +45,6 @@ NB: Écraser un fichier avec une nouvelle version est réversible car tout est v
 
 Une fois que les fichiers bloqués ont été supprimés :
 
-1/ Votre fichier est ouvert en édition à partir de GoFAST et vous pouvez retourner sur le document dans Office (Word, Excelle...) et re-cliquer sur "Enregistrer". Le fichier est alors téléchargé vers GoFAST. 
+1/ Votre fichier est ouvert en édition à partir de GoFAST et vous pouvez retourner sur le document dans Office (Word, Excel...) et re-cliquer sur "Enregistrer". Le fichier est alors téléchargé vers GoFAST. 
 
 2/ Le fichier est sur votre PC (ex: Bureau) et vous pouvez le glisser-déposer du PC vers GoFAST, sur la page du document (angle en haut à droite, zone en pointillés).
