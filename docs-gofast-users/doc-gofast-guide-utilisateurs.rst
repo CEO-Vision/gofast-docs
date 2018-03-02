@@ -4186,26 +4186,52 @@ verticale.
 Workflow / Flux de travail
 ==========================
 
-Vous pouvez **attribuer une tâche** à un autre utilisateur via le logo
-de rouage (entouré en jaune sur l’image).
+Démarrer un processus de validation workflow 
+--------------------------------------------
+A partir du menu principal (au niveau des accès rapides illustrés ci-dessous), vous pouvez démarrer un processus de validation, et **attribuer une tâche** à un autre utilisateur comme indiqué sur la copie d'écran. 
 
-Il suffit de créer un nouveau processus en cliquant sur « Nouveau
-processus » (encadré en rouge)
-
-.. figure:: media-guide/image362.png
+.. figure:: media-guide/Workflow_menuprincipal.png
    :alt: 
 
-D’autre part, via le tableau de bord, vous pouvez voir si des tâches
-vous ont été attribuées, ou les tâches que vous avez attribuées, il y
-aura alors un numéro à côté de l’un ou l’autre onglets.
+Il vous suffit ensuite de cliquer sur " Nouveau " et selectionner le workflow que vous souhaitez dans une liste mis à votre disposition. 
 
-.. figure:: media-guide/image363.png
-   :alt: 
+Un petit formulaire se propose à vous. Il va vous permettre de remplir les champs des tâches que vous souhaitez assigné, la date d'échéance, faire un commentaire (possible à chaque validation de tâche par un utilisateur), lier le documer à valider au processus (A SAVOIR : en lançant le workflow à partir de la page du document, celui-ci est automatiquement intégré). 
+
+.. figure:: media-guide/Workflow_formulaire.png
+   :alt:
+
+Le document reste rattaché au processus et est accessible en un clic à partir de sa liste de tâches ou notifications reçues par email.
+
+Démarrer un processus de workflow depuis un document 
+----------------------------------------------------
+Vous avez la possibilité également depuis le document choisi, de pouvoir démarrer un processus de validation en un clic, comme indiqué sur la copie d'écran ci-dessous.
+
+.. figure:: media-guide/Workflow_doc.png
+   :alt:
+
+Les étapes au démarrage d'un processus de validation, après avoir cliqué sur " Démarrer un workflow ", reste identique aux étapes décrites ci-dessus. 
+
+Cette fonctionnalité permet ainsi d'*intégrer automatiquement* le document en lançant le processus par cette démarche. 
+
+Suivi des tâches liées au workflow
+----------------------------------
+
+En un clic vous pouvez visualiser les tâches, leurs dates d'échéances (avec le code couleurs savoir si vous êtes dans les délais ou pas), le document auquel est attribué le processus et quelle action vous est attribué.
+Pour savoir le nombre de workflow qui vous sont attribués, vous pouvez voir un numéro sur l'icône dans le menu principal. 
+
+.. figure:: media-guide/Workflow.png
+   :alt:
+
+D'autre part, via le tableau de bord, vous pouvez avoir une vue d'ensemble des tâches qui vous sont attribués, ou les tâches que vous avez attribuées. 
+Pour savoir le nombre de workflow vous avez attribués ou qui vous sont attribués, un numéro se trouve affiché à côté du titre. 
+
+.. figure:: media-guide/Workflow_TBD.png
+   :alt:
 
 Vous arriverez sur cette page à 3 onglets : Tâches, Processus, Processus
 archivés.
 
-Cliquez sur l’onglet voulu pour voir ce qui est en cours.
+Cliquez sur l’onglet voulu pour voir ce qui est en cours et pour plus d'informations. 
 
 .. figure:: media-guide/image364.png
    :alt: 
