@@ -1452,6 +1452,8 @@ une discussion,...
 Ajouter un sous-espace
 ----------------------
 
+.. NOTE:: Merci de lire en introdution la différence entre les espaces de type Organisation, Groupes, Extranet, ... http://gofast-docs.readthedocs.io/fr/latest/docs-gofast-users/doc-gofast-guide-utilisateurs.html#les-espaces-collaboratifs
+
 Il est possible de créer de **nouveaux espaces dans un groupe/espace**
 déjà existant ou dans une organisation, que nous appellerons
 « sous-groupes ou « sous-espaces » ; mais pourquoi créer des
