@@ -1452,16 +1452,12 @@ une discussion,...
 Ajouter un sous-espace
 ----------------------
 
-.. NOTE:: Merci de lire en introdution la différence entre les espaces de type Organisation, Groupes, Extranet, ... http://gofast-docs.readthedocs.io/fr/latest/docs-gofast-users/doc-gofast-guide-utilisateurs.html#les-espaces-collaboratifs
+.. NOTE:: Merci de lire en introduction la différence entre les espaces de type Organisation, Groupes, Extranet, ... http://gofast-docs.readthedocs.io/fr/latest/docs-gofast-users/doc-gofast-guide-utilisateurs.html#les-espaces-collaboratifs
 
 Il est possible de créer de **nouveaux espaces dans un groupe/espace**
 déjà existant ou dans une organisation, que nous appellerons
 « sous-groupes ou « sous-espaces » ; mais pourquoi créer des
-sous-espaces au lei de simples folders? => Pour des raisons de
-« confidentialité » qui obligent à partager le contenu de ce groupe
-qu’avec un nombre limité de membres et/ou avec des droits particuliers.
-Ou juste parce que c’est un nouveau groupe de travail, dans Workgroup
-par exemple.
+sous-espaces au lieu de simples répertoires ? => Pour limiter l'accès de ce nouveau sous-espace à un nombre plus restreints de membres que l'espace "parent".
 
 Dans les actions contextuelles de l’espace (icône avec 3 barres
 horizontales), choisissez « Ajouter sous-organisation ou sous-groupe »
