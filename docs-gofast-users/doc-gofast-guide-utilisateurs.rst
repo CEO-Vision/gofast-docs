@@ -2339,8 +2339,9 @@ de destinataires ayant un compte GoFAST ou non, sans qu'ils aient à
 s'authentifier. Celui-ci sera donc automatiquement attaché à votre
 message.
 
-.. NOTE::
-   Ceci permet notamment de ne plus surcharger votre boîte mail avec
+.. NOTE:: Cette méthode est nettement plus sécurisée (RGPD) et auditable que l'envoi d'un email classique avec des pièces jointes sensibles
+   
+.. NOTE:: Ceci permet notamment de ne plus surcharger votre boîte mail avec
    des pièces jointes lourdes destinée à des personnes n'ayant pas de
    comptes GoFAST.
 
@@ -2599,7 +2600,7 @@ l’option « Open link in new tab/window »
 .. figure:: media-guide/image398.png
    :alt: 
 
-Open file’s location/ ouvrir l’emplacement du document
+Ouvrir l’emplacement du document
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Lorsque vous prévisualisez un document, vous pouvez voir le
