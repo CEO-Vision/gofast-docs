@@ -15,7 +15,7 @@ Dans le cas où le problème concerne une application de la suite MS-Office il e
 
 Impossible d'éditer en ligne des contenus non Office sous Windows 10 'Fall Creators Update'
 ===========================
-Une regression dans le composant Webdav de Microsoft de cette version de Windows 10 empeche d'éditer en ligne des contenus non Office (exemple: PDF, ...)
+Une regression dans le composant Webdav de Microsoft de cette version de Windows 10 empeche d'éditer en ligne des contenus non Office (exemple: PDF, ...). Il faut télécharger la version la plus récente de ITHitDocumentOpener (v5)
 
 Message "Echec du téléchargement" sous Office
 ===========================
