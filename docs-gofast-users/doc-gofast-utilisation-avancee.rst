@@ -267,7 +267,10 @@ Dématérialiser à partir d'un copieur multi-fonction
 
 Pour ceci votre copieur doit posséder un connecteur webdavs. Nous contacter pour plus de précisions
 
+Reprise des contenus GoogleDocs/Drive
+-------------------------------------
 
+.. image:: media/GoogleDrive_Download_Export.png
 
 .. |image0| image:: img/mobilite/wps7DA7.tmp.jpg
 .. |image1| image:: img/mobilite/wps7DB8.tmp.jpg
