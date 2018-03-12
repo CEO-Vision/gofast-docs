@@ -277,7 +277,9 @@ Dans le cas de migration d'un entrepot Google vers GoFAST, suivre la procédure 
 
 .. image:: media-guide/GoogleDrive_Download_Export.png
 
+Google vous propose de télécharger une archive au format "zip" avec les contenus convertis au format MS-Office.
 
+.. image:: media-guide/GoogleDrive_Download_Export_Step2.png
 
 
 .. |image0| image:: img/mobilite/wps7DA7.tmp.jpg
