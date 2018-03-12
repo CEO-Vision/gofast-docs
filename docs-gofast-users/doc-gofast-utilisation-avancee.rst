@@ -281,6 +281,10 @@ Google vous propose de télécharger une archive au format "zip" avec les conten
 
 .. image:: media-guide/GoogleDrive_Download_Export_Step2.png
 
+Vous pouvez à présent décompresser l'archive directement dans l'arborescence dans GoFAST
+
+.. image:: media-guide/GoogleDrive_Download_Export_Step3.png
+
 
 .. |image0| image:: img/mobilite/wps7DA7.tmp.jpg
 .. |image1| image:: img/mobilite/wps7DB8.tmp.jpg
