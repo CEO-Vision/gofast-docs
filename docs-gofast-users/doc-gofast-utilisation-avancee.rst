@@ -267,10 +267,18 @@ Dématérialiser à partir d'un copieur multi-fonction
 
 Pour ceci votre copieur doit posséder un connecteur webdavs. Nous contacter pour plus de précisions
 
-Reprise des contenus GoogleDocs/Drive
+
+Reprise de contenus vers GoFAST
 -------------------------------------
 
-.. image:: media/GoogleDrive_Download_Export.png
+Reprise des contenus GoogleDocs/Drive
+^^^^^^^^^^^^^
+Dans le cas de migration d'un entrepot Google vers GoFAST, suivre la procédure suivante:
+
+.. image:: media-guide/GoogleDrive_Download_Export.png
+
+
+
 
 .. |image0| image:: img/mobilite/wps7DA7.tmp.jpg
 .. |image1| image:: img/mobilite/wps7DB8.tmp.jpg
