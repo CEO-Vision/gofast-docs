@@ -31,6 +31,9 @@ Si Office vous indique que l'enregistrement n'a pas pu être fait, suivez la pro
 
 2/ Le Centre de Téléchargement Microsoft Office bloque parfois le téléchargement d'un fichier et cela bloque tous les fichiers suivants. Il faut dans ce cas, ouvrir le Centre de Téléchargement Office (icône orange dans la barre des tâches) et vider la liste (voir les copies écran) : 
 
+.. figure:: media-guide/Echec-de-telechargement.png
+   :alt:
+
 .. figure:: media-guide/MS_2.png
    :alt:
 
