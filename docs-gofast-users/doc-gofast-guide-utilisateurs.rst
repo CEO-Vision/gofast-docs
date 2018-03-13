@@ -4185,7 +4185,7 @@ verticale.
 Workflow / Flux de travail
 ==========================
 
-Démarrer un processus de validation workflow 
+Démarrer un processus de validation : workflow 
 --------------------------------------------
 A partir du menu principal (au niveau des accès rapides illustrés ci-dessous), vous pouvez démarrer un processus de validation, et **attribuer une tâche** à un autre utilisateur comme indiqué sur la copie d'écran. 
 
@@ -4201,7 +4201,7 @@ Un petit formulaire se propose à vous. Il va vous permettre de remplir les cham
 
 Le document reste rattaché au processus et est accessible en un clic à partir de sa liste de tâches ou notifications reçues par email.
 
-Démarrer un processus de workflow depuis un document 
+Démarrer un processus de validation/workflow depuis un document 
 ----------------------------------------------------
 Vous avez la possibilité également depuis le document choisi, de pouvoir démarrer un processus de validation en un clic, comme indiqué sur la copie d'écran ci-dessous.
 
@@ -4211,6 +4211,37 @@ Vous avez la possibilité également depuis le document choisi, de pouvoir déma
 Les étapes au démarrage d'un processus de validation, après avoir cliqué sur " Démarrer un workflow ", reste identique aux étapes décrites ci-dessus. 
 
 Cette fonctionnalité permet ainsi d'*intégrer automatiquement* le document en lançant le processus par cette démarche. 
+
+Démarrer un processus de validation/workflow depuis le panier documentaire 
+-----------------------------------------------------------
+Avec la nouvelle version de GoFAST, vous avez maintenant la possibilité de démarrer également un processus de validation (workflow) depuis un panier en documentaire, et ainsi démarrer un nouveau processus de validation en masse. 
+
+**Création d'un panier documentaire**
+Depuis l’icône (qui propose les différents menus) sur le document, une liste de différents menus va se proposer, il vous suffit alors de cliquer sur « *Ajouter au panier* ». 
+
+.. figure:: media-guide/Ajouter-an-panier.png
+   :alt:
+
+Vous pouvez consulter tous les documents ajouter au panier depuis votre Menu Utilisateur, en cliquant sur le sous-menu « *Panier* ». La liste de tous les documents ajoutés va alors s'afficher. 
+
+.. figure:: media-guide/Paniers-users.png
+   :alt:
+
+**Démarrer le processus de validation depuis le panier documentaire**
+A partir du menu principal (au menu des accès rapides illustré ci-dessous), vous pouvez démarrer un processus de validation depuis le panier documentaire. 
+
+Cliquez sur l'icone dédiés aux workflow, puis cliquez sur « *Nouveau* ». Un nouveau menu va s'afficher et va proposer deux possibilités de démarrage :  
+- Nouveau Processus 
+- Nouveau Processus depuis le panier documentaire 
+
+.. figure:: media-guide/Workflow.png
+   :alt:
+
+.. figure:: media-guide/Nouveau-processus-panier-docs.png
+   :alt:
+
+CLiquez sur « *Nouveau Processus depuis le panier documentaire* ». Les étapes suivantes seront identiques que la création d'un nouveau processus de validation classique. Le formulaire avec les champs identiques seront à remplir pour plus d'indication. (Pour plus d'informations voir *Création d'un processus de validation / workflow*. 
+
 
 Suivi des tâches liées au workflow
 ----------------------------------
