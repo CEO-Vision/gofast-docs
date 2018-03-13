@@ -5,14 +5,6 @@ GoFAST :  Pré-requis et installation Serveur
 .. figure:: media/image1.PNG
    :alt: 
 
-Autres documentations techniques disponibles :
-
--  GoFAST : Pré-requis et configuration optionnelle du Poste Client
-
--  GoFAST : Exploitation
-
--  GoFAST : Mobilité et applications tierces
-
 Pré-requis Poste Client
 ==================================
 
