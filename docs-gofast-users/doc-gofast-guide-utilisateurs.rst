@@ -4236,7 +4236,7 @@ Cliquez sur l'icone dédiés aux workflow, puis cliquez sur « *Nouveau* ». Un 
 - Nouveau Processus 
 - Nouveau Processus depuis le panier documentaire 
 
-.. figure:: media-guide/Workflow.png
+.. figure:: media-guide/Workflow1.png
    :alt:
 
 .. figure:: media-guide/Nouveau-processus-panier-docs.png
