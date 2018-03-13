@@ -11,14 +11,14 @@ Poste Client
 Pré-requis 
 ------------
 
-Voir http://gofast-docs.readthedocs.io/fr/latest/docs-gofast-users/doc-gofast-guide-utilisateurs.html?highlight=navigateur#pre-requis-necessaires-pour-lutilisation-de-gofast
+Voir http://gofast-docs.readthedocs.io/fr/latest/docs-gofast-users/doc-gofast-guide-utilisateurs.html#pre-requis-necessaires-pour-lutilisation-de-gofast
 
 Composants et configurations optionnels 
 ------------------------
 
-- "Lecteur Réseau" (voir http://gofast-docs.readthedocs.io/fr/latest/docs-gofast-users/doc-gofast-guide-utilisateurs.html#ajouter-un-ou-plusiers-documents-par-le-lecteur-reseau)
+- Montage "Lecteur Réseau" (voir http://gofast-docs.readthedocs.io/fr/latest/docs-gofast-users/doc-gofast-guide-utilisateurs.html#ajouter-un-ou-plusiers-documents-par-le-lecteur-reseau)
 - ITHitDocumentOpener (pour l'édition en ligne de contenus non-Office/LibreOffice)
-- CMISSync (voir http://gofast-docs.readthedocs.io/fr/latest/docs-gofast-users/doc-gofast-utilisation-avancee.html?highlight=CMISSync#installation-cmissync)
+- Synchronisation hors-ligne CMISSync (voir http://gofast-docs.readthedocs.io/fr/latest/docs-gofast-users/doc-gofast-utilisation-avancee.html#installation-cmissync)
 
 Pré-requis et installation Serveur
 ==================================
