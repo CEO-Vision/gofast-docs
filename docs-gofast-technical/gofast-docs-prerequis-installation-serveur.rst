@@ -13,6 +13,11 @@ Autres documentations techniques disponibles :
 
 -  GoFAST : Mobilité et applications tierces
 
+Pré-requis Poste Client
+==================================
+
+Voir http://gofast-docs.readthedocs.io/fr/latest/docs-gofast-users/doc-gofast-guide-utilisateurs.html?highlight=navigateur#pre-requis-necessaires-pour-lutilisation-de-gofast
+
 Pré-requis et installation Serveur
 ==================================
 
