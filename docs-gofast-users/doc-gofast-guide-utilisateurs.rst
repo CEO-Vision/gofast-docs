@@ -4225,7 +4225,7 @@ Depuis l’icône (qui propose les différents menus) sur le document, une liste
 
 Vous pouvez consulter tous les documents ajouter au panier depuis votre Menu Utilisateur, en cliquant sur le sous-menu « *Panier* ». La liste de tous les documents ajoutés va alors s'afficher. 
 
-.. figure:: media-guide/Paniers-users.png
+.. figure:: media-guide/Panier-users.png
    :alt:
 
 **Démarrer le processus de validation depuis le panier documentaire**
