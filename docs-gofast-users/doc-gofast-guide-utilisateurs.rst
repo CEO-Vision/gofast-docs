@@ -148,7 +148,7 @@ Connexion/Login
 .. figure:: media-guide/image001.png
    :alt: 
 
-Vous pouvez vous loguez à la GoFAST 3.0 via l’adresse URL :
+Vous pouvez vous identifier à GoFAST 3.0 via l’adresse URL :
 https://gofast.monorganisation.com
 
 Il suffit d’entrer votre **identifiant** et votre **mot de passe**.
