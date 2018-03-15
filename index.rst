@@ -1,14 +1,6 @@
 Documentation GoFAST
 ####################
 
-.. _release-docs:
-
-.. toctree::
-   :maxdepth: 1
-   :caption: Releases GoFAST
-   
-   docs-gofast-technical/release-notes-3.2.0
-
 .. _technical-docs:
 
 .. toctree::
@@ -27,3 +19,12 @@ Documentation GoFAST
 
    docs-gofast-users/doc-gofast-guide-utilisateurs
    docs-gofast-users/doc-gofast-utilisation-avancee
+
+.. _release-docs:
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Releases GoFAST
+   
+   docs-gofast-technical/release-notes-3.2.0
+   docs-gofast-technical/release-notes-3.2.1
