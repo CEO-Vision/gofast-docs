@@ -52,7 +52,7 @@ Bugs majeurs
    "[4014]", "Mauvais chemin lorsque l'on clique sur le dossier à la racine", "Explorateur web"
   
 
-HOTFIX
+Hotfix
 **********************
 .. csv-table::  
    :header: "Ref.", "Description", "Catégorie"
