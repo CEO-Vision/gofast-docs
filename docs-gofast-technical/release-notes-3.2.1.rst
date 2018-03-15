@@ -16,6 +16,8 @@ Améliorations
    "[4003]", "Adapter le design pour une résolution mini de 1366x768 sur mobile", "Mobile"
    "[2875]", "Création d'une case *Cocher tout* dans la vue de gestion en masse des droits d’accès des utilisateurs", "Gestion en masse"
    "[4005]", "Amélioration de la traduction", "Traduction"
+   "[4024]", "Indenter les groupes dans le filtre du fil d'actualité", "Filtres"
+   
 
 
 Bugs mineurs
@@ -37,6 +39,9 @@ Bugs mineurs
    "[4011]", "Correction de la traduction du Chat qui restait en EN dans la version NL", "Traduction"
    "[4015]", "La librairie de gestion d'emplacement ne s'instancie pas dans le formulaire de *Création de formulaire/forum* (non ajax)", "Gestion d'emplacement"
    "[3823]", "Manque d'icônes dans l'éditeur de texte formaté", "Editeur de texte formaté"
+   "[4025]", "Les fenêtres de profil qui apparaissent (pop-up) au survol dans les modales de workflows, ne passent pas par dessus la fenêtre", "Affichage"
+   "[4026]", "Les documents .dotx ne sont pas considérés comme des documents Word dans GoFAST", "Extension"
+   "[4027]", "Lors d'une auto-suggestion dans la fenêtre apparente, la taille de la modale (pop-up) se retracte", "Affichage"
  
    
 Bugs majeurs
@@ -63,5 +68,5 @@ Hotfix
    "[3952]", "Problème de pagination dans les commentaires", "Commentaire"
    "[3958]", "Amélioration graphique du tableau de bord et du formulaire des workflow", "Ergonomie"
    "[3997]", "Lorsqu'un emplacement contient le caractère *&*, la libraire de gestion d'emplacement doublonne le chemin", "Gestion d'emplacement"
-   "[3995]", "Pas de mise à jour affichée par une fenêtre d'apparition (pop-up) après une validation", "Notification"
+   "[3995]", "Pas de mise à jour affichée par une fenêtre d'apparition (pop-up) après une validation", "Affichage"
    
