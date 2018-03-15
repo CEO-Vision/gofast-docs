@@ -13,7 +13,7 @@ Améliorations
    "[3442]", "Amélioration de l'ergonomie de la fonctionnalité de gestion en masse des utilisateurs ", "Affichage"
    "[3918]", "Mise à jour de Drupal *core + modules*", "Sécurité"
    "[3981]", "Accès au téléchargement du module -IT Hit Edit Document Opener- facilité. Ce module permet l'édition en ligne des fichiers non Office", "Edition en ligne"
-   "[4003]", "Adapter le design pour une résolution mini de 1366x768 sur mobile", "Mobile"
+   "[4003]", "Adapter le design pour une résolution mini de 1366x768", "Affichage"
    "[2875]", "Création d'une case *Cocher tout* dans la vue de gestion en masse des droits d’accès des utilisateurs", "Gestion en masse"
    "[4005]", "Amélioration de la traduction", "Traduction"
    "[4024]", "Indenter les groupes dans le filtre du fil d'actualité", "Filtres"
@@ -27,7 +27,7 @@ Bugs mineurs
    :widths: 10, 40, 10
    
    "[3916]", "Correction des invitations ICS envoyées par email pour planifier des webconférences de manière à être acceptées par les agendas de certaines messageries", "Notifications"
-   "[3935]", "Correction du blocage Java Script dans la fonctionnalité de gestion en masse des utilisateurs", "Gestion des utilisateurs"
+   "[3935]", "Correction du blocage JavaScript dans la fonctionnalité de gestion en masse des utilisateurs", "Gestion des utilisateurs"
    "[3992]", "Correction du bug *emplacement non trouvé dans l’explorateur de fichiers* suite à un clic sur l’espace souhaité", "Emplacement"
    "[4016]", "[IE] Problème d'authentification de l'explorateur de fichiers lors de la connexion", "Explorateur web"
    "[3569]", "Amélioration du positionnement lors de l'arrivée sur une page : l'utilisateur n'arrivait pas sur le haut de la page", "Affichage"
