@@ -190,6 +190,9 @@ La plate-forme GoFAST peut s'installer :
 
 -  soit sur un autre réseau accessible par Internet (attention dans ce
    cas aux performances, débit, routage, ...)
+   
+.. CAUTION::
+   Si l'organisation utilise un Proxy pour l'accès à Internet des configurations particulières doivent être effectuées    
 
 Liste des ports
 ~~~~~~~~~~~~~~~
