@@ -273,6 +273,9 @@ Dans le cas d'image VHD ou VMDK, la machine virtuelle doit être créée au
 préalable suivant les prérequis et l'image disque rattachée à cette
 machine virtuelle.
 
+.. CAUTION::
+   Pour VMWare, vérifier que que le "PVSCSI adapter" est bien utilisé
+
 Pour information, l'image VMDK de VirtualBox a été au préalable
 convertie pour VMWare à l'aide des commandes suivantes: ::
 
@@ -322,6 +325,8 @@ suivantes sont à effectuer: ::
 
 .. CAUTION::
    la dernière opération peut prendre entre 30min et 1h30 pour une augmentation de 1To
+
+
 
 Installation par script
 -----------------------
