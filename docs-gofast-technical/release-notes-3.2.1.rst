@@ -12,7 +12,7 @@ Améliorations
    "[4002]", "Amélioration des performances globale mySQL", "Performance"
    "[3442]", "Amélioration de l'ergonomie de la fonctionnalité de gestion en masse des utilisateurs ", "Affichage"
    "[3918]", "Mise à jour de Drupal *core + modules*", "Sécurité"
-   "[3898]", "Signature avec certificat invisible dans la prévisualisation, "Affichage"
+   "[3898]", "Signature avec certificat invisible dans la prévisualisation", "Affichage"
    "[3981]", "Accès au téléchargement du module -IT Hit Edit Document Opener- facilité. Ce module permet l'édition en ligne des fichiers non Office", "Edition en ligne"
    "[4003]", "Adapter le design pour une résolution mini de 1366x768", "Affichage"
    "[2875]", "Création d'une case *Cocher tout* dans la vue de gestion en masse des droits d’accès des utilisateurs", "Gestion en masse"
