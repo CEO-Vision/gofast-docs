@@ -11,7 +11,6 @@ Améliorations
    "[3736]", "Amélioration des performances de la fonctionnalité de gestion en masse des utilisateurs dans le cas où il y a un grand nombre d’utilisateurs sélectionnés", "Gestion des utilisateurs"
    "[4002]", "Amélioration des performances globale mySQL", "Performance"
    "[3442]", "Amélioration de l'ergonomie de la fonctionnalité de gestion en masse des utilisateurs ", "Affichage"
-
    "[3898]", "Signature avec certificat visible dans la prévisualisation", "Affichage"
    "[3981]", "Accès au téléchargement du module -IT Hit Edit Document Opener- facilité. Ce module permet l'édition en ligne des fichiers non Office", "Edition en ligne"
    "[4003]", "Adapter le design pour une résolution mini de 1366x768", "Affichage"
