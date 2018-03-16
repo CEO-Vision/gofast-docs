@@ -274,7 +274,7 @@ préalable suivant les prérequis et l'image disque rattachée à cette
 machine virtuelle.
 
 .. CAUTION::
-   Pour VMWare, vérifier que que le "PVSCSI adapter" est bien utilisé
+   Pour VMWare, vérifier que le "PVSCSI adapter" est bien utilisé
 
 Pour information, l'image VMDK de VirtualBox a été au préalable
 convertie pour VMWare à l'aide des commandes suivantes: ::
