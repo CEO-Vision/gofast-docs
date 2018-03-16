@@ -99,7 +99,16 @@ Pré-requis nécessaires pour l’utilisation de GoFAST
    (http://beta.speedtest.net/)
 
 -  Résolution écran 1366x768 minimum
-   
+
+Configuration/Installation supplémentaires optionnelles
+---------------------------------------------------
+Des configurations et/ou installations supplémentaires sont nécessaires pour 
+
+- Voir GoFAST dans l'explorateur de fichiers Windows
+- Editer en ligne les contenus non Office ou LibreOffice (exemple signature de PDF)
+- Synchonisation hors-ligne
+
+Dans la plupart des cas contacter votre support informatique.
 
 Quoi de neuf en GoFAST v3
 -------------------------
