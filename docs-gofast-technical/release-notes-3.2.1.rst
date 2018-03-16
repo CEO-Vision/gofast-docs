@@ -24,6 +24,7 @@ Sécurité
 .. csv-table::  
    :header: "Ref.", "Description", "Catégorie"
    :widths: 10, 40, 10
+   
    "[3918]", "Mise à jour de Drupal *core + modules*", "Sécurité"
 
 Bugs mineurs
