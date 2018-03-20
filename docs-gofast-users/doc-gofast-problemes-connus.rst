@@ -51,3 +51,7 @@ Une fois que les fichiers bloqués ont été supprimés :
 1/ Votre fichier est ouvert en édition à partir de GoFAST et vous pouvez retourner sur le document dans Office (Word, Excel...) et re-cliquer sur "Enregistrer". Le fichier est alors téléchargé vers GoFAST. 
 
 2/ Le fichier est sur votre PC (ex: Bureau) et vous pouvez le glisser-déposer du PC vers GoFAST, sur la page du document (angle en haut à droite, zone en pointillés).
+
+Message "Impossible d'enregistrer le fichier car sa taille dépasse la taille autorisée"
+===========================
+Le message Windows provient d'une limitation imposée par le système Windows, qui empêche le transfert de gros fichiers par Webdav.
