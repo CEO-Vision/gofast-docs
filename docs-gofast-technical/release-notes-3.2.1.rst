@@ -48,6 +48,7 @@ Bugs mineurs
    "[4025]", "Les fenêtres de profil qui apparaissent (pop-up) au survol dans les modales de workflows, ne passent pas par dessus la fenêtre", "Affichage"
    "[4026]", "Les documents .dotx ne sont pas considérés comme des documents Word dans GoFAST", "Extension"
    "[4027]", "Lors d'une auto-suggestion dans la fenêtre apparente, la taille de la modale (pop-up) se retracte", "Affichage"
+   "[3078]", "Fixer la largeur des colonnes du calendrier", "Calendrier"
  
    
 Bugs majeurs
@@ -61,6 +62,9 @@ Bugs majeurs
    "[3936]", "Possibilité d'assigner un document dans un workflow à une personne qui n'y a pas accès", "Workflow"
    "[3983]", "Problème de virgule dans le nom d'un espace", "Affichage"
    "[4014]", "Mauvais chemin lorsque l'on clique sur le dossier à la racine", "Explorateur web"
+   "[4035]", "Problème d'affichage des contenus type formulaire", "Affichage"
+   "[4041]", "Pas de menu contextuel sur les Forums", "Forum"
+  
   
 
 Hotfix
