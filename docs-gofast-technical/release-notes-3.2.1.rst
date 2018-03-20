@@ -30,7 +30,7 @@ Bugs mineurs
 **********************
 .. csv-table::  
    :header: "Ref.", "Description", "Catégorie"
-   :widths: 10, 40, 10
+   :widths: 10, 60, 10
    
    "[3916]", "Correction des invitations ICS envoyées par email pour planifier des webconférences de manière à être acceptées par les agendas de certaines messageries", "Notifications"
    "[3935]", "Correction du blocage JavaScript dans la fonctionnalité de gestion en masse des utilisateurs", "Gestion des utilisateurs"
