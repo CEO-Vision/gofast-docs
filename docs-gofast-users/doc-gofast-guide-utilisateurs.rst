@@ -2237,15 +2237,10 @@ la prévisualisation et appuyez sur l’option «  Editer avec OnlyOfice »
    :alt: 
 
 .. IMPORTANT::
-   Dans la version actuelle, l'édition de .doc,.xls,.ppt ne
-   permet ensuite plus de prévisualiser le document. De même la version
-   actuelle ne génère pas les Table de Matières, celles-ci devant être
-   généré une fois le document terminé sous Word
-
-.. NOTE::
-   Nous vous recommandons dans tous les cas de plutôt utiliser les
-   formats ouverts et plus récents .docx, .xlsx, .pptx et leurs équivalents
-   normalisés .odt, ...
+   Si vous souhaitez co-éditer les anciens formats Microsoft (.doc, .xls, .ppt) ou les formats
+   OpenDocument (.odt, ...) ceux-ci seront convertis dans les formats équivalents .docx, .xlsx, .pptx) 
+   De même la version actuelle ne génère pas les Table de Matières, celles-ci devant être
+   généré une fois le document terminé sous votre éditeur de texte.
    
 Ce message apparaît, cliquez sur « Continuer »
 
