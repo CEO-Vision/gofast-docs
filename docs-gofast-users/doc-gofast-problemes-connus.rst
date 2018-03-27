@@ -17,6 +17,10 @@ Impossible d'éditer en ligne des contenus non Office sous Windows 10 'Fall Crea
 ===========================
 Une regression dans le composant Webdav de Microsoft de cette version de Windows 10 empeche d'éditer en ligne des contenus non Office (exemple: PDF, ...). Il faut télécharger la version la plus récente de ITHitDocumentOpener (v5)
 
+Impossible d'éditer en ligne des contenus PDF avec Acrobat Reader (v18)
+===========================
+Il faut vérifier que l'application Acrobat Reader soit déjà fermée avant le lancer l'édition en ligne. Ce problème n'existe pas avec FoxitReader
+
 Message "Echec du téléchargement" sous Office
 ===========================
 
