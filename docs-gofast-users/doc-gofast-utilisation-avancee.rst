@@ -227,6 +227,7 @@ Vous pouvez alors choisir dans le menu 'Editer en ligne'. Ceci ouvrira le client
 
 |image17|
 
+.. CAUTION:: Si vous utilisez Acrobat Reader, l'application doit être déjà fermée avant de lancer l'édition en ligne
 
 Dématérialiser vers GoFAST
 --------------------------
