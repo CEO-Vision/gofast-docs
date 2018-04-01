@@ -66,4 +66,4 @@ Message "Erreur réseau" avec Explorateur Windows
 .. figure:: media-guide/Erreur réseau webdav.png
    :alt:
 
-Vérifier que le service Webclient est démarré
+Dans le cas de "Windows ne peut accéder à ..." vérifier que le service webclient est démarré
