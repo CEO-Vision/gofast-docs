@@ -63,7 +63,7 @@ Le message Windows provient d'une limitation imposée par le système Windows, q
 Message "Erreur réseau" avec Explorateur Windows
 ===========================
 
-.. figure:: media-guide/Erreur réseau webdav.png
+.. figure:: media-guide/erreur-réseau-webdav.png
    :alt:
 
 Dans le cas de "Windows ne peut accéder à ..." vérifier que le service webclient est démarré
