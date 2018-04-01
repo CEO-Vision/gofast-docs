@@ -59,3 +59,11 @@ Une fois que les fichiers bloqués ont été supprimés :
 Message "Impossible d'enregistrer le fichier car sa taille dépasse la taille autorisée"
 ===========================
 Le message Windows provient d'une limitation imposée par le système Windows, qui empêche le transfert de gros fichiers par Webdav.
+
+Message "Erreur réseau" avec Explorateur Windows
+===========================
+
+.. figure:: media-guide/Erreur réseau webdav.png
+   :alt:
+
+Vérifier que le service Webclient est démarré
