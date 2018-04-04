@@ -363,24 +363,28 @@ mettre de vraies photos de profil) .
 
 Les Espaces collaboratifs
 -------------------------
-Les espaces collaboratifs sont un ensemble de fichiers seulement accessibles par des membres définis. (Administrateur, Contributeur, ou encore en Lecture Seule). 
+Les espaces collaboratifs sont des zones documentaires et de travails collaboratifs qui comprend un ensemble de fichiers seulement accessibles par des membres définis. (Administrateur, Contributeur, ou encore en Lecture Seule). 
 
 Il existe plusieurs grandes familles d'espaces : 
-- Organisation 
-- Groupe (projet, produit, site géographique, thématique, ...)
-- Extranet
-- Pubic 
-- Privé 
+
+* Organisation 
+* Groupe (projet, produit, site géographique, thématique, ...)
+* Extranet
+* Pubic 
+* Privé 
 
 Chaque espace peut contenir un ou plusieurs sous espaces. Dans ce cas il
 est possible d'avoir un sous-ensemble de membres dans les sous-espaces
 afin de restreindre encore plus les accès aux contenus. Plus vous descendez dans
-l'arborescence, moins il y a potentiellement de membres.
+l'arborescence, moins il y a potentiellement de membres. La gestion des accès aux espaces suit une suite logique d'entonnoir. 
 
 .. NOTE::
-   Les espaces peuvent contenir des répertoires. Ces répertoires possèdent
+   Les espaces peuvent contenir des fichiers, autres contenus (ex : forums), des sous-espaces (avec droits associés) 
+   ou encore des répertoires. Ces répertoires possèdent
    les même droits que l'espace immédiatement au dessus. On ne peut donc
    pas choisir des membres.
+
+
 
 Avant de pouvoir déposer les fichiers et les documents sur la plateforme GoFAST, 
 assurez-vous de créer de bons espaces et sous-espaces collaboratifs de type Organisation,
