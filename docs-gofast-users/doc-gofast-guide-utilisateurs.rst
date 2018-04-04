@@ -85,11 +85,11 @@ Pré-requis nécessaires pour l’utilisation de GoFAST
    également sur les versions récentes d’Internet Explorer 11 (sauf
    webconference), Edge, en plus d’Opera 
 
--  Navigateur MacOS : Safari 11
+-  Navigateur MacOS : Safari 10+ (sauf webconference), Chrome 65+
 
 -  Navigateur Linux : Firefox 57+
    
--  Système d'exploitation Windows7 et plus, MacOS 10.10+ et Linux (Ubuntu 14+) et en mobilité Android ou iOS.  nb: Windows 10 ne permet pas l'édition en ligne de fichier non Office
+-  Système d'exploitation Windows7 et plus, MacOS 10.10+ et Linux (Ubuntu 14+) et en mobilité Android ou iOS.  
 
 -  Bureautique : MS-Office 2010 (>14.0.7190.5000) et supérieur+, LibreOffice 5+, WPS (sans support)
 
@@ -363,28 +363,24 @@ mettre de vraies photos de profil) .
 
 Les Espaces collaboratifs
 -------------------------
-Les espaces collaboratifs sont des zones documentaires et de travails collaboratifs qui comprend un ensemble de fichiers seulement accessibles par des membres définis. (Administrateur, Contributeur, ou encore en Lecture Seule). 
+Les espaces collaboratifs sont un ensemble de fichiers seulement accessibles par des membres définis. (Administrateur, Contributeur, ou encore en Lecture Seule). 
 
 Il existe plusieurs grandes familles d'espaces : 
-
-* Organisation 
-* Groupe (projet, produit, site géographique, thématique, ...)
-* Extranet
-* Pubic 
-* Privé 
+- Organisation 
+- Groupe (projet, produit, site géographique, thématique, ...)
+- Extranet
+- Pubic 
+- Privé 
 
 Chaque espace peut contenir un ou plusieurs sous espaces. Dans ce cas il
 est possible d'avoir un sous-ensemble de membres dans les sous-espaces
 afin de restreindre encore plus les accès aux contenus. Plus vous descendez dans
-l'arborescence, moins il y a potentiellement de membres. La gestion des accès aux espaces suit une suite logique d'entonnoir. 
+l'arborescence, moins il y a potentiellement de membres.
 
 .. NOTE::
-   Les espaces peuvent contenir des fichiers, autres contenus (ex : forums), des sous-espaces (avec droits associés) 
-   ou encore des répertoires. Ces répertoires possèdent
+   Les espaces peuvent contenir des répertoires. Ces répertoires possèdent
    les même droits que l'espace immédiatement au dessus. On ne peut donc
    pas choisir des membres.
-
-
 
 Avant de pouvoir déposer les fichiers et les documents sur la plateforme GoFAST, 
 assurez-vous de créer de bons espaces et sous-espaces collaboratifs de type Organisation,
