@@ -363,34 +363,14 @@ mettre de vraies photos de profil) .
 
 Les Espaces collaboratifs
 -------------------------
-Avant de pouvoir déposer les fichiers et les documents sur la plateforme GoFAST, 
-assurez-vous de créer de bons espaces et sous-espaces collaboratifs de type Organisation,
-Groupe, Extranet! 
+Les espaces collaboratifs sont un ensemble de fichiers seulement accessibles par des membres définis. (Administrateur, Contributeur, ou encore en Lecture Seule). 
 
-Les espaces collaboratifs sont un ensemble de fichiers seulement
-accessibles par des membres définis. Ces membres ont des rôles différents:
-
--  Administrateur : il peut ajouter, retirer des membres, créer des
-   sous-espaces, supprimer des contenus dont il n'est pas l'auteur
--  Contributeur : il peut ajouter, modifier, et ne supprimer que les
-   contenus dont il est l'auteur
--  Lecture Seule
-
-.. NOTE::
-   Il est possible aussi d'avoir le droit supplémentaire
-   'broadcaster' qui permet de partager des contenus dans des espaces
-   où l'on est pas membre.
-
-Il existe plusieurs grandes familles d'espaces :
-
--  Organisation
--  Groupe (projet, produit, site géographique, thématique, ...)
--  Extranet
--  Public
--  Privé
-
-Les espaces sont représentés dans l'explorateur de fichiers par un
-soulignement devant le nom de l'espace, ex.: ``_ProjetA``
+Il existe plusieurs grandes familles d'espaces : 
+- Organisation 
+- Groupe (projet, produit, site géographique, thématique, ...)
+- Extranet
+- Pubic 
+- Privé 
 
 Chaque espace peut contenir un ou plusieurs sous espaces. Dans ce cas il
 est possible d'avoir un sous-ensemble de membres dans les sous-espaces
@@ -401,6 +381,14 @@ l'arborescence, moins il y a potentiellement de membres.
    Les espaces peuvent contenir des répertoires. Ces répertoires possèdent
    les même droits que l'espace immédiatement au dessus. On ne peut donc
    pas choisir des membres.
+
+Avant de pouvoir déposer les fichiers et les documents sur la plateforme GoFAST, 
+assurez-vous de créer de bons espaces et sous-espaces collaboratifs de type Organisation,
+Groupe, Extranet! 
+
+Les espaces sont représentés dans l'explorateur de fichiers par un
+soulignement devant le nom de l'espace, ex.: ``_ProjetA``
+
 
 Notion de partage de contenus entre espaces
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
