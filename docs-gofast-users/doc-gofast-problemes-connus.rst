@@ -13,7 +13,7 @@ Dans le cas où le problème concerne une application de la suite MS-Office il e
 .. figure:: media-guide/trouver-version-excel.png
 
 
-Impossible d'éditer en ligne des contenus non Office sous Windows 10 'Fall Creators Update'
+Impossible d'éditer en ligne des contenus non Office sous Windows 10 "Fall Creators Update"
 ===========================
 Une regression dans le composant Webdav de Microsoft de cette version de Windows 10 empeche d'éditer en ligne des contenus non Office (exemple: PDF, ...). Il faut télécharger la version la plus récente de ITHitDocumentOpener (v5)
 
@@ -21,7 +21,7 @@ Impossible d'éditer en ligne des contenus PDF avec Acrobat Reader (v18)
 ===========================
 Il faut vérifier que l'application Acrobat Reader soit déjà fermée avant le lancer l'édition en ligne. Ce problème n'existe pas avec FoxitReader
 
-Message "Echec du téléchargement" sous Microsoft Office
+Message "Échec du téléchargement" : Impossible d'enregistrer sous Microsoft Office suite à une édition en ligne 
 ===========================
 
 Lors d'une édition en ligne d'un fichier Office, il peut arriver qu'au moment de l'enregistrement, un message indique que le fichier est en lecture seule et ne peut pas être enregistré. 
