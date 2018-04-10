@@ -21,10 +21,14 @@ Impossible d'éditer en ligne des contenus PDF avec Acrobat Reader (v18)
 ===========================
 Il faut vérifier que l'application Acrobat Reader soit déjà fermée avant le lancer l'édition en ligne. Ce problème n'existe pas avec FoxitReader
 
-Message "Echec du téléchargement" sous Office
+Message "Echec du téléchargement" sous Microsoft Office
 ===========================
 
-Lors d'une édition en ligne d'un fichier Office, il peut arriver qu'au moment de l'enregistrement, un message indique que le fichier est en lecture seule et ne peut pas être enregistré. Deux solutions solutions sont ici proposées pour corriger le probléme:
+Lors d'une édition en ligne d'un fichier Office, il peut arriver qu'au moment de l'enregistrement, un message indique que le fichier est en lecture seule et ne peut pas être enregistré. 
+
+Ce problème est souvent la conséquence d'un dysfonctionnement du "Centre de Téléchargement Office". Ce centre est fait pour éviter de perdre son travail dans le cas d'une déconnexion avec le serveur distant (ici : GoFAST). Toutefois, il arrive que celui-ci bloque l'envoi des fichiers. Ces fichiers bloqués sont listés dans le centre de téléchargement.
+
+Deux solutions solutions sont ici proposées pour corriger le probléme:
 
 1/ Plutôt que "Enregistrer", allez dans "Enregistrer sous", puis cliquez sur "Récents" et enfin sélectionnez le dossier où se trouve votre fichier. Enregistrez votre version en écrasant le fichier qui est sur le serveur. 
 
