@@ -462,22 +462,27 @@ Espace Public
 ~~~~~~~~~~~~~
 
 A l’inverse de l’espace personnel/privé, **l’Espace Public** donne accès
-aux documents « publics » visibles par tous les utilisateurs GoFAST
+aux documents « publics » visibles par tous les utilisateurs internes GoFAST
 (sauf les membres Extranet).
 
 Mais contrairement à GoFAST 2, cet espace Public interne est maintenant
-géré par **tous les administrateurs d’espace** de la GoFAST (y créer des
+géré par **tous les administrateurs de plateforme** de la GoFAST (y créer des
 sous-espaces, déposer les documents etc..) : les autres utilisateurs
 dits « standards/contributeurs» ne peuvent *pas ajouter de contenus ni
 les modifier dans l’espace Public*, ils devront le demander à leur
-administrateur d’espace.
+administrateur de plateforme.
 
 Par contre, les administrateurs peuvent également configurer l'espace
-public de telle sorte que certains membres de la plateforme puissent
+public de telle sorte que tous les utilisateurs et membres de la plateforme (hors Extranet) puissent
 contribuer aussi à cet espace public: soit la lecture, soit l'écriture.
 
 Pour y accéder, allez dans « **Espaces** », « **Public** ». Pas
 besoin d’en être membre, vous y avez accès automatiquement.
+
+Pour résumé, il y a donc deux possibilités d'alimenter cet espace **Public**.
+
+-  Les utilisateurs ayant pour rôle **Super-Administrateurs** peuvent alimenter, modifier, créer des documents, créer des sous-espaces, etc. Les documents sont alors visibles par tous les utilisateurs en **Lecture Seule**.
+-  Tous les utilisateurs et membres de la plateforme (hors membres Extranet) sont **Contributeurs** de cet espace et ont la possibilité d'ajouter, modifier, supprimer les documents.
 
 .. figure:: media-guide/image032.png
    :alt: 
@@ -1178,7 +1183,7 @@ reprenant les mêmes informations et le lien URL.
 Gestion d'un espace collaboratifs
 =================================
 
-Voir aussi"Création d’un espace"
+Voir aussi "Création d’un espace"
 
 Devenir membre d’un espace/groupe
 ---------------------------------
