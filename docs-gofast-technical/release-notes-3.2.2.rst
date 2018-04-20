@@ -20,7 +20,7 @@ Bugs mineurs
    
    "[3933]", "Impossible de créer un compte utilisateur avec le rôle par défaut administrateur", "Compte utilisateur"
    "[3972]", "Lorsque un document et répliqué, on ne récupère pas la date de création du document pour le noeud Drupal", "Historique documents"
-   "[4071]", "Le rôle "Broadcaster" : ne fonctionne pas pour les types différents d'alfresco-item", "Rôle utilisateur"
+   "[4071]", "Le rôle *Broadcaster* : ne fonctionne pas pour les types différents d'alfresco-item", "Rôle utilisateur"
    "[4089]", "Possible dans certains cas de supprimer un document en multi-emplacement dans des espaces où on n'a pas le droit de suppression", "Suppression"
    "[4101]", "Lors de la suppression d'un dossier, la réplication vers Drupal ne remonte plus", "Suppression"
    "[3980]", "[Workflow] : Problème visuel dans le tableau de bord depuis un document", "Workflow"
