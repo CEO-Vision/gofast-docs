@@ -28,7 +28,7 @@ Bugs mineurs
    "[4087]", "Impossible de faire un export de statistiques documentaires : Message d'erreur", "Statistique"
    "[4094]", "Ne plus rendre l'aspect gofast:nodeproperties obligatoire pour les dossiers", "Technique"
    "[4095]", "Création depuis modèles : menu pas toujours visible sur la CLOUD", "Modèle"
-   "[3276]", "Suppression d'un espace : ne s'ouvre pas en modal", "Suppression"
+   "[3276]", "Suppression d'un espace : ne s'ouvre pas en modal (boite de dialogue/pop-up)", "Suppression"
    "[4065]", "Lors du téléchargement de l'applicatif *ITHitDocumentOpener* sous Chrome ne comprend pas le format de la fênetre de téléchargement", "Applicatif"
    "[4093]", "Boite de dialogue mal dimensionnée pour les commentaires", "Boite de dialogue"
    "[4107]", "Portrait technique dans le fil d'activité", "Fil d'activité"
