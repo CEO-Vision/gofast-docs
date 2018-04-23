@@ -8,7 +8,6 @@ Améliorations
    :header: "Ref.", "Description", "Catégorie"
    :widths: 10, 40, 10
    
-   "[3964]", "Avoir un tableau de bord des composants de l'application", "Tableau de bord"
    "[4096]", "Incohérence de permission de lien de partage si l'utilisateur est déjà connecté sur GoFAST", "Permission"
    
 
@@ -24,7 +23,6 @@ Bugs mineurs
    "[4089]", "Possible dans certains cas de supprimer un document en multi-emplacement dans des espaces où on n'a pas le droit de suppression", "Suppression"
    "[4101]", "Lors de la suppression d'un dossier, la réplication vers Drupal ne remonte plus", "Suppression"
    "[3980]", "[Workflow] : Problème visuel dans le tableau de bord depuis un document", "Workflow"
-   "[4023]", "Versionner et redéployer à chaque mise à jour les configurations des services", "Versions"
    "[4087]", "Impossible de faire un export de statistiques documentaires : Message d'erreur", "Statistique"
    "[4094]", "Ne plus rendre l'aspect gofast:nodeproperties obligatoire pour les dossiers", "Technique"
    "[4095]", "Création depuis *Modèles* : menu pas toujours visible sur la CLOUD", "Modèle"
