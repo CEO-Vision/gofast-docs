@@ -206,9 +206,9 @@ XMPP.
 Vous pouvez donc utiliser une application pour votre téléphone suivant
 ce standard. Par exemple :
 
--  Android : Xabber, Kandru (gratuit), Conversations (payant)
+-  Android : Xabber, Kandru (gratuit), Conversations (payant), Astrachat 
 
--  iOS : à déterminer
+-  iOS : Chatsecure, AstraChat
 
 Pour configurer ces clients il suffit d’entrer dans la gestion des comptes :
 
