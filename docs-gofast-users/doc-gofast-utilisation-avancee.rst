@@ -206,7 +206,7 @@ XMPP.
 Vous pouvez donc utiliser une application pour votre téléphone suivant
 ce standard. Par exemple :
 
--  Android : Xabber, FreeLab Messenger
+-  Android : Xabber, Kandru (gratuit), Conversations (payant)
 
 -  iOS : à déterminer
 
