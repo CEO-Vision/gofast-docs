@@ -1377,22 +1377,7 @@ gestion des documents :
    au document), …
 
 3) **L’utilisateur « read only/lecture seule »** : peut juste
-   télécharger le document pour le visualiser mais ne peut pas l’éditer
-   en ligne. C’est-à-dire que s’il veut modifier le document, il doit le
-   télécharger, faire ses modifications puis recharger le document sur
-   GoFAST et lui donner un autre nom. Il peut également ajouter ou
-   supprimer des documents dont il est l’auteur (qu’il a mis lui-même
-   sur GoFAST).
-
-.. NOTE::
-    Si l’utilisateur « en lecture seule » fait des
-    modifications sur un document téléchargé et le remet sur GoFAST sous
-    un autre nom, il devra prévenir les autres membres du groupe de ce
-    changement car il risque d‘y avoir doublon de document avec des
-    données pas mises à jour partout. Si ses modifications sont
-    probantes, il faudra écraser l’ancienne version par cette nouvelle,
-    afin qu’elle devienne le nouveau document de travail à jour pour la
-    future collaboration avec les autres membres du groupe.
+   télécharger le document ou le commenter. 
 
 Gérer un espace collaboratif /groupe
 ------------------------------------
