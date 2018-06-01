@@ -83,7 +83,7 @@ Pré-requis nécessaires pour l’utilisation de GoFAST
 ---------------------------------------------------
 -  Navigateurs préférentiels Windows: **Firefox 57+ (et la dernière version ESR) ou Chrome.** Mais fonctionne
    également sur les versions récentes d’Internet Explorer 11 (sauf
-   webconference), Edge, en plus d’Opera 
+   webconference), Edge (sauf webconference), en plus d’Opera 
 
 -  Navigateur MacOS : Safari 10+ (sauf webconference), Chrome 65+
 
@@ -97,6 +97,8 @@ Pré-requis nécessaires pour l’utilisation de GoFAST
    512 kbits/s min. et 256kbps upload . Vous pouvez d'ailleurs tester
    directement votre connexion via ce lien http://www.speedtest.net/
    (http://beta.speedtest.net/)
+   
+-  Une très bonne connexion pour la webconference en HD : jusqu'à 6MB/s peuvent être nécessaire  
 
 -  Résolution écran 1366x768 minimum
 
@@ -1113,6 +1115,8 @@ si besoin et s’il en est l’administrateur aussi).
 
 Création d’une conférence
 -------------------------
+
+.. CAUTION:: Les technologies de conférence Web sont assez récentes et nécessitent de bonnes ressources (PC, réseau, ...). Assurez-vous de suivre les pré-requis. En cas de problème consulter les problèmes fréquents : http://gofast-docs.readthedocs.io/fr/latest/docs-gofast-users/doc-gofast-problemes-connus.html#webconference
 
 Tout comme dans Skype ou autres outils de discussion en ligne, vous
 pouvez démarrer une **vidéoconférence** directement sur la GoFAST.
