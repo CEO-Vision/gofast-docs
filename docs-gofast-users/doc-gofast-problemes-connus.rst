@@ -5,20 +5,19 @@ GoFAST : Problèmes connus
  
 .. CAUTION:: Si vous ne trouvez pas de réponse à vos questions ci-dessous et que vous disposez d'un abonnement GoFAST Entreprise il est important (après avoir vérifier que vous suivez les pré-requis) que vous fournissiez au support CEO-Vision le type (Windows, Mac, Linux) et la version de système d'exploitation, type et version de navigateur, le cas échéant version de la suite bureautique (MS-Office, LibreOffice,...). 
 
-
+Problèmes Office
+================
 Trouver sa version d'Office
-===========================
+------------------------
 Dans le cas où le problème concerne une application de la suite MS-Office il est important de connaitre sa version et si les mises à jour sont automatiquement installées. La version peut être trouvé à "A propos de Excel", ici version 1801
 
 .. figure:: media-guide/trouver-version-excel.png
 
 
-Impossible d'éditer en ligne des contenus PDF avec Acrobat Reader (v18)
-===========================
-Il faut vérifier que l'application Acrobat Reader soit déjà fermée avant le lancer l'édition en ligne. Ce problème n'existe pas avec FoxitReader
+
 
 Message "Échec du téléchargement" : Impossible d'enregistrer sous Microsoft Office suite à une édition en ligne 
-===========================
+------------------------
 
 Lors d'une édition en ligne d'un fichier Office, il peut arriver qu'au moment de l'enregistrement, un message indique que le fichier est en lecture seule et ne peut pas être enregistré. 
 
@@ -56,17 +55,23 @@ Une fois que les fichiers bloqués ont été supprimés :
 
 2/ Le fichier est sur votre PC (ex: Bureau) et vous pouvez le glisser-déposer du PC vers GoFAST, sur la page du document (angle en haut à droite, zone en pointillés).
 
+Problème Explorateur de fichiers Microsoft
+===================
 Message "Impossible d'enregistrer le fichier car sa taille dépasse la taille autorisée"
-===========================
+-----------------------
 Le message Windows provient d'une limitation imposée par le système Windows, qui empêche le transfert de gros fichiers par Webdav.
 
 Message "Erreur réseau" avec Explorateur Windows
-===========================
+------------------------
 
 .. figure:: media-guide/erreur-réseau-webdav.png
    :alt:
 
 Dans le cas de "Windows ne peut accéder à ..." vérifier que le service webclient est démarré
+
+Impossible d'éditer en ligne des contenus PDF avec Acrobat Reader (v18)
+===========================
+Il faut vérifier que l'application Acrobat Reader soit déjà fermée avant le lancer l'édition en ligne. Ce problème n'existe pas avec FoxitReader
 
 Webconference
 =============
