@@ -76,6 +76,8 @@ Il faut vérifier que l'application Acrobat Reader soit déjà fermée avant le 
 Webconference
 =============
 
+.. CAUTION:: La webconference nécessite du matériel (PC et infrastructure récent) récent et fonctionnel. 
+
 "Unfortunately, something went wrong" / "Un problème est survenu"
 -------------------------------------
 Vérifier que les ressources de votre PC ne sont pas saturées (Processeur, Réseau), en faisant un CTRL+ALT+SUP puis "Gestionnaire des taches" et que votre PC est suffisament puissant.
