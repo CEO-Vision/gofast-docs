@@ -76,7 +76,7 @@ Il faut vérifier que l'application Acrobat Reader soit déjà fermée avant le 
 Webconference
 =============
 
-.. CAUTION:: La webconference nécessite du matériel (PC et infrastructure récent) récent et fonctionnel. 
+.. CAUTION:: La webconference nécessite du matériel (PC et infrastructure réseau local et internet) récent et fonctionnel. 
 
 "Unfortunately, something went wrong" / "Un problème est survenu"
 -------------------------------------
