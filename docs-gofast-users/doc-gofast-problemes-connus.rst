@@ -68,7 +68,16 @@ Message "Erreur réseau" avec Explorateur Windows
 
 Dans le cas de "Windows ne peut accéder à ..." vérifier que le service webclient est démarré
 
+Webconference
+=============
+
+"Unfortunately, something went wrong" / "Un problème est survenu"
+-------------------------------------
+Vérifier que les ressources de votre PC ne sont pas saturées (Processeur, Réseau), en faisant un CTRL+ALT+SUP puis "Gestionnaire des taches" et que votre PC est suffisament puissant.
+
+Si cela arrive au tout début de la webconference, rafraichir la page ou clic sur F5
+
 Pas de Webconférence sous Safari
-===========================
+-------------------------------
 
 Le support de Safari du protocole WebRTC utilisé par le composant de webconference Jitsi-Meet est assez récent et ne fonctionne pas totalement. Nous vous recommandons d'utiliser Chrome pour Mac éventuellement le plugin Temasys  (non supporté)
