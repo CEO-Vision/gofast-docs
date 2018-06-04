@@ -47,7 +47,6 @@ Bugs mineurs
    "[4152]", "Affichage de l'arborescence lors de la gestion des membres", "Affichage"
    "[4162]", "Formulaire d'export des utilisateurs affiche le retour de l'ajaxification lors de l'accès en Ajax", "Formulaire"
    "[4163]", "Temps de latence à mettre entre la fermeture de la fenêtre apparente de workflow et le rechargement de la page", "Chargement"
-   "[4164]", "
    "[3016]", "Fichier comprennant de nombreuses révisions non expliquées", "Versionning"
    "[3083]", "Visio-conférence invisible dans le fil d'actuailité de la version mobile", "Mobile"
    "[3845]", "Page *non trouvée* (non GF) suite à l'édition en ligne d'un fichier PDF", "Edition en ligne"
