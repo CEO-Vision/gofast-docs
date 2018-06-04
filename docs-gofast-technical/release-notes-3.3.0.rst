@@ -41,7 +41,7 @@ Bugs mineurs
    :widths: 10, 60, 10
    
    "[4098]", "Impossibilité d'aller sur la gestion en masse des membres", "Gestion en masse"
-   "[4122]", "Impossibilité de supprimer un espace *Ancien espace créé sous GF2*, "Suppression"
+   "[4122]", "Impossibilité de supprimer un espace (Ancien espace créé sous GF2)", "Suppression"
    "[4124]", "Visio-conférence non fonctionnelle sur la plateforme Cloud : impossible de démarrer une session", "Visio-conférence"
    "[4134]", "Devoir vider l'intégralité du cache de Drupal à chaque création de document par un formulaire", "Création de document"
    "[4152]", "Affichage de l'arborescence lors de la gestion des membres", "Affichage"
