@@ -29,3 +29,4 @@ Documentation GoFAST
    docs-gofast-technical/release-notes-3.2.0
    docs-gofast-technical/release-notes-3.2.1
    docs-gofast-technical/release-notes-3.2.2
+   docs-gofast-technical/release-notes-3.3.0
