@@ -78,6 +78,8 @@ Webconference
 
 .. CAUTION:: La webconference nécessite du matériel (PC et infrastructure réseau local et internet) récent et fonctionnel. 
 
+.. NOTE:: L'utilisation de 4G permet d'avoir des débits meilleurs et moins de filtrage de ports que l'utilisation d'un simple ADSL. Nous avons constaté que l'utilisation d'une même navigateur pour tous les participants pouvait augmenter notablement la qualité, notamment avec FIREFOX v60+
+
 "Unfortunately, something went wrong" / "Un problème est survenu"
 -------------------------------------
 Vérifier que les ressources de votre PC ne sont pas saturées (Processeur, Réseau), en faisant un CTRL+ALT+SUP puis "Gestionnaire des taches" et que votre PC est suffisament puissant.
