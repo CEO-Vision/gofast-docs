@@ -31,7 +31,7 @@ Sécurité
    :header: "Ref.", "Description", "Catégorie"
    :widths: 10, 40, 10
 
- "[4153]", "Utilisation d'une requête POST au lieu de GET dans l'API de récupération de ticket Alfresco", "Requête"
+   "[4153]", "Utilisation d'une requête POST au lieu de GET dans l'API de récupération de ticket Alfresco", "Requête"
 
 
 Bugs mineurs
@@ -58,7 +58,7 @@ Bugs mineurs
    "[4072]", "Arrivé sur l'onglet documents lors d'un clic sur un emplacement ou depuis un espace du tableau de bord", "Tableau de bord"
    "[4126]", "Erreur 404 lors de l'abonnement à des mots-clés", "Etiquette"
    "[4165]", "Envoi de notifications considérablement ralenti", "Notification"
-   "[2667]", "Document supprimé reste dans l'explorateur de fichiers tant qu'on a pas volontairement rafraichit la page manuellement", "Suppression"
+   "[2667]", "Un document supprimé reste dans l'explorateur de fichiers tant qu'on a pas volontairement rafraichit la page manuellement", "Suppression"
    "[3445]", "Fenêtre apparente du commentaire sur la version mobile n'est pas optimisée", "Mobile"
    "[3749]", "Affichage des dates sur la version mobile : Jour et Mois sont inversés", "Mobile"
    "[4091]", "Lors de la réponse à un commentaire à travers une notification : le commentaire ne se positionne pas", "Commentaire"
