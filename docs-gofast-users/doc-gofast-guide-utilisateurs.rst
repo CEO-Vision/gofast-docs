@@ -365,32 +365,31 @@ mettre de vraies photos de profil) .
 
 Les Espaces collaboratifs
 -------------------------
-Les espaces collaboratifs sont des zones documentaires et de travails collaboratifs qui comprend un ensemble de fichiers seulement accessibles par des membres définis. (Administrateur, Contributeur, ou encore en Lecture Seule). 
+Les espaces collaboratifs sont des zones de travail collaboratif et de partage de documents accessibles uniquement aux utilisateurs membres.
 
-Il existe plusieurs grandes familles d'espaces : 
+Il existe plusieurs types d'Espaces Collaboratifs : 
 
--  Organisation
--  Groupe (projet, produit, site géographique, thématique, ...)
--  Extranet
--  Public
--  Privé
+-  Organisation (Organigramme : Directions, Départements, Services...)
+-  Groupe (espaces transverses : projet, produit, site géographique, thématique, ...)
+-  Extranet (espaces de travail avec des collaborateurs extranets)
+-  Public (accessible à tous les utilisateurs internes - non "extranets")
 
-Chaque espace peut contenir un ou plusieurs sous espaces. Dans ce cas il
-est possible d'avoir un sous-ensemble de membres dans les sous-espaces
-afin de restreindre encore plus les accès aux contenus. Plus vous descendez dans
-l'arborescence, moins il y a potentiellement de membres. La gestion des accès aux espaces suit une suite logique d'entonnoir. 
+Un espace Privé est également disponible pour chaque utilisateur. 
+
+Les Rôles disponibles pour les Membres des Espaces Collaboratifs sont : 
+
+- Administrateur 
+- Contributeur
+- Lecture Seule 
+
+Chaque espace peut contenir un ou plusieurs sous espaces. Dans ce cas il est possible d'avoir un sous-ensemble de membres dans les sous-espaces afin de restreindre l'accès. Plus vous descendez dans l'arborescence, moins il y a potentiellement de membres. 
+La gestion des accès aux espaces suit une suite logique d'entonnoir. 
 
 .. NOTE::
-   Les espaces peuvent contenir des fichiers, autres contenus (ex : forums), des sous-espaces (avec droits associés) 
-   ou encore des répertoires. Ces répertoires possèdent
-   les même droits que l'espace immédiatement au dessus. On ne peut donc
-   pas choisir des membres.
+   Les espaces peuvent contenir des fichiers, autres contenus (ex : forums, pages Wiki, etc.), des sous-espaces (avec droits associés) ou encore des dossiers classiques. Les dossiers classiques héritent des mêmes droits d'accès que l'espace parent où ils se trouvent.
+   Les espaces sont représentés dans l'explorateur de fichiers intégré par des icônes distinctes et avec un "_" devant le nom de l'espace (ex: _Organisation) dans l'explorateur de fichiers Windows ou Mac. 
 
-Avant de pouvoir déposer les fichiers et les documents sur la plateforme GoFAST, 
-assurez-vous de créer de bons espaces et sous-espaces collaboratifs de type Organisation,
-Groupe, Extranet! 
-
-Les espaces sont représentés dans l'explorateur de fichiers par un soulignement devant le nom de l'espace, ex.: ``_ProjetA``
+Avant de pouvoir déposer les fichiers et les documents sur la plateforme GoFAST, assurez-vous de créer les "bons" espaces et sous-espaces collaboratifs de type Organisation, Groupe ou Extranet ! 
 
 
 Notion de partage de contenus entre espaces
