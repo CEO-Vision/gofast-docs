@@ -114,7 +114,8 @@ Fonctionnelles
    "Glisser/Déposer des fichiers à partir d'un PC utilisateur", "Existant"
    "Trier par type, date, taille", "Existant"
    "Ajouter des documents depuis/vers son PC", "Existant"
-   "Créer des dossiers", "Existant"
+   "Créer des dossiers entre les espaces et les dossiers dans l'explorateur GoFAST", "Existant"
+   "Déplacer des contenus depuis un PC utilisateur", "Existant"
    "Gérer la taxonomie", "Existant"
    "Différentes possibilités d'affichage des contenus", "Existant"
 
