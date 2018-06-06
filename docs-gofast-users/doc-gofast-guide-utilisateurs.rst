@@ -3494,14 +3494,13 @@ Se repérer dans GoFAST File Browser
 
 L'explorateur de fichiers GoFAST comporte 4 zones distinctes : 
 
-.. [#f1]	Barre de tâche (zone horizontale en haute)
-.. [#f2]	Bloc structure de l'arborescence (zone verticale à gauche)
+1.	Barre de tâche (zone horizontale en haute)
+2.	Bloc structure de l'arborescence (zone verticale à gauche)
    
-.. Note:: Afficher / masquer arborescence des dossiers
-   Si vous appuyez sur « dossiers », l’arborescence de gauche disparaît ou apparaît. Vous ne voyez donc plus que la liste de     vos dossiers.
+.. Si vous appuyez sur *Dossiers*, l’arborescence de gauche disparaît ou apparaît. Vous ne voyez donc plus que la liste de     vos dossiers.
    
-.. [#f3]	Bloc principale affichant le contenu d'un dossier (zone la plus large, centre-droit)
-.. [#f4]	Bloc de progression (zone horizontale en bas) 
+3.	Bloc principale affichant le contenu d'un dossier (zone la plus large, centre-droit)
+4.	Bloc de progression (zone horizontale en bas) 
 
 .. figure:: media-guide/FBrowser-04.png
    :alt:
@@ -3514,11 +3513,11 @@ Les divers contenus affichés dans l'explorateur de fichiers sont identifiés pa
 .. figure:: media-guide/FBrowser-05.png
    :alt:
 
-Déposer des fichier sur GoFAST via l'explorateur 
+Déposer des fichiers sur GoFAST via l'explorateur 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Pour déposer des fichiers depuis votre PC vers GoFAST, il est conseillé de faire un "glisser-déposer" directement dans l'espace ou le dossier souhaité. 
-Les fichiers ainsi déposés sont chargés et la progression est affichées dans la zone horizontale en bas de l'explorateur. Vous pouvez à tout moment cliquer sur "pause", "annuler" ou bien "reprendre". 
+Pour déposer des fichiers depuis votre PC vers GoFAST, il est conseillé de faire un *Glisser-déposer* directement dans l'espace ou le dossier souhaité. 
+Les fichiers ainsi déposés sont chargés et la progression est affichée dans la zone horizontale en bas de l'explorateur. Vous pouvez à tout moment cliquer sur *Pause*, *Annuler* ou bien *Reprendre*. 
 
 .. NOTE:: 
    Le chargement se fera uniquement si vous avez les droits pour déposer des contenus dans l'espace concerné.  
@@ -3529,36 +3528,36 @@ Utiliser la barre d’outils de GoFASRT File Browser
 
 La barre d'outil de l'explorateur de fichier permet d'effectuer les action suivantes : 
 
-Modifier la manière dont sont affichés les contenus
-+++++++++++++++++++++++++++++++++++++++++++++++++++
+**Modifier la manière dont sont affichés les contenus**
 
 .. figure:: media-guide/FBrowser-06.png
    :alt:
 
-Créer un nouvel élément dans le dossier sectionné
-+++++++++++++++++++++++++++++++++++++++++++++++++
+
+**Créer un nouvel élément dans le dossier sectionné**
 
 Si vous appuyez sur le bouton *Nouveau* puis *Dossier*, cela vous permet de créer un nouveau dossier à cet emplacement. Il vous suffit ensuite de le nommer, puis valider. 
 
 .. figure:: media-guide/FBrowser-07.png
    :alt:
 
-Gérer les métadonnées (taxonomie) et les emplacements d’un ou plusieurs contenus
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+**Gérer les métadonnées (taxonomie) et les emplacements d’un ou plusieurs contenus**
 
 Pour pouvoir cliquer sur le bouton *Gérer* il faut au-préalable sélectionner un ou plusieurs dossier(s) et/ou contenu(s) dans la zone principale de l'explorateur de fichiers.
 
 Une fois les éléments sélectionnés, vous pouvez gérer la visibilité des contenus (selon vos droits utilisateur) en cliquant sur *Gérer les emplacements*, ou bien modifier les informations de taxonomie. 
 
-A savoir : les modifications d'informations de taxonomie sont possibles sur : l'état, la catégorie, le(s) étiquette(s), et la langue. Dans le cas où vous ne souhaitez pas modifier tous ces éléments, laisser le champ positionné sur *Ne pas modifier*. 
+**A savoir :** les modifications d'informations de taxonomie sont possibles sur : l'état, la catégorie, le(s) étiquette(s), et la langue. Dans le cas où vous ne souhaitez pas modifier tous ces éléments, laisser le champ positionné sur *Ne pas modifier*. 
 
 .. figure:: media-guide/FBrowser-08.png
    :alt:
 
-Copier/Couper/Coller des documents 
-++++++++++++++++++++++++++++++++++
+
+**Copier/Couper/Coller des documents**
 
 En survolant les icônes avec la souris, vous verrez à quelle action elle correspond avec un petit mot affiché sous l'icône. 
+
 
 **Copier/Coller un document**
 
@@ -3570,6 +3569,7 @@ MAIS, GoFAST vous permet le multi-emplacement des documents sans créer de copie
 
 .. figure:: media-guide/FBrowser-O9.png
    :alt: 
+   
    
 **Couper/Coller un document**
 
@@ -3585,19 +3585,20 @@ Cette démarche, contrairement à la précédente permet d'éviter les doublons.
    Vous ne pouvez *Couper/Coller* des documents que dans GoFAST. Vous ne pouvez donc pas coller un document externe à la GoFAST, il faut le télécharger préalablement. 
 
 
-Ajouter un/des document(s) au panier
-++++++++++++++++++++++++++++++++++++
+**Ajouter un/des document(s) au panier**
 
-XXX
+Lorsque vous sélectionnez un ou plusieurs fichiers vous avez la possibilité en cliquant sur l'icône (voir ci-dessous) de les ajouter à votre panier documentaire. 
+
+Ce panier a pour objectif vous créer un panier documentaire sur lequel vous pouvez mener des actions, comme par exemple lancer un processus de validation (workflow). 
+*Pour plus de détails voir le paragraphe consacré aux Workflows*
 
 .. figure:: media-guide/FBrowser-10.png
    :alt: 
 
 
-Filtrer les contenus dans un dossier ou espace 
-++++++++++++++++++++++++++++++++++++++++++++++
+**Filtrer les contenus dans un dossier ou espace**
 
-XXX
+Cette nouvelle fonctionnalité va vous permettre de retrouver vos documents plus facilement. Dans la barre *Filtre* (voir image ci-dessous), écrivez le titre du document que vous recherchez, et la recherche va filtrer tous les documents sur la page de l'espace où vous êtes.
 
 .. figure:: media-guide/FBrowser-11.png
    :alt: 
@@ -3611,8 +3612,8 @@ De manière générale, les actions autorisées sur les espaces, dossiers et/ou 
 Le clic droit permet d'afficher le menu des actions contextuelles au type de contenu. Ci-après les diverses actions possibles par type de contenu avec les droits d'administrateur de l'espace. 
 
 
-Actions sur un unique document 
-++++++++++++++++++++++++++++++
+**Actions sur un unique document** 
+
 
 .. figure:: media-guide/FBrowser-12.png
    :alt:
@@ -3620,8 +3621,8 @@ Actions sur un unique document
 Lorsque vous faite un clic droit sur le document souhaité, une liste de plusieurs menus vous sont proposez (voir copie d’écran) qui va vous permettre un certains nombre d’actions sans pour autant avoir besoin d’aller sur la prévisualisation du document. 
 
 
-Actions sur une selection de fichiers ou dossier (classique)
-+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+**Actions sur une selection de fichiers ou dossier (classique)**
+
 
 Un clic droit sur une sélection de plusieurs fichiers, plusieurs actions vous sont proposé (de manière restreinte par rapport à l’action sur un fichier unique) telles que : 
 * Supprimer 
@@ -3634,6 +3635,12 @@ Un clic droit sur une sélection de plusieurs fichiers, plusieurs actions vous s
 
 .. NOTE::
    Pour sélectionner plusieurs documents dans l’explorateur de fichiers vous devez sélectionner le premier document en tête de votre liste à sélectionner, puis maintenir la touche « Shift » (voir ci-dessous) enfoncée tout en sélectionnant le dernier document de votre liste que vous souhaitez sélectionner.  
+
+.. html ::
+
+  <embed>
+     <h2>Carnets de voyage</h2>
+  </embed>
 
 .. figure:: media-guide/FBrowser-14.png
 
