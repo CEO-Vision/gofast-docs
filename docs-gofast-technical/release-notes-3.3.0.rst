@@ -31,7 +31,7 @@ Fonctionnelles
 ---------------
 .. csv-table::  
    :header: "Ref.", "Description", "Catégorie"
-   :widths: 10, 40, 0
+   :widths: 10, 40
    
    "Gérer les emplacements en masse", "Nouveau"
    "Filtrer les contenus d'un espace ou d'un dossier par titre", "Nouveau"
@@ -49,7 +49,7 @@ Visuelles et ergonomiques
 ----------
 .. csv-table::  
    :header: "Ref.", "Description", "Catégorie"
-   :widths: 10, 40, 0
+   :widths: 10, 40
 
    "Bouton *Affichage* proposant la possibilité d'afficher les fichiers : détails/icônes", "Amélioration"
    "Mise à jour visuelle de l'explorateur de fichiers", "Amélioration"
