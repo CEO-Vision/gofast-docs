@@ -100,6 +100,8 @@ Hotfix
 
 Améliorations* de l'Explorateur de fichiers - GoFAST File Browser)
 **********************
+*Améliorations prises en compte sur les différents supports : Smartphone, Tablette, PC*
+
 Fonctionnelles
 ---------------
 .. csv-table::  
@@ -130,9 +132,7 @@ Visuelles et ergonomiques
    "Visibilité des éléments listés dans l'explorateur de fichiers", "Amélioration"
    "Icônes distincts dans l'arborescence permettant d'identifier un dossier classique et le type d'espace", "Amélioration"
    "Icône d'affichage *Plein écran* mis en valeur à coté du menu des actions", "Amélioration"
- 
- 
- * Améliorations prises en compte pour les supports : Smartphone, Tablette et PC 
+
 
 
 
