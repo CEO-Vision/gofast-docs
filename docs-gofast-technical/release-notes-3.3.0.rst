@@ -131,7 +131,8 @@ Visuelles et ergonomiques
    "Icônes distincts dans l'arborescence permettant d'identifier un dossier classique et le type d'espace", "Amélioration"
    "Icône d'affichage *Plein écran* mis en valeur à coté du menu des actions", "Amélioration"
  
- * *Améliorations prises en compte pour les supports : Smartphone, Tablette et PC* 
+ 
+ * Améliorations prises en compte pour les supports : Smartphone, Tablette et PC 
 
 
 
