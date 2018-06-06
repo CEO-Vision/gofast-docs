@@ -114,7 +114,7 @@ Fonctionnelles
    "Glisser/Déposer des fichiers à partir d'un PC utilisateur", "Existant"
    "Trier par type, date, taille", "Existant"
    "Ajouter des documents depuis/vers son PC", "Existant"
-   "Créer des dossiers entre les espaces et les dossiers dans l'explorateur GoFAST", "Existant"
+   "Déplacer des contenus entre les espaces et les dossiers en restant dans l'explorateur GoFAST", "Existant"
    "Déplacer des contenus depuis un PC utilisateur", "Existant"
    "Gérer la taxonomie", "Existant"
    "Différentes possibilités d'affichage des contenus", "Existant"
@@ -129,7 +129,9 @@ Visuelles et ergonomiques
    "Mise à jour visuelle de l'explorateur de fichiers", "Amélioration"
    "Visibilité des éléments listés dans l'explorateur de fichiers", "Amélioration"
    "Icônes distincts dans l'arborescence permettant d'identifier un dossier classique et le type d'espace", "Amélioration"
-
+   "Icône d'affichage *Plein écran* mis en valeur à coté du menu des actions", "Amélioration"
+ 
+ * *Améliorations prises en compte pour les supports : Smartphone, Tablette et PC* 
 
 
 
