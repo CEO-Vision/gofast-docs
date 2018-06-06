@@ -3474,17 +3474,17 @@ Accéder à l'explorateur de fichiers GoFAST
 
 Il existe 3 façons d'accéder à l'explorateur de fichiers GoFAST File Browser 
 
-   1. Vous pouvez afficher l'explorateur de fichier GoFAST depuis le menu principal en allant dans "Espace", puis sur "Explorateur". 
+.. [#f1] Vous pouvez afficher l'explorateur de fichier GoFAST depuis le menu principal en allant dans "Espace", puis sur "Explorateur". 
   
 .. figure:: media-guide/FBrowser-01.png
    :alt:
 
-   2. Vous pouvez afficher l'explorateur de fichier GoFAST depuis la page d'un esapce en cliquant sur l'onglet "Documents" 
+.. [#f2] Vous pouvez afficher l'explorateur de fichier GoFAST depuis la page d'un esapce en cliquant sur l'onglet "Documents" 
 
 .. figure:: media-guide/FBrowser-02.png
    :alt:
 
-   3. Vous pouvez à tout moment déplier le bloc de l'explorateur de fichier qui est caché à gauche sur chaque page de GoFAST
+.. [#f3] Vous pouvez à tout moment déplier le bloc de l'explorateur de fichier qui est caché à gauche sur chaque page de GoFAST
 
 .. figure:: media-guide/FBrowser-03.png
    :alt: 
@@ -3494,14 +3494,14 @@ Se repérer dans GoFAST File Browser
 
 L'explorateur de fichiers GoFAST comporte 4 zones distinctes : 
 
-   1.	Barre de tâche (zone horizontale en haute)
-   2.	Bloc structure de l'arborescence (zone verticale à gauche)
+.. [#f1]	Barre de tâche (zone horizontale en haute)
+.. [#f2]	Bloc structure de l'arborescence (zone verticale à gauche)
    
 .. Note:: Afficher / masquer arborescence des dossiers
    Si vous appuyez sur « dossiers », l’arborescence de gauche disparaît ou apparaît. Vous ne voyez donc plus que la liste de     vos dossiers.
-
-   3.	Bloc principale affichant le contenu d'un dossier (zone la plus large, centre-droit)
-   4.	Bloc de progression (zone horizontale en bas) 
+   
+.. [#f3]	Bloc principale affichant le contenu d'un dossier (zone la plus large, centre-droit)
+.. [#f4]	Bloc de progression (zone horizontale en bas) 
 
 .. figure:: media-guide/FBrowser-04.png
    :alt:
