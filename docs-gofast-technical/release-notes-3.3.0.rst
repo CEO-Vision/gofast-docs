@@ -98,7 +98,7 @@ Hotfix
 
 
 
-Améliorations* de l'Explorateur de fichiers - GoFAST File Browser)
+Améliorations* de l'Explorateur de fichiers - GoFAST File Browse
 **********************
 *Améliorations prises en compte sur les différents supports : Smartphone, Tablette, PC*
 
