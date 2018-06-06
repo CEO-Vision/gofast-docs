@@ -30,8 +30,8 @@ Améliorations de l'Explorateur de fichiers GoFAST (File Browser)
 Fonctionnelles
 ---------------
 .. csv-table::  
-   :header: "Ref.", "Description", "Catégorie"
-   :widths: 10, 40
+   :header: "Description", "Action"
+   :widths: 40, 10
    
    "Gérer les emplacements en masse", "Nouveau"
    "Filtrer les contenus d'un espace ou d'un dossier par titre", "Nouveau"
@@ -48,8 +48,8 @@ Fonctionnelles
 Visuelles et ergonomiques 
 ----------
 .. csv-table::  
-   :header: "Ref.", "Description", "Catégorie"
-   :widths: 10, 40
+   :header: "Description", "Action"
+   :widths: 40, 10
 
    "Bouton *Affichage* proposant la possibilité d'afficher les fichiers : détails/icônes", "Amélioration"
    "Mise à jour visuelle de l'explorateur de fichiers", "Amélioration"
