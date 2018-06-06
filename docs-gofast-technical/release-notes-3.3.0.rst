@@ -24,7 +24,40 @@ Améliorations
    "[4108]", "Amélioration du comportement bouton *Retour / Suivant* du navigateur", "Performance"
    "[3562]", "Notification de mise en relation", "Notification"
    "[4199]", "Mieux discerner les espaces dans l'explorateur de fichiers", "Affichage" 
+ 
+Améliorations de l'Explorateur de fichiers GoFAST (File Browser)
+**********************
+Fonctionnelles
+---------------
+.. csv-table::  
+   :header: "Ref.", "Description", "Catégorie"
+   :widths: 10, 40, 0
    
+   "Gérer les emplacements en masse", "Nouveau"
+   "Filtrer les contenus d'un espace ou d'un dossier par titre", "Nouveau"
+   "Menu disponible par *clique-droit* qui affiche toutes les actions possibles sur un document et un ensemble de documents", "Nouveau"
+   "Indique le temps de chargement", "Nouveau"
+   "Créer un document depuis l'explorateur de fichiers File Browser", "Nouveau"
+   "Glisser/Déposer des fichiers à partir d'un PC utilisateur", "Existant"
+   "Trier par type, date, taille", "Existant"
+   "Ajouter des documents depuis/vers son PC", "Existant"
+   "Créer des dossiers", "Existant"
+   "Gérer la taxonomie", "Existant"
+   "Différentes possibilités d'affichage des contenus", "Existant"
+
+Visuelles et ergonomiques 
+----------
+.. csv-table::  
+   :header: "Ref.", "Description", "Catégorie"
+   :widths: 10, 40, 0
+
+   "Bouton *Affichage* proposant la possibilité d'afficher les fichiers : détails/icônes", "Amélioration"
+   "Mise à jour visuelle de l'explorateur de fichiers", "Amélioration"
+   "Visibilité des éléments listés dans l'explorateur de fichiers", "Amélioration"
+   "Icônes distincts dans l'arborescence permettant d'identifier un dossier classique et le type d'espace", "Amélioration"
+
+
+
 Sécurité
 **********************
 .. csv-table::  
