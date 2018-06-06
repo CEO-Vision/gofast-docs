@@ -3614,7 +3614,6 @@ Le clic droit permet d'afficher le menu des actions contextuelles au type de con
 
 **Actions sur un unique document** 
 
-
 .. figure:: media-guide/FBrowser-12.png
    :alt:
 
@@ -3637,7 +3636,6 @@ Un clic droit sur une sélection de plusieurs fichiers, plusieurs actions vous s
    Pour sélectionner plusieurs documents dans l’explorateur de fichiers vous devez sélectionner le premier document en tête de votre liste à sélectionner, puis maintenir la touche « Shift » (voir ci-dessous) enfoncée tout en sélectionnant le dernier document de votre liste que vous souhaitez sélectionner.  
 
 .. html ::
-
   <embed>
      <h2>Carnets de voyage</h2>
   </embed>
