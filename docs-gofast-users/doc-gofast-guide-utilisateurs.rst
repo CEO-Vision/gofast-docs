@@ -1183,7 +1183,7 @@ reprenant les mêmes informations et le lien URL.
 .. figure:: media-guide/image089.png
    :alt: 
 
-Gestion d'un espace collaboratifs
+Gestion d'un espace collaboratif
 =================================
 
 Voir aussi "Création d’un espace"
@@ -3465,298 +3465,196 @@ http…… » puis « DONE ». S’il ne se passe rien, appuyez sur le lien
 .. figure:: media-guide/image285.png
    :alt: 
 
-Raccourcis dans l’explorateur de fichiers
------------------------------------------
 
-Dans **l’onglet « Documents », la barre d’outils noire** vous permet
-quelques raccourcis à partir de l’arborescence de vos fichiers.
+L’explorateur de fichiers GoFAST
+--------------------------------
 
-En passant la souris sur chaque icône, vous verrez à quelle action elle
-correspond, soit avec un petit mot sous l’icône, soit dans un encadré
-bleu en bas d’écran.
+Accéder à l'explorateur de fichiers GoFAST 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. figure:: media-guide/image286.png
+Il existe 3 façons d'accéder à l'explorateur de fichiers GoFAST File Browser 
+
+   1. Vous pouvez afficher l'explorateur de fichier GoFAST depuis le menu principal en allant dans "Espace", puis sur "Explorateur". 
+  
+.. figure:: media-guide/FBrowser-01.png
+   :alt:
+
+   2. Vous pouvez afficher l'explorateur de fichier GoFAST depuis la page d'un esapce en cliquant sur l'onglet "Documents" 
+
+.. figure:: media-guide/FBrowser-02.png
+   :alt:
+
+   3. Vous pouvez à tout moment déplier le bloc de l'explorateur de fichier qui est caché à gauche sur chaque page de GoFAST
+
+.. figure:: media-guide/FBrowser-03.png
    :alt: 
 
-Affichage de l’arborescence et de vos fichiers
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Se repérer dans GoFAST File Browser
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Si vous appuyez sur « \ **Afficher »,** vous avez le choix de
-l’affichage de **vos fichiers** (grandes icônes , moyennes, petites,
-Détails)
+L'explorateur de fichiers GoFAST comporte 4 zones distinctes : 
 
-Ici en « \ **détails** » …
-
-.. figure:: media-guide/image287.png
-   :alt: 
-
-Voici l’exemple avec les « \ **grandes icônes »** …
-
-.. figure:: media-guide/image288.png
-   :alt: 
-
-… avec les «  **icônes moyennes** » …
-
-.. figure:: media-guide/image289.png
-   :alt: 
-
-Et enfin avec les « \ **petites icônes** »
-
-.. figure:: media-guide/image290.png
-   :alt: 
-
-Afficher / masquer arborescence des dossiers
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Si vous appuyez sur « **dossiers** », l’\ **arborescence** de gauche
-disparaît ou apparaît. Vous ne voyez donc plus que la liste de vos
-dossiers.
-
-.. figure:: media-guide/image291.png
-   :alt: 
-
-Revenir au niveau supérieur de dossier/folder
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Si vous appuyez sur « \ **en arrière** », vous revenez au
-**dossier-parent** de vos fichiers.
-
-.. figure:: media-guide/image292.png
-   :alt: 
-
-Synchroniser/Actualiser
-~~~~~~~~~~~~~~~~~~~~~~~
-
-Si vous appuyez sur la **flèche ronde**, ça rafraîchit la page. Si par
-exemple, vous avez fait un changement ou savez qu’un collègue a fait une
-manipulation sur la GoFAST, vous verrez le changement après
-**rafraichissement de la page.**
-
-.. figure:: media-guide/image293.png
-   :alt: 
-
-Charger un document sur la GoFAST
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Si vous appuyez sur la **1ere flèche vers le haut,** c’est l’équivalent
-d’ « \ **Explorer/Parcourir **\ » et donc d’ aller chercher un document
-existant sur votre ordinateur et le charger directement à l’emplacement
-où vous êtes sur la GoFAST.
-
-.. figure:: media-guide/image294.png
-   :alt: 
-
-.. figure:: media-guide/image295.png
-   :alt: 
-
-.. NOTE::
-   L’autre flèche à droite n’est applicable que si vous avez
-   des versions à partir de Chrome 21
-
-.. figure:: media-guide/image296.png
-   :alt: 
-
-Une fenêtre s’ouvre où vous pouvez aller chercher sur votre ordinateur
-le folder à télécharger .
-
-.. figure:: media-guide/image297.png
-   :alt: 
-
-Vous verrez ensuite l’état de téléchargement de vos fichiers, en bas
-d’écran.
-
--  Une croix bleue signale une erreur de téléchargement, à réessayer.
-
--  Un sablier signale que le fichier est en liste d’attente de
-   téléchargement.
-
--  Une flèche vers le haut signale le bon téléchargement du fichier.
-
-Avec un clic-droit sur un fichier en cours de téléchargement, vous
-pouvez l’annuler ou le mettre en pause.
-
-.. figure:: media-guide/image298.png
-   :alt: 
-
-.. figure:: media-guide/image299.png
-   :alt: 
-
-Créer un nouveau dossier/folder
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Si vous appuyez sur le **petit dossier avec un +,** cela vous permet de
-**créer un nouveau dossier** à cet emplacement, nommez le et sauvez avec
-‘OK’.
-
-.. figure:: media-guide/image300.png
-   :alt: 
-
-.. figure:: media-guide/image301.png
-   :alt: 
-
-Télécharger un fichier pour l’ouvrir
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Vous pouvez **télécharger** un fichier directement, sans passer par la
-prévisualisation, *en le sélectionnant* et en appuyant sur la **flèche
-vers le bas.**
-
-.. figure:: media-guide/image302.png
-   :alt: 
-
-Vous retrouverez alors le lien pour l’ouvrir dans le bas de votre
-écran : voici l’exemple sous Chrome ; cliquez sur la flèche pour les
-options et « Open » pour l’ouvrir.
-
-.. figure:: media-guide/image303.png
-   :alt: 
-
-Modifier un document
-~~~~~~~~~~~~~~~~~~~~
-
-Vous pouvez **modifier/éditer** un document directement à partir de cet
-emplacement, sans devoir passer par la prévisualisation\ *, en le
-sélectionnant* et en appuyant sur la **feuille blanche avec un crayon.**
-
-Le document s’ouvrira alors dans Office et vous pourrez y travailler
-normalement, en toute synchronisation avec la GoFAST. (voir « Modifier
-un document » p.72)
-
-Vous devrez juste réencoder votre identifiant et mot de mot de passe
-pour pouvoir accéder au document.
-
-.. figure:: media-guide/image304.png
-   :alt: 
-
-Retour au groupe-parent dans l’arborescence
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Si vous appuyez sur la petite **mappemonde**, vous reviendrez juste au
-niveau supérieur de l’arborescence de votre fichier, le **groupe** dans
-lequel se trouve votre document.
-
-Ça revient au même que le raccourci « ouvrir le dossier », ça ouvre
-l’explorateurs de fichiers sur votre ordinateur.
-
-.. figure:: media-guide/image305.png
-   :alt: 
-
-.. NOTE::
-   Il faudra d’abord charger le lien sur votre ordinateur et l’installer
-   pour pouvoir utiliser cette fonctionnalité. (pour le moment, ça ne
-   fonctionne que sur Firefox et vous devez demander à ICT de vous
-   l’installer)
-
-.. figure:: media-guide/image306.png
-   :alt: 
-
-Dès que l’application est installée, lorsque vous appuyez sur la
-mappe-monde, voici comment vous accéderez à vos fichiers.
-
-.. figure:: media-guide/image278.png
-   :alt: 
-
-.. figure:: media-guide/image307.png
-   :alt: 
-
-.. NOTE::
-   Il se peut que vous deviez répondre à ce message d’abord,
-   cliquez sur OPenURL : IT…..
-
-.. figure:: media-guide/image405.png
-   :alt: 
-
-Gestion des versions
-~~~~~~~~~~~~~~~~~~~~
-
-Pas actif actuellement
-
-.. figure:: media-guide/image308.png
-   :alt: 
-
-Gérer les propriétés du document
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Si vous appuyez sur la **feuille avec un petit V**, vous verrez les
-**propriétés du document** sélectionné et vous pourrez les gérer. Mais
-cela concerne l’IT. Il est préférable de ne pas y toucher.
-
-.. figure:: media-guide/image309.png
-   :alt: 
-
-.. figure:: media-guide/image310.png
-   :alt: 
-
-Supprimer un document
-~~~~~~~~~~~~~~~~~~~~~
-
-Le petit signe **« interdit »** permet de **supprimer** le document
-sélectionné.
-
-.. figure:: media-guide/image311.png
-   :alt: 
-
-.. NOTE::
-   Vous ne pouvez supprimer que les documents dont vous êtes
-   l’auteur, sauf si vous êtes l’administrateur du groupe, vous pouvez
-   alors supprimer n’importe quel document de votre groupe.
-
-Copier/coller un document
-~~~~~~~~~~~~~~~~~~~~~~~~~
-
-L’icône des **2 feuilles superposées** (encadré en rouge ici) permet de
-***copier*** le document sélectionné dans un autre emplacement de la
-GoFAST, il faudra alors ensuite appuyer sur **l’avant dernier icône noir
-et blanc** (encadré en jaune ici) quand vous voudrez coller le document
-à l’autre emplacement. Ce qui revient à dire que le document sera à **2
-endroits différents** sur la GoFAST.
-
-**MAIS, le multifiling est préférable** (via les métadonnées), ainsi il
-permet de garder la même version du document visible à partir de
-plusieurs emplacements et évite les doublons avec des versions
-différentes.
-
-.. figure:: media-guide/image312.png
-   :alt: 
-
-Couper/coller
-~~~~~~~~~~~~~
-
-Même principe que pour « copier/coller » , mais ici pour **déplacer** un
-dossier vers un autre emplacement sur la GoFAST=> le **couper-coller**.
-Cette fois, il faut utiliser les **ciseaux** pour couper et l’avant
-dernier **icône noir et blanc** pour coller.
-
-.. figure:: media-guide/image313.png
-   :alt: 
-
-.. NOTE::
-   Cela évite les doublons, il n’y alors qu’une version du document
-   à un seul endroit sur la GoFAST.
-
-.. NOTE::
-   C’est le même principe que de déplacer **en glissant** le document
-   d’un emplacement à un autre dans l’arborescence.
-
-.. NOTE::
-   Vous ne pouvez couper/coller des documents **que dans la GoFAST**.
-   Vous ne pouvez donc pas coller un document externe à la GoFAST, il
-   faut le télécharger.
-
+   1.	Barre de tâche (zone horizontale en haute)
+   2.	Bloc structure de l'arborescence (zone verticale à gauche)
    
+.. Note:: Afficher / masquer arborescence des dossiers
+   Si vous appuyez sur « dossiers », l’arborescence de gauche disparaît ou apparaît. Vous ne voyez donc plus que la liste de     vos dossiers.
 
-Propriétés du document
-~~~~~~~~~~~~~~~~~~~~~~
+   3.	Bloc principale affichant le contenu d'un dossier (zone la plus large, centre-droit)
+   4.	Bloc de progression (zone horizontale en bas) 
 
-Le dernier icône, le **« i »** dans le rond blanc vous donne quelques
-informations\ **/métadonnées** du document sélectionné : nom, type,
-emplacement, taille, date de création/modification.
+.. figure:: media-guide/FBrowser-04.png
+   :alt:
 
-.. figure:: media-guide/image314.png
+Les divers contenus affichés dans l'explorateur de fichiers sont identifiés par des icônes selon leur type ou format de fichier. Chaque type d'espace collaboratif ou votre espace privé disposent d'une icône distincte. Les répertoires dits classiques sont représentés par des icônes "dossier". 
+
+.. Note:: 
+   Dans la zone principale, à la première ligne, vous disposez d'un bouton qui permet de revenir à l’emplacement précédent. 
+
+.. figure:: media-guide/FBrowser-05.png
+   :alt:
+
+Déposer des fichier sur GoFAST via l'explorateur 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Pour déposer des fichiers depuis votre PC vers GoFAST, il est conseillé de faire un "glisser-déposer" directement dans l'espace ou le dossier souhaité. 
+Les fichiers ainsi déposés sont chargés et la progression est affichées dans la zone horizontale en bas de l'explorateur. Vous pouvez à tout moment cliquer sur "pause", "annuler" ou bien "reprendre". 
+
+.. NOTE:: 
+   Le chargement se fera uniquement si vous avez les droits pour déposer des contenus dans l'espace concerné.  
+   Pendant le chargement des fichiers depuis le PC vers GoFAST, ne pas supprimer, ni déplacer les fichiers côté PC car pour charger il faut conserver l'emplacement d'origine, autrement GoFAST ne sais plus depuis où il faut les récupérer . 
+
+Utiliser la barre d’outils de GoFASRT File Browser
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+La barre d'outil de l'explorateur de fichier permet d'effectuer les action suivantes : 
+
+Modifier la manière dont sont affichés les contenus
++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+.. figure:: media-guide/FBrowser-06.png
+   :alt:
+
+Créer un nouvel élément dans le dossier sectionné
++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Si vous appuyez sur le bouton *Nouveau* puis *Dossier*, cela vous permet de créer un nouveau dossier à cet emplacement. Il vous suffit ensuite de le nommer, puis valider. 
+
+.. figure:: media-guide/FBrowser-07.png
+   :alt:
+
+Gérer les métadonnées (taxonomie) et les emplacements d’un ou plusieurs contenus
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Pour pouvoir cliquer sur le bouton *Gérer* il faut au-préalable sélectionner un ou plusieurs dossier(s) et/ou contenu(s) dans la zone principale de l'explorateur de fichiers.
+
+Une fois les éléments sélectionnés, vous pouvez gérer la visibilité des contenus (selon vos droits utilisateur) en cliquant sur *Gérer les emplacements*, ou bien modifier les informations de taxonomie. 
+
+A savoir : les modifications d'informations de taxonomie sont possibles sur : l'état, la catégorie, le(s) étiquette(s), et la langue. Dans le cas où vous ne souhaitez pas modifier tous ces éléments, laisser le champ positionné sur *Ne pas modifier*. 
+
+.. figure:: media-guide/FBrowser-08.png
+   :alt:
+
+Copier/Couper/Coller des documents 
+++++++++++++++++++++++++++++++++++
+
+En survolant les icônes avec la souris, vous verrez à quelle action elle correspond avec un petit mot affiché sous l'icône. 
+
+**Copier/Coller un document**
+
+L’icône des 2 feuilles superposées (encadré en orange ici) permet de *Copier* le document sélectionné dans un autre emplacement de la GoFAST, il vous faudra alors ensuite appuyer sur l’avant dernier icône noir et blanc (encadré en jaune ici) quand vous voudrez coller le document à l’autre emplacement. 
+
+Cette démarche revient à dire que le document sera à 2 endroits différents sur la GoFAST.
+
+MAIS, GoFAST vous permet le multi-emplacement des documents sans créer de copies de vos documents. Le multi-emplacement est préférable (via les métadonnées), ainsi il permet de garder la même version du document visible à partir de plusieurs emplacements et évite les doublons avec des versions différentes.
+
+.. figure:: media-guide/FBrowser-O9.png
+   :alt: 
+   
+**Couper/Coller un document**
+
+Même principe que pour *Copier/Coller* , mais ici pour déplacer un dossier vers un autre emplacement sur GoFAST est de *Couper* puis *Coller*. Cette fois, il faut utiliser les ciseaux pour couper (entouré ci-dessous en orange) et l’avant dernier icône noir et blanc pour Coller (entouré ci-dessous en jaune). 
+
+.. figure:: media-guide/FBrowser-10.png
+   :alt:
+
+Cette démarche, contrairement à la précédente permet d'éviter les doublons. Il n'y alors qu'une version du document à un seul endroit sur GoFAST. 
+
+.. NOTE:: 
+   C’est le même principe que de déplacer en glissant le document d’un emplacement à un autre dans l’arborescence.
+   Vous ne pouvez *Couper/Coller* des documents que dans GoFAST. Vous ne pouvez donc pas coller un document externe à la GoFAST, il faut le télécharger préalablement. 
+
+
+Ajouter un/des document(s) au panier
+++++++++++++++++++++++++++++++++++++
+
+XXX
+
+.. figure:: media-guide/FBrowser-10.png
    :alt: 
 
-.. figure:: media-guide/image315.png
+
+Filtrer les contenus dans un dossier ou espace 
+++++++++++++++++++++++++++++++++++++++++++++++
+
+XXX
+
+.. figure:: media-guide/FBrowser-11.png
    :alt: 
+   
+   
+Actions depuis GoFAST File Browser selon le type de contenu  
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+De manière générale, les actions autorisées sur les espaces, dossiers et/ou fichiers visibles dans l'explorateur de fichiers restent strictement conforme à vos droits sur l'espace concerné.
+
+Le clic droit permet d'afficher le menu des actions contextuelles au type de contenu. Ci-après les diverses actions possibles par type de contenu avec les droits d'administrateur de l'espace. 
+
+
+Actions sur un unique document 
+++++++++++++++++++++++++++++++
+
+.. figure:: media-guide/FBrowser-12.png
+   :alt:
+
+Lorsque vous faite un clic droit sur le document souhaité, une liste de plusieurs menus vous sont proposez (voir copie d’écran) qui va vous permettre un certains nombre d’actions sans pour autant avoir besoin d’aller sur la prévisualisation du document. 
+
+
+Actions sur une selection de fichiers ou dossier (classique)
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Un clic droit sur une sélection de plusieurs fichiers, plusieurs actions vous sont proposé (de manière restreinte par rapport à l’action sur un fichier unique) telles que : 
+* Supprimer 
+* Télécharger 
+* Gérer la taxonomie 
+* Gérer les emplacements 
+
+.. figure:: media-guide/FBrowser-13.png
+   :alt:
+
+.. NOTE::
+   Pour sélectionner plusieurs documents dans l’explorateur de fichiers vous devez sélectionner le premier document en tête de votre liste à sélectionner, puis maintenir la touche « Shift » (voir ci-dessous) enfoncée tout en sélectionnant le dernier document de votre liste que vous souhaitez sélectionner.  
+
+.. figure:: media-guide/FBrowser-14.png
+
+Cette démarche est valable sur : Window, Mac, Linux
+
+   :platform: Windows, Mac, Linux 
+
+Actions sur un Espace
++++++++++++++++++++++
+
+Plusieurs actions sont également disponible sur un Espace (voir copie d’écran ci-dessous). 
+
+.. figure:: media-guide/FBrowser-15.png
+   :alt:
+
+
+
+
+
+
+
 
 Exportation des listes de documents
 ------------------------------------
