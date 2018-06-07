@@ -3623,8 +3623,8 @@ Lorsque vous faite un clic droit sur le document souhaité, une liste de plusieu
 
 **Actions sur une selection de fichiers ou dossier (classique)**
 
-
 Un clic droit sur une sélection de plusieurs fichiers, plusieurs actions vous sont proposé (de manière restreinte par rapport à l’action sur un fichier unique) telles que : 
+
  * Supprimer 
  * Télécharger 
  * Gérer la taxonomie 
@@ -3633,15 +3633,12 @@ Un clic droit sur une sélection de plusieurs fichiers, plusieurs actions vous s
 .. figure:: media-guide/FBrowser-14.png
    :alt:
 
-.. NOTE::
    Pour sélectionner plusieurs documents dans l’explorateur de fichiers vous devez sélectionner le premier document en tête de votre liste à sélectionner, puis maintenir la touche « Shift » (voir ci-dessous) enfoncée tout en sélectionnant le dernier document de votre liste que vous souhaitez sélectionner.  
-
 
 .. figure:: media-guide/FBrowser-15.jpg
    :align: right
 
-Cette démarche est valable sur : 
- :platform:: Windows, Mac, Linux 
+Cette démarche est valable sur : Windows, Mac, Linux 
 
 **Actions sur un Espace**
 
