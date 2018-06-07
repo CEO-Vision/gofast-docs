@@ -3495,10 +3495,7 @@ Se repérer dans GoFAST File Browser
 L'explorateur de fichiers GoFAST comporte 4 zones distinctes : 
 
 1.	Barre de tâche (zone horizontale en haute)
-2.	Bloc structure de l'arborescence (zone verticale à gauche)
-   
-.. Note:: Si vous appuyez sur *Dossiers*, l’arborescence de gauche disparaît ou apparaît. Vous ne voyez donc plus que la liste de vos dossiers.
-   
+2.	Bloc structure de l'arborescence (zone verticale à gauche)   
 3.	Bloc principale affichant le contenu d'un dossier (zone la plus large, centre-droit)
 4.	Bloc de progression (zone horizontale en bas) 
 
@@ -3508,7 +3505,7 @@ L'explorateur de fichiers GoFAST comporte 4 zones distinctes :
 Les divers contenus affichés dans l'explorateur de fichiers sont identifiés par des icônes selon leur type ou format de fichier. Chaque type d'espace collaboratif ou votre espace privé disposent d'une icône distincte. Les répertoires dits classiques sont représentés par des icônes "Dossier". 
 
 .. Note:: 
-   Dans la zone principale, à la première ligne, vous disposez d'un bouton qui permet de revenir à l’emplacement précédent. 
+   Dans la zone principale à la première ligne, vous disposez d'un bouton qui permet de revenir à l’emplacement précédent. 
 
 .. figure:: media-guide/FBrowser-05.png
    :alt:
@@ -3517,7 +3514,11 @@ Déposer des fichiers sur GoFAST via l'explorateur
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Pour déposer des fichiers depuis votre PC vers GoFAST, il est conseillé de faire un *Glisser/Déposer* directement dans l'espace ou le dossier souhaité. 
-Les fichiers ainsi déposés sont chargés et la progression est affichée dans la zone horizontale en bas de l'explorateur. Vous pouvez à tout moment cliquer sur *Pause*, *Annuler* ou bien *Reprendre*. 
+
+.. WARNING::
+ Il faut déposer le(s) fichier(s) soit dans le cadre principale (=zone 2 sur la copie écrant au-dessus), soit dans le cadre à gauche où il y a l'arborescence  (=zone 3 sur la copie écrant au-dessus).
+
+Les fichiers ainsi déposés sont chargés et la progression est affichée dans la zone horizontale en bas de l'explorateur. Vous pouvez à tout moment cliquer sur *Pause*, *Annuler* ou bien *Reprendre* le chargement. 
 
 .. NOTE:: 
    Le chargement se fera uniquement si vous avez les droits pour déposer des contenus dans l'espace concerné.  
