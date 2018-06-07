@@ -3474,17 +3474,17 @@ Accéder à l'explorateur de fichiers GoFAST
 
 Il existe 3 façons d'accéder à l'explorateur de fichiers GoFAST File Browser :
 
-.. [#f1] Vous pouvez afficher l'explorateur de fichier GoFAST depuis le menu principal en allant dans "Espace", puis sur "Explorateur". 
+.. [#f1]_ Vous pouvez afficher l'explorateur de fichier GoFAST depuis le menu principal en allant dans "Espace", puis sur "Explorateur". 
   
 .. figure:: media-guide/FBrowser-01.png
    :alt:
 
-.. [#f2] Vous pouvez afficher l'explorateur de fichier GoFAST depuis la page d'un esapce en cliquant sur l'onglet "Documents" 
+.. [#f2]_ Vous pouvez afficher l'explorateur de fichier GoFAST depuis la page d'un esapce en cliquant sur l'onglet "Documents" 
 
 .. figure:: media-guide/FBrowser-02.png
    :alt:
 
-.. [#f3] Vous pouvez à tout moment déplier le bloc de l'explorateur de fichier qui est caché à gauche sur chaque page de GoFAST
+.. [#f3]_ Vous pouvez à tout moment déplier le bloc de l'explorateur de fichiers qui est caché à gauche sur chaque page de GoFAST
 
 .. figure:: media-guide/FBrowser-03.png
    :alt: 
@@ -3505,7 +3505,7 @@ L'explorateur de fichiers GoFAST comporte 4 zones distinctes :
 .. figure:: media-guide/FBrowser-04.png
    :alt:
 
-Les divers contenus affichés dans l'explorateur de fichiers sont identifiés par des icônes selon leur type ou format de fichier. Chaque type d'espace collaboratif ou votre espace privé disposent d'une icône distincte. Les répertoires dits classiques sont représentés par des icônes "dossier". 
+Les divers contenus affichés dans l'explorateur de fichiers sont identifiés par des icônes selon leur type ou format de fichier. Chaque type d'espace collaboratif ou votre espace privé disposent d'une icône distincte. Les répertoires dits classiques sont représentés par des icônes "Dossier". 
 
 .. Note:: 
    Dans la zone principale, à la première ligne, vous disposez d'un bouton qui permet de revenir à l’emplacement précédent. 
@@ -3516,7 +3516,7 @@ Les divers contenus affichés dans l'explorateur de fichiers sont identifiés pa
 Déposer des fichiers sur GoFAST via l'explorateur 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Pour déposer des fichiers depuis votre PC vers GoFAST, il est conseillé de faire un *Glisser-déposer* directement dans l'espace ou le dossier souhaité. 
+Pour déposer des fichiers depuis votre PC vers GoFAST, il est conseillé de faire un *Glisser/Déposer* directement dans l'espace ou le dossier souhaité. 
 Les fichiers ainsi déposés sont chargés et la progression est affichée dans la zone horizontale en bas de l'explorateur. Vous pouvez à tout moment cliquer sur *Pause*, *Annuler* ou bien *Reprendre*. 
 
 .. NOTE:: 
@@ -3542,7 +3542,7 @@ Si vous appuyez sur le bouton *Nouveau* puis *Dossier*, cela vous permet de cré
    :alt:
 
 
-**Gérer les métadonnées (taxonomie) et les emplacements d’un ou plusieurs contenus**
+**Gérer les métadonnées (taxonomie) et les emplacements d’un ou plusieurs contenu(s)**
 
 Pour pouvoir cliquer sur le bouton *Gérer* il faut au-préalable sélectionner un ou plusieurs dossier(s) et/ou contenu(s) dans la zone principale de l'explorateur de fichiers.
 
@@ -3562,7 +3562,7 @@ En survolant les icônes avec la souris, vous verrez à quelle action elle corre
 
 **Copier/Coller un document**
 
-L’icône des 2 feuilles superposées (encadré en orange ici) permet de *Copier* le document sélectionné dans un autre emplacement de la GoFAST, il vous faudra alors ensuite appuyer sur l’avant dernier icône noir et blanc (encadré en jaune ici) quand vous voudrez coller le document à l’autre emplacement. 
+L’icône des 2 feuilles superposées (encadré en orange ici) permet de *Copier* le document sélectionné dans un autre emplacement de la GoFAST, il vous faudra alors ensuite appuyer sur le dernier icône (encadré en jaune ici) quand vous voudrez coller le document à l’autre emplacement. 
 
 Cette démarche revient à dire que le document sera à 2 endroits différents sur la GoFAST.
 
@@ -3624,7 +3624,7 @@ Lorsque vous faite un clic droit sur le document souhaité, une liste de plusieu
 
 **Actions sur une selection de fichiers ou dossier (classique)**
 
-Un clic droit sur une sélection de plusieurs fichiers, plusieurs actions vous sont proposé (de manière restreinte par rapport à l’action sur un fichier unique) telles que : 
+Un clic droit sur une sélection de plusieurs fichiers, plusieurs actions vous sont proposées (de manière restreinte par rapport à l’action sur un fichier unique) telles que : 
 
  * Supprimer 
  * Télécharger 
