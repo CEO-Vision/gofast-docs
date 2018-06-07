@@ -3472,7 +3472,7 @@ L’explorateur de fichiers GoFAST
 Accéder à l'explorateur de fichiers GoFAST 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Il existe 3 façons d'accéder à l'explorateur de fichiers GoFAST File Browser 
+Il existe 3 façons d'accéder à l'explorateur de fichiers GoFAST File Browser :
 
 .. [#f1] Vous pouvez afficher l'explorateur de fichier GoFAST depuis le menu principal en allant dans "Espace", puis sur "Explorateur". 
   
@@ -3497,7 +3497,7 @@ L'explorateur de fichiers GoFAST comporte 4 zones distinctes :
 1.	Barre de tâche (zone horizontale en haute)
 2.	Bloc structure de l'arborescence (zone verticale à gauche)
    
-.. Si vous appuyez sur *Dossiers*, l’arborescence de gauche disparaît ou apparaît. Vous ne voyez donc plus que la liste de     vos dossiers.
+.. Note:: Si vous appuyez sur *Dossiers*, l’arborescence de gauche disparaît ou apparaît. Vous ne voyez donc plus que la liste de vos dossiers.
    
 3.	Bloc principale affichant le contenu d'un dossier (zone la plus large, centre-droit)
 4.	Bloc de progression (zone horizontale en bas) 
@@ -3554,7 +3554,8 @@ Une fois les éléments sélectionnés, vous pouvez gérer la visibilité des co
    :alt:
 
 
-**Copier/Couper/Coller des documents**
+Copier/Couper/Coller des documents
+++++++++++++++++++++++++++++++++++
 
 En survolant les icônes avec la souris, vous verrez à quelle action elle correspond avec un petit mot affiché sous l'icône. 
 
@@ -3592,7 +3593,7 @@ Lorsque vous sélectionnez un ou plusieurs fichiers vous avez la possibilité en
 Ce panier a pour objectif vous créer un panier documentaire sur lequel vous pouvez mener des actions, comme par exemple lancer un processus de validation (workflow). 
 *Pour plus de détails voir le paragraphe consacré aux Workflows*
 
-.. figure:: media-guide/FBrowser-10.png
+.. figure:: media-guide/FBrowser-11.png
    :alt: 
 
 
@@ -3600,7 +3601,7 @@ Ce panier a pour objectif vous créer un panier documentaire sur lequel vous pou
 
 Cette nouvelle fonctionnalité va vous permettre de retrouver vos documents plus facilement. Dans la barre *Filtre* (voir image ci-dessous), écrivez le titre du document que vous recherchez, et la recherche va filtrer tous les documents sur la page de l'espace où vous êtes.
 
-.. figure:: media-guide/FBrowser-11.png
+.. figure:: media-guide/FBrowser-12.png
    :alt: 
    
    
@@ -3614,7 +3615,7 @@ Le clic droit permet d'afficher le menu des actions contextuelles au type de con
 
 **Actions sur un unique document** 
 
-.. figure:: media-guide/FBrowser-12.png
+.. figure:: media-guide/FBrowser-13.png
    :alt:
 
 Lorsque vous faite un clic droit sur le document souhaité, une liste de plusieurs menus vous sont proposez (voir copie d’écran) qui va vous permettre un certains nombre d’actions sans pour autant avoir besoin d’aller sur la prévisualisation du document. 
@@ -3624,34 +3625,28 @@ Lorsque vous faite un clic droit sur le document souhaité, une liste de plusieu
 
 
 Un clic droit sur une sélection de plusieurs fichiers, plusieurs actions vous sont proposé (de manière restreinte par rapport à l’action sur un fichier unique) telles que : 
-* Supprimer 
-* Télécharger 
-* Gérer la taxonomie 
-* Gérer les emplacements 
+ * Supprimer 
+ * Télécharger 
+ * Gérer la taxonomie 
+ * Gérer les emplacements 
 
-.. figure:: media-guide/FBrowser-13.png
+.. figure:: media-guide/FBrowser-14.png
    :alt:
 
 .. NOTE::
    Pour sélectionner plusieurs documents dans l’explorateur de fichiers vous devez sélectionner le premier document en tête de votre liste à sélectionner, puis maintenir la touche « Shift » (voir ci-dessous) enfoncée tout en sélectionnant le dernier document de votre liste que vous souhaitez sélectionner.  
 
-.. html ::
-  <embed>
-     <h2>Carnets de voyage</h2>
-  </embed>
 
-.. figure:: media-guide/FBrowser-14.png
+.. figure:: media-guide/FBrowser-15.png
 
-Cette démarche est valable sur : Window, Mac, Linux
+Cette démarche est valable sur : 
+ :platform:: Windows, Mac, Linux 
 
-   :platform: Windows, Mac, Linux 
-
-Actions sur un Espace
-+++++++++++++++++++++
+**Actions sur un Espace**
 
 Plusieurs actions sont également disponible sur un Espace (voir copie d’écran ci-dessous). 
 
-.. figure:: media-guide/FBrowser-15.png
+.. figure:: media-guide/FBrowser-16.png
    :alt:
 
 
