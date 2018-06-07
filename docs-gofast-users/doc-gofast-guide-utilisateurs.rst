@@ -3568,7 +3568,8 @@ Cette démarche revient à dire que le document sera à 2 endroits différents s
 
 MAIS, GoFAST vous permet le multi-emplacement des documents sans créer de copies de vos documents. Le multi-emplacement est préférable (via les métadonnées), ainsi il permet de garder la même version du document visible à partir de plusieurs emplacements et évite les doublons avec des versions différentes.
 
-.. figure:: media-guide/FBrowser-O9.png
+
+.. figure:: media-guide/FBrowser-09.png
    :alt: 
    
    
@@ -3633,12 +3634,13 @@ Un clic droit sur une sélection de plusieurs fichiers, plusieurs actions vous s
 .. figure:: media-guide/FBrowser-14.png
    :alt:
 
-   Pour sélectionner plusieurs documents dans l’explorateur de fichiers vous devez sélectionner le premier document en tête de votre liste à sélectionner, puis maintenir la touche « Shift » (voir ci-dessous) enfoncée tout en sélectionnant le dernier document de votre liste que vous souhaitez sélectionner.  
-
 .. figure:: media-guide/FBrowser-15.jpg
    :align: right
 
+   Pour sélectionner plusieurs documents dans l’explorateur de fichiers vous devez sélectionner le premier document en tête de votre liste à sélectionner, puis maintenir la touche « Shift » (voir ci-dessous) enfoncée tout en sélectionnant le dernier document de votre liste que vous souhaitez sélectionner.  
+
 Cette démarche est valable sur : Windows, Mac, Linux 
+
 
 **Actions sur un Espace**
 
