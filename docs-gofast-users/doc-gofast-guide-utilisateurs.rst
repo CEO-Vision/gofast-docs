@@ -3474,17 +3474,17 @@ Accéder à l'explorateur de fichiers GoFAST
 
 Il existe 3 façons d'accéder à l'explorateur de fichiers GoFAST File Browser :
 
-.. [#f1]_ Vous pouvez afficher l'explorateur de fichier GoFAST depuis le menu principal en allant dans "Espace", puis sur "Explorateur". 
+.. [#f1] Vous pouvez afficher l'explorateur de fichier GoFAST depuis le menu principal en allant dans "Espace", puis sur "Explorateur". 
   
 .. figure:: media-guide/FBrowser-01.png
    :alt:
 
-.. [#f2]_ Vous pouvez afficher l'explorateur de fichier GoFAST depuis la page d'un esapce en cliquant sur l'onglet "Documents" 
+.. [#f2] Vous pouvez afficher l'explorateur de fichier GoFAST depuis la page d'un esapce en cliquant sur l'onglet "Documents" 
 
 .. figure:: media-guide/FBrowser-02.png
    :alt:
 
-.. [#f3]_ Vous pouvez à tout moment déplier le bloc de l'explorateur de fichiers qui est caché à gauche sur chaque page de GoFAST
+.. [#f3] Vous pouvez à tout moment déplier le bloc de l'explorateur de fichiers qui est caché à gauche sur chaque page de GoFAST
 
 .. figure:: media-guide/FBrowser-03.png
    :alt: 
