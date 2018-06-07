@@ -3634,11 +3634,11 @@ Un clic droit sur une sélection de plusieurs fichiers, plusieurs actions vous s
 .. figure:: media-guide/FBrowser-14.png
    :alt:
 
-
+-
 .. figure:: media-guide/FBrowser-15.jpg
    :align: right
 
-Pour sélectionner plusieurs documents dans l’explorateur de fichiers vous devez sélectionner le premier document en tête de votre liste à sélectionner, puis maintenir la touche « Shift » (voir ci-dessous) enfoncée tout en sélectionnant le dernier document de votre liste que vous souhaitez sélectionner.  
+Pour sélectionner plusieurs documents dans l’explorateur de fichiers vous devez sélectionner le premier document en tête de votre liste à sélectionner, puis maintenir la touche «Shift» enfoncée tout en sélectionnant le dernier document de votre liste que vous souhaitez sélectionner.  
 
 Cette démarche est valable sur : Windows, Mac, Linux 
 
