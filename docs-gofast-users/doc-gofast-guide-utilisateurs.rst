@@ -3516,7 +3516,7 @@ Déposer des fichiers sur GoFAST via l'explorateur
 Pour déposer des fichiers depuis votre PC vers GoFAST, il est conseillé de faire un *Glisser/Déposer* directement dans l'espace ou le dossier souhaité. 
 
 .. WARNING::
- Il faut déposer le(s) fichier(s) soit dans le cadre principale (=zone 2 sur la copie écrant au-dessus), soit dans le cadre à gauche où il y a l'arborescence  (=zone 3 sur la copie écrant au-dessus).
+ Il faut déposer le(s) fichier(s) soit dans le cadre principal (zone 2 sur la copie écran ci-dessus), soit dans le cadre à gauche où il y a l'arborescence (zone 3 sur la copie écran au-dessus).
 
 Les fichiers ainsi déposés sont chargés et la progression est affichée dans la zone horizontale en bas de l'explorateur. Vous pouvez à tout moment cliquer sur *Pause*, *Annuler* ou bien *Reprendre* le chargement. 
 
