@@ -13,8 +13,9 @@ Dans le cas où le problème concerne une application de la suite MS-Office il e
 
 .. figure:: media-guide/trouver-version-excel.png
 
-
-
+Message "Impossible de se connecter à : ....  Merci de vérifier que l'adresse web que vous utilisez en correcte" 
+------------------------
+Windows ne gère pas les chemins de plus de 240 caractères. Veuillez par exemple réduire le nom du fichier.
 
 Message "Échec du téléchargement" : Impossible d'enregistrer sous Microsoft Office suite à une édition en ligne 
 ------------------------
