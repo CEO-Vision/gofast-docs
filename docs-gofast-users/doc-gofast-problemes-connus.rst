@@ -15,7 +15,10 @@ Dans le cas où le problème concerne une application de la suite MS-Office il e
 
 Message "Impossible de se connecter à : ....  Merci de vérifier que l'adresse web que vous utilisez en correcte" 
 ------------------------
-Windows ne gère pas les chemins de plus de 240 caractères. Veuillez par exemple réduire le nom du fichier.
+MS- Office ne gère pas les chemins de plus de 240 caractères. Veuillez par exemple 
+
+- réduire le nom du fichier
+- ou utiliser LibreOffice ou OnlyOffice
 
 Message "Échec du téléchargement" : Impossible d'enregistrer sous Microsoft Office suite à une édition en ligne 
 ------------------------
