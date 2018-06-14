@@ -69,7 +69,8 @@ Pour éviter ce message : Fichier / Option / Centre de gestion de la confidentia
 Cocher : "Autoriser les emplacements approuvés sur mon réseau" puis "Ajouter un nouvel emplacement"
 
 .. figure:: media-guide/MS-Office-emplacement-approuvé.png
-    :scale: 50%
+    :scale: 75%
+    :align: center
     :alt: MS-Office-emplacement-approuvé
 
 Problème Explorateur de fichiers Microsoft
