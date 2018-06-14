@@ -59,6 +59,15 @@ Une fois que les fichiers bloqués ont été supprimés :
 
 2/ Le fichier est sur votre PC (ex: Bureau) et vous pouvez le glisser-déposer du PC vers GoFAST, sur la page du document (angle en haut à droite, zone en pointillés).
 
+Message "Attention aux fichiers provenant d’un emplacement Internet"
+--------------------------------------------------------------------
+
+Si Office est configuré en "Mode protégé" lors de l'édition en ligne un message "Attention aux fichiers provenant d’un emplacement Internet, car ils peuvent contenir des virus". 
+
+Pour éviter ce message : Fichier / Option / Centre de gestion de la confidentialité / Paramétre du Centre de gestion de la confidentialité / Emplacements approuvés 
+
+Cocher : "Autoriser les emplacements approuvés sur mon réseau" puis "Ajouter un nouvel emplacement"
+
 Problème Explorateur de fichiers Microsoft
 ===================
 Message "Impossible d'enregistrer le fichier car sa taille dépasse la taille autorisée"
