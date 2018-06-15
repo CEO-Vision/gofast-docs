@@ -3468,11 +3468,11 @@ http…… » puis « DONE ». S’il ne se passe rien, appuyez sur le lien
    :alt: 
 
 
-L’explorateur de fichiers GoFAST
---------------------------------
+L’explorateur de fichiers GoFAST File Browser
+=============================================
 
 Accéder à l'explorateur de fichiers GoFAST 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+------------------------------------------
 
 Il existe 3 façons d'accéder à l'explorateur de fichiers GoFAST File Browser :
 
@@ -3492,7 +3492,7 @@ Il existe 3 façons d'accéder à l'explorateur de fichiers GoFAST File Browser 
    :alt: 
 
 Se repérer dans GoFAST File Browser
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-----------------------------------
 
 L'explorateur de fichiers GoFAST comporte 4 zones distinctes : 
 
@@ -3513,7 +3513,7 @@ Les divers contenus affichés dans l'explorateur de fichiers sont identifiés pa
    :alt:
 
 Déposer des fichiers sur GoFAST via l'explorateur 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-------------------------------------------------
 
 Pour déposer des fichiers depuis votre PC vers GoFAST, il est conseillé de faire un *Glisser/Déposer* directement dans l'espace ou le dossier souhaité. 
 
@@ -3526,18 +3526,20 @@ Les fichiers ainsi déposés sont chargés et la progression est affichée dans 
    Le chargement se fera uniquement si vous avez les droits pour déposer des contenus dans l'espace concerné.  
    Pendant le chargement des fichiers depuis le PC vers GoFAST, ne pas supprimer, ni déplacer les fichiers côté PC car pour charger il faut conserver l'emplacement d'origine, autrement GoFAST ne sais plus depuis où il faut les récupérer . 
 
-Utiliser la barre d’outils de GoFASRT File Browser
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Utiliser la barre d’outils de GoFAST File Browser
+--------------------------------------------------
 
-La barre d'outil de l'explorateur de fichier permet d'effectuer les action suivantes : 
+La barre d'outils de l'explorateur de fichier permet d'effectuer les action suivantes : 
 
 **Modifier la manière dont sont affichés les contenus**
+~~~~~~~~~~~~~~~~~~~~
 
 .. figure:: media-guide/FBrowser-06.png
    :alt:
 
 
 **Créer un nouvel élément dans le dossier sectionné**
+~~~~~~~~~~~~~~~~~~~~
 
 Si vous appuyez sur le bouton *Nouveau* puis *Dossier*, cela vous permet de créer un nouveau dossier à cet emplacement. Il vous suffit ensuite de le nommer, puis valider. 
 
@@ -3546,6 +3548,7 @@ Si vous appuyez sur le bouton *Nouveau* puis *Dossier*, cela vous permet de cré
 
 
 **Gérer les métadonnées (taxonomie) et les emplacements d’un ou plusieurs contenu(s)**
+~~~~~~~~~~~~~~~~~~~~
 
 Pour pouvoir cliquer sur le bouton *Gérer* il faut au-préalable sélectionner un ou plusieurs dossier(s) et/ou contenu(s) dans la zone principale de l'explorateur de fichiers.
 
@@ -3564,6 +3567,7 @@ En survolant les icônes avec la souris, vous verrez à quelle action elle corre
 
 
 **Copier/Coller un document**
+~~~~~~~~~~~~~~~~~~~~
 
 L’icône des 2 feuilles superposées (encadré en orange ici) permet de *Copier* le document sélectionné dans un autre emplacement de la GoFAST, il vous faudra alors ensuite appuyer sur le dernier icône (encadré en jaune ici) quand vous voudrez coller le document à l’autre emplacement. 
 
@@ -3577,6 +3581,7 @@ MAIS, GoFAST vous permet le multi-emplacement des documents sans créer de copie
    
    
 **Couper/Coller un document**
+~~~~~~~~~~~~~~~~~~~~
 
 Même principe que pour *Copier/Coller* , mais ici pour déplacer un dossier vers un autre emplacement sur GoFAST est de *Couper* puis *Coller*. Cette fois, il faut utiliser les ciseaux pour couper (entouré ci-dessous en orange) et l’avant dernier icône noir et blanc pour Coller (entouré ci-dessous en jaune). 
 
@@ -3591,6 +3596,7 @@ Cette démarche, contrairement à la précédente permet d'éviter les doublons.
 
 
 **Ajouter un/des document(s) au panier**
+~~~~~~~~~~~~~~~~~~~~
 
 Lorsque vous sélectionnez un ou plusieurs fichiers vous avez la possibilité en cliquant sur l'icône (voir ci-dessous) de les ajouter à votre panier documentaire. 
 
@@ -3602,6 +3608,7 @@ Ce panier a pour objectif vous créer un panier documentaire sur lequel vous pou
 
 
 **Filtrer les contenus dans un dossier ou espace**
+~~~~~~~~~~~~~~~~~~~~
 
 Cette nouvelle fonctionnalité va vous permettre de retrouver vos documents plus facilement. Dans la barre *Filtre* (voir image ci-dessous), écrivez le titre du document que vous recherchez, et la recherche va filtrer tous les documents sur la page de l'espace où vous êtes.
 
@@ -3610,14 +3617,15 @@ Cette nouvelle fonctionnalité va vous permettre de retrouver vos documents plus
    
    
 Actions depuis GoFAST File Browser selon le type de contenu  
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-----------------------------------------------------------
 
 De manière générale, les actions autorisées sur les espaces, dossiers et/ou fichiers visibles dans l'explorateur de fichiers restent strictement conforme à vos droits sur l'espace concerné.
 
 Le clic droit permet d'afficher le menu des actions contextuelles au type de contenu. Ci-après les diverses actions possibles par type de contenu avec les droits d'administrateur de l'espace. 
 
 
-**Actions sur un unique document** 
+**Actions sur un unique document**
+~~~~~~~~~~~~~~~~~~~~
 
 .. figure:: media-guide/FBrowser-13.png
    :alt:
@@ -3626,6 +3634,7 @@ Lorsque vous faite un clic droit sur le document souhaité, une liste de plusieu
 
 
 **Actions sur une selection de fichiers ou dossier (classique)**
+~~~~~~~~~~~~~~~~~~~~
 
 Un clic droit sur une sélection de plusieurs fichiers, plusieurs actions vous sont proposées (de manière restreinte par rapport à l’action sur un fichier unique) telles que : 
 
@@ -3647,6 +3656,7 @@ Cette démarche est valable sur : Windows, Mac, Linux
 
 
 **Actions sur un Espace**
+~~~~~~~~~~~~~~~~~~~~
 
 Plusieurs actions sont également disponible sur un Espace (voir copie d’écran ci-dessous). 
 
