@@ -10,7 +10,7 @@ Améliorations
    :widths: 10, 40, 10
    
    "[4158]", "Pouvoir choisir le nom de l'expediteur des notifications", "Notification"
-   "[4054]", "Nouvel explorateur de fichiers Web (remplacement ITHit Browser)", "Explorateur de fichiers"
+   "[4054]", "Nouvel explorateur de fichiers Web GoFAST File Browser (anciennement ITHit)", "Explorateur de fichiers"
    "[4082]", "Amélioration des Réunions et Visio-conférence", "Visio-conférence"
    "[4143]", "Visuel de notification : Pour la création d'un compte utilisateur", "Notification"
    "[4144]", "Visuel de notification : Pour l'acceptation d'un utilisateur à un espace après une demande", "Notification"
@@ -23,7 +23,7 @@ Améliorations
    "[2964]", "Séparer les termes *Catégories* standards et non standards", "Catégorie"
    "[4108]", "Amélioration du comportement bouton *Retour / Suivant* du navigateur", "Performance"
    "[3562]", "Notification de mise en relation", "Notification"
-   "[4199]", "Mieux discerner les espaces dans l'explorateur de fichiers", "Affichage" 
+   "[4199]", "Amélioration de GoFAST File Browser pour mieux différencier les *Fichiers* des *Répertoires*", "Affichage" 
  
 
 
@@ -128,8 +128,8 @@ Visuelles et ergonomiques
    :widths: 40, 10
 
    "Bouton *Affichage* proposant la possibilité d'afficher les fichiers : détails/icônes", "Amélioration"
-   "Mise à jour visuelle de l'explorateur de fichiers", "Amélioration"
-   "Visibilité des éléments listés dans l'explorateur de fichiers", "Amélioration"
+   "Nouvelle interface plus ergonomique de l'explorateur de fichiers", "Amélioration"
+   "Affichage plus ergonomique des documents et répertoires dans l'explorateur de fichiers", "Amélioration"
    "Icônes distincts dans l'arborescence permettant d'identifier un dossier classique et le type d'espace", "Amélioration"
    "Icône d'affichage *Plein écran* mis en valeur à coté du menu des actions", "Amélioration"
 
