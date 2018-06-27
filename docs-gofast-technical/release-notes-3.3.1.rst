@@ -28,6 +28,11 @@ Bug mineurs
    "[4212]", "Difficultés rencontrées avec les boutons *Nouveau document*, *Charger fichiers*, *Explorer* dans l'explorateur de fichiers", "Explorateur de fichiers"
    "[4297]", "Lors de l'édition de *Tags* sur un document, la fenêtre apparait en bas de la page", "Métadonnées"
    "[3994]", "Dans certains cas le champs *Auteur* est présent mais vide", "Métadonnées"
+   "[4200]", "Alors de la suppression d'un document dans le fil d'actualité - la fenêtre ne disparait pas", "Pop-up" 
+   "[4207]", "Notification pour le Blocage d'un utilisateur mal formaté", "Notification"
+   "[4208]", "Impossible de formater le contenu initial d'un forum", "Forum"
+   "[4229]", "Problème de re-direction lors de la suppression d'un fichier ou d'un espace", "Suppression"
+   "[4231]", "L'emplacement *Dossier* ne disparait pas après la suppression d'un espace dans l'explorateur de fichiers", "Explorateur de fichiers"
   
    
    
