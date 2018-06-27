@@ -2228,7 +2228,7 @@ la prévisualisation et appuyez sur l’option «  Editer avec OnlyOfice »
 
 .. IMPORTANT::
    Si vous souhaitez co-éditer les anciens formats Microsoft (.doc, .xls, .ppt) ou les formats
-   OpenDocument (.odt, ...) ceux-ci seront convertis dans les formats équivalents .docx, .xlsx, .pptx).
+   OpenDocument (.odt, ...) ceux-ci seront convertis dans les formats équivalents .docx, .xlsx, .pptx). Si vous souhaitez une conversion la plus fidèle possible, faire cette conversion sous Office ou LibreOffice
    De même la version actuelle ne génère pas les Table de Matières, celles-ci devant être
    généré une fois le document terminé sous votre éditeur de texte.
    
