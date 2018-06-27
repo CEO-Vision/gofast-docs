@@ -4,7 +4,7 @@
 GoFAST :  Version 3.3.1
 ********************************************
 
-...[EN COURS]...
+*... [EN COURS] ...*
 
 Améliorations
 **********************
@@ -50,10 +50,28 @@ Bug mineurs
    "[4260]", "L'extension .pptx est considéré comme un type de format *Autres*", "Extension"
    "[4187]", "Lors de l'ajout d'un utilisateur dans un *Espace*, reception de la notification en double", "Notifications"
    "[4258]", "Couper/Coller dans GoFAST File Browser ne rafraichit pas la page de l'explorateur de fichiers", "Explorateur de fichiers"
+   "[4203]", "Formatage de la fenêtre de redirection (manque icône et problème d'encodage)", "Pop-Up"
    
-
-
    
+Bug majeurs
+**********************
+.. csv-table::  
+   :header: "Ref.", "Description", "Catégorie"
+   :widths: 10, 40, 10
+
+   "[4197]", "Pas de bouton d'acceptation des invitations de Visio-Conférence sous Outlook", "Notifications"
+
+Hotfix
+**********************
+.. csv-table::  
+   :header: "Ref.", "Description", "Catégorie"
+   :widths: 10, 40, 10
+
+   "[4210]", "Impossible d'accéder à la page de récupération de mot de passe", "Affichage" 
+   "[4213]", "La fonctionnalité *Lien vers le dossier* a disparu depuis la mise à jour de GoFAST File Browser", "Explorateur de fichiers" 
+   "[4233]", "[FIREFOX] Impossible de déplacer des fichiers/dossiers entre les dossiers/espaces dans GoFAST File Browser", "Explorateur de fichiers" 
+   "[4189]", "La fenêtre d'authentification s'affiche sans action menée", "Pop-Up"
+   "[4195]", "Impossible de *Glisser/Déposer* 
    
    
    
