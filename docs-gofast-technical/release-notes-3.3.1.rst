@@ -38,6 +38,9 @@ Bug mineurs
    "[4255]", "GoFAST ne détecte pas automatiquement la *Langue* d'un document", "Métadonnées"
    "[4267]", "Aucun message d'erreur ne s'affiche lorsqu'un utilisateur va sur un document où il n'a pas accès", "Affichage"
    "[4286]", "Les notifications de la DUA ne sont pas fonctionnelles", "Notifications"
+   "[4227]", "Incohérence du nombre de points attribués aux utilisateurs entre le profil et l'annuaire", "Notation"
+   "[4230]", "Le message "Espace Archivé" ne s'affiche pas", "Affichage"
+   "[4232]", "L'explorateur de fichiers (fenêtre de gauche) apparaît trop souvent", "Affichage"
    
    
    
