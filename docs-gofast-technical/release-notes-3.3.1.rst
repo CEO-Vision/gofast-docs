@@ -71,7 +71,14 @@ Hotfix
    "[4213]", "La fonctionnalité *Lien vers le dossier* a disparu depuis la mise à jour de GoFAST File Browser", "Explorateur de fichiers" 
    "[4233]", "[FIREFOX] Impossible de déplacer des fichiers/dossiers entre les dossiers/espaces dans GoFAST File Browser", "Explorateur de fichiers" 
    "[4189]", "La fenêtre d'authentification s'affiche sans action menée", "Pop-Up"
-   "[4195]", "Impossible de *Glisser/Déposer* 
+   "[4195]", "Impossible de *Glisser/Déposer* dans la zone de chargement dans le nouvel explorateur de fichiers", "Contenu"
+   "[4211]", "Effet de clignotement et rafraichissement intempestif du chat/messsagerie", "Affichage"
+   "[4214]", "L'ordre/tri des contenus dans l'explorateur de fichiers ne sont pas fait de manière intuitive et logique", "Explorateur de fichiers" 
+   "[4218]", "Lors de l'édition en ligne, aucun verrou ne s'affiche dans GoFAST File Browser", "Affichage"
+   "[4226]", "Dans GoFASt File Browser l'affichage de la date n'est pas adapté à la langue choisi par l'utilisateur", "Affichage" 
+   "[4228]", "Chargement de documents en *Glisser/Déposer* dans GoFAST File Browser n'est pas toujours pris en compte", "Explorateur de fichiers" 
+   
+   
    
    
    
