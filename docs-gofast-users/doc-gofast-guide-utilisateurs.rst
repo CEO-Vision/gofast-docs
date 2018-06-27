@@ -2216,6 +2216,10 @@ sur un même document.
    De plus OnlyOffice est dans votre datacenter limitant les besoins
    de bande passante et garantissant une confidentialité totale.
 
+.. CAUTION::   
+   Une connexion réseau d'assez bonne qualité est nécessaire
+   
+
 Pour cela lancer la co-édition, allez dans les actions contextuelles de
 la prévisualisation et appuyez sur l’option «  Editer avec OnlyOfice »
 
@@ -2224,7 +2228,7 @@ la prévisualisation et appuyez sur l’option «  Editer avec OnlyOfice »
 
 .. IMPORTANT::
    Si vous souhaitez co-éditer les anciens formats Microsoft (.doc, .xls, .ppt) ou les formats
-   OpenDocument (.odt, ...) ceux-ci seront convertis dans les formats équivalents .docx, .xlsx, .pptx) 
+   OpenDocument (.odt, ...) ceux-ci seront convertis dans les formats équivalents .docx, .xlsx, .pptx).
    De même la version actuelle ne génère pas les Table de Matières, celles-ci devant être
    généré une fois le document terminé sous votre éditeur de texte.
    
