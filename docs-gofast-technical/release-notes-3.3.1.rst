@@ -4,7 +4,7 @@
 GoFAST :  Version 3.3.1
 ********************************************
 
-*... [EN COURS] ...*
+*... [EN COURS DE REDACTION] ...*
 
 Améliorations
 **********************
