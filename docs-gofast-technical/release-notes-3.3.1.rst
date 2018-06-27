@@ -24,8 +24,8 @@ Bug mineurs
    :header: "Ref.", "Description", "Catégorie"
    :widths: 10, 40, 10
    
-   "[4155]", "Edition en ligne d'un document Office sur un poste sans Office est impossible (pas de demande d'install ITDocOpener)", "Edition"
-   "[4212]", "Difficultés rencontrées avec les boutons *Nouveau document* / *Charger fichiers* / *Explorer* dans l'explorateur de fichiers", "Explorateur de fichiers"
+   "[4155]", "Edition en ligne d'un document Office sur un poste sans Office est impossible (pas de demande d'install ITDocOpener) ", "Edition"
+   "[4212]", "Difficultés rencontrées avec les boutons *Nouveau document*, *Charger fichiers*, *Explorer* dans l'explorateur de fichiers", "Explorateur de fichiers"
    "[4297]", "Lors de l'édition de *Tags* sur un document, la fenêtre apparait en bas de la page", "Métadonnées"
    "[3994]", "Dans certains cas le champs *Auteur* est présent mais vide", "Métadonnées"
    "[4200]", "Alors de la suppression d'un document dans le fil d'actualité - la fenêtre ne disparait pas", "Pop-up" 
