@@ -24,32 +24,11 @@ Bug mineurs
    :header: "Ref.", "Description", "Catégorie"
    :widths: 10, 40, 10
    
-   "[4155]", "Edition en ligne d'un document Office sur un poste sans Office est impossible (pas de demande d'install ITDocOpener) ", "Edition"
+   "[4155]", "Edition en ligne d'un document Office sur un poste sans Office est impossible (pas de demande d'install ITDocOpener)", "Edition"
    "[4212]", "Difficultés rencontrées avec les boutons *Nouveau document*, *Charger fichiers*, *Explorer* dans l'explorateur de fichiers", "Explorateur de fichiers"
    "[4297]", "Lors de l'édition de *Tags* sur un document, la fenêtre apparait en bas de la page", "Métadonnées"
    "[3994]", "Dans certains cas le champs *Auteur* est présent mais vide", "Métadonnées"
-   "[4200]", "Alors de la suppression d'un document dans le fil d'actualité - la fenêtre ne disparait pas", "Pop-up" 
-   "[4207]", "Notification pour le Blocage d'un utilisateur mal formaté", "Notification"
-   "[4208]", "Impossible de formater le contenu initial d'un forum", "Forum"
-   "[4229]", "Problème de re-direction lors de la suppression d'un fichier ou d'un espace", "Suppression"
-   "[4231]", "L'emplacement *Dossier* ne disparait pas après la suppression d'un espace dans l'explorateur de fichiers", "Explorateur de fichiers"
-   "[4243]", "Ne pas instancier GoFAST File Browser lorsqu'on est en récupération de mot de passe", "Explorateur de fichiers"
-   "[4249]", "La création d'un *Répertoire* dans GoFAST File Browser renvoit en bas de page", "Explorateur de fichiers"
-   "[4255]", "GoFAST ne détecte pas automatiquement la *Langue* d'un document", "Métadonnées"
-   "[4267]", "Aucun message d'erreur ne s'affiche lorsqu'un utilisateur va sur un document où il n'a pas accès", "Affichage"
-   "[4286]", "Les notifications de la DUA ne sont pas fonctionnelles", "Notifications"
-   "[4227]", "Incohérence du nombre de points attribués aux utilisateurs entre le profil et l'annuaire", "Notation"
-   "[4230]", "Le message "Espace Archivé" ne s'affiche pas", "Affichage"
-   "[4232]", "L'explorateur de fichiers (fenêtre de gauche) apparaît trop souvent", "Affichage"
-   "[4238]", "Lors de l'archivage de Groupes, aucun utilisateurs ne se met en *Lecture Seule*", "Archivage"
-   "[4241]", "L'ajout au panier en masse et le lancement du Workflow (processus) depuis le panier documenturaire ne se lance pas avec des documents corrompus", "Panier documentaire"
-   "[4250]", "Des rectangles apparaissent en bas de page", "Affichage"
-   "[4253]", "L'attribution de rôles dans un Espace ne correspond pas", "Rôle utilisateur"
-   "[4257]", "Comportement aléatoire de l'ajout de documents au panier dans GoFAST File Browser", "Explorateur de fichiers"
-   "[4260]", "L'extension .pptx est considéré comme un type de format *Autres* ", "Extension"
-   "[4187]", "Lors de l'ajout d'un utilisateur dans un *Espace*, reception de la notification en double", "Notifications"
-   "[4258]", "Couper/Coller dans GoFAST File Browser ne rafraichit pas la page de l'explorateur de fichiers", "Explorateur de fichiers"
-   "[4203]", "Formatage de la fenêtre de redirection (manque icône et problème d'encodage)", "Pop-Up"
+  
    
    
 Bug majeurs
