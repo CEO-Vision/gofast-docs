@@ -33,7 +33,12 @@ Bug mineurs
    "[4208]", "Impossible de formater le contenu initial d'un forum", "Forum"
    "[4229]", "Problème de re-direction lors de la suppression d'un fichier ou d'un espace", "Suppression"
    "[4231]", "L'emplacement *Dossier* ne disparait pas après la suppression d'un espace dans l'explorateur de fichiers", "Explorateur de fichiers"
-  
+   "[4243]", "Ne pas instancier GoFAST File Browser lorsqu'on est en récupération de mot de passe", "Explorateur de fichiers"
+   "[4249]", "La création d'un *Répertoire* dans GoFAST File Browser renvoit en bas de page", "Explorateur de fichiers"
+   "[4255]", "GoFAST ne détecte pas automatiquement la *Langue* d'un document", "Métadonnées"
+   "[4267]", "Aucun message d'erreur ne s'affiche lorsqu'un utilisateur va sur un document où il n'a pas accès", "Affichage"
+   "[4286]", "Les notifications de la DUA ne sont pas fonctionnelles", "Notifications"
+   
    
    
 Bug majeurs
