@@ -636,6 +636,25 @@ liste des 10 derniers documents consultés, ce qui est aussi un raccourci
 vers ces documents. Il suffit de cliquer sur le fichier pour le
 prévisualiser.
 
+Recherche avancée par les opérateurs booléens 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Vous pouvez faire une recherche simple, en mettent les mots-clefs «nus», le   résultat   affiché   sera   celui,   jugé   le   plus pertinent par le moteur de recherche. Ou bien procéder à des recherches via des **opérateurs booléens** (en plus de la fonction tri et filtrage), en ajoutant:
+
+ * **«AND»** pour Et doit avoir obligatoirement tous les mots-clefs demandés. 
+ * **« - »** pour exckuse un mot-clef de la recherche. Le mot précédé par le caractère "-" ne doit pas être présent dans le document
+ * **« + »**   pour rendre un mot-clef obligatoire. Le mot précédé par le caractère "+" doit être présent dans le document. 
+ * **« " " »**  plusieurs mots clés entre les guillemets "" permettent de rechercher une phrase ou plusieurs groupe de mots liés ensemble dans la recherche 
+
+Cette fonctionnalité permet d'accéder à une recherche avancée par mot-clef dans le moteur de recherche, et limiter le nombre de résultats. 
+
+Voir exemple sur la copie d'écran ci-dessous : 
+
+.. figure:: media-guide/operateurs-booleens.jpg
+   :alt: 
+
+
+
 Recherche dans l’arborescence / l’explorateur de fichiers
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
