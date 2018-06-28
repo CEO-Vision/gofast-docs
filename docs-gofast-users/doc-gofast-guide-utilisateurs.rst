@@ -646,7 +646,7 @@ Vous pouvez faire une recherche simple, en mettent les mots-clefs «nus», le   
  * **«AND»** pour Et doit avoir obligatoirement tous les mots-clefs demandés. 
  * **« - »** pour exckuse un mot-clef de la recherche. Le mot précédé par le caractère "-" ne doit pas être présent dans le document
  * **« + »**   pour rendre un mot-clef obligatoire. Le mot précédé par le caractère "+" doit être présent dans le document. 
- * **« " " »**  plusieurs mots clés entre les guillemets "" permettent de rechercher une phrase ou plusieurs groupe de mots liés ensemble dans la recherche 
+ * **« »**  plusieurs mots clés entre les guillemets "" permettent de rechercher une phrase ou plusieurs groupe de mots liés ensemble dans la recherche 
 
 .. figure:: media-guide/operateurs-booleens.jpg
    :alt: 
