@@ -648,12 +648,11 @@ Vous pouvez faire une recherche simple, en mettent les mots-clefs «nus», le   
  * **« + »**   pour rendre un mot-clef obligatoire. Le mot précédé par le caractère "+" doit être présent dans le document. 
  * **« " " »**  plusieurs mots clés entre les guillemets "" permettent de rechercher une phrase ou plusieurs groupe de mots liés ensemble dans la recherche 
 
-Cette fonctionnalité permet d'accéder à une recherche avancée par mot-clef dans le moteur de recherche, et limiter le nombre de résultats. 
-
-Voir exemple sur la copie d'écran ci-dessous : 
-
 .. figure:: media-guide/operateurs-booleens.jpg
    :alt: 
+
+Cette fonctionnalité permet d'accéder à une recherche avancée par mot-clef dans le moteur de recherche, et limiter le nombre de résultats. 
+
 
 
 Prévisualisation du texte contenant les mots-clés recherchés 
