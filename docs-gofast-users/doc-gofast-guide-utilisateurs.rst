@@ -210,7 +210,7 @@ pourrez également accéder à vos abonnements ou vous déconnecter.
    :alt: 
 
 Les 5 cases noires dans le coin gauche inférieur sont surtout **liées
-aux fichiers,**
+aux fichiers**
 
 .. figure:: media-guide/image008.png
    :alt: 
@@ -600,6 +600,8 @@ Recherche
 Rechercher un document
 ----------------------
 
+Ce domaine de fonctionnalité comme le moteur de recherche tient une place primordiale dans le concept GoFAST. La plateforme comprend les moyens de recherches variés et un puissant moteur de recherche. 
+
 Recherche automatique, avec filtres
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -653,6 +655,18 @@ Voir exemple sur la copie d'écran ci-dessous :
 .. figure:: media-guide/operateurs-booleens.jpg
    :alt: 
 
+
+Prévisualisation du texte contenant les mots-clés recherchés 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Le texte présentant les mots-clés recherchés est prévisualisé dans les résultats de la recherche. Vous pouvez passer d’un paragraphe à l’autre et ainsi consulter le contenu sans même devoir aller sur la page du document, ni l’ouvrir.
+
+.. figure:: media-guide/recherche-contextuelle.png
+   :alt:
+
+Lorsque vous cliquez sur le mot-clé affiché en gras (comme sur la copie d'écran), GoFAST vous renvoit automatiquement là où se trouve le mot-clé recherché dans le document. 
+
+Cette fonctionnalité permet un réel gain de temps dans la recherche. 
 
 
 Recherche dans l’arborescence / l’explorateur de fichiers
