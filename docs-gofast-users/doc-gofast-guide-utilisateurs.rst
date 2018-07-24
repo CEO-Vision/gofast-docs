@@ -290,7 +290,7 @@ terminez par « Envoyer ». Et votre message apparaîtra dans les
 L’écran d’accueil vous montre aussi directement **l’arborescence de vos
 espaces** collaboratifs (votre espace privé, l’Extranet, vos groupes,
 votre organisation, l’espace Public) si vous choisissez d’ afficher
-cette partie (où on voit l’arborescence GoFAST et vos folders/groupes)
+cette partie (où on voit l’arborescence GoFAST et vos dossiers/groupes)
 en cliquant sur la barre grise verticale.
 
 Vous retrouverez cette même barre grise verticale du côté droit pour
@@ -497,7 +497,7 @@ Pour le contenus totalement transversal à l'Organisation. On peut également y 
 
 .. NOTE::
    Petite différence avec la version précédente de GoFAST v2 \ **: les
-   folders de l’Espace Public deviennent des sous-espaces** par souci de
+   dossiers de l’Espace Public deviennent des sous-espaces** par souci de
    clarté.
 
 Vous pouvez **vous abonner** à cet espace via le petit logo entouré en
@@ -672,7 +672,7 @@ Recherche dans l’arborescence / l’explorateur de fichiers
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Autre manière de **rechercher un fichier** ; **via l’arborescence**, si
-vous connaissez déjà le cheminement par les groupes/folders. Allez sur
+vous connaissez déjà le cheminement par les groupes/dossiers. Allez sur
 l’onglet « Espaces », puis choisissez l’espace /le groupe et/ou son
 sous-espace jusqu’au niveau souhaité.
 
@@ -680,20 +680,18 @@ sous-espace jusqu’au niveau souhaité.
    :alt: 
 
 Vous arriverez alors sur la page de l’espace, cliquez sur l’onglet
-« Documents » pour voir tous les folders et fichiers qui s’y trouvent .
+« Documents » pour voir tous les dossiers et fichiers qui s’y trouvent .
 
 Ici aussi, il y a chaque fois un petit logo devant le fichier qui vous
-signale la nature du document : Word, PDF, Excel, folder,…
-
 A tout moment, vous pouvez voir à quel niveau d’arborescence vous vous
 trouvez , soit au-dessus à gauche (dans l’encadré vert sur l’image) ,
 soit dans l’arborescence dans la colonne de gauche. Les + (et les –)
-devant les noms des espaces/folders vous permettent de voir les niveaux
+devant les noms des espaces/répertoires vous permettent de voir les niveaux
 inférieurs.
 
 C’est dans cette partie que vous pouvez faire la **distinction entre les
-espaces et les folders** : les noms des espaces sont précédés par un
-underscore « \_ », alors qu’il n’y a rien devant les noms des folders.
+espaces et les répertoires** : les noms des espaces sont précédés par un
+underscore « \_ », alors qu’il n’y a rien devant les noms des répertoires.
 
 .. figure:: media-guide/image043.png
    :alt: 
@@ -768,7 +766,7 @@ Choisissez l’option « Créer un fichier vide »
 
 Choisissez l’emplacement où se retrouvera le document dans
 l’arborescence des fichiers en cochant la case devant le nom du
-groupe/folder en question ou en cliquant 2x sur le nom du groupe pour
+groupe/répertoire en question ou en cliquant 2x sur le nom du groupe pour
 qu’il se retrouve sur la droite en bleu.
 
 Puis enregistrez.
@@ -803,7 +801,7 @@ Vous pouvez créer un **nouveau document à partir d’un template** déjà
 existant sur la GoFAST.
 
 Il faut pour cela que vos templates soient placés au préalable dans un
-folder spécifique appelé « TEMPLATES » qui se trouve dans les espaces et
+répertoire spécifique appelé « TEMPLATES » qui se trouve dans les espaces et
 sous-espaces.
 
 Le fait de les déposer dans ce répertoire leur donne automatiquement
@@ -814,14 +812,14 @@ documents dans le Formulaire "Créer un document à partir d'un Modèle".
    Dans GoFAST 3, la catégorie « Template » n'existe plus.
    C'est à présent dans les étiquettes que vous la retrouverez.
 
-Vous devez créer ce folder « TEMPLATES » dans l’onglet « Documents »
+Vous devez créer ce répertoire « TEMPLATES » dans l’onglet « Documents »
 dans les espaces et les sous-espaces de type Organisation/Groupe.
 
 Pour créer ce nouveau document à partir d’un template existant, allez
 dans l’onglet « Créer »\_« Contenu »\_«Fichier,Document ».
 
 Choisissez l’option « Créer à partir d’un modèle » (en dessous du
-titre), vous verrez alors les différentes possibilités de **folders
+titre), vous verrez alors les différentes possibilités de **répertoires
 « TEMPLATES »** contenant des modèles. Cochez le modèle que vous voulez
 utiliser. Le titre et l’extension se mettront automatiquement selon le
 type de modèle choisi. Choisissez un nouveau titre, la langue et
@@ -1096,7 +1094,8 @@ gauche) de l’espace de base/espace-parent « Organisation », sous-espaces
 .. NOTE::
    Dans l’arborescence, on distingue les espaces avec un
    underscore devant leur nom « \_ » ; s’il n’y a rien , ce sont des
-   dossiers/folders. Dans les 2 cas, vous pouvez voir leurs niveaux
+   dossiers/
+   s. Dans les 2 cas, vous pouvez voir leurs niveaux
    inférieurs en cliquant sur le petit « + » devant chacun. Ou les cacher
    avec le petit « - ».
 
@@ -1514,7 +1513,7 @@ niveau de votre sous-espace.
 .. NOTE::
     Il est conseillé de ne pas créer trop de sous-groupes
     si il n’est pas nécessaire de gérer des droits particuliers quant au
-    contenu de ce groupe ; créez plutôt des folders qui resteront
+    contenu de ce groupe ; créez plutôt des répertoires qui resteront
     visibles à tous les membres du groupe-parent.
 
 Si les sous-espaces/groupes ne sont pas visibles directement via
@@ -1531,7 +1530,7 @@ contenu.
    :alt: 
 
 .. NOTE::
-   Les membres d’un sous-groupe auront accès aux documents/folders qui se
+   Les membres d’un sous-groupe auront accès aux documents/répertoires qui se
    trouvent à un niveau supérieur (dans le groupe-parent) , par contre les
    membres du groupe-parent n’auront pas nécessairement accès aux documents
    de ce sous-groupes car la liste des membres du sous-groupe peut varier
@@ -1552,7 +1551,7 @@ contenu.
    :alt: 
 
 Ils voient tous les 3 ce qu’il se passe dans le groupe-racine
-« Groupes » (entouré en jaune) , c’est-à-dire les folders et activités
+« Groupes » (entouré en jaune) , c’est-à-dire les répertoires et activités
 propres à ce groupe-racine *MAIS* Monsieur X et Madame Y ne voient que
 ce qu’il se passe dans leur propre sous-groupe respectif ( entouré en
 rouge ou en noir) et donc l’un ne voit pas ce qu’il se passe dans le
@@ -1567,7 +1566,7 @@ groupe à l’autre.
 **Autre manière d’expliquer, avec l’arborescence :**
 
 Je suis membre du groupe « \_Support GoFAST » qui est un sous-groupe de
-l’espace « Groupes ». J’ai donc accès à tous les folders qui se trouvent
+l’espace « Groupes ». J’ai donc accès à tous les répertoires qui se trouvent
 dans « \_Groupes » et dans « \_Support GoFAST » (nom précédé d’un
 underscore = espace/groupe).
 
@@ -1711,7 +1710,7 @@ chemin (path) = l’emplacement où se trouve le document dans
 l’arborescence.
 
 A gauche, vous voyez en même temps les autres documents qui se trouvent
-dans ce même folder.
+dans ce même répertoire.
 
 En haut à droite, encadré en orange sur l’image, vous retrouvez des
 raccourcis de fonctionnalités liées au document prévisualisé.
@@ -1743,7 +1742,7 @@ côté du titre) (voir plus loin pour les détails)
    :alt: 
 
 Pour rappel, vous pouvez **masquer ou afficher** à tout moment la partie
-avec l’\ **arborescence** de vos folders/groupes en cliquant sur la
+avec l’\ **arborescence** de vos répertoires/groupes en cliquant sur la
 barre grise verticale qui se trouve à gauche de la partie centrale de
 l’écran. (prévisualisation ou fil d’activité)
 
@@ -2629,7 +2628,7 @@ Ouvrir l’emplacement du document
 
 Lorsque vous prévisualisez un document, vous pouvez voir le
 **cheminement** (path), le trajet dans l’\ **arborescence** avec les
-niveaux supérieurs de folders et espaces. (encadré en vert sur l’image).
+niveaux supérieurs de répertoires et espaces. (encadré en vert sur l’image).
 
 Si vous voulez voir les détails de l’arborescence et l’emplacement du
 document que vous visualisez par rapport à cette arborescence, vous
@@ -2817,7 +2816,7 @@ Emplacement
 
 L’emplacement correspond à **l’endroit/l’espace où se trouve votre
 document** sur la GoFAST (dans un groupe ou une organisation ou votre
-espace privé et/ou un folder)
+espace privé et/ou un répertoire)
 
 .. figure:: media-guide/image213.png
    :alt: 
@@ -3200,7 +3199,7 @@ souris et choisissez « Manage taxonomy », cela servira ensuite dans les
 filtres de la recherche automatique pour réduire la liste des résultats.
 
 Et donc si les mêmes métadonnées s’appliquent à plusieurs documents d’un
-même folder, ils suffit de les sélectionner en même temps et de gérer
+même répertoire, ils suffit de les sélectionner en même temps et de gérer
 leur taxonomie de la même manière.
 
 .. figure:: media-guide/image252.png
@@ -3222,7 +3221,7 @@ suffit d’ajouter un emplacement dans les métadonnées du document.
    :alt: 
 
 Cliquez sur « Gérer les emplacements », et choisissez les différents
-groupes/espaces/folders où vous voulez que le document soit visible
+groupes/espaces/répertoires où vous voulez que le document soit visible
 (cochez les cases ou cliquez sur le nom de l’espace pour qu’il se
 retrouve à droite en bleu).
 
@@ -3407,7 +3406,7 @@ Ouvrir le dossier
 ~~~~~~~~~~~~~~~~~
 
 Cette fonctionnalité permet de remonter dans **l’explorateur de
-fichiers** pour voir dans quel dossier/folder se trouve ce
+fichiers** pour voir dans quel dossier/répertoire se trouve ce
 fichier/document sur votre ordinateur.
 
 .. figure:: media-guide/image276.png
