@@ -59,7 +59,7 @@ Bugs majeurs
 **********************
 .. csv-table::  
    :header: "Ref.", "Description", "Catégorie"
-   :widths: 10, 40, 10 
+   :widths: 10, 40, 10
    
    "[4317]", "Ne pas enlever le *Tag* Templates si le document n'es pas/plus dans le dossier *Templates*, "Tags"
    "[4392]", "Interdire le lien avec un contact anonyme dans l'annuaire LDAP", "Annuaire"
@@ -70,7 +70,7 @@ HOTFIX
 **********************
 .. csv-table::  
    :header: "Ref.", "Description", "Catégorie"
-   :widths: 10, 40, 10 
+   :widths: 10, 40, 10
    
    "[4325]", "Impossible de renommer un document sur GoFAST File Browser", "GoFAST File Browser" 
    "[4339]", "Problèmes d'actions contextuelles et multi-emplacement dans GoFAST File Browser", "GoFAST File Browser"
