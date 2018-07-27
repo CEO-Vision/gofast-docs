@@ -39,11 +39,11 @@ Bugs mineurs
    "[4359]", "Le bloc *Livres* ne s'affiche pas sur la page de l'espace", "Livres"
    "[4297]", "Modification de traductions non prises en compte dans la version FR", "Traduction"
    "[4305]", "Pas d'ouverture du menus des actions pour les documents dans la version mobile", "Mobile"
-   "[4307]", "Impossible d'afficher les documents dans un Workflow lorsque plusieurs documents sont pris en compte, "Workflow"
+   "[4307]", "Impossible d'afficher les documents dans un Workflow lorsque plusieurs documents sont pris en compte", "Workflow"
    "[4341]", "Suite au nouvel explorateur, l'ouverture pleine page est mal formatée", "Affichage"
    "[4356]", "Lien vers document depuis le formulaire Bonita n'est plus fonctionnel", "Lien vers document"
    "[4377]", "Pas de transformation de l'extension documement xls --> xlsx après édition onlyoffice", "Extension"
-   "[4384]", "Les conférences supprimés ne sont plus annulés", "Visioconférence"
+   "[4384]", "Les conférences supprimées ne sont plus annulées", "Visioconférence"
    "[3673]", "[OnlyOffice] Pouvoir instancier le tableur avec des formules en français", "OnlyOffice"
    "[4173]", "Sur certaines fenêtres apparentes, l'action d'ajouter des *Etiquettes* fait disparaître le bouton VALIDER", "Pop-up"
    "[4252]", "Manque de clarté pour la fonctionnalité *Messages internes*", "Message interne"
@@ -61,7 +61,7 @@ Bugs majeurs
    :header: "Ref.", "Description", "Catégorie"
    :widths: 10, 40, 10
    
-   "[4317]", "Ne pas enlever le *Tag* Templates si le document n'es pas/plus dans le dossier *Templates*, "Tags"
+   "[4317]", "Ne pas enlever le *Tag* Templates si le document n'es pas/plus dans le dossier *Templates*", "Tags"
    "[4392]", "Interdire le lien avec un contact anonyme dans l'annuaire LDAP", "Annuaire"
    "[4062]", "Mise à jour OnlyOffice 5.1.5", "Mise à jour"
    
