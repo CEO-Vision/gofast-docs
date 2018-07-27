@@ -25,6 +25,7 @@ Améliorations
    "[4350]", "[Mobile] Ajouter le menu des actions GoFAST et le fil d'actualité", "Mobile"
    "[3975]", "Augmenter la taille de la zone commentaire doit augmenter la taille modale", "Commentaire"
 
+
 Bugs mineurs
 **********************
 .. csv-table::  
@@ -52,6 +53,7 @@ Bugs mineurs
    "[4245]", "Impossible d'afficher une nouvelle compétence dans son profil utilisateur", "Profil"
    "[4285]", "Enlever les langues en trop dans l'onglet *Catégorie* de la configuration", "Langues"
    "[4316]", "Le bouton *Supprimer fichier* dans la fenêtre apparente de confirmation n'a pas la bonne police", "Pop-up"
+   
    
   Bugs majeurs
 **********************
