@@ -31,7 +31,27 @@ Bugs mineurs
    :header: "Ref.", "Description", "Catégorie"
    :widths: 10, 40, 10
    
-   "
+   "[4268]", "Impossible de créer un commentaire dans la version mobile", "Mobile"
+   "[3897]", "[OnlyOffice] Perte des tables de matières", "OnlyOffice"
+   "[4109]", "[MacOS] Impossible de co-éditer avec OnlyOffice", "OnlyOffice"
+   "[4266]", "Impossible de déplacer un document dans un sous répertoire avec GoFAST File Browser", "GoFAST File Browser"
+   "[4359]", "Le bloc *Livres* ne s'affiche pas sur la page de l'espace", "Livres"
+   "[4297]", "Modification de traductions non prises en compte dans la version FR", "Traduction"
+   "[4305]", "Pas d'ouverture du menus des actions pour les documents dans la version mobile", "Mobile"
+   "[4307]", "Impossible d'afficher les documents dans un Workflow lorsque plusieurs documents sont pris en compte, "Workflow"
+   "[4341]", "Suite au nouvel explorateur, l'ouverture pleine page est mal formatée", "Affichage"
+   "[4356]", "Lien vers document depuis le formulaire Bonita n'est plus fonctionnel", "Lien vers document"
+   "[4377]", "Pas de transformation de l'extension documement xls --> xlsx après édition onlyoffice", "Extension"
+   "[4384]", "Les conférences supprimés ne sont plus annulés", "Visioconférence"
+   "[3673]", "[OnlyOffice] Pouvoir instancier le tableur avec des formules en français", "OnlyOffice"
+   "[4173]", "Sur certaines fenêtres apparentes, l'action d'ajouter des *Etiquettes* fait disparaître le bouton VALIDER", "Pop-up"
+   "[4252]", "Manque de clarté pour la fonctionnalité *Messages internes*", "Message interne"
+   "[4321]", "Evènement sans date dans le fil d'actualité", "Fil d'actualité"
+   "[4334]", "Prise en charge des documents .xtlm comme un fichier Excel", "Extension"
+   "[4222]", "Pas de possibilité de modifier la taille des colonnes dans GoFAST File Browser", "Affichage"
+   "[4245]", "Impossible d'afficher une nouvelle compétence dans son profil utilisateur", "Profil"
+   "[4285]", "Enlever les langues en trop dans l'onglet *Catégorie* de la configuration", "Langues"
+   "[4316]", "Le bouton *Supprimer fichier* dans la fenêtre apparente de confirmation n'a pas la bonne police", "Pop-up"
    
   Bugs majeurs
 **********************
