@@ -55,7 +55,7 @@ Bugs mineurs
    "[4316]", "Le bouton *Supprimer fichier* dans la fenêtre apparente de confirmation n'a pas la bonne police", "Pop-up"
    
    
-  Bugs majeurs
+Bugs majeurs
 **********************
 .. csv-table::  
    :header: "Ref.", "Description", "Catégorie"
@@ -66,7 +66,7 @@ Bugs mineurs
    "[4062]", "Mise à jour OnlyOffice 5.1.5", "Mise à jour"
    
    
-   HOTFIX
+HOTFIX
 **********************
 .. csv-table::  
    :header: "Ref.", "Description", "Catégorie"
