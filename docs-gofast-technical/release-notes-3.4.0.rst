@@ -1,4 +1,3 @@
-(...EN COURS DE REDACTION...)
 
 ********************************************
 GoFAST :  Version 3.4.0
