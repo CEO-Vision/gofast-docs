@@ -12,6 +12,7 @@ Améliorations
    
    "[4063]", "Mise à jour de PHP 5.6 vers 7.2", "Mise à jour"
    "[4062]", "Mise à jour OnlyOffice 5.1.5", "Mise à jour"
+   "[3448]", "Mise à jour de LibreOffice 6.0.4", "Mise à jour"
    "[3673]", "Pouvoir instancier le tableur avec des formules en français", "OnlyOffice"
    "[4309]", "Finaliser l'homogénéisation des notifications", "Notifications"
    "[4346]", "Auto-démarrage des services de GoFAST COMM", "Système"
