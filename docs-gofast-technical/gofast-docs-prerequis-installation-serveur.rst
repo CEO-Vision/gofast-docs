@@ -405,7 +405,7 @@ Configuration / Paramétrage par CEO-Vision
 
 -  Installation des sondes de supervision
 
-Installation des sondes
+Installation des sondes (en option sauf abonnement XXL)
 -----------------------
 
 Installation de l'agent Serveur (monitoring physique)
