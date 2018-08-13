@@ -153,8 +153,8 @@ Il est très recommandé mais non obligatoire de créer une partition pour
 ``/var``.
 
 .. CAUTION:: 
-   Si la partition ``/var`` est sur un stockage distant (NAS, SAN, ...) ceci ne doit 
-   entrainer une forte dégradations des performances (IOPS) par rapport à un stockage local
+   Si la partition ``/var`` est sur un stockage distant (NAS/NFS ...) ceci ne doit 
+   entrainer une forte dégradations des performances (IOPS) par rapport à un stockage local. Tout stockage WAN doit être évité 
 
 .. CAUTION:: 
    Il est recommandé mais non obligatoire de créer une partition pour
