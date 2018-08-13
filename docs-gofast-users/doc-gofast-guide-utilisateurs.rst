@@ -1473,6 +1473,9 @@ espace, créer un sous-espace, modifier les données du groupe, archiver
 ce groupe, supprimer ce groupe, se désabonner ou s’abonner, rejoindre
 une discussion,...
 
+.. NOTE:: Les onglets "accueil", "activité", "statistiques", "membres" d'un espace affichent des éléments liés à l'espace sur lequel on se trouve et dont le titre est indiqué juste au-dessus des onglets. Toutefois, l'onglet "Document" ne cloisonne pas l'utilisateur à cet unique espace, mais lui permet de naviguer dans tous les emplacements où il a accès. Il peut donc arriver que le nom de l'espace indiqué au dessus des onglet ne soit pas celui de l'emplacement d'arborescence où on se trouve. 
+
+
 Ajouter un sous-espace
 ----------------------
 
