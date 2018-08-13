@@ -106,7 +106,6 @@ Bugs mineurs
    :widths: 10, 40, 10
    
    "[3265]", "Lors de la mise à jour d'un document, problème d'affichage des annotations", "Commentaire"
-   "[3932]", "L'explorateur de fichiers ne s'intancie pas dans certains cas", "Explorateurs Web"
    "[3439]", "Problème d'ajout d'un tag lors de la gestion en masse de la Taxonomie", "Tag"
    "[3532]", "Problème d'affichage du champs poste dans la carte de visite de l'annuaire", "Annuaire"
    "[3811]", "Problème de partage d'écran sous Google Chrome - (installation Plug-in)", "Visio-conférence"
@@ -118,6 +117,7 @@ Bugs mineurs
    "[3904]", "Problème de la pré-visualisation du format Office", "Pré-visualisation"
    "[3921]", "Problème de suppression d'un message privé. Réapparait quand on raffraichit la page", "Chat"
    "[3925]", "Pas le bon avatar affiché lorsqu'une action est faite par un autre utilisateur", "Utilisateur"
+   "[3932]", "L'explorateur de fichiers ne s'intancie pas dans certains cas", "Explorateurs Web"
    "[3937]", "Problème de synchronisation d'un nom d'espace avec son dossier dans l'explorateur de fichiers", "Explorateur Web"
    "[3946]", "Déplacer un sous-espace est partiellement fonctionnel : Temps de synchronisation long", "Performance"
    "[3949]", "Eviter les collisions lorsque plusieurs modifications sont faite simultanément", "Modification document"
