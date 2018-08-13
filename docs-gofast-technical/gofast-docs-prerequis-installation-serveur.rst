@@ -76,6 +76,9 @@ charge et des temps de réponse.
 
 .. CAUTION:: 
    GoFAST est notamment très sensible à la performance des entrées/sorties (I/O) et au bon dimensionnement de mémoire vive (RAM)
+   
+.. CAUTION::
+   Conséquence de la sensibilité au I/O, une attention particulière doit être portée au stockage distant. Celui-ci doit privilégier le  type SAN. Eviter tout stockage distant WAN et de type NFS.
 
 .. NOTE::
    GoFAST v3 nécessite par défaut 2 VM.
