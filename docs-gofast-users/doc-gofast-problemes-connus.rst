@@ -79,7 +79,7 @@ Message "Impossible d'enregistrer le fichier car sa taille dépasse la taille au
 -----------------------
 Le message Windows provient d'une limitation imposée par le système Windows, qui empêche le transfert de gros fichiers par Webdav.
 
-Message "Erreur réseau" avec Explorateur Windows
+Message "Erreur réseau" avec Explorateur Windows (0x80070035)
 ------------------------
 
 .. figure:: media-guide/erreur-réseau-webdav.png
