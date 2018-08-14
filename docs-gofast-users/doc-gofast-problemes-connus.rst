@@ -85,7 +85,7 @@ Message "Erreur réseau" avec Explorateur Windows (0x80070035)
 .. figure:: media-guide/erreur-réseau-webdav.png
    :alt:
 
-Dans le cas de "Windows ne peut accéder à ..." vérifier que le service webclient est démarré
+Dans le cas de "Windows ne peut accéder à ..." ou un message ``Le chemin réseau n'a pas été trouvé`` vérifier que le service ``webclient`` est démarré
 
 Impossible d'éditer en ligne des contenus PDF avec Acrobat Reader (v18)
 ===========================
