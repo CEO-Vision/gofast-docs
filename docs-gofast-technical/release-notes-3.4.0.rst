@@ -24,6 +24,7 @@ Améliorations
    "[4309]", "Finaliser l'homogénéisation des notifications", "Notifications"
    "[4329]", "Prise en charge des documents .bmp comme type d'images", "Extensions"
    "[4334]", "Prise en charge des documents .xtlm comme un fichier Excel", "Extensions"
+   "[4337]", "Partager par e-mail : envoi d'un e-mail de confirmation de lecture et géneration d'évènement", "Partage par e-mail"
    "[4346]", "Auto-démarrage des services de GoFAST COMM", "Système"
    "[4349]", "Rendre le formulaire d'administration GoFAST asynchrone", "Administration"
    "[4350]", "Ajouter le menu des actions GoFAST et le fil d'actualité", "Mobile"
