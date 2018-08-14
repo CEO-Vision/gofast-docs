@@ -3176,334 +3176,6 @@ sur le titre pour ouvrir la prévisualisation.
 .. figure:: media-guide/image249.png
    :alt: 
 
-Raccourcis pour gérer un document à partir de l’arborescence
-------------------------------------------------------------
-
-Lorsque vous êtes dans votre explorateur de fichiers/arborescence
-GoFAST, vous pouvez aussi gérer vos documents avec quelques raccourcis
-via le **clic-droit de la souris**, sans devoir passer par la
-prévisualisation donc.
-
-Il faut juste sélectionner le/les documents sur lesquels s’appliquent la
-fonctionnalité
-
-.. figure:: media-guide/image250.png
-   :alt: 
-
-Gérer la taxonomie (= certaines métadonnés du document)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-.. figure:: media-guide/image251.png
-   :alt: 
-
-Pour **lier des métadonnées** comme les **mots-clés, le statut, la
-catégorie, la langue à un document** sélectionné, clic-droit de la
-souris et choisissez « Manage taxonomy », cela servira ensuite dans les
-filtres de la recherche automatique pour réduire la liste des résultats.
-
-Et donc si les mêmes métadonnées s’appliquent à plusieurs documents d’un
-même répertoire, ils suffit de les sélectionner en même temps et de gérer
-leur taxonomie de la même manière.
-
-.. figure:: media-guide/image252.png
-   :alt: 
-
-Gérer les emplacements = Multifiler
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-**Multifiler** signifie mettre le **même et seul document à plusieurs
-endroits** sur la GoFAST et ainsi rendre une même et seule version
-visible par plusieurs groupes. Il s’agit d’une action de «Partage»
-évitant tout doublon.
-
-Si votre document est dans votre groupe et que vous voulez que les
-membres d’un autre groupe puissent le voir aussi pour y travailler, il
-suffit d’ajouter un emplacement dans les métadonnées du document.
-
-.. figure:: media-guide/image253.png
-   :alt: 
-
-Cliquez sur « Gérer les emplacements », et choisissez les différents
-groupes/espaces/répertoires où vous voulez que le document soit visible
-(cochez les cases ou cliquez sur le nom de l’espace pour qu’il se
-retrouve à droite en bleu).
-
-Terminez avec « Enregistrer »
-
-Lisez bien la remarque dans l’encadré
-
-.. figure:: media-guide/image254.png
-   :alt: 
-
-Vous pouvez aller plus loin dans l’arborescence en cliquant sur les
-petits « + » devant les noms d’espaces
-
-.. figure:: media-guide/image255.png
-   :alt: 
-
-Lorsque vous retournez sur la prévisualisation du document, vous verrez,
-dans les métadonnées, les différents emplacements où se trouve le
-document.
-
-.. figure:: media-guide/image256.png
-   :alt: 
-
-Charger une nouvelle version
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Revient au même que **glisser/coller** une nouvelle version (voir plus
-haut p.82) .
-
-.. figure:: media-guide/image257.png
-   :alt: 
-
-Sauf qu’il faut aller chercher le document dans votre explorateur de
-fichiers local. Un fois le document sélectionné, cliquez 2x dessus ou
-appuyez sur « Open ».
-
-.. figure:: media-guide/image258.png
-   :alt: 
-
-Le message suivant apparaîtra, choisissez l’option (oui/non).
-
-.. figure:: media-guide/image259.png
-   :alt: 
-
-La nouvelle version sera ainsi chargée à la même place que l’initiale et
-gardera les mêmes métadonnées, sauf si vous les changez. Le permalink
-restera également le même.
-
-Télécharger un document
-~~~~~~~~~~~~~~~~~~~~~~~
-
-Il est possible de **télécharger le document** sélectionné directement
-via ce raccourci, sans devoir d’abord le prévisualiser.
-
-Il suffira donc d’ouvrir le téléchargement pour visionner le document
-sur une autre page.
-
-.. figure:: media-guide/image260.png
-   :alt: 
-
-Modifier un document
-~~~~~~~~~~~~~~~~~~~~
-
-Si vous en avez les droits, en tant qu’utilisateur contributeur dans vos
-groupes, vous pouvez **modifier des documents** Words, Excel, Power
-Point, … par ce raccourci.
-
-.. figure:: media-guide/image261.png
-   :alt: 
-
-Il vous sera demandé de vous identifier en encodant votre identifiant et
-mot de passe pour que les autres membres puissent voir qui a ouvert le
-document en 1\ :sup:`er` pour le modifier.
-
-.. figure:: media-guide/image262.png
-   :alt: 
-
-Ils verront alors un petit cadenas rouge et le nom du premier
-utilisateur ayant ouvert le document. Ce cadenas disparaîtra quand tous
-les utilisateurs qui ont travaillé sur ce document en même temps auront
-fini d’y travailler.
-
-.. figure:: media-guide/image263.png
-   :alt: 
-
-Il se peut que vous voyiez ces messages de sécurité avant de vous
-identifier, cliquez sur « Allow »/ « Ok »
-
-.. figure:: media-guide/image264.png
-   :alt: 
-
-.. figure:: media-guide/image265.png
-   :alt: 
-
-.. figure:: media-guide/image266.png
-   :alt: 
-
-Une fois tous ces messages de sécurité passés et votre identification
-validée, le document s’ouvre dans Office comme n’importe quel document
-Word, Excel, Power Point, …. Vous pouvez donc y travailler normalement
-avec les options Office et terminer en le sauvant (disquette) avant de
-le refermer.
-
-.. NOTE::
-   Dans Word et Power Point, il y a des flèches vertes sur
-   la disquette d’enregistrement , ce qui prouve la synchronisation avec
-   l’interface GoFAST. Il se peut que vous ne les voyiez pas sur un
-   document Excel malgré que la synchronisation soit activée aussi.
-
-.. figure:: media-guide/image267.png
-   :alt: 
-
-Une fois le document fermé, retournez sur l’interface GoFAST et
-rafraichissez la page avec la flèche arrondie, soit celle à côté du
-l’adresse URL , soit la petite icône sur la barre d’outils noire
-au-dessus de la liste de vos fichiers.
-
-.. figure:: media-guide/image268.png
-   :alt: 
-
-Le petit désavantage de ce raccourci est que vous devez télécharger ou
-aller sur la prévisualisation pour vérifier si la modification a bien
-été prise en compte.
-
-Tandis que si vous aviez modifié le document à partir de la
-prévisualisation, vous seriez directement redirigé sur la
-prévisualisation du document.
-
-Editer le document avec …/Edit document with…
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Ce bouton permet **d’ouvrir d'un fichier pour l’éditer/modifier** et de
-choisir l'application avec laquelle on veut l’ouvrir, ex : LibreOffice
-ou Microsoft Office, Adobe Reader ou Foxit pour les PDF. Ainsi que de
-travailler à plusieurs de **manière simultanée** (comme dans Google
-drive)
-
-Toutefois, il faut autoriser l’installation d'un petit composant de
-l'explorateur de fichiers pour qu'il puisse voir les applications dont
-vous disposez pour ouvrir le fichier sélectionné.
-
-.. figure:: media-guide/image269.png
-   :alt: 
-
-Si vous travaillez avec Firefox, vous devriez pouvoir télécharger le
-lien pour Windows qui se trouve dans la fenêtre suivante
-
-.. figure:: media-guide/image270.png
-   :alt: 
-
-Sauvez le fichier=> « Save File »
-
-.. figure:: media-guide/image271.png
-   :alt: 
-
-La fichier sera chargé et vous pourrez l’ouvrir en cliquant sur l’icône
-de dossier noir, à droite qui ouvrira l’emplacement sur votre ordinateur
-où a été chargé le lien.
-
-.. figure:: media-guide/image272.png
-   :alt: 
-
-.. figure:: media-guide/image273.png
-   :alt: 
-
-Vous aurez probablement de ICT pour pouvoir l’installer. Sinon, cliquez
-sur le fichier et commencez l’installation.
-
-Quand tout sera installé, selon votre version Windows, vous verrez
-peut-être ce genre d’écran la prochaine fois que vous cliquerez sur le
-raccourci « Edit document with… »
-
-.. figure:: media-guide/image274.png
-   :alt: 
-
-Ou
-
-.. figure:: media-guide/image275.png
-   :alt: 
-
-Ouvrir le dossier
-~~~~~~~~~~~~~~~~~
-
-Cette fonctionnalité permet de remonter dans **l’explorateur de
-fichiers** pour voir dans quel dossier/répertoire se trouve ce
-fichier/document sur votre ordinateur.
-
-.. figure:: media-guide/image276.png
-   :alt: 
-
-Même procédure que pour éditer, il faudra d’abord installer le lien
-ci-dessous si vous ne l’avez pas encore installé sur votre ordinateur.
-
-.. figure:: media-guide/image277.png
-   :alt: 
-
-Puis vous pourrez ouvrir le dossier dans votre exploreur de fichiers sur
-votre ordinateur
-
-.. figure:: media-guide/image278.png
-   :alt: 
-
-.. figure:: media-guide/image279.png
-   :alt: 
-
-Copier/coller un fichier
-~~~~~~~~~~~~~~~~~~~~~~~~
-
-Vous pouvez **copier un fichier à plusieurs endroits**. Le risque à ce
-moment-là est d’avoir des doublons car si quelqu’un modifie le document
-à un endroit, l’autre document copié ne sera pas modifié lui. Vous vous
-retrouverez alors avec 2 documents de même nom, à des emplacements
-différents et pas mis à jour en même temps. (=> considérés comme 2
-documents différents avec des versions différentes, 2 permalinks
-différents, à différents endroits)
-
-**Il vaut donc mieux privilégier le multifiling pour garder une seule et
-même version** **du document** visible à plusieurs endroits sur la
-GoFAST et toujours avec la mise à jour la plus actuelle. (=> un seul
-document, une seule version actuelle, un permalink unique, à plusieurs
-endroits)
-
-.. figure:: media-guide/image280.png
-   :alt: 
-
-Après avoir cliqué sur « Copier », allez à l’emplacement où vous voulez
-le coller, clic-droit de la souris et « Coller »
-
-.. figure:: media-guide/image281.png
-   :alt: 
-
-De la même manière, vous pouvez **couper/coller un document.**
-
-Dès lors, il n’y aura pas de doublon puisque le document sera supprimé
-de son emplacement initial pour être collé à un autre endroit sur la
-GoFAST.
-
-.. figure:: media-guide/image282.png
-   :alt: 
-
-.. NOTE::
-   Ces 2 fonctionnalités ne fonctionnent que dans la GoFAST,
-   il n’y a pas la possibilité de copier/coller ou couper/coller un
-   document de la GoFAST vers votre ordinateur par exemple.
-
-Renommer/supprimer un document
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Vous pouvez **renommer ou supprimer uniquement vos documents** ,
-c’est-à-dire ceux dont vous êtes l’auteur.
-
-.. figure:: media-guide/image283.png
-   :alt: 
-
-Prévisualiser
-~~~~~~~~~~~~~
-
-Une autre manière de **prévisualiser** le document sélectionné est de
-cliquer sur « Ouvrir dans l’onglet actif ». Vous arriverez ainsi sur la
-page de prévisualisation, avec les métadonnées sur le côté droit.
-
-.. figure:: media-guide/image284.png
-   :alt: 
-
-Vous pouvez faire de même mais en ouvrant la prévisualisation dans un
-autre onglet en choisissant l’option « Ouvrir dans un nouvel onglet ».
-
-.. NOTE::
-   Si vous avez un message de pop-up qui restreint cette
-   fonction, choisissez l’option « Always allow ».
-
-Ce message n’est pas toujours très visible, dans Chrome, il se cache
-sous la petite croix rouge, dans le coin droit supérieur de l’adresse
-URL. Cliquez sur la croix, choisissez « Always allow pop-ups from
-http…… » puis « DONE ». S’il ne se passe rien, appuyez sur le lien
-*https://..............* Et la page s’ouvrira.
-
-.. figure:: media-guide/image285.png
-   :alt: 
 
 
 L’explorateur de fichiers GoFAST File Browser
@@ -3519,7 +3191,7 @@ Il existe 3 façons d'accéder à l'explorateur de fichiers GoFAST File Browser 
 .. figure:: media-guide/FBrowser-01.png
    :alt:
 
-.. [#f2] Vous pouvez afficher l'explorateur de fichier GoFAST depuis la page d'un esapce en cliquant sur l'onglet "Documents" 
+.. [#f2] Vous pouvez afficher l'explorateur de fichier GoFAST depuis la page d'un espace en cliquant sur l'onglet "Documents" 
 
 .. figure:: media-guide/FBrowser-02.png
    :alt:
@@ -3593,6 +3265,7 @@ Pour pouvoir cliquer sur le bouton *Gérer* il faut au-préalable sélectionner 
 Une fois les éléments sélectionnés, vous pouvez gérer la visibilité des contenus (selon vos droits utilisateur) en cliquant sur *Gérer les emplacements*, ou bien modifier les informations de taxonomie. 
 
 **A savoir :** les modifications d'informations de taxonomie sont possibles sur : l'état, la catégorie, le(s) étiquette(s), et la langue. Dans le cas où vous ne souhaitez pas modifier tous ces éléments, laisser le champ positionné sur *Ne pas modifier*. 
+Ces informations serviront ensuie dans les filtres de la recherche automatique pour réduire la liste des résultats. 
 
 .. figure:: media-guide/FBrowser-08.png
    :alt:
@@ -3607,11 +3280,11 @@ En survolant les icônes avec la souris, vous verrez à quelle action elle corre
 **Copier/Coller un document**
 ~~~~~~~~~~~~~~~~~~~~
 
-L’icône des 2 feuilles superposées (encadré en orange ici) permet de *Copier* le document sélectionné dans un autre emplacement de la GoFAST, il vous faudra alors ensuite appuyer sur le dernier icône (encadré en jaune ici) quand vous voudrez coller le document à l’autre emplacement. 
+L’icône des 2 feuilles superposées (encadré en orange ici) permet de *Copier* le document sélectionné dans un autre emplacement de la GoFAST, il vous faudra alors ensuite appuyer sur le dernier icône (encadré en jaune ici) quand vous voudrez coller le document à l'emplacement où vous souhaitez le coller, clic-droit de la souris et "Coller". 
 
-Cette démarche revient à dire que le document sera à 2 endroits différents sur la GoFAST.
+Cette démarche revient à dire que le document sera à 2 endroits différents sur GoFAST et le risque à ce moment là est d'avoir des doublons car si quelqu'un modifie le document à un endroit, l'autre document copié ne sera pas modifié lui. Vous vous retrouverez alors avec 2 documents de même nom, à des emplacements différents, avec des versions différentes. 
 
-MAIS, GoFAST vous permet le multi-emplacement des documents sans créer de copies de vos documents. Le multi-emplacement est préférable (via les métadonnées), ainsi il permet de garder la même version du document visible à partir de plusieurs emplacements et évite les doublons avec des versions différentes.
+MAIS, GoFAST vous permet le multi-emplacement des documents sans créer de copies de vos documents. Le multi-emplacement est préférable (via les métadonnées), ainsi il permet de garder la même version du document visible à partir de plusieurs emplacements et évite les doublons avec des versions différentes et toujours avec la mise à jour la plus actuelle. ( = un seul document, une seule version actuelle, un permalink unique, à plusieurs endroits). 
 
 
 .. figure:: media-guide/FBrowser-09.png
@@ -3659,6 +3332,14 @@ Actions depuis GoFAST File Browser selon le type de contenu
 
 De manière générale, les actions autorisées sur les espaces, dossiers et/ou fichiers visibles dans l'explorateur de fichiers restent strictement conforme à vos droits sur l'espace concerné.
 
+Lorsque vous êtes dans votre explorateur de fichiers/arborescence
+GoFAST, vous pouvez aussi gérer vos documents avec quelques raccourcis
+via le **clic-droit de la souris**, sans devoir passer par la
+prévisualisation donc.
+
+Il faut juste sélectionner le/les documents sur lesquels s’appliquent la
+fonctionnalité
+
 Le clic droit permet d'afficher le menu des actions contextuelles au type de contenu. Ci-après les diverses actions possibles par type de contenu avec les droits d'administrateur de l'espace. 
 
 
@@ -3676,10 +3357,10 @@ Lorsque vous faite un clic droit sur le document souhaité, une liste de plusieu
 
 Un clic droit sur une sélection de plusieurs fichiers, plusieurs actions vous sont proposées (de manière restreinte par rapport à l’action sur un fichier unique) telles que : 
 
- * Supprimer 
- * Télécharger 
- * Gérer la taxonomie 
- * Gérer les emplacements 
+ * (1) Supprimer 
+ * (2) Télécharger 
+ * (3) Gérer la taxonomie 
+ * (4) Gérer les emplacements 
 
 .. figure:: media-guide/FBrowser-14.png
    :alt:
@@ -3691,6 +3372,37 @@ Un clic droit sur une sélection de plusieurs fichiers, plusieurs actions vous s
 Pour sélectionner plusieurs documents dans l’explorateur de fichiers vous devez sélectionner le premier document en tête de votre liste à sélectionner, puis maintenir la touche «Shift» enfoncée tout en sélectionnant le dernier document de votre liste que vous souhaitez sélectionner.  
 
 Cette démarche est valable sur : Windows, Mac, Linux 
+
+
+**(4) Focus sur : Gérer les emplacements (Multi-emplacement)**
+~~~~~~~~~~~~~~~~~~~~
+
+**Multifiler** signifie mettre le *même et seul document à plusieurs endroits* sur la GoFAST et ainsi rendre une même et seule version visible par plusieurs groupes. Il s’agit d’une action de «Partage» évitant tout doublon.
+
+Si votre document est dans votre groupe et que vous voulez que les membres d’un autre groupe puissent le voir aussi pour y travailler, il suffit d’ajouter un emplacement dans les métadonnées du document.
+
+.. figure:: media-guide/image253.png
+   :alt: 
+
+Cliquez sur « Gérer les emplacements », et choisissez les différents groupes/espaces/répertoires où vous voulez que le document soit visible (cochez les cases ou cliquez sur le nom de l’espace pour qu’il se retrouve à droite en bleu).
+
+Terminez avec « Enregistrer »
+
+Lisez bien la remarque dans l’encadré
+
+.. figure:: media-guide/image254.png
+   :alt: 
+
+Vous pouvez aller plus loin dans l’arborescence en cliquant sur les petits « + » devant les noms d’espaces
+
+.. figure:: media-guide/image255.png
+   :alt: 
+
+Lorsque vous retournez sur la prévisualisation du document, vous verrez, dans les métadonnées, les différents emplacements où se trouve le document.
+
+.. figure:: media-guide/image256.png
+   :alt: 
+
 
 
 **Actions sur un Espace**
