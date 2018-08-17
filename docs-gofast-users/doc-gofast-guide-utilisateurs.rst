@@ -1049,7 +1049,7 @@ Allez sur l’onglet « Créer » puis sur la flèche à côté de « Espace�
 vous verrez la liste des espaces dans lesquels vous pouvez créer un
 nouveau sous-espace/groupe.
 
-.. figure:: media-guide/image-4.png
+.. figure:: media-guide/image076.png
    :alt: 
 
 Exemple ici pour créer un nouvel espace dans « Organisation » (dans
@@ -1077,7 +1077,7 @@ a) L’onglet « **Activité** » montre les événements qui se passent dans
    pages intranet liées ; les contenus/documents les plus consultés dans
    ce groupe ; et les contenus définis avec un état (validé, draft, etc)
 
-.. figure:: media-guide/picture1.png
+.. figure:: media-guide/image079.png
    :alt: 
 
 b) L’onglet « **Documents** » montre tous les fichiers qui se trouvent
@@ -1102,7 +1102,7 @@ gauche) de l’espace de base/espace-parent « Organisation », sous-espaces
 On peut également voir le cheminement du fichier (path), au-dessus des
 onglets, encadré en vert ici.
 
-.. figure:: media-guide/image080.png
+.. figure:: media-guide/image-4.png
    :alt: 
 
 C’est à ce stade que vous pouvez **glisser/déposer directement des
@@ -1128,7 +1128,7 @@ document) ou en double-cliquant sur le titre du fichier pour le
 prévisualiser et avoir accès à toutes ses métadonnées et ses
 fonctionnalités.
 
-.. figure:: media-guide/image083.png
+.. figure:: media-guide/picture1.png
    :alt: 
 
 Voir aussi"Gestion des documents"
