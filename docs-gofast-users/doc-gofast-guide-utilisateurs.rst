@@ -184,7 +184,7 @@ gauche ; et les filtres à droite ; ainsi que toutes les fonctionnalités
 de base au-dessus sur la barre noire du menu et dans le coin gauche en
 bas.
 
-.. figure:: media-guide/Image-accueil-1.png
+.. figure:: media-guide/Image-Accueil-1.png
    :alt: 
 
 .. NOTE::
@@ -444,7 +444,7 @@ fichiers. (pareil que l’onglet « Documents »)
 .. figure:: media-guide/image028.png
    :alt: 
 
-.. figure:: media-guide/Image-espace-2.png
+.. figure:: media-guide/Image-Espace-2.png
    :alt: 
 
 La 2eme icône « Afficher le contenu en pleine page » permet **d’agrandir
