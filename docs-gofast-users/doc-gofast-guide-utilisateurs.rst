@@ -184,7 +184,7 @@ gauche ; et les filtres à droite ; ainsi que toutes les fonctionnalités
 de base au-dessus sur la barre noire du menu et dans le coin gauche en
 bas.
 
-.. figure:: media-guide/image003.png
+.. figure:: media-guide/image-accueil-1.png
    :alt: 
 
 .. NOTE::
@@ -444,7 +444,7 @@ fichiers. (pareil que l’onglet « Documents »)
 .. figure:: media-guide/image028.png
    :alt: 
 
-.. figure:: media-guide/image029.png
+.. figure:: media-guide/image-espace-2.png
    :alt: 
 
 La 2eme icône « Afficher le contenu en pleine page » permet **d’agrandir
@@ -693,7 +693,7 @@ C’est dans cette partie que vous pouvez faire la **distinction entre les
 espaces et les répertoires** : les noms des espaces sont précédés par un
 underscore « \_ », alors qu’il n’y a rien devant les noms des répertoires.
 
-.. figure:: media-guide/image043.png
+.. figure:: media-guide/image-3.png
    :alt: 
 
 .. figure:: media-guide/image044.png
@@ -1049,7 +1049,7 @@ Allez sur l’onglet « Créer » puis sur la flèche à côté de « Espace�
 vous verrez la liste des espaces dans lesquels vous pouvez créer un
 nouveau sous-espace/groupe.
 
-.. figure:: media-guide/image076.png
+.. figure:: media-guide/image-4.png
    :alt: 
 
 Exemple ici pour créer un nouvel espace dans « Organisation » (dans
@@ -1077,7 +1077,7 @@ a) L’onglet « **Activité** » montre les événements qui se passent dans
    pages intranet liées ; les contenus/documents les plus consultés dans
    ce groupe ; et les contenus définis avec un état (validé, draft, etc)
 
-.. figure:: media-guide/image079.png
+.. figure:: media-guide/picture1.png
    :alt: 
 
 b) L’onglet « **Documents** » montre tous les fichiers qui se trouvent
