@@ -1438,7 +1438,7 @@ c) Un onglet « **Statistiques** », où vous voyez les activités des membres a
 d) Un onglet « **Documents** », où vous voyez les documents et
    l’arborescence de ceux-ci ; 
 
-.. figure:: media-guide/image108.png
+.. figure:: media-guide/Image-Document-6.png
    :alt: 
 
 e) Un onglet « **Calendrier** », où vous pouvez mettre des dates
@@ -1529,7 +1529,7 @@ contenu.
 .. figure:: media-guide/image116.png
    :alt: 
 
-.. figure:: media-guide/image117.png
+.. figure:: media-guide/Image-Arborescence-7.png
    :alt: 
 
 .. NOTE::
