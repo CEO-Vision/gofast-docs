@@ -2,6 +2,8 @@
 GoFAST : Guide Utilisateurs 
 ===========================
 
+.. index:: Community 
+
 Introduction
 ============
 
