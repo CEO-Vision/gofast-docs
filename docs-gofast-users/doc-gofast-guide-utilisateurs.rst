@@ -184,7 +184,7 @@ gauche ; et les filtres à droite ; ainsi que toutes les fonctionnalités
 de base au-dessus sur la barre noire du menu et dans le coin gauche en
 bas.
 
-.. figure:: media-guide/image-accueil-1.png
+.. figure:: media-guide/Image-accueil-1.png
    :alt: 
 
 .. NOTE::
@@ -444,7 +444,7 @@ fichiers. (pareil que l’onglet « Documents »)
 .. figure:: media-guide/image028.png
    :alt: 
 
-.. figure:: media-guide/image-espace-2.png
+.. figure:: media-guide/Image-espace-2.png
    :alt: 
 
 La 2eme icône « Afficher le contenu en pleine page » permet **d’agrandir
@@ -693,7 +693,7 @@ C’est dans cette partie que vous pouvez faire la **distinction entre les
 espaces et les répertoires** : les noms des espaces sont précédés par un
 underscore « \_ », alors qu’il n’y a rien devant les noms des répertoires.
 
-.. figure:: media-guide/image-3.png
+.. figure:: media-guide/Image-3.png
    :alt: 
 
 .. figure:: media-guide/image044.png
@@ -1102,7 +1102,7 @@ gauche) de l’espace de base/espace-parent « Organisation », sous-espaces
 On peut également voir le cheminement du fichier (path), au-dessus des
 onglets, encadré en vert ici.
 
-.. figure:: media-guide/image-4.png
+.. figure:: media-guide/Image-4.png
    :alt: 
 
 C’est à ce stade que vous pouvez **glisser/déposer directement des
@@ -1128,7 +1128,7 @@ document) ou en double-cliquant sur le titre du fichier pour le
 prévisualiser et avoir accès à toutes ses métadonnées et ses
 fonctionnalités.
 
-.. figure:: media-guide/picture1.png
+.. figure:: media-guide/Picture1.png
    :alt: 
 
 Voir aussi"Gestion des documents"
