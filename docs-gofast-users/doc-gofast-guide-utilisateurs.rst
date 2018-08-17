@@ -2,7 +2,7 @@
 GoFAST : Guide Utilisateurs 
 ===========================
 
-.. index:: Community 
+.. versionadded:: Community
 
 Introduction
 ============
