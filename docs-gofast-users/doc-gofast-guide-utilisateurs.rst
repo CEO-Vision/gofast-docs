@@ -2,9 +2,6 @@
 GoFAST : Guide Utilisateurs 
 ===========================
 
-.. versionadded:: Community
-   blablabla
-   
    
 Introduction
 ============
