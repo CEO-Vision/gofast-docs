@@ -12,11 +12,6 @@ la plateforme, qui vous guident pas à pas. Il vous explique tous les
 trucs et astuces, les raccourcis et les différentes manières de faire
 une même action par rapport à un document/un espace.
 
-Comme la plateforme est évolutive en fonction de son utilisation et
-développement, ce **guide évoluera** en même temps. Et comme il est
-**sur la GoFAST** (Forum et Espace Public) , vous y trouverez toujours
-la version actualisée.
-
 .. NOTE:: Nous vous recommandons de lire impérativement l'annexe "Les
    bonnes pratiques avec GoFAST"
 
