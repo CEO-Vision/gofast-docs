@@ -15,6 +15,9 @@ une même action par rapport à un document/un espace.
 .. NOTE:: Nous vous recommandons de lire impérativement l'annexe "Les
    bonnes pratiques avec GoFAST"
 
+.. NOTE:: Un forum vient d'être lancé, n'hésitez pas à créer un compte https://community.ceo-vision.com
+   
+
 Rappel des principes de la plateforme GoFAST
 --------------------------------------------
 
