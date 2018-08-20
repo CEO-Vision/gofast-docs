@@ -6,17 +6,22 @@ GoFAST : Guide Utilisateurs
 .. topic:: title test 
 
 
-.. class:: Community
 
 .. mod:: Community test 1
 
 .. automodule:: Community test 2 Tag 
 
 
-.. |Social Badge| 
+|Social Badge|
 
-.. postlist:: Community 
-   :tags: TesT 
+.. |Social Badge| image::  
+
+
+
+
+
+.. post:: 2016-03-15 09:00
+   :tags: writing, stc, sphinx
    
    
    
