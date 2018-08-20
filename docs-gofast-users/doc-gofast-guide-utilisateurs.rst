@@ -7,6 +7,12 @@ GoFAST : Guide Utilisateurs
 
 
 .. class:: Community
+
+.. mod:: Community test 1
+
+.. automodule:: Community test 2 Tag 
+
+
    
 Introduction
 ============
