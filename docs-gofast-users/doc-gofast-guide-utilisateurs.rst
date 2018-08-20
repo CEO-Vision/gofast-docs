@@ -3,6 +3,7 @@ GoFAST : Guide Utilisateurs
 ===========================
 
 .. sidebar:: test 1
+   test 2
    
    
 Introduction
