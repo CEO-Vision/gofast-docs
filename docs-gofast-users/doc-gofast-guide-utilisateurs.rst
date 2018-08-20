@@ -2,6 +2,7 @@
 GoFAST : Guide Utilisateurs 
 ===========================
 
+.. classes:: test 1
    
 Introduction
 ============
