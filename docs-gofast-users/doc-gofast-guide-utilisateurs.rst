@@ -2,7 +2,8 @@
 GoFAST : Guide Utilisateurs 
 ===========================
 
-.. classes:: test 1
+.. class:: test 1
+   test de contenu avec classes 
    
 Introduction
 ============
