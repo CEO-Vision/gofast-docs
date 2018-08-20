@@ -6,7 +6,7 @@ GoFAST : Guide Utilisateurs
 .. topic:: title test 
 
 
--test
+.. class:: Community
    
 Introduction
 ============
