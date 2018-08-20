@@ -2,9 +2,9 @@
 GoFAST : Guide Utilisateurs 
 ===========================
 
-.. sidebar:: test 1
-   :subtitle: test 2
-   
+
+.. topic:: title test 
+
    
 Introduction
 ============
