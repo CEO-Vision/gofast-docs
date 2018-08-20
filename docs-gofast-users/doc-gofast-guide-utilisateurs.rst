@@ -13,6 +13,12 @@ GoFAST : Guide Utilisateurs
 .. automodule:: Community test 2 Tag 
 
 
+.. |Social Badge| 
+
+.. postlist:: Community 
+   :tags: TesT 
+   
+   
    
 Introduction
 ============
