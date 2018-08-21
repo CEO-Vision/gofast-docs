@@ -1,5 +1,5 @@
 Documentation GoFAST
-#################### 
+####################
 
 .. _technical-docs:
 
