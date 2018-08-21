@@ -34,4 +34,6 @@ locale_dirs = [
 ]
 gettext_compact = False
 
-bin/update.sh en
+bashCommand = "bin/update.sh en"
+output = subprocess.check_output(['bash','-c', bashCommand])
+
