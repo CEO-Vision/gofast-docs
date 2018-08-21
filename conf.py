@@ -34,7 +34,5 @@ locale_dirs = [
 ]
 gettext_compact = False
 
-import subprocess
-bashCommand = "sudo bin/update.sh en"
-output = subprocess.check_output(['bash','-c', bashCommand])
+sphinx-intl update -p _build/locale fr
 
