@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 
-language = 'en'
+language = 'fr'
 
 locale_dirs = [
     'locale/',
