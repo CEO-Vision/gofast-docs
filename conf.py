@@ -33,3 +33,5 @@ locale_dirs = [
     'locale/',
 ]
 gettext_compact = False
+
+bin/update.sh en
