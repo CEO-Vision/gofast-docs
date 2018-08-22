@@ -2236,8 +2236,11 @@ l’icône, vous pouvez voir le nom de l’autre utilisateur.
 .. figure:: media-guide/image162.png
    :alt: 
 
-Editer/modifier le document avec OnlyOffice
+Editer/modifier le document avec OnlyOffice (Enterprise only)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. class:: 
+   Enterprise only 
 
 GoFAST 3 apporte une dimension très innovante et vous permet d’éditer
 des documents Office dans un simple navigateur **avec d’autres personnes
@@ -3661,8 +3664,11 @@ Donnez un titre au mail et écrivez le contenu puis envoyez
 .. figure:: media-guide/image335.png
    :alt: 
 
-Discussion temps-réelle ou Chatter
+Chat/Messagerie instantanée (Enterprise only)
 ==================================
+
+.. class::
+   Enterprise only
 
 .. NOTE:: Nous parlons ici de la version dans le navigateur du Chat, vous pouvez également recevoir les messages avec votre smartphone (voir Utilisation Avancée)
 
@@ -3835,8 +3841,11 @@ verticale.
 .. figure:: media-guide/image361.png
    :alt: 
 
-Workflow / Flux de travail
+Workflow / Flux de travail (Enterprise only)
 ==========================
+
+.. class::
+   Enterprise only
 
 Démarrer un processus de validation : workflow 
 ----------------
@@ -3986,6 +3995,11 @@ Ce menu permet à l'Administrateur de plate-forme de visualiser 3 onglets pour e
 L'onglet **Statistiques documentaires** à la fonction supplémentaire de pouvoir effectuer une liste de documents d'un espace selectionné.
 Pour plus d'informations, voir le paragraphe "Exportation des listes de documents" dans le Guide Utilisateurs : http://gofast-docs.readthedocs.io/fr/latest/docs-gofast-users/doc-gofast-guide-utilisateurs.html#exportation-des-listes-de-documents 
 
+
+Version mobile
+======================
+
+..[EN COURS DE REDACTION]..
 
 
 Utilisation avancée (signature, mobilité, ...)
