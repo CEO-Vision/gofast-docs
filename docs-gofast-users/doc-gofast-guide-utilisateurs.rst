@@ -3999,7 +3999,55 @@ Pour plus d'informations, voir le paragraphe "Exportation des listes de document
 Version mobile
 ======================
 
-..[EN COURS DE REDACTION]..
+La plateforme GoFAST peut fonctionner également en mobilité, et est accessible depuis n'importe quel support sur smartphone ou tablette.
+
+Nous vous proposons une version simplifiée de la plateforme pour plus de facilité d'utilisation, voici quelques exemples des écrans que vous pouvez alors retrouver dans votre poche : 
+
+1. Le menu contextuel 
+-------------------
+
+.. figure:: media-guide/Mobile-Fil-actualite.png
+   :alt:
+   
+   
+2. Le fil d'actualité et son menu 
+------------------------------
+
+.. figure:: media-guide/Mobile-Fil-Actualite-Menu.png
+   :alt:
+   
+3. L'explorateur de fichiers / GoFAST File Browser
+--------------------------------------------------
+
+.. figure:: media-guide/Mobile-Explorateur-GFBrowser.png
+   :alt:
+   
+
+4. La prévisualisation et son menu de métadonnées
+------------------------------------------------
+
+.. figure:: media-guide/Mobile-Menu-Preview.png
+   :alt:
+
+Vous pouvez alors mettre à jour une version d'un document, ou encore ajouter un commentaire 
+
+
+5. Le moteur de recherche 
+-------------------------
+
+.. figure:: media-guide/Mobile-Recherche-Menu-Modified.png
+   :alt:
+
+
+6. Le calendrier 
+-------------
+
+.. figure:: media-guide/Mobile-Calendrier.png
+   :alt:
+   
+
+
+
 
 
 Utilisation avancée (signature, mobilité, ...)
