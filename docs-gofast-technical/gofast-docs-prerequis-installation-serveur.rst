@@ -55,6 +55,9 @@ Architecture
 |Workflow                              | Bonitasoft Community 6               |
 +--------------------------------------+--------------------------------------+
 
+.. class::
+   Enterprise only
+   
 +--------------------------------------+--------------------------------------+
 |GoFAST  Comm-Serveur                                                         |
 +======================================+======================================+
@@ -104,19 +107,21 @@ La VM GoFAST doit posséder un datastore dédié (LUN).
 .. CAUTION:: 
    Sous VMWARE, choisir "RedHat Enterprise" et "paravirtualized SCSI adapter" à partir de CentOS 7.4 / GoFAST v3.1.1
 
-+-------------------+-------------------+-------------------+
-|                   | VM 1 (GF)         | VM 2 (GF-COMM)    |
-+===================+===================+===================+
-|Coeurs             | 4+                | 2+                |
-+-------------------+-------------------+-------------------+
-|RAM                | 10GB+             | 6GB               |
-+-------------------+-------------------+-------------------+
-|Stockage           | 200GB+            | 50GB              |
-+-------------------+-------------------+-------------------+
-|IOPS(FIO)          | 500+              |                   |
-+-------------------+-------------------+-------------------+
-|Réseau             | 100Mpbs           | 100Mpbs           |
-+-------------------+-------------------+-------------------+
+*VM 2 (GF-COMM) n'est compris uniquement dans l'offre Enterprise
+
++-------------------+-------------------+--------------------+
+|                   | VM 1 (GF)         | VM 2 (GF-COMM)*    |
++===================+===================+====================+
+|Coeurs             | 4+                | 2+                 |
++-------------------+-------------------+--------------------+
+|RAM                | 10GB+             | 6GB                |
++-------------------+-------------------+--------------------+
+|Stockage           | 200GB+            | 50GB               |
++-------------------+-------------------+--------------------+
+|IOPS(FIO)          | 500+              |                    |
++-------------------+-------------------+--------------------+
+|Réseau             | 100Mpbs           | 100Mpbs            |
++-------------------+-------------------+--------------------+
 
 .. NOTE::
    Une webconference avec 6 utilisateurs (dont 5 avec de la
@@ -253,8 +258,11 @@ et en sortie.
 .. figure:: media/image6.PNG
    :alt: 
    
-Ressources WebRTC
+Ressources WebRTC (Enterprise only)
 ----------------------------
+
+.. class::
+   Enterprise only
 
 Le fonctionnement Webrtc est décrit ici : https://developer.mozilla.org/fr/docs/Web/Guide/API/WebRTC/WebRTC_architecture
 
@@ -337,8 +345,11 @@ suivantes sont à effectuer: ::
 
 
 
-Installation par script
+Installation par script (Enterprise only)
 -----------------------
+
+.. class::
+   Enterprise only
 
 A noter que ce type d’installation engendre un coût supplémentaire
 (facturation en régie).
@@ -346,8 +357,11 @@ A noter que ce type d’installation engendre un coût supplémentaire
 Dans ce cas, une VM avec Centos 7 x64 Minimal est mise à disposition de CEO-Vision
 qui fait ensuite une installation par script.
 
-Post-installation de la VM
+Post-installation de la VM (Enterprise only) 
 ==========================
+
+.. class::
+   Enterprise only
 
 Configuration / Paramétrage par l’Exploitant
 --------------------------------------------
