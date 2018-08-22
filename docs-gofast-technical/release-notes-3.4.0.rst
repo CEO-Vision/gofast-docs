@@ -70,7 +70,7 @@ Bugs majeurs
    :header: "Ref.", "Description", "Catégorie"
    :widths: 10, 40, 10
    
-   "[3897]", "Perte des tables de matières", "OnlyOffice"
+   "[3897]", "Perte des tables de matières lors édition sous OnlyOffice", "OnlyOffice"
    "[4268]", "Impossible de créer un commentaire dans la version mobile", "Mobile"
    "[4305]", "Pas d'ouverture du menus des actions pour les documents dans la version mobile", "Mobile"
    "[4317]", "Ne pas enlever l'*étiquete* Templates si le document n'es pas/plus dans le dossier *Templates*", "Etiquettes"
