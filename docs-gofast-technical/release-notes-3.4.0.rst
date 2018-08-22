@@ -20,6 +20,8 @@ Améliorations fonctionnelles
    "[4337]", "Partager par e-mail : envoi d'un e-mail de confirmation de lecture", "Partage par e-mail"
    "[4350]", "Mobile : Ajout d'un menu d'actions sur GoFAST File Browser et fil d'actualité", "Mobile"
    "[4378]", "Notifier les administrateurs d'Espace d'une *Demande d'ajout*", "Notifications"
+   "[4317]", "Possibilité de spécifier un doc comme Template avec étiquette *Template*", "Etiquettes"
+
 
 Améliorations techniques
 **********************
@@ -72,8 +74,6 @@ Bugs majeurs
    
    "[3897]", "Perte des tables de matières lors édition sous OnlyOffice", "OnlyOffice"
    "[4268]", "Impossible de créer un commentaire dans la version mobile", "Mobile"
-   "[4305]", "Pas d'ouverture du menus des actions pour les documents dans la version mobile", "Mobile"
-   "[4317]", "Ne pas enlever l'*étiquete* Templates si le document n'es pas/plus dans le dossier *Templates*", "Etiquettes"
 
    
    
