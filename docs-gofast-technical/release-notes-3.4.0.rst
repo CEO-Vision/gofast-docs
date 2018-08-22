@@ -18,7 +18,7 @@ Améliorations fonctionnelles
    "[4329]", "Prise en charge des documents .bmp comme type d'images", "Extensions"
    "[4334]", "Prise en charge des documents .xtlm comme un fichier Excel", "Extensions"
    "[4337]", "Partager par e-mail : envoi d'un e-mail de confirmation de lecture", "Partage par e-mail"
-   "[4350]", "Mobile : Ajout d'un menu des actions GoFAST et le fil d'actualité", "Mobile"
+   "[4350]", "Mobile : Ajout d'un menu d'actions sur GoFAST File Browser et fil d'actualité", "Mobile"
    "[4378]", "Notifier les administrateurs d'Espace d'une *Demande d'ajout*", "Notifications"
 
 Améliorations techniques
