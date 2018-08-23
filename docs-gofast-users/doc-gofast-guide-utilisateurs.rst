@@ -1147,6 +1147,8 @@ Création d’une conférence (Enterprise only)
 -------------------------
 
 .. image:: media-guide/Tag-Enterprise.png
+   :height: 400px
+   :width: 850 px
    :align: right
    :scale: 10%
 
@@ -2238,6 +2240,8 @@ l’icône, vous pouvez voir le nom de l’autre utilisateur.
    :alt: 
 
 .. image:: media-guide/Tag-Enterprise.png
+   :height: 400px
+   :width: 850 px
    :align: right
    :scale: 10%
 
@@ -3666,11 +3670,15 @@ Donnez un titre au mail et écrivez le contenu puis envoyez
 .. figure:: media-guide/image335.png
    :alt: 
 
+.. image:: media-guide/Tag-Enterprise.png
+   :height: 400px
+   :width: 850 px
+   :align: right
+   :scale: 10%
+
 Chat/Messagerie instantanée (Enterprise only)
 ==================================
 
-.. class::
-   Enterprise only
 
 .. NOTE:: Nous parlons ici de la version dans le navigateur du Chat, vous pouvez également recevoir les messages avec votre smartphone (voir Utilisation Avancée)
 
