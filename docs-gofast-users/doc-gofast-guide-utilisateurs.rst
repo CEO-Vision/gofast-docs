@@ -1146,10 +1146,12 @@ si besoin et s’il en est l’administrateur aussi).
 .. image:: media-guide/Tag-Enterprise.png
    :align: right
    :scale: 7%
+   
 
 Création d’une conférence (Enterprise only)
 -------------------------------------------
-
+   
+   
 
 .. CAUTION:: Les technologies de conférence Web sont assez récentes et nécessitent de bonnes ressources (PC, réseau, ...). Assurez-vous de suivre les pré-requis. En cas de problème consulter les problèmes fréquents : http://gofast-docs.readthedocs.io/fr/latest/docs-gofast-users/doc-gofast-problemes-connus.html#webconference
 
@@ -2239,14 +2241,14 @@ l’icône, vous pouvez voir le nom de l’autre utilisateur.
    :alt: 
 
 .. image:: media-guide/Tag-Enterprise.png
-   :height: 400px
-   :width: 850 px
    :align: right
-   :scale: 10%
-
+   :scale: 7%
+   
+   
 Editer/modifier le document avec OnlyOffice (Enterprise only)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
+   
+   
 GoFAST 3 apporte une dimension très innovante et vous permet d’éditer
 des documents Office dans un simple navigateur **avec d’autres personnes
 en simultané**. Vous pouvez ainsi travailler à plusieurs, en même temps,
@@ -3670,14 +3672,14 @@ Donnez un titre au mail et écrivez le contenu puis envoyez
    :alt: 
 
 .. image:: media-guide/Tag-Enterprise.png
-   :height: 400px
-   :width: 850 px
    :align: right
-   :scale: 10%
-
+   :scale: 7%
+   
+   
 Chat/Messagerie instantanée (Enterprise only)
 ==================================
-
+   
+   
 
 .. NOTE:: Nous parlons ici de la version dans le navigateur du Chat, vous pouvez également recevoir les messages avec votre smartphone (voir Utilisation Avancée)
 
@@ -3851,14 +3853,14 @@ verticale.
    :alt: 
 
 .. image:: media-guide/Tag-Enterprise.png
-   :height: 400px
-   :width: 850 px
    :align: right
    :scale: 10%
+   
 
 Workflow / Flux de travail (Enterprise only)
 ==========================
-
+   
+   
 Démarrer un processus de validation : workflow 
 ----------------
 A partir du menu principal (au niveau des accès rapides illustrés ci-dessous), vous pouvez démarrer un processus de validation, et **attribuer une tâche** à un autre utilisateur comme indiqué sur la copie d'écran. 
