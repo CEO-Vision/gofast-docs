@@ -2240,8 +2240,8 @@ l’icône, vous pouvez voir le nom de l’autre utilisateur.
    :alt: 
 
 .. image:: media-guide/Tag-Enterprise.png
-   :height: 400px
-   :width: 850 px
+   :height: 500px
+   :width: 950 px
    :align: right
    :scale: 10%
 
