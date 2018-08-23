@@ -57,6 +57,11 @@ Architecture
 
 .. class::
    Enterprise only
+
+.. figure:: media/Tag-Enterprise.png
+   :scale: 50%
+   :alt: alternate text
+   :align: right
    
 +--------------------------------------+--------------------------------------+
 |GoFAST  Comm-Serveur                                                         |
