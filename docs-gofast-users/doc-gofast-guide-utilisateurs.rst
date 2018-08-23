@@ -3672,7 +3672,6 @@ Donnez un titre au mail et écrivez le contenu puis envoyez
    :scale: 7%
 
 Chat/Messagerie instantanée
-(Enterprise only)
 ==================================
 
 
@@ -4168,7 +4167,3 @@ Annexes : Quelques bonnes pratiques
    tableur.
 -  Je signe électroniquement les PDF avec certificat sécurisé plutôt que
    de les imprimer pour les signer et les re-scanner.
-
-
-
-test
