@@ -3671,7 +3671,8 @@ Donnez un titre au mail et écrivez le contenu puis envoyez
    :align: right
    :scale: 7%
 
-Chat/Messagerie instantanée (Enterprise only)
+Chat/Messagerie instantanée
+(Enterprise only)
 ==================================
 
 
