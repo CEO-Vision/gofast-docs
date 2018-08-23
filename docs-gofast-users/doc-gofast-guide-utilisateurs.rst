@@ -1144,10 +1144,8 @@ utilisateur** qu’il rattachera alors directement à ce groupe (et autres
 si besoin et s’il en est l’administrateur aussi).
 
 .. image:: media-guide/Tag-Enterprise.png
-   :height: 400px
-   :width: 850 px
    :align: right
-   :scale: 10%
+   :scale: 7%
 
 Création d’une conférence (Enterprise only)
 -------------------------------------------
