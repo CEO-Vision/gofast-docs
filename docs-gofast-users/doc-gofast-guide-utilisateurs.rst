@@ -1145,7 +1145,7 @@ si besoin et s’il en est l’administrateur aussi).
 
 .. image:: media-guide/Tag-Enterprise.png
    :align: right
-   :scale: 8%
+   :scale: 7%
    
 
 Création d’une conférence (Enterprise only)
@@ -3854,7 +3854,7 @@ verticale.
 
 .. image:: media-guide/Tag-Enterprise.png
    :align: right
-   :scale: 8%
+   :scale: 7%
    
 
 Workflow / Flux de travail (Enterprise only)
