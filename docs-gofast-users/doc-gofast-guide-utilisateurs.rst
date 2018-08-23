@@ -1146,7 +1146,7 @@ si besoin et s’il en est l’administrateur aussi).
 Création d’une conférence (Enterprise only)
 -------------------------
 
-.. image:: media/Tag-Enterprise.png
+.. image:: media-guide/Tag-Enterprise.png
    :align: right
    :scale: 10%
 
