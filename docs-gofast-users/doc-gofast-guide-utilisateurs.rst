@@ -1148,7 +1148,6 @@ Création d’une conférence (Enterprise only)
 
 .. image:: media-guide/Tag-Enterprise.png
    :height: 400px
-   :width: 850 px
    :align: right
    :scale: 10%
 
