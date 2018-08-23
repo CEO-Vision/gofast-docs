@@ -1146,7 +1146,7 @@ si besoin et s’il en est l’administrateur aussi).
 .. image:: media-guide/Tag-Enterprise.png
    :alt: alternate text 
    :align: right
-   :scale: 6%
+   :scale: 7%
 
 Création d’une conférence (Enterprise only)
 -------------------------------------------
