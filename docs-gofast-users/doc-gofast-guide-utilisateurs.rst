@@ -2237,10 +2237,14 @@ l’icône, vous pouvez voir le nom de l’autre utilisateur.
 .. figure:: media-guide/image162.png
    :alt: 
 
+.. image:: media-guide/Tag-Enterprise.png
+   :align: right
+   :scale: 10%
+
 Editer/modifier le document avec OnlyOffice (Enterprise only)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: media/Tag-Enterprise.png
+.. image:: media-guide/Tag-Enterprise.png
    :align: right
    :scale: 10%
 
