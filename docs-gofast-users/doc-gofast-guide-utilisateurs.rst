@@ -1146,8 +1146,9 @@ si besoin et s’il en est l’administrateur aussi).
 Création d’une conférence (Enterprise only)
 -------------------------
 
-.. class:: 
-   Enterprise only 
+.. image:: media/Tag-Enterprise.png
+   :align: right
+   :scale: 10%
 
 .. CAUTION:: Les technologies de conférence Web sont assez récentes et nécessitent de bonnes ressources (PC, réseau, ...). Assurez-vous de suivre les pré-requis. En cas de problème consulter les problèmes fréquents : http://gofast-docs.readthedocs.io/fr/latest/docs-gofast-users/doc-gofast-problemes-connus.html#webconference
 
