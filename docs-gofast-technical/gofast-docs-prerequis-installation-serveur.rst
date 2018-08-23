@@ -57,7 +57,7 @@ Architecture
 
 .. image:: media/Tag-Enterprise.png
    :align: right
-   :scale: 30%
+   :scale: 10%
    
 +--------------------------------------+--------------------------------------+
 |GoFAST  Comm-Serveur                                                         |
