@@ -1143,9 +1143,11 @@ Chaque administrateur d’espace/groupe peut **créer un nouvel
 utilisateur** qu’il rattachera alors directement à ce groupe (et autres
 si besoin et s’il en est l’administrateur aussi).
 
-.. image:: media-guide/Tag-Enterprise.png
+.. image:: media/Tag-Enterprise.png
+   :height: 400px
+   :width: 850 px
    :align: right
-   :scale: 7%
+   :scale: 10%
 
 Création d’une conférence (Enterprise only)
 -------------------------------------------
@@ -2238,9 +2240,11 @@ l’icône, vous pouvez voir le nom de l’autre utilisateur.
 .. figure:: media-guide/image162.png
    :alt: 
 
-.. image:: media-guide/Tag-Enterprise.png
+.. image:: media/Tag-Enterprise.png
+   :height: 400px
+   :width: 850 px
    :align: right
-   :scale: 7%
+   :scale: 10%
 
 Editer/modifier le document avec OnlyOffice (Enterprise only)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -3667,11 +3671,13 @@ Donnez un titre au mail et écrivez le contenu puis envoyez
 .. figure:: media-guide/image335.png
    :alt: 
 
-.. image:: media-guide/Tag-Enterprise.png
+.. image:: media/Tag-Enterprise.png
+   :height: 400px
+   :width: 850 px
    :align: right
-   :scale: 7%
+   :scale: 10%
 
-Chat/Messagerie instantanée
+Chat/Messagerie instantanée (Enterprise only)
 ==================================
 
 
@@ -3846,9 +3852,11 @@ verticale.
 .. figure:: media-guide/image361.png
    :alt: 
 
-.. image:: media-guide/Tag-Enterprise.png
+.. image:: media/Tag-Enterprise.png
+   :height: 400px
+   :width: 850 px
    :align: right
-   :scale: 7%
+   :scale: 10%
 
 Workflow / Flux de travail (Enterprise only)
 ==========================
