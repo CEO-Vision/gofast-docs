@@ -2244,10 +2244,6 @@ l’icône, vous pouvez voir le nom de l’autre utilisateur.
 Editer/modifier le document avec OnlyOffice (Enterprise only)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: media-guide/Tag-Enterprise.png
-   :align: right
-   :scale: 10%
-
 GoFAST 3 apporte une dimension très innovante et vous permet d’éditer
 des documents Office dans un simple navigateur **avec d’autres personnes
 en simultané**. Vous pouvez ainsi travailler à plusieurs, en même temps,
