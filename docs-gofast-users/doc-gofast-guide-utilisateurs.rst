@@ -3854,7 +3854,7 @@ verticale.
 
 .. image:: media-guide/Tag-Enterprise.png
    :align: right
-   :scale: 10%
+   :scale: 8%
    
 
 Workflow / Flux de travail (Enterprise only)
