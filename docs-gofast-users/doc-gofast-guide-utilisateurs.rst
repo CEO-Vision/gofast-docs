@@ -1144,7 +1144,6 @@ utilisateur** qu’il rattachera alors directement à ce groupe (et autres
 si besoin et s’il en est l’administrateur aussi).
 
 .. image:: media-guide/Tag-Enterprise.png
-   :alt: alternate text 
    :align: right
    :scale: 7%
 
@@ -2240,10 +2239,8 @@ l’icône, vous pouvez voir le nom de l’autre utilisateur.
    :alt: 
 
 .. image:: media-guide/Tag-Enterprise.png
-   :height: 500px
-   :width: 950 px
    :align: right
-   :scale: 10%
+   :scale: 7%
 
 Editer/modifier le document avec OnlyOffice (Enterprise only)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -3671,10 +3668,8 @@ Donnez un titre au mail et écrivez le contenu puis envoyez
    :alt: 
 
 .. image:: media-guide/Tag-Enterprise.png
-   :height: 400px
-   :width: 850 px
    :align: right
-   :scale: 10%
+   :scale: 7%
 
 Chat/Messagerie instantanée (Enterprise only)
 ==================================
@@ -3851,11 +3846,12 @@ verticale.
 .. figure:: media-guide/image361.png
    :alt: 
 
+.. image:: media-guide/Tag-Enterprise.png
+   :align: right
+   :scale: 7%
+
 Workflow / Flux de travail (Enterprise only)
 ==========================
-
-.. class::
-   Enterprise only
 
 Démarrer un processus de validation : workflow 
 ----------------
