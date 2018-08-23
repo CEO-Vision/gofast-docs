@@ -55,7 +55,7 @@ Architecture
 |Workflow                              | Bonitasoft Community 6               |
 +--------------------------------------+--------------------------------------+
 
-.. figure:: media/Tag-Enterprise.png
+.. image:: media/Tag-Enterprise.png
    :scale: 50%
    :align: right
    
