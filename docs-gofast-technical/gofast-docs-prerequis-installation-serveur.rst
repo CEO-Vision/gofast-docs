@@ -56,7 +56,8 @@ Architecture
 +--------------------------------------+--------------------------------------+
 
 .. image:: media/Tag-Enterprise.png
-   :height: 250px
+   :height: 300px
+   :width: 400 px
    :align: right
    :scale: 10%
    
