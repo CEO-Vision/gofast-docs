@@ -11,7 +11,7 @@ Améliorations fonctionnelles
    :widths: 10, 40, 10
    
    "[3673]", "Formules en français dans OnlyOffice", "OnlyOffice"
-   "[3991]", "*Données personnelles* est sélectionnable comme Importance (RGPD)", "Champs"
+   "[3991]", "*Données personnelles* est sélectionnable comme Importance (RGPD)", "Métadonnées"
    "[4252]", "Amélioration graphiques d'ergonomie pour la fonctionnalité *Messages internes*", "Message interne"
    "[4284]", "Message d'accueil GoFAST configurable", "Page d'accueil"
    "[4306]", "Amélioration de l'ergonomie du renommage dans GoFAST File Browser", "GoFAST File Browser"
@@ -74,7 +74,7 @@ Bugs mineurs
    "[4297]", "Modification de traductions non prises en compte dans la version FR", "Traductions"
    "[4307]", "Impossible d'afficher les documents dans le Workflow standard lorsque qu'il contient plusieurs documents", "Workflows"
    "[4316]", "Le bouton *Supprimer fichier* dans la fenêtre apparente de confirmation n'a pas la bonne police", "Pop-up"
-   "[4321]", "Evènement sans date dans le fil d'actualité", "Fil d'actualité"
+   "[4321]", "Evènement sans date dans le fil d'activité", "Fil d'activité"
    "[4341]", "L'explorateur en plein page est mal affiché", "GoFAST File Browser"
    "[4356]", "Le lien vers un document depuis le formulaire Bonita dans un workflow standard n'est plus fonctionnel", "Workflows"
    "[4359]", "Le bloc *Livres* ne s'affiche pas sur la page de l'espace", "Livres"
