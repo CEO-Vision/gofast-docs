@@ -21,7 +21,7 @@ Améliorations fonctionnelles
    "[4350]", "Mobile : Ajout d'un menu d'actions sur GoFAST File Browser et fil d'actualité", "Mobile"
    "[4378]", "Notifier les administrateurs d'Espace d'une *Demande d'ajout*", "Notifications"
    "[4317]", "Possibilité de spécifier un doc comme Template avec étiquette *Template*", "Etiquettes"
-
+   "[3975]", "Augmenter la taille de la zone de commentaire augmente la taille de la popup", "Commentaires"
 
 Améliorations techniques
 **********************
@@ -30,26 +30,42 @@ Améliorations techniques
    :widths: 10, 40, 10
    
    "[1641]", "Synchronisation automatique des comptes GF avec Annuaire AD", "Annuaires" 
-   "[3448]", "Mise à jour de LibreOffice 6.0.4", "Mise à jour"
+   "[3448]", "Mise à jour (majeure) LibreOffice 6.0.4 ", "Mise à jour"
    "[3975]", "Augmenter la taille de la zone de commentaire doit augmenter la taille de la modale", "Commentaires"
-   "[4062]", "Mise à jour OnlyOffice 5.1.5", "Mise à jour"
-   "[4063]", "Mise à jour de PHP 5.6 vers 7.2", "Mise à jour"
+   "[4062]", "Mise à jour (majeure) OnlyOffice 5.1.5", "Mise à jour"
+   "[4063]", "Mise à jour (majeure) de PHP 5.6 vers 7.2", "Mise à jour"
    "[4261]", "Renommage du nom de domaine de dev2 pour un nom standardisé (repo-gofast)", "Industrialisation"
-   "[4309]", "Finaliser l'homogénéisation des notifications", "Notifications"
+   "[4309]", "Homogénéisation des notifications", "Notifications"
    "[4346]", "Auto-démarrage des services de GoFAST COMM", "Système"
-   "[4349]", "Rendre le formulaire d'administration GoFAST asynchrone", "Administration"
+   "[4349]", "Formulaire d'administration GoFAST asynchrone", "Administration"
    "[4371]", "Mise à jour de Memcache v7.x-1.6", "Mise à jour"
    "[4372]", "Mise à jour du module UUID", "Mise à jour"
-   "[3975]", "Augmenter la taille de la zone de commentaire doit augmenter la taille de la popup", "Commentaires"
 
-
+HOTFIX (Enterprise)
+**********************
+.. csv-table::  
+   :header: "Ref.", "Description", "Catégorie"
+   :widths: 10, 40, 10
+   
+   "[4325]", "Impossible de renommer un document", "GoFAST File Browser" 
+   "[4339]", "Problèmes d'actions contextuelles et multi-emplacement", "GoFAST File Browser"
+   
+Bugs majeurs
+**********************
+.. csv-table::  
+   :header: "Ref.", "Description", "Catégorie"
+   :widths: 10, 40, 10
+   
+   "[3897]", "Perte des tables de matières lors édition sous OnlyOffice", "OnlyOffice"
+   "[4109]", "[MacOS] Impossible de co-éditer avec OnlyOffice", "OnlyOffice"
+   "[4268]", "Impossible de créer un commentaire dans la version mobile", "Mobile"
+   
 Bugs mineurs
 **********************
 .. csv-table::  
    :header: "Ref.", "Description", "Catégorie"
    :widths: 10, 40, 10
    
-   "[4109]", "[MacOS] Impossible de co-éditer avec OnlyOffice", "OnlyOffice"
    "[4173]", "Sur certaines fenêtres apparentes, l'action d'ajouter des *Etiquettes* fait disparaître le bouton VALIDER", "Pop-up"
    "[4222]", "Pas de possibilité de modifier la taille des colonnes dans GoFAST File Browser", "GoFAST File Browser"
    "[4245]", "Impossible d'afficher une nouvelle compétence dans son profil utilisateur", "Profil"
@@ -66,24 +82,8 @@ Bugs mineurs
    "[4384]", "Les réunions supprimées ne sont plus annulées dans l'agenda", "Réunions"
    
    
-Bugs majeurs
-**********************
-.. csv-table::  
-   :header: "Ref.", "Description", "Catégorie"
-   :widths: 10, 40, 10
-   
-   "[3897]", "Perte des tables de matières lors édition sous OnlyOffice", "OnlyOffice"
-   "[4268]", "Impossible de créer un commentaire dans la version mobile", "Mobile"
 
    
    
-HOTFIX
-**********************
-.. csv-table::  
-   :header: "Ref.", "Description", "Catégorie"
-   :widths: 10, 40, 10
-   
-   "[4325]", "Impossible de renommer un document", "GoFAST File Browser" 
-   "[4339]", "Problèmes d'actions contextuelles et multi-emplacement", "GoFAST File Browser"
-   
+
    
