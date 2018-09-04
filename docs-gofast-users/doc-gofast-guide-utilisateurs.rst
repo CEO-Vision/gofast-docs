@@ -93,7 +93,7 @@ Pré-requis nécessaires pour l’utilisation de GoFAST
 
 -  Bureautique : MS-Office 2010 (>14.0.7190.5000) et supérieur+, LibreOffice 5+, WPS (sans support)
 
--  Messagerie : Outlook 2010+, Thunderbird 52+
+-  Messagerie : Outlook 2010+, Thunderbird 52+ 
 
 -  Une connexion relativement bonne est nécessaire : téléchargement de
    512 kbits/s min. et 256kbps upload . Vous pouvez d'ailleurs tester
