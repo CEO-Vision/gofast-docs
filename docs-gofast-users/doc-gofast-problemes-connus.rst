@@ -89,6 +89,17 @@ Dans le cas de ``"Windows ne peut accéder à ..."``, vérifier que le service `
 
 Le détail de l'erreur 0x80070035 : ``"Le chemin réseau n'a pas été trouvé"``
 
+Message "La taille du fichier dépasse la limite autorisée ..." (0x800700DF)
+-----------------------
+
+Si le fichier copié dépasse les 50MB, Microsoft affiche un message d'erreur de type "Erreur 0x800700DF : La taille du fichier dépasse la limite autorisée et ne peut pas être enregistrée.".
+
+Afin d'éviter ce message :
+
+- demander une modification de la base de registre tel que proposé par Microsoft : https://support.microsoft.com/fr-fr/help/900900/folder-copy-error-message-when-downloading-a-file-that-is-larger-than
+- utiliser GoFAST File Browser
+- utiliser un explorateur de fichier autre que celui de Microsoft (ex. CyberDuck)
+
 Impossible d'éditer en ligne des contenus PDF avec Acrobat Reader (v18)
 ===========================
 Il faut vérifier que l'application Acrobat Reader soit déjà fermée avant le lancer l'édition en ligne. Ce problème n'existe pas avec FoxitReader
