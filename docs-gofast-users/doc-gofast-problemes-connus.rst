@@ -94,7 +94,7 @@ Message "La taille du fichier dépasse la limite autorisée ..." (0x800700DF)
 
 Si le fichier copié dépasse les 50MB, Microsoft affiche un message d'erreur de type "Erreur 0x800700DF : La taille du fichier dépasse la limite autorisée et ne peut pas être enregistrée.".
 
-Afin d'éviter ce message :
+Afin d'éviter ce message:
 
 - demander une modification de la base de registre tel que proposé par Microsoft : https://support.microsoft.com/fr-fr/help/900900/folder-copy-error-message-when-downloading-a-file-that-is-larger-than
 - utiliser GoFAST File Browser
