@@ -75,6 +75,8 @@ Cocher : "Autoriser les emplacements approuvés sur mon réseau" puis "Ajouter u
 
 Problème Explorateur de fichiers Microsoft
 ===================
+.. INFO:: L'explorateur de fichiers Microsoft fonctionne plus ou moins bien suivant les versions de Windows. Si vous rencontrez des problèmes persistants nous vous conseillons d'installer un logiciel tier comme Cyberduck https://cyberduck.io
+
 Message "Impossible d'enregistrer le fichier car sa taille dépasse la taille autorisée"
 -----------------------
 Le message Windows provient d'une limitation imposée par le système Windows, qui empêche le transfert de gros fichiers par Webdav.
