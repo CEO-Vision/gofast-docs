@@ -75,7 +75,7 @@ Cocher : "Autoriser les emplacements approuvés sur mon réseau" puis "Ajouter u
 
 Problème Explorateur de fichiers Microsoft
 ===================
-.. NOTE:: L'explorateur de fichiers Microsoft fonctionne plus ou moins bien suivant les versions de Windows. Si vous rencontrez des problèmes persistants nous vous conseillons d'installer un logiciel tier comme Cyberduck https://cyberduck.io
+.. NOTE:: L'explorateur de fichiers Microsoft fonctionne plus ou moins bien suivant les versions de Windows. Si vous rencontrez des problèmes persistants nous vous conseillons d'installer un logiciel tier comme Cyberduck https://cyberduck.io . Néanmoins il n'est pas possible dans ce cas des applications Windows de faire 'Ouvrir à partir' ou 'Sauvegarder sous' et spécifiant la GoFAST.
 
 Message "Impossible d'enregistrer le fichier car sa taille dépasse la taille autorisée"
 -----------------------
