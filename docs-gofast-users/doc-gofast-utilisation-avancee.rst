@@ -79,7 +79,8 @@ Utilisation
 ^^^^^^^^^^^
 Lorsque l'ordinateur est connecté au réseau, CMISSync vérifie
 périodiquement si des documents ont été changés sur la plateforme
-GoFAST. Si oui ces documents sont copiés localement.
+GoFAST. Si les documents ont été modifiés, ils sont copiés localement (sur le PC).
+
 
 .. NOTE:: si vous faites des modifications en mode
           déconnecté (offline), lors de la reconnexion sur le serveur GoFAST,
