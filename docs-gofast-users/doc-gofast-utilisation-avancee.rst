@@ -124,7 +124,7 @@ c) Fusionner les 2 versions dans **courrier.doc**, puis effacer
 .. Danger:: si vous effacez un répertoire en local dans
             l'arborescence synchronisée, les répertoires distants seront supprimés.
             Par mesure de précaution, il est préférable d'éviter de supprimer un
-            répertoire en local dans l'arborescence synchronisée
+            répertoire en local dans l'arborescence synchronisée.
             GoFAST ne supprime pas définitivement les documents mais une
             procédure de « republication » doit être faite
 
