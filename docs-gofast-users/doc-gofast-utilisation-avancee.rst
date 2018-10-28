@@ -224,7 +224,7 @@ directement sur la plateforme GoFAST.
 
 .. NOTE:: Vous devez avoir installé "ITHitEditDocumentOpener"
 
-Vous pouvez alors choisir dans le menu 'Editer en ligne'. Ceci ouvrira le client installé sur votre poste (Acrobat Reader, Foxit, ...). Vous pouvez alors signer avec une signature manuscrite ou un certificat électronique puis sauvegarder directement sur GoFAST avec versionning.
+Vous pouvez alors choisir dans le menu 'Editer en ligne'. Ceci ouvrira l'application installée sur votre poste (Acrobat Reader, Foxit, ...). Vous pouvez alors signer avec une signature manuscrite ou un certificat électronique puis sauvegarder directement sur GoFAST avec versionning.
 
 |image17|
 
