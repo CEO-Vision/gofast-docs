@@ -8,9 +8,9 @@ logiciels tiers fonctionnant avec la plate-forme GoFAST.
 
 Ces outils complémentaires permettent :
 
-* Des outils complémentaires en mobilité
+* Travailler en mobilité
 
- * Une synchronisation de GoFAST avec un PC pour travailler en mode « déconnecté » (type DropBox)
+ * Travailler sans réseau (en mode « déconnecté » type DropBox)
  * L'accès à GoFAST sur les terminaux mobiles (tablettes,…) par explorateur de fichiers
  * La visualisation et/ou l'édition en ligne de documents Office sur tablette 
  * La messagerie instantanée (« chat ») sur mobile
@@ -26,9 +26,9 @@ Synchronisation locale (GoFAST hors-ligne)
 CMISSync est un outil puissant et fiable qui permet une synchronisation
 sur un PC d'un ou plusieurs espaces collaboratifs de la GoFAST.
 
-Si vous n'avez plus de réseau ou si vous êtes en déplacement, les
+Si vous n'avez plus de réseau (par exemple dans l'avion), les
 fichiers de la GoFAST sont accessibles sur le disque dur de votre
-ordinateur.
+ordinateur et vous pouvez quand même travailler avec.
 
 Si vous les modifiez ils seront directement synchronisés une fois le
 réseau disponible.
