@@ -160,7 +160,7 @@ Pour ce type de tablette nous recommandons d'utiliser la suite Office «
 Vous pourrez configurer un espace de stockage directement sur la GoFAST
 par « Ouvrir/Ajouter un stockage en nuage » puis choisir « Webdav » et
 entrer l'adresse « https://gofast.mycomp.com/alfresco/webdav » ou vous
-devez remplacer mycomp.com par l'adresse de votre organisation.
+devez remplacer mycomp.com par le domaine de votre organisation.
 
 |image14|
 
@@ -200,7 +200,7 @@ Messagerie instantanée (« chat ») sur mobiles
 ---------------------------------------------
 |image6|
 
-Avec GoFAST vous avez une messagerie instantanée privée, équivalent de «
+Avec GoFAST vous avez une messagerie instantanée privée et sécurisée, équivalent de «
 WhatsApp » pour votre Organisation, fonctionnant sur le standard ouvert
 XMPP.
 
