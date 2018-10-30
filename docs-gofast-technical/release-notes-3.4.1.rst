@@ -34,7 +34,7 @@ Améliorations techniques
    :header: "Ref.", "Description", "Catégorie"
    :widths: 10, 40, 10
    
-   "[4370]", "Le format "rtf" n'est pas identifié comme format "text"."
+   "[4370]", "Le format 'rtf' n'est pas identifié comme format 'text'."
    "[4420]", "Mise à jour WebDAV Ajax Library 5.7.3252.0"
    "[4468]", "Optimiser le temps de réponse du fil d'activité"
 
