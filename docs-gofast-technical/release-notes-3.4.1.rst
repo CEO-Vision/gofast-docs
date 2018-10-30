@@ -18,13 +18,13 @@ Améliorations fonctionnelles
    "[4456]", "Amélioration de la création de la traduction d'un document"
    "[4473]", "Message indiquant une "Prévisualisation en cours""
    "[4474]", "Menu déroulant pour : Documentation - Forum - A propos de - Swap version mobile"
-   "[4481]", "Renommer la fonction "Conférence" en "Réunion""
-   "[4498]", "Amélioration de l'ergonomie "Calendrier mobile""
+   "[4481]", "Renommer la fonction 'Conférence' en 'Réunion'"
+   "[4498]", "Amélioration de l'ergonomie 'Calendrier mobile'"
    "[4501]", "Améliorer la gestion des actions dans l'explorateur de fichiers sur tablette"
    "[4502]", "Fil d'ariane sur les documents (version mobile)"
    "[4531]", "Affichage des réunions sous format texte simple pour les appareils ne pouvant pas décoder le HTML"
    "[4577]", "Thème spécifique pour les notifications"
-   "[4585]", "L'action "Supprimer" a été ajoutée (version mobile)"
+   "[4585]", "L'action 'Supprimer' a été ajoutée (version mobile)"
 
 
 
@@ -34,7 +34,7 @@ Améliorations techniques
    :header: "Ref.", "Description", "Catégorie"
    :widths: 10, 40, 10
    
-   "[4370]", "Le format 'rtf' n'est pas identifié comme format 'text'."
+   "[4370]", "Le format 'rtf' n'est pas identifié comme format 'text'"
    "[4420]", "Mise à jour WebDAV Ajax Library 5.7.3252.0"
    "[4468]", "Optimiser le temps de réponse du fil d'activité"
 
