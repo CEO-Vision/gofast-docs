@@ -40,7 +40,7 @@ Améliorations techniques
 
    
    
-   Sécurité
+Sécurité
 **********************
 .. csv-table::  
    :header: "Ref.", "Description", "Catégorie"
