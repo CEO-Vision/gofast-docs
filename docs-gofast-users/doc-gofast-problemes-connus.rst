@@ -13,14 +13,14 @@ Dans le cas où le problème concerne une application de la suite MS-Office il e
 
 .. figure:: media-guide/trouver-version-excel.png
 
-Message "Impossible de se connecter à : ....  Merci de vérifier que l'adresse web que vous utilisez en correcte" 
+Message "Impossible de se connecter à : ....  Merci de vérifier que l'adresse web que vous utilisez est correcte" 
 ------------------------
 MS- Office ne gère pas les chemins de plus de 240 caractères. Veuillez par exemple 
 
 - réduire le nom du fichier
 - ou utiliser LibreOffice ou OnlyOffice
 
-Message "Échec du téléchargement" : Impossible d'enregistrer sous Microsoft Office suite à une édition en ligne 
+Message "Échec du téléchargement" : Impossible d'enregistrer sous Microsoft Office le fichier suite à une édition en ligne 
 ------------------------
 
 Lors d'une édition en ligne d'un fichier Office, il peut arriver qu'au moment de l'enregistrement, un message indique que le fichier est en lecture seule et ne peut pas être enregistré. 
@@ -62,7 +62,7 @@ Une fois que les fichiers bloqués ont été supprimés :
 Message "Attention aux fichiers provenant d’un emplacement Internet"
 --------------------------------------------------------------------
 
-Si Office est configuré en "Mode protégé" lors de l'édition en ligne un message "Attention aux fichiers provenant d’un emplacement Internet, car ils peuvent contenir des virus". 
+Si Office est configuré en "Mode protégé" lors de l'édition en ligne un message s'affichera "Attention aux fichiers provenant d’un emplacement Internet, car ils peuvent contenir des virus". 
 
 Pour éviter ce message : Fichier / Option / Centre de gestion de la confidentialité / Paramétre du Centre de gestion de la confidentialité / Emplacements approuvés 
 
