@@ -106,7 +106,8 @@ automatiquement)
 de UserB de **courrier.doc** sur le serveur GoFAST, mais constate que le
 fichier a déjà été modifié par UserA
 
-5) Sur le PC de UserB, CmisSync renomme la version de UserB **courrier.doc** en courrier.doc\_UserB-version et télécharge **courrier.doc** de UserA sur le PC
+5) Sur le PC de UserB, CmisSync renomme la version de UserB **courrier.doc** 
+en courrier.doc\_UserB-version et télécharge **courrier.doc** de UserA sur le PC
 
 6) UserB a maintenant 2 versions, et doit faire une des 3 actions:
 
