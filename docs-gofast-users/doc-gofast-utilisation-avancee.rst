@@ -94,20 +94,15 @@ Exemple de notification (version anglaise)
 
 1) UserA et UserB ont le fichier **courrier.doc** synchronisé sur leur
 poste
-
 2) UserA et UserB se déconnectent (offline), et chacun édite
 **courrier.doc** en local
-
 3) UserA redevient connecté (online). CmisSync télécharge la version de
 UserA de **courrier.doc** sur le serveur GoFAST (qui versionne
 automatiquement).
-
 4) UserB redevient connecté. CmisSync essaie de télécharger la version
 de UserB de **courrier.doc** sur le serveur GoFAST, mais constate que le
 fichier a déjà été modifié par UserA.
-
 5) Sur le PC de UserB, CmisSync renomme la version de UserB **courrier.doc** en courrier.doc\_UserB-version et télécharge **courrier.doc** de UserA sur le PC
-
 6) UserB a maintenant 2 versions, et doit faire une des 3 actions:
 
 a. Garder la version de UserA : Effacer **courrier.doc\_UserB-version**
