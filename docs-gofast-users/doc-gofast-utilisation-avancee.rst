@@ -112,13 +112,13 @@ fichier a déjà été modifié par UserA.
 
 6) UserB a maintenant 2 versions, et doit faire une des 3 actions:
 
-a) Garder la version de UserA : Effacer **courrier.doc\_UserB-version**
+a. Garder la version de UserA : Effacer **courrier.doc\_UserB-version**
 
-b) Garder la version de UserB : Effacer **courrier.doc** (UserA) et
+b. Garder la version de UserB : Effacer **courrier.doc** (UserA) et
 retirer le suffix de **courrier.doc\_UserB-version** è dans ce cas la
 version de B va être écrasée sur le serveur GoFAST après versionnage
 
-c) Fusionner les 2 versions dans **courrier.doc**, puis effacer
+c. Fusionner les 2 versions dans **courrier.doc**, puis effacer
 **courrier.doc\_UserB-version**
 
 .. Danger:: si vous effacez un répertoire en local dans
@@ -154,8 +154,8 @@ http://seanashton.net/webdav/
 ---------------------------------------
 Tablette Android
 ^^^^^^^^^^^^^^^^
-Pour ce type de tablette nous recommandons d'utiliser la suite Office «
-**WPS Office** » disponible sur GooglePlay.
+Pour ce type de tablette nous recommandons d'utiliser la suite Office
+« **WPS Office** » disponible sur GooglePlay.
 
 Vous pourrez configurer un espace de stockage directement sur la GoFAST
 par « Ouvrir/Ajouter un stockage en nuage » puis choisir « Webdav » et
