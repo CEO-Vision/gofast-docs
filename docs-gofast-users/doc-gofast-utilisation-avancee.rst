@@ -111,6 +111,7 @@ en courrier.doc\_UserB-version et télécharge **courrier.doc** de UserA sur le 
 
 6) UserB a maintenant 2 versions, et doit faire une des 3 actions:
 
+
 a. Garder la version de UserA : Effacer **courrier.doc\_UserB-version**
 
 b. Garder la version de UserB : Effacer **courrier.doc** (UserA) et
