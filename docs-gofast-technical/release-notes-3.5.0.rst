@@ -71,7 +71,7 @@ Bugs majeurs
    :header: "Ref.", "Description", "Catégorie"
    :widths: 10, 40, 10
    
-   "[3722]", "[OnlyOffice] Les paramètres d'un document Classeur Onlyoffice ne sont pas sauvegardés (orientation, marges...)"
+   "[3722]", "[OnlyOffice] Les paramètres d'un document Classeur OnlyOffice ne sont pas sauvegardés (orientation, marges...)"
    "[4035]", "Nombreux correctifs formulaires/webform"
    "[4304]", "[ONLYOFFICE] Affichage d’un message d’avertissement indiquant la perte de réseau"
    "[4313]", "Problèmes de création d'espace quand caractère ‘+' dans le nom"
