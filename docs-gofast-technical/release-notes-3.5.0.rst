@@ -25,8 +25,8 @@ Améliorations fonctionnelles
    
    "[3795]", "Formulaire 'Création Document' permettant de détecter la langue du contenu" 
    "[4239]", "Ajout d’un menu 'Navigation Générale' (si tableau de bord présent)"
-   "[4273]", "[MOBILE] Améliorations diverses (ajout catégorie, action renommer, nouveau menu...)"
-   "[4500]", "[MOBILE] : Améliorations de l’ergonomie des filtres de recherche"
+   "[4273]", "[VERSION MOBILE] Améliorations diverses (ajout catégorie, action renommer, nouveau menu...)"
+   "[4500]", "[VERSION MOBILE] : Améliorations de l’ergonomie des filtres de recherche"
    "[4533]", "Amélioration de l'affichage des emplacements dans le fil d'activité"
    "[4563]", "Pré-cocher l'emplacement du document de travail lors de la création de sa publication"
    "[4564]", "Afficher un message d'erreur cohérent quand le document est supprimé"
@@ -85,7 +85,7 @@ Bugs majeurs
    :header: "Ref.", "Description", "Catégorie"
    :widths: 10, 40, 10
    
-   "[3722]", "[OnlyOffice] Les paramètres d'un document Classeur OnlyOffice ne sont pas sauvegardés (orientation, marges...)"
+   "[3722]", "[ONLYOFFICE] Les paramètres d'un document Classeur OnlyOffice ne sont pas sauvegardés (orientation, marges...)"
    "[4035]", "Nombreux correctifs formulaires/webform"
    "[4304]", "[ONLYOFFICE] Affichage d’un message d’avertissement indiquant la perte de réseau"
    "[4313]", "Problèmes de création d'espace quand caractère ‘+' dans le nom"
@@ -105,9 +105,9 @@ Bugs majeurs
    "[4633]", "GFB : Télécharger la version Windows d'ITHitDocument pour MacOS ou Linux"
    "[4652]", "Scrollbar invisible dans l'arborescence (ztree) de GFB et auto scroll vers la droite"
    "[4657]", "Erreur de navigation depuis le fil d'ariane quand '&' dans chemin"
-   "[4660]", "[BLOCKER][MOBILE] Annotations affichées de façon aléatoire"
-   "[4661]", "[BLOCKER][MOBILE] Le bouton 'Annoter' est mal positionné et le bouton et pop-up sont traduits"
-   "[4664]", "[BLOCKER][MOBILE] Impossible de séléctionner correctement le texte souhaité pour annoter"
+   "[4660]", "[BLOCKER][VERSION MOBILE] Annotations affichées de façon aléatoire"
+   "[4661]", "[BLOCKER][VERSION MOBILE] Le bouton 'Annoter' est mal positionné et le bouton et pop-up sont traduits"
+   "[4664]", "[BLOCKER][VERSION MOBILE] Impossible de séléctionner correctement le texte souhaité pour annoter"
    "[4673]", "[BLOCKER] Les participants GoFAST d'une réunion ne recoivent pas l'annulation lors de sa suppression"
    "[4683]", "Problème de sauvegarde de la position ouvert/fermé de l'explorateur de gauche"
  
@@ -121,7 +121,7 @@ Bugs mineurs
    
    "[2968]", "Erreur sous Office quand on renomme puis édite un fichier en ligne"
    "[4352]", "Plusieurs correctifs fonction 'Relation'"
-   "[4566]", "[iPpad] Le détail des événements agenda est manquant sur la version mobile + besoin d’agrandir la police des liens"
+   "[4566]", "[IPAD] Le détail des événements agenda est manquant sur la version mobile + besoin d’agrandir la police des liens"
    "[4644]", "Envoi d'un message généraliste à la création d'un user par le client"
    "[4656]", "La loupe de la recherche se décale"
    "[4692]", "Apparition de multiples étiquettes lors de l'ajout d'une seule"
