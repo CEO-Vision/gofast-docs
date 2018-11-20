@@ -76,7 +76,7 @@ Bugs majeurs
    "[4304]", "[ONLYOFFICE] Affichage d’un message d’avertissement indiquant la perte de réseau"
    "[4313]", "Problèmes de création d'espace quand caractère ‘+' dans le nom"
    "[4323]", "La pop-up multi-emplacement ne se ferme pas"
-   "[4340]", "La hauteur de la zone 'commentaire' n’est pas optimale et editeur riche mal positionné
+   "[4340]", "La hauteur de la zone 'commentaire' n’est pas optimale et editeur riche mal positionné"
    "[4477]", "Des templates de documents vierges manquant lors de l'installation + image par defaut"
    "[4492]", "[BLOCKER] La popularité (scoring) ne change pas lorsqu’un document est sauvegardé"
    "[4509]", "GFBrowser mobile passe au dessus du contenu dans certaines résolutions"
@@ -91,7 +91,7 @@ Bugs majeurs
    "[4633]", "GFB : Télécharger la version Windows d'ITHitDocument pour MacOS ou Linux"
    "[4652]", "Scrollbar invisible dans l'arborescence (ztree) de GFB et auto scroll vers la droite"
    "[4657]", "Erreur de navigation depuis le fil d'ariane quand '&' dans chemin"
-   "[4660]", "[BLOCKER][MOBILE] : Annotations affichées de façon aléatoire"
+   "[4660]", "[BLOCKER][MOBILE] Annotations affichées de façon aléatoire"
    "[4661]", "[BLOCKER][MOBILE] Le bouton 'Annoter' est mal positionné et le bouton et pop-up sont traduits"
    "[4664]", "[BLOCKER][MOBILE] Impossible de séléctionner correctement le texte souhaité pour annoter"
    "[4673]", "[BLOCKER] Les participants GoFAST d'une réunion ne recoivent pas l'annulation lors de sa suppression"
