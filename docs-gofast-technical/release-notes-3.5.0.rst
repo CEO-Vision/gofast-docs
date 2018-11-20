@@ -72,7 +72,6 @@ HOTFIX
    :widths: 10, 40, 10
    
    "[3192]", "Certaines notifications workflow ne sont pas envoyées"
-   "[4520]", "Erreur lors de l'export des documents depuis les statistiques"
    "[4587]", "[VERSION MOBILE] Faire une annotation n'affiche pas le commentaire sans avoir à rafraichir la page"
    "[4620]", "Il y a une erreur de transaction Alfresco quand erreur d'envoi de mail dans script de réplication"
    "[4643]", "La hauteur de de la fenêtre de prévisualisation doit être fixe"
