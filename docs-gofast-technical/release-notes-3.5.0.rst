@@ -62,6 +62,20 @@ Sécurité
    :widths: 10, 40, 10
    
    "[4636]", "MAJ Drupal 7.60 (sa-core-2018-006)"
+   
+
+
+HOTFIX
+**********************
+.. csv-table::  
+   :header: "Ref.", "Description", "Catégorie"
+   :widths: 10, 40, 10
+   
+   "[3192]", "Certaines notifications workflow ne sont pas envoyées"
+   "[4520]", "Erreur lors de l'export des documents depuis les statistiques"
+   "[4587]", "[VERSION MOBILE] Faire une annotation n'affiche pas le commentaire sans avoir à rafraichir la page"
+   "[4620]", "Il y a une erreur de transaction Alfresco quand erreur d'envoi de mail dans script de réplication"
+   "[4643]", "La hauteur de de la fenêtre de prévisualisation doit être fixe"
 
 
 
@@ -84,7 +98,7 @@ Bugs majeurs
    "[4538]", "Mauvaise action listée dans le fil d'activité suite à la modification de l’importance"
    "[4552]", "Le formulaire de configuration de la DUA est vide"
    "[4571]", "Erreur lors d'archivage d'un type autre que 'Groupes'"
-   "[4576]", "La page d'arrivée suite au clic sur "Lien vers cet emplacement" affiche le bloc de chargement de document"
+   "[4576]", "La page d'arrivée suite au clic sur 'Lien vers cet emplacement' affiche le bloc de chargement de document"
    "[4601]", "Amélioration des performances du fil d'activité"
    "[4627]", "Recherche : la chaîne exacte ('xxxx')  n'est pas prise en compte"
    "[4629]", "Impossible de créer un 'article' à la racine de son espace privé"
