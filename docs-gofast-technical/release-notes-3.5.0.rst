@@ -94,7 +94,7 @@ Bugs majeurs
    "[4660]", "[BLOCKER][MOBILE] : Annotations affichées de façon aléatoire"
    "[4661]", "[BLOCKER][MOBILE] Le bouton 'Annoter' est mal positionné et le bouton et pop-up sont traduits"
    "[4664]", "[BLOCKER][MOBILE] Impossible de séléctionner correctement le texte souhaité pour annoter"
-   "[4673], "[BLOCKER] Les participants GoFAST d'une réunion ne recoivent pas l'annulation lors de sa suppression"
+   "[4673]", "[BLOCKER] Les participants GoFAST d'une réunion ne recoivent pas l'annulation lors de sa suppression"
    "[4683]", "Problème de sauvegarde de la position ouvert/fermé de l'explorateur de gauche"
  
 
