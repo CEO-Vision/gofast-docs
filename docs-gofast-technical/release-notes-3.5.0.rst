@@ -3,6 +3,20 @@ GoFAST :  Version 3.5.0
 ********************************************
 
 
+Nouvelles fonctionnalités
+**********************
+.. csv-table::  
+   :header: "Ref.", "Description", "Catégorie"
+   :widths: 10, 40, 10
+   
+   "[2067]", "Cloisonnements des utilisateurs + visibilité des espaces (hors Chat)"
+   "[3772]", "Offre GoFAST Community"
+   "[4529]", "Plugin OnlyOffice pour enregistrer le document dans GoFAST sans fermer l’onglet"
+   "[4598]", "Annotations et commentaires partagés ou privés"
+   "[4608]", "Nouvelle supervision (serveurs / process) sous Zabbix"
+   
+   
+   
 Améliorations fonctionnelles
 **********************
 .. csv-table::  
@@ -40,7 +54,6 @@ Améliorations techniques
    "[4635]", "Augmenter la limitation de caractères dans le nom de la plateforme"
 
 
-
    
 Sécurité
 **********************
@@ -51,15 +64,51 @@ Sécurité
    "[4636]", "MAJ Drupal 7.60 (sa-core-2018-006)"
 
 
-   
-New Features
+
+Bugs majeurs
 **********************
 .. csv-table::  
    :header: "Ref.", "Description", "Catégorie"
    :widths: 10, 40, 10
    
-   "[2067]", "Cloisonnements des utilisateurs + visibilité des espaces (hors Chat)"
-   "[3772]", "Offre GoFAST Community"
-   "[4529]", "Plugin OnlyOffice pour enregistrer le document dans GoFAST sans fermer l’onglet"
-   "[4598]", "Annotations et commentaires partagés ou privés"
-   "[4608]", "Nouvelle supervision (serveurs / process) sous Zabbix"
+   "[3722]", "[OnlyOffice] Les paramètres d'un document Classeur Onlyoffice ne sont pas sauvegardés (orientation, marges...)"
+   "[4035]", "Nombreux correctifs formulaires/webform"
+   "[4304]", "[ONLYOFFICE] Affichage d’un message d’avertissement indiquant la perte de réseau"
+   "[4313]", "Problèmes de création d'espace quand caractère ‘+' dans le nom"
+   "[4323]", "La pop-up multi-emplacement ne se ferme pas"
+   "[4340]", "La hauteur de la zone 'commentaire' n’est pas optimale et editeur riche mal positionné
+   "[4477]", "Des templates de documents vierges manquant lors de l'installation + image par defaut"
+   "[4492]", "[BLOCKER] La popularité (scoring) ne change pas lorsqu’un document est sauvegardé"
+   "[4509]", "GFBrowser mobile passe au dessus du contenu dans certaines résolutions"
+   "[4521]", "Supprimer une publication depuis GFBrowser redirige vers la page d'accueil"
+   "[4538]", "Mauvaise action listée dans le fil d'activité suite à la modification de l’importance"
+   "[4552]", "Le formulaire de configuration de la DUA est vide"
+   "[4571]", "Erreur lors d'archivage d'un type autre que 'Groupes'"
+   "[4576]", "La page d'arrivée suite au clic sur "Lien vers cet emplacement" affiche le bloc de chargement de document"
+   "[4601]", "Amélioration des performances du fil d'activité"
+   "[4627]", "Recherche : la chaîne exacte ('xxxx')  n'est pas prise en compte"
+   "[4629]", "Impossible de créer un 'article' à la racine de son espace privé"
+   "[4633]", "GFB : Télécharger la version Windows d'ITHitDocument pour MacOS ou Linux"
+   "[4652]", "Scrollbar invisible dans l'arborescence (ztree) de GFB et auto scroll vers la droite"
+   "[4657]", "Erreur de navigation depuis le fil d'ariane quand '&' dans chemin"
+   "[4660]", "[BLOCKER][MOBILE] : Annotations affichées de façon aléatoire"
+   "[4661]", "[BLOCKER][MOBILE] Le bouton 'Annoter' est mal positionné et le bouton et pop-up sont traduits"
+   "[4664]", "[BLOCKER][MOBILE] Impossible de séléctionner correctement le texte souhaité pour annoter"
+   "[4673], "[BLOCKER] Les participants GoFAST d'une réunion ne recoivent pas l'annulation lors de sa suppression"
+   "[4683]", "Problème de sauvegarde de la position ouvert/fermé de l'explorateur de gauche"
+ 
+
+
+Bugs mineurs
+**********************
+.. csv-table::  
+   :header: "Ref.", "Description", "Catégorie"
+   :widths: 10, 40, 10
+   
+   "[2968]", "Erreur sous Office quand on renomme puis édite un fichier en ligne"
+   "[4352]", "Plusieurs correctifs fonction 'Relation'"
+   "[4566]", "[iPpad] Le détail des événements agenda est manquant sur la version mobile + besoin d’agrandir la police des liens"
+   "[4644]", "Envoi d'un message généraliste à la création d'un user par le client"
+   "[4656]", "La loupe de la recherche se décale"
+   "[4692]", "Apparition de multiples étiquettes lors de l'ajout d'une seule"
+   "[4693]", "Problème lors de l'auto-complétion"
