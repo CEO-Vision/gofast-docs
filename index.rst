@@ -19,6 +19,7 @@ Documentation GoFAST
 
    docs-gofast-users/doc-gofast-guide-utilisateurs
    docs-gofast-users/doc-gofast-utilisation-avancee
+   docs-gofast-administration-plateforme
 
 .. _release-docs:
 
