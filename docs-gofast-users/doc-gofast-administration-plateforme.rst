@@ -13,30 +13,6 @@ Cette partie de la documentation est destinée aux utilisateurs disposant du rô
 
    
 
-Configuration Générale
-======================
-
-En cours
-
-
-Configuration Serveur SMTP 
-==========================
-
-En cours
-
-
-Configuration Flux RSS 
-======================
-
-En cours
-
-
-Couplage avec le serveur LDAP / AD
-==================================
-
-En cours
-
-
 Configuration de la visibilité des Utilisateurs et Espaces
 ==========================================================
 
@@ -75,21 +51,5 @@ Ce cloisonnement permet d'éviter que les utilisateurs ne puissent consulter les
 Pour les utilisateurs rôle Extranet, cela permet d'éviter que des partenaires et prestataires ne puissent consulter l'arborescence des Espaces internes (ex : Organisations et Groupes), ainsi que les Espaces déstinés à d'autres partenaires ou prestataires. C'est important dans le cas où il y a des Espaces Extranets dédiés à des concurrents. 
 
 
-Configuration de la Recherche
-=============================
-
-En cours
-
-
-Configuration des Catégories des Documents
-==========================================
-
-En cours
-
-
-Configuration des DUA (Durée d’Utilité Administrative )
-=======================================================
-
-En cours
 
 
