@@ -1884,8 +1884,8 @@ document\ **.(= To Do)**
 .. figure:: media-guide/image132.png
    :alt: 
 
-Commentaires 
-~~~~~~~~~~~~~
+Commenter
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Permet de mettre un **commentaire général** sur le document, qui se
 retrouvera en dessous de la prévisualisation et donc sera visible par
@@ -1894,7 +1894,7 @@ prévisualisation de ce document.
 
 .. figure:: media-guide/image133.png
    :alt: 
-
+   
 Afficher le contenu en pleine page
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -1930,31 +1930,6 @@ que vous en êtes l’auteur ou pas.
 
 .. figure:: media-guide/image137.png
    :alt: 
-
-Annotations partagées ou privées
------------------------------------------------------------
-
-Au moment où on fait une annotation, on a le choix entre "privé" ou "partagé". Attention : par défaut, l'annotation est partagée.
-
-.. figure:: media-guide/Annotation1.png
-   :alt: 
-
-.. figure:: media-guide/Annotation2.png
-   :alt:
-
-L'annotation privée est visible uniquement par l'utilisateur qui l'a rédigée. L'annotation partagée est visible par les utilisateurs ayant accès au document. 
-
-Dans le cas d'une annotation privée, cela génère un commentaire qui est lui aussi privé.
-
-Il est possible de modifier la visibilité de l'annotation en retournant dessus et en décochant "privé". Il en est de même pour le commentaire associé. 
-
-Si jamais l'annotation est "partagée" et qu'on veut changer pour "privée" : l'annotation et le commentaire associé deviennent privés, y compris les éventuelles réponses au commentaire laissées par les autres utilisateur.
-
-Si l'annotation de départ est supprimée, le commentaire associé et les réponses à ce commentaire le sont également. 
-
-.. NOTE:: Le super administrateur a la possibilité de cocher/décocher une case sur le profil d'un utilisateur pour lui interdire/autoriser les annotations partagées. Dans ce cas, l'utilisateur ne pourra faire que des annotations privées. 
-
-.. NOTE:: Il n'y a pas de notification email, ni dans le fil d'activité pour les annotations privées. 
 
    
 Renommer un document
@@ -2045,104 +2020,6 @@ coin inférieur gauche de votre écran
     ligne pendant au même moment, vous allez écraser sa version actuelle
     et ses modifications seront donc perdues.
 
-Nouveau commentaire sur le document
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Vous pouvez faire un **commentaire général** par rapport à ce document,
-qui sera visible par tous ceux qui ont accès à ce document et qui se
-retrouvera sous la prévisualisation, il n’y a donc même pas besoin de
-l’ouvrir pour lire le(s) commentaire(s).
-
-A ne pas confondre avec les commentaires dans Office Microsoft, qui se
-retrouvent dans le contenu même du document.
-
-Pour ajouter un commentaire général, cocher l’option « Nouveau
-commentaire » dans les actions contextuelles de la prévisualisation.
-
-.. figure:: media-guide/image143.png
-   :alt: 
-
-Une fenêtre s’ouvre où vous pouvez écrire le titre de votre commentaire
-et son contenu, pareil que dans Word, puis « Enregistrez »
-
-.. figure:: media-guide/image144.png
-   :alt: 
-
-Votre commentaire se retrouve à présent sous la prévisualisation du
-document, vous pouvez le modifier ou le supprimer. De la même manière,
-vous pouvez répondre à un autre commentaire existant.
-
-Vous retrouverez également le nom de votre commentaire sur la droite
-sous les métadonnées
-
-.. figure:: media-guide/image145.png
-   :alt: 
-
-Les personnes qui ont accès à ce même document verrons aussi un petit
-numéro dans l’icône avec les bulles dans la barre d’outils, en haut à
-droite du titre du document, lui indiquant qu’il y a de nouveaux
-commentaires. L’icône devient rouge d’ailleurs.
-
-Tout comme les flèches rondes qui deviennent rouge aussi et vous
-indiquent de rafraîchir la page pour être certain de valider les
-changements
-
-.. figure:: media-guide/image146.png
-   :alt: 
-
-Commentaires partagés ou privés
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Le super administrateur peut maintenant cocher/décocher une case sur le profil d'un utilisateur pour lui donner cette possibilité (Attention : Cela ne marchera pas si l'utilisateur est admin de l'espace dans lequel est le document, comme tout le reste des restrictions sur la plateforme).
-
-Au moment ou on fait un commentaire, on aura le choix entre "privé" ou "partagé" (Attention : Par défaut, celui-ci est toujours partagé)
-
-Si jamais on a coché "partagé" et qu'on veut changer pour "privé" : tout devient "privé" y compris les éventuelles réponses des autres. S'il veut supprimer les réponses des autres, il devra supprimer son propre commentaire de départ.
-
-Attention :
-
-Ne pas envoyer de notifications email ou dans le fil d'activité pour les commentaires privés
-Ne pas indexer les commentaire privés dans un premier temps / Mais dans un deuxième temps, indexer ces commentaires et ne pas oublier de filtrer selon ces droits
-Ne pas prendre en compte les commentaires privés dans le bloc historique
-
-.. figure:: media-guide/Commentaire1.png
-   :alt: 
-
-.. figure:: media-guide/Commentaires2.png
-   :alt: 
-   
-Annotation sur la prévisualisation
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Dans le même genre que les commentaires, les annotations permettent de
-commenter une **partie de texte** sur la prévisualisation.
-
-Pour **annoter un mot, une partie de texte,** il suffit de surligner la
-partie que vous voulez annoter/commenter ; un logo avec un crayon
-apparaît, cliquez dessus pour ouvrir la fenêtre à annotation, écrivez
-votre petit texte, puis cliquez sur « Save ».
-
-.. figure:: media-guide/image147.png
-   :alt: 
-   
-.. figure:: media-guide/image148.png
-   :alt: 
-
-Vous verrez l’endroit que vous avez annoté surligné en jaune dans la
-prévisualisation, et en cliquant dessus, vous verrez l’annotation liée.
-
-.. ATTENTION::
-   Les annotations ne sont que sur une version donnée de
-   prévisualisation, si la version du document change, vous ne verrez plus
-   l'annotation mais celle-ci reste dans les commentaires en dessous de
-   document.
-
-.. figure:: media-guide/image149.png
-   :alt: 
-
-Vous pourrez également retrouver votre annotation sous la
-prévisualisation, comme les commentaires, avec la précision de quelle
-version a été annotée.
 
 Charger une nouvelle version du document
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -2172,8 +2049,8 @@ Par conséquent le numéro de version changera dans les métadonnées.
 .. figure:: media-guide/image152.png
    :alt: 
 
-Glisser et déposer une nouvelle version 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Glisser-déposer une nouvelle version 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. figure:: media-guide/image153.png
    :alt: 
@@ -2294,9 +2171,8 @@ l’icône, vous pouvez voir le nom de l’autre utilisateur.
    :scale: 7%
    
    
-Editer/modifier le document avec OnlyOffice (Enterprise only)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-   
+Editer le document avec OnlyOffice (Enterprise only)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
    
 GoFAST 3 apporte une dimension très innovante et vous permet d’éditer
 des documents Office dans un simple navigateur **avec d’autres personnes
@@ -2627,8 +2503,8 @@ favoris.
 .. figure:: media-guide/image189.png
    :alt: 
 
-Ajouter le document aux favoris publics (pas encore actif)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Ajouter le document aux favoris publics
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. figure:: media-guide/image190.png
    :alt: 
@@ -2837,6 +2713,116 @@ majeures de ce document, plus aucune version mineure ne sera disponible.
 
 .. figure:: media-guide/image208.png
    :alt: 
+
+Commentaires et Annotations des documents
+-----------------------------------------
+
+Commentaire sur le document
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Pour réduire le nombre d'emais et sécuriser les échanges, il est possible de faire des **commentaires** sur les documents. Ceux-là seront affichés sous la prévisualisation et visible par ceux qui ont accès au dit document.
+
+Il n’y a donc même pas besoin d'ouvrir le fichier pour lire les commentaires.
+
+A ne pas confondre avec les commentaires faits diréctement dans le fichier, qui se retrouvent dans le contenu même du document.
+
+Pour ajouter un commentaire, cliquez sur « Nouveau commentaire » dans le menu des actions contextuelles.
+
+.. figure:: media-guide/image143.png
+   :alt: 
+
+Une fenêtre s’ouvre où vous pouvez écrire le titre de votre commentaire et son contenu, puis « Enregistrez ». 
+
+.. figure:: media-guide/image144.png
+   :alt: 
+
+Le commentaire se retrouve sous la prévisualisation du document et vous pouvez le modifier ou le supprimer à tout moment. De la même manière, vous pouvez répondre à un autre commentaire existant.
+
+Vous retrouverez également le titre des commentaires dans l'index (bloc sur la droite sous les métadonnées). Cela permet de naviguer plus facilement entre les divers commentaires.
+
+.. figure:: media-guide/image145.png
+   :alt: 
+
+Les utilisateurs qui ont accès à ce document verrons un numéro dans l’icône commentaire (en haut de la prévisualisation, à droite du titre du document) indiquant qu’il y a des nouveaux commentaires. L’icône est alors de couleur rouge.
+
+.. figure:: media-guide/image146.png
+   :alt: 
+
+Commentaires partagés ou privés
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Au moment où on fait un commentaire, on a le choix entre "privé" ou "partagé". Attention : par défaut, le commentaire est partagé.
+
+.. figure:: media-guide/Commentaire1.png
+   :alt: 
+
+.. figure:: media-guide/Commentaires2.png
+   :alt:
+   
+Le commentaire privé est visible uniquement par l'utilisateur qui l'a rédigé. Le commentaire partagé est visible par les utilisateurs ayant accès au document.
+
+Il est possible de modifier la visibilité du commentaire en l'éditant, puis en décochant "privé".
+
+Si jamais le commentaire est "partagé" et qu'on veut changer pour "privé" : le commentaire et les éventuelles réponses au commentaire laissées par les autres utilisateurs deviennent privés.
+
+Si le commentaire est supprimé, les réponses à ce commentaire le sont également. 
+
+.. NOTE:: Le super administrateur a la possibilité de cocher/décocher une case sur le profil d'un utilisateur pour lui interdire/autoriser les commentaires partagés. Dans ce cas, l'utilisateur ne pourra faire que des commentaires privés. 
+
+.. NOTE:: Il n'y a pas de notification email, ni dans le fil d'activité pour les commentaires privés. 
+
+   
+Annotations contextuelles sur la prévisualisation
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Les annotations permettent de commenter une **partie du texte** sur la prévisualisation, plutôt que de faire un commentaire général. Très pratiques dans le cadre d'une relécture/correction des documents de travail. 
+
+Pour **annoter un mot ou un paragraphe** il suffit de séléctionner le texte souhaité : une icône avec un crayon apparaît, cliquez dessus pour ouvrir la fenêtre d'annotation, rédigez votre annotation, puis enregistrez.
+
+.. figure:: media-guide/image147.png
+   :alt: 
+   
+.. figure:: media-guide/image148.png
+   :alt: 
+
+Vous verrez l’endroit que vous avez annoté surligné en jaune dans la prévisualisation et en cliquant dessus, vous verrez le contenu de l’annotation.
+
+.. ATTENTION::
+   Les annotations ne sont que sur une version donnée du document, si la version est mise à jour, vous ne verrez plus
+   l'annotation dans la prévisualisation, mais celle-ci reste dans les commentaires en dessous du document.
+
+.. figure:: media-guide/image149.png
+   :alt: 
+
+Vous pourrez également retrouver votre annotation sous la prévisualisation, comme les commentaires, avec la précision de quelle
+version a été annotée.
+
+
+Annotations partagées ou privées
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Au moment où on fait une annotation, on a le choix entre "privé" ou "partagé". Attention : par défaut, l'annotation est partagée.
+
+.. figure:: media-guide/Annotation1.png
+   :alt: 
+
+.. figure:: media-guide/Annotation2.png
+   :alt:
+
+L'annotation privée est visible uniquement par l'utilisateur qui l'a rédigée. L'annotation partagée est visible par les utilisateurs ayant accès au document. 
+
+Dans le cas d'une annotation privée, cela génère un commentaire qui est lui aussi privé.
+
+Il est possible de modifier la visibilité de l'annotation en retournant dessus et en décochant "privé". Il en est de même pour le commentaire associé. 
+
+Si jamais l'annotation est "partagée" et qu'on veut changer pour "privée" : l'annotation et le commentaire associé deviennent privés, y compris les éventuelles réponses au commentaire laissées par les autres utilisateur.
+
+Si l'annotation de départ est supprimée, le commentaire associé et les réponses à ce commentaire le sont également. 
+
+.. NOTE:: Le super administrateur a la possibilité de cocher/décocher une case sur le profil d'un utilisateur pour lui interdire/autoriser les annotations partagées. Dans ce cas, l'utilisateur ne pourra faire que des annotations privées. 
+
+.. NOTE:: Il n'y a pas de notification email, ni dans le fil d'activité pour les annotations privées. 
+
 
 Métadonnées – infos relatives au document
 -----------------------------------------
