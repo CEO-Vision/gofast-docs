@@ -1934,24 +1934,28 @@ que vous en êtes l’auteur ou pas.
 Annotations partagées ou privées
 -----------------------------------------------------------
 
-Le super administrateur peut maintenant cocher/décocher une case sur le profil d'un utilisateur pour lui donner cette possibilité (Attention : Cela ne marchera pas si l'utilisateur est admin de l'espace dans lequel est le document, comme tout le reste des restrictions sur la plateforme).
-Au moment où on fait une annotation, on a maintenant le choix entre "privé" ou "partagé". (Attention : Par défaut, celui-ci est toujours partagé).
-
-Si jamais on a coché "partagé" et qu'on veut changer pour "privé" : tout devient "privé" y compris les éventuelles réponses des autres. S'il veut supprimer les réponses des autres, il devra supprimer sa propre annotation de départ.
-
-Dans le cas d'une annotation privée, cela génère un commentaire qui est lui aussi privé.
-
-Attention :
-
-Ne pas envoyer de notifications email ou dans le fil d'activité pour les annotations privées
-Ne pas indexer les annotations privées dans un premier temps / Mais dans un deuxième temps, indexer ces annotations et ne pas oublier de filtrer selon ces droits
-Ne pas prendre en compte les annotations privées dans le bloc historique
+Au moment où on fait une annotation, on a le choix entre "privé" ou "partagé". Attention : par défaut, l'annotation est partagée.
 
 .. figure:: media-guide/Annotation1.png
    :alt: 
 
 .. figure:: media-guide/Annotation2.png
    :alt:
+
+L'annotation privée est visible uniquement par l'utilisateur qui l'a rédigée. L'annotation partagée est visible par les utilisateurs ayant accès au document. 
+
+Dans le cas d'une annotation privée, cela génère un commentaire qui est lui aussi privé.
+
+Il est possible de modifier la visibilité de l'annotation en retournant dessus et en décochant "privé". Il en est de même pour le commentaire associé. 
+
+Si jamais l'annotation est "partagée" et qu'on veut changer pour "privée" : l'annotation et le commentaire associé deviennent privés, y compris les éventuelles réponses au commentaire laissées par les autres utilisateur.
+
+Si l'annotation de départ est supprimée, le commentaire associé et les réponses à ce commentaire le sont également. 
+
+.. NOTE:: Le super administrateur a la possibilité de cocher/décocher une case sur le profil d'un utilisateur pour lui interdire/autoriser les annotations partagées. Dans ce cas, l'utilisateur ne pourra faire que des annotations privées. 
+
+.. NOTE:: Il n'y a pas de notification email, ni dans le fil d'activité pour les annotations privées. 
+
    
 Renommer un document
 ~~~~~~~~~~~~~~~~~~~~
