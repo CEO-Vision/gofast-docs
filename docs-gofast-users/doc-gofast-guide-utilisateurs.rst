@@ -1931,6 +1931,28 @@ que vous en êtes l’auteur ou pas.
 .. figure:: media-guide/image137.png
    :alt: 
 
+Annotations partagées ou privées
+-----------------------------------------------------------
+
+Le super administrateur peut maintenant cocher/décocher une case sur le profil d'un utilisateur pour lui donner cette possibilité (Attention : Cela ne marchera pas si l'utilisateur est admin de l'espace dans lequel est le document, comme tout le reste des restrictions sur la plateforme).
+Au moment où on fait une annotation, on a maintenant le choix entre "privé" ou "partagé". (Attention : Par défaut, celui-ci est toujours partagé).
+
+Si jamais on a coché "partagé" et qu'on veut changer pour "privé" : tout devient "privé" y compris les éventuelles réponses des autres. S'il veut supprimer les réponses des autres, il devra supprimer sa propre annotation de départ.
+
+Dans le cas d'une annotation privée, cela génère un commentaire qui est lui aussi privé.
+
+Attention :
+
+Ne pas envoyer de notifications email ou dans le fil d'activité pour les annotations privées
+Ne pas indexer les annotations privées dans un premier temps / Mais dans un deuxième temps, indexer ces annotations et ne pas oublier de filtrer selon ces droits
+Ne pas prendre en compte les annotations privées dans le bloc historique
+
+.. figure:: media-guide/Annotation1.png
+   :alt: 
+
+.. figure:: media-guide/Annotation2.png
+   :alt:
+   
 Renommer un document
 ~~~~~~~~~~~~~~~~~~~~
 
@@ -2064,6 +2086,27 @@ changements
 .. figure:: media-guide/image146.png
    :alt: 
 
+Commentaires partagés ou privés
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Le super administrateur peut maintenant cocher/décocher une case sur le profil d'un utilisateur pour lui donner cette possibilité (Attention : Cela ne marchera pas si l'utilisateur est admin de l'espace dans lequel est le document, comme tout le reste des restrictions sur la plateforme).
+
+Au moment ou on fait un commentaire, on aura le choix entre "privé" ou "partagé" (Attention : Par défaut, celui-ci est toujours partagé)
+
+Si jamais on a coché "partagé" et qu'on veut changer pour "privé" : tout devient "privé" y compris les éventuelles réponses des autres. S'il veut supprimer les réponses des autres, il devra supprimer son propre commentaire de départ.
+
+Attention :
+
+Ne pas envoyer de notifications email ou dans le fil d'activité pour les commentaires privés
+Ne pas indexer les commentaire privés dans un premier temps / Mais dans un deuxième temps, indexer ces commentaires et ne pas oublier de filtrer selon ces droits
+Ne pas prendre en compte les commentaires privés dans le bloc historique
+
+.. figure:: media-guide/Commentaire1.png
+   :alt: 
+
+.. figure:: media-guide/Commentaires2.png
+   :alt: 
+   
 Annotation sur la prévisualisation
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
