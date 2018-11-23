@@ -10,7 +10,7 @@ Nouvelles fonctionnalités
    :widths: 10, 40, 10
    
    "[2067]", "Cloisonnements des utilisateurs + visibilité des espaces (hors Chat)
-   Voir : https://gofast-docs.readthedocs.io/fr/latest/docs-gofast-users/doc-gofast-guide-utilisateurs.html#annotations-partagees-ou-privees"
+   (Voir : https://gofast-docs.readthedocs.io/fr/latest/docs-gofast-users/doc-gofast-guide-utilisateurs.html#annotations-partagees-ou-privees)"
    "[3772]", "Offre GoFAST Community"
    "[4529]", "Plugin OnlyOffice pour enregistrer le document dans GoFAST sans fermer l’onglet"
    "[4598]", "Annotations et commentaires partagés ou privés
