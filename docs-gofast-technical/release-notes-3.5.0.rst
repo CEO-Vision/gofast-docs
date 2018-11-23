@@ -13,6 +13,8 @@ Nouvelles fonctionnalités
    "[3772]", "Offre GoFAST Community"
    "[4529]", "Plugin OnlyOffice pour enregistrer le document dans GoFAST sans fermer l’onglet"
    "[4598]", "Annotations et commentaires partagés ou privés"
+   Pour les annotations, voir : https://gofast-docs.readthedocs.io/fr/latest/docs-gofast-users/doc-gofast-guide-utilisateurs.html#annotations-partagees-ou-privees
+   Pour les commentaires, voir : https://gofast-docs.readthedocs.io/fr/latest/docs-gofast-users/doc-gofast-guide-utilisateurs.html#commentaires-partages-ou-prives
    "[4608]", "Nouvelle supervision (serveurs / process) sous Zabbix"
    
    
