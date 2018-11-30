@@ -102,6 +102,21 @@ Afin d'éviter ce message:
 - utiliser GoFAST File Browser
 - utiliser un explorateur de fichier autre que celui de Microsoft (ex. CyberDuck)
 
+Espace disque insuffisant sous Windows
+-----------------------
+
+.. figure:: media-guide/espace-disque-windows.png
+   :alt:
+
+Lorsque Windows affiche que vous manquez d'espace disque, il n'y a en réalité, aucune inquiétude à avoir.
+
+C'est un bug Windows. En effet, comme Windows n'est pas capable de récuperer l'espace disponible par Webdav, il se base sur l'espace disque de l'ordinateur.
+
+Donc si vous n'avez pas assez d'espace disque sur votre ordinateur, Windows va indiquer qu'il n'y a pas assez d'espace disque sur le serveur, alors que si.
+
+Ainsi, si vous avez besoin d'ajouter des documents sur votre serveur, vous devez faire de la place sur votre disque local, il n'y a pas d'autre choix pour contourner ce bug Windows (ou utiliser un autre moyen que le lecteur Webdav Windows)
+
+
 Impossible d'éditer en ligne des contenus PDF avec Acrobat Reader (v18)
 ===========================
 Il faut vérifier que l'application Acrobat Reader soit déjà fermée avant le lancer l'édition en ligne. Ce problème n'existe pas avec FoxitReader
