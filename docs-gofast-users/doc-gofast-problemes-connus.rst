@@ -102,7 +102,7 @@ Afin d'éviter ce message:
 - utiliser GoFAST File Browser
 - utiliser un explorateur de fichier autre que celui de Microsoft (ex. CyberDuck)
 
-Espace disque insuffisant sous Windows
+Espace disque insuffisant vers un lecteur Webdav sous Windows
 -----------------------
 
 .. figure:: media-guide/espace-disque-windows.png   
