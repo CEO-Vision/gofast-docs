@@ -105,7 +105,7 @@ Afin d'éviter ce message:
 Espace disque insuffisant sous Windows
 -----------------------
 
-.. figure:: media-guide/espace-disque-windows.png
+.. figure:: media-guide/espace-disque-windows.png   
    :alt:
 
 Lorsque Windows affiche que vous manquez d'espace disque, il n'y a en réalité, aucune inquiétude à avoir.
