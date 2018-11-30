@@ -110,7 +110,7 @@ Espace disque insuffisant sous Windows
 
 Lorsque Windows affiche que vous manquez d'espace disque, il n'y a en réalité, aucune inquiétude à avoir.
 
-C'est un bug Windows. En effet, comme Windows n'est pas capable de récuperer l'espace disponible par Webdav, il se base sur l'espace disque de l'ordinateur.
+C'est un bug Windows. En effet, comme Windows n'est pas capable de récupérer l'espace disponible par Webdav, il se base sur l'espace disque de l'ordinateur.
 
 Donc si vous n'avez pas assez d'espace disque sur votre ordinateur, Windows va indiquer qu'il n'y a pas assez d'espace disque sur le serveur, alors que si.
 
