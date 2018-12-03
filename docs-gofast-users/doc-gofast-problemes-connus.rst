@@ -116,6 +116,8 @@ Donc si vous n'avez pas assez d'espace disque sur votre ordinateur, Windows va i
 
 Ainsi, si vous avez besoin d'ajouter des documents sur votre serveur, vous devez faire de la place sur votre disque local, il n'y a pas d'autre choix pour contourner ce bug Windows (ou utiliser un autre moyen que le lecteur Webdav Windows : par exemple, l'explorateur de fichiers intégré à la plateforme)
 
+Concrètement, si vous souhaitez déposer un fichier de 2 Go sur GoFAST en Webdav, il faut vous assurer d'avoir au moins 2 Go de libre sur votre PC pour contourner ce bug Windows.
+
 
 Impossible d'éditer en ligne des contenus PDF avec Acrobat Reader (v18)
 ===========================
