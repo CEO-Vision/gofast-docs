@@ -238,17 +238,17 @@ aux fichiers**
 Dans l’ensemble, le principe et l’utilisation du fil d’activité reste
 pareil que dans la GoFAST 2, c’est-à-dire qu’il vous donne une **vue
 d’ensemble** sur tout ce qui s’est passé dans vos espaces collaboratifs
-(groupes/organisation/ Public/Extranet) ; vous pouvez voir les
+(groupes/organisation/Public/Extranet) ; vous pouvez voir les
 personnes qui ont mis un nouveau document ou modifier un document ou
 commenter un document dans vos espaces collaboratifs, quel type de
-document, où il se trouve, son statut,…
+document, où il se trouve, son statut…
 
 Il suffit de cliquer sur le nom du fichier pour l’ouvrir/le visualiser
-et sur la petite roue dentelée pour y voir les raccourcis de certaines
+et sur les trois bandes horizontales pour y voir les raccourcis de certaines
 fonctionnalités (éditer, télécharger, commenter, favoris, abonnement,
-permalien, …)
+permalien…)
 
-.. figure:: media-guide/image010.png
+.. figure:: media-guide/raccourci-fonctionnalités.png
    :alt: 
 
 (voir aussi plus loin : Actions contextuelles)
@@ -261,11 +261,11 @@ Vous pouvez **filtrer** la liste des documents de votre fil d’activité
 selon des groupes spécifiques et le statut des documents (draft,
 archivé, validé, …).
 
-.. figure:: media-guide/image011.png
+.. figure:: media-guide/filtres.png
    :alt: 
 
-Vous pouvez également choisir de masquer ou afficher les **« blog
-messages »** = ce que vous ou les autres écrivent dans **« Partager une
+Vous pouvez également choisir de masquer ou afficher les **« Nouvelles »** =
+ce que vous ou les autres écrivent dans **« Partager une
 nouvelle »** et qui se retrouvent également dans le fil d’activité. Pour
 ce, appuyez sur « Display blog messages » dans les « Filtrer le fil
 d’activité »
