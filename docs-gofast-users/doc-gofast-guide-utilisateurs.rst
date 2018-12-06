@@ -270,7 +270,7 @@ nouvelle »** et qui se retrouvent également dans le fil d’activité. Pour
 ce, appuyez sur « Display blog messages » dans les « Filtrer le fil
 d’activité »
 
-.. figure:: media-guide/image368.png
+.. figure:: media-guide/afficher-les-nouvelles.png
    :alt: 
 
 Pour mettre ce genre de message général sur la GoFAST (votre humeur, une
