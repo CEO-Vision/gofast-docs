@@ -197,18 +197,18 @@ bas.
    :alt: 
 
 Vous pouvez directement choisir la langue dans laquelle vous voulez
-travailler, dans le coin en haut à gauche (FR,EN, NL)
+travailler, dans le coin en haut à droite (FR,EN, NL)
 
-.. figure:: media-guide/image005.png
+.. figure:: media-guide/choix-langue.png
    :alt: 
 
 Pour accéder à **votre profil**, cliquez sur votre nom. De là, vous
-pourrez également accéder à vos abonnements ou vous déconnecter.
+pourrez également accéder à vos abonnements, votre panier ou vous déconnecter.
 
-.. figure:: media-guide/image006.png
+.. figure:: media-guide/votre-profil-0.png
    :alt: 
    
-.. figure:: media-guide/image007.png
+.. figure:: media-guide/votre-profil-1.png
    :alt: 
 
 Les 5 cases noires dans le coin gauche inférieur sont surtout **liées
