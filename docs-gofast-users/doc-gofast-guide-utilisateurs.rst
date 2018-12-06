@@ -193,7 +193,7 @@ bas.
     Vous pouvez revenir à la page du fil d’activité à tout moment
     en cliquant sur le symbole GoFAST, dans le coin gauche supérieur.
 
-.. figure:: media-guide/image004.png
+.. figure:: media-guide/Home-GoFAST.png
    :alt: 
 
 Vous pouvez directement choisir la langue dans laquelle vous voulez
