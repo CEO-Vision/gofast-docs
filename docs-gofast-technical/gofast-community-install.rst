@@ -2,7 +2,7 @@
 GoFAST Community :  Installation
 ********************************************
 
-Instructions
+Instructions 
 ------------
 
 –Étape 1: Télécharger l’image sur le site https://www.ceo-vision.com/fr/content/gofast-community-ged-plateforme-collaborative-opensource (.ova, ...)
