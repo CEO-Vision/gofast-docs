@@ -11,6 +11,6 @@ Instructions
 
 –Etape 4: Configurer l'adresse IP par exemple dans  ``/etc/sysconfig/network-scripts/ifcfg-enp0s3`` et rentrer IPADDR  =  Adresse souhaiterà la place de “192.168.8.212”
 
-–Étape 5: Déclarer l'adresse complète ex. ''mygf-community.ceo-vision.com'' correspondant à l'IP dans le fichier hosts.
+–Étape 5: Déclarer l'adresse complète ex. ``mygf-community.ceo-vision.com`` correspondant à l'IP dans le fichier hosts.
 
-–Étape 6: Se rendre sur ''https://mygf-community.ceo-vision.com'' et faire la configuration de la plate-forme.
+–Étape 6: Se rendre sur ``https://mygf-community.ceo-vision.com`` et faire la configuration de la plate-forme.
