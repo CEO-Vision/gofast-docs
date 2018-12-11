@@ -6,9 +6,9 @@ Instructions
 –Étape 2: Instancier l'image dans votre logiciel de Virtualisation 
 
 –Étape 3: Se connecter à cette image à l’aide des identifiants suivants 
-·login : root·password : @C0mmunity! ( c’est un zero et non un O) 
+  ``login : root`` ``password : @C0mmunity!`` ( c’est un zero et non un O) 
 
-–Etape 4: Se rendre dans /etc/sysconfig/network-scripts/ifcfg-enp0s3 et rentrer IPADDR  =  Adresse souhaiterà la place de “192.168.8.212”
+–Etape 4: Se rendre dans ``/etc/sysconfig/network-scripts/ifcfg-enp0s3`` et rentrer IPADDR  =  Adresse souhaiterà la place de “192.168.8.212”
 
 –Étape 5: Bind l’adresse IP choisis par “mygf-community.ceo-vision.com” dans le fichier hosts.
 
