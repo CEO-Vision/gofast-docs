@@ -7,8 +7,9 @@ Documentation GoFAST
    :maxdepth: 1
    :caption: Documentation Technique GoFAST
    
-   docs-gofast-technical/gofast-exploitation
    docs-gofast-technical/gofast-docs-prerequis-installation-serveur
+   docs-gofast-technical/gofast-community-install
+   docs-gofast-technical/gofast-exploitation
    docs-gofast-users/doc-gofast-problemes-connus
    
 .. _users-docs:
