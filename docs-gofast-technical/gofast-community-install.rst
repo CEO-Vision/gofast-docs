@@ -9,7 +9,7 @@ Instructions (par image)
 
 –Étape 2: Instancier l'image dans votre logiciel de Virtualisation 
 
-–Étape 3: Se connecter à cette image à l’aide des identifiants suivants 
+–Étape 3: Se connecter à cette instance à l’aide des identifiants suivants 
 
 ``login : root`` ``password : @C0mmunity!`` ( c’est un zero et non un O) 
 
