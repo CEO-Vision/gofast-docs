@@ -16,8 +16,3 @@ Action : metadata
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Cette action permets d'intéragir avec les métadonnées associés aux entités de type noeud
-
-GET
-µµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµ
-
-Cette méthode permets de récupérer des informations à propos des métadonnées associés aux entités de type noeud
