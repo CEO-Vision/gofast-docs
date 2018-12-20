@@ -7,17 +7,17 @@ L'API REST de GoFAST permet aux développeurs d'intéragir avec l'application de
 Ressources
 ############################################
 
-Ressource : node
-**********************
+    Ressource : node
+    **********************
 
-Cette ressource permets d'intéragir avec les entités Drupal de type noeud. Ces derniers peuvent représenter des documents, articles, espaces, formulaires...
+    Cette ressource permets d'intéragir avec les entités Drupal de type noeud. Ces derniers peuvent représenter des documents, articles, espaces, formulaires...
 
-Action : metadata
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        Action : metadata
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Cette action permets d'intéragir avec les métadonnées associés aux entités de type noeud
+        Cette action permets d'intéragir avec les métadonnées associés aux entités de type noeud
 
-GET
-__________
+            GET
+            __________
 
-Cette méthode permets de récupérer des informations à propos des métadonnées associés aux entités de type noeud
+            Cette méthode permets de récupérer des informations à propos des métadonnées associés aux entités de type noeud
