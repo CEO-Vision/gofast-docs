@@ -2,13 +2,12 @@
 GoFAST :  API REST 
 ********************************************
 
+L'API REST de GoFAST permet aux développeurs d'intéragir avec l'application de manière applicative. Vous trouverez sur cette page toutes les informations nécessaires à l'exploitation de cette API.
+
 Ressources
 ############################################
 
-.. _apilist:
+node
+**********************
 
-.. toctree::
-   :maxdepth: 1
-   :caption: Ressources
-   
-   docs-gofast-development/api-rest-node
+Cette ressource est utilisée pour intéragir avec les noeuds. Ces derniers sont des entités Drupal qui peuvent être de différents types : 
