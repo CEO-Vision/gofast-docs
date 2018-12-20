@@ -36,3 +36,11 @@ Documentation GoFAST
    docs-gofast-technical/release-notes-3.4.0
    docs-gofast-technical/release-notes-3.4.1
    docs-gofast-technical/release-notes-3.5.0
+
+.. _development-docs:
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Ressources développeur GoFAST
+   
+   docs-gofast-development/api-rest
