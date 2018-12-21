@@ -78,6 +78,62 @@ Cette méthode permet de récupérer des informations génériques d'une entité
 |alfresco_reference     | Référence du contenu Alfresco associé au noeud     |
 +-----------------------+----------------------------------------------------+
 
+PUT
+__________
+
+Cette méthode permet de créer une entité de type noeud. Si ce noeud est de type alfresco_item, il est obligatoire d'y ajouter un fichier. 
+
+*POST: /api/node/node*
+
++-------------------+--------------------------+
+|  Header           |   Valeur                 |
++===================+==========================+
+|Content-Type       | multipart/form-data      |
++-------------------+--------------------------+
+
++-------------------+---------------------------------------------------------------+
+|  Clé              |   Valeur                                                      |
++===================+===============================================================+
+|    file           | Le fichier à charger (si le type de noeud est 'alfresco_item' |
++-------------------+---------------------------------------------------------------+
+
++-------------------+--------------------------+
+|  Header           |   Valeur                 |
++===================+==========================+
+|Content-Type       | application/json         |
++-------------------+--------------------------+
+
++-------------------+--------------------------------------------------------------------------------------------------------------------+
+|  Clé              |   Valeur                                                                                                           |
++===================+====================================================================================================================+
+|    type           | Type de noeud                                                                                                      |
++-------------------+--------------------------------------------------------------------------------------------------------------------+
+|    locations      | Les emplacements dans un tableau sous la forme "/_Organisations/Mon Organisation/XXX" (alfresco_item seulement)    |
++-------------------+--------------------------------------------------------------------------------------------------------------------+
+|    gids           | Les n° des espaces de destination dans un tableau (article, forum seulement)                                       |
++-------------------+--------------------------------------------------------------------------------------------------------------------+
+|    body           | Le contenu au format HTML (article, forum seulement)                                                               |
++-------------------+--------------------------------------------------------------------------------------------------------------------+
+
+Les types de noeud disponibles sont : 
+ - alfresco_item (Document)
+ - article (Page interne)
+ - forum (Forum)
+
+*Retour:*
+
++-------------------+----------------------------------------+
+|   Header          |   Valeur                               |
++===================+========================================+
+|Content-Type       | application/json                       |
++-------------------+----------------------------------------+
+
++-------------------+----------------------------------------+
+|   Clé             |   Valeur                               |
++===================+========================================+
+|nid                | N° du noeud                            |
++-------------------+----------------------------------------+
+
 Action : metadata
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -192,7 +248,6 @@ Cette méthode permet de remplacer le contenu Alfresco associé à un noeud en c
 |  major_version    | 0: Version mineure, 1: Version majeure (default : 0)|
 +-------------------+-----------------------------------------------------+
 
-Le contenu de la requête doit être le contenu du document.
 
 *Retour:*
 
@@ -409,7 +464,7 @@ Cette méthode permet d'attacher un commentaire à une entité de type noeud
 +-------------------+-----------------------------------------------------------+
 |    body*          |Contenu du commentaire (format HTML)                       |
 +-------------------+-----------------------------------------------------------+
-|    is_private    |0: Commentaire publique, 1: Commentaire privé (défaut : 0)  |
+|    is_private     |0: Commentaire publique, 1: Commentaire privé (défaut : 0)  |
 +-------------------+-----------------------------------------------------------+
 
 *Retour:*
