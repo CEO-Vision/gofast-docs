@@ -78,7 +78,7 @@ Cette méthode permet de récupérer des informations génériques d'une entité
 |alfresco_reference     | Référence du contenu Alfresco associé au noeud     |
 +-----------------------+----------------------------------------------------+
 
-PUT
+POST
 __________
 
 Cette méthode permet de créer une entité de type noeud. Si ce noeud est de type alfresco_item, il est obligatoire d'y ajouter un fichier. 
@@ -94,7 +94,7 @@ Cette méthode permet de créer une entité de type noeud. Si ce noeud est de ty
 +-------------------+---------------------------------------------------------------+
 |  Clé              |   Valeur                                                      |
 +===================+===============================================================+
-|    file           | Le fichier à charger (si le type de noeud est 'alfresco_item' |
+|    file           | Le fichier à charger (si le type de noeud est 'alfresco_item') |
 +-------------------+---------------------------------------------------------------+
 
 +-------------------+--------------------------+
