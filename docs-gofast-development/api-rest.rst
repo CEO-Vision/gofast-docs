@@ -219,3 +219,43 @@ Cette méthode permet de récupérer la prévisualisation PDF d'un contenu Alfre
 +-------------------+----------------------------------------+
 
 Le contenu du retour de la requête est le contenu de la prévisualisation PDF du document.
+
+Action : preview_link
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Cette action permet d'intéragir avec les prévisualisations PDF associés aux entités de type noeud
+
+.. CAUTION:: Utiliser cette action sur un noeud sans contenu Alfresco associé aboutira à une erreur "404 Not Found". Les noeuds associés à un contenu Alfresco sont de type "alfresco_item".
+
+GET
+__________
+
+Cette méthode permet de récupérer un lien vers une prévisualisations PDF associée à une entité de type noeud
+
+*GET: /api/node/preview_link*
+
++-------------------+--------------------------+
+|  Header           |   Valeur                 |
++===================+==========================+
+|Content-Type       | application/json         |
++-------------------+--------------------------+
+
++-------------------+--------------------------+
+|  GET Parameter    |   Valeur                 |
++===================+==========================+
+|    nid*           |N° du noeud               |
++-------------------+--------------------------+
+
+*Retour:*
+
++-------------------+----------------------------------------+
+|   Header          |   Valeur                               |
++===================+========================================+
+|Content-Type       | application/json                       |
++-------------------+----------------------------------------+
+
++-----------------------+----------------------------------------------------+
+|   Clé                 |   Valeur                                           |
++=======================+====================================================+
+|link                    | Lien vers la prévisualisation                     |
++-----------------------+----------------------------------------------------+
