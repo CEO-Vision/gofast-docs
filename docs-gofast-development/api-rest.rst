@@ -168,10 +168,61 @@ Cette méthode permet de récupérer les métadonnées associés aux entités de
 |Content-Type       | application/json                       |
 +-------------------+----------------------------------------+
 
+
+
 +-----------------------+----------------------------------------------------+
 |   Clé                 |   Valeur                                           |
 +=======================+====================================================+
 |field_XXX              | Tableau contenant les valeurs du champ             |
++-----------------------+----------------------------------------------------+
+|field_YYY              | Tableau contenant les valeurs du champ             |
++-----------------------+----------------------------------------------------+
+
+POST
+__________
+
+Cette méthode permet de mettre à jour les métadonnées associés aux entités de type noeud
+
+*POST: /api/node/metadata*
+
++-------------------+--------------------------+
+|  Header           |   Valeur                 |
++===================+==========================+
+|Content-Type       | application/json         |
++-------------------+--------------------------+
+
+.. NOTE:: Contrairement au retour de la méthode GET, les valeurs doivent pas êtres listés de cette manière : 
+          field_XXX : 
+                      0: value:
+                              VAL1
+                      1: value:
+                              VAL2
+          Mais plutôt comme ceci : 
+          field_XXX : 
+                      0: VAL1
+                      1: VAL2 
+          Les champs modifiables sont : field_category, field_state, field_emplacement, field_target_link, field_external_page_url, field_date, field_criticity, field_document_author
+
++-------------------+----------------------------------------+
+|  Clé              |   Valeur                               |
++===================+========================================+
+|    field_XXX      |Tableau contenant les valeurs du champ  |
++-------------------+----------------------------------------+
+|    field_YYY      |Tableau contenant les valeurs du champ  |
++-------------------+----------------------------------------+
+
+*Retour:*
+
++-------------------+----------------------------------------+
+|   Header          |   Valeur                               |
++===================+========================================+
+|Content-Type       | application/json                       |
++-------------------+----------------------------------------+
+
++-----------------------+----------------------------------------------------+
+|   Clé                 |   Valeur                                           |
++=======================+====================================================+
+|success                | 1: OK, 0: Error                                    |
 +-----------------------+----------------------------------------------------+
 
 Action : content
