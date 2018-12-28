@@ -191,16 +191,16 @@ Cette méthode permet de mettre à jour les métadonnées associés aux entités
 |Content-Type       | application/json         |
 +-------------------+--------------------------+
 
-.. NOTE:: Contrairement au retour de la méthode GET, les valeurs ne doivent pas êtres listés de cette manière : 
-           field_XXX : 
-                      0: value:
-                              VAL1
-                      1: value:
-                              VAL2
-          Mais plutôt comme ceci : 
-           field_XXX : 
-                      0: VAL1, 
-                      1: VAL2 
+.. NOTE:: Contrairement au retour de la méthode GET, les valeurs ne doivent pas êtres listés de cette manière
+           "field_XXX" : *Array*
+                      "0": "value": *Array*
+                              "VAL1"
+                      "1": "value": *Array*
+                              "VAL2"
+          Mais plutôt comme ceci
+           "field_XXX" : *Array*
+                      "0": "VAL1", 
+                      "1": "VAL2" 
           Les champs modifiables sont : field_category, field_state, field_emplacement, field_target_link, field_external_page_url, field_date, field_criticity, field_document_author
 
 +-------------------+----------------------------------------+
