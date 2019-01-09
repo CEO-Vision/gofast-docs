@@ -44,7 +44,7 @@ Sécurité
    "[4186]","Mise à jour CKEditor vers 4.11.1"
   
 
-HOTFIX
+HOTFIX (Version Enterprise)
 **********************
 .. csv-table::  
    :header: "Ref.", "Description", "Catégorie"
