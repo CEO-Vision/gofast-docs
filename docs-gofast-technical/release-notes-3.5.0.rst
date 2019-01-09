@@ -68,7 +68,7 @@ Sécurité
    
 
 
-HOTFIX
+HOTFIX (Version Enterprise)
 **********************
 .. csv-table::  
    :header: "Ref.", "Description", "Catégorie"
@@ -78,7 +78,11 @@ HOTFIX
    "[4587]", "[VERSION MOBILE] Faire une annotation n'affiche pas le commentaire sans avoir à rafraichir la page"
    "[4620]", "Il y a une erreur de transaction Alfresco quand erreur d'envoi de mail dans script de réplication"
    "[4643]", "La hauteur de de la fenêtre de prévisualisation doit être fixe"
-
+   "[4708]", "[3.5.0_2] Depuis page d'un espace, si on décoche tous les rôles d'un user, la membership ne disparait pas"
+   "[4719]", "[3.5.0_4] Partage par email : envoi en anglais au lieu de francais"
+   "[4722]", "[3.5.0_4] Mauvaise configuration de la popularité pour certains types de contenus"
+   "[4732]", "[3.5.0_5] Dans certains cas des docs visibles en Webdav ne sont pas dans GoFAST"
+   "[4756]", "[3.5.0_10] Page de filtres malformées lors d'une réactualisation de la page de recherche"
 
 
 Bugs majeurs
