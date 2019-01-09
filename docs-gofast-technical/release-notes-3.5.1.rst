@@ -50,7 +50,7 @@ HOTFIX
    :header: "Ref.", "Description", "Catégorie"
    :widths: 10, 40, 10
    
-    "[4780]","Notification pour certains contenus alors qu'on n'est pas membre de l'espace"
+    "[4780]","[3.5.1_1] Notification pour certains contenus alors qu'on n'est pas membre de l'espace"
 
 Bugs majeurs
 **********************
