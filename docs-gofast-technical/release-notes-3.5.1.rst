@@ -23,7 +23,7 @@ Améliorations fonctionnelles
    "[4667]","GFB: Action pour arriver vers sur le formulaire de création de document"
    "[4707]","Pouvoir broadcaster en masse plusieurs documents depuis Gofast file Browser (GFB)"
    "[4736]","Intégrer la suppression d'espace à l'audit"
-   "[4747]","Lorsqu'on redimensionne une popup, la zone de texte se redimensionne"
+   "[4747]","Lorsqu'on redimensionne une popup, l'éditeur de texte se redimensionne"
    "[4755]","Pouvoir restaurer des documents même quand l'emplacement n'existe plus"
    "[4740]","Amélioration de l'affichage des options de recherche"
    
