@@ -50,12 +50,7 @@ HOTFIX
    :header: "Ref.", "Description", "Catégorie"
    :widths: 10, 40, 10
    
-    * [GOFAST-4708] - [HOTFIX 3.5.0_2]Depuis page d'un espace, si on décoche tous les rôles d'un user, la membership ne disparait pas
-    * [GOFAST-4719] - [HOTFIX 3.5.0_hotfix_4.0] Partage par email : envoi en anglais au lieu de francais
-    * [GOFAST-4722] - [HOTFIX 3.5.0_hotfix_4.0] Mauvaise configuration de la popularité pour certains types de contenus
-    * [GOFAST-4732] - [HOTFIX 3.5.0_5] parfois, les documents Alfresco sont mal répliqué coté Drupal lorsque plusieurs en même temps(deadlock)
-    * [GOFAST-4780] - [HOTFIX 3.5.1_1][SECURITE] Notification pour certains contenus alors qu'on n'est pas membre de l'espace
-    * [GOFAST-4756] - [HOTFIX_3.5.0_10.0] Page de filtres cassées lors d'une réactualisation de la page de recherche
+    "[4780]","Notification pour certains contenus alors qu'on n'est pas membre de l'espace"
 
 Bugs majeurs
 **********************
