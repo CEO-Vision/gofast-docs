@@ -92,9 +92,12 @@ HOTFIX (Version Enterprise)
    "[4730]", "[3.5.0_5] Erreur si on partage un dossier qui est profond dans l'arborescence"
    "[4731]", "[3.5.0_5] GFB passe par dessus le fil d'activité"
    "[4732]", "[3.5.0_5] Dans certains cas des docs visibles en Webdav ne sont pas dans GoFAST"
-   "[4746]", "[3.5.0_5] Double envoi de mail lors de l'annulation de réunion"
+   "[4746]", "[3.5.0_6] Double envoi de mail lors de l'annulation de réunion"
+   "[4729]", "[3.5.0_7.0/8.0] Destinataires extranets n'apparaissent pas dans zone destinataires dans la notification de partage par mail"
+   "[4749]", "[3.5.0_9] Zone de glissé-déposé plus visible sur page d'accueil"
+   "[4750]", "[3.5.0_9] Impossible d'éditer en ligne un document depuis l'explorateur"
    "[4756]", "[3.5.0_10] Page de filtres malformées lors d'une réactualisation de la page de recherche"
-
+   "[4757]", "[3.5.0_10] GFB mobile se met en erreur quand on va sur certaines pages d'espace"
 
 Bugs majeurs
 **********************
