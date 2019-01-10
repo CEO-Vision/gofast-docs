@@ -113,7 +113,7 @@ Bugs majeurs
    "[4340]", "La hauteur de la zone 'commentaire' n’est pas optimale et editeur riche mal positionné"
    "[4477]", "Des templates de documents vierges manquant lors de l'installation + image par defaut"
    "[4492]", "[BLOCKER] La popularité (scoring) ne change pas lorsqu’un document est sauvegardé"
-   "[4509]", "GFBrowser mobile passe au dessus du contenu dans certaines résolutions"
+   "[4509]", "GFB de gauche passe au dessus du contenu dans certaines résolutions"
    "[4521]", "Supprimer une publication depuis GFBrowser redirige vers la page d'accueil"
    "[4538]", "Mauvaise action listée dans le fil d'activité suite à la modification de l’importance"
    "[4552]", "Le formulaire de configuration de la DUA est vide"
