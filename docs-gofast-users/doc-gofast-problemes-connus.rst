@@ -160,11 +160,11 @@ Pas de streaming Video
 L'avantage du streaming video est de regarder directement une séquence video sans avoir à la télécharger.
 
 +------------+------------+-----------+-----------+-----------+-----------+
-| Format     | MP4        | WMV       |    FLV    |    AVI    |   OGV
+| Format     | MP4        | WMV       |    FLV    |    AVI    |   OGV     |
 +============+============+===========+===========+===========+===========+
-| Firefox    |  OUI       |  NON      |  NON      |    NON    |           |
+| Firefox    |  OUI       |  NON      |  NON      |    NON    |   NON     |
 +------------+------------+-----------+-----------+-----------+-----------+
-| Chrome     |   OUI      |  NON      |  NON      |    NON    |           |
+| Chrome     |   OUI      |  NON      |  NON      |    NON    |   NON     |
 +------------+------------+-----------+-----------+-----------+-----------+
-| IE11       |    NON     |   NON     |    NON    |    NON    |           |
+| IE11       |    NON     |   NON     |    NON    |    NON    |   NON     |
 +------------+------------+-----------+-----------+-----------+-----------+
