@@ -153,3 +153,18 @@ Ce cas indique que IE11 est en mode de compatibilité (et fonctionne donc comme 
 Nb: Souvent il s'agit de décision pour garder la compatibilité avec des anciennes applications qui ne fonctionne pas avec une version récente d'IE (pourtant les seules recevant des correctifs sécurité puisque Microsoft a abandonné IE au profit de Edge)
 
 Pour changer ce mode, cliquer sur la roue crantée, "Outils de développement" et changer "Chaîne de l'agent utilisateur" par IE11 au lieu de IE10 (ici sur la copie d'écran)
+
+Pas de streaming Video
+----------------------
+
+L'avantage du streaming video est de regarder directement une séquence video sans avoir à la télécharger.
+
++------------+------------+-----------+-----------+-----------+-----------+
+| Format     | MP4        | WMV       |    FLV    |    AVI    |   OGV
++============+============+===========+===========+===========+===========+
+| Firefox    |  OUI       |  NON      |  NON      |    NON    |           |
++------------+------------+-----------+-----------+-----------+-----------+
+| Chrome     |   OUI      |  NON      |  NON      |    NON    |           |
++------------+------------+-----------+-----------+-----------+-----------+
+| IE11       |    NON     |   NON     |    NON    |    NON    |           |
++------------+------------+-----------+-----------+-----------+-----------+
