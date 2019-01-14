@@ -154,6 +154,8 @@ Nb: Souvent il s'agit de décision pour garder la compatibilité avec des ancien
 
 Pour changer ce mode, cliquer sur la roue crantée, "Outils de développement" et changer "Chaîne de l'agent utilisateur" par IE11 au lieu de IE10 (ici sur la copie d'écran)
 
+Problème de prévisualisation
+================
 Pas de streaming Video
 ----------------------
 
