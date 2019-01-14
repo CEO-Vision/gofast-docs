@@ -157,7 +157,7 @@ Pour changer ce mode, cliquer sur la roue crantée, "Outils de développement" e
 Pas de streaming Video
 ----------------------
 
-L'avantage du streaming video est de regarder directement une séquence video dans le navigateur (GoFAST) sans avoir à la télécharger. Ceci est dépendant du navigateur et du format video.
+L'avantage du streaming video est de regarder directement une séquence video dans le navigateur (GoFAST) sans avoir à la télécharger. Sans plugin, ceci est dépendant du navigateur et du format video.
 
 +------------+------------+-----------+-----------+-----------+-----------+
 | Format     | MP4        | WMV       |    FLV    |    AVI    |   OGV     |
@@ -168,3 +168,6 @@ L'avantage du streaming video est de regarder directement une séquence video da
 +------------+------------+-----------+-----------+-----------+-----------+
 | IE11       |    NON     |   NON     |    NON    |    NON    |   NON     |
 +------------+------------+-----------+-----------+-----------+-----------+
+| Safari     |    OUI     |   NON     |    NON    |    NON    |   NON     |
++------------+------------+-----------+-----------+-----------+-----------+
+
