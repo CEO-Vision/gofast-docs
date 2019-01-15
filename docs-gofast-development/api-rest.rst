@@ -192,15 +192,15 @@ Cette méthode permet de mettre à jour les métadonnées associés aux entités
 +-------------------+--------------------------+
 
 .. NOTE:: Contrairement au retour de la méthode GET, les valeurs ne doivent pas êtres listés de cette manière
-           "field_XXX" : *Array*
-                      "0": "value": *Array*
-                              "VAL1"
-                      "1": "value": *Array*
-                              "VAL2"
+           field_XXX : *Array*
+                      0: value: *Array*
+                              VAL1
+                      1: value: *Array*
+                              VAL2
           Mais plutôt comme ceci
-           "field_XXX" : *Array*
-                      "0": "VAL1", 
-                      "1": "VAL2" 
+           field_XXX : *Array*
+                      0: VAL1, 
+                      1: VAL2 
           Les champs modifiables sont : field_category, field_state, field_emplacement, field_target_link, field_external_page_url, field_date, field_criticity, field_document_author
 
 +-------------------+----------------------------------------+
@@ -222,7 +222,9 @@ Cette méthode permet de mettre à jour les métadonnées associés aux entités
 +-----------------------+----------------------------------------------------+
 |   Clé                 |   Valeur                                           |
 +=======================+====================================================+
-|success                | 1: OK, 0: Error                                    |
+|Field_XXX              | Tableau contenant le retour de la fonction         |
++-----------------------+----------------------------------------------------+
+|Field_YYY              | Tableau contenant le retour de la fonction         |
 +-----------------------+----------------------------------------------------+
 
 Action : content
