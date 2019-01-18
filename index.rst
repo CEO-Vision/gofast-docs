@@ -37,3 +37,4 @@ Documentation GoFAST
    docs-gofast-technical/release-notes-3.4.1
    docs-gofast-technical/release-notes-3.5.0
    docs-gofast-technical/release-notes-3.5.1
+   docs-gofast-technical/release-notes-3.5.2
