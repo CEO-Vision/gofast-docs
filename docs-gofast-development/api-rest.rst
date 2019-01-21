@@ -602,3 +602,51 @@ Cette méthode permet d'attacher un commentaire à une entité de type noeud
 +=======================+====================================================+
 |cid                    | N° du commentaire                                  |
 +-----------------------+----------------------------------------------------+
+
+Ressource : space
+**********************
+
+Cette ressource permet d'intéragir avec les Organic Groups de Drupal de type comment. Ces derniers représentent ce que l'on appel des *espaces collaboratifs*
+
+Action : space
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Cette action permet d'intéragir basiquement avec les Organic Groups de Drupal.
+
+PUT
+__________
+
+Cette méthode permet de créer un *espace collaboratif* en passant par le mécanisme Drupal
+
+*PUT: /api/space/space*
+
++-------------------+--------------------------+
+|  Header           |   Valeur                 |
++===================+==========================+
+|Content-Type       | application/json         |
++-------------------+--------------------------+
+
++-------------------+----------------------------------------------+
+|  Clé              |   Valeur                                     |
++===================+==============================================+
+|    gid*           |N° de noeud de l'espace parent                |
++-------------------+----------------------------------------------+
+|    title*         |Titre du nouvel espace                        |
++-------------------+----------------------------------------------+
+|    body           |Contenu de l'accueil de l'espace (format HTML)|
++-------------------+----------------------------------------------+
+
+
+*Retour:*
+
++-------------------+----------------------------------------+
+|   Header          |   Valeur                               |
++===================+========================================+
+|Content-Type       | application/json                       |
++-------------------+----------------------------------------+
+
++-----------------------+----------------------------------------------------+
+|   Clé                 |   Valeur                                           |
++=======================+====================================================+
+|gid                    | N° de l'espace crée                                |
++-----------------------+----------------------------------------------------+
