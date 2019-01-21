@@ -12,9 +12,10 @@ Basic
 
 La méthode d'authentification Basic est la méthode d'authentification classique définit dans la RFC 7617 controlée par le protocole HTTP (aussi appelée HTTP authentication).
 
-Elle nécessite de passer le header *Authorization* à une requête avec en valeur la chaine *Basic AUTHORIZATION_VALUE" ou *AUTHORIZATION_VALUE* est la chaine *username:password* encodée en base 64.
+Elle nécessite de passer le header *Authorization* à une requête avec en valeur la chaine *Basic AUTHORIZATION_VALUE* ou *AUTHORIZATION_VALUE* est la chaine *username:password* encodée en base 64.
 
-Exemple : Pour l'utilisateur user1:motdepasse1, il faudra passer la valeur *Basic dXNlcjE6bW90ZGVwYXNzZTE=*
+Exemple : Pour l'utilisateur user1:motdepasse1, il faudra passer la valeur :
+*Basic dXNlcjE6bW90ZGVwYXNzZTE=*
 
 Token
 **********************
@@ -24,13 +25,6 @@ La méthode d'authentification par token est utilisée pour générer une sessio
 Elle utilise la ressource *login*, l'action *token* et la méthode *GET*.
 
 .. CAUTION:: L'action *token* n'est pas disponible depuis l'API externe de GoFAST, elle est utilisée entre les composants internes de la plateforme.
-
-Cookie / Session
-**********************
-
-La méthode d'authentification par cookie ou par session est la méthode d'authentification classique de Drupal.
-
-Elle utilise la ressource *login*, l'action *session* et la méthode *GET*.
 
 Ressources
 ############################################
@@ -44,6 +38,8 @@ Action : token
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Cette action permet d'intéragir avec le système d'authentification par token.
+
+.. CAUTION:: L'action *token* n'est pas disponible depuis l'API externe de GoFAST, elle est utilisée entre les composants internes de la plateforme.
 
 GET
 __________
@@ -77,30 +73,6 @@ Cette méthode permet de récupérer un token d'authentification. Ce dernier est
 +=======================+====================================================+
 |token                  | Jeton d'authentification                           |
 +-----------------------+----------------------------------------------------+
-
-Action : session
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Cette action permet d'intéragir avec le système d'authentification par session.
-
-GET
-__________
-
-Cette méthode permet de récupérer un cookie de session. Ce dernier est valable pendant 10 heures.
-
-*GET: /api/login/session*
-
-+-------------------+--------------------------+
-|  Header           |   Valeur                 |
-+===================+==========================+
-|Content-Type       | application/json         |
-+-------------------+--------------------------+
-
-+-------------------+--------------------------+
-|  GET Parameter    |   Valeur                 |
-+===================+==========================+
-|    name*          |Username de l'utilisateur |
-+-------------------+--------------------------+
 
 Ressource : node
 **********************
