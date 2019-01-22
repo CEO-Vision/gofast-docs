@@ -650,3 +650,75 @@ Cette méthode permet de créer un *espace collaboratif* en passant par le méca
 +=======================+====================================================+
 |gid                    | N° de l'espace crée                                |
 +-----------------------+----------------------------------------------------+
+
+Ressource : taxonomy
+**********************
+
+Cette ressource permet d'intéragir avec la taxonomy de Drupal. La taxonomy permets d'associer des *termes* à un contenu (exemple : catégorie, importance...) 
+
+Action : terms
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Cette action permet d'intéragir avec les *termes* de la taxonomy de Drupal.
+
+GET
+__________
+
+Cette méthode permet de récupérer les *termes* de taxonomy associés à un vocabulaire
+
+.. NOTE:: Les valeurs de *vocabulary_name* disponibles peuvent être récupérés depuis l'action vocabularies. Exemple de valeurs exploitables : category, criticity, tags
+
+*GET: /api/taxonomy/terms*
+
++-------------------+--------------------------+
+|  Header           |   Valeur                 |
++===================+==========================+
+|Content-Type       | application/json         |
++-------------------+--------------------------+
+
++-------------------+----------------------------------------------+
+|  Clé              |   Valeur                                     |
++===================+==============================================+
+|  vocabulary_name* |Nom du vocabulaire                            |
++-------------------+----------------------------------------------+
+
+
+*Retour:*
+
++-------------------+----------------------------------------+
+|   Header          |   Valeur                               |
++===================+========================================+
+|Content-Type       | application/json                       |
++-------------------+----------------------------------------+
+
++-----------------------+-----------------------------------------------------------+
+|   Clé                 |   Valeur                                                  |
++=======================+===========================================================+
+|term_name              | Tableau contenant l'ID du terme et certaines informations |
++-----------------------+-----------------------------------------------------------+
+
+Action : vocabularies
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Cette action permet d'intéragir avec les *vocabularies* de la taxonomy de Drupal.
+
+GET
+__________
+
+Cette méthode permet de récupérer les *vocabularies* de la taxonomy de Drupal
+
+*GET: /api/taxonomy/vocabularies*
+
+*Retour:*
+
++-------------------+----------------------------------------+
+|   Header          |   Valeur                               |
++===================+========================================+
+|Content-Type       | application/json                       |
++-------------------+----------------------------------------+
+
++-----------------------+----------------------------------------------------------------+
+|   Clé                 |   Valeur                                                       |
++=======================+================================================================+
+|vocabulary_name        | Tableau contenant l'ID du vocabulary et certaines informations |
++-----------------------+----------------------------------------------------------------+
