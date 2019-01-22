@@ -268,11 +268,15 @@ Cette méthode permet de mettre à jour les métadonnées associés aux entités
            field_XXX : *Array*
                       0: VAL1, 
                       1: VAL2 
-          Les champs modifiables sont : field_category, field_state, field_emplacement, field_target_link, field_external_page_url, field_date, field_criticity, field_document_author
+          Ou comme cela selon le champ modifié
+            field_XXX : VAL
+          Les champs modifiables sont : field_category, field_state, field_emplacement, field_target_link, field_external_page_url, field_date, field_criticity, field_document_author, field_tags
 
 +-------------------+----------------------------------------+
 |  Clé              |   Valeur                               |
 +===================+========================================+
+|    nid*           |N° du noeud                             |
++-------------------+----------------------------------------+
 |    field_XXX      |Tableau contenant les valeurs du champ  |
 +-------------------+----------------------------------------+
 |    field_YYY      |Tableau contenant les valeurs du champ  |
