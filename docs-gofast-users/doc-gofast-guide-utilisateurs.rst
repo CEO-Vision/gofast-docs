@@ -100,9 +100,9 @@ Pré-requis nécessaires pour l’utilisation de GoFAST
    directement votre connexion via ce lien http://www.speedtest.net/
    (http://beta.speedtest.net/)
    
--  Une très bonne connexion pour la webconference en HD : jusqu'à 6MB/s peuvent être nécessaire  
+-  Une très bonne connexion pour la webconference en HD : jusqu'à 6MB/s peuvent être nécessaire. Certains filtrages réseaux peuvent empecher le fonctionnement de la webconference. Si https://gofast-docs.readthedocs.io/fr/latest/docs-gofast-users/doc-gofast-problemes-connus.html#webconference ne vous aide pas, contacter votre administrateur réseau en cas de problème.    
 
--  Résolution écran 1366x768 minimum
+-  Résolution écran 1366x768 minimum (format 16:9)
 
 Configuration/Installation supplémentaires optionnelles
 ---------------------------------------------------
@@ -2654,13 +2654,6 @@ travail (1.11 =>2.0).
 -  Pareil si un document est supprimé par erreur, seule sa dernière
    version majeure sera récupérable.
 
--  Pour une question d’espace de stockage, seules les 10 dernières
-   versions mineures seront encore consultables. Les antérieurs seront
-   archivées automatiquement. Il est donc préférable de créer des
-   versions majeures dès que le document atteint un certain cap de
-   validation (par exemple pour les DTF) et qu’on repart sur des bases
-   de travail « confirmées ».
-
 .. figure:: media-guide/image202.png
    :alt: 
 
@@ -3086,12 +3079,6 @@ ouvrir.
 
 .. figure:: media-guide/image237.png
    :alt: 
-
-.. NOTE::
-   Pour éviter de garder un trop grand nombre de versions mineures, il a
-   été décidé de ne garder que les 10 dernières et d’archiver
-   automatiquement celles qui sont antérieures, car tout garer prendrait
-   beaucoup trop d’espace sur le serveur.
 
 Les langues et traductions des documents
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

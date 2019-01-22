@@ -68,7 +68,7 @@ Sécurité
    
 
 
-HOTFIX
+HOTFIX (Version Enterprise)
 **********************
 .. csv-table::  
    :header: "Ref.", "Description", "Catégorie"
@@ -78,8 +78,26 @@ HOTFIX
    "[4587]", "[VERSION MOBILE] Faire une annotation n'affiche pas le commentaire sans avoir à rafraichir la page"
    "[4620]", "Il y a une erreur de transaction Alfresco quand erreur d'envoi de mail dans script de réplication"
    "[4643]", "La hauteur de de la fenêtre de prévisualisation doit être fixe"
-
-
+   "[4702]", "[3.5.0_1] Regression sur le fonctionnement du broadcast dans un espace privé"
+   "[4703]", "[3.5.0_1] Problème de performance base de donnnées lors d'une indexation en masse de documents"
+   "[4705]", "[3.5.0_2][IPAD] Imprécision de la sélection pour l'annotation"
+   "[4708]", "[3.5.0_2] Depuis page d'un espace, si on décoche tous les rôles d'un user, la membership ne disparait pas"
+   "[4714]", "[3.5.0_3][SECURITE] MAJ Drupal 7.61"
+   "[4704]", "[3.5.0_4] Pas possible d'annoter une seconde fois"
+   "[4716]", "[3.5.0_4] Erreur de droit lors d'une publication"
+   "[4718]", "[3.5.0_4] Supprimer des espaces à droite lors de la publication d'un document ne les suppriment pas réellement"
+   "[4719]", "[3.5.0_4] Partage par email : envoi en anglais au lieu de francais"
+   "[4722]", "[3.5.0_4] Mauvaise configuration de la popularité pour certains types de contenus"
+   "[4723]", "[3.5.0_5] La vérification d'orthographe ne s'active plus sous OnlyOffice"
+   "[4730]", "[3.5.0_5] Erreur si on partage un dossier qui est profond dans l'arborescence"
+   "[4731]", "[3.5.0_5] GFB passe par dessus le fil d'activité"
+   "[4732]", "[3.5.0_5] Dans certains cas des docs visibles en Webdav ne sont pas dans GoFAST"
+   "[4746]", "[3.5.0_6] Double envoi de mail lors de l'annulation de réunion"
+   "[4729]", "[3.5.0_7.0/8.0] Destinataires extranets n'apparaissent pas dans zone destinataires dans la notification de partage par mail"
+   "[4749]", "[3.5.0_9] Zone de glissé-déposé plus visible sur page d'accueil"
+   "[4750]", "[3.5.0_9] Impossible d'éditer en ligne un document depuis l'explorateur"
+   "[4756]", "[3.5.0_10] Page de filtres malformées lors d'une réactualisation de la page de recherche"
+   "[4757]", "[3.5.0_10] GFB mobile se met en erreur quand on va sur certaines pages d'espace"
 
 Bugs majeurs
 **********************
@@ -95,7 +113,7 @@ Bugs majeurs
    "[4340]", "La hauteur de la zone 'commentaire' n’est pas optimale et editeur riche mal positionné"
    "[4477]", "Des templates de documents vierges manquant lors de l'installation + image par defaut"
    "[4492]", "[BLOCKER] La popularité (scoring) ne change pas lorsqu’un document est sauvegardé"
-   "[4509]", "GFBrowser mobile passe au dessus du contenu dans certaines résolutions"
+   "[4509]", "GFB de gauche passe au dessus du contenu dans certaines résolutions"
    "[4521]", "Supprimer une publication depuis GFBrowser redirige vers la page d'accueil"
    "[4538]", "Mauvaise action listée dans le fil d'activité suite à la modification de l’importance"
    "[4552]", "Le formulaire de configuration de la DUA est vide"

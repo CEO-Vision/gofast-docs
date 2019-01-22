@@ -123,12 +123,16 @@ Impossible d'éditer en ligne des contenus PDF avec Acrobat Reader (v18)
 ===========================
 Il faut vérifier que l'application Acrobat Reader soit déjà fermée avant le lancer l'édition en ligne. Ce problème n'existe pas avec FoxitReader
 
-Webconference
+Problèmes Webconference
 =============
 
-.. CAUTION:: La webconference nécessite du matériel (PC et infrastructure réseau local et internet) récent et fonctionnel. 
+.. CAUTION:: La webconference nécessite du matériel (PC et infrastructure réseau local et internet) récent et fonctionnel. Des configurations réseaux spécifiques sont nécessaires. Vérifier ceci avec votre administrateur.
 
 .. NOTE:: L'utilisation de 4G permet d'avoir des débits meilleurs et moins de filtrage de ports que l'utilisation d'un simple ADSL. Nous avons constaté que l'utilisation d'une même navigateur pour tous les participants pouvait augmenter notablement la qualité, notamment avec FIREFOX v60+
+
+"Pas audio/video pour les autres participants"
+-----------------------------
+Vérifier avec votre administrateur réseau que les règles de filtrage ont été correctement appliquées. Il est possible de contourner temporairement ce type de problème en utilisant une connexion 4G.
 
 "Unfortunately, something went wrong" / "Un problème est survenu"
 -------------------------------------
@@ -149,3 +153,25 @@ Ce cas indique que IE11 est en mode de compatibilité (et fonctionne donc comme 
 Nb: Souvent il s'agit de décision pour garder la compatibilité avec des anciennes applications qui ne fonctionne pas avec une version récente d'IE (pourtant les seules recevant des correctifs sécurité puisque Microsoft a abandonné IE au profit de Edge)
 
 Pour changer ce mode, cliquer sur la roue crantée, "Outils de développement" et changer "Chaîne de l'agent utilisateur" par IE11 au lieu de IE10 (ici sur la copie d'écran)
+
+Problème de prévisualisation
+================
+Pas de streaming Video
+----------------------
+
+L'avantage du streaming video est de regarder directement une séquence video dans le navigateur (GoFAST) sans avoir à la télécharger. Sans plugin, ceci est dépendant du navigateur et du format video.
+
++------------+------------+-----------+-----------+-----------+-----------+
+| Format     | MP4        | WMV       |    FLV    |    AVI    |   OGV     |
++============+============+===========+===========+===========+===========+
+| Firefox    |  OUI       |  NON      |  NON      |    NON    |   NON     |
++------------+------------+-----------+-----------+-----------+-----------+
+| Chrome     |   OUI      |  NON      |  NON      |    NON    |   NON     |
++------------+------------+-----------+-----------+-----------+-----------+
+| IE11       |    NON     |   NON     |    NON    |    NON    |   NON     |
++------------+------------+-----------+-----------+-----------+-----------+
+| Safari     |    OUI     |   NON     |    NON    |    NON    |   NON     |
++------------+------------+-----------+-----------+-----------+-----------+
+| Edge     |    OUI     |   NON     |    NON    |    NON    |   NON     |
++------------+------------+-----------+-----------+-----------+-----------+
+
