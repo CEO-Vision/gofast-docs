@@ -600,15 +600,15 @@ Moteur de Recherche
 ===================
 
 Fonctionnement du Moteur de Recherche :
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+---------------------------------------
 Tout le contenu texte des documents (Word, Excel, PDF, mail, pages web, wiki, etc.) et leurs caractéristiques (les métadonnées) sont indexés. Vous trouvez une information précise ou un fichier par mots-clefs, même approximatifs (pluriel vs singulier, fautes de frappe, etc…) et sans avoir à connaitre le titre. Des mots-clefs approchants sont proposés en cas de recherche infructueuse.
 
 Le moteur de recherche restitue le résultat selon la pertinence : 
------------------------------------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Tout un ensemble de critères est pris en compte dans le calcul de cette pertinence : le nombre d’occurrences des mots-clefs recherchés, les emplacements des mots-clefs (ex : titre du fichier, d’un paragraphe dans le document…), les dates de création et modification (ex : un contenu récent sera privilégié vis-à-vis d’un document ancien), la popularité des contenus (ex : un document consulté souvent sera privilégié vis-à-vis d’un document qui n’a pas été consulté depuis des mois), etc.
 
 Liste des principaux formats pris en charge par l’extraction/indexation :
--------------------------------------------------------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 * HyperText Markup Language (HTML)
 * Fichiers vectoriels (SVG, VSD)
 * Formats XML et dérivés (XHTML, OOXML, ODF)
@@ -628,7 +628,7 @@ Liste des principaux formats pris en charge par l’extraction/indexation :
 * Formats e-mail (ex : eml, PST, MSG, TNEF)
 
 Rechercher un document avec des mots-clefs
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-------------------------------------------
 La barre de recherche se trouve dans le menu principale pour être accessible à tout moment, depuis toutes les pages de GoFAST. 
 Pour rechercher, il suffit de taper les mots clefs-souhaités et cliquer sur le bouton "loupe" ou faire "Entrer" sur son clavier. 
 
@@ -637,12 +637,12 @@ Une recherche avec 1 ou 2 mots-clefs sera élargie, alors qu'une recherche avec 
 Il est donc conseillé de rentrer peu de mots-clefs si on n’est pas certain des termes recherchés et au contraire, rentrer plus de 3 mots-clefs si on sais exactement ce qu’on cherche et qu’on est sûr des termes saisis. 
 
 Recherche avancée avec les opérateurs booléens 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-----------------------------------------------
 Par défaut, le moteur de recherche fonctionne avec la notion de "OU" : lorsqu'on saisit 2 mots-clefs le moteur va proposer les contenus avec le 1ère mot-clef OU l'autre mot-clef OU les 2 mots-clefs. 
 Cela permet un résultat de recherche très large, mais parfois il est nécessaire de restreindre la recherche. Il est alors possible d’utiliser les "opérateurs booléens" qui sont des symboles à mettre avant ou après les mots-clefs pour indiquer au moteur de recherche comment traiter ces mots-clefs en particulier (ex : mot obligatoire, à exclure, chaine de mots exacte, etc.).
 
 Liste des opérateurs booléens possibles :
------------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 * **AND** : intercalé entre les mots-clefs permet d'indiquer au moteur de recherche qu'il faut que tous les mots clefs soit présents (ex: Mémoire AND Technique AND Fonctionnalités)
 * **+** : ajouté devant un mot-clef permet de le rendre obligatoire (ex : Mémoire Technique +Fonctionnalités) pour indiquer au moteur de recherche que parmi les termes saisis, certains doivent obligatoirement être présents dans le document recherché. 
 * **"..."** : appliqués sur une suite de mots permet de rechercher une expression exacte (ex : "Mémoire Technique et Fonctionnalités GoFAST") et donc d’indiquer au moteur de recherche d’exclure les documents qui contiennent ses mots clefs s’ils ne sont pas exactement comme dans l’expression saisie. 
@@ -651,12 +651,12 @@ Liste des opérateurs booléens possibles :
 .. figure:: media-guide/operateurs-booleens.jpg
    :alt: 
 
-Consulter et filtrer le résultat de Recherche
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Consulter le résultat de Recherche
+---------------------------------------------
 .. NOTE:: Pour connaître la manière dont GoFAST restitue un résultat de recherche, merci de consulter la partie : "Le moteur de recherche restitue le résultat selon la pertinence"
 
 Pour chaque document affiché dans le résultat de recherche, vous pouvez consulter :
------------------------------------------------------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 * L’icône indiquant le type du document (fichier texte, tableur, PDF, image, vidéo…) ou autre contenu (forum, page Wiki, profil utilisateur, Espace Collaboratif…),
 * Le titre du fichier (un clic dessus permet d'aller sur la page du document), 
 * Le menu des actions possible sur un document (icône avec 3 petite barres à droite du titre du document), 
@@ -675,7 +675,7 @@ Ces mots en gras permettent une recherche contextuelle dans un document : en cli
 Cette recherche contextuelle offre un important gain de temps lorsqu’il faut trouver un élément précis dans un document en particulier ou pour en faire une lecture rapide.  
 
 Filtrer le résultat de recherche
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+--------------------------------
 Dans le cas où les mots-clefs saisis ne permettent pas de retrouver rapidement le document recherché, GoFAST propose de nombreux filtres.
 La liste des filtres est conditionnée au résultat de recherche, ex : si pour les mots-clefs saisis il n'y a aucun document de type PDF, ce format ne sera pas proposé dans les filtres disponibles.
 
@@ -699,7 +699,7 @@ Groupes de filtres disponibles :
    :alt: 
 
 Trier le résultat de recherche
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+------------------------------
 Par défaut, le résultat de recherche classe les documents par pertinence selon les mots-clefs recherchés (voir "fonctionnement du moteur de recherche").
  
 Il est toutefois possible de modifier de tri pour classer les contenus par : 
