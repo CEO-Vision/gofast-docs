@@ -596,35 +596,106 @@ Vous n’aurez donc accès qu’à **une organisation** dont vous êtes membre.
    sous-groupes collaboratifs pour pouvoir travailler avec ses collègues
    sur des projets/groupes de travail transversaux.
 
-Recherche
-=========
+Moteur de Recherche
+===================
 
-Rechercher un document
-----------------------
+Fonctionnement du Moteur de Recherche :
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Tout le contenu texte des documents (Word, Excel, PDF, mail, pages web, wiki, etc.) et leurs caractéristiques (les métadonnées) sont indexés. Vous trouvez une information précise ou un fichier par mots-clefs, même approximatifs (pluriel vs singulier, fautes de frappe, etc…) et sans avoir à connaitre le titre. Des mots-clefs approchants sont proposés en cas de recherche infructueuse.
 
-Ce domaine de fonctionnalité comme le moteur de recherche tient une place primordiale dans le concept GoFAST. La plateforme comprend les moyens de recherches variés et un puissant moteur de recherche. 
+Le moteur de recherche restitue le résultat selon la pertinence : 
+-----------------------------------------------------------------
+Tout un ensemble de critères est pris en compte dans le calcul de cette pertinence : le nombre d’occurrences des mots-clefs recherchés, les emplacements des mots-clefs (ex : titre du fichier, d’un paragraphe dans le document…), les dates de création et modification (ex : un contenu récent sera privilégié vis-à-vis d’un document ancien), la popularité des contenus (ex : un document consulté souvent sera privilégié vis-à-vis d’un document qui n’a pas été consulté depuis des mois), etc.
 
-Recherche automatique, avec filtres
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Liste des principaux formats pris en charge par l’extraction/indexation :
+-------------------------------------------------------------------------------------
+HyperText Markup Language (HTML)
+Fichiers vectoriels (SVG, VSD)
+Formats XML et dérivés (XHTML, OOXML, ODF)
+Documents Microsoft Office (DOC, PPT, EXL, DOCX, PPTX, PPSX, EXLX, etc.)
+OpenDocument Format (ODF)
+Documents iWorks
+Portable Document Format (PDF)
+Format de publication électronique (EPUB)
+Rich Text Format (RTF)
+Formats de compression et d'emballage (Tar, RAR, AR, CPIO, Zip, 7Zip, Gzip, BZip2, XZ et Pack200)
+Formats de texte (TXT)
+Formats de flux et de la syndication (RSS, Atom)
+Formats d'aide (CHM)
+Formats audio - au cas où il y a du texte intégré, ex : paroles (mp3, mp4, Vorbis, Speex, Opus, Flac etc.)
+Dossiers et archives de classe Java
+Code source (Java, C, C++, Groovy, etc)
+Formats e-mail (ex : eml, PST, MSG, TNEF) 
 
-Pour **rechercher un fichier** sur GoFAST 3, c’est le même principe
-qu’en GoFAST 2, il suffit d’écrire un mot ou le titre du document
-recherché dans la fenêtre de recherche.
+Rechercher un document avec des mots-clefs
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+La barre de recherche se trouve dans le menu principale pour être accessible à tout moment, depuis toutes les pages de GoFAST. 
+Pour rechercher, il suffit de taper les mots clefs-souhaités et cliquer sur le bouton "loupe" ou faire "Entrer" sur son clavier. 
 
-Exemple ici avec le mot « support », les résultats montrent les
-documents où « support » se trouve dans le titre ou dans le contenu du
-document.
+.. NOTE::
+Une recherche avec 1 ou 2 mots-clefs sera élargie, alors qu'une recherche avec 3 mots-clefs ou plus sera plus restreinte. En effet, avec 2 mots clefs le moteur de recherche va proposer des contenus qui ont soit les 2 mots-clefs, soit l'un des deux mots-clefs. Alors qu’avec plus de 3 mots-clefs le moteur de recherche va proposer des contenus qui répondent à au moins 75% de la recherche. Donc, plus il y a de mots-clefs, plus la recherche est précise. 
+Il est donc conseillé de rentrer peu de mots-clefs si on n’est pas certain des termes recherchés et au contraire, rentrer plus de 3 mots-clefs si on sais exactement ce qu’on cherche et qu’on est sûr des termes saisis. 
 
-On peut affiner la recherche avec les filtres, sur la droite : date de
-création, date de modification, type de document, catégorie, …
+Recherche avancée avec les opérateurs booléens 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Par défaut, le moteur de recherche fonctionne avec la notion de "OU" : lorsqu'on saisit 2 mots-clefs le moteur va proposer les contenus avec le 1ère mot-clef OU l'autre mot-clef OU les 2 mots-clefs. 
+Cela permet un résultat de recherche très large, mais parfois il est nécessaire de restreindre la recherche. Il est alors possible d’utiliser les "opérateurs booléens" qui sont des symboles à mettre avant ou après les mots-clefs pour indiquer au moteur de recherche comment traiter ces mots-clefs en particulier (ex : mot obligatoire, à exclure, chaine de mots exacte, etc.).
+
+Liste des opérateurs booléens possibles :
+-----------------------------------------
+* **AND** : intercalé entre les mots-clefs permet d'indiquer au moteur de recherche qu'il faut que tous les mots clefs soit présents (ex: Mémoire AND Technique AND Fonctionnalités)
+* **+** : ajouté devant un mot-clef permet de le rendre obligatoire (ex : Mémoire Technique +Fonctionnalités) pour indiquer au moteur de recherche que parmi les termes saisis, certains doivent obligatoirement être présents dans le document recherché. 
+* **" "** : appliqués sur une suite de mots permet de rechercher une expression exacte (ex : "Mémoire Technique et Fonctionnalités GoFAST") et donc d’indiquer au moteur de recherche d’exclure les documents qui contiennent ses mots clefs s’ils ne sont pas exactement comme dans l’expression saisie. 
+* **_*_** : ajoutée à la fin ou au début d’un mot-clef permet de le rendre approximatif (ex : Fonction*) et donc d’indiquer au moteur de recherche d’afficher les documents qui contiennent tous les termes qui ont pour racine le mot-clef sais. 
+
+.. figure:: media-guide/operateurs-booleens.jpg
+   :alt: 
+
+Consulter et filtrer le résultat de Recherche
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. NOTE:: Pour connaître la manière dont GoFAST restitue un résultat de recherche, merci de consulter la partie : "Le moteur de recherche restitue le résultat selon la pertinence"
+
+Pour chaque document affiché dans le résultat de recherche, vous pouvez consulter :
+-----------------------------------------------------------------------------------
+* L’icône indiquant le type du document (fichier texte, tableur, PDF, image, vidéo…) ou autre contenu (forum, page Wiki, profil utilisateur, Espace Collaboratif…),
+* Le titre du fichier (un clic dessus permet d'aller sur la page du document), 
+* Le menu des actions possible sur un document (icône avec 3 petite barres à droite du titre du document), 
+* Des "fragments" de texte qui sont des extraits du contenu avec les mots-clefs recherchés et qui permettent de vérifier si le document est bien celui que l’on cherche sans avoir à l’ouvrir (si plusieurs extraits sont trouvés, il est possible de les consulter l’un après l’autre en utilisant la pagination), 
+* Un bouton "prévisualiser" qui permet d’afficher un aperçu du document en un clic (NB : certains contenu ne le permettent pas car ne bénéficient pas la prévisualisation)
+* Des informations clefs sur le contenu (date de création/dernière modification, la popularité...)
+* Les étiquettes, catégories, l'importance et les états des documents. 
+
+.. figure:: media-guide/recherche-contextuelle.png
+   :alt:
+
+Recherche contextuelle dans un document :
+-----------------------------------------
+Le résultat de recherche permet de cliquer sur les mots-clefs mis en gras dans les titres et dans les extraits des contenus trouvés.
+Ces mots en gras permettent une recherche contextuelle dans un document : en cliquant sur un mot-clé mis en gras, vous accéder à la page du document avec dans la prévisualisation, la mise en évidence des mots-clefs recherchés et la possibilité de les passer l’un après l’autre. 
+Cette recherche contextuelle offre un important gain de temps lorsqu’il faut trouver un élément précis dans un document en particulier ou pour en faire une lecture rapide.  
+
+Filtrer le résultat de recherche
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Dans le cas où les mots-clefs saisis ne permettent pas de retrouver rapidement le document recherché, GoFAST propose de nombreux filtres.
+La liste des filtres est conditionnée au résultat de recherche, ex : si pour les mots-clefs saisis il n'y a aucun document de type PDF, ce format ne sera pas proposé dans les filtres disponibles.
+
+Groupes de filtres disponibles : 
+* Date de création, 
+* Date de modification, 
+* Type de document (selon le format de fichier), 
+* Etiquettes, 
+* Catégorie,
+* Espaces Collaboratifs,
+* Créateur, 
+* Dernier contributeur, 
+* Auteur, 
+* Etat, 
+* Importance, 
+* Langue,
+* Echéance.
 
 .. figure:: media-guide/image038.png
    :alt: 
-
-Lorsque vous visualisez une liste de résultats, des petits logos devant
-le nom du document vous permettent de savoir de quoi il s’agit : fichier
-Word, Excel, Power Point, Forum, groupe, organisation, …placez la souris
-dessus pour voir le type.
 
 .. figure:: media-guide/image039.png
    :alt: 
@@ -635,115 +706,19 @@ dessus pour voir le type.
 .. figure:: media-guide/image041.png
    :alt: 
 
-La fenêtre « **Derniers contenus vus** » vous permet de toujours voir la
-liste des 10 derniers documents consultés, ce qui est aussi un raccourci
-vers ces documents. Il suffit de cliquer sur le fichier pour le
-prévisualiser.
+Trier le résultat de recherche
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Par défaut, le résultat de recherche classe les documents par pertinence selon les mots-clefs recherchés (voir "fonctionnement du moteur de recherche").
+ 
+Il est toutefois possible de modifier de tri pour classer les contenus par : 
+* Titre (ordre alphabétique)
+* Auteur, 
+* Popularité
+* Date de création 
+* Date de modification, 
+* Type de document
 
-Recherche avancée par les opérateurs booléens 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Vous pouvez faire une recherche simple, en mettent les mots-clefs «nus», le   résultat   affiché   sera   celui,   jugé   le   plus pertinent par le moteur de recherche. Ou bien procéder à des recherches via des **opérateurs booléens** (en plus de la fonction tri et filtrage), en ajoutant:
-
- * **«AND»** pour Et doit avoir obligatoirement tous les mots-clefs demandés. 
- * **« - »** pour exckuse un mot-clef de la recherche. Le mot précédé par le caractère "-" ne doit pas être présent dans le document
- * **« + »**   pour rendre un mot-clef obligatoire. Le mot précédé par le caractère "+" doit être présent dans le document. 
- * **« »**  plusieurs mots clés entre les guillemets "" permettent de rechercher une phrase ou plusieurs groupe de mots liés ensemble dans la recherche 
-
-.. figure:: media-guide/operateurs-booleens.jpg
-   :alt: 
-
-Cette fonctionnalité permet d'accéder à une recherche avancée par mot-clef dans le moteur de recherche, et limiter le nombre de résultats. 
-
-
-
-Prévisualisation du texte contenant les mots-clés recherchés 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Le texte présentant les mots-clés recherchés est prévisualisé dans les résultats de la recherche. Vous pouvez passer d’un paragraphe à l’autre et ainsi consulter le contenu sans même devoir aller sur la page du document, ni l’ouvrir.
-
-.. figure:: media-guide/recherche-contextuelle.png
-   :alt:
-
-Lorsque vous cliquez sur le mot-clé affiché en gras (comme sur la copie d'écran), GoFAST vous renvoit automatiquement là où se trouve le mot-clé recherché dans le document. 
-
-Cette fonctionnalité permet un réel gain de temps dans la recherche. 
-
-
-Recherche dans l’arborescence / l’explorateur de fichiers
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Autre manière de **rechercher un fichier** ; **via l’arborescence**, si
-vous connaissez déjà le cheminement par les groupes/dossiers. Allez sur
-l’onglet « Espaces », puis choisissez l’espace /le groupe et/ou son
-sous-espace jusqu’au niveau souhaité.
-
-.. figure:: media-guide/image042.png
-   :alt: 
-
-Vous arriverez alors sur la page de l’espace, cliquez sur l’onglet
-« Documents » pour voir tous les dossiers et fichiers qui s’y trouvent .
-
-Ici aussi, il y a chaque fois un petit logo devant le fichier qui vous
-A tout moment, vous pouvez voir à quel niveau d’arborescence vous vous
-trouvez , soit au-dessus à gauche (dans l’encadré vert sur l’image) ,
-soit dans l’arborescence dans la colonne de gauche. Les + (et les –)
-devant les noms des espaces/répertoires vous permettent de voir les niveaux
-inférieurs.
-
-C’est dans cette partie que vous pouvez faire la **distinction entre les
-espaces et les répertoires** : les noms des espaces sont précédés par un
-underscore « \_ », alors qu’il n’y a rien devant les noms des répertoires.
-
-.. figure:: media-guide/Image-3.png
-   :alt: 
-
-.. figure:: media-guide/image044.png
-   :alt: 
-
-Lorsque vous avez trouvé le document, cliquez dessus pour le
-**prévisualiser.** Le principe reste le même que sur GoFAST 2, vous
-pouvez faire défiler les pages sans devoir ouvrir le document ; les
-informations/métadonnées associées au document se trouvent sur la
-fenêtre de droite (type, taille, catégorie, état, emplacement, version,
-langue, …)
-
-.. figure:: media-guide/image045.png
-   :alt: 
-
-Explorateur de fichiers / Arborescence de GoFAST
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Sous l’onglet « Espaces », en cliquant sur « Explorateur de fichiers »,
-vous pouvez aussi voir **l’arborescence de la GoFAST** et vos fichiers
-dans vos groupes.
-
-.. figure:: media-guide/image046.png
-   :alt: 
-
-Rechercher des personnes
-------------------------
-
-Vous pouvez chercher une personne via la **recherche automatique**,
-comme pour un document (voir plus haut) , soit via l’onglet
-« Annuaires » / « Utilisateurs » .
-
-.. figure:: media-guide/image047.png
-   :alt: 
-
-Vous voyez alors les « cartes de visite virtuelles » des utilisateurs,
-avec leur photo, nom, fonction, société, … par ce biais vous pouvez
-également directement les appeler, leur envoyer un mail ou les ajouter à
-votre réseau de relations.
-
-.. figure:: media-guide/image048.png
-   :alt: 
-
-Vous pouvez filtrer votre recherche d’utilisateurs par lettre
-alphabétique, organisation/groupe si vous savez dans quel service ils
-travaillent.
-
-(Voir Annuaire :"Chercher un utilisateur")
+.. NOTE:: trier le résultat de recherche sur un autre critère que la pertinence, peut afficher en haut de la liste des contenus qui correspondent mois bien aux mots-clefs saisis car le critère sélectionné pour le tri prime. 
 
 Création de contenus
 ====================
@@ -2942,20 +2917,25 @@ dessus et coller l’URL souhaité. Puis terminez en appuyant sur
 .. figure:: media-guide/image220.png
    :alt: 
 
-Etiquettes / mots-clés
-~~~~~~~~~~~~~~~~~~~~~~
+Etiquettes
+~~~~~~~~~~
 
-Correspond aux **mots-clés** qu’il y avait dans GoFAST 2, ce qui permet
-aussi de faciliter la recherche automatique par la suite en filtrant par
-mot-clé. Nouveauté dans GoFAST 3 ; vous pouvez vous abonner à ces
-étiquettes/mots-clés , ce qui reviendra un peu près au même que de vous
-abonner à un thème. (exemple : agriculture, digitalisation, …)
+Les "Etiquettes" sont des mots-clés que les utilisateurs peuvent à tout moment ajouter aux documents. 
 
-Pareil que pour les autres métadonnées, allez au niveau de « Etiquette »
-avec la souris, la ligne deviendra bleuté, appuyez sur la case
-« Modifier », entrez votre mot-clé puis « Appliquer ». Il suffit de
-taper les 2-3 premières lettres d’un mot et le système vous proposera
-des mots-clés déjà enregistrés ou ajoutez un tout nouveau mot.
+Ces étiquettes sont utiles dans les cas suivants :
+--------------------------------------------------
+* Informer les autre utilisateurs qui consultent le document sur la thématique ou une spécificité liée au document,
+* Retrouver plus facilement certains contenus car les étiquettes sont indexées par le moteur de recherche et donnent un poids supplémentaire qui remonte ces contenus dans le résultat,
+* Pouvoir filtrer un résultat de recherche par "étiquette" (ex : on recherche "documentation" et on filtre avec l'étiquette "GoFAST"),
+* Pouvoir s'abonner à ces étiquettes pour être notifié de l'activité des documents ayant cette étiquette (chaque abonnement à une "étiquette" peut être paramétré par l'utilisateur pour sa fréquence).
+* Pouvoir retrouver des fichiers qui sont dans des formats autres que texte (ex : les images, les vidéo, PDF images, etc.)
+
+Pour ajouter ou enlever une "étiquette" :
+-----------------------------------------
+* Allez au niveau de "Etiquettes" avec la souris et le bouton "Modifier" apparaît,
+* Cliquer sur le bouton "Modifier" pour ouvrir la popup de modification des étiquettes,
+* Pour ajouter une étiquette, il faut commencer à taper le mot souhaité et des suggestions vous seront proposées. Cliquez sur une des suggestions ou sur "nouveau terme" si aucune suggestion ne vous convient. Enfin, cliquez sur "Appliquer" pour enregistrer les modifications,
+* Pour enlever une étiquette existante, il suffit de cliquer sur la petite croix au niveau de l'étiquette.
 
 .. figure:: media-guide/image221.png
    :alt: 
@@ -2963,14 +2943,11 @@ des mots-clés déjà enregistrés ou ajoutez un tout nouveau mot.
 .. figure:: media-guide/image222.png
    :alt: 
 
-Un message en bleu vous rappelle d’actualiser votre changement en
-cliquant sur les petites flèches rondes rouges.
-
-.. figure:: media-guide/image223.png
-   :alt: 
-
-Pour vous **abonner ou désabonner** à ce « sujet »/ cette étiquette,
-revenez-y et cliquez dessus.
+S'abonner ou se désaboner des "Etiquettes" : 
+--------------------------------------------
+L'abonnement à des étiquettes permet d'être notifié sur l'activité des contenus selon une thématique ou un sujet spécifique (ex: on est membre d'un espace de travail, mais plutôt que d'être notifié sur toute l'activité de cet espace, on fait le choix d'être notifié sur les documents ayant une étiquette précise). 
+Sur la page d'un document, pour vous abonner ou vous désabonner d'une étiquette, il faut cliquer sur la petite icône d'abonnement.
+Ensuite, il est possible de paramétrer la fréquence de ses notifications selon les étiquettes (dans le menu du profil utilisateur, entrée "Abonnements").
 
 .. figure:: media-guide/image224.png
    :alt:
@@ -2978,21 +2955,18 @@ revenez-y et cliquez dessus.
 .. figure:: media-guide/image225.png
    :alt:
 
-Un message vert , dans le coin droit supérieur, vous confirmera votre
-abonnement ou désabonnement à ce terme.
+Un message apparaît dans le coin droit supérieur, pour vous confirmer la prise en compte de l'abonnement ou du désabonnement.
 
 .. figure:: media-guide/image226.png
    :alt: 
 
-Le petit symbole des 3 courbes apparaîtra en rouge si vous êtes abonné à
-ce terme et en bleu si vous n’y êtes pas abonné.
+L'icône d'abonnement apparaîtra en rouge dans l'étiquette si vous êtes abonné à ce terme, et en bleu si vous n’y êtes pas abonné.
 
 .. figure:: media-guide/image227.png
    :alt: 
 
 Échéance
 ~~~~~~~~
-
 Consiste à donner une **date d’échéance** au document, c’est-à-dire
 qu’un rappel par notification vous sera envoyé par rapport à ce document
 à cette date.
@@ -3032,12 +3006,14 @@ Cette métadonnée permet d’ajouter un filtre à votre recherche
 automatique et ….. ? (listing résultat ?) (en attente réponse CEO
 vision)
 
-Auteur/propriétaire du document
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Auteur du document
+~~~~~~~~~~~~~~~~~~
 
-Le fait d’indiquer **l’auteur/le créateur** du document permet de savoir
+Le fait d’indiquer **l’auteur** du document permet de savoir
 à qui s’adresser en cas de question et d’ajouter un filtre lors de la
 recherche.
+
+Si le fichier déposé sur GoFAST contient une métadonnée "auteur" (ex: un fichier Word indique dans les informations du document que l'auteur est "Christopher"), ça sera automatiquement récupéré depuis le fichier par GoFAST et affiché sur la page du document. 
 
 .. figure:: media-guide/image233.png
    :alt: 
@@ -4068,7 +4044,7 @@ Nous vous proposons une version simplifiée de la plateforme pour plus de facili
 Vous pouvez alors mettre à jour une version d'un document, ou encore ajouter un commentaire 
 
 
-5. Le moteur de recherche 
+5. Moteur de Recherche 
 -------------------------
 
 .. figure:: media-guide/Mobile-Recherche-Menu-Modified.png
