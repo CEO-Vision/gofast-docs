@@ -712,6 +712,7 @@ Trier le résultat de recherche
 Par défaut, le résultat de recherche classe les documents par pertinence selon les mots-clefs recherchés (voir "fonctionnement du moteur de recherche").
  
 Il est toutefois possible de modifier de tri pour classer les contenus par : 
+
 * Titre (ordre alphabétique)
 * Auteur, 
 * Popularité
