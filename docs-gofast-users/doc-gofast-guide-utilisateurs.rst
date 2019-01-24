@@ -698,15 +698,6 @@ Groupes de filtres disponibles :
 .. figure:: media-guide/image038.png
    :alt: 
 
-.. figure:: media-guide/image039.png
-   :alt: 
-
-.. figure:: media-guide/image040.png
-   :alt: 
-
-.. figure:: media-guide/image041.png
-   :alt: 
-
 Trier le résultat de recherche
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Par défaut, le résultat de recherche classe les documents par pertinence selon les mots-clefs recherchés (voir "fonctionnement du moteur de recherche").
