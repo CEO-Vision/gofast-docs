@@ -1,6 +1,7 @@
 ********************************************
 GoFAST Community :  Installation
 ********************************************
+.. note:: For english instruction please follow this link: https://ceo-vision.readthedocs.io/en/latest/docs/en/doc-gofast-community-install.html
 
 Instructions (par image)
 ------------
