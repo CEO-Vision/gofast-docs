@@ -46,3 +46,4 @@ Documentation GoFAST
    :caption: Ressources développeur GoFAST
    
    docs-gofast-development/api-rest
+   docs-gofast-development/bonita
