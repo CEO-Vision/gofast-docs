@@ -515,6 +515,48 @@ Cette méthode permet de récupérer les versions d'un contenu Alfresco associé
 |comment                | Commentaire associé à la version                   |
 +-----------------------+----------------------------------------------------+
 
+Action : autocomplete
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Cette action permet d'intéragie avec le système d'autocomplétion des entités *node* de Drupal.
+
+GET
+__________
+
+Cette méthode permet de récupérer une liste de noeuds en fonction de la chaine passée en input et des bundles demandés.
+
+*GET: /api/node/autocomplete*
+
++-------------------+--------------------------+
+|  Header           |   Valeur                 |
++===================+==========================+
+|Content-Type       | application/json         |
++-------------------+--------------------------+
+
++-------------------+--------------------------------------------------------------------+
+|  Clé              |   Valeur                                                           |
++===================+====================================================================+
+|  str*             |Input                                                               |
++-------------------+--------------------------------------------------------------------+
+|  bundles          |Liste de bundles séparés par une virgule (alfresco_item par default)|
++-------------------+--------------------------------------------------------------------+
+
+
+*Retour:*
+
++-------------------+----------------------------------------+
+|   Header          |   Valeur                               |
++===================+========================================+
+|Content-Type       | application/json                       |
++-------------------+----------------------------------------+
+
++-----------------------+-----------------------------------------------------------+
+|   Clé                 |   Valeur                                                  |
++=======================+===========================================================+
+|uid                    | Quelques informations de base sur l'utilisateur           |
++-----------------------+-----------------------------------------------------------+
+
+
 Ressource : comment
 **********************
 
@@ -726,3 +768,89 @@ Cette méthode permet de récupérer les *vocabularies* de la taxonomy de Drupal
 +=======================+================================================================+
 |vocabulary_name        | Tableau contenant l'ID du vocabulary et certaines informations |
 +-----------------------+----------------------------------------------------------------+
+
+Ressource : user
+**********************
+
+Cette ressource permet d'intéragir avec les entités *user* de Drupal. Ces entités représentent les utilisateurs enregistrés sur la plateforme.
+
+Action : autocomplete
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Cette action permet d'intéragie avec le système d'autocomplétion des entités *user* de Drupal.
+
+GET
+__________
+
+Cette méthode permet de récupérer une liste d'utilisateurs en fonction de la chaine passée en input.
+
+*GET: /api/user/autocomplete*
+
++-------------------+--------------------------+
+|  Header           |   Valeur                 |
++===================+==========================+
+|Content-Type       | application/json         |
++-------------------+--------------------------+
+
++-------------------+----------------------------------------------+
+|  Clé              |   Valeur                                     |
++===================+==============================================+
+|  str*             |Input                                         |
++-------------------+----------------------------------------------+
+
+
+*Retour:*
+
++-------------------+----------------------------------------+
+|   Header          |   Valeur                               |
++===================+========================================+
+|Content-Type       | application/json                       |
++-------------------+----------------------------------------+
+
++-----------------------+-----------------------------------------------------------+
+|   Clé                 |   Valeur                                                  |
++=======================+===========================================================+
+|uid                    | Quelques informations de base sur l'utilisateur           |
++-----------------------+-----------------------------------------------------------+
+
+Ressource : locations
+**********************
+
+Cette ressource permet d'intéragir avec les emplacements disponibles sur Alfresco (l'ensemble des dossiers et espaces d'un point de vue GED uniquement)
+
+Action : tree
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Cette action permet de récupérer un *tree* d'emplacements au format JSON compatible avec le composant ZTree.
+
+GET
+__________
+
+Cette méthode permet de récupérer un *tree* d'emplacements au format JSON compatible avec le composant ZTree.
+
+*GET: /api/locations/tree*
+
++-------------------+--------------------------+
+|  Header           |   Valeur                 |
++===================+==========================+
+|Content-Type       | application/json         |
++-------------------+--------------------------+
+
++-------------------+----------------------------------------------+
+|  Clé              |   Valeur                                     |
++===================+==============================================+
+
+
+*Retour:*
+
++-------------------+----------------------------------------+
+|   Header          |   Valeur                               |
++===================+========================================+
+|Content-Type       | application/json                       |
++-------------------+----------------------------------------+
+
++-----------------------+----------------------------------------------------------------------+
+|   Clé                 |   Valeur                                                             |
++=======================+======================================================================+
+|tree                   | Chaine au format JSON directement exploitable par la librairie ZTree |
++-----------------------+----------------------------------------------------------------------+
