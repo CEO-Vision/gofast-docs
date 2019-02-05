@@ -1,6 +1,7 @@
 ********************************************
 GoFAST Community :  Installation
 ********************************************
+.. note:: For english instruction please follow this link: https://ceo-vision.readthedocs.io/en/latest/docs/en/doc-gofast-community-install.html
 
 Instructions (par image)
 ------------
@@ -13,7 +14,7 @@ Instructions (par image)
 
 ``login : root`` ``password : @C0mmunity!`` ( c’est un zero et non un O) 
 
-–Etape 4: Configurer l'adresse IP par exemple dans  ``/etc/sysconfig/network-scripts/ifcfg-enp0s3`` et rentrer IPADDR  =  Adresse souhaiter à la place de “192.168.8.212”
+–Etape 4: Configurer l'adresse IP par exemple dans  ``/etc/sysconfig/network-scripts/ifcfg-enp0s3`` et rentrer IPADDR  =  Adresse souhaitée à la place de “192.168.8.212”
 
 –Étape 5: Déclarer l'adresse complète ex. ``gofast-community.mydomain.com`` correspondant à l'IP dans votre fichier hosts ou dans le DNS
 
