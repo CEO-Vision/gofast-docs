@@ -3,6 +3,10 @@ GoFAST Community :  Installation
 ********************************************
 .. note:: For english instruction please follow this link: https://ceo-vision.readthedocs.io/en/latest/docs/en/doc-gofast-community-install.html
 
+.. note::
+If you have problems, you can ask some help on our Community forums: https://community.ceo-vision.com
+
+
 Instructions (pour AWS)
 ------------
 
