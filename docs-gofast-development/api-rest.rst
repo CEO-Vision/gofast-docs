@@ -823,7 +823,7 @@ Action : tree
 
 Cette action permet de récupérer un *tree* d'emplacements au format JSON compatible avec le composant ZTree.
 
-GET
+POST
 __________
 
 Cette méthode permet de récupérer un *tree* d'emplacements au format JSON compatible avec le composant ZTree.
@@ -839,7 +839,8 @@ Cette méthode permet de récupérer un *tree* d'emplacements au format JSON com
 +-------------------+----------------------------------------------+
 |  Clé              |   Valeur                                     |
 +===================+==============================================+
-
+|ename              | Chemin à partir duquel récupérer les enfants |
++-------------------+----------------------------------------------+
 
 *Retour:*
 
