@@ -26,6 +26,19 @@ Instructions (par image)
 
 POUR INFO: Pour vous connecter en SSH à votre machine : Le login utilisateur est ``root`` et le mot de passe correspond au mot de passe technique que vous avez configuré. ( Par défaut avant la configuration du mot de passe technique : ``@C0mmunity`` ).
 
+Démarrons ! 
+-------------
+
+Vous devez créer quelques utilisateurs et des espaces collaboratifs (et sous-espaces).
+
+Les espaces peuvent être de différents types, "Organisation" (départements, ...), "Groupes" (projets, ...), "Extranet" (partenaires, clients, ...). Voir la documentation en ligne ici : https://gofast-docs.readthedocs.io/fr/latest/docs-gofast-users/doc-gofast-guide-utilisateurs.html#gerer-un-espace-collaboratif-groupe
+
+Dans les sous-espaces créés, ajouter des membres qui pourront avoir accès au contenu de cet espace. Ajoutez des sous-espaces si nécessaire.
+
+Ajoutez du contenu en utilisant le glisser-déposer dans le "GoFAST File Browser" (explorateur de fichiers)
+
+Vous êtes prêt pour démarrer !
+
 (METHODE OBSOLETE : < v352r5-05022019 ) 
 
 –Étape 1: Télécharger l’image sur le site https://www.ceo-vision.com/fr/content/gofast-community-ged-plateforme-collaborative-opensource (.ova, ...)
