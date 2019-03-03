@@ -18,7 +18,7 @@ Instructions (par image)
 
 –Étape 2: Instancier l'image dans votre logiciel de Virtualisation 
 
--Étape 3: Se connecter à la machine virtuelle et lancer ``nmtui`` pour configurer le réseau (adresse IP fixe, passerelle ...) 
+-Étape 3: Se connecter à la machine virtuelle et lancer ``nmtui`` pour configurer le réseau (adresse IP fixe, passerelle ...). Voir https://gofast-docs.readthedocs.io/fr/latest/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.html#configuration-du-reseau-par-lexploitant
 
 –Étape 4: Se rendre sur ``https://votre_adresse_ip`` et faire la configuration de la plate-forme.
 
