@@ -18,7 +18,7 @@ Instructions (par image)
 
 –Étape 2: Instancier l'image dans votre logiciel de Virtualisation 
 
--Étape 3: Configurer une adresse IP sur votre machine virtuelle
+-Étape 3: Se connecter à la machine virtuelle et lancer ``nmtui`` pour configurer le réseau (adresse IP fixe, passerelle ...) 
 
 –Étape 4: Se rendre sur ``https://votre_adresse_ip`` et faire la configuration de la plate-forme.
 
