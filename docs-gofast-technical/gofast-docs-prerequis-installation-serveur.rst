@@ -369,8 +369,30 @@ Post-installation de la VM (Enterprise only)
 
 .. class::
    Enterprise only
+   
+   
+Configuration du réseau (par l’Exploitant)
+--------------------------------------------
+- Se connecter en SSH à la VM et lancer ``nmtui``
+- Choisir ``Edit a connection`` puis l'interface, normalement ``ems33``
+.. figure:: media/nmtui-select-edit-connection.png
+   :alt:
+- Cliquer sur ``Show`` au niveau de ``IP v4 Configuration``
+- Renseigner les informations (Manual, Addresses, Gateway, DNS serveurs)
+.. figure:: media/nmtui-edit-connection.png
+   :alt:
+.. NOTE::
+   Si votre GoFAST est accessible d'Internet, l'adresse est une IP publique
+.. NOTE::
+   Dans un environnement virtualisé, la passerelle (gateway) est l'adresse IP du host avec la fin remplacée par .254
+   
+- Sélectionner ``OK``
+- Choisir ``Set system hostname`` normalement le même nom que celui ensuite entré dans les DNS
+- Sortir de l'application
+- ``reboot``
+- A la reconnection, vérifier qu'internet est accessible ``ping 8.8.8.8``
 
-Configuration / Paramétrage par l’Exploitant
+Configuration / Paramétrage (par l’Exploitant)
 --------------------------------------------
 
 .. NOTE::
