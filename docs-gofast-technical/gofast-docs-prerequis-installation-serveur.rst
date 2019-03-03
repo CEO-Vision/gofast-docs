@@ -446,19 +446,12 @@ Configuration / Paramétrage par CEO-Vision
 
 -  Installation de la charte graphique
 
--  Installation des sondes de supervision
+-  Activation des sondes de supervision
 
-Installation des sondes (en option sauf abonnement XXL)
+-  Installation des sondes APM (édition XXL)
+
+Installation des sondes APM (en option sauf abonnement XXL)
 -----------------------
-
-Installation de l'agent Serveur (monitoring physique)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-::
-
-        # rpm -Uvh https://yum.newrelic.com/pub/newrelic/el5/x86_64/newrelic-repo-5-3.noarch.rpm
-        # yum install newrelic-sysmond
-        # nrsysmond-config --set license_key=YOUR_LICENSE_KEY
-        # /etc/init.d/newrelic-sysmond start
 
 Installation de l'agent PHP (monitoring applicatif)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
