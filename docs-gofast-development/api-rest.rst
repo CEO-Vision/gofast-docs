@@ -270,7 +270,60 @@ Cette méthode permet de mettre à jour les métadonnées associés aux entités
                       1: VAL2 
           Ou comme cela selon le champ modifié
             field_XXX : VAL
-          Les champs modifiables sont : field_category, field_state, field_emplacement, field_target_link, field_external_page_url, field_date, field_criticity, field_document_author, field_tags
+          Les champs modifiables sont : field_category, field_state, field_target_link, field_external_page_url, field_date, field_criticity, field_document_author, field_tags
+
++-------------------+----------------------------------------+
+|  Clé              |   Valeur                               |
++===================+========================================+
+|    nid*           |N° du noeud                             |
++-------------------+----------------------------------------+
+|    field_XXX      |Tableau contenant les valeurs du champ  |
++-------------------+----------------------------------------+
+|    field_YYY      |Tableau contenant les valeurs du champ  |
++-------------------+----------------------------------------+
+
+*Retour:*
+
++-------------------+----------------------------------------+
+|   Header          |   Valeur                               |
++===================+========================================+
+|Content-Type       | application/json                       |
++-------------------+----------------------------------------+
+
++-----------------------+----------------------------------------------------+
+|   Clé                 |   Valeur                                           |
++=======================+====================================================+
+|Field_XXX              | Tableau contenant le retour de la fonction         |
++-----------------------+----------------------------------------------------+
+|Field_YYY              | Tableau contenant le retour de la fonction         |
++-----------------------+----------------------------------------------------+
+
+PATCH
+__________
+
+Cette méthode permet d'ajouter une valeur à certaines métadonnées associés aux entités de type noeud
+
+*PATCH: /api/node/metadata*
+
++-------------------+--------------------------+
+|  Header           |   Valeur                 |
++===================+==========================+
+|Content-Type       | application/json         |
++-------------------+--------------------------+
+
+.. NOTE:: Contrairement au retour de la méthode GET, les valeurs ne doivent pas êtres listés de cette manière
+           field_XXX : *Array*
+                      0: value: *Array*
+                              VAL1
+                      1: value: *Array*
+                              VAL2
+          Mais plutôt comme ceci
+           field_XXX : *Array*
+                      0: VAL1, 
+                      1: VAL2 
+          Ou comme cela selon le champ modifié
+            field_XXX : VAL
+          Les champs alterables sont : field_target_link, field_external_page_url, field_tags
 
 +-------------------+----------------------------------------+
 |  Clé              |   Valeur                               |
