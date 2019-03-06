@@ -18,28 +18,24 @@ Instructions (par image)
 
 –Étape 2: Instancier l'image dans votre logiciel de Virtualisation 
 
--Étape 3: Configurer une adresse IP sur votre machine virtuelle
+-Étape 3: Se connecter à la machine virtuelle et lancer ``nmtui`` pour configurer le réseau (adresse IP fixe, passerelle ...). Voir https://gofast-docs.readthedocs.io/fr/latest/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.html#configuration-du-reseau-par-lexploitant
 
 –Étape 4: Se rendre sur ``https://votre_adresse_ip`` et faire la configuration de la plate-forme.
 
 -Étape 5: Pour pouvoir utiliser l'adresse complète, déclarer la avec son adresse IP dans le fichier hosts ou dans le DNS
 
-POUR INFO: Pour vous connecter en SSH à votre machine : Le login utilisateur est ``root`` et le mot de passe correspond au mot de passe technique que vous avez configuré. ( Par défaut avant la configuration du mot de passe technique : ``@C0mmunity`` ).
+.. note:: Pour vous connecter en SSH à votre machine : Le login utilisateur est ``root`` et le mot de passe correspond au mot de passe technique que vous avez configuré. ( Par défaut avant la configuration du mot de passe technique : ``@C0mmunity!`` ).
 
-(METHODE OBSOLETE : < v352r5-05022019 ) 
+Démarrons ! 
+-------------
 
-–Étape 1: Télécharger l’image sur le site https://www.ceo-vision.com/fr/content/gofast-community-ged-plateforme-collaborative-opensource (.ova, ...)
+Vous devez créer quelques utilisateurs et des espaces collaboratifs (et sous-espaces).
 
-–Étape 2: Instancier l'image dans votre logiciel de Virtualisation 
+Les espaces peuvent être de différents types, "Organisation" (départements, ...), "Groupes" (projets, ...), "Extranet" (partenaires, clients, ...). Voir la documentation en ligne ici : https://gofast-docs.readthedocs.io/fr/latest/docs-gofast-users/doc-gofast-guide-utilisateurs.html#gerer-un-espace-collaboratif-groupe
 
-–Étape 3: Se connecter à cette instance à l’aide des identifiants suivants 
+Dans les sous-espaces créés, ajouter des membres qui pourront avoir accès au contenu de cet espace. Ajoutez des sous-espaces si nécessaire.
 
-``login : root`` ``password : @C0mmunity!`` ( c’est un zero et non un O) 
+Ajoutez du contenu en utilisant le glisser-déposer dans le "GoFAST File Browser" (explorateur de fichiers)
 
-–Etape 4: Configurer l'adresse IP par exemple dans  ``/etc/sysconfig/network-scripts/ifcfg-enp0s3`` et rentrer IPADDR  =  Adresse souhaitée à la place de “192.168.8.212”
+Vous êtes prêt pour démarrer !
 
-–Étape 5: Déclarer l'adresse complète ex. ``mygf-community.ceo-vision.com`` correspondant à l'IP dans votre fichier hosts ou dans le DNS
-
-–Étape 6: Se rendre sur ``https://mygf-community.ceo-vision.com`` et faire la configuration de la plate-forme.
-
--Étape 7: Changer la nouvelle adresse complète dans le fichier hosts ou dans le DNS

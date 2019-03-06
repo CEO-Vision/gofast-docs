@@ -52,7 +52,9 @@ Architecture
 +--------------------------------------+--------------------------------------+
 |Serveur API                           | Apache Tomcat 7                      |
 +--------------------------------------+--------------------------------------+
-|Workflow                              | Bonitasoft Community 6               |
+|Workflow (GoFAST 3.6+)                | Bonitasoft Community 7               |
++--------------------------------------+--------------------------------------+
+|Workflow (<GoFAST 3.6+)               | Bonitasoft Community 6               |
 +--------------------------------------+--------------------------------------+
 
 .. image:: media/Tag-Enterprise.png
@@ -248,7 +250,7 @@ et en sortie.
 |                                                                |          +----------+----------------------+               |
 |                                                                |          | x        | 3478/TCP***          |               |
 |                                                                |          +----------+----------------------+               |
-|                                                                |          | \(x\)    | 4443/TCP*            |               |
+|                                                                |          | \(x\)    | 80/TCP*              |               |
 |                                                                |          +----------+----------------------+               |
 |                                                                |          | x        | 10000-20000/UDP**    |               |
 +----------------------------------------------------------------+----------+----------+----------------------+---------------+
@@ -367,8 +369,30 @@ Post-installation de la VM (Enterprise only)
 
 .. class::
    Enterprise only
+   
+   
+Configuration du réseau (par l’Exploitant)
+--------------------------------------------
+- Se connecter en SSH à la VM et lancer ``nmtui``
+- Choisir ``Edit a connection`` puis l'interface, normalement ``ems33``
+.. figure:: media/nmtui-select-edit-connection.png
+   :alt:
+- Cliquer sur ``Show`` au niveau de ``IP v4 Configuration``
+- Renseigner les informations (Manual, Addresses, Gateway, DNS serveurs)
+.. figure:: media/nmtui-edit-connection.png
+   :alt:
+.. NOTE::
+   Si votre GoFAST est accessible d'Internet, l'adresse est une IP publique
+.. NOTE::
+   Dans un environnement virtualisé, la passerelle (gateway) est l'adresse IP du host avec la fin remplacée par .254
+   
+- Sélectionner ``OK``
+- Choisir ``Set system hostname`` normalement le même nom que celui ensuite entré dans les DNS
+- Sortir de l'application
+- ``reboot``
+- A la reconnection, vérifier qu'internet est accessible ``ping 8.8.8.8``
 
-Configuration / Paramétrage par l’Exploitant
+Configuration / Paramétrage (par l’Exploitant)
 --------------------------------------------
 
 .. NOTE::
@@ -422,19 +446,12 @@ Configuration / Paramétrage par CEO-Vision
 
 -  Installation de la charte graphique
 
--  Installation des sondes de supervision
+-  Activation des sondes de supervision
 
-Installation des sondes (en option sauf abonnement XXL)
+-  Installation des sondes APM (édition XXL)
+
+Installation des sondes APM (en option sauf abonnement XXL)
 -----------------------
-
-Installation de l'agent Serveur (monitoring physique)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-::
-
-        # rpm -Uvh https://yum.newrelic.com/pub/newrelic/el5/x86_64/newrelic-repo-5-3.noarch.rpm
-        # yum install newrelic-sysmond
-        # nrsysmond-config --set license_key=YOUR_LICENSE_KEY
-        # /etc/init.d/newrelic-sysmond start
 
 Installation de l'agent PHP (monitoring applicatif)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

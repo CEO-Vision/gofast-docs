@@ -42,7 +42,6 @@ Sécurité
    "[4812]","SECURITE : Mise à jour Bootstrap 3.x-3.22"
    "[3752]","Renforcement de la politique de mot de passe"
    "[4453]","Installation/Mise à jour : Meilleure gestion des versions des composants"
-   "[3752]","Renforcement de la politique de mot de passe"
    "[4818]","Renforcement de la politique de confinement du processus du moteur de recherche"
    
   
