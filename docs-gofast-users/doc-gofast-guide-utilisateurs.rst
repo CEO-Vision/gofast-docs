@@ -85,7 +85,7 @@ Pré-requis nécessaires pour l’utilisation de GoFAST
    également sur les versions récentes d’Internet Explorer 11 pas en mode compatibilité (sauf
    webconference), Edge (sauf webconference), en plus d’Opera 
 
--  Navigateur MacOS : Safari 10+ (sauf webconference), Chrome 65+
+-  Navigateur MacOS : Safari 12+ (sauf webconference), Chrome 65+
 
 -  Navigateur Linux : Firefox 57+
    
