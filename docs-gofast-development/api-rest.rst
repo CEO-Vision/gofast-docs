@@ -148,7 +148,7 @@ Cette méthode permet de récupérer des informations génériques d'une entité
 POST
 __________
 
-Cette méthode permet de créer une entité de type noeud. Si ce noeud est de type alfresco_item, il est obligatoire d'y ajouter un fichier. 
+Cette méthode permet de créer une entité de type noeud. Si ce noeud est de type alfresco_item et qu'il n'est pas crée à partir d'un modèle, il est obligatoire d'y ajouter un fichier. 
 
 *POST: /api/node/node*
 
@@ -158,11 +158,11 @@ Cette méthode permet de créer une entité de type noeud. Si ce noeud est de ty
 |Content-Type       | multipart/form-data      |
 +-------------------+--------------------------+
 
-+-------------------+---------------------------------------------------------------+
-|  Clé              |   Valeur                                                      |
-+===================+===============================================================+
-|    file**         | Le fichier à charger (si le type de noeud est 'alfresco_item')|
-+-------------------+---------------------------------------------------------------+
++-------------------+-----------------------------------------------------------------------------------------------------------------+
+|  Clé              |   Valeur                                                                                                        |
++===================+=================================================================================================================+
+|    file**         | Le fichier à charger (si le type de noeud est 'alfresco_item' et qu'il n'est pas à créer à partir d'un template)|
++-------------------+-----------------------------------------------------------------------------------------------------------------+
 
 +-------------------+--------------------------+
 |  Header           |   Valeur                 |
@@ -178,6 +178,8 @@ Cette méthode permet de créer une entité de type noeud. Si ce noeud est de ty
 |    title*         | Le titre du fichier, de l'article, du forum...                                                                           |
 +-------------------+--------------------------------------------------------------------------------------------------------------------------+
 |    locations**    | Les emplacements dans un tableau sous la forme "/Sites/_Organisations/Mon Organisation/XXX" (alfresco_item seulement)    |
++-------------------+--------------------------------------------------------------------------------------------------------------------------+
+|    template_nid** | L'identifiant du noeud du template à partir duquel créer le fichier si nécessaire (alfresco_item seulement)              |
 +-------------------+--------------------------------------------------------------------------------------------------------------------------+
 |    gids**         | Les n° des espaces de destination dans un tableau (article, forum seulement)                                             |
 +-------------------+--------------------------------------------------------------------------------------------------------------------------+
@@ -431,7 +433,7 @@ Cette méthode permet de modifier les emplacements des contenus associés aux en
 POST
 __________
 
-Cette méthode permet d'ajouter des emplacements des contenus associés aux entités de type noeud
+Cette méthode permet d'ajouter ou de supprimer des emplacements des contenus associés aux entités de type noeud
 
 *POST: /api/node/locations*
 
@@ -464,42 +466,7 @@ Cette méthode permet d'ajouter des emplacements des contenus associés aux enti
 +=======================+==================================================================+
 |locations              | Tableau indexé contenant les emplacements après vidage du cache. |
 +-----------------------+------------------------------------------------------------------+
-
-DELETE
-__________
-
-Cette méthode permet de supprimer des emplacements des contenus associés aux entités de type noeud
-
-*DELETE: /api/node/locations*
-
-+-------------------+--------------------------+
-|  Header           |   Valeur                 |
-+===================+==========================+
-|Content-Type       | application/json         |
-+-------------------+--------------------------+
-
-+-------------------+-------------------------------------------------------------+
-|  POST Parameter    |   Valeur                                                   |
-+===================+=============================================================+
-|    nid*           |N° du noeud                                                  |
-+-------------------+-------------------------------------------------------------+
-|    locations*     |Tableau indexé contenant les anciens emplacements à supprimer|
-+-------------------+-------------------------------------------------------------+
-
-*Retour:*
-
-+-------------------+----------------------------------------+
-|   Header          |   Valeur                               |
-+===================+========================================+
-|Content-Type       | application/json                       |
-+-------------------+----------------------------------------+
-
-
-
-+-----------------------+------------------------------------------------------------------+
-|   Clé                 |   Valeur                                                         |
-+=======================+==================================================================+
-|locations              | Tableau indexé contenant les emplacements après vidage du cache. |
+|delete                 | Boolean 1 = suppression; 0 = ajout.                              |
 +-----------------------+------------------------------------------------------------------+
 
 Action : content
