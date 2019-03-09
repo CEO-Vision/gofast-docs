@@ -11,6 +11,7 @@ Instructions (pour AWS)
 
 https://aws.amazon.com/marketplace/pp/B07NPZHPG3
 
+.. caution:: Ne pas oublier de choisir ``default`` pour "Security Group" pour permettre le traffic entrant 22 (ssh) et 443 (https) 
 Instructions (par image)
 ------------
 
