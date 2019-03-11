@@ -59,19 +59,38 @@ Une fois que les fichiers bloqués ont été supprimés :
 
 2/ Le fichier est sur votre PC (ex: Bureau) et vous pouvez le glisser-déposer du PC vers GoFAST, sur la page du document (angle en haut à droite, zone en pointillés).
 
-Message "Attention aux fichiers provenant d’un emplacement Internet"
---------------------------------------------------------------------
+"Mode protégé" de MS Office avec le message "Attention aux fichiers provenant d’un emplacement Internet"
+========================================================================================================
+Lorsqu’un fichier est ouvert avec l’application MS Office depuis un emplacement sur GoFAST, une configuration d’Office fait que celui-ci est parfois ouvert en "lecture seule" pour des questions de sécurité. 
 
-Si Office est configuré en "Mode protégé" lors de l'édition en ligne un message s'affichera "Attention aux fichiers provenant d’un emplacement Internet, car ils peuvent contenir des virus". 
+Si la configuration d'Office est dans ce "Mode protégé", à l'ouverture d'un document le message suivant s'affichera : "Attention aux fichiers provenant d’un emplacement Internet, car ils peuvent contenir des virus". 
 
-Pour éviter ce message : Fichier / Option / Centre de gestion de la confidentialité / Paramétre du Centre de gestion de la confidentialité / Emplacements approuvés 
+Ce comportement standard de MS Office est vu non pas comme un élément de sécurité, mais une contrainte dans l’utilisation de GoFAST. 
 
-Cocher : "Autoriser les emplacements approuvés sur mon réseau" puis "Ajouter un nouvel emplacement"
-
-.. figure:: media-guide/MS-Office-emplacement-approuvé.png
+Pour éviter ce message et ouvrir directement en mode "édition" : 
+----------------------------------------------------------------
+- Aller dasn la configuration concernée : 
+Passer par les "Options" : Fichier / Option / Centre de gestion de la confidentialité / Paramétre du Centre de gestion de la confidentialité / Emplacements approuvés 
+.. figure:: media-guide/Capture_MS Office_aller dans menu Options.PNG
     :scale: 75%
     :align: center
-    :alt: MS-Office-emplacement-approuvé
+    :alt: Capture_MS Office_aller dans menu Options.PNG
+
+OU alors, cliquer sur "Paramétres du mode protégé" dans : Fichier / Informations 
+.. figure:: media-guide/Capture_MS Office_mode protégé activé.PNG
+    :scale: 75%
+    :align: center
+    :alt: Capture_MS Office_mode protégé activé.PNG
+
+Une fois dans les paramétres du "Centre de gestion de la confidentialité", onglet "Emplacements approuvés" : 
+- Attention à bien cocher "Autoriser les emplacements approuvés sur mon réseau" 
+- Cliquer sur "Ajouter un nouvel emplacement" et coller l'URL de votre GoFAST avec à la fin de l'URL "/alfresco/webdav" (ex: https://gofast.ceo-vision.com/alfresco/webdav/)
+- Attention à bien cocher "Les sous-dossiers de cet emplacement sont également approuvés" pour que MS Office autorise tous les emplacements accessibles à l'utilisateur sur GoFAST.
+
+.. figure:: media-guide/Capture_MS_Ouvrir le centre de gestion de la confidentialité.png
+    :scale: 75%
+    :align: center
+    :alt: Capture_MS_Ouvrir le centre de gestion de la confidentialité.png
 
 Problème Explorateur de fichiers Microsoft
 ===================
