@@ -74,16 +74,10 @@ Pour éviter ce message et ouvrir directement en mode "édition" :
 - Passer par les "Options" : Fichier / Option / Centre de gestion de la confidentialité / Paramétre du Centre de gestion de la confidentialité / Emplacements approuvés 
 
 .. figure:: media-guide/Capture_MS Office_aller dans menu Options.PNG
-    :scale: 75%
-    :align: center
-    :alt: Capture_MS Office_aller dans menu Options.PNG
 
 - OU alors, cliquer sur "Paramétres du mode protégé" dans : Fichier / Informations
 
 .. figure:: media-guide/Capture_MS Office_mode protégé activé.PNG
-    :scale: 75%
-    :align: center
-    :alt: Capture_MS Office_mode protégé activé.PNG
 
 2/ Une fois dans les paramétres du "Centre de gestion de la confidentialité", onglet "Emplacements approuvés" :
 
@@ -94,9 +88,7 @@ Pour éviter ce message et ouvrir directement en mode "édition" :
 - Attention à bien cocher "Les sous-dossiers de cet emplacement sont également approuvés" pour que MS Office autorise tous les emplacements accessibles à l'utilisateur sur GoFAST.
 
 .. figure:: media-guide/Capture_MS_Ouvrir le centre de gestion de la confidentialité.png
-    :scale: 75%
-    :align: center
-    :alt: Capture_MS_Ouvrir le centre de gestion de la confidentialité.png
+
 
 Problème Explorateur de fichiers Microsoft
 ===================
