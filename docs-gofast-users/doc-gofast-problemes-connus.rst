@@ -69,7 +69,8 @@ Ce comportement standard de MS Office est vu non pas comme un élément de sécu
 
 Pour éviter ce message et ouvrir directement en mode "édition" : 
 ----------------------------------------------------------------
-Aller dasn la configuration concernée : 
+1/ Aller dasn la configuration concernée : 
+
 - Passer par les "Options" : Fichier / Option / Centre de gestion de la confidentialité / Paramétre du Centre de gestion de la confidentialité / Emplacements approuvés 
 
 .. figure:: media-guide/Capture_MS Office_aller dans menu Options.PNG
@@ -84,9 +85,12 @@ Aller dasn la configuration concernée :
     :align: center
     :alt: Capture_MS Office_mode protégé activé.PNG
 
-Une fois dans les paramétres du "Centre de gestion de la confidentialité", onglet "Emplacements approuvés" : 
-- Attention à bien cocher "Autoriser les emplacements approuvés sur mon réseau" 
+2/ Une fois dans les paramétres du "Centre de gestion de la confidentialité", onglet "Emplacements approuvés" :
+
+- Attention à bien cocher "Autoriser les emplacements approuvés sur mon réseau"
+
 - Cliquer sur "Ajouter un nouvel emplacement" et coller l'URL de votre GoFAST avec à la fin de l'URL "/alfresco/webdav" (ex: https://gofast.ceo-vision.com/alfresco/webdav/)
+
 - Attention à bien cocher "Les sous-dossiers de cet emplacement sont également approuvés" pour que MS Office autorise tous les emplacements accessibles à l'utilisateur sur GoFAST.
 
 .. figure:: media-guide/Capture_MS_Ouvrir le centre de gestion de la confidentialité.png
