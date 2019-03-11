@@ -69,14 +69,16 @@ Ce comportement standard de MS Office est vu non pas comme un élément de sécu
 
 Pour éviter ce message et ouvrir directement en mode "édition" : 
 ----------------------------------------------------------------
-- Aller dasn la configuration concernée : 
-Passer par les "Options" : Fichier / Option / Centre de gestion de la confidentialité / Paramétre du Centre de gestion de la confidentialité / Emplacements approuvés 
+Aller dasn la configuration concernée : 
+- Passer par les "Options" : Fichier / Option / Centre de gestion de la confidentialité / Paramétre du Centre de gestion de la confidentialité / Emplacements approuvés 
+
 .. figure:: media-guide/Capture_MS Office_aller dans menu Options.PNG
     :scale: 75%
     :align: center
     :alt: Capture_MS Office_aller dans menu Options.PNG
 
-OU alors, cliquer sur "Paramétres du mode protégé" dans : Fichier / Informations 
+- OU alors, cliquer sur "Paramétres du mode protégé" dans : Fichier / Informations
+
 .. figure:: media-guide/Capture_MS Office_mode protégé activé.PNG
     :scale: 75%
     :align: center
