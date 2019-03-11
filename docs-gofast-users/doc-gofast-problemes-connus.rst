@@ -87,7 +87,7 @@ Pour éviter ce message et ouvrir directement en mode "édition" :
 
 - Attention à bien cocher "Les sous-dossiers de cet emplacement sont également approuvés" pour que MS Office autorise tous les emplacements accessibles à l'utilisateur sur GoFAST.
 
-.. figure:: media-guide/Capture_MS_Ouvrir-le-centre-de-gestion-de-la-confidentialité
+.. figure:: media-guide/Capture_MS_Ouvrir-le-centre-de-gestion-de-la-confidentialité.png
 
 
 Problème Explorateur de fichiers Microsoft
