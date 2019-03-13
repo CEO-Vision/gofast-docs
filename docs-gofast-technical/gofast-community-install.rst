@@ -31,6 +31,7 @@ La configuration !
 -------------
 
 Lorsque vous vous rendez sur l'adresse IP , une page de configuration fait son apparition, elle est constituée de 4 étapes:
+
 –La configuration du nouveau nom de domaine
 
 –La configuration du certificat SSL
