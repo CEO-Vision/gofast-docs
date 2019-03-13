@@ -31,10 +31,14 @@ La configuration !
 -------------
 
 Lorsque vous vous rendez sur l'adresse IP , une page de configuration fait son apparition, elle est constitué de 4 étapes:
-- La configuration du nouveau nom de domaine
-- La configuration du certificat SSL
-- La configuration du serveur SMTP 
-- La configuration du compte administrateur de la plateforme
+–La configuration du nouveau nom de domaine
+
+–La configuration du certificat SSL
+
+–La configuration du serveur SMTP 
+
+–La configuration du compte administrateur de la plateforme
+
 
 Une fois ces 4 étapes effectuées, une page apparait avec un récapitulatif. Si tout est correct appuyez sur "Terminer la configuration".
 
