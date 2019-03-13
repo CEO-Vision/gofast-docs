@@ -30,7 +30,7 @@ Instructions (par image)
 La configuration ! 
 -------------
 
-Lorsque vous vous rendez sur l'adresse IP , une page de configuration fait son apparition, elle est constitué de 4 étapes:
+Lorsque vous vous rendez sur l'adresse IP , une page de configuration fait son apparition, elle est constituée de 4 étapes:
 –La configuration du nouveau nom de domaine
 
 –La configuration du certificat SSL
@@ -42,7 +42,7 @@ Lorsque vous vous rendez sur l'adresse IP , une page de configuration fait son a
 
 Une fois ces 4 étapes effectuées, une page apparait avec un récapitulatif. Si tout est correct appuyez sur "Terminer la configuration".
 
-.. caution:: Si vous avez générer un certificat SSL, il vous faudra ouvrir une autre page avec la meme adresse IP pour de nouveau ajouter l'exception au navigateur
+.. caution:: Si vous avez généré un certificat SSL, il vous faudra ouvrir une autre page avec la meme adresse IP pour de nouveau ajouter l'exception au navigateur
 
 Démarrons ! 
 -------------
