@@ -27,6 +27,19 @@ Instructions (par image)
 
 .. note:: Pour vous connecter en SSH à votre machine : Le login utilisateur est ``root`` et le mot de passe correspond au mot de passe technique que vous avez configuré. ( Par défaut avant la configuration du mot de passe technique : ``@C0mmunity!`` ).
 
+La configuration ! 
+-------------
+
+Lorsque vous vous rendez sur l'adresse IP , une page de configuration fait son apparition, elle est constitué de 4 étapes:
+- La configuration du nouveau nom de domaine
+- La configuration du certificat SSL
+- La configuration du serveur SMTP 
+- La configuration du compte administrateur de la plateforme
+
+Une fois ces 4 étapes effectuées, une page apparait avec un récapitulatif. Si tout est correct appuyez sur "Terminer la configuration".
+
+.. caution:: Si vous avez générer un certificat SSL, il vous faudra ouvrir une autre page avec la meme adresse IP pour de nouveau ajouter l'exception au navigateur
+
 Démarrons ! 
 -------------
 
