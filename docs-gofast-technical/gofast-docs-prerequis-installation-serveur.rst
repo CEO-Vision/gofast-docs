@@ -345,7 +345,10 @@ suivantes sont à effectuer: ::
         # vgdisplay
         # vgextend VolGroup00 /dev/sda3 {change VolGroup00 by vgdisplay result
         # lvextend /dev/VolGroup00/LogVol00 /dev/sda3 {change accordingly by vgdisplay result
-        # resize2fs /dev/VolGroup00/LogVol00 {change accordingly by vgdisplay result}
+        
+        # resize2fs /dev/VolGroup00/LogVol00 {for ext4 and change VolGroup00 accordingly by vgdisplay result}
+        **OR**
+        # xfs-growthfs /dev/VolGroup00/LogVol00 {for xfs and change VolGroup00 accordingly by vgdisplay result}
 
 .. CAUTION::
    la dernière opération peut prendre entre 30min et 1h30 pour une augmentation de 1To
