@@ -574,6 +574,8 @@ CPU
 Mesurer les performances de votre CPU en exécutant ce qui suit: ::
 
     sysbench --test=cpu --cpu-max-prime=20000 --num-threads=1 run
+    Pour sysbench 1.0+:
+    sysbench cpu --time=0 --events=10000 --threads=4 run
 
 Exemple de résultat (en secondes, le plus petit le mieux): ::
 
@@ -588,11 +590,13 @@ nécessaire de créer un fichier beaucoup plus grand que la mémoire vive
 qui fausse les résultats - 150GB est une bonne valeur pas toujours
 utilisable (manque d'espace disque): ::
 
-    sysbench --test=fileio --file-total-size=100G prepare
+    sysbench --test=fileio --file-total-size=50G prepare
 
 Ensuite, exécuter le benchmark: ::
 
     sysbench --test=fileio --file-total-size=100G -‑file-test-mode=rndrw --init-rng=on --max-time=300 --max-requests=0 run
+    Pour sysbench 1.0+:
+    sysbench fileio --file-total-size=50G --file-test-mode=rndrw --time=300 --max-requests=0 --threads=4 run
 
 Exemple de résultat: ::
 
@@ -600,7 +604,7 @@ Exemple de résultat: ::
 
 Puis vous pouvez effacer le fichier de test: ::
 
-    sysbench --test=fileio --file-total-size=150G cleanup
+    sysbench --test=fileio --file-total-size=50G cleanup
 
 File IO Benchmark (FIO)
 ^^^^^^^^^^^^^^^^^^^^^^^
@@ -609,7 +613,9 @@ File IO Benchmark (FIO)
     yum install fio
 
     fio -filename=/var/TESTIO -iodepth=64 -ioengine=libaio -direct=1 -rw=randrw -bs=4k -size=5G -numjobs=4 -runtime=30 -group_reporting -name=test-randwrite --rwmixread=30
-
+    
+    Nb: ajouter --unified_rw_reporting=1 si l'on veut un résultat aggloméré pour Read et Write
+    
 MySQL Benchmark
 ^^^^^^^^^^^^^^^
 
@@ -617,15 +623,13 @@ Pour mesurer la performance de la base de données MySQL, nous devons
 d'abord créer une table **test** dans la base de données **test** (crée
 manuellement) avec 1,000,000 lignes de données: ::
 
-    sysbench --test=oltp --db-driver=mysql --oltp-table-size=1000000 --mysql-db=test --mysql-user=root --mysql-password=yourrootsqlpassword prepare
+    sudo mysql -u root -p -e "CREATE DATABASE test;"
 
+    Pour sysbench 1.0+:
+    sysbench --test="/usr/share/sysbench/tests/include/oltp_legacy/oltp.lua" --db-driver=mysql --oltp-table-size=1000000 --mysql-db=test --mysql-user=root --mysql-password=mypassword prepare
+    
 Ensuite, exécuter le benchmark: ::
-
-    sysbench --test=oltp --db-driver=mysql --oltp-table-size=1000000 --mysql-db=test --mysql-user=root --mysql-password=yourrootsqlpassword --max-time=60 --oltp-read-only=on --max-requests=0 --num-threads=8 run
-
-.. NOTE::
-   Il s'agit ici d'un benchmark avec exclusivement des lectures, sinon
-   utiliser ``--oltp-read-only=off ‑oltp-test-mode=complex``
+    sysbench --test="/usr/share/sysbench/tests/include/oltp_legacy/oltp.lua" --db-driver=mysql --oltp-table-size=1000000 --mysql-db=test --mysql-user=root --mysql-password=YOURDBPWD --time=90 --oltp-read-only=off --max-requests=0 --threads=4 run
 
 Exemple de résultat: ::
 
