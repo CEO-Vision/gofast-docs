@@ -637,6 +637,7 @@ manuellement) avec 1,000,000 lignes de données: ::
     sysbench --test="/usr/share/sysbench/tests/include/oltp_legacy/oltp.lua" --db-driver=mysql --oltp-table-size=1000000 --mysql-db=test --mysql-user=root --mysql-password=mypassword prepare
     
 Ensuite, exécuter le benchmark: ::
+
     sysbench --test="/usr/share/sysbench/tests/include/oltp_legacy/oltp.lua" --db-driver=mysql --oltp-table-size=1000000 --mysql-db=test --mysql-user=root --mysql-password=YOURDBPWD --time=90 --oltp-read-only=off --max-requests=0 --threads=4 run
 
 Exemple de résultat: ::
