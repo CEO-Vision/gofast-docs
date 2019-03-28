@@ -568,12 +568,21 @@ Installation de l'outil: ::
 
     $ sudo yum install sysbench
 
+Commandes pour obtenir l'environnement logiciel et matériel lors du bechmark: ::
+
+# sudo dmidecode | egrep -i 'product name' 
+# lscpu
+# more /etc/centos-release
+# df -T
+# sudo lshw -class disk -class storage
+# lsblk
+
+
 CPU
 ^^^
 
 Mesurer les performances de votre CPU en exécutant ce qui suit: ::
 
-    sysbench --test=cpu --cpu-max-prime=20000 --num-threads=1 run
     Pour sysbench 1.0+:
     sysbench cpu --time=0 --events=10000 --threads=4 run
 
@@ -594,7 +603,6 @@ utilisable (manque d'espace disque): ::
 
 Ensuite, exécuter le benchmark: ::
 
-    sysbench --test=fileio --file-total-size=100G -‑file-test-mode=rndrw --init-rng=on --max-time=300 --max-requests=0 run
     Pour sysbench 1.0+:
     sysbench fileio --file-total-size=50G --file-test-mode=rndrw --time=300 --max-requests=0 --threads=4 run
 
