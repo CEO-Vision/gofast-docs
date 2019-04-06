@@ -5,7 +5,7 @@ GoFAST Community :  Installation
 
 .. note:: En cas de problème vous pouvez poser vos questions sur les forums : https://community.ceo-vision.com
 
-.. caution:: Ne pas oublier de vérifier qu'il existe des mises à jour (votre environnement doit avoir accès à internet) 
+.. caution:: Après l'installation, ne pas oublier de vérifier qu'il existe des mises à jour dans le menu (votre environnement doit avoir accès à internet) 
 
 
 Instructions (pour AWS)
