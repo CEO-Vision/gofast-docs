@@ -14,7 +14,7 @@ trucs et astuces, les raccourcis et les différentes manières de faire
 une même action par rapport à un document/un espace.
 
 .. NOTE:: Nous vous recommandons de lire impérativement l'annexe "Les
-   bonnes pratiques avec GoFAST"
+   bonnes pratiques avec GoFAST" et visioner nos videos tutoriaux https://www.youtube.com/playlist?list=PLPEB28cL2VmHsEft6pxpp_LDWzPAxwxS0
 
 .. NOTE:: Un forum vient d'être lancé, n'hésitez pas à créer un compte https://community.ceo-vision.com
    
