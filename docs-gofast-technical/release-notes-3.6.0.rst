@@ -9,7 +9,12 @@ Nouvelles fonctionnalités
    :header: "Ref.", "Description", "Catégorie"
    :widths: 10, 40, 10
    
-      "[4848]","Mise à jour majeure du moteur de Workflows BonitaSoft 7.7.4 : nouvelle ergonomie, nouvelles fonctionnalités, nouvelles notifications, meilleures performances","[Enterprise]"
+      "[4848]","Mise à jour majeure du moteur de Workflows BonitaSoft 7.7.4 : 
+      
+      - nouvelle ergonomie
+      - nouvelles fonctionnalités
+      - nouvelles notifications
+      - meilleures performances","[Enterprise]"
       "[4711]","Nouvelle vue historique pour les workflows archivés accessible depuis la page d’un document (bouton 'Processus et Tâches')","[Enterprise]"
       "[4262]","Historique détaillé des actions et commentaires faits dans un workflow en cours (accessible depuis la page du document)","[Enterprise]"
       "[4713]","Historique détaillé des actions et commentaires faits dans un workflow archivé (accessible depuis la page du document)","[Enterprise]"
