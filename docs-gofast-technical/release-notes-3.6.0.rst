@@ -15,7 +15,7 @@ Nouvelles fonctionnalités
       - nouvelles fonctionnalités
       - nouvelles notifications
       - meilleures performances","[Enterprise]"
-      "[4711]","Nouvelle vue historique pour les workflows archivés accessible depuis la page d’un document (bouton 'Processus et Tâches')","[Enterprise]"
+      "[4711]","Nouvelle vue historique pour les workflows archivés, accessible depuis la page d’un document (bouton 'Processus et Tâches')","[Enterprise]"
       "[4262]","Historique détaillé des actions et commentaires faits dans un workflow en cours (accessible depuis la page du document)","[Enterprise]"
       "[4713]","Historique détaillé des actions et commentaires faits dans un workflow archivé (accessible depuis la page du document)","[Enterprise]"
       "[4822]","Nouveau formulaire pour le workflow standard : ergonomie, possibilité de rechercher et ajouter plusieurs documents","[Enterprise]"
@@ -94,7 +94,7 @@ Bugs
    :header: "Ref.", "Description", "Catégorie"
    :widths: 10, 40, 10
 
-      "[2913]","Correction de la recherche de chaîne exacte entre guillemets (" ")","[Community][Enterprise]"
+      "[2913]","Correction de la recherche de chaîne exacte entre guillemets (“ ”)","[Community][Enterprise]"
       "[3962]","Correction du retour sur le fil d'activité (via les boutons du navigateur) pour être ramené sur la bonne page du fil (non la 1ère page par défaut)","[Community][Enterprise]"
       "[4770]","Permettre l’affichage d’un dossier ayant comme titre 'Sites' dans GoFAST File Browser","[Community][Enterprise]"
       "[4803]","Correction de l’affichage des dossiers d'un Espace non archivé qui sont affichés comme archivés (dans le formulaire de gestion des emplacements)","[Community][Enterprise]"
