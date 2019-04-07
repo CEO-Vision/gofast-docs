@@ -19,7 +19,7 @@ Nouvelles fonctionnalités
       "[4262]","Historique détaillé des actions et commentaires faits dans un workflow en cours (accessible depuis la page du document)","[Enterprise]"
       "[4713]","Historique détaillé des actions et commentaires faits dans un workflow archivé (accessible depuis la page du document)","[Enterprise]"
       "[4822]","Nouveau formulaire pour le workflow standard : ergonomie, possibilité de rechercher et ajouter plusieurs documents","[Enterprise]"
-      "[4783]","Création de widgets GoFAST sur BonitaSoft (possibilité de modéliser des processus avec des actions automatiques sur les documents grâce à un module GoFAST pour Bonita studio)","[Enterprise]"
+      "[4783]","Création de widgets GoFAST sur BonitaSoft","[Enterprise]"
       "[4784]","Nouveaux connecteurs BonitaSoft/GoFAST (+ amélioration des existants)","[Enterprise]"
       "[4820]","Nouvelles API supplémentaires pour BonitaSoft","[Enterprise]"
       "[1640]","Création de Listes d’Utilisateurs : gestion en masse et automatique des accès aux Espaces Collaboratifs","[Community][Enterprise]"
@@ -34,8 +34,8 @@ Nouvelles fonctionnalités
       - Pouvoir accéder et modifier son profil utilisateur
       - Amélioration de l’affichage du menu déroulant (menu principale)
       - Amélioration du bouton qui permet d’affichage/masquer le bloc de droite","[Community][Enterprise]"
-      "[4404]","Création d'une zone Membres Bloqués sur la page d’un Espace Collaboratif, dans l’onglet 'Membres' (sous les utilisateurs en attentes)","[Community][Enterprise]"
-      "[4561]","Synchronisation des informations relatives à un Espace Collaboratif avec la navigation dans l’arborescence dans GoFAST File Browser (onglet 'Documents' d’un Espace Collaboratif)","[Community][Enterprise]"
+      "[4404]","Création d'une zone Membres Bloqués sur la page d’un Espace Collaboratif, dans l’onglet 'Membres'","[Community][Enterprise]"
+      "[4561]","Synchronisation des informations relatives à un Espace Collaboratif avec la navigation dans l’arborescence dans GoFAST File Browser","[Community][Enterprise]"
       "[4694]","Persistance des filtres sur le fil d'activité et affichage des filtres appliqués en haut du bloc","[Community][Enterprise]"
       "[4798]","Ajout de filtres dans l’annuaire des utilisateurs bloqués","[Community][Enterprise]"
       
