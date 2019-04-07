@@ -15,7 +15,7 @@ Nouvelles fonctionnalités
       - nouvelles fonctionnalités
       - nouvelles notifications
       - meilleures performances","[Enterprise]"
-      "[4711]","Nouvelle vue historique pour les workflows archivés, accessible depuis la page d’un document (bouton 'Processus et Tâches')","[Enterprise]"
+      "[4711]","Nouvelle vue historique pour les workflows archivés, accessible depuis la page d’un document","[Enterprise]"
       "[4262]","Historique détaillé des actions et commentaires faits dans un workflow en cours (accessible depuis la page du document)","[Enterprise]"
       "[4713]","Historique détaillé des actions et commentaires faits dans un workflow archivé (accessible depuis la page du document)","[Enterprise]"
       "[4822]","Nouveau formulaire pour le workflow standard : ergonomie, possibilité de rechercher et ajouter plusieurs documents","[Enterprise]"
