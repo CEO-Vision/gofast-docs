@@ -4,74 +4,115 @@ GoFAST :  Version 3.6.0
 
 
 Nouvelles fonctionnalités
-**********************
+*************************
 .. csv-table::  
    :header: "Ref.", "Description", "Catégorie"
    :widths: 10, 40, 10
    
-      "[4798]","Ajout de filtres sur la liste des utilisateurs bloqués"
-
+      "[4848]","Mise à jour majeure du moteur de Workflows BonitaSoft 7.7.4 : nouvelle ergonomie, nouvelles fonctionnalités, nouvelles notifications, meilleures performances",""
+      "[4711]","Nouvelle vue "historique" pour les workflows archivés accessible depuis la page d’un document (bouton "Processus et Tâches")",""
+      "[4262]","Historique détaillé des actions et commentaires faits dans un workflow en cours (accessible depuis la page du document)",""
+      "[4713]","Historique détaillé des actions et commentaires faits dans un workflow archivé (accessible depuis la page du document)",""
+      "[4822]","Nouveau formulaire pour le workflow standard : ergonomie, possibilité de rechercher et ajouter plusieurs documents",""
+      "[4783]","Création de widgets GoFAST sur BonitaSoft (possibilité de modéliser des processus avec des actions automatiques sur les documents grâce à un module GoFAST pour Bonita studio)",""
+      "[4784]","Nouveaux connecteurs BonitaSoft/GoFAST (+ amélioration des existants)",""
+      "[4820]","Nouvelles API supplémentaires pour BonitaSoft",""
+      "[1640]","Création de Listes d’Utilisateurs : gestion en masse et automatique des accès aux Espaces Collaboratifs"
+      "[3782]","Nouvelle API REST GoFAST pour simplifier les couplages avec d’autres outils métiers",""
+      "[4141]","Gestion en masse des documents depuis le panier documentaire (multi-emplacement, gestion de la taxonomie et publications)",""
+      "[4201]","Création en masse des "Publications" depuis des documents de travail en un clic",""
+      "[4202]","Comparatif de versions pour visualiser les écarts entre 2 versions d'un document en les affichant côte-à-côte [BETA]",""
+      "[4273]","Extension des fonctionnalités sur GoFAST mobile : Pouvoir consulter sur la page d’un document sa catégorie, son état et son échéance, Pouvoir renommer un document, Pouvoir accéder et modifier son profil utilisateur, Amélioration de l’affichage du menu déroulant (menu principale), Amélioration du bouton qui permet d’affichage/masquer le bloc de droite",""
+      "[4404]","Création d'une zone "Membres Bloqués" sur la page d’un Espace Collaboratif, dans l’onglet "Membres" (sous les utilisateurs en attentes)",""
+      "[4561]","Synchronisation des informations relatives à un Espace Collaboratif avec la navigation dans l’arborescence dans GoFAST File Browser (onglet "Documents" d’un Espace Collaboratif)",""
+      "[4694]","Persistance des filtres sur le fil d'activité et affichage des filtres appliqués en haut du bloc",""
+      "[4798]","Ajout de filtres dans l’annuaire des utilisateurs bloqués",""
+      
    
 Améliorations fonctionnelles
-**********************
+****************************
 .. csv-table::  
    :header: "Ref.", "Description", "Catégorie"
    :widths: 10, 40, 10
    
-   "[4798]","Ajout de filtres sur la liste des utilisateurs bloqués"
+      "[4198]","Réduction du nombre de clics lors de l’ajout d’une échéance à un document (l’heure et les minutes sont auto-attribuées par défaut)",""
+      "[4234]","Sélection en masse dans GoFAST File Browser : cocher plusieurs fichiers/dossiers grâce à des cases (et non seulement via les raccourcis clavier)",""
+      "[4282]","Amélioration des notifications liées aux réunions et Webconférences",""
+      "[4715]","Amélioration du mécanisme d’autocomplétions des champs de destinataires de messages : lors de la saisie d’un texte il n’y a plus besoin de cliquer sur la suggestion pour valider le destinataire",""
+      "[4773]","Dans le panier documentaire, ajout de la possibilité de supprimer tous les éléments du panier en un clic",""
+      "[4791]","Exclusion des utilisateurs bloqués de l'autocomplétions dans les champs",""
+      "[4835]","Enlever l'envoi de l’e-mail de notification lorsqu'un utilisateur est débloqué",""
+      "[4903]","Amélioration de l’affichage (taille) de certaines popups (commentaires, message privé, partage par e-mail, etc.)",""
+      "[4914]","Amélioration de l’affichage des Espaces Collaboratifs dont est membre un utilisateur, sur sa page de profil",""
+      "[4935]","Amélioration du message explicatif lors de l’affichage de la popup "installation ITHitEditDocumentOpener"",""
+      "[4952]","Ajout des rôles finaux des espaces dans le profil de l'utilisateur",""
+      "[5002]","Ajout d’un bouton d'accès à la page d'accueil (fil d’activité/tableau de bord) dans le menu principal (à côté du logo)",""
+
 
 Améliorations techniques
-**********************
+************************
 .. csv-table::  
    :header: "Ref.", "Description", "Catégorie"
    :widths: 10, 40, 10
 
-   "[4792]","Mise à jour du thème Bootstrap 3.x-3.22"
-   
+      "[3742]","Mise à jour de Bonita 7.7.4",""
+      "[4774]","Mise à jour de la Suite OnlyOffice 5.2.8",""
+      "[4831]","Implémentation de hooks et altérateurs dans l'activity feed",""
+      "[4866]","Ajout de l’anti-virus CLAMAV",""
+      "[4876]","Mise à jour de LibreOffice 6.2.0.3 (améliorations des prévisualisations des fichiers Office)",""
+      "[4888]","Modification de la gestion des traductions des vues associées aux Workflows (Tableau de bord des processus, formulaires, notifications...)",""
+      "[4922]","Mise à jour de de Jitsi-Meet r3548+",""
+      "[4991]","Supervision Zabbix php-fpm",""
+      "[4957]","Augmentation du max_open_file (ulimit) du système",""
+
 
 Sécurité
-**********************
+********
 .. csv-table::  
    :header: "Ref.", "Description", "Catégorie"
    :widths: 10, 40, 10
    
-   "[4788]","SECURITE : Mise à jour openssl 1.0.2k-16.el7"
-   "[4793]","SECURITE : Mise à jour des modules Drupal mimemail, printer, email, pdf"
-   "[4441]","SECURITE : Mise à jour de CentOS (7.6)"
-   "[4669]","SECURITE : Mise à jour de MySQL 5.7.24"
-   "[4801]","SECURITE : Retrait de certains CIPHERS et de TLS1.0 et 1.1"
-   "[4812]","SECURITE : Mise à jour Drupal 7.63"
-   "[4812]","SECURITE : Mise à jour Bootstrap 3.x-3.22"
-   "[3752]","Renforcement de la politique de mot de passe"
-   "[4453]","Installation/Mise à jour : Meilleure gestion des versions des composants"
-   "[4818]","Renforcement de la politique de confinement du processus du moteur de recherche"
-   
-  
+      "[4828]","Mise à jour du thème Bootstrap 7.x-3.23 (Security update Boostrap 3.4.0)",""
+      "[4866]","Ajout de l’anti-virus CLAMAV avec notification de supervision",""
+      "[4960]","Mise à jour de sécurité de Views 7.x-3.21",""
 
-HOTFIX (Version Enterprise)
-**********************
+
+Bugs
+****
 .. csv-table::  
    :header: "Ref.", "Description", "Catégorie"
    :widths: 10, 40, 10
 
-
-Bugs majeurs
-**********************
-.. csv-table::  
-   :header: "Ref.", "Description", "Catégorie"
-   :widths: 10, 40, 10
+      "[2913]","Correction de la recherche de chaîne exacte entre guillemets (" ")",""
+      "[3962]","Correction du retour sur le fil d'activité (via les boutons du navigateur) pour être ramené sur la bonne page du fil (non la 1ère page par défaut)",""
+      "[4770]","Permettre l’affichage d’un dossier ayant comme titre "Sites" dans GoFAST File Browser",""
+      "[4803]","Correction de l’affichage des dossiers d'un Espace non archivé qui sont affichés comme archivés (dans le formulaire de gestion des emplacements)",""
+      "[4829]","Permettre le mécanisme d'exclusion de mot clé dans la recherche (via l’utilisation de l’opérateur "-" )",""
+      "[4837]","Correction de l'option "Conserver les filtres actuels" dans la recherche",""
+      "[4850]","Contenus filtrés dans les autosuggestions des divers champs (ex : recherche, contenus liés…) selon les droits d’accès (pour éviter de suggérer des documents qui sont non accessibles à l’utilisateur)",""
+      "[4915]","Correction du problème d’installation de GoFAST Community via image OVA","[COMMUNITY]"
+      "[4943]","Permettre au créateur d'un document de rechercher et filtrer les documents supprimés et les restaurer (dans la limite de conservation dans la corbeille)",""
+      "[5000]","Récupération de l'extension de fichier lors de la création d’un document vierge",""
 
 
 Bugs mineurs
-**********************
+************
 .. csv-table::  
    :header: "Ref.", "Description", "Catégorie"
    :widths: 10, 40, 10
 
-   "[3752]","Impossible de changer les emplacements d'un document avec un apostrophe dans le chemin"
-   "[4406]","Correction d'un problème de pagination sur la liste des tâches d'un processus"
-   "[4777]","Parfois, les emplacements cochés dans le formulaire d'une publication sont inacessibles"
-   "[4778]","Incohérences entre la date de modification dans l'explorateur de fichier par rapport à la dernière version d'un document"
-   "[4782]","La gestion d'emplacements et de taxonomie na fonctionne plus depuis l'explorateur mobile"
-   "[4797]","Les images du mail de bienvenue ne sont pas redéployés pendant les mises à jour"
-   "[4808]","Les points dans les noms d'espaces sont considérés comme des extensions de fichier"
+      "[4769]","Afficher tous les emplacements existants (fil d’Ariane) sur la page d’un forum",""
+      "[4787]","Correction de l’affichage des éléments du bloc "lien vers d'autres contenus" lorsqu’il y a beaucoup de contenus liés",""
+      "[4800]","Divers problèmes liés au "sélecteur d’emplacements” dans les formulaires de gestion des emplacements des documents",""
+      "[4862]","Correction de l'affichage des filtres appliqués sur le résultat de recherche lorsque qu’il y a beaucoup de critères",""
+      "[4870]","Correction du pré-remplissage du champs "Titre" d’un document lors de sa création depuis un modèle (formulaire de création d’un document)",""
+      "[4921]","“InvalidAccessError : Failed to execute” lors webconference","[JITSI][CHROME]"
+      "[4939]","Permettre à l’utilisateur de charger une image supérieure à 1Mb pour sa photo de profil",""
+      "[4945]","Site inaccessible si lancement avec options par defaut (à priori security)","[COMMUNITY][AWS]"
+      "[4946]","Champs obligatoires non indiqués comme obligatoires","[COMMUNITY]"
+      "[4947]","Après soumission config "This site cannot be reached" si pas d'entrée DNS","[COMMUNITY][AWS]"
+      "[4948]","Correction du positionnement de la popup du multi-emplacement sur la page du document",""
+      "[4974]","Afficher des icones manquantes dans l’éditeur de texte de l'accueil d'un Espace Collaboratif",""
+      "[4977]","Afficher l’éditeur de texte du microblogging (sur le fil d’activité)",""
+      "[4995]","Dans GoFAST File Browser, activer les boutons d'actions quand les éléments sont sélectionnés par via les cases à cocher",""
+
