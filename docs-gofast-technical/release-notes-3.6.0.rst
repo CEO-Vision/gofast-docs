@@ -27,7 +27,13 @@ Nouvelles fonctionnalités
       "[4141]","Gestion en masse des documents depuis le panier documentaire (multi-emplacement, gestion de la taxonomie et publications)","[Community][Enterprise]"
       "[4201]","Création en masse des Publications depuis des documents de travail en un clic","[Community][Enterprise]"
       "[4202]","Comparatif de versions pour visualiser les écarts entre 2 versions d'un document en les affichant côte-à-côte [BETA]","[Community][Enterprise]"
-      "[4273]","Extension des fonctionnalités sur GoFAST mobile : Pouvoir consulter sur la page d’un document sa catégorie, son état et son échéance, Pouvoir renommer un document, Pouvoir accéder et modifier son profil utilisateur, Amélioration de l’affichage du menu déroulant (menu principale), Amélioration du bouton qui permet d’affichage/masquer le bloc de droite","[Community][Enterprise]"
+      "[4273]","Extension des fonctionnalités sur GoFAST mobile : 
+      
+      - Pouvoir consulter sur la page d’un document sa catégorie, son état et son échéance, 
+      - Pouvoir renommer un document
+      - Pouvoir accéder et modifier son profil utilisateur
+      - Amélioration de l’affichage du menu déroulant (menu principale)
+      - Amélioration du bouton qui permet d’affichage/masquer le bloc de droite","[Community][Enterprise]"
       "[4404]","Création d'une zone Membres Bloqués sur la page d’un Espace Collaboratif, dans l’onglet 'Membres' (sous les utilisateurs en attentes)","[Community][Enterprise]"
       "[4561]","Synchronisation des informations relatives à un Espace Collaboratif avec la navigation dans l’arborescence dans GoFAST File Browser (onglet 'Documents' d’un Espace Collaboratif)","[Community][Enterprise]"
       "[4694]","Persistance des filtres sur le fil d'activité et affichage des filtres appliqués en haut du bloc","[Community][Enterprise]"
