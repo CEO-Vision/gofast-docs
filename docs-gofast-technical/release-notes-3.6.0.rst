@@ -35,7 +35,7 @@ Nouvelles fonctionnalités
       - Amélioration de l’affichage du menu déroulant (menu principale)
       - Amélioration du bouton qui permet d’affichage/masquer le bloc de droite","[Community][Enterprise]"
       "[4404]","Création d'une zone Membres Bloqués sur la page d’un Espace Collaboratif, dans l’onglet 'Membres'","[Community][Enterprise]"
-      "[4561]","Synchronisation des informations relatives à un Espace Collaboratif avec la navigation dans l’arborescence dans GoFAST File Browser","[Community][Enterprise]"
+      "[4561]","Synchronisation des informations d'un Espace Collaboratif avec la navigation dans GoFAST File Browser","[Community][Enterprise]"
       "[4694]","Persistance des filtres sur le fil d'activité et affichage des filtres appliqués en haut du bloc","[Community][Enterprise]"
       "[4798]","Ajout de filtres dans l’annuaire des utilisateurs bloqués","[Community][Enterprise]"
       
