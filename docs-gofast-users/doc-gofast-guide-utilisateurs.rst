@@ -91,7 +91,7 @@ Pré-requis nécessaires pour l’utilisation de GoFAST
    
 -  Système d'exploitation Windows7 et plus, MacOS 10.10+ et Linux (Ubuntu 14+) et en mobilité Android ou iOS.  
 
--  Bureautique : MS-Office 2010 (>14.0.7190.5000) et supérieur+, LibreOffice 5+, WPS (sans support)
+-  Bureautique : MS-Office 2010 (>14.0.7190.5000) pour Windows, MS-Office 2016 pour Mac, LibreOffice 5+, WPS (sans support), OnlyOffice Desktop (sans suport)
 
 -  Messagerie : Outlook 2010+, Thunderbird 52+ 
 
