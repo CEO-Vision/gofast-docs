@@ -14,7 +14,7 @@ trucs et astuces, les raccourcis et les différentes manières de faire
 une même action par rapport à un document/un espace.
 
 .. NOTE:: Nous vous recommandons de lire impérativement l'annexe "Les
-   bonnes pratiques avec GoFAST"
+   bonnes pratiques avec GoFAST" et visioner nos videos tutoriaux https://www.youtube.com/playlist?list=PLPEB28cL2VmHsEft6pxpp_LDWzPAxwxS0
 
 .. NOTE:: Un forum vient d'être lancé, n'hésitez pas à créer un compte https://community.ceo-vision.com
    
@@ -81,17 +81,17 @@ mémos, etc.
 
 Pré-requis nécessaires pour l’utilisation de GoFAST
 ---------------------------------------------------
--  Navigateurs préférentiels Windows: **Firefox 57+ (et la dernière version ESR) ou Chrome.** Mais fonctionne
+-  Navigateurs préférentiels Windows: **Firefox 57+ (et la dernière version ESR actuellement 60 jusqu'à Oct.2019) ou Chrome.** Mais fonctionne
    également sur les versions récentes d’Internet Explorer 11 pas en mode compatibilité (sauf
    webconference), Edge (sauf webconference), en plus d’Opera 
 
--  Navigateur MacOS : Safari 10+ (sauf webconference), Chrome 65+
+-  Navigateur MacOS : Safari 12+ (sauf webconference), Chrome 65+
 
 -  Navigateur Linux : Firefox 57+
    
 -  Système d'exploitation Windows7 et plus, MacOS 10.10+ et Linux (Ubuntu 14+) et en mobilité Android ou iOS.  
 
--  Bureautique : MS-Office 2010 (>14.0.7190.5000) et supérieur+, LibreOffice 5+, WPS (sans support)
+-  Bureautique : MS-Office 2010 (>14.0.7190.5000) pour Windows, MS-Office 2016 pour Mac, LibreOffice 5+, WPS (sans support), OnlyOffice Desktop (sans suport)
 
 -  Messagerie : Outlook 2010+, Thunderbird 52+ 
 
