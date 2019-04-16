@@ -3941,7 +3941,7 @@ Enfin, pour lancer le processus et les notifications associées, il suffit de cl
 ----------------------------------------------------------------------------
 
 Notifications des workflows envoyées par e-mail 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 .. NOTE::
    Les notifications sont dépendantes du processus lancé. Par exemple, dans le cas d’un processus spécifique il est possible que le contenu des notifications et leur fréquence soient fortement adaptées aux équipes métier concernés. 
    Le descriptif ci-après est donc basé sur le fonctionnement du processus standard disponible dans GoFAST. 
@@ -3997,6 +3997,18 @@ Vous avez alors un onglet distinct pour les tâches à traiter et un autre pour 
 .. figure:: media-guide/Ecran-GoFAST_Workflows_details-tache-dans-menu-principal-acces-rapide.png
    :alt:
 
+Traiter ses tâches
+~~~~~~~~~~~~~~~~~~
+Depuis la liste des tâches à traiter, il suffit de cliquer sur l'icône ">" pour ouvrir le formulaire et indiquer qu'on a effectué sa tâche. 
+
+.. figure:: media-guide/Ecran-GoFAST_Workflows_formulaire-traiter-sa-tache.png	
+   :alt:
+
+Cliquez sur "Envoyer" (ou autre selon la tâche qui nous a été assignée) pour enregistrer le traitement de la tâche. 
+
+.. NOTE:: 
+   Selon le processus, il est possible de laisser un commentaire (ex : processus standard GoFAST). Celui-ci est vivement conseillé pour favoriser le travail collaboratif.
+
 3. Historique des tâches et processus en cours et archivés
 ----------------------------------------------------------
 
@@ -4011,23 +4023,21 @@ Que ce soit pour les processus en cours ou archivés, vous avez la possibilité 
 
 Historique des processus en cours 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-.. figure:: media-guide/Ecran-GoFAST_Workflows_processus-en-cours-historique.png	
-   :alt:
   
 Pour consulter l'historique de actions dans un processus en cours, il suffit de cliquer sur l’icône "i" ou ">" au niveau d'une tâche : 
-   - le ">" s'affiche uniquement s'il s'agit d'une tâche qui nous a été assignée (permet d'ouvrir le formulaire pour effectuer sa tâche et de voir l'historique des tâches précédentes),
-   - le "i" permet de consulter l'historique depuis une tâche assignée à quelqu'un d'autre (ou bien à soi-même, si on ne souhaite pas ouvrir le formulaire).
    
 .. figure:: media-guide/Ecran-GoFAST_Workflows_details-tache-ouvrir-formulaire-historique.png	
    :alt:      
 
+   - le ">" s'affiche uniquement s'il s'agit d'une tâche qui nous a été assignée (permet d'ouvrir le formulaire pour effectuer sa tâche et de voir l'historique des tâches précédentes),
+   - le "i" permet de consulter l'historique depuis une tâche assignée à quelqu'un d'autre (ou bien à soi-même, si on ne souhaite pas ouvrir le formulaire).
+
+.. figure:: media-guide/Ecran-GoFAST_Workflows_processus-en-cours-historique.png	
+   :alt:
+
 Historique des processus archivés 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. figure:: media-guide/Ecran-GoFAST_Workflows_processus-archive-acces-historique.png	
-   :alt:
-  
 Pour consulter la liste des processus archivés associés à un document, rendez-vous sur la page du dit document et cliquez sur l’icône "Processus et Tâches". 
 
 .. figure:: media-guide/Ecran-GoFAST_Workflows_consulter-processus-depuis-page-document.png
@@ -4035,11 +4045,13 @@ Pour consulter la liste des processus archivés associés à un document, rendez
    
 Une fois la fenêtre des Processus et Tâches ouverte, il faut aller dans l’onglet "Historique". Cette onglet affiche la liste de tous les processus archivés associés au document. 
 
-Pour consulter les détails d'un processus archivé, il suffit de cliquer sur l’icône "i" au niveau du processus. 
-
 .. figure:: media-guide/Ecran-GoFAST_Workflows_processus-archive-acces-historique.png	
    :alt:
   
+Pour consulter les détails d'un processus archivé, il suffit de cliquer sur l’icône "i" au niveau du processus. 
+
+.. figure:: media-guide/Ecran-GoFAST_Workflows_processus-archive-historique.png	
+   :alt:
 
 Favoris
 =======
