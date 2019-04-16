@@ -3865,6 +3865,10 @@ GoFAST propose deux façons de lancer un workflow :
 - Depuis le menu principale, via l’accès rapide aux "Processus et Tâches"
 - Depuis la page d’un document, via le bouton "Processus et Tâches" 
 
+Dans les deux cas, l'icône représentant les workflows est : 
+.. figure:: media-guide/Ecran-GoFAST_Workflows_icone-processus-et-taches.png
+   :alt:
+
 Démarrer un processus depuis la page d'un document
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -3875,6 +3879,9 @@ Pour sélectionner un processus et le démarrer depuis la page d’un document :
 - Cliquer sur le nom du processus souhaité (ou sur l’icône "play" au niveau du processus)
 
 .. figure:: media-guide/Ecran-GoFAST_Workflows_lancer-processus-depuis-page-document.png
+   :alt:
+   
+.. figure:: media-guide/Ecran-GoFAST_Workflows_choix-processus.png
    :alt:
 
 .. NOTE::
@@ -3940,11 +3947,21 @@ Les notifications liées aux workflows et envoyées par email ne sont pas config
 Liste des tâches à traiter et tâches assignées aux autres
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-En complément des notifications envoyées par e-mail, chaque utilisateur a la possibilité de consulter la liste des tâches qu’il a à traiter, ainsi que les tâches qu’il a assignées à d’autres. 
+En complément des notifications envoyées par e-mail, chaque utilisateur a la possibilité de consulter la liste des tâches qu’il a à traiter, ainsi que les tâches qu’il a assignées à d’autres. Les utilisateurs sont également informés lorsqu'un document qu'ils consultent est associé à un processus. 
 
-Pour afficher cette liste, il suffit de passer la souri ou de cliquer sur l’icône "Processus et Tâches" (IMAGE) qui se trouve dans le menu principale, tout en haut de la page sur la gauche. Le nombre de tâches est affiché sur cette icône et ainsi, il est visible directement à la connexion à GoFAST, sans avoir besoin de cliquer. 
+**Dans le menu principal**, un numéro apparait sur l'icône "Processus et Taches" indiquant le nombre de tâche qu'on a à traiter. 
+.. figure:: media-guide/Ecran-GoFAST_Workflows_consulter-processus-depuis-menu-principal.png	
+   :alt:
 
-Vous avez alors un onglet distinct pour les tâches à traiter et un autre pour les tâches que vous avez assignées. Dans le cas où il y a beaucoup de tâches, vous disposez d’une pagination. Les tâches sont classées de la plus ancienne (tout en haut) et la plus ressente (en fin de liste). 
+**Sur la page d'un document**, l'icône "Processus et Tâches" est rouge dès lors qu'un processus en cours y est associé, précisant le nombre de tâche. Si aucun processus n'est en cours, l'icône reste grise.
+.. figure:: media-guide/Ecran-GoFAST_Workflows_consulter-processus-depuis-page-document.png	
+   :alt:
+
+Pour afficher la liste de tâches, il suffit de cliquer sur l’icône "Processus et Tâches" (que ce soit depuis le menu ou la page d'un document).
+.. figure:: media-guide/Ecran-GoFAST_Workflows_liste-taches-dans-menu-principal-acces-rapide.png
+   :alt:
+
+Vous avez alors un onglet distinct pour les tâches à traiter et un autre pour les tâches assignées à d'autres utilisateurs. Dans le cas où il y a beaucoup de tâches, vous disposez d’une pagination. 
 
 **Cette vue permet de consulter en un clin d’œil les informations clefs :** 
 - type et nom du processus
@@ -3961,16 +3978,17 @@ Vous avez alors un onglet distinct pour les tâches à traiter et un autre pour 
 3. Historique des tâches et processus en cours et archivés
 ----------------------------------------------------------
 
-Que ce soit pour vos processus en cours ou archivés, vous avez la possibilité de consulter les détails des étapes et commentaires faits. 
+Que ce soit pour les processus en cours ou archivés, vous avez la possibilité de consulter les détails des étapes et commentaires faits. 
 
 **Cet historique est accessible :**
-- via le menu principal (dans l'accès rapide où se trouve la liste de ses tâches)
-- depuis la page d’un document (via l'icône "Processus et Tâches")
+- via le menu principal
+- depuis la page d’un document
+
 
 Historique des processus en cours 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Pour le consulter, il suffit de cliquer sur l’icône " i " ou " > " au niveau d'une tâche : 
+Pour consulter l'historique de actions dans un processus en cours, il suffit de cliquer sur l’icône " i " ou " > " au niveau d'une tâche : 
 - le " > " s'affiche uniquement s'il s'agit d'une tâche qui nous a été assignée (permet d'ouvrir le formulaire pour effectuer sa tâche et de voir l'historique des tâches précédentes),
 - le " i " permet de consulter l'historique depuis une tâches assignées à quelqu'un d'autre (ou bien à soi-même, si on ne souhaite pas ouvrir le formulaire de traitement de sa tâche).
 
