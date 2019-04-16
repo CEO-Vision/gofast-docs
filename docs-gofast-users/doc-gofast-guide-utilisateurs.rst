@@ -4024,7 +4024,7 @@ Que ce soit pour les processus en cours ou archivés, vous avez la possibilité 
 Historique des processus en cours 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
   
-Pour consulter l'historique de actions dans un processus en cours, il suffit de cliquer sur l’icône "i" ou ">" au niveau d'une tâche : 
+Pour consulter l'historique des actions dans un processus en cours, il suffit de cliquer sur l’icône "i" ou ">" au niveau d'une tâche : 
    
 .. figure:: media-guide/Ecran-GoFAST_Workflows_details-tache-ouvrir-formulaire-historique.png	
    :alt:      
