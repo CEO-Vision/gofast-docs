@@ -3854,7 +3854,7 @@ Workflows : Processus de Tâches (Enterprise only)
 Dans cette partie de la documentation vous trouverez comment consulter les processus en cours/archivés, les tâches à traiter, mais aussi comment démarrer un processus de tâches parmi la liste des processus disponibles, sur un ou plusieurs documents en les attribuant à des utilisateurs GoFAST (y compris vous-même).
 
 .. NOTE::
-    GoFAST propose dans tous les cas au moins un workflow de "Diffusion de Document(s)" qui permet d’assigner des tâches essentielles de manière très flexible, pour répondre la majorité des besoins de correction, validation et signature des documents.
+    GoFAST propose dans tous les cas au moins un workflow de "Diffusion de Document(s)" qui permet d’assigner des tâches essentielles de manière très flexible, pour répondre à la majorité des besoins de vérification, correction, validation et signature des documents.
     
 .. NOTE::
     Il est aussi possible de modéliser des processus spécifiques simples ou avancés et dans ce cas, leur fonctionnement et les formulaires associés peuvent ne pas correspondre à certaines parties de cette documentation. Pour savoir comment modéliser un workflow spécifique, merci de vous tourner vers les forums GoFAST (https://community.ceo-vision.com/). 
