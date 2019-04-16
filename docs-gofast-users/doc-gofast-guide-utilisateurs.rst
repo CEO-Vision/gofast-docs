@@ -3875,12 +3875,13 @@ Démarrer un processus depuis la page d'un document
 
 Pour sélectionner un processus et le démarrer depuis la page d’un document :
 
-- Cliquez sur l’icône "Processus et Tâches" (IMAGE) qui se trouve en haut à droit de l’aperçu du document, 
-- Une liste des processus disponibles vous sera proposée,
-- Cliquer sur le nom du processus souhaité (ou sur l’icône "play" au niveau du processus)
+- Cliquez sur l’icône "Processus et Tâches" qui se trouve en haut à droit de l’aperçu du document, 
 
 .. figure:: media-guide/Ecran-GoFAST_Workflows_lancer-processus-depuis-page-document.png
    :alt:
+
+- Une liste des processus disponibles vous sera proposée
+- Cliquer sur le nom du processus souhaité ou sur l’icône " > "
    
 .. figure:: media-guide/Ecran-GoFAST_Workflows_choix-processus.png
    :alt:
@@ -3894,16 +3895,17 @@ Demarrer un processus depuis le menu pricnipal
 
 Pour sélectionner un processus et le démarrer depuis le menu principal de GoFAST :
 
-- Cliquez sur l’icône "Processus et Tâches" (IMAGE) qui se trouve tout en haut de la page sur la gauche, 
+- Cliquez sur l’icône "Processus et Tâches" qui se trouve tout en haut de la page sur la gauche, 
 - Dans la fenêtre qui s’affiche (la liste des tâches en cours), cliquez sur "Nouveau" pour avoir la possibilité de démarrer soit un "Nouveau processus", soit un "Nouveau processus depuis les documents du panier",
-- Une liste des processus disponibles vous sera proposée,
-- Cliquer sur le nom du processus souhaité (ou sur l’icône "play" au niveau du processus). 
 
 .. figure:: media-guide/Ecran-GoFAST_Workflows_lancer-processus-depuis-menu-principal-acces-rapide.png
    :alt:
 
+- Une liste des processus disponibles vous sera proposée,
+- Cliquer sur le nom du processus souhaité (ou sur l’icône "play" au niveau du processus). 
+
 .. NOTE::
-    En lançant un processus depuis le menu principal (hors les documents du panier documentaire), le formulaire du processus n'intégre pas de document et il faut donc saisir le(s) document(s) concernés dans ce formulaire (hors dans le cas d'un éventuel processus spécifique paramétré de manière à intégrer automatiquements des documents ou devant être lancé sans document). 
+    En lançant un processus depuis le menu principal, le formulaire du processus n'intégre pas de document et il faut donc le(s) ajouter directement depuis ce formulaire (hors dans le cas d'un éventuel processus spécifique ayant un autre fonctionnement). 
     En lançant un processus sur les documents du panier documentaire, ces derniers sont automatiquement associés au processus. Vous avez ensuite la possibilité d'enlever/ajouter les documents dans le formulaire du workflow.
 
 
