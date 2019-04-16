@@ -3851,11 +3851,14 @@ verticale.
 Workflows : Processus de Tâches (Enterprise only)
 =================================================
    
-Dans cette partie de la documentation vous trouverez comment démarrer un processus de tâches parmi la liste des processus disponibles, sur un ou plusieurs documents en les attribuant à des collaborateurs utilisateurs GoFAST (et/ou à vous-même).
+Dans cette partie de la documentation vous trouverez comment consulter les processus en cours/archivés, les tâches à traiter, mais aussi comment démarrer un processus de tâches parmi la liste des processus disponibles, sur un ou plusieurs documents en les attribuant à des utilisateurs GoFAST (y compris vous-même).
 
 .. NOTE::
     GoFAST propose dans tous les cas au moins un workflow de "Diffusion de Document(s)" qui permet d’assigner des tâches essentielles de manière très flexible, pour répondre la majorité des besoins de correction, validation et signature des documents.
-
+    
+.. NOTE::
+    Il est aussi possible de modéliser des processus spécifiques simples ou avancés et dans ce cas, leur fonctionnement et les formulaires associés peuvent ne pas correspondre à certaines parties de cette documentation. Pour savoir comment modéliser un workflow spécifique, merci de vous tourner vers les forums GoFAST (https://community.ceo-vision.com/). 
+    
 
 1. Démarrer un processus de tâches
 ----------------------------------
@@ -3869,26 +3872,6 @@ Dans les deux cas, l'icône représentant les workflows est :
 
 .. figure:: media-guide/Ecran-GoFAST_Workflows_icone-processus-et-taches.png
    :alt:
-
-Démarrer un processus depuis la page d'un document
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Pour sélectionner un processus et le démarrer depuis la page d’un document :
-
-- Cliquez sur l’icône "Processus et Tâches" qui se trouve en haut à droit de l’aperçu du document, 
-
-.. figure:: media-guide/Ecran-GoFAST_Workflows_lancer-processus-depuis-page-document.png
-   :alt:
-
-- Une liste des processus disponibles vous sera proposée
-- Cliquer sur le nom du processus souhaité ou sur l’icône ">"
-   
-.. figure:: media-guide/Ecran-GoFAST_Workflows_choix-processus.png
-   :alt:
-
-.. NOTE::
-    En lançant un processus directement depuis la page du document, ce dernier est automatiquement associé au workflow dans le formulaire. 
-
 
 Demarrer un processus depuis le menu pricnipal
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -3904,9 +3887,35 @@ Pour sélectionner un processus et le démarrer depuis le menu principal de GoFA
 - Une liste des processus disponibles vous sera proposée
 - Cliquer sur le nom du processus souhaité ou sur l’icône ">" 
 
+.. figure:: media-guide/Ecran-GoFAST_Workflows_choix-processus.png
+   :alt:
+
 .. NOTE::
     En lançant un processus depuis le menu principal, le formulaire du processus n'intégre pas de document et il faut donc le(s) ajouter directement depuis ce formulaire (hors dans le cas d'un éventuel processus spécifique ayant un autre fonctionnement). 
-    En lançant un processus sur les documents du panier documentaire, ces derniers sont automatiquement associés au processus. Vous avez ensuite la possibilité d'enlever/ajouter les documents dans le formulaire du workflow.
+    
+.. NOTE::
+   En lançant un processus depuis le menu principal sur les documents du "panier documentaire", ces derniers sont automatiquement associés au processus. Vous avez ensuite la possibilité d'enlever/ajouter les documents dans le formulaire du workflow.
+
+
+Démarrer un processus depuis la page d'un document
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Pour sélectionner un processus et le démarrer depuis la page d’un document :
+
+- Cliquez sur l’icône "Processus et Tâches" qui se trouve en haut à droite de l’aperçu du document, 
+
+.. figure:: media-guide/Ecran-GoFAST_Workflows_lancer-processus-depuis-page-document.png
+   :alt:
+
+- Une liste des processus disponibles vous sera proposée
+- Cliquer sur le nom du processus souhaité ou sur l’icône ">"
+   
+.. figure:: media-guide/Ecran-GoFAST_Workflows_choix-processus.png
+   :alt:
+
+.. NOTE::
+    En lançant un processus directement depuis la page du document, ce dernier est automatiquement associé au workflow dans le formulaire. 
+
 
 
 Renseigner le formulaire du processus de tâches pour le démarrer  
