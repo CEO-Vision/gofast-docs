@@ -3961,11 +3961,15 @@ Enfin, pour lancer le processus et les notifications associées, il suffit de cl
 
 Notifications des workflows envoyées par e-mail 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 .. NOTE::
    Les notifications sont dépendantes du processus lancé. Par exemple, dans le cas d’un processus spécifique il est possible que le contenu des notifications et leur fréquence soient fortement adaptées aux équipes métier concernés. 
    Le descriptif ci-après est donc basé sur le fonctionnement du processus standard disponible dans GoFAST. 
 
 A chaque démarrage du processus, les personnes assignées sont notifiées et c’est aussi le cas à chaque fois qu’une étape est traitée. 
+
+.. figure:: media-guide/Ecran-GoFAST_Workflows_notification-email-processus-tache-traitee.png	
+   :alt:
 
 **Les notifications indiquent donc :** 
    - le type de processus lancé et le nom spécifique renseigné par l’initiateur,
