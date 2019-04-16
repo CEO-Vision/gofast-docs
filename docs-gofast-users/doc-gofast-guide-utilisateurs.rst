@@ -3927,10 +3927,12 @@ Le formulaire proposé et donc les champs à renseigner, sont totalement dépend
 .. figure:: media-guide/Ecran-GoFAST_Workflows_formulaire-processus-standard.png
    :alt:
 
-**Focus sur les champs "Document(s)" et " Assignation(s)" du formulaire :** 
-   Dans le cas du processus standard GoFAST, parmi les champs proposés vous avez les documents associés au processus et les personnes à assigner. 
-   Pour correctement renseigner ces champs, il est nécessaire de commencer à rentrer le nom du document ou d’un utilisateur (minimum 3 caractères), puis cliquer sur la suggestion pour valider son choix. 
-   Que ce soit pour les documents ou les assignations, vous avez la possibilité de cliquer sur " + " pour ajouter des champs supplémentaires, ou sur la corbeille pour en enlever. 
+**Focus sur les champs "Document(s)" et "Assignation(s)" du formulaire :** 
+  Dans le cas du processus standard GoFAST, parmi les champs proposés il y a les documents associés et les personnes à assigner. 
+  
+  Pour correctement renseigner ces champs, il est nécessaire de commencer à rentrer le nom du document ou d’un utilisateur (minimum 3 caractères), puis cliquer sur la suggestion pour valider son choix. 
+  
+  Que ce soit pour les documents ou les assignations, vous avez la possibilité de cliquer sur " + " pour ajouter des champs supplémentaires, ou sur la corbeille pour en enlever. 
 
 Enfin, pour lancer le processus et les notifications associées, il suffit de cliquer sur "Envoyer" (en bas du formulaire).
 
