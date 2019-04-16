@@ -3938,13 +3938,13 @@ Notifications des workflows envoyées par e-mail
 A chaque démarrage du processus, les personnes assignées sont notifiées et c’est aussi le cas à chaque fois qu’une étape est traitée. 
 
 **Les notifications remontent donc :** 
-- l’initiateur du processus, 
-- la tâches qu’on a à traiter et les autres tâches prévues dans le processus,
-- l’étape du processus (ex : initiation ou fin d’un tâche ou fin du processus),
-- la date de démarrage, de traitement de la tâche et l’échéance,
-- titre(s) et liens vers le(s) document(s) concernés,
-- le type de processus lancé et le nom spécifique de l’instance du processus renseigné par l’initiateur,
-- le commentaire fait au moment du démarrage, puis ceux ajoutés lors du traitement des tâches,
+   - l’initiateur du processus, 
+   - la tâches qu’on a à traiter et les autres tâches prévues dans le processus,
+   - l’étape du processus (ex : initiation ou fin d’un tâche ou fin du processus),
+   - la date de démarrage, de traitement de la tâche et l’échéance,
+   - titre(s) et liens vers le(s) document(s) concernés,
+   - le type de processus lancé et le nom spécifique de l’instance du processus renseigné par l’initiateur,
+   - le commentaire fait au moment du démarrage, puis ceux ajoutés lors du traitement des tâches,
 
 Les notifications liées aux workflows et envoyées par email ne sont pas configurables par les utilisateurs car elles sont directement dépendantes du processus lancé. Il n’est donc pas possible de se désabonner de ces notifications ou de changer leur fréquence. 
 
@@ -3972,15 +3972,15 @@ Pour afficher la liste de tâches, il suffit de cliquer sur l’icône "Processu
 Vous avez alors un onglet distinct pour les tâches à traiter et un autre pour les tâches assignées à d'autres utilisateurs. Dans le cas où il y a beaucoup de tâches, vous disposez d’une pagination. 
 
 **Cette vue permet de consulter en un clin d’œil les informations clefs :** 
-- type et nom du processus
-- le(s) document(s) concerné(s)
-- date de démarrage et échéance 
-- l’initiateur du processus 
+   - type et nom du processus
+   - le(s) document(s) concerné(s)
+   - date de démarrage et échéance 
+   - l’initiateur du processus 
 
 **Les actions possibles depuis cette liste des tâches :** 
-- Aller sur la page de(s) document(s) du processus en cliquant sur le titre du document
-- Consulter l’historique du processus du processus en cours en cliquant sur l’icône " i "
-- Effectuer sa tâche et consulter l’historique du processus en cours en cliquant sur l’icône " > "
+   - Aller sur la page de(s) document(s) du processus en cliquant sur le titre du document,
+   - Consulter l’historique du processus du processus en cours en cliquant sur l’icône "i",
+   - Effectuer sa tâche et consulter l’historique du processus en cours en cliquant sur l’icône ">"
 
 
 3. Historique des tâches et processus en cours et archivés
@@ -3989,16 +3989,16 @@ Vous avez alors un onglet distinct pour les tâches à traiter et un autre pour 
 Que ce soit pour les processus en cours ou archivés, vous avez la possibilité de consulter les détails des étapes et commentaires faits. 
 
 **Cet historique est accessible :**
-- via le menu principal
-- depuis la page d’un document
+   - via le menu principal
+   - depuis la page d’un document
 
 
 Historique des processus en cours 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Pour consulter l'historique de actions dans un processus en cours, il suffit de cliquer sur l’icône " i " ou " > " au niveau d'une tâche : 
-- le " > " s'affiche uniquement s'il s'agit d'une tâche qui nous a été assignée (permet d'ouvrir le formulaire pour effectuer sa tâche et de voir l'historique des tâches précédentes),
-- le " i " permet de consulter l'historique depuis une tâches assignées à quelqu'un d'autre (ou bien à soi-même, si on ne souhaite pas ouvrir le formulaire de traitement de sa tâche).
+Pour consulter l'historique de actions dans un processus en cours, il suffit de cliquer sur l’icône "i" ou ">" au niveau d'une tâche : 
+   - le ">" s'affiche uniquement s'il s'agit d'une tâche qui nous a été assignée (permet d'ouvrir le formulaire pour effectuer sa tâche et de voir l'historique des tâches précédentes),
+   - le "i" permet de consulter l'historique depuis une tâches assignées à quelqu'un d'autre (ou bien à soi-même, si on ne souhaite pas ouvrir le formulaire de traitement de sa tâche).
 
 Historique des processus archivés 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
