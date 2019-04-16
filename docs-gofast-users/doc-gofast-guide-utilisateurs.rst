@@ -3857,15 +3857,15 @@ Dans cette partie de la documentation vous trouverez comment démarrer un proces
     GoFAST propose dans tous les cas au moins un workflow de "Diffusion de Document(s)" qui permet d’assigner des tâches essentielles de manière très flexible, pour répondre la majorité des besoins de correction, validation et signature des documents.
 
 
-Démarrer un processus de tâches
--------------------------------
+1. Démarrer un processus de tâches
+----------------------------------
 
 GoFAST propose deux façons de lancer un workflow : 
 
 - Depuis le menu principale, via l’accès rapide aux "Processus et Tâches"
 - Depuis la page d’un document, via le bouton "Processus et Tâches" 
 
-1. Démarrer un processus depuis la page d'un document
+Démarrer un processus depuis la page d'un document
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Pour sélectionner un processus et le démarrer depuis la page d’un document :
@@ -3881,8 +3881,8 @@ Pour sélectionner un processus et le démarrer depuis la page d’un document :
    :alt:
 
 
-2. Demarrer un processus depuis le menu pricnipal
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demarrer un processus depuis le menu pricnipal
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Pour sélectionner un processus et le démarrer depuis le menu principal de GoFAST :
 
@@ -3910,10 +3910,10 @@ Dans le cas du processus standard GoFAST, parmi les champs proposés vous avez n
 Enfin, pour lancer le processus et les notifications associées, il suffit de cliquer sur "Envoyer".
 
 
-Etre notifié et consulter ses tâches à traiter et/ou assignées aux autres
-------------------------------------------------------------------------
+2. Etre notifié et consulter ses tâches à traiter et/ou assignées aux autres
+----------------------------------------------------------------------------
 
-1. Notifications des workflows envoyées par e-mail 
+Notifications des workflows envoyées par e-mail 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 .. NOTE::
    Les notifications sont dépendantes du processus lancé. Par exemple, dans le cas d’un processus spécifique il est possible que le contenu des notifications et leur fréquence soient fortement adaptées aux équipes métier concernés. 
@@ -3933,7 +3933,7 @@ A chaque démarrage du processus, les personnes assignées sont notifiées et c�
 Les notifications liées aux workflows et envoyées par email ne sont pas configurables par les utilisateurs car elles sont directement dépendantes du processus lancé. Il n’est donc pas possible de se désabonner de ces notifications ou de changer leur fréquence. 
 
 
-2. Liste des tâches à traiter et tâches assignées aux autres
+Liste des tâches à traiter et tâches assignées aux autres
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 En complément des notifications envoyées par e-mail, chaque utilisateur a la possibilité de consulter la liste des tâches qu’il a à traiter, ainsi que les tâches qu’il a assignées à d’autres. 
@@ -3954,8 +3954,8 @@ Vous avez alors un onglet distinct pour les tâches à traiter et un autre pour 
 - Effectuer sa tâche et consulter l’historique du processus en cours en cliquant sur l’icône " > "
 
 
-Historique des tâches et processus en cours et archivés
--------------------------------------------------------
+3. Historique des tâches et processus en cours et archivés
+----------------------------------------------------------
 
 Que ce soit pour vos processus en cours ou archivés, vous avez la possibilité de consulter les détails des étapes et commentaires faits. 
 
