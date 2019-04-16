@@ -3932,7 +3932,7 @@ Le formulaire proposé et donc les champs à renseigner, sont totalement dépend
   
   Pour correctement renseigner ces champs, il est nécessaire de commencer à rentrer le nom du document ou d’un utilisateur (minimum 3 caractères), puis cliquer sur la suggestion pour valider son choix. 
   
-  Que ce soit pour les documents ou les assignations, vous avez la possibilité de cliquer sur " + " pour ajouter des champs supplémentaires, ou sur la corbeille pour en enlever. 
+  Que ce soit pour les documents ou les assignations, vous avez la possibilité de cliquer sur "+" pour ajouter des champs supplémentaires, ou sur la corbeille pour en enlever. 
 
 Enfin, pour lancer le processus et les notifications associées, il suffit de cliquer sur "Envoyer" (en bas du formulaire).
 
@@ -3948,34 +3948,35 @@ Notifications des workflows envoyées par e-mail
 
 A chaque démarrage du processus, les personnes assignées sont notifiées et c’est aussi le cas à chaque fois qu’une étape est traitée. 
 
-**Les notifications remontent donc :** 
+**Les notifications indiquent donc :** 
+   - le type de processus lancé et le nom spécifique renseigné par l’initiateur,
    - l’initiateur du processus, 
-   - la tâches qu’on a à traiter et les autres tâches prévues dans le processus,
-   - l’étape du processus (ex : initiation ou fin d’un tâche ou fin du processus),
-   - la date de démarrage, de traitement de la tâche et l’échéance,
-   - titre(s) et liens vers le(s) document(s) concernés,
-   - le type de processus lancé et le nom spécifique de l’instance du processus renseigné par l’initiateur,
+   - la tâche qu’on a à traiter et les autres tâches du processus (avec état de la tâche),
+   - l’étape du processus (ex : initiation ou fin d’une tâche ou fin du processus),
+   - la date de démarrage, de traitement des tâches et l’échéance,
+   - titre(s) et lien(s) vers le(s) document(s) concerné(s),
    - le commentaire fait au moment du démarrage, puis ceux ajoutés lors du traitement des tâches,
 
-Les notifications liées aux workflows et envoyées par email ne sont pas configurables par les utilisateurs car elles sont directement dépendantes du processus lancé. Il n’est donc pas possible de se désabonner de ces notifications ou de changer leur fréquence. 
+.. NOTE::
+   Les notifications liées aux workflows et envoyées par email ne sont pas configurables par les utilisateurs car elles sont directement dépendantes du processus lancé. Il n’est donc pas possible de se désabonner de ces notifications ou de changer leur fréquence. 
 
 
 Liste des tâches à traiter et tâches assignées aux autres
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 En complément des notifications envoyées par e-mail, chaque utilisateur a la possibilité de consulter la liste des tâches qu’il a à traiter, ainsi que les tâches qu’il a assignées à d’autres. Les utilisateurs sont également informés lorsqu'un document qu'ils consultent est associé à un processus. 
 
-**Dans le menu principal**, un numéro apparait sur l'icône "Processus et Taches" indiquant le nombre de tâche qu'on a à traiter.
+**Dans le menu principal :** un numéro apparait sur l'icône "Processus et Taches" indiquant le nombre de tâche qu'on a à traiter.
 
 .. figure:: media-guide/Ecran-GoFAST_Workflows_consulter-processus-depuis-menu-principal.png	
    :alt:
 
-**Sur la page d'un document**, l'icône "Processus et Tâches" est rouge dès lors qu'un processus en cours y est associé, précisant le nombre de tâche. Si aucun processus n'est en cours, l'icône reste grise.
+**Sur la page d'un document :** l'icône "Processus et Tâches" est rouge dès lors qu'un processus en cours y est associé, précisant le nombre de tâche. Si aucun processus n'est en cours, l'icône reste grise.
 
 .. figure:: media-guide/Ecran-GoFAST_Workflows_consulter-processus-depuis-page-document.png	
    :alt:
 
-Pour afficher la liste de tâches, il suffit de cliquer sur l’icône "Processus et Tâches" (que ce soit depuis le menu ou la page d'un document).
+**Pour afficher la liste de tâches :** il suffit de cliquer sur l’icône "Processus et Tâches" (que ce soit depuis le menu ou la page d'un document).
 
 .. figure:: media-guide/Ecran-GoFAST_Workflows_liste-taches-dans-menu-principal-acces-rapide.png
    :alt:
@@ -3993,6 +3994,8 @@ Vous avez alors un onglet distinct pour les tâches à traiter et un autre pour 
    - Consulter l’historique du processus du processus en cours en cliquant sur l’icône "i",
    - Effectuer sa tâche et consulter l’historique du processus en cours en cliquant sur l’icône ">"
 
+.. figure:: media-guide/Ecran-GoFAST_Workflows_details-tache-dans-menu-principal-acces-rapide.png
+   :alt:
 
 3. Historique des tâches et processus en cours et archivés
 ----------------------------------------------------------
@@ -4003,6 +4006,8 @@ Que ce soit pour les processus en cours ou archivés, vous avez la possibilité 
    - via le menu principal
    - depuis la page d’un document
 
+.. figure:: media-guide/Ecran-GoFAST_Workflows_acces-aux-processus-et-taches.png	
+   :alt:   
 
 Historique des processus en cours 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -4010,12 +4015,18 @@ Historique des processus en cours
 Pour consulter l'historique de actions dans un processus en cours, il suffit de cliquer sur l’icône "i" ou ">" au niveau d'une tâche : 
    - le ">" s'affiche uniquement s'il s'agit d'une tâche qui nous a été assignée (permet d'ouvrir le formulaire pour effectuer sa tâche et de voir l'historique des tâches précédentes),
    - le "i" permet de consulter l'historique depuis une tâches assignées à quelqu'un d'autre (ou bien à soi-même, si on ne souhaite pas ouvrir le formulaire de traitement de sa tâche).
+   
+.. figure:: media-guide/Ecran-GoFAST_Workflows_details-tache-ouvrir-formulaire-historique.png	
+   :alt:      
 
 Historique des processus archivés 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Pour consulter la liste des processus archivés associés à un document, rendez-vous sur la page du dit document et cliquer sur l’icône "Processus et Tâches". 
 
+.. figure:: media-guide/Ecran-GoFAST_Workflows_consulter-processus-depuis-page-document.png
+   :alt:
+   
 Une fois la fenêtre des Processus et Tâches ouverte, il faut aller dans l’onglet "Historique". Cette onglet affiche la liste de tous les processus archivés associés au document. 
 
 Pour consulter les détails d'un processus archivé, il suffit de cliquer sur l’icône " i " au niveau du processus. 
