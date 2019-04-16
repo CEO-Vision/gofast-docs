@@ -3848,92 +3848,138 @@ verticale.
    :scale: 7%
    
 
-Workflow / Flux de travail (Enterprise only)
-==========================
+Workflows : Processus de Tâches (Enterprise only)
+=================================================
    
-   
-Démarrer un processus de validation : workflow 
-----------------
-A partir du menu principal (au niveau des accès rapides illustrés ci-dessous), vous pouvez démarrer un processus de validation, et **attribuer une tâche** à un autre utilisateur comme indiqué sur la copie d'écran. 
+Dans cette partie de la documentation vous trouverez comment démarrer un processus de tâches parmi la liste des processus disponibles, sur un ou plusieurs documents en les attribuant à des collaborateurs utilisateurs GoFAST (et/ou à vous-même).
 
-.. figure:: media-guide/Workflow_menuprincipal.png
-   :alt: 
+.. NOTE::
+    GoFAST propose dans tous les cas au moins un workflow de "Diffusion de Document(s)" qui permet d’assigner des tâches essentielles de manière très flexible, pour répondre la majorité des besoins de correction, validation et signature des documents.
 
-Il vous suffit ensuite de cliquer sur " Nouveau " et selectionner le workflow que vous souhaitez dans une liste mis à votre disposition. 
 
-Un petit formulaire se propose à vous. Il va vous permettre de remplir les champs des tâches que vous souhaitez assigné, la date d'échéance, faire un commentaire (possible à chaque validation de tâche par un utilisateur), lier le documer à valider au processus (A SAVOIR : en lançant le workflow à partir de la page du document, celui-ci est automatiquement intégré). 
+Démarrer un processus de tâches
+-------------------------------
 
-.. figure:: media-guide/Workflow_formulaire.png
-   :alt:
+GoFAST propose deux façons de lancer un workflow : 
 
-Le document reste rattaché au processus et est accessible en un clic à partir de sa liste de tâches ou notifications reçues par email.
+- Depuis le menu principale, via l’accès rapide aux "Processus et Tâches"
+- Depuis la page d’un document, via le bouton "Processus et Tâches" 
 
-Démarrer un processus de validation/workflow depuis un document 
--------------------
-Vous avez la possibilité également depuis le document choisi, de pouvoir démarrer un processus de validation en un clic, comme indiqué sur la copie d'écran ci-dessous.
+1. Démarrer un processus depuis la page d'un document
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Pour sélectionner un processus et le démarrer depuis la page d’un document :
+
+- Cliquez sur l’icône "Processus et Tâches" (IMAGE) qui se trouve en haut à droit de l’aperçu du document, 
+- Une liste des processus disponibles vous sera proposée,
+- Cliquer sur le nom du processus souhaité (ou sur l’icône "play" au niveau du processus)
+
+.. NOTE::
+    En lançant un processus directement depuis la page du document, ce dernier est automatiquement associé au workflow dans le formulaire. 
 
 .. figure:: media-guide/Workflow_doc.png
    :alt:
 
-Les étapes au démarrage d'un processus de validation, après avoir cliqué sur " Démarrer un workflow ", reste identique aux étapes décrites ci-dessus. 
 
-Cette fonctionnalité permet ainsi d'*intégrer automatiquement* le document en lançant le processus par cette démarche. 
+2. Demarrer un processus depuis le menu pricnipal
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Démarrer un processus de validation/workflow depuis le panier documentaire 
--------------------
-Avec la nouvelle version de GoFAST, vous avez maintenant la possibilité de démarrer également un processus de validation (workflow) depuis un panier en documentaire, et ainsi démarrer un nouveau processus de validation en masse. 
+Pour sélectionner un processus et le démarrer depuis le menu principal de GoFAST :
 
-**Création d'un panier documentaire**
-~~~~~~~~~~~~~~~~~~~~
-Depuis l’icône (qui propose les différents menus) sur le document, une liste de différents menus va se proposer, il vous suffit alors de cliquer sur « *Ajouter au panier* ». 
+- Cliquez sur l’icône "Processus et Tâches" (IMAGE) qui se trouve tout en haut de la page sur la gauche, 
+- Dans la fenêtre qui s’affiche (la liste des tâches en cours), cliquez sur "Nouveau" pour avoir la possibilité de démarrer soit un "Nouveau processus", soit un "Nouveau processus depuis les documents du panier",
+- Une liste des processus disponibles vous sera proposée,
+- Cliquer sur le nom du processus souhaité (ou sur l’icône "play" au niveau du processus). 
 
-.. figure:: media-guide/Ajouter-an-panier.png
-   :alt:
+.. NOTE::
+    En lançant un processus depuis le menu principal (hors les documents du panier documentaire), le formulaire du processus n'intégre pas de document et il faut donc saisir le(s) document(s) concernés dans ce formulaire (hors dans le cas d'un éventuel processus spécifique paramétré de manière à intégrer automatiquements des documents ou devant être lancé sans document). 
+    En lançant un processus sur les documents du panier documentaire, ces derniers sont automatiquement associés au processus. Vous avez ensuite la possibilité d'enlever/ajouter les documents dans le formulaire du workflow.
 
-Vous pouvez consulter tous les documents ajouter au panier depuis votre Menu Utilisateur, en cliquant sur le sous-menu « *Panier* ». La liste de tous les documents ajoutés va alors s'afficher. 
-
-.. figure:: media-guide/Panier-users.png
-   :alt:
-
-**Démarrer le processus de validation depuis le panier documentaire**
-~~~~~~~~~~~~~~~~~~~~
-A partir du menu principal (au menu des accès rapides illustré ci-dessous), vous pouvez démarrer un processus de validation depuis le panier documentaire. 
-
-Cliquez sur l'icone dédiés aux workflow, puis cliquez sur « *Nouveau* ». Un nouveau menu va s'afficher et va proposer deux possibilités de démarrage :  
-- Nouveau Processus 
-- Nouveau Processus depuis le panier documentaire 
-
-.. figure:: media-guide/Workflow1.png
-   :alt:
-
-.. figure:: media-guide/Nouveau-processus-panier-docs.png
-   :alt:
-
-CLiquez sur « *Nouveau Processus depuis le panier documentaire* ». Les étapes suivantes seront identiques que la création d'un nouveau processus de validation classique. Le formulaire avec les champs identiques seront à remplir pour plus d'indication. (Pour plus d'informations voir *Création d'un processus de validation / workflow*. 
-
-
-Suivi des tâches liées au workflow
----------------------
-
-En un clic vous pouvez visualiser les tâches, leurs dates d'échéances (avec le code couleurs savoir si vous êtes dans les délais ou pas), le document auquel est attribué le processus et quelle action vous est attribué.
-Pour savoir le nombre de workflow qui vous sont attribués, vous pouvez voir un numéro sur l'icône dans le menu principal. 
-
-.. figure:: media-guide/Workflow.png
-   :alt:
-
-D'autre part, via le tableau de bord, vous pouvez avoir une vue d'ensemble des tâches qui vous sont attribués, ou les tâches que vous avez attribuées. 
-Pour savoir le nombre de workflow vous avez attribués ou qui vous sont attribués, un numéro se trouve affiché à côté du titre. 
-
-.. figure:: media-guide/Workflow_TBD.png
-   :alt:
-
-Vous arriverez sur cette page à 3 onglets : Tâches, Processus, Processus
-archivés.
-
-Cliquez sur l’onglet voulu pour voir ce qui est en cours et pour plus d'informations. 
-
-.. figure:: media-guide/image364.png
+.. figure:: media-guide/Workflow_menuprincipal.png
    :alt: 
+
+Renseigner le formulaire du processus de tâches pour le démarrer  
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Une fois que le processus souhaité est sélectionné, le formulaire associé s’ouvre et vous permet de renseigner les diverses informations nécessaires. 
+
+Le formulaire proposé et donc les champs à renseigner, sont totalement dépendants du processus choisi. 
+
+**Focus sur les champs "Document(s)" et " Assignation(s)" du formulaire :** 
+Dans le cas du processus standard GoFAST, parmi les champs proposés vous avez notamment les documents associés au processus et les personnes à assigner. Pour correctement renseigner ces champs, il est nécessaire de commencer à rentrer le nom du document ou d’un utilisateur (minimum 3 caractères), puis cliquer sur la suggestion pour valider son choix. Que ce soit pour les documents ou les assignations, vous avez la possibilité de cliquer sur " + " pour ajouter des champs supplémentaires, ou sur la corbeille pour en enlever. 
+
+Enfin, pour lancer le processus et les notifications associées, il suffit de cliquer sur "Envoyer".
+
+
+Etre notifié et consulter ses tâches à traiter et/ou assignées aux autres
+------------------------------------------------------------------------
+
+1. Notifications des workflows envoyées par e-mail 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. NOTE::
+   Les notifications sont dépendantes du processus lancé. Par exemple, dans le cas d’un processus spécifique il est possible que le contenu des notifications et leur fréquence soient fortement adaptées aux équipes métier concernés. 
+   Le descriptif ci-après est donc basé sur le fonctionnement du processus standard disponible dans GoFAST. 
+
+A chaque démarrage du processus, les personnes assignées sont notifiées et c’est aussi le cas à chaque fois qu’une étape est traitée. 
+
+**Les notifications remontent donc :** 
+- l’initiateur du processus, 
+- la tâches qu’on a à traiter et les autres tâches prévues dans le processus,
+- l’étape du processus (ex : initiation ou fin d’un tâche ou fin du processus),
+- la date de démarrage, de traitement de la tâche et l’échéance,
+- titre(s) et liens vers le(s) document(s) concernés,
+- le type de processus lancé et le nom spécifique de l’instance du processus renseigné par l’initiateur,
+- le commentaire fait au moment du démarrage, puis ceux ajoutés lors du traitement des tâches,
+
+Les notifications liées aux workflows et envoyées par email ne sont pas configurables par les utilisateurs car elles sont directement dépendantes du processus lancé. Il n’est donc pas possible de se désabonner de ces notifications ou de changer leur fréquence. 
+
+
+2. Liste des tâches à traiter et tâches assignées aux autres
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+En complément des notifications envoyées par e-mail, chaque utilisateur a la possibilité de consulter la liste des tâches qu’il a à traiter, ainsi que les tâches qu’il a assignées à d’autres. 
+
+Pour afficher cette liste, il suffit de passer la souri ou de cliquer sur l’icône "Processus et Tâches" (IMAGE) qui se trouve dans le menu principale, tout en haut de la page sur la gauche. Le nombre de tâches est affiché sur cette icône et ainsi, il est visible directement à la connexion à GoFAST, sans avoir besoin de cliquer. 
+
+Vous avez alors un onglet distinct pour les tâches à traiter et un autre pour les tâches que vous avez assignées. Dans le cas où il y a beaucoup de tâches, vous disposez d’une pagination. Les tâches sont classées de la plus ancienne (tout en haut) et la plus ressente (en fin de liste). 
+
+**Cette vue permet de consulter en un clin d’œil les informations clefs :** 
+- type et nom du processus
+- le(s) document(s) concerné(s)
+- date de démarrage et échéance 
+- l’initiateur du processus 
+
+**Les actions possibles depuis cette liste des tâches :** 
+- Aller sur la page de(s) document(s) du processus en cliquant sur le titre du document
+- Consulter l’historique du processus du processus en cours en cliquant sur l’icône " i "
+- Effectuer sa tâche et consulter l’historique du processus en cours en cliquant sur l’icône " > "
+
+
+Historique des tâches et processus en cours et archivés
+-------------------------------------------------------
+
+Que ce soit pour vos processus en cours ou archivés, vous avez la possibilité de consulter les détails des étapes et commentaires faits. 
+
+**Cet historique est accessible :**
+- via le menu principal (dans l'accès rapide où se trouve la liste de ses tâches)
+- depuis la page d’un document (via l'icône "Processus et Tâches")
+
+Historique des processus en cours 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Pour le consulter, il suffit de cliquer sur l’icône " i " ou " > " au niveau d'une tâche : 
+- le " > " s'affiche uniquement s'il s'agit d'une tâche qui nous a été assignée (permet d'ouvrir le formulaire pour effectuer sa tâche et de voir l'historique des tâches précédentes),
+- le " i " permet de consulter l'historique depuis une tâches assignées à quelqu'un d'autre (ou bien à soi-même, si on ne souhaite pas ouvrir le formulaire de traitement de sa tâche).
+
+Historique des processus archivés 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Pour consulter la liste des processus archivés associés à un document, rendez-vous sur la page du dit document et cliquer sur l’icône "Processus et Tâches". 
+
+Une fois la fenêtre des Processus et Tâches ouverte, il faut aller dans l’onglet "Historique". Cette onglet affiche la liste de tous les processus archivés associés au document. 
+
+Pour consulter les détails d'un processus archivé, il suffit de cliquer sur l’icône " i " au niveau du processus. 
+
+  
 
 Favoris
 =======
