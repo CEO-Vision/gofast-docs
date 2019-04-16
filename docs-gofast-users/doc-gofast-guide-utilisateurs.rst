@@ -3865,7 +3865,8 @@ GoFAST propose deux façons de lancer un workflow :
 - Depuis le menu principale, via l’accès rapide aux "Processus et Tâches"
 - Depuis la page d’un document, via le bouton "Processus et Tâches" 
 
-Dans les deux cas, l'icône représentant les workflows est : 
+Dans les deux cas, l'icône représentant les workflows est :
+
 .. figure:: media-guide/Ecran-GoFAST_Workflows_icone-processus-et-taches.png
    :alt:
 
@@ -3949,15 +3950,18 @@ Liste des tâches à traiter et tâches assignées aux autres
 
 En complément des notifications envoyées par e-mail, chaque utilisateur a la possibilité de consulter la liste des tâches qu’il a à traiter, ainsi que les tâches qu’il a assignées à d’autres. Les utilisateurs sont également informés lorsqu'un document qu'ils consultent est associé à un processus. 
 
-**Dans le menu principal**, un numéro apparait sur l'icône "Processus et Taches" indiquant le nombre de tâche qu'on a à traiter. 
+**Dans le menu principal**, un numéro apparait sur l'icône "Processus et Taches" indiquant le nombre de tâche qu'on a à traiter.
+
 .. figure:: media-guide/Ecran-GoFAST_Workflows_consulter-processus-depuis-menu-principal.png	
    :alt:
 
 **Sur la page d'un document**, l'icône "Processus et Tâches" est rouge dès lors qu'un processus en cours y est associé, précisant le nombre de tâche. Si aucun processus n'est en cours, l'icône reste grise.
+
 .. figure:: media-guide/Ecran-GoFAST_Workflows_consulter-processus-depuis-page-document.png	
    :alt:
 
 Pour afficher la liste de tâches, il suffit de cliquer sur l’icône "Processus et Tâches" (que ce soit depuis le menu ou la page d'un document).
+
 .. figure:: media-guide/Ecran-GoFAST_Workflows_liste-taches-dans-menu-principal-acces-rapide.png
    :alt:
 
