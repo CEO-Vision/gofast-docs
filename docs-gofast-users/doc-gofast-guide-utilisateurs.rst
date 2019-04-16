@@ -4012,9 +4012,12 @@ Que ce soit pour les processus en cours ou archivés, vous avez la possibilité 
 Historique des processus en cours 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+.. figure:: media-guide/Ecran-GoFAST_Workflows_processus-en-cours-historique.png	
+   :alt:
+  
 Pour consulter l'historique de actions dans un processus en cours, il suffit de cliquer sur l’icône "i" ou ">" au niveau d'une tâche : 
    - le ">" s'affiche uniquement s'il s'agit d'une tâche qui nous a été assignée (permet d'ouvrir le formulaire pour effectuer sa tâche et de voir l'historique des tâches précédentes),
-   - le "i" permet de consulter l'historique depuis une tâches assignées à quelqu'un d'autre (ou bien à soi-même, si on ne souhaite pas ouvrir le formulaire de traitement de sa tâche).
+   - le "i" permet de consulter l'historique depuis une tâche assignée à quelqu'un d'autre (ou bien à soi-même, si on ne souhaite pas ouvrir le formulaire).
    
 .. figure:: media-guide/Ecran-GoFAST_Workflows_details-tache-ouvrir-formulaire-historique.png	
    :alt:      
@@ -4022,15 +4025,20 @@ Pour consulter l'historique de actions dans un processus en cours, il suffit de 
 Historique des processus archivés 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Pour consulter la liste des processus archivés associés à un document, rendez-vous sur la page du dit document et cliquer sur l’icône "Processus et Tâches". 
+.. figure:: media-guide/Ecran-GoFAST_Workflows_processus-archive-acces-historique.png	
+   :alt:
+  
+Pour consulter la liste des processus archivés associés à un document, rendez-vous sur la page du dit document et cliquez sur l’icône "Processus et Tâches". 
 
 .. figure:: media-guide/Ecran-GoFAST_Workflows_consulter-processus-depuis-page-document.png
    :alt:
    
 Une fois la fenêtre des Processus et Tâches ouverte, il faut aller dans l’onglet "Historique". Cette onglet affiche la liste de tous les processus archivés associés au document. 
 
-Pour consulter les détails d'un processus archivé, il suffit de cliquer sur l’icône " i " au niveau du processus. 
+Pour consulter les détails d'un processus archivé, il suffit de cliquer sur l’icône "i" au niveau du processus. 
 
+.. figure:: media-guide/Ecran-GoFAST_Workflows_processus-archive-acces-historique.png	
+   :alt:
   
 
 Favoris
