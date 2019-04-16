@@ -3881,7 +3881,7 @@ Pour sélectionner un processus et le démarrer depuis la page d’un document :
    :alt:
 
 - Une liste des processus disponibles vous sera proposée
-- Cliquer sur le nom du processus souhaité ou sur l’icône " > "
+- Cliquer sur le nom du processus souhaité ou sur l’icône ">"
    
 .. figure:: media-guide/Ecran-GoFAST_Workflows_choix-processus.png
    :alt:
@@ -3901,8 +3901,8 @@ Pour sélectionner un processus et le démarrer depuis le menu principal de GoFA
 .. figure:: media-guide/Ecran-GoFAST_Workflows_lancer-processus-depuis-menu-principal-acces-rapide.png
    :alt:
 
-- Une liste des processus disponibles vous sera proposée,
-- Cliquer sur le nom du processus souhaité (ou sur l’icône "play" au niveau du processus). 
+- Une liste des processus disponibles vous sera proposée
+- Cliquer sur le nom du processus souhaité ou sur l’icône ">" 
 
 .. NOTE::
     En lançant un processus depuis le menu principal, le formulaire du processus n'intégre pas de document et il faut donc le(s) ajouter directement depuis ce formulaire (hors dans le cas d'un éventuel processus spécifique ayant un autre fonctionnement). 
@@ -3919,7 +3919,9 @@ Le formulaire proposé et donc les champs à renseigner, sont totalement dépend
    :alt:
 
 **Focus sur les champs "Document(s)" et " Assignation(s)" du formulaire :** 
-Dans le cas du processus standard GoFAST, parmi les champs proposés vous avez notamment les documents associés au processus et les personnes à assigner. Pour correctement renseigner ces champs, il est nécessaire de commencer à rentrer le nom du document ou d’un utilisateur (minimum 3 caractères), puis cliquer sur la suggestion pour valider son choix. Que ce soit pour les documents ou les assignations, vous avez la possibilité de cliquer sur " + " pour ajouter des champs supplémentaires, ou sur la corbeille pour en enlever. 
+   Dans le cas du processus standard GoFAST, parmi les champs proposés vous avez les documents associés au processus et les personnes à assigner. 
+   Pour correctement renseigner ces champs, il est nécessaire de commencer à rentrer le nom du document ou d’un utilisateur (minimum 3 caractères), puis cliquer sur la suggestion pour valider son choix. 
+   Que ce soit pour les documents ou les assignations, vous avez la possibilité de cliquer sur " + " pour ajouter des champs supplémentaires, ou sur la corbeille pour en enlever. 
 
 Enfin, pour lancer le processus et les notifications associées, il suffit de cliquer sur "Envoyer" (en bas du formulaire).
 
