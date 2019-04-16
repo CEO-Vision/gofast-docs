@@ -19,7 +19,9 @@ Instructions (par image)
 
 –Étape 1: Télécharger l’image sur le site https://www.ceo-vision.com/fr/content/gofast-community-ged-plateforme-collaborative-opensource (.ova, ...)
 
-–Étape 2: Instancier l'image dans votre logiciel de Virtualisation 
+–Étape 2: Instancier l'image dans votre logiciel de virtualisation
+
+.. caution:: GoFAST est une application d'entreprise et nécessite un serveur (mini 2vcpu,4GB RAM,SSD recommandé). L'utilisation sur un simple PC sous VirtualBox est donc déconseillée et il est possible de subir des timeouts au premier accès et ensuite à la fin de la configuration. Un simple rafraichissement de la page suffit.
 
 -Étape 3: Se connecter à la machine virtuelle et lancer ``nmtui`` pour configurer le réseau (adresse IP fixe, passerelle ...). Voir https://gofast-docs.readthedocs.io/fr/latest/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.html#configuration-du-reseau-par-lexploitant
 
