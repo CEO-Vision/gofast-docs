@@ -3874,11 +3874,11 @@ Pour sélectionner un processus et le démarrer depuis la page d’un document :
 - Une liste des processus disponibles vous sera proposée,
 - Cliquer sur le nom du processus souhaité (ou sur l’icône "play" au niveau du processus)
 
+.. figure:: media-guide/Ecran-GoFAST_Workflows_lancer-processus-depuis-page-document.png
+   :alt:
+
 .. NOTE::
     En lançant un processus directement depuis la page du document, ce dernier est automatiquement associé au workflow dans le formulaire. 
-
-.. figure:: media-guide/Workflow_doc.png
-   :alt:
 
 
 Demarrer un processus depuis le menu pricnipal
@@ -3891,12 +3891,13 @@ Pour sélectionner un processus et le démarrer depuis le menu principal de GoFA
 - Une liste des processus disponibles vous sera proposée,
 - Cliquer sur le nom du processus souhaité (ou sur l’icône "play" au niveau du processus). 
 
+.. figure:: media-guide/Ecran-GoFAST_Workflows_lancer-processus-depuis-menu-principal-acces-rapide.png
+   :alt:
+
 .. NOTE::
     En lançant un processus depuis le menu principal (hors les documents du panier documentaire), le formulaire du processus n'intégre pas de document et il faut donc saisir le(s) document(s) concernés dans ce formulaire (hors dans le cas d'un éventuel processus spécifique paramétré de manière à intégrer automatiquements des documents ou devant être lancé sans document). 
     En lançant un processus sur les documents du panier documentaire, ces derniers sont automatiquement associés au processus. Vous avez ensuite la possibilité d'enlever/ajouter les documents dans le formulaire du workflow.
 
-.. figure:: media-guide/Workflow_menuprincipal.png
-   :alt: 
 
 Renseigner le formulaire du processus de tâches pour le démarrer  
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -3904,10 +3905,13 @@ Une fois que le processus souhaité est sélectionné, le formulaire associé s�
 
 Le formulaire proposé et donc les champs à renseigner, sont totalement dépendants du processus choisi. 
 
+.. figure:: media-guide/Ecran-GoFAST_Workflows_formulaire-processus-standard.png
+   :alt:
+
 **Focus sur les champs "Document(s)" et " Assignation(s)" du formulaire :** 
 Dans le cas du processus standard GoFAST, parmi les champs proposés vous avez notamment les documents associés au processus et les personnes à assigner. Pour correctement renseigner ces champs, il est nécessaire de commencer à rentrer le nom du document ou d’un utilisateur (minimum 3 caractères), puis cliquer sur la suggestion pour valider son choix. Que ce soit pour les documents ou les assignations, vous avez la possibilité de cliquer sur " + " pour ajouter des champs supplémentaires, ou sur la corbeille pour en enlever. 
 
-Enfin, pour lancer le processus et les notifications associées, il suffit de cliquer sur "Envoyer".
+Enfin, pour lancer le processus et les notifications associées, il suffit de cliquer sur "Envoyer" (en bas du formulaire).
 
 
 2. Etre notifié et consulter ses tâches à traiter et/ou assignées aux autres
