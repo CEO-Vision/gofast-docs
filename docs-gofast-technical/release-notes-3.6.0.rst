@@ -10,23 +10,39 @@ Nouvelles fonctionnalités
    :widths: 10, 40, 10
    
       "[4848]","Mise à jour majeure du moteur de Workflows BonitaSoft 7.7.4 : 
-      
       - nouvelle ergonomie
       - nouvelles fonctionnalités
       - nouvelles notifications
-      - meilleures performances","[Enterprise]"
-      "[4711]","Nouvelle vue historique pour les workflows archivés, accessible depuis la page d’un document","[Enterprise]"
-      "[4262]","Historique détaillé des actions et commentaires faits dans un workflow en cours","[Enterprise]"
-      "[4713]","Historique détaillé des actions et commentaires faits dans un workflow archivé","[Enterprise]"
-      "[4822]","Nouveau formulaire pour le workflow standard avec possibilité de rechercher et ajouter plusieurs documents","[Enterprise]"
+      - meilleures performances
+      Voir la Doc en ligne : https://bit.ly/2UZP5Lp","[Enterprise]"
+      "[4711]","Nouvelle vue historique pour les workflows archivés, accessible depuis la page d’un document
+   
+   Voir la Doc en ligne : https://bit.ly/2Xk8ZxV","[Enterprise]"
+      "[4262]","Historique détaillé des actions et commentaires faits dans un workflow en cours
+   
+   Voir la Doc en ligne : https://bit.ly/2Zgf5RL","[Enterprise]"
+      "[4713]","Historique détaillé des actions et commentaires faits dans un workflow archivé
+   
+   Voir la Doc en ligne : https://bit.ly/2Xk8ZxV","[Enterprise]"
+      "[4822]","Nouveau formulaire pour le workflow standard avec possibilité de rechercher et ajouter plusieurs documents
+   
+   Voir la Doc en ligne : https://bit.ly/2UjWqRn","[Enterprise]"
       "[4783]","Création de widgets GoFAST sur BonitaSoft","[Enterprise]"
       "[4784]","Nouveaux connecteurs BonitaSoft/GoFAST (+ amélioration des existants)","[Enterprise]"
       "[4820]","Nouvelles API supplémentaires pour BonitaSoft","[Enterprise]"
-      "[1640]","Listes d’Utilisateurs : gestion en masse et automatique des accès aux Espaces Collaboratifs","[Community][Enterprise]"
+      "[1640]","Listes d’Utilisateurs : gestion en masse et automatique des accès aux Espaces Collaboratifs
+   
+   Voir la Doc en ligne : ","[Community][Enterprise]"
       "[3782]","Nouvelle API REST GoFAST pour simplifier les couplages avec d’autres outils métiers","[Community][Enterprise]"
-      "[4141]","Gestion en masse des documents depuis le panier documentaire","[Community][Enterprise]"
-      "[4201]","Création en masse des Publications depuis des documents de travail en un clic","[Community][Enterprise]"
-      "[4202]","Comparatif de versions : écarts entre 2 versions d'un document en les affichant côte-à-côte [BETA]","[Community][Enterprise]"
+      "[4141]","Gestion en masse des documents depuis le panier documentaire
+   
+   Voir la Doc en ligne : ","[Community][Enterprise]"
+      "[4201]","Création en masse des Publications depuis des documents de travail en un clic
+   
+   Voir la Doc en ligne : ","[Community][Enterprise]"
+      "[4202]","Comparatif de versions : écarts entre 2 versions d'un document en les affichant côte-à-côte [BETA]
+   
+   Voir la Doc en ligne : ","[Community][Enterprise]"
       "[4273]","Extension des fonctionnalités sur GoFAST mobile : 
       
       - Pouvoir consulter sur la page d’un document sa catégorie, son état et son échéance, 
