@@ -1676,6 +1676,25 @@ sur celle qui vous intéresse pour vous y intégrer.
 .. figure:: media-guide/image128.png
    :alt: 
 
+
+Gestion des Listes d'Utilisateurs (à partir de la v3.6)
+=======================================================
+Les listes d'utilisateurs facilitent la gestion en masse et automatisée des membres des Espaces Collaboratifs et leurs rôles. 
+
+.. NOTE:: 
+
+Rôle d'administrateur de liste(s) d'utilisateurs
+------------------------------------------------
+
+
+Créer une liste d'utilisateurs
+-----------------------------
+
+
+Modifier une liste d'utilisateurs
+---------------------------------
+
+
 Gestion de documents
 ====================
 
