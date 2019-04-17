@@ -1683,9 +1683,25 @@ Les listes d'utilisateurs facilitent la gestion en masse et automatisée des mem
 
 Ainsi, lorsqu’un utilisateur GoFAST est ajouté à une liste, il devient automatiquement membre de tous les espaces associés à cette liste. 
 
+Créer/Modifier une liste d'utilisateurs
+---------------------------------------
+
+.. figure:: media-guide/Ecran-GoFAST_Liste-Utilisateurs_creer-liste.png
+   :alt: 
+
+Pour créer une liste, cliquez sur "Créer", puis "Liste d’utilisateurs" dans le menu principale. Vous êtes redirigé vers le formulaire et il suffit de renseigner les 3 champs affichés. 
+
+.. figure:: media-guide/Ecran-GoFAST_Liste-Utilisateurs_creer-liste-renseigner-formulaire.png	
+   :alt: 
+
+
 .. NOTE:: 
+   Le créateur d’une liste d’utilisateur devient administrateur de celle-ci. 
 
+Pour modifier les éléments de la liste (nom, description, membres), il suffit de cliquer sur le menu "Burger" (actions contextuelles) sur la page de la liste. 
 
+.. figure:: media-guide/Ecran-GoFAST_Liste-Utilisateurs_modifier-les-membres-de-la-liste.png	
+   :alt: 
 
 
 Gestion de documents
