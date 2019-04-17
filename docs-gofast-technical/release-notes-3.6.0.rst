@@ -14,7 +14,7 @@ Nouvelles fonctionnalités
       - nouvelles fonctionnalités
       - nouvelles notifications
       - meilleures performances
-      *Voir :https://bit.ly/2UZP5Lp*","[Enterprise]"
+      Voir : https://bit.ly/2UZP5Lp","[Enterprise]"
       "[4711]","Nouvelle vue historique pour les workflows archivés, accessible depuis la page d’un document
    
    *Voir : https://bit.ly/2Xk8ZxV*","[Enterprise]"
