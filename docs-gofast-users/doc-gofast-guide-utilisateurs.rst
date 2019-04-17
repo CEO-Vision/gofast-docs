@@ -596,122 +596,7 @@ Vous n’aurez donc accès qu’à **une organisation** dont vous êtes membre.
    sous-groupes collaboratifs pour pouvoir travailler avec ses collègues
    sur des projets/groupes de travail transversaux.
 
-Moteur de Recherche
-===================
 
-Fonctionnement du Moteur de Recherche :
----------------------------------------
-Tout le contenu texte des documents (Word, Excel, PDF, mail, pages web, wiki, etc.) et leurs caractéristiques (les métadonnées) sont indexés. Vous trouvez une information précise ou un fichier par mots-clefs, même approximatifs (pluriel vs singulier, fautes de frappe, etc…) et sans avoir à connaitre le titre. Des mots-clefs approchants sont proposés en cas de recherche infructueuse.
-
-Le moteur de recherche restitue le résultat selon la pertinence : 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Tout un ensemble de critères est pris en compte dans le calcul de cette pertinence : le nombre d’occurrences des mots-clefs recherchés, les emplacements des mots-clefs (ex : titre du fichier, d’un paragraphe dans le document…), les dates de création et modification (ex : un contenu récent sera privilégié vis-à-vis d’un document ancien), la popularité des contenus (ex : un document consulté souvent sera privilégié vis-à-vis d’un document qui n’a pas été consulté depuis des mois), etc.
-
-Liste des principaux formats pris en charge par l’extraction/indexation :
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-* HyperText Markup Language (HTML)
-* Fichiers vectoriels (SVG, VSD)
-* Formats XML et dérivés (XHTML, OOXML, ODF)
-* Documents Microsoft Office (DOC, PPT, EXL, DOCX, PPTX, PPSX, EXLX, etc.)
-* OpenDocument Format (ODF)
-* Documents iWorks
-* Portable Document Format (PDF)
-* Format de publication électronique (EPUB)
-* Rich Text Format (RTF)
-* Formats de compression et d'emballage (Tar, RAR, AR, CPIO, Zip, 7Zip, Gzip, BZip2, XZ et Pack200)
-* Formats de texte (TXT)
-* Formats de flux et de la syndication (RSS, Atom)
-* Formats d'aide (CHM)
-* Formats audio - au cas où il y a du texte intégré, ex : paroles (mp3, mp4, Vorbis, Speex, Opus, Flac etc.)
-* Dossiers et archives de classe Java
-* Code source (Java, C, C++, Groovy, etc)
-* Formats e-mail (ex : eml, PST, MSG, TNEF)
-
-Rechercher un document avec des mots-clefs
--------------------------------------------
-La barre de recherche se trouve dans le menu principale pour être accessible à tout moment, depuis toutes les pages de GoFAST. 
-Pour rechercher, il suffit de taper les mots clefs-souhaités et cliquer sur le bouton "loupe" ou faire "Entrer" sur son clavier. 
-
-.. NOTE::
-Une recherche avec 1 ou 2 mots-clefs sera élargie, alors qu'une recherche avec 3 mots-clefs ou plus sera plus restreinte. En effet, avec 2 mots clefs le moteur de recherche va proposer des contenus qui ont soit les 2 mots-clefs, soit l'un des deux mots-clefs. Alors qu’avec plus de 3 mots-clefs le moteur de recherche va proposer des contenus qui répondent à au moins 75% de la recherche. Donc, plus il y a de mots-clefs, plus la recherche est précise. 
-Il est donc conseillé de rentrer peu de mots-clefs si on n’est pas certain des termes recherchés et au contraire, rentrer plus de 3 mots-clefs si on sais exactement ce qu’on cherche et qu’on est sûr des termes saisis. 
-
-Recherche avancée avec les opérateurs booléens 
------------------------------------------------
-Par défaut, le moteur de recherche fonctionne avec la notion de "OU" : lorsqu'on saisit 2 mots-clefs le moteur va proposer les contenus avec le 1ère mot-clef OU l'autre mot-clef OU les 2 mots-clefs. 
-Cela permet un résultat de recherche très large, mais parfois il est nécessaire de restreindre la recherche. Il est alors possible d’utiliser les "opérateurs booléens" qui sont des symboles à mettre avant ou après les mots-clefs pour indiquer au moteur de recherche comment traiter ces mots-clefs en particulier (ex : mot obligatoire, à exclure, chaine de mots exacte, etc.).
-
-Liste des opérateurs booléens possibles :
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-* **AND** : intercalé entre les mots-clefs permet d'indiquer au moteur de recherche qu'il faut que tous les mots clefs soit présents (ex: Mémoire AND Technique AND Fonctionnalités)
-* **+** : ajouté devant un mot-clef permet de le rendre obligatoire (ex : Mémoire Technique +Fonctionnalités) pour indiquer au moteur de recherche que parmi les termes saisis, certains doivent obligatoirement être présents dans le document recherché. 
-* **"..."** : appliqués sur une suite de mots permet de rechercher une expression exacte (ex : "Mémoire Technique et Fonctionnalités GoFAST") et donc d’indiquer au moteur de recherche d’exclure les documents qui contiennent ses mots clefs s’ils ne sont pas exactement comme dans l’expression saisie. 
-* ***** : ajoutée à la fin ou au début d’un mot-clef permet de le rendre approximatif (ex : Fonction*) et donc d’indiquer au moteur de recherche d’afficher les documents qui contiennent tous les termes qui ont pour racine le mot-clef sais. 
-
-.. figure:: media-guide/operateurs-booleens.jpg
-   :alt: 
-
-Consulter le résultat de Recherche
----------------------------------------------
-.. NOTE:: Pour connaître la manière dont GoFAST restitue un résultat de recherche, merci de consulter la partie : "Le moteur de recherche restitue le résultat selon la pertinence"
-
-Pour chaque document affiché dans le résultat de recherche, vous pouvez consulter :
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-* L’icône indiquant le type du document (fichier texte, tableur, PDF, image, vidéo…) ou autre contenu (forum, page Wiki, profil utilisateur, Espace Collaboratif…),
-* Le titre du fichier (un clic dessus permet d'aller sur la page du document), 
-* Le menu des actions possible sur un document (icône avec 3 petite barres à droite du titre du document), 
-* Des "fragments" de texte qui sont des extraits du contenu avec les mots-clefs recherchés et qui permettent de vérifier si le document est bien celui que l’on cherche sans avoir à l’ouvrir (si plusieurs extraits sont trouvés, il est possible de les consulter l’un après l’autre en utilisant la pagination), 
-* Un bouton "prévisualiser" qui permet d’afficher un aperçu du document en un clic (NB : certains contenu ne le permettent pas car ne bénéficient pas la prévisualisation)
-* Des informations clefs sur le contenu (date de création/dernière modification, la popularité...)
-* Les étiquettes, catégories, l'importance et les états des documents. 
-
-.. figure:: media-guide/recherche-contextuelle.png
-   :alt:
-
-Recherche contextuelle dans un document :
------------------------------------------
-Le résultat de recherche permet de cliquer sur les mots-clefs mis en gras dans les titres et dans les extraits des contenus trouvés.
-Ces mots en gras permettent une recherche contextuelle dans un document : en cliquant sur un mot-clé mis en gras, vous accéder à la page du document avec dans la prévisualisation, la mise en évidence des mots-clefs recherchés et la possibilité de les passer l’un après l’autre. 
-Cette recherche contextuelle offre un important gain de temps lorsqu’il faut trouver un élément précis dans un document en particulier ou pour en faire une lecture rapide.  
-
-Filtrer le résultat de recherche
---------------------------------
-Dans le cas où les mots-clefs saisis ne permettent pas de retrouver rapidement le document recherché, GoFAST propose de nombreux filtres.
-La liste des filtres est conditionnée au résultat de recherche, ex : si pour les mots-clefs saisis il n'y a aucun document de type PDF, ce format ne sera pas proposé dans les filtres disponibles.
-
-Groupes de filtres disponibles : 
-
-* Date de création, 
-* Date de modification, 
-* Type de document (selon le format de fichier), 
-* Etiquettes, 
-* Catégorie,
-* Espaces Collaboratifs,
-* Créateur, 
-* Dernier contributeur, 
-* Auteur, 
-* Etat, 
-* Importance, 
-* Langue,
-* Echéance.
-
-.. figure:: media-guide/image038.png
-   :alt: 
-
-Trier le résultat de recherche
-------------------------------
-Par défaut, le résultat de recherche classe les documents par pertinence selon les mots-clefs recherchés (voir "fonctionnement du moteur de recherche").
- 
-Il est toutefois possible de modifier de tri pour classer les contenus par : 
-
-* Titre (ordre alphabétique)
-* Auteur, 
-* Popularité
-* Date de création 
-* Date de modification, 
-* Type de document
-
-.. NOTE:: trier le résultat de recherche sur un autre critère que la pertinence, peut afficher en haut de la liste des contenus qui correspondent mois bien aux mots-clefs saisis car le critère sélectionné pour le tri prime. 
 
 Création de contenus
 ====================
@@ -1120,8 +1005,7 @@ si besoin et s’il en est l’administrateur aussi).
 
 Création d’une conférence (Enterprise only)
 -------------------------------------------
-   
-   
+    
 
 .. CAUTION:: Les technologies de conférence Web sont assez récentes et nécessitent de bonnes ressources (PC, réseau, ...). Assurez-vous de suivre les pré-requis. En cas de problème consulter les problèmes fréquents : http://gofast-docs.readthedocs.io/fr/latest/docs-gofast-users/doc-gofast-problemes-connus.html#webconference
 
@@ -1191,578 +1075,7 @@ reprenant les mêmes informations et le lien URL.
 .. figure:: media-guide/image089.png
    :alt: 
 
-Gestion d'un espace collaboratif
-=================================
 
-Voir aussi "Création d’un espace"
-
-Devenir membre d’un espace/groupe
----------------------------------
-
-Il faut bien sûr d’abord avoir un compte GoFAST. Si ce n’est pas encore
-le cas, il faut **le demander** à l’administrateur général (à ICT) ou à
-un autre administrateur d’espace (désormais possible dans GoFAST3) .
-Puis,
-
--  soit l’administrateur du groupe qui a créé votre compte, vous ajoute
-   directement comme membre de ce groupe ;
-
--  soit en faisant la demande via l’annuaire et les
-   groupes/organisations/espaces : vous avez la liste des espaces
-   collaboratifs à droite (cliquez sur ceux que vous voulez) , vous les
-   retrouvez ainsi à gauche et avez la possibilité de les rejoindre un
-   par un en cliquant sur « Rejoindre » dans chaque case d’espace.
-
-.. figure:: media-guide/image090.png
-   :alt: 
-
-Vous verrez un message bleu s’afficher confirmant votre demande de
-joindre ce groupe/cet espace
-
-.. figure:: media-guide/image091.png
-   :alt: 
-
-Vous retrouverez ensuite vos demandes dans votre profil.
-
-.. figure:: media-guide/image092.png
-   :alt: 
-
-Ajouter des membres à un espace/groupe
---------------------------------------
-
-Le **compte** de la personne doit déjà exister, si pas, il doit **être
-créé** dans l'annuaire par quelqu'un d'habilité (l’administrateur
-général/ICT ou un autre administrateur de l’espace en question) .
-
-(voir « Création d’ un utilisateur » p.43 et « Créer un utilisateur dans
-un espace » p.52)
-
-Pour connaître les administrateurs d’un groupe, allez sur l’onglet
-« Membres » de ce groupe, vous y verrez en 1ere ligne les
-administrateurs de l’espace.
-
-.. figure:: media-guide/image093.png
-   :alt: 
-
-**Si vous avez donc les droits d’administrateur de cet espace** ;
-lorsque vous êtes dans l’espace collaboratif en question (groupe ou
-organisation), allez dans les actions contextuelles (3 barres
-horizontales) , cliquez sur « Ajouter membre»
-
-.. figure:: media-guide/image094.png
-   :alt: 
-
-Remplissez cette fenêtre avec le nom du nouveau membre (inscrivez les 3
-premières lettres pour avoir des propositions de noms), choisissez le
-rôle que vous lui donnez (administrateur, contributeur standard ou
-lecture seule). Vous pouvez également mettre un petit mot dans la zone
-de texte « Request message » pour prévenir les autres administrateurs de
-cet espace de cet ajout et la raison. Terminez en cliquant sur « Ajouter
-le nouveau membre » en vert.
-
-.. figure:: media-guide/image095.png
-   :alt: 
-
-.. figure:: media-guide/image096.png
-   :alt: 
-
-Lorsque vous revenez sur l’onglet « Membres » du groupe, vous voyez les
-noms des membres (icône/photo) et dans quelle catégorie de rôle ils
-sont.
-
-**Rechercher/modifier/supprimer un membre dans un espace**
-
--  Vous pouvez **rechercher** un membre en tapant les 3 premières
-   lettres de son nom/prénom.
-
--  Sous les noms des membres, vous pouvez **modifier** un par un leur
-   rôle ; appuyez sur « Modifier rôle » ; la fenêtre pour changer les
-   rôles s’ouvre. Mettez à jour.
-
--  Vous pouvez aussi **supprimer** un membre dans un groupe de cette
-   façon. Appuyez sur « Retirer »
-
-.. figure:: media-guide/image097.png
-   :alt: 
-
-Voir aussi"Gérer les membres d’un groupe" 
-
-Créer un utilisateur dans un espace/groupe
-------------------------------------------
-
-Si vous voulez **ajouter un nouvel utilisateur** à la GoFAST, il faut
-lui créer un compte.
-
-Toujours dans les actions contextuelles d’un groupe, vous pouvez créer
-un nouvel utilisateur dans ce groupe/espace, à condition d’en avoir les
-droits d’administrateur d’espace.
-
-.. figure:: media-guide/image098.png
-   :alt: 
-
-Ce formulaire s’ouvre, dans lequel vous pouvez soit aller chercher dans
-le LDAP, l’annuaire (AD) de l'Organisation (si le couplage a été fait) , et certaines les données seront alors
-préremplies ; soit remplir à la main avec les données du nouvel
-utilisateur (externe) pour lequel vous créez ce compte.
-
-Terminez par « Enregistrer »
-
-.. figure:: media-guide/image099.png
-   :alt: 
-
-.. figure:: media-guide/image100.png
-   :alt: 
-
-.. figure:: media-guide/image101.png
-   :alt: 
-
-Gérer les membres d’un espace/groupe
-------------------------------------
-
-Gérer les membres d’un groupe signifie **ajouter/supprimer des membres,
-leur donner un rôle spécifique** (voir : « Rôles/droits des membres d’un
-espace/groupe » p.56).
-
-C’est **l’administrateur du groupe** qui peut faire cela.
-L’administrateur étant celui qui a créé le groupe ou celui à qui on a
-confié ce rôle (assistant administratif, N+1, responsable du groupe, …)
-
-Si vous avez donc les droits pour gérer les membres d’un groupe parce
-que vous en êtes l’administrateur, il faut cliquer sur la flèche de
-l’onglet « Espaces » puis sur « Gérer les membres des espaces » ; une
-fenêtre s’ouvre avec 2 parties : « Ajouter un membre » et « Mettre à
-jour ».
-
-.. figure:: media-guide/image102.png
-   :alt: 
-
-La 1ere partie « \ **Ajouter un membre** » vous permet d’ajouter un ou
-plusieurs membres en une fois dans un groupe. Sélectionnez les membres à
-ajouter, en tapant les 1eres lettres de leur nom ou prénom, le système
-vous proposera une liste à cocher ; choisissez ensuite le ou les
-groupe(s) dans lesquels vous voulez les ajouter, ainsi que le rôle que
-vous voulez leur donner (administrateur, contributeur ou en lecture
-seule). Par défaut, ils seront abonnés à ce/ces groupes, donc n’oubliez
-pas de choisir NON sous « subscription » si vous ne voulez pas qu’ils
-reçoivent automatiquement les notifications liées à ce(s) groupe(s).
-
-Terminez par « **Appliquer** »
-
-.. figure:: media-guide/image103.png
-   :alt: 
-
-La 2eme partie «**Mettre à jour** » permet de gérer les utilisateurs
-déjà membres de ce groupe et donc soit de les supprimer, soit de changer
-leur rôle.
-
-Cochez le groupe dont il est question, une liste apparaît, on y voit les
-noms des membres et leur rôle actuel dans ce groupe. Cochez les membres
-que vous voulez changer, choisissez leur nouveau rôle et « Appliquez » ;
-ou supprimez les du groupe avec « Retirer les droits d’accès »
-
-.. figure:: media-guide/image104.png
-   :alt: 
-
-Pour annuler l’action, cliquez sur le logo GoFAST, dans le coin gauche
-supérieur de l’écran ; vous revenez ainsi à la page d’accueil.
-
-.. figure:: media-guide/image105.png
-   :alt: 
-
-Rôles/droits des membres d’un groupe/espace
--------------------------------------------
-
-Il y a **3 types d’utilisateurs** selon les droits qu’ils ont sur la
-gestion des documents :
-
-1) **L’administrateur/rice** d’un groupe : peut tout faire dans le
-   groupe : ajouter/supprimer des membres, leur donner différents
-   droits, supprimer/ajouter n’importe quel document, créer des
-   sous-espaces dans ce groupe, et toutes les fonctionnalités de base :
-   télécharger, éditer, déplacer un document, gérer la taxonomie (=
-   métadonnées/infos liées au document), …
-
-2) **L’utilisateur standard** : peut utiliser toutes les fonctionnalités
-   de base : télécharger, éditer, ajouter/supprimer/déplacer un document
-   *dont il est l’auteur,* gérer la taxonomie (= métadonnées/infos liées
-   au document), …
-
-3) **L’utilisateur « read only/lecture seule »** : peut juste
-   télécharger le document ou le commenter. 
-
-Gérer un espace collaboratif /groupe
-------------------------------------
-
-Lorsque vous êtes dans un **espace/groupe,** voici le genre de données
-que vous pouvez voir :
-
-a) Une page d’\ **Accueil **;
-
-.. figure:: media-guide/image106.png
-   :alt: 
-
-b) Un onglet « **Activité** », où vous avez une vue d’ensemble de ce
-   qui se passe dans ce groupe ;
-
-.. figure:: media-guide/image107.png
-   :alt: 
-   
-c) Un onglet « **Statistiques** », où vous voyez les activités des membres actifs et inactifs, ainsi que les statistiques documentaires de l'espace ;
-
-.. figure:: media-guide/Statistiques.png
-   :alt: 
-
-d) Un onglet « **Documents** », où vous voyez les documents et
-   l’arborescence de ceux-ci ; 
-
-.. figure:: media-guide/Image-Document-6.png
-   :alt: 
-
-e) Un onglet « **Calendrier** », où vous pouvez mettre des dates
-   d’échéance, des rappels, … ;
-
-.. figure:: media-guide/image109.png
-   :alt: 
-
-f) Un onglet « **Membres** », où vous voyez les membres du groupe et
-   leur rôle respectif
-
-.. figure:: media-guide/image110.png
-   :alt: 
-
-S’il y a des utilisateurs qui ont fait la demande de rejoindre ce
-groupe, on peut le voir sous ce titre « Utilisateurs en attente »
-
-.. figure:: media-guide/image111.png
-   :alt: 
-
-Vous pouvez gérer votre groupe grâce à l’icône avec les **3 barres
-horizontales**, dans le coin droit supérieur de la page du groupe, qui
-correspond aux fonctionnalités/actions contextuelles liées à un groupe,.
-Par contre, si vous n’êtes pas administrateur de groupe, certaines de
-ces options vous seront invisibles.
-
-.. figure:: media-guide/image112.png
-   :alt: 
-
-Vous pouvez y ajouter un membre, créer un nouvel utilisateur pour cet
-espace, créer un sous-espace, modifier les données du groupe, archiver
-ce groupe, supprimer ce groupe, se désabonner ou s’abonner, rejoindre
-une discussion,...
-
-.. NOTE:: Les onglets "accueil", "activité", "statistiques", "membres" d'un espace affichent des éléments liés à l'espace sur lequel on se trouve et dont le titre est indiqué juste au-dessus des onglets. Toutefois, l'onglet "Document" ne cloisonne pas l'utilisateur à cet unique espace, mais lui permet de naviguer dans tous les emplacements où il a accès. Il peut donc arriver que le nom de l'espace indiqué au dessus des onglet ne soit pas celui de l'emplacement d'arborescence où on se trouve. 
-
-
-Ajouter un sous-espace
-----------------------
-
-.. NOTE:: Merci de lire en introduction la différence entre les espaces de type Organisation, Groupes, Extranet, ... http://gofast-docs.readthedocs.io/fr/latest/docs-gofast-users/doc-gofast-guide-utilisateurs.html#les-espaces-collaboratifs
-
-Il est possible de créer de **nouveaux espaces dans un espace**
-déjà existant ou dans une organisation, que nous appellerons « sous-espaces »; 
-
-.. IMPORTANT:: Pourquoi créer des sous-espaces au lieu de simples répertoires ? => Pour limiter l'accès de ce nouveau sous-espace à un nombre plus restreints de membres que l'espace "parent"
-
-.. CAUTION:: Seul le super-administrateur ou Administrateur de plateforme peut créer des sous-espaces à la racine
-
-Dans les actions contextuelles de l’espace (icône avec 3 barres
-horizontales), choisissez « Ajouter sous-organisation ou sous-groupe »
-
-.. figure:: media-guide/image113.png
-   :alt: 
-
-Il suffit alors de remplir cette page avec le nom du nouvel espace,
-donner une brève description, créer éventuellement une page d’accueil,
-choisir l’endroit où il se trouvera dans l’arborescence de la GoFAST et
-terminer avec « Enregistrer ».
-
-.. figure:: media-guide/image114.png
-   :alt: 
-
-Ce sera donc un nouveau groupe/espace qui se gère comme les autres, où
-il faudra y ajouter des membres et des fichiers à partager.
-
-Vous pouvez retrouver ce **sous-espaces dans vos espaces** ; par
-exemple, ici comme c’est un sous-espace d’une organisation, allez sur
-les petites flèches à côté des noms d’espaces/organisation jusqu’au
-niveau de votre sous-espace.
-
-.. figure:: media-guide/image115.png
-   :alt: 
-
-.. NOTE::
-    Il est conseillé de ne pas créer trop de sous-groupes
-    si il n’est pas nécessaire de gérer des droits particuliers quant au
-    contenu de ce groupe ; créez plutôt des répertoires qui resteront
-    visibles à tous les membres du groupe-parent.
-
-Si les sous-espaces/groupes ne sont pas visibles directement via
-l’onglet « Espaces », une autre manière d’explorer les sous-niveaux et
-leur contenu, est d’appuyer sur le logo d’organigramme (« Parcourir à
-partir d’ici » ) à droite du nom du groupe ; cela vous amènera à
-l’arborescence plus détaillée de l’espace (avec ses sous-espaces) et son
-contenu.
-
-.. figure:: media-guide/image116.png
-   :alt: 
-
-.. figure:: media-guide/Image-Arborescence-7.png
-   :alt: 
-
-.. NOTE::
-   Les membres d’un sous-groupe auront accès aux documents/répertoires qui se
-   trouvent à un niveau supérieur (dans le groupe-parent) , par contre les
-   membres du groupe-parent n’auront pas nécessairement accès aux documents
-   de ce sous-groupes car la liste des membres du sous-groupe peut varier
-   par rapport à celle des membres du groupe-parent.
-
-**Exemple :**
-
--  Monsieur X est membre du *sous-groupe* « Support GoFAST », entouré
-   en rouge ; 
-
--  Madame Y est membre du *sous-groupe* « test\_group », entouré en
-   noir ; 
-
--  Junior fait partie du *groupe-parent* ou groupe-racine « Groupes »,
-   entouré en jaune.
-
-.. figure:: media-guide/image370.png
-   :alt: 
-
-Ils voient tous les 3 ce qu’il se passe dans le groupe-racine
-« Groupes » (entouré en jaune) , c’est-à-dire les répertoires et activités
-propres à ce groupe-racine *MAIS* Monsieur X et Madame Y ne voient que
-ce qu’il se passe dans leur propre sous-groupe respectif ( entouré en
-rouge ou en noir) et donc l’un ne voit pas ce qu’il se passe dans le
-groupe de l’autre. Madame Y (entouré en noir) ne voit pas ce qu’il se
-passe chez Monsieur X (entouré en rouge) et vice -versa. Quant à Junior
-(entouré en jaune), il ne voit pas ce qu’il se passe dans les
-(sous-)groupes de Madame Y et Monsieur X, à moins qu’il ne devienne
-membre de ce/ces sous-groupes aussi. => nouveaux groupes et sous-groupes
-= plus de confidentialité et possibilité de membres différents d’un
-groupe à l’autre.
-
-**Autre manière d’expliquer, avec l’arborescence :**
-
-Je suis membre du groupe « \_Support GoFAST » qui est un sous-groupe de
-l’espace « Groupes ». J’ai donc accès à tous les répertoires qui se trouvent
-dans « \_Groupes » et dans « \_Support GoFAST » (nom précédé d’un
-underscore = espace/groupe).
-
-.. figure:: media-guide/image371.png
-   :alt: 
-
-Par contre, je ne vois pas le sous-groupe « test\_group » dans
-l’arborescence car je n’en suis pas membre.
-
-Je sais juste qu’il existe parce qu’il est dans les espaces visibles à
-partir du menu.
-
-.. figure:: media-guide/image372.png
-   :alt: 
-
-Et si je clique dessus à partir du menu, j’arriverai sur la page du
-groupe « Test\_group » mais l’accès à son contenu me sera refusé.
-
-Je devrai demander d’en devenir membre si je veux voir le contenu et y
-travailler.
-
-.. figure:: media-guide/image373.png
-   :alt: 
-
-Modifier un groupe
-------------------
-
-Cette fonctionnalité permet de **modifier les informations concernant un
-groupe** déjà existant : vous pouvez changer le nom, la description, la
-page d’accueil et son emplacement dans l’arborescence (par exemple,
-changer l’espace-parent).
-
-Reprenez les actions contextuelles d’un groupe (les 3 barres
-horizontales), choisissez « Modifier » et changer les données. Terminez
-par « Enregistrer ».
-
-.. figure:: media-guide/image118.png
-   :alt: 
-
-.. figure:: media-guide/image119.png
-   :alt: 
-
-Archiver un groupe
-------------------
-
-**Archiver un groupe** permet de garder une trace de son contenu et donc
-de ne pas le supprimer totalement de la GoFAST. On peut archiver un
-groupe de travail qui n’est plus actif par exemple.
-
-Pour archiver un groupe : allez dans les actions contextuelles du groupe
-(les 3 barres horizontales) et choisissez « Archivez cet espace ».
-
-Une fenêtre s’ouvre vous demandant si vous êtes sûr de vouloir archiver
-cet espace, confirmez en appuyant sur « Archive ».
-
-.. figure:: media-guide/image120.png
-   :alt: 
-
-Le contenu de ce groupe apparaîtra comme archivé et ne sera plus visible
-lors de la recherche, sauf si vous mettez l’option de recherche
-« Inclure les contenus archivés ».
-
-.. figure:: media-guide/image121.png
-   :alt: 
-
-Supprimer un groupe
--------------------
-
-Supprimer un groupe consiste à **supprimer tout son contenu** de la
-GoFAST définitivement ! Il ne sera donc plus visible nulle part.
-Réfléchissez donc bien avant de vouloir supprimer un groupe,
-assurez-vous qu’il soit bien vide par exemple.
-
-Toujours dans les actions contextuelles, choisissez « Supprimer cet
-espace »
-
-.. figure:: media-guide/image122.png
-   :alt: 
-
-S’abonner ou se désabonner à un groupe (voir mes abonnements)
--------------------------------------------------------------
-
-Vous pouvez vous **abonner à un groupe** pour rester au courant de tout
-ce qu’il s’y passe, vous recevrez alors régulièrement une notification
-vous informant de telle ou telle action sur les documents de ce groupe.
-
-Dans les actions contextuelles du groupe (3 barres horizontales),
-choisissez « S’abonner ».
-
-.. figure:: media-guide/image123.png
-   :alt: 
-
-Un message en vert apparaîtra à droite de l’écran vous confirmant
-l’abonnement à ce groupe.
-
-.. figure:: media-guide/image124.png
-   :alt: 
-
-Vous pouvez par la même manœuvre vous désabonner à ce groupe. Ce qui
-veut dire que vous ne recevrez plus aucune notification en rapport avec
-ce groupe et son contenu.
-
-.. figure:: media-guide/image125.png
-   :alt: 
-
-Le même message en vert vous confirme votre désabonnement
-
-.. figure:: media-guide/image126.png
-   :alt: 
-
-Voir aussi  "Vos abonnements"
-
-Rejoindre la discussion (à compléter après test)
-------------------------------------------------
-
-Pour **rejoindre des discussions/videoconférences** en cours, un peu
-comme un chat/skype, appuyez sur « Rejoindre la discussion » dans les
-actions contextuelles ;
-
-.. figure:: media-guide/image127.png
-   :alt: 
-
-Des messages en bleu apparaîtront dans le coin droit supérieur de
-l’écran avec les différentes discussions en cours. Il suffira d’appuyer
-sur celle qui vous intéresse pour vous y intégrer.
-
-.. figure:: media-guide/image128.png
-   :alt: 
-
-
-Gestion des Listes d'Utilisateurs (en v3.6)
-===========================================
-Les listes d'utilisateurs facilitent la gestion en masse et automatisée des membres des Espaces Collaboratifs et leurs rôles. Ainsi, lorsqu’un utilisateur GoFAST est ajouté à une liste, il devient automatiquement membre de tous les espaces associés à cette liste. 
-
-Les listes peuvent aussi être sélectionnées lors d'un partage de documents par email (voir *Partager le document par mail* : https://gofast-docs.readthedocs.io/fr/latest/docs-gofast-users/doc-gofast-guide-utilisateurs.html?highlight=panier#partager-le-document-par-mail)
-
-Créer/Modifier une liste d'utilisateurs
----------------------------------------
-
-.. figure:: media-guide/Ecran-GoFAST_Liste-Utilisateurs_creer-liste.png
-   :alt: 
-
-Pour créer une liste, cliquez sur "Créer", puis "Liste d’utilisateurs" dans le menu principale. Vous êtes redirigé vers le formulaire et il suffit de renseigner les 3 champs affichés :
-
-   - Nom de la liste,
-   - Desccription,
-   - Membres de la liste (rentrez au moins 3 caractère du nom/prénom d'un utilisateur pour avoir des suggestions),
-
-.. figure:: media-guide/Ecran-GoFAST_Liste-Utilisateurs_creer-liste-renseigner-formulaire.png	
-   :alt: 
-
-
-.. NOTE:: 
-   Le créateur d’une liste d’utilisateur devient administrateur de celle-ci. 
-
-Pour modifier les éléments de la liste (nom, description, membres), il suffit de cliquer sur le menu "Burger" (actions contextuelles) sur la page de la liste. 
-
-.. figure:: media-guide/Ecran-GoFAST_Liste-Utilisateurs_modifier-les-membres-de-la-liste.png	
-   :alt: 
-
-Ajouter/enlever une liste d'utilisateurs comme membre d’un Espace Collaboratif
-------------------------------------------------------------------------------
-L'ajout d'une liste dans un espace collaboratif se fait comme pour un utilisateur unitaire :
-
-   - Aller sur la page de l'espace
-   - Ouvrir le menu "Burger" (actions contextuelles)
-   - Cliquer sur "ajouter membre/liste"
-   
-.. figure:: media-guide/Ecran-GoFAST_Liste-Utilisateurs_ajouter-liste-dans-espace-collaboratif.png	
-   :alt: 
-
-Le formulaire d'ajout d'un membre s'ouvre et il faut commencer à rentrer le nom de la liste (au moins 3 caractères) pour avoir des suggestions. 
-
-.. figure:: media-guide/Ecran-GoFAST_Liste-Utilisateurs_ajouter-liste-dans-espace-collaboratif-formulaire.png	
-   :alt: 
-
-.. NOTE:: 
-   Pour ajouter une liste d'utilisateurs comme membre d'un espace, il faut être administrateur de l'espace. 
-
-.. NOTE:: 
-   Le rôle attribué à chaque utilisateur dans l'Espace Collaboratif et celui coché lors de l'ajout de la liste. Si l'utilisateur est membre d'un espace de plusieurs façons (Listes + directement via son profile), c'est le rôle qui offre le plus de privilège qui s'appliquera. De cette façon, on évite de restreindre les droits d'un utilisateur qui serait déjà membre de l'Espace Collaboratif.
-   
-Une fois la liste ajoutée à l'Espace Collaboratif, celle-ci est affichée parmi les autres membres. 
-
-.. figure:: media-guide/Ecran-GoFAST_Liste-Utilisateurs_liste-dans-espace-collaboratif.png	
-   :alt: 
-
-Les Espaces Collaboratifs dont est membre la liste sont affichés sur la page de la liste, onglet "Emplacements". 
-
-.. figure:: media-guide/Ecran-GoFAST_Liste-Utilisateurs_emplacements-associes-a-la-liste.png	
-   :alt: 
-
-Afficher/Rechercher les listes d'utilisateurs
----------------------------------------------
-
-Annuaire des Liste d'Utilisateurs
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Pour consulter les listes existantes, il suffit de passer par les annuaires accessibles depuis le menu principal. 
-
-.. figure:: media-guide/Ecran-GoFAST_Liste-Utilisateurs_annuaire-liste.png	
-   :alt: 
-   
-Pour aller sur un liste depuis l'annuaire, vous pouvez cliquer sur le nom de la liste. Vous pourrez alors consulter les membres et les emplacements de celle-ci. 
-
-Rechercher une Liste d'Utilisateurs
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Les listes d'utilisateurs sont recherchables via la moteur de recherche et peuvent être utilisées comme "filtre de format".
-
-.. figure:: media-guide/Ecran-GoFAST_Liste-Utilisateurs_rechercher-liste.png	
-   :alt: 
-   
-.. NOTE:: 
-   Les listes dont fait partie un utilisateur sont affichées sur sa page de profile. 
-
-   
 Gestion des Documents et Travail Collaboratif
 =============================================
 
@@ -2146,163 +1459,7 @@ différent, vous recevrez ce message.
 .. figure:: media-guide/image156.png
    :alt: 
 
-Editer/modifier en ligne le document
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Cette fonction permet **d’ouvrir un fichier pour édition/modification**
-sans avoir à le sauvegarder au préalable en local.
-
-Le document type « Office » sera ouvert avec l’application définie par
-défaut sur votre poste (exemple Office, LibreOffice, WPS). A noter que
-sur Firefox, vous avez la possibilité de choisir à chaque ouverture
-l’application.
-
-Pour les types de contenus comme PDF, Images, une petite application
-doit être installée au préalable sur le poste. Vous pouvez ensuite
-ouvrir un PDF dans Adobe ou Foxit, le signer et directement le
-sauvegarder sur GoFAST.
-
-Si vous êtes donc un utilisateur standard/contributeur dans vos groupes,
-vous pouvez modifier des documents, « éditer en ligne », de telle sorte
-que les modifications apportées au document seront directement
-enregistrées sur la GoFAST et donc visibles à tous les membres de ce
-groupe. C’est ce qu’on appelle la synchronisation.
-
-Allez dans le menu des fonctionnalités/actions contextuelles de la
-prévisualisation et cliquez sur « **Editer en ligne** »…
-
-    .. figure:: media-guide/image157.png
-       :alt: 
-
-Le système vous demande votre mot de passe afin de vous **identifier**.
-Ainsi le système pourra montrer qui a fait les derniers changements
-(cf : historique des versions et du document dans les métadonnées).
-
-Votre identifiant et mot de passe sont les mêmes que pour vous loguer à
-GoFAST.
-
-.. figure:: media-guide/image158.png
-   :alt: 
-
-Le document s’ouvre dans Office et vous pouvez y travailler normalement,
-n’oubliez pas de sauver (disquette) avant de fermer le document pour
-être certain que le système a enregistré vos modifications.
-
-.. figure:: media-guide/image159.png
-   :alt: 
-
-De retour sur l’interface GoFAST, faites un refresh de la page pour que
-la prévisualisation du document apparaisse avec les modifications qui
-viennent d’être faites.
-
-.. figure:: media-guide/image160.png
-   :alt: 
-
-Vous pouvez voir qui a fait une action sur ce document dans
-l’historique, dans l’encadrement des métadonnées, tout en bas.
-
-Vous pouvez également voir les versions précédentes, en cliquant sur
-« Show versions list » au niveau « Révisions dans les métadonnées.
-
-.. figure:: media-guide/image161.png
-   :alt: 
-
-.. NOTE::
-    Lorsque vous êtes en train d’éditer un document (que
-    vous l’avez ouvert en ligne ), les autres personnes qui voudraient
-    l’ouvrir auront ce message lors de sa prévisualisation, au-dessus
-    des métadonnées « Vous êtes en lecture-seule sur ce document »
-
-Et ils verront un petit cadenas fermé rouge dans la barre des
-fonctionnalités de la prévisualisation, avec la photo de l’utilisateur
-qui est en train de travailler sur le document. En mettant sa souris sur
-l’icône, vous pouvez voir le nom de l’autre utilisateur.
-
-.. figure:: media-guide/image162.png
-   :alt: 
-
-.. image:: media-guide/Tag-Enterprise.png
-   :align: right
-   :scale: 7%
-   
-   
-Editer le document avec OnlyOffice (Enterprise only)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-   
-GoFAST 3 apporte une dimension très innovante et vous permet d’éditer
-des documents Office dans un simple navigateur **avec d’autres personnes
-en simultané**. Vous pouvez ainsi travailler à plusieurs, en même temps,
-sur un même document.
-
-.. NOTE::
-   Contrairement à GoogleDocs/Drive, **vous conservez vos formats
-   Office** et vous pouvez ensuite directement ouvrir le fichier avec
-   Office sans avoir à changer de format.
-
-.. NOTE::
-   De plus OnlyOffice est dans votre datacenter limitant les besoins
-   de bande passante et garantissant une confidentialité totale.
-
-.. CAUTION::   
-   Une connexion réseau d'assez bonne qualité est nécessaire
-   
-
-Pour cela lancer la co-édition, allez dans les actions contextuelles de
-la prévisualisation et appuyez sur l’option «  Editer avec OnlyOfice »
-
-.. figure:: media-guide/image163.png
-   :alt: 
-
-.. IMPORTANT::
-   Si vous souhaitez co-éditer les anciens formats Microsoft (.doc, .xls, .ppt) ou les formats
-   OpenDocument (.odt, ...) ceux-ci seront convertis dans les formats équivalents .docx, .xlsx, .pptx). Si vous souhaitez une conversion la plus fidèle possible, faire cette conversion sous Office ou LibreOffice
-   De même la version actuelle ne génère pas les Table de Matières, celles-ci devant être
-   généré une fois le document terminé sous votre éditeur de texte.
-   
-Ce message apparaît, cliquez sur « Continuer »
-
-.. figure:: media-guide/image395.png
-   :alt: 
-   
-Voici un exemple d’un document Word ouvert avec OnlyOffice, pour
-modification. On peut noter qu'une personne est entrain d'éditer en même
-temps le document.
-
-.. figure:: media-guide/image396.png
-   :alt: 
-
-
-Faites vos modifications puis fermer OnlyOffice, vous serez redirigé sur
-la prévisualisation de votre document dans GoFAST ; **une fois que
-toutes les personnes seront sorties d’OnlyOffice, une nouvelle version
-sera créée** ; rafraichissez la page avec les petites flèches rondes
-rouges, vous verrez ainsi vos modifications enregistrées dans le
-document.
-
-.. NOTE::
-   Vous pouvez utiliser de nombreuses fonctionnalités de Word,
-   notamment nous vous recommandons d'activer le mode révision (en bas à
-   droite), les autres éditeurs identifieront mieux vos changements.
-
-.. NOTE::
-   Lorsque vous êtes en train d’éditer un document avec
-   OnlyOffice (que vous l’avez ouvert en ligne), les autres personnes qui
-   voudraient l’ouvrir auront ce message lors de sa prévisualisation,
-   au-dessus des métadonnées « Vous êtes en lecture-seule sur ce document »
-
-Et ils verront un petit cadenas ouvert rouge dans la barre des
-fonctionnalités de la prévisualisation, avec la photo de l’utilisateur
-qui est en train de travailler sur le document. En mettant sa souris sur
-l’icône, vous pouvez voir le nom de l’utilisateur qui a ouvert en
-1\ :sup:`er` le document.
-
-.. figure:: media-guide/image166.png
-   :alt: 
-
-.. NOTE::
-   OnlyOffice vous permet de co-éditer des contrats, des budgets, des
-   présentations Powerpoint d'une façon beaucoup plus rapide que
-   traditionnement, chacun travaillant à son tour.
 
 Gérer les traductions du document
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -3324,10 +2481,288 @@ Les documents du paniers sont proposés lors du démarrage d’un nouveau workfl
    
 Pour savoir comment démarrer un nouveau processus de tâches, merci de vous référer à la documentation : https://gofast-docs.readthedocs.io/fr/latest/docs-gofast-users/doc-gofast-guide-utilisateurs.html#workflows-processus-de-taches-enterprise-only
 
+Edition de fichiers et Suite Office Collaborative
+=================================================
+
+Editer/modifier en ligne le document
+------------------------------------
+
+Cette fonction permet **d’ouvrir un fichier pour édition/modification**
+sans avoir à le sauvegarder au préalable en local.
+
+Le document type « Office » sera ouvert avec l’application définie par
+défaut sur votre poste (exemple Office, LibreOffice, WPS). A noter que
+sur Firefox, vous avez la possibilité de choisir à chaque ouverture
+l’application.
+
+Pour les types de contenus comme PDF, Images, une petite application
+doit être installée au préalable sur le poste. Vous pouvez ensuite
+ouvrir un PDF dans Adobe ou Foxit, le signer et directement le
+sauvegarder sur GoFAST.
+
+Si vous êtes donc un utilisateur standard/contributeur dans vos groupes,
+vous pouvez modifier des documents, « éditer en ligne », de telle sorte
+que les modifications apportées au document seront directement
+enregistrées sur la GoFAST et donc visibles à tous les membres de ce
+groupe. C’est ce qu’on appelle la synchronisation.
+
+Allez dans le menu des fonctionnalités/actions contextuelles de la
+prévisualisation et cliquez sur « **Editer en ligne** »…
+
+    .. figure:: media-guide/image157.png
+       :alt: 
+
+Le système vous demande votre mot de passe afin de vous **identifier**.
+Ainsi le système pourra montrer qui a fait les derniers changements
+(cf : historique des versions et du document dans les métadonnées).
+
+Votre identifiant et mot de passe sont les mêmes que pour vous loguer à
+GoFAST.
+
+.. figure:: media-guide/image158.png
+   :alt: 
+
+Le document s’ouvre dans Office et vous pouvez y travailler normalement,
+n’oubliez pas de sauver (disquette) avant de fermer le document pour
+être certain que le système a enregistré vos modifications.
+
+.. figure:: media-guide/image159.png
+   :alt: 
+
+De retour sur l’interface GoFAST, faites un refresh de la page pour que
+la prévisualisation du document apparaisse avec les modifications qui
+viennent d’être faites.
+
+.. figure:: media-guide/image160.png
+   :alt: 
+
+Vous pouvez voir qui a fait une action sur ce document dans
+l’historique, dans l’encadrement des métadonnées, tout en bas.
+
+Vous pouvez également voir les versions précédentes, en cliquant sur
+« Show versions list » au niveau « Révisions dans les métadonnées.
+
+.. figure:: media-guide/image161.png
+   :alt: 
+
+.. NOTE::
+    Lorsque vous êtes en train d’éditer un document (que
+    vous l’avez ouvert en ligne ), les autres personnes qui voudraient
+    l’ouvrir auront ce message lors de sa prévisualisation, au-dessus
+    des métadonnées « Vous êtes en lecture-seule sur ce document »
+
+Et ils verront un petit cadenas fermé rouge dans la barre des
+fonctionnalités de la prévisualisation, avec la photo de l’utilisateur
+qui est en train de travailler sur le document. En mettant sa souris sur
+l’icône, vous pouvez voir le nom de l’autre utilisateur.
+
+.. figure:: media-guide/image162.png
+   :alt: 
+
+.. image:: media-guide/Tag-Enterprise.png
+   :align: right
+   :scale: 7%
+   
+   
+Editer avec la Suite Collaborative OnlyOffice (Enterprise only)
+---------------------------------------------------------------
+   
+GoFAST 3 apporte une dimension très innovante et vous permet d’éditer
+des documents Office dans un simple navigateur **avec d’autres personnes
+en simultané**. Vous pouvez ainsi travailler à plusieurs, en même temps,
+sur un même document.
+
+.. NOTE::
+   Contrairement à GoogleDocs/Drive, **vous conservez vos formats
+   Office** et vous pouvez ensuite directement ouvrir le fichier avec
+   Office sans avoir à changer de format.
+
+.. NOTE::
+   De plus OnlyOffice est dans votre datacenter limitant les besoins
+   de bande passante et garantissant une confidentialité totale.
+
+.. CAUTION::   
+   Une connexion réseau d'assez bonne qualité est nécessaire
+   
+
+Pour cela lancer la co-édition, allez dans les actions contextuelles de
+la prévisualisation et appuyez sur l’option «  Editer avec OnlyOfice »
+
+.. figure:: media-guide/image163.png
+   :alt: 
+
+.. IMPORTANT::
+   Si vous souhaitez co-éditer les anciens formats Microsoft (.doc, .xls, .ppt) ou les formats
+   OpenDocument (.odt, ...) ceux-ci seront convertis dans les formats équivalents .docx, .xlsx, .pptx). Si vous souhaitez une conversion la plus fidèle possible, faire cette conversion sous Office ou LibreOffice
+   De même la version actuelle ne génère pas les Table de Matières, celles-ci devant être
+   généré une fois le document terminé sous votre éditeur de texte.
+   
+Ce message apparaît, cliquez sur « Continuer »
+
+.. figure:: media-guide/image395.png
+   :alt: 
+   
+Voici un exemple d’un document Word ouvert avec OnlyOffice, pour
+modification. On peut noter qu'une personne est entrain d'éditer en même
+temps le document.
+
+.. figure:: media-guide/image396.png
+   :alt: 
 
 
-L’explorateur de fichiers GoFAST File Browser
-=============================================
+Faites vos modifications puis fermer OnlyOffice, vous serez redirigé sur
+la prévisualisation de votre document dans GoFAST ; **une fois que
+toutes les personnes seront sorties d’OnlyOffice, une nouvelle version
+sera créée** ; rafraichissez la page avec les petites flèches rondes
+rouges, vous verrez ainsi vos modifications enregistrées dans le
+document.
+
+.. NOTE::
+   Vous pouvez utiliser de nombreuses fonctionnalités de Word,
+   notamment nous vous recommandons d'activer le mode révision (en bas à
+   droite), les autres éditeurs identifieront mieux vos changements.
+
+.. NOTE::
+   Lorsque vous êtes en train d’éditer un document avec
+   OnlyOffice (que vous l’avez ouvert en ligne), les autres personnes qui
+   voudraient l’ouvrir auront ce message lors de sa prévisualisation,
+   au-dessus des métadonnées « Vous êtes en lecture-seule sur ce document »
+
+Et ils verront un petit cadenas ouvert rouge dans la barre des
+fonctionnalités de la prévisualisation, avec la photo de l’utilisateur
+qui est en train de travailler sur le document. En mettant sa souris sur
+l’icône, vous pouvez voir le nom de l’utilisateur qui a ouvert en
+1\ :sup:`er` le document.
+
+.. figure:: media-guide/image166.png
+   :alt: 
+
+.. NOTE::
+   OnlyOffice vous permet de co-éditer des contrats, des budgets, des
+   présentations Powerpoint d'une façon beaucoup plus rapide que
+   traditionnement, chacun travaillant à son tour.
+
+
+Moteur de Recherche
+===================
+
+Fonctionnement du Moteur de Recherche :
+---------------------------------------
+Tout le contenu texte des documents (Word, Excel, PDF, mail, pages web, wiki, etc.) et leurs caractéristiques (les métadonnées) sont indexés. Vous trouvez une information précise ou un fichier par mots-clefs, même approximatifs (pluriel vs singulier, fautes de frappe, etc…) et sans avoir à connaitre le titre. Des mots-clefs approchants sont proposés en cas de recherche infructueuse.
+
+Le moteur de recherche restitue le résultat selon la pertinence : 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Tout un ensemble de critères est pris en compte dans le calcul de cette pertinence : le nombre d’occurrences des mots-clefs recherchés, les emplacements des mots-clefs (ex : titre du fichier, d’un paragraphe dans le document…), les dates de création et modification (ex : un contenu récent sera privilégié vis-à-vis d’un document ancien), la popularité des contenus (ex : un document consulté souvent sera privilégié vis-à-vis d’un document qui n’a pas été consulté depuis des mois), etc.
+
+Liste des principaux formats pris en charge par l’extraction/indexation :
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+* HyperText Markup Language (HTML)
+* Fichiers vectoriels (SVG, VSD)
+* Formats XML et dérivés (XHTML, OOXML, ODF)
+* Documents Microsoft Office (DOC, PPT, EXL, DOCX, PPTX, PPSX, EXLX, etc.)
+* OpenDocument Format (ODF)
+* Documents iWorks
+* Portable Document Format (PDF)
+* Format de publication électronique (EPUB)
+* Rich Text Format (RTF)
+* Formats de compression et d'emballage (Tar, RAR, AR, CPIO, Zip, 7Zip, Gzip, BZip2, XZ et Pack200)
+* Formats de texte (TXT)
+* Formats de flux et de la syndication (RSS, Atom)
+* Formats d'aide (CHM)
+* Formats audio - au cas où il y a du texte intégré, ex : paroles (mp3, mp4, Vorbis, Speex, Opus, Flac etc.)
+* Dossiers et archives de classe Java
+* Code source (Java, C, C++, Groovy, etc)
+* Formats e-mail (ex : eml, PST, MSG, TNEF)
+
+Rechercher un document avec des mots-clefs
+-------------------------------------------
+La barre de recherche se trouve dans le menu principale pour être accessible à tout moment, depuis toutes les pages de GoFAST. 
+Pour rechercher, il suffit de taper les mots clefs-souhaités et cliquer sur le bouton "loupe" ou faire "Entrer" sur son clavier. 
+
+.. NOTE::
+Une recherche avec 1 ou 2 mots-clefs sera élargie, alors qu'une recherche avec 3 mots-clefs ou plus sera plus restreinte. En effet, avec 2 mots clefs le moteur de recherche va proposer des contenus qui ont soit les 2 mots-clefs, soit l'un des deux mots-clefs. Alors qu’avec plus de 3 mots-clefs le moteur de recherche va proposer des contenus qui répondent à au moins 75% de la recherche. Donc, plus il y a de mots-clefs, plus la recherche est précise. 
+Il est donc conseillé de rentrer peu de mots-clefs si on n’est pas certain des termes recherchés et au contraire, rentrer plus de 3 mots-clefs si on sais exactement ce qu’on cherche et qu’on est sûr des termes saisis. 
+
+Recherche avancée avec les opérateurs booléens 
+-----------------------------------------------
+Par défaut, le moteur de recherche fonctionne avec la notion de "OU" : lorsqu'on saisit 2 mots-clefs le moteur va proposer les contenus avec le 1ère mot-clef OU l'autre mot-clef OU les 2 mots-clefs. 
+Cela permet un résultat de recherche très large, mais parfois il est nécessaire de restreindre la recherche. Il est alors possible d’utiliser les "opérateurs booléens" qui sont des symboles à mettre avant ou après les mots-clefs pour indiquer au moteur de recherche comment traiter ces mots-clefs en particulier (ex : mot obligatoire, à exclure, chaine de mots exacte, etc.).
+
+Liste des opérateurs booléens possibles :
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+* **AND** : intercalé entre les mots-clefs permet d'indiquer au moteur de recherche qu'il faut que tous les mots clefs soit présents (ex: Mémoire AND Technique AND Fonctionnalités)
+* **+** : ajouté devant un mot-clef permet de le rendre obligatoire (ex : Mémoire Technique +Fonctionnalités) pour indiquer au moteur de recherche que parmi les termes saisis, certains doivent obligatoirement être présents dans le document recherché. 
+* **"..."** : appliqués sur une suite de mots permet de rechercher une expression exacte (ex : "Mémoire Technique et Fonctionnalités GoFAST") et donc d’indiquer au moteur de recherche d’exclure les documents qui contiennent ses mots clefs s’ils ne sont pas exactement comme dans l’expression saisie. 
+* ***** : ajoutée à la fin ou au début d’un mot-clef permet de le rendre approximatif (ex : Fonction*) et donc d’indiquer au moteur de recherche d’afficher les documents qui contiennent tous les termes qui ont pour racine le mot-clef sais. 
+
+.. figure:: media-guide/operateurs-booleens.jpg
+   :alt: 
+
+Consulter le résultat de Recherche
+---------------------------------------------
+.. NOTE:: Pour connaître la manière dont GoFAST restitue un résultat de recherche, merci de consulter la partie : "Le moteur de recherche restitue le résultat selon la pertinence"
+
+Pour chaque document affiché dans le résultat de recherche, vous pouvez consulter :
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+* L’icône indiquant le type du document (fichier texte, tableur, PDF, image, vidéo…) ou autre contenu (forum, page Wiki, profil utilisateur, Espace Collaboratif…),
+* Le titre du fichier (un clic dessus permet d'aller sur la page du document), 
+* Le menu des actions possible sur un document (icône avec 3 petite barres à droite du titre du document), 
+* Des "fragments" de texte qui sont des extraits du contenu avec les mots-clefs recherchés et qui permettent de vérifier si le document est bien celui que l’on cherche sans avoir à l’ouvrir (si plusieurs extraits sont trouvés, il est possible de les consulter l’un après l’autre en utilisant la pagination), 
+* Un bouton "prévisualiser" qui permet d’afficher un aperçu du document en un clic (NB : certains contenu ne le permettent pas car ne bénéficient pas la prévisualisation)
+* Des informations clefs sur le contenu (date de création/dernière modification, la popularité...)
+* Les étiquettes, catégories, l'importance et les états des documents. 
+
+.. figure:: media-guide/recherche-contextuelle.png
+   :alt:
+
+Recherche contextuelle dans un document :
+-----------------------------------------
+Le résultat de recherche permet de cliquer sur les mots-clefs mis en gras dans les titres et dans les extraits des contenus trouvés.
+Ces mots en gras permettent une recherche contextuelle dans un document : en cliquant sur un mot-clé mis en gras, vous accéder à la page du document avec dans la prévisualisation, la mise en évidence des mots-clefs recherchés et la possibilité de les passer l’un après l’autre. 
+Cette recherche contextuelle offre un important gain de temps lorsqu’il faut trouver un élément précis dans un document en particulier ou pour en faire une lecture rapide.  
+
+Filtrer le résultat de recherche
+--------------------------------
+Dans le cas où les mots-clefs saisis ne permettent pas de retrouver rapidement le document recherché, GoFAST propose de nombreux filtres.
+La liste des filtres est conditionnée au résultat de recherche, ex : si pour les mots-clefs saisis il n'y a aucun document de type PDF, ce format ne sera pas proposé dans les filtres disponibles.
+
+Groupes de filtres disponibles : 
+
+* Date de création, 
+* Date de modification, 
+* Type de document (selon le format de fichier), 
+* Etiquettes, 
+* Catégorie,
+* Espaces Collaboratifs,
+* Créateur, 
+* Dernier contributeur, 
+* Auteur, 
+* Etat, 
+* Importance, 
+* Langue,
+* Echéance.
+
+.. figure:: media-guide/image038.png
+   :alt: 
+
+Trier le résultat de recherche
+------------------------------
+Par défaut, le résultat de recherche classe les documents par pertinence selon les mots-clefs recherchés (voir "fonctionnement du moteur de recherche").
+ 
+Il est toutefois possible de modifier de tri pour classer les contenus par : 
+
+* Titre (ordre alphabétique)
+* Auteur, 
+* Popularité
+* Date de création 
+* Date de modification, 
+* Type de document
+
+.. NOTE:: trier le résultat de recherche sur un autre critère que la pertinence, peut afficher en haut de la liste des contenus qui correspondent mois bien aux mots-clefs saisis car le critère sélectionné pour le tri prime. 
+
+
+Explorateur de fichiers GoFAST File Browser
+============================================
 
 Accéder à l'explorateur de fichiers GoFAST 
 ------------------------------------------
@@ -3389,14 +2824,14 @@ Utiliser la barre d’outils de GoFAST File Browser
 
 La barre d'outils de l'explorateur de fichier permet d'effectuer les action suivantes : 
 
-**Modifier la manière dont sont affichés les contenus**
+Modifier la manière dont sont affichés les contenus
 ~~~~~~~~~~~~~~~~~~~~
 
 .. figure:: media-guide/FBrowser-06.png
    :alt:
 
 
-**Créer un nouveau contenu dans le dossier sectionné**
+Créer un nouveau contenu dans le dossier sectionné
 ~~~~~~~~~~~~~~~~~~~~
 
 Si vous appuyez sur le bouton *Nouveau* puis *Dossier*, cela vous permet de créer un nouveau dossier à cet emplacement. Il vous suffit ensuite de le nommer, puis valider. 
@@ -3510,7 +2945,7 @@ fonctionnalité
 Le clic droit permet d'afficher le menu des actions contextuelles au type de contenu. Ci-après les diverses actions possibles par type de contenu avec les droits d'administrateur de l'espace. 
 
 
-**Actions sur un unique document**
+Actions sur un unique document
 ~~~~~~~~~~~~~~~~~~~~
 
 .. figure:: media-guide/FBrowser-13.png
@@ -3519,7 +2954,7 @@ Le clic droit permet d'afficher le menu des actions contextuelles au type de con
 Lorsque vous faite un clic droit sur le document souhaité, une liste de plusieurs menus vous sont proposez (voir copie d’écran) qui va vous permettre un certains nombre d’actions sans pour autant avoir besoin d’aller sur la prévisualisation du document. 
 
 
-**Actions sur une selection de fichiers ou dossier (classique)**
+Actions sur une selection de fichiers ou dossier (classique)
 ~~~~~~~~~~~~~~~~~~~~
 
 Un clic droit sur une sélection de plusieurs fichiers, plusieurs actions vous sont proposées (de manière restreinte par rapport à l’action sur un fichier unique) telles que : 
@@ -3541,7 +2976,7 @@ Pour sélectionner plusieurs documents dans l’explorateur de fichiers vous dev
 Cette démarche est valable sur : Windows, Mac, Linux 
 
 
-**(4) Focus sur : Gérer les emplacements (Multi-emplacement)**
+Gérer les emplacements (Multi-emplacement = zéro doublon de fichier)
 ~~~~~~~~~~~~~~~~~~~~
 
 **Multifiler** signifie mettre le *même et seul document à plusieurs endroits* sur la GoFAST et ainsi rendre une même et seule version visible par plusieurs groupes. Il s’agit d’une action de «Partage» évitant tout doublon.
@@ -3571,20 +3006,13 @@ Lorsque vous retournez sur la prévisualisation du document, vous verrez, dans l
    :alt: 
 
 
-
-**Actions sur un Espace**
+Actions sur un Espace
 ~~~~~~~~~~~~~~~~~~~~
 
 Plusieurs actions sont également disponible sur un Espace (voir copie d’écran ci-dessous). 
 
 .. figure:: media-guide/FBrowser-16.png
    :alt:
-
-
-
-
-
-
 
 
 Exportation des listes de documents
@@ -3605,8 +3033,584 @@ Vous faites le choix des sous-groupes et répertoires dont vous souhaitez export
    :alt:
 
 
-Vos abonnements
-===============
+
+
+Gestion des Espaces collaboratifs
+=================================
+
+Voir aussi "Création d’un espace"
+
+Devenir membre d’un espace/groupe
+---------------------------------
+
+Il faut bien sûr d’abord avoir un compte GoFAST. Si ce n’est pas encore
+le cas, il faut **le demander** à l’administrateur général (à ICT) ou à
+un autre administrateur d’espace (désormais possible dans GoFAST3) .
+Puis,
+
+-  soit l’administrateur du groupe qui a créé votre compte, vous ajoute
+   directement comme membre de ce groupe ;
+
+-  soit en faisant la demande via l’annuaire et les
+   groupes/organisations/espaces : vous avez la liste des espaces
+   collaboratifs à droite (cliquez sur ceux que vous voulez) , vous les
+   retrouvez ainsi à gauche et avez la possibilité de les rejoindre un
+   par un en cliquant sur « Rejoindre » dans chaque case d’espace.
+
+.. figure:: media-guide/image090.png
+   :alt: 
+
+Vous verrez un message bleu s’afficher confirmant votre demande de
+joindre ce groupe/cet espace
+
+.. figure:: media-guide/image091.png
+   :alt: 
+
+Vous retrouverez ensuite vos demandes dans votre profil.
+
+.. figure:: media-guide/image092.png
+   :alt: 
+
+Ajouter des membres à un espace/groupe
+--------------------------------------
+
+Le **compte** de la personne doit déjà exister, si pas, il doit **être
+créé** dans l'annuaire par quelqu'un d'habilité (l’administrateur
+général/ICT ou un autre administrateur de l’espace en question) .
+
+(voir « Création d’ un utilisateur » p.43 et « Créer un utilisateur dans
+un espace » p.52)
+
+Pour connaître les administrateurs d’un groupe, allez sur l’onglet
+« Membres » de ce groupe, vous y verrez en 1ere ligne les
+administrateurs de l’espace.
+
+.. figure:: media-guide/image093.png
+   :alt: 
+
+**Si vous avez donc les droits d’administrateur de cet espace** ;
+lorsque vous êtes dans l’espace collaboratif en question (groupe ou
+organisation), allez dans les actions contextuelles (3 barres
+horizontales) , cliquez sur « Ajouter membre»
+
+.. figure:: media-guide/image094.png
+   :alt: 
+
+Remplissez cette fenêtre avec le nom du nouveau membre (inscrivez les 3
+premières lettres pour avoir des propositions de noms), choisissez le
+rôle que vous lui donnez (administrateur, contributeur standard ou
+lecture seule). Vous pouvez également mettre un petit mot dans la zone
+de texte « Request message » pour prévenir les autres administrateurs de
+cet espace de cet ajout et la raison. Terminez en cliquant sur « Ajouter
+le nouveau membre » en vert.
+
+.. figure:: media-guide/image095.png
+   :alt: 
+
+.. figure:: media-guide/image096.png
+   :alt: 
+
+Lorsque vous revenez sur l’onglet « Membres » du groupe, vous voyez les
+noms des membres (icône/photo) et dans quelle catégorie de rôle ils
+sont.
+
+**Rechercher/modifier/supprimer un membre dans un espace**
+
+-  Vous pouvez **rechercher** un membre en tapant les 3 premières
+   lettres de son nom/prénom.
+
+-  Sous les noms des membres, vous pouvez **modifier** un par un leur
+   rôle ; appuyez sur « Modifier rôle » ; la fenêtre pour changer les
+   rôles s’ouvre. Mettez à jour.
+
+-  Vous pouvez aussi **supprimer** un membre dans un groupe de cette
+   façon. Appuyez sur « Retirer »
+
+.. figure:: media-guide/image097.png
+   :alt: 
+
+Voir aussi"Gérer les membres d’un groupe" 
+
+Créer un utilisateur dans un espace/groupe
+------------------------------------------
+
+Si vous voulez **ajouter un nouvel utilisateur** à la GoFAST, il faut
+lui créer un compte.
+
+Toujours dans les actions contextuelles d’un groupe, vous pouvez créer
+un nouvel utilisateur dans ce groupe/espace, à condition d’en avoir les
+droits d’administrateur d’espace.
+
+.. figure:: media-guide/image098.png
+   :alt: 
+
+Ce formulaire s’ouvre, dans lequel vous pouvez soit aller chercher dans
+le LDAP, l’annuaire (AD) de l'Organisation (si le couplage a été fait) , et certaines les données seront alors
+préremplies ; soit remplir à la main avec les données du nouvel
+utilisateur (externe) pour lequel vous créez ce compte.
+
+Terminez par « Enregistrer »
+
+.. figure:: media-guide/image099.png
+   :alt: 
+
+.. figure:: media-guide/image100.png
+   :alt: 
+
+.. figure:: media-guide/image101.png
+   :alt: 
+
+Gérer les membres d’un espace/groupe
+------------------------------------
+
+Gérer les membres d’un groupe signifie **ajouter/supprimer des membres,
+leur donner un rôle spécifique** (voir : « Rôles/droits des membres d’un
+espace/groupe » p.56).
+
+C’est **l’administrateur du groupe** qui peut faire cela.
+L’administrateur étant celui qui a créé le groupe ou celui à qui on a
+confié ce rôle (assistant administratif, N+1, responsable du groupe, …)
+
+Si vous avez donc les droits pour gérer les membres d’un groupe parce
+que vous en êtes l’administrateur, il faut cliquer sur la flèche de
+l’onglet « Espaces » puis sur « Gérer les membres des espaces » ; une
+fenêtre s’ouvre avec 2 parties : « Ajouter un membre » et « Mettre à
+jour ».
+
+.. figure:: media-guide/image102.png
+   :alt: 
+
+La 1ere partie « \ **Ajouter un membre** » vous permet d’ajouter un ou
+plusieurs membres en une fois dans un groupe. Sélectionnez les membres à
+ajouter, en tapant les 1eres lettres de leur nom ou prénom, le système
+vous proposera une liste à cocher ; choisissez ensuite le ou les
+groupe(s) dans lesquels vous voulez les ajouter, ainsi que le rôle que
+vous voulez leur donner (administrateur, contributeur ou en lecture
+seule). Par défaut, ils seront abonnés à ce/ces groupes, donc n’oubliez
+pas de choisir NON sous « subscription » si vous ne voulez pas qu’ils
+reçoivent automatiquement les notifications liées à ce(s) groupe(s).
+
+Terminez par « **Appliquer** »
+
+.. figure:: media-guide/image103.png
+   :alt: 
+
+La 2eme partie «**Mettre à jour** » permet de gérer les utilisateurs
+déjà membres de ce groupe et donc soit de les supprimer, soit de changer
+leur rôle.
+
+Cochez le groupe dont il est question, une liste apparaît, on y voit les
+noms des membres et leur rôle actuel dans ce groupe. Cochez les membres
+que vous voulez changer, choisissez leur nouveau rôle et « Appliquez » ;
+ou supprimez les du groupe avec « Retirer les droits d’accès »
+
+.. figure:: media-guide/image104.png
+   :alt: 
+
+Pour annuler l’action, cliquez sur le logo GoFAST, dans le coin gauche
+supérieur de l’écran ; vous revenez ainsi à la page d’accueil.
+
+.. figure:: media-guide/image105.png
+   :alt: 
+
+Rôles/droits des membres d’un groupe/espace
+-------------------------------------------
+
+Il y a **3 types d’utilisateurs** selon les droits qu’ils ont sur la
+gestion des documents :
+
+1) **L’administrateur/rice** d’un groupe : peut tout faire dans le
+   groupe : ajouter/supprimer des membres, leur donner différents
+   droits, supprimer/ajouter n’importe quel document, créer des
+   sous-espaces dans ce groupe, et toutes les fonctionnalités de base :
+   télécharger, éditer, déplacer un document, gérer la taxonomie (=
+   métadonnées/infos liées au document), …
+
+2) **L’utilisateur standard** : peut utiliser toutes les fonctionnalités
+   de base : télécharger, éditer, ajouter/supprimer/déplacer un document
+   *dont il est l’auteur,* gérer la taxonomie (= métadonnées/infos liées
+   au document), …
+
+3) **L’utilisateur « read only/lecture seule »** : peut juste
+   télécharger le document ou le commenter. 
+
+Gérer un espace collaboratif /groupe
+------------------------------------
+
+Lorsque vous êtes dans un **espace/groupe,** voici le genre de données
+que vous pouvez voir :
+
+a) Une page d’\ **Accueil **;
+
+.. figure:: media-guide/image106.png
+   :alt: 
+
+b) Un onglet « **Activité** », où vous avez une vue d’ensemble de ce
+   qui se passe dans ce groupe ;
+
+.. figure:: media-guide/image107.png
+   :alt: 
+   
+c) Un onglet « **Statistiques** », où vous voyez les activités des membres actifs et inactifs, ainsi que les statistiques documentaires de l'espace ;
+
+.. figure:: media-guide/Statistiques.png
+   :alt: 
+
+d) Un onglet « **Documents** », où vous voyez les documents et
+   l’arborescence de ceux-ci ; 
+
+.. figure:: media-guide/Image-Document-6.png
+   :alt: 
+
+e) Un onglet « **Calendrier** », où vous pouvez mettre des dates
+   d’échéance, des rappels, … ;
+
+.. figure:: media-guide/image109.png
+   :alt: 
+
+f) Un onglet « **Membres** », où vous voyez les membres du groupe et
+   leur rôle respectif
+
+.. figure:: media-guide/image110.png
+   :alt: 
+
+S’il y a des utilisateurs qui ont fait la demande de rejoindre ce
+groupe, on peut le voir sous ce titre « Utilisateurs en attente »
+
+.. figure:: media-guide/image111.png
+   :alt: 
+
+Vous pouvez gérer votre groupe grâce à l’icône avec les **3 barres
+horizontales**, dans le coin droit supérieur de la page du groupe, qui
+correspond aux fonctionnalités/actions contextuelles liées à un groupe,.
+Par contre, si vous n’êtes pas administrateur de groupe, certaines de
+ces options vous seront invisibles.
+
+.. figure:: media-guide/image112.png
+   :alt: 
+
+Vous pouvez y ajouter un membre, créer un nouvel utilisateur pour cet
+espace, créer un sous-espace, modifier les données du groupe, archiver
+ce groupe, supprimer ce groupe, se désabonner ou s’abonner, rejoindre
+une discussion,...
+
+.. NOTE:: Les onglets "accueil", "activité", "statistiques", "membres" d'un espace affichent des éléments liés à l'espace sur lequel on se trouve et dont le titre est indiqué juste au-dessus des onglets. Toutefois, l'onglet "Document" ne cloisonne pas l'utilisateur à cet unique espace, mais lui permet de naviguer dans tous les emplacements où il a accès. Il peut donc arriver que le nom de l'espace indiqué au dessus des onglet ne soit pas celui de l'emplacement d'arborescence où on se trouve. 
+
+
+Ajouter un sous-espace
+----------------------
+
+.. NOTE:: Merci de lire en introduction la différence entre les espaces de type Organisation, Groupes, Extranet, ... http://gofast-docs.readthedocs.io/fr/latest/docs-gofast-users/doc-gofast-guide-utilisateurs.html#les-espaces-collaboratifs
+
+Il est possible de créer de **nouveaux espaces dans un espace**
+déjà existant ou dans une organisation, que nous appellerons « sous-espaces »; 
+
+.. IMPORTANT:: Pourquoi créer des sous-espaces au lieu de simples répertoires ? => Pour limiter l'accès de ce nouveau sous-espace à un nombre plus restreints de membres que l'espace "parent"
+
+.. CAUTION:: Seul le super-administrateur ou Administrateur de plateforme peut créer des sous-espaces à la racine
+
+Dans les actions contextuelles de l’espace (icône avec 3 barres
+horizontales), choisissez « Ajouter sous-organisation ou sous-groupe »
+
+.. figure:: media-guide/image113.png
+   :alt: 
+
+Il suffit alors de remplir cette page avec le nom du nouvel espace,
+donner une brève description, créer éventuellement une page d’accueil,
+choisir l’endroit où il se trouvera dans l’arborescence de la GoFAST et
+terminer avec « Enregistrer ».
+
+.. figure:: media-guide/image114.png
+   :alt: 
+
+Ce sera donc un nouveau groupe/espace qui se gère comme les autres, où
+il faudra y ajouter des membres et des fichiers à partager.
+
+Vous pouvez retrouver ce **sous-espaces dans vos espaces** ; par
+exemple, ici comme c’est un sous-espace d’une organisation, allez sur
+les petites flèches à côté des noms d’espaces/organisation jusqu’au
+niveau de votre sous-espace.
+
+.. figure:: media-guide/image115.png
+   :alt: 
+
+.. NOTE::
+    Il est conseillé de ne pas créer trop de sous-groupes
+    si il n’est pas nécessaire de gérer des droits particuliers quant au
+    contenu de ce groupe ; créez plutôt des répertoires qui resteront
+    visibles à tous les membres du groupe-parent.
+
+Si les sous-espaces/groupes ne sont pas visibles directement via
+l’onglet « Espaces », une autre manière d’explorer les sous-niveaux et
+leur contenu, est d’appuyer sur le logo d’organigramme (« Parcourir à
+partir d’ici » ) à droite du nom du groupe ; cela vous amènera à
+l’arborescence plus détaillée de l’espace (avec ses sous-espaces) et son
+contenu.
+
+.. figure:: media-guide/image116.png
+   :alt: 
+
+.. figure:: media-guide/Image-Arborescence-7.png
+   :alt: 
+
+.. NOTE::
+   Les membres d’un sous-groupe auront accès aux documents/répertoires qui se
+   trouvent à un niveau supérieur (dans le groupe-parent) , par contre les
+   membres du groupe-parent n’auront pas nécessairement accès aux documents
+   de ce sous-groupes car la liste des membres du sous-groupe peut varier
+   par rapport à celle des membres du groupe-parent.
+
+**Exemple :**
+
+-  Monsieur X est membre du *sous-groupe* « Support GoFAST », entouré
+   en rouge ; 
+
+-  Madame Y est membre du *sous-groupe* « test\_group », entouré en
+   noir ; 
+
+-  Junior fait partie du *groupe-parent* ou groupe-racine « Groupes »,
+   entouré en jaune.
+
+.. figure:: media-guide/image370.png
+   :alt: 
+
+Ils voient tous les 3 ce qu’il se passe dans le groupe-racine
+« Groupes » (entouré en jaune) , c’est-à-dire les répertoires et activités
+propres à ce groupe-racine *MAIS* Monsieur X et Madame Y ne voient que
+ce qu’il se passe dans leur propre sous-groupe respectif ( entouré en
+rouge ou en noir) et donc l’un ne voit pas ce qu’il se passe dans le
+groupe de l’autre. Madame Y (entouré en noir) ne voit pas ce qu’il se
+passe chez Monsieur X (entouré en rouge) et vice -versa. Quant à Junior
+(entouré en jaune), il ne voit pas ce qu’il se passe dans les
+(sous-)groupes de Madame Y et Monsieur X, à moins qu’il ne devienne
+membre de ce/ces sous-groupes aussi. => nouveaux groupes et sous-groupes
+= plus de confidentialité et possibilité de membres différents d’un
+groupe à l’autre.
+
+**Autre manière d’expliquer, avec l’arborescence :**
+
+Je suis membre du groupe « \_Support GoFAST » qui est un sous-groupe de
+l’espace « Groupes ». J’ai donc accès à tous les répertoires qui se trouvent
+dans « \_Groupes » et dans « \_Support GoFAST » (nom précédé d’un
+underscore = espace/groupe).
+
+.. figure:: media-guide/image371.png
+   :alt: 
+
+Par contre, je ne vois pas le sous-groupe « test\_group » dans
+l’arborescence car je n’en suis pas membre.
+
+Je sais juste qu’il existe parce qu’il est dans les espaces visibles à
+partir du menu.
+
+.. figure:: media-guide/image372.png
+   :alt: 
+
+Et si je clique dessus à partir du menu, j’arriverai sur la page du
+groupe « Test\_group » mais l’accès à son contenu me sera refusé.
+
+Je devrai demander d’en devenir membre si je veux voir le contenu et y
+travailler.
+
+.. figure:: media-guide/image373.png
+   :alt: 
+
+Modifier un groupe
+------------------
+
+Cette fonctionnalité permet de **modifier les informations concernant un
+groupe** déjà existant : vous pouvez changer le nom, la description, la
+page d’accueil et son emplacement dans l’arborescence (par exemple,
+changer l’espace-parent).
+
+Reprenez les actions contextuelles d’un groupe (les 3 barres
+horizontales), choisissez « Modifier » et changer les données. Terminez
+par « Enregistrer ».
+
+.. figure:: media-guide/image118.png
+   :alt: 
+
+.. figure:: media-guide/image119.png
+   :alt: 
+
+Archiver un groupe
+------------------
+
+**Archiver un groupe** permet de garder une trace de son contenu et donc
+de ne pas le supprimer totalement de la GoFAST. On peut archiver un
+groupe de travail qui n’est plus actif par exemple.
+
+Pour archiver un groupe : allez dans les actions contextuelles du groupe
+(les 3 barres horizontales) et choisissez « Archivez cet espace ».
+
+Une fenêtre s’ouvre vous demandant si vous êtes sûr de vouloir archiver
+cet espace, confirmez en appuyant sur « Archive ».
+
+.. figure:: media-guide/image120.png
+   :alt: 
+
+Le contenu de ce groupe apparaîtra comme archivé et ne sera plus visible
+lors de la recherche, sauf si vous mettez l’option de recherche
+« Inclure les contenus archivés ».
+
+.. figure:: media-guide/image121.png
+   :alt: 
+
+Supprimer un groupe
+-------------------
+
+Supprimer un groupe consiste à **supprimer tout son contenu** de la
+GoFAST définitivement ! Il ne sera donc plus visible nulle part.
+Réfléchissez donc bien avant de vouloir supprimer un groupe,
+assurez-vous qu’il soit bien vide par exemple.
+
+Toujours dans les actions contextuelles, choisissez « Supprimer cet
+espace »
+
+.. figure:: media-guide/image122.png
+   :alt: 
+
+S’abonner ou se désabonner à un groupe (voir mes abonnements)
+-------------------------------------------------------------
+
+Vous pouvez vous **abonner à un groupe** pour rester au courant de tout
+ce qu’il s’y passe, vous recevrez alors régulièrement une notification
+vous informant de telle ou telle action sur les documents de ce groupe.
+
+Dans les actions contextuelles du groupe (3 barres horizontales),
+choisissez « S’abonner ».
+
+.. figure:: media-guide/image123.png
+   :alt: 
+
+Un message en vert apparaîtra à droite de l’écran vous confirmant
+l’abonnement à ce groupe.
+
+.. figure:: media-guide/image124.png
+   :alt: 
+
+Vous pouvez par la même manœuvre vous désabonner à ce groupe. Ce qui
+veut dire que vous ne recevrez plus aucune notification en rapport avec
+ce groupe et son contenu.
+
+.. figure:: media-guide/image125.png
+   :alt: 
+
+Le même message en vert vous confirme votre désabonnement
+
+.. figure:: media-guide/image126.png
+   :alt: 
+
+Voir aussi  "Vos abonnements"
+
+Rejoindre la discussion (à compléter après test)
+------------------------------------------------
+
+Pour **rejoindre des discussions/videoconférences** en cours, un peu
+comme un chat/skype, appuyez sur « Rejoindre la discussion » dans les
+actions contextuelles ;
+
+.. figure:: media-guide/image127.png
+   :alt: 
+
+Des messages en bleu apparaîtront dans le coin droit supérieur de
+l’écran avec les différentes discussions en cours. Il suffira d’appuyer
+sur celle qui vous intéresse pour vous y intégrer.
+
+.. figure:: media-guide/image128.png
+   :alt: 
+
+
+Gestion des Listes d'Utilisateurs (en v3.6)
+===========================================
+Les listes d'utilisateurs facilitent la gestion en masse et automatisée des membres des Espaces Collaboratifs et leurs rôles. Ainsi, lorsqu’un utilisateur GoFAST est ajouté à une liste, il devient automatiquement membre de tous les espaces associés à cette liste. 
+
+Les listes peuvent aussi être sélectionnées lors d'un partage de documents par email (voir *Partager le document par mail* : https://gofast-docs.readthedocs.io/fr/latest/docs-gofast-users/doc-gofast-guide-utilisateurs.html?highlight=panier#partager-le-document-par-mail)
+
+Créer/Modifier une liste d'utilisateurs
+---------------------------------------
+
+.. figure:: media-guide/Ecran-GoFAST_Liste-Utilisateurs_creer-liste.png
+   :alt: 
+
+Pour créer une liste, cliquez sur "Créer", puis "Liste d’utilisateurs" dans le menu principale. Vous êtes redirigé vers le formulaire et il suffit de renseigner les 3 champs affichés :
+
+   - Nom de la liste,
+   - Desccription,
+   - Membres de la liste (rentrez au moins 3 caractère du nom/prénom d'un utilisateur pour avoir des suggestions),
+
+.. figure:: media-guide/Ecran-GoFAST_Liste-Utilisateurs_creer-liste-renseigner-formulaire.png	
+   :alt: 
+
+
+.. NOTE:: 
+   Le créateur d’une liste d’utilisateur devient administrateur de celle-ci. 
+
+Pour modifier les éléments de la liste (nom, description, membres), il suffit de cliquer sur le menu "Burger" (actions contextuelles) sur la page de la liste. 
+
+.. figure:: media-guide/Ecran-GoFAST_Liste-Utilisateurs_modifier-les-membres-de-la-liste.png	
+   :alt: 
+
+Ajouter/enlever une liste d'utilisateurs comme membre d’un Espace Collaboratif
+------------------------------------------------------------------------------
+L'ajout d'une liste dans un espace collaboratif se fait comme pour un utilisateur unitaire :
+
+   - Aller sur la page de l'espace
+   - Ouvrir le menu "Burger" (actions contextuelles)
+   - Cliquer sur "ajouter membre/liste"
+   
+.. figure:: media-guide/Ecran-GoFAST_Liste-Utilisateurs_ajouter-liste-dans-espace-collaboratif.png	
+   :alt: 
+
+Le formulaire d'ajout d'un membre s'ouvre et il faut commencer à rentrer le nom de la liste (au moins 3 caractères) pour avoir des suggestions. 
+
+.. figure:: media-guide/Ecran-GoFAST_Liste-Utilisateurs_ajouter-liste-dans-espace-collaboratif-formulaire.png	
+   :alt: 
+
+.. NOTE:: 
+   Pour ajouter une liste d'utilisateurs comme membre d'un espace, il faut être administrateur de l'espace. 
+
+.. NOTE:: 
+   Le rôle attribué à chaque utilisateur dans l'Espace Collaboratif et celui coché lors de l'ajout de la liste. Si l'utilisateur est membre d'un espace de plusieurs façons (Listes + directement via son profile), c'est le rôle qui offre le plus de privilège qui s'appliquera. De cette façon, on évite de restreindre les droits d'un utilisateur qui serait déjà membre de l'Espace Collaboratif.
+   
+Une fois la liste ajoutée à l'Espace Collaboratif, celle-ci est affichée parmi les autres membres. 
+
+.. figure:: media-guide/Ecran-GoFAST_Liste-Utilisateurs_liste-dans-espace-collaboratif.png	
+   :alt: 
+
+Les Espaces Collaboratifs dont est membre la liste sont affichés sur la page de la liste, onglet "Emplacements". 
+
+.. figure:: media-guide/Ecran-GoFAST_Liste-Utilisateurs_emplacements-associes-a-la-liste.png	
+   :alt: 
+
+Afficher/Rechercher les listes d'utilisateurs
+---------------------------------------------
+
+Annuaire des Liste d'Utilisateurs
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Pour consulter les listes existantes, il suffit de passer par les annuaires accessibles depuis le menu principal. 
+
+.. figure:: media-guide/Ecran-GoFAST_Liste-Utilisateurs_annuaire-liste.png	
+   :alt: 
+   
+Pour aller sur un liste depuis l'annuaire, vous pouvez cliquer sur le nom de la liste. Vous pourrez alors consulter les membres et les emplacements de celle-ci. 
+
+Rechercher une Liste d'Utilisateurs
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Les listes d'utilisateurs sont recherchables via la moteur de recherche et peuvent être utilisées comme "filtre de format".
+
+.. figure:: media-guide/Ecran-GoFAST_Liste-Utilisateurs_rechercher-liste.png	
+   :alt: 
+   
+.. NOTE:: 
+   Les listes dont fait partie un utilisateur sont affichées sur sa page de profile. 
+
+   
+
+
+Gestion des abonnements
+=======================
 
 Un abonnement permet de **rester au courant** de ce qu’il se passe dans
 un groupe ou sur un document ; ce qui veut dire qu’ à chaque fois qu’il
@@ -3641,375 +3645,7 @@ document et cliquez sur le dernier icône avec les 3 barres horizontales,
 (cfr : Gestion de groupe/ « S’abonner à un groupe » p.66 et Gestion de
 documents/« Actions contextuelles »/ « S’abonner au document » p.100 )
 
-Forum de discussion
-===================
 
-Le forum général pour tous les utilisateurs de la GoFAST permet
-d’échanger des informations et questions sur l’outil et sur son
-utilisation.
-
-C’est à ce niveau notamment que vous allez retrouver la vidéo
-d’introduction de la GoFAST (version 2.0), les tutoriels, les guides
-d’utilisation, les guides de gestion documentaire, …
-
-Vous pourrez y posez des questions générales et chacun pourra y
-répondre. De même, l’administrateur général peut vous donner des trucs
-et astuces via ce canal également.
-
-Vous pouvez d’ailleurs vous abonner à ce forum si vous voulez rester au
-courant de tout ce qu’il s’y passe.
-
-Annuaire
-========
-
-Chercher un groupe
-------------------
-
-Vous pouvez **chercher des groupes via l’annuaire,** allez sur l’onglet
-« Annuaire » sur la barre noire du dessus, puis sur « Groupe » . Vous
-trouverez la liste des groupes existants à droite , que vous pouvez
-d’ailleurs rejoindre en cliquant dans les cases des groupes à gauche.
-
-.. figure:: media-guide/image319.png
-   :alt: 
-
-Chercher une organisation
--------------------------
-
-Même principe pour les **organisations, via « Annuaire** »,
-Organisation.
-
-.. figure:: media-guide/image320.png
-   :alt: 
-
-Et pareil aussi pour les sous-groupes dans Extranet et Public.
-
-Chercher un utilisateur
------------------------
-
-Pour **rechercher un utilisateur,** soit vous tapez son nom dans la
-recherche automatique , soit via l’ « Annuaire », « Utilisateur ». Vous
-verrez toute la liste des utilisateurs GoFAST avec leur « carte de
-visite/profil ».
-
-.. figure:: media-guide/image321.png
-   :alt: 
-
-Vous pouvez **filtrer** votre recherche selon les noms et l’alphabet ou
-les organisations/groupes/espaces
-
-.. figure:: media-guide/image322.png
-   :alt: 
-
-Vous pouvez directement envoyer un mail ou appeler l’utilisateur via son
-profil. De même que lui envoyer une demande de « relation », ce qui
-permet de contacter/voir le raccourci de cette personne même si elle ne
-fait pas partie de vos espaces collaboratifs.
-
-.. figure:: media-guide/image323.png
-   :alt: 
-
-Messages internes
-=================
-
-D’une manière générale, vous verrez un **numéro** sur l’onglet de votre
-page URL vous indiquant que vous avez un nouveau message (mail ou chat)
-
-.. figure:: media-guide/image324.png
-   :alt: 
-
-Lire ses messages et y répondre
--------------------------------
-
-Lorsque vous apercevez un numéro rouge sur le logo GoFAST, dans le coin
-en haut à gauche, à côté de l’adresse GoFAST, cela veut aussi dire que
-vous avez un ou plusieurs **nouveaux messages (**\ par email). Cliquez
-sur ce numéro ou sur le message en vert (« You have 1 unread message »)
-pour voir la liste des messages reçus.
-
-.. figure:: media-guide/image325.png
-   :alt: 
-
-a) **Voici ce que vous verrez si vous appuyez sur le message vert**
-
-    Vous voyez le titre du message reçu, l’expéditeur, la date et heure
-    de l’envoi et si c’est un nouveau message (« NOUVEAU » en bleu à
-    côté du titre)
-
-    Pour supprimer des messages, sélectionnez les en cochant les cases
-    devant chacun et appuyez sur « Supprimer » (en rouge)
-
-    .. figure:: media-guide/image326.png
-       :alt: 
-
-    Vous pouvez aussi choisir une action comme « Marquer comme lu ou
-    non-lu », en cliquant sur la flèche à droite au niveau de la ligne
-    « Actions »
-
-    .. figure:: media-guide/image327.png
-       :alt: 
-
-    Vous pouvez également trier par ordre chronologique croissant ou
-    décroissant en cliquant sur la flèche au-dessus des dates et heures
-    d’envoi
-
-.. figure:: media-guide/image328.png
-   :alt: 
-
-b) **Et voici ce que vous verrez si vous appuyez sur l’enveloppe**
-
-    Vous voyez la liste des messages, les participants (expéditeurs et
-    destinataires), la date et l’heure d’envoi et la poubelle pour le
-    supprimer.
-
-.. figure:: media-guide/image329.png
-   :alt: 
-
-.. NOTE::
-    Si vous cliquez sur l’enveloppe , une punaise rouge
-    apparaît, ce qui fixe la fenêtre avec les messages. Pour la
-    débloquer, cliquez ailleurs sur la bande noire du menu, ainsi la
-    fenêtre avec la liste des messages se refermera.
-
-.. figure:: media-guide/image330.png
-       :alt: 
-
-**Cliquez sur le titre du message pour l’ouvrir.**
-
-Lorsque vous ouvrez le mail, vous retrouvez les informations telles que
-l’expéditeur (avec sa photo), la date et l’heure de l’envoi, le message
-envoyé et la possibilité d’y répondre avec les mêmes options que dans
-Word. Terminez avec « Envoyer le message »
-
-.. figure:: media-guide/image331.png
-   :alt: 
-
-.. NOTE::
-   Vous ne pouvez ni ajouter, ni supprimer un participant en
-   cours de conversation, ce qui veut dire que si l’échange de mail
-   commence entre 2-3 personnes, vous ne pourrez pas y ajouter/supprimer un
-   participant lors de vos échanges/réponses. Il n’est donc pas possible
-   non plus de transférer un message.
-
-Le service de mails sur GoFAST ne doit pas remplacer votre boîte mail
-traditionnelle (Lotus, Outlook, …) . Il est surtout utile pour converser
-directement sur GoFAST entre utilisateurs sans devoir passer d’une boîte
-de messagerie à une autre et de pouvoir, via la prévisualisation,
-envoyer directement un document (son lien GoFAST) par mail.
-
-(Cfr : voir « Actions contextuelles de prévisualisation d’un
-document » / « Envoyer par mail » p.88)
-
-.. figure:: media-guide/image332.png
-   :alt: 
-
-.. figure:: media-guide/image333.png
-   :alt: 
-
-Créer un nouveau message
-------------------------
-
-Pour **créer un nouveau message/Email**, allez sur l’icône de
-l’enveloppe sur la barre noire supérieure. Cliquez ensuite sur « Nouveau
-message » en bleu.
-
-.. figure:: media-guide/image334.png
-   :alt: 
-
-Ecrivez les 3 premières lettres du nom de l’utilisateur à qui vous
-voulez envoyer le mail (celui-ci doit être un utilisateur de la GoFAST),
-et le système vous proposera une liste de noms à sélectionner.
-
-Donnez un titre au mail et écrivez le contenu puis envoyez
-
-.. figure:: media-guide/image335.png
-   :alt: 
-
-.. image:: media-guide/Tag-Enterprise.png
-   :align: right
-   :scale: 7%
-   
-   
-Chat/Messagerie instantanée (Enterprise only)
-==================================
-   
-   
-
-.. NOTE:: Nous parlons ici de la version dans le navigateur du Chat, vous pouvez également recevoir les messages avec votre smartphone (voir Utilisation Avancée)
-
-Pour **ouvrir le chat**, il faut aller sur l’extrême droite de l’écran,
-cliquer sur la barre verticale grise.
-
-.. figure:: media-guide/image336.png
-   :alt: 
-
-Vous pouvez ainsi voir la liste des personnes qui font partie des mêmes
-groupes que vous et qui sont, en ce moment, en ligne (boule verte sur la
-photo) ou absents (boule orange sur la photo).
-
-.. figure:: media-guide/image337.png
-   :alt: 
-
-Vous pouvez choisir votre **statut** sur le chat en cliquant sur le
-statut actuel à côté de votre photo, vous verrez ainsi une liste
-apparaître, cliquez sur votre choix pour le changer.
-
-.. figure:: media-guide/image338.png
-   :alt: 
-
-Vous verrez si vous avez un **nouveau message dans le chat** grâce à un
-petit numéro qui « saute » à côté de votre statut. Mais ce message peut
-être une pop up, pas nécessairement un message d’un utilisateur.
-
-.. figure:: media-guide/image339.png
-   :alt: 
-
-Vous voyez aussi si vous avez un **message sur le chat** avec un petit
-carré qui clignote dans le coin droit inférieur de l’écran ou avec une
-pop-up si vous n’êtes pas sur l’écran GoFAST
-
-.. figure:: media-guide/image340.png
-   :alt: 
-   
-
-.. figure:: media-guide/image341.png
-   :alt: 
-
-
-.. figure:: media-guide/image342.png
-   :alt: 
-
-Ou d’une manière plus générale, vous verrez aussi un numéro sur l’onglet
-de votre page URL vous indiquant que vous avez un nouveau message (mail
-ou chat)
-
-.. figure:: media-guide/image403.png
-   :alt: 
-
-Vous pouvez alors **commencer la discussion**.
-
-Les petits « v » en fin de message confirment que votre interlocuteur a
-reçu le message.
-
-Vous pouvez remonter dans l’historique de la conversation en faisant
-glisser la barre grise sur la droite
-
-.. figure:: media-guide/image343.png
-   :alt: 
-
-Si vous cliquez sur les 3 points verticaux à côté du nom du contact,
-vous voyez 3 propositions : renommer, montrer info, supprimer contact .
-
-.. figure:: media-guide/image344.png
-   :alt: 
-
-Voici un exemple de ce qui apparaît si vous choisissez « Montrer les
-informations »
-
-.. figure:: media-guide/image345.png
-   :alt: 
-
-Dans le coin droit en bas, à côté de votre profil du chat « en ligne » ,
-l’icône avec les **3 barres horizontales ouvre plusieurs
-fonctionnalités** comme : les réglages du chat, le son, à propos des
-contacts, …
-
-.. figure:: media-guide/image346.png
-   :alt: 
-
-a) Voici la page qui s’ouvre si vous choisissez « \ **Réglages** », vous
-   pouvez y régler vos options d’identification, les priorités, la copie
-   carbone, le message history, les notifications de compositions, etc.
-
-.. figure:: media-guide/image347.png
-   :alt: 
-
-Il y a déjà des données enregistrées par défaut.
-
-.. figure:: media-guide/image348.png
-   :alt: 
-
-b) Si vous voulez ajouter un contact au chat , appuyez sur « \ **Ajouter
-   un contact** » ; une fenêtre s’ouvre où vous pouvez ajouter un nom et
-   un pseudo. Terminez avec « Ajouter ».
-
-.. figure:: media-guide/image349.png
-   :alt:
-   
-.. figure:: media-guide/image350.png
-   :alt:
-
-c) L’ « \ **Aide en ligne** » vous amène à un site externe avec des
-   explications et des démos
-
-.. figure:: media-guide/image351.png
-   :alt:
-
-.. figure:: media-guide/image352.png
-   :alt: 
-
-d) Pour **rejoindre une discussion** en cours, appuyez sur « Joindre la
-   discussion »
-
-.. figure:: media-guide/image353.png
-   :alt: 
-
-Une fenêtre s’ouvre avec les propositions de discussions existantes,
-sélectionnez celle que vous voulez joindre et appuyez sur « Continuer ».
-
-.. figure:: media-guide/image354.png
-   :alt: 
-
-« Salon » étant le « forum/la chatroom »
-
-Si l’encadrement devient rouge, ce n’est pas une discussion, s’il
-devient vert, vous pouvez continuer. Vous verrez une connexion s’activer
-sur le coin droit supérieur.
-
-.. figure:: media-guide/image355.png
-   :alt: 
-
-Lorsqu’une conversation dans le chat est en cours, avec un ou plusieurs
-interlocuteurs, vous voyez leur nom apparaître dans une petite fenêtre
-dans le bas de l’écran.
-
-Vous pouvez ainsi voir leur message et y répondre.
-
-Si vous voulez démarrer une **vidéoconférence,** appuyez sur la petite
-caméra à côté du nom de la personne en ligne. Elle sera blanche si vous
-et votre interlocuteur avez les accessoires nécessaires pour une
-vidéoconférence, elle sera barrée si ce n’est pas le cas.
-
-.. figure:: media-guide/image358.png
-   :alt: 
-
-.. figure:: media-guide/image404.png
-   :alt: 
-
-Si vous voulez terminer la conversation dans le chat, appuyez sur la
-petite croix à côté du nom de l’interlocuteur.
-
-.. figure:: media-guide/image359.png
-   :alt: 
-
-L’icône des 3 points verticaux à côté du nom de l’interlocuteur ouvre
-une petite fenêtre où vous pouvez effacer l’historique de cette
-conversation avec cet interlocuteur.
-
-.. figure:: media-guide/image360.png
-   :alt: 
-
-Pour **refermer la barre du chat,** et ne plus voir du tout les autres
-utilisateurs en ligne, il suffit de réappuyer sur la barre grise
-verticale.
-
-.. figure:: media-guide/image361.png
-   :alt: 
-
-.. image:: media-guide/Tag-Enterprise.png
-   :align: right
-   :scale: 7%
-   
 
 Workflows : Processus de Tâches (Enterprise only)
 =================================================
@@ -4220,6 +3856,325 @@ Pour consulter les détails d'un processus archivé, il suffit de cliquer sur l�
 .. figure:: media-guide/Ecran-GoFAST_Workflows_processus-archive-historique.png	
    :alt:
 
+Forums de discussion
+===================
+
+Le forum général pour tous les utilisateurs de la GoFAST permet
+d’échanger des informations et questions sur l’outil et sur son
+utilisation.
+
+C’est à ce niveau notamment que vous allez retrouver la vidéo
+d’introduction de la GoFAST (version 2.0), les tutoriels, les guides
+d’utilisation, les guides de gestion documentaire, …
+
+Vous pourrez y posez des questions générales et chacun pourra y
+répondre. De même, l’administrateur général peut vous donner des trucs
+et astuces via ce canal également.
+
+Vous pouvez d’ailleurs vous abonner à ce forum si vous voulez rester au
+courant de tout ce qu’il s’y passe.
+
+   
+Chat/Messagerie instantanée (Enterprise only)
+==================================
+   
+   
+.. NOTE:: Nous parlons ici de la version dans le navigateur du Chat, vous pouvez également recevoir les messages avec votre smartphone (voir Utilisation Avancée)
+
+Pour **ouvrir le chat**, il faut aller sur l’extrême droite de l’écran,
+cliquer sur la barre verticale grise.
+
+.. figure:: media-guide/image336.png
+   :alt: 
+
+Vous pouvez ainsi voir la liste des personnes qui font partie des mêmes
+groupes que vous et qui sont, en ce moment, en ligne (boule verte sur la
+photo) ou absents (boule orange sur la photo).
+
+.. figure:: media-guide/image337.png
+   :alt: 
+
+Vous pouvez choisir votre **statut** sur le chat en cliquant sur le
+statut actuel à côté de votre photo, vous verrez ainsi une liste
+apparaître, cliquez sur votre choix pour le changer.
+
+.. figure:: media-guide/image338.png
+   :alt: 
+
+Vous verrez si vous avez un **nouveau message dans le chat** grâce à un
+petit numéro qui « saute » à côté de votre statut. Mais ce message peut
+être une pop up, pas nécessairement un message d’un utilisateur.
+
+.. figure:: media-guide/image339.png
+   :alt: 
+
+Vous voyez aussi si vous avez un **message sur le chat** avec un petit
+carré qui clignote dans le coin droit inférieur de l’écran ou avec une
+pop-up si vous n’êtes pas sur l’écran GoFAST
+
+.. figure:: media-guide/image340.png
+   :alt: 
+   
+
+.. figure:: media-guide/image341.png
+   :alt: 
+
+
+.. figure:: media-guide/image342.png
+   :alt: 
+
+Ou d’une manière plus générale, vous verrez aussi un numéro sur l’onglet
+de votre page URL vous indiquant que vous avez un nouveau message (mail
+ou chat)
+
+.. figure:: media-guide/image403.png
+   :alt: 
+
+Vous pouvez alors **commencer la discussion**.
+
+Les petits « v » en fin de message confirment que votre interlocuteur a
+reçu le message.
+
+Vous pouvez remonter dans l’historique de la conversation en faisant
+glisser la barre grise sur la droite
+
+.. figure:: media-guide/image343.png
+   :alt: 
+
+Si vous cliquez sur les 3 points verticaux à côté du nom du contact,
+vous voyez 3 propositions : renommer, montrer info, supprimer contact .
+
+.. figure:: media-guide/image344.png
+   :alt: 
+
+Voici un exemple de ce qui apparaît si vous choisissez « Montrer les
+informations »
+
+.. figure:: media-guide/image345.png
+   :alt: 
+
+Dans le coin droit en bas, à côté de votre profil du chat « en ligne » ,
+l’icône avec les **3 barres horizontales ouvre plusieurs
+fonctionnalités** comme : les réglages du chat, le son, à propos des
+contacts, …
+
+.. figure:: media-guide/image346.png
+   :alt: 
+
+a) Voici la page qui s’ouvre si vous choisissez « \ **Réglages** », vous
+   pouvez y régler vos options d’identification, les priorités, la copie
+   carbone, le message history, les notifications de compositions, etc.
+
+.. figure:: media-guide/image347.png
+   :alt: 
+
+Il y a déjà des données enregistrées par défaut.
+
+.. figure:: media-guide/image348.png
+   :alt: 
+
+b) Si vous voulez ajouter un contact au chat , appuyez sur « \ **Ajouter
+   un contact** » ; une fenêtre s’ouvre où vous pouvez ajouter un nom et
+   un pseudo. Terminez avec « Ajouter ».
+
+.. figure:: media-guide/image349.png
+   :alt:
+   
+.. figure:: media-guide/image350.png
+   :alt:
+
+c) L’ « \ **Aide en ligne** » vous amène à un site externe avec des
+   explications et des démos
+
+.. figure:: media-guide/image351.png
+   :alt:
+
+.. figure:: media-guide/image352.png
+   :alt: 
+
+d) Pour **rejoindre une discussion** en cours, appuyez sur « Joindre la
+   discussion »
+
+.. figure:: media-guide/image353.png
+   :alt: 
+
+Une fenêtre s’ouvre avec les propositions de discussions existantes,
+sélectionnez celle que vous voulez joindre et appuyez sur « Continuer ».
+
+.. figure:: media-guide/image354.png
+   :alt: 
+
+« Salon » étant le « forum/la chatroom »
+
+Si l’encadrement devient rouge, ce n’est pas une discussion, s’il
+devient vert, vous pouvez continuer. Vous verrez une connexion s’activer
+sur le coin droit supérieur.
+
+.. figure:: media-guide/image355.png
+   :alt: 
+
+Lorsqu’une conversation dans le chat est en cours, avec un ou plusieurs
+interlocuteurs, vous voyez leur nom apparaître dans une petite fenêtre
+dans le bas de l’écran.
+
+Vous pouvez ainsi voir leur message et y répondre.
+
+Si vous voulez démarrer une **vidéoconférence,** appuyez sur la petite
+caméra à côté du nom de la personne en ligne. Elle sera blanche si vous
+et votre interlocuteur avez les accessoires nécessaires pour une
+vidéoconférence, elle sera barrée si ce n’est pas le cas.
+
+.. figure:: media-guide/image358.png
+   :alt: 
+
+.. figure:: media-guide/image404.png
+   :alt: 
+
+Si vous voulez terminer la conversation dans le chat, appuyez sur la
+petite croix à côté du nom de l’interlocuteur.
+
+.. figure:: media-guide/image359.png
+   :alt: 
+
+L’icône des 3 points verticaux à côté du nom de l’interlocuteur ouvre
+une petite fenêtre où vous pouvez effacer l’historique de cette
+conversation avec cet interlocuteur.
+
+.. figure:: media-guide/image360.png
+   :alt: 
+
+Pour **refermer la barre du chat,** et ne plus voir du tout les autres
+utilisateurs en ligne, il suffit de réappuyer sur la barre grise
+verticale.
+
+.. figure:: media-guide/image361.png
+   :alt: 
+
+.. image:: media-guide/Tag-Enterprise.png
+   :align: right
+   :scale: 7%
+   
+Messages internes
+=================
+
+D’une manière générale, vous verrez un **numéro** sur l’onglet de votre
+page URL vous indiquant que vous avez un nouveau message (mail ou chat)
+
+.. figure:: media-guide/image324.png
+   :alt: 
+
+Lire ses messages et y répondre
+-------------------------------
+
+Lorsque vous apercevez un numéro rouge sur le logo GoFAST, dans le coin
+en haut à gauche, à côté de l’adresse GoFAST, cela veut aussi dire que
+vous avez un ou plusieurs **nouveaux messages (**\ par email). Cliquez
+sur ce numéro ou sur le message en vert (« You have 1 unread message »)
+pour voir la liste des messages reçus.
+
+.. figure:: media-guide/image325.png
+   :alt: 
+
+a) **Voici ce que vous verrez si vous appuyez sur le message vert**
+
+    Vous voyez le titre du message reçu, l’expéditeur, la date et heure
+    de l’envoi et si c’est un nouveau message (« NOUVEAU » en bleu à
+    côté du titre)
+
+    Pour supprimer des messages, sélectionnez les en cochant les cases
+    devant chacun et appuyez sur « Supprimer » (en rouge)
+
+    .. figure:: media-guide/image326.png
+       :alt: 
+
+    Vous pouvez aussi choisir une action comme « Marquer comme lu ou
+    non-lu », en cliquant sur la flèche à droite au niveau de la ligne
+    « Actions »
+
+    .. figure:: media-guide/image327.png
+       :alt: 
+
+    Vous pouvez également trier par ordre chronologique croissant ou
+    décroissant en cliquant sur la flèche au-dessus des dates et heures
+    d’envoi
+
+.. figure:: media-guide/image328.png
+   :alt: 
+
+b) **Et voici ce que vous verrez si vous appuyez sur l’enveloppe**
+
+    Vous voyez la liste des messages, les participants (expéditeurs et
+    destinataires), la date et l’heure d’envoi et la poubelle pour le
+    supprimer.
+
+.. figure:: media-guide/image329.png
+   :alt: 
+
+.. NOTE::
+    Si vous cliquez sur l’enveloppe , une punaise rouge
+    apparaît, ce qui fixe la fenêtre avec les messages. Pour la
+    débloquer, cliquez ailleurs sur la bande noire du menu, ainsi la
+    fenêtre avec la liste des messages se refermera.
+
+.. figure:: media-guide/image330.png
+       :alt: 
+
+**Cliquez sur le titre du message pour l’ouvrir.**
+
+Lorsque vous ouvrez le mail, vous retrouvez les informations telles que
+l’expéditeur (avec sa photo), la date et l’heure de l’envoi, le message
+envoyé et la possibilité d’y répondre avec les mêmes options que dans
+Word. Terminez avec « Envoyer le message »
+
+.. figure:: media-guide/image331.png
+   :alt: 
+
+.. NOTE::
+   Vous ne pouvez ni ajouter, ni supprimer un participant en
+   cours de conversation, ce qui veut dire que si l’échange de mail
+   commence entre 2-3 personnes, vous ne pourrez pas y ajouter/supprimer un
+   participant lors de vos échanges/réponses. Il n’est donc pas possible
+   non plus de transférer un message.
+
+Le service de mails sur GoFAST ne doit pas remplacer votre boîte mail
+traditionnelle (Lotus, Outlook, …) . Il est surtout utile pour converser
+directement sur GoFAST entre utilisateurs sans devoir passer d’une boîte
+de messagerie à une autre et de pouvoir, via la prévisualisation,
+envoyer directement un document (son lien GoFAST) par mail.
+
+(Cfr : voir « Actions contextuelles de prévisualisation d’un
+document » / « Envoyer par mail » p.88)
+
+.. figure:: media-guide/image332.png
+   :alt: 
+
+.. figure:: media-guide/image333.png
+   :alt: 
+
+Créer un nouveau message
+------------------------
+
+Pour **créer un nouveau message/Email**, allez sur l’icône de
+l’enveloppe sur la barre noire supérieure. Cliquez ensuite sur « Nouveau
+message » en bleu.
+
+.. figure:: media-guide/image334.png
+   :alt: 
+
+Ecrivez les 3 premières lettres du nom de l’utilisateur à qui vous
+voulez envoyer le mail (celui-ci doit être un utilisateur de la GoFAST),
+et le système vous proposera une liste de noms à sélectionner.
+
+Donnez un titre au mail et écrivez le contenu puis envoyez
+
+.. figure:: media-guide/image335.png
+   :alt: 
+
+.. image:: media-guide/Tag-Enterprise.png
+   :align: right
+   :scale: 7%
+   
+   
 Favoris
 =======
 
@@ -4236,6 +4191,56 @@ de prévisualisation p. 95)
 
 .. figure:: media-guide/image365.png
    :alt: 
+
+Annuaires
+=========
+
+Chercher un Espace Collaboratif
+-------------------------------
+
+Pour **rechercher des Espaces Collaboratifs via l’annuaire,** allez sur *Annuaire* dans le menu principal, puis sur Organisations, Groupes, Public ou Extranets. Vous trouverez l'arborescence des espaces existants, que vous pouvez rejoindre en cliquant dans les cases (une demande est alors envoyée aux administrateurs métier de l'Espace). 
+
+.. figure:: media-guide/image319.png
+   :alt: 
+   
+.. figure:: media-guide/image320.png
+   :alt: 
+
+
+Chercher une Liste d'utilisateurs
+----------------------------------
+
+Pour **rechercher des Listes d'utilisateurs via l’annuaire,** allez sur *Annuaire* dans le menu principal, puis sur *Listes d'utilisateurs*.
+
+.. figure:: media-guide/Ecran-GoFAST_Liste-Utilisateurs_annuaire-liste.png
+   :alt: 
+
+
+Chercher un utilisateur
+-----------------------
+
+Pour rechercher un utilisateur vous avez le choix entre tapez son nom dans la
+recherche, ou passer par l’ "Annuaire" / "Utilisateurs". Vous
+verrez toute la liste des utilisateurs GoFAST avec leur « carte de
+visite ».
+
+.. figure:: media-guide/image321.png
+   :alt: 
+
+Vous pouvez **filtrer** votre recherche selon les noms et l’alphabet ou
+les organisations/groupes/espaces
+
+.. figure:: media-guide/image322.png
+   :alt: 
+
+Vous pouvez directement envoyer un mail ou appeler l’utilisateur via son
+profil. De même que lui envoyer une demande de « relation », ce qui
+permet de contacter/voir le raccourci de cette personne même si elle ne
+fait pas partie de vos espaces collaboratifs.
+
+.. figure:: media-guide/image323.png
+   :alt: 
+
 
 Flux d'information
 ==================
