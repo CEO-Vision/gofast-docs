@@ -598,8 +598,8 @@ Vous n’aurez donc accès qu’à **une organisation** dont vous êtes membre.
 
 
 
-Création de contenus
-====================
+Création de Documents, Contenus, Utilisateur
+============================================
 
 Création d’un nouveau document
 ------------------------------
@@ -649,8 +649,8 @@ l’arborescence. Puis enregistrez.
 Vous verrez ainsi la prévisualisation de votre document et pourrez
 commencer à y travailler et y apposer les métadonnées relatives.
 
-Création d’un document à partir d’un modèle/template
-----------------------------------------------------
+Création d’un document à partir d’un modèle (template)
+------------------------------------------------------
 
 Vous pouvez créer un **nouveau document à partir d’un template** déjà
 existant sur la GoFAST.
@@ -693,18 +693,18 @@ de votre nouveau document.
 .. figure:: media-guide/image058.png
    :alt: 
    
-Ajouter un ou plusieurs documents par glisser-déposer
+Ajouter un ou plusieurs documents par *glisser-déposer*
 ---------------------------------------
 Vous pouvez à tout instant glisser un document vers GoFAST, soit sur la page d'accueil soit dans l'explorateur de fichiers.
 
 .. figure:: media-guide/glisser-deposer-ithit.png
    :alt:
 
-Ajouter un ou plusiers documents par le "Lecteur Réseau"
+Ajouter un ou plusiers documents par le *Lecteur Réseau*
 --------------------------------------------------------
 Pour utiliser l'explorateur Windows (ou Explorer sous MAC) vous devez configurer celui-ci pour qu'il accède à GoFAST.
 
-Configurer le "Lecteur Réseau"
+Configurer le *Lecteur Réseau*
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Faire un clic-droit sur "Ce PC" et choisir "Connecter un lecteur réseau"
@@ -732,8 +732,8 @@ Vous pouvez faire toute opération, commme des copier-coller de documents ou de 
 .. figure:: media-guide/copier-coller-webdav.png
    :alt:
 
-Création d’une page Intranet
-----------------------------
+Création d’une page Wiki (page interne)
+--------------------------------------
 
 Il est possible de **créer une page Intranet/Wiki** sur la GoFAST.
 
@@ -772,7 +772,7 @@ document, avec les métadonnées relatives sur la droite
 .. figure:: media-guide/image061.png
    :alt: 
 
-Création d’une page externe URL
+Création d’une page Web externe (URL)
 -------------------------------
 
 Avec cette fonctionnalité, vous pouvez **intégrer des pages externes**
@@ -791,7 +791,7 @@ du groupe pour le retrouver en bleu sur la droite), enregistrez.
 .. figure:: media-guide/image063.png
    :alt: 
 
-Création d’un forum
+Création d’un Forum
 -------------------
 
 Il est possible de créer des « mini-forums » dans un groupe. Ce qui
@@ -828,7 +828,7 @@ commentaire.
 .. figure:: media-guide/image067.png
    :alt: 
 
-Création d’un formulaire
+Création d’un Formulaire
 ------------------------
 
 Il est possible de **créer un formulaire d’enquête** par exemple
@@ -886,8 +886,8 @@ verront le message suivant
 .. figure:: media-guide/image075.png
    :alt: 
 
-Création d’un espace
---------------------
+Création d’un Espace Collaboratif
+--------------------------------
 
 Il est possible de **créer de nouveaux espaces
 collaboratifs/sous-groupes**, **si toutefois vous en avez les droits,
@@ -988,8 +988,8 @@ fonctionnalités.
 
 Voir aussi"Gestion des documents"
 
-Création d’un utilisateur
--------------------------
+Création d’un compte Utilisateur
+--------------------------------
 
 Voir 'Créer un utilisateur dans un
 espace/groupe'
@@ -1003,8 +1003,8 @@ si besoin et s’il en est l’administrateur aussi).
    :scale: 7%
    
 
-Création d’une conférence (Enterprise only)
--------------------------------------------
+Création d’une Web-conférence / Réunion (Enterprise only)
+---------------------------------------------------------
     
 
 .. CAUTION:: Les technologies de conférence Web sont assez récentes et nécessitent de bonnes ressources (PC, réseau, ...). Assurez-vous de suivre les pré-requis. En cas de problème consulter les problèmes fréquents : http://gofast-docs.readthedocs.io/fr/latest/docs-gofast-users/doc-gofast-problemes-connus.html#webconference
@@ -2962,7 +2962,7 @@ Vous faites le choix des sous-groupes et répertoires dont vous souhaitez export
 
 
 
-Gestion des Espaces collaboratifs
+Gestion des Espaces Collaboratifs
 =================================
 
 Voir aussi "Création d’un espace"
