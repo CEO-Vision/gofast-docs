@@ -37,9 +37,9 @@ Nouvelles fonctionnalités
       "[4141]","Gestion en masse des documents depuis le panier documentaire
    
    *Voir : https://bit.ly/2vaO4Bq*","[Community][Enterprise]"
-      "[4201]","Création en masse des Publications depuis des documents de travail en un clic
+      "[4201]","Création en masse des Publications depuis une séléction de documents de travail
    
-   *Voir :*","[Community][Enterprise]"
+   *Voir : https://bit.ly/2UGLORU*","[Community][Enterprise]"
       "[4202]","Comparatif de versions : écarts entre 2 versions d'un document en les affichant côte-à-côte [BETA]
    
    *Voir : https://bit.ly/2GrV03u*","[Community][Enterprise]"
