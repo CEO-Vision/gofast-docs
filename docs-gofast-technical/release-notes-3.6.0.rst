@@ -32,7 +32,7 @@ Nouvelles fonctionnalités
       "[4820]","Nouvelles API supplémentaires pour BonitaSoft","[Enterprise]"
       "[1640]","Listes d’Utilisateurs : gestion en masse et automatique des accès aux Espaces Collaboratifs
    
-   *Voir :*","[Community][Enterprise]"
+   *Voir : https://bit.ly/2veVL9H*","[Community][Enterprise]"
       "[3782]","Nouvelle API REST GoFAST pour simplifier les couplages avec d’autres outils métiers","[Community][Enterprise]"
       "[4141]","Gestion en masse des documents depuis le panier documentaire
    
