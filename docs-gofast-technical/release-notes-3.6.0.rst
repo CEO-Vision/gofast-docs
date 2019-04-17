@@ -36,7 +36,7 @@ Nouvelles fonctionnalités
       "[3782]","Nouvelle API REST GoFAST pour simplifier les couplages avec d’autres outils métiers","[Community][Enterprise]"
       "[4141]","Gestion en masse des documents depuis le panier documentaire
    
-   *Voir :*","[Community][Enterprise]"
+   *Voir : https://bit.ly/2vaO4Bq*","[Community][Enterprise]"
       "[4201]","Création en masse des Publications depuis des documents de travail en un clic
    
    *Voir :*","[Community][Enterprise]"
