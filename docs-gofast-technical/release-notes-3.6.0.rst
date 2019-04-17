@@ -30,9 +30,9 @@ Nouvelles fonctionnalités
       "[4783]","Création de widgets GoFAST sur BonitaSoft","[Enterprise]"
       "[4784]","Nouveaux connecteurs BonitaSoft/GoFAST (+ amélioration des existants)","[Enterprise]"
       "[4820]","Nouvelles API supplémentaires pour BonitaSoft","[Enterprise]"
-      "[1640]","Listes d’Utilisateurs : gestion en masse et automatique des accès aux Espaces Collaboratifs
+      "[1640]","Listes d’Utilisateurs : gestion en masse et automatique des accès aux Espaces Collaboratifs et autres fonctionnalités
    
-   *Voir : https://bit.ly/2veVL9H*","[Community][Enterprise]"
+   *Voir : https://bit.ly/2UoTfYC*","[Community][Enterprise]"
       "[3782]","Nouvelle API REST GoFAST pour simplifier les couplages avec d’autres outils métiers","[Community][Enterprise]"
       "[4141]","Gestion en masse des documents depuis le panier documentaire
    
