@@ -1689,7 +1689,10 @@ Créer/Modifier une liste d'utilisateurs
 .. figure:: media-guide/Ecran-GoFAST_Liste-Utilisateurs_creer-liste.png
    :alt: 
 
-Pour créer une liste, cliquez sur "Créer", puis "Liste d’utilisateurs" dans le menu principale. Vous êtes redirigé vers le formulaire et il suffit de renseigner les 3 champs affichés. 
+Pour créer une liste, cliquez sur "Créer", puis "Liste d’utilisateurs" dans le menu principale. Vous êtes redirigé vers le formulaire et il suffit de renseigner les 3 champs affichés :
+   - Nom de la liste,
+   - Desccription,
+   - Mmebres (rentrez au moins 3 caractère du nom/prénom d'un utilisateur pour avoir des suggestions),
 
 .. figure:: media-guide/Ecran-GoFAST_Liste-Utilisateurs_creer-liste-renseigner-formulaire.png	
    :alt: 
@@ -1703,7 +1706,27 @@ Pour modifier les éléments de la liste (nom, description, membres), il suffit 
 .. figure:: media-guide/Ecran-GoFAST_Liste-Utilisateurs_modifier-les-membres-de-la-liste.png	
    :alt: 
 
+Ajouter/enlever une liste d'utilisateurs comme membre d’un Espace Collaboratif
+------------------------------------------------------------------------------
+**L'ajout d'une liste dans un espace collaboratif se fait comme pour un utilisateur unitaire :**
+   - Aller sur la page de l'espace
+   - Ouvrir le menu "Burger" (actions contextuelles)
+   - Cliquer sur "ajouter membre/liste"
+   
+.. figure:: media-guide/Ecran-GoFAST_Liste-Utilisateurs_ajouter-liste-dans-espace-collaboratif.png	
+   :alt: 
 
+Le formulaire d'ajout d'un membre s'ouvre et il faut commencer à rentrer le nom de la liste (au moins 3 caractères) pour avoir des suggestions. 
+
+.. figure:: media-guide/Ecran-GoFAST_Liste-Utilisateurs_ajouter-liste-dans-espace-collaboratif-formulaire.png	
+   :alt: 
+
+.. NOTE:: 
+   Pour ajouter une liste d'utilisateurs comme membre d'un espace, il faut être administrateur de l'espace. 
+
+.. NOTE:: 
+   Le rôle attribué à chaque utilisateur dans l'Espace Collaboratif et celui coché lors de l'ajout de la liste. 
+   
 Gestion de documents
 ====================
 
