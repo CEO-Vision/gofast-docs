@@ -1139,8 +1139,8 @@ les détails des Actions contextuelles p.75)
 .. figure:: media-guide/image130.png
    :alt: 
 
-Fonctionnalités sur la prévisualisation
----------------------------------------
+Prévisualisation des Documents : fonctionnement et fonctionnalités
+------------------------------------------------------------------
 
 Au-dessus de la **prévisualisation** du document, vous voyez une **barre
 d’outils noire.**
