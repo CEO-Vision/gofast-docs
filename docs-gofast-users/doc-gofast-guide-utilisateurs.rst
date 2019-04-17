@@ -2038,7 +2038,7 @@ Si l'annotation de départ est supprimée, le commentaire associé et les répon
 .. NOTE:: Il n'y a pas de notification email, ni dans le fil d'activité pour les annotations privées. 
 
 
-Métadonnées – infos relatives au document
+Métadonnées : infos relatives aux documentx
 -----------------------------------------
 
 Lors de la prévisualisation, vous voyez toute une série **d’informations
@@ -2050,6 +2050,18 @@ Ces informations sont très utiles lors de la recherche automatique car
 elles vous permettront de filtrer davantage vos résultats.
 
 .. figure:: media-guide/image209.png
+   :alt: 
+
+Emplacements
+~~~~~~~~~~~
+
+L’emplacement correspond aux Espaces et dossiers où se trouve votre
+document sur GoFAST (ex: dans un groupe ou une organisation ou votre
+espace privé et/ou un répertoire). 
+
+Un même et unique fichier peut être classé dans plusieurs emplacements grâce au *Multi-filing* et ainsi ne plus avoir de doublons de fichiers, ni d'erreurs de versions. 
+
+.. figure:: media-guide/image213.png
    :alt: 
 
 Catégories et Etats
@@ -2076,15 +2088,6 @@ choisissez la proposition adéquate.
 .. figure:: media-guide/image402.png
    :alt: 
 
-Emplacement
-~~~~~~~~~~~
-
-L’emplacement correspond à **l’endroit/l’espace où se trouve votre
-document** sur la GoFAST (dans un groupe ou une organisation ou votre
-espace privé et/ou un répertoire)
-
-.. figure:: media-guide/image213.png
-   :alt: 
 
 Contenus liés
 ~~~~~~~~~~~~~
@@ -2128,8 +2131,8 @@ l’écran.
 .. figure:: media-guide/image218.png
    :alt: 
 
-Liens vers / Liens depuis
-~~~~~~~~~~~~~~~~~~~~~~~~
+**Liens vers / Liens depuis**
+
 Nous avons volontairement dissocié la formulation des liens "depuis" et liens "vers" pour la possibilité de modification. 
 
 Un « *lien vers* » signifie : un lien vers d'autres contenus, depuis le document sélectionné (= sur lequel vous vous trouvez).
@@ -2143,8 +2146,7 @@ C'est sur le constat de liens entrants et sortants.
    :alt:
 
 
-Liens externes
-~~~~~~~~~~~~~~
+**Liens externes**
 
 Permet d’ajouter un **lien vers une page web externe** en y mettant
 **l’URL.**
@@ -2164,20 +2166,20 @@ dessus et coller l’URL souhaité. Puis terminez en appuyant sur
    :alt: 
 
 Etiquettes (mots-clefs)
------------------------
+~~~~~~~~~~~~~~~~~~~~~~
 
 Les "Etiquettes" sont des mots-clés que les utilisateurs peuvent à tout moment ajouter aux documents. 
 
-Ces étiquettes sont utiles dans les cas suivants :
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+**Ces étiquettes sont utiles dans les cas suivants :**
+
 * Informer les autre utilisateurs qui consultent le document sur la thématique ou une spécificité liée au document,
 * Retrouver plus facilement certains contenus car les étiquettes sont indexées par le moteur de recherche et donnent un poids supplémentaire qui remonte ces contenus dans le résultat,
 * Pouvoir filtrer un résultat de recherche par "étiquette" (ex : on recherche "documentation" et on filtre avec l'étiquette "GoFAST"),
 * Pouvoir s'abonner à ces étiquettes pour être notifié de l'activité des documents ayant cette étiquette (chaque abonnement à une "étiquette" peut être paramétré par l'utilisateur pour sa fréquence).
 * Pouvoir retrouver des fichiers qui sont dans des formats autres que texte (ex : les images, les vidéo, PDF images, etc.)
 
-Pour ajouter ou enlever une "étiquette" :
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+**Pour ajouter ou enlever une "étiquette" :**
+
 * Allez au niveau de "Etiquettes" avec la souris et le bouton "Modifier" apparaît,
 * Cliquer sur le bouton "Modifier" pour ouvrir la popup de modification des étiquettes,
 * Pour ajouter une étiquette, il faut commencer à taper le mot souhaité et des suggestions vous seront proposées. Cliquez sur une des suggestions ou sur "nouveau terme" si aucune suggestion ne vous convient. Enfin, cliquez sur "Appliquer" pour enregistrer les modifications,
@@ -2189,8 +2191,8 @@ Pour ajouter ou enlever une "étiquette" :
 .. figure:: media-guide/image222.png
    :alt: 
 
-S'abonner ou se désaboner des "Etiquettes" : 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+**S'abonner ou se désaboner des "Etiquettes" :**
+
 L'abonnement à des étiquettes permet d'être notifié sur l'activité des contenus selon une thématique ou un sujet spécifique (ex: on est membre d'un espace de travail, mais plutôt que d'être notifié sur toute l'activité de cet espace, on fait le choix d'être notifié sur les documents ayant une étiquette précise). 
 Sur la page d'un document, pour vous abonner ou vous désabonner d'une étiquette, il faut cliquer sur la petite icône d'abonnement.
 Ensuite, il est possible de paramétrer la fréquence de ses notifications selon les étiquettes (dans le menu du profil utilisateur, entrée "Abonnements").
@@ -2212,7 +2214,7 @@ L'icône d'abonnement apparaîtra en rouge dans l'étiquette si vous êtes abonn
    :alt: 
 
 Échéance
---------
+~~~~~~~~
 Consiste à donner une **date d’échéance** au document, c’est-à-dire
 qu’un rappel par notification vous sera envoyé par rapport à ce document
 à cette date.
@@ -2229,8 +2231,8 @@ choisissez la date pour le rappel. Terminez par « Appliquer »
 .. figure:: media-guide/image229.png
    :alt: 
 
-Importance d’un document
-------------------------
+Importance du Document/Contenu
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Vous pouvez signaler **l’importance d’un document** dans les métadonnées
 et son niveau : critique, haute, normale ou basse.
@@ -2252,8 +2254,8 @@ Cette métadonnée permet d’ajouter un filtre à votre recherche
 automatique et ….. ? (listing résultat ?) (en attente réponse CEO
 vision)
 
-Auteur du document
-------------------
+Auteur du Document/Contenu
+~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Le fait d’indiquer **l’auteur** du document permet de savoir
 à qui s’adresser en cas de question et d’ajouter un filtre lors de la
@@ -2271,8 +2273,8 @@ liste d’utilisateurs, sélectionnez le nom souhaité et cliquez sur
 .. figure:: media-guide/image234.png
    :alt: 
 
-Historique du document et versions
-----------------------------------
+Historique et versions du Document
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 L’\ **historique** indique les actions qui ont été faites sur le
 document, par qui et quand : création, modification, …
@@ -2302,8 +2304,8 @@ ouvrir.
 .. figure:: media-guide/image237.png
    :alt: 
 
-Les langues et traductions des documents
-----------------------------------------
+Les langues et traductions du Document/Contenu
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Vous pouvez mettre la **langue du document** dans les métadonnées, ainsi
 plus besoin d’indiquer la langue dans le nom du document. Cela donne
@@ -2357,81 +2359,6 @@ Terminez en appuyant sur la case bleue « Mettre à jour les traductions »
 Vous pouvez ainsi lier les différentes versions d’un même document qui
 existe en plusieurs langues. Et les drapeaux correspondant à ces langues
 se retrouveront dans les métadonnées du document.
-
-Commentaire(s) sur le document
-------------------------------
-
-(Voir aussi « Ajouter un commentaire au document » p.74)
-
-.. figure:: media-guide/image243.png
-   :alt: 
-
-Sous les métadonnées, vous retrouverez le titre des **commentaires déjà
-existants** par rapport à ce document. Il suffit de cliquer sur leur
-titre pour les ouvrir. Ou les retrouver sous la prévisualisation du
-document.
-
-Ces commentaires sont généraux et concernent tout le contenu du document
-(=> différents des commentaires dans Word par rapport à une
-phrase/paragraphe).
-
-On peut les modifier, y répondre ou les supprimer (si vous en êtes
-l’auteur).
-
-Pour ajouter un commentaire général, mettez-vous sur la prévisualisation
-du document à commenter, ouvrez la liste des actions contextuelles
-(icône avec les 3 barres horizontales) et choisissez « Nouveau
-commentaire ».
-
-.. figure:: media-guide/image244.png
-   :alt: 
-
-Une fenêtre s’ouvre ; choisissez un titre à votre commentaire et écrivez
-le texte comme dans un Word, avec les mêmes options. Enregistrez.
-
-.. figure:: media-guide/image245.png
-   :alt: 
-
-Votre commentaire se retrouve alors sous la prévisualisation du
-document, au-dessus des précédents commentaires s’il y en a (=> par
-ordre chronologique)
-
-Une autre manière de voir s’il y a des commentaires par rapport à un
-document est le petit icône sur la barre d’outil de la
-prévisualisation : la bulle en rouge avec un petit numéro vous signale
-qu’il y a des commentaires non-lus. Pour voir les titres de ces
-commentaires non-lus, allez sur la petite flèche juste à côté de l’icône
-avec le chiffre.
-
-C’est également un raccourcis pour ajouter un nouveau commentaire.
-
-.. figure:: media-guide/image246.png
-   :alt: 
-
-Enfin, sur la page d’accueil et le **fil d’activité**, dans la colonne
-« Evénement », « Nouveau commentaire » apparaît en rouge à côté du titre
-du document, ce qui vous signale également qu’il y a eu un commentaire
-sur ce document
-
-.. figure:: media-guide/image247.png
-   :alt: 
-
-En cliquant sur la petite **loupe** juste à côté, vous pouvez
-prévisualiser le commentaire.
-
-.. figure:: media-guide/image248.png
-   :alt: 
-
-Derniers contenus vus
----------------------
-
-Cette petite fenêtre visible presque tout le temps sur la droite de
-l’écran vous permet de voir les **10 derniers documents** que vous avez
-consultés/ouverts, cela sert de raccourcis puisqu’il suffit de cliquer
-sur le titre pour ouvrir la prévisualisation.
-
-.. figure:: media-guide/image249.png
-   :alt: 
 
 
 Panier Documentaire 
@@ -4175,10 +4102,23 @@ Donnez un titre au mail et écrivez le contenu puis envoyez
    :scale: 7%
    
    
-Favoris
-=======
+Favoris et Derniers contenus vus
+================================
 
-Vous pouvez voir **la liste** de vos documents/groupes **favoris** en
+Derniers contenus vus
+~~~~~~~~~~~~~~~~~~~~~
+
+Cette petite fenêtre visible presque sur toutes les pages, sur la droite de
+l’écran, vous permet de voir les **10 derniers documents** que vous avez
+consultés/ouverts, cela sert de raccourcis puisqu’il suffit de cliquer
+sur le titre pour ouvrir la prévisualisation.
+
+.. figure:: media-guide/image249.png
+   :alt: 
+   
+Accès aux Favoris 
+~~~~~~~~~~~~~~~~~
+Vous pouvez voir **la liste** de vos documents/espaces/dossiers **favoris** en
 cliquant sur l’\ **étoile** sur la bande noire du menu général. Une
 punaise rouge y apparaîtra, ce qui fixe la fenêtre avec la liste. Pour
 débloquer la liste, appuyez ailleurs sur la bande noire.
