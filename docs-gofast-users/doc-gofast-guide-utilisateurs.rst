@@ -1739,8 +1739,21 @@ Les Espaces Collaboratifs dont est membre la liste sont affichés sur la page de
 .. figure:: media-guide/Ecran-GoFAST_Liste-Utilisateurs_emplacements-associes-a-la-liste.png	
    :alt: 
 
-Rechercher une liste d'utilisateurs
------------------------------------
+Afficher/Rechercher les listes d'utilisateurs
+---------------------------------------------
+
+Annuaire des Liste d'Utilisateurs
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Pour consulter les listes existantes, il suffit de passer par les annuaires accessibles depuis le menu principal. 
+
+.. figure:: media-guide/Ecran-GoFAST_Liste-Utilisateurs_annuaire-liste.png	
+   :alt: 
+   
+Pour aller sur un liste depuis l'annuaire, vous pouvez cliquer sur le nom de la liste. Vous pourrez alors consulter les membres et les emplacements de celle-ci. 
+
+Rechercher une Liste d'Utilisateur
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 Les listes d'utilisateurs sont recherchables via la moteur de recherche et peuvent être utilisées comme "filtre de format".
 
 .. figure:: media-guide/Ecran-GoFAST_Liste-Utilisateurs_rechercher-liste.png	
