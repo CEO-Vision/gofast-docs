@@ -2929,13 +2929,13 @@ dessus et coller l’URL souhaité. Puis terminez en appuyant sur
 .. figure:: media-guide/image220.png
    :alt: 
 
-Etiquettes
-~~~~~~~~~~
+Etiquettes (mots-clefs)
+-----------------------
 
 Les "Etiquettes" sont des mots-clés que les utilisateurs peuvent à tout moment ajouter aux documents. 
 
 Ces étiquettes sont utiles dans les cas suivants :
---------------------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 * Informer les autre utilisateurs qui consultent le document sur la thématique ou une spécificité liée au document,
 * Retrouver plus facilement certains contenus car les étiquettes sont indexées par le moteur de recherche et donnent un poids supplémentaire qui remonte ces contenus dans le résultat,
 * Pouvoir filtrer un résultat de recherche par "étiquette" (ex : on recherche "documentation" et on filtre avec l'étiquette "GoFAST"),
@@ -2943,7 +2943,7 @@ Ces étiquettes sont utiles dans les cas suivants :
 * Pouvoir retrouver des fichiers qui sont dans des formats autres que texte (ex : les images, les vidéo, PDF images, etc.)
 
 Pour ajouter ou enlever une "étiquette" :
------------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 * Allez au niveau de "Etiquettes" avec la souris et le bouton "Modifier" apparaît,
 * Cliquer sur le bouton "Modifier" pour ouvrir la popup de modification des étiquettes,
 * Pour ajouter une étiquette, il faut commencer à taper le mot souhaité et des suggestions vous seront proposées. Cliquez sur une des suggestions ou sur "nouveau terme" si aucune suggestion ne vous convient. Enfin, cliquez sur "Appliquer" pour enregistrer les modifications,
@@ -2956,7 +2956,7 @@ Pour ajouter ou enlever une "étiquette" :
    :alt: 
 
 S'abonner ou se désaboner des "Etiquettes" : 
---------------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 L'abonnement à des étiquettes permet d'être notifié sur l'activité des contenus selon une thématique ou un sujet spécifique (ex: on est membre d'un espace de travail, mais plutôt que d'être notifié sur toute l'activité de cet espace, on fait le choix d'être notifié sur les documents ayant une étiquette précise). 
 Sur la page d'un document, pour vous abonner ou vous désabonner d'une étiquette, il faut cliquer sur la petite icône d'abonnement.
 Ensuite, il est possible de paramétrer la fréquence de ses notifications selon les étiquettes (dans le menu du profil utilisateur, entrée "Abonnements").
@@ -2978,7 +2978,7 @@ L'icône d'abonnement apparaîtra en rouge dans l'étiquette si vous êtes abonn
    :alt: 
 
 Échéance
-~~~~~~~~
+--------
 Consiste à donner une **date d’échéance** au document, c’est-à-dire
 qu’un rappel par notification vous sera envoyé par rapport à ce document
 à cette date.
@@ -2996,7 +2996,7 @@ choisissez la date pour le rappel. Terminez par « Appliquer »
    :alt: 
 
 Importance d’un document
-~~~~~~~~~~~~~~~~~~~~~~~~
+------------------------
 
 Vous pouvez signaler **l’importance d’un document** dans les métadonnées
 et son niveau : critique, haute, normale ou basse.
@@ -3019,7 +3019,7 @@ automatique et ….. ? (listing résultat ?) (en attente réponse CEO
 vision)
 
 Auteur du document
-~~~~~~~~~~~~~~~~~~
+------------------
 
 Le fait d’indiquer **l’auteur** du document permet de savoir
 à qui s’adresser en cas de question et d’ajouter un filtre lors de la
@@ -3038,7 +3038,7 @@ liste d’utilisateurs, sélectionnez le nom souhaité et cliquez sur
    :alt: 
 
 Historique du document et versions
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+----------------------------------
 
 L’\ **historique** indique les actions qui ont été faites sur le
 document, par qui et quand : création, modification, …
@@ -3069,7 +3069,7 @@ ouvrir.
    :alt: 
 
 Les langues et traductions des documents
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+----------------------------------------
 
 Vous pouvez mettre la **langue du document** dans les métadonnées, ainsi
 plus besoin d’indiquer la langue dans le nom du document. Cela donne
@@ -3125,7 +3125,7 @@ existe en plusieurs langues. Et les drapeaux correspondant à ces langues
 se retrouveront dans les métadonnées du document.
 
 Commentaire(s) sur le document
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+------------------------------
 
 (Voir aussi « Ajouter un commentaire au document » p.74)
 
@@ -3189,7 +3189,7 @@ prévisualiser le commentaire.
    :alt: 
 
 Derniers contenus vus
-~~~~~~~~~~~~~~~~~~~~~
+---------------------
 
 Cette petite fenêtre visible presque tout le temps sur la droite de
 l’écran vous permet de voir les **10 derniers documents** que vous avez
@@ -3198,6 +3198,54 @@ sur le titre pour ouvrir la prévisualisation.
 
 .. figure:: media-guide/image249.png
    :alt: 
+
+
+Panier Documentaire 
+-------------------
+Le panier documentaire permet de rassembler plusieurs documents sans modifier leur emplacements pour exécuter diverses fonctionnalités sur l’ensemble du panier.
+Le panier est accessible depuis le menu principale, icône "3 barres"/"burger" puis clic sur "Panier documentaire" (à partir de la v3.6, autrement c’est dans le menu du profil utilisateur).
+
+.. figure:: media-guide/Ecran-GoFAST_Panier-Documentaire_acces-au-panier.png	
+   :alt:
+
+Ajouter/retirer des documents dans son panier documentaire
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+**Il est possible d’ajouter des documents dans le panier :** 
+   - Via le menu "burger" (actions contextuelles sur un document) sur la page du document, le fil d’activité, résultat de recherche…
+   
+.. figure:: media-guide/ Ecran-GoFAST_Panier-Documentaire_ajout-au-panier-sur-page-document.png
+   :alt:	
+   
+   - Depuis l’explorateur de fichiers "GoFAST File Browser" en sélectionnant les documents souhaités et en cliquant sur l’icône "panier"
+   
+.. figure:: media-guide/Ecran-GoFAST_Panier-Documentaire_ajout-au-panier-dans-gofast-file-browser.png	
+   :alt:
+   
+**Il est possible de retirer les documents de son panier documentaire :**
+   - Unitairement, en cliquant sur "retirer du panier"
+   - Tous les documents en une fois, en cliquant sur "retirer tous les documents"
+
+.. figure:: media-guide/Ecran-GoFAST_Panier-Documentaire_retirer-du-panier.png	
+   :alt:
+
+
+Actions possible depuis le panier documentaire
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+**Gérer en masse les documents du panier :**
+   - Gérer la taxonomie (catégorie, étiquettes, état, langue)
+   - Gérer les emplacements/visibilité des documents
+   - Gérer les publications (créer/mettre à jour les publications des documents)
+
+.. figure:: media-guide/Ecran-GoFAST_Panier-Documentaire_actions-depuis-panier-gestion-en-masse.png	
+   :alt:
+
+**Démarrer un processus de tâches depuis le panier (Enterprise only) :**
+Les documents du paniers sont proposés lors du démarrage d’un nouveau workflow, via le menu principale. Cela permet d’associés au processus tous les documents en une fois, que l’on peut ensuite retirer unitairement dans le formulaire du processus.
+
+.. figure:: media-guide/Ecran-GoFAST_Panier-Documentaire_retirer-du-panier.png	
+   :alt:
+   
+Pour savoir comment démarrer un nouveau processus de tâches, merci de vous référer à la documentation : https://gofast-docs.readthedocs.io/fr/latest/docs-gofast-users/doc-gofast-guide-utilisateurs.html#workflows-processus-de-taches-enterprise-only
 
 
 
