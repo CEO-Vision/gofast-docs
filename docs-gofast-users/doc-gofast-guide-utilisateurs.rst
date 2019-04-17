@@ -1677,11 +1677,11 @@ sur celle qui vous intéresse pour vous y intégrer.
    :alt: 
 
 
-Gestion des Listes d'Utilisateurs (à partir de la v3.6)
-=======================================================
-Les listes d'utilisateurs facilitent la gestion en masse et automatisée des membres des Espaces Collaboratifs et leurs rôles.
+Gestion des Listes d'Utilisateurs (en v3.6)
+===========================================
+Les listes d'utilisateurs facilitent la gestion en masse et automatisée des membres des Espaces Collaboratifs et leurs rôles. Ainsi, lorsqu’un utilisateur GoFAST est ajouté à une liste, il devient automatiquement membre de tous les espaces associés à cette liste. 
 
-Ainsi, lorsqu’un utilisateur GoFAST est ajouté à une liste, il devient automatiquement membre de tous les espaces associés à cette liste. 
+Les listes peuvent aussi être sélectionnées lors d'un partage de documents par email (voir *Partager le document par mail* : https://gofast-docs.readthedocs.io/fr/latest/docs-gofast-users/doc-gofast-guide-utilisateurs.html?highlight=panier#partager-le-document-par-mail)
 
 Créer/Modifier une liste d'utilisateurs
 ---------------------------------------
@@ -1693,7 +1693,7 @@ Pour créer une liste, cliquez sur "Créer", puis "Liste d’utilisateurs" dans 
 
    - Nom de la liste,
    - Desccription,
-   - Mmebres (rentrez au moins 3 caractère du nom/prénom d'un utilisateur pour avoir des suggestions),
+   - Membres de la liste (rentrez au moins 3 caractère du nom/prénom d'un utilisateur pour avoir des suggestions),
 
 .. figure:: media-guide/Ecran-GoFAST_Liste-Utilisateurs_creer-liste-renseigner-formulaire.png	
    :alt: 
@@ -1727,7 +1727,7 @@ Le formulaire d'ajout d'un membre s'ouvre et il faut commencer à rentrer le nom
    Pour ajouter une liste d'utilisateurs comme membre d'un espace, il faut être administrateur de l'espace. 
 
 .. NOTE:: 
-   Le rôle attribué à chaque utilisateur dans l'Espace Collaboratif et celui coché lors de l'ajout de la liste. 
+   Le rôle attribué à chaque utilisateur dans l'Espace Collaboratif et celui coché lors de l'ajout de la liste. Si l'utilisateur est membre d'un espace de plusieurs façons (Listes + directement via son profile), c'est le rôle qui offre le plus de privilège qui s'appliquera. De cette façon, on évite de restreindre les droits d'un utilisateur qui serait déjà membre de l'Espace Collaboratif.
    
 Une fois la liste ajoutée à l'Espace Collaboratif, celle-ci est affichée parmi les autres membres. 
 
@@ -1750,8 +1750,8 @@ Les listes d'utilisateurs sont recherchables via la moteur de recherche et peuve
    Les listes dont fait partie un utilisateur sont affichées sur sa page de profile. 
 
    
-Gestion de documents
-====================
+Gestion des Documents et Travail Collaboratif
+=============================================
 
 Lors de la **prévisualisation d’un document**, vous pouvez accéder
 à plusieurs **fonctionnalités** liées directement au document .
@@ -2339,11 +2339,7 @@ autres traductions.
 Partager le document par mail
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Via les actions contextuelles de la prévisualisation, vous pouvez
-**envoyer un lien** sur le document directement **par mail** à une liste
-de destinataires ayant un compte GoFAST ou non, sans qu'ils aient à
-s'authentifier. Celui-ci sera donc automatiquement attaché à votre
-message.
+Via les actions contextuelles de la prévisualisation, vous pouvez **envoyer un lien sécurisé** sur le document directement **par email** à un utilisateur, une liste d'utilisateur, les membres d'un Espace Collaboratif ou bien à une adresse email externe. Le document sera donc automatiquement attaché à votre message. Ce lien est contextuel : les utilisateurs ayant accès au document pourront consulter sa page avec tous les détails, alors que les non-utilisateurs auront un lien de téléchargement valable 14 jours avec accusé de téléchargement.
 
 .. NOTE:: Cette méthode est nettement plus sécurisée (RGPD) et auditable que l'envoi d'un email classique avec des pièces jointes sensibles
    
