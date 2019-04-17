@@ -1899,8 +1899,8 @@ curseur.
 .. figure:: media-guide/image389.png
    :alt: 
 
-Actions liées au fichier
-------------------------
+Actions sur la page d'un document/contenu
+-----------------------------------------
 
 Il y a plusieurs **fonctionnalités liées à un document** telles que :
 actualiser l’aperçu, processus et tâches (workflow), pleine page,
@@ -1962,8 +1962,8 @@ envoyer par mail, gérer les traductions, créer une publication, …
 .. figure:: media-guide/image136.png
    :alt: 
 
-Actions contextuelles / fonctionnalités liées à un document
------------------------------------------------------------
+Actions contextuelles / fonctionnalités sur un document
+-------------------------------------------------------
 
 Ces actions liées directement au document que vous prévisualisez peuvent
 **varier selon le rôle** que vous avez dans ce groupe
@@ -2214,7 +2214,7 @@ l’icône, vous pouvez voir le nom de l’autre utilisateur.
    
    
 Editer le document avec OnlyOffice (Enterprise only)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
    
 GoFAST 3 apporte une dimension très innovante et vous permet d’éditer
 des documents Office dans un simple navigateur **avec d’autres personnes
@@ -2607,7 +2607,7 @@ l’option « Open link in new tab/window »
    :alt: 
 
 Ouvrir l’emplacement du document
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Lorsque vous prévisualisez un document, vous pouvez voir le
 **cheminement** (path), le trajet dans l’\ **arborescence** avec les
@@ -2677,6 +2677,19 @@ Un message vert vous confirmera votre désabonnement à ce contenu.
 
 .. figure:: media-guide/image201.png
    :alt: 
+
+Comparer deux versions d'un document (beta en v3.6)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Pour afficher les écarts entre deux versions d’un même document, vous avez la possibilité de lancer le comparatif via le menu "Burger" (actions contextuelles).
+
+.. figure:: media-guide/Ecran-GoFAST_Comparatif-Versions_lancer-le-comparatif.png
+   :alt: 
+
+Sélectionnez dans les deux listes les deux versions que vous souhaitez comparer : 
+
+.. figure:: media-guide/Ecran-GoFAST_Comparatif-Versions_lancer-le-comparatif-choix-versions.png	
+   :alt: 
+   
 
 Créer une version majeure du document
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
