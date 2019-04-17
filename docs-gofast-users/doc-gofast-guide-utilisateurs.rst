@@ -3387,7 +3387,7 @@ La barre d'outils de l'explorateur de fichier permet d'effectuer les action suiv
    :alt:
 
 
-**Créer un nouvel élément dans le dossier sectionné**
+**Créer un nouveau contenu dans le dossier sectionné**
 ~~~~~~~~~~~~~~~~~~~~
 
 Si vous appuyez sur le bouton *Nouveau* puis *Dossier*, cela vous permet de créer un nouveau dossier à cet emplacement. Il vous suffit ensuite de le nommer, puis valider. 
@@ -3395,29 +3395,70 @@ Si vous appuyez sur le bouton *Nouveau* puis *Dossier*, cela vous permet de cré
 .. figure:: media-guide/FBrowser-07.png
    :alt:
 
+Pour créer un nouveau document dans l'emplacement où vous vous trouvez, cliquez sur *Nouveau*, puis *Document*. Vous serez alors ramené vers le formulaire de création de document avec l'emplacement présélectionné.
 
-**Gérer les métadonnées (taxonomie) et les emplacements d’un ou plusieurs contenu(s)**
-~~~~~~~~~~~~~~~~~~~~
+Gérer les métadonnées (taxonomie) et les emplacements d’un ou plusieurs contenu(s)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Pour pouvoir cliquer sur le bouton *Gérer* il faut au-préalable sélectionner un ou plusieurs dossier(s) et/ou contenu(s) dans la zone principale de l'explorateur de fichiers.
 
 Une fois les éléments sélectionnés, vous pouvez gérer la visibilité des contenus (selon vos droits utilisateur) en cliquant sur *Gérer les emplacements*, ou bien modifier les informations de taxonomie. 
 
-**A savoir :** les modifications d'informations de taxonomie sont possibles sur : l'état, la catégorie, le(s) étiquette(s), et la langue. Dans le cas où vous ne souhaitez pas modifier tous ces éléments, laisser le champ positionné sur *Ne pas modifier*. 
+.. Note:: 
+   Les modifications d'informations de taxonomie sont possibles sur : l'état, la catégorie, le(s) étiquette(s), et la langue. Dans le cas où vous ne souhaitez pas modifier tous ces éléments, laisser le champ positionné sur *Ne pas modifier*. 
 Ces informations serviront ensuie dans les filtres de la recherche automatique pour réduire la liste des résultats. 
 
 .. figure:: media-guide/FBrowser-08.png
    :alt:
 
+Gérer en masse les Publications de documents (en v 3.6)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Il est possible de générer des publications depuis une sélection de document de travail pour partager dans d'autres Espaces Collaboratifs des versions finies/validées, sans partager tout l'historique des versions et commentaires des documents de travail. Les publications sont ainsi largement partagées et les documents de travail restent accessibles uniquement dans les Espaces d'origine. 
 
+.. Note:: 
+   Cette fonctionnalité est possible unitairement sur la page d'un document, mais aussi en masse depuis GoFAST File Browser (à partir de la v3.6). 
+   
+Après avoir séléctionné les documents souhaités, il suffit de cliquer sur *Gérer*, puis sur *Gérer les publications*. 
+
+.. figure:: media-guide/Ecran-GoFAST_Publication-en-masse_slelectionner-pour-publier-en-masse.png	
+   :alt:
+
+Le formulaire de gestion des publications s'ouvre et il faut alors cocher les emplacements où seront partagées ces publications. Il est possible de demander à convertir au format PDF ou de laisser les formats d'origine. 
+
+.. figure:: media-guide/Ecran-GoFAST_Publication-en-masse_publier-en-masse.png
+   :alt:
+   
+.. Note:: 
+   Les publications sont un fonctionnalité clef pour une gestion efficace et en toute sécurité des documents.
+
+Ajouter un/des document(s) au panier
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Lorsque vous sélectionnez un ou plusieurs fichiers vous avez la possibilité en cliquant sur l'icône (voir ci-dessous) de les ajouter à votre panier documentaire. 
+
+Ce panier documentaire d'exécuter des actions sur une sélection de documents, comme par exemple lancer un processus de validation (workflow). 
+*Pour plus de détails voire le paragraphe consacré aux Workflows et au Panier Documentaire*
+
+.. figure:: media-guide/FBrowser-11.png
+   :alt: 
+
+
+Filtrer les contenus dans un dossier ou espace
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Cette nouvelle fonctionnalité va vous permettre de retrouver vos documents plus facilement. Dans la barre *Filtre* (voir image ci-dessous), écrivez le titre du document que vous recherchez, et la recherche va filtrer tous les documents sur la page de l'espace où vous êtes.
+
+.. figure:: media-guide/FBrowser-12.png
+   :alt: 
+   
+   
 Copier/Couper/Coller des documents
-++++++++++++++++++++++++++++++++++
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 En survolant les icônes avec la souris, vous verrez à quelle action elle correspond avec un petit mot affiché sous l'icône. 
 
 
 **Copier/Coller un document**
-~~~~~~~~~~~~~~~~~~~~
 
 L’icône des 2 feuilles superposées (encadré en orange ici) permet de *Copier* le document sélectionné dans un autre emplacement de la GoFAST, il vous faudra alors ensuite appuyer sur le dernier icône (encadré en jaune ici) quand vous voudrez coller le document à l'emplacement où vous souhaitez le coller, clic-droit de la souris et "Coller". 
 
@@ -3431,7 +3472,6 @@ MAIS, GoFAST vous permet le multi-emplacement des documents sans créer de copie
    
    
 **Couper/Coller un document**
-~~~~~~~~~~~~~~~~~~~~
 
 Même principe que pour *Copier/Coller* , mais ici pour déplacer un dossier vers un autre emplacement sur GoFAST est de *Couper* puis *Coller*. Cette fois, il faut utiliser les ciseaux pour couper (entouré ci-dessous en orange) et l’avant dernier icône noir et blanc pour Coller (entouré ci-dessous en jaune). 
 
@@ -3445,27 +3485,6 @@ Cette démarche, contrairement à la précédente permet d'éviter les doublons.
    Vous ne pouvez *Couper/Coller* des documents que dans GoFAST. Vous ne pouvez donc pas coller un document externe à la GoFAST, il faut le télécharger préalablement. 
 
 
-**Ajouter un/des document(s) au panier**
-~~~~~~~~~~~~~~~~~~~~
-
-Lorsque vous sélectionnez un ou plusieurs fichiers vous avez la possibilité en cliquant sur l'icône (voir ci-dessous) de les ajouter à votre panier documentaire. 
-
-Ce panier a pour objectif vous créer un panier documentaire sur lequel vous pouvez mener des actions, comme par exemple lancer un processus de validation (workflow). 
-*Pour plus de détails voir le paragraphe consacré aux Workflows*
-
-.. figure:: media-guide/FBrowser-11.png
-   :alt: 
-
-
-**Filtrer les contenus dans un dossier ou espace**
-~~~~~~~~~~~~~~~~~~~~
-
-Cette nouvelle fonctionnalité va vous permettre de retrouver vos documents plus facilement. Dans la barre *Filtre* (voir image ci-dessous), écrivez le titre du document que vous recherchez, et la recherche va filtrer tous les documents sur la page de l'espace où vous êtes.
-
-.. figure:: media-guide/FBrowser-12.png
-   :alt: 
-   
-   
 Actions depuis GoFAST File Browser selon le type de contenu  
 -----------------------------------------------------------
 
