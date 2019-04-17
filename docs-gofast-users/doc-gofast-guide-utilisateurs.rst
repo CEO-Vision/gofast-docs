@@ -1751,7 +1751,7 @@ Pour consulter les listes existantes, il suffit de passer par les annuaires acce
    
 Pour aller sur un liste depuis l'annuaire, vous pouvez cliquer sur le nom de la liste. Vous pourrez alors consulter les membres et les emplacements de celle-ci. 
 
-Rechercher une Liste d'Utilisateur
+Rechercher une Liste d'Utilisateurs
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Les listes d'utilisateurs sont recherchables via la moteur de recherche et peuvent être utilisées comme "filtre de format".
