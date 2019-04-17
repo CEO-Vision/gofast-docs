@@ -42,7 +42,7 @@ Nouvelles fonctionnalités
    *Voir :*","[Community][Enterprise]"
       "[4202]","Comparatif de versions : écarts entre 2 versions d'un document en les affichant côte-à-côte [BETA]
    
-   *Voir :*","[Community][Enterprise]"
+   *Voir : https://bit.ly/2GrV03u*","[Community][Enterprise]"
       "[4273]","Extension des fonctionnalités sur GoFAST mobile : 
       
       - Pouvoir consulter sur la page d’un document sa catégorie, son état et son échéance, 
