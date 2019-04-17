@@ -33,7 +33,7 @@ Nouvelles fonctionnalités
       "[1640]","Listes d’Utilisateurs : gestion en masse et automatique des accès aux Espaces Collaboratifs et autres fonctionnalités
    
    Voir : https://bit.ly/2UoTfYC","[Community en v3.6.1][Enterprise]"
-      "[3782]","Nouvelle API REST GoFAST pour simplifier les couplages avec d’autres outils métiers","[Community][Enterprise]"
+      "[3782]","Nouvelle API REST GoFAST pour simplifier les couplages avec d’autres outils métiers","[Community en v3.6.1][Enterprise]"
       "[4141]","Gestion en masse des documents depuis le panier documentaire
    
    Voir : https://bit.ly/2vaO4Bq","[Community en v3.6.1][Enterprise]"
@@ -69,7 +69,7 @@ Améliorations fonctionnelles
       "[4773]","Dans le panier documentaire, ajout de la possibilité de supprimer tous les éléments du panier en un clic","[Community en v3.6.1][Enterprise]"
       "[4791]","Exclusion des utilisateurs bloqués de l'autocomplétions dans les champs","[Community en v3.6.1][Enterprise]"
       "[4835]","Enlever l'envoi de l’e-mail de notification lorsqu'un utilisateur est débloqué","[Community en v3.6.1][Enterprise]"
-      "[4903]","Amélioration de l’affichage (taille) de certaines popups (commentaires, message privé, partage par e-mail, etc.)","[Community][Enterprise]"
+      "[4903]","Amélioration de l’affichage (taille) de certaines popups (commentaires, message privé, partage par e-mail, etc.)","[Community en v3.6.1][Enterprise]"
       "[4914]","Amélioration de l’affichage des Espaces Collaboratifs dont est membre un utilisateur, sur sa page de profil","[Community en v3.6.1][Enterprise]"
       "[4935]","Amélioration du message explicatif lors de l’affichage de la popup d'installation ITHitEditDocumentOpener","[Community en v3.6.1][Enterprise]"
       "[4952]","Ajout des rôles finaux des espaces dans le profil de l'utilisateur","[Community en v3.6.1][Enterprise]"
