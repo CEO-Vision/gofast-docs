@@ -1690,6 +1690,7 @@ Créer/Modifier une liste d'utilisateurs
    :alt: 
 
 Pour créer une liste, cliquez sur "Créer", puis "Liste d’utilisateurs" dans le menu principale. Vous êtes redirigé vers le formulaire et il suffit de renseigner les 3 champs affichés :
+
    - Nom de la liste,
    - Desccription,
    - Mmebres (rentrez au moins 3 caractère du nom/prénom d'un utilisateur pour avoir des suggestions),
@@ -1709,6 +1710,7 @@ Pour modifier les éléments de la liste (nom, description, membres), il suffit 
 Ajouter/enlever une liste d'utilisateurs comme membre d’un Espace Collaboratif
 ------------------------------------------------------------------------------
 L'ajout d'une liste dans un espace collaboratif se fait comme pour un utilisateur unitaire :
+
    - Aller sur la page de l'espace
    - Ouvrir le menu "Burger" (actions contextuelles)
    - Cliquer sur "ajouter membre/liste"
