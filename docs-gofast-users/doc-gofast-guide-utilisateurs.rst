@@ -1708,7 +1708,7 @@ Pour modifier les éléments de la liste (nom, description, membres), il suffit 
 
 Ajouter/enlever une liste d'utilisateurs comme membre d’un Espace Collaboratif
 ------------------------------------------------------------------------------
-**L'ajout d'une liste dans un espace collaboratif se fait comme pour un utilisateur unitaire :**
+L'ajout d'une liste dans un espace collaboratif se fait comme pour un utilisateur unitaire :
    - Aller sur la page de l'espace
    - Ouvrir le menu "Burger" (actions contextuelles)
    - Cliquer sur "ajouter membre/liste"
@@ -1726,6 +1726,27 @@ Le formulaire d'ajout d'un membre s'ouvre et il faut commencer à rentrer le nom
 
 .. NOTE:: 
    Le rôle attribué à chaque utilisateur dans l'Espace Collaboratif et celui coché lors de l'ajout de la liste. 
+   
+Une fois la liste ajoutée à l'Espace Collaboratif, celle-ci est affichée parmi les autres membres. 
+
+.. figure:: media-guide/Ecran-GoFAST_Liste-Utilisateurs_liste-dans-espace-collaboratif.png	
+   :alt: 
+
+Les Espaces Collaboratifs dont est membre la liste sont affichés sur la page de la liste, onglet "Emplacements". 
+
+.. figure:: media-guide/Ecran-GoFAST_Liste-Utilisateurs_emplacements-associes-a-la-liste.png	
+   :alt: 
+
+Rechercher une liste d'utilisateurs
+-----------------------------------
+Les listes d'utilisateurs sont recherchables via la moteur de recherche et peuvent être utilisées comme "filtre de format".
+
+.. figure:: media-guide/Ecran-GoFAST_Liste-Utilisateurs_rechercher-liste.png	
+   :alt: 
+   
+.. NOTE:: 
+   Les listes dont fait partie un utilisateur sont affichées sur sa page de profile. 
+
    
 Gestion de documents
 ====================
