@@ -3438,7 +3438,7 @@ Le formulaire de gestion des publications s'ouvre et il faut alors cocher les em
    :alt:
    
 .. Note:: 
-   Les publications sont un fonctionnalité clef pour une gestion efficace et en toute sécurité des documents.
+   Les publications sont une fonctionnalité clef pour une gestion efficace et en toute sécurité des documents.
 
 Ajouter un/des document(s) au panier
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
