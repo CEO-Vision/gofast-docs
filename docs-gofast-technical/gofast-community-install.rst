@@ -13,6 +13,8 @@ Instructions (pour AWS)
 
 https://aws.amazon.com/marketplace/pp/B07NPZHPG3
 
+Instancier GoFAST et aller au paragraphe `La Configuration`_
+
 .. caution:: Ne pas oublier de choisir ``default`` pour "Security Group" pour permettre le traffic entrant 22 (ssh) et 443 (https) 
 Instructions (par image)
 ------------
@@ -25,7 +27,7 @@ Instructions (par image)
 
 -Étape 3: Se connecter à la machine virtuelle et lancer ``nmtui`` pour configurer le réseau (adresse IP fixe, passerelle ...). Voir https://gofast-docs.readthedocs.io/fr/latest/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.html#configuration-du-reseau-par-lexploitant
 
-.. note:: Pour vous connecter en SSH à votre machine : Le login utilisateur est ``root`` et le mot de passe ``@C0mmunity!`` ).
+.. note:: Pour vous connecter en SSH à votre VM : Le login utilisateur est ``root`` et le mot de passe ``@C0mmunity!`` (avec un ``0`` et non ``O``)
 
 –Étape 4: Se rendre sur ``https://votre_adresse_ip`` et faire la configuration de la plate-forme.
 
@@ -33,7 +35,7 @@ Instructions (par image)
 
 
 
-La configuration ! 
+La configuration
 -------------
 
 Lorsque vous vous rendez sur l'adresse IP , une page de configuration fait son apparition, elle est constituée de 4 étapes:
