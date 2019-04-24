@@ -25,11 +25,13 @@ Instructions (par image)
 
 -Étape 3: Se connecter à la machine virtuelle et lancer ``nmtui`` pour configurer le réseau (adresse IP fixe, passerelle ...). Voir https://gofast-docs.readthedocs.io/fr/latest/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.html#configuration-du-reseau-par-lexploitant
 
+.. note:: Pour vous connecter en SSH à votre machine : Le login utilisateur est ``root`` et le mot de passe ``@C0mmunity!`` ).
+
 –Étape 4: Se rendre sur ``https://votre_adresse_ip`` et faire la configuration de la plate-forme.
 
 -Étape 5: Pour pouvoir utiliser l'adresse complète, déclarer la avec son adresse IP dans le fichier hosts ou dans le DNS
 
-.. note:: Pour vous connecter en SSH à votre machine : Le login utilisateur est ``root`` et le mot de passe correspond au mot de passe technique que vous avez configuré. ( Par défaut avant la configuration du mot de passe technique : ``@C0mmunity!`` ).
+
 
 La configuration ! 
 -------------
