@@ -144,7 +144,7 @@ Bugs mineurs
       "[4995]","Dans GoFAST File Browser, activer les boutons d'actions quand les éléments sont sélectionnés par via les cases à cocher","[Community][Enterprise]"
       
       
-**Note : Mettre à jour GoFAST Community** 
+**Note: Mettre à jour GoFAST Community** 
    Pour pouvoir mettre à jour votre GoFAST Community, le serveur de mise à jour doit être accessible. Les nouvelles fonctionnalités et les autres améliorations seront disponibles sur www.ceo-vision.com en libre téléchargement en 3.6.1 (actuellement v3.5.2).  
 
 
