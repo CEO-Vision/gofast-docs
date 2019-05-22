@@ -1,0 +1,119 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019
+# This file is distributed under the same license as the gofast-docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: gofast-docs latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-05-22 15:25+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:3
+# 8cf83f7ea6564adebf12a3c0606b8c42
+msgid "GoFAST : Administration"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:8
+# f595d110fdaf42538dc52d87ae384662
+msgid "Introduction"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:10
+# d21bb8236e2f40429f307f21332f841b
+msgid "Cette partie de la documentation est destinée aux utilisateurs disposant du rôle \"Super-Administrateur\". Pour l'administration des Espaces Collaboratifs, merci de vous référer à la rubrique \"Gestion des Espaces Collaboratifs\"."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:12
+# 6cd9776d06c54c24a4c36943ce84e604
+msgid "Le rôle \"Super-Administrateur\" donne accès à des fonctionnalités de configuration de GoFAST, mais en aucun cas ce rôle permet d’accéder par défaut aux Espaces Collaboratifs et documents par défaut. Il s’agit ici de garantir la confidentialité des données. Pour avoir accès aux contenus d’un Espace Collaboratif il est nécessaire d’être membre de cet Espace dont l’accès est donné uniquement par les administrateurs de l’Espace (en général des responsable métiers)."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:17
+# 16f1b79654054290b2296b29d5fcce8d
+msgid "Configuration de la visibilité des Utilisateurs et Espaces"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:20
+# 9cf660c230e741818c72b662032d4831
+msgid "Deux options sont disponibles :"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:21
+#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:30
+# 75063292fb5f46318ad97b34635eb3b4
+# 8befc537d1394a6da14dc79815667eff
+msgid "Visibilité entre les utilisateurs"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:22
+#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:42
+# 8f27dddbff2b4fb2b89099c694dc3404
+# 1615268523184eb1bda72df4a2804db0
+msgid "Visibilité des Espaces Collaboratifs"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:24
+# 3ade4b1721e94bfc80fe4a24b14b2eaa
+msgid "Cette configuration n'est pas liée aux rôles donnés dans les Espaces Collaboratifs, mais sur des rôles globaux sur GoFAST, à savoir : Utilisateurs Standard ou Extranet."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:26
+# 402374d155af45258510e53cdb77fc2f
+msgid "Le cloisonnement s'applique uniquement pour les utilisateurs n'ayant aucun Espace Collaboratif en commun. Si deux utilisateurs sont membres d'un même espace, ils pourront dans tous les cas se voir entre eux."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:32
+# 28929675de95424fa16331ce6c35d127
+msgid "Il s'agit de permettre aux utilisateurs de se voir entre eux dans l’annuaire des utilisateurs et de consulter les profils."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:36
+#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:48
+# 2ba78bfe3211457585a39c1d6efbadd3
+# fba380aaaf084ebdb50e10cd7ede4aed
+msgid "GoFAST permet de séléctionner la visibilité ou le cloisonement selon le rôle des utilisateurs :"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:35
+# 162830a4006447bd968ece7beaa9f979
+msgid "Les utilisateurs ayant le rôle \"Extranet\" (rôle globale à la plateforme) peuvent se voir ou pas entre eux."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:36
+# fa93af771f7445e59eab1d2d8f0050e1
+msgid "Tous les utilisateurs indépendament de leur rôle sur GoFAST peuvent se voir ou pas entre eux."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:38
+# 1e68460bd37e4b8ab8c2f0f0c97ee35c
+msgid "Le cloisonnement entre les utilisateurs extranets permet d'éviter que des partenaires et prestataires ne se voient entre eux."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:44
+# 2944b7fbc19e455197d41785415dd19b
+msgid "Il s'agit de permettre aux utilisateurs de voir ou pas l'arborescence des différents Espaces Collaboratifs dont ils ne sont pas membres. ."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:47
+# fdb82793eb904611b13fae542b206906
+msgid "Les utilisateurs ayant le rôle \"Extranet\" (rôle globale à la plateforme) peuvent ou pas consulter l'ensemble de l'arborescence des Espaces Collaboratifs."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:48
+# b093fb49baf34b47bfea24065f0c02df
+msgid "Tous les utilisateurs indépendament de leur rôle sur GoFAST peuvent ou pas consulter l'ensemble de l'arborescence des Espaces Collaboratifs."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:50
+# 5b3c266c71c24544b0d1e597031946a7
+msgid "Ce cloisonnement permet d'éviter que les utilisateurs ne puissent consulter les Espaces dont ils ne sont pas membres, dans l'annuaire des Espaces. Pour les utilisateurs rôle Extranet, cela permet d'éviter que des partenaires et prestataires ne puissent consulter l'arborescence des Espaces internes (ex : Organisations et Groupes), ainsi que les Espaces déstinés à d'autres partenaires ou prestataires. C'est important dans le cas où il y a des Espaces Extranets dédiés à des concurrents."
+msgstr ""
+
