@@ -1,0 +1,186 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019
+# This file is distributed under the same license as the gofast-docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: gofast-docs latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-05-21 13:53+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+
+#: ../../docs-gofast-technical/gofast-community-install.rst:3
+msgid "GoFAST Community :  Installation"
+msgstr ""
+
+#: ../../docs-gofast-technical/gofast-community-install.rst:4
+msgid ""
+"For english instruction please follow this link: https://ceo-"
+"vision.readthedocs.io/en/latest/docs/en/doc-gofast-community-install.html"
+msgstr ""
+
+#: ../../docs-gofast-technical/gofast-community-install.rst:6
+msgid ""
+"En cas de problème vous pouvez poser vos questions sur les forums : "
+"https://community.ceo-vision.com"
+msgstr ""
+
+#: ../../docs-gofast-technical/gofast-community-install.rst:8
+msgid ""
+"Après l'installation, ne pas oublier de vérifier qu'il existe des mises à"
+" jour dans le menu (votre environnement doit avoir accès à internet)"
+msgstr ""
+
+#: ../../docs-gofast-technical/gofast-community-install.rst:12
+msgid "Instructions (pour AWS)"
+msgstr ""
+
+#: ../../docs-gofast-technical/gofast-community-install.rst:14
+msgid "https://aws.amazon.com/marketplace/pp/B07NPZHPG3"
+msgstr ""
+
+#: ../../docs-gofast-technical/gofast-community-install.rst:16
+msgid "Instancier GoFAST et aller au paragraphe `La Configuration`_"
+msgstr ""
+
+#: ../../docs-gofast-technical/gofast-community-install.rst:18
+msgid ""
+"Ne pas oublier de choisir ``default`` pour \"Security Group\" pour "
+"permettre le traffic entrant 22 (ssh) et 443 (https)"
+msgstr ""
+
+#: ../../docs-gofast-technical/gofast-community-install.rst:20
+msgid "Instructions (par image)"
+msgstr ""
+
+#: ../../docs-gofast-technical/gofast-community-install.rst:22
+msgid ""
+"–Étape 1: Télécharger l’image sur le site https://www.ceo-"
+"vision.com/fr/content/gofast-community-ged-plateforme-collaborative-"
+"opensource (.ova, ...)"
+msgstr ""
+
+#: ../../docs-gofast-technical/gofast-community-install.rst:24
+msgid "–Étape 2: Instancier l'image dans votre logiciel de virtualisation"
+msgstr ""
+
+#: ../../docs-gofast-technical/gofast-community-install.rst:26
+msgid ""
+"GoFAST est une application d'entreprise et nécessite un serveur (mini "
+"2vcpu,4GB RAM,SSD recommandé). L'utilisation sur un simple PC sous "
+"VirtualBox est donc déconseillée et il est possible de subir des timeouts"
+" au premier accès et ensuite à la fin de la configuration. Un simple "
+"rafraichissement de la page suffit."
+msgstr ""
+
+#: ../../docs-gofast-technical/gofast-community-install.rst:28
+msgid ""
+"-Étape 3: Se connecter à la machine virtuelle et lancer ``nmtui`` pour "
+"configurer le réseau (adresse IP fixe, passerelle ...). Voir https"
+"://gofast-docs.readthedocs.io/fr/latest/docs-gofast-technical/gofast-"
+"docs-prerequis-installation-serveur.html#configuration-du-reseau-par-"
+"lexploitant"
+msgstr ""
+
+#: ../../docs-gofast-technical/gofast-community-install.rst:30
+msgid ""
+"Pour vous connecter en SSH à votre VM : Le login utilisateur est ``root``"
+" et le mot de passe ``@C0mmunity!`` (avec un ``0`` et non ``O``)"
+msgstr ""
+
+#: ../../docs-gofast-technical/gofast-community-install.rst:32
+msgid ""
+"–Étape 4: Se rendre sur ``https://votre_adresse_ip`` et faire la "
+"configuration de la plate-forme."
+msgstr ""
+
+#: ../../docs-gofast-technical/gofast-community-install.rst:34
+msgid ""
+"-Étape 5: Pour pouvoir utiliser l'adresse complète, déclarer la avec son "
+"adresse IP dans le fichier hosts ou dans le DNS"
+msgstr ""
+
+#: ../../docs-gofast-technical/gofast-community-install.rst:39
+msgid "La configuration"
+msgstr ""
+
+#: ../../docs-gofast-technical/gofast-community-install.rst:41
+msgid ""
+"Lorsque vous vous rendez sur l'adresse IP , une page de configuration "
+"fait son apparition, elle est constituée de 4 étapes:"
+msgstr ""
+
+#: ../../docs-gofast-technical/gofast-community-install.rst:43
+msgid "–La configuration du nouveau nom de domaine"
+msgstr ""
+
+#: ../../docs-gofast-technical/gofast-community-install.rst:45
+msgid "–La configuration du certificat SSL"
+msgstr ""
+
+#: ../../docs-gofast-technical/gofast-community-install.rst:47
+msgid "–La configuration du serveur SMTP"
+msgstr ""
+
+#: ../../docs-gofast-technical/gofast-community-install.rst:49
+msgid "–La configuration du compte administrateur de la plateforme"
+msgstr ""
+
+#: ../../docs-gofast-technical/gofast-community-install.rst:52
+msgid ""
+"Une fois ces 4 étapes effectuées, une page apparait avec un "
+"récapitulatif. Si tout est correct appuyez sur \"Terminer la "
+"configuration\"."
+msgstr ""
+
+#: ../../docs-gofast-technical/gofast-community-install.rst:54
+msgid ""
+"Si vous avez généré un certificat SSL, il vous faudra ouvrir une autre "
+"page avec la meme adresse IP pour de nouveau ajouter l'exception au "
+"navigateur"
+msgstr ""
+
+#: ../../docs-gofast-technical/gofast-community-install.rst:57
+msgid "Démarrons !"
+msgstr ""
+
+#: ../../docs-gofast-technical/gofast-community-install.rst:59
+msgid ""
+"Vous devez créer quelques utilisateurs et des espaces collaboratifs (et "
+"sous-espaces)."
+msgstr ""
+
+#: ../../docs-gofast-technical/gofast-community-install.rst:61
+msgid ""
+"Les espaces peuvent être de différents types, \"Organisation\" "
+"(départements, ...), \"Groupes\" (projets, ...), \"Extranet\" "
+"(partenaires, clients, ...). Voir la documentation en ligne ici : https"
+"://gofast-docs.readthedocs.io/fr/latest/docs-gofast-users/doc-gofast-"
+"guide-utilisateurs.html#gerer-un-espace-collaboratif-groupe"
+msgstr ""
+
+#: ../../docs-gofast-technical/gofast-community-install.rst:63
+msgid ""
+"Dans les sous-espaces créés, ajouter des membres qui pourront avoir accès"
+" au contenu de cet espace. Ajoutez des sous-espaces si nécessaire."
+msgstr ""
+
+#: ../../docs-gofast-technical/gofast-community-install.rst:65
+msgid ""
+"Ajoutez du contenu en utilisant le glisser-déposer dans le \"GoFAST File "
+"Browser\" (explorateur de fichiers)"
+msgstr ""
+
+#: ../../docs-gofast-technical/gofast-community-install.rst:67
+msgid "Vous êtes prêt pour démarrer !"
+msgstr ""
+
