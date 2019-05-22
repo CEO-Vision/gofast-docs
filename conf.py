@@ -33,6 +33,7 @@ locale_dirs = [
     'locale/',
 ]
 gettext_compact = False
+gettext_uuid = True
 
 #make gettext
 #sphinx-intl update -p _build/locale fr
