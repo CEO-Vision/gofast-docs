@@ -160,15 +160,13 @@ organisations(x10GB), 15 groupes (x10GB) soit un total de 765 GB
 Partitionnement optionnel
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Les données sont stockées dans ``/var``
+L'essentiel des données sont stockées dans ``/var``. Une sauvegarde quotidienne est effectuée dans ``/var/backup``. Si l'image utilisée ne possède pas un partitionnement suffisant nous vous recommandons de le réaliser.
 
-Il est très recommandé mais non obligatoire de créer une partition pour
-``/var``.
-
+.. NOTE::
+   Il est très recommandé mais non obligatoire de créer une partition pour ``/var``
 .. CAUTION:: 
-   Si la partition ``/var`` est sur un stockage distant (NAS/NFS ...) ceci ne doit 
+   Si la partition ``/var`` est sur un stockage distant (NAS/NFS ...) ceci ne doit pas
    entrainer une forte dégradations des performances (IOPS) par rapport à un stockage local. Tout stockage WAN doit être évité 
-
 .. CAUTION:: 
    Il est recommandé mais non obligatoire de créer une partition pour
    ``/var/backup`` pour la sauvegarde des données applicatives et ce point de
@@ -288,27 +286,13 @@ Installation par import de VM
 -----------------------------
 
 CEO-Vision peut fournir une image de la VM sous forme OVA (format
-universel), VHD (VHD), VMDK (VMWare).
+universel). Pour les autres formats nous contacter.
 
 Dans le cas du format OVA, une machine virtuelle avec des prérequis
 standards est fournie.
 
-Dans le cas d'image VHD ou VMDK, la machine virtuelle doit être créée au
-préalable suivant les prérequis et l'image disque rattachée à cette
-machine virtuelle.
-
 .. CAUTION::
    Pour VMWare, vérifier que le "PVSCSI adapter" est bien utilisé
-
-Pour information, l'image VMDK de VirtualBox a été au préalable
-convertie pour VMWare à l'aide des commandes suivantes: ::
-
-    # vmware-vdiskmanager ‑r GoFAST-VirtualBox.VMDK -t 0 GoFAST-ESX.VMDK
-    # vmware-vdiskmanager -d GoFAST-ESX.VMDK
-    # vmware-vdiskmanager -k GoFAST-ESX.VMDK
-
-Reste ensuite une configuration de la VM définissant quelques
-caractéristiques réseaux (nom de domaine, …)
 
 Dans certains cas la machine virtuelle peut avoir un espace disque
 alloué supérieur au partitionnement de la VM. Dans ce cas les opérations
@@ -376,7 +360,7 @@ Post-installation de la VM (Enterprise only)
    
 Configuration du réseau (par l’Exploitant)
 --------------------------------------------
-- Se connecter en SSH à la VM et lancer ``nmtui``
+- Se connecter en console à la VM et lancer ``nmtui``
 - Choisir ``Edit a connection`` puis l'interface, normalement ``ems33``
 .. figure:: media/nmtui-select-edit-connection.png
    :alt:
@@ -449,111 +433,13 @@ Configuration / Paramétrage par CEO-Vision
 
 -  Installation de la charte graphique
 
--  Activation des sondes de supervision
+-  Configuration des sondes de supervision Zabbix
 
 -  Installation des sondes APM (édition XXL)
 
-Installation des sondes APM (en option sauf abonnement XXL)
------------------------
-
-Installation de l'agent PHP (monitoring applicatif)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-::
-
-        # rpm -Uvh http://yum.newrelic.com/pub/newrelic/el5/x86_64/newrelic-repo-5-3.noarch.rpm
-        # yum install newrelic-php5
-        # newrelic-install
-        # yum update newrelic-php5
-        # vi /etc/php.d/newrelic.ini 
-        
-              newrelic.appname = "CUSTOMER-GoFAST v3 (PHP)"
-              newrelic.daemon.port = "@newrelic-daemon"
-
-        # killall newrelic-daemon
-        # service php-fpm restart
-
-Dans les logs  ``tail -f /var/log/newrelic/php_agent.log``  
-::
-    2017-10-08 11:08:32.184 +0200 (30630 30630) info: New Relic 7.5.0.199 ("vaughan" - "00258123e757") [daemon='@newrelic-daemon'           php='5.6.31' zts=no sapi='fpm-fcgi'  pid=30630 ppid=1 uid=0 euid=0 gid=0 egid=0 backtrace=yes startup=agent os='Linux' rel='3.10.0-     693.2.2.el7.x86_64' mach='x86_64' ver='#1 SMP Tue Sep 12 22' node='BSGOFASTPROD02.botanic.com']
-    2017-10-08 11:08:32.185 +0200 (30630 30630) info: spawned daemon child pid=30631
-
-Installation de l'agent JAVA (monitoring applicatif tomcat - alfresco - solr)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Procédure de mise en place :
-https://docs.newrelic.com/docs/agents/java-agent/installation/java-agent-manual-installation#h2-platform
 
 Vérifications post-installation CEO-Vision
 ------------------------------------------
-
-Configuration initiale du réseau
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Par défaut le fichier ``/etc/sysconfig/network-scripts/ifcfg-eth0``
-contient les lignes suivantes: ::
-
-        DEVICE="eth0"
-        HWADDR= ADRESSE MAC
-        NM_CONTROLLED="yes"
-        ONBOOT="no"
-
-Vérifier que les lignes suivantes sont présentes et correctement
-remplies ::
-
-        DEVICE="eth0"
-        HWADDR= ADRESSE MAC
-        NM_CONTROLLED="no"
-        ONBOOT="yes"
-        BOOTPROTO="static"
-        IPADDR= adresse IP choisie
-        NETMASK=255.255.255.0
-
-::
-
-    # cat /etc/sysconfig/network
-
-::
-
-    NETWORKING=yes
-    HOSTNAME=gofast.MASOCIETE.COM|NET|FR
-
-::
-
-   # cat/etc/resolv.conf
-
-::
-
-    nameserver 8.8.8.8
-    nameserver 8.8.4.4
-
-Redémarrer le réseau. ::
-
-    # /etc/init.d/network restart
-
-Vérification des ports ouverts
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-D'une machine autre que le serveur GoFAST, effectuer un scan des ports: ::
-
-    # nmap 80.245.17.76
-
-    Starting Nmap 4.11( http://www.insecure.org/nmap/ ) at 2012-08-06 21:03 CEST
-    Interesting ports on 80.245.17.76:
-    Not shown: 1674 filtered ports
-    PORT 		STATE 	SERVICE
-    22/tcp 		open 	ssh
-    443/tcp 	open 	https
-    993/tcp 	open 	imaps
-
-Vérification du fonctionnement avec proxy
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Si l'entreprise dispose d'un proxy pour les connexions vers internet, le
-paramétrage suivant doit être réalisé ::
-
-    $ sudo vi ~/.bashrc
-    export http_proxy="http://proxy.com:8000"
-    export no_proxy="127.0.0.1, localhost"
 
 Vérification basique des performances
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
