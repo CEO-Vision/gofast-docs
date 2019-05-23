@@ -3,35 +3,37 @@
 # This file is distributed under the same license as the gofast-docs
 # package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
-#
-#, fuzzy
+# Christopher Potter <cpotter@ceo-vision.com>, 2019.
 msgid ""
 msgstr ""
 "Project-Id-Version: gofast-docs latest\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-23 11:33+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2019-05-23 14:11+0000\n"
+"Last-Translator: Christopher Potter <cpotter@ceo-vision.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: en\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.6.1\n"
 "Generated-By: Babel 2.4.0\n"
 
 # 2bf402f33db94b0d93df56225cbe6097
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:3
 msgid "GoFAST :  Pré-requis et installation Serveur"
-msgstr ""
+msgstr "GoFAST : Prerequisites and Server installation"
 
 # ee0a07dbb26e4412b5fbb0d09c3d86c0
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:9
 msgid "Poste Client"
-msgstr ""
+msgstr "User computer"
 
 # fcd2123268ce44f6b285c7e49f879971
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:12
 msgid "Pré-requis"
-msgstr ""
+msgstr "Prerequisites"
 
 # 32fdb1689a62489a86acfeb2c38fe690
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:14
@@ -44,7 +46,7 @@ msgstr ""
 # bd20683117af45b9a86aea1860a9c500
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:17
 msgid "Composants et configurations optionnels"
-msgstr ""
+msgstr "Optional applications and configurations"
 
 # d4c9212fa0214d3c9123c4972e7574f4
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:19
@@ -52,7 +54,7 @@ msgid ""
 "Montage \"Lecteur Réseau\" (voir http://gofast-"
 "docs.readthedocs.io/fr/latest/docs-gofast-users/doc-gofast-guide-"
 "utilisateurs.html#ajouter-un-ou-plusiers-documents-par-le-lecteur-reseau)"
-msgstr ""
+msgstr "Add \"Network drive\""
 
 # 16069bf200be493e9af3f8ccfde51c9a
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:20
@@ -60,6 +62,8 @@ msgid ""
 "ITHitDocumentOpener (pour l'édition en ligne de contenus non-"
 "Office/LibreOffice)"
 msgstr ""
+"ITHitDocumentOpener (to do online edition of non-Office contents ie PDF or "
+"LibreOffice documents)"
 
 # 9209abb586734087980568316dfcc03e
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:21
@@ -67,122 +71,122 @@ msgid ""
 "Synchronisation hors-ligne CMISSync (voir http://gofast-"
 "docs.readthedocs.io/fr/latest/docs-gofast-users/doc-gofast-utilisation-"
 "avancee.html#installation-cmissync)"
-msgstr ""
+msgstr "CMISSync Offline synchronisation"
 
 # 6afca181095a4711a8dd22adb6823b89
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:24
 msgid "Pré-requis et installation Serveur"
-msgstr ""
+msgstr "Prerequisites and server installation"
 
 # 11eef514cd5d450da417b46e76d22431
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:27
 msgid "Architecture"
-msgstr ""
+msgstr "Architecture"
 
 # 489105d3231048e69a750ec171f8ebad
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:37
 msgid "GoFAST3"
-msgstr ""
+msgstr "GoFAST3"
 
 # ca4ae8072fd24bf4b8ef630eae6ea73d
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:39
 msgid "OS"
-msgstr ""
+msgstr "OS"
 
 # 365cc7621e944e049d7472ef52b22ef2
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:39
 msgid "CentOS 7 64bits"
-msgstr ""
+msgstr "CentOS 7 64bits"
 
 # 613accddaf404d2db2cc4641267e89f3
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:41
 msgid "CMS"
-msgstr ""
+msgstr "CMS"
 
 # 143ef24d27814334b27c05d90d6344e3
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:41
 msgid "Drupal 7"
-msgstr ""
+msgstr "Drupal 7"
 
 # 91c09e707182441688b2ae2ab8c10987
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:43
 msgid "Serveur Web & Reverse Proxy"
-msgstr ""
+msgstr "Web Server & Reverse Proxy"
 
 # 0d089ef897a34ef48cb17116424ccfb2
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:43
 msgid "Apache 2.4 (php-fpm)"
-msgstr ""
+msgstr "Apache 2.4 (php-fpm)"
 
 # 1ad7aff6cd9b44d8a90505f30ae8ae86
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:45
 msgid "Base de données"
-msgstr ""
+msgstr "Database"
 
 # dcf25d091d734b08a70c2fc4c5125b56
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:45
 msgid "MySQL 5.7"
-msgstr ""
+msgstr "MySQL 5.7"
 
 # dd7cb677f9214dddaa3306c0f2866017
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:47
 msgid "Annuaire"
-msgstr ""
+msgstr "Directory"
 
 # 3b4bee9a7ebb44c593d39d2cab31f721
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:47
 msgid "OpenLDAP 2.4"
-msgstr ""
+msgstr "OpenLDAP 2.4"
 
 # 916160ca4842457abd97a46d20d49099
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:49
 msgid "GED"
-msgstr ""
+msgstr "DMS"
 
 # 956ff4c8cbc048219a4f685ad1dccdd0
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:49
 msgid "Alfresco 5.2 Community"
-msgstr ""
+msgstr "Alfresco 5.2 Community"
 
 # 5068fdf533a14a6fbb97e720cc5672d2
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:51
 msgid "Recherche"
-msgstr ""
+msgstr "Search"
 
 # 4f1f71afaa094e1c9a5f72b76a64bc0a
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:51
 msgid "Apache Solr 5"
-msgstr ""
+msgstr "Apache Solr 5"
 
 # 93fbd23e02a14de78e76823c4b966295
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:53
 msgid "Serveur API"
-msgstr ""
+msgstr "API server"
 
 # 2d7b62f29f4b469cb105fce5dd64b1f6
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:53
 msgid "Apache Tomcat 7"
-msgstr ""
+msgstr "Apache Tomcat 7"
 
 # d1f78c605cb64fb19e852bb6925c4715
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:55
 msgid "Workflow (GoFAST 3.6+)"
-msgstr ""
+msgstr "Workflow (GoFAST 3.6+)"
 
 # 8671fc1cf1324e2a8760d7dc55e20f1b
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:55
 msgid "Bonitasoft Community 7"
-msgstr ""
+msgstr "Bonitasoft Community 7"
 
 # ed4f6b91cc0e445abe7bef3d1d9747b3
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:57
 msgid "Workflow (<GoFAST 3.6+)"
-msgstr ""
+msgstr "Workflow (<GoFAST 3.6+)"
 
 # a33d2296722b4266804bc361ba6de184
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:57
 msgid "Bonitasoft Community 6"
-msgstr ""
+msgstr "Bonitasoft Community 6"
 
 # 05bac085d96d4f27b7ed2690b88e9b04
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:67
@@ -1322,4 +1326,3 @@ msgstr ""
 #~ " les connexions vers internet, le "
 #~ "paramétrage suivant doit être réalisé ::"
 #~ msgstr ""
-
