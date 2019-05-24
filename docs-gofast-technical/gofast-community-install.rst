@@ -78,6 +78,7 @@ Pour la 2ème option vous devez fournir :
 Step 3 : Configuration Serveur SMTP  
 `````````````
 Cette 3ème étape permet de configurer le serveur SMTP utilisé par GoFAST pour envoyer des emails. Les champs nécessaires sont:
+
    1. **SMTP Server** :  
    2. **Username** : 
    3. **Password** : 
@@ -87,7 +88,6 @@ Cette 3ème étape permet de configurer le serveur SMTP utilisé par GoFAST pour
    
 Step 4 : Creation de l'utilisateur administrateur
 `````````````
-This step will define the 'administrator' account who will have access to several configurations once the GoFAST instance is started
 Cette étape définit le compte administrateur qui a accès à plusieurs configurations supplémentaires une fois l'instance GoFAST démarrée. Vous devez choisir l'identifiant, le mot de passe et l'adresse email de ce compte administrateur.
 
 .. WARNING:: Il n'est pas possible de choisier 'admin' qui est un compte réservé
