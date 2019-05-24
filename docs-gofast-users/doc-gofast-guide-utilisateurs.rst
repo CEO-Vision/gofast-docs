@@ -2395,7 +2395,7 @@ Actions possible depuis le panier documentaire
 **Gérer en masse les documents du panier :**
    - Gérer la taxonomie (catégorie, étiquettes, état, langue)
    - Gérer les emplacements/visibilité des documents
-   - Gérer les publications (créer/mettre à jour les publications des documents)
+   - Créer des publications à partir des documents de travail
 
 .. figure:: media-guide/Ecran-GoFAST_Panier-Documentaire_actions-depuis-panier-gestion-en-masse.png	
    :alt:
@@ -2782,7 +2782,7 @@ Ces informations serviront ensuie dans les filtres de la recherche automatique p
 .. figure:: media-guide/FBrowser-08.png
    :alt:
 
-Gérer en masse les Publications de documents (en v 3.6)
+Créer en masse les Publications de documents (en v 3.6)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Il est possible de générer des publications depuis une sélection de document de travail pour partager dans d'autres Espaces Collaboratifs des versions finies/validées, sans partager tout l'historique des versions et commentaires des documents de travail. Les publications sont ainsi largement partagées et les documents de travail restent accessibles uniquement dans les Espaces d'origine. 
 
