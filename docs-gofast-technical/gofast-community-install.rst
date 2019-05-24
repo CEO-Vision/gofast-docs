@@ -50,7 +50,7 @@ Lorsque vous vous rendez sur l'adresse IP , une page de configuration fait son a
 
 Une fois ces 4 étapes effectuées, une page apparait avec un récapitulatif. Si tout est correct, validez la configuration.
 
-Step 1 : Configuration du nom de domaine
+Etape 1 : Configuration du nom de domaine
 `````````````
 Sur cet écran vous configurez chaque partie du FQDN de GoFAST, ex. ``gofast.ceo-vision.com`` :
 
@@ -58,7 +58,7 @@ Sur cet écran vous configurez chaque partie du FQDN de GoFAST, ex. ``gofast.ceo
    2. **Nouveau domaine** : Le domaine habituel de votre organisation ex. ``ceo-vision`` 
    3. **Extension** : Ceci est le TLD, la dernière partie de l'URL ex. ``com``
 
-Step 2 : Configuration du Certificat SSL  
+Etape 2 : Configuration du Certificat SSL  
 `````````````
 2 possibilités à ce stade, utiliser vos certificats (recommandé) ou en créer des auto-signés.
 
@@ -76,7 +76,7 @@ Pour la 2ème option vous devez fournir :
    7. **E-mail address** 
 .. caution:: Si vous avez généré un certificat SSL auto-signé, il vous faudra ouvrir une autre page avec la meme adresse IP pour de nouveau ajouter l'exception au navigateur
 
-Step 3 : Configuration Serveur SMTP  
+Etape 3 : Configuration Serveur SMTP  
 `````````````
 Cette 3ème étape permet de configurer le serveur SMTP utilisé par GoFAST pour envoyer des emails. Les champs nécessaires sont:
 
@@ -87,13 +87,13 @@ Cette 3ème étape permet de configurer le serveur SMTP utilisé par GoFAST pour
    5. **SMTP Port** : 
    6. **Recipient address** : 
    
-Step 4 : Creation de l'utilisateur administrateur
+Etape 4 : Creation de l'utilisateur administrateur
 `````````````
 Cette étape définit le compte administrateur qui a accès à plusieurs configurations supplémentaires une fois l'instance GoFAST démarrée. Vous devez choisir l'identifiant, le mot de passe et l'adresse email de ce compte administrateur.
 
 .. WARNING:: Il n'est pas possible de choisier 'admin' qui est un compte réservé
 
-Step 5 : Confirmation de la configuration 
+Etape 5 : Confirmation de la configuration 
 `````````````
 Vérifiez attentivement tous les champs et validez.
 
