@@ -53,6 +53,7 @@ Une fois ces 4 étapes effectuées, une page apparait avec un récapitulatif. Si
 Step 1 : Configuration du nom de domaine
 `````````````
 Sur cet écran vous configurez chaque partie du FQDN de GoFAST, ex. ``gofast.ceo-vision.com`` :
+
    1. **Nouveau sous-domaine** : C'est le sous-domaine GoFAST, ex. ``gofast``
    2. **Nouveau domaine** : Le domaine habituel de votre organisation ex. ``ceo-vision`` 
    3. **Extension** : Ceci est le TLD, la dernière partie de l'URL ex. ``com``
