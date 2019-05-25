@@ -211,30 +211,6 @@ pourrez également accéder à vos abonnements, votre panier ou vous déconnecte
 .. figure:: media-guide/votre-profil-1.png
    :alt: 
 
-Les 5 cases noires dans le coin gauche inférieur sont surtout **liées
-aux fichiers**
-
-.. figure:: media-guide/image008.png
-   :alt: 
-
-.. figure:: media-guide/image009.png
-   :alt: 
-
--  La 1\ :sup:`ere`, le « V », permet de sélectionner tous vos dossiers ;
-
--  La 2\ :sup:`ème`, le cercle avec les flèches, permet d’actualiser ;
-
--  La 3\ :sup:`ème`, la flèche ve s le haut, permet de charger un fichier ;
-
--  La 4\ :sup:`ème`, un dossier avec un « + », permet de créer un nouveau
-   dossier ;
-
--  La 5\ :sup:`ème`, un icône noir et blanc », permet de coller un fichier.
-
-.. NOTE::
-   Ces options peuvent varier dès que vous sélectionnez un fichier
-   (couper, coller, suprimer, ..)
-
 Dans l’ensemble, le principe et l’utilisation du fil d’activité reste
 pareil que dans la GoFAST 2, c’est-à-dire qu’il vous donne une **vue
 d’ensemble** sur tout ce qui s’est passé dans vos espaces collaboratifs
@@ -267,7 +243,7 @@ archivé, validé, …).
 Vous pouvez également choisir de masquer ou afficher les **« Nouvelles »** =
 ce que vous ou les autres écrivent dans **« Partager une
 nouvelle »** et qui se retrouvent également dans le fil d’activité. Pour
-ce, appuyez sur « Display blog messages » dans les « Filtrer le fil
+ce, appuyez sur « Afficher les nouvelles » dans les « Filtrer le fil
 d’activité »
 
 .. figure:: media-guide/afficher-les-nouvelles.png
