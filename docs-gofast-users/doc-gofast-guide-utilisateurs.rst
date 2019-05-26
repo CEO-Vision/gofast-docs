@@ -1378,7 +1378,7 @@ majeure ».
    :alt: 
 
 Aller chercher la nouvelle version du document sur votre ordinateur via
-le « Browse », terminez avec « Open ». Le nom du fichier apparaîtra sur
+le bouton « Browse », terminez avec « Open ». Le nom du fichier apparaîtra sur
 la ligne grise.
 
 Choisissez de la rendre version majeure (1.36 => 2.0) en cochant la case
