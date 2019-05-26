@@ -1721,7 +1721,7 @@ le lien est prêt à être copié ailleurs. Collez le où vous voulez.
    :alt: 
 
 Vous pouvez retrouver le permalien également dans les raccourcis à
-partir du fil d’activité. Appuyez sur la petite rue sous le nom du
+partir du fil d’activité. Appuyez sur l'icône d'actions contextuelles sous le nom du
 fichier pour ouvrir la liste des fonctionnalités, puis appuyez sur
 « Permalien » pour copier le lien.
 
