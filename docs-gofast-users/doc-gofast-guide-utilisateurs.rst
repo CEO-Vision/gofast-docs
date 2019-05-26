@@ -1445,8 +1445,7 @@ entre elles** pour ainsi passer d’une version de document à sa
 traduction en un clic .
 
 Dans les actions contextuelles, prenez l’option « Gérer les
-traductions ». Il se peut qu’elle ne se voit pas tout de suite et qu’il
-faille aller dans « voir plus d’options »
+traductions » dans « voir plus d’options »
 
 .. figure:: media-guide/image167.png
    :alt: 
