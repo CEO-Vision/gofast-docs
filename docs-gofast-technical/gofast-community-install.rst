@@ -5,7 +5,7 @@ GoFAST Community :  Installation
 
 .. note:: En cas de problème vous pouvez poser vos questions sur les forums : https://community.ceo-vision.com
 
-.. caution:: Après l'installation, ne pas oublier de vérifier qu'il existe des mises à jour dans le menu (votre environnement doit avoir accès à internet) 
+.. caution:: Après l'installation, ne pas oublier de vérifier qu'il existe des mises à jour dans le menu (votre environnement doit avoir accès à internet) ou directement https://votre_adresse_ip/admin/config/gofast/update
 
 
 Instructions (pour AWS)
