@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: gofast-docs latest\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-21 13:53+0200\n"
-"PO-Revision-Date: 2019-05-27 13:58+0000\n"
+"PO-Revision-Date: 2019-05-27 15:27+0000\n"
 "Last-Translator: svetlosemina <vetlosemina@yandex.ru>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: en\n"
@@ -3949,8 +3949,8 @@ msgid ""
 "documents."
 msgstr ""
 "You can put the **document language** in the metadatas, so there is no need "
-"to specify the language in the document name. It also gives an extra filter "
-"level in the document search."
+"to specify the language in the document name. It also gives an extra "
+"**filter** level in the document search."
 
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:2315
 msgid ""
@@ -4031,7 +4031,7 @@ msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:2365
 msgid "Panier Documentaire"
-msgstr "Documentary Basket"
+msgstr "Document Basket"
 
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:2366
 msgid ""
@@ -4044,8 +4044,8 @@ msgstr ""
 "The document basket makes possible to gather several documents without "
 "modifying their locations to perform various functionalities on the entire "
 "basket. The basket is accessible from the main menu, icon \"3 bars\" / \""
-"burger\" then click on \"Document basket\" (from v3.6, otherwise it is in "
-"the menu of the user profile)."
+"contextual action menu\" then click on \"Document basket\" (from v3.6, "
+"otherwise it is in the menu of the user profile)."
 
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:2373
 msgid "Ajouter/retirer des documents dans son panier documentaire"
@@ -4060,8 +4060,8 @@ msgid ""
 "Via le menu \"burger\" (actions contextuelles sur un document) sur la "
 "page du document, le fil d’activité, résultat de recherche…"
 msgstr ""
-"Through the menu \"burger\" (contextual actions on a document) on the page "
-"of the document, the thread of activity, result of research …"
+"Through the \"contextual action menu\" on the page of the document, the "
+"thread of activity, result of research …"
 
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:2387
 msgid "**Il est possible de retirer les documents de son panier documentaire :**"
@@ -4079,25 +4079,25 @@ msgstr "All documents at once, by clicking on \"remove all documents\""
 
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:2394
 msgid "Actions possible depuis le panier documentaire"
-msgstr ""
+msgstr "Possible actions from the document basket"
 
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:2398
 msgid "**Gérer en masse les documents du panier :**"
-msgstr ""
+msgstr "**Mass management of the documents in the basket:**"
 
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:2396
 msgid "Gérer la taxonomie (catégorie, étiquettes, état, langue)"
-msgstr ""
+msgstr "Management of taxonomy (category, tagss, status, language)"
 
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:2397
 msgid "Gérer les emplacements/visibilité des documents"
-msgstr ""
+msgstr "Management of locations / visibility of documents"
 
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:2398
 msgid ""
 "Gérer les publications (créer/mettre à jour les publications des "
 "documents)"
-msgstr ""
+msgstr "Management of publications (creation/update of document publications)"
 
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:2403
 msgid ""
@@ -4107,6 +4107,11 @@ msgid ""
 "tous les documents en une fois, que l’on peut ensuite retirer "
 "unitairement dans le formulaire du processus."
 msgstr ""
+"**Start a task process from the shopping cart (Enterprise only): ** The "
+"documents in the shopping carts are proposed when a new workflow starts, "
+"through the main menu. It allows all process documents to be associated with "
+"the process at one time, which then can be retrieved individually in the "
+"process form."
 
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:2409
 msgid ""
@@ -4115,20 +4120,25 @@ msgid ""
 "docs.readthedocs.io/fr/latest/docs-gofast-users/doc-gofast-guide-"
 "utilisateurs.html#workflows-processus-de-taches-enterprise-only"
 msgstr ""
+"To learn how to start a new task process, please refer to the documentation: "
+"https://gofast-docs.readthedocs.io/en/latest/docs-gofast-users/doc-gofast-"
+"guide-utilisateurs.html# workflow-process-of-stain-enterprise-only"
 
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:2412
 msgid "Edition de fichiers et Suite Office Collaborative"
-msgstr ""
+msgstr "File Editing and Office Collaborative Suite"
 
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:2415
 msgid "Editer/modifier en ligne le document"
-msgstr ""
+msgstr "Editing / editing of the document online"
 
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:2417
 msgid ""
 "Cette fonction permet **d’ouvrir un fichier pour édition/modification** "
 "sans avoir à le sauvegarder au préalable en local."
 msgstr ""
+"This function allows you **to open a file for editing / modification** "
+"without first saving it locally."
 
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:2420
 msgid ""
@@ -4137,6 +4147,9 @@ msgid ""
 "sur Firefox, vous avez la possibilité de choisir à chaque ouverture "
 "l’application."
 msgstr ""
+"The \"Office\" type document will be opened with the application defined by "
+"default on your computer (for example: Office, LibreOffice, WPS). Note that "
+"on Firefox, each time you open the application you have the option to choose."
 
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:2425
 msgid ""
@@ -4145,6 +4158,9 @@ msgid ""
 "PDF dans Adobe ou Foxit, le signer et directement le sauvegarder sur "
 "GoFAST."
 msgstr ""
+"For content types such as PDF, Images, a small application must be first "
+"installed on the computer. Then you can open a PDF in Adobe or Foxit, sign "
+"it and directly save it to GoFAST."
 
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:2430
 msgid ""
@@ -4154,12 +4170,18 @@ msgid ""
 "enregistrées sur la GoFAST et donc visibles à tous les membres de ce "
 "groupe. C’est ce qu’on appelle la synchronisation."
 msgstr ""
+"If you are a standard user / contributor in your groups, you can edit "
+"documents, \"edit online\", so changes which were made in the document will "
+"be saved directly to GoFAST and thus visible to all members of this group. . "
+"This is called synchronization."
 
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:2436
 msgid ""
 "Allez dans le menu des fonctionnalités/actions contextuelles de la "
 "prévisualisation et cliquez sur « **Editer en ligne** »…"
 msgstr ""
+"Go to the menu of features / contextual actions of the preview and click on "
+"\"**Edit online**\" …"
 
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:2442
 msgid ""
@@ -4167,12 +4189,15 @@ msgid ""
 "Ainsi le système pourra montrer qui a fait les derniers changements (cf :"
 " historique des versions et du document dans les métadonnées)."
 msgstr ""
+"The system asks for your password to identify you. Thus the system will be "
+"able to show who made the last changes (cf: history of the versions and the "
+"document in the metadatas)."
 
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:2446
 msgid ""
 "Votre identifiant et mot de passe sont les mêmes que pour vous loguer à "
 "GoFAST."
-msgstr ""
+msgstr "Your username and password are the same as for login on GoFAST."
 
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:2452
 msgid ""
@@ -4180,6 +4205,9 @@ msgid ""
 "n’oubliez pas de sauver (disquette) avant de fermer le document pour être"
 " certain que le système a enregistré vos modifications."
 msgstr ""
+"The document opens in Office and you can work there normally, do not forget "
+"to save (floppy disk) before closing the document to make sure the system "
+"has saved your changes."
 
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:2459
 msgid ""
@@ -4187,18 +4215,24 @@ msgid ""
 "la prévisualisation du document apparaisse avec les modifications qui "
 "viennent d’être faites."
 msgstr ""
+"Back on the GoFAST interface, refresh the page so that the preview of the "
+"document appears with the changes that have just been made."
 
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:2466
 msgid ""
 "Vous pouvez voir qui a fait une action sur ce document dans l’historique,"
 " dans l’encadrement des métadonnées, tout en bas."
 msgstr ""
+"You can see who did an action on this document in the history, in the frame "
+"of the metadatas, down below."
 
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:2469
 msgid ""
 "Vous pouvez également voir les versions précédentes, en cliquant sur "
 "« Show versions list » au niveau « Révisions dans les métadonnées."
 msgstr ""
+"You can also see previous versions, by clicking on \"Show versions list\" at "
+"\"Revisions in metadatas\" level."
 
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:2476
 msgid ""
@@ -4207,6 +4241,9 @@ msgid ""
 "message lors de sa prévisualisation, au-dessus des métadonnées « Vous "
 "êtes en lecture-seule sur ce document »"
 msgstr ""
+"When you are editing a document (which you have opened online), other people "
+"who would like to open it will get this message while previewing it, above "
+"the metadatas \"You are in read-only document\""
 
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:2481
 msgid ""
@@ -4215,10 +4252,13 @@ msgid ""
 "qui est en train de travailler sur le document. En mettant sa souris sur "
 "l’icône, vous pouvez voir le nom de l’autre utilisateur."
 msgstr ""
+"And they will see a small red lock pad in the preview feature bar, with the "
+"photo of the user who is working on the document. By hovering over the icon, "
+"you can see the name of the other user."
 
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:2495
 msgid "Editer avec la Suite Collaborative OnlyOffice (Enterprise only)"
-msgstr ""
+msgstr "Editing with Collaborative Suite OnlyOffice (Enterprise only)"
 
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:2497
 msgid ""
@@ -4227,6 +4267,9 @@ msgid ""
 "simultané**. Vous pouvez ainsi travailler à plusieurs, en même temps, sur"
 " un même document."
 msgstr ""
+"GoFAST 3 brings a very innovative dimension and allows you to edit Office "
+"documents in a simple browser with other people simultaneously. You can work "
+"with several people at the same time on the same document."
 
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:2503
 msgid ""
@@ -4234,22 +4277,28 @@ msgid ""
 "et vous pouvez ensuite directement ouvrir le fichier avec Office sans "
 "avoir à changer de format."
 msgstr ""
+"Unlike GoogleDocs / Drive, you keep your Office formats and then can open "
+"the file directly with Office and you even do not have to change the format."
 
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:2508
 msgid ""
 "De plus OnlyOffice est dans votre datacenter limitant les besoins de "
 "bande passante et garantissant une confidentialité totale."
 msgstr ""
+"Plus OnlyOffice is in your datacenter limiting bandwidth requirements and "
+"ensuring total privacy."
 
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:2512
 msgid "Une connexion réseau d'assez bonne qualité est nécessaire"
-msgstr ""
+msgstr "A good quality network connection is needed"
 
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:2515
 msgid ""
 "Pour cela lancer la co-édition, allez dans les actions contextuelles de "
 "la prévisualisation et appuyez sur l’option «  Editer avec OnlyOfice »"
 msgstr ""
+"To start co-editing, go to the contextual actions of the preview and press "
+"the option \"Edit with OnlyOfice\""
 
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:2522
 msgid ""
@@ -4261,10 +4310,16 @@ msgid ""
 "Matières, celles-ci devant être généré une fois le document terminé sous "
 "votre éditeur de texte."
 msgstr ""
+"If you want to co-edit the old Microsoft formats (.doc, .xls, .ppt) or "
+"OpenDocument formats (.odt, ...) they will be converted into the equivalent "
+"formats .docx, .xlsx, .pptx). If you want a conversion as accurate as "
+"possible, do this conversion under Office or LibreOffice Similarly, the "
+"current version does not generate the Table of Contents, they must be "
+"generated once the finished document in your text editor."
 
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:2527
 msgid "Ce message apparaît, cliquez sur « Continuer »"
-msgstr ""
+msgstr "This message appears, click \"Continue\""
 
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:2532
 msgid ""
@@ -4272,6 +4327,8 @@ msgid ""
 "modification. On peut noter qu'une personne est entrain d'éditer en même "
 "temps le document."
 msgstr ""
+"Here is an example of a Word document opened with OnlyOffice for editing. It "
+"can be noted that a person is editing the document at the same time."
 
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:2540
 msgid ""
