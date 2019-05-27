@@ -4,23 +4,25 @@
 # package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: gofast-docs latest\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-21 13:53+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2019-05-27 07:36+0000\n"
+"Last-Translator: Christopher Potter <cpotter@ceo-vision.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: en\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.6.1\n"
 "Generated-By: Babel 2.4.0\n"
 
 #: ../../docs-gofast-technical/gofast-community-install.rst:3
 msgid "GoFAST Community :  Installation"
-msgstr ""
+msgstr "GoFAST Community : Installation"
 
 #: ../../docs-gofast-technical/gofast-community-install.rst:4
 msgid ""
@@ -33,34 +35,41 @@ msgid ""
 "En cas de problème vous pouvez poser vos questions sur les forums : "
 "https://community.ceo-vision.com"
 msgstr ""
+"If you have problems, you can ask some help on our Community forums: "
+"https://community.ceo-vision.com"
 
 #: ../../docs-gofast-technical/gofast-community-install.rst:8
 msgid ""
 "Après l'installation, ne pas oublier de vérifier qu'il existe des mises à"
 " jour dans le menu (votre environnement doit avoir accès à internet)"
 msgstr ""
+"After installation, don’t forget to check if updates are available in the "
+"menu (your environment must have internet access) or directly https://"
+"your_ip_address/admin/config/gofast/update"
 
 #: ../../docs-gofast-technical/gofast-community-install.rst:12
 msgid "Instructions (pour AWS)"
-msgstr ""
+msgstr "Instructions (for AWS)"
 
 #: ../../docs-gofast-technical/gofast-community-install.rst:14
 msgid "https://aws.amazon.com/marketplace/pp/B07NPZHPG3"
-msgstr ""
+msgstr "https://aws.amazon.com/marketplace/pp/B07NPZHPG3"
 
 #: ../../docs-gofast-technical/gofast-community-install.rst:16
 msgid "Instancier GoFAST et aller au paragraphe `La Configuration`_"
-msgstr ""
+msgstr "Instantiate GoFAST then go to the `Configuration`_ section"
 
 #: ../../docs-gofast-technical/gofast-community-install.rst:18
 msgid ""
 "Ne pas oublier de choisir ``default`` pour \"Security Group\" pour "
 "permettre le traffic entrant 22 (ssh) et 443 (https)"
 msgstr ""
+"Don't forget to choose ``default`` \"Security Group\" to allow 22 (ssh) and "
+"443 (https) inbound trafic"
 
 #: ../../docs-gofast-technical/gofast-community-install.rst:20
 msgid "Instructions (par image)"
-msgstr ""
+msgstr "Instructions (from image)"
 
 #: ../../docs-gofast-technical/gofast-community-install.rst:22
 msgid ""
@@ -68,10 +77,12 @@ msgid ""
 "vision.com/fr/content/gofast-community-ged-plateforme-collaborative-"
 "opensource (.ova, ...)"
 msgstr ""
+"–Step 1: Download the image https://www.ceo-vision.com/en/content/gofast-"
+"community-ged-plateforme-collaborative-opensource (.ova, ...)"
 
 #: ../../docs-gofast-technical/gofast-community-install.rst:24
 msgid "–Étape 2: Instancier l'image dans votre logiciel de virtualisation"
-msgstr ""
+msgstr "–Step 2: Start the instance on your VirtualMachine (VMWare, ...)"
 
 #: ../../docs-gofast-technical/gofast-community-install.rst:26
 msgid ""
@@ -81,6 +92,10 @@ msgid ""
 " au premier accès et ensuite à la fin de la configuration. Un simple "
 "rafraichissement de la page suffit."
 msgstr ""
+"GoFAST is an \"Enterprise Grade\" platform and needs a server (mini "
+"2vcpu,4GB RAM,SSD if possible). The use of a Desktop PC with VirtualBox is "
+"not recommanded and it is possible to get timeouts at the first access and "
+"at the end of the configuration. A simple page refresh should solve this."
 
 #: ../../docs-gofast-technical/gofast-community-install.rst:28
 msgid ""
@@ -90,18 +105,22 @@ msgid ""
 "docs-prerequis-installation-serveur.html#configuration-du-reseau-par-"
 "lexploitant"
 msgstr ""
+"–Step 3: Login in the VM and launch ``netui`` to configure the network (fix "
+"IP address, gateway, ...)"
 
 #: ../../docs-gofast-technical/gofast-community-install.rst:30
 msgid ""
 "Pour vous connecter en SSH à votre VM : Le login utilisateur est ``root``"
 " et le mot de passe ``@C0mmunity!`` (avec un ``0`` et non ``O``)"
 msgstr ""
+"To login in console mode to the VM :  ``login : root`` ``password : "
+"@C0mmunity!`` (with a 0 not O)"
 
 #: ../../docs-gofast-technical/gofast-community-install.rst:32
 msgid ""
 "–Étape 4: Se rendre sur ``https://votre_adresse_ip`` et faire la "
 "configuration de la plate-forme."
-msgstr ""
+msgstr "–Step 4: Enter ``https://your_ip_address`` and configure the platform."
 
 #: ../../docs-gofast-technical/gofast-community-install.rst:34
 msgid ""
@@ -183,4 +202,3 @@ msgstr ""
 #: ../../docs-gofast-technical/gofast-community-install.rst:67
 msgid "Vous êtes prêt pour démarrer !"
 msgstr ""
-
