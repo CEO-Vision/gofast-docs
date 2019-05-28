@@ -3,13 +3,13 @@
 # This file is distributed under the same license as the gofast-docs
 # package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
-#
+# svetlosemina <vetlosemina@yandex.ru>, 2019.
 msgid ""
 msgstr ""
 "Project-Id-Version: gofast-docs latest\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-27 16:15+0200\n"
-"PO-Revision-Date: 2019-05-28 12:44+0000\n"
+"PO-Revision-Date: 2019-05-28 13:16+0000\n"
 "Last-Translator: svetlosemina <vetlosemina@yandex.ru>\n"
 "Language-Team: en <LL@li.org>\n"
 "Language: en\n"
@@ -5166,7 +5166,7 @@ msgid ""
 "AND Technique AND Fonctionnalités)"
 msgstr ""
 "**AND**: inserted between the keywords, allows to indicate to the search "
-"engine that all keywords must be present (ex: Memory AND Technique AND "
+"engine that all keywords must be found (ex: Memory AND Technique AND "
 "Features)"
 
 # 5309f129f9e4481b834408e339477765
@@ -5177,6 +5177,9 @@ msgid ""
 "que parmi les termes saisis, certains doivent obligatoirement être "
 "présents dans le document recherché."
 msgstr ""
+"**+**: added before a keyword, makes it required (ex: Technical Memory + "
+"Features) to indicate to the search engine that among the terms entered, "
+"some must be found in the document you are looking for."
 
 # 3a1b6d0d74fe4707b70183d45a5fa9a3
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:2597
@@ -5187,6 +5190,10 @@ msgid ""
 "contiennent ses mots clefs s’ils ne sont pas exactement comme dans "
 "l’expression saisie."
 msgstr ""
+"**\"...\"**: applied to a sequence of words, allows you to search for an "
+"exact expression (ex: \"Technical Memory and GoFAST Features\") and thus to "
+"tell the search engine to exclude documents that contain its keywords if "
+"they are not exactly like in the entered expression."
 
 # 1f25452893194975bb78ae3c6049a8c0
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:2623
@@ -5196,11 +5203,15 @@ msgid ""
 "d’afficher les documents qui contiennent tous les termes qui ont pour "
 "racine le mot-clef sais."
 msgstr ""
+"*****: added at the end or at the beginning of a keyword, makes it possible "
+"to make it approximate (ex: Function *) and thus to indicate to the search "
+"engine to display the documents which contain all the terms which "
+"..............."
 
 # bceafe1e4e0a4bb8be7e09b604ea59ad
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:2604
 msgid "Consulter le résultat de Recherche"
-msgstr ""
+msgstr "Review of the search result"
 
 # 71b3e10a054d4390bf94d40a7b97fff3
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:2605
@@ -5209,13 +5220,15 @@ msgid ""
 "merci de consulter la partie : \"Le moteur de recherche restitue le "
 "résultat selon la pertinence\""
 msgstr ""
+"To find out how GoFAST outputs a search result, please review the part: \""
+"The search engine outputs the result according to relevance\""
 
 # db640a314cdf4210b00fc69840560dba
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:2608
 msgid ""
 "Pour chaque document affiché dans le résultat de recherche, vous pouvez "
 "consulter :"
-msgstr ""
+msgstr "For each displayed document in the search result, you can see:"
 
 # 3e133ea7203842f3ab7550945d8182eb
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:2609
@@ -5224,6 +5237,9 @@ msgid ""
 "image, vidéo…) ou autre contenu (forum, page Wiki, profil utilisateur, "
 "Espace Collaboratif…),"
 msgstr ""
+"The icon indicating the type of document (text file, spreadsheet, PDF, "
+"image, video ...) or other content (forum, Wiki page, user profile, "
+"Collaborative Space ...),"
 
 # bfc1e61942e84f708572091cfc56c423
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:2610
@@ -5231,6 +5247,8 @@ msgid ""
 "Le titre du fichier (un clic dessus permet d'aller sur la page du "
 "document),"
 msgstr ""
+"The title of the file (a click on it allows to go on the page of the "
+"document),"
 
 # bbe4c7c815524e4fbadcf16b61a1171d
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:2611
