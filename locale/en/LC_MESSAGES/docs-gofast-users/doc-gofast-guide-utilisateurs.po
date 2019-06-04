@@ -10,14 +10,15 @@ msgstr ""
 "Project-Id-Version: gofast-docs latest\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-04 14:31+0200\n"
-"PO-Revision-Date: 2019-06-04 07:45+0000\n"
+"PO-Revision-Date: 2019-06-07 17:31+0000\n"
 "Last-Translator: svetlosemina <vetlosemina@yandex.ru>\n"
-"Language: en\n"
 "Language-Team: en <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=n != 1\n"
+"Language: en\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.6.1\n"
 "Generated-By: Babel 2.4.0\n"
 
 # 83c2d5643ec74283bcd6ed73c707f71c
@@ -6609,8 +6610,8 @@ msgid ""
 "S’il y a des utilisateurs qui ont fait la demande de rejoindre ce groupe,"
 " on peut le voir sous ce titre « Utilisateurs en attente »"
 msgstr ""
-"If there are users who have made the request to join this group, we can "
-"see it under this heading \"Users in waiting\""
+"If there are users who have made the request to join this group, we can see "
+"it under this heading \"Users waiting for approval\""
 
 # a997e0b100c64bd89c1ce3e9436aa408
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3187
@@ -6754,6 +6755,9 @@ msgid ""
 " ; créez plutôt des répertoires qui resteront visibles à tous les membres"
 " du groupe-parent."
 msgstr ""
+"It is advisable not to create too many subgroups if there is no need to "
+"manage specific rights regarding the content of this group; create folders "
+"that will remain visible to all members of the parent group."
 
 # 44cbf6fb4a224bdda727abfc24fa5f7f
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3247
@@ -6764,6 +6768,11 @@ msgid ""
 "d’ici » ) à droite du nom du groupe ; cela vous amènera à l’arborescence "
 "plus détaillée de l’espace (avec ses sous-espaces) et son contenu."
 msgstr ""
+"If the subspaces / groups are not visible directly through the \"Spaces\" "
+"tab, another way to explore the sub-levels and their contents is to press "
+"the organisation logo (\"Browse from 'here') to the right of the group name; "
+"it will take you to the more detailed tree structure of space (with its "
+"subspaces) and its contents."
 
 # 9306915ce33f46e8ba988bae7a1414f6
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3261
@@ -6774,11 +6783,15 @@ msgid ""
 "documents de ce sous-groupes car la liste des membres du sous-groupe peut"
 " varier par rapport à celle des membres du groupe-parent."
 msgstr ""
+"Subgroup members will have access to documents / folders at a higher level ("
+"in the parent group), but parent group members will not necessarily have "
+"access to documents from this subgroup because the list of subgroup members "
+"may vary compared to that of  the parent group members."
 
 # cd86cb25fa314779879189c3f45911de
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3267
 msgid "**Exemple :**"
-msgstr ""
+msgstr "**Example:**"
 
 # fbd432f535ec49679cb8e002e439b6a0
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3269
@@ -6786,11 +6799,13 @@ msgid ""
 "Monsieur X est membre du *sous-groupe* « Support GoFAST », entouré en "
 "rouge ;"
 msgstr ""
+"Mr. X is a member of the \"Support GoFAST\" *subgroup*, surrounded in red;"
 
 # 6d9f675f9343471a8bc7b1308953ec4e
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3272
 msgid "Madame Y est membre du *sous-groupe* « test\\_group », entouré en noir ;"
 msgstr ""
+"Ms. Y is a member of the \"test_group\" *subgroup*, surrounded in black;"
 
 # c805cb076b584472986d24bf74cba780
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3275
@@ -6798,6 +6813,8 @@ msgid ""
 "Junior fait partie du *groupe-parent* ou groupe-racine « Groupes », "
 "entouré en jaune."
 msgstr ""
+"Junior is member of the parent group or root group \"Groups\", surrounded in "
+"yellow."
 
 # f14acc72b92644fea28a52c379649155
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3281
@@ -6815,11 +6832,21 @@ msgid ""
 "confidentialité et possibilité de membres différents d’un groupe à "
 "l’autre."
 msgstr ""
+"All of them see what happens in the group-root \"Groups\" (circled in yellow)"
+", that is to say, the specific folders and activities to this group-root BUT "
+"Mr. X and Mrs. Y do not see what happens in their own respective subgroup ("
+"surrounded in red or black) and therefore nobody sees what happens in each "
+"other's group. Mrs. Y (surrounded in black) does not see what happens at Mr. "
+"X (surrounded in red) and vice-versa. As for Junior (circled in yellow), he "
+"does not see what happens in the (sub) groups of Mrs. Y and Mr. X, unless he "
+"becomes a member of this / these subgroups too. => new groups and subgroups ="
+" higher level of confidentiality and opportunity of different members from "
+"one group to another."
 
 # 05eacd55c2774ec7b9a64a92fa15d18e
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3294
 msgid "**Autre manière d’expliquer, avec l’arborescence :**"
-msgstr ""
+msgstr "**Another way to explain, with the tree structure:**"
 
 # 4c5e23a6230c4f2b90fcb9fb182b0aa7
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3296
@@ -6829,6 +6856,10 @@ msgid ""
 "trouvent dans « \\_Groupes » et dans « \\_Support GoFAST » (nom précédé "
 "d’un underscore = espace/groupe)."
 msgstr ""
+"I am a member of the \"\\_Support GoFAST\" group which is a subgroup of the "
+"\"Groups\" space. So I have access to all folders that are in \" \\_Groups \""
+" and \" \\_Support GoFAST \" (name preceded by an underscore = space / "
+"group)."
 
 # 5a085eb0ab704601a83fea5ce5bbe14c
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3304
@@ -6836,13 +6867,15 @@ msgid ""
 "Par contre, je ne vois pas le sous-groupe « test\\_group » dans "
 "l’arborescence car je n’en suis pas membre."
 msgstr ""
+"However, I do not see the subgroup \"test\\_group\" in the tree structure "
+"because I'm not a member."
 
 # 276186122ced49c5b846f196c4484bc1
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3307
 msgid ""
 "Je sais juste qu’il existe parce qu’il est dans les espaces visibles à "
 "partir du menu."
-msgstr ""
+msgstr "I know that it exists because it's in the visible spaces from the menu."
 
 # 0a8e0fbb8e074bb7a18168354d9aa6a8
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3313
@@ -6850,6 +6883,8 @@ msgid ""
 "Et si je clique dessus à partir du menu, j’arriverai sur la page du "
 "groupe « Test\\_group » mais l’accès à son contenu me sera refusé."
 msgstr ""
+"And if I click it from the menu, I will arrive on the page of the group \""
+"Test\\_group\" but I will be refused access to its contents."
 
 # c2be2a3b9c7c4ef8b4a61ca6efa1e30b
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3316
@@ -6857,11 +6892,13 @@ msgid ""
 "Je devrai demander d’en devenir membre si je veux voir le contenu et y "
 "travailler."
 msgstr ""
+"I will have to ask to become a member if I want to see the content and work "
+"on it."
 
 # ffe16865103e437f9cf33bba57845676
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3323
 msgid "Modifier un groupe"
-msgstr ""
+msgstr "Edition of a group"
 
 # 7ef141c9e8b6472d9be574ddf06fed89
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3325
@@ -6871,6 +6908,9 @@ msgid ""
 "page d’accueil et son emplacement dans l’arborescence (par exemple, "
 "changer l’espace-parent)."
 msgstr ""
+"This feature allows you **to modify information about an already existing "
+"group**: you can change the name, description, homepage, and location in the "
+"tree structure (for example, change the parent space)."
 
 # cc18298ba472446aa17addcae91d7e09
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3330
@@ -6879,11 +6919,13 @@ msgid ""
 "horizontales), choisissez « Modifier » et changer les données. Terminez "
 "par « Enregistrer »."
 msgstr ""
+"Repeat the contextual actions of a group (the 3 horizontal bars), choose \""
+"Modify\" and change the data. Finish with \"Save\"."
 
 # 7783626e37924f8487d35a9b8614e520
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3341
 msgid "Archiver un groupe"
-msgstr ""
+msgstr "Archiving of a group"
 
 # 0449126d32844a2eb33cbc73e84e1825
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3343
@@ -6892,6 +6934,9 @@ msgid ""
 "de ne pas le supprimer totalement de la GoFAST. On peut archiver un "
 "groupe de travail qui n’est plus actif par exemple."
 msgstr ""
+"**Archiving of a group** allows you to keep track of its contents and "
+"therefore not delete it completely from GoFAST. We can archive a working "
+"group which is no longer active, for example."
 
 # f6be374f354246199d52fe017078f8bd
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3347
@@ -6899,6 +6944,8 @@ msgid ""
 "Pour archiver un groupe : allez dans les actions contextuelles du groupe "
 "(les 3 barres horizontales) et choisissez « Archivez cet espace »."
 msgstr ""
+"To archive a group: go to the contextual actions of the group (the 3 "
+"horizontal bars) and choose \"Archive this space\"."
 
 # a51cfc5304ef41ffb7b9d9747030154a
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3350
@@ -6906,6 +6953,8 @@ msgid ""
 "Une fenêtre s’ouvre vous demandant si vous êtes sûr de vouloir archiver "
 "cet espace, confirmez en appuyant sur « Archive »."
 msgstr ""
+"A window opens asking you if you are sure to archive this space, confirm by "
+"pressing \"Archive\"."
 
 # a0fd604bb51944c191ac35f164ea33c9
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3356
@@ -6914,11 +6963,14 @@ msgid ""
 "lors de la recherche, sauf si vous mettez l’option de recherche « Inclure"
 " les contenus archivés »."
 msgstr ""
+"The contents of this group will appear as archived and will no longer be "
+"visible while searching unless you put the search option \"Include archived "
+"content\"."
 
 # d786485968a4453a922fa682738435ac
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3364
 msgid "Supprimer un groupe"
-msgstr ""
+msgstr "Deletion of a group"
 
 # 4310de09d7434cdf9d9410965ec8a6db
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3366
@@ -6928,18 +6980,21 @@ msgid ""
 "Réfléchissez donc bien avant de vouloir supprimer un groupe, assurez-vous"
 " qu’il soit bien vide par exemple."
 msgstr ""
+"Deletion of a group means **deletion of all its contents** from GoFAST "
+"permanently! It will not be visible anywhere anymore. So think carefully "
+"before you want to delete a group, make sure it is empty for example."
 
 # 75f14fda62184dc98681071b6194f890
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3371
 msgid ""
 "Toujours dans les actions contextuelles, choisissez « Supprimer cet "
 "espace »"
-msgstr ""
+msgstr "Choose \"Delete this space\" in the contextual actions"
 
 # 5c8c7a6d57c8424994b800b6fe117b45
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3378
 msgid "S’abonner ou se désabonner à un groupe (voir mes abonnements)"
-msgstr ""
+msgstr "Subscribtion or unsubscribtion to a group (see my subscriptions)"
 
 # 71727b73ec514ce1913ff2dceb54781b
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3380
@@ -6948,6 +7003,9 @@ msgid ""
 "ce qu’il s’y passe, vous recevrez alors régulièrement une notification "
 "vous informant de telle ou telle action sur les documents de ce groupe."
 msgstr ""
+"You can **subscribe to a group** to stay updated on everything that happens, "
+"and you will receive a regular notification informing you of actions in the "
+"documents of that group."
 
 # b8c45a0ea48b481db44b0540f998abc4
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3384
@@ -6955,6 +7013,8 @@ msgid ""
 "Dans les actions contextuelles du groupe (3 barres horizontales), "
 "choisissez « S’abonner »."
 msgstr ""
+"In the contextual actions of the group (3 horizontal bars), choose \""
+"Subscribe\"."
 
 # 012ed011c682400795a6603c85e13d8e
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3390
@@ -6962,6 +7022,8 @@ msgid ""
 "Un message en vert apparaîtra à droite de l’écran vous confirmant "
 "l’abonnement à ce groupe."
 msgstr ""
+"A green message will appear on the right of the screen confirming the "
+"subscription to this group."
 
 # 571795a3ca7546a89d0b827199258cf2
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3396
@@ -6970,21 +7032,23 @@ msgid ""
 " dire que vous ne recevrez plus aucune notification en rapport avec ce "
 "groupe et son contenu."
 msgstr ""
+"You can unsubscribe to this group by the same way . Which means that you "
+"will not receive any more notifications regarding this group and its content."
 
 # d84bb0a2fdda4e9e92f892863f23b3cc
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3403
 msgid "Le même message en vert vous confirme votre désabonnement"
-msgstr ""
+msgstr "The same message in green confirms your unsubscription"
 
 # 42416283a7c8463ba4340fc03b4fede6
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3408
 msgid "Voir aussi  \"Vos abonnements\""
-msgstr ""
+msgstr "See also \"Your subscriptions\""
 
 # 3e4c6425ae904ee6bd43a7cec7f0b3ce
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3411
 msgid "Rejoindre la discussion (à compléter après test)"
-msgstr ""
+msgstr "Join the chat (to complete after test)"
 
 # d8c42dc63b2a4a27a7bdf5b6a65c3e95
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3413
@@ -6993,6 +7057,8 @@ msgid ""
 "comme un chat/skype, appuyez sur « Rejoindre la discussion » dans les "
 "actions contextuelles ;"
 msgstr ""
+"To join current **chats / videoconferences**, tap 'Join the chat' in the "
+"contextual actions;"
 
 # 8ccc2a394f49456ba056b53960d928d1
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3420
@@ -7001,11 +7067,14 @@ msgid ""
 " avec les différentes discussions en cours. Il suffira d’appuyer sur "
 "celle qui vous intéresse pour vous y intégrer."
 msgstr ""
+"Messages in blue will appear in the upper right corner of the screen with "
+"the various current chats. It will be enough to press that one which "
+"interests you to integrate you there."
 
 # dfc06f50563e42878921d8ab847743e9
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3429
 msgid "Gestion des Listes d'Utilisateurs (en v3.6)"
-msgstr ""
+msgstr "Management of User Lists (in v3.6)"
 
 # aa6a19082de14bda9a717e3116d193bc
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3430
@@ -7015,6 +7084,9 @@ msgid ""
 "utilisateur GoFAST est ajouté à une liste, il devient automatiquement "
 "membre de tous les espaces associés à cette liste."
 msgstr ""
+"User lists facilitate mass and automated management of Collaborative Spaces "
+"members and their roles. Thus, when a GoFAST user is added to a list, he "
+"automatically becomes a member of all spaces connected with that list."
 
 # 4b02fa86f07b4f26baf45f7203aa349f
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3432
@@ -7024,11 +7096,15 @@ msgid ""
 "://gofast-docs.readthedocs.io/fr/latest/docs-gofast-users/doc-gofast-"
 "guide-utilisateurs.html?highlight=panier#partager-le-document-par-mail)"
 msgstr ""
+"Lists can also be selected during sharing documents by email (see *Sharing "
+"of document by email*: https://gofast-docs.readthedocs.io/en/latest/"
+"docs-gofast-users/doc-gofast-guide -utilisateurs.html? highlight = # cart-"
+"share the document-by-mail)"
 
 # f3bc59e96e2d4797a876b35dc0f15c85
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3435
 msgid "Créer/Modifier une liste d'utilisateurs"
-msgstr ""
+msgstr "Creation / Modification of a user list"
 
 # 36b325f92e5b4a4aa1336757918e60b5
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3440
@@ -7037,16 +7113,18 @@ msgid ""
 "d’utilisateurs\" dans le menu principale. Vous êtes redirigé vers le "
 "formulaire et il suffit de renseigner les 3 champs affichés :"
 msgstr ""
+"To create a list, click \"Create\" and then \"User List\" in the main menu. "
+"You are redirected to the form, now just fill in 3 displayed fields:"
 
 # a54c9542b8d54f1eb64495d8cf687154
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3442
 msgid "Nom de la liste,"
-msgstr ""
+msgstr "Name of the list,"
 
 # 65cf571c57034475a532fe61c721056d
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3443
 msgid "Desccription,"
-msgstr ""
+msgstr "Description,"
 
 # ce51e147abcb48419e222505f8acec29
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3444
@@ -7054,11 +7132,13 @@ msgid ""
 "Membres de la liste (rentrez au moins 3 caractère du nom/prénom d'un "
 "utilisateur pour avoir des suggestions),"
 msgstr ""
+"Members of the list (enter at least 3 letters of the first / second name of "
+"a user to have suggestions),"
 
 # 49a1baa1f7c845f3a66b0610365bf47a
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3451
 msgid "Le créateur d’une liste d’utilisateur devient administrateur de celle-ci."
-msgstr ""
+msgstr "The creator of a user list is an administrator of it."
 
 # b7601f50c0d946398e2393c0f23ab332
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3453
@@ -7067,13 +7147,15 @@ msgid ""
 "suffit de cliquer sur le menu \"Burger\" (actions contextuelles) sur la "
 "page de la liste."
 msgstr ""
+"To modify the elements of the list (name, description, members), just click "
+"on the contextual actions menu on the page of the list."
 
 # 6dc329b083a740c5b01b7d84fd4d660a
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3459
 msgid ""
 "Ajouter/enlever une liste d'utilisateurs comme membre d’un Espace "
 "Collaboratif"
-msgstr ""
+msgstr "Addition / removal of a users list as a member of a Collaborative Space"
 
 # 1a0158cfc72d4d839bbafbd1c470fdfe
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3460
@@ -7081,21 +7163,23 @@ msgid ""
 "L'ajout d'une liste dans un espace collaboratif se fait comme pour un "
 "utilisateur unitaire :"
 msgstr ""
+"Addition of a list to a collaborative area is like an addition of a unit "
+"user:"
 
 # 96671a49caa4422c8d0e983331047ea0
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3462
 msgid "Aller sur la page de l'espace"
-msgstr ""
+msgstr "Go to the space page"
 
 # c2bd194567824d6594806ce94fb596bc
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3463
 msgid "Ouvrir le menu \"Burger\" (actions contextuelles)"
-msgstr ""
+msgstr "Open the contextual actions menu"
 
 # 199e60576ab44aeb98e7b86e9aea12d1
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3464
 msgid "Cliquer sur \"ajouter membre/liste\""
-msgstr ""
+msgstr "Click \"Add member / list\""
 
 # 632ba8cdd2d247be96878e726af26e8d
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3469
@@ -7103,6 +7187,8 @@ msgid ""
 "Le formulaire d'ajout d'un membre s'ouvre et il faut commencer à rentrer "
 "le nom de la liste (au moins 3 caractères) pour avoir des suggestions."
 msgstr ""
+"The form for adding a member opens and you have to start entering the name "
+"of the list (at least 3 letters) to get suggestions."
 
 # 3107498e723348b9a4c0afa18253e994
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3475
@@ -7110,6 +7196,8 @@ msgid ""
 "Pour ajouter une liste d'utilisateurs comme membre d'un espace, il faut "
 "être administrateur de l'espace."
 msgstr ""
+"To add a users list as a member of a space, you must be a space "
+"administrator."
 
 # f80193bd94834dcc8ff0b35a4e6b2d9f
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3478
@@ -7121,6 +7209,11 @@ msgid ""
 "on évite de restreindre les droits d'un utilisateur qui serait déjà "
 "membre de l'Espace Collaboratif."
 msgstr ""
+"The role assigned to each user in the Collaborative Space is the one checked "
+"when adding the list. If the user is a member of a space in several ways ("
+"through a User Lists and directly through his profile), it is the role that "
+"offers the most privilege that will apply. In this way, we avoid restricting "
+"the rights of a user who is already a member of the Collaborative Space."
 
 # 76b55ce0d2504b1ab1d1dbb2cd482a28
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3480
@@ -7128,6 +7221,8 @@ msgid ""
 "Une fois la liste ajoutée à l'Espace Collaboratif, celle-ci est affichée "
 "parmi les autres membres."
 msgstr ""
+"Once the list is added to the Collaborative Space, it is displayed among the "
+"other members."
 
 # d71739bc7b42477e867c5ff095e412bc
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3485
@@ -7135,16 +7230,18 @@ msgid ""
 "Les Espaces Collaboratifs dont est membre la liste sont affichés sur la "
 "page de la liste, onglet \"Emplacements\"."
 msgstr ""
+"The Collaborative Spaces of which the list is a member are displayed on the "
+"page of the list, \"Locations\" tab."
 
 # b4fd68b7f22f4d448c31ec688b90e2ba
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3491
 msgid "Afficher/Rechercher les listes d'utilisateurs"
-msgstr ""
+msgstr "View / Search of the User Lists"
 
 # ff08caca398a40acb3c2c3a08415ef3e
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3494
 msgid "Annuaire des Liste d'Utilisateurs"
-msgstr ""
+msgstr "Directory of the Users list"
 
 # 7852f659cfe24138bbe7e74076ce7844
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3495
@@ -7152,6 +7249,8 @@ msgid ""
 "Pour consulter les listes existantes, il suffit de passer par les "
 "annuaires accessibles depuis le menu principal."
 msgstr ""
+"To view existing lists, just go through the accessible directories from the "
+"main menu."
 
 # ad16ebdb675f40529aa5ad9e068c79fe
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3500
@@ -7160,11 +7259,13 @@ msgid ""
 " de la liste. Vous pourrez alors consulter les membres et les "
 "emplacements de celle-ci."
 msgstr ""
+"To go to a list from the directory, you can click the name of the list. You "
+"will be able to view the members and the locations of it."
 
 # da9b8a0e148a4e5cab555060f8033b1a
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3503
 msgid "Rechercher une Liste d'Utilisateurs"
-msgstr ""
+msgstr "Search of a User List"
 
 # e8d2ba469d5f4109b6b19b984276039f
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3505
@@ -7172,18 +7273,20 @@ msgid ""
 "Les listes d'utilisateurs sont recherchables via la moteur de recherche "
 "et peuvent être utilisées comme \"filtre de format\"."
 msgstr ""
+"User lists are searchable via the search engine and can be used as a \""
+"format filter\"."
 
 # 09924e4e6e5d49cb8d338460339d20db
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3511
 msgid ""
 "Les listes dont fait partie un utilisateur sont affichées sur sa page de "
 "profile."
-msgstr ""
+msgstr "The lists which a user belongs to are displayed on his profile page."
 
 # 9b942ed2ef9447c09e48363d2a4303a8
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3517
 msgid "Gestion des abonnements"
-msgstr ""
+msgstr "Subscription Management"
 
 # 00667b9cbcc24c37a301eb4f1297d1c8
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3519
@@ -7194,6 +7297,10 @@ msgid ""
 "notification par mail, dont vous pouvez choisir l’intervalle (2x/jour, "
 "1x/jour, 1x/semaine, …)."
 msgstr ""
+"A subscription keeps you informed about what happens in a group or in a "
+"document; which means that whenever there is an activity in this group or in "
+"this document, you will receive a notification by mail, in which you can "
+"choose the interval (2x / day, 1x / day, 1x / week , ...)."
 
 # 17462ba3b3614aa29365674d74bb316d
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3525
@@ -7201,6 +7308,7 @@ msgid ""
 "Vous pouvez accéder à vos abonnements à partir de votre nom et les gérer "
 "comme vous le souhaitez"
 msgstr ""
+"You can access your subscriptions using your name and manage them as you wish"
 
 # 6545ce5bd5254a6d834cbf053a7fa389
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3534
@@ -7212,6 +7320,11 @@ msgid ""
 "par semaine qui vous indiquera ce qu’il s’est passé sur ce document ou "
 "dans ce groupe."
 msgstr ""
+"If you see that you receive **too many notifications** in relation to a "
+"group where you are not very active and which does not interest you anymore, "
+"you can unsubscribe or choose a weekly interval for example. You will "
+"receive only one mail per week that will tell you what happened in this "
+"document or in this group."
 
 # e4f16ce0a228449fb925586938c9e844
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3541
@@ -7221,6 +7334,9 @@ msgid ""
 "à côté du titre. Une liste de fonctionnalités s’ouvre, choisissez « "
 "s’abonner »."
 msgstr ""
+"To **subscribe to a document**, go to the document preview and click the "
+"last icon with the 3 horizontal bars, next to the title. A list of features "
+"opens, choose \"Subscribe\"."
 
 # 67d454cef63c4f61899c7eab2326f75d
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3549
@@ -7228,11 +7344,13 @@ msgid ""
 "(cfr : Gestion de groupe/ « S’abonner à un groupe » p.66 et Gestion de "
 "documents/« Actions contextuelles »/ « S’abonner au document » p.100 )"
 msgstr ""
+"(See Group Management / \"Group Subscription\" p.66 and Document Management /"
+" \"Contextual Actions\" / \"Subscribe to Document\" p.100 )"
 
 # cc5ee1fbe6d3430a9ac5ea8ca455f1c5
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3555
 msgid "Workflows : Processus de Tâches (Enterprise only)"
-msgstr ""
+msgstr "Workflows: Task Process (Enterprise only)"
 
 # 922f0d1fdd794b0b989592e7b1f104ed
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3557
@@ -7243,6 +7361,10 @@ msgid ""
 "disponibles, sur un ou plusieurs documents en les attribuant à des "
 "utilisateurs GoFAST (y compris vous-même)."
 msgstr ""
+"In this part of the documentation you will find how to view the current / "
+"archived processes, the tasks to be processed, but also how to start a task "
+"process from the list of available processes, in one or more documents by "
+"assigning them to GoFAST users ( including yourself)."
 
 # 4d485ade1e874fc1be115c582ae12b89
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3560
@@ -7252,6 +7374,10 @@ msgid ""
 "très flexible, pour répondre à la majorité des besoins de vérification, "
 "correction, validation et signature des documents."
 msgstr ""
+"In all cases GoFAST offers at least a \"Document(s) Distribution\" workflow "
+"that allows you to assign essential tasks in a very flexible way, to see the "
+"majority of document verification, correction, validation and signing of "
+"documents."
 
 # 8b74f45866894d52b315c13115c4e39b
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3563
@@ -7262,43 +7388,47 @@ msgid ""
 "Pour savoir comment modéliser un workflow spécifique, merci de vous "
 "tourner vers les forums GoFAST (https://community.ceo-vision.com/)."
 msgstr ""
+"It is also possible to model specific, simple or advanced processes and in "
+"this case, their operation and associated forms may not correspond to "
+"certain parts of this documentation. To learn how to model a specific "
+"workflow, please go to the GoFAST forums (https://community.ceo-vision.com/)."
 
 # 1872185019cc445a93bbe0aed725d44e
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3567
 msgid "1. Démarrer un processus de tâches"
-msgstr ""
+msgstr "1. How to start a task process"
 
 # 27b506ad59d34c1db86d9450383702c3
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3569
 msgid "GoFAST propose deux façons de lancer un workflow :"
-msgstr ""
+msgstr "GoFAST offers two ways to launch a workflow:"
 
 # 7f5b933a92364d839a2b3b1ca66f6750
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3571
 msgid "Depuis le menu principale, via l’accès rapide aux \"Processus et Tâches\""
-msgstr ""
+msgstr "From the main menu, through a quick access to \"Processes and Tasks\""
 
 # 376c64787f3947acb832cbe24633f20d
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3572
 msgid "Depuis la page d’un document, via le bouton \"Processus et Tâches\""
-msgstr ""
+msgstr "From the page of a document, through the button \"Processes and Tasks\""
 
 # 95906aeae1f14391ae22ec84c89a901b
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3574
 msgid "Dans les deux cas, l'icône représentant les workflows est :"
-msgstr ""
+msgstr "In both cases, the icon that represents the workflows is:"
 
 # f4e31c297f88498ba2c8ef517ea0d1d4
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3580
 msgid "Demarrer un processus depuis le menu pricnipal"
-msgstr ""
+msgstr "How to start a process from the main menu"
 
 # 404c1cc59bd34879bf77fbb05af69bce
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3582
 msgid ""
 "Pour sélectionner un processus et le démarrer depuis le menu principal de"
 " GoFAST :"
-msgstr ""
+msgstr "To select a process and start it from the GoFAST main menu:"
 
 # f5c2b66aa2d542d9bf316a33bbf47ff4
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3584
@@ -7306,6 +7436,7 @@ msgid ""
 "Cliquez sur l’icône \"Processus et Tâches\" qui se trouve tout en haut de"
 " la page sur la gauche,"
 msgstr ""
+"Click the \"Process and Tasks\" icon at the top of the page on the left,"
 
 # 0aa6dbc3bdb3473796d10a3ea5e9a27a
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3585
@@ -7315,20 +7446,23 @@ msgid ""
 "processus\", soit un \"Nouveau processus depuis les documents du "
 "panier\","
 msgstr ""
+"In the window that appears (the current list of tasks), click \"New\" to "
+"have the possibility to start either \"New process\" or \"New process from "
+"the documents of the cart\","
 
 # ad57a521a8be4f328bbd5ba63f89bfd2
 # 0c4bc2691e2e4010a9544b262feb84d1
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3590
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3613
 msgid "Une liste des processus disponibles vous sera proposée"
-msgstr ""
+msgstr "A list of available processes will be proposed"
 
 # e8765aad730149fcbc659aa09b9d23b3
 # c4f71fab4ece4d45bce889a250edba24
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3591
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3614
 msgid "Cliquer sur le nom du processus souhaité ou sur l’icône \">\""
-msgstr ""
+msgstr "Click on the name of the process you need or on the icon \">\""
 
 # ae36ea3f2ad94fe1bb88886e1d66a002
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3597
@@ -7338,6 +7472,9 @@ msgid ""
 "directement depuis ce formulaire (hors dans le cas d'un éventuel "
 "processus spécifique ayant un autre fonctionnement)."
 msgstr ""
+"Launching a process from the main menu, the process form does not integrate "
+"a document and therefore it must be added directly from this form (exception:"
+" a specific process with another operation)."
 
 # 6d80df148f2c44cb931aba42d2ecc96f
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3600
@@ -7347,18 +7484,21 @@ msgid ""
 "processus. Vous avez ensuite la possibilité d'enlever/ajouter les "
 "documents dans le formulaire du workflow."
 msgstr ""
+"Launching a process from the main menu of the \"document cart\" documents, "
+"they are automatically related to the process. Then you have the option of "
+"removing / adding the documents in the workflow form."
 
 # 971e625bb65e4f9baa5c6f08d7abb8a0
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3604
 msgid "Démarrer un processus depuis la page d'un document"
-msgstr ""
+msgstr "How to start a process from a document page"
 
 # 87a77bceb36f4b6eb6930c266bce6034
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3606
 msgid ""
 "Pour sélectionner un processus et le démarrer depuis la page d’un "
 "document :"
-msgstr ""
+msgstr "To select a process and start it from the page of a document:"
 
 # 2fe46e4ba1dc413c8f38fa98c10fa6ab
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3608
@@ -7366,6 +7506,8 @@ msgid ""
 "Cliquez sur l’icône \"Processus et Tâches\" qui se trouve en haut à "
 "droite de l’aperçu du document,"
 msgstr ""
+"Click on the \"Processes and Tasks\" icon which is at the top right of the "
+"document preview,"
 
 # 99e1e0d51c1b4a008d730a7121c6c9cc
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3620
@@ -7373,11 +7515,13 @@ msgid ""
 "En lançant un processus directement depuis la page du document, ce "
 "dernier est automatiquement associé au workflow dans le formulaire."
 msgstr ""
+"Launching a process directly from the document page, the document is "
+"automatically related to the workflow in the form."
 
 # cb7931ea06fa422aa41d58592dc898e2
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3625
 msgid "Renseigner le formulaire du processus de tâches pour le démarrer"
-msgstr ""
+msgstr "Fill out the form of  task process to start it"
 
 # d750dcc696314ef19fae086e18ccbfac
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3626
@@ -7386,6 +7530,8 @@ msgid ""
 " s’ouvre et vous permet de renseigner les diverses informations "
 "nécessaires."
 msgstr ""
+"When the desired process is selected, the related form opens and allows you "
+"to fill in the various necessary information."
 
 # b4f7251796a44da684b8a315dd81c398
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3628
@@ -7393,6 +7539,8 @@ msgid ""
 "Le formulaire proposé et donc les champs à renseigner, sont totalement "
 "dépendants du processus choisi."
 msgstr ""
+"The form is proposed and the fields to be informed, are totally dependent on "
+"the chosen process."
 
 # 91f3c096ddc74e539c2da88fe5b344d9
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3638
@@ -7400,6 +7548,7 @@ msgid ""
 "**Focus sur les champs \"Document(s)\" et \"Assignation(s)\" du "
 "formulaire :**"
 msgstr ""
+"**Focus on the \"Document (s)\" and \"Assignment (s)\" fields of the form:**"
 
 # 1ab6da0cc5544ee8b6d4b5899cec4f44
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3634
@@ -7407,6 +7556,8 @@ msgid ""
 "Dans le cas du processus standard GoFAST, parmi les champs proposés il y "
 "a les documents associés et les personnes à assigner."
 msgstr ""
+"In the case of the standard GoFAST process, among the proposed fields there "
+"are the related documents and the people to be assigned."
 
 # 34a93b2a393641aaa71a7979174c358d
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3636
@@ -7415,6 +7566,9 @@ msgid ""
 " rentrer le nom du document ou d’un utilisateur (minimum 3 caractères), "
 "puis cliquer sur la suggestion pour valider son choix."
 msgstr ""
+"To fill these fields correctly, it is necessary to start entering the name "
+"of the document or a user (minimum 3 letters), then click on the suggestion "
+"to validate your choice."
 
 # 6053fe3a0f7047b4832966e7f7fe9760
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3638
@@ -7423,6 +7577,8 @@ msgid ""
 "possibilité de cliquer sur \"+\" pour ajouter des champs supplémentaires,"
 " ou sur la corbeille pour en enlever."
 msgstr ""
+"Whether for documents or assignments, you have the option to click on \"+\" "
+"to add additional fields, or on the trash icon to remove them."
 
 # f28d3ea7dc3d455fb0f3ed7f8718b94f
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3640
@@ -7430,6 +7586,8 @@ msgid ""
 "Enfin, pour lancer le processus et les notifications associées, il suffit"
 " de cliquer sur \"Envoyer\" (en bas du formulaire)."
 msgstr ""
+"Finally, to start the process and associated notifications, just click on \""
+"Send\" (at the bottom of the form)."
 
 # 088342b6d6fc470788f371c749339386
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3644
@@ -7437,11 +7595,13 @@ msgid ""
 "2. Etre notifié et consulter ses tâches à traiter et/ou assignées aux "
 "autres"
 msgstr ""
+"2. To be notified and to view the tasks to be treated and / or assigned to "
+"others"
 
 # 16e55c7f17eb4f81837ff027145ba6c3
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3647
 msgid "Notifications des workflows envoyées par e-mail"
-msgstr ""
+msgstr "Sent Workflow notifications by email"
 
 # daf7bacbd432423da1ad418058ad93ce
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3650
@@ -7452,6 +7612,11 @@ msgid ""
 "métier concernés. Le descriptif ci-après est donc basé sur le "
 "fonctionnement du processus standard disponible dans GoFAST."
 msgstr ""
+"Notifications are dependent on the launched process. For example, in the "
+"case of a specific process it is possible that the content of the "
+"notifications and their frequency are highly adapted to the respective "
+"business teams. Thus, the description below is based on the operation of the "
+"available standard process in GoFAST."
 
 # cf8caf57d09049a6bc3496a5b1a3c83b
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3653
@@ -7459,11 +7624,13 @@ msgid ""
 "A chaque démarrage du processus, les personnes assignées sont notifiées "
 "et c’est aussi le cas à chaque fois qu’une étape est traitée."
 msgstr ""
+"Each time when the process starts, the assigned people are notified and it "
+"also happens each time when a stage is processed."
 
 # f939b2b4dc10437eb856c6e1cfd2330b
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3665
 msgid "**Les notifications indiquent donc :**"
-msgstr ""
+msgstr "**Thus the notifications indicate:**"
 
 # c085a84b59a348bab36aae53364f3592
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3659
@@ -7471,11 +7638,13 @@ msgid ""
 "le type de processus lancé et le nom spécifique renseigné par "
 "l’initiateur,"
 msgstr ""
+"the type of the launched process and the specific name entered by the "
+"initiator,"
 
 # 8076da4383e147ee9e400e4f6fc2e3c3
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3660
 msgid "l’initiateur du processus,"
-msgstr ""
+msgstr "the initiator of the process,"
 
 # fcc3ba272086421ea06a16f59501326a
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3661
@@ -7483,6 +7652,8 @@ msgid ""
 "la tâche qu’on a à traiter et les autres tâches du processus (avec état "
 "de la tâche),"
 msgstr ""
+"the task we have to deal with and the other tasks of the process (with the "
+"status of the task),"
 
 # e4d623bd0192486e8e5efd97a93a7a3c
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3662
@@ -7490,16 +7661,18 @@ msgid ""
 "l’étape du processus (ex : initiation ou fin d’une tâche ou fin du "
 "processus),"
 msgstr ""
+"the stage of the process(ex: initiation or end of a task or end of the "
+"process),"
 
 # 0e13010ca86246f28022800450bd4e04
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3663
 msgid "la date de démarrage, de traitement des tâches et l’échéance,"
-msgstr ""
+msgstr "the date of start, processing and deadline of  the start,"
 
 # 43a86a409c174ae2ae1156a2a8706171
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3664
 msgid "titre(s) et lien(s) vers le(s) document(s) concerné(s),"
-msgstr ""
+msgstr "title (s) and link (s) of the concerned document (s),"
 
 # e99fc5209d374b699e2a3d7d3c092c9b
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3665
@@ -7507,6 +7680,8 @@ msgid ""
 "le commentaire fait au moment du démarrage, puis ceux ajoutés lors du "
 "traitement des tâches,"
 msgstr ""
+"the comment made at the time of start, then those added during of tasks "
+"processing,"
 
 # 63dfe1f45b5f4f55934c328bfbe4a92c
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3668
@@ -7516,11 +7691,14 @@ msgid ""
 " du processus lancé. Il n’est donc pas possible de se désabonner de ces "
 "notifications ou de changer leur fréquence."
 msgstr ""
+"Notifications related to Workflows and sent by email are not configurable by "
+"users because they are directly dependent on the started process. Thus it is "
+"impossible to unsubscribe from these notifications or change their frequency."
 
 # 8317f8ec973744a7b8daadcbe110062c
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3672
 msgid "Liste des tâches à traiter et tâches assignées aux autres"
-msgstr ""
+msgstr "List of tasks to be processed and tasks assigned to others"
 
 # b5b633c6c72549b7a567d502c9b86c7c
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3674
@@ -7531,6 +7709,10 @@ msgid ""
 "également informés lorsqu'un document qu'ils consultent est associé à un "
 "processus."
 msgstr ""
+"In addition to the notifications sent by e-mail, each user has the "
+"possibility to view the list of tasks he has to deal with, as well as the "
+"tasks he has assigned to others. Users are also notified when a document "
+"they view is associated with a process."
 
 # 98c023640bef45879a95f9af9d189666
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3676
@@ -7538,6 +7720,8 @@ msgid ""
 "**Dans le menu principal :** un numéro apparait sur l'icône \"Processus "
 "et Taches\" indiquant le nombre de tâche qu'on a à traiter."
 msgstr ""
+"**In the main menu:** a number appears on the \"Process and Tasks\" icon "
+"indicating the number of tasks to be processed."
 
 # a7f47e33377b436cb843d98ae8059ff7
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3681
@@ -7546,6 +7730,9 @@ msgid ""
 " dès lors qu'un processus en cours y est associé, précisant le nombre de "
 "tâche. Si aucun processus n'est en cours, l'icône reste grise."
 msgstr ""
+"**On the page of a document:** the \"Processes and Tasks\" icon is red when "
+"a current process is associated with it, showing the number of tasks. If "
+"there is no current process the icon remains gray."
 
 # 156cfe8bf06d477aa76f85c7f9ffc0ce
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3686
@@ -7554,6 +7741,8 @@ msgid ""
 "\"Processus et Tâches\" (que ce soit depuis le menu ou la page d'un "
 "document)."
 msgstr ""
+"**To display the list of tasks:** just click on the icon \"Processes and "
+"Tasks\" (either from the menu or the page of a document)."
 
 # 9b4facb4c90a4354839f678c9266c267
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3691
@@ -7562,38 +7751,41 @@ msgid ""
 "pour les tâches assignées à d'autres utilisateurs. Dans le cas où il y a "
 "beaucoup de tâches, vous disposez d’une pagination."
 msgstr ""
+"Then you have a separate tab for the tasks to be processed and another for "
+"tasks assigned to other users. In case if there are a lot of tasks, you have "
+"a pagination."
 
 # b45ffdb58ea14b7585bf1818308ca969
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3697
 msgid ""
 "**Cette vue permet de consulter en un clin d’œil les informations clefs "
 ":**"
-msgstr ""
+msgstr "**This view allows you to see at a glance the key information:**"
 
 # b8fab6a9936c4071b9507b160f7ac210
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3694
 msgid "type et nom du processus"
-msgstr ""
+msgstr "the type and the name of the process"
 
 # e0c3e70d48b348f68ceae3fbf637025d
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3695
 msgid "le(s) document(s) concerné(s)"
-msgstr ""
+msgstr "the relevant documents"
 
 # 1f53cd936c324b92ae1ee5d8a3426b47
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3696
 msgid "date de démarrage et échéance"
-msgstr ""
+msgstr "starting date and deadline"
 
 # b4c7aa76564949488848defa9f911f6f
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3697
 msgid "l’initiateur du processus"
-msgstr ""
+msgstr "the initiator of the process"
 
 # 3ed8d6880df54138b7110dc407ac7c0c
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3702
 msgid "**Les actions possibles depuis cette liste des tâches :**"
-msgstr ""
+msgstr "**Possible actions from this task list:**"
 
 # da9a0ae78d974527991325c208dd552b
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3700
@@ -7601,6 +7793,8 @@ msgid ""
 "Aller sur la page de(s) document(s) du processus en cliquant sur le titre"
 " du document,"
 msgstr ""
+"To go to the document (s) page of the process by clicking on the title of "
+"the document,"
 
 # 50742e017c75458d9cf1b3882fba6a35
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3701
@@ -7608,6 +7802,7 @@ msgid ""
 "Consulter l’historique du processus du processus en cours en cliquant sur"
 " l’icône \"i\","
 msgstr ""
+"To see the history of the current process by clicking on the \"i\" icon,"
 
 # ad0099b8c6f344cc95bb6fcd29976968
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3702
@@ -7615,11 +7810,13 @@ msgid ""
 "Effectuer sa tâche et consulter l’historique du processus en cours en "
 "cliquant sur l’icône \">\""
 msgstr ""
+"To perform the task and see the history of the current process by clicking "
+"on the icon «>»"
 
 # 862d19d684174a748b65f5d31da51005
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3708
 msgid "Traiter ses tâches"
-msgstr ""
+msgstr "Process your tasks"
 
 # 001145d596f24513ba8d4f368144503c
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3709
@@ -7627,6 +7824,8 @@ msgid ""
 "Depuis la liste des tâches à traiter, il suffit de cliquer sur l'icône "
 "\">\" pour ouvrir le formulaire et indiquer qu'on a effectué sa tâche."
 msgstr ""
+"From the list of tasks to be processed, simply click on the \">\" icon to "
+"open the form and indicate that the task has been completed."
 
 # bb55a1f45ff84d4882b8abe11600f1c5
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3714
@@ -7634,6 +7833,8 @@ msgid ""
 "Cliquez sur \"Envoyer\" (ou autre selon la tâche qui nous a été assignée)"
 " pour enregistrer le traitement de la tâche."
 msgstr ""
+"Click on \"Send\" (or other according to the task assigned to us) to save "
+"the processing of the task."
 
 # bc1ae5b12cb14959bbf422d6a10afb4c
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3717
@@ -7642,11 +7843,13 @@ msgid ""
 "processus standard GoFAST). Celui-ci est vivement conseillé pour "
 "favoriser le travail collaboratif."
 msgstr ""
+"Depending on the process, it is possible to leave a comment (ex: standard "
+"GoFAST process). It is highly recommended to promote the collaborative work."
 
 # 54eedd6ca39542cf9b884716dfde9f01
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3720
 msgid "3. Historique des tâches et processus en cours et archivés"
-msgstr ""
+msgstr "History of current and archived tasks and processes"
 
 # aeffcdf7a07947a6abcb64fda55c775e
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3722
@@ -7654,26 +7857,28 @@ msgid ""
 "Que ce soit pour les processus en cours ou archivés, vous avez la "
 "possibilité de consulter les détails des étapes et commentaires faits."
 msgstr ""
+"Whether for current or archived process, you have the opportunity to view "
+"the details of the steps and made comments."
 
 # 6fdb4fbcd597498c804fc9f0fe1fdcfc
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3726
 msgid "**Cet historique est accessible :**"
-msgstr ""
+msgstr "**This history is accessible:**"
 
 # 95a7af8a6a154cdfb918322ab7dec546
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3725
 msgid "via le menu principal"
-msgstr ""
+msgstr "through the main menu"
 
 # 961b28bb21bf4b8ea28516b5c6f5cf54
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3726
 msgid "depuis la page d’un document"
-msgstr ""
+msgstr "from the page of a document"
 
 # 3c6a29f2931042199c13d4a1de725622
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3732
 msgid "Historique des processus en cours"
-msgstr ""
+msgstr "History of current processes"
 
 # fd713607a3c54898a9d52b56750d07be
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3734
@@ -7681,11 +7886,13 @@ msgid ""
 "Pour consulter l'historique des actions dans un processus en cours, il "
 "suffit de cliquer sur l’icône \"i\" ou \">\" au niveau d'une tâche :"
 msgstr ""
+"To view the history of actions in a current process, simply click on the \""
+"i\" or \">\" icon at the task level:"
 
 # 30d0090955a24cdc9b5250c7a56a747e
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3746
 msgid "Historique des processus archivés"
-msgstr ""
+msgstr "History of archived processes"
 
 # e83a92616be64191b7c26945af59ecd5
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3748
@@ -7694,6 +7901,8 @@ msgid ""
 "rendez-vous sur la page du dit document et cliquez sur l’icône "
 "\"Processus et Tâches\"."
 msgstr ""
+"To see the list of archived processes associated with a document, go to the "
+"page of the document and click on the \"Processes and Tasks\" icon."
 
 # ba7895d35a544aa29d80df05887d84b6
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3753
@@ -7702,6 +7911,8 @@ msgid ""
 "l’onglet \"Historique\". Cette onglet affiche la liste de tous les "
 "processus archivés associés au document."
 msgstr ""
+"Once the Processes and Tasks window is open, go to the \"History\" tab. This "
+"tab displays a list of all archived processes associated with the document."
 
 # e3a77d6a97714f3cb77f63fed0372fbe
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3758
@@ -7709,11 +7920,13 @@ msgid ""
 "Pour consulter les détails d'un processus archivé, il suffit de cliquer "
 "sur l’icône \"i\" au niveau du processus."
 msgstr ""
+"To see the details of an archived process, simply click on the \"i\" icon at "
+"the process level."
 
 # c205730c29b541b3b14dc0b7797fbf78
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3764
 msgid "Forums de discussion"
-msgstr ""
+msgstr "Forums"
 
 # 11af634e3099481a8826de2c6781eed2
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3766
@@ -7722,6 +7935,8 @@ msgid ""
 "d’échanger des informations et questions sur l’outil et sur son "
 "utilisation."
 msgstr ""
+"The general forum, which is for all GoFAST users, allows you to share "
+"information and ask questions about the tool and its use."
 
 # 9e83ea4866764619bdcaa0bd6c1a0c00
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3770
@@ -7730,6 +7945,8 @@ msgid ""
 "d’introduction de la GoFAST (version 2.0), les tutoriels, les guides "
 "d’utilisation, les guides de gestion documentaire, …"
 msgstr ""
+"At this level you will find the introduction video of GoFAST (version 2.0), "
+"tutorials, user guides, document management guides, …"
 
 # 1eda702f8c804f1fb3b9c75de3dc3865
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3774
@@ -7738,6 +7955,8 @@ msgid ""
 " De même, l’administrateur général peut vous donner des trucs et astuces "
 "via ce canal également."
 msgstr ""
+"You can ask general questions and everyone can answer them. Similarly, the "
+"administrator can give you tips and tricks through this channel as well."
 
 # fa1e938a3d3b4dc7b48b66171a93d808
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3778
@@ -7745,11 +7964,13 @@ msgid ""
 "Vous pouvez d’ailleurs vous abonner à ce forum si vous voulez rester au "
 "courant de tout ce qu’il s’y passe."
 msgstr ""
+"You can also subscribe to this forum if you want to stay informed of "
+"everything what happens there."
 
 # 3892715c00f0430abc30cc1620ab3d1c
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3783
 msgid "Chat/Messagerie instantanée (Enterprise only)"
-msgstr ""
+msgstr "Chat / Instant Messenger (Enterprise only)"
 
 # 6c878a417faa491881c357c436015895
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3786
@@ -7758,6 +7979,8 @@ msgid ""
 "également recevoir les messages avec votre smartphone (voir Utilisation "
 "Avancée)"
 msgstr ""
+"Here we are talking about the version in the chat browser, you can also "
+"receive messages with your smartphone (see Advanced Use)"
 
 # 8813b14568594a12a62468bb49a67161
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3788
@@ -7765,6 +7988,8 @@ msgid ""
 "Pour **ouvrir le chat**, il faut aller sur l’extrême droite de l’écran, "
 "cliquer sur la barre verticale grise."
 msgstr ""
+"**To open the chat**, go to the very right of the screen, click on the gray "
+"vertical bar."
 
 # 9f844892c8894199a065c7da40bdbc79
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3794
@@ -7773,6 +7998,9 @@ msgid ""
 "groupes que vous et qui sont, en ce moment, en ligne (boule verte sur la "
 "photo) ou absents (boule orange sur la photo)."
 msgstr ""
+"You can see the list of people who are in the same groups as you are and who "
+"are currently online (green ball on the picture) or absent (orange ball on "
+"the picture)."
 
 # 6e2206db492e424090361af76bb23682
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3801
@@ -7781,6 +8009,9 @@ msgid ""
 "statut actuel à côté de votre photo, vous verrez ainsi une liste "
 "apparaître, cliquez sur votre choix pour le changer."
 msgstr ""
+"You can choose your **status** on the chat by clicking on the current status "
+"next to your photo, you will see a list appears, click on your choice to "
+"change it."
 
 # 887364d88f064bbcaee5fddeb7cc9e00
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3808
@@ -7789,6 +8020,9 @@ msgid ""
 "petit numéro qui « saute » à côté de votre statut. Mais ce message peut "
 "être une pop up, pas nécessairement un message d’un utilisateur."
 msgstr ""
+"You will see if you have **a new message** in the chat thanks to a small "
+"number that \"pops\" next to your status. But this message can be a pop up, "
+"not necessarily a message from a user."
 
 # 5a3317039d0349e0b8b9fd58a643c8cb
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3815
@@ -7797,6 +8031,9 @@ msgid ""
 "carré qui clignote dans le coin droit inférieur de l’écran ou avec une "
 "pop-up si vous n’êtes pas sur l’écran GoFAST"
 msgstr ""
+"You also see if you have **a message on the chat** with a small square that "
+"flashes in the lower right corner of the screen or with a pop-up if you are "
+"not on the GoFAST screen"
 
 # 61be52f614c64ce183889d0019394b92
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3830
@@ -7805,11 +8042,13 @@ msgid ""
 "de votre page URL vous indiquant que vous avez un nouveau message (mail "
 "ou chat)"
 msgstr ""
+"Or in a more general way, you will also see a number on the tab of your URL "
+"page telling you that you have a new message (mail or chat)"
 
 # 52abaa5cb7a24ece868f86859d7a01d0
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3837
 msgid "Vous pouvez alors **commencer la discussion**."
-msgstr ""
+msgstr "Then you can **start the discussion**."
 
 # f408366c284348ddb36c10391cfe1379
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3839
@@ -7817,6 +8056,8 @@ msgid ""
 "Les petits « v » en fin de message confirment que votre interlocuteur a "
 "reçu le message."
 msgstr ""
+"The small \"v\" at the end of the message confirms that the other person has "
+"received the message."
 
 # 1062a2468bec42ec87a3da98fa7d3e43
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3842
@@ -7824,6 +8065,8 @@ msgid ""
 "Vous pouvez remonter dans l’historique de la conversation en faisant "
 "glisser la barre grise sur la droite"
 msgstr ""
+"You can go back in the history of the conversation by dragging the gray bar "
+"on the right"
 
 # 3a9823c6519c4408a9a508b479997a0b
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3848
@@ -7831,13 +8074,15 @@ msgid ""
 "Si vous cliquez sur les 3 points verticaux à côté du nom du contact, vous"
 " voyez 3 propositions : renommer, montrer info, supprimer contact ."
 msgstr ""
+"If you click on the 3 vertical points next to the name of the contact, you "
+"see 3 proposals: rename, show info, delete contact."
 
 # d852557094d043fc950961dc99f4bbb9
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3854
 msgid ""
 "Voici un exemple de ce qui apparaît si vous choisissez « Montrer les "
 "informations »"
-msgstr ""
+msgstr "Here is an example of what appears if you choose \"Show information\""
 
 # 236785bb1ce64f67b0db8769bd1ffd76
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3860
@@ -7847,6 +8092,9 @@ msgid ""
 "fonctionnalités** comme : les réglages du chat, le son, à propos des "
 "contacts, …"
 msgstr ""
+"In the lower right corner, next to your chat profile \"online\", the icon "
+"with the 3 horizontal bars opens several features like: chat settings, "
+"sound, about contacts, …"
 
 # 12168239a562436cade3c0988ee385b5
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3868
@@ -7855,11 +8103,14 @@ msgid ""
 "pouvez y régler vos options d’identification, les priorités, la copie "
 "carbone, le message history, les notifications de compositions, etc."
 msgstr ""
+"Here is the page that opens if you choose \"\\  **Settings**\", you can set "
+"your identification options, priorities, carbon copy, message history, "
+"notifications of compositions, etc."
 
 # 1fafdbcfc00e4207b219f9d2f9210076
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3875
 msgid "Il y a déjà des données enregistrées par défaut."
-msgstr ""
+msgstr "There is already saved data by default."
 
 # c4f9dec5d2744b2990c24cfd0a553308
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3880
@@ -7868,6 +8119,8 @@ msgid ""
 " contact** » ; une fenêtre s’ouvre où vous pouvez ajouter un nom et un "
 "pseudo. Terminez avec « Ajouter »."
 msgstr ""
+"If you want to add a contact to the chat, tap \"\\ **Add a contact**\"; a "
+"window opens where you can add a name and a nickname. Finish with \"Add\"."
 
 # 645c3fc9e4b44118b94c58bd2e6b6383
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3890
@@ -7875,13 +8128,15 @@ msgid ""
 "L’ « \\ **Aide en ligne** » vous amène à un site externe avec des "
 "explications et des démos"
 msgstr ""
+"\" \\ **Online help** \" takes you to an external site with explanations and "
+"demos"
 
 # 6677eb1b0ea646528ee030c30e00f005
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3899
 msgid ""
 "Pour **rejoindre une discussion** en cours, appuyez sur « Joindre la "
 "discussion »"
-msgstr ""
+msgstr "**To join a current discussion**, tap \"Join Discussion\""
 
 # b8c03189f4e748ec94cfadc7be577c1d
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3905
@@ -7889,11 +8144,13 @@ msgid ""
 "Une fenêtre s’ouvre avec les propositions de discussions existantes, "
 "sélectionnez celle que vous voulez joindre et appuyez sur « Continuer »."
 msgstr ""
+"A window opens with the existing chat proposals, select the one you want to "
+"join, and press \"Continue\"."
 
 # 6f6504e63d9143b5b244619826892640
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3911
 msgid "« Salon » étant le « forum/la chatroom »"
-msgstr ""
+msgstr "\"Salon\" is the \"forum / chatroom\""
 
 # d0722a49c1c7497a8545f8c98a40aa05
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3913
@@ -7902,6 +8159,8 @@ msgid ""
 " vert, vous pouvez continuer. Vous verrez une connexion s’activer sur le "
 "coin droit supérieur."
 msgstr ""
+"If the frame turns red, it's not a discussion, if it turns green, you can "
+"continue. You will see an activated connection in the upper right corner."
 
 # 99b6708dcc424dc4816754a33a6ad432
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3920
@@ -7910,11 +8169,14 @@ msgid ""
 "interlocuteurs, vous voyez leur nom apparaître dans une petite fenêtre "
 "dans le bas de l’écran."
 msgstr ""
+"When there is a current conversation in the chat, with one or more "
+"interlocutors, you see their names appear in a small window at the bottom of "
+"the screen."
 
 # dbc46a263cc64fd08e18e9941075c08a
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3924
 msgid "Vous pouvez ainsi voir leur message et y répondre."
-msgstr ""
+msgstr "You can see their message and respond to it."
 
 # 4adeac2643ae49f7877602a6876e167a
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3926
@@ -7924,6 +8186,10 @@ msgid ""
 "et votre interlocuteur avez les accessoires nécessaires pour une "
 "vidéoconférence, elle sera barrée si ce n’est pas le cas."
 msgstr ""
+"If you want to start **a videoconference**, tap the small camera next to the "
+"person's name online. It will be white if you and your interlocutor have the "
+"necessary accessories for a videoconference, it will be crossed out if it is "
+"not the case."
 
 # 5a2d9f1e632b4814b1d8516cc1a809f8
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3937
@@ -7931,6 +8197,8 @@ msgid ""
 "Si vous voulez terminer la conversation dans le chat, appuyez sur la "
 "petite croix à côté du nom de l’interlocuteur."
 msgstr ""
+"If you want to finish the conversation in chat, tap the little cross next to "
+"the interlocutor's name."
 
 # 34ffcaeb4c3741e3b9a912b1b2087a06
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3943
@@ -7939,6 +8207,9 @@ msgid ""
 " petite fenêtre où vous pouvez effacer l’historique de cette conversation"
 " avec cet interlocuteur."
 msgstr ""
+"The 3 vertical points icon next to the interlocutor's name opens a small "
+"window where you can delete the history of this conversation with this "
+"contact person."
 
 # 88c2dc99bc3848f2aa0993fa5626bff7
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3950
@@ -7947,11 +8218,13 @@ msgid ""
 "utilisateurs en ligne, il suffit de réappuyer sur la barre grise "
 "verticale."
 msgstr ""
+"**To close the bar chat,** and no longer see other users online, just press "
+"the vertical gray bar again."
 
 # ad9ee6b9eb7c4b35a49cae8f83937dac
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3962
 msgid "Messages internes"
-msgstr ""
+msgstr "Internal messages"
 
 # 2436314bdef84239b11ac7ee16cd33ee
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3964
@@ -7959,11 +8232,13 @@ msgid ""
 "D’une manière générale, vous verrez un **numéro** sur l’onglet de votre "
 "page URL vous indiquant que vous avez un nouveau message (mail ou chat)"
 msgstr ""
+"In general, you will see a number on the tab of your URL page telling you "
+"that you have a new message (mail or chat)"
 
 # 6c0a2ab372c54df6aa0561809ba1fe81
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3971
 msgid "Lire ses messages et y répondre"
-msgstr ""
+msgstr "How to read the messages and answer them"
 
 # 8bfdafabac78449d8d2f3b1c824a0c19
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3973
@@ -7974,11 +8249,15 @@ msgid ""
 "sur ce numéro ou sur le message en vert (« You have 1 unread message ») "
 "pour voir la liste des messages reçus."
 msgstr ""
+"When you see a red number on the GoFAST logo, in the upper left corner, next "
+"to the GoFAST address, it also means that you have one or more **new "
+"messages** (by email). Click on this number or the green message (\"You have "
+"1 unread message\") to see the list of received messages."
 
 # 60c65f27d210461da8f2e75d5174b097
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3982
 msgid "**Voici ce que vous verrez si vous appuyez sur le message vert**"
-msgstr ""
+msgstr "**Here is what you will see if you press the green message**"
 
 # 67ae1e0f44424954be9807a9d4b98142
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3984
@@ -7987,6 +8266,8 @@ msgid ""
 "l’envoi et si c’est un nouveau message (« NOUVEAU » en bleu à côté du "
 "titre)"
 msgstr ""
+"You see the title of the received message, the sender, the date and time of "
+"sending and if it is a new message (\"NEW\" in blue next to the title)"
 
 # f7b4fa4dc03b428e8273a5454a0541c6
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3988
@@ -7994,6 +8275,8 @@ msgid ""
 "Pour supprimer des messages, sélectionnez les en cochant les cases devant"
 " chacun et appuyez sur « Supprimer » (en rouge)"
 msgstr ""
+"To delete messages, select them by ticking the boxes in front of each one "
+"and press \"Delete\" (in red)"
 
 # 07e73988af1a4d82bd3e39167989c549
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3994
@@ -8001,6 +8284,8 @@ msgid ""
 "Vous pouvez aussi choisir une action comme « Marquer comme lu ou non-lu "
 "», en cliquant sur la flèche à droite au niveau de la ligne « Actions »"
 msgstr ""
+"You can also choose an action like \"Mark as read or unread\" by clicking on "
+"the arrow on the right side of the line \"Actions\""
 
 # ecb413720d0e41f98160d52faa64403a
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:4001
@@ -8009,11 +8294,13 @@ msgid ""
 "décroissant en cliquant sur la flèche au-dessus des dates et heures "
 "d’envoi"
 msgstr ""
+"You can also sort in ascending or descending chronological order by clicking "
+"on the arrow above the sending dates and times"
 
 # 93723e0728d2449b84fd61c7e121302d
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:4008
 msgid "**Et voici ce que vous verrez si vous appuyez sur l’enveloppe**"
-msgstr ""
+msgstr "**And here is what you will see if you tap the envelope**"
 
 # dd8e0710f9c845558867915fa4953d8a
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:4010
@@ -8022,6 +8309,8 @@ msgid ""
 "destinataires), la date et l’heure d’envoi et la poubelle pour le "
 "supprimer."
 msgstr ""
+"You see the list of messages, the participants (senders and recipients), the "
+"date and time of sending and the trash to delete it."
 
 # cea26120ce33401fa0d350a1631aebb6
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:4018
@@ -8031,11 +8320,14 @@ msgid ""
 " bande noire du menu, ainsi la fenêtre avec la liste des messages se "
 "refermera."
 msgstr ""
+"If you click on the envelope, a red pin appears, which sets the window with "
+"the messages. To unblock, click elsewhere on the black menu bar, so the "
+"window with the list of messages will close."
 
 # a173b1ef8dc54142b7fa95c5037358f5
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:4026
 msgid "**Cliquez sur le titre du message pour l’ouvrir.**"
-msgstr ""
+msgstr "**Click on the title of the message to open it.**"
 
 # 03e0c83f3ccf4a3db105836b6349fa8b
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:4028
@@ -8045,6 +8337,9 @@ msgid ""
 "envoyé et la possibilité d’y répondre avec les mêmes options que dans "
 "Word. Terminez avec « Envoyer le message »"
 msgstr ""
+"When you open the mail, you find information such as the sender (with his "
+"photo), the date and time of sending, the sent message and the ability to "
+"respond with the same options as in Word. Finish with \"Send message\""
 
 # e6abc86b28e948c09a2f5cebdd82325e
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:4037
@@ -8055,6 +8350,10 @@ msgid ""
 "lors de vos échanges/réponses. Il n’est donc pas possible non plus de "
 "transférer un message."
 msgstr ""
+"You can not add or delete a participant during a conversation, which means "
+"that if the mail exchange starts between 2-3 people, you will not be able to "
+"add / delete a participant during your exchanges / responses. Thus it is "
+"impossible to transfer a message either."
 
 # d502a47aaddf4b5f9dafdae0222e21ca
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:4043
@@ -8065,6 +8364,11 @@ msgid ""
 "de messagerie à une autre et de pouvoir, via la prévisualisation, envoyer"
 " directement un document (son lien GoFAST) par mail."
 msgstr ""
+"The mail service on GoFAST should not replace your traditional mailbox ("
+"Lotus, Outlook, ...). It is especially useful for chatting directly on "
+"GoFAST between users without having to go from one mailbox to another and to "
+"be able, through the preview, to send a document directly (its GoFAST link) "
+"by email."
 
 # bde22e2e5139484181d2fbd2a732305b
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:4049
@@ -8072,11 +8376,12 @@ msgid ""
 "(Cfr : voir « Actions contextuelles de prévisualisation d’un document » /"
 " « Envoyer par mail » p.88)"
 msgstr ""
+"(See \"Contextual actions of document preview\" / \"Send by mail\" p.88)"
 
 # cee7328a5e884b24a79e120f6f98372b
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:4059
 msgid "Créer un nouveau message"
-msgstr ""
+msgstr "Creation of a new message"
 
 # f4fa0208f8144c9bac56c0e8f56ed018
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:4061
@@ -8085,6 +8390,8 @@ msgid ""
 " sur la barre noire supérieure. Cliquez ensuite sur « Nouveau message » "
 "en bleu."
 msgstr ""
+"**To create a new message / Email**, go to the envelope icon on the top "
+"black bar. Then click on \"New message\" in blue."
 
 # 1cf664d687d54e6ab0300a047419372b
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:4068
@@ -8093,16 +8400,19 @@ msgid ""
 " envoyer le mail (celui-ci doit être un utilisateur de la GoFAST), et le "
 "système vous proposera une liste de noms à sélectionner."
 msgstr ""
+"Write the first 3 letters of the user's name to whom you want to send the "
+"mail (this one must be a GoFAST user), and the system will propose you a "
+"list of names to select."
 
 # 429063c941964286ae3143ee5a878ac4
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:4072
 msgid "Donnez un titre au mail et écrivez le contenu puis envoyez"
-msgstr ""
+msgstr "Give a title to the mail, write the content and send"
 
 # d0a148e4a32e42d2bd99ee2716636040
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:4083
 msgid "Favoris et Derniers contenus vus"
-msgstr ""
+msgstr "Favourites and Last viewed content"
 
 # 49b6ebeff2e945ebb14a8bfb0e1f77a9
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:4088
@@ -8112,6 +8422,10 @@ msgid ""
 "avez consultés/ouverts, cela sert de raccourcis puisqu’il suffit de "
 "cliquer sur le titre pour ouvrir la prévisualisation."
 msgstr ""
+"This small window, which is visible almost on all pages, on the right of the "
+"screen, allows you to see **the last 10 documents** that you have viewed / "
+"opened. It serves as a shortcut, you just have to click on the title to open "
+"the preview ."
 
 # 3599a0d5aa8249c6b352e2984a608e07
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:4098
@@ -8121,6 +8435,10 @@ msgid ""
 "général. Une punaise rouge y apparaîtra, ce qui fixe la fenêtre avec la "
 "liste. Pour débloquer la liste, appuyez ailleurs sur la bande noire."
 msgstr ""
+"You can see **a list** of your favourite documents / spaces / folders by "
+"clicking on the star on the black bar of the main menu. A red pin will "
+"appear, which sets the window with the list. To unblock the list, press "
+"elsewhere on the black bar."
 
 # f16da5f603d74321b8d093652c309686
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:4103
@@ -8128,6 +8446,8 @@ msgid ""
 "Lorsque vous ajouterez un favori à votre liste, il y aura le message en "
 "vert sur la droite de l’écran qui vous signalera l’ajout du favori."
 msgstr ""
+"When you add a favourite to your list, there will be a green message on the "
+"right side of the screen that will signal you to add the favourite."
 
 # 8ac2bdae509d474cb97aea5312911b96
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:4106
@@ -8135,16 +8455,18 @@ msgid ""
 "(Cfr : voir « Comment ajouter un favori » dans les actions contextuelles "
 "de prévisualisation p. 95)"
 msgstr ""
+"(See \"How to add a favourite\" in the contextual actions of the preview on "
+"page 95)"
 
 # 54a958ace88a422e8121fad147d324c5
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:4113
 msgid "Annuaires"
-msgstr ""
+msgstr "Directories"
 
 # 8346c5b10d074256ad3eaae2f398529d
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:4116
 msgid "Chercher un Espace Collaboratif"
-msgstr ""
+msgstr "Search of a Collaborative Space"
 
 # e195be8cfa8e4d96aae14ba61cd24161
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:4118
@@ -8155,11 +8477,16 @@ msgid ""
 " que vous pouvez rejoindre en cliquant dans les cases (une demande est "
 "alors envoyée aux administrateurs métier de l'Espace)."
 msgstr ""
+"**To search for Collaborative Spaces through the directory**, go to "
+"*Directory* in the main menu, then Organizations, Groups, Public or "
+"Extranets. You will find the tree structure of existing spaces, which you "
+"can join by clicking in the boxes (then a request is sent to the business "
+"administrators of the Space)."
 
 # 911f0cd5e5994962925df2cb6ffa98bf
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:4128
 msgid "Chercher une Liste d'utilisateurs"
-msgstr ""
+msgstr "Search of a User List"
 
 # 0f56ce36f9d0417cabc5927ac6eb8bc2
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:4130
@@ -8167,11 +8494,13 @@ msgid ""
 "Pour **rechercher des Listes d'utilisateurs via l’annuaire,** allez sur "
 "*Annuaire* dans le menu principal, puis sur *Listes d'utilisateurs*."
 msgstr ""
+"**To search for User Lists through the directory**, go to the *Directory* in "
+"the main menu, and then click *User Lists*."
 
 # 6cf8a797c72a408f98bf9a0844028d70
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:4137
 msgid "Chercher un utilisateur"
-msgstr ""
+msgstr "Search of a user"
 
 # f07d05d5defe4be78761c69e49bf21dc
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:4139
@@ -8181,6 +8510,9 @@ msgid ""
 " verrez toute la liste des utilisateurs GoFAST avec leur « carte de "
 "visite »."
 msgstr ""
+"To search for a user you have the choice between typing his name in the "
+"search, or go through the \"Directory\" / \"Users\". You will see the whole "
+"list of GoFAST users with their \"business card\"."
 
 # ca8e797ec77d4e16be1b3d4faef7b956
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:4147
@@ -8188,6 +8520,8 @@ msgid ""
 "Vous pouvez **filtrer** votre recherche selon les noms et l’alphabet ou "
 "les organisations/groupes/espaces"
 msgstr ""
+"You can **filter** your search by name and alphabet or organizations / "
+"groups / spaces"
 
 # d07863a8bb3844efb917f4fe971dccc2
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:4153
@@ -8197,11 +8531,15 @@ msgid ""
 "permet de contacter/voir le raccourci de cette personne même si elle ne "
 "fait pas partie de vos espaces collaboratifs."
 msgstr ""
+"You can directly send an email or call the user through his profile. You can "
+"also send him a request for \"relationship\", which allows to contact / see "
+"the shortcut of this person even if he is not a part of your collaborative "
+"spaces."
 
 # 32c042df20bd435586606cc5b65133a0
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:4163
 msgid "Flux d'information"
-msgstr ""
+msgstr "Information flow"
 
 # 83ec4289ba84478a82174bc3b5711076
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:4165
@@ -8209,16 +8547,18 @@ msgid ""
 "Vous pouvez voir les **news** (pareil que sur l’Intranet) via ce logo "
 "(Flux) sur la bande noire du menu."
 msgstr ""
+"You can see the news (same as on the Intranet) through this logo (Flux) on "
+"the black bar of the menu."
 
 # 59703abd69c945a2b3189bb83beae58e
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:4172
 msgid "Statistics Reporting"
-msgstr ""
+msgstr "Statistics Reporting"
 
 # 2112a8a5f98d4383b9feda450e8f34e2
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:4175
 msgid "Onglet « Statistiques » dans un Espace"
-msgstr ""
+msgstr "\"Statistics\" Tab in a Space"
 
 # 5360b6904911484ea4ff6a22bf83cabc
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:4176
@@ -8227,6 +8567,9 @@ msgid ""
 "l'onglet **Statistiques**, vous pouvez ainsi choisir les informations que"
 " vous souhaitez retrouver graphiquement et sur une période sélectionnée."
 msgstr ""
+"Each user has the opportunity to see the activity of the Space. In the "
+"**Statistics** tab, you can choose the information you want to find "
+"graphically and over a selected period."
 
 # 552e7e325da444f6ab03020595c87e03
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:4178
@@ -8234,6 +8577,8 @@ msgid ""
 "Deux sous-onglets vous permet de faire un reporting, les Statistiques des"
 " membres, et les Statistiques documentaires."
 msgstr ""
+"Two sub-tabs allow you to do a reporting, Member Statistics, and Document "
+"Statistics."
 
 # e7248106e19b4edabf68b2412f9f6c83
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:4180
@@ -8242,6 +8587,8 @@ msgid ""
 "infomations relatives aux membres actifs et inactifs, les nouveaux "
 "membres et membres connectés ;"
 msgstr ""
+"Subtab **\"Member Statistics\"**  displays information about active and "
+"inactive members, new members and connected members;"
 
 # 235bd1ea33c749a4a529836f2e293683
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:4185
@@ -8250,6 +8597,8 @@ msgid ""
 "toutes les informations relatives aux documents par sa catégorie, son "
 "état et son importance ;"
 msgstr ""
+"Sub-tab \"**Document statistics**\", allows to visualize all information "
+"related to documents by category, status and importance ;"
 
 # f0afe9ae214a4938b6e1ab44fd682101
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:4192
@@ -8257,6 +8606,8 @@ msgid ""
 "Menu «**Statistics**», dans le Menu Utilisateur pour un Administrateur de"
 " plate-forme"
 msgstr ""
+"**\"Statistics\"** menu, in the User menu for an Administrator of the "
+"platform"
 
 # 6e05167fdfcd4dc4bcc6fca71fd985a7
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:4193
@@ -8264,6 +8615,8 @@ msgid ""
 "Avec le profil \"Administrateur de la plate-forme\", de nouveaux sous-"
 "menus apparaissent dans votre Menu Utilisateur, comme « **Statistics** »."
 msgstr ""
+"With the \"Platform Administrator\" profile, new submenus appear in your "
+"User Menu, such as \"**Statistics**\"."
 
 # 228da64a020e438281cb565678e304d2
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:4198
@@ -8271,21 +8624,23 @@ msgid ""
 "Ce menu permet à l'Administrateur de plate-forme de visualiser 3 onglets "
 "pour effectuer des Statistics Reporting :"
 msgstr ""
+"This menu allows the Platform Administrator to view 3 tabs to perform "
+"Statistics Reporting:"
 
 # 19ba8b855f51456e8e97e28e60d46aad
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:4200
 msgid "Statistiques Utilisateurs"
-msgstr ""
+msgstr "User Statistics"
 
 # 6633d09937ab41659472756e953f05fa
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:4201
 msgid "Statistiques d'Espaces"
-msgstr ""
+msgstr "Space Statistics"
 
 # 91079e78721841f0899e2cfe99f84b0f
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:4202
 msgid "Statistiques Documentaires"
-msgstr ""
+msgstr "Document Statistics"
 
 # a5fab772c3cf41f6aab90fc963a7d3b9
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:4207
@@ -8297,11 +8652,16 @@ msgid ""
 "docs.readthedocs.io/fr/latest/docs-gofast-users/doc-gofast-guide-"
 "utilisateurs.html#exportation-des-listes-de-documents"
 msgstr ""
+"The **Document Statistics** tab has the additional function of being able to "
+"make a document list of a selected space. For more information, see the \""
+"Export of the Document Lists\" section in the User Guide: http://gofast-"
+"docs.readthedocs.io/en/latest/docs-gofast-users/doc-gofast-userguide .html # "
+"export-the-list-of-materials"
 
 # 8433f0a3b55c462bb3138ccc7e5d6716
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:4212
 msgid "Version mobile"
-msgstr ""
+msgstr "Mobile version"
 
 # 4fcdeeccfc3248a9a07c5ce89b87fcc8
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:4214
@@ -8309,6 +8669,8 @@ msgid ""
 "La plateforme GoFAST peut fonctionner également en mobilité, et est "
 "accessible depuis n'importe quel support sur smartphone ou tablette."
 msgstr ""
+"The GoFAST platform can also be accessible from any medium, smartphone or "
+"tablet."
 
 # 09ce77750bec45f1bf96665f32e553fc
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:4216
@@ -8317,48 +8679,50 @@ msgid ""
 "facilité d'utilisation, voici quelques exemples des écrans que vous "
 "pouvez alors retrouver dans votre poche :"
 msgstr ""
+"We offer a simplified version of the platform for ease of use, here are some "
+"examples of screens that you can find in your \"pocket\" :"
 
 # c7de6d5f03034112a4a8a4a32fff423a
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:4219
 msgid "1. Le menu contextuel"
-msgstr ""
+msgstr "1. The context menu"
 
 # ec994b3aa92a4f2d8ada357ef96cb11b
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:4226
 msgid "2. Le fil d'actualité et son menu"
-msgstr ""
+msgstr "2. The newsfeed and its menu"
 
 # ac9ed542efcc42d8a28d3877a7045265
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:4232
 msgid "3. L'explorateur de fichiers / GoFAST File Browser"
-msgstr ""
+msgstr "3. The file explorer / GoFAST File Browser"
 
 # 156c39a9c9e342f8b6620afd9beb31f3
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:4239
 msgid "4. La prévisualisation et son menu de métadonnées"
-msgstr ""
+msgstr "4. The preview and its metadata menu"
 
 # f66dc8bd745a4068a5b736ba1d59ce70
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:4244
 msgid ""
 "Vous pouvez alors mettre à jour une version d'un document, ou encore "
 "ajouter un commentaire"
-msgstr ""
+msgstr "Then you can update a version of a document, or add a comment"
 
 # f5cac57b41d44c399c07327fc91a87f8
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:4248
 msgid "5. Moteur de Recherche"
-msgstr ""
+msgstr "5. Search Engine"
 
 # 13b6cf0c744e4012aa3c1cc15c5e3ce1
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:4255
 msgid "6. Le calendrier"
-msgstr ""
+msgstr "6. The calendar"
 
 # 58ef91a4e02747759f78b151871e5f67
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:4266
 msgid "Utilisation avancée (signature, mobilité, ...)"
-msgstr ""
+msgstr "Advanced use (signature, mobility, ...)"
 
 # 1fae4ed434d94dbb90d33a21da3966d6
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:4268
@@ -8367,6 +8731,9 @@ msgid ""
 " logiciels tiers fonctionnant avec la plate-forme GoFAST démultipliant "
 "les usages et la puissance de la plateforme"
 msgstr ""
+"The aim of a separate guide is to provide instructions for configuring the "
+"third-party software that works with the GoFAST platform to leverage the "
+"platform use and power"
 
 # 10a49be8320540ec8041672293357c1d
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:4272
@@ -8376,7 +8743,7 @@ msgstr "The additional tools allow doing:"
 # bcad5039e8d34e82998eade8dcf5d74b
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:4274
 msgid "Des outils complémentaires en mobilité"
-msgstr ""
+msgstr "Complementary tools in mobility"
 
 # eba709a4f8c94f4bb6fcee87f2af1f6f
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:4275
@@ -8384,18 +8751,20 @@ msgid ""
 "Une synchronisation de GoFAST avec un PC pour travailler en mode « "
 "déconnecté » (type DropBox)"
 msgstr ""
+"A GoFAST synchronization with a PC to work in \"disconnected\" mode (DropBox "
+"type)"
 
 # 8b0c7331ab534679b995720823f7472c
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:4277
 msgid ""
 "L’accès à GoFAST sur les terminaux mobiles (tablettes,…) par explorateur "
 "de fichiers"
-msgstr ""
+msgstr "Access to GoFAST from mobile devices (tablets, ...) by file explorer"
 
 # 605855bf634544199643f1e813a10797
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:4279
 msgid "La visualisation et/ou l’édition en ligne de documents Office sur tablette"
-msgstr ""
+msgstr "Visualization and / or online edition of Office documents on tablet"
 
 # 682f1af84a4d48d8b2b58cbb741d26ad
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:4281
@@ -8415,7 +8784,7 @@ msgstr "Scanning tools (smartphone, copier, ...)"
 # dc2107aa6b6244069c85f05417b50445
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:4285
 msgid "Des outils de signature électronique"
-msgstr ""
+msgstr "Electronic signature tools"
 
 # b04d01b51ff44ff2bf021e64415d4bea
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:4287
@@ -8423,11 +8792,13 @@ msgid ""
 "Vous trouverez ce Guide ici : http://gofast-docs.readthedocs.io/fr/latest"
 "/docs-gofast-users/doc-gofast-utilisation-avancee.html"
 msgstr ""
+"You can find this guide here: http://gofast-docs.readthedocs.io/en/latest/"
+"docs-gofast-users/doc-gofast-use-avanced.html"
 
 # 64f5457d94c44ac395500391d6605bc8
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:4291
 msgid "Annexes : Quelques bonnes pratiques"
-msgstr ""
+msgstr "Annex: Some useful practices"
 
 # 3e2d46eaaca54ee0bdebe0ad89f35260
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:4294
@@ -8436,11 +8807,16 @@ msgid ""
 "important que le plus grand nombre fasse l'effort de changer. Les gains "
 "en temps sont ensuite très importants, tout le monde est alors gagnant!"
 msgstr ""
+"Even if GoFAST requires a little change in routine, it is important that "
+"many people make the effort to change. The gains in time are very important, "
+"then everyone is a winner!"
 
 # 6364d3f4db0f4411ae707a0ed4d5e857
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:4299
 msgid "**Objectif 1: Diminuer le nombre de mails entre collègues et partenaires**"
 msgstr ""
+"**Objective 1: How to reduce the number of emails between colleagues and "
+"partners**"
 
 # d6f233d6988046429c838e7d24776a1b
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:4301
@@ -8449,6 +8825,8 @@ msgid ""
 "sur le document sur GoFAST, toutes les personnes recevront une "
 "notification"
 msgstr ""
+"I do not send e-mails with an attachment, but I put a comment on the "
+"document on GoFAST, all people will receive a notification"
 
 # 8bf8029bec154b9d9c08ea6a57f091f0
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:4305
@@ -8457,6 +8835,8 @@ msgid ""
 "destinataire la recoit de plus les pièces jointes encombres les "
 "messageries."
 msgstr ""
+"in many cases the attachment is already out of date when your recipient "
+"receives, furthermore attachments encumber messaging."
 
 # 59edd1686a514b52b42f3e1908cd59e6
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:4309
@@ -8464,6 +8844,8 @@ msgid ""
 "Je n'envoie plus de mails avec pièce jointe à mes contacts n'ayant pas de"
 " compte GoFAST mais j'utilise la fonction \"Partager par email\""
 msgstr ""
+"I do not send emails with attachments to my contacts who do not have a "
+"GoFAST account but I use the \"Share by email\" function"
 
 # 0741e91c19f34db9aa35b29fa4908b99
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:4311
@@ -8471,6 +8853,8 @@ msgid ""
 "Je n'élabore plus un document 'chacun son tour' mais utilise la co-"
 "édition OnlyOffice"
 msgstr ""
+"I do not write a document \"each one in turn\" any more but I use the "
+"OnlyOffice co-edition"
 
 # c6ec3c8886ed4fa48c5fec940abda85e
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:4313
@@ -8478,6 +8862,8 @@ msgid ""
 "Ceci permet de gagner du temps et limite les erreurs, évite d'avoir à "
 "fusionner les sections rédigées par chacun"
 msgstr ""
+"It helps to save time and limit errors, avoiding the need to combine "
+"sections written by each"
 
 # 4605129c96db4f9381631949dcd9f643
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:4315
@@ -8487,6 +8873,9 @@ msgid ""
 "validation, signature, etc. => tout le monde est notifié, chacun connaît "
 "sa tâche et les délais sont respectés."
 msgstr ""
+"I do not send task requests or validation by mail any more, but I use the '' "
+"workflows '' (task process) for review, validation, signature, etc. => "
+"everyone is notified, everyone knows their tasks and deadlines."
 
 # 0cb80782bd5d4da3a63a41d434f20308
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:4319
@@ -8494,6 +8883,8 @@ msgid ""
 "J’utilise les forums pour mes questions/réponses au lieu des mails => "
 "tout le monde partage ses connaissances."
 msgstr ""
+"I use forums for my questions / answers instead of emails => everyone shares "
+"his knowledge."
 
 # 792f55f02f1445b9af8652f9ec32c29e
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:4322
@@ -8501,6 +8892,8 @@ msgid ""
 "**Objectif 2: Gagner du temps dans la recherche d’information, fichiers "
 "et autres contenus**"
 msgstr ""
+"**Objective 2: How to save time searching for information, files and other "
+"content**"
 
 # 7f43db87362548268f49ff1b09383d2c
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:4324
@@ -8509,6 +8902,8 @@ msgid ""
 "(indexation \"plein-texte\") et le moteur de recherche est considéré "
 "comme un des plus puissants"
 msgstr ""
+"All contents (same cells of a spreadsheet, ....) are indexed (indexation \""
+"full-text\") and the search engine is considered as one of the most powerful"
 
 # c2fda2ce0aaa47bcab81cdff79a4a1e8
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:4327
@@ -8517,11 +8912,14 @@ msgid ""
 "je gagne jusqu'à 30% de mon temps *(source IDC : 30% des cadres passent "
 "leur temps à rechercher des contenus dispersés et dupliquer)*"
 msgstr ""
+"I earn up 30% of my time *(source IDC: 30% of executives spend their time "
+"looking for scattered content and duplicate)*"
 
 # 2ba9945a66b546d884f6ddcdbfee948d
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:4330
 msgid "**Objectif 3 : Mettre fin aux doublons de fichiers et autres contenus**"
 msgstr ""
+"**Objective 3: How to stop the duplication of files and other contents**"
 
 # ce6a15ef6f674b258366d7455838bee2
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:4332
@@ -8529,6 +8927,8 @@ msgid ""
 "Je ne garde plus de fichiers sur mon PC ou boîte mail, les documents sont"
 " centralisés et accessibles selon les droits d’utilisateurs."
 msgstr ""
+"I do not keep files on my PC or mailbox any more, the documents are "
+"centralized and accessible according to the rights of users."
 
 # 77a5c593b460418585c5de6713f0352c
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:4334
@@ -8537,16 +8937,19 @@ msgid ""
 "fonction Emplacement/Visibilité qui permet à un même document d'être vu "
 "dans plusieurs espaces."
 msgstr ""
+"I do not copy a document in several places any more, I use the function "
+"Location / Visibility which allows the same document to be seen in several "
+"spaces."
 
 # c1fa302d28304e03b55e5b2736bf67ae
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:4338
 msgid "Quelque soit l'espace, tout le monde aura la bonne version"
-msgstr ""
+msgstr "No matter the space, everyone will have the correct version"
 
 # 441db76e70b34ff68726f55518fabf64
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:4340
 msgid "Je ne créé plus un fichier par version"
-msgstr ""
+msgstr "I do not create one file per version any more"
 
 # 58a2c37577b44421a7e3c9588ef79365
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:4342
@@ -8554,6 +8957,7 @@ msgid ""
 "GoFAST versionne automatiquement et toutes les versions sont accessibles "
 "à tout moment."
 msgstr ""
+"GoFAST version is automatic and all versions are accessible at any time."
 
 # ddb5c72317ff4cbdb8fee938ca1ab06d
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:4345
@@ -8562,6 +8966,8 @@ msgid ""
 "copie locale ou de version papier (accès Online sur Tablettes et "
 "Online/Offline sur PC)."
 msgstr ""
+"I have access to my working documents anywhere and I do not need local copy "
+"or paper version (online access on Tablets and Online / Offline on PC)."
 
 # 914c183e07df4db292f7768f94fd97f8
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:4348
@@ -8570,6 +8976,9 @@ msgid ""
 "l’Extranet GoFAST et ainsi, ils ont accès aux mêmes documents et non plus"
 " des doublons, qui sont rapidement obsolètes."
 msgstr ""
+"I share information with my customers and suppliers in the GoFAST Extranet "
+"and thus they have access to the same documents and no duplicates any more, "
+"which become obsolete quite quickly."
 
 # b9e0123fdb9249c4a19d85cb04469721
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:4351
@@ -8577,6 +8986,8 @@ msgid ""
 "Je ne stocke plus mes documents dans la messagerie car un simple glisser-"
 "déposer suffit pour les transférer sur GoFAST."
 msgstr ""
+"I do not store my documents in the mail any more because a simple drag and "
+"drop is enough to transfer them to GoFAST."
 
 # a542b3943d114cfb801f75b4ac172d88
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:4354
@@ -8584,6 +8995,8 @@ msgid ""
 "**Objectif 4: Maîtriser les processus de traitement, validation et "
 "signature des documents**"
 msgstr ""
+"**Objective 4: How to control the process of processing, validation and "
+"signing of documents**"
 
 # 37d2fb74100a430aac41a4883b11a5e9
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:4356
@@ -8592,6 +9005,9 @@ msgid ""
 "sont modélisés dans GoFAST => grâce à des circuits de tâches "
 "prédéterminés, vous retrouvez la maîtrise des divers processus métier."
 msgstr ""
+"Informal processes or paper-based procedures, which are often ineffective, "
+"are modeled in GoFAST => thanks to the circuits of predetermined tasks , you "
+"can control the various business processes."
 
 # 39393945cce54923bef5ffd56406baa0
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:4361
@@ -8600,11 +9016,13 @@ msgid ""
 "sont clairement indiquées sur les processus et me sont rappelées par "
 "notification."
 msgstr ""
+"I do not have to look for deadlines in my emails any more, they are clearly "
+"indicated on the processes and I am reminded by notification."
 
 # d759412b6427493898735563559e3a69
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:4365
 msgid "**Objectif 5: Diminuer le volume papier**"
-msgstr ""
+msgstr "**Objective 5: How to reduce paper volume**"
 
 # 6b59f24e4a174400aedfca3321e5938c
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:4367
@@ -8676,4 +9094,3 @@ msgstr ""
 
 #~ msgid "Gérer en masse les Publications de documents (en v 3.6)"
 #~ msgstr ""
-
