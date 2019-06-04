@@ -1932,6 +1932,8 @@ Vous retrouverez également le titre des commentaires dans l'index (bloc sur la 
 .. figure:: media-guide/image145.png
    :alt: 
 
+.. NOTE:: Dans le cas d'une réponse à un commentaire existant, le titre est pré-rempli avec le titre de celui-ci préfixé de "Re:"(pour réponse). Il est toutefois possible de le modifier, si l'utilisateur le souhaite.
+
 Les utilisateurs qui ont accès à ce document verrons un numéro dans l’icône commentaire (en haut de la prévisualisation, à droite du titre du document) indiquant qu’il y a des nouveaux commentaires. L’icône est alors de couleur rouge.
 
 .. figure:: media-guide/image146.png
@@ -2671,17 +2673,17 @@ Accéder à l'explorateur de fichiers GoFAST
 
 Il existe 3 façons d'accéder à l'explorateur de fichiers GoFAST File Browser :
 
-.. [#f1] Vous pouvez afficher l'explorateur de fichier GoFAST depuis le menu principal en allant dans "Espace", puis sur "Explorateur". 
+1. Vous pouvez afficher l'explorateur de fichier GoFAST depuis le menu principal en allant dans "Espace", puis sur "Explorateur". 
   
 .. figure:: media-guide/FBrowser-01.png
    :alt:
 
-.. [#f2] Vous pouvez afficher l'explorateur de fichier GoFAST depuis la page d'un espace en cliquant sur l'onglet "Documents" 
+2. Vous pouvez afficher l'explorateur de fichier GoFAST depuis la page d'un espace en cliquant sur l'onglet "Documents" 
 
 .. figure:: media-guide/FBrowser-02.png
    :alt:
 
-.. [#f3] Vous pouvez à tout moment déplier le bloc de l'explorateur de fichiers qui est caché à gauche sur chaque page de GoFAST
+3. Vous pouvez à tout moment déplier le bloc de l'explorateur de fichiers qui est caché à gauche sur chaque page de GoFAST
 
 .. figure:: media-guide/FBrowser-03.png
    :alt: 
@@ -2727,14 +2729,14 @@ Utiliser la barre d’outils de GoFAST File Browser
 La barre d'outils de l'explorateur de fichier permet d'effectuer les action suivantes : 
 
 Modifier la manière dont sont affichés les contenus
-~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. figure:: media-guide/FBrowser-06.png
    :alt:
 
 
 Créer un nouveau contenu dans le dossier sectionné
-~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Si vous appuyez sur le bouton *Nouveau* puis *Dossier*, cela vous permet de créer un nouveau dossier à cet emplacement. Il vous suffit ensuite de le nommer, puis valider. 
 
