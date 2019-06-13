@@ -10,23 +10,39 @@ Nouvelles fonctionnalités
    :widths: 10, 40, 10
    
       "[4848]","Mise à jour majeure du moteur de Workflows BonitaSoft 7.7.4 : 
-      
       - nouvelle ergonomie
       - nouvelles fonctionnalités
       - nouvelles notifications
-      - meilleures performances","[Enterprise]"
-      "[4711]","Nouvelle vue historique pour les workflows archivés, accessible depuis la page d’un document","[Enterprise]"
-      "[4262]","Historique détaillé des actions et commentaires faits dans un workflow en cours","[Enterprise]"
-      "[4713]","Historique détaillé des actions et commentaires faits dans un workflow archivé","[Enterprise]"
-      "[4822]","Nouveau formulaire pour le workflow standard avec possibilité de rechercher et ajouter plusieurs documents","[Enterprise]"
+      - meilleures performances
+      Voir : https://bit.ly/2UZP5Lp","[Enterprise]"
+      "[4711]","Nouvelle vue historique pour les workflows archivés, accessible depuis la page d’un document
+   
+   Voir : https://bit.ly/2Xk8ZxV","[Enterprise]"
+      "[4262]","Historique détaillé des actions et commentaires faits dans un workflow en cours
+   
+   Voir : https://bit.ly/2Zgf5RL","[Enterprise]"
+      "[4713]","Historique détaillé des actions et commentaires faits dans un workflow archivé
+   
+   Voir : https://bit.ly/2Xk8ZxV","[Enterprise]"
+      "[4822]","Nouveau formulaire pour le workflow standard avec possibilité de rechercher et ajouter plusieurs documents
+   
+   Voir : https://bit.ly/2UjWqRn","[Enterprise]"
       "[4783]","Création de widgets GoFAST sur BonitaSoft","[Enterprise]"
       "[4784]","Nouveaux connecteurs BonitaSoft/GoFAST (+ amélioration des existants)","[Enterprise]"
       "[4820]","Nouvelles API supplémentaires pour BonitaSoft","[Enterprise]"
-      "[1640]","Listes d’Utilisateurs : gestion en masse et automatique des accès aux Espaces Collaboratifs","[Community][Enterprise]"
-      "[3782]","Nouvelle API REST GoFAST pour simplifier les couplages avec d’autres outils métiers","[Community][Enterprise]"
-      "[4141]","Gestion en masse des documents depuis le panier documentaire","[Community][Enterprise]"
-      "[4201]","Création en masse des Publications depuis des documents de travail en un clic","[Community][Enterprise]"
-      "[4202]","Comparatif de versions : écarts entre 2 versions d'un document en les affichant côte-à-côte [BETA]","[Community][Enterprise]"
+      "[1640]","Listes d’Utilisateurs : gestion en masse et automatique des accès aux Espaces Collaboratifs et autres fonctionnalités
+   
+   Voir : https://bit.ly/2UoTfYC","[Community en v3.6.1][Enterprise]"
+      "[3782]","Nouvelle API REST GoFAST pour simplifier les couplages avec d’autres outils métiers","[Community en v3.6.1][Enterprise]"
+      "[4141]","Gestion en masse des documents depuis le panier documentaire
+   
+   Voir : https://bit.ly/2vaO4Bq","[Community en v3.6.1][Enterprise]"
+      "[4201]","Création en masse des Publications depuis une séléction de documents de travail
+   
+   Voir : https://bit.ly/2UGLORU","[Community en v3.6.1][Enterprise]"
+      "[4202]","Comparatif de versions : écarts entre 2 versions d'un document en les affichant côte-à-côte [BETA]
+   
+   Voir : https://bit.ly/2GrV03u","[Community en v3.6.1][Enterprise]"
       "[4273]","Extension des fonctionnalités sur GoFAST mobile : 
       
       - Pouvoir consulter sur la page d’un document sa catégorie, son état et son échéance, 
@@ -126,4 +142,9 @@ Bugs mineurs
       "[4974]","Afficher des icones manquantes dans l’éditeur de texte de l'accueil d'un Espace Collaboratif","[Community][Enterprise]"
       "[4977]","Afficher l’éditeur de texte du microblogging (sur le fil d’activité)","[Community][Enterprise]"
       "[4995]","Dans GoFAST File Browser, activer les boutons d'actions quand les éléments sont sélectionnés par via les cases à cocher","[Community][Enterprise]"
+      
+      
+**Note: Mettre à jour GoFAST Community** 
+   Pour pouvoir mettre à jour votre GoFAST Community, le serveur de mise à jour doit être accessible. Les nouvelles fonctionnalités et les autres améliorations seront disponibles sur www.ceo-vision.com en libre téléchargement en 3.6.1 (actuellement v3.5.2).  
+
 

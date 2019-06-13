@@ -1,0 +1,1533 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019
+# This file is distributed under the same license as the gofast-docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: gofast-docs latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-05-21 13:53+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+
+#: ../../docs-gofast-development/api-rest.rst:3
+msgid "GoFAST :  API REST"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:5
+msgid ""
+"L'API REST de GoFAST permet aux développeurs d'intéragir avec "
+"l'application de manière programmative. Vous trouverez sur cette page "
+"toutes les informations nécessaires à l'exploitation de cette API."
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:8
+msgid "Authentification"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:11
+msgid "Basic"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:13
+msgid ""
+"La méthode d'authentification Basic est la méthode d'authentification "
+"classique définit dans la RFC 7617 controlée par le protocole HTTP (aussi"
+" appelée HTTP authentication)."
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:15
+msgid ""
+"Elle nécessite de passer le header *Authorization* à une requête avec en "
+"valeur la chaine *Basic AUTHORIZATION_VALUE* ou *AUTHORIZATION_VALUE* est"
+" la chaine *username:password* encodée en base 64."
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:17
+msgid ""
+"Exemple : Pour l'utilisateur user1:motdepasse1, il faudra passer la "
+"valeur : *Basic dXNlcjE6bW90ZGVwYXNzZTE=*"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:21
+msgid "Token"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:23
+msgid ""
+"La méthode d'authentification par token est utilisée pour générer une "
+"session temporaire identifiée par un jeton (une chaine de caractères)."
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:25
+msgid "Elle utilise la ressource *login*, l'action *token* et la méthode *GET*."
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:27
+#: ../../docs-gofast-development/api-rest.rst:42
+msgid ""
+"L'action *token* n'est pas disponible depuis l'API externe de GoFAST, "
+"elle est utilisée entre les composants internes de la plateforme."
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:30
+msgid "Ressources"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:33
+msgid "Ressource : login"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:35
+msgid ""
+"Cette ressource permet d'intéragir avec le système d'authentification de "
+"GoFAST."
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:38
+msgid "Action : token"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:40
+msgid ""
+"Cette action permet d'intéragir avec le système d'authentification par "
+"token."
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:45
+#: ../../docs-gofast-development/api-rest.rst:88
+#: ../../docs-gofast-development/api-rest.rst:214
+#: ../../docs-gofast-development/api-rest.rst:362
+#: ../../docs-gofast-development/api-rest.rst:480
+#: ../../docs-gofast-development/api-rest.rst:571
+#: ../../docs-gofast-development/api-rest.rst:611
+#: ../../docs-gofast-development/api-rest.rst:649
+#: ../../docs-gofast-development/api-rest.rst:695
+#: ../../docs-gofast-development/api-rest.rst:742
+#: ../../docs-gofast-development/api-rest.rst:882
+#: ../../docs-gofast-development/api-rest.rst:923
+#: ../../docs-gofast-development/api-rest.rst:954
+msgid "GET"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:47
+msgid ""
+"Cette méthode permet de récupérer un token d'authentification. Ce dernier"
+" est valable pendant 3 minutes."
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:49
+msgid "*GET: /api/login/token*"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:52
+#: ../../docs-gofast-development/api-rest.rst:66
+#: ../../docs-gofast-development/api-rest.rst:95
+#: ../../docs-gofast-development/api-rest.rst:109
+#: ../../docs-gofast-development/api-rest.rst:156
+#: ../../docs-gofast-development/api-rest.rst:168
+#: ../../docs-gofast-development/api-rest.rst:197
+#: ../../docs-gofast-development/api-rest.rst:221
+#: ../../docs-gofast-development/api-rest.rst:235
+#: ../../docs-gofast-development/api-rest.rst:258
+#: ../../docs-gofast-development/api-rest.rst:290
+#: ../../docs-gofast-development/api-rest.rst:311
+#: ../../docs-gofast-development/api-rest.rst:343
+#: ../../docs-gofast-development/api-rest.rst:369
+#: ../../docs-gofast-development/api-rest.rst:383
+#: ../../docs-gofast-development/api-rest.rst:404
+#: ../../docs-gofast-development/api-rest.rst:420
+#: ../../docs-gofast-development/api-rest.rst:441
+#: ../../docs-gofast-development/api-rest.rst:457
+#: ../../docs-gofast-development/api-rest.rst:487
+#: ../../docs-gofast-development/api-rest.rst:503
+#: ../../docs-gofast-development/api-rest.rst:521
+#: ../../docs-gofast-development/api-rest.rst:533
+#: ../../docs-gofast-development/api-rest.rst:552
+#: ../../docs-gofast-development/api-rest.rst:578
+#: ../../docs-gofast-development/api-rest.rst:594
+#: ../../docs-gofast-development/api-rest.rst:618
+#: ../../docs-gofast-development/api-rest.rst:632
+#: ../../docs-gofast-development/api-rest.rst:656
+#: ../../docs-gofast-development/api-rest.rst:670
+#: ../../docs-gofast-development/api-rest.rst:702
+#: ../../docs-gofast-development/api-rest.rst:719
+#: ../../docs-gofast-development/api-rest.rst:749
+#: ../../docs-gofast-development/api-rest.rst:763
+#: ../../docs-gofast-development/api-rest.rst:792
+#: ../../docs-gofast-development/api-rest.rst:812
+#: ../../docs-gofast-development/api-rest.rst:841
+#: ../../docs-gofast-development/api-rest.rst:860
+#: ../../docs-gofast-development/api-rest.rst:891
+#: ../../docs-gofast-development/api-rest.rst:906
+#: ../../docs-gofast-development/api-rest.rst:932
+#: ../../docs-gofast-development/api-rest.rst:961
+#: ../../docs-gofast-development/api-rest.rst:976
+#: ../../docs-gofast-development/api-rest.rst:1005
+#: ../../docs-gofast-development/api-rest.rst:1019
+msgid "Header"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:52
+#: ../../docs-gofast-development/api-rest.rst:58
+#: ../../docs-gofast-development/api-rest.rst:66
+#: ../../docs-gofast-development/api-rest.rst:72
+#: ../../docs-gofast-development/api-rest.rst:95
+#: ../../docs-gofast-development/api-rest.rst:101
+#: ../../docs-gofast-development/api-rest.rst:109
+#: ../../docs-gofast-development/api-rest.rst:115
+#: ../../docs-gofast-development/api-rest.rst:156
+#: ../../docs-gofast-development/api-rest.rst:162
+#: ../../docs-gofast-development/api-rest.rst:168
+#: ../../docs-gofast-development/api-rest.rst:174
+#: ../../docs-gofast-development/api-rest.rst:197
+#: ../../docs-gofast-development/api-rest.rst:203
+#: ../../docs-gofast-development/api-rest.rst:221
+#: ../../docs-gofast-development/api-rest.rst:227
+#: ../../docs-gofast-development/api-rest.rst:235
+#: ../../docs-gofast-development/api-rest.rst:243
+#: ../../docs-gofast-development/api-rest.rst:258
+#: ../../docs-gofast-development/api-rest.rst:278
+#: ../../docs-gofast-development/api-rest.rst:290
+#: ../../docs-gofast-development/api-rest.rst:296
+#: ../../docs-gofast-development/api-rest.rst:311
+#: ../../docs-gofast-development/api-rest.rst:331
+#: ../../docs-gofast-development/api-rest.rst:343
+#: ../../docs-gofast-development/api-rest.rst:349
+#: ../../docs-gofast-development/api-rest.rst:369
+#: ../../docs-gofast-development/api-rest.rst:375
+#: ../../docs-gofast-development/api-rest.rst:383
+#: ../../docs-gofast-development/api-rest.rst:391
+#: ../../docs-gofast-development/api-rest.rst:404
+#: ../../docs-gofast-development/api-rest.rst:420
+#: ../../docs-gofast-development/api-rest.rst:428
+#: ../../docs-gofast-development/api-rest.rst:441
+#: ../../docs-gofast-development/api-rest.rst:457
+#: ../../docs-gofast-development/api-rest.rst:465
+#: ../../docs-gofast-development/api-rest.rst:487
+#: ../../docs-gofast-development/api-rest.rst:495
+#: ../../docs-gofast-development/api-rest.rst:503
+#: ../../docs-gofast-development/api-rest.rst:521
+#: ../../docs-gofast-development/api-rest.rst:527
+#: ../../docs-gofast-development/api-rest.rst:533
+#: ../../docs-gofast-development/api-rest.rst:539
+#: ../../docs-gofast-development/api-rest.rst:552
+#: ../../docs-gofast-development/api-rest.rst:558
+#: ../../docs-gofast-development/api-rest.rst:578
+#: ../../docs-gofast-development/api-rest.rst:586
+#: ../../docs-gofast-development/api-rest.rst:594
+#: ../../docs-gofast-development/api-rest.rst:618
+#: ../../docs-gofast-development/api-rest.rst:624
+#: ../../docs-gofast-development/api-rest.rst:632
+#: ../../docs-gofast-development/api-rest.rst:638
+#: ../../docs-gofast-development/api-rest.rst:656
+#: ../../docs-gofast-development/api-rest.rst:662
+#: ../../docs-gofast-development/api-rest.rst:670
+#: ../../docs-gofast-development/api-rest.rst:676
+#: ../../docs-gofast-development/api-rest.rst:702
+#: ../../docs-gofast-development/api-rest.rst:708
+#: ../../docs-gofast-development/api-rest.rst:719
+#: ../../docs-gofast-development/api-rest.rst:725
+#: ../../docs-gofast-development/api-rest.rst:749
+#: ../../docs-gofast-development/api-rest.rst:755
+#: ../../docs-gofast-development/api-rest.rst:763
+#: ../../docs-gofast-development/api-rest.rst:769
+#: ../../docs-gofast-development/api-rest.rst:792
+#: ../../docs-gofast-development/api-rest.rst:798
+#: ../../docs-gofast-development/api-rest.rst:812
+#: ../../docs-gofast-development/api-rest.rst:818
+#: ../../docs-gofast-development/api-rest.rst:841
+#: ../../docs-gofast-development/api-rest.rst:847
+#: ../../docs-gofast-development/api-rest.rst:860
+#: ../../docs-gofast-development/api-rest.rst:866
+#: ../../docs-gofast-development/api-rest.rst:891
+#: ../../docs-gofast-development/api-rest.rst:897
+#: ../../docs-gofast-development/api-rest.rst:906
+#: ../../docs-gofast-development/api-rest.rst:912
+#: ../../docs-gofast-development/api-rest.rst:932
+#: ../../docs-gofast-development/api-rest.rst:938
+#: ../../docs-gofast-development/api-rest.rst:961
+#: ../../docs-gofast-development/api-rest.rst:967
+#: ../../docs-gofast-development/api-rest.rst:976
+#: ../../docs-gofast-development/api-rest.rst:982
+#: ../../docs-gofast-development/api-rest.rst:1005
+#: ../../docs-gofast-development/api-rest.rst:1011
+#: ../../docs-gofast-development/api-rest.rst:1019
+#: ../../docs-gofast-development/api-rest.rst:1025
+msgid "Valeur"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:54
+#: ../../docs-gofast-development/api-rest.rst:68
+#: ../../docs-gofast-development/api-rest.rst:97
+#: ../../docs-gofast-development/api-rest.rst:111
+#: ../../docs-gofast-development/api-rest.rst:158
+#: ../../docs-gofast-development/api-rest.rst:170
+#: ../../docs-gofast-development/api-rest.rst:199
+#: ../../docs-gofast-development/api-rest.rst:223
+#: ../../docs-gofast-development/api-rest.rst:237
+#: ../../docs-gofast-development/api-rest.rst:260
+#: ../../docs-gofast-development/api-rest.rst:292
+#: ../../docs-gofast-development/api-rest.rst:313
+#: ../../docs-gofast-development/api-rest.rst:345
+#: ../../docs-gofast-development/api-rest.rst:371
+#: ../../docs-gofast-development/api-rest.rst:385
+#: ../../docs-gofast-development/api-rest.rst:406
+#: ../../docs-gofast-development/api-rest.rst:422
+#: ../../docs-gofast-development/api-rest.rst:443
+#: ../../docs-gofast-development/api-rest.rst:459
+#: ../../docs-gofast-development/api-rest.rst:489
+#: ../../docs-gofast-development/api-rest.rst:505
+#: ../../docs-gofast-development/api-rest.rst:523
+#: ../../docs-gofast-development/api-rest.rst:535
+#: ../../docs-gofast-development/api-rest.rst:554
+#: ../../docs-gofast-development/api-rest.rst:580
+#: ../../docs-gofast-development/api-rest.rst:596
+#: ../../docs-gofast-development/api-rest.rst:620
+#: ../../docs-gofast-development/api-rest.rst:634
+#: ../../docs-gofast-development/api-rest.rst:658
+#: ../../docs-gofast-development/api-rest.rst:672
+#: ../../docs-gofast-development/api-rest.rst:704
+#: ../../docs-gofast-development/api-rest.rst:721
+#: ../../docs-gofast-development/api-rest.rst:751
+#: ../../docs-gofast-development/api-rest.rst:765
+#: ../../docs-gofast-development/api-rest.rst:794
+#: ../../docs-gofast-development/api-rest.rst:814
+#: ../../docs-gofast-development/api-rest.rst:843
+#: ../../docs-gofast-development/api-rest.rst:862
+#: ../../docs-gofast-development/api-rest.rst:893
+#: ../../docs-gofast-development/api-rest.rst:908
+#: ../../docs-gofast-development/api-rest.rst:934
+#: ../../docs-gofast-development/api-rest.rst:963
+#: ../../docs-gofast-development/api-rest.rst:978
+#: ../../docs-gofast-development/api-rest.rst:1007
+#: ../../docs-gofast-development/api-rest.rst:1021
+msgid "Content-Type"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:54
+#: ../../docs-gofast-development/api-rest.rst:68
+#: ../../docs-gofast-development/api-rest.rst:97
+#: ../../docs-gofast-development/api-rest.rst:111
+#: ../../docs-gofast-development/api-rest.rst:170
+#: ../../docs-gofast-development/api-rest.rst:199
+#: ../../docs-gofast-development/api-rest.rst:223
+#: ../../docs-gofast-development/api-rest.rst:237
+#: ../../docs-gofast-development/api-rest.rst:260
+#: ../../docs-gofast-development/api-rest.rst:292
+#: ../../docs-gofast-development/api-rest.rst:313
+#: ../../docs-gofast-development/api-rest.rst:345
+#: ../../docs-gofast-development/api-rest.rst:371
+#: ../../docs-gofast-development/api-rest.rst:385
+#: ../../docs-gofast-development/api-rest.rst:406
+#: ../../docs-gofast-development/api-rest.rst:422
+#: ../../docs-gofast-development/api-rest.rst:443
+#: ../../docs-gofast-development/api-rest.rst:459
+#: ../../docs-gofast-development/api-rest.rst:535
+#: ../../docs-gofast-development/api-rest.rst:554
+#: ../../docs-gofast-development/api-rest.rst:620
+#: ../../docs-gofast-development/api-rest.rst:634
+#: ../../docs-gofast-development/api-rest.rst:658
+#: ../../docs-gofast-development/api-rest.rst:672
+#: ../../docs-gofast-development/api-rest.rst:704
+#: ../../docs-gofast-development/api-rest.rst:721
+#: ../../docs-gofast-development/api-rest.rst:751
+#: ../../docs-gofast-development/api-rest.rst:765
+#: ../../docs-gofast-development/api-rest.rst:794
+#: ../../docs-gofast-development/api-rest.rst:814
+#: ../../docs-gofast-development/api-rest.rst:843
+#: ../../docs-gofast-development/api-rest.rst:862
+#: ../../docs-gofast-development/api-rest.rst:893
+#: ../../docs-gofast-development/api-rest.rst:908
+#: ../../docs-gofast-development/api-rest.rst:934
+#: ../../docs-gofast-development/api-rest.rst:963
+#: ../../docs-gofast-development/api-rest.rst:978
+#: ../../docs-gofast-development/api-rest.rst:1007
+#: ../../docs-gofast-development/api-rest.rst:1021
+msgid "application/json"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:58
+#: ../../docs-gofast-development/api-rest.rst:101
+#: ../../docs-gofast-development/api-rest.rst:227
+#: ../../docs-gofast-development/api-rest.rst:375
+#: ../../docs-gofast-development/api-rest.rst:495
+#: ../../docs-gofast-development/api-rest.rst:586
+#: ../../docs-gofast-development/api-rest.rst:624
+#: ../../docs-gofast-development/api-rest.rst:662
+#: ../../docs-gofast-development/api-rest.rst:755
+msgid "GET Parameter"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:60
+msgid "name*"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:60
+msgid "Username de l'utilisateur"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:63
+#: ../../docs-gofast-development/api-rest.rst:106
+#: ../../docs-gofast-development/api-rest.rst:194
+#: ../../docs-gofast-development/api-rest.rst:232
+#: ../../docs-gofast-development/api-rest.rst:287
+#: ../../docs-gofast-development/api-rest.rst:340
+#: ../../docs-gofast-development/api-rest.rst:380
+#: ../../docs-gofast-development/api-rest.rst:417
+#: ../../docs-gofast-development/api-rest.rst:454
+#: ../../docs-gofast-development/api-rest.rst:500
+#: ../../docs-gofast-development/api-rest.rst:549
+#: ../../docs-gofast-development/api-rest.rst:591
+#: ../../docs-gofast-development/api-rest.rst:629
+#: ../../docs-gofast-development/api-rest.rst:667
+#: ../../docs-gofast-development/api-rest.rst:716
+#: ../../docs-gofast-development/api-rest.rst:760
+#: ../../docs-gofast-development/api-rest.rst:809
+#: ../../docs-gofast-development/api-rest.rst:857
+#: ../../docs-gofast-development/api-rest.rst:903
+#: ../../docs-gofast-development/api-rest.rst:929
+#: ../../docs-gofast-development/api-rest.rst:973
+#: ../../docs-gofast-development/api-rest.rst:1016
+msgid "*Retour:*"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:72
+#: ../../docs-gofast-development/api-rest.rst:115
+#: ../../docs-gofast-development/api-rest.rst:162
+#: ../../docs-gofast-development/api-rest.rst:174
+#: ../../docs-gofast-development/api-rest.rst:203
+#: ../../docs-gofast-development/api-rest.rst:243
+#: ../../docs-gofast-development/api-rest.rst:278
+#: ../../docs-gofast-development/api-rest.rst:296
+#: ../../docs-gofast-development/api-rest.rst:331
+#: ../../docs-gofast-development/api-rest.rst:349
+#: ../../docs-gofast-development/api-rest.rst:391
+#: ../../docs-gofast-development/api-rest.rst:428
+#: ../../docs-gofast-development/api-rest.rst:465
+#: ../../docs-gofast-development/api-rest.rst:539
+#: ../../docs-gofast-development/api-rest.rst:558
+#: ../../docs-gofast-development/api-rest.rst:638
+#: ../../docs-gofast-development/api-rest.rst:676
+#: ../../docs-gofast-development/api-rest.rst:708
+#: ../../docs-gofast-development/api-rest.rst:725
+#: ../../docs-gofast-development/api-rest.rst:769
+#: ../../docs-gofast-development/api-rest.rst:798
+#: ../../docs-gofast-development/api-rest.rst:818
+#: ../../docs-gofast-development/api-rest.rst:847
+#: ../../docs-gofast-development/api-rest.rst:866
+#: ../../docs-gofast-development/api-rest.rst:897
+#: ../../docs-gofast-development/api-rest.rst:912
+#: ../../docs-gofast-development/api-rest.rst:938
+#: ../../docs-gofast-development/api-rest.rst:967
+#: ../../docs-gofast-development/api-rest.rst:982
+#: ../../docs-gofast-development/api-rest.rst:1011
+#: ../../docs-gofast-development/api-rest.rst:1025
+msgid "Clé"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:74
+msgid "token"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:74
+msgid "Jeton d'authentification"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:78
+msgid "Ressource : node"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:80
+msgid ""
+"Cette ressource permet d'intéragir avec les entités Drupal de type noeud."
+" Ces derniers peuvent représenter des documents, articles, espaces, "
+"formulaires..."
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:83
+msgid "Action : node"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:85
+msgid ""
+"Cette action permet d'intéragir basiquement avec les entités Drupal de "
+"type noeud."
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:90
+msgid ""
+"Cette méthode permet de récupérer des informations génériques d'une "
+"entité de type noeud"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:92
+msgid "*GET: /api/node/node*"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:103
+#: ../../docs-gofast-development/api-rest.rst:229
+#: ../../docs-gofast-development/api-rest.rst:280
+#: ../../docs-gofast-development/api-rest.rst:333
+#: ../../docs-gofast-development/api-rest.rst:377
+#: ../../docs-gofast-development/api-rest.rst:412
+#: ../../docs-gofast-development/api-rest.rst:449
+#: ../../docs-gofast-development/api-rest.rst:497
+#: ../../docs-gofast-development/api-rest.rst:541
+#: ../../docs-gofast-development/api-rest.rst:588
+#: ../../docs-gofast-development/api-rest.rst:626
+#: ../../docs-gofast-development/api-rest.rst:664
+#: ../../docs-gofast-development/api-rest.rst:800
+msgid "nid*"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:103
+#: ../../docs-gofast-development/api-rest.rst:117
+#: ../../docs-gofast-development/api-rest.rst:205
+#: ../../docs-gofast-development/api-rest.rst:229
+#: ../../docs-gofast-development/api-rest.rst:280
+#: ../../docs-gofast-development/api-rest.rst:333
+#: ../../docs-gofast-development/api-rest.rst:377
+#: ../../docs-gofast-development/api-rest.rst:412
+#: ../../docs-gofast-development/api-rest.rst:449
+#: ../../docs-gofast-development/api-rest.rst:497
+#: ../../docs-gofast-development/api-rest.rst:541
+#: ../../docs-gofast-development/api-rest.rst:588
+#: ../../docs-gofast-development/api-rest.rst:626
+#: ../../docs-gofast-development/api-rest.rst:664
+#: ../../docs-gofast-development/api-rest.rst:771
+#: ../../docs-gofast-development/api-rest.rst:800
+msgid "N° du noeud"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:117
+#: ../../docs-gofast-development/api-rest.rst:205
+#: ../../docs-gofast-development/api-rest.rst:771
+msgid "nid"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:119
+#: ../../docs-gofast-development/api-rest.rst:680
+msgid "type"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:119
+msgid "Type du noeud"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:121
+msgid "title"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:121
+msgid "Titre du noeud"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:123
+msgid "status"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:123
+msgid "1: Publié, 0: Dépublié (Supprimé)"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:125
+#: ../../docs-gofast-development/api-rest.rst:727
+#: ../../docs-gofast-development/api-rest.rst:775
+#: ../../docs-gofast-development/api-rest.rst:984
+msgid "uid"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:125
+msgid "N° du créateur du noeud"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:127
+msgid "sticky"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:127
+msgid "1: Epinglé, 0: Pas épinglé"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:129
+msgid "language"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:129
+msgid "Langue du noeud (und, fr, en, nl...)"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:131
+#: ../../docs-gofast-development/api-rest.rst:682
+msgid "created"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:131
+msgid "Timestamp de création du noeud"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:133
+msgid "updated"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:133
+msgid "Timestamp de dernière modification du noeud"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:135
+msgid "update_uid"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:135
+msgid "N° du dernier modificateur du noeud"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:137
+msgid "comment_count"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:137
+msgid "Nombre de commentaires attachés au noeud"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:139
+msgid "last_comment_uid"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:139
+msgid "N° du dernier commentateur du noeud"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:141
+msgid "last_comment_timestamp"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:141
+msgid "Timestamp du dernier commentaire du noeud"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:143
+msgid "last_comment_cid"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:143
+msgid "N° du dernier commentaire du noeud"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:145
+msgid "alfresco_reference"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:145
+msgid "Référence du contenu Alfresco associé au noeud"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:149
+#: ../../docs-gofast-development/api-rest.rst:251
+#: ../../docs-gofast-development/api-rest.rst:434
+#: ../../docs-gofast-development/api-rest.rst:514
+#: ../../docs-gofast-development/api-rest.rst:998
+msgid "POST"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:151
+msgid ""
+"Cette méthode permet de créer une entité de type noeud. Si ce noeud est "
+"de type alfresco_item et qu'il n'est pas crée à partir d'un modèle, il "
+"est obligatoire d'y ajouter un fichier."
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:153
+msgid "*POST: /api/node/node*"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:158
+#: ../../docs-gofast-development/api-rest.rst:523
+msgid "multipart/form-data"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:164
+msgid "file**"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:164
+msgid ""
+"Le fichier à charger (si le type de noeud est 'alfresco_item' et qu'il "
+"n'est pas à créer à partir d'un template)"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:176
+msgid "type*"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:176
+msgid "Type de noeud"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:178
+#: ../../docs-gofast-development/api-rest.rst:851
+msgid "title*"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:178
+msgid "Le titre du fichier, de l'article, du forum..."
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:180
+msgid "locations**"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:180
+msgid ""
+"Les emplacements dans un tableau sous la forme "
+"\"/Sites/_Organisations/Mon Organisation/XXX\" (alfresco_item seulement)"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:182
+msgid "template_nid**"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:182
+msgid ""
+"L'identifiant du noeud du template à partir duquel créer le fichier si "
+"nécessaire (alfresco_item seulement)"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:184
+msgid "gids**"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:184
+msgid ""
+"Les n° des espaces de destination dans un tableau (article, forum "
+"seulement)"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:186
+msgid "body**"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:186
+msgid "Le contenu au format HTML (article, forum seulement)"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:192
+msgid "Les types de noeud disponibles sont :"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:190
+msgid "alfresco_item (Document)"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:191
+msgid "article (Page interne)"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:192
+msgid "forum (Forum)"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:209
+msgid "Action : metadata"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:211
+msgid ""
+"Cette action permet d'intéragir avec les métadonnées associés aux entités"
+" de type noeud"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:216
+msgid ""
+"Cette méthode permet de récupérer les métadonnées associés aux entités de"
+" type noeud"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:218
+msgid "*GET: /api/node/metadata*"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:245
+#: ../../docs-gofast-development/api-rest.rst:282
+#: ../../docs-gofast-development/api-rest.rst:335
+msgid "field_XXX"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:245
+#: ../../docs-gofast-development/api-rest.rst:247
+#: ../../docs-gofast-development/api-rest.rst:282
+#: ../../docs-gofast-development/api-rest.rst:284
+#: ../../docs-gofast-development/api-rest.rst:335
+#: ../../docs-gofast-development/api-rest.rst:337
+msgid "Tableau contenant les valeurs du champ"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:247
+#: ../../docs-gofast-development/api-rest.rst:284
+#: ../../docs-gofast-development/api-rest.rst:337
+msgid "field_YYY"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:253
+msgid ""
+"Cette méthode permet de mettre à jour les métadonnées associés aux "
+"entités de type noeud"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:255
+msgid "*POST: /api/node/metadata*"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:267
+#: ../../docs-gofast-development/api-rest.rst:320
+msgid ""
+"Contrairement au retour de la méthode GET, les valeurs ne doivent pas "
+"êtres listés de cette manière"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:267
+#: ../../docs-gofast-development/api-rest.rst:271
+#: ../../docs-gofast-development/api-rest.rst:320
+#: ../../docs-gofast-development/api-rest.rst:324
+msgid "field_XXX : *Array*"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:266
+#: ../../docs-gofast-development/api-rest.rst:270
+#: ../../docs-gofast-development/api-rest.rst:319
+#: ../../docs-gofast-development/api-rest.rst:323
+msgid "Array"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:265
+#: ../../docs-gofast-development/api-rest.rst:318
+msgid "0: value: *Array*"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:266
+#: ../../docs-gofast-development/api-rest.rst:319
+msgid "VAL1"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:267
+#: ../../docs-gofast-development/api-rest.rst:320
+msgid "1: value: *Array*"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:268
+#: ../../docs-gofast-development/api-rest.rst:321
+msgid "VAL2"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:271
+#: ../../docs-gofast-development/api-rest.rst:324
+msgid "Mais plutôt comme ceci"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:271
+#: ../../docs-gofast-development/api-rest.rst:324
+msgid "0: VAL1, 1: VAL2"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:273
+#: ../../docs-gofast-development/api-rest.rst:326
+msgid "Ou comme cela selon le champ modifié"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:274
+#: ../../docs-gofast-development/api-rest.rst:327
+msgid "field_XXX : VAL"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:275
+msgid ""
+"Les champs modifiables sont : field_category, field_state, "
+"field_target_link, field_external_page_url, field_date, field_criticity, "
+"field_document_author, field_tags"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:298
+#: ../../docs-gofast-development/api-rest.rst:351
+msgid "Field_XXX"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:298
+#: ../../docs-gofast-development/api-rest.rst:300
+#: ../../docs-gofast-development/api-rest.rst:351
+#: ../../docs-gofast-development/api-rest.rst:353
+msgid "Tableau contenant le retour de la fonction"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:300
+#: ../../docs-gofast-development/api-rest.rst:353
+msgid "Field_YYY"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:304
+msgid "PATCH"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:306
+msgid ""
+"Cette méthode permet d'ajouter une valeur à certaines métadonnées "
+"associés aux entités de type noeud"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:308
+msgid "*PATCH: /api/node/metadata*"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:328
+msgid ""
+"Les champs alterables sont : field_target_link, field_external_page_url, "
+"field_tags"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:357
+msgid "Action : locations"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:359
+msgid ""
+"Cette action permet d'intéragir avec les emplacements des contenus "
+"associés aux entités de type noeud"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:364
+msgid ""
+"Cette méthode permet de récupérer les emplacements des contenus associés "
+"aux entités de type noeud"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:366
+msgid "*GET: /api/node/locations*"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:393
+#: ../../docs-gofast-development/api-rest.rst:430
+#: ../../docs-gofast-development/api-rest.rst:467
+msgid "locations"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:393
+msgid "Tableau indexé contenant les emplacements."
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:397
+#: ../../docs-gofast-development/api-rest.rst:785
+#: ../../docs-gofast-development/api-rest.rst:834
+msgid "PUT"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:399
+msgid ""
+"Cette méthode permet de modifier les emplacements des contenus associés "
+"aux entités de type noeud"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:401
+msgid "*PUT: /api/node/locations*"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:410
+#: ../../docs-gofast-development/api-rest.rst:447
+msgid "POST Parameter    |   Valeur"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:414
+#: ../../docs-gofast-development/api-rest.rst:451
+msgid "locations*"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:414
+msgid "Tableau indexé contenant les emplacements"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:430
+#: ../../docs-gofast-development/api-rest.rst:467
+msgid "Tableau indexé contenant les emplacements après vidage du cache."
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:436
+msgid ""
+"Cette méthode permet d'ajouter ou de supprimer des emplacements des "
+"contenus associés aux entités de type noeud"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:438
+msgid "*POST: /api/node/locations*"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:451
+msgid "Tableau indexé contenant les nouveaux emplacements à ajouter"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:469
+msgid "delete"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:469
+msgid "Boolean 1 = suppression; 0 = ajout."
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:473
+msgid "Action : content"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:475
+msgid ""
+"Cette action permet d'intéragir avec le contenu Alfresco associés aux "
+"entités de type noeud"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:477
+#: ../../docs-gofast-development/api-rest.rst:568
+#: ../../docs-gofast-development/api-rest.rst:608
+msgid ""
+"Utiliser cette action sur un noeud sans contenu Alfresco associé aboutira"
+" à une erreur \"404 Not Found\". Les noeuds associés à un contenu "
+"Alfresco sont de type \"alfresco_item\"."
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:482
+msgid "Cette méthode permet de récupérer le contenu Alfresco associé à un noeud."
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:484
+msgid "*GET: /api/node/content*"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:489
+#: ../../docs-gofast-development/api-rest.rst:505
+msgid "application/octet-stream"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:491
+#: ../../docs-gofast-development/api-rest.rst:507
+#: ../../docs-gofast-development/api-rest.rst:582
+#: ../../docs-gofast-development/api-rest.rst:598
+msgid "Content-Disposition"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:491
+#: ../../docs-gofast-development/api-rest.rst:582
+msgid "attachment"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:507
+#: ../../docs-gofast-development/api-rest.rst:598
+msgid "attachment; filename=\"nom_du_fichier\""
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:510
+msgid "Le contenu du retour de la requête est le contenu du document."
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:516
+msgid ""
+"Cette méthode permet de remplacer le contenu Alfresco associé à un noeud "
+"en créant une nouvelle version."
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:518
+msgid "*POST: /api/node/content*"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:527
+msgid "POST Parameter"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:529
+msgid "file"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:529
+msgid "The file to upload"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:543
+#: ../../docs-gofast-development/api-rest.rst:686
+msgid "comment"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:543
+msgid "Commentaire associé à la nouvelle version"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:545
+msgid "major_version"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:545
+msgid "0: Version mineure, 1: Version majeure (default : 0)"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:560
+msgid "success"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:560
+msgid "1: OK, 0: Erreur"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:564
+msgid "Action : preview"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:566
+#: ../../docs-gofast-development/api-rest.rst:606
+msgid ""
+"Cette action permet d'intéragir avec les prévisualisations PDF associés "
+"aux entités de type noeud"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:573
+msgid ""
+"Cette méthode permet de récupérer la prévisualisation PDF d'un contenu "
+"Alfresco associé à un noeud."
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:575
+msgid "*GET: /api/node/preview*"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:580
+#: ../../docs-gofast-development/api-rest.rst:596
+msgid "application/pdf"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:601
+msgid ""
+"Le contenu du retour de la requête est le contenu de la prévisualisation "
+"PDF du document."
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:604
+msgid "Action : preview_link"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:613
+msgid ""
+"Cette méthode permet de récupérer un lien vers une prévisualisations PDF "
+"associée à une entité de type noeud"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:615
+msgid "*GET: /api/node/preview_link*"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:640
+msgid "link"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:640
+msgid "Lien vers la prévisualisation"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:644
+msgid "Action : version"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:646
+msgid ""
+"Cette action permet d'intéragir avec les versions des contenus Alfresco "
+"associés aux entités de type noeud"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:651
+msgid ""
+"Cette méthode permet de récupérer les versions d'un contenu Alfresco "
+"associé à une entité de type noeud"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:653
+msgid "*GET: /api/node/version*"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:678
+msgid "creator"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:678
+msgid "Identifiant du créateur de la version"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:680
+msgid "MINOR : Version mineure, MAJOR : Version majeure"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:682
+msgid "Timestamp de la création de la version"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:684
+msgid "version"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:684
+msgid "N° de version"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:686
+msgid "Commentaire associé à la version"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:690
+#: ../../docs-gofast-development/api-rest.rst:949
+msgid "Action : autocomplete"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:692
+msgid ""
+"Cette action permet d'intéragie avec le système d'autocomplétion des "
+"entités *node* de Drupal."
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:697
+msgid ""
+"Cette méthode permet de récupérer une liste de noeuds en fonction de la "
+"chaine passée en input et des bundles demandés."
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:699
+msgid "*GET: /api/node/autocomplete*"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:710
+#: ../../docs-gofast-development/api-rest.rst:969
+msgid "str*"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:710
+#: ../../docs-gofast-development/api-rest.rst:969
+msgid "Input"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:712
+msgid "bundles"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:712
+msgid "Liste de bundles séparés par une virgule (alfresco_item par default)"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:727
+#: ../../docs-gofast-development/api-rest.rst:984
+msgid "Quelques informations de base sur l'utilisateur"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:732
+msgid "Ressource : comment"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:734
+msgid ""
+"Cette ressource permet d'intéragir avec les entités Drupal de type "
+"comment. Ces derniers représent des commentaires associés à des entités "
+"de type noeud (node)"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:737
+msgid "Action : comment"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:739
+msgid ""
+"Cette action permet d'intéragir basiquement avec les entités Drupal de "
+"type comment."
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:744
+msgid "Cette méthode permet de récupérer un commentaire"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:746
+#: ../../docs-gofast-development/api-rest.rst:789
+msgid "*GET: /api/comment/comment*"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:757
+msgid "cid*"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:757
+#: ../../docs-gofast-development/api-rest.rst:773
+#: ../../docs-gofast-development/api-rest.rst:820
+msgid "N° du commentaire"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:773
+#: ../../docs-gofast-development/api-rest.rst:820
+msgid "cid"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:775
+msgid "N° de l'utilisateur ayant commenté"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:777
+msgid "subject"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:777
+#: ../../docs-gofast-development/api-rest.rst:802
+msgid "Titre du commentaire"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:779
+#: ../../docs-gofast-development/api-rest.rst:853
+msgid "body"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:779
+msgid "contenu du commentaire"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:781
+#: ../../docs-gofast-development/api-rest.rst:806
+msgid "is_private"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:781
+msgid "0: Commentaire publique, 1: Commentaire privé"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:787
+msgid "Cette méthode permet d'attacher un commentaire à une entité de type noeud"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:802
+msgid "subject*"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:804
+msgid "body*"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:804
+msgid "Contenu du commentaire (format HTML)"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:806
+msgid "0: Commentaire publique, 1: Commentaire privé (défaut : 0)"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:824
+msgid "Ressource : space"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:826
+msgid ""
+"Cette ressource permet d'intéragir avec les Organic Groups de Drupal de "
+"type comment. Ces derniers représentent ce que l'on appel des *espaces "
+"collaboratifs*"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:829
+msgid "Action : space"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:831
+msgid ""
+"Cette action permet d'intéragir basiquement avec les Organic Groups de "
+"Drupal."
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:836
+msgid ""
+"Cette méthode permet de créer un *espace collaboratif* en passant par le "
+"mécanisme Drupal"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:838
+msgid "*PUT: /api/space/space*"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:849
+msgid "gid*"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:849
+msgid "N° de noeud de l'espace parent"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:851
+msgid "Titre du nouvel espace"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:853
+msgid "Contenu de l'accueil de l'espace (format HTML)"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:868
+msgid "gid"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:868
+msgid "N° de l'espace crée"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:872
+msgid "Ressource : taxonomy"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:874
+msgid ""
+"Cette ressource permet d'intéragir avec la taxonomy de Drupal. La "
+"taxonomy permets d'associer des *termes* à un contenu (exemple : "
+"catégorie, importance...)"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:877
+msgid "Action : terms"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:879
+msgid ""
+"Cette action permet d'intéragir avec les *termes* de la taxonomy de "
+"Drupal."
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:884
+msgid ""
+"Cette méthode permet de récupérer les *termes* de taxonomy associés à un "
+"vocabulaire"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:886
+msgid ""
+"Les valeurs de *vocabulary_name* disponibles peuvent être récupérés "
+"depuis l'action vocabularies. Exemple de valeurs exploitables : category,"
+" criticity, tags"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:888
+msgid "*GET: /api/taxonomy/terms*"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:899
+msgid "vocabulary_name*"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:899
+msgid "Nom du vocabulaire"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:914
+msgid "term_name"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:914
+msgid "Tableau contenant l'ID du terme et certaines informations"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:918
+msgid "Action : vocabularies"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:920
+msgid ""
+"Cette action permet d'intéragir avec les *vocabularies* de la taxonomy de"
+" Drupal."
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:925
+msgid ""
+"Cette méthode permet de récupérer les *vocabularies* de la taxonomy de "
+"Drupal"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:927
+msgid "*GET: /api/taxonomy/vocabularies*"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:940
+msgid "vocabulary_name"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:940
+msgid "Tableau contenant l'ID du vocabulary et certaines informations"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:944
+msgid "Ressource : user"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:946
+msgid ""
+"Cette ressource permet d'intéragir avec les entités *user* de Drupal. Ces"
+" entités représentent les utilisateurs enregistrés sur la plateforme."
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:951
+msgid ""
+"Cette action permet d'intéragie avec le système d'autocomplétion des "
+"entités *user* de Drupal."
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:956
+msgid ""
+"Cette méthode permet de récupérer une liste d'utilisateurs en fonction de"
+" la chaine passée en input."
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:958
+msgid "*GET: /api/user/autocomplete*"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:988
+msgid "Ressource : locations"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:990
+msgid ""
+"Cette ressource permet d'intéragir avec les emplacements disponibles sur "
+"Alfresco (l'ensemble des dossiers et espaces d'un point de vue GED "
+"uniquement)"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:993
+msgid "Action : tree"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:995
+msgid ""
+"Cette action permet de récupérer un *tree* d'emplacements au format JSON "
+"compatible avec le composant ZTree."
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:1000
+msgid ""
+"Cette méthode permet de récupérer un *tree* d'emplacements au format JSON"
+" compatible avec le composant ZTree."
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:1002
+msgid "*GET: /api/locations/tree*"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:1013
+msgid "ename"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:1013
+msgid "Chemin à partir duquel récupérer les enfants"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:1027
+msgid "tree"
+msgstr ""
+
+#: ../../docs-gofast-development/api-rest.rst:1027
+msgid "Chaine au format JSON directement exploitable par la librairie ZTree"
+msgstr ""
+
