@@ -937,46 +937,97 @@ son emplacement dans l’arborescence, enregistrez.
 .. figure:: media-guide/image069.png
    :alt: 
 
-Après avoir appuyé sur « Enregistrer », une autre page s’ouvre et c’est
-là que vous pourrez créer le contenu de votre formulaire, avec les
-champs, etc.
-
-.. figure:: media-guide/image070.png
-   :alt: 
-
-Cliquez sur les champs que vous voulez mettre dans le formulaire, ils
-apparaîtront à gauche sous « Afficher le formulaire ». Puis
-« Enregistrer »
-
-.. figure:: media-guide/image071.png
-   :alt: 
-
-Un message vous confirmant l’enregistrement de votre formulaire
-apparaîtra .
-
-.. figure:: media-guide/image072.png
-   :alt: 
-
-Retournez ensuite à l’emplacement/dans le groupe où vous avez mis votre
-formulaire, et vous le retrouverez dans les contenus populaires ou
-derniers contenus vus.
+Vous le retrouverez dans les contenus populaires ou dans l’emplacement/dans le groupe 
+où vous avez mis votre formulaire. Il se retrouvera également
+en haut du fil d'activité, dans la recherche et dans vos derniers contenus vus.
 
 .. figure:: media-guide/image073.png
    :alt: 
 
-Cliquez sur le fichier pour l’ouvrir et visualiser le contenu du
-formulaire, et ajoutez les métadonnées relatives.
+Une fois que votre formulaire est crée, vous arriverez sur la page du formulaire.
+C'est sur cette page qu'arriveront les utilisateurs
+qui rempliront votre formulaire. Pour l'instant, elle est vide.
 
-Voici un aperçu de formulaire à remplir puis « Valider».
+.. NOTE::
+   Pour l'instant, et tant que vous n'aurez pas publié votre formulaire, personne
+   ne pourra le remplir.
 
-.. figure:: media-guide/image074.png
+.. figure:: media-guide/form01.png
    :alt: 
 
-Lorsque les personnes concernées auront valider leurs réponses, ils
-verront le message suivant
+En tant que créateur du formulaire, vous avez la possibilité
+d'accéder aux onglets "Gérer" et "Résultats". Les administrateurs
+de l'espace dans lequel est ce formulaire y ont également accès.
 
-.. figure:: media-guide/image075.png
+Configurer un formulaire
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+Nous allons nous concentrer sur l'onglet "Gérer" qui va servir à configurer les champs de votre formulaire.
+
+.. figure:: media-guide/form02.png
    :alt: 
+
+Glissez / déposez les champs que vous voulez mettre dans le formulaire, ils
+apparaîtront à gauche sous « Edition du formulaire ».
+
+.. figure:: media-guide/form03.png
+   :alt: 
+
+En cliquant sur les champs, des options de configuration sont disponibles
+
+.. figure:: media-guide/form04.png
+   :alt: 
+
+.. NOTE::
+   N'oubliez pas d'enregistrer régulièrement votre travail en cliquant 
+   sur le bouton "Enregistrer".
+
+Une fois que votre formulaire vous convient, vous pouvez configurer
+d'autres paramètres dans l'onglet "Configuration du formulaire".
+
+.. figure:: media-guide/form05.png
+   :alt: 
+
+.. NOTE::
+   N'oubliez pas d'enregistrer votre configuration en cliquant 
+   sur le bouton "Enregistrer la configuration".
+
+Il est enfin temps de publier votre formulaire. Pour ce faire, il suffit
+de cliquer sur le bouton "Publier" dans "Edition du formulaire" tout en bas.
+A partir de maintenant, toutes les personnes qui ont accès à votre formulaire
+pourront le remplir.
+
+.. figure:: media-guide/form06.png
+   :alt: 
+
+Exploiter les réponses d'un formulaire
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+L'onglet "Résultats" est accessible par le créateur du formulaire
+et les administrateurs des espaces dans lesquelles est le formulaire.
+L'entrée "Soumissions" vous permets de visualiser unitairement les soumissions
+de chaque utilisateur.
+
+.. figure:: media-guide/form07.png
+   :alt: 
+
+.. figure:: media-guide/form08.png
+   :alt: 
+
+L'entrée "Statistiques" permets d'afficher des statistiques globales
+concernant les champs de votre formulaire.
+
+.. figure:: media-guide/form09.png
+   :alt: 
+
+L'entrée "Export" permets d'exporter les statistiques au format CSV.
+Il suffit de choisir les champs souhaités et de cliquer sur "Téléchargement".
+
+.. figure:: media-guide/form10.png
+   :alt:
+
+.. figure:: media-guide/form11.png
+   :alt:
 
 
 Créer une Web-conférence/Réunion (Enterprise only)
@@ -2702,6 +2753,12 @@ L'explorateur de fichiers GoFAST comporte 4 zones distinctes :
    :alt:
 
 Les divers contenus affichés dans l'explorateur de fichiers sont identifiés par des icônes selon leur type ou format de fichier. Chaque type d'espace collaboratif ou votre espace privé disposent d'une icône distincte. Les répertoires dits classiques sont représentés par des icônes "Dossier". 
+
+.. Note:: 
+   Pour plus de lisibilité, vous pouvez redimentionner les blocs 2, 3 et 4 ainsi que les en-têtes des colonnes de l'explorateur.
+
+.. figure:: media-guide/FBrowser-17.png
+   :alt:
 
 .. Note:: 
    Dans la zone principale à la première ligne, vous disposez d'un bouton qui permet de revenir à l’emplacement précédent. 
