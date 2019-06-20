@@ -379,6 +379,9 @@ Configuration du réseau (par l’Exploitant)
 - ``reboot``
 - A la reconnection, vérifier qu'internet est accessible ``ping 8.8.8.8``
 
+.. NOTE::
+   Dans le cas ESX, vérifier que l'adresse MAC correspond à l'adresse IP publique configurée
+   
 Configuration / Paramétrage (par l’Exploitant)
 --------------------------------------------
 
