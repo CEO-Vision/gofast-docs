@@ -74,7 +74,6 @@ Pour la 2ème option vous devez fournir :
    5. **Organization unit** 
    6. **Web site name**
    7. **E-mail address** 
-.. caution:: Si vous avez généré un certificat SSL auto-signé, il vous faudra ouvrir une autre page avec la meme adresse IP pour de nouveau ajouter l'exception au navigateur
 
 Etape 3 : Configuration Serveur SMTP  
 `````````````
@@ -101,6 +100,8 @@ Vérifiez attentivement tous les champs et validez.
    Après avoir cliqué sur "Terminer la configuration" vous ne pouvez plus revenir aux étapes précédantes, bien vérifier tous les champs avant de passer à l'étape suivante
    
 .. NOTE:: De nombreuses opérations techniques vont être effectuées ainsi que des démarrages de service, ceci pouvant être plus ou moins long suivant les capacités du serveur
+
+.. caution:: Si vous avez généré un certificat SSL auto-signé, il vous faudra ouvrir une autre page avec la meme adresse IP pour de nouveau ajouter l'exception au navigateur. Après avoir ajouté cette exception, fermer immédiatement cette nouvelle page et retourner sur la page de chargement de votre GoFAST.
 
 Démarrons ! 
 -------------
