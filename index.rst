@@ -28,20 +28,19 @@ Documentation GoFAST
    :maxdepth: 1
    :caption: Releases GoFAST
    
-   docs-gofast-technical/release-notes-3.2.0
-   docs-gofast-technical/release-notes-3.2.1
-   docs-gofast-technical/release-notes-3.2.2
-   docs-gofast-technical/release-notes-3.3.0
-   docs-gofast-technical/release-notes-3.3.1
-   docs-gofast-technical/release-notes-3.4.0
-   docs-gofast-technical/release-notes-3.4.1
-   docs-gofast-technical/release-notes-3.5.0
-   docs-gofast-technical/release-notes-3.5.1
-   docs-gofast-technical/release-notes-3.5.2
-   docs-gofast-technical/release-notes-3.6.0
    docs-gofast-technical/release-notes-3.6.1
-
-
+   docs-gofast-technical/release-notes-3.6.0
+   docs-gofast-technical/release-notes-3.5.2
+   docs-gofast-technical/release-notes-3.5.1
+   docs-gofast-technical/release-notes-3.5.0
+   docs-gofast-technical/release-notes-3.4.1
+   docs-gofast-technical/release-notes-3.4.0
+   docs-gofast-technical/release-notes-3.3.1
+   docs-gofast-technical/release-notes-3.3.0
+   docs-gofast-technical/release-notes-3.2.2
+   docs-gofast-technical/release-notes-3.2.1
+   docs-gofast-technical/release-notes-3.2.0
+   
 .. _development-docs:
 
 .. toctree::
