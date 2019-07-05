@@ -2,9 +2,10 @@
 GoFAST :  Version 3.6.1
 ********************************************
 
-**[GoFAST Enterprise]** Avis aux équipes techniques : N’hésitez pas à solliciter notre support pour planifier la mise à jour (helpdesk[at]ceo-vision.com).
+**[GoFAST Enterprise]** Avis aux équipes techniques : N’hésitez pas à solliciter notre support pour planifier la mise à jour (https://srv01.ceo-vision.com/osticket/index.php).
 
 **[GoFAST Communiy]** Pour que vous puissiez mettre à jour votre GoFAST Community, le serveur de mise à jour doit être accessible. Posez-vos questions sur nos forums : https://community.ceo-vision.com/
+
 Si vous souhaitez instaler GoFAST v3.6.1, rendez-vous sur : https://www.ceo-vision.com/fr/content/gofast-community-ged-plateforme-collaborative-opensource
 
 Nouvelles fonctionnalités
