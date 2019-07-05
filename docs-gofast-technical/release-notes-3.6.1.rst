@@ -127,6 +127,6 @@ Bugs mineurs
       "[5176]","Fixer la hauteur de la prévisualisation d'une image (sur la page du document)","[Community][Enterprise]"      
       
 **Note: Mettre à jour GoFAST Community** 
-   Pour pouvoir mettre à jour votre GoFAST Community, le serveur de mise à jour doit être accessible. Les nouvelles fonctionnalités et les autres améliorations seront disponibles sur www.ceo-vision.com en libre téléchargement en 3.6.1 (actuellement v3.5.2).  
+   Pour pouvoir mettre à jour votre GoFAST Community, le serveur de mise à jour doit être accessible. Les nouvelles fonctionnalités et les autres améliorations seront disponibles sur https://www.ceo-vision.com en libre téléchargement en 3.6.1.  
 
 
