@@ -68,7 +68,6 @@ Sécurité
       "[4976]","Correction du système de perte de session utilisateur automatique après 10 heures","[Community][Enterprise]"
       "[5069]","Mise à jour sécurité Python","[Community][Enterprise]"
       "[5071]","Mise à jour sécurité Drupal 7.67","[Community][Enterprise]"
-      "[5083]","Correction de l'apparition de la popup 'Wrapper auth' (sans session authentifiée)","[HOTFIX][Community][Enterprise]"
       "[5134]","Changement du mot de passe temporaire MYSQL pour l'utilisateur root à l’installation","[Community]"
       "[5136]","Suppression des mots-de-passe dans le récapitulatif affiché en fin de configuration de GoFAST, après installation","[Community]"
       
@@ -94,6 +93,7 @@ Bugs
       "[5074]","Partage d’un document par e-mail : pouvoir soumettre le formulaire quand le destinataire est une liste d’utilisateurs","[HOTFIX][Community][Enterprise]"
       "[5077]","Correction de l’édition en ligne de documents avec LibreOffice sous UBUNTU","[Community][Enterprise]"
       "[5078]","Correction du comparateur des versions d’un document","[Community][Enterprise]"
+      "[5083]","Correction de l'apparition de la popup 'Wrapper auth' (sans session authentifiée)","[HOTFIX][Community][Enterprise]"
       "[5092]","Empêcher le redémarrage d'Alfresco via le cron, si celui est déjà en cours de redémarrage","[Community][Enterprise]"
       "[5105]","Correction du lien accepter/refuser un membre en attente depuis un espace","[HOTFIX][Community][Enterprise]"
       "[5106]","Permettre les requêtes vers Bonitasoft quand le serveur GoFAST est derrière un proxy","[Enterprise]"
