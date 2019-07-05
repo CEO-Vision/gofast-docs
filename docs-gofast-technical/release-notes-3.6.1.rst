@@ -2,9 +2,10 @@
 GoFAST :  Version 3.6.1
 ********************************************
 
-[GoFAST Enterprise] Avis aux équipes techniques : N’hésitez pas à solliciter notre support pour planifier la mise à jour (helpdesk[at]ceo-vision.com).
+**[GoFAST Enterprise]** Avis aux équipes techniques : N’hésitez pas à solliciter notre support pour planifier la mise à jour (helpdesk[at]ceo-vision.com).
 
-[GoFAST Communiy] Pour que vous puissiez mettre à jour votre GoFAST Community, le serveur de mise à jour doit être accessible. Si vous souhaitez instaler GoFAST v3.6.1, rendez-vous sur https://www.ceo-vision.com/fr/content/gofast-community-ged-plateforme-collaborative-opensource .
+**[GoFAST Communiy]** Pour que vous puissiez mettre à jour votre GoFAST Community, le serveur de mise à jour doit être accessible. Posez-vos questions sur nos forums : https://community.ceo-vision.com/
+Si vous souhaitez instaler GoFAST v3.6.1, rendez-vous sur : https://www.ceo-vision.com/fr/content/gofast-community-ged-plateforme-collaborative-opensource
 
 Nouvelles fonctionnalités
 *************************
@@ -129,7 +130,6 @@ Bugs mineurs
       "[5113]","Harmonisation du formulaire de création d’utilisateur accessible depuis la page d’un Espace avec le celui accessible depuis le menu principal","[Community][Enterprise]"
       "[5176]","Fixer la hauteur de la prévisualisation d'une image (sur la page du document)","[Community][Enterprise]"      
       
-**Note: Mettre à jour GoFAST Community** 
-   Pour pouvoir mettre à jour votre GoFAST Community, le serveur de mise à jour doit être accessible. Les nouvelles fonctionnalités et les autres améliorations seront disponibles sur https://www.ceo-vision.com en libre téléchargement en 3.6.1.  
 
 
+**Bonne utilisation de GoFAST !**
