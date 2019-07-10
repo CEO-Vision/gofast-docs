@@ -104,6 +104,8 @@ Mais fonctionne également sur les versions récentes d’Internet Explorer 11 p
 
 -  Résolution écran 1366x768 minimum (format 16:9)
 
+- En mobilité : Tablette ou smartphone récent (ios ou android)
+
 Configuration/Installation supplémentaires optionnelles
 ---------------------------------------------------
 Des configurations et/ou installations supplémentaires sont nécessaires pour 
