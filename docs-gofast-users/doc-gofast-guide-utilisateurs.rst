@@ -81,9 +81,9 @@ mémos, etc.
 
 Pré-requis nécessaires pour l’utilisation de GoFAST
 ---------------------------------------------------
--  Navigateurs préférentiels Windows: **Firefox 57+ (et la dernière version ESR actuellement 60 jusqu'à Oct.2019) ou Chrome.** Mais fonctionne
-   également sur les versions récentes d’Internet Explorer 11 pas en mode compatibilité (sauf
-   webconference), Edge (sauf webconference), en plus d’Opera 
+-  Navigateurs préférentiels Windows: **Firefox (dernière version ESR et supérieure v60 jusqu'à Eté.2019 puis v68) ou Chrome.** 
+
+Mais fonctionne également sur les versions récentes d’Internet Explorer 11 pas en mode compatibilité (saufwebconference), Edge (sauf webconference), en plus d’Opera 
 
 -  Navigateur MacOS : Safari 12+ (sauf webconference), Chrome 65+
 
