@@ -3136,8 +3136,8 @@ confié ce rôle (assistant administratif, N+1, responsable du groupe, …)
 
 Si vous avez donc les droits pour gérer les membres d’un groupe parce
 que vous en êtes l’administrateur, il faut cliquer sur la flèche de
-l’onglet « Espaces » puis sur « Gérer les membres des espaces » ; une
-fenêtre s’ouvre avec 2 parties : « Ajouter un membre » et « Mettre à
+l’onglet « Espaces » puis sur « Gestion des membres » ; une
+page s’ouvre avec 2 parties : « Ajouter un membre » et « Mettre à
 jour ».
 
 .. figure:: media-guide/image102.png
