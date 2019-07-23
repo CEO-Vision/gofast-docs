@@ -3378,7 +3378,7 @@ travailler.
 .. figure:: media-guide/image373.png
    :alt: 
 
-Modifier un groupe
+Modifier un espace collaboratif/groupe
 ------------------
 
 Cette fonctionnalité permet de **modifier les informations concernant un
@@ -3396,7 +3396,7 @@ par « Enregistrer ».
 .. figure:: media-guide/image119.png
    :alt: 
 
-Archiver un groupe
+Archiver un espace collaboratif/groupe
 ------------------
 
 **Archiver un groupe** permet de garder une trace de son contenu et donc
@@ -3418,6 +3418,10 @@ lors de la recherche, sauf si vous mettez l’option de recherche
 
 .. figure:: media-guide/image121.png
    :alt: 
+
+.. NOTE:: 
+   Seuls les espaces collaboratifs de type "Groupe" sont archivables.
+
 
 Supprimer un groupe
 -------------------
