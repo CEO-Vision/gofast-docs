@@ -69,7 +69,7 @@ Bugs mineurs
    :header: "Ref.", "Description", "Catégorie"
    :widths: 10, 40, 10
       
-"[5200]","Mauvais texte s’affiche quand il n'y a pas de page d'accueil sur un espace"
+   "[5200]","Mauvais texte s’affiche quand il n'y a pas de page d'accueil sur un espace"
 "[5221]","Rubrique “Derniers contenus vus" dans le menu dépasse si le nom de documents est trop long"
 "[5222]","Champ d'autocomplétion coupé trop tôt ce qui empêche de voir les titres en entier"
 "[5253]","Icône espace archivé apparaît sur un espace qui n'est pas archivé lors de la création de contenu/ multifiling"
