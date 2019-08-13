@@ -83,14 +83,14 @@ Bugs mineurs
    "[5273]","[IE] Profil d'un utilisateur mal formaté"
    "[5184]","Corriger l’erreur non bloquante 'You have to set a comment' quand on republie un document sans laisser de commentaires"
    "[5285]","Bug graphique au niveau de la quand navigation ajax suite à la après création d'un nouveau forum"
-   "[5286]","Lors d'un partage en masse par mail, l'action doit se voir sur le fil  d'activité"
+   "[5286]","Lors d'un partage en masse par mail, l'action doit se voir sur le fil d'activité"
    "[5292]","Dernier contenus vus dans le menu ne sont pas à jour"
    "[5296]","[MOBILE] Le fil d'activité n'est pas centré sur l'écran"
    "[5297]","[MOBILE] Redirection absente après la création d’une page interne depuis calendrier" 
    "[5298]","[MOBILE] GoFAST File Browser : Les cases ne se cochent pas suite au choix de plusieurs emplacements (multi sélection)"
    "[5301]","Mauvais affichage des images larges dans le micro-blogging"
-   "[5304]","[MOBILE] "Menu d’actions contextuelles" homogène à la version desktop (à gauche de la recherche)"
-   "[5333]","Erreur " Le site Web a rencontré une erreur inattendue." après l'authentification"   
+   "[5304]","[MOBILE] 'Menu d’actions contextuelles' homogène à la version desktop (à gauche de la recherche)"
+   "[5333]","Erreur 'Le site Web a rencontré une erreur inattendue.' après l'authentification"   
    "[5302]","[MOBILE] Correctif du microblogging/nouvelle sur le Tableau de bord"
 
 
