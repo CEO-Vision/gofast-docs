@@ -57,7 +57,7 @@ Bugs
    "[5275]","Empêcher l'analyse antivirus Clamd pendant la journée"
    "[5277]","SElinux : corriger les alertes remontées dans les logs (php-fpm, etc.)"
    "[5280]","Pouvoir modifier le rôle d'une liste d’utilisateur qui n'a pas de rôle"
-   "[5283]","Glisser-déposer une arborescence dans un répertoire sur GoFAST ne fonctionne pas quand un des   dossiers importés depuis le serveur de fichiers est vide"
+   "[5283]","Glisser-déposer une arborescence dans un répertoire sur GoFAST ne fonctionne pas quand un des dossiers importés depuis le serveur de fichiers est vide"
    "[5287]","Ne pas propager la suppression d'un membre de l’espace parent aux membres d’espaces enfants si ce membre fait toujours parti de l'espace via une liste d’utilisateurs" 
    "[5291]","Tous les éléments de l'historique des process Bonita affichent le même historique"
    "[5310]","Empêcher le renommage d'un dossier d'un espace dans GFB"
