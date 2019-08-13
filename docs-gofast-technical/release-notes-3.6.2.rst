@@ -14,7 +14,7 @@ Améliorations fonctionnelles
 ****************************
 .. csv-table::  
    :header: "Ref.", "Description"
-   :widths: 10, 40, 10
+   :widths: 10, 40
    
    "[5167]","Améliorer les exports des statistiques sur les espaces/documents/utilisateurs" 
    "[5169]","Améliorer message lors du retrait de membres d'un espace et les conséquences sur les espaces enfants de cette action"
@@ -26,7 +26,7 @@ Améliorations techniques
 ************************
 .. csv-table::  
    :header: "Ref.", "Description"
-   :widths: 10, 40, 10
+   :widths: 10, 40
    
    "[5234]","Amélioration/Correctifs API de publication (changement de format de transformation pendant publication, ...)"
    "[5223]","Pouvoir stocker les images séparément (serveur) dans le micro-blogging"
@@ -39,7 +39,7 @@ Sécurité
 ********
 .. csv-table::  
    :header: "Ref.", "Description"
-   :widths: 10, 40, 10
+   :widths: 10, 40
    
    "[5142]","Correctif faille Intel MDS (Fallout, RIDL, Zombieload)"
    "[5193]","Mise à jour module UUID security update (SA-CONTRIB-2019-052)"
@@ -50,7 +50,7 @@ Bugs
 ****
 .. csv-table::  
    :header: "Ref.", "Description"
-   :widths: 10, 40, 10
+   :widths: 10, 40
    
    "[5197]","Corriger le filtre 'Tous' dans la rubrique “Filtrer les espaces” dans l’Annuaires"
    "[5219]","Impossible de copier-coller une image dans l'éditeur de texte riche (ckeditor)"
@@ -67,7 +67,7 @@ Bugs mineurs
 ************
 .. csv-table::  
    :header: "Ref.", "Description"
-   :widths: 10, 40, 10
+   :widths: 10, 40
       
    "[5200]","Mauvais texte s’affiche quand il n'y a pas de page d'accueil sur un espace"
    "[5221]","Rubrique “Derniers contenus vus" dans le menu dépasse si le nom de documents est trop long"
