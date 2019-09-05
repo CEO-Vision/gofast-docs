@@ -20,6 +20,10 @@ MS- Office ne gère pas les chemins de plus de 240 caractères. Veuillez par exe
 - réduire le nom du fichier
 - ou utiliser LibreOffice ou OnlyOffice
 
+Si le problème persiste, essayez de vider le cache de votre centre de téléchargement Microsoft Office
+
+.. figure:: media-guide/vider-cache-ct.png
+
 Message "Échec du téléchargement" : Impossible d'enregistrer sous Microsoft Office le fichier suite à une édition en ligne 
 ------------------------
 
