@@ -246,16 +246,15 @@ et en sortie.
 |                                                                |          +----------+----------------------+               |
 |                                                                |          | x        | 5222/TCP             |               |
 |                                                                |          +----------+----------------------+               |
-|                                                                |          | x        | 3478/TCP***          |               |
+|                                                                |          | x        | 3478/TCP**           |               |
 |                                                                |          +----------+----------------------+               |
 |                                                                |          | \(x\)    | 80/TCP*              |               |
 |                                                                |          +----------+----------------------+               |
-|                                                                |          | x        | 10000-20000/UDP**    |               |
+|                                                                |          | x        | 10000/UDP            |               |
 +----------------------------------------------------------------+----------+----------+----------------------+---------------+
 
 |  \* si les ports udp ne peuvent être ouverts 
-|  \*\* au minimum le port 10000 (un changement de configuration peut permettre éventuellement la plage 49152-65535/UDP comme Skype)
-|  \*\*\* pour la video/desktopsharing dans le chat 
+|  \*\* pour la video/desktopsharing dans le chat 
 
 .. CAUTION:: 
    Si le participant n'est pas sur le LAN, *son accès Internet doit laisser passer le trafic sur le port 10000/udp*. Ceci peut poser des problèmes sur certains réseaux InternetPro par exemple des sites distants connectés au siège où se trouve le serveur GoFAST. A noter qu'il est rare que ce problème se retrouve sur les réseaux 4G.
