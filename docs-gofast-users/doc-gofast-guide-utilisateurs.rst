@@ -1171,6 +1171,28 @@ les détails des Actions contextuelles p.75)
 Prévisualisation des Documents : fonctionnement et fonctionnalités
 ------------------------------------------------------------------
 
+La prévisualisation d'un fichier est la possibilité de visualiser le fichier (document, image, vidéo,...) directement dans le navigateur, sans avoir à l'ouvrir avec une application sur son poste de travail.
+
+.. NOTE:: Pour certains types de fichiers (MS-Office ou LibreOffice), une transformation PDF est nécessaire. La transformation MS-Office => PDF est effectuée par Libreoffice (Community) ou OnlyOffice (Enterprise) GoFAST > 3.7
+
+Les principaux formats prévisualisés : 
+
+.. csv-table::  
+   :header: "Formats", "Commentaires"
+   :widths: 10, 40
+   
+   "doc,dot,xls,ppt", "transformé en PDF" 
+   "docx,dotx,xlsx,pptx","transformé en PDF"
+   "odt,ott,ods,odp","transformé en PDF"
+   "txt,rtf","transformé en PDF"
+   "eps","transformé en PDF"
+   "msg","transformé text brut puis PDF"
+   "eml","transformé en PDF"
+   "jpg,png,gif","directement affiché par le navigateur"
+   "svg","directement affiché par le navigateur"
+   "mp4","directement lu dans le navigateur (streaming video)"
+   "pdf","directement lu dans le navigateur"
+
 Au-dessus de la **prévisualisation** du document, vous voyez une **barre
 d’outils noire.**
 
