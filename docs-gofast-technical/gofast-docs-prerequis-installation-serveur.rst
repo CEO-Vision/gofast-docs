@@ -94,7 +94,7 @@ charge et des temps de réponse.
 Pré-requis Machine Virtuelle
 ----------------------------
 
-La plate-forme GoFAST est prévue pour fonctionner sur les Hyperviseurs (n'ayant pas atteind leur EOL)
+La plate-forme GoFAST est prévue pour fonctionner sur les Hyperviseurs (n'ayant pas atteint leur EOL)
 64 bits suivant :
 
 -  VMWare ESX
