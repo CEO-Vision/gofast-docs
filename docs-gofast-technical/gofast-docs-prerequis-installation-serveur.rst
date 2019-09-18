@@ -94,12 +94,12 @@ charge et des temps de réponse.
 Pré-requis Machine Virtuelle
 ----------------------------
 
-La plate-forme GoFAST est prévue pour fonctionner sur les Hyperviseurs
+La plate-forme GoFAST est prévue pour fonctionner sur les Hyperviseurs (n'ayant pas atteind leur EOL)
 64 bits suivant :
 
--  VMWare ESX4+  
+-  VMWare ESX
 
--  Hyper-V
+-  HyperV 
 
 -  KVM
 
@@ -107,10 +107,12 @@ La plate-forme GoFAST est prévue pour fonctionner sur les Hyperviseurs
 
 et sans retour d'expérience en exploitation, XEN 6+
 
-La VM GoFAST doit posséder un datastore dédié (LUN).
+.. NOTE:: 
+   Pas possible d'import actuellement par images dans un HypeV (ou sous Azure). Une installation par script est effectuée
 
 .. CAUTION:: 
-   Sous VMWARE, choisir "RedHat Enterprise" et "paravirtualized SCSI adapter" à partir de CentOS 7.4 / GoFAST v3.1.1
+   - La VM GoFAST doit posséder un datastore dédié (LUN).
+   - Sous VMWARE, choisir "RedHat Enterprise" et "paravirtualized SCSI adapter" à partir de CentOS 7.4 / GoFAST v3.1.1
 
 *VM 2 (GF-COMM) n'est compris uniquement dans l'offre Enterprise
 
