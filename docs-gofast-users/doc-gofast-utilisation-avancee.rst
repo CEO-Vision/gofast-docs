@@ -157,14 +157,12 @@ Vous pourrez configurer un espace de stockage directement sur la GoFAST
 par « Connecter les clouds » puis choisir « Autre cloud » puis « Webdav » et
 entrer l'adresse « https://gofast.mycomp.com/alfresco/webdav » où vous
 devez remplacer mycomp.com par le domaine de votre organisation.
-
 |image14|
-
 |image15|
-
 Vous pouvez ensuite naviguer dans votre arborescence et choisir le document que vous voulez éditer :
-
 |image16|
+Puis l'éditer : 
+|image21|
 
 
 Messagerie instantanée (« chat ») sur mobiles 
@@ -276,6 +274,7 @@ Vous pouvez à présent décompresser l'archive directement dans l'arborescence 
 .. |image14| image:: media-guide/onlyoffice-ipad-1_ipadair2.png
 .. |image15| image:: media-guide/onlyoffice-ipad-2_ipadair2.png
 .. |image16| image:: media-guide/onlyoffice-ipad-3_ipadair2.png
+.. |image21| image:: media-guide/onlyoffice-ipad-4_ipadair2.png
 .. |image17| image:: img/signer_PDF_avec_GoFAST.png
 .. |image18| image:: img/scanbot_envoi_GoFAST.png
 .. |image19| image:: img/abbyy_hot_folder.png
