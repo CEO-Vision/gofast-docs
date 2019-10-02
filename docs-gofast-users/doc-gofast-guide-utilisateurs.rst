@@ -94,7 +94,7 @@ Mais fonctionne également sur les versions récentes d’Internet Explorer 11 p
 
 -  Navigateur MacOS : Safari 12+ (sauf webconference), Chrome 65+
 
--  Navigateur Linux : Firefox 57+
+-  Navigateur Linux : Firefox (dernière version ESR)
    
 -  Système d'exploitation Windows7 et plus, MacOS 10.11+ et Linux (Ubuntu 16+), ChromeOS (sans support)
 -  En mobilité Android ou iOS. 
