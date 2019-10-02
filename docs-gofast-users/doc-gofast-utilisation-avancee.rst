@@ -19,20 +19,14 @@ Ces outils complémentaires permettent :
 * Des outils de dématérialisation (smartphone, copieur, ...)
 * Des outils de signature
 
-
 Synchronisation locale (GoFAST hors-ligne)
 ------------------------------------------
 
-CMISSync est un outil puissant et fiable qui permet une synchronisation
-sur un PC d'un ou plusieurs espaces collaboratifs de la GoFAST.
+Il s'agit d'utilitaires qui font une copie locale des fichiers GoFAST (en totalité ou limité à des espaces) pour pouvoir les accéder lorsque l'on n'a plus de réseau (par exemple dans l'avion).
 
-Si vous n'avez plus de réseau (par exemple dans l'avion), les
-fichiers de la GoFAST sont accessibles sur le disque dur de votre
-ordinateur et vous pouvez quand même travailler avec.
+Certains utilitaires sont mono-directionel (si l'on modifie la copie locale, il faut penser à la sauvegarder sur GoFAST dès qu'on a du réseau, et dans certains cas fusionner ses modifications) ou bi-directionnel (si l'on modifie la copie locale elle sera directement synchronisé une fois le réseau disponible, avec éventuellement une gestion des conflits).
 
-Si vous les modifiez ils seront directement synchronisés une fois le
-réseau disponible.
-
+Historiquement nous utilisons CMISSync mais plus récemment nous avons utilisé également GoodSync (mais contrairement au premier celui-ci est payant)
 
 Installation CMISSync
 ^^^^^^^^^^^^^^^^^^^^^
