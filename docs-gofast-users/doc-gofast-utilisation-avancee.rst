@@ -154,19 +154,18 @@ http://seanashton.net/webdav/
 Nous recommandons l'application OnlyOffice sur Googleplay (au 02/10/2019 la version n'est pas totalement foncitonnelle) et Applestore.
 
 Vous pourrez configurer un espace de stockage directement sur la GoFAST
-par « Ouvrir/Ajouter un stockage en nuage » puis choisir « Webdav » et
-entrer l'adresse « https://gofast.mycomp.com/alfresco/webdav » ou vous
+par « Connecter les clouds » puis choisir « Autre cloud » puis « Webdav » et
+entrer l'adresse « https://gofast.mycomp.com/alfresco/webdav » où vous
 devez remplacer mycomp.com par le domaine de votre organisation.
 
 |image14|
 
-
-.. Important:: TODO
-
-
 |image15|
 
+Vous pouvez ensuite naviguer dans votre arborescence et choisir le document que vous voulez éditer :
+
 |image16|
+
 
 Messagerie instantanée (« chat ») sur mobiles 
 ---------------------------------------------
