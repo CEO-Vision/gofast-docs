@@ -88,14 +88,15 @@ Mais fonctionne également sur les versions récentes d’Internet Explorer 11 p
 .. NOTE::
     Le support IE11 sera optionnel en 2020. Edge-Chromium replacera Edge assez vite, nous recommandons une migration au plus tôt
     
-    Edge-Chromium https://www.microsoftedgeinsider.com/fr-fr/download/
-    Firefox ESR en Français https://www.mozilla.org/fr/firefox/organizations/all/
+    -Edge-Chromium https://www.microsoftedgeinsider.com/fr-fr/download/
+    
+    -Firefox ESR en Français https://www.mozilla.org/fr/firefox/organizations/all/
 
 -  Navigateur MacOS : Safari 12+ (sauf webconference), Chrome 65+
 
 -  Navigateur Linux : Firefox 57+
    
--  Système d'exploitation Windows7 et plus, MacOS 10.11+ et Linux (Ubuntu 16+) et en mobilité Android ou iOS.  
+-  Système d'exploitation Windows7 et plus, MacOS 10.11+ et Linux (Ubuntu 16+) et en mobilité Android ou iOS. ChromeOS (sans support)
 
 -  Bureautique : MS-Office 2010 (>14.0.7190.5000) pour Windows, MS-Office 2016 pour Mac, LibreOffice 5+, WPS (sans support), OnlyOffice Desktop (sans support)
 
