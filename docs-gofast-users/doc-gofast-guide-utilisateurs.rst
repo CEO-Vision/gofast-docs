@@ -86,7 +86,7 @@ Pré-requis nécessaires pour l’utilisation de GoFAST
 Mais fonctionne également sur les versions récentes d’Internet Explorer 11 pas en mode compatibilité (sauf webconference), Edge (sauf webconference), Edge-Chromium, en plus d’Opera 
 
 .. NOTE::
-    Le support IE11 sera optionnel en 2020. Edge-Chromium replacera Edge assez vite, nous recommandons une migration au plus tôt
+    Le support IE11 sera optionnel en 2020, CEO-Vision recommande une migration au plus vite, de même pour Edge vers Edge-Chromium 
     
     -Edge-Chromium https://www.microsoftedgeinsider.com/fr-fr/download/
     
