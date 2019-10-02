@@ -149,12 +149,9 @@ http://seanashton.net/webdav/
 
 
 
-Éditer des fichiers Office sur Tablette
+Éditer des fichiers MS-Office sur Tablette
 ---------------------------------------
-Tablette Android
-^^^^^^^^^^^^^^^^
-Pour ce type de tablette nous recommandons d'utiliser la suite Office
-« **WPS Office** » disponible sur GooglePlay.
+Nous recommandons l'application OnlyOffice sur Googleplay (au 02/10/2019 la version n'est pas totalement foncitonnelle) et Applestore.
 
 Vous pourrez configurer un espace de stockage directement sur la GoFAST
 par « Ouvrir/Ajouter un stockage en nuage » puis choisir « Webdav » et
@@ -163,34 +160,10 @@ devez remplacer mycomp.com par le domaine de votre organisation.
 
 |image14|
 
-L'application va vous demander ensuite votre
-identifiant et mot de passe sur la GoFAST.
+
+.. Important:: TODO
 
 
-
-Il est ensuite possible d'ouvrir un document directement sur la GoFAST.
-Certaines polices de caractère n'existent pas sous Android, la mise en
-page peut être différente de celle sous PC.
-
-La sauvegarde peut de même changer légèrement la mise en page.
-
-.. Important:: Lorsqu'on sauvegarde le document, celui-ci est
-              d'abord sauvegardé en local sur la tablette. Une fois que l'application
-              est fermée (X), la synchronisation est effectuée avec GoFAST
-
-
-Tablette iPad
-^^^^^^^^^^^^^
-Si vous souhaitez uniquement consulter les documents Office, nous vous
-conseillons également « **WPS Office** ».
-
-Néanmoins il existe actuellement une limitation sur la version iPad pour
-sauvegarder un document qui a été ouvert sur la GoFAST il est nécessaire
-de reparcourir tout l'espace de stockage ce qui n'est pas très pratique.
-L'éditeur est notifié de ce bug et un correctif devrait être produit.
-
-Dans l'attente de ce correctif, il est possible d'utiliser la suite «
-**Citrix ShareFile QuickEdit** »
 |image15|
 
 |image16|
@@ -301,9 +274,9 @@ Vous pouvez à présent décompresser l'archive directement dans l'arborescence 
 .. |image11| image:: img/scanbot_ajout_webdav.png
 .. |image12| image:: img/scanbot_choix_webdav.png
 .. |image13| image:: img/scanbot_config_webdav.png
-.. |image14| image:: img/clip_image028.png
-.. |image15| image:: img/clip_image030.png
-.. |image16| image:: img/clip_image032.png
+.. |image14| image:: media-guide/onlyoffice-ipad-1_ipadair2.png
+.. |image15| image:: media-guide/onlyoffice-ipad-2_ipadair2.png
+.. |image16| image:: media-guide/onlyoffice-ipad-3_ipadair2.png
 .. |image17| image:: img/signer_PDF_avec_GoFAST.png
 .. |image18| image:: img/scanbot_envoi_GoFAST.png
 .. |image19| image:: img/abbyy_hot_folder.png
