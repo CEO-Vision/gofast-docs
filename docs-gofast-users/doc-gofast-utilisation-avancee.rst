@@ -151,7 +151,7 @@ http://seanashton.net/webdav/
 
 Éditer des fichiers MS-Office sur Tablette
 ---------------------------------------
-Nous recommandons l'application OnlyOffice sur Googleplay (au 02/10/2019 la version n'est pas totalement foncitonnelle) et Applestore.
+Nous recommandons l'application OnlyOffice sur Googleplay (au 02/10/2019 la version n'est pas totalement fonctionnelle) et Applestore.
 
 Vous pourrez configurer un espace de stockage directement sur la GoFAST
 par « Connecter les clouds » puis choisir « Autre cloud » puis « Webdav » et
