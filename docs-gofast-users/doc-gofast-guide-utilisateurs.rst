@@ -87,7 +87,9 @@ Mais fonctionne également sur les versions récentes d’Internet Explorer 11 p
 
 .. NOTE::
     Le support IE11 sera optionnel en 2020. Edge-Chromium replacera Edge assez vite, nous recommandons une migration au plus tôt
-    Firefox ESR en Français https://download.mozilla.org/?product=firefox-latest-ssl&os=win64&lang=fr
+    
+    Edge-Chromium https://www.microsoftedgeinsider.com/fr-fr/download/
+    Firefox ESR en Français https://www.mozilla.org/fr/firefox/organizations/all/
 
 -  Navigateur MacOS : Safari 12+ (sauf webconference), Chrome 65+
 
