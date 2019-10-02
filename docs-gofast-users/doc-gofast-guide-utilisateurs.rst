@@ -81,19 +81,22 @@ mémos, etc.
 
 Pré-requis nécessaires pour l’utilisation de GoFAST
 ---------------------------------------------------
--  Navigateurs préférentiels Windows: **Firefox (dernière version ESR et supérieure v60 jusqu'à Eté.2019 puis v68) ou Chrome.** 
+-  Navigateurs préférentiels Windows: **Firefox (dernière version ESR) ou Chrome.** 
 
-Mais fonctionne également sur les versions récentes d’Internet Explorer 11 pas en mode compatibilité (saufwebconference), Edge (sauf webconference), en plus d’Opera 
+Mais fonctionne également sur les versions récentes d’Internet Explorer 11 pas en mode compatibilité (sauf webconference), Edge (sauf webconference), Edge-Chromium, en plus d’Opera 
+
+.. NOTE::
+    Le support IE11 sera optionnel en 2020. Edge-Chromium replacera Edge assez vite, nous recommandons une migration au plus tôt
 
 -  Navigateur MacOS : Safari 12+ (sauf webconference), Chrome 65+
 
 -  Navigateur Linux : Firefox 57+
    
--  Système d'exploitation Windows7 et plus, MacOS 10.10+ et Linux (Ubuntu 14+) et en mobilité Android ou iOS.  
+-  Système d'exploitation Windows7 et plus, MacOS 10.11+ et Linux (Ubuntu 16+) et en mobilité Android ou iOS.  
 
--  Bureautique : MS-Office 2010 (>14.0.7190.5000) pour Windows, MS-Office 2016 pour Mac, LibreOffice 5+, WPS (sans support), OnlyOffice Desktop (sans suport)
+-  Bureautique : MS-Office 2010 (>14.0.7190.5000) pour Windows, MS-Office 2016 pour Mac, LibreOffice 5+, WPS (sans support), OnlyOffice Desktop (sans support)
 
--  Messagerie : Outlook 2010+, Thunderbird 52+ 
+-  Messagerie : Outlook 2013+ (Outlook 2010 sans garantie), Thunderbird 52+, Client léger Bluemind  
 
 -  Une connexion relativement bonne est nécessaire : téléchargement de
    512 kbits/s min. et 256kbps upload . Vous pouvez d'ailleurs tester
