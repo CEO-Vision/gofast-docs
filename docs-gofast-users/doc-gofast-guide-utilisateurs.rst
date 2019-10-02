@@ -96,7 +96,8 @@ Mais fonctionne également sur les versions récentes d’Internet Explorer 11 p
 
 -  Navigateur Linux : Firefox 57+
    
--  Système d'exploitation Windows7 et plus, MacOS 10.11+ et Linux (Ubuntu 16+) et en mobilité Android ou iOS. ChromeOS (sans support)
+-  Système d'exploitation Windows7 et plus, MacOS 10.11+ et Linux (Ubuntu 16+), ChromeOS (sans support)
+-  En mobilité Android ou iOS. 
 
 -  Bureautique : MS-Office 2010 (>14.0.7190.5000) pour Windows, MS-Office 2016 pour Mac, LibreOffice 5+, WPS (sans support), OnlyOffice Desktop (sans support)
 
