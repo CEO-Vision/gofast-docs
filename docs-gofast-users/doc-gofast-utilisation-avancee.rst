@@ -26,7 +26,7 @@ Il s'agit d'utilitaires qui font une copie locale des fichiers GoFAST (en totali
 
 Certains utilitaires sont mono-directionel (si l'on modifie la copie locale, il faut penser à la sauvegarder sur GoFAST dès qu'on a du réseau, et dans certains cas fusionner ses modifications) ou bi-directionnel (si l'on modifie la copie locale elle sera directement synchronisé une fois le réseau disponible, avec éventuellement une gestion des conflits).
 
-Historiquement nous utilisons CMISSync mais plus récemment nous sommes en phase de tests de GoodSync et Mountainduck (mais contrairement au premier ceux_ci sont payant). Moutainduck semble très flexible.
+Historiquement nous utilisons CMISSync mais plus récemment nous sommes en phase de tests de GoodSync et Mountainduck (mais contrairement au premier ceux-ci sont payant). Moutainduck semble très flexible.
 
 Installation CMISSync
 ^^^^^^^^^^^^^^^^^^^^^
