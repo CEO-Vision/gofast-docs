@@ -4232,6 +4232,11 @@ sur le titre pour ouvrir la prévisualisation.
 .. figure:: media-guide/image249.png
    :alt: 
    
+Il est aussi possible de voir cette vue depuis la barre de navigation de la GoFAST:
+
+.. figure:: media-guide/Ecran-GoFAST-Dernier_Contenus_vues.png
+   :alt: 
+   
 Accès aux Favoris 
 ~~~~~~~~~~~~~~~~~
 Vous pouvez voir **la liste** de vos documents/espaces/dossiers **favoris** en
