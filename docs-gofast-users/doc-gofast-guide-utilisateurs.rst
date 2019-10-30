@@ -2856,7 +2856,7 @@ Il est possible de générer des publications depuis une sélection de document 
 .. Note:: 
    Cette fonctionnalité est possible unitairement sur la page d'un document, mais aussi en masse depuis GoFAST File Browser (à partir de la v3.6). 
    
-Après avoir séléctionné les documents souhaités, il suffit de cliquer sur *Gérer*, puis sur *Gérer les publications*. 
+Après avoir séléctionné les documents souhaités, il suffit de cliquer sur *Gérer*, puis sur *Créer des publications*. 
 
 .. figure:: media-guide/Ecran-GoFAST_Publication-en-masse_slelectionner-pour-publier-en-masse.png	
    :alt:
@@ -2868,6 +2868,20 @@ Le formulaire de gestion des publications s'ouvre et il faut alors cocher les em
    
 .. Note:: 
    Les publications sont une fonctionnalité clef pour une gestion efficace et en toute sécurité des documents.
+   
+   
+Archiver en masse les documents (en v 3.7)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Il est possible d'archiver une sélection de document de travail. 
+
+.. Note:: 
+   Cette fonctionnalité est possible unitairement sur la page d'un document, mais aussi en masse depuis GoFAST File Browser (à partir de la v3.7). 
+   
+Après avoir séléctionné les documents souhaités, il suffit de cliquer sur *Gérer*, puis sur *Archiver*. 
+
+.. figure:: media-guide/Ecran-GoFAST_GoFASTFileBrowser_Archiver-en-masse.png	
+   :alt:
+  
 
 Ajouter un/des document(s) au panier
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
