@@ -2456,13 +2456,19 @@ Actions possible depuis le panier documentaire
    - Gérer la taxonomie (catégorie, étiquettes, état, langue)
    - Ajouter des emplacements aux documents de travail
    - Créer des publications à partir des documents de travail
+   - Partager par mail des documents
    - Archiver les documents
 
 .. figure:: media-guide/Ecran-GoFAST_Panier-Documentaire_actions-depuis-panier-gestion-en-masse.png	
    :alt:
 
 **Démarrer un processus de tâches depuis le panier (Enterprise only) :**
-Les documents du paniers sont proposés lors du démarrage d’un nouveau workflow, via le menu principale. Cela permet d’associés au processus tous les documents en une fois, que l’on peut ensuite retirer unitairement dans le formulaire du processus.
+Les documents du paniers sont proposés lors du démarrage d’un nouveau workflow, via le menu principale. 
+
+.. figure:: media-guide/Ecran-GoFAST_Panier-Documentaire_demarrer-workflow.png	
+   :alt:
+
+Cela permet d’associés au processus tous les documents en une fois, que l’on peut ensuite retirer unitairement dans le formulaire du processus.
 
 .. figure:: media-guide/Ecran-GoFAST_Panier-Documentaire_retirer-du-panier.png	
    :alt:
