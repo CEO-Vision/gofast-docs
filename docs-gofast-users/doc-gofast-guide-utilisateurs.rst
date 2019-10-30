@@ -2889,6 +2889,31 @@ Après avoir séléctionné les documents souhaités, il suffit de cliquer sur *
    :alt:
   
 
+Partager par email en masse les documents
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Il est possible d'envoyer plusieurs fichiers via un partage par mail. 
+
+.. Note:: 
+Cette fonctionnalité est possible unitairement sur la page d'un document, mais aussi en masse depuis GoFAST File Browser. 
+
+Après avoir sélectionné les documents souhaités, il suffit de cliquer sur *Gérer*, puis sur *Partager par email*. 
+
+.. figure:: media-guide/Ecran-GoFAST_GoFASTFileBrowser_Partager-par-email-en-masse.png 
+	:alt:
+
+Le formulaire d'envoi par email s'ouvre et il faut alors entrer les utilisateurs (GoFAST ou externe).
+
+.. figure:: media-guide/Ecran-GoFAST_GoFASTFileBrowser_Partager-par-email-en-masse-modal.png
+	:alt: 
+
+L'utilisateur recevra alors une notification listant tous les documents avec un bouton "Télécharger les documents", dès qu'il cliquera dessus, il sera redirigé vers cette fenêtre de téléchargement:
+
+.. figure:: media-guide/Ecran-GoFAST_GoFASTFileBrowser_Partager-par-email-en-masse-telechargement.png
+	:alt:
+
+.. Note:: 
+	L'utilisateur recevra une notification dès que la personne a téléchargé le document.
+
 Ajouter un/des document(s) au panier
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
