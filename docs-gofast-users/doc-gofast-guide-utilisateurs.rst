@@ -2454,8 +2454,9 @@ Actions possible depuis le panier documentaire
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 **Gérer en masse les documents du panier :**
    - Gérer la taxonomie (catégorie, étiquettes, état, langue)
-   - Gérer les emplacements/visibilité des documents
+   - Ajouter des emplacements aux documents de travail
    - Créer des publications à partir des documents de travail
+   - Archiver les documents
 
 .. figure:: media-guide/Ecran-GoFAST_Panier-Documentaire_actions-depuis-panier-gestion-en-masse.png	
    :alt:
