@@ -179,7 +179,7 @@ Pour configurer ces clients il suffit d’entrer dans la gestion des comptes :
 **Identifiant** : identifiant\_gofast@gofast-comm.xxxxx.yyy
 
 
-Signature électronique des PDF
+Signature électronique untaire des PDF
 ------------------------------
 
 GoFAST permet d'ouvrir un PDF avec Foxit Reader (ou Acrobat), d'y apposer une signature et de sauvegarder le PDF signé
@@ -192,6 +192,11 @@ Vous pouvez alors choisir dans le menu 'Editer en ligne'. Ceci ouvrira l'applica
 |image17|
 
 .. CAUTION:: Si vous utilisez Acrobat Reader, l'application doit être déjà fermée avant de lancer l'édition en ligne
+
+Signature électronique en masse RGS 2* des PDF
+------------------------------
+
+Nous testons actuellement Xolidosign (site en Anglais mais application traduite en Francais).
 
 Dématérialiser vers GoFAST
 --------------------------
