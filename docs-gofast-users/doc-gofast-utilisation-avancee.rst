@@ -172,7 +172,7 @@ ce standard. Par exemple :
 
 -  Android : Xabber, Kandru (gratuit), Conversations (payant), Astrachat 
 
--  iOS : Chatsecure, AstraChat
+-  iOS : Chatsecure (mais pas de conversation de groupe)
 
 Pour configurer ces clients il suffit d’entrer dans la gestion des comptes :
 
