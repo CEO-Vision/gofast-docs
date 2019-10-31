@@ -179,7 +179,7 @@ Pour configurer ces clients il suffit d’entrer dans la gestion des comptes :
 **Identifiant** : identifiant\_gofast@gofast-comm.xxxxx.yyy
 
 
-Signature électronique untaire des PDF
+Signature électronique unitaire des PDF
 ------------------------------
 
 GoFAST permet d'ouvrir un PDF avec Foxit Reader (ou Acrobat), d'y apposer une signature et de sauvegarder le PDF signé
