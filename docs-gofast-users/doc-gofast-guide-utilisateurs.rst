@@ -88,7 +88,7 @@ Mais fonctionne également sur les versions récentes d’Internet Explorer 11 p
 .. NOTE::
     Le support IE11 sera optionnel en 2020, CEO-Vision recommande une migration au plus vite, de même pour Edge vers Edge-Chromium ou Firefox ESR 
     
-    -Edge-Chromium https://www.microsoftedgeinsider.com/fr-fr/download/
+    -Edge-Chromium https://www.microsoftedgeinsider.com/fr-fr/enterprise
     
     -Firefox ESR en Français https://www.mozilla.org/fr/firefox/organizations/all/
 
