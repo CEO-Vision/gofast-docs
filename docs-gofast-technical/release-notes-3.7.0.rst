@@ -105,12 +105,13 @@ Sécurité
    
    "[GOFAST-5528]", "Mise-à-jour du module Localization"
 
+
 Bugs
-****
+********
 .. csv-table::  
    :header: "Ref.", "Description"
    :widths: 10, 40
-   
+      
   "[GOFAST-4154]", "Correction de l’instabilité de l’affichage des utilisateurs connectés dans le Chat/Messagerie Instantanée"
   "[GOFAST-4219]", "Permettre le fonctionnement correct du Chat / Messagerie Instantanée dans le cas où plusieurs onglets sont ouverts" 
   "[GOFAST-4699]", "Conserver les zone d'impression des fichiers Excel après leur édition avec la Suite Collaborative OnlyOffice pour permettre un prévisualisation correcte" 
@@ -135,7 +136,7 @@ Bugs
 
 
 Bugs mineurs
-************
+*************
 .. csv-table:: 
    :header: "Ref.", "Description"
    :widths: 10, 40
