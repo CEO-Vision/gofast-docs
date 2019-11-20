@@ -136,10 +136,10 @@ Bugs
 
 Bugs mineurs
 ************
-.. csv-table::  
+.. csv-table:: 
    :header: "Ref.", "Description"
    :widths: 10, 40
-      
+
    "[GOFAST-5047]", "Correction de l’affichage de la liste des tâches d’un processus (workflow) sur l’interface mobile"
    "[GOFAST-5144]", "Correction de l'affichage de la hauteur du champ de renommage d'un fichier dans GoFAST File Browser"
    "[GOFAST-5157]", "Correction du bug d’affichage des contenus en double dans le GoFAST File Browser"
