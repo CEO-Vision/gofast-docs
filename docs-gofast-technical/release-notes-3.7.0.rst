@@ -66,7 +66,7 @@ Améliorations techniques
 .. csv-table::  
    :header: "Ref.", "Description"
    :widths: 10, 40
-   
+      
    "[GOFAST-4982]", "Supervision : avoir le nombre d’utilisateurs connectés dans l'heure et le nombre de documents non indexés dans Zabbix"
    "[GOFAST-5320]", "Réinitialisation de la date des VM au lancement de celles-ci"
    "[GOFAST-5337]", "Permettre de filtrer les utilisateurs pendant la synchronisation LDAP"
