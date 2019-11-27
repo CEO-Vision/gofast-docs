@@ -108,7 +108,7 @@ La plate-forme GoFAST est prévue pour fonctionner sur les Hyperviseurs (n'ayant
 et sans retour d'expérience en exploitation, XEN 6+
 
 .. NOTE:: 
-   Pas possible d'import actuellement par images dans un HypeV (ou sous Azure). Une installation par script est effectuée
+   Pas possible d'import actuellement par images dans un HyperV (ou sous Azure). Une installation par script est effectuée
 
 .. CAUTION:: 
    - La VM GoFAST doit posséder un datastore dédié (LUN).
@@ -208,7 +208,7 @@ La plate-forme GoFAST peut s'installer :
    cas aux performances, débit, routage, ...)
    
 .. CAUTION::
-   Si l'organisation utilise un Proxy pour l'accès à Internet des configurations particulières doivent être effectuées    
+   Si l'organisation utilise un Proxy pour l'accès à Internet ou sur le LAN des configurations particulières doivent être effectuées. D'expérience des problèmes sans rapport avec GoFAST et lié à des problèmes de configuration de proxy peuvent survenir   
 
 Liste des ports
 ~~~~~~~~~~~~~~~
