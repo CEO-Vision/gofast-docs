@@ -98,9 +98,9 @@ Problème Explorateur de fichiers Microsoft
 ===================
 .. NOTE:: L'explorateur de fichiers Microsoft fonctionne plus ou moins bien suivant les versions de Windows. Si vous rencontrez des problèmes persistants nous vous conseillons d'installer un logiciel tier comme Cyberduck https://cyberduck.io . Néanmoins il n'est pas possible dans ce cas à partir des applications Windows de faire 'Ouvrir à partir' ou 'Sauvegarder sous' en spécifiant un emplacement GoFAST.
 
-Message "Impossible d'enregistrer le fichier car sa taille dépasse la taille autorisée"
+Message "Impossible d'enregistrer le fichier car sa taille dépasse la taille autorisée" (0x800700DF)
 -----------------------
-Le message Windows provient d'une limitation imposée par le système Windows, qui empêche le transfert de gros fichiers par Webdav.
+Le message Windows provient d'une limitation imposée par le système Windows, qui empêche le transfert de gros fichiers par Webdav. Voir le correctif sur le site de Microsoft : https://support.microsoft.com/fr-fr/help/900900/folder-copy-error-message-when-downloading-a-file-that-is-larger-than
 
 Message "Erreur réseau" avec Explorateur Windows (0x80070035)
 ------------------------
