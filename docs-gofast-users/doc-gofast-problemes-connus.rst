@@ -123,6 +123,9 @@ Afin d'éviter ce message:
 - utiliser GoFAST File Browser
 - utiliser un explorateur de fichier autre que celui de Microsoft (ex. CyberDuck)
 
+A noter que le même problème existe si on essaie de lire un fichier de plus de 50MB. Dans ce cas le message est : "Lecture impossible
+Réessayez. Si le problème persiste, rendez-vous sur https://support.microsoft.com pour demander de l'aide." (0x80004005)
+
 Espace disque insuffisant vers un lecteur Webdav sous Windows
 -----------------------
 
