@@ -114,7 +114,6 @@ Bugs
 
    "[GOFAST-4154]", "Correction de l’instabilité de l’affichage des utilisateurs connectés dans le Chat/Messagerie Instantanée"
    "[GOFAST-4219]", "Permettre le fonctionnement correct du Chat / Messagerie Instantanée dans le cas où plusieurs onglets sont ouverts" 
-   "[GOFAST-4699]", "Conserver les zone d'impression des fichiers Excel après leur édition avec la Suite Collaborative OnlyOffice pour permettre un prévisualisation correcte" 
    "[GOFAST-5075]", "Correction du ‘blocage des cellules’ dans les fichiers tableurs, lors de la coédition simultanée via la Suite OnlyOffice"
    "[GOFAST-5148]", "Le rôle ‘Administrateur’ n’est plus coché par défaut lors de la modification du rôle d’une Liste d’Utilisateurs"
    "[GOFAST-5243]", "Alfresco : Corriger la rotation des logs après une mise à jour de GoFAST"
