@@ -60,7 +60,7 @@ GoFAST exploite le protocole Security Assertion Markup Language Version 2.0 (SAM
 
 Son fonctionnement fait intervenir un *fournisseur d'identité (Identity Provider ou IdP)* qui correspond à l'application fournissant l'identification d'une personne ainsi qu'un *fournisseur de service (Service Provider ou SP)* qui correspond à l'application sur laquelle on souhaite s'identifier. Dans notre cas, GoFAST est le *fournisseur de service (SP)*.
 
-.. figure:: media-guide/sso_login.png
+.. figure:: media-guide/sso_schema.png
    :alt: 
 
 Configuration du fournisseur d'identité
@@ -75,9 +75,6 @@ Les paramètres à remplir sont :
 * *Nom de l'application* : Le nom de l'application passé au fournisseur d'identité pour identifier l'origine de la requête.
 * *URL de connexion de l'IDP* : L'URL de connexion du fournisseur d'identité.
 * *URL de déconnexion de l'IDP* : L'URL de déconnexion du fournisseur d'identité.
-
-.. figure:: media-guide/sso_idp_fields.png
-   :alt: 
 
 Un certificat doit être fourni par le fournisseur d'identité. Ce certificat servira a identifier avec certitude le bon fournisseur d'identité.
 
@@ -107,6 +104,8 @@ Et enfin, nous accédons aux paramètres de sécurité qui vont permettre de s'a
 * *Requêtes 'Authn' signés* : Demande au SP (GoFAST) de signer ses requêtes vers l'IdP
 * *Requêtes de déconnexion chiffrés* : Permets de chiffrer les demandes de connection vers l'IdP
 * *Réponses de déconnexion chiffrés* : Permets de chiffrer les demandes de déconnection vers l'IdP
+
+_______________
 
 * *Messages signés requis* : Permets de demander à l'IdP de signer ses messages
 * *Assertions signés requis* : Permets de demander à l'IdP de signer ses validations d'authentification
