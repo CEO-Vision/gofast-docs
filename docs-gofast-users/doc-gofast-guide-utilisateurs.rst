@@ -1,6 +1,6 @@
-===========================
+==============================
 GoFAST : Guide Utilisateurs 
-===========================
+==============================
 
    
    
@@ -115,7 +115,7 @@ Mais fonctionne également sur les versions récentes d’Internet Explorer 11 p
 - En mobilité : Tablette ou smartphone récent (ios ou android)
 
 Configuration/Installation supplémentaires optionnelles
----------------------------------------------------
+---------------------------------------------------------
 Des configurations et/ou installations supplémentaires sont nécessaires pour 
 
 - Voir GoFAST dans l'explorateur de fichiers Windows
@@ -424,7 +424,7 @@ espace collaboratif/groupe).
    :alt: 
 
 De même, dans chaque espace collaboratif, vous retrouverez les 2 petites
-icônes en haut à droite ; dont la 1\ :sup:`ere` « Parcourir à partir
+icônes en haut à droite ; dont la 1ère « Parcourir à partir
 d’ici » vous permet d’ouvrir une **nouvelle page** avec l’arborescence
 de vos dossiers et fichiers, et avoir ainsi une vue d’ensemble de vos
 fichiers. (pareil que l’onglet « Documents »)
@@ -620,7 +620,7 @@ et Extranet.
    :alt: 
 
 Votre sous-espace (dans Organisations ici ) est ainsi créé, avec ces
-différents onglets et sa page d’\ **accueil** en 1\ :sup:`er` onglet
+différents onglets et sa page d’\ **accueil** en 1er onglet
 (que vous pouvez customiser comme vous voulez, avec une photo, un
 message, une page web, …, pour présenter votre groupe)
 
@@ -796,14 +796,14 @@ de votre nouveau document.
    :alt: 
    
 Ajouter un ou plusieurs documents par *glisser-déposer*
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Vous pouvez à tout instant glisser un document vers GoFAST, soit sur la page d'accueil soit dans l'explorateur de fichiers.
 
 .. figure:: media-guide/glisser-deposer-ithit.png
    :alt:
 
 Ajouter un ou plusiers documents par le *Lecteur Réseau*
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Pour utiliser l'explorateur Windows (ou Explorer sous MAC) vous devez configurer celui-ci pour qu'il accède à GoFAST.
 
 Configurer le *Lecteur Réseau*
@@ -817,7 +817,8 @@ Faire un clic-droit sur "Ce PC" et choisir "Connecter un lecteur réseau"
 Entrer l'adresse pointant vers votre GoFAST, ex. ``\\gofast.ceo-vision.com@SSL\alfresco\webdav\``
 
 .. figure:: media-guide/config-win-webdav2.png
-   :alt: 
+   :alt:
+
 Une boite de dialogue s'ouvrira ensuite dans laquelle vous devrez entrer vos identifiants / mot de passe GoFAST
  
 En cas d'erreur voir http://gofast-docs.readthedocs.io/fr/latest/docs-gofast-users/doc-gofast-problemes-connus.html#gofast-problemes-connus 
@@ -875,7 +876,7 @@ document, avec les métadonnées relatives sur la droite
    :alt: 
 
 Créer une page Web externe (URL)
--------------------------------
+----------------------------------
 
 Avec cette fonctionnalité, vous pouvez **intégrer des pages externes**
 qui proviennent d'autres sites web. On pourra donc visualiser le contenu
@@ -2099,10 +2100,9 @@ Si l'annotation de départ est supprimée, le commentaire associé et les répon
 
 
 Métadonnées : infos relatives aux documentx
------------------------------------------
+--------------------------------------------
 
-Lors de la prévisualisation, vous voyez toute une série **d’informations
-relatives au document** que vous êtes en train de **prévisualiser **:
+Lors de la prévisualisation, vous voyez toute une série d’informations relatives au document que vous êtes en train de **prévisualiser** :
 type de document, taille, format, catégorie, auteur, langue, version,
 emplacement, etc
 
@@ -2113,7 +2113,7 @@ elles vous permettront de filtrer davantage vos résultats.
    :alt: 
 
 Emplacements
-~~~~~~~~~~~
+~~~~~~~~~~~~~~
 
 L’emplacement correspond aux Espaces et dossiers où se trouve votre
 document sur GoFAST (ex: dans un groupe ou une organisation ou votre
@@ -2125,7 +2125,7 @@ Un même et unique fichier peut être classé dans plusieurs emplacements grâce
    :alt: 
 
 Catégories et Etats
-~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~
 
 .. figure:: media-guide/image400.png
    :alt: 
@@ -2226,7 +2226,7 @@ dessus et coller l’URL souhaité. Puis terminez en appuyant sur
    :alt: 
 
 Etiquettes (mots-clefs)
-~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~
 
 Les "Etiquettes" sont des mots-clés que les utilisateurs peuvent à tout moment ajouter aux documents. 
 
@@ -2435,8 +2435,10 @@ Ajouter/retirer des documents dans son panier documentaire
    - Via le menu "burger" (actions contextuelles sur un document) sur la page du document, le fil d’activité, résultat de recherche…
    
 .. figure:: media-guide/ Ecran-GoFAST_Panier-Documentaire_ajout-au-panier-sur-page-document.png
-   :alt:	
-   
+   :alt:
+
+.
+
    - Depuis l’explorateur de fichiers "GoFAST File Browser" en sélectionnant les documents souhaités et en cliquant sur l’icône "panier"
    
 .. figure:: media-guide/Ecran-GoFAST_Panier-Documentaire_ajout-au-panier-dans-gofast-file-browser.png	
@@ -2673,9 +2675,7 @@ Rechercher un document avec des mots-clefs
 La barre de recherche se trouve dans le menu principale pour être accessible à tout moment, depuis toutes les pages de GoFAST. 
 Pour rechercher, il suffit de taper les mots clefs-souhaités et cliquer sur le bouton "loupe" ou faire "Entrer" sur son clavier. 
 
-.. NOTE::
-Une recherche avec 1 ou 2 mots-clefs sera élargie, alors qu'une recherche avec 3 mots-clefs ou plus sera plus restreinte. En effet, avec 2 mots clefs le moteur de recherche va proposer des contenus qui ont soit les 2 mots-clefs, soit l'un des deux mots-clefs. Alors qu’avec plus de 3 mots-clefs le moteur de recherche va proposer des contenus qui répondent à au moins 75% de la recherche. Donc, plus il y a de mots-clefs, plus la recherche est précise. 
-Il est donc conseillé de rentrer peu de mots-clefs si on n’est pas certain des termes recherchés et au contraire, rentrer plus de 3 mots-clefs si on sais exactement ce qu’on cherche et qu’on est sûr des termes saisis. 
+.. NOTE:: Une recherche avec 1 ou 2 mots-clefs sera élargie, alors qu'une recherche avec 3 mots-clefs ou plus sera plus restreinte. En effet, avec 2 mots clefs le moteur de recherche va proposer des contenus qui ont soit les 2 mots-clefs, soit l'un des deux mots-clefs. Alors qu’avec plus de 3 mots-clefs le moteur de recherche va proposer des contenus qui répondent à au moins 75% de la recherche. Donc, plus il y a de mots-clefs, plus la recherche est précise. Il est donc conseillé de rentrer peu de mots-clefs si on n’est pas certain des termes recherchés et au contraire, rentrer plus de 3 mots-clefs si on sais exactement ce qu’on cherche et qu’on est sûr des termes saisis. 
 
 Recherche avancée avec les opérateurs booléens 
 -----------------------------------------------
@@ -2842,15 +2842,13 @@ Si vous appuyez sur le bouton *Nouveau* puis *Dossier*, cela vous permet de cré
 Pour créer un nouveau document dans l'emplacement où vous vous trouvez, cliquez sur *Nouveau*, puis *Document*. Vous serez alors ramené vers le formulaire de création de document avec l'emplacement présélectionné.
 
 Gérer les métadonnées (taxonomie) et les emplacements d’un ou plusieurs contenu(s)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Pour pouvoir cliquer sur le bouton *Gérer* il faut au-préalable sélectionner un ou plusieurs dossier(s) et/ou contenu(s) dans la zone principale de l'explorateur de fichiers.
 
 Une fois les éléments sélectionnés, vous pouvez gérer la visibilité des contenus (selon vos droits utilisateur) en cliquant sur *Gérer les emplacements*, ou bien modifier les informations de taxonomie. 
 
-.. Note:: 
-   Les modifications d'informations de taxonomie sont possibles sur : l'état, la catégorie, le(s) étiquette(s), et la langue. Dans le cas où vous ne souhaitez pas modifier tous ces éléments, laisser le champ positionné sur *Ne pas modifier*. 
-Ces informations serviront ensuie dans les filtres de la recherche automatique pour réduire la liste des résultats. 
+.. Note:: Les modifications d'informations de taxonomie sont possibles sur : l'état, la catégorie, le(s) étiquette(s), et la langue. Dans le cas où vous ne souhaitez pas modifier tous ces éléments, laisser le champ positionné sur *Ne pas modifier*. Ces informations serviront ensuie dans les filtres de la recherche automatique pour réduire la liste des résultats. 
 
 .. figure:: media-guide/FBrowser-08.png
    :alt:
@@ -2893,8 +2891,7 @@ Partager par email en masse les documents
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Il est possible d'envoyer plusieurs fichiers via un partage par mail. 
 
-.. Note:: 
-Cette fonctionnalité est possible unitairement sur la page d'un document, mais aussi en masse depuis GoFAST File Browser. 
+.. Note:: Cette fonctionnalité est possible unitairement sur la page d'un document, mais aussi en masse depuis GoFAST File Browser. 
 
 Après avoir sélectionné les documents souhaités, il suffit de cliquer sur *Gérer*, puis sur *Partager par email*. 
 
@@ -2985,7 +2982,7 @@ Le clic droit permet d'afficher le menu des actions contextuelles au type de con
 
 
 Actions sur un unique document
-~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. figure:: media-guide/FBrowser-13.png
    :alt:
@@ -2994,7 +2991,7 @@ Lorsque vous faite un clic droit sur le document souhaité, une liste de plusieu
 
 
 Actions sur une selection de fichiers ou dossier (classique)
-~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Un clic droit sur une sélection de plusieurs fichiers, plusieurs actions vous sont proposées (de manière restreinte par rapport à l’action sur un fichier unique) telles que : 
 
@@ -3006,7 +3003,6 @@ Un clic droit sur une sélection de plusieurs fichiers, plusieurs actions vous s
 .. figure:: media-guide/FBrowser-14.png
    :alt:
 
--
 .. figure:: media-guide/FBrowser-15.jpg
    :align: right
 
@@ -3016,7 +3012,7 @@ Cette démarche est valable sur : Windows, Mac, Linux
 
 
 Gérer les emplacements (Multi-emplacement = zéro doublon de fichier)
-~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 **Multifiler** signifie mettre le *même et seul document à plusieurs endroits* sur la GoFAST et ainsi rendre une même et seule version visible par plusieurs groupes. Il s’agit d’une action de «Partage» évitant tout doublon.
 
@@ -3046,7 +3042,7 @@ Lorsque vous retournez sur la prévisualisation du document, vous verrez, dans l
 
 
 Actions sur un Espace
-~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~
 
 Plusieurs actions sont également disponible sur un Espace (voir copie d’écran ci-dessous). 
 
@@ -3279,7 +3275,7 @@ Gérer un espace collaboratif /groupe
 Lorsque vous êtes dans un **espace/groupe,** voici le genre de données
 que vous pouvez voir :
 
-a) Une page d’\ **Accueil **;
+a) Une page **d'Accueil** ;
 
 .. figure:: media-guide/image106.png
    :alt: 
@@ -3455,7 +3451,7 @@ travailler.
    :alt: 
 
 Modifier un espace collaboratif/groupe
-------------------
+---------------------------------------
 
 Cette fonctionnalité permet de **modifier les informations concernant un
 groupe** déjà existant : vous pouvez changer le nom, la description, la
@@ -3473,7 +3469,7 @@ par « Enregistrer ».
    :alt: 
 
 Archiver un espace collaboratif/groupe
-------------------
+-----------------------------------------
 
 **Archiver un groupe** permet de garder une trace de son contenu et donc
 de ne pas le supprimer totalement de la GoFAST. On peut archiver un
@@ -3639,7 +3635,7 @@ Pour consulter les listes existantes, il suffit de passer par les annuaires acce
 Pour aller sur un liste depuis l'annuaire, vous pouvez cliquer sur le nom de la liste. Vous pourrez alors consulter les membres et les emplacements de celle-ci. 
 
 Rechercher une Liste d'Utilisateurs
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Les listes d'utilisateurs sont recherchables via la moteur de recherche et peuvent être utilisées comme "filtre de format".
 
@@ -3872,8 +3868,9 @@ Historique des processus en cours
   
 Pour consulter l'historique des actions dans un processus en cours, il suffit de cliquer sur l’icône "i" ou ">" au niveau d'une tâche : 
    
-.. figure:: media-guide/Ecran-GoFAST_Workflows_details-tache-ouvrir-formulaire-historique.png	
-   :alt:      
+.. figure:: media-guide/Ecran-GoFAST_Workflows_details-tache-ouvrir-formulaire-historique.png
+
+.
 
    - le ">" s'affiche uniquement s'il s'agit d'une tâche qui nous a été assignée (permet d'ouvrir le formulaire pour effectuer sa tâche et de voir l'historique des tâches précédentes),
    - le "i" permet de consulter l'historique depuis une tâche assignée à quelqu'un d'autre (ou bien à soi-même, si on ne souhaite pas ouvrir le formulaire).
@@ -3900,7 +3897,7 @@ Pour consulter les détails d'un processus archivé, il suffit de cliquer sur l�
    :alt:
 
 Forums de discussion
-===================
+=====================
 
 Le forum général pour tous les utilisateurs de la GoFAST permet
 d’échanger des informations et questions sur l’outil et sur son
@@ -3919,7 +3916,7 @@ courant de tout ce qu’il s’y passe.
 
    
 Chat/Messagerie instantanée (Enterprise only)
-==================================
+===============================================
    
    
 .. NOTE:: Nous parlons ici de la version dans le navigateur du Chat, vous pouvez également recevoir les messages avec votre smartphone (voir Utilisation Avancée)
@@ -4222,7 +4219,7 @@ Favoris et Derniers contenus vus
 ================================
 
 Derniers contenus vus
-~~~~~~~~~~~~~~~~~~~~~
+-----------------------
 
 Cette petite fenêtre visible presque sur toutes les pages, sur la droite de
 l’écran, vous permet de voir les **10 derniers documents** que vous avez
@@ -4237,8 +4234,9 @@ Il est aussi possible de voir cette vue depuis la barre de navigation de la GoFA
 .. figure:: media-guide/Ecran-GoFAST-Dernier_Contenus_vues.png
    :alt: 
    
-Accès aux Favoris 
-~~~~~~~~~~~~~~~~~
+Accès aux Favoris
+-------------------
+
 Vous pouvez voir **la liste** de vos documents/espaces/dossiers **favoris** en
 cliquant sur l’\ **étoile** sur la bande noire du menu général. Une
 punaise rouge y apparaîtra, ce qui fixe la fenêtre avec la liste. Pour
@@ -4360,14 +4358,14 @@ La plateforme GoFAST peut fonctionner également en mobilité, et est accessible
 Nous vous proposons une version simplifiée de la plateforme pour plus de facilité d'utilisation, voici quelques exemples des écrans que vous pouvez alors retrouver dans votre poche : 
 
 1. Le menu contextuel 
--------------------
+----------------------
 
 .. figure:: media-guide/Mobile-Fil-actualite.png
    :alt:
    
    
 2. Le fil d'actualité et son menu 
-------------------------------
+----------------------------------
 
 .. figure:: media-guide/Mobile-Fil-Actualite-Menu.png
    :alt:
@@ -4380,7 +4378,7 @@ Nous vous proposons une version simplifiée de la plateforme pour plus de facili
    
 
 4. La prévisualisation et son menu de métadonnées
-------------------------------------------------
+--------------------------------------------------
 
 .. figure:: media-guide/Mobile-Menu-Preview.png
    :alt:
@@ -4396,7 +4394,7 @@ Vous pouvez alors mettre à jour une version d'un document, ou encore ajouter un
 
 
 6. Le calendrier 
--------------
+------------------
 
 .. figure:: media-guide/Mobile-Calendrier.png
    :alt:

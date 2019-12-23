@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gofast-docs latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-13 14:32+0200\n"
+"POT-Creation-Date: 2019-12-23 16:47+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -56,184 +56,179 @@ msgstr ""
 msgid "Ne pas oublier de choisir ``default`` pour \"Security Group\" pour permettre le traffic entrant 22 (ssh) et 443 (https)"
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:19
+#: ../../docs-gofast-technical/gofast-community-install.rst:20
 # d7cbd26186b1412b9aaa6b78c7a6a801
 msgid "Instructions (par image)"
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:21
+#: ../../docs-gofast-technical/gofast-community-install.rst:22
 # 6e5e44e810ea40ccb25ed7ccc7f3d42c
 msgid "–Étape 1: Télécharger l’image sur le site https://www.ceo-vision.com/fr/content/gofast-community-ged-plateforme-collaborative-opensource (.ova, ...)"
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:23
+#: ../../docs-gofast-technical/gofast-community-install.rst:24
 # 5fb1d19b200240728ca3b15b33c1fe16
 msgid "–Étape 2: Instancier l'image dans votre logiciel de virtualisation (VMWare, ...)"
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:25
+#: ../../docs-gofast-technical/gofast-community-install.rst:26
 # dc628fe5e22e4ab4af9596ce93c78742
 msgid "GoFAST est une application d'entreprise et nécessite un serveur (mini 2vcpu,6GB RAM,SSD recommandé). L'utilisation sur un simple PC sous VirtualBox est donc déconseillée et il est possible de subir des timeouts au premier accès et ensuite à la fin de la configuration. Un simple rafraichissement de la page suffit."
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:27
+#: ../../docs-gofast-technical/gofast-community-install.rst:28
 # 2d76ce00a990414ba0ecd6650468a4b3
 msgid "-Étape 3: Se connecter à la machine virtuelle en mode console et lancer ``nmtui`` pour configurer le réseau (adresse IP fixe, passerelle ...). Voir https://gofast-docs.readthedocs.io/fr/latest/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.html#configuration-du-reseau-par-lexploitant"
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:29
+#: ../../docs-gofast-technical/gofast-community-install.rst:30
 # 7d4d6d7d51ca4984ac823c231a9827cf
 msgid "Pour vous connecter à votre VM : Le login utilisateur est ``root`` et le mot de passe ``@C0mmunity!`` (avec un ``0`` et non ``O``)."
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:30
+#: ../../docs-gofast-technical/gofast-community-install.rst:31
 # a38b77a2fa4f4cc19aba5b4f6bad7fd4
 msgid "Le clavier est initialement en mode FR ce qui peut poser problème lorsque vous entrez le mot de passe si vous utilisez un clavier QWERTY."
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:31
+#: ../../docs-gofast-technical/gofast-community-install.rst:32
 # c3eb09c487e74bfb8d22522d2309bf3e
 msgid "Le mot de passe root sera changé par celui défini lors du processus de configuration (voir ci-dessous)"
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:33
+#: ../../docs-gofast-technical/gofast-community-install.rst:34
 # 844a92fa639449ffa5f14d36ac74d300
 msgid "–Étape 4: Se rendre sur ``https://votre_adresse_ip`` ce qui lance la configuration de la plate-forme."
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:35
+#: ../../docs-gofast-technical/gofast-community-install.rst:36
 # 61fcb905bfb948da9e231349a07aa421
 msgid "Pour pouvoir utiliser l'adresse complète (FQDN), déclarer la avec son adresse IP dans le fichier ``hosts`` ou dans le DNS"
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:39
+#: ../../docs-gofast-technical/gofast-community-install.rst:40
 # 83e493bf7063484a9d93cd6ec6a716c3
 msgid "La configuration"
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:41
+#: ../../docs-gofast-technical/gofast-community-install.rst:42
 # b96a7fb547254e9cbee609c97a2e6a03
 msgid "Lorsque vous vous rendez sur l'adresse IP , une page de configuration fait son apparition, elle est constituée de 4 étapes:"
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:43
+#: ../../docs-gofast-technical/gofast-community-install.rst:44
 # 825bb937ec0241b0848f0d10d30f0ae4
 msgid "–La configuration du nouveau nom de domaine"
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:45
+#: ../../docs-gofast-technical/gofast-community-install.rst:46
 # f9946f02b19f49b59d0113b4ea25a9e4
 msgid "–La configuration du certificat SSL"
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:47
+#: ../../docs-gofast-technical/gofast-community-install.rst:48
 # 7878fdf6207241968d04bd7fc0bff0fa
 msgid "–La configuration du serveur SMTP"
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:49
+#: ../../docs-gofast-technical/gofast-community-install.rst:50
 # 31b89ed182e84707948a1b0013ba2c19
 msgid "–La configuration du compte administrateur de la plateforme"
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:51
+#: ../../docs-gofast-technical/gofast-community-install.rst:52
 # 393549767bb74566bc1a0d786e329016
 msgid "Une fois ces 4 étapes effectuées, une page apparait avec un récapitulatif. Si tout est correct, validez la configuration."
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:54
+#: ../../docs-gofast-technical/gofast-community-install.rst:55
 # a6252c327b7e4398860885b5be791498
 msgid "Etape 1 : Configuration du nom de domaine"
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:55
+#: ../../docs-gofast-technical/gofast-community-install.rst:56
 # 64dee560536c4c53813301dbaf4018e0
 msgid "Sur cet écran vous configurez chaque partie du FQDN de GoFAST, ex. ``gofast.ceo-vision.com`` :"
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:57
+#: ../../docs-gofast-technical/gofast-community-install.rst:58
 # 5c284f9428f04868a951a3e209eec87b
 msgid "**Nouveau sous-domaine** : C'est le sous-domaine GoFAST, ex. ``gofast``"
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:58
+#: ../../docs-gofast-technical/gofast-community-install.rst:59
 # 3de2f1a55b094816a0aebefa6a3018ce
 msgid "**Nouveau domaine** : Le domaine habituel de votre organisation ex. ``ceo-vision``"
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:59
+#: ../../docs-gofast-technical/gofast-community-install.rst:60
 # 223dbb584bf34ceaa0dea5a9be476f1f
 msgid "**Extension** : Ceci est le TLD, la dernière partie de l'URL ex. ``com``"
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:62
+#: ../../docs-gofast-technical/gofast-community-install.rst:63
 # 29ceb416c460489d8ff5fdb4cfa2b3c8
 msgid "Etape 2 : Configuration du Certificat SSL"
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:63
+#: ../../docs-gofast-technical/gofast-community-install.rst:64
 # daaab344b3af4f83a117b20bfca316e1
 msgid "2 possibilités à ce stade, utiliser vos certificats (recommandé) ou en créer des auto-signés."
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:67
+#: ../../docs-gofast-technical/gofast-community-install.rst:68
 # 303995a3f32e4631ab13c07fb0e94dec
 msgid "Pour la 1ère option vous devez fournir :"
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:66
+#: ../../docs-gofast-technical/gofast-community-install.rst:67
 # 1830314c3ad7462eb084c070f1dd88ec
 msgid "**la clef publique de votre certificat**"
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:67
+#: ../../docs-gofast-technical/gofast-community-install.rst:68
 # 98ee51cc545f44b9a4337baf741bd747
 msgid "**la clef privée**"
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:75
+#: ../../docs-gofast-technical/gofast-community-install.rst:77
 # 253da9ce77c741a38ce7bcc883004b99
 msgid "Pour la 2ème option vous devez fournir :"
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:70
+#: ../../docs-gofast-technical/gofast-community-install.rst:71
 # 2e1f30ea9ba84eb2a8e122dd4736362f
 msgid "**Country**"
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:71
+#: ../../docs-gofast-technical/gofast-community-install.rst:72
 # de27a93d6c6e4e8caf66cd1c800da48d
 msgid "**State or Province**"
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:72
+#: ../../docs-gofast-technical/gofast-community-install.rst:73
 # 5c4e255bca604a7db8d80c5dc0478c26
 msgid "**City**"
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:73
+#: ../../docs-gofast-technical/gofast-community-install.rst:74
 # e7aeba2767ba4e10be87de6f859caf15
 msgid "**Company**"
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:74
+#: ../../docs-gofast-technical/gofast-community-install.rst:75
 # 3e17084164e5424c813f44a93e3d3043
 msgid "**Organization unit**"
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:75
+#: ../../docs-gofast-technical/gofast-community-install.rst:76
 # 3ef39c5db0db43c78d4916a0949bf97a
 msgid "**Web site name**"
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:76
+#: ../../docs-gofast-technical/gofast-community-install.rst:77
 # 820e2f97d5c24c52b826673f6d940296
 msgid "**E-mail address**"
-msgstr ""
-
-#: ../../docs-gofast-technical/gofast-community-install.rst:77
-# e6f5ce5aa8d2445f9de41099bc6933fe
-msgid "Si vous avez généré un certificat SSL auto-signé, il vous faudra ouvrir une autre page avec la meme adresse IP pour de nouveau ajouter l'exception au navigateur"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-community-install.rst:80
@@ -311,32 +306,37 @@ msgstr ""
 msgid "De nombreuses opérations techniques vont être effectuées ainsi que des démarrages de service, ceci pouvant être plus ou moins long suivant les capacités du serveur"
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:106
+#: ../../docs-gofast-technical/gofast-community-install.rst:105
+# 86c83b891279431fa66ed546e23ffa6c
+msgid "Si vous avez généré un certificat SSL auto-signé, il vous faudra ouvrir une autre page avec la meme adresse IP pour de nouveau ajouter l'exception au navigateur. Après avoir ajouté cette exception, fermer immédiatement cette nouvelle page et retourner sur la page de chargement de votre GoFAST."
+msgstr ""
+
+#: ../../docs-gofast-technical/gofast-community-install.rst:108
 # 48be4b0e53a84d28a61155693c6f13f2
 msgid "Démarrons !"
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:108
+#: ../../docs-gofast-technical/gofast-community-install.rst:110
 # 3e0e63c1c8bb440f9afdbba1ec1485d0
 msgid "Vous devez créer quelques utilisateurs et des espaces collaboratifs (et sous-espaces)."
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:110
+#: ../../docs-gofast-technical/gofast-community-install.rst:112
 # b7720faf5dd541a184ed0177f2e203e8
 msgid "Les espaces peuvent être de différents types, \"Organisation\" (départements, ...), \"Groupes\" (projets, ...), \"Extranet\" (partenaires, clients, ...). Voir la documentation en ligne ici : https://gofast-docs.readthedocs.io/fr/latest/docs-gofast-users/doc-gofast-guide-utilisateurs.html#gerer-un-espace-collaboratif-groupe"
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:112
+#: ../../docs-gofast-technical/gofast-community-install.rst:114
 # f41dd2d105e34f38946aa125c515e8cd
 msgid "Dans les sous-espaces créés, ajouter des membres qui pourront avoir accès au contenu de cet espace. Ajoutez des sous-espaces si nécessaire."
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:114
+#: ../../docs-gofast-technical/gofast-community-install.rst:116
 # 83ecb1cdcc0c467d8a883c98d3d5f346
 msgid "Ajoutez du contenu en utilisant le glisser-déposer dans le \"GoFAST File Browser\" (explorateur de fichiers)"
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:116
+#: ../../docs-gofast-technical/gofast-community-install.rst:118
 # 3ca16082756744fb9751bdcde2138982
 msgid "Vous êtes prêt pour démarrer !"
 msgstr ""

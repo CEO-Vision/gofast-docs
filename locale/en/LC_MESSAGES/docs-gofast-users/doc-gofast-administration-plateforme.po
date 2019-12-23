@@ -9,14 +9,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gofast-docs latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-21 13:53+0200\n"
+"POT-Creation-Date: 2019-12-23 16:47+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.4.0\n"
+"Generated-By: Babel 2.7.0\n"
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:3
 msgid "GoFAST : Administration"
@@ -136,5 +136,210 @@ msgid ""
 "Espaces internes (ex : Organisations et Groupes), ainsi que les Espaces "
 "déstinés à d'autres partenaires ou prestataires. C'est important dans le "
 "cas où il y a des Espaces Extranets dédiés à des concurrents."
+msgstr ""
+
+# 0e5d5158b3034bb7b8412a55758a3cd0
+#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:54
+msgid "Single Sign-On (SSO)"
+msgstr ""
+
+# a2d8ecd524c745f0a35ca1551ff3c81d
+#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:57
+msgid "Protocole utilisé par l'application"
+msgstr ""
+
+# 582098770f2a49cf9bd70e16ca6feb3f
+#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:59
+msgid ""
+"GoFAST exploite le protocole Security Assertion Markup Language Version "
+"2.0 (SAML 2.0). Ce standard s'appuie sur la structuration de données au "
+"format XML."
+msgstr ""
+
+# 6f33c6a3f5d14a9bb3a40bfbf01e4561
+#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:61
+msgid ""
+"Son fonctionnement fait intervenir un *fournisseur d'identité (Identity "
+"Provider ou IdP)* qui correspond à l'application fournissant "
+"l'identification d'une personne ainsi qu'un *fournisseur de service "
+"(Service Provider ou SP)* qui correspond à l'application sur laquelle on "
+"souhaite s'identifier. Dans notre cas, GoFAST est le *fournisseur de "
+"service (SP)*."
+msgstr ""
+
+# 4e0814fa404147f7b5498ef7fabcd6db
+#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:67
+msgid "Configuration du fournisseur d'identité"
+msgstr ""
+
+# 5d6ae7ddb2734d638b3b2a8cdb7faab2
+#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:69
+msgid ""
+"Le paramétrage du fournisseur d'identité va permettre de dire à GoFAST "
+"comment et ou demander la vérification d'une identité. Cette "
+"configuration permets également de sécuriser l'échange au moyen de "
+"certificat(s)."
+msgstr ""
+
+# b30ca82734e142a8bbaabd5349113a6a
+#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:71
+msgid "Les paramètres à remplir sont :"
+msgstr ""
+
+# e97a6786df414d8c88070da615cc6164
+#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:73
+msgid ""
+"*Nom* : Le nom du fournisseur d'identité. C'est ce nom qui sera affiché "
+"aux utilisateurs sur le formulaire de connexion."
+msgstr ""
+
+# 0a587697c7bf4790b9917e5195c4b29b
+#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:74
+msgid ""
+"*Identifiant (ID) de l'entité* : Le champ 'entityID' qui permets "
+"d'identifier le fournisseur d'identité. Il s'agit généralement d'une URL."
+msgstr ""
+
+# 4c5a2ae2c6ff4a2797bf3e10d0e4e61f
+#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:75
+msgid ""
+"*Nom de l'application* : Le nom de l'application passé au fournisseur "
+"d'identité pour identifier l'origine de la requête."
+msgstr ""
+
+# 7c1677cdaf7241b9ac2dd04f1a4045ea
+#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:76
+msgid ""
+"*URL de connexion de l'IDP* : L'URL de connexion du fournisseur "
+"d'identité."
+msgstr ""
+
+# bc6d6e1577cb4333968367f995b13950
+#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:77
+msgid ""
+"*URL de déconnexion de l'IDP* : L'URL de déconnexion du fournisseur "
+"d'identité."
+msgstr ""
+
+# 016ebaa1ff774d7f886e8000ef7e0f89
+#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:79
+msgid ""
+"Un certificat doit être fourni par le fournisseur d'identité. Ce "
+"certificat servira a identifier avec certitude le bon fournisseur "
+"d'identité."
+msgstr ""
+
+# 9617bd0a67274549b18b9c5ce94ad198
+#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:85
+msgid "Configuration du fournisseur de service"
+msgstr ""
+
+# f3365523b72f486c93df60ce5ffb63cd
+#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:87
+msgid ""
+"Le paramétrage du fournisseur de service permets à l'application de "
+"transmettre les bonnes informations au fournisseur d'identité dans le bon"
+" format et avec le bon niveau de sécurité."
+msgstr ""
+
+# a67520527d0446ad89a6d09de139e33f
+#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:89
+msgid ""
+"Il est possible de définir des contacts techniques et support à "
+"transmettre à notre fournisseur d'identité :"
+msgstr ""
+
+# f0681a075f4646a6bfa087d8056630d0
+#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:94
+msgid ""
+"On peut également transmettre au fournisseur d'identité des informations "
+"sur l'organisation du fournisseur de service"
+msgstr ""
+
+# e1eba278fbb74fa2a5a493d2674ee825
+#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:99
+msgid ""
+"Et enfin, nous accédons aux paramètres de sécurité qui vont permettre de "
+"s'adapter à notre fournisseur d'identité et de pouvoir communiquer avec "
+"lui. Les paramètres disponibles sont :"
+msgstr ""
+
+# 61a01f1b28b0481a8b615c145b42f5cf
+#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:101
+msgid ""
+"*Attention*: Les 3 paramètres suivants nécessitent à GoFAST de connaitre "
+"la clé privée qui permettra de déchiffrer les informations côté IdP. Se "
+"renseigner auprès du support."
+msgstr ""
+
+# 5c06988d9de540ea97b4dda1628478bf
+#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:103
+msgid ""
+"*Champ 'NameID' chiffré* : Permets de chiffrer dans un format particulier"
+" l'information d'identité qui est transmise entre les applications"
+msgstr ""
+
+# 6e80522e560a4fd78f2196808758baed
+#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:104
+msgid ""
+"*Requêtes 'Authn' signés* : Demande au SP (GoFAST) de signer ses requêtes"
+" vers l'IdP"
+msgstr ""
+
+# 88b642416d2e4b85a55369dedef03027
+#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:105
+msgid ""
+"*Requêtes de déconnexion chiffrés* : Permets de chiffrer les demandes de "
+"connection vers l'IdP"
+msgstr ""
+
+# 4a159c52e52c4a76a3327fc93bde3faa
+#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:106
+msgid ""
+"*Réponses de déconnexion chiffrés* : Permets de chiffrer les demandes de "
+"déconnection vers l'IdP"
+msgstr ""
+
+# 02b0cbf5f1144feca695b243229f8581
+#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:110
+msgid ""
+"*Messages signés requis* : Permets de demander à l'IdP de signer ses "
+"messages"
+msgstr ""
+
+# bbce170480b64fbdbcef027d3756b604
+#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:111
+msgid ""
+"*Assertions signés requis* : Permets de demander à l'IdP de signer ses "
+"validations d'authentification"
+msgstr ""
+
+# 8d3c57cee7694cc3941a32c2d095a142
+#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:112
+msgid ""
+"*Champ 'NameID' chiffré* : Permets de demander à l'IdP de chiffrer le "
+"champ NameID dans le retour de la requête"
+msgstr ""
+
+# 42e9b316a1af415281e8f8292801df4d
+#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:113
+msgid ""
+"*Signature des métadonnées* : Applique notre signature et demande à l'IdP"
+" d'appliquer sa signature sur les métadonnées"
+msgstr ""
+
+# fcfa70683dd746f4bd08e5423aa72bfb
+#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:115
+msgid ""
+"Une fois la configuration terminée, un onglet métadonnées sera généré et "
+"contiendra les métadonnées à renseigner dans l'IdP pour enregistrer "
+"l'application SP (GoFAST) comme étant valide."
+msgstr ""
+
+# 53fb94b754d34de19d0058a376a07a34
+#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:120
+msgid ""
+"Sur la page de login, l'utilisateur pourra maintenant se connecter en "
+"cliquant sur le bouton \"Se connecter avec XXX\"."
 msgstr ""
 
