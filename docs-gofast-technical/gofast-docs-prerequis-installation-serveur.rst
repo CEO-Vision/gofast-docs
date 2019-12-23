@@ -14,7 +14,7 @@ Pré-requis
 Voir http://gofast-docs.readthedocs.io/fr/latest/docs-gofast-users/doc-gofast-guide-utilisateurs.html#pre-requis-necessaires-pour-lutilisation-de-gofast
 
 Composants et configurations optionnels 
-------------------------
+------------------------------------------
 
 - Montage "Lecteur Réseau" (voir http://gofast-docs.readthedocs.io/fr/latest/docs-gofast-users/doc-gofast-guide-utilisateurs.html#ajouter-un-ou-plusiers-documents-par-le-lecteur-reseau)
 - ITHitDocumentOpener (pour l'édition en ligne de contenus non-Office/LibreOffice)
@@ -30,8 +30,8 @@ Architecture
    :alt: 
 
 .. figure:: media/image8.png
-   :alt: 
-   :align: middle
+   :alt:
+   :align: center
 
 +--------------------------------------+--------------------------------------+
 |GoFAST3                                                                      |
@@ -114,7 +114,7 @@ et sans retour d'expérience en exploitation, XEN 6+
    - La VM GoFAST doit posséder un datastore dédié (LUN).
    - Sous VMWARE, choisir "RedHat Enterprise" et "paravirtualized SCSI adapter" à partir de CentOS 7.4 / GoFAST v3.1.1
 
-*VM 2 (GF-COMM) n'est compris uniquement dans l'offre Enterprise
+VM 2 (GF-COMM) n'est compris uniquement dans l'offre Enterprise
 
 +-------------------+-------------------+--------------------+
 |                   | VM 1 (GF)         | VM 2 (GF-COMM)*    |
@@ -265,7 +265,7 @@ et en sortie.
    :alt: 
    
 Ressources WebRTC (Enterprise only)
-----------------------------
+------------------------------------
 
 .. class::
    Enterprise only
@@ -341,7 +341,7 @@ suivantes sont à effectuer: ::
 
 
 Installation par script (Enterprise only)
------------------------
+----------------------------------------------
 
 .. class::
    Enterprise only
@@ -353,7 +353,7 @@ Dans ce cas, une VM avec Centos 7 x64 Minimal est mise à disposition de CEO-Vis
 qui fait ensuite une installation par script.
 
 Post-installation de la VM (Enterprise only) 
-==========================
+=============================================
 
 .. class::
    Enterprise only
@@ -363,12 +363,16 @@ Configuration du réseau (par l’Exploitant)
 --------------------------------------------
 - Se connecter en console à la VM et lancer ``nmtui``
 - Choisir ``Edit a connection`` puis l'interface, normalement ``ems33``
+
 .. figure:: media/nmtui-select-edit-connection.png
    :alt:
+
 - Cliquer sur ``Show`` au niveau de ``IP v4 Configuration``
 - Renseigner les informations (Manual, Addresses, Gateway, DNS serveurs)
+
 .. figure:: media/nmtui-edit-connection.png
    :alt:
+
 .. NOTE::
    Si votre GoFAST est accessible d'Internet, l'adresse est une IP publique
 .. NOTE::
@@ -384,7 +388,7 @@ Configuration du réseau (par l’Exploitant)
    Dans le cas ESX, vérifier que l'adresse MAC correspond à l'adresse IP publique configurée
    
 Configuration / Paramétrage (par l’Exploitant)
---------------------------------------------
+------------------------------------------------
 
 .. NOTE::
    Ces étapes sont très importantes et doivent etre faite le plus

@@ -66,8 +66,6 @@ synchronisation ou changer les paramètres.
                charger la plateforme GoFAST. En effet CMISSync consomme de la bande passante coté 
                serveur et du CPU
 
-|image6|
-
 
 Utilisation
 ^^^^^^^^^^^
@@ -144,7 +142,7 @@ http://seanashton.net/webdav/
 
 
 Éditer des fichiers MS-Office sur Tablette
----------------------------------------
+--------------------------------------------
 Nous recommandons l'application OnlyOffice sur Googleplay (au 02/10/2019 la version n'est pas totalement fonctionnelle) et Applestore.
 
 Vous pourrez configurer un espace de stockage directement sur la GoFAST
@@ -161,7 +159,6 @@ Puis l'éditer :
 
 Messagerie instantanée (« chat ») sur mobiles 
 ---------------------------------------------
-|image6|
 
 Avec GoFAST vous avez une messagerie instantanée privée et sécurisée, équivalent de «
 WhatsApp » pour votre Organisation, fonctionnant sur le standard ouvert
@@ -180,7 +177,7 @@ Pour configurer ces clients il suffit d’entrer dans la gestion des comptes :
 
 
 Signature électronique unitaire des PDF
-------------------------------
+-----------------------------------------
 
 GoFAST permet d'ouvrir un PDF avec Foxit Reader (ou Acrobat), d'y apposer une signature et de sauvegarder le PDF signé
 directement sur la plateforme GoFAST.
@@ -194,7 +191,7 @@ Vous pouvez alors choisir dans le menu 'Editer en ligne'. Ceci ouvrira l'applica
 .. CAUTION:: Si vous utilisez Acrobat Reader, l'application doit être déjà fermée avant de lancer l'édition en ligne
 
 Signature électronique en masse RGS 2* des PDF
-------------------------------
+------------------------------------------------
 
 Nous testons actuellement Xolidosign (site en Anglais mais application traduite en Francais).
 
@@ -242,7 +239,7 @@ Reprise de contenus vers GoFAST
 -------------------------------------
 
 Reprise des contenus GoogleDocs/Drive
-^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Dans le cas de migration d'un entrepot Google vers GoFAST, suivre la procédure suivante:
 
 .. image:: media-guide/GoogleDrive_Download_Export.png
@@ -256,14 +253,9 @@ Vous pouvez à présent décompresser l'archive directement dans l'arborescence 
 .. image:: media-guide/GoogleDrive_Download_Export_Step3.png
 
 
-.. |image0| image:: img/mobilite/wps7DA7.tmp.jpg
-.. |image1| image:: img/mobilite/wps7DB8.tmp.jpg
-.. |image2| image:: img/mobilite/wps7DB9.tmp.jpg
 .. |image3| image:: img/clip_image007.png
 .. |image4| image:: img/clip_image009.png
 .. |image5| image:: img/clip_image011.png
-.. |image6| image:: img/clip_image034.png
-.. |image7| image:: img/mobilite/wps7DBE.tmp.jpg
 .. |image8| image:: img/clip_image017.png
 .. |image9| image:: img/webdavnav_config-0.png
 .. |image10| image:: img/webdavnav_browse-0.png
