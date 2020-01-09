@@ -2754,6 +2754,28 @@ Il est toutefois possible de modifier de tri pour classer les contenus par :
 
 .. NOTE:: trier le résultat de recherche sur un autre critère que la pertinence, peut afficher en haut de la liste des contenus qui correspondent mois bien aux mots-clefs saisis car le critère sélectionné pour le tri prime. 
 
+Sauvegarde des critères de recherche
+------------------------------------
+Avec GoFast, il est possible de sauvegarder manuellement plusieurs recherches prédéfinies et pouvoir les relancer en un click en cas de besoin. Cela permettra un gain de temps considérable.
+Pour enregistrer une sauvegarde, il suffit de taper le mot clef dans la barre de recherche puis cliquer sur la « loupe » ou faire « Entrer » sur le clavier. Une fois que votre recherche est validée et vos filtres sont appliqués, aller dans le volet « Recherche actuelle » et cliquer sur la disquette dans le coin à droite, donner un titre à votre recherche puis appuyer sur « Enregistrer ».
+
+.. figure:: media-guide/search-save-process.jpg
+   :alt:
+
+.. figure:: media-guide/search-title-save.png
+   :alt:
+
+Pour accéder aux recherches sauvegardées, vous avez deux possibilités :
+
+*Dans la barre de recherche à droite, il suffit de passer la souris sur la petite fléchette à coté de la loupe, une liste s’affichera contenant les titres des recherches enregistrées. A ce niveau, vous pouvez accéder seulement à votre recherche en cliquant sur le titre souhaité.
+
+.. figure:: media-guide/search-saved-from-field.jpg
+   :alt:
+
+* Á partir du bloc de recherche (Filtres) dans le volet « Mes recherches enregistrées », à ce niveau vous pouvez exécuter votre recherche, modifier son titre ou la supprimer.
+
+.. figure:: media-guide/search-saved-list-from-tabs.jpg
+   :alt:
 
 Explorateur de fichiers GoFAST File Browser
 ============================================
