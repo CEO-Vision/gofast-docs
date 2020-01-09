@@ -2772,7 +2772,7 @@ Pour accéder aux recherches sauvegardées, vous avez deux possibilités :
 .. figure:: media-guide/search-saved-from-field.jpg
    :alt:
 
-* Á partir du bloc de recherche (Filtres) dans le volet « Mes recherches enregistrées », à ce niveau vous pouvez exécuter votre recherche, modifier son titre ou la supprimer.
+* Á partir du bloc de recherche (Filtres) dans le volet « Mes recherches enregistrées », à ce niveau vous pouvez exécuter votre recherche, modifier les critères ou la supprimer.
 
 .. figure:: media-guide/search-saved-list-from-tabs.jpg
    :alt:
