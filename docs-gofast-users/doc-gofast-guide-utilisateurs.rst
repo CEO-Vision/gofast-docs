@@ -2756,7 +2756,7 @@ Il est toutefois possible de modifier de tri pour classer les contenus par :
 
 Sauvegarde des critères de recherche
 ------------------------------------
-Avec GoFast, il est possible de sauvegarder manuellement plusieurs recherches prédéfinies et pouvoir les relancer en un click en cas de besoin. Cela permettra un gain de temps considérable.
+Avec GoFAST, il est possible de sauvegarder manuellement plusieurs recherches prédéfinies et les relancer en un click en cas de besoin. Cela permettra un gain de temps considérable.
 Pour enregistrer une sauvegarde, il suffit de taper le mot clef dans la barre de recherche puis cliquer sur la « loupe » ou faire « Entrer » sur le clavier. Une fois que votre recherche est validée et vos filtres sont appliqués, aller dans le volet « Recherche actuelle » et cliquer sur la disquette dans le coin à droite, donner un titre à votre recherche puis appuyer sur « Enregistrer ».
 
 .. figure:: media-guide/search-save-process.jpg
@@ -2767,7 +2767,7 @@ Pour enregistrer une sauvegarde, il suffit de taper le mot clef dans la barre de
 
 Pour accéder aux recherches sauvegardées, vous avez deux possibilités :
 
-*Dans la barre de recherche à droite, il suffit de passer la souris sur la petite fléchette à coté de la loupe, une liste s’affichera contenant les titres des recherches enregistrées. A ce niveau, vous pouvez accéder seulement à votre recherche en cliquant sur le titre souhaité.
+* Dans la barre de recherche, à droite il suffit de passer la souris sur la petite fléchette à coté de la loupe, une liste s’affichera contenant les titres des recherches enregistrées. A ce niveau, vous pouvez accéder seulement à votre recherche en cliquant sur le titre souhaité.
 
 .. figure:: media-guide/search-saved-from-field.jpg
    :alt:
