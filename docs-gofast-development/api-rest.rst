@@ -823,12 +823,12 @@ Cette méthode permet d'attacher un commentaire à une entité de type noeud
 Ressource : space
 **********************
 
-Cette ressource permet d'intéragir avec les Organic Groups de Drupal de type comment. Ces derniers représentent ce que l'on appel des *espaces collaboratifs*
+Cette ressource permet d'intéragir avec les *Organic Groups* de Drupal de type comment. Ces derniers représentent ce que l'on appelle des *espaces collaboratifs*
 
 Action : space
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Cette action permet d'intéragir basiquement avec les Organic Groups de Drupal.
+Cette action permet d'intéragir basiquement avec les *Organic Groups* de Drupal.
 
 PUT
 __________
