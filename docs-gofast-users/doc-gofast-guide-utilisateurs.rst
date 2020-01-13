@@ -3924,14 +3924,14 @@ Gestion des tâches collaboratives (Kanban)
 Pour une meilleure gestion de tâches, GoFast propose une interface sous forme de kanban avec un système de colonnes et de cartes pour organiser les différentes actions à mener lors d’un projet.
 
 .. NOTE::
-Un seul Kanban est disponible par espace. Les espaces publiques ne disposent pas de cette fonctionnalité.
+   Un seul Kanban est disponible par espace. Les espaces publiques ne disposent pas de cette fonctionnalité.
 
 Pour accéder à cette fonctionnalité, aller dans la page d’un espace puis cliquer sur l’onglet « Tâches » La configuration la plus classique consiste à créer 4 colonnes : Démarrage, En cours, Finalisation, Terminé ou Annulé.
 Dans la première colonne, nous créons les tâches à effectuer en cliquant sur le bouton « Ajouter une nouvelle Carte ».  
 
 .. figure:: media-guide/creer-colonne-tache-kanban.jpg	
    :alt:
-Pour chaque carte, renseignez Le titre de votre carte, La description, Les documents liés, La date d’échéance, Le responsable puis Les participants et enfin appuyer sur « Enregistrer ».
+Pour chaque carte, renseignez le titre, la description, les documents liés, la date d’échéance, le responsable puis les participants et enfin appuyer sur « Enregistrer ».
 
 .. figure:: media-guide/creer-une-carte.jpg	
    :alt:
