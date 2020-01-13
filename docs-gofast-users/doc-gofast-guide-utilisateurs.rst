@@ -3932,6 +3932,7 @@ Dans la première colonne, nous créons les tâches à effectuer en cliquant sur
 .. figure:: media-guide/creer-colonne-tache-kanban.jpg	
    :alt:
 Pour chaque carte, renseignez Le titre de votre carte, La description, Les documents liés, La date d’échéance, Le responsable puis Les participants et enfin appuyer sur « Enregistrer ».
+
 .. figure:: media-guide/creer-une-carte.jpg	
    :alt:
 
