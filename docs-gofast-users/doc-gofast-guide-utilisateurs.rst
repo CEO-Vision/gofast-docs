@@ -2756,7 +2756,7 @@ Il est toutefois possible de modifier de tri pour classer les contenus par :
 
 Sauvegarde des critères de recherche
 ------------------------------------
-Avec GoFAST, il est possible de sauvegarder manuellement plusieurs recherches prédéfinies et les relancer en un click en cas de besoin. Cela permettra un gain de temps considérable.
+Avec GoFAST, il est possible de sauvegarder manuellement plusieurs recherches prédéfinies et les relancer en un clic en cas de besoin. Cela permettra un gain de temps considérable.
 Pour enregistrer une sauvegarde, il suffit de taper le mot clef dans la barre de recherche puis cliquer sur la « loupe » ou faire « Entrer » sur le clavier. Une fois que votre recherche est validée et vos filtres sont appliqués, aller dans le volet « Recherche actuelle » et cliquer sur la disquette dans le coin à droite, donner un titre à votre recherche puis appuyer sur « Enregistrer ».
 
 .. figure:: media-guide/search-save-process.jpg
@@ -3916,6 +3916,23 @@ Une fois la fenêtre des Processus et Tâches ouverte, il faut aller dans l’on
 Pour consulter les détails d'un processus archivé, il suffit de cliquer sur l’icône "i" au niveau du processus. 
 
 .. figure:: media-guide/Ecran-GoFAST_Workflows_processus-archive-historique.png	
+   :alt:
+
+Gestion des tâches collaboratives (Kanban)
+==========================================
+
+Pour une meilleure gestion de tâches, GoFast propose une interface sous forme de kanban avec un système de colonnes et de cartes pour organiser les différentes actions à mener lors d’un projet.
+
+.. NOTE::
+Un seul Kanban est disponible par espace. Les espaces publiques ne disposent pas de cette fonctionnalité.
+
+Pour accéder à cette fonctionnalité, aller dans la page d’un espace puis cliquer sur l’onglet « Tâches » La configuration la plus classique consiste à créer 4 colonnes : Démarrage, En cours, Finalisation, Terminé ou Annulé.
+Dans la première colonne, nous créons les tâches à effectuer en cliquant sur le bouton « Ajouter une nouvelle Carte ».  
+
+.. figure:: media-guide/creer-colonne-tache-kanban.jpg	
+   :alt:
+Pour chaque carte, renseignez Le titre de votre carte, La description, Les documents liés, La date d’échéance, Le responsable puis Les participants et enfin appuyer sur « Enregistrer ».
+.. figure:: media-guide/creer-une-carte.jpg	
    :alt:
 
 Forums de discussion
