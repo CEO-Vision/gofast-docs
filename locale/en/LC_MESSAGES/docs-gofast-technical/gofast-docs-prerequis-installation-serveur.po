@@ -3,7 +3,7 @@
 # This file is distributed under the same license as the gofast-docs
 # package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
-# Christopher Potter <cpotter@ceo-vision.com>, 2019.
+# Christopher Potter <cpotter@ceo-vision.com>, 2019, 2020.
 # svetlosemina <vetlosemina@yandex.ru>, 2019.
 # Jérôme Leman-Garin <jleman@ceo-vision.com>, 2019.
 msgid ""
@@ -11,14 +11,15 @@ msgstr ""
 "Project-Id-Version: English (GoFAST)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-23 16:47+0100\n"
-"PO-Revision-Date: 2019-06-16 13:28+0000\n"
+"PO-Revision-Date: 2020-01-14 08:11+0000\n"
 "Last-Translator: Christopher Potter <cpotter@ceo-vision.com>\n"
-"Language: en\n"
 "Language-Team: en <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=n != 1\n"
+"Language: en\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.6.1\n"
 "Generated-By: Babel 2.7.0\n"
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:3
@@ -63,12 +64,11 @@ msgstr ""
 "or LibreOffice documents)"
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:21
-#, fuzzy
 msgid ""
 "Synchronisation hors-ligne (voir http://gofast-"
 "docs.readthedocs.io/fr/latest/docs-gofast-users/doc-gofast-utilisation-"
 "avancee.html#installation-cmissync)"
-msgstr "CMISSync Offline synchronisation"
+msgstr "Offline synchronisation"
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:24
 msgid "Pré-requis et installation Serveur"
@@ -238,13 +238,12 @@ msgid "Pré-requis Machine Virtuelle"
 msgstr "Virtual Machine Prerequisites"
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:97
-#, fuzzy
 msgid ""
 "La plate-forme GoFAST est prévue pour fonctionner sur les Hyperviseurs "
 "(n'ayant pas atteint leur EOL) 64 bits suivant :"
 msgstr ""
 "The GoFAST platform is intended to function on the following 64-bit "
-"Hypervisors:"
+"Hypervisors (which did not reached their EOL) :"
 
 # 72f6969dd80f4095b98234389f8228cc
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:100
@@ -252,7 +251,6 @@ msgid "VMWare ESX"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:102
-#, fuzzy
 msgid "HyperV"
 msgstr "Hyper-V"
 
@@ -288,7 +286,6 @@ msgstr ""
 "adapter\" from CentOS 7.4 / GoFAST v3.1.1"
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:117
-#, fuzzy
 msgid "VM 2 (GF-COMM) n'est compris uniquement dans l'offre Enterprise"
 msgstr "*VM 2 (GF-COMM) is only included in the Enterprise offer/edition"
 
@@ -341,9 +338,8 @@ msgid "IOPS(FIO)"
 msgstr "IOPS(FIO)"
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:128
-#, fuzzy
 msgid "500+"
-msgstr "250+"
+msgstr "500+"
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:130
 msgid "Réseau"
@@ -666,9 +662,8 @@ msgid "5222/TCP"
 msgstr "5222/TCP"
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:251
-#, fuzzy
 msgid "3478/TCP**"
-msgstr "3478/TCP***"
+msgstr "3478/TCP**"
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:253
 msgid "\\(x\\)"
@@ -688,9 +683,8 @@ msgid "\\* si les ports udp ne peuvent être ouverts"
 msgstr "* if the udp ports can not be opened"
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:259
-#, fuzzy
 msgid "\\*\\* pour la video/desktopsharing dans le chat"
-msgstr "*** for video / desktopsharing in chat"
+msgstr "\\*\\* for video/desktopsharing in chat"
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:262
 msgid ""
@@ -1232,4 +1226,3 @@ msgstr "that the « **stunnel**  » process works"
 #~ " of configuration may eventually allow "
 #~ "the range 49152-65535 / UDP as "
 #~ "Skype)"
-
