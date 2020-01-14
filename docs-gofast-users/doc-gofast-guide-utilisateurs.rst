@@ -3949,6 +3949,15 @@ Une fois la carte créée, vous pouvez modifier les informations précédemment 
 
 Les cartes peuvent être déplacées au fur-à-mesure d’une colonne à une autre suivant la progression des actions menées. 
 
+.. NOTE::
+   Dans la section Todolist, les membres de l’équipe peuvent indiquer la fin de la réalisation des taches en cochant les cases adjacentes aux titres. 
+   Ils peuvent également modifier les informations d’une tâche (Titre, affectation, échéance) ou la supprimer.
+
+.. figure:: media-guide/kanban-todolist-management.jpg	
+   :alt:
+
+
+
 
 Forums de discussion
 =====================
