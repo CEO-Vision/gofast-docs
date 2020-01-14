@@ -3965,9 +3965,39 @@ Permissions
 - Qui peut supprimer une tâche ? L’administrateur de l’espace et le créateur de la tâche. 
 - Qui peut commenter les tâches/valider les checklist (Todolist) ? L’administrateur de l’espace, contributeur et les membres en lecture seul si assignés à la tâche/Checklist.
 
-Notifications & Agenda
+Notifications 
 ---------------------- 
++---------------------------------------+-------------+--------------+----------------------+
+| Notifications	                        | Responsable | Participants | Assignés aux actions |
++=======================================+=============+==============+======================+
+| Création de carte 	                |      X      |      X	     |                      |
++---------------------------------------+-------------+--------------+----------------------+
+| Création d’action (Checklist)	        |      X      |      X	     |          X           |
++---------------------------------------+-------------+--------------+----------------------+
+| Date d’échéance de la carte (Tâche)	|      X      |      X       |  	X           |
++---------------------------------------+-------------+--------------+----------------------+
+| Date d’échéance de l’action Checklist	|             |       	     |          X           |
++---------------------------------------+-------------+--------------+----------------------+
+| Soumission Commentaire	        |      X      |      X	     |          X           |
++---------------------------------------+-------------+--------------+----------------------+
 
+Visualisation des cartes (Agenda & Menu Tâches)
+-----------------------------------------------
+
+Les cartes sont présentes dans les calendriers des espaces ou leurs sous-espaces. Elles sont également visibles dans le calendrier de l’espace personnel sur lequel le membre de l’équipe est assigné en tant que :
+- Membre de la carte.
+- Affecté à un élément de Checklist.
+Il suffit de cliquer sur l’événement dans le calendrier pour se rediriger sur le kanban contenant la carte en question.
+
+.. figure:: media-guide/kanban-card-display-calendar.jpg	
+   :alt:
+
+À partir du menu principal, vous pouvez visualiser les cartes ouvertes dans la rubrique Mes tâches (Roues crantées).
+L’icône en petite fenêtre disposée à côté du titre de la carte permet de faire la différence entre les tâches workflow et les tâches créées à partir du Kanban.
+Pour se rediriger vers le Kanban concerné, il faudra appuyer sur l’icône information en bas à droite.
+
+.. figure:: media-guide/Kanban-card-display-menu-tasks.jpg	
+   :alt:
 
 
 Forums de discussion
