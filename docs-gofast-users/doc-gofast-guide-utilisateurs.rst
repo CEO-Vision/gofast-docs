@@ -3926,6 +3926,8 @@ Pour une meilleure gestion de tâches, GoFast propose une interface sous forme d
 .. NOTE::
    Un seul Kanban est disponible par espace. Les espaces publiques ne disposent pas de ce gestionnaire de tâches.
 
+Gestion du Kanban
+-----------------
 Pour accéder à cette fonctionnalité, aller dans la page d’un espace puis cliquer sur l’onglet « Tâches ». La configuration la plus classique consiste à créer 4 colonnes : Démarrage, En cours, Finalisation, Terminé ou Annulé.
 Pour créer les tâches à effectuer cliquer sur le bouton « Ajouter une nouvelle Carte ». 
 
@@ -3939,10 +3941,10 @@ Renseigner le titre, la description, les documents liés, la date d’échéance
 Une fois la carte créée, vous pouvez modifier les informations précédemment entrées ou ajouter plus d’éléments en cliquant sur le champ concerné. 
 
 1. Statut :  La carte peut avoir trois états possibles (A traiter en priorité, En cours, Terminé).
-2. Todolist :  Dans cette section vous pouvez ajouter plusieurs actions à effectuer avec une échéance. Chaque action pourra être affectée à un utilisateur précis.
+2. Todolist :  Dans cette section vous pouvez ajouter plusieurs actions à effectuer avec échéance. Chaque action pourra être affectée à un membre de l’équipe.
 3. Commentaire (s) : Ici vous pouvez partager des remarques et des suggestions avec les participants.
-4. Afficher le détail : Afficher le rapport d’activité de la carte.
-5. Fermer ou supprimer : la suppression est activée uniquement pour l'administrateur du Kanban.
+4. Afficher le détail : Afficher l’audit des actions d’une carte.
+5. Fermer ou supprimer : la suppression est activée uniquement pour l'administrateur de l’espace ou le créateur de la tâche.
 
 .. figure:: media-guide/kanban-card-fields-edit.jpg	
    :alt:
@@ -3950,12 +3952,23 @@ Une fois la carte créée, vous pouvez modifier les informations précédemment 
 Les cartes peuvent être déplacées au fur-à-mesure d’une colonne à une autre suivant la progression des actions menées. 
 
 .. NOTE::
-   Dans la section Todolist, les membres de l’équipe peuvent indiquer la fin de la réalisation des taches en cochant les cases adjacentes aux titres. 
-   Ils peuvent également modifier les informations d’une tâche (Titre, affectation, échéance) ou la supprimer.
+   Dans la section Todolist, les membres de l’équipe peuvent indiquer la fin de la réalisation des actions en cochant les cases adjacentes aux titres. 
+   Ils peuvent également modifier les informations d’une action (Titre, affectation, échéance) ou la supprimer.
 
 .. figure:: media-guide/kanban-todolist-management.jpg	
    :alt:
 
+Permissions 
+-----------
+
+Qui peut créer un Kanban ?  Seulement l’administrateur de l’espace. 
+Qui peut créer/modifier/déplacer les tâches ?  L’administrateur de l’espace et le contributeur.
+Qui peut supprimer une tâche ? L’administrateur de l’espace et le créateur de la tâche. 
+Qui peut commenter les tâches/valider les checklist (Todolist) ?  L’administrateur de l’espace, contributeur et les membres en lecture seul si assignés à la tâche/Checklist.
+
+
+Notifications & Agenda
+---------------------- 
 
 
 
