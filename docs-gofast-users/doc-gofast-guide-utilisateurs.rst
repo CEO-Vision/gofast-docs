@@ -3984,7 +3984,7 @@ Notifications
 Visualisation des cartes (Agenda & Menu Tâches)
 -----------------------------------------------
 
-Les cartes sont présentes dans les calendriers des espaces ou leurs sous-espaces. Elles sont également visibles dans le calendrier de l’espace personnel sur lequel le membre de l’équipe est assigné en tant que :
+Les cartes sont présentes dans les calendriers des espaces ou leurs sous-espaces. Elles sont également visibles dans le calendrier de l’espace personnel sur lequel le membre de l’équipe est assigné en tant que : 
 - Membre de la carte.
 - Affecté à un élément de Checklist.
 Il suffit de cliquer sur l’événement dans le calendrier pour se rediriger sur le kanban contenant la carte en question.
