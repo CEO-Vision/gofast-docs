@@ -3960,12 +3960,10 @@ Les cartes peuvent être déplacées au fur-à-mesure d’une colonne à une aut
 
 Permissions 
 -----------
-
-Qui peut créer un Kanban ?  Seulement l’administrateur de l’espace. 
-Qui peut créer/modifier/déplacer les tâches ?  L’administrateur de l’espace et le contributeur.
-Qui peut supprimer une tâche ? L’administrateur de l’espace et le créateur de la tâche. 
-Qui peut commenter les tâches/valider les checklist (Todolist) ?  L’administrateur de l’espace, contributeur et les membres en lecture seul si assignés à la tâche/Checklist.
-
+- Qui peut créer un Kanban ?  Seulement l’administrateur de l’espace. 
+- Qui peut créer/modifier/déplacer les tâches ? L’administrateur de l’espace et le contributeur.
+- Qui peut supprimer une tâche ? L’administrateur de l’espace et le créateur de la tâche. 
+- Qui peut commenter les tâches/valider les checklist (Todolist) ? L’administrateur de l’espace, contributeur et les membres en lecture seul si assignés à la tâche/Checklist.
 
 Notifications & Agenda
 ---------------------- 
