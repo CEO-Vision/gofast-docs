@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: gofast-docs latest\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-23 16:47+0100\n"
-"PO-Revision-Date: 2019-12-23 15:56+0000\n"
-"Last-Translator: Jérôme Leman-Garin <jleman@ceo-vision.com>\n"
+"PO-Revision-Date: 2020-01-11 10:44+0000\n"
+"Last-Translator: svetlosemina <vetlosemina@yandex.ru>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: en\n"
 "MIME-Version: 1.0\n"
@@ -22,11 +22,11 @@ msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:3
 msgid "GoFAST : Administration"
-msgstr ""
+msgstr "GoFAST: Administration"
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:8
 msgid "Introduction"
-msgstr ""
+msgstr "Introduction"
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:10
 msgid ""
@@ -35,6 +35,9 @@ msgid ""
 "Collaboratifs, merci de vous référer à la rubrique \"Gestion des Espaces "
 "Collaboratifs\"."
 msgstr ""
+"This part of the documentation is intended for users with the \"Super-"
+"Administrator\" role. For the administration of Collaborative Spaces, please "
+"refer to the \"Collaborative Spaces Management\" section."
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:12
 msgid ""
@@ -46,24 +49,31 @@ msgid ""
 "dont l’accès est donné uniquement par les administrateurs de l’Espace (en"
 " général des responsable métiers)."
 msgstr ""
+"The \"Super-Administrator\" role provides access to GoFAST configuration "
+"functionality, but in no case this role allows access to default "
+"Collaborative Spaces and documents. The aim here is to guarantee the "
+"confidentiality of the data. To have access to the contents of a "
+"Collaborative Space it is necessary to be a member of this Space whose "
+"access is given only by the administrators of the Space (in general, "
+"business managers)."
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:17
 msgid "Configuration de la visibilité des Utilisateurs et Espaces"
-msgstr ""
+msgstr "Visibility configuration of Users and Spaces"
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:20
 msgid "Deux options sont disponibles :"
-msgstr ""
+msgstr "There are two available options :"
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:21
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:30
 msgid "Visibilité entre les utilisateurs"
-msgstr ""
+msgstr "Visibility between users"
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:22
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:42
 msgid "Visibilité des Espaces Collaboratifs"
-msgstr ""
+msgstr "Visibility of Collaborative Spaces"
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:24
 msgid ""
@@ -71,6 +81,8 @@ msgid ""
 "Collaboratifs, mais sur des rôles globaux sur GoFAST, à savoir : "
 "Utilisateurs Standard ou Extranet."
 msgstr ""
+"This configuration is not related to the roles given in the Collaborative "
+"Spaces, but to global roles on GoFAST, namely: Standard or Extranet users."
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:26
 msgid ""
@@ -78,12 +90,17 @@ msgid ""
 "aucun Espace Collaboratif en commun. Si deux utilisateurs sont membres "
 "d'un même espace, ils pourront dans tous les cas se voir entre eux."
 msgstr ""
+"Partitioning applies only to users having no common Collaborative Space. If "
+"two users are members of the same space, in any case they will be able to "
+"see each other."
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:32
 msgid ""
 "Il s'agit de permettre aux utilisateurs de se voir entre eux dans "
 "l’annuaire des utilisateurs et de consulter les profils."
 msgstr ""
+"It allows users to see each other in the users directory and to view their "
+"profiles."
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:36
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:48
@@ -91,30 +108,39 @@ msgid ""
 "GoFAST permet de séléctionner la visibilité ou le cloisonement selon le "
 "rôle des utilisateurs :"
 msgstr ""
+"GoFAST allows you to select visibility or partitioning according to the role "
+"of users:"
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:35
 msgid ""
 "Les utilisateurs ayant le rôle \"Extranet\" (rôle globale à la "
 "plateforme) peuvent se voir ou pas entre eux."
 msgstr ""
+"Users with the \"Extranet\" role (global role on the platform) can or can "
+"not see each other."
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:36
 msgid ""
 "Tous les utilisateurs indépendament de leur rôle sur GoFAST peuvent se "
 "voir ou pas entre eux."
 msgstr ""
+"All users independent of their role on Gofast can or can not see each other."
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:38
 msgid ""
 "Le cloisonnement entre les utilisateurs extranets permet d'éviter que des"
 " partenaires et prestataires ne se voient entre eux."
 msgstr ""
+"Partitioning between extranet users prevents partners and providers from "
+"seeing each other."
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:44
 msgid ""
 "Il s'agit de permettre aux utilisateurs de voir ou pas l'arborescence des"
 " différents Espaces Collaboratifs dont ils ne sont pas membres. ."
 msgstr ""
+"It allows users to see or not to see the tree structure of the different "
+"Collaborative Spaces of which they are not members."
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:47
 msgid ""
@@ -122,12 +148,16 @@ msgid ""
 "plateforme) peuvent ou pas consulter l'ensemble de l'arborescence des "
 "Espaces Collaboratifs."
 msgstr ""
+"Users with the \"Extranet\" role (global role on the platform) can or can "
+"not see the whole tree structure of Collaborative Spaces."
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:48
 msgid ""
 "Tous les utilisateurs indépendament de leur rôle sur GoFAST peuvent ou "
 "pas consulter l'ensemble de l'arborescence des Espaces Collaboratifs."
 msgstr ""
+"All users independent of their role on GoFAST can or can not see the whole "
+"tree structure of Collaborative Spaces."
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:50
 msgid ""
@@ -139,16 +169,22 @@ msgid ""
 "déstinés à d'autres partenaires ou prestataires. C'est important dans le "
 "cas où il y a des Espaces Extranets dédiés à des concurrents."
 msgstr ""
+"This partitioning prevents users from being able to see the Spaces of which "
+"they are not members, in the Spaces directory. For users with Extranet role, "
+"it prevents partners and service providers from being able to see the "
+"Internal Spaces tree structure (e.g.: Organisations and Groups), as well as "
+"the Spaces for other partners or service providers. This is important if "
+"there are Extranet Spaces dedicated to competitors."
 
 # 0e5d5158b3034bb7b8412a55758a3cd0
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:54
 msgid "Single Sign-On (SSO)"
-msgstr ""
+msgstr "Single Sign-On (SSO)"
 
 # a2d8ecd524c745f0a35ca1551ff3c81d
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:57
 msgid "Protocole utilisé par l'application"
-msgstr "Application supported protocol"
+msgstr "Protocol used by the application"
 
 # 582098770f2a49cf9bd70e16ca6feb3f
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:59
@@ -157,6 +193,8 @@ msgid ""
 "2.0 (SAML 2.0). Ce standard s'appuie sur la structuration de données au "
 "format XML."
 msgstr ""
+"GoFAST uses the Security Assertion Markup Language Version 2.0 (SAML 2.0) "
+"protocol. This standard is based on the structuring of data in XML format."
 
 # 6f33c6a3f5d14a9bb3a40bfbf01e4561
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:61
@@ -168,11 +206,16 @@ msgid ""
 "souhaite s'identifier. Dans notre cas, GoFAST est le *fournisseur de "
 "service (SP)*."
 msgstr ""
+"Its operation involves an *identity provider (Identity Provider or IdP)* "
+"which corresponds to the application providing the identification of a "
+"person as well as a *service provider (Service Provider or SP)* which "
+"corresponds to the application on which we want to identify. In our case, "
+"GoFAST is the *service provider (SP)*."
 
 # 4e0814fa404147f7b5498ef7fabcd6db
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:67
 msgid "Configuration du fournisseur d'identité"
-msgstr ""
+msgstr "Identity provider configuration"
 
 # 5d6ae7ddb2734d638b3b2a8cdb7faab2
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:69
@@ -182,11 +225,14 @@ msgid ""
 "configuration permets également de sécuriser l'échange au moyen de "
 "certificat(s)."
 msgstr ""
+"The identity provider settings will allow GoFAST to be told how and / or "
+"request verification of an identity. This configuration also makes it "
+"possible to secure the exchange by means of certificate (s)."
 
 # b30ca82734e142a8bbaabd5349113a6a
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:71
 msgid "Les paramètres à remplir sont :"
-msgstr ""
+msgstr "The parameters to be filled are:"
 
 # e97a6786df414d8c88070da615cc6164
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:73
@@ -194,6 +240,8 @@ msgid ""
 "*Nom* : Le nom du fournisseur d'identité. C'est ce nom qui sera affiché "
 "aux utilisateurs sur le formulaire de connexion."
 msgstr ""
+"*Name*: The name of the identity provider. This is the name that will be "
+"displayed to users on the login form."
 
 # 0a587697c7bf4790b9917e5195c4b29b
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:74
@@ -201,6 +249,8 @@ msgid ""
 "*Identifiant (ID) de l'entité* : Le champ 'entityID' qui permets "
 "d'identifier le fournisseur d'identité. Il s'agit généralement d'une URL."
 msgstr ""
+"*Identifier (ID) of the entity*: The \"entityID\" field which identifies the "
+"identity provider. It is usually a URL."
 
 # 4c5a2ae2c6ff4a2797bf3e10d0e4e61f
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:75
@@ -208,20 +258,22 @@ msgid ""
 "*Nom de l'application* : Le nom de l'application passé au fournisseur "
 "d'identité pour identifier l'origine de la requête."
 msgstr ""
+"*Application name*: The name of the application passed to the identity "
+"provider to identify the origin of the request."
 
 # 7c1677cdaf7241b9ac2dd04f1a4045ea
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:76
 msgid ""
 "*URL de connexion de l'IDP* : L'URL de connexion du fournisseur "
 "d'identité."
-msgstr ""
+msgstr "*IDP login URL*: The login URL of the identity provider."
 
 # bc6d6e1577cb4333968367f995b13950
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:77
 msgid ""
 "*URL de déconnexion de l'IDP* : L'URL de déconnexion du fournisseur "
 "d'identité."
-msgstr ""
+msgstr "*IDP logout URL* : The identity provider logout URL."
 
 # 016ebaa1ff774d7f886e8000ef7e0f89
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:79
@@ -230,11 +282,13 @@ msgid ""
 "certificat servira a identifier avec certitude le bon fournisseur "
 "d'identité."
 msgstr ""
+"A certificate must be provided by the identity provider. This certificate "
+"will be used to identify with certainty the correct identity provider."
 
 # 9617bd0a67274549b18b9c5ce94ad198
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:85
 msgid "Configuration du fournisseur de service"
-msgstr ""
+msgstr "Service Provider Configuration"
 
 # f3365523b72f486c93df60ce5ffb63cd
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:87
@@ -243,6 +297,9 @@ msgid ""
 "transmettre les bonnes informations au fournisseur d'identité dans le bon"
 " format et avec le bon niveau de sécurité."
 msgstr ""
+"The settings of the service provider allow the application to transmit the "
+"right information to the identity provider in the right format and with the "
+"right level of security."
 
 # a67520527d0446ad89a6d09de139e33f
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:89
@@ -250,6 +307,8 @@ msgid ""
 "Il est possible de définir des contacts techniques et support à "
 "transmettre à notre fournisseur d'identité :"
 msgstr ""
+"It is possible to define technical contacts and support to be transmitted to "
+"our identity provider:"
 
 # f0681a075f4646a6bfa087d8056630d0
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:94
@@ -257,6 +316,8 @@ msgid ""
 "On peut également transmettre au fournisseur d'identité des informations "
 "sur l'organisation du fournisseur de service"
 msgstr ""
+"We can also send information about the organization of the service provider "
+"to the identity provider"
 
 # e1eba278fbb74fa2a5a493d2674ee825
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:99
@@ -265,6 +326,9 @@ msgid ""
 "s'adapter à notre fournisseur d'identité et de pouvoir communiquer avec "
 "lui. Les paramètres disponibles sont :"
 msgstr ""
+"And finally, we access the security parameters which will allow us to adapt "
+"to our identity provider and to be able to communicate with him. The "
+"available parameters are:"
 
 # 61a01f1b28b0481a8b615c145b42f5cf
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:101
@@ -273,6 +337,9 @@ msgid ""
 "la clé privée qui permettra de déchiffrer les informations côté IdP. Se "
 "renseigner auprès du support."
 msgstr ""
+"*Caution*: The following 3 parameters require GoFAST to know the private key "
+"which will allow the information to be decrypted on the IdP side. Check with "
+"support."
 
 # 5c06988d9de540ea97b4dda1628478bf
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:103
@@ -280,6 +347,8 @@ msgid ""
 "*Champ 'NameID' chiffré* : Permets de chiffrer dans un format particulier"
 " l'information d'identité qui est transmise entre les applications"
 msgstr ""
+"*Encrypted “NameID” field* : Enables encryption of identity information that "
+"is transmitted between applications in a particular format"
 
 # 6e80522e560a4fd78f2196808758baed
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:104
@@ -287,6 +356,8 @@ msgid ""
 "*Requêtes 'Authn' signés* : Demande au SP (GoFAST) de signer ses requêtes"
 " vers l'IdP"
 msgstr ""
+"*Signed “Authn” requests* : Request to the SP (GoFAST) to sign its requests "
+"to the IdP"
 
 # 88b642416d2e4b85a55369dedef03027
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:105
@@ -294,6 +365,8 @@ msgid ""
 "*Requêtes de déconnexion chiffrés* : Permets de chiffrer les demandes de "
 "connection vers l'IdP"
 msgstr ""
+"*Encrypted disconnection requests*: Enables encryption of connection "
+"requests to the IdP"
 
 # 4a159c52e52c4a76a3327fc93bde3faa
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:106
@@ -301,13 +374,15 @@ msgid ""
 "*Réponses de déconnexion chiffrés* : Permets de chiffrer les demandes de "
 "déconnection vers l'IdP"
 msgstr ""
+"*Encrypted disconnection responses* : Enables encryption of disconnection "
+"requests to the IdP"
 
 # 02b0cbf5f1144feca695b243229f8581
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:110
 msgid ""
 "*Messages signés requis* : Permets de demander à l'IdP de signer ses "
 "messages"
-msgstr ""
+msgstr "Signed messages required: Allow to ask the IdP to sign its messages"
 
 # bbce170480b64fbdbcef027d3756b604
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:111
@@ -315,6 +390,8 @@ msgid ""
 "*Assertions signés requis* : Permets de demander à l'IdP de signer ses "
 "validations d'authentification"
 msgstr ""
+"*Signed assertions required* : Allow to ask the IdP to sign its "
+"authentication validations"
 
 # 8d3c57cee7694cc3941a32c2d095a142
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:112
@@ -322,6 +399,8 @@ msgid ""
 "*Champ 'NameID' chiffré* : Permets de demander à l'IdP de chiffrer le "
 "champ NameID dans le retour de la requête"
 msgstr ""
+"*Encrypted “NameID” field*: Allows you to ask the IdP to encrypt the NameID "
+"field in the return of the request"
 
 # 42e9b316a1af415281e8f8292801df4d
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:113
@@ -329,6 +408,8 @@ msgid ""
 "*Signature des métadonnées* : Applique notre signature et demande à l'IdP"
 " d'appliquer sa signature sur les métadonnées"
 msgstr ""
+"*Metadata signature* : Apply our signature and ask the IdP to apply its "
+"signature on the metadata"
 
 # fcfa70683dd746f4bd08e5423aa72bfb
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:115
@@ -337,6 +418,9 @@ msgid ""
 "contiendra les métadonnées à renseigner dans l'IdP pour enregistrer "
 "l'application SP (GoFAST) comme étant valide."
 msgstr ""
+"Once the configuration is complete, a metadata tab will be generated and "
+"will contain the metadata to be entered in the IdP to register the SP "
+"application (GoFAST) as being valid."
 
 # 53fb94b754d34de19d0058a376a07a34
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:120
@@ -344,3 +428,5 @@ msgid ""
 "Sur la page de login, l'utilisateur pourra maintenant se connecter en "
 "cliquant sur le bouton \"Se connecter avec XXX\"."
 msgstr ""
+"On the login page, the user can now connect by clicking on the \"Connect "
+"with XXX\" button."

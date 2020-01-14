@@ -4,23 +4,25 @@
 # package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: gofast-docs latest\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-21 13:53+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2020-01-14 08:11+0000\n"
+"Last-Translator: Christopher Potter <cpotter@ceo-vision.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: en\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.6.1\n"
 "Generated-By: Babel 2.4.0\n"
 
 #: ../../docs-gofast-development/api-rest.rst:3
 msgid "GoFAST :  API REST"
-msgstr ""
+msgstr "GoFAST : API REST"
 
 #: ../../docs-gofast-development/api-rest.rst:5
 msgid ""
@@ -28,14 +30,17 @@ msgid ""
 "l'application de manière programmative. Vous trouverez sur cette page "
 "toutes les informations nécessaires à l'exploitation de cette API."
 msgstr ""
+"The GoFAST API REST allows developers to interact with the application "
+"programmatically. On this page you will find all the necessary information "
+"to operate the API."
 
 #: ../../docs-gofast-development/api-rest.rst:8
 msgid "Authentification"
-msgstr ""
+msgstr "Authentication"
 
 #: ../../docs-gofast-development/api-rest.rst:11
 msgid "Basic"
-msgstr ""
+msgstr "Basic"
 
 #: ../../docs-gofast-development/api-rest.rst:13
 msgid ""
@@ -43,6 +48,9 @@ msgid ""
 "classique définit dans la RFC 7617 controlée par le protocole HTTP (aussi"
 " appelée HTTP authentication)."
 msgstr ""
+"The Basic authentication method is the classic authentication method defined "
+"in RFC 7617 which is controlled by the HTTP protocol (also called HTTP "
+"authentication)."
 
 #: ../../docs-gofast-development/api-rest.rst:15
 msgid ""
@@ -50,26 +58,33 @@ msgid ""
 "valeur la chaine *Basic AUTHORIZATION_VALUE* ou *AUTHORIZATION_VALUE* est"
 " la chaine *username:password* encodée en base 64."
 msgstr ""
+"It requires passing the header *Authorization* to a request with the string *"
+"Basic AUTHORIZATION_VALUE* or *AUTHORIZATION_VALUE* which is the string of "
+"the *username: password* encoded with a base 64."
 
 #: ../../docs-gofast-development/api-rest.rst:17
 msgid ""
 "Exemple : Pour l'utilisateur user1:motdepasse1, il faudra passer la "
 "valeur : *Basic dXNlcjE6bW90ZGVwYXNzZTE=*"
 msgstr ""
+"For example: For a user1: password1, you will have to pass the value: *Basic "
+"dXNlcjE6bW90ZGVwYXNzZTE =*"
 
 #: ../../docs-gofast-development/api-rest.rst:21
 msgid "Token"
-msgstr ""
+msgstr "Token"
 
 #: ../../docs-gofast-development/api-rest.rst:23
 msgid ""
 "La méthode d'authentification par token est utilisée pour générer une "
 "session temporaire identifiée par un jeton (une chaine de caractères)."
 msgstr ""
+"The token authentication method is used to generate a temporary session "
+"identified by a token (a character string)."
 
 #: ../../docs-gofast-development/api-rest.rst:25
 msgid "Elle utilise la ressource *login*, l'action *token* et la méthode *GET*."
-msgstr ""
+msgstr "It uses the *login* resource, the *token* action and the *GET* method."
 
 #: ../../docs-gofast-development/api-rest.rst:27
 #: ../../docs-gofast-development/api-rest.rst:42
@@ -77,30 +92,34 @@ msgid ""
 "L'action *token* n'est pas disponible depuis l'API externe de GoFAST, "
 "elle est utilisée entre les composants internes de la plateforme."
 msgstr ""
+"The *token* action is not available from the external GoFAST API, it is used "
+"between the internal components of the platform."
 
 #: ../../docs-gofast-development/api-rest.rst:30
 msgid "Ressources"
-msgstr ""
+msgstr "Resources"
 
 #: ../../docs-gofast-development/api-rest.rst:33
 msgid "Ressource : login"
-msgstr ""
+msgstr "Resource: login"
 
 #: ../../docs-gofast-development/api-rest.rst:35
 msgid ""
 "Cette ressource permet d'intéragir avec le système d'authentification de "
 "GoFAST."
 msgstr ""
+"This resource allows you to interact with the GoFAST authentication system."
 
 #: ../../docs-gofast-development/api-rest.rst:38
 msgid "Action : token"
-msgstr ""
+msgstr "Action: token"
 
 #: ../../docs-gofast-development/api-rest.rst:40
 msgid ""
 "Cette action permet d'intéragir avec le système d'authentification par "
 "token."
 msgstr ""
+"This action allows you to interact with authentication system using a token."
 
 #: ../../docs-gofast-development/api-rest.rst:45
 #: ../../docs-gofast-development/api-rest.rst:88
@@ -116,17 +135,19 @@ msgstr ""
 #: ../../docs-gofast-development/api-rest.rst:923
 #: ../../docs-gofast-development/api-rest.rst:954
 msgid "GET"
-msgstr ""
+msgstr "GET"
 
 #: ../../docs-gofast-development/api-rest.rst:47
 msgid ""
 "Cette méthode permet de récupérer un token d'authentification. Ce dernier"
 " est valable pendant 3 minutes."
 msgstr ""
+"This method allows you to retrieve an authentication token. It is valid for "
+"3 minutes."
 
 #: ../../docs-gofast-development/api-rest.rst:49
 msgid "*GET: /api/login/token*"
-msgstr ""
+msgstr "*GET: /api/login/token*"
 
 #: ../../docs-gofast-development/api-rest.rst:52
 #: ../../docs-gofast-development/api-rest.rst:66
@@ -174,7 +195,7 @@ msgstr ""
 #: ../../docs-gofast-development/api-rest.rst:1005
 #: ../../docs-gofast-development/api-rest.rst:1019
 msgid "Header"
-msgstr ""
+msgstr "Header"
 
 #: ../../docs-gofast-development/api-rest.rst:52
 #: ../../docs-gofast-development/api-rest.rst:58
@@ -263,7 +284,7 @@ msgstr ""
 #: ../../docs-gofast-development/api-rest.rst:1019
 #: ../../docs-gofast-development/api-rest.rst:1025
 msgid "Valeur"
-msgstr ""
+msgstr "Value"
 
 #: ../../docs-gofast-development/api-rest.rst:54
 #: ../../docs-gofast-development/api-rest.rst:68
@@ -311,7 +332,7 @@ msgstr ""
 #: ../../docs-gofast-development/api-rest.rst:1007
 #: ../../docs-gofast-development/api-rest.rst:1021
 msgid "Content-Type"
-msgstr ""
+msgstr "Content-Type"
 
 #: ../../docs-gofast-development/api-rest.rst:54
 #: ../../docs-gofast-development/api-rest.rst:68
@@ -353,7 +374,7 @@ msgstr ""
 #: ../../docs-gofast-development/api-rest.rst:1007
 #: ../../docs-gofast-development/api-rest.rst:1021
 msgid "application/json"
-msgstr ""
+msgstr "application/json"
 
 #: ../../docs-gofast-development/api-rest.rst:58
 #: ../../docs-gofast-development/api-rest.rst:101
@@ -365,15 +386,15 @@ msgstr ""
 #: ../../docs-gofast-development/api-rest.rst:662
 #: ../../docs-gofast-development/api-rest.rst:755
 msgid "GET Parameter"
-msgstr ""
+msgstr "GET Parameter"
 
 #: ../../docs-gofast-development/api-rest.rst:60
 msgid "name*"
-msgstr ""
+msgstr "name*"
 
 #: ../../docs-gofast-development/api-rest.rst:60
 msgid "Username de l'utilisateur"
-msgstr ""
+msgstr "Username of the user"
 
 #: ../../docs-gofast-development/api-rest.rst:63
 #: ../../docs-gofast-development/api-rest.rst:106
@@ -398,7 +419,7 @@ msgstr ""
 #: ../../docs-gofast-development/api-rest.rst:973
 #: ../../docs-gofast-development/api-rest.rst:1016
 msgid "*Retour:*"
-msgstr ""
+msgstr "*Feedback*"
 
 #: ../../docs-gofast-development/api-rest.rst:72
 #: ../../docs-gofast-development/api-rest.rst:115
@@ -432,19 +453,19 @@ msgstr ""
 #: ../../docs-gofast-development/api-rest.rst:1011
 #: ../../docs-gofast-development/api-rest.rst:1025
 msgid "Clé"
-msgstr ""
+msgstr "Key"
 
 #: ../../docs-gofast-development/api-rest.rst:74
 msgid "token"
-msgstr ""
+msgstr "Token"
 
 #: ../../docs-gofast-development/api-rest.rst:74
 msgid "Jeton d'authentification"
-msgstr ""
+msgstr "Authentication token"
 
 #: ../../docs-gofast-development/api-rest.rst:78
 msgid "Ressource : node"
-msgstr ""
+msgstr "Resource: node"
 
 #: ../../docs-gofast-development/api-rest.rst:80
 msgid ""
@@ -452,26 +473,30 @@ msgid ""
 " Ces derniers peuvent représenter des documents, articles, espaces, "
 "formulaires..."
 msgstr ""
+"This resource allows you to interact with Drupal node type entities. They "
+"can represent documents, articles, spaces, forms…"
 
 #: ../../docs-gofast-development/api-rest.rst:83
 msgid "Action : node"
-msgstr ""
+msgstr "Action: node"
 
 #: ../../docs-gofast-development/api-rest.rst:85
 msgid ""
 "Cette action permet d'intéragir basiquement avec les entités Drupal de "
 "type noeud."
 msgstr ""
+"This action basically allows interacting with Drupal node type entities."
 
 #: ../../docs-gofast-development/api-rest.rst:90
 msgid ""
 "Cette méthode permet de récupérer des informations génériques d'une "
 "entité de type noeud"
 msgstr ""
+"This method allows to retrieve generic information from a node type entity"
 
 #: ../../docs-gofast-development/api-rest.rst:92
 msgid "*GET: /api/node/node*"
-msgstr ""
+msgstr "*GET: /api/node/node*"
 
 #: ../../docs-gofast-development/api-rest.rst:103
 #: ../../docs-gofast-development/api-rest.rst:229
@@ -487,7 +512,7 @@ msgstr ""
 #: ../../docs-gofast-development/api-rest.rst:664
 #: ../../docs-gofast-development/api-rest.rst:800
 msgid "nid*"
-msgstr ""
+msgstr "nid*"
 
 #: ../../docs-gofast-development/api-rest.rst:103
 #: ../../docs-gofast-development/api-rest.rst:117
@@ -506,130 +531,130 @@ msgstr ""
 #: ../../docs-gofast-development/api-rest.rst:771
 #: ../../docs-gofast-development/api-rest.rst:800
 msgid "N° du noeud"
-msgstr ""
+msgstr "N° of the node"
 
 #: ../../docs-gofast-development/api-rest.rst:117
 #: ../../docs-gofast-development/api-rest.rst:205
 #: ../../docs-gofast-development/api-rest.rst:771
 msgid "nid"
-msgstr ""
+msgstr "nid"
 
 #: ../../docs-gofast-development/api-rest.rst:119
 #: ../../docs-gofast-development/api-rest.rst:680
 msgid "type"
-msgstr ""
+msgstr "type"
 
 #: ../../docs-gofast-development/api-rest.rst:119
 msgid "Type du noeud"
-msgstr ""
+msgstr "Type of the node"
 
 #: ../../docs-gofast-development/api-rest.rst:121
 msgid "title"
-msgstr ""
+msgstr "title"
 
 #: ../../docs-gofast-development/api-rest.rst:121
 msgid "Titre du noeud"
-msgstr ""
+msgstr "Title of the node"
 
 #: ../../docs-gofast-development/api-rest.rst:123
 msgid "status"
-msgstr ""
+msgstr "status"
 
 #: ../../docs-gofast-development/api-rest.rst:123
 msgid "1: Publié, 0: Dépublié (Supprimé)"
-msgstr ""
+msgstr "1: Published, 0: Unpublished (Deleted)"
 
 #: ../../docs-gofast-development/api-rest.rst:125
 #: ../../docs-gofast-development/api-rest.rst:727
 #: ../../docs-gofast-development/api-rest.rst:775
 #: ../../docs-gofast-development/api-rest.rst:984
 msgid "uid"
-msgstr ""
+msgstr "uid"
 
 #: ../../docs-gofast-development/api-rest.rst:125
 msgid "N° du créateur du noeud"
-msgstr ""
+msgstr "N° of the node creator"
 
 #: ../../docs-gofast-development/api-rest.rst:127
 msgid "sticky"
-msgstr ""
+msgstr "sticky"
 
 #: ../../docs-gofast-development/api-rest.rst:127
 msgid "1: Epinglé, 0: Pas épinglé"
-msgstr ""
+msgstr "1: Pinned, 0: Not pinned"
 
 #: ../../docs-gofast-development/api-rest.rst:129
 msgid "language"
-msgstr ""
+msgstr "language"
 
 #: ../../docs-gofast-development/api-rest.rst:129
 msgid "Langue du noeud (und, fr, en, nl...)"
-msgstr ""
+msgstr "Language of the node (fr, en, nl, und...)"
 
 #: ../../docs-gofast-development/api-rest.rst:131
 #: ../../docs-gofast-development/api-rest.rst:682
 msgid "created"
-msgstr ""
+msgstr "created"
 
 #: ../../docs-gofast-development/api-rest.rst:131
 msgid "Timestamp de création du noeud"
-msgstr ""
+msgstr "Timestamp of the node creation"
 
 #: ../../docs-gofast-development/api-rest.rst:133
 msgid "updated"
-msgstr ""
+msgstr "updated"
 
 #: ../../docs-gofast-development/api-rest.rst:133
 msgid "Timestamp de dernière modification du noeud"
-msgstr ""
+msgstr "Timestamp of the last node modification"
 
 #: ../../docs-gofast-development/api-rest.rst:135
 msgid "update_uid"
-msgstr ""
+msgstr "update_uid"
 
 #: ../../docs-gofast-development/api-rest.rst:135
 msgid "N° du dernier modificateur du noeud"
-msgstr ""
+msgstr "N° of the last node modification"
 
 #: ../../docs-gofast-development/api-rest.rst:137
 msgid "comment_count"
-msgstr ""
+msgstr "comment_count"
 
 #: ../../docs-gofast-development/api-rest.rst:137
 msgid "Nombre de commentaires attachés au noeud"
-msgstr ""
+msgstr "Number of comments attached to the node"
 
 #: ../../docs-gofast-development/api-rest.rst:139
 msgid "last_comment_uid"
-msgstr ""
+msgstr "last_comment_uid"
 
 #: ../../docs-gofast-development/api-rest.rst:139
 msgid "N° du dernier commentateur du noeud"
-msgstr ""
+msgstr "N° of the last node commentator"
 
 #: ../../docs-gofast-development/api-rest.rst:141
 msgid "last_comment_timestamp"
-msgstr ""
+msgstr "last_comment_timestamp"
 
 #: ../../docs-gofast-development/api-rest.rst:141
 msgid "Timestamp du dernier commentaire du noeud"
-msgstr ""
+msgstr "Timestamp of the last node comment"
 
 #: ../../docs-gofast-development/api-rest.rst:143
 msgid "last_comment_cid"
-msgstr ""
+msgstr "last_comment_cid"
 
 #: ../../docs-gofast-development/api-rest.rst:143
 msgid "N° du dernier commentaire du noeud"
-msgstr ""
+msgstr "N° of the last node comment"
 
 #: ../../docs-gofast-development/api-rest.rst:145
 msgid "alfresco_reference"
-msgstr ""
+msgstr "alfresco_reference"
 
 #: ../../docs-gofast-development/api-rest.rst:145
 msgid "Référence du contenu Alfresco associé au noeud"
-msgstr ""
+msgstr "Alfresco content reference associated with the node"
 
 #: ../../docs-gofast-development/api-rest.rst:149
 #: ../../docs-gofast-development/api-rest.rst:251
@@ -637,7 +662,7 @@ msgstr ""
 #: ../../docs-gofast-development/api-rest.rst:514
 #: ../../docs-gofast-development/api-rest.rst:998
 msgid "POST"
-msgstr ""
+msgstr "POST"
 
 #: ../../docs-gofast-development/api-rest.rst:151
 msgid ""
@@ -645,122 +670,135 @@ msgid ""
 "de type alfresco_item et qu'il n'est pas crée à partir d'un modèle, il "
 "est obligatoire d'y ajouter un fichier."
 msgstr ""
+"This method allows creating a node type entity. If this node is of type "
+"alfresco_item and it is not created from a template, it is required to add a "
+"file."
 
 #: ../../docs-gofast-development/api-rest.rst:153
 msgid "*POST: /api/node/node*"
-msgstr ""
+msgstr "*POST: /api/node/node*"
 
 #: ../../docs-gofast-development/api-rest.rst:158
 #: ../../docs-gofast-development/api-rest.rst:523
 msgid "multipart/form-data"
-msgstr ""
+msgstr "multipart/form-data"
 
 #: ../../docs-gofast-development/api-rest.rst:164
 msgid "file**"
-msgstr ""
+msgstr "file**"
 
 #: ../../docs-gofast-development/api-rest.rst:164
 msgid ""
 "Le fichier à charger (si le type de noeud est 'alfresco_item' et qu'il "
 "n'est pas à créer à partir d'un template)"
 msgstr ""
+"The file to upload (if the node type is \"alfresco_item\" and it is not to "
+"be created from a template)"
 
 #: ../../docs-gofast-development/api-rest.rst:176
 msgid "type*"
-msgstr ""
+msgstr "type*"
 
 #: ../../docs-gofast-development/api-rest.rst:176
 msgid "Type de noeud"
-msgstr ""
+msgstr "Type of the node"
 
 #: ../../docs-gofast-development/api-rest.rst:178
 #: ../../docs-gofast-development/api-rest.rst:851
 msgid "title*"
-msgstr ""
+msgstr "title*"
 
 #: ../../docs-gofast-development/api-rest.rst:178
 msgid "Le titre du fichier, de l'article, du forum..."
-msgstr ""
+msgstr "The title of the file, the article, the forum ..."
 
 #: ../../docs-gofast-development/api-rest.rst:180
 msgid "locations**"
-msgstr ""
+msgstr "locations**"
 
 #: ../../docs-gofast-development/api-rest.rst:180
 msgid ""
 "Les emplacements dans un tableau sous la forme "
 "\"/Sites/_Organisations/Mon Organisation/XXX\" (alfresco_item seulement)"
 msgstr ""
+"The locations in an array, for example \"/ Sites / _Organizations / My "
+"Organization / XXX\" (alfresco_item only)"
 
 #: ../../docs-gofast-development/api-rest.rst:182
 msgid "template_nid**"
-msgstr ""
+msgstr "template_nid**"
 
 #: ../../docs-gofast-development/api-rest.rst:182
 msgid ""
 "L'identifiant du noeud du template à partir duquel créer le fichier si "
 "nécessaire (alfresco_item seulement)"
 msgstr ""
+"The identifier of the template node from which to create the file if "
+"necessary (alfresco_item only)"
 
 #: ../../docs-gofast-development/api-rest.rst:184
 msgid "gids**"
-msgstr ""
+msgstr "gids**"
 
 #: ../../docs-gofast-development/api-rest.rst:184
 msgid ""
 "Les n° des espaces de destination dans un tableau (article, forum "
 "seulement)"
-msgstr ""
+msgstr "The n° of target spaces in an array (article, forum only)"
 
 #: ../../docs-gofast-development/api-rest.rst:186
 msgid "body**"
-msgstr ""
+msgstr "body**"
 
 #: ../../docs-gofast-development/api-rest.rst:186
 msgid "Le contenu au format HTML (article, forum seulement)"
-msgstr ""
+msgstr "Content in HTML format (article, forum only)"
 
 #: ../../docs-gofast-development/api-rest.rst:192
 msgid "Les types de noeud disponibles sont :"
-msgstr ""
+msgstr "The available node types are:"
 
 #: ../../docs-gofast-development/api-rest.rst:190
 msgid "alfresco_item (Document)"
-msgstr ""
+msgstr "alfresco_item (Document)"
 
 #: ../../docs-gofast-development/api-rest.rst:191
 msgid "article (Page interne)"
-msgstr ""
+msgstr "article (Internal page)"
 
 #: ../../docs-gofast-development/api-rest.rst:192
 msgid "forum (Forum)"
-msgstr ""
+msgstr "forum (Forum)"
 
 #: ../../docs-gofast-development/api-rest.rst:209
 msgid "Action : metadata"
-msgstr ""
+msgstr "Action: metadata"
 
 #: ../../docs-gofast-development/api-rest.rst:211
 msgid ""
 "Cette action permet d'intéragir avec les métadonnées associés aux entités"
 " de type noeud"
 msgstr ""
+"This action allows interacting with the metadata associated with node type "
+"entities"
 
 #: ../../docs-gofast-development/api-rest.rst:216
 msgid ""
 "Cette méthode permet de récupérer les métadonnées associés aux entités de"
 " type noeud"
 msgstr ""
+"This method helps you to retrieve the metadata associated with node type "
+"entities"
 
 #: ../../docs-gofast-development/api-rest.rst:218
 msgid "*GET: /api/node/metadata*"
-msgstr ""
+msgstr "*GET: /api/node/metadata*"
 
 #: ../../docs-gofast-development/api-rest.rst:245
 #: ../../docs-gofast-development/api-rest.rst:282
 #: ../../docs-gofast-development/api-rest.rst:335
 msgid "field_XXX"
-msgstr ""
+msgstr "field_XXX"
 
 #: ../../docs-gofast-development/api-rest.rst:245
 #: ../../docs-gofast-development/api-rest.rst:247
@@ -769,23 +807,24 @@ msgstr ""
 #: ../../docs-gofast-development/api-rest.rst:335
 #: ../../docs-gofast-development/api-rest.rst:337
 msgid "Tableau contenant les valeurs du champ"
-msgstr ""
+msgstr "Array containing the field values"
 
 #: ../../docs-gofast-development/api-rest.rst:247
 #: ../../docs-gofast-development/api-rest.rst:284
 #: ../../docs-gofast-development/api-rest.rst:337
 msgid "field_YYY"
-msgstr ""
+msgstr "field_YYY"
 
 #: ../../docs-gofast-development/api-rest.rst:253
 msgid ""
 "Cette méthode permet de mettre à jour les métadonnées associés aux "
 "entités de type noeud"
 msgstr ""
+"This method allows updating the metadata associated with node type entities"
 
 #: ../../docs-gofast-development/api-rest.rst:255
 msgid "*POST: /api/node/metadata*"
-msgstr ""
+msgstr "*POST: /api/node/metadata*"
 
 #: ../../docs-gofast-development/api-rest.rst:267
 #: ../../docs-gofast-development/api-rest.rst:320
@@ -793,60 +832,62 @@ msgid ""
 "Contrairement au retour de la méthode GET, les valeurs ne doivent pas "
 "êtres listés de cette manière"
 msgstr ""
+"Unlike the feedback of the GET method, the values should not be listed in "
+"this way"
 
 #: ../../docs-gofast-development/api-rest.rst:267
 #: ../../docs-gofast-development/api-rest.rst:271
 #: ../../docs-gofast-development/api-rest.rst:320
 #: ../../docs-gofast-development/api-rest.rst:324
 msgid "field_XXX : *Array*"
-msgstr ""
+msgstr "field_XXX : *Array*"
 
 #: ../../docs-gofast-development/api-rest.rst:266
 #: ../../docs-gofast-development/api-rest.rst:270
 #: ../../docs-gofast-development/api-rest.rst:319
 #: ../../docs-gofast-development/api-rest.rst:323
 msgid "Array"
-msgstr ""
+msgstr "Array"
 
 #: ../../docs-gofast-development/api-rest.rst:265
 #: ../../docs-gofast-development/api-rest.rst:318
 msgid "0: value: *Array*"
-msgstr ""
+msgstr "0: value: *Array*"
 
 #: ../../docs-gofast-development/api-rest.rst:266
 #: ../../docs-gofast-development/api-rest.rst:319
 msgid "VAL1"
-msgstr ""
+msgstr "VAL1"
 
 #: ../../docs-gofast-development/api-rest.rst:267
 #: ../../docs-gofast-development/api-rest.rst:320
 msgid "1: value: *Array*"
-msgstr ""
+msgstr "1: value: *Array*"
 
 #: ../../docs-gofast-development/api-rest.rst:268
 #: ../../docs-gofast-development/api-rest.rst:321
 msgid "VAL2"
-msgstr ""
+msgstr "VAL2"
 
 #: ../../docs-gofast-development/api-rest.rst:271
 #: ../../docs-gofast-development/api-rest.rst:324
 msgid "Mais plutôt comme ceci"
-msgstr ""
+msgstr "But it is possible like this"
 
 #: ../../docs-gofast-development/api-rest.rst:271
 #: ../../docs-gofast-development/api-rest.rst:324
 msgid "0: VAL1, 1: VAL2"
-msgstr ""
+msgstr "0: VAL1, 1: VAL2"
 
 #: ../../docs-gofast-development/api-rest.rst:273
 #: ../../docs-gofast-development/api-rest.rst:326
 msgid "Ou comme cela selon le champ modifié"
-msgstr ""
+msgstr "Or like that depending on the modified field"
 
 #: ../../docs-gofast-development/api-rest.rst:274
 #: ../../docs-gofast-development/api-rest.rst:327
 msgid "field_XXX : VAL"
-msgstr ""
+msgstr "field_XXX : VAL"
 
 #: ../../docs-gofast-development/api-rest.rst:275
 msgid ""
@@ -854,140 +895,158 @@ msgid ""
 "field_target_link, field_external_page_url, field_date, field_criticity, "
 "field_document_author, field_tags"
 msgstr ""
+"The modifiable fields are : field_category, field_state, field_target_link, "
+"field_external_page_url, field_date, field_criticity, field_document_author, "
+"field_tags"
 
 #: ../../docs-gofast-development/api-rest.rst:298
 #: ../../docs-gofast-development/api-rest.rst:351
 msgid "Field_XXX"
-msgstr ""
+msgstr "Field_XXX"
 
 #: ../../docs-gofast-development/api-rest.rst:298
 #: ../../docs-gofast-development/api-rest.rst:300
 #: ../../docs-gofast-development/api-rest.rst:351
 #: ../../docs-gofast-development/api-rest.rst:353
 msgid "Tableau contenant le retour de la fonction"
-msgstr ""
+msgstr "Array containing the return of the function"
 
 #: ../../docs-gofast-development/api-rest.rst:300
 #: ../../docs-gofast-development/api-rest.rst:353
 msgid "Field_YYY"
-msgstr ""
+msgstr "Field_YYY"
 
 #: ../../docs-gofast-development/api-rest.rst:304
 msgid "PATCH"
-msgstr ""
+msgstr "PATCH"
 
 #: ../../docs-gofast-development/api-rest.rst:306
 msgid ""
 "Cette méthode permet d'ajouter une valeur à certaines métadonnées "
 "associés aux entités de type noeud"
 msgstr ""
+"This method allows you to add a value to certain metadata associated with "
+"node type entities"
 
 #: ../../docs-gofast-development/api-rest.rst:308
 msgid "*PATCH: /api/node/metadata*"
-msgstr ""
+msgstr "*PATCH: /api/node/metadata*"
 
 #: ../../docs-gofast-development/api-rest.rst:328
 msgid ""
 "Les champs alterables sont : field_target_link, field_external_page_url, "
 "field_tags"
 msgstr ""
+"The alterable fields are : field_target_link, field_external_page_url, "
+"field_tags"
 
 #: ../../docs-gofast-development/api-rest.rst:357
 msgid "Action : locations"
-msgstr ""
+msgstr "Action : locations"
 
 #: ../../docs-gofast-development/api-rest.rst:359
 msgid ""
 "Cette action permet d'intéragir avec les emplacements des contenus "
 "associés aux entités de type noeud"
 msgstr ""
+"This action allows you to interact with the locations of the content "
+"associated with node type entities"
 
 #: ../../docs-gofast-development/api-rest.rst:364
 msgid ""
 "Cette méthode permet de récupérer les emplacements des contenus associés "
 "aux entités de type noeud"
 msgstr ""
+"This method allows to retrieve the locations of the content associated with "
+"node type entities"
 
 #: ../../docs-gofast-development/api-rest.rst:366
 msgid "*GET: /api/node/locations*"
-msgstr ""
+msgstr "*GET: /api/node/locations*"
 
 #: ../../docs-gofast-development/api-rest.rst:393
 #: ../../docs-gofast-development/api-rest.rst:430
 #: ../../docs-gofast-development/api-rest.rst:467
 msgid "locations"
-msgstr ""
+msgstr "locations"
 
 #: ../../docs-gofast-development/api-rest.rst:393
 msgid "Tableau indexé contenant les emplacements."
-msgstr ""
+msgstr "Indexed array containing locations."
 
 #: ../../docs-gofast-development/api-rest.rst:397
 #: ../../docs-gofast-development/api-rest.rst:785
 #: ../../docs-gofast-development/api-rest.rst:834
 msgid "PUT"
-msgstr ""
+msgstr "PUT"
 
 #: ../../docs-gofast-development/api-rest.rst:399
 msgid ""
 "Cette méthode permet de modifier les emplacements des contenus associés "
 "aux entités de type noeud"
 msgstr ""
+"This method allows you to modify the locations of the content associated "
+"with node type entities"
 
 #: ../../docs-gofast-development/api-rest.rst:401
 msgid "*PUT: /api/node/locations*"
-msgstr ""
+msgstr "*PUT: /api/node/locations*"
 
 #: ../../docs-gofast-development/api-rest.rst:410
 #: ../../docs-gofast-development/api-rest.rst:447
 msgid "POST Parameter    |   Valeur"
-msgstr ""
+msgstr "POST Parameter    |   Value"
 
 #: ../../docs-gofast-development/api-rest.rst:414
 #: ../../docs-gofast-development/api-rest.rst:451
 msgid "locations*"
-msgstr ""
+msgstr "locations*"
 
 #: ../../docs-gofast-development/api-rest.rst:414
 msgid "Tableau indexé contenant les emplacements"
-msgstr ""
+msgstr "Indexed array containing locations"
 
 #: ../../docs-gofast-development/api-rest.rst:430
 #: ../../docs-gofast-development/api-rest.rst:467
 msgid "Tableau indexé contenant les emplacements après vidage du cache."
 msgstr ""
+"Indexed array containing the locations after the cache has been emptied."
 
 #: ../../docs-gofast-development/api-rest.rst:436
 msgid ""
 "Cette méthode permet d'ajouter ou de supprimer des emplacements des "
 "contenus associés aux entités de type noeud"
 msgstr ""
+"This method allows you to add or delete locations of the content associated "
+"with node type entities"
 
 #: ../../docs-gofast-development/api-rest.rst:438
 msgid "*POST: /api/node/locations*"
-msgstr ""
+msgstr "*POST: /api/node/locations*"
 
 #: ../../docs-gofast-development/api-rest.rst:451
 msgid "Tableau indexé contenant les nouveaux emplacements à ajouter"
-msgstr ""
+msgstr "Indexed array containing the new locations to add"
 
 #: ../../docs-gofast-development/api-rest.rst:469
 msgid "delete"
-msgstr ""
+msgstr "delete"
 
 #: ../../docs-gofast-development/api-rest.rst:469
 msgid "Boolean 1 = suppression; 0 = ajout."
-msgstr ""
+msgstr "Boolean 1 = delete; 0 = add."
 
 #: ../../docs-gofast-development/api-rest.rst:473
 msgid "Action : content"
-msgstr ""
+msgstr "Action : content"
 
 #: ../../docs-gofast-development/api-rest.rst:475
 msgid ""
 "Cette action permet d'intéragir avec le contenu Alfresco associés aux "
 "entités de type noeud"
 msgstr ""
+"This action allows interacting with Alfresco content associated with node "
+"type entities"
 
 #: ../../docs-gofast-development/api-rest.rst:477
 #: ../../docs-gofast-development/api-rest.rst:568
@@ -997,91 +1056,97 @@ msgid ""
 " à une erreur \"404 Not Found\". Les noeuds associés à un contenu "
 "Alfresco sont de type \"alfresco_item\"."
 msgstr ""
+"Using this action on a node without association with Alfresco content will "
+"result in a \"404 Not Found\" error. The nodes associated with Alfresco "
+"content are of type \"alfresco_item\"."
 
 #: ../../docs-gofast-development/api-rest.rst:482
 msgid "Cette méthode permet de récupérer le contenu Alfresco associé à un noeud."
 msgstr ""
+"This method allows to retrieve the Alfresco content associated with a node."
 
 #: ../../docs-gofast-development/api-rest.rst:484
 msgid "*GET: /api/node/content*"
-msgstr ""
+msgstr "*GET: /api/node/content*"
 
 #: ../../docs-gofast-development/api-rest.rst:489
 #: ../../docs-gofast-development/api-rest.rst:505
 msgid "application/octet-stream"
-msgstr ""
+msgstr "application/octet-stream"
 
 #: ../../docs-gofast-development/api-rest.rst:491
 #: ../../docs-gofast-development/api-rest.rst:507
 #: ../../docs-gofast-development/api-rest.rst:582
 #: ../../docs-gofast-development/api-rest.rst:598
 msgid "Content-Disposition"
-msgstr ""
+msgstr "Content-Disposition"
 
 #: ../../docs-gofast-development/api-rest.rst:491
 #: ../../docs-gofast-development/api-rest.rst:582
 msgid "attachment"
-msgstr ""
+msgstr "attachment"
 
 #: ../../docs-gofast-development/api-rest.rst:507
 #: ../../docs-gofast-development/api-rest.rst:598
 msgid "attachment; filename=\"nom_du_fichier\""
-msgstr ""
+msgstr "attachment; filename=\"file_name\""
 
 #: ../../docs-gofast-development/api-rest.rst:510
 msgid "Le contenu du retour de la requête est le contenu du document."
-msgstr ""
+msgstr "The request content reply is the document content."
 
 #: ../../docs-gofast-development/api-rest.rst:516
 msgid ""
 "Cette méthode permet de remplacer le contenu Alfresco associé à un noeud "
 "en créant une nouvelle version."
 msgstr ""
+"This method allows you to replace the Alfresco content associated with a "
+"node by creating a new version."
 
 #: ../../docs-gofast-development/api-rest.rst:518
 msgid "*POST: /api/node/content*"
-msgstr ""
+msgstr "*POST: /api/node/content*"
 
 #: ../../docs-gofast-development/api-rest.rst:527
 msgid "POST Parameter"
-msgstr ""
+msgstr "POST Parameter"
 
 #: ../../docs-gofast-development/api-rest.rst:529
 msgid "file"
-msgstr ""
+msgstr "file"
 
 #: ../../docs-gofast-development/api-rest.rst:529
 msgid "The file to upload"
-msgstr ""
+msgstr "The file to upload"
 
 #: ../../docs-gofast-development/api-rest.rst:543
 #: ../../docs-gofast-development/api-rest.rst:686
 msgid "comment"
-msgstr ""
+msgstr "comment"
 
 #: ../../docs-gofast-development/api-rest.rst:543
 msgid "Commentaire associé à la nouvelle version"
-msgstr ""
+msgstr "Comment associated with the new version"
 
 #: ../../docs-gofast-development/api-rest.rst:545
 msgid "major_version"
-msgstr ""
+msgstr "major_version"
 
 #: ../../docs-gofast-development/api-rest.rst:545
 msgid "0: Version mineure, 1: Version majeure (default : 0)"
-msgstr ""
+msgstr "0: Minor version, 1: Major version (default: 0)"
 
 #: ../../docs-gofast-development/api-rest.rst:560
 msgid "success"
-msgstr ""
+msgstr "success"
 
 #: ../../docs-gofast-development/api-rest.rst:560
 msgid "1: OK, 0: Erreur"
-msgstr ""
+msgstr "1: OK, 0: Error"
 
 #: ../../docs-gofast-development/api-rest.rst:564
 msgid "Action : preview"
-msgstr ""
+msgstr "Action: preview"
 
 #: ../../docs-gofast-development/api-rest.rst:566
 #: ../../docs-gofast-development/api-rest.rst:606
@@ -1089,145 +1154,159 @@ msgid ""
 "Cette action permet d'intéragir avec les prévisualisations PDF associés "
 "aux entités de type noeud"
 msgstr ""
+"This action allows you to interact with PDF previews linked to node type "
+"entities"
 
 #: ../../docs-gofast-development/api-rest.rst:573
 msgid ""
 "Cette méthode permet de récupérer la prévisualisation PDF d'un contenu "
 "Alfresco associé à un noeud."
 msgstr ""
+"This method allows you to retrieve the PDF preview of Alfresco content "
+"linked to a node."
 
 #: ../../docs-gofast-development/api-rest.rst:575
 msgid "*GET: /api/node/preview*"
-msgstr ""
+msgstr "*GET: /api/node/preview*"
 
 #: ../../docs-gofast-development/api-rest.rst:580
 #: ../../docs-gofast-development/api-rest.rst:596
 msgid "application/pdf"
-msgstr ""
+msgstr "application/pdf"
 
 #: ../../docs-gofast-development/api-rest.rst:601
 msgid ""
 "Le contenu du retour de la requête est le contenu de la prévisualisation "
 "PDF du document."
-msgstr ""
+msgstr "The request content reply is the content of the document PDF preview."
 
 #: ../../docs-gofast-development/api-rest.rst:604
 msgid "Action : preview_link"
-msgstr ""
+msgstr "Action : preview_link"
 
 #: ../../docs-gofast-development/api-rest.rst:613
 msgid ""
 "Cette méthode permet de récupérer un lien vers une prévisualisations PDF "
 "associée à une entité de type noeud"
 msgstr ""
+"This action allows you to interact with PDF previews linked to node type "
+"entities"
 
 #: ../../docs-gofast-development/api-rest.rst:615
 msgid "*GET: /api/node/preview_link*"
-msgstr ""
+msgstr "*GET: /api/node/preview_link*"
 
 #: ../../docs-gofast-development/api-rest.rst:640
 msgid "link"
-msgstr ""
+msgstr "link"
 
 #: ../../docs-gofast-development/api-rest.rst:640
 msgid "Lien vers la prévisualisation"
-msgstr ""
+msgstr "Link to the preview"
 
 #: ../../docs-gofast-development/api-rest.rst:644
 msgid "Action : version"
-msgstr ""
+msgstr "Action : version"
 
 #: ../../docs-gofast-development/api-rest.rst:646
 msgid ""
 "Cette action permet d'intéragir avec les versions des contenus Alfresco "
 "associés aux entités de type noeud"
 msgstr ""
+"This action allows you to interact with the versions of Alfresco content "
+"associated with node type entities"
 
 #: ../../docs-gofast-development/api-rest.rst:651
 msgid ""
 "Cette méthode permet de récupérer les versions d'un contenu Alfresco "
 "associé à une entité de type noeud"
 msgstr ""
+"This method makes it possible to retrieve the versions of Alfresco content "
+"linked to a node type entity"
 
 #: ../../docs-gofast-development/api-rest.rst:653
 msgid "*GET: /api/node/version*"
-msgstr ""
+msgstr "*GET: /api/node/version*"
 
 #: ../../docs-gofast-development/api-rest.rst:678
 msgid "creator"
-msgstr ""
+msgstr "creator"
 
 #: ../../docs-gofast-development/api-rest.rst:678
 msgid "Identifiant du créateur de la version"
-msgstr ""
+msgstr "Version creator identifier"
 
 #: ../../docs-gofast-development/api-rest.rst:680
 msgid "MINOR : Version mineure, MAJOR : Version majeure"
-msgstr ""
+msgstr "MINOR: Minor version, MAJOR: Major version"
 
 #: ../../docs-gofast-development/api-rest.rst:682
 msgid "Timestamp de la création de la version"
-msgstr ""
+msgstr "Timestamp of the version creation"
 
 #: ../../docs-gofast-development/api-rest.rst:684
 msgid "version"
-msgstr ""
+msgstr "version"
 
 #: ../../docs-gofast-development/api-rest.rst:684
 msgid "N° de version"
-msgstr ""
+msgstr "N° of version"
 
 #: ../../docs-gofast-development/api-rest.rst:686
 msgid "Commentaire associé à la version"
-msgstr ""
+msgstr "Comment linked to the version"
 
 #: ../../docs-gofast-development/api-rest.rst:690
 #: ../../docs-gofast-development/api-rest.rst:949
 msgid "Action : autocomplete"
-msgstr ""
+msgstr "Action : autocomplete"
 
 #: ../../docs-gofast-development/api-rest.rst:692
 msgid ""
 "Cette action permet d'intéragie avec le système d'autocomplétion des "
 "entités *node* de Drupal."
 msgstr ""
+"This action enables to interact with the autocompletion system of the Drupal "
+"*node* entity."
 
 #: ../../docs-gofast-development/api-rest.rst:697
 msgid ""
 "Cette méthode permet de récupérer une liste de noeuds en fonction de la "
 "chaine passée en input et des bundles demandés."
 msgstr ""
+"This method enables to retrieve a list of nodes based on the last string in "
+"input and requested bundles."
 
 #: ../../docs-gofast-development/api-rest.rst:699
 msgid "*GET: /api/node/autocomplete*"
-msgstr ""
+msgstr "*GET: /api/node/autocomplete*"
 
 #: ../../docs-gofast-development/api-rest.rst:710
 #: ../../docs-gofast-development/api-rest.rst:969
 msgid "str*"
-msgstr ""
+msgstr "str*"
 
 #: ../../docs-gofast-development/api-rest.rst:710
 #: ../../docs-gofast-development/api-rest.rst:969
 msgid "Input"
-msgstr ""
+msgstr "Input"
 
 #: ../../docs-gofast-development/api-rest.rst:712
 msgid "bundles"
-msgstr ""
+msgstr "bundles"
 
 #: ../../docs-gofast-development/api-rest.rst:712
 msgid "Liste de bundles séparés par une virgule (alfresco_item par default)"
-msgstr ""
+msgstr "Comma-separated list of bundles (alfresco_item par default)"
 
 #: ../../docs-gofast-development/api-rest.rst:727
 #: ../../docs-gofast-development/api-rest.rst:984
 msgid "Quelques informations de base sur l'utilisateur"
-msgstr ""
+msgstr "Some basic user information"
 
 #: ../../docs-gofast-development/api-rest.rst:732
 msgid "Ressource : comment"
-msgstr ""
+msgstr "Resource : comment"
 
 #: ../../docs-gofast-development/api-rest.rst:734
 msgid ""
@@ -1235,95 +1314,99 @@ msgid ""
 "comment. Ces derniers représent des commentaires associés à des entités "
 "de type noeud (node)"
 msgstr ""
+"This resource helps you to interact with Drupal comment-type entities. They "
+"represent comments associated with node type entities"
 
 #: ../../docs-gofast-development/api-rest.rst:737
 msgid "Action : comment"
-msgstr ""
+msgstr "Action : comment"
 
 #: ../../docs-gofast-development/api-rest.rst:739
 msgid ""
 "Cette action permet d'intéragir basiquement avec les entités Drupal de "
 "type comment."
 msgstr ""
+"This action allows you to interact basically with Drupal comment - type "
+"entities."
 
 #: ../../docs-gofast-development/api-rest.rst:744
 msgid "Cette méthode permet de récupérer un commentaire"
-msgstr ""
+msgstr "This method allows to retrieve a comment"
 
 #: ../../docs-gofast-development/api-rest.rst:746
 #: ../../docs-gofast-development/api-rest.rst:789
 msgid "*GET: /api/comment/comment*"
-msgstr ""
+msgstr "*GET: /api/comment/comment*"
 
 #: ../../docs-gofast-development/api-rest.rst:757
 msgid "cid*"
-msgstr ""
+msgstr "cid*"
 
 #: ../../docs-gofast-development/api-rest.rst:757
 #: ../../docs-gofast-development/api-rest.rst:773
 #: ../../docs-gofast-development/api-rest.rst:820
 msgid "N° du commentaire"
-msgstr ""
+msgstr "N° of a comment"
 
 #: ../../docs-gofast-development/api-rest.rst:773
 #: ../../docs-gofast-development/api-rest.rst:820
 msgid "cid"
-msgstr ""
+msgstr "cid"
 
 #: ../../docs-gofast-development/api-rest.rst:775
 msgid "N° de l'utilisateur ayant commenté"
-msgstr ""
+msgstr "N ° of the user who commented"
 
 #: ../../docs-gofast-development/api-rest.rst:777
 msgid "subject"
-msgstr ""
+msgstr "subject"
 
 #: ../../docs-gofast-development/api-rest.rst:777
 #: ../../docs-gofast-development/api-rest.rst:802
 msgid "Titre du commentaire"
-msgstr ""
+msgstr "Title of the comment"
 
 #: ../../docs-gofast-development/api-rest.rst:779
 #: ../../docs-gofast-development/api-rest.rst:853
 msgid "body"
-msgstr ""
+msgstr "body"
 
 #: ../../docs-gofast-development/api-rest.rst:779
 msgid "contenu du commentaire"
-msgstr ""
+msgstr "content of the comment"
 
 #: ../../docs-gofast-development/api-rest.rst:781
 #: ../../docs-gofast-development/api-rest.rst:806
 msgid "is_private"
-msgstr ""
+msgstr "is_private"
 
 #: ../../docs-gofast-development/api-rest.rst:781
 msgid "0: Commentaire publique, 1: Commentaire privé"
-msgstr ""
+msgstr "0: Public comment, 1: Private comment"
 
 #: ../../docs-gofast-development/api-rest.rst:787
 msgid "Cette méthode permet d'attacher un commentaire à une entité de type noeud"
-msgstr ""
+msgstr "This method allows to attach a comment to a node type entity"
 
 #: ../../docs-gofast-development/api-rest.rst:802
 msgid "subject*"
-msgstr ""
+msgstr "subject*"
 
 #: ../../docs-gofast-development/api-rest.rst:804
 msgid "body*"
-msgstr ""
+msgstr "body*"
 
 #: ../../docs-gofast-development/api-rest.rst:804
 msgid "Contenu du commentaire (format HTML)"
-msgstr ""
+msgstr "Content of the comment (HTML format)"
 
 #: ../../docs-gofast-development/api-rest.rst:806
 msgid "0: Commentaire publique, 1: Commentaire privé (défaut : 0)"
-msgstr ""
+msgstr "0: Public comment, 1: Private comment (default: 0)"
 
 #: ../../docs-gofast-development/api-rest.rst:824
 msgid "Ressource : space"
-msgstr ""
+msgstr "Resource : space"
 
 #: ../../docs-gofast-development/api-rest.rst:826
 msgid ""
@@ -1331,54 +1414,58 @@ msgid ""
 "type comment. Ces derniers représentent ce que l'on appel des *espaces "
 "collaboratifs*"
 msgstr ""
+"This resource allows you to interact with Drupal Comment-type Organic "
+"Groups. They represent the so-called *collaborative spaces*"
 
 #: ../../docs-gofast-development/api-rest.rst:829
 msgid "Action : space"
-msgstr ""
+msgstr "Action : space"
 
 #: ../../docs-gofast-development/api-rest.rst:831
 msgid ""
 "Cette action permet d'intéragir basiquement avec les Organic Groups de "
 "Drupal."
-msgstr ""
+msgstr "This action helps to interact basically with the Drupal Organic Groups."
 
 #: ../../docs-gofast-development/api-rest.rst:836
 msgid ""
 "Cette méthode permet de créer un *espace collaboratif* en passant par le "
 "mécanisme Drupal"
 msgstr ""
+"This method allows you to create a *collaborative space* through the Drupal "
+"mechanism"
 
 #: ../../docs-gofast-development/api-rest.rst:838
 msgid "*PUT: /api/space/space*"
-msgstr ""
+msgstr "*PUT: /api/space/space*"
 
 #: ../../docs-gofast-development/api-rest.rst:849
 msgid "gid*"
-msgstr ""
+msgstr "gid*"
 
 #: ../../docs-gofast-development/api-rest.rst:849
 msgid "N° de noeud de l'espace parent"
-msgstr ""
+msgstr "N° of the parent space node"
 
 #: ../../docs-gofast-development/api-rest.rst:851
 msgid "Titre du nouvel espace"
-msgstr ""
+msgstr "Title of the new space"
 
 #: ../../docs-gofast-development/api-rest.rst:853
 msgid "Contenu de l'accueil de l'espace (format HTML)"
-msgstr ""
+msgstr "Content of the space homepage (HTML format)"
 
 #: ../../docs-gofast-development/api-rest.rst:868
 msgid "gid"
-msgstr ""
+msgstr "gid"
 
 #: ../../docs-gofast-development/api-rest.rst:868
 msgid "N° de l'espace crée"
-msgstr ""
+msgstr "N° of the created space"
 
 #: ../../docs-gofast-development/api-rest.rst:872
 msgid "Ressource : taxonomy"
-msgstr ""
+msgstr "Resource : taxonomy"
 
 #: ../../docs-gofast-development/api-rest.rst:874
 msgid ""
@@ -1386,22 +1473,26 @@ msgid ""
 "taxonomy permets d'associer des *termes* à un contenu (exemple : "
 "catégorie, importance...)"
 msgstr ""
+"This resource helps to interact with Drupal taxonomy. The taxonomy allows to "
+"associate *terms* with a content (for example: category, importance...)"
 
 #: ../../docs-gofast-development/api-rest.rst:877
 msgid "Action : terms"
-msgstr ""
+msgstr "Action : terms"
 
 #: ../../docs-gofast-development/api-rest.rst:879
 msgid ""
 "Cette action permet d'intéragir avec les *termes* de la taxonomy de "
 "Drupal."
-msgstr ""
+msgstr "This action helps to interact with the *terms* of the Drupal taxonomy."
 
 #: ../../docs-gofast-development/api-rest.rst:884
 msgid ""
 "Cette méthode permet de récupérer les *termes* de taxonomy associés à un "
 "vocabulaire"
 msgstr ""
+"This method makes it possible to retrieve taxonomy *terms* associated with a "
+"vocabulary"
 
 #: ../../docs-gofast-development/api-rest.rst:886
 msgid ""
@@ -1409,84 +1500,94 @@ msgid ""
 "depuis l'action vocabularies. Exemple de valeurs exploitables : category,"
 " criticity, tags"
 msgstr ""
+"The available *vocabulary_name* values can be retrieved from the "
+"vocabularies action. Example of possible values: category, criticity, tags"
 
 #: ../../docs-gofast-development/api-rest.rst:888
 msgid "*GET: /api/taxonomy/terms*"
-msgstr ""
+msgstr "*GET: /api/taxonomy/terms*"
 
 #: ../../docs-gofast-development/api-rest.rst:899
 msgid "vocabulary_name*"
-msgstr ""
+msgstr "vocabulary_name*"
 
 #: ../../docs-gofast-development/api-rest.rst:899
 msgid "Nom du vocabulaire"
-msgstr ""
+msgstr "Vocabulary name"
 
 #: ../../docs-gofast-development/api-rest.rst:914
 msgid "term_name"
-msgstr ""
+msgstr "term_name"
 
 #: ../../docs-gofast-development/api-rest.rst:914
 msgid "Tableau contenant l'ID du terme et certaines informations"
-msgstr ""
+msgstr "Array containing the term ID and some informations"
 
 #: ../../docs-gofast-development/api-rest.rst:918
 msgid "Action : vocabularies"
-msgstr ""
+msgstr "Action : vocabularies"
 
 #: ../../docs-gofast-development/api-rest.rst:920
 msgid ""
 "Cette action permet d'intéragir avec les *vocabularies* de la taxonomy de"
 " Drupal."
 msgstr ""
+"This action helps to interact with the *vocabularies* of the Drupal taxonomy."
 
 #: ../../docs-gofast-development/api-rest.rst:925
 msgid ""
 "Cette méthode permet de récupérer les *vocabularies* de la taxonomy de "
 "Drupal"
 msgstr ""
+"This method makes it possible to retrieve the *vocabularies* of the Drupal "
+"taxonomy"
 
 #: ../../docs-gofast-development/api-rest.rst:927
 msgid "*GET: /api/taxonomy/vocabularies*"
-msgstr ""
+msgstr "*GET: /api/taxonomy/vocabularies*"
 
 #: ../../docs-gofast-development/api-rest.rst:940
 msgid "vocabulary_name"
-msgstr ""
+msgstr "vocabulary_name"
 
 #: ../../docs-gofast-development/api-rest.rst:940
 msgid "Tableau contenant l'ID du vocabulary et certaines informations"
-msgstr ""
+msgstr "Array containing the vocabulary ID and some information"
 
 #: ../../docs-gofast-development/api-rest.rst:944
 msgid "Ressource : user"
-msgstr ""
+msgstr "Resource : user"
 
 #: ../../docs-gofast-development/api-rest.rst:946
 msgid ""
 "Cette ressource permet d'intéragir avec les entités *user* de Drupal. Ces"
 " entités représentent les utilisateurs enregistrés sur la plateforme."
 msgstr ""
+"This resource makes it possible to interact with the Drupal *user* entities "
+". These entities represent the users registered on the platform."
 
 #: ../../docs-gofast-development/api-rest.rst:951
 msgid ""
 "Cette action permet d'intéragie avec le système d'autocomplétion des "
 "entités *user* de Drupal."
 msgstr ""
+"This action allows you to interact with an autocompletion system of Drupal "
+"*user* entities."
 
 #: ../../docs-gofast-development/api-rest.rst:956
 msgid ""
 "Cette méthode permet de récupérer une liste d'utilisateurs en fonction de"
 " la chaine passée en input."
 msgstr ""
+"This method allows to get a list of users according to the input string."
 
 #: ../../docs-gofast-development/api-rest.rst:958
 msgid "*GET: /api/user/autocomplete*"
-msgstr ""
+msgstr "*GET: /api/user/autocomplete*"
 
 #: ../../docs-gofast-development/api-rest.rst:988
 msgid "Ressource : locations"
-msgstr ""
+msgstr "Resource : locations"
 
 #: ../../docs-gofast-development/api-rest.rst:990
 msgid ""
@@ -1494,40 +1595,45 @@ msgid ""
 "Alfresco (l'ensemble des dossiers et espaces d'un point de vue GED "
 "uniquement)"
 msgstr ""
+"This resource makes it possible to interact with the available locations on "
+"Alfresco (all the files and spaces from a DMS point of view only)"
 
 #: ../../docs-gofast-development/api-rest.rst:993
 msgid "Action : tree"
-msgstr ""
+msgstr "Action : tree"
 
 #: ../../docs-gofast-development/api-rest.rst:995
 msgid ""
 "Cette action permet de récupérer un *tree* d'emplacements au format JSON "
 "compatible avec le composant ZTree."
 msgstr ""
+"This action helps to recover a *tree* of locations in JSON format compatible "
+"with the ZTree component."
 
 #: ../../docs-gofast-development/api-rest.rst:1000
 msgid ""
 "Cette méthode permet de récupérer un *tree* d'emplacements au format JSON"
 " compatible avec le composant ZTree."
 msgstr ""
+"This method makes it possible to recover a *tree* of locations in JSON "
+"format compatible with the ZTree component."
 
 #: ../../docs-gofast-development/api-rest.rst:1002
 msgid "*GET: /api/locations/tree*"
-msgstr ""
+msgstr "*GET: /api/locations/tree*"
 
 #: ../../docs-gofast-development/api-rest.rst:1013
 msgid "ename"
-msgstr ""
+msgstr "ename"
 
 #: ../../docs-gofast-development/api-rest.rst:1013
 msgid "Chemin à partir duquel récupérer les enfants"
-msgstr ""
+msgstr "Path from which to retrieve the children"
 
 #: ../../docs-gofast-development/api-rest.rst:1027
 msgid "tree"
-msgstr ""
+msgstr "tree"
 
 #: ../../docs-gofast-development/api-rest.rst:1027
 msgid "Chaine au format JSON directement exploitable par la librairie ZTree"
-msgstr ""
-
+msgstr "JSON format string is directly usable by the ZTree library"
