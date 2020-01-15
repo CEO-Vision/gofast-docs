@@ -3949,7 +3949,10 @@ Une fois la carte créée, vous pouvez modifier les informations précédemment 
 .. figure:: media-guide/kanban-card-fields-edit.jpg	
    :alt:
 
-Les cartes peuvent être déplacées au fur-à-mesure d’une colonne à une autre suivant la progression des actions menées. 
+Les cartes peuvent être déplacées en glisser/déposer d’une colonne à une autre suivant la progression des actions menées.
+
+.. figure:: media-guide/Kanban-move-card.jpg	
+   :alt:
 
 .. NOTE::
    Dans la section Todolist, les membres de l’équipe peuvent indiquer la fin de la réalisation des actions en cochant les cases adjacentes aux titres. 
@@ -3960,10 +3963,10 @@ Les cartes peuvent être déplacées au fur-à-mesure d’une colonne à une aut
 
 Permissions 
 -----------
-- Qui peut créer un Kanban ?  Seulement l’administrateur de l’espace. 
-- Qui peut créer/modifier/déplacer les tâches ? L’administrateur de l’espace et le contributeur.
-- Qui peut supprimer une tâche ? L’administrateur de l’espace et le créateur de la tâche. 
-- Qui peut commenter les tâches/valider les checklist (Todolist) ? L’administrateur de l’espace, contributeur et les membres en lecture seul si assignés à la tâche/Checklist.
+- Qui peut créer un Kanban ?  Les administrateurs de l’espace. 
+- Qui peut créer/modifier/déplacer les tâches ? Les administrateurs de l’espace et les contributeurs.
+- Qui peut supprimer une tâche ? Les administrateurs de l’espace et les créateurs des tâches. 
+- Qui peut commenter les tâches/valider les checklist (Todolist) ? Les administrateurs de l’espace, contributeurs et les membres en lecture seul si assignés à la tâche/Checklist.
 
 Notifications 
 ---------------------- 
@@ -4001,6 +4004,13 @@ Pour se rediriger vers le Kanban concerné, il faudra appuyer sur l’icône inf
 .. figure:: media-guide/Kanban-card-display-menu-tasks.jpg	
    :alt:
 
+Filtrer les cartes
+------------------
+GoFast met à disposition une barre de recherche pour filtrer les cartes, elle est placée au dessus des colonnes dans le Kanban. 
+La recherche se fait uniquement sur le titre de la carte. Il suffit de taper son nom, la carte concernée s’affichera dans le tableau et toutes les autres deviendront invisibles. 
+
+.. figure:: media-guide/Kanban-filter.jpg	
+   :alt:
 
 Forums de discussion
 =====================
