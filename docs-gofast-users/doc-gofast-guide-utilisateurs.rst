@@ -3989,7 +3989,7 @@ Les cartes sont présentes dans les calendriers des espaces ou leurs sous-espace
 - Membre de la carte.
 - Affecté à un élément de Checklist.
 
-Il suffit de cliquer sur l’événement dans le calendrier pour se rediriger sur le kanban contenant la carte en question.
+Il suffit de cliquer sur l’événement dans le calendrier pour se rediriger sur le tableau (kanban) contenant la carte en question.
 
 .. figure:: media-guide/kanban-card-display-calendar.jpg	
    :alt:
