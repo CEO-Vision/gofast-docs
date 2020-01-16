@@ -3944,14 +3944,9 @@ Une fois la carte créée, vous pouvez modifier les informations précédemment 
 2. Todolist :  Dans cette section vous pouvez ajouter plusieurs actions à effectuer avec échéance. Chaque action pourra être affectée à un membre de l’équipe.
 3. Commentaire (s) : Ici vous pouvez partager des remarques et des suggestions avec les participants.
 4. Afficher le détail : Afficher l’audit des actions d’une carte.
-5. Fermer ou supprimer : la suppression est activée uniquement pour l'administrateur de l’espace ou le créateur de la tâche.
+5. Fermer ou supprimer : la suppression est activée uniquement pour les administrateurs de l’espace ou le créateur de la carte.
 
 .. figure:: media-guide/kanban-card-fields-edit.jpg	
-   :alt:
-
-Les cartes peuvent être déplacées en glisser/déposer d’une colonne à une autre suivant la progression des actions menées.
-
-.. figure:: media-guide/Kanban-move-card.jpg	
    :alt:
 
 .. NOTE::
@@ -3961,12 +3956,37 @@ Les cartes peuvent être déplacées en glisser/déposer d’une colonne à une 
 .. figure:: media-guide/kanban-todolist-management.jpg	
    :alt:
 
+Les cartes peuvent être déplacées en glisser/déposer d’une colonne à une autre suivant la progression des actions menées.
+
+.. figure:: media-guide/Kanban-move-card.jpg	
+   :alt:
+
+Il est possible également de personnaliser les colonnes, en ajoutant de nouvelles, renommant ou supprimant des existantes.
+Pour ajouter une nouvelle colonne, placez-vous à droite du tableau puis cliquer dans le champs « Saisir le titre de la colonne », renseigner le nom puis appuyer sur « Ajouter colonne ».
+
+.. figure:: media-guide/Kanban-add-column.jpg	
+   :alt:
+
+Pour supprimer ou renommer une colonne, il suffit de cliquer sur l’icône qui se trouve au coin en haut à droite de la colonne, puis choisir l’action souhaitée.
+
+.. figure:: media-guide/Kanban-rename-delete-column.jpg	
+   :alt:
+
+.. NOTE::
+   - La suppression de la colonne effacera toutes les cartes qu’elle contient. 
+   - Cette action est irréversible. 
+
+Enfin, pour déplacer une colonne, il faudra la faire glisser vers l’emplacement souhaité puis la déposer.
+
+.. figure:: media-guide/kanban-move-column.jpg	
+   :alt:
+  
 Permissions 
 -----------
-- Qui peut créer un Kanban ?  Les administrateurs de l’espace. 
-- Qui peut créer/modifier/déplacer les tâches ? Les administrateurs de l’espace et les contributeurs.
-- Qui peut supprimer une tâche ? Les administrateurs de l’espace et les créateurs des tâches. 
-- Qui peut commenter les tâches/valider les checklist (Todolist) ? Les administrateurs de l’espace, contributeurs et les membres en lecture seul si assignés à la tâche/Checklist.
+- Qui peut ajouter/renommer/supprimer/déplacer les colonnes ?  Les administrateurs de l’espace. 
+- Qui peut créer/modifier/déplacer les cartes ? Les administrateurs de l’espace et les contributeurs.
+- Qui peut supprimer une carte ? Les administrateurs de l’espace et les créateurs des tâches. 
+- Qui peut commenter les cartes/valider les checklist (Todolist) ? Les administrateurs de l’espace, contributeurs et les membres en lecture seul si assignés à la tâche/Checklist.
 
 Notifications 
 ---------------------- 
@@ -3977,7 +3997,7 @@ Notifications
 +---------------------------------------+-------------+--------------+----------------------+
 | Création d’action (Checklist)	        |      X      |      X	     |          X           |
 +---------------------------------------+-------------+--------------+----------------------+
-| Date d’échéance de la carte (Tâche)	|      X      |      X       |  	X           |
+| Date d’échéance de la carte   	|      X      |      X       |  	X           |
 +---------------------------------------+-------------+--------------+----------------------+
 | Date d’échéance de l’action Checklist	|             |       	     |          X           |
 +---------------------------------------+-------------+--------------+----------------------+
@@ -3996,6 +4016,9 @@ Il suffit de cliquer sur l’événement dans le calendrier pour se rediriger su
 
 .. figure:: media-guide/kanban-card-display-calendar.jpg	
    :alt:
+
+.. NOTE::
+   Dans le cas où on est assigné sur un élément de Checklist, la carte apparaîtra dans le calendrier à la date d'échéance de la carte et non à la date d'échéance de la checklist.
 
 À partir du menu principal, vous pouvez visualiser les cartes ouvertes dans la rubrique Mes tâches (Roues crantées).
 L’icône en petite fenêtre disposée à côté du titre de la carte permet de faire la différence entre les tâches workflow et les tâches créées à partir du Kanban.
