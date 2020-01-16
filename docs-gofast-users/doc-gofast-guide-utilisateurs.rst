@@ -3929,7 +3929,7 @@ Pour une meilleure gestion de tâches, GoFast propose une interface sous forme d
 Gestion du Kanban
 -----------------
 Pour accéder à cette fonctionnalité, aller dans la page d’un espace puis cliquer sur l’onglet « Tâches ». La configuration la plus classique consiste à créer 4 colonnes : Démarrage, En cours, Finalisation, Terminé ou Annulé.
-Pour créer les tâches à effectuer cliquer sur le bouton « Ajouter une nouvelle Carte ». 
+Pour créer une carte cliquer sur le bouton « Ajouter une nouvelle Carte ». 
 
 .. figure:: media-guide/creer-colonne-tache-kanban.jpg	
    :alt:
