@@ -4394,9 +4394,12 @@ de prévisualisation p. 95)
 Tableau de Bord dynamique
 =========================
 À partir de la version 3.6.1, GoFAST bénéficie d’un Tableau de Bord dynamique pratique. Ce dernier permet d’avoir un accès rapide aux éléments les plus sollicités. Pour y accéder, cliquer sur le menu Hamburger puis «Tableau de Bord » dans le menu déroulant.
+
 .. figure:: media-guide/Dashboard.png
    :alt: 
+
 Ce dernier dispose de 6 blocs :
+
 .. figure:: media-guide/Dashboard-blocs.jpg
    :alt: 
 
@@ -4417,6 +4420,7 @@ Pour créer un mémo, aller dans la page « Fil d’activité », cliquer sur «
    :alt: 
 
 Pour supprimer un mémo de votre Tableau de bord, rendez-vous dans la page « Fil d’activité ». Vous pouvez également épingler son contenu.
+
 .. figure:: media-guide/Dashboard-manage-memo.jpg
    :alt: 
 
