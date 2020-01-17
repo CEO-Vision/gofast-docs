@@ -4390,6 +4390,39 @@ de prévisualisation p. 95)
 .. figure:: media-guide/image365.png
    :alt: 
 
+
+Tableau de Bord dynamique
+=========================
+À partir de la version 3.6.1, GoFAST bénéficie d’un Tableau de Bord dynamique pratique. Ce dernier permet d’avoir un accès rapide aux éléments les plus sollicités. Pour y accéder, cliquer sur le menu Hamburger puis «Tableau de Bord » dans le menu déroulant.
+.. figure:: media-guide/Dashboard.png
+   :alt: 
+Ce dernier dispose de 6 blocs :
+.. figure:: media-guide/Dashboard-blocs.jpg
+   :alt: 
+
+1. Espace privé et profil : Ce bloc est statique, il permet d’accéder à votre espace privé, visualiser votre calendrier, gérer votre profil ainsi que vos abonnements. 
+
+2. Votre espace principal (CEO-Vision) : Dans ce bloc, vous avez la possibilité d’afficher l’espace principal de votre choix. Vous aurez à disposition l’accès au aux documents de ce dernier ainsi que son calendrier associé.
+
+Pour ce fait, aller dans votre profil puis cliquer sur « Paramètres du compte », défiler jusqu’à la section « Informations sur l’utilisateur » ensuite sélectionner dans le champs «Organisation principale » l’espace souhaité. N’oublier pas de sauvegarder en appuyant sur le bouton « Enregistrer» en bas de la fenêtre.
+
+.. NOTE::
+   Un seul espace principal pourra être mis en avant dans ce bloc du Tableau de bord.
+
+3. Memos : Ce bloc récupère toutes les nouvelles partagées créées à partir de la page « Fil d’activité ».
+
+Pour créer un mémo, aller dans la page « Fil d’activité », cliquer sur « Partager une nouvelle», saisir votre texte puis appuyer sur « Envoyer » pour partager ou Annuler pour arrêter la création.
+
+.. figure:: media-guide/Dashboard-create-memo.jpg
+   :alt: 
+
+Pour supprimer un mémo de votre Tableau de bord, rendez-vous dans la page « Fil d’activité ». Vous pouvez également épingler son contenu.
+.. figure:: media-guide/Dashboard-manage-memo.jpg
+   :alt: 
+
+.. NOTE::
+    les mémos sont partagés en publique. Toutes les personnes inscrites sur la plate-forme auront accès à ces informations.
+
 Annuaires
 =========
 
@@ -4581,7 +4614,7 @@ Annexes : Quelques bonnes pratiques
 
 -  Je n'envoie plus de mails avec pièce jointe, mais je mets un
    commentaire sur le document sur GoFAST, toutes les personnes
-   recevront une notification
+   recevront une notification.
 
    -  dans de nombreux cas la pièce jointe n'est déjà plus à jour quand
       votre destinataire la recoit de plus les pièces jointes encombres
