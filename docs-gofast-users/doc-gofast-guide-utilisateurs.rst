@@ -4410,16 +4410,25 @@ Ce dernier dispose de 6 blocs :
 .. figure:: media-guide/Dashboard-blocs.jpg
    :alt: 
 
-1. Espace privé et profil : Ce bloc est statique, il permet d’accéder à votre espace privé, visualiser votre calendrier, gérer votre profil ainsi que vos abonnements. 
+Espace privé et profil
+----------------------
 
-2. Votre espace principal (CEO-Vision) : Dans ce bloc, vous avez la possibilité d’afficher l’espace principal de votre choix. Vous aurez à disposition l’accès au aux documents de ce dernier ainsi que son calendrier associé.
+Ce bloc est statique, il permet d’accéder à votre espace privé, visualiser votre calendrier, gérer votre profil ainsi que vos abonnements. 
+
+Votre espace principal(CEO-Vision)
+----------------------------------
+
+Dans ce bloc, vous avez la possibilité d’afficher l’espace principal de votre choix. Vous aurez à disposition l’accès au aux documents de ce dernier ainsi que son calendrier associé.
 
 Pour ce fait, aller dans votre profil puis cliquer sur « Paramètres du compte », défiler jusqu’à la section « Informations sur l’utilisateur » ensuite sélectionner dans le champs «Organisation principale » l’espace souhaité. N’oublier pas de sauvegarder en appuyant sur le bouton « Enregistrer» en bas de la fenêtre.
 
 .. NOTE::
    Un seul espace principal pourra être mis en avant dans ce bloc du Tableau de bord.
 
-3. Memos : Ce bloc récupère toutes les nouvelles partagées créées à partir de la page « Fil d’activité ».
+Memos
+-----
+
+Ce bloc récupère toutes les nouvelles partagées créées à partir de la page « Fil d’activité ».
 
 Pour créer un mémo, aller dans la page « Fil d’activité », cliquer sur « Partager une nouvelle», saisir votre texte puis appuyer sur « Envoyer » pour partager ou Annuler pour arrêter la création.
 
@@ -4433,6 +4442,40 @@ Pour supprimer un mémo de votre Tableau de bord, rendez-vous dans la page « Fi
 
 .. NOTE::
     les mémos sont partagés en publique. Toutes les personnes inscrites sur la plate-forme auront accès à ces informations.
+
+Mes espaces favoris
+-------------------
+
+Ce bloc permet de lister les espaces favoris pour un accès rapide. Il est possible également d’épingler d’autres espaces ou de les supprimer des favoris à partir du bloc.
+
+Pour ajouter un ou plusieurs espaces favoris, cliquer sur le bouton +  « Épingler un nouvel espace ».
+
+.. figure:: media-guide/Dashboard-add-favorite-space.jpg
+   :alt:
+
+Taper les trois premières lettres de l’espace pour lequel vous voulez mettre en favoris. Une liste de propositions s’affiche, sélectionner le nom recherché. 
+Une fois que vous avez terminé, appuyer sur « Épingler sur le tableau de bord ».
+
+.. figure:: media-guide/Dashboard-add-favorite-space-1.jpg
+   :alt:
+
+Pour supprimer un espace des favoris, cliquer sur le bouton placé à droite du titre puis appuyer sur « Supprimer des favoris ».
+
+.. figure:: media-guide/Dashboard-delete-favorite-space.jpg
+   :alt:
+
+Un message de confirmation de suppression s’affiche en haut à droite de la fenêtre.
+
+.. figure:: media-guide/Dashboard-notif-delete-space.jpg
+   :alt:
+
+Vous remarquerez que l’espace est toujours épinglé  sur le bloc, cela ne signifie pas que l’action n’a pas eu lieu mais simplement par précaution en cas d’erreur, vous pouvez restaurer cet espace en cliquant sur le même bouton puis sur « Ajouter aux favoris ».
+
+.. figure:: media-guide/Dashboard-restore-deleted-space.jpg
+   :alt:
+
+En revanche, si vous actualisez ou vous quittez la page du tableau de bord, la suppression se fait de manière définitive et l’espace ne sera plus visible dans le bloc.
+
 
 Annuaires
 =========
