@@ -4393,9 +4393,16 @@ de prévisualisation p. 95)
 
 Tableau de Bord dynamique
 =========================
-À partir de la version 3.6.1, GoFAST bénéficie d’un Tableau de Bord dynamique pratique. Ce dernier permet d’avoir un accès rapide aux éléments les plus sollicités. Pour y accéder, cliquer sur le menu Hamburger puis «Tableau de Bord » dans le menu déroulant.
+À partir de la version 3.6.1, GoFAST bénéficie d’un Tableau de Bord dynamique pratique. Ce dernier permet d’avoir un accès rapide aux éléments les plus sollicités. On pourra y accéder de deux façons :
+
+- À partir du menu principal, cliquer sur le Hamburger puis «Tableau de Bord » dans le menu déroulant.
 
 .. figure:: media-guide/Dashboard.png
+   :alt: 
+
+- À partir de la page « Fil d’activité », en cliquant sur « Tableau de Bord ».
+
+.. figure:: media-guide/Dashboard-1.jpg
    :alt: 
 
 Ce dernier dispose de 6 blocs :
