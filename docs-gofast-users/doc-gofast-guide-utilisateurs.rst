@@ -3918,7 +3918,7 @@ Pour consulter les détails d'un processus archivé, il suffit de cliquer sur l�
 .. figure:: media-guide/Ecran-GoFAST_Workflows_processus-archive-historique.png	
    :alt:
 
-4. Tableau de board
+4. Tableau de bord
 -------------------
 
 GoFAST intègre un tableau de bord pour afficher tous les workflows créés par l’utilisateur ainsi que ceux qui  lui ont été assignés. Pour y accéder, cliquer sur l’icône Hamburger du menu principal, dans le menu déroulant appuyer sur « Tableau de bord des processus ».
@@ -3926,7 +3926,7 @@ GoFAST intègre un tableau de bord pour afficher tous les workflows créés par 
 .. figure:: media-guide/Dashboard-workflow.jpg
    :alt:
 
-Par default, dans la section « Resultats de recherche » tous les processus en cours sont listées. 
+Par défaut, dans la section « Resultats de recherche » tous les processus en cours sont listées. 
 
 .. figure:: media-guide/Dashboard-workflow-listing.jpg
    :alt:
@@ -3961,6 +3961,23 @@ Pour lancer la requête de tri, ne pas oublier d’appuyer sur le bouton « Rech
 
 Afficher les détails d'un processus
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Pour consulter les détails d'un processus, il suffit de cliquer sur le nom de ce dernier dans les Résultats de recherche.
+Trois sections sont disponibles :
+
+1- Tâches du processus 
+
+.. figure:: media-guide/Dashboard-workflow-processus-tasks.jpg
+   :alt:
+
+2- Documents dans ce processus
+
+.. figure:: media-guide/Dashboard-workflow-doc-linked.jpg
+   :alt:
+
+3- Historique du processus
+
+.. figure:: media-guide/Dashboard-workflows-history.jpg
+   :alt:
 
 
 Gestion des tâches collaboratives (Kanban)
