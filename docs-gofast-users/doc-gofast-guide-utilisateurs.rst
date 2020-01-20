@@ -4481,17 +4481,18 @@ En revanche, si vous actualisez ou vous quittez la page du tableau de bord, la s
 Mes contenus favoris
 --------------------
 Dans le bloc « Mes contenus favoris », vous pouvez épingler les documents favoris. Pour ajouter un ou plusieurs contenus, cliquer sur l’icône Plus à droite du titre du bloc « Épingler un nouveau contenu ».
+
 .. figure:: Dashboard-add-favorite-content.jpg
    :alt:
 
 Renseigner le nom du contenu souhaité dans la barre de recherche puis faites votre sélection et enfin appuyer sur le bouton « Épingler sur le tableau de bord ».
 
-.. figure:: .. figure:: Dashboard-add-favorite-content-1.jpg
+.. figure:: Dashboard-add-favorite-content-1.jpg
    :alt:
 
  Les documents épinglés peuvent être prévisualisés, édités, partagés, archivés et commentés directement à partir du tableau de bord.  
 
-.. figure:: .. figure:: Dashboard-manage-favorite-content.jpg
+.. figure:: Dashboard-manage-favorite-content.jpg
    :alt:
 
 Annuaires
