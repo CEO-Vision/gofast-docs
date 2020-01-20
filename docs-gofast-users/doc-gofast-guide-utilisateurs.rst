@@ -3918,6 +3918,51 @@ Pour consulter les détails d'un processus archivé, il suffit de cliquer sur l�
 .. figure:: media-guide/Ecran-GoFAST_Workflows_processus-archive-historique.png	
    :alt:
 
+4. Tableau de board
+-------------------
+
+GoFAST intègre un tableau de bord pour afficher tous les workflows créés par l’utilisateur ainsi que ceux qui  lui ont été assignés. Pour y accéder, cliquer sur l’icône Hamburger du menu principal, dans le menu déroulant appuyer sur « Tableau de bord des processus ».
+
+.. figure:: media-guide/Dashboard-workflow.jpg
+   :alt:
+
+Par default, dans la section « Resultats de recherche » tous les processus en cours sont listées. 
+
+.. figure:: media-guide/Dashboard-workflow-listing.jpg
+   :alt:
+
+Filtrer les résultats de recherche
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Le tableau de bord offre un filtre avec plusieurs options afin de rechercher un processus particulier. Pour y accéder, appuyer sur la barre bleue « Rechercher des processus ».
+
+.. figure:: media-guide/Dashboard-workflow-filter.jpg
+   :alt:
+
+La recherche se fait avec un ou plusieurs critère(s) :
+
+- Titre du processus : Nom complet du processus.
+
+- Démarré après le :  Date après le démarrage du processus.
+
+- Échéance avant le :  Date d‘échéance avant la fin du processus.
+
+- Type de processus : Il est possible de faire le tri avec deux types de processus « Diffusion de document » et « Sous processus de diffusion de document ».
+
+- État du processus : Deux états sont disponibles « En cours » et « Terminé ».
+
+- Démarré par : Ce champs vous permet de renseigner le nom de l’utilisateur qui a démarré le processus ( Liste de propositions disponible ). 
+
+- Documents associés : Document(s) lié(s) au processus recherché ( Liste de propositions disponible).
+ 
+- Utilisateurs associés :  Dans ce champs, vous pouvez renseigner les utilisateurs assignés aux différents actions du processus recherché(Liste de propositions disponible).
+
+Pour lancer la requête de tri, ne pas oublier d’appuyer sur le bouton « Rechercher ».
+
+Afficher les détails d'un processus
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
 Gestion des tâches collaboratives (Kanban)
 ==========================================
 
