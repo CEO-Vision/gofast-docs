@@ -4393,7 +4393,9 @@ de prévisualisation p. 95)
 
 Tableau de Bord dynamique
 =========================
-À partir de la version 3.6.1, GoFAST bénéficie d’un Tableau de Bord dynamique pratique. Ce dernier permet d’avoir un accès rapide aux éléments les plus sollicités. On pourra y accéder de deux façons :
+À partir de la version 3.6.1, GoFAST bénéficie d’un Tableau de Bord dynamique pratique. Ce dernier permet d’avoir un accès rapide aux éléments les plus sollicités.
+
+On pourra y accéder de deux façons :
 
 - À partir du menu principal, cliquer sur le Hamburger puis «Tableau de Bord » dans le menu déroulant.
 
@@ -4476,6 +4478,21 @@ Vous remarquerez que l’espace est toujours épinglé  sur le bloc, cela ne sig
 
 En revanche, si vous actualisez ou vous quittez la page du tableau de bord, la suppression se fait de manière définitive et l’espace ne sera plus visible dans le bloc.
 
+Mes contenus favoris
+--------------------
+Dans le bloc « Mes contenus favoris », vous pouvez épingler les documents favoris. Pour ajouter un ou plusieurs contenus, cliquer sur l’icône Plus à droite du titre du bloc « Épingler un nouveau contenu ».
+.. figure:: Dashboard-add-favorite-content.jpg
+   :alt:
+
+Renseigner le nom du contenu souhaité dans la barre de recherche puis faites votre sélection et enfin appuyer sur le bouton « Épingler sur le tableau de bord ».
+
+.. figure:: .. figure:: Dashboard-add-favorite-content-1.jpg
+   :alt:
+
+ Les documents épinglés peuvent être prévisualisés, édités, partagés, archivés et commentés directement à partir du tableau de bord.  
+
+.. figure:: .. figure:: Dashboard-manage-favorite-content.jpg
+   :alt:
 
 Annuaires
 =========
