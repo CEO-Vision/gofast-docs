@@ -4490,10 +4490,12 @@ Renseigner le nom du contenu souhaité dans la barre de recherche puis faites vo
 .. figure:: Dashboard-add-favorite-content-1.jpg
    :alt:
 
- Les documents épinglés peuvent être prévisualisés, édités, partagés, archivés et commentés directement à partir du tableau de bord.  
 
+Les documents épinglés peuvent être prévisualisés, édités, partagés, archivés et commentés directement à partir du tableau de bord.
+ 
 .. figure:: Dashboard-manage-favorite-content.jpg
    :alt:
+
 
 Annuaires
 =========
