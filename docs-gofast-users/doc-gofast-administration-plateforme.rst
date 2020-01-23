@@ -122,3 +122,51 @@ Sur la page de login, l'utilisateur pourra maintenant se connecter en cliquant s
 .. figure:: media-guide/sso_login.png
    :alt: 
 
+Synchronisation automatique des comptes GOFAST avec AD/LDAP
+===========================================================
+
+GoFAST offre une nouvelle fonctionnalité qui permet de synchroniser automatiquement les utilisateurs depuis l’Annuaire de l’entreprise vers votre plate-forme collaborative. 
+
+La synchronisation se fait uniquement avec des comptes qui possèdent des délégations d’authentification activées.
+
+Les utilisateurs qui n’existent pas dans GoFAST mais qui sont présents sur l’Annuaire, au moment de la synchronisation ils seront crées et activés sur la plate-forme.
+
+Dans le cas de suppression d’un utilisateur synchronisé coté Annuaire, ce dernier sera « Bloqué»  sur GoFAST. Ce mécanisme permet de conserver la traçabilité des actions de cet utilisateur et de lui réaffecter ces informations dans certaines circonstances. 
+
+.. NOTE:: Veuillez noter que les comptes ne disposant pas de délégations d’authentification seront hors cycle de synchronisation. Ils ne seront pas automatiquement bloqués ou débloqués de la plate-forme.
+
+Connexion au Serveur LDAP / AD
+------------------------------
+
+Pour établir la connexion avec votre Serveur LDAP e,   vous devez vous connecter à GoFAST en tant Administrateur technique.
+
+Cliquer sur l’icône Hamburger qui se trouve à gauche du menu principal, ensuite aller dans « Administration » puis appuyer sur « GoFAST Configuration ».
+
+.. figure:: media-guide/Synchro-ldap-access-menu.jpg
+   :alt: 
+
+Une fois la page affichée, dans la barre latérale gauche appuyer sur la rubrique «  Serveur LDAP /AD ». Renseigner les paramètres de votre Serveur en respectant les préconisations indiquées ci-dessous :
+
+.. figure:: media-guide/Synchro-ldap-params.jpg
+   :alt: 
+
+** Name **:  Choisissez un nom unique pour cette configuration serveur.
+
+** Type de serveur LDAP ** :  Quatre types sont disponible, Active Directory, Open LDAP, Apple Open Directory, Novell. Ce champ est informatif. Son but est d'aider les valeurs par défaut et de donner des alertes de validation.
+
+** Serveur LDAP ** : Le nom de domaine ou l'adresse IP de votre serveur LDAP tel que « ad.unm.edu ». Pour SSL utilisez le format ldaps://DOMAIN tel que « ldaps://ad.unm.edu ».
+
+** Port LDAP ** : Le port TCP/IP sur le serveur ci-dessus qui accepte les connexions LDAP. Ceci doit être un entier.
+
+** Utiliser Start-TLS ** :  Cette option permet de sécuriser la communication entre les serveurs Drupal et LDAP à l’aide de TLS ( Pour utliser Start-TLS vous devez définir le port LDAP à 389 ).
+
+** Suivre les références LDAP ** : Le client LDAP suit les références (dans les réponses du serveur LDAP) vers d'autres serveurs LDAP. Cela nécessite que les paramètres de liaison indiqués sont également valides sur ces autres serveurs.
+
+** Compte Service **
+
+Certaines configurations LDAP interdisent ou restreignent les résultats des recherches anonymes. Ces LDAP requièrent une paire "DN/mot de passe" pour faire la liaison. Pour des raisons de sécurité, cette paire doit appartenir à un compte LDAP avec des permissions désactivées. Ceci est également nécessaire pour l'approvisionnement des comptes Drupal.
+ * DN pour les recherches non anonymes :  
+ * Mot de passe pour les recherches non anonymes : 
+ * Base DNs pour les utilisateurs LDAP, les groupes et autres entrées :  
+   Quels DNs ont des entrées appropriées pour cette configuration ? ex: ou=campus accounts,dc=ad,dc=uiuc,dc=edu. 
+   Gardez à l'esprit que chaque base supplémentaire double probablement le nombre de requêtes. Placez le plus utilisé en première position et préférez utiliser un DN de base élevée plutôt que deux DN de base faible. Entrez un DN par ligne dans le cas où plusieurs sont nécessaires.
