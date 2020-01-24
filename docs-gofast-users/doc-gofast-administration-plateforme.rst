@@ -170,4 +170,47 @@ Une fois la page affichée, dans la barre latérale gauche appuyer sur la rubriq
 
 * **Base DNs pour les utilisateurs LDAP, les groupes et autres entrées** : Quels DNs ont des entrées appropriées pour cette configuration ? ex: ou=campus accounts,dc=ad,dc=uiuc,dc=edu. Gardez à l'esprit que chaque base supplémentaire double probablement le nombre de requêtes. Placez le plus utilisé en première position et préférez utiliser un DN de base élevée plutôt que deux DN de base faible. Entrez un DN par ligne dans le cas où plusieurs sont nécessaires.
 
-Une fois toutes les informations correctement renseignées, un bouton est mis à disposition à la fin du formulaire « Test de connexion », celui-ci vous permet de tester la connexion avant l’enregistrement de la configuration.
+Une fois toutes les informations correctement renseignées, un bouton est mis à disposition à la fin du formulaire « Test de connexion », celui-ci permet de tester la connexion entre GoFAST et le serveur LDAP. Un message d’information sera affiché à droite du bouton indiquant le succès ou l’échec de cette connexion. En cas d’échec, il est impératif de vérifier les paramètres et recommencer le test. Si le test est réussi, appuyer sur le bouton «Enregistrer» pour sauvegarder cette configuration.
+
+.. NOTE:: Il est possible d’effectuer des modifications ou mettre en place une nouvelle configuration, seulement n’oubliez pas de tester la connexion ensuite enregistrer les changements uniquement en cas de réussite.
+
+Activation de l'authentification déléguée SASL
+----------------------------------------------
+Une fois la connexion établie avec le Serveur LDAP, aller dans la section «Authentification SASL» qui se trouve en bas du formulaire de paramètres,  cocher la case «Déléguer l’authentification au serveur LDAP». N’oubliez d’enregistrer pour lancer l’opération de délégation. Cette opération peut prendre quelques minutes selon le nombre d’utilisateurs actifs sur GoFAST.
+
+L'activation de l'authentification déléguée SASL permet aux utilisateurs de se connecter à GoFAST en utilisant les informations d'identification de l'entreprise (Active Directory, OpenLDAP...).
+
+.. figure:: media-guide/Synchro-ldap-delegation.jpg
+   :alt: 
+.. NOTE:: L’authentification SASL ne fonctionne qu'avec les utilisateurs qui sont enregistrés dans l'annuaire de l'entreprise. En tant qu'administrateur, vous pouvez également activer/désactiver l'authentification déléguée pour un utilisateur spécifique directement à partir du formulaire de modification de compte. Assurez-vous que les paramètres LDAP sont appropriés pour que cette fonctionnalité puisse être activée.
+
+Configuration de la synchronisation
+-----------------------------------
+
+Après avoir activé la délégation, une nouvelle section «Synchronisation d'annuaires» est visible en bas de la page, celle-ci est dédiée à la configuration de la synchronisation des comptes de la plate-forme avec l’annuaire distant paramétré plus haut.
+
+Pour configurer la synchronisation, commencer par cocher la case «Synchroniser GoFast avec l'annuaire configuré». Ensuite aller dans la sous-section « Configuration » et choisissez la fréquence de synchronisation.
+
+.. figure:: media-guide/Synchro-active-frequence.jpg
+   :alt: 
+
+Deux autres sous-sections importantes sont à renseigner : 
+
+* Association de champs ( Obligatoire ) :  Vous devez au moins renseigner les champs «Nom utilisateur» et «Adresse mail» par leurs attributs respectifs dans l’annuaire ( Exemple :  Nom utilisateur -> uid, Adresse mail -> mail ). Les autres champs sont facultatifs.
+
+.. NOTE:: L'identifiant unique de l'utilisateur, généralement associé au samAccountName pour un Active Directory.
+
+.. figure:: media-guide/Synchro-associated-fields.jpg
+   :alt: 
+
+* Filtres ( Facultatif ) : Ici vous pouvez effectuer des filtres spécifiques pour votre requête de synchronisation. Il est recommandé de séparer chaque liste de filtres par des retours à la ligne.
+
+.. figure:: media-guide/Synchro-ldap-synchro-filter.jpg
+   :alt: 
+
+Une fois la configuration de synchronisation est terminée, cliquer sur le bouton «Enregistrer» pour exécuter l’opération.
+
+.. figure:: media-guide/Synchro-terminee.jpg
+   :alt:
+
+Si toute fois, vous souhaitez effectuer une synchronisation avant la prochaine date définie, il suffit de cliquer sur le bouton «Synchronisation».
