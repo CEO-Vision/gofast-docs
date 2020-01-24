@@ -145,7 +145,7 @@ Cliquer sur l’icône Hamburger qui se trouve à gauche du menu principal, ensu
 .. figure:: media-guide/Synchro-ldap-access-menu.jpg
    :alt: 
 
-Une fois la page affichée, dans la barre latérale gauche appuyer sur la rubrique «  Serveur LDAP /AD ». Renseigner les paramètres de votre Serveur en respectant les préconisations indiquées ci-dessous :
+Une fois la page affichée, dans la barre latérale gauche appuyer sur la rubrique « Serveur LDAP /AD ». Renseigner les paramètres de votre Serveur en respectant les préconisations indiquées ci-dessous :
 
 .. figure:: media-guide/Synchro-ldap-params.jpg
    :alt: 
