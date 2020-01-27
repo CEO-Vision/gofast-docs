@@ -2782,8 +2782,9 @@ Recherche stricte
 -----------------
 La recherche stricte est une fonctionnalité activée par défaut sur Go-FAST, elle signifie que tous les mots clés renseignés dans la barre de recherche sont obligatoires et qu’ils doivent être impérativement présents dans les documents listés dans le résultats de recherche. Pour chaque document recensé, ces mots clés se trouvent soit dans son titre, soit dans son contenu, soit dans les commentaires.
 
-.. figure:: media-guide/strict-search.jpg
+.. figure:: media-guide/Strict-search.jpg
    :alt:
+
 .. IMPORTANT::
    Notez que les mots clés précédés par un tiret « - » sont exclus de la recherche.
    Exemple : « Réunion février 2019  -Mardi » ( Tous les documents contenant le mot clé «Mardi» seront exclus des résultats ).
