@@ -4479,7 +4479,7 @@ Espace privé et profil
 
 Ce bloc est statique, il permet d’accéder à votre espace privé, visualiser votre calendrier, gérer votre profil ainsi que vos abonnements. 
 
-Votre espace principal(CEO-Vision)
+Votre espace principal (CEO-Vision)
 ----------------------------------
 
 Dans ce bloc, vous avez la possibilité d’afficher l’espace principal de votre choix. Vous aurez à disposition l’accès au aux documents de ce dernier ainsi que son calendrier associé.
@@ -4623,7 +4623,7 @@ Rapports & statistiques
 Onglet « Statistiques » dans un Espace
 --------------------------------------
 
-Seuls les administrateurs de la plat-forme sont habilités à voir les activités de l'Espace. Dans la rubrique **Statistiques**, vous pouvez choisir les informations que vous souhaitez retrouver graphiquement et sur une période sélectionnée. Vous avez également la possibilité d’exporter les données qui concernent les membres des espaces, les documents d’un espace sélectionné ou encore la liste de tous les espaces présents sur la plat-forme.
+Seuls les administrateurs de la plateforme sont habilités à voir les activités de l'Espace. Dans la rubrique **Statistiques**, vous pouvez choisir les informations que vous souhaitez retrouver graphiquement et sur une période sélectionnée. Vous avez également la possibilité d’exporter les données qui concernent les membres des espaces, les documents d’un espace sélectionné ou encore la liste de tous les espaces présents sur la plateforme.
 
 Pour y accéder, cliquer sur l’icône Hamburger qui se trouve à gauche du menu principal, ensuite aller dans  « Administration » puis appuyer sur « Statistiques ». 
 
