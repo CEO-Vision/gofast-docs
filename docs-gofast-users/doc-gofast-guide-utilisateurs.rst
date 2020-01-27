@@ -2754,6 +2754,28 @@ Il est toutefois possible de modifier de tri pour classer les contenus par :
 
 .. NOTE:: trier le résultat de recherche sur un autre critère que la pertinence, peut afficher en haut de la liste des contenus qui correspondent mois bien aux mots-clefs saisis car le critère sélectionné pour le tri prime. 
 
+Sauvegarde des critères de recherche
+------------------------------------
+Avec GoFAST, il est possible de sauvegarder manuellement plusieurs recherches prédéfinies et les relancer en un clic en cas de besoin. Cela permettra un gain de temps considérable.
+Pour enregistrer une sauvegarde, il suffit de taper le mot clef dans la barre de recherche puis cliquer sur la « loupe » ou faire « Entrer » sur le clavier. Une fois que votre recherche est validée et vos filtres sont appliqués, aller dans le volet « Recherche actuelle » et cliquer sur la disquette dans le coin à droite, donner un titre à votre recherche puis appuyer sur « Enregistrer ».
+
+.. figure:: media-guide/search-save-process.jpg
+   :alt:
+
+.. figure:: media-guide/search-title-save.png
+   :alt:
+
+Pour accéder aux recherches sauvegardées, vous avez deux possibilités :
+
+* Dans la barre de recherche, à droite il suffit de passer la souris sur la petite fléchette à coté de la loupe, une liste s’affichera contenant les titres des recherches enregistrées. A ce niveau, vous pouvez accéder seulement à votre recherche en cliquant sur le titre souhaité.
+
+.. figure:: media-guide/search-saved-from-field.jpg
+   :alt:
+
+* Á partir du bloc de recherche (Filtres) dans le volet « Mes recherches enregistrées », à ce niveau vous pouvez exécuter votre recherche, modifier les critères ou la supprimer.
+
+.. figure:: media-guide/search-saved-list-from-tabs.jpg
+   :alt:
 
 Explorateur de fichiers GoFAST File Browser
 ============================================
@@ -3896,6 +3918,185 @@ Pour consulter les détails d'un processus archivé, il suffit de cliquer sur l�
 .. figure:: media-guide/Ecran-GoFAST_Workflows_processus-archive-historique.png	
    :alt:
 
+4. Tableau de bord
+-------------------
+
+GoFAST intègre un tableau de bord pour afficher tous les workflows créés par l’utilisateur ainsi que ceux qui  lui ont été assignés. Pour y accéder, cliquer sur l’icône Hamburger du menu principal, dans le menu déroulant appuyer sur « Tableau de bord des processus ».
+
+.. figure:: media-guide/Dashboard-workflow.jpg
+   :alt:
+
+Par défaut, dans la section « Resultats de recherche » tous les processus en cours sont listées. 
+
+.. figure:: media-guide/Dashboard-workflow-listing.jpg
+   :alt:
+
+Filtrer les résultats de recherche
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Le tableau de bord offre un filtre avec plusieurs options afin de rechercher un processus particulier. Pour y accéder, appuyer sur la barre bleue « Rechercher des processus ».
+
+.. figure:: media-guide/Dashboard-workflow-filter.jpg
+   :alt:
+
+La recherche se fait avec un ou plusieurs critère(s) :
+
+- Titre du processus : Nom complet du processus.
+
+- Démarré après le :  Date après le démarrage du processus.
+
+- Échéance avant le :  Date d‘échéance avant la fin du processus.
+
+- Type de processus : Il est possible de faire le tri avec deux types de processus « Diffusion de document » et « Sous processus de diffusion de document ».
+
+- État du processus : Deux états sont disponibles « En cours » et « Terminé ».
+
+- Démarré par : Ce champs vous permet de renseigner le nom de l’utilisateur qui a démarré le processus ( Liste de propositions disponible ). 
+
+- Documents associés : Document(s) lié(s) au processus recherché ( Liste de propositions disponible).
+ 
+- Utilisateurs associés :  Dans ce champs, vous pouvez renseigner les utilisateurs assignés aux différents actions du processus recherché(Liste de propositions disponible).
+
+Pour lancer la requête de tri, ne pas oublier d’appuyer sur le bouton « Rechercher ».
+
+Afficher les détails d'un processus
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Pour consulter les détails d'un processus, il suffit de cliquer sur le nom de ce dernier dans les Résultats de recherche.
+Trois sections sont disponibles :
+
+1- Tâches du processus 
+
+.. figure:: media-guide/Dashboard-workflow-processus-tasks.jpg
+   :alt:
+
+2- Documents dans ce processus
+
+.. figure:: media-guide/Dashboard-workflow-doc-linked.jpg
+   :alt:
+
+3- Historique du processus
+
+.. figure:: media-guide/Dashboard-workflows-history.jpg
+   :alt:
+
+
+Gestion des tâches collaboratives (Kanban)
+==========================================
+
+Pour une meilleure gestion de tâches, GoFast propose une interface sous forme de kanban avec un système de colonnes et de cartes pour organiser les différentes actions à mener lors d’un projet.
+
+.. NOTE::
+   Un seul Kanban est disponible par espace. Les espaces publiques ne disposent pas de ce gestionnaire de tâches.
+
+Gestion du Kanban
+-----------------
+Pour accéder à cette fonctionnalité, aller dans la page d’un espace puis cliquer sur l’onglet « Tâches ». La configuration la plus classique consiste à créer 4 colonnes : Démarrage, En cours, Finalisation, Terminé ou Annulé.
+Pour créer une carte cliquer sur le bouton « Ajouter une nouvelle Carte ». 
+
+.. figure:: media-guide/creer-colonne-tache-kanban.jpg	
+   :alt:
+Renseigner le titre, la description, les documents liés, la date d’échéance, le responsable puis les participants et enfin appuyer sur « Enregistrer ».
+
+.. figure:: media-guide/creer-une-carte.jpg	
+   :alt:
+
+Une fois la carte créée, vous pouvez modifier les informations précédemment entrées ou ajouter plus d’éléments en cliquant sur le champ concerné. 
+
+1. Statut :  La carte peut avoir trois états possibles (A traiter en priorité, En cours, Terminé).
+2. Todolist :  Dans cette section vous pouvez ajouter plusieurs actions à effectuer avec échéance. Chaque action pourra être affectée à un membre de l’équipe.
+3. Commentaire (s) : Ici vous pouvez partager des remarques et des suggestions avec les participants.
+4. Afficher le détail : Afficher l’audit des actions d’une carte.
+5. Fermer ou supprimer : la suppression est activée uniquement pour les administrateurs de l’espace ou le créateur de la carte.
+
+.. figure:: media-guide/kanban-card-fields-edit.jpg	
+   :alt:
+
+.. NOTE::
+   Dans la section Todolist, les membres de l’équipe peuvent indiquer la fin de la réalisation des actions en cochant les cases adjacentes aux titres. 
+   Ils peuvent également modifier les informations d’une action (Titre, affectation, échéance) ou la supprimer.
+
+.. figure:: media-guide/kanban-todolist-management.jpg	
+   :alt:
+
+Les cartes peuvent être déplacées en glisser/déposer d’une colonne à une autre suivant la progression des actions menées.
+
+.. figure:: media-guide/Kanban-move-card.jpg	
+   :alt:
+
+Il est possible également de personnaliser les colonnes, en ajoutant de nouvelles, renommant ou supprimant des existantes.
+Pour ajouter une nouvelle colonne, placez-vous à droite du tableau puis cliquer dans le champs « Saisir le titre de la colonne », renseigner le nom puis appuyer sur « Ajouter colonne ».
+
+.. figure:: media-guide/Kanban-add-column.jpg	
+   :alt:
+
+Pour supprimer ou renommer une colonne, il suffit de cliquer sur l’icône qui se trouve au coin en haut à droite de la colonne, puis choisir l’action souhaitée.
+
+.. figure:: media-guide/Kanban-rename-delete-column.jpg	
+   :alt:
+
+.. NOTE::
+   - La suppression de la colonne effacera toutes les cartes qu’elle contient. 
+   - Cette action est irréversible. 
+
+Enfin, pour déplacer une colonne, il faudra la faire glisser vers l’emplacement souhaité puis la déposer.
+
+.. figure:: media-guide/kanban-move-column.jpg	
+   :alt:
+  
+Permissions 
+-----------
+- Qui peut ajouter/renommer/supprimer/déplacer les colonnes ?  Les administrateurs de l’espace. 
+- Qui peut créer/modifier/déplacer les cartes ? Les administrateurs de l’espace et les contributeurs.
+- Qui peut supprimer une carte ? Les administrateurs de l’espace et les créateurs des tâches. 
+- Qui peut commenter les cartes/valider les checklist (Todolist) ? Les administrateurs de l’espace, contributeurs et les membres en lecture seul si assignés à la tâche/Checklist.
+
+Notifications 
+---------------------- 
++---------------------------------------+-------------+--------------+----------------------+
+| Notifications	                        | Responsable | Participants | Assignés aux actions |
++=======================================+=============+==============+======================+
+| Création de carte 	                |      X      |      X	     |                      |
++---------------------------------------+-------------+--------------+----------------------+
+| Création d’action (Checklist)	        |      X      |      X	     |          X           |
++---------------------------------------+-------------+--------------+----------------------+
+| Date d’échéance de la carte   	|      X      |      X       |  	X           |
++---------------------------------------+-------------+--------------+----------------------+
+| Date d’échéance de l’action Checklist	|             |       	     |          X           |
++---------------------------------------+-------------+--------------+----------------------+
+| Soumission Commentaire	        |      X      |      X	     |          X           |
++---------------------------------------+-------------+--------------+----------------------+
+
+Visualisation des cartes (Agenda & Menu Tâches)
+-----------------------------------------------
+
+Les cartes sont présentes dans les calendriers des espaces ou leurs sous-espaces. Elles sont également visibles dans le calendrier de l’espace personnel sur lequel le membre de l’équipe est assigné en tant que :
+
+- Membre de la carte.
+- Affecté à un élément de Checklist.
+
+Il suffit de cliquer sur l’événement dans le calendrier pour se rediriger sur le tableau (kanban) contenant la carte en question.
+
+.. figure:: media-guide/kanban-card-display-calendar.jpg	
+   :alt:
+
+.. NOTE::
+   Dans le cas où on est assigné sur un élément de Checklist, la carte apparaîtra dans le calendrier à la date d'échéance de la carte et non à la date d'échéance de la checklist.
+
+À partir du menu principal, vous pouvez visualiser les cartes ouvertes dans la rubrique Mes tâches (Roues crantées).
+L’icône en petite fenêtre disposée à côté du titre de la carte permet de faire la différence entre les tâches workflow et les tâches créées à partir du Kanban.
+Pour se rediriger vers le Kanban concerné, il faudra appuyer sur l’icône information en bas à droite.
+
+.. figure:: media-guide/Kanban-card-display-menu-tasks.jpg	
+   :alt:
+
+Filtrer les cartes
+------------------
+GoFast met à disposition une barre de recherche pour filtrer les cartes, elle est placée au dessus des colonnes dans le Kanban. 
+La recherche se fait uniquement sur le titre de la carte. Il suffit de taper son nom, la carte concernée s’affichera dans le tableau et toutes les autres deviendront invisibles. 
+
+.. figure:: media-guide/Kanban-filter.jpg	
+   :alt:
+
 Forums de discussion
 =====================
 
@@ -4251,6 +4452,112 @@ de prévisualisation p. 95)
 .. figure:: media-guide/image365.png
    :alt: 
 
+
+Tableau de Bord dynamique
+=========================
+À partir de la version 3.6.1, GoFAST bénéficie d’un Tableau de Bord dynamique pratique. Ce dernier permet d’avoir un accès rapide aux éléments les plus sollicités.
+
+On pourra y accéder de deux façons :
+
+- À partir du menu principal, cliquer sur le Hamburger puis «Tableau de Bord » dans le menu déroulant.
+
+.. figure:: media-guide/Dashboard.png
+   :alt: 
+
+- À partir de la page « Fil d’activité », en cliquant sur « Tableau de Bord ».
+
+.. figure:: media-guide/Dashboard-1.jpg
+   :alt: 
+
+Ce dernier dispose de 6 blocs :
+
+.. figure:: media-guide/Dashboard-blocs.jpg
+   :alt: 
+
+Espace privé et profil
+----------------------
+
+Ce bloc est statique, il permet d’accéder à votre espace privé, visualiser votre calendrier, gérer votre profil ainsi que vos abonnements. 
+
+Votre espace principal (CEO-Vision)
+----------------------------------
+
+Dans ce bloc, vous avez la possibilité d’afficher l’espace principal de votre choix. Vous aurez à disposition l’accès au aux documents de ce dernier ainsi que son calendrier associé.
+
+Pour ce fait, aller dans votre profil puis cliquer sur « Paramètres du compte », défiler jusqu’à la section « Informations sur l’utilisateur » ensuite sélectionner dans le champs «Organisation principale » l’espace souhaité. N’oublier pas de sauvegarder en appuyant sur le bouton « Enregistrer» en bas de la fenêtre.
+
+.. NOTE::
+   Un seul espace principal pourra être mis en avant dans ce bloc du Tableau de bord.
+
+Memos
+-----
+
+Ce bloc récupère toutes les nouvelles partagées créées à partir de la page « Fil d’activité ».
+
+Pour créer un mémo, aller dans la page « Fil d’activité », cliquer sur « Partager une nouvelle», saisir votre texte puis appuyer sur « Envoyer » pour partager ou Annuler pour arrêter la création.
+
+.. figure:: media-guide/Dashboard-create-memo.jpg
+   :alt: 
+
+Pour supprimer un mémo de votre Tableau de bord, rendez-vous dans la page « Fil d’activité ». Vous pouvez également épingler son contenu.
+
+.. figure:: media-guide/Dashboard-manage-memo.jpg
+   :alt: 
+
+.. NOTE::
+    les mémos sont partagés en publique. Toutes les personnes inscrites sur la plate-forme auront accès à ces informations.
+
+Mes espaces favoris
+-------------------
+
+Ce bloc permet de lister les espaces favoris pour un accès rapide. Il est possible également d’épingler d’autres espaces ou de les supprimer des favoris à partir du bloc.
+
+Pour ajouter un ou plusieurs espaces favoris, cliquer sur le bouton +  « Épingler un nouvel espace ».
+
+.. figure:: media-guide/Dashboard-add-favorite-space.jpg
+   :alt:
+
+Taper les trois premières lettres de l’espace pour lequel vous voulez mettre en favoris. Une liste de propositions s’affiche, sélectionner le nom recherché. 
+Une fois que vous avez terminé, appuyer sur « Épingler sur le tableau de bord ».
+
+.. figure:: media-guide/Dashboard-add-favorite-space-1.jpg
+   :alt:
+
+Pour supprimer un espace des favoris, cliquer sur le bouton placé à droite du titre puis appuyer sur « Supprimer des favoris ».
+
+.. figure:: media-guide/Dashboard-delete-favorite-space.jpg
+   :alt:
+
+Un message de confirmation de suppression s’affiche en haut à droite de la fenêtre.
+
+.. figure:: media-guide/Dashboard-notif-delete-space.jpg
+   :alt:
+
+Vous remarquerez que l’espace est toujours épinglé  sur le bloc, cela ne signifie pas que l’action n’a pas eu lieu mais simplement par précaution en cas d’erreur, vous pouvez restaurer cet espace en cliquant sur le même bouton puis sur « Ajouter aux favoris ».
+
+.. figure:: media-guide/Dashboard-restore-deleted-space.jpg
+   :alt:
+
+En revanche, si vous actualisez ou vous quittez la page du tableau de bord, la suppression se fait de manière définitive et l’espace ne sera plus visible dans le bloc.
+
+Mes contenus favoris
+--------------------
+Dans le bloc « Mes contenus favoris », vous pouvez épingler les documents favoris. Pour ajouter un ou plusieurs contenus, cliquer sur l’icône Plus à droite du titre du bloc « Épingler un nouveau contenu ».
+
+.. figure:: media-guide/Dashboard-add-favorite-content.jpg
+   :alt:
+
+Renseigner le nom du contenu souhaité dans la barre de recherche puis faites votre sélection et enfin appuyer sur le bouton « Épingler sur le tableau de bord ».
+
+.. figure:: media-guide/Dashboard-add-favorite-content-1.jpg
+   :alt:
+
+Les documents épinglés peuvent être prévisualisés, édités, partagés, archivés et commentés directement à partir du tableau de bord.
+ 
+.. figure:: media-guide/Dashboard-manage-favorite-content.jpg
+   :alt:
+
+
 Annuaires
 =========
 
@@ -4310,45 +4617,67 @@ Vous pouvez voir les **news** (pareil que sur l’Intranet) via ce logo
 .. figure:: media-guide/image366.png
    :alt: 
 
-Statistics Reporting
-======================
+Rapports & statistiques 
+=======================
 
 Onglet « Statistiques » dans un Espace
 --------------------------------------
-Chaque utilisateur à la possibilité de voir l'activité de l'Espace. Dans l'onglet **Statistiques**, vous pouvez ainsi choisir les informations que vous souhaitez retrouver graphiquement et sur une période sélectionnée. 
 
-Deux sous-onglets vous permet de faire un reporting, les Statistiques des membres, et les Statistiques documentaires. 
+Seuls les administrateurs de la plateforme sont habilités à voir les activités de l'Espace. Dans la rubrique **Statistiques**, vous pouvez choisir les informations que vous souhaitez retrouver graphiquement et sur une période sélectionnée. Vous avez également la possibilité d’exporter les données qui concernent les membres des espaces, les documents d’un espace sélectionné ou encore la liste de tous les espaces présents sur la plateforme.
 
-a) Sous-onglet « **Statistique des membres** » permet de visualiser les infomations relatives aux membres actifs et inactifs, les nouveaux membres et membres connectés ; 
+Pour y accéder, cliquer sur l’icône Hamburger qui se trouve à gauche du menu principal, ensuite aller dans  « Administration » puis appuyer sur « Statistiques ». 
 
-.. figure:: media-guide/Statistiques_membres.png
+.. figure:: media-guide/statistics-access.jpg
+   :alt: 
+
+Trois sous-onglets sont disponibles :
+
+a) Sous-onglet « **Statistique des membres** » permet de visualiser les informations relatives aux membres actifs et inactifs, les nouveaux membres et membres connectés.
+
+.. figure:: media-guide/statistics-users.jpg
+   :alt: 
+
+b) Sous-onglet « **Statistique documentaires** », permet de visualiser toutes les informations relatives aux documents par sa catégorie, son état et son importance.
+
+.. figure:: media-guide/statistics-docs.jpg
+   :alt: 
+
+d) Sous-onglet « **Statistiques des espaces** », permet de visualiser toutes informations relatives aux espaces, leurs évolutions par période, les plus actifs, les plus remplis et les plus peuplés.
+ 
+.. figure:: media-guide/statistics-spaces.jpg
+   :alt: 
+
+Exporter les données
+--------------------
+
+Export des membres des espaces 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Dans l’onglet **Statistiques utilisateurs** une nouvelle fonctionnalité a été implémentée afin de permettre aux administrateurs de réaliser un export des membres des espaces. Il est possible personnaliser les données extraites dans l’export en appliquant un filtre sur un ou plusieurs espaces.
+
+.. figure:: media-guide/Export-members.jpg
    :alt:
 
-b) Sous-onglet « **Statistique documentaires** », permet de visualiser toutes les informations relatives aux documents par sa catégorie, son état et son importance ; 
+Export des listes de documents
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. figure:: media-guide/Statistiques_documentaires.png
+L'onglet **Statistiques documentaires** a la fonction supplémentaire de pouvoir effectuer une liste de documents d'un espace sélectionne.
+Pour plus d'informations, voir le paragraphe "Exportation des listes de documents" dans le Guide Utilisateurs : http://gofast-docs.readthedocs.io/fr/latest/docs-gofast-users/doc-gofast-guide-utilisateurs.html#exportation-des-listes-de-documents .
+
+Export complet des espaces
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+GoFAST met à votre disposition une nouvelle fonctionnalité qui vous permet d’exporter la liste des espaces créés sur la plate-forme.
+Cet export prendra forme sous fichier EXCEL (XLSX), il contient éventuellement d’autres informations importantes telles que : les administrateurs des espaces, leurs emplacements, les membres ainsi que le type de groupe de chaque espace.
+
+Dans le sous-onglet **Statistiques des espaces**, sur la première ligne de cette section appuyer sur le bouton avec  l’icône Excel. 
+
+.. figure:: media-guide/Export-all-spaces-access.jpg
    :alt:
 
+Une petite fenêtre s’ouvre et vous informe que votre export est en cours de génération. Dès que le téléchargement est lancé cette dernière se fermera automatiquement.
 
-Menu «**Statistics**», dans le Menu Utilisateur pour un Administrateur de plate-forme
--------------------------------------------------------------------------------------
-Avec le profil "Administrateur de la plate-forme", de nouveaux sous-menus apparaissent dans votre Menu Utilisateur, comme « **Statistics** ». 
-
-.. figure:: media-guide/Menu-statistics-export-liste-docs.png
+.. figure:: media-guide/Export-all-spaces-download.jpg
    :alt:
-
-Ce menu permet à l'Administrateur de plate-forme de visualiser 3 onglets pour effectuer des Statistics Reporting : 
-
--  Statistiques Utilisateurs 
--  Statistiques d'Espaces
--  Statistiques Documentaires
-
-.. figure:: media-guide/onglet-statistiques-docs-export.png
-   :alt:
-
-L'onglet **Statistiques documentaires** à la fonction supplémentaire de pouvoir effectuer une liste de documents d'un espace selectionné.
-Pour plus d'informations, voir le paragraphe "Exportation des listes de documents" dans le Guide Utilisateurs : http://gofast-docs.readthedocs.io/fr/latest/docs-gofast-users/doc-gofast-guide-utilisateurs.html#exportation-des-listes-de-documents 
-
 
 Version mobile
 ======================
@@ -4442,7 +4771,7 @@ Annexes : Quelques bonnes pratiques
 
 -  Je n'envoie plus de mails avec pièce jointe, mais je mets un
    commentaire sur le document sur GoFAST, toutes les personnes
-   recevront une notification
+   recevront une notification.
 
    -  dans de nombreux cas la pièce jointe n'est déjà plus à jour quand
       votre destinataire la recoit de plus les pièces jointes encombres
