@@ -52,7 +52,7 @@ Pour les utilisateurs rôle Extranet, cela permet d'éviter que des partenaires 
 
 Visibilité des utilisateurs ayant quittés l'organisation ( Désactivés )
 -----------------------------------------------------------------------
-Pour des raisons de traçabilité, les utilisateurs ayant quittés l’organisation seront uniquement désactivés sur la plate-forme Go-FAST et non supprimés définitivement. 
+Pour des raisons de traçabilité, les utilisateurs ayant quittés l’organisation seront uniquement désactivés sur la plate-forme GoFAST et non supprimés définitivement. 
 
 Leurs profils seront inaccessibles et anonymisés pour les utilisateurs classiques. Ils seront invisibles dans l’annuaire, dans tous les espaces ainsi que dans la recherche. Seuls les administrateurs de la plate-forme auront accès à une interface spécifique pour les retrouver et les ré-activer si besoin.
 

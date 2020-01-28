@@ -2780,7 +2780,7 @@ Pour accéder aux recherches sauvegardées, vous avez deux possibilités :
 
 Recherche stricte
 -----------------
-La recherche stricte est une fonctionnalité activée par défaut sur Go-FAST, elle signifie que tous les mots clés renseignés dans la barre de recherche sont obligatoires et qu’ils doivent être impérativement présents dans les documents listés dans le résultats de recherche. Pour chaque document recensé, ces mots clés se trouvent soit dans son titre, soit dans son contenu, soit dans les commentaires.
+La recherche stricte est une fonctionnalité activée par défaut sur GoFAST, elle signifie que tous les mots clés renseignés dans la barre de recherche sont obligatoires et qu’ils doivent être impérativement présents dans les documents listés dans le résultats de recherche. Pour chaque document recensé, ces mots clés se trouvent soit dans son titre, soit dans son contenu, soit dans les commentaires et les métadonnées.
 
 .. figure:: media-guide/Strict-search.jpg
    :alt:
