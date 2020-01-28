@@ -64,6 +64,8 @@ Cliquer sur le bouton qui se trouve à droite des «Paramètres du compte» ensu
 .. figure:: media-guide/User-disable.jpg
    :alt: 
 
+Tous les utilisateurs désactivés sont listés dans la page du menu «Utilisateurs bloqués» de l’annuaire.
+
 Réactiver un utilisateur
 ~~~~~~~~~~~~~~~~~~~~~~~~
 Pour réactiver un utilisateur, survoler le menu «Annuaires», puis cliquer sur le sous-menu «Utilisateurs bloqués». Aller sur la vignette de l’utilisateur concerné puis appuyer sur le lien «Réactiver cet utilisateur».
