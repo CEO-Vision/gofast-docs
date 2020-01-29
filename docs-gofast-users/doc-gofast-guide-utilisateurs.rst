@@ -3102,7 +3102,29 @@ Vous faites le choix des sous-groupes et répertoires dont vous souhaitez export
    :alt:
 
 
+Modèle d’arborescence de répertoires
+------------------------------------
+Créer un modèle d’arborescence de répertoires est une fonctionnalité qui a été implémentée dans le but de permettre aux utilisateurs de la plateforme  GoFAST de dupliquer un gabarit déjà existant sur d’autres espaces pour gagner du temps. Cela est principalement utile quand l’arborescente possède une structure complexe et comprend plusieurs niveaux.
 
+Pour commencer, connectez-vous en tant qu’administrateur de plateforme puis aller dans l’Explorateur. 
+
+.. figure:: media-guide/Template-folders-access.jpg
+   :alt:
+
+Positionnez-vous dans le répertoire «FOLDERS TEMPLATES» qui se trouve dans la barre latérale gauche de la page ( Bloc structure de l'arborescence ), ensuite cliquer sur la menu «Nouveau» puis «Dossier». Vous pouvez créer autant de répertoires et personnaliser votre arborescence à votre convenance. 
+
+.. figure:: media-guide/Template-folders-create.jpg
+   :alt:
+
+Une fois votre gabarit est prêt, il suffit de se rendre dans un répertoire d’un espace de votre choix, cliquer sur le menu «Nouveau» puis «Dossiers depuis un modèle».
+
+.. figure:: media-guide/Template-folders-duplicate.jpg
+   :alt:
+
+Choisissez votre modèle de répertoires, en cochant les dossiers que vous souhaitez dupliquer ensuite cliquer sur le bouton «Valider».
+
+.. figure:: media-guide/Template-folders-duplicated.jpg
+   :alt:
 
 Gestion des Espaces Collaboratifs
 =================================
