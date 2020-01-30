@@ -4658,63 +4658,16 @@ Rapports & statistiques
 =======================
 
 Onglet « Statistiques » dans un Espace
---------------------------------------
-
-Seuls les administrateurs de la plateforme sont habilités à voir les activités de l'Espace. Dans la rubrique **Statistiques**, vous pouvez choisir les informations que vous souhaitez retrouver graphiquement et sur une période sélectionnée. Vous avez également la possibilité d’exporter les données qui concernent les membres des espaces, les documents d’un espace sélectionné ou encore la liste de tous les espaces présents sur la plateforme.
-
-Pour y accéder, cliquer sur l’icône Hamburger qui se trouve à gauche du menu principal, ensuite aller dans  « Administration » puis appuyer sur « Statistiques ». 
-
-.. figure:: media-guide/statistics-access.jpg
-   :alt: 
-
-Trois sous-onglets sont disponibles :
-
+---------------------------------------------------
+Dans l'onglet **Statistiques**, vous pouvez choisir les informations que vous souhaitez retrouver graphiquement et sur une période sélectionnée. 
+Deux sous-onglets sont disponibles :
 a) Sous-onglet « **Statistique des membres** » permet de visualiser les informations relatives aux membres actifs et inactifs, les nouveaux membres et membres connectés.
-
-.. figure:: media-guide/statistics-users.jpg
+.. figure:: media-guide/statistics-users-space.jpg
    :alt: 
 
 b) Sous-onglet « **Statistique documentaires** », permet de visualiser toutes les informations relatives aux documents par sa catégorie, son état et son importance.
-
-.. figure:: media-guide/statistics-docs.jpg
+.. figure:: media-guide/statistics-docs-space.jpg
    :alt: 
-
-d) Sous-onglet « **Statistiques des espaces** », permet de visualiser toutes informations relatives aux espaces, leurs évolutions par période, les plus actifs, les plus remplis et les plus peuplés.
- 
-.. figure:: media-guide/statistics-spaces.jpg
-   :alt: 
-
-Exporter les données
---------------------
-
-Export des membres des espaces 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Dans l’onglet **Statistiques utilisateurs** une nouvelle fonctionnalité a été implémentée afin de permettre aux administrateurs de réaliser un export des membres des espaces. Il est possible personnaliser les données extraites dans l’export en appliquant un filtre sur un ou plusieurs espaces.
-
-.. figure:: media-guide/Export-members.jpg
-   :alt:
-
-Export des listes de documents
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-L'onglet **Statistiques documentaires** a la fonction supplémentaire de pouvoir effectuer une liste de documents d'un espace sélectionne.
-Pour plus d'informations, voir le paragraphe "Exportation des listes de documents" dans le Guide Utilisateurs : http://gofast-docs.readthedocs.io/fr/latest/docs-gofast-users/doc-gofast-guide-utilisateurs.html#exportation-des-listes-de-documents .
-
-Export complet des espaces
-~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-GoFAST met à votre disposition une nouvelle fonctionnalité qui vous permet d’exporter la liste des espaces créés sur la plate-forme.
-Cet export prendra forme sous fichier EXCEL (XLSX), il contient éventuellement d’autres informations importantes telles que : les administrateurs des espaces, leurs emplacements, les membres ainsi que le type de groupe de chaque espace.
-
-Dans le sous-onglet **Statistiques des espaces**, sur la première ligne de cette section appuyer sur le bouton avec  l’icône Excel. 
-
-.. figure:: media-guide/Export-all-spaces-access.jpg
-   :alt:
-
-Une petite fenêtre s’ouvre et vous informe que votre export est en cours de génération. Dès que le téléchargement est lancé cette dernière se fermera automatiquement.
-
-.. figure:: media-guide/Export-all-spaces-download.jpg
-   :alt:
 
 Version mobile
 ======================
