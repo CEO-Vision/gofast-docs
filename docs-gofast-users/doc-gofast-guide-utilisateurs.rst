@@ -4660,12 +4660,16 @@ Rapports & statistiques
 Onglet « Statistiques » dans un Espace
 ---------------------------------------------------
 Dans l'onglet **Statistiques**, vous pouvez choisir les informations que vous souhaitez retrouver graphiquement et sur une période sélectionnée. 
+
 Deux sous-onglets sont disponibles :
+
 a) Sous-onglet « **Statistique des membres** » permet de visualiser les informations relatives aux membres actifs et inactifs, les nouveaux membres et membres connectés.
+
 .. figure:: media-guide/statistics-users-space.jpg
    :alt: 
 
 b) Sous-onglet « **Statistique documentaires** », permet de visualiser toutes les informations relatives aux documents par sa catégorie, son état et son importance.
+
 .. figure:: media-guide/statistics-docs-space.jpg
    :alt: 
 
