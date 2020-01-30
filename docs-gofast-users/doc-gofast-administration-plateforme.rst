@@ -50,6 +50,34 @@ GoFAST permet de séléctionner la visibilité ou le cloisonement selon le rôle
 Ce cloisonnement permet d'éviter que les utilisateurs ne puissent consulter les Espaces dont ils ne sont pas membres, dans l'annuaire des Espaces.
 Pour les utilisateurs rôle Extranet, cela permet d'éviter que des partenaires et prestataires ne puissent consulter l'arborescence des Espaces internes (ex : Organisations et Groupes), ainsi que les Espaces déstinés à d'autres partenaires ou prestataires. C'est important dans le cas où il y a des Espaces Extranets dédiés à des concurrents. 
 
+Visibilité des utilisateurs ayant quittés l'organisation ( Désactivés )
+-----------------------------------------------------------------------
+Pour des raisons de traçabilité, les utilisateurs ayant quittés l’organisation seront uniquement désactivés sur la plate-forme GoFAST et non supprimés définitivement. 
+
+Leurs profils seront inaccessibles et anonymisés pour les utilisateurs classiques. Ils seront invisibles dans l’annuaire, dans tous les espaces ainsi que dans la recherche. Seuls les administrateurs de la plate-forme auront accès à une interface spécifique pour les retrouver et les ré-activer si besoin.
+
+Désactiver un utilisateur 
+~~~~~~~~~~~~~~~~~~~~~~~~~
+Pour désactiver un utilisateur, connectez-vous en tant qu’administrateur de plate-forme puis afficher son profil à partir du menu «Annuaire» ou directement via la barre de recherche en tapant son nom.
+Cliquer sur le bouton qui se trouve à droite des «Paramètres du compte» ensuite appuyer sur «Désactiver cet utilisateur» puis «Confirmer». 
+
+.. figure:: media-guide/User-disable.jpg
+   :alt: 
+
+Tous les utilisateurs désactivés sont listés dans la page du menu «Utilisateurs bloqués» de l’annuaire.
+
+Réactiver un utilisateur
+~~~~~~~~~~~~~~~~~~~~~~~~
+Pour réactiver un utilisateur, survoler le menu «Annuaires», puis cliquer sur le sous-menu «Utilisateurs bloqués». Aller sur la vignette de l’utilisateur concerné puis appuyer sur le lien «Réactiver cet utilisateur».
+
+Ce dernier regagne la liste des utilisateurs actifs, récupère toutes ses données et sera visible sur toute la plate-forme (Espaces, recherche, ...). 
+
+.. figure:: media-guide/User-enable.jpg
+   :alt: 
+
+.. NOTE::
+   Notez qu’il y a une différence entre les utilisateurs «Inactifs» et les utilisateurs bloqués «Désactivés». Les utilisateurs inactifs ne sont pas bloqués, ce sont des utilisateurs qui se connectent rarement sur la plate-forme.
+
 Single Sign-On (SSO)
 =====================
 

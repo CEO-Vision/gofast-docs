@@ -2772,10 +2772,25 @@ Pour accéder aux recherches sauvegardées, vous avez deux possibilités :
 .. figure:: media-guide/search-saved-from-field.jpg
    :alt:
 
-* Á partir du bloc de recherche (Filtres) dans le volet « Mes recherches enregistrées », à ce niveau vous pouvez exécuter votre recherche, modifier les critères ou la supprimer.
+* Á partir du bloc de recherche (Filtres) dans le volet « Mes recherches enregistrées », à ce niveau vous pouvez :
+   * Exécuter votre recherche en cliquant sur le «Titre»,
+   * Remplacer la recherche sauvegardée par la recherche courante en appuyant sur la «Disquette»,
+   * Supprimer cette recherche en allant sur le bouton «Corbeille».
 
 .. figure:: media-guide/search-saved-list-from-tabs.jpg
    :alt:
+
+
+Recherche stricte
+-----------------
+La recherche stricte est une fonctionnalité activée par défaut sur GoFAST, elle signifie que tous les mots clés renseignés dans la barre de recherche sont obligatoires et qu’ils doivent être impérativement présents dans les documents listés dans le résultats de recherche. Pour chaque document recensé, ces mots clés se trouvent soit dans son titre, soit dans son contenu, soit dans les commentaires et les métadonnées.
+
+.. figure:: media-guide/Strict-search.jpg
+   :alt:
+
+.. IMPORTANT::
+   Notez que les mots clés précédés par un tiret « - » sont exclus de la recherche.
+   Exemple : « Réunion février 2019  -Mardi » ( Tous les documents contenant le mot clé «Mardi» seront exclus des résultats ).
 
 Explorateur de fichiers GoFAST File Browser
 ============================================
@@ -3090,7 +3105,29 @@ Vous faites le choix des sous-groupes et répertoires dont vous souhaitez export
    :alt:
 
 
+Modèle d’arborescence de répertoires
+------------------------------------
+Créer un modèle d’arborescence de répertoires est une fonctionnalité qui a été implémentée dans le but de permettre aux utilisateurs de la plateforme  GoFAST de dupliquer un gabarit déjà existant sur d’autres espaces pour gagner du temps. Cela est principalement utile quand l’arborescente possède une structure complexe et comprend plusieurs niveaux.
 
+Pour commencer, connectez-vous en tant qu’administrateur de plateforme puis aller dans l’Explorateur. 
+
+.. figure:: media-guide/Template-folders-access.jpg
+   :alt:
+
+Positionnez-vous dans le répertoire «FOLDERS TEMPLATES» qui se trouve dans la barre latérale gauche de la page ( Bloc structure de l'arborescence ), ensuite cliquer sur la menu «Nouveau» puis «Dossier». Vous pouvez créer autant de répertoires et personnaliser votre arborescence à votre convenance. 
+
+.. figure:: media-guide/Template-folders-create.jpg
+   :alt:
+
+Une fois votre gabarit est prêt, il suffit de se rendre dans un répertoire d’un espace de votre choix, cliquer sur le menu «Nouveau» puis «Dossiers depuis un modèle».
+
+.. figure:: media-guide/Template-folders-duplicate.jpg
+   :alt:
+
+Choisissez votre modèle de répertoires, en cochant les dossiers que vous souhaitez dupliquer ensuite cliquer sur le bouton «Valider».
+
+.. figure:: media-guide/Template-folders-duplicated.jpg
+   :alt:
 
 Gestion des Espaces Collaboratifs
 =================================
@@ -4479,7 +4516,7 @@ Espace privé et profil
 
 Ce bloc est statique, il permet d’accéder à votre espace privé, visualiser votre calendrier, gérer votre profil ainsi que vos abonnements. 
 
-Votre espace principal(CEO-Vision)
+Votre espace principal (CEO-Vision)
 ----------------------------------
 
 Dans ce bloc, vous avez la possibilité d’afficher l’espace principal de votre choix. Vous aurez à disposition l’accès au aux documents de ce dernier ainsi que son calendrier associé.
@@ -4623,7 +4660,7 @@ Rapports & statistiques
 Onglet « Statistiques » dans un Espace
 --------------------------------------
 
-Seuls les administrateurs de la plat-forme sont habilités à voir les activités de l'Espace. Dans la rubrique **Statistiques**, vous pouvez choisir les informations que vous souhaitez retrouver graphiquement et sur une période sélectionnée. Vous avez également la possibilité d’exporter les données qui concernent les membres des espaces, les documents d’un espace sélectionné ou encore la liste de tous les espaces présents sur la plat-forme.
+Seuls les administrateurs de la plateforme sont habilités à voir les activités de l'Espace. Dans la rubrique **Statistiques**, vous pouvez choisir les informations que vous souhaitez retrouver graphiquement et sur une période sélectionnée. Vous avez également la possibilité d’exporter les données qui concernent les membres des espaces, les documents d’un espace sélectionné ou encore la liste de tous les espaces présents sur la plateforme.
 
 Pour y accéder, cliquer sur l’icône Hamburger qui se trouve à gauche du menu principal, ensuite aller dans  « Administration » puis appuyer sur « Statistiques ». 
 
