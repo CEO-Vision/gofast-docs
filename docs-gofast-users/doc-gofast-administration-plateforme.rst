@@ -242,3 +242,23 @@ Une fois la configuration de synchronisation est terminée, cliquer sur le bouto
    :alt:
 
 Si toute fois, vous souhaitez effectuer une synchronisation avant la prochaine date définie, il suffit de cliquer sur le bouton «Synchronisation».
+
+Audit d'un Document
+===================
+
+Cette fonctionnalité est accessible uniquement aux administrateurs de la plate-forme. Elle permet de lister toutes les actions effectuées sur un document  : Connexions, Consultations du document, Mise à jour, Suppression d’espace, Document télécharger, ... etc.
+
+Un aperçu est disponible en bas de la barre latérale droite du document dans le section «Audit». Vous pouvez voir les derniers événements effectués sur ce document, la date et l’heure des actions ainsi que les utilisateurs intervenants.
+
+.. figure:: media-guide/Audit-aperçu.jpg
+   :alt:
+
+Un bouton «Aller à la page d’audit» est mis à disposition afin de vous permettre d’accéder au détail complet de l’audit de ce document.  
+
+À partir de cette page vous pouvez :
+* Filtrer les événements par date, par nom d’utilisateur, par type d’événement ainsi que par termes de taxonomie associés à ce document.
+* Exporter l’audit en fichier Excel dans la limite de 5 000 résultats maximum.
+* Il est possible également de d’accéder aux audits d’autres documents en saisissant le nom de ce dernier dans le champ « Titre du document».
+
+.. figure:: media-guide/Audit-detail.jpg
+   :alt:
