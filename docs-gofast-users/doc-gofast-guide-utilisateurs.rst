@@ -2775,7 +2775,7 @@ Pour accéder aux recherches sauvegardées, vous avez deux possibilités :
 * Á partir du bloc de recherche (Filtres) dans le volet « Mes recherches enregistrées », à ce niveau vous pouvez :
    * Exécuter votre recherche en cliquant sur le «Titre»,
    * Remplacer la recherche sauvegardée par la recherche courante en appuyant sur la «Disquette»,
-   *Supprimer cette recherche en allant sur le bouton «Corbeille».
+   * Supprimer cette recherche en allant sur le bouton «Corbeille».
 
 .. figure:: media-guide/search-saved-list-from-tabs.jpg
    :alt:
