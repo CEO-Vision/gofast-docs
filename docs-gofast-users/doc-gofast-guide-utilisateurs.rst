@@ -3129,6 +3129,38 @@ Choisissez votre modèle de répertoires, en cochant les dossiers que vous souha
 .. figure:: media-guide/Template-folders-duplicated.jpg
    :alt:
 
+Iconologie GoFAST (Multifiling et permissions)
+----------------------------------------------
+Dans tous les espaces de la plate-forme, il existe plusieurs icônes communes dans la colonne «Info» du bloc principal.  Ces icônes donnent des informations concernant le multifiling et les permissions  sur les documents, les répertoires et les espaces. L’objectif de cet affichage est de simplifier le travail de l’utilisateur et éviter la duplication inutile des éléments.
+
+.. figure:: media-guide/Display-multifiling-icons.png
+   :alt:
+
+Vous trouvez ci-dessous la liste de ces dernières ainsi que leurs significations respectives :
+
++-------------------------------------------------------+---------------------+--------------+--------------------------------------------------------------------------------------------------------------------------------------------------+
+| Icônes	                                        | Permissions         |            Significations                                                                                                                                       |
++=======================================================+=====================+=================================================================================================================================================================+
+| .. figure:: media-guide/icon-read-only.png            | Lecture Seule       | Vous avez des permissions de lecture seule, vous pouvez voir tous les contenus de ce dossier / cet espace mais vous n'aurez pas de permissions supplémentaires. |
+|    :alt:                                              |                     |                                                                                                                                                                 |
++-------------------------------------------------------+---------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| .. figure:: media-guide/icon-contributor.png          | Contributeur        | Vous avez des permissions de contribution, vous pourrez collaborer sur tous les contenus de ce dossier / cet espace.                                            |
+|    :alt:                                              |                     |                                                                                                                                                                 |
++-------------------------------------------------------+---------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| .. figure:: media-guide/icon-owner.png                | Propriétaire        |Vous pouvez gérer ce contenu (édition, suppression) car vous avez des droits de créateur sur celui-ci.                                                           |
+|    :alt:                                              |                     |                                                                                                                                                                 |
++-------------------------------------------------------+---------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| .. figure:: media-guide/icon-administrator.png        | Administrateur      | Vous avez des permissions d'administration, vous pouvez gérer tous les contenus de ce dossier / cet espace.                                                     |
+|    :alt:                                              |                     |                                                                                                                                                                 |
++-------------------------------------------------------+---------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| .. figure:: media-guide/icon-share.png                | Partagé             | Ce contenu est dans plusieurs emplacements mais vous n'avez pas accès à tous ces emplacements.                                                                  |
+|    :alt:                                              |                     |                                                                                                                                                                 |
++-------------------------------------------------------+---------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| .. figure:: media-guide/icon-cat-specefic.png         | Catégorie spéciale  | Vous pouvez seulement consulter ce contenu et le commenter car il a des permissions spéciales (archivé, DUA...).                                                |
+|    :alt:                                              |                     |                                                                                                                                                                 |
++-------------------------------------------------------+---------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
 Gestion des Espaces Collaboratifs
 =================================
 
