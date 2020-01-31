@@ -3130,10 +3130,10 @@ Choisissez votre modèle de répertoires, en cochant les dossiers que vous souha
    :alt:
 
 Iconologie GoFAST (Multifiling et permissions)
-----------------------------------------------
+==============================================
 Dans tous les espaces de la plate-forme, il existe plusieurs icônes communes dans la colonne «Info» du bloc principal.  Ces icônes donnent des informations concernant le multifiling et les permissions  sur les documents, les répertoires et les espaces. L’objectif de cet affichage est de simplifier le travail de l’utilisateur et éviter la duplication inutile des éléments.
 
-.. figure:: media-guide/Display-multifiling-icons.png
+.. figure:: media-guide/Display-multifiling-icons.jpg
    :alt:
 
 Vous trouvez ci-dessous la liste de ces dernières ainsi que leurs significations respectives :
