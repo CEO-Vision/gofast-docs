@@ -2639,6 +2639,41 @@ l’icône, vous pouvez voir le nom de l’utilisateur qui a ouvert en
    traditionnement, chacun travaillant à son tour.
 
 
+Gestionnaire de versions de document
+====================================
+
+GoFAST dispose d’un gestionnaire de versions de document. Il consiste à mettre en place un historique de toutes les modifications effectuées sur un document. Chaque modification enregistrée, un point de sauvegarde est crée de l’état actuel du document avec un numéro de version.
+
+Le but de ce fonctionnement est de permettre de récupérer une version  antérieure et ce en cas d'erreur ou de problème sur une version actuelle.
+
+.. figure:: media-guide/Versioning-doc.jpg
+   :alt: 
+
+Pour remettre une version antérieure, il suffit de cliquer sur le numéro de version souhaitée afin de télécharger le document puis le faire glisser et déposer dans la zone de chargement.
+
+.. figure:: media-guide/Versioning-backup.jpg
+   :alt: 
+
+Par défaut la version 1.0 est considérée comme la version majeure du document. La notion majeure  signifie que le document est finalisé et près à être publié.
+
+Définir la version actuelle comme version majeure
+-------------------------------------------------
+
+Pour passer un document encours de modification en version majeure, aller dans le menu contextuel de ce dernier, survoler le sous-menu «Voir plus» puis cliquer sur « Définir comme version majeur».
+
+.. figure:: media-guide/Versioning-define-majour-version.jpg
+   :alt: 
+
+
+Passer le document source en version majeure lors d'une publication
+-------------------------------------------------------------------
+
+Pour passer un document source en version majeure lors d’une publication, aller dans le menu contextuel de ce document,  cliquer sur le sous-menu «Créer une  publication». Ensuite configurer votre publication et ne pas oublier de cocher la case «Définir comme version majeure le document origine» puis appuyer sur le bouton «Valider» pour exécuter. 
+
+.. figure:: media-guide/Versioning-define-majour-version-pub.jpg
+   :alt: 
+
+
 Moteur de Recherche
 ===================
 
@@ -3131,7 +3166,7 @@ Choisissez votre modèle de répertoires, en cochant les dossiers que vous souha
 
 Iconologie GoFAST (Multifiling et permissions)
 ==============================================
-Dans tous les espaces de la plate-forme, il existe plusieurs icônes communes dans la colonne «Info» du bloc principal.  Ces icônes donnent des informations concernant le multifiling et les permissions  sur les documents, les répertoires et les espaces. L’objectif de cet affichage est de simplifier le travail de l’utilisateur et éviter la duplication inutile des éléments.
+Dans tous les espaces de la plate-forme, il existe plusieurs icônes communes dans la colonne «Info» du bloc principal. Ces icônes donnent des informations concernant le multifiling et les permissions  sur les documents, les répertoires et les espaces. L’objectif de cet affichage est de simplifier le travail de l’utilisateur et d'éviter la duplication inutile des éléments.
 
 .. figure:: media-guide/Display-multifiling-icons.jpg
    :alt:
