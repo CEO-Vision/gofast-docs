@@ -168,7 +168,7 @@ Connexion au Serveur LDAP / AD
 
 Pour établir la connexion avec votre Serveur LDAP e,   vous devez vous connecter à GoFAST en tant Administrateur technique.
 
-Cliquer sur l’icône Hamburger qui se trouve à gauche du menu principal, ensuite aller dans « Administration » puis appuyer sur « GoFAST Configuration ».
+Cliquer sur l’icône Burger qui se trouve à gauche du menu principal, ensuite aller dans « Administration » puis appuyer sur « GoFAST Configuration ».
 
 .. figure:: media-guide/Synchro-ldap-access-menu.jpg
    :alt: 
@@ -268,7 +268,7 @@ Rapports & statistiques
 
 Seuls les administrateurs de la plateforme sont habilités à voir les activités de l'Espace. Dans la rubrique **Statistiques**, vous pouvez choisir les informations que vous souhaitez retrouver graphiquement et sur une période sélectionnée. Vous avez également la possibilité d’exporter les données qui concernent les membres des espaces, les documents d’un espace sélectionné ou encore la liste de tous les espaces présents sur la plateforme.
 
-Pour y accéder, cliquer sur l’icône Hamburger qui se trouve à gauche du menu principal, ensuite aller dans  « Administration » puis appuyer sur « Statistiques ». 
+Pour y accéder, cliquer sur l’icône Burger qui se trouve à gauche du menu principal, ensuite aller dans  « Administration » puis appuyer sur « Statistiques ». 
 
 .. figure:: media-guide/statistics-access.jpg
    :alt: 

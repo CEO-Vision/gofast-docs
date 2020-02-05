@@ -4025,7 +4025,7 @@ Pour consulter les détails d'un processus archivé, il suffit de cliquer sur l�
 4. Tableau de bord
 -------------------
 
-GoFAST intègre un tableau de bord pour afficher tous les workflows créés par l’utilisateur ainsi que ceux qui  lui ont été assignés. Pour y accéder, cliquer sur l’icône Hamburger du menu principal, dans le menu déroulant appuyer sur « Tableau de bord des processus ».
+GoFAST intègre un tableau de bord pour afficher tous les workflows créés par l’utilisateur ainsi que ceux qui  lui ont été assignés. Pour y accéder, cliquer sur l’icône Burger du menu principal, dans le menu déroulant appuyer sur « Tableau de bord des processus ».
 
 .. figure:: media-guide/Dashboard-workflow.jpg
    :alt:
@@ -4563,7 +4563,7 @@ Tableau de Bord dynamique
 
 On pourra y accéder de deux façons :
 
-- À partir du menu principal, cliquer sur le Hamburger puis «Tableau de Bord » dans le menu déroulant.
+- À partir du menu principal, cliquer sur le Burger puis «Tableau de Bord » dans le menu déroulant.
 
 .. figure:: media-guide/Dashboard.png
    :alt: 
