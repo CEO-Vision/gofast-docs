@@ -82,38 +82,6 @@ GoFAST. Si les documents ont été modifiés, ils sont copiés localement (sur l
           fait des modifications entre-temps sur la GoFAST. Dans ce cas une «
           gestion des conflits » se déclenche (voir ci dessous)
 
-
-
-Exemple de notification (version anglaise)
-
-1) UserA et UserB ont le fichier **courrier.doc** synchronisé sur leur
-poste
-
-2) UserA et UserB se déconnectent (offline), et chacun édite
-**courrier.doc** en local
-
-3) UserA redevient connecté (online). CmisSync télécharge la version de
-UserA de **courrier.doc** sur le serveur GoFAST (qui versionne
-automatiquement)
-
-4) UserB redevient connecté. CmisSync essaie de télécharger la version
-de UserB de **courrier.doc** sur le serveur GoFAST, mais constate que le
-fichier a déjà été modifié par UserA
-
-5) Sur le PC de UserB, CmisSync renomme la version de UserB **courrier.doc** 
-en courrier.doc\_UserB-version et télécharge **courrier.doc** de UserA sur le PC
-
-6) UserB a maintenant 2 versions, et doit faire une des 3 actions:
-
-a. Garder la version de UserA : Effacer **courrier.doc\_UserB-version**
-
-b. Garder la version de UserB : Effacer **courrier.doc** (UserA) et
-retirer le suffix de **courrier.doc\_UserB-version** è dans ce cas la
-version de B va être écrasée sur le serveur GoFAST après versionnage
-
-c. Fusionner les 2 versions dans **courrier.doc**, puis effacer
-**courrier.doc\_UserB-version**
-
 .. Danger:: si vous effacez un répertoire en local dans
             l'arborescence synchronisée, les répertoires distants seront supprimés.
             Par mesure de précaution, il est préférable d'éviter de supprimer un
