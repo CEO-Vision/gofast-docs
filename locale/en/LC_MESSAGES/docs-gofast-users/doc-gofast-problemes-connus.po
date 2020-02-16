@@ -3,15 +3,15 @@
 # This file is distributed under the same license as the gofast-docs
 # package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
-# Christopher Potter <cpotter@ceo-vision.com>, 2019.
+# Christopher Potter <cpotter@ceo-vision.com>, 2019, 2020.
 # Sandra Massonnat <sandra.massonnat@ceo-vision.com>, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: gofast-docs latest\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-23 16:47+0100\n"
-"PO-Revision-Date: 2020-01-14 11:11+0000\n"
-"Last-Translator: Sandra Massonnat <sandra.massonnat@ceo-vision.com>\n"
+"PO-Revision-Date: 2020-02-16 08:15+0000\n"
+"Last-Translator: Christopher Potter <cpotter@ceo-vision.com>\n"
 "Language-Team: en <LL@li.org>\n"
 "Language: en\n"
 "MIME-Version: 1.0\n"
@@ -238,6 +238,9 @@ msgid ""
 "emplacement sur GoFAST, une configuration d’Office fait que celui-ci est "
 "parfois ouvert en \"lecture seule\" pour des questions de sécurité."
 msgstr ""
+"When a file is opened with the MS Office application from a location on "
+"GoFAST, an MS-Office configuration do that it is sometimes opened in \"read "
+"only\" mode for security reasons."
 
 #: ../../docs-gofast-users/doc-gofast-problemes-connus.rst:71
 msgid ""
@@ -256,6 +259,8 @@ msgid ""
 "Ce comportement standard de MS Office est vu non pas comme un élément de "
 "sécurité, mais une contrainte dans l’utilisation de GoFAST."
 msgstr ""
+"This standard behavior of MS-Office is seen not as a security feature, but a "
+"constraint in the use of GoFAST."
 
 #: ../../docs-gofast-users/doc-gofast-problemes-connus.rst:76
 msgid "Pour éviter ce message et ouvrir directement en mode \"édition\" :"
@@ -337,6 +342,8 @@ msgid ""
 "Message \"Impossible d'enregistrer le fichier car sa taille dépasse la "
 "taille autorisée\" (0x800700DF)"
 msgstr ""
+"Message \"The file size exceeds the limit allowed and cannot be saved\" "
+"(0x800700DF)"
 
 # adfe6629b5484d15b893388f80e4ef9c
 #: ../../docs-gofast-users/doc-gofast-problemes-connus.rst:106
@@ -347,6 +354,10 @@ msgid ""
 "fr/help/900900/folder-copy-error-message-when-downloading-a-file-that-is-"
 "larger-than"
 msgstr ""
+"This Windows error message comes from a Windows limitation which avoid "
+"webdav large size transfert. See the bug fix on Microsoft website : "
+"https://support.microsoft.com/fr-fr/help/900900/folder-copy-error-message-"
+"when-downloading-a-file-that-is-larger-than"
 
 #: ../../docs-gofast-users/doc-gofast-problemes-connus.rst:109
 msgid "Message \"Erreur réseau\" avec Explorateur Windows (0x80070035)"
@@ -414,6 +425,10 @@ msgid ""
 "Réessayez. Si le problème persiste, rendez-vous sur "
 "https://support.microsoft.com pour demander de l'aide.\" (0x80004005)"
 msgstr ""
+"Please note that if the problem still occurs if you try to read a file "
+"larger than 50MB. In this case the message is : \"Reading impossible Retry. "
+"If error continues, please read https://support.microsoft.com to request "
+"help.\" (0x80004005)"
 
 #: ../../docs-gofast-users/doc-gofast-problemes-connus.rst:133
 msgid "Espace disque insuffisant vers un lecteur Webdav sous Windows"
@@ -424,8 +439,8 @@ msgid ""
 "Lorsque Windows affiche que vous manquez d'espace disque, il n'y a en "
 "réalité, aucune inquiétude à avoir."
 msgstr ""
-"When Windows displays in Windows \"File Explorer\" that you lack of space"
-" on GoFAST, it is not the case,"
+"When Windows displays in Windows \"File Explorer\" that you lack of space on "
+"GoFAST, it is not the case (Windows bug),"
 
 #: ../../docs-gofast-users/doc-gofast-problemes-connus.rst:140
 msgid ""
@@ -455,6 +470,10 @@ msgid ""
 "lecteur Webdav Windows : par exemple, l'explorateur de fichiers intégré à"
 " la plateforme)"
 msgstr ""
+"So, if you need to add documents to your server, you need to make space on "
+"your local disk, there is no other choice to work around this Windows bug ("
+"or use other means than the drive Windows Webdav: for example, the file "
+"explorer integrated into the platform)"
 
 #: ../../docs-gofast-users/doc-gofast-problemes-connus.rst:146
 msgid ""
@@ -462,6 +481,9 @@ msgid ""
 "Webdav, il faut vous assurer d'avoir au moins 2 Go de libre sur votre PC "
 "pour contourner ce bug Windows."
 msgstr ""
+"Concretely, if you want to deposit a 2 GB file on GoFAST in Webdav, you must "
+"make sure you have at least 2 GB free on your PC to work around this Windows "
+"bug."
 
 #: ../../docs-gofast-users/doc-gofast-problemes-connus.rst:150
 msgid "Impossible d'éditer en ligne des contenus PDF avec Acrobat Reader (v18)"
@@ -589,11 +611,11 @@ msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-problemes-connus.rst:185
 msgid "Problème de prévisualisation"
-msgstr ""
+msgstr "Preview problem"
 
 #: ../../docs-gofast-users/doc-gofast-problemes-connus.rst:187
 msgid "Pas de streaming Video"
-msgstr ""
+msgstr "No streaming video"
 
 #: ../../docs-gofast-users/doc-gofast-problemes-connus.rst:189
 msgid ""
@@ -601,41 +623,44 @@ msgid ""
 "video dans le navigateur (GoFAST) sans avoir à la télécharger. Sans "
 "plugin, ceci est dépendant du navigateur et du format video."
 msgstr ""
+"The advantage of video streaming is to watch a video sequence directly in "
+"the browser (GoFAST) without having to download it. Without plugin, this "
+"depends on the browser and the video format."
 
 # d42ef2e099fa4494867748f43fc0afd6
 #: ../../docs-gofast-users/doc-gofast-problemes-connus.rst:192
 msgid "Format"
-msgstr ""
+msgstr "Format"
 
 # 9e07f36e4ada4f329bba710d655d5b92
 #: ../../docs-gofast-users/doc-gofast-problemes-connus.rst:192
 msgid "MP4"
-msgstr ""
+msgstr "MP4"
 
 # fa298ed89aaa4e8597e7926939b61580
 #: ../../docs-gofast-users/doc-gofast-problemes-connus.rst:192
 msgid "WMV"
-msgstr ""
+msgstr "WMV"
 
 # 141bb5420f8c40baaf5d462f5526ea38
 #: ../../docs-gofast-users/doc-gofast-problemes-connus.rst:192
 msgid "FLV"
-msgstr ""
+msgstr "FLV"
 
 # 4c6607832cbd45b5b985d722ba2b13e2
 #: ../../docs-gofast-users/doc-gofast-problemes-connus.rst:192
 msgid "AVI"
-msgstr ""
+msgstr "AVI"
 
 # 2e55eccce8e3450b8df691866bd3189d
 #: ../../docs-gofast-users/doc-gofast-problemes-connus.rst:192
 msgid "OGV"
-msgstr ""
+msgstr "OGV"
 
 # 7469bda534b94a0298c73754a9759d5c
 #: ../../docs-gofast-users/doc-gofast-problemes-connus.rst:194
 msgid "Firefox"
-msgstr ""
+msgstr "Firefox"
 
 # a14e16079e58496fb8b4639786ccc701
 # 68f6e419448847c09dde42fb34125a1a
@@ -644,7 +669,7 @@ msgstr ""
 #: ../../docs-gofast-users/doc-gofast-problemes-connus.rst:196
 #: ../../docs-gofast-users/doc-gofast-problemes-connus.rst:200
 msgid "OUI"
-msgstr ""
+msgstr "YES"
 
 # 89c3bf07b264453884076008685248fc
 # a40b409a96fa44538f97d8fd55c19903
@@ -668,22 +693,22 @@ msgstr ""
 #: ../../docs-gofast-users/doc-gofast-problemes-connus.rst:198
 #: ../../docs-gofast-users/doc-gofast-problemes-connus.rst:200
 msgid "NON"
-msgstr ""
+msgstr "NO"
 
 # da807cae214e4e0da5541a7e54411f96
 #: ../../docs-gofast-users/doc-gofast-problemes-connus.rst:196
 msgid "Chrome"
-msgstr ""
+msgstr "Chrome"
 
 # 524cca11bef04fe7bcd192b564bc6e73
 #: ../../docs-gofast-users/doc-gofast-problemes-connus.rst:198
 msgid "IE11"
-msgstr ""
+msgstr "IE11"
 
 # 5f0ff46aee65405d9041117b55687727
 #: ../../docs-gofast-users/doc-gofast-problemes-connus.rst:200
 msgid "Safari"
-msgstr ""
+msgstr "Safari"
 
 # 105516cd38e0451ba155ca37420aee24
 #: ../../docs-gofast-users/doc-gofast-problemes-connus.rst:202

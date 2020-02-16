@@ -4,14 +4,14 @@
 # package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 # Christopher Potter <cpotter@ceo-vision.com>, 2019, 2020.
-# svetlosemina <vetlosemina@yandex.ru>, 2019.
+# svetlosemina <vetlosemina@yandex.ru>, 2019, 2020.
 # Jérôme Leman-Garin <jleman@ceo-vision.com>, 2019.
 msgid ""
 msgstr ""
 "Project-Id-Version: English (GoFAST)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-23 16:47+0100\n"
-"PO-Revision-Date: 2020-01-14 08:11+0000\n"
+"PO-Revision-Date: 2020-02-16 08:15+0000\n"
 "Last-Translator: Christopher Potter <cpotter@ceo-vision.com>\n"
 "Language-Team: en <LL@li.org>\n"
 "Language: en\n"
@@ -248,7 +248,7 @@ msgstr ""
 # 72f6969dd80f4095b98234389f8228cc
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:100
 msgid "VMWare ESX"
-msgstr ""
+msgstr "VMWare ESX"
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:102
 msgid "HyperV"
@@ -272,6 +272,8 @@ msgid ""
 "Pas possible d'import actuellement par images dans un HyperV (ou sous "
 "Azure). Une installation par script est effectuée"
 msgstr ""
+"Currently it is impossible to import images into a HyperV (or in Azure). "
+"Script installation is performed"
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:114
 msgid "La VM GoFAST doit posséder un datastore dédié (LUN)."
@@ -524,6 +526,9 @@ msgid ""
 "des problèmes sans rapport avec GoFAST et lié à des problèmes de "
 "configuration de proxy peuvent survenir"
 msgstr ""
+"the organization uses a Proxy for Internet or LAN access, special "
+"configurations must be made. GoFAST unrelated issues (butin connexion with "
+"proxy configuration) may occur"
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:214
 msgid "Liste des ports"
@@ -676,7 +681,7 @@ msgstr "80/TCP*"
 # 12de9dca43de488c905b07833b3fba35
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:255
 msgid "10000/UDP"
-msgstr ""
+msgstr "10000/UDP"
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:258
 msgid "\\* si les ports udp ne peuvent être ouverts"
@@ -779,8 +784,8 @@ msgid ""
 "A noter que ce type d’installation engendre un coût supplémentaire "
 "(facturation en régie)."
 msgstr ""
-"Note that this type of installation generates an additional cost (billing"
-" in the control room)."
+"Note that this type of installation generates an additional cost (per hour "
+"billing)."
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:352
 msgid ""
@@ -835,8 +840,8 @@ msgid ""
 "Choisir ``Set system hostname`` normalement le même nom que celui ensuite"
 " entré dans les DNS"
 msgstr ""
-"Choose ``Set system hostname`` generally the same name as that filled in "
-"the DNS"
+"Choose ``Set system hostname`` generally the same name as that setup in the "
+"DNS"
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:383
 msgid "Sortir de l'application"
@@ -858,6 +863,8 @@ msgid ""
 "Dans le cas ESX, vérifier que l'adresse MAC correspond à l'adresse IP "
 "publique configurée"
 msgstr ""
+"In the ESX case, check that the MAC address corresponds to the configured "
+"public IP address"
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:391
 msgid "Configuration / Paramétrage (par l’Exploitant)"
@@ -876,8 +883,8 @@ msgid ""
 "Déposer sur le serveur le certificat SSL « wildcard » (clef publique et "
 "privée correspondant à ``*.mydomain.tld``, ex. ``gofast.ceo-vision.com``)"
 msgstr ""
-"Upload the SSL certificate \"wildcard\" to the server (public and private"
-" key corresponding to * .mydomain.tld, eg gofast.ceo-vision.com)"
+"Upload the SSL certificate \"wildcard\" on the server (public and private "
+"key corresponding to * .mydomain.tld, eg gofast.ceo-vision.com)"
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:401
 msgid ""
