@@ -4,7 +4,7 @@ GoFAST :  Version 3.5.0
 
 
 Nouvelles fonctionnalités
-**********************
+***************************
 .. csv-table::  
    :header: "Ref.", "Description", "Catégorie"
    :widths: 10, 40, 10
@@ -21,7 +21,7 @@ Nouvelles fonctionnalités
    
    
 Améliorations fonctionnelles
-**********************
+*****************************
 .. csv-table::  
    :header: "Ref.", "Description", "Catégorie"
    :widths: 10, 40, 10
@@ -43,7 +43,7 @@ Améliorations fonctionnelles
    
    
 Améliorations techniques
-**********************
+*************************
 .. csv-table::  
    :header: "Ref.", "Description", "Catégorie"
    :widths: 10, 40, 10
@@ -69,7 +69,7 @@ Sécurité
 
 
 HOTFIX (Version Enterprise)
-**********************
+****************************
 .. csv-table::  
    :header: "Ref.", "Description", "Catégorie"
    :widths: 10, 40, 10

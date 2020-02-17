@@ -4,14 +4,14 @@ GoFAST :  Version 3.5.2
 
 
 Nouvelles fonctionnalités
-**********************
+****************************
 .. csv-table::  
    :header: "Ref.", "Description", "Catégorie"
    :widths: 10, 40, 10
    
    
 Améliorations fonctionnelles
-**********************
+******************************
 .. csv-table::  
    :header: "Ref.", "Description", "Catégorie"
    :widths: 10, 40, 10
@@ -19,7 +19,7 @@ Améliorations fonctionnelles
    "[4798]","Ajout de filtres sur la liste des utilisateurs bloqués"
 
 Améliorations techniques
-**********************
+**************************
 .. csv-table::  
    :header: "Ref.", "Description", "Catégorie"
    :widths: 10, 40, 10
@@ -47,7 +47,7 @@ Sécurité
   
 
 HOTFIX (Version Enterprise)
-**********************
+*****************************
 .. csv-table::  
    :header: "Ref.", "Description", "Catégorie"
    :widths: 10, 40, 10

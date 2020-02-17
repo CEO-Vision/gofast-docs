@@ -5,7 +5,7 @@ GoFAST :  Version 3.4.0
 
 
 Améliorations fonctionnelles
-**********************
+******************************
 .. csv-table::  
    :header: "Ref.", "Description", "Catégorie"
    :widths: 10, 40, 10
@@ -24,7 +24,7 @@ Améliorations fonctionnelles
    "[3975]", "Augmenter la taille de la zone de commentaire augmente la taille de la popup", "Commentaires"
 
 Améliorations techniques
-**********************
+**************************
 .. csv-table::  
    :header: "Ref.", "Description", "Catégorie"
    :widths: 10, 40, 10

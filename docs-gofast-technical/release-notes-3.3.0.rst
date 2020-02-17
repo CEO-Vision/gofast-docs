@@ -97,7 +97,7 @@ Hotfix
 
 
 Améliorations* de l'Explorateur de fichiers - GoFAST File Browse
-**********************
+********************************************************************
 *Améliorations prises en compte sur les différents supports : Smartphone, Tablette, PC*
 
 Fonctionnelles
@@ -120,7 +120,7 @@ Fonctionnelles
    "Différentes possibilités d'affichage des contenus", "Existant"
 
 Visuelles et ergonomiques 
-----------
+---------------------------
 .. csv-table::  
    :header: "Description", "Action"
    :widths: 40, 10

@@ -9,7 +9,7 @@ GoFAST :  Version 3.6.1
 Si vous souhaitez installer GoFAST v3.6.1, rendez-vous sur : https://www.ceo-vision.com/fr/content/gofast-community-ged-plateforme-collaborative-opensource
 
 Nouvelles fonctionnalités
-*************************
+***************************
 .. csv-table::  
    :header: "Ref.", "Description", "Catégorie"
    :widths: 10, 40, 10
@@ -22,7 +22,7 @@ Nouvelles fonctionnalités
       "[4743]","Pouvoir faire des exports des données soumis dans les formulaires GoFAST","[Community][Enterprise]"
    
 Améliorations fonctionnelles
-****************************
+******************************
 .. csv-table::  
    :header: "Ref.", "Description", "Catégorie"
    :widths: 10, 40, 10
@@ -49,7 +49,7 @@ Améliorations fonctionnelles
       "[5190]","Amélioration du fonctionnement lorsque le fil d'activité est vide","[Community][Enterprise]"
 
 Améliorations techniques
-************************
+**************************
 .. csv-table::  
    :header: "Ref.", "Description", "Catégorie"
    :widths: 10, 40, 10
@@ -63,7 +63,7 @@ Améliorations techniques
       "[5212]","Amélioration des performances lors de la création d’une liste d’utilisateurs sur certains environnements","[HOTFIX][Community][Enterprise]"
 
 Sécurité
-********
+**********
 .. csv-table::  
    :header: "Ref.", "Description", "Catégorie"
    :widths: 10, 40, 10
@@ -77,7 +77,7 @@ Sécurité
       "[5136]","Suppression des mots-de-passe dans le récapitulatif affiché en fin de configuration de GoFAST, après installation","[Community]"
       
 Bugs
-****
+******
 .. csv-table::  
    :header: "Ref.", "Description", "Catégorie"
    :widths: 10, 40, 10
@@ -115,7 +115,7 @@ Bugs
       
 
 Bugs mineurs
-************
+**************
 .. csv-table::  
    :header: "Ref.", "Description", "Catégorie"
    :widths: 10, 40, 10
