@@ -8,16 +8,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gofast-docs latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-12-23 16:47+0100\n"
+"POT-Creation-Date: 2020-02-18 14:07+0100\n"
 "PO-Revision-Date: 2020-01-11 10:44+0000\n"
 "Last-Translator: svetlosemina <vetlosemina@yandex.ru>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=n != 1\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.6.1\n"
 "Generated-By: Babel 2.7.0\n"
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:3
@@ -36,8 +35,8 @@ msgid ""
 "Collaboratifs\"."
 msgstr ""
 "This part of the documentation is intended for users with the \"Super-"
-"Administrator\" role. For the administration of Collaborative Spaces, please "
-"refer to the \"Collaborative Spaces Management\" section."
+"Administrator\" role. For the administration of Collaborative Spaces, "
+"please refer to the \"Collaborative Spaces Management\" section."
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:12
 msgid ""
@@ -81,8 +80,9 @@ msgid ""
 "Collaboratifs, mais sur des rôles globaux sur GoFAST, à savoir : "
 "Utilisateurs Standard ou Extranet."
 msgstr ""
-"This configuration is not related to the roles given in the Collaborative "
-"Spaces, but to global roles on GoFAST, namely: Standard or Extranet users."
+"This configuration is not related to the roles given in the Collaborative"
+" Spaces, but to global roles on GoFAST, namely: Standard or Extranet "
+"users."
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:26
 msgid ""
@@ -90,17 +90,17 @@ msgid ""
 "aucun Espace Collaboratif en commun. Si deux utilisateurs sont membres "
 "d'un même espace, ils pourront dans tous les cas se voir entre eux."
 msgstr ""
-"Partitioning applies only to users having no common Collaborative Space. If "
-"two users are members of the same space, in any case they will be able to "
-"see each other."
+"Partitioning applies only to users having no common Collaborative Space. "
+"If two users are members of the same space, in any case they will be able"
+" to see each other."
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:32
 msgid ""
 "Il s'agit de permettre aux utilisateurs de se voir entre eux dans "
 "l’annuaire des utilisateurs et de consulter les profils."
 msgstr ""
-"It allows users to see each other in the users directory and to view their "
-"profiles."
+"It allows users to see each other in the users directory and to view "
+"their profiles."
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:36
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:48
@@ -108,23 +108,24 @@ msgid ""
 "GoFAST permet de séléctionner la visibilité ou le cloisonement selon le "
 "rôle des utilisateurs :"
 msgstr ""
-"GoFAST allows you to select visibility or partitioning according to the role "
-"of users:"
+"GoFAST allows you to select visibility or partitioning according to the "
+"role of users:"
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:35
 msgid ""
 "Les utilisateurs ayant le rôle \"Extranet\" (rôle globale à la "
 "plateforme) peuvent se voir ou pas entre eux."
 msgstr ""
-"Users with the \"Extranet\" role (global role on the platform) can or can "
-"not see each other."
+"Users with the \"Extranet\" role (global role on the platform) can or can"
+" not see each other."
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:36
 msgid ""
 "Tous les utilisateurs indépendament de leur rôle sur GoFAST peuvent se "
 "voir ou pas entre eux."
 msgstr ""
-"All users independent of their role on Gofast can or can not see each other."
+"All users independent of their role on Gofast can or can not see each "
+"other."
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:38
 msgid ""
@@ -148,16 +149,16 @@ msgid ""
 "plateforme) peuvent ou pas consulter l'ensemble de l'arborescence des "
 "Espaces Collaboratifs."
 msgstr ""
-"Users with the \"Extranet\" role (global role on the platform) can or can "
-"not see the whole tree structure of Collaborative Spaces."
+"Users with the \"Extranet\" role (global role on the platform) can or can"
+" not see the whole tree structure of Collaborative Spaces."
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:48
 msgid ""
 "Tous les utilisateurs indépendament de leur rôle sur GoFAST peuvent ou "
 "pas consulter l'ensemble de l'arborescence des Espaces Collaboratifs."
 msgstr ""
-"All users independent of their role on GoFAST can or can not see the whole "
-"tree structure of Collaborative Spaces."
+"All users independent of their role on GoFAST can or can not see the "
+"whole tree structure of Collaborative Spaces."
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:50
 msgid ""
@@ -169,35 +170,112 @@ msgid ""
 "déstinés à d'autres partenaires ou prestataires. C'est important dans le "
 "cas où il y a des Espaces Extranets dédiés à des concurrents."
 msgstr ""
-"This partitioning prevents users from being able to see the Spaces of which "
-"they are not members, in the Spaces directory. For users with Extranet role, "
-"it prevents partners and service providers from being able to see the "
-"Internal Spaces tree structure (e.g.: Organisations and Groups), as well as "
-"the Spaces for other partners or service providers. This is important if "
-"there are Extranet Spaces dedicated to competitors."
+"This partitioning prevents users from being able to see the Spaces of "
+"which they are not members, in the Spaces directory. For users with "
+"Extranet role, it prevents partners and service providers from being able"
+" to see the Internal Spaces tree structure (e.g.: Organisations and "
+"Groups), as well as the Spaces for other partners or service providers. "
+"This is important if there are Extranet Spaces dedicated to competitors."
+
+# e302936c85eb4092bd630a44e94fdfa1
+#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:54
+msgid "Visibilité des utilisateurs ayant quittés l'organisation ( Désactivés )"
+msgstr ""
+
+# c590a3c08afa4bed9b6f35bf647df54c
+#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:55
+msgid ""
+"Pour des raisons de traçabilité, les utilisateurs ayant quittés "
+"l’organisation seront uniquement désactivés sur la plate-forme GoFAST et "
+"non supprimés définitivement."
+msgstr ""
+
+# 53769532932a48f3a3bdd9ebb13e37fc
+#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:57
+msgid ""
+"Leurs profils seront inaccessibles et anonymisés pour les utilisateurs "
+"classiques. Ils seront invisibles dans l’annuaire, dans tous les espaces "
+"ainsi que dans la recherche. Seuls les administrateurs de la plate-forme "
+"auront accès à une interface spécifique pour les retrouver et les "
+"ré-activer si besoin."
+msgstr ""
+
+# b57848d57002469aa95622421e438e2d
+#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:60
+msgid "Désactiver un utilisateur"
+msgstr ""
+
+# fe3b4b9466504a52955abb87e5e007a1
+#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:61
+msgid ""
+"Pour désactiver un utilisateur, connectez-vous en tant qu’administrateur "
+"de plate-forme puis afficher son profil à partir du menu «Annuaire» ou "
+"directement via la barre de recherche en tapant son nom. Cliquer sur le "
+"bouton qui se trouve à droite des «Paramètres du compte» ensuite appuyer "
+"sur «Désactiver cet utilisateur» puis «Confirmer»."
+msgstr ""
+
+# 474e513121334f229e9521c5810e713e
+#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:67
+msgid ""
+"Tous les utilisateurs désactivés sont listés dans la page du menu "
+"«Utilisateurs bloqués» de l’annuaire."
+msgstr ""
+
+# c78deae85e1f403da28a283101bf974c
+#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:70
+msgid "Réactiver un utilisateur"
+msgstr ""
+
+# 00feb8eddd8e4f189bf7f394b5622de7
+#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:71
+msgid ""
+"Pour réactiver un utilisateur, survoler le menu «Annuaires», puis cliquer"
+" sur le sous-menu «Utilisateurs bloqués». Aller sur la vignette de "
+"l’utilisateur concerné puis appuyer sur le lien «Réactiver cet "
+"utilisateur»."
+msgstr ""
+
+# 5ce78373c2134124a0976429264f53ed
+#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:73
+msgid ""
+"Ce dernier regagne la liste des utilisateurs actifs, récupère toutes ses "
+"données et sera visible sur toute la plate-forme (Espaces, recherche, "
+"...)."
+msgstr ""
+
+# a6134f3f4cae4189a8371ce014a2f694
+#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:79
+msgid ""
+"Notez qu’il y a une différence entre les utilisateurs «Inactifs» et les "
+"utilisateurs bloqués «Désactivés». Les utilisateurs inactifs ne sont pas "
+"bloqués, ce sont des utilisateurs qui se connectent rarement sur la "
+"plate-forme."
+msgstr ""
 
 # 0e5d5158b3034bb7b8412a55758a3cd0
-#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:54
+#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:82
 msgid "Single Sign-On (SSO)"
 msgstr "Single Sign-On (SSO)"
 
 # a2d8ecd524c745f0a35ca1551ff3c81d
-#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:57
+#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:85
 msgid "Protocole utilisé par l'application"
 msgstr "Protocol used by the application"
 
 # 582098770f2a49cf9bd70e16ca6feb3f
-#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:59
+#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:87
 msgid ""
 "GoFAST exploite le protocole Security Assertion Markup Language Version "
 "2.0 (SAML 2.0). Ce standard s'appuie sur la structuration de données au "
 "format XML."
 msgstr ""
-"GoFAST uses the Security Assertion Markup Language Version 2.0 (SAML 2.0) "
-"protocol. This standard is based on the structuring of data in XML format."
+"GoFAST uses the Security Assertion Markup Language Version 2.0 (SAML 2.0)"
+" protocol. This standard is based on the structuring of data in XML "
+"format."
 
 # 6f33c6a3f5d14a9bb3a40bfbf01e4561
-#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:61
+#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:89
 msgid ""
 "Son fonctionnement fait intervenir un *fournisseur d'identité (Identity "
 "Provider ou IdP)* qui correspond à l'application fournissant "
@@ -209,16 +287,16 @@ msgstr ""
 "Its operation involves an *identity provider (Identity Provider or IdP)* "
 "which corresponds to the application providing the identification of a "
 "person as well as a *service provider (Service Provider or SP)* which "
-"corresponds to the application on which we want to identify. In our case, "
-"GoFAST is the *service provider (SP)*."
+"corresponds to the application on which we want to identify. In our case,"
+" GoFAST is the *service provider (SP)*."
 
 # 4e0814fa404147f7b5498ef7fabcd6db
-#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:67
+#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:95
 msgid "Configuration du fournisseur d'identité"
 msgstr "Identity provider configuration"
 
 # 5d6ae7ddb2734d638b3b2a8cdb7faab2
-#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:69
+#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:97
 msgid ""
 "Le paramétrage du fournisseur d'identité va permettre de dire à GoFAST "
 "comment et ou demander la vérification d'une identité. Cette "
@@ -230,12 +308,12 @@ msgstr ""
 "possible to secure the exchange by means of certificate (s)."
 
 # b30ca82734e142a8bbaabd5349113a6a
-#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:71
+#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:99
 msgid "Les paramètres à remplir sont :"
 msgstr "The parameters to be filled are:"
 
 # e97a6786df414d8c88070da615cc6164
-#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:73
+#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:101
 msgid ""
 "*Nom* : Le nom du fournisseur d'identité. C'est ce nom qui sera affiché "
 "aux utilisateurs sur le formulaire de connexion."
@@ -244,16 +322,16 @@ msgstr ""
 "displayed to users on the login form."
 
 # 0a587697c7bf4790b9917e5195c4b29b
-#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:74
+#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:102
 msgid ""
 "*Identifiant (ID) de l'entité* : Le champ 'entityID' qui permets "
 "d'identifier le fournisseur d'identité. Il s'agit généralement d'une URL."
 msgstr ""
-"*Identifier (ID) of the entity*: The \"entityID\" field which identifies the "
-"identity provider. It is usually a URL."
+"*Identifier (ID) of the entity*: The \"entityID\" field which identifies "
+"the identity provider. It is usually a URL."
 
 # 4c5a2ae2c6ff4a2797bf3e10d0e4e61f
-#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:75
+#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:103
 msgid ""
 "*Nom de l'application* : Le nom de l'application passé au fournisseur "
 "d'identité pour identifier l'origine de la requête."
@@ -262,105 +340,105 @@ msgstr ""
 "provider to identify the origin of the request."
 
 # 7c1677cdaf7241b9ac2dd04f1a4045ea
-#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:76
+#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:104
 msgid ""
 "*URL de connexion de l'IDP* : L'URL de connexion du fournisseur "
 "d'identité."
 msgstr "*IDP login URL*: The login URL of the identity provider."
 
 # bc6d6e1577cb4333968367f995b13950
-#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:77
+#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:105
 msgid ""
 "*URL de déconnexion de l'IDP* : L'URL de déconnexion du fournisseur "
 "d'identité."
 msgstr "*IDP logout URL* : The identity provider logout URL."
 
 # 016ebaa1ff774d7f886e8000ef7e0f89
-#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:79
+#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:107
 msgid ""
 "Un certificat doit être fourni par le fournisseur d'identité. Ce "
 "certificat servira a identifier avec certitude le bon fournisseur "
 "d'identité."
 msgstr ""
-"A certificate must be provided by the identity provider. This certificate "
-"will be used to identify with certainty the correct identity provider."
+"A certificate must be provided by the identity provider. This certificate"
+" will be used to identify with certainty the correct identity provider."
 
 # 9617bd0a67274549b18b9c5ce94ad198
-#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:85
+#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:113
 msgid "Configuration du fournisseur de service"
 msgstr "Service Provider Configuration"
 
 # f3365523b72f486c93df60ce5ffb63cd
-#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:87
+#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:115
 msgid ""
 "Le paramétrage du fournisseur de service permets à l'application de "
 "transmettre les bonnes informations au fournisseur d'identité dans le bon"
 " format et avec le bon niveau de sécurité."
 msgstr ""
-"The settings of the service provider allow the application to transmit the "
-"right information to the identity provider in the right format and with the "
-"right level of security."
+"The settings of the service provider allow the application to transmit "
+"the right information to the identity provider in the right format and "
+"with the right level of security."
 
 # a67520527d0446ad89a6d09de139e33f
-#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:89
+#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:117
 msgid ""
 "Il est possible de définir des contacts techniques et support à "
 "transmettre à notre fournisseur d'identité :"
 msgstr ""
-"It is possible to define technical contacts and support to be transmitted to "
-"our identity provider:"
+"It is possible to define technical contacts and support to be transmitted"
+" to our identity provider:"
 
 # f0681a075f4646a6bfa087d8056630d0
-#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:94
+#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:122
 msgid ""
 "On peut également transmettre au fournisseur d'identité des informations "
 "sur l'organisation du fournisseur de service"
 msgstr ""
-"We can also send information about the organization of the service provider "
-"to the identity provider"
+"We can also send information about the organization of the service "
+"provider to the identity provider"
 
 # e1eba278fbb74fa2a5a493d2674ee825
-#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:99
+#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:127
 msgid ""
 "Et enfin, nous accédons aux paramètres de sécurité qui vont permettre de "
 "s'adapter à notre fournisseur d'identité et de pouvoir communiquer avec "
 "lui. Les paramètres disponibles sont :"
 msgstr ""
-"And finally, we access the security parameters which will allow us to adapt "
-"to our identity provider and to be able to communicate with him. The "
-"available parameters are:"
+"And finally, we access the security parameters which will allow us to "
+"adapt to our identity provider and to be able to communicate with him. "
+"The available parameters are:"
 
 # 61a01f1b28b0481a8b615c145b42f5cf
-#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:101
+#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:129
 msgid ""
 "*Attention*: Les 3 paramètres suivants nécessitent à GoFAST de connaitre "
 "la clé privée qui permettra de déchiffrer les informations côté IdP. Se "
 "renseigner auprès du support."
 msgstr ""
-"*Caution*: The following 3 parameters require GoFAST to know the private key "
-"which will allow the information to be decrypted on the IdP side. Check with "
-"support."
+"*Caution*: The following 3 parameters require GoFAST to know the private "
+"key which will allow the information to be decrypted on the IdP side. "
+"Check with support."
 
 # 5c06988d9de540ea97b4dda1628478bf
-#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:103
+#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:131
 msgid ""
 "*Champ 'NameID' chiffré* : Permets de chiffrer dans un format particulier"
 " l'information d'identité qui est transmise entre les applications"
 msgstr ""
-"*Encrypted “NameID” field* : Enables encryption of identity information that "
-"is transmitted between applications in a particular format"
+"*Encrypted “NameID” field* : Enables encryption of identity information "
+"that is transmitted between applications in a particular format"
 
 # 6e80522e560a4fd78f2196808758baed
-#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:104
+#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:132
 msgid ""
 "*Requêtes 'Authn' signés* : Demande au SP (GoFAST) de signer ses requêtes"
 " vers l'IdP"
 msgstr ""
-"*Signed “Authn” requests* : Request to the SP (GoFAST) to sign its requests "
-"to the IdP"
+"*Signed “Authn” requests* : Request to the SP (GoFAST) to sign its "
+"requests to the IdP"
 
 # 88b642416d2e4b85a55369dedef03027
-#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:105
+#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:133
 msgid ""
 "*Requêtes de déconnexion chiffrés* : Permets de chiffrer les demandes de "
 "connection vers l'IdP"
@@ -369,23 +447,23 @@ msgstr ""
 "requests to the IdP"
 
 # 4a159c52e52c4a76a3327fc93bde3faa
-#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:106
+#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:134
 msgid ""
 "*Réponses de déconnexion chiffrés* : Permets de chiffrer les demandes de "
 "déconnection vers l'IdP"
 msgstr ""
-"*Encrypted disconnection responses* : Enables encryption of disconnection "
-"requests to the IdP"
+"*Encrypted disconnection responses* : Enables encryption of disconnection"
+" requests to the IdP"
 
 # 02b0cbf5f1144feca695b243229f8581
-#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:110
+#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:138
 msgid ""
 "*Messages signés requis* : Permets de demander à l'IdP de signer ses "
 "messages"
 msgstr "Signed messages required: Allow to ask the IdP to sign its messages"
 
 # bbce170480b64fbdbcef027d3756b604
-#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:111
+#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:139
 msgid ""
 "*Assertions signés requis* : Permets de demander à l'IdP de signer ses "
 "validations d'authentification"
@@ -394,16 +472,16 @@ msgstr ""
 "authentication validations"
 
 # 8d3c57cee7694cc3941a32c2d095a142
-#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:112
+#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:140
 msgid ""
 "*Champ 'NameID' chiffré* : Permets de demander à l'IdP de chiffrer le "
 "champ NameID dans le retour de la requête"
 msgstr ""
-"*Encrypted “NameID” field*: Allows you to ask the IdP to encrypt the NameID "
-"field in the return of the request"
+"*Encrypted “NameID” field*: Allows you to ask the IdP to encrypt the "
+"NameID field in the return of the request"
 
 # 42e9b316a1af415281e8f8292801df4d
-#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:113
+#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:141
 msgid ""
 "*Signature des métadonnées* : Applique notre signature et demande à l'IdP"
 " d'appliquer sa signature sur les métadonnées"
@@ -412,7 +490,7 @@ msgstr ""
 "signature on the metadata"
 
 # fcfa70683dd746f4bd08e5423aa72bfb
-#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:115
+#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:143
 msgid ""
 "Une fois la configuration terminée, un onglet métadonnées sera généré et "
 "contiendra les métadonnées à renseigner dans l'IdP pour enregistrer "
@@ -423,10 +501,447 @@ msgstr ""
 "application (GoFAST) as being valid."
 
 # 53fb94b754d34de19d0058a376a07a34
-#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:120
+#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:148
 msgid ""
 "Sur la page de login, l'utilisateur pourra maintenant se connecter en "
 "cliquant sur le bouton \"Se connecter avec XXX\"."
 msgstr ""
 "On the login page, the user can now connect by clicking on the \"Connect "
 "with XXX\" button."
+
+# 601e96dff54045e5b1c82ff96069761d
+#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:154
+msgid "Synchronisation automatique des comptes GOFAST avec AD/LDAP"
+msgstr ""
+
+# b38fbfbfcd7b453dbc092d78d32f8cda
+#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:156
+msgid ""
+"GoFAST offre une nouvelle fonctionnalité qui permet de synchroniser "
+"automatiquement les utilisateurs depuis l’Annuaire de l’entreprise vers "
+"votre plate-forme collaborative."
+msgstr ""
+
+# 07cb0e65faea44d0aed38bbc98b5a060
+#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:158
+msgid ""
+"La synchronisation se fait uniquement avec des comptes qui possèdent des "
+"délégations d’authentification activées."
+msgstr ""
+
+# b797e06779a1423c83ffa7a1ecd09e70
+#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:160
+msgid ""
+"Les utilisateurs qui n’existent pas dans GoFAST mais qui sont présents "
+"sur l’Annuaire, au moment de la synchronisation ils seront crées et "
+"activés sur la plate-forme."
+msgstr ""
+
+# 2f7bf8307fca40d0a89f40c336d0c3de
+#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:162
+msgid ""
+"Dans le cas de suppression d’un utilisateur synchronisé coté Annuaire, ce"
+" dernier sera « Bloqué»  sur GoFAST. Ce mécanisme permet de conserver la "
+"traçabilité des actions de cet utilisateur et de lui réaffecter ces "
+"informations dans certaines circonstances."
+msgstr ""
+
+# 271eb6b59b0f48709f0fedda15d97d99
+#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:164
+msgid ""
+"Veuillez noter que les comptes ne disposant pas de délégations "
+"d’authentification seront hors cycle de synchronisation. Ils ne seront "
+"pas automatiquement bloqués ou débloqués de la plate-forme."
+msgstr ""
+
+# 9617bd0a67274549b18b9c5ce94ad198
+#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:167
+msgid "Connexion au Serveur LDAP / AD"
+msgstr ""
+
+# 19e4bb650f25427284e94546b139d31b
+#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:169
+msgid ""
+"Pour établir la connexion avec votre Serveur LDAP e,   vous devez vous "
+"connecter à GoFAST en tant Administrateur technique."
+msgstr ""
+
+# 2492d8dc14d84b3da5a99a531f0701f7
+#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:171
+msgid ""
+"Cliquer sur l’icône Burger qui se trouve à gauche du menu principal, "
+"ensuite aller dans « Administration » puis appuyer sur « GoFAST "
+"Configuration »."
+msgstr ""
+
+# 63ae9a5045714d4588a4c8e156e582c9
+#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:176
+msgid ""
+"Une fois la page affichée, dans la barre latérale gauche appuyer sur la "
+"rubrique « Serveur LDAP /AD ». Renseigner les paramètres de votre Serveur"
+" en respectant les préconisations indiquées ci-dessous :"
+msgstr ""
+
+# 483c94a0a8b146c2a515d285a2962686
+#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:181
+msgid "**Name**:  Choisissez un nom unique pour cette configuration serveur."
+msgstr ""
+
+# 93d640ca09af4194b2f1acf7ebdb564b
+#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:183
+msgid ""
+"**Type de serveur LDAP** :  Quatre types sont disponible, Active "
+"Directory, Open LDAP, Apple Open Directory, Novell. Ce champ est "
+"informatif. Son but est d'aider les valeurs par défaut et de donner des "
+"alertes de validation."
+msgstr ""
+
+# 8afd55f8e7a8408ba51df4c94ac1d0ed
+#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:185
+msgid ""
+"**Serveur LDAP** : Le nom de domaine ou l'adresse IP de votre serveur "
+"LDAP tel que « ad.unm.edu ». Pour SSL utilisez le format ldaps://DOMAIN "
+"tel que « ldaps://ad.unm.edu »."
+msgstr ""
+
+# 2d4216e12ced4f02b610017c76684e8c
+#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:187
+msgid ""
+"**Port LDAP** : Le port TCP/IP sur le serveur ci-dessus qui accepte les "
+"connexions LDAP. Ceci doit être un entier."
+msgstr ""
+
+# df00da71ecc840898c7c697898666d94
+#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:189
+msgid ""
+"**Utiliser Start-TLS** :  Cette option permet de sécuriser la "
+"communication entre les serveurs Drupal et LDAP à l’aide de TLS ( Pour "
+"utliser Start-TLS vous devez définir le port LDAP à 389 )."
+msgstr ""
+
+# 9f49f2e8a4d54af796fd5c537f1e77de
+#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:191
+msgid ""
+"**Suivre les références LDAP** : Le client LDAP suit les références (dans"
+" les réponses du serveur LDAP) vers d'autres serveurs LDAP. Cela "
+"nécessite que les paramètres de liaison indiqués sont également valides "
+"sur ces autres serveurs."
+msgstr ""
+
+# 8a2bf38132ab49da864476c6b05218f5
+#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:193
+msgid ""
+"**Compte Service** : Certaines configurations LDAP interdisent ou "
+"restreignent les résultats des recherches anonymes. Ces LDAP requièrent "
+"une paire \"DN/mot de passe\" pour faire la liaison. Pour des raisons de "
+"sécurité, cette paire doit appartenir à un compte LDAP avec des "
+"permissions désactivées. Ceci est également nécessaire pour "
+"l'approvisionnement des comptes Drupal."
+msgstr ""
+
+# 36e870e9c90049bf86a42858b743ac5b
+#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:195
+msgid "**DN pour les recherches non anonymes**."
+msgstr ""
+
+# 047882591bc84d77872bd87044911aab
+#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:197
+msgid "**Mot de passe pour les recherches non anonymes**."
+msgstr ""
+
+# ee5f24f95f394a89b6fa4ce91e3897f5
+#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:199
+msgid ""
+"**Base DNs pour les utilisateurs LDAP, les groupes et autres entrées** : "
+"Quels DNs ont des entrées appropriées pour cette configuration ? ex: "
+"ou=campus accounts,dc=ad,dc=uiuc,dc=edu. Gardez à l'esprit que chaque "
+"base supplémentaire double probablement le nombre de requêtes. Placez le "
+"plus utilisé en première position et préférez utiliser un DN de base "
+"élevée plutôt que deux DN de base faible. Entrez un DN par ligne dans le "
+"cas où plusieurs sont nécessaires."
+msgstr ""
+
+# 11e4ea4aae1c4f518b60892c46aba1d3
+#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:201
+msgid ""
+"Une fois toutes les informations correctement renseignées, un bouton est "
+"mis à disposition à la fin du formulaire « Test de connexion », celui-ci "
+"permet de tester la connexion entre GoFAST et le serveur LDAP. Un message"
+" d’information sera affiché à droite du bouton indiquant le succès ou "
+"l’échec de cette connexion. En cas d’échec, il est impératif de vérifier "
+"les paramètres et recommencer le test. Si le test est réussi, appuyer sur"
+" le bouton «Enregistrer» pour sauvegarder cette configuration."
+msgstr ""
+
+# a25cce42f43247e09bd6b6cc5778c05f
+#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:203
+msgid ""
+"Il est possible d’effectuer des modifications ou mettre en place une "
+"nouvelle configuration, seulement n’oubliez pas de tester la connexion "
+"ensuite enregistrer les changements uniquement en cas de réussite."
+msgstr ""
+
+# 3c22b457771848fbb53a8238598df012
+#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:206
+msgid "Activation de l'authentification déléguée SASL"
+msgstr ""
+
+# e769357665be4ceaa0751f9d439f8b93
+#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:207
+msgid ""
+"Une fois la connexion établie avec le Serveur LDAP, aller dans la section"
+" «Authentification SASL» qui se trouve en bas du formulaire de "
+"paramètres,  cocher la case «Déléguer l’authentification au serveur "
+"LDAP». N’oubliez d’enregistrer pour lancer l’opération de délégation. "
+"Cette opération peut prendre quelques minutes selon le nombre "
+"d’utilisateurs actifs sur GoFAST."
+msgstr ""
+
+# b207240a246742b583cf477ee1494191
+#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:209
+msgid ""
+"L'activation de l'authentification déléguée SASL permet aux utilisateurs "
+"de se connecter à GoFAST en utilisant les informations d'identification "
+"de l'entreprise (Active Directory, OpenLDAP...)."
+msgstr ""
+
+# e9e346ebf77e4c9c9a7ee5a9f3a0c885
+#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:213
+msgid ""
+"L’authentification SASL ne fonctionne qu'avec les utilisateurs qui sont "
+"enregistrés dans l'annuaire de l'entreprise. En tant qu'administrateur, "
+"vous pouvez également activer/désactiver l'authentification déléguée pour"
+" un utilisateur spécifique directement à partir du formulaire de "
+"modification de compte. Assurez-vous que les paramètres LDAP sont "
+"appropriés pour que cette fonctionnalité puisse être activée."
+msgstr ""
+
+# 4e0814fa404147f7b5498ef7fabcd6db
+#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:216
+msgid "Configuration de la synchronisation"
+msgstr ""
+
+# 89dce42dc8964f63b513145a14d7b4d4
+#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:218
+msgid ""
+"Après avoir activé la délégation, une nouvelle section «Synchronisation "
+"d'annuaires» est visible en bas de la page, celle-ci est dédiée à la "
+"configuration de la synchronisation des comptes de la plate-forme avec "
+"l’annuaire distant paramétré plus haut."
+msgstr ""
+
+# d4e70037ee334a548ad722ac200176c2
+#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:220
+msgid ""
+"Pour configurer la synchronisation, commencer par cocher la case "
+"«Synchroniser GoFast avec l'annuaire configuré». Ensuite aller dans la "
+"sous-section « Configuration » et choisissez la fréquence de "
+"synchronisation."
+msgstr ""
+
+# fb34057b75f34473b520f0e0435c9084
+#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:225
+msgid "Deux autres sous-sections importantes sont à renseigner :"
+msgstr ""
+
+# a84a0acda127422ab389757ea80e38bd
+#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:227
+msgid ""
+"Association de champs ( Obligatoire ) :  Vous devez au moins renseigner "
+"les champs «Nom utilisateur» et «Adresse mail» par leurs attributs "
+"respectifs dans l’annuaire ( Exemple :  Nom utilisateur -> uid, Adresse "
+"mail -> mail ). Les autres champs sont facultatifs."
+msgstr ""
+
+# f04f197535484c0185a37b4388c4f81c
+#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:229
+msgid ""
+"L'identifiant unique de l'utilisateur, généralement associé au "
+"samAccountName pour un Active Directory."
+msgstr ""
+
+# 09f8869440ce48119c17117970ced4bf
+#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:234
+msgid ""
+"Filtres ( Facultatif ) : Ici vous pouvez effectuer des filtres "
+"spécifiques pour votre requête de synchronisation. Il est recommandé de "
+"séparer chaque liste de filtres par des retours à la ligne."
+msgstr ""
+
+# fcfa70683dd746f4bd08e5423aa72bfb
+#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:239
+msgid ""
+"Une fois la configuration de synchronisation est terminée, cliquer sur le"
+" bouton «Enregistrer» pour exécuter l’opération."
+msgstr ""
+
+# c4e07018dc3d4e618bf9c927dab5efab
+#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:244
+msgid ""
+"Si toute fois, vous souhaitez effectuer une synchronisation avant la "
+"prochaine date définie, il suffit de cliquer sur le bouton "
+"«Synchronisation»."
+msgstr ""
+
+# 4c2529211a914665af6fdd3af1b5633f
+#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:247
+msgid "Audit d'un Document"
+msgstr ""
+
+# fda5c88e5f104a9c94cc91203f56b4cf
+#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:249
+msgid ""
+"Cette fonctionnalité est accessible uniquement aux administrateurs de la "
+"plate-forme. Elle permet de lister toutes les actions effectuées sur un "
+"document  : Connexions, Consultations du document, Mise à jour, "
+"Suppression d’espace, Document télécharger, ... etc."
+msgstr ""
+
+# 010bb0616dea498aa888537b64624db4
+#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:251
+msgid ""
+"Un aperçu est disponible en bas de la barre latérale droite du document "
+"dans le section «Audit». Vous pouvez voir les derniers événements "
+"effectués sur ce document, la date et l’heure des actions ainsi que les "
+"utilisateurs intervenants."
+msgstr ""
+
+# 9aff10294f324860a64d257b7a082758
+#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:256
+msgid ""
+"Un bouton «Aller à la page d’audit» est mis à disposition afin de vous "
+"permettre d’accéder au détail complet de l’audit de ce document."
+msgstr ""
+
+# 557e583b98a049528258f20dfa083123
+#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:258
+msgid ""
+"À partir de cette page vous pouvez : * Filtrer les événements par date, "
+"par nom d’utilisateur, par type d’événement ainsi que par termes de "
+"taxonomie associés à ce document. * Exporter l’audit en fichier Excel "
+"dans la limite de 5 000 résultats maximum. * Il est possible également de"
+" d’accéder aux audits d’autres documents en saisissant le nom de ce "
+"dernier dans le champ « Titre du document»."
+msgstr ""
+
+# d250cc3f94d64eb885c39f8deeef5b23
+#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:267
+msgid "Rapports & statistiques"
+msgstr ""
+
+# 87bb305161ee48fcb8c81b0bdc57b959
+#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:269
+msgid ""
+"Seuls les administrateurs de la plateforme sont habilités à voir les "
+"activités de l'Espace. Dans la rubrique **Statistiques**, vous pouvez "
+"choisir les informations que vous souhaitez retrouver graphiquement et "
+"sur une période sélectionnée. Vous avez également la possibilité "
+"d’exporter les données qui concernent les membres des espaces, les "
+"documents d’un espace sélectionné ou encore la liste de tous les espaces "
+"présents sur la plateforme."
+msgstr ""
+
+# 57ff1aab6f0041d7949f3f2590930caf
+#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:271
+msgid ""
+"Pour y accéder, cliquer sur l’icône Burger qui se trouve à gauche du menu"
+" principal, ensuite aller dans  « Administration » puis appuyer sur « "
+"Statistiques »."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:276
+#, fuzzy
+msgid "Trois sous-onglets sont disponibles :"
+msgstr "There are two available options :"
+
+# 6360e756d30f4421b6747c58c1c1eb55
+#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:278
+msgid ""
+"Sous-onglet « **Statistique des membres** » permet de visualiser les "
+"informations relatives aux membres actifs et inactifs, les nouveaux "
+"membres et membres connectés."
+msgstr ""
+
+# 7ac44ff231d64ae0a162ff0cf31bf8fa
+#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:283
+msgid ""
+"Sous-onglet « **Statistique documentaires** », permet de visualiser "
+"toutes les informations relatives aux documents par sa catégorie, son "
+"état et son importance."
+msgstr ""
+
+# 5d4b70afd0e746b1b4b70d7733e5f3fd
+#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:288
+msgid ""
+"Sous-onglet « **Statistiques des espaces** », permet de visualiser toutes"
+" informations relatives aux espaces, leurs évolutions par période, les "
+"plus actifs, les plus remplis et les plus peuplés."
+msgstr ""
+
+# 2157e64a67ab4f78815fc746def8b7cc
+#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:294
+msgid "Exporter les données"
+msgstr ""
+
+# 4a373e9a74944a04bee516d4a02d2943
+#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:297
+msgid "Export des membres des espaces"
+msgstr ""
+
+# bc2b9455cd0e48839081ca09efdb1747
+#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:298
+msgid ""
+"Dans l’onglet **Statistiques utilisateurs** une nouvelle fonctionnalité a"
+" été implémentée afin de permettre aux administrateurs de réaliser un "
+"export des membres des espaces. Il est possible personnaliser les données"
+" extraites dans l’export en appliquant un filtre sur un ou plusieurs "
+"espaces."
+msgstr ""
+
+# 90d0cab58794468091752c969937ae83
+#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:304
+msgid "Export des listes de documents"
+msgstr ""
+
+# 0be77f13468843fd96446308cef547bd
+#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:306
+msgid ""
+"L'onglet **Statistiques documentaires** a la fonction supplémentaire de "
+"pouvoir effectuer une liste de documents d'un espace sélectionne. Pour "
+"plus d'informations, voir le paragraphe \"Exportation des listes de "
+"documents\" dans le Guide Utilisateurs : http://gofast-"
+"docs.readthedocs.io/fr/latest/docs-gofast-users/doc-gofast-guide-"
+"utilisateurs.html#exportation-des-listes-de-documents ."
+msgstr ""
+
+# 46e0aebb42fc41e4b6cfae658471adc2
+#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:310
+msgid "Export complet des espaces"
+msgstr ""
+
+# b137cc7ff454462bbffc77ceff75b9a5
+#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:312
+msgid ""
+"GoFAST met à votre disposition une nouvelle fonctionnalité qui vous "
+"permet d’exporter la liste des espaces créés sur la plate-forme. Cet "
+"export prendra forme sous fichier EXCEL (XLSX), il contient "
+"éventuellement d’autres informations importantes telles que : les "
+"administrateurs des espaces, leurs emplacements, les membres ainsi que le"
+" type de groupe de chaque espace."
+msgstr ""
+
+# 0dab90c5d5b4444a88701aed975335f3
+#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:315
+msgid ""
+"Dans le sous-onglet **Statistiques des espaces**, sur la première ligne "
+"de cette section appuyer sur le bouton avec  l’icône Excel."
+msgstr ""
+
+# df7b6056ee904070898215390e2532df
+#: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:320
+msgid ""
+"Une petite fenêtre s’ouvre et vous informe que votre export est en cours "
+"de génération. Dès que le téléchargement est lancé cette dernière se "
+"fermera automatiquement."
+msgstr ""
+
