@@ -8,7 +8,7 @@ GoFAST :  Version 3.7.0
 
 
 Nouvelles fonctionnalités
-*************************
+***************************
 .. csv-table::  
    :header: "Ref.", "Description"
    :widths: 10, 40
@@ -31,7 +31,7 @@ Nouvelles fonctionnalités
 
   
 Améliorations fonctionnelles
-****************************
+******************************
 .. csv-table::  
    :header: "Ref.", "Description"
    :widths: 10, 40
@@ -62,7 +62,7 @@ Améliorations fonctionnelles
 
 
 Améliorations techniques
-************************
+**************************
 .. csv-table::  
    :header: "Ref.", "Description"
    :widths: 10, 40
@@ -98,7 +98,7 @@ Améliorations techniques
 
 
 Sécurité
-********
+**********
 .. csv-table::  
    :header: "Ref.", "Description"
    :widths: 10, 40
@@ -107,7 +107,7 @@ Sécurité
 
 
 Bugs
-********
+**********
 .. csv-table::  
    :header: "Ref.", "Description"
    :widths: 10, 40
@@ -135,7 +135,7 @@ Bugs
 
 
 Bugs mineurs
-*************
+***************
 .. csv-table:: 
    :header: "Ref.", "Description"
    :widths: 10, 40

@@ -15,7 +15,7 @@ Nouvelles fonctionnalités
 
 
 Nouvel onglet dans les espaces : "Statistiques"
-**********************
+*****************************************************
 Un nouvel onglet "Statistiques" est maintenant intégré dans la page d'accueil des espaces. Cette nouvelle fonctionnalité permet de visualiser l'activité des membres actifs et inactifs. 
 
 .. figure:: media/Statistiques.png
@@ -23,7 +23,7 @@ Un nouvel onglet "Statistiques" est maintenant intégré dans la page d'accueil 
 
 
 Export de liste des documents
-**********************
+******************************
 Lorsque vous êtes Administrateur de la plate-forme, de nouveaux menus apparaissent tel que "Statistiques". Ce menu vous permet alors de visualiser toutes les statistiques documentaires liées à un Espace et ainsi pouvoir choisir et selectionner le Groupe et le Répertoire dont vous souhaitez extraire une liste de documents.   
 Voir Copie d'Ecran ci-dessous 
 
@@ -32,7 +32,7 @@ Voir Copie d'Ecran ci-dessous
   
   
 Import/Export de listes utilisateurs avec gestion des permissions
-**********************  
+**********************************************************************
 Jusqu'à aujourd'hui, la gestion des listes utilisateurs et la gestion des droits d'accès se faisaient partiellement de manière manuelle. Il est maintenant possible de pouvoir travailler une liste d'utilisateurs et la gestion des membres par espace directement depuis un fichier Excel. Il est possible d'ainsi d'importer comme exporter ce document, que GoFAST va traiter en automatique. Cette gestion des utilisateurs et droits d'accès est faite uniquement par Espace.
 
 

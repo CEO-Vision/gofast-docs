@@ -7,7 +7,7 @@ GoFAST :  Version 3.6.2
 **[GoFAST Community]** Pour que vous puissiez mettre à jour votre GoFAST Community, le serveur de mise à jour doit être accessible. Posez-vos questions sur nos forums : https://community.ceo-vision.com/
 
 Nouvelles fonctionnalités
-*************************
+***************************
 N/A
    
 Améliorations fonctionnelles
@@ -23,7 +23,7 @@ Améliorations fonctionnelles
    "[5242]","Permettre au créateur d'un document de restaurer son document supprimé si l’auteur ne fait plus partie de l’espace"
 
 Améliorations techniques
-************************
+**************************
 .. csv-table::  
    :header: "Ref.", "Description"
    :widths: 10, 40
@@ -36,7 +36,7 @@ Améliorations techniques
    "[5203]","Ajout polices Wingding pour la prévisualisation"
       
 Sécurité
-********
+**********
 .. csv-table::  
    :header: "Ref.", "Description"
    :widths: 10, 40
@@ -47,7 +47,7 @@ Sécurité
    "[5303]","[MOBILE] Possibilité d’éditer une annotation co-éditable sans avoir les droits"
 
 Bugs
-****
+******
 .. csv-table::  
    :header: "Ref.", "Description"
    :widths: 10, 40
@@ -64,7 +64,7 @@ Bugs
    "[5338]","Supprimer fonctionnalité mutlifiling/publication/par mail en masse sur espace/répertoire" 
 
 Bugs mineurs
-************
+**************
 .. csv-table::  
    :header: "Ref.", "Description"
    :widths: 10, 40
