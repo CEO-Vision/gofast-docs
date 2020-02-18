@@ -2639,6 +2639,41 @@ l’icône, vous pouvez voir le nom de l’utilisateur qui a ouvert en
    traditionnement, chacun travaillant à son tour.
 
 
+Gestionnaire de versions de document
+====================================
+
+GoFAST dispose d’un gestionnaire de versions de document. Il consiste à mettre en place un historique de toutes les modifications effectuées sur un document. Chaque modification enregistrée, un point de sauvegarde est crée de l’état actuel du document avec un numéro de version.
+
+Le but de ce fonctionnement est de permettre de récupérer une version  antérieure et ce en cas d'erreur ou de problème sur une version actuelle.
+
+.. figure:: media-guide/Versioning-doc.jpg
+   :alt: 
+
+Pour remettre une version antérieure, il suffit de cliquer sur le numéro de version souhaitée afin de télécharger le document puis le faire glisser et déposer dans la zone de chargement.
+
+.. figure:: media-guide/Versioning-backup.jpg
+   :alt: 
+
+Par défaut la version 1.0 est considérée comme la version majeure du document. La notion majeure  signifie que le document est finalisé et près à être publié.
+
+Définir la version actuelle comme version majeure
+-------------------------------------------------
+
+Pour passer un document encours de modification en version majeure, aller dans le menu contextuel de ce dernier, survoler le sous-menu «Voir plus» puis cliquer sur « Définir comme version majeur».
+
+.. figure:: media-guide/Versioning-define-majour-version.jpg
+   :alt: 
+
+
+Passer le document source en version majeure lors d'une publication
+-------------------------------------------------------------------
+
+Pour passer un document source en version majeure lors d’une publication, aller dans le menu contextuel de ce document,  cliquer sur le sous-menu «Créer une  publication». Ensuite configurer votre publication et ne pas oublier de cocher la case «Définir comme version majeure le document origine» puis appuyer sur le bouton «Valider» pour exécuter. 
+
+.. figure:: media-guide/Versioning-define-majour-version-pub.jpg
+   :alt: 
+
+
 Moteur de Recherche
 ===================
 
@@ -3128,6 +3163,38 @@ Choisissez votre modèle de répertoires, en cochant les dossiers que vous souha
 
 .. figure:: media-guide/Template-folders-duplicated.jpg
    :alt:
+
+Iconologie GoFAST (Multifiling et permissions)
+==============================================
+Dans tous les espaces de la plate-forme, il existe plusieurs icônes communes dans la colonne «Info» du bloc principal. Ces icônes donnent des informations concernant le multifiling et les permissions  sur les documents, les répertoires et les espaces. L’objectif de cet affichage est de simplifier le travail de l’utilisateur et d'éviter la duplication inutile des éléments.
+
+.. figure:: media-guide/Display-multifiling-icons.jpg
+   :alt:
+
+Vous trouvez ci-dessous la liste de ces dernières ainsi que leurs significations respectives :
+
++-------------------------------------------------------+---------------------+--------------+--------------------------------------------------------------------------------------------------------------------------------------------------+
+| Icônes	                                        | Permissions         |            Significations                                                                                                                                       |
++=======================================================+=====================+=================================================================================================================================================================+
+| .. figure:: media-guide/icon-read-only.png            | Lecture Seule       | Vous avez des permissions de lecture seule, vous pouvez voir tous les contenus de ce dossier / cet espace mais vous n'aurez pas de permissions supplémentaires. |
+|    :alt:                                              |                     |                                                                                                                                                                 |
++-------------------------------------------------------+---------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| .. figure:: media-guide/icon-contributor.png          | Contributeur        | Vous avez des permissions de contribution, vous pourrez collaborer sur tous les contenus de ce dossier / cet espace.                                            |
+|    :alt:                                              |                     |                                                                                                                                                                 |
++-------------------------------------------------------+---------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| .. figure:: media-guide/icon-owner.png                | Propriétaire        |Vous pouvez gérer ce contenu (édition, suppression) car vous avez des droits de créateur sur celui-ci.                                                           |
+|    :alt:                                              |                     |                                                                                                                                                                 |
++-------------------------------------------------------+---------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| .. figure:: media-guide/icon-administrator.png        | Administrateur      | Vous avez des permissions d'administration, vous pouvez gérer tous les contenus de ce dossier / cet espace.                                                     |
+|    :alt:                                              |                     |                                                                                                                                                                 |
++-------------------------------------------------------+---------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| .. figure:: media-guide/icon-share.png                | Partagé             | Ce contenu est dans plusieurs emplacements mais vous n'avez pas accès à tous ces emplacements.                                                                  |
+|    :alt:                                              |                     |                                                                                                                                                                 |
++-------------------------------------------------------+---------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| .. figure:: media-guide/icon-cat-specefic.png         | Catégorie spéciale  | Vous pouvez seulement consulter ce contenu et le commenter car il a des permissions spéciales (archivé, DUA...).                                                |
+|    :alt:                                              |                     |                                                                                                                                                                 |
++-------------------------------------------------------+---------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
 
 Gestion des Espaces Collaboratifs
 =================================
@@ -3958,7 +4025,7 @@ Pour consulter les détails d'un processus archivé, il suffit de cliquer sur l�
 4. Tableau de bord
 -------------------
 
-GoFAST intègre un tableau de bord pour afficher tous les workflows créés par l’utilisateur ainsi que ceux qui  lui ont été assignés. Pour y accéder, cliquer sur l’icône Hamburger du menu principal, dans le menu déroulant appuyer sur « Tableau de bord des processus ».
+GoFAST intègre un tableau de bord pour afficher tous les workflows créés par l’utilisateur ainsi que ceux qui  lui ont été assignés. Pour y accéder, cliquer sur l’icône Burger du menu principal, dans le menu déroulant appuyer sur « Tableau de bord des processus ».
 
 .. figure:: media-guide/Dashboard-workflow.jpg
    :alt:
@@ -4496,7 +4563,7 @@ Tableau de Bord dynamique
 
 On pourra y accéder de deux façons :
 
-- À partir du menu principal, cliquer sur le Hamburger puis «Tableau de Bord » dans le menu déroulant.
+- À partir du menu principal, cliquer sur le Burger puis «Tableau de Bord » dans le menu déroulant.
 
 .. figure:: media-guide/Dashboard.png
    :alt: 
@@ -4658,63 +4725,20 @@ Rapports & statistiques
 =======================
 
 Onglet « Statistiques » dans un Espace
---------------------------------------
+---------------------------------------------------
+Dans l'onglet **Statistiques**, vous pouvez choisir les informations que vous souhaitez retrouver graphiquement et sur une période sélectionnée. 
 
-Seuls les administrateurs de la plateforme sont habilités à voir les activités de l'Espace. Dans la rubrique **Statistiques**, vous pouvez choisir les informations que vous souhaitez retrouver graphiquement et sur une période sélectionnée. Vous avez également la possibilité d’exporter les données qui concernent les membres des espaces, les documents d’un espace sélectionné ou encore la liste de tous les espaces présents sur la plateforme.
-
-Pour y accéder, cliquer sur l’icône Hamburger qui se trouve à gauche du menu principal, ensuite aller dans  « Administration » puis appuyer sur « Statistiques ». 
-
-.. figure:: media-guide/statistics-access.jpg
-   :alt: 
-
-Trois sous-onglets sont disponibles :
+Deux sous-onglets sont disponibles :
 
 a) Sous-onglet « **Statistique des membres** » permet de visualiser les informations relatives aux membres actifs et inactifs, les nouveaux membres et membres connectés.
 
-.. figure:: media-guide/statistics-users.jpg
+.. figure:: media-guide/statistics-users-space.jpg
    :alt: 
 
 b) Sous-onglet « **Statistique documentaires** », permet de visualiser toutes les informations relatives aux documents par sa catégorie, son état et son importance.
 
-.. figure:: media-guide/statistics-docs.jpg
+.. figure:: media-guide/statistics-docs-space.jpg
    :alt: 
-
-d) Sous-onglet « **Statistiques des espaces** », permet de visualiser toutes informations relatives aux espaces, leurs évolutions par période, les plus actifs, les plus remplis et les plus peuplés.
- 
-.. figure:: media-guide/statistics-spaces.jpg
-   :alt: 
-
-Exporter les données
---------------------
-
-Export des membres des espaces 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Dans l’onglet **Statistiques utilisateurs** une nouvelle fonctionnalité a été implémentée afin de permettre aux administrateurs de réaliser un export des membres des espaces. Il est possible personnaliser les données extraites dans l’export en appliquant un filtre sur un ou plusieurs espaces.
-
-.. figure:: media-guide/Export-members.jpg
-   :alt:
-
-Export des listes de documents
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-L'onglet **Statistiques documentaires** a la fonction supplémentaire de pouvoir effectuer une liste de documents d'un espace sélectionne.
-Pour plus d'informations, voir le paragraphe "Exportation des listes de documents" dans le Guide Utilisateurs : http://gofast-docs.readthedocs.io/fr/latest/docs-gofast-users/doc-gofast-guide-utilisateurs.html#exportation-des-listes-de-documents .
-
-Export complet des espaces
-~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-GoFAST met à votre disposition une nouvelle fonctionnalité qui vous permet d’exporter la liste des espaces créés sur la plate-forme.
-Cet export prendra forme sous fichier EXCEL (XLSX), il contient éventuellement d’autres informations importantes telles que : les administrateurs des espaces, leurs emplacements, les membres ainsi que le type de groupe de chaque espace.
-
-Dans le sous-onglet **Statistiques des espaces**, sur la première ligne de cette section appuyer sur le bouton avec  l’icône Excel. 
-
-.. figure:: media-guide/Export-all-spaces-access.jpg
-   :alt:
-
-Une petite fenêtre s’ouvre et vous informe que votre export est en cours de génération. Dès que le téléchargement est lancé cette dernière se fermera automatiquement.
-
-.. figure:: media-guide/Export-all-spaces-download.jpg
-   :alt:
 
 Version mobile
 ======================
