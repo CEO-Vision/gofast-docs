@@ -81,12 +81,12 @@ mémos, etc.
 
 Pré-requis nécessaires pour l’utilisation de GoFAST
 ---------------------------------------------------
--  Navigateurs préférentiels Windows: **Firefox (dernière version ESR) ou Chrome (et bientôt Edge-Chromium)** 
+-  Navigateurs préférentiels Windows: **Firefox (dernière version ESR), Edge-Chromium**, Chrome
 
 Mais fonctionne également sur les versions récentes d’Internet Explorer 11 pas en mode compatibilité (sauf webconference), Edge (sauf webconference), Edge-Chromium, en plus d’Opera 
 
 .. NOTE::
-    Le support IE11 sera optionnel en 2020 et certaines nouvelles fonctionnalités comme incompatible, CEO-Vision recommande une migration au plus vite de IE11 et Edge vers Edge-Chromium ou Firefox ESR 
+    Le support IE11 est optionnel en 2020 et certaines nouvelles fonctionnalités comme incompatible, CEO-Vision recommande une migration au plus vite de IE11 et Edge vers Edge-Chromium ou Firefox ESR 
     
     -Edge-Chromium https://www.microsoftedgeinsider.com/fr-fr/enterprise
     
@@ -96,7 +96,7 @@ Mais fonctionne également sur les versions récentes d’Internet Explorer 11 p
 
 -  Navigateur Linux : Firefox (dernière version ESR)
    
--  Système d'exploitation Windows7 et plus, MacOS 10.11+ et Linux (Ubuntu 16+), ChromeOS (sans support)
+-  Système d'exploitation Windows7 et plus, MacOS 10.11+ et Linux (Ubuntu 16+), ChromeOS
 -  En mobilité Android ou iOS. 
 
 -  Bureautique : MS-Office 2010 (>14.0.7190.5000) pour Windows, MS-Office 2016 pour Mac, LibreOffice 5+, WPS (sans support), OnlyOffice Desktop (sans support)
