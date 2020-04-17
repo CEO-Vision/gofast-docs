@@ -13,6 +13,8 @@ Nouvelles fonctionnalités
    :header: "Ref.", "Description"
    :widths: 10, 40
    
+   "[GOFAST-3535]", "Guide de démarrage avec GoFAST (Carousel explicatif)"
+   "[GOFAST-5538]", "Mise en place d'un mécanisme de vérification de l'intégrité des droits des documents et des espaces lié à la réplication"
    "[GOFAST-2582]", "Chat-Messagerie Instantanée avec des groupe de discussions (Salon)"
    "[GOFAST-3296]", "Modèle d’arborescence de répertoires"
    "[GOFAST-4885]", "Gestion collaborative des tâches sous forme Kanban (= type Trello)"
