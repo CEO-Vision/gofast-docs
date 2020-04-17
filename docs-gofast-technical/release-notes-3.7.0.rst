@@ -1,5 +1,5 @@
 ********************************************
-GoFAST :  Version 3.7.0
+GoFAST :  Version 3.7.1
 ********************************************
 
 **[GoFAST Enterprise]** N’hésitez pas à solliciter notre support pour planifier la mise à jour (https://srv01.ceo-vision.com/osticket/index.php).
