@@ -148,10 +148,16 @@ Bugs mineurs
    "[GOFAST-5168]", "Empêcher que des emplacements non désirés se déplient dans l'arborescence de GoFAST File Browser"
    "[GOFAST-5205]", "Griser le bouton 'Nouveau' dans le menu du GoFAST File Browser quand on est dans un Espace archivé"
    "[GOFAST-5334]", "Supervision : rermettre le démarrage automatique de Zabbix pour les nouvelles installations de GoFAST"
+   "[GOFAST-5367]", "Permettre de faire du multi-lignes dans le mail de Bienvenue"
    "[GOFAST-5381]", "Correction d'un bug qui empêche de modifier les participants d'une réunion"
    "[GOFAST-5382]", "Empêcher l’affichage du bouton renommer dans le menu contextuel d'un Espace (le ‘burger menu’) si l’action n’est pas permise à l’utilisateur" 
+   "[GOFAST-5405]", "Vider le contenu du champ message après soumission dans les mails internes"
+   "[GOFAST-5419]", "Correction message d'erreur lors de la création d'un document depuis un fichier vide sans sélectionner de type"
    "[GOFAST-5438]", "Message d'erreur lors de l'export de l'audit"
    "[GOFAST-5495]", "Message d'erreur quand partage d’un document par e-mail via lien URL de téléchargement"
+   "[GOFAST-5643]", "Correction perte du nom de l'organisation principale de l'utilisateur dans le snippet de la recherche"
+   "[GOFAST-5743]", "Correction des actions contextuelles dans la version mobile sur l'explorateur de fichier"
+   "[GOFAST-5758]", "Pouvoir créer un document depuis un modèle depuis le résultat de recherche"
 
 
 **Bonne utilisation de GoFAST !**
