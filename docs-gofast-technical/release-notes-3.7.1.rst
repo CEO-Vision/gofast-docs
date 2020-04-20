@@ -117,10 +117,10 @@ Bugs
    "[GOFAST-4154]", "Correction de l’instabilité de l’affichage des utilisateurs connectés dans le Chat/Messagerie Instantanée"
    "[GOFAST-4219]", "Permettre le fonctionnement correct du Chat / Messagerie Instantanée dans le cas où plusieurs onglets sont ouverts" 
    "[GOFAST-4697]", "Scalabilité : Annuaire des utilisateurs actifs / inactifs"
-   "[GOFAST-4920]", "Le bouton 'Annoter' ne doit pas être visible dans le preview PDF sur la version PC"
+   "[GOFAST-4920]", "Le bouton ‘Annoter’ ne doit pas être visible dans le preview PDF sur la version PC"
    "[GOFAST-5075]", "Correction du ‘blocage des cellules’ dans les fichiers tableurs, lors de la coédition simultanée via la Suite OnlyOffice"
    "[GOFAST-5148]", "Le rôle ‘Administrateur’ n’est plus coché par défaut lors de la modification du rôle d’une Liste d’Utilisateurs"
-   "[GOFAST-5228]", "Message privé : correction "page non trouvée" après un clic sur 'répondre' dans la notification e-mail"
+   "[GOFAST-5228]", "Message privé : correction "page non trouvée" après un clic sur  ‘répondre’ dans la notification e-mail"
    "[GOFAST-5243]", "Alfresco : Corriger la rotation des logs après une mise à jour de GoFAST"
    "[GOFAST-5244]", "BonitaSoft : Corriger la configuration pour la rotation de log"
    "[GOFAST-5248]", "Permettre l’accès par défaut aux Espaces ‘Publics’ et ‘Racines’ suite à la création d’un compte-utilisateur"
@@ -129,7 +129,6 @@ Bugs
    "[GOFAST-5324]", "Correction de l’affichage des noms et prénoms des utilisateurs dans la barre de recherche sur les petits écrans"
 
    
-
 Bugs mineurs
 ***************
 .. csv-table:: 
