@@ -14,7 +14,6 @@ Nouvelles fonctionnalités
    :widths: 10, 40
    
    "[GOFAST-3535]", "Guide de démarrage avec GoFAST (Carousel explicatif)"
-   "[GOFAST-5538]", "Mise en place d'un mécanisme de vérification de l'intégrité des droits des documents et des espaces lié à la réplication"
    "[GOFAST-2582]", "Chat-Messagerie Instantanée avec des groupe de discussions (Salon)"
    "[GOFAST-3296]", "Modèle d’arborescence de répertoires"
    "[GOFAST-4885]", "Gestion collaborative des tâches sous forme Kanban (= type Trello)"
@@ -73,7 +72,7 @@ Améliorations techniques
 .. csv-table::  
    :header: "Ref.", "Description"
    :widths: 10, 40
-      
+   
    "[GOFAST-4982]", "Supervision : avoir le nombre d’utilisateurs connectés dans l'heure et le nombre de documents non indexés dans Zabbix"
    "[GOFAST-5256]", "Asynchroniser l'archivage d'espace (éxecution en arrière plan)"
    "[GOFAST-5320]", "Réinitialisation de la date des VM au lancement de celles-ci"
@@ -108,6 +107,7 @@ Améliorations techniques
    "[GOFAST-5392]", "Retirer la possibilité de désactiver les notifications depuis la gestion en masse"
    "[GOFAST-5447]", "Retirer la sauvegarde interne des erreurs JS"
    "[GOFAST-4994]", "Supervision Zabbix httpd"
+   "[GOFAST-5538]", "Mise en place d'un mécanisme de vérification de l'intégrité des droits des documents et des espaces, lié à la réplication"
    "[GOFAST-5807]", "Amélioration de performance du mécanisme de vérification de la fiabilité de connexion avec OnlyOffice"
 
 
