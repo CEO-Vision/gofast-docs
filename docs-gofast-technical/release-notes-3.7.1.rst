@@ -61,7 +61,12 @@ Améliorations fonctionnelles
    "[GOFAST-5309]", "Amélioration de diverses traductions (anglais, français, néerlandais)"
    "[GOFAST-5411]", "Amélioration et uniformisation de la taxonomie de certaines actions en masses"
    "[GOFAST-5548]", "Gris plus foncé pour la police"
-
+   "[GOFAST-5603]", "Amélioration d'affichage 'Supprimer des favoris'"
+   "[GOFAST-5679]", "Améliorer la compréhension de la modification des recherches sauvegardées"
+   "[GOFAST-5730]", "Ne plus générer de mot de passe envoyé par mail lors de la création des comptes"
+   "[GOFAST-5738]", "Empecher de pouvoir naviguer sur la plateforme pendant la session temporaire de récupération de mot de passe"
+   "[GOFAST-5818]","Améliorer l'affichage des erreurs"
+   
 
 Améliorations techniques
 **************************
@@ -70,6 +75,7 @@ Améliorations techniques
    :widths: 10, 40
       
    "[GOFAST-4982]", "Supervision : avoir le nombre d’utilisateurs connectés dans l'heure et le nombre de documents non indexés dans Zabbix"
+   "[GOFAST-5256]", "Asynchroniser l'archivage d'espace (éxecution en arrière plan)"
    "[GOFAST-5320]", "Réinitialisation de la date des VM au lancement de celles-ci"
    "[GOFAST-5337]", "Permettre de filtrer les utilisateurs pendant la synchronisation LDAP"
    "[GOFAST-5355]", "Extension des actions auditées : téléchargement et publication"
@@ -80,11 +86,16 @@ Améliorations techniques
    "[GOFAST-5422]", "Ajout d’un champs 'summary' (décrit l'état en cours d'un workflow) dans l'objet BDM processHistory"
    "[GOFAST-5432]", "Amélioration des performances du formulaire de création de document lorsqu’il y a de nombreux modèles de documents"
    "[GOFAST-5437]", "Amélioration des performance du bloc des métadonnées (dans le cas où il y a un grand nombre d’Espaces)"
+   "[GOFAST-5441]", "Optimiser le temps de chargement de la page d'un espace"
    "[GOFAST-5444]", "Supervision : ajout du nombre de connexion maximum MySQL dans Zabbix"
    "[GOFAST-5446]", "Optimisation des performances de l'audit pendant la création d'un contenu"
+   "[GOFAST-5453]", "Optimisation des performances du fil d'activité"
+   "[GOFAST-5457]", "Optimiser le temps de chargement d'un profil"
    "[GOFAST-5459]", "Amélioration des performances de création d'un compte-utilisateur"
    "[GOFAST-5460]", "Mise à jour librairie ITHit WebDAV AJAX Library v5.10.4919.0"
    "[GOFAST-2342]", "Sauvegarde des historiques des échanges dans le Chat côté serveur JSXC (Chat Ejabberd)"
+   "[GOFAST-2568]", "Réduire le nombre de sessions Tomcat non nécessaires"
+   "[GOFAST-2625]", "Optimisations JVM : Garbage Collector G1, paramètres optimisation mémoire et compatibilitée JDK 1.8"
    "[GOFAST-2710]", "OpenLDAP : amélioration des performances au démarrage et des logs transactionnels"
    "[GOFAST-5368]", "Amélioration de l'auto-restart des services"
    "[GOFAST-5442]", "Supervision : récupération des données IOSTAT/MYSQL dans Zabbix"
@@ -97,6 +108,7 @@ Améliorations techniques
    "[GOFAST-5392]", "Retirer la possibilité de désactiver les notifications depuis la gestion en masse"
    "[GOFAST-5447]", "Retirer la sauvegarde interne des erreurs JS"
    "[GOFAST-4994]", "Supervision Zabbix httpd"
+   "[GOFAST-5807]", "Amélioration de performance du mécanisme de vérification de la fiabilité de connexion avec OnlyOffice"
 
 
 Sécurité
@@ -105,7 +117,12 @@ Sécurité
    :header: "Ref.", "Description"
    :widths: 10, 40
    
+   "[GOFAST-5471]", "[Multiple CVE] Mise à jour kernel CentOS kernel-3.10.0-1062.7.1.el7"
    "[GOFAST-5528]", "Mise-à-jour du module Localization"
+   "[GOFAST-5545]", "RHSA-2019:2964 : Mise à jour du paquet patch-2.7.1-12.el7"
+   "[GOFAST-5546]", "RHSA-2019:3128 Mise à jour du paquet java-1.8.0-openjdk-1.8.0.232.b09-0.el7"
+   "[GOFAST-5653]", "Vérification de la désactivation de TLSv1 TLSv1.1 et certains Cyphers sur GoFAST COMM"
+   "[GOFAST-5723]", "[CVE] Mise à jour nss-3.44.0-7.el7_7.x86_64"
 
 
 Bugs
@@ -134,6 +151,7 @@ Bugs
    "[GOFAST-5388]", "Correction de la mise à jour d'un PDF par glisser-déposer quand l'extension est en majuscule"
    "[GOFAST-5396]", "Inclure les documents 'orphelins' (qui n'ont pas d'espaces suite à la suppression de l’espace) dans la recherche des documents supprimés"
    "[GOFAST-5417]", "Empêcher la création ou le renommage d'un dossier ou d'un document en le faisant commencer par un '_' dans GoFAST File Browser"
+   "[GOFAST-5420]", "Résolution des problèmes de performance liés à de grosses volumétries"
    "[GOFAST-5421]", "L'autocomplétion de recherche est trop lente si beaucoup documents et d'espaces"
    "[GOFAST-5427]", "Gestion en masse : rendre visible certains espaces qui ne le sont pas à tort"
    "[GOFAST-5430]", "Impossible de charger un avatar d’utilisateur dans certain cas (fichier .jpg)"
