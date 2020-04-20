@@ -120,7 +120,7 @@ Bugs
    "[GOFAST-4920]", "Le bouton 'Annoter' ne doit pas être visible dans le preview PDF sur la version PC"
    "[GOFAST-5075]", "Correction du ‘blocage des cellules’ dans les fichiers tableurs, lors de la coédition simultanée via la Suite OnlyOffice"
    "[GOFAST-5148]", "Le rôle ‘Administrateur’ n’est plus coché par défaut lors de la modification du rôle d’une Liste d’Utilisateurs"
-   "[GOFAST-5228]", "Message privé : correction "page non trouvée" après un clic sur "répondre" dans la notification e-mail"
+   "[GOFAST-5228]", "Message privé : correction "page non trouvée" après un clic sur 'répondre' dans la notification e-mail"
    "[GOFAST-5243]", "Alfresco : Corriger la rotation des logs après une mise à jour de GoFAST"
    "[GOFAST-5244]", "BonitaSoft : Corriger la configuration pour la rotation de log"
    "[GOFAST-5248]", "Permettre l’accès par défaut aux Espaces ‘Publics’ et ‘Racines’ suite à la création d’un compte-utilisateur"
@@ -149,8 +149,8 @@ Bugs
    "[GOFAST-5663]", "Le comparateur de version se trompe de version au dessus de la version X.9"
    "[GOFAST-5666]", "La mémoire allouée à Solr n'est pas adaptée à tous les environnements"
    "[GOFAST-5693]", "Gérer les renommages des dossiers pour éviter les favoris morts"
-   "[GOFAST-5696]", "Profil : champs "Demande d'accès à" toujours vide"
-   "[GOFAST-5712]", "[COMMUNITY] Avoir une apostrophe dans le mot de passe MySQL fait planter la configuration"
+   "[GOFAST-5696]", "Profil : champs 'Demande d'accès à' toujours vide"
+   "[GOFAST-5712]", "COMMUNITY : Avoir une apostrophe dans le mot de passe MySQL fait planter la configuration"
    "[GOFAST-5716]", "Lors du téléchargement d'un document partagé par mail, si le titre contient un espace, le nom du document est coupé"
    "[GOFAST-5732]", "Mettre un message d'erreur compréhensible lorsqu'on accède à un lien de partage expiré"
    "[GOFAST-5733]", "Correction problème pour retirer un emplacement quand un document est multifilé plusieurs fois dans le même espace"
@@ -164,8 +164,6 @@ Bugs
    "[GOFAST-5805]", "Limiter l'appel à l'API de génération du ticket de session Ejabberd"
    "[GOFAST-5822]", "Permission : impossible de renommer un espace pour un admin d'un seul espace"
    
-
-
 
 Bugs mineurs
 ***************
