@@ -13,7 +13,10 @@ Nouvelles fonctionnalités
    :header: "Ref.", "Description"
    :widths: 10, 40
    
+   "[GOFAST-6126]", "Création automatique des Salons de discussion (nouveau Chat intégré) pour les 2 premiers niveaux des Espaces type Organisation"
+   "[GOFAST-6044]", "Intégration du sytstème des membres d'un Espace au Salon de discussion du Chat (Riot.im) associé à cet Espace"
    "[GOFAST-6041]", "Intégration du Chat Riot.im avec la webconférence de GoFAST (côté Jitsi Meet)"
+   "[GOFAST-6011]", "Aides contextuelles au démarrage sur GoFAST Mobile (Smartphones/Tablettes)"
    "[GOFAST-6010]", "Mise en place d'aides contextuelles au démarrage de GoFAST version 'Mobile'"
    "[GOFAST-5990]", "Nouvel annuaire utilisateurs sous forme de tableau sur GoFAST 'Mobile'"
    "[GOFAST-5897]", "Mise à jour OnlyOffice 5.5.1 : listes déroulantes en lecture"
@@ -23,6 +26,7 @@ Nouvelles fonctionnalités
    "[GOFAST-5547]", "Nouvelle version de la webconférence Jitsi-Meet (r3936+)"
    "[GOFAST-5452]", "Nouvel indicateur de supervision (sous Zabbix) : le nombre de documents"
    "[GOFAST-5001]", "Nouvelle version GoFAST Mobile (évolution ergonomiques et fonctionnelles, en vue de la future version GoFAST 'Light/Simplifiée')"
+   "[GOFAST-4602]", "[BETA] Edition en ligne avec la Suite Collaborative OnlyOffice sur mobile/tablette dans le navigateur web"
 
 
 
@@ -39,6 +43,7 @@ Améliorations fonctionnelles
    "[GOFAST-5845]", "Audit : afficher le rôle utilisateur quand il est ajouté à un espace de type Organisation"
    "[GOFAST-5811]", "Dans les blocs Espaces et Dossiers favoris du Tableau de Bord d'accueil : séléction via arborescences au lieu de champs d'autocomplétion"
    "[GOFAST-5816]", "Amélioration de l'administration des catégories (visibilité par Espaces)"
+   "[GOFAST-5798]", "Ajouter le nom du document ouvert dans l'onglet OnlyOffice (lors de l'édition avec la Suite Collaborative)"
    "[GOFAST-5794]", "Pouvoir associer des repertoires classiques à des réunions (génération d'un lien d'accès à l'emplacement sur GoFAST Explorer, y compris dans la notification email)"
    "[GOFAST-5783]", "Affichage d'une bulle d'aide expliquant les rôles utilisateurs sur la page d'un Espace, onglet 'Membres'"
    "[GOFAST-5773]", "Page d'un document : griser les liens vers les Espaces dont l'utilisateur n'est pas membre (éviter une page 'accès refusé')"
@@ -104,7 +109,7 @@ Bugs
    :header: "Ref.", "Description"
    :widths: 10, 40
 
-
+   "[GOFAST-6123]", "Correction des prblèmes de synchronisation de l'organisation principale à l'annuaire lors de la mise à jour"
    "[GOFAST-6063]", "Amélioration des performances à l'ouverture du formulaire d'édition d'un profile utilisateur (ne plus charger tous les rôles de l'utilisateur dans ses Espaces)"
    "[GOFAST-6047]", "Correction des problèmes de cache suite au déplacement d'un espace"
    "[GOFAST-6039]", "Ne pas notifier lors de l'ajout ou suppression d'un membre s'il est également membre d'une liste d'utisateurs dans l'Espace"
@@ -140,7 +145,7 @@ Bugs mineurs
    "[GOFAST-5997]", "Correction de l'affichage de certains titres des documents dans le resultat de recherche"
    "[GOFAST-5992]", "GoFAST Explorer : correction du nommage d'un Espace s'il y a un espace au début ou à la fin du nom"
    "[GOFAST-5985]", "Correction de l'affichage de la liste des 'Favoris'"
-   "[GOFAST-5950]", "Remplacer/traduire le mot "Term" dans la popup de gestion des abonnements par 'Étiquette'"
+   "[GOFAST-5950]", "Remplacer/traduire le mot 'Term' dans la popup de gestion des abonnements par 'Étiquette'"
    "[GOFAST-5941]", "Dans le Fil d'Activité : masquer les commentaires qui ont été supprimés"
    "[GOFAST-5926]", "Correction des traductions des libelés dans la gestion de masse de taxonomie et la carte Kanban"
    "[GOFAST-5775]", "Empêcher de sauvegarder une recherche si le champs 'nom' est vide"
