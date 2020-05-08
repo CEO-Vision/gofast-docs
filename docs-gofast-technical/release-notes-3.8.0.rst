@@ -13,20 +13,19 @@ Nouvelles fonctionnalités
    :header: "Ref.", "Description"
    :widths: 10, 40
    
+   "[GOFAST-5724]", "Nouveau Chat / Plateforme collaborative de discussion instantannée basée sur Riot.im (de type Slack/MS-Teams)"
    "[GOFAST-6126]", "Création automatique des Salons de discussion (nouveau Chat intégré) pour les 2 premiers niveaux des Espaces type Organisation"
    "[GOFAST-6044]", "Intégration du sytstème des membres d'un Espace au Salon de discussion du Chat (Riot.im) associé à cet Espace"
    "[GOFAST-6041]", "Intégration du Chat Riot.im avec la webconférence de GoFAST (côté Jitsi Meet)"
-   "[GOFAST-6011]", "Aides contextuelles au démarrage sur GoFAST Mobile (Smartphones/Tablettes)"
-   "[GOFAST-6010]", "Mise en place d'aides contextuelles au démarrage de GoFAST version 'Mobile'"
-   "[GOFAST-5990]", "Nouvel annuaire utilisateurs sous forme de tableau sur GoFAST 'Mobile'"
-   "[GOFAST-5897]", "Mise à jour OnlyOffice 5.5.1 : listes déroulantes en lecture"
-   "[GOFAST-5808]", "Nouveau bloc 'Tâches' disponible pour le Tableau de Bord d'Accueil"
-   "[GOFAST-5778]", "DUA : Nouveau statut 'Pré-archiver' pour les documents (passage en lécture seule et démarrage de la DUA)"
-   "[GOFAST-5724]", "Nouveau Chat / Plateforme collaborative de discussion instantannée basée sur Riot.im (de type Slack/MS-Teams)"
    "[GOFAST-5547]", "Nouvelle version de la webconférence Jitsi-Meet (r3936+)"
-   "[GOFAST-5452]", "Nouvel indicateur de supervision (sous Zabbix) : le nombre de documents"
    "[GOFAST-5001]", "Nouvelle version GoFAST Mobile (évolution ergonomiques et fonctionnelles, en vue de la future version GoFAST 'Light/Simplifiée')"
    "[GOFAST-4602]", "[BETA] Edition en ligne avec la Suite Collaborative OnlyOffice sur mobile/tablette dans le navigateur web"
+   "[GOFAST-5897]", "Mise à jour OnlyOffice 5.5.1 : listes déroulantes en lecture"
+   "[GOFAST-6010]", "Mise en place d'aides contextuelles au démarrage de GoFAST 'Mobile'"
+   "[GOFAST-5990]", "Nouvel annuaire utilisateurs sous forme de tableau sur GoFAST 'Mobile'"
+   "[GOFAST-5808]", "Nouveau bloc 'Tâches' disponible pour le Tableau de Bord d'Accueil"
+   "[GOFAST-5778]", "DUA : Nouveau statut 'Pré-archiver' pour les documents (passage en lécture seule et démarrage de la DUA)"
+   "[GOFAST-5452]", "Nouvel indicateur de supervision (sous Zabbix) : le nombre de documents"
 
 
 
