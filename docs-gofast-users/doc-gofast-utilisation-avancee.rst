@@ -140,10 +140,9 @@ Vous pouvez donc utiliser l'application pour votre téléphone suivant :
 -  iOS/iPAD : https://apps.apple.com/fr/app/riot-im/id1083446067
 
 
-Pour configurer ces clients il suffit d’entrer dans la gestion des comptes :
+Pour configurer ces clients il suffit d’entrer l'adresse de votre serveur GoFAST (avec -comm) :
 
-**Identifiant** : identifiant\_gofast@gofast-comm.xxxxx.yyy
-
+|image21|
 
 Signature électronique unitaire des PDF
 -----------------------------------------
@@ -239,3 +238,4 @@ Vous pouvez à présent décompresser l'archive directement dans l'arborescence 
 .. |image18| image:: img/scanbot_envoi_GoFAST.png
 .. |image19| image:: img/abbyy_hot_folder.png
 .. |image20| image:: img/abbyy_hot_folder_config-0.png
+.. |image21| image:: img/riot-gofast-login-ipad-FR.png
