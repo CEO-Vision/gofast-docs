@@ -19,7 +19,7 @@ Nouvelles fonctionnalités
    "[GOFAST-6041]", "Intégration du Chat Riot.im avec la webconférence de GoFAST (côté Jitsi Meet)"
    "[GOFAST-5547]", "Nouvelle version de la webconférence Jitsi-Meet (r3936+)"
    "[GOFAST-5001]", "Nouvelle version GoFAST Mobile (évolutions ergonomiques et fonctionnelles, en vue de la future version GoFAST 'Light/Simplifiée')"
-   "[GOFAST-4602]", "[BETA] Edition en ligne avec la Suite Collaborative OnlyOffice sur mobile/tablette dans le navigateur web"
+   "[GOFAST-4602]", "[BETA] Edition en ligne avec la Suite Collaborative OnlyOffice sur tablette (GoFAST Mobile) dans le navigateur web (client léger)"
    "[GOFAST-5897]", "Mise à jour OnlyOffice 5.5.1 : listes déroulantes en lecture"
    "[GOFAST-6010]", "Mise en place d'aides contextuelles au démarrage de GoFAST 'Mobile'"
    "[GOFAST-5990]", "Nouvel annuaire utilisateurs sous forme de tableau sur GoFAST 'Mobile'"
