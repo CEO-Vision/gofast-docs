@@ -4,19 +4,21 @@
 # package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 # Sandra Massonnat <sandra.massonnat@ceo-vision.com>, 2020.
+# Christopher Potter <cpotter@ceo-vision.com>, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: gofast-docs latest\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-18 14:07+0100\n"
-"PO-Revision-Date: 2020-01-14 10:43+0000\n"
-"Last-Translator: Sandra Massonnat <sandra.massonnat@ceo-vision.com>\n"
-"Language: en\n"
+"PO-Revision-Date: 2020-05-13 19:35+0000\n"
+"Last-Translator: Christopher Potter <cpotter@ceo-vision.com>\n"
 "Language-Team: \n"
-"Plural-Forms: nplurals=2; plural=n != 1\n"
+"Language: en\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.6.1\n"
 "Generated-By: Babel 2.7.0\n"
 
 #: ../../docs-gofast-users/doc-gofast-utilisation-avancee.rst:2
@@ -80,6 +82,8 @@ msgid ""
 "tiers même si nous avons testé à un moment donné  (et pas forcément de "
 "façon exhaustive) leur fonctionnement"
 msgstr ""
+"CEO-Vision cannot guarantee the quality of a third-party software even if we "
+"have tested it (and sometime not fully)"
 
 #: ../../docs-gofast-users/doc-gofast-utilisation-avancee.rst:25
 msgid "Synchronisation locale (GoFAST hors-ligne)"
@@ -92,6 +96,9 @@ msgid ""
 " totalité ou limité à des espaces) pour pouvoir les accéder lorsque l'on "
 "n'a plus de réseau (par exemple dans l'avion)."
 msgstr ""
+"It is software tools that does a local copy of GoFAST files (in full or "
+"limited to some spaces) to be able to access them locally when no network is "
+"available (like in a plane)."
 
 # 56e6a236d4804597bcf4d814af79315a
 #: ../../docs-gofast-users/doc-gofast-utilisation-avancee.rst:29
@@ -102,6 +109,11 @@ msgid ""
 " l'on modifie la copie locale elle sera directement synchronisé une fois "
 "le réseau disponible, avec éventuellement une gestion des conflits)."
 msgstr ""
+"Some software tools are one way (if the local copy is modified, you have to "
+"save it back to GoFAST when the network is again available, and in some "
+"cases, merge your modifications) or two ways, the local copy will be "
+"automatically saved back once the network if available, with a possible "
+"conflict management."
 
 # b65b1143a4934870a5d0c2fcf4f76adb
 #: ../../docs-gofast-users/doc-gofast-utilisation-avancee.rst:31
@@ -109,6 +121,8 @@ msgid ""
 "Historiquement nous utilisons CMISSync mais plus récemment nous sommes en"
 " phase de tests avancés de Mountainduck (payant)."
 msgstr ""
+"Historically we were using CMISSync but we are replacing it more and more by "
+"Mountainduck (paid software)."
 
 #: ../../docs-gofast-users/doc-gofast-utilisation-avancee.rst:34
 msgid "Installation CMISSync"
@@ -123,11 +137,8 @@ msgstr ""
 "downloaded here: https://bitbucket.org/aegif/cmissync/downloads"
 
 #: ../../docs-gofast-users/doc-gofast-utilisation-avancee.rst:38
-#, fuzzy
 msgid "La version actuelle Windows recommandée\\* est la **2.13.1.0**"
-msgstr ""
-"The current recommended Windows version\\* is **2.9.4.0** or 2.11.3.0 "
-"(under test)"
+msgstr "The current recommended Windows version\\* is **2.13.1.0**"
 
 #: ../../docs-gofast-users/doc-gofast-utilisation-avancee.rst:40
 msgid ""
@@ -300,9 +311,8 @@ msgstr ""
 "http://seanashton.net/webdav/"
 
 #: ../../docs-gofast-users/doc-gofast-utilisation-avancee.rst:115
-#, fuzzy
 msgid "Éditer des fichiers MS-Office sur Tablette"
-msgstr "Editing Office Files on Tablet"
+msgstr "Editing MS-Office Files on Tablet"
 
 # afbefd57dfc940b686c36127d893fef0
 #: ../../docs-gofast-users/doc-gofast-utilisation-avancee.rst:116
@@ -374,9 +384,8 @@ msgstr ""
 "the domain of your organisation"
 
 #: ../../docs-gofast-users/doc-gofast-utilisation-avancee.rst:150
-#, fuzzy
 msgid "Signature électronique unitaire des PDF"
-msgstr "PDF Electronic signature"
+msgstr "Unitary PDF Electronic signature"
 
 #: ../../docs-gofast-users/doc-gofast-utilisation-avancee.rst:152
 msgid ""
@@ -416,16 +425,15 @@ msgstr ""
 "launching the online edition"
 
 #: ../../docs-gofast-users/doc-gofast-utilisation-avancee.rst:164
-#, fuzzy
 msgid "Signature électronique en masse RGS 2* des PDF"
-msgstr "PDF Electronic signature"
+msgstr "Bulk PDF Electronic signature with Qualified Signature"
 
 # e1285e2bfd934ada81227c32d1beda5c
 #: ../../docs-gofast-users/doc-gofast-utilisation-avancee.rst:166
 msgid ""
 "Nous testons actuellement Xolidosign (site en Anglais mais application "
 "traduite en Francais)."
-msgstr ""
+msgstr "We are currently testing Xolidosign."
 
 #: ../../docs-gofast-users/doc-gofast-utilisation-avancee.rst:169
 msgid "Dématérialiser vers GoFAST"
@@ -543,7 +551,8 @@ msgstr ""
 msgid ""
 "Vous pouvez à présent décompresser l'archive directement dans "
 "l'arborescence dans GoFAST"
-msgstr "Now you can unpack the archive directly into the directory tree on GoFAST."
+msgstr ""
+"Now you can unpack the archive directly into the directory tree on GoFAST"
 
 #~ msgid ""
 #~ "CMISSync est un outil puissant et "
@@ -781,4 +790,3 @@ msgstr "Now you can unpack the archive directly into the directory tree on GoFAS
 #~ "c. Merge 2 versions in **mail.doc**, "
 #~ "and after that delete **mail.doc\\_UserB-"
 #~ "version**"
-
