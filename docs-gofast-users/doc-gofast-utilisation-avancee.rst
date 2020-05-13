@@ -30,48 +30,21 @@ Certains utilitaires sont mono-directionel (si l'on modifie la copie locale, il 
 
 Historiquement nous utilisons CMISSync mais plus récemment nous sommes en phase de tests avancés de Mountainduck (payant). 
 
-Installation CMISSync
+Installation MountainDuck
 ^^^^^^^^^^^^^^^^^^^^^
-L'outil est disponible pour Windows, Mac (beta) et Linux et peut être
-téléchargé ici : https://bitbucket.org/aegif/cmissync/downloads
-
-La version actuelle Windows recommandée\* est la **2.13.1.0** 
+L'outil est disponible pour Windows et Mac téléchargeable ici : https://mountainduck.io/
 
 Voici les étapes pour configurer l'outil (**myorg** est à remplacer par
 le nom de votre organisation)
 
-L'adresse à utiliser :
-`https://gofast. <https://gofast.myorg.com/alfresco/api/-default-/public/cmis/versions/1.1/atom>`__\ `**myorg** <https://gofast.myorg.com/alfresco/api/-default-/public/cmis/versions/1.1/atom>`__\ `.com/alfresco/api/-default-/public/cmis/versions/1.1/atom <https://gofast.myorg.com/alfresco/api/-default-/public/cmis/versions/1.1/atom>`__
-
-|image3|
-
-A cette étape il est possible de choisir l'espace collaboratif que l'on
-souhaite synchroniser. Bien sûr si cet espace collaboratif contient des
-sous-espaces ceux-ci sont synchronisés et donc le volume de données à la
-1ère synchronisation peut être très important. Compter par exemple 30
-minutes de synchronisation pour 1700 fichiers / 1.2 Go.
-
-Si vous voulez donc tout synchroniser, choisir l'espace 'racine', ici
-'Main Repository'
-
-|image4|
-
-Une fois configuré il est possible de faire plusieurs actions comme
-ouvrir le dossier local de synchronisation, mettre en pause la
-synchronisation ou changer les paramètres.
-
-|image5|
+|image23|
 
 
-.. IMPORTANT:: Dans les paramètres il est possible de baisser la fréquence de synchronisation, 
-               option utile si CMISSync est largement diffusé dans l'organisation ceci pouvant 
-               charger la plateforme GoFAST. En effet CMISSync consomme de la bande passante coté 
-               serveur et du CPU
 
 
 Utilisation
 ^^^^^^^^^^^
-Lorsque l'ordinateur est connecté au réseau, CMISSync vérifie
+Lorsque l'ordinateur est connecté au réseau, MountainDuck vérifie
 périodiquement si des documents ont été changés sur la plateforme
 GoFAST. Si les documents ont été modifiés, ils sont copiés localement (sur le PC).
 
@@ -239,3 +212,4 @@ Vous pouvez à présent décompresser l'archive directement dans l'arborescence 
 .. |image19| image:: img/abbyy_hot_folder.png
 .. |image20| image:: img/abbyy_hot_folder_config-0.png
 .. |image22| image:: media-guide/riot-gofast-login-ipad-FR.png
+.. |image23| image:: img/mountainduck-gofast-config_FR.png
