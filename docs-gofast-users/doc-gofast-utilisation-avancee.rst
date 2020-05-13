@@ -212,4 +212,4 @@ Vous pouvez à présent décompresser l'archive directement dans l'arborescence 
 .. |image19| image:: img/abbyy_hot_folder.png
 .. |image20| image:: img/abbyy_hot_folder_config-0.png
 .. |image22| image:: media-guide/riot-gofast-login-ipad-FR.png
-.. |image23| image:: img/mountainduck-gofast-config_FR.png
+.. |image23| image:: img/mountainduck-gofast-config_FR.PNG
