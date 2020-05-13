@@ -238,4 +238,4 @@ Vous pouvez à présent décompresser l'archive directement dans l'arborescence 
 .. |image18| image:: img/scanbot_envoi_GoFAST.png
 .. |image19| image:: img/abbyy_hot_folder.png
 .. |image20| image:: img/abbyy_hot_folder_config-0.png
-.. |image21| image:: img/riot-gofast-login-ipad-FR.png
+.. |image21| image:: media-guide/riot-gofast-login-ipad-FR.png
