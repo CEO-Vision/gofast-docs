@@ -127,19 +127,18 @@ Puis l'éditer :
 |image21|
 
 
-Messagerie instantanée (« chat ») sur mobiles 
+Messagerie instantanée (« chat / conversation ») sur mobiles 
 ---------------------------------------------
 
 Avec GoFAST vous avez une messagerie instantanée privée et sécurisée, équivalent de «
-WhatsApp » pour votre Organisation, fonctionnant sur le standard ouvert
-XMPP.
+WhatsApp » ou « MS-Teams » pour votre Organisation, fonctionnant avec Riot/Matrix (GoFAST > v3.8)
 
-Vous pouvez donc utiliser une application pour votre téléphone suivant
-ce standard. Par exemple :
+Vous pouvez donc utiliser l'application pour votre téléphone suivant :
 
--  Android : Xabber, Kandru (gratuit), Conversations (payant), Astrachat 
+-  Android : https://play.google.com/store/apps/details?id=im.vector.app&hl=fr_FR
 
--  iOS : Chatsecure (mais pas de conversation de groupe)
+-  iOS/iPAD : https://apps.apple.com/fr/app/riot-im/id1083446067
+
 
 Pour configurer ces clients il suffit d’entrer dans la gestion des comptes :
 
