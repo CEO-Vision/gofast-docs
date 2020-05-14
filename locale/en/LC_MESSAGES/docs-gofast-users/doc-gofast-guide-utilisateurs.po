@@ -9,16 +9,22 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gofast-docs latest\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2020-02-26 13:05+0100\n"
 "PO-Revision-Date: 2020-04-15 06:44+0000\n"
 "Last-Translator: svetlosemina <vetlosemina@yandex.ru>\n"
 "Language-Team: en <LL@li.org>\n"
+=======
+"POT-Creation-Date: 2020-04-23 10:33+0200\n"
+"PO-Revision-Date: 2020-02-27 08:58+0000\n"
+"Last-Translator: Christopher Potter <cpotter@ceo-vision.com>\n"
+>>>>>>> origin/master
 "Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=n != 1\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.6.1\n"
 "Generated-By: Babel 2.7.0\n"
 
 # 8816e12f98e44eb3a8874d652fec3eea
@@ -224,8 +230,8 @@ msgstr "Prerequisites required for using GoFAST"
 # 88362bff46a24a129a64ade37f41d30b
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:84
 msgid ""
-"Navigateurs préférentiels Windows: **Firefox (dernière version ESR) ou "
-"Chrome (et bientôt Edge-Chromium)**"
+"Navigateurs préférentiels Windows: **Firefox (dernière version ESR), "
+"Edge-Chromium**, Chrome"
 msgstr ""
 "Preferential Windows browsers: **Firefox 57+ (the latest ESR version) or "
 "Chrome (and Edge-Chromium)**"
@@ -233,20 +239,24 @@ msgstr ""
 # 97e71978844f49e999ba74c9f14e3211
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:86
 msgid ""
-"Mais fonctionne également sur les versions récentes d’Internet Explorer "
-"11 pas en mode compatibilité (sauf webconference), Edge (sauf "
-"webconference), Edge-Chromium, en plus d’Opera"
+"Mais fonctionne également sans garantie sur la dernière version "
+"d’Internet Explorer 11 (pas en mode compatibilité) avec les limitations "
+"ci-dessous"
 msgstr ""
+<<<<<<< HEAD
 "But also works on recent versions of Internet Explorer 11 in a non-"
 "Compatibility mode (except webconference), Edge (except webconference), in "
 "addtion to Opera"
+=======
+>>>>>>> origin/master
 
 # 975d9b816b62480e90f244ef5e677e6f
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:89
 msgid ""
-"Le support IE11 sera optionnel en 2020 et certaines nouvelles "
-"fonctionnalités comme incompatible, CEO-Vision recommande une migration "
-"au plus vite de IE11 et Edge vers Edge-Chromium ou Firefox ESR"
+"Le support IE11 est optionnel en 2020 et certaines nouvelles "
+"fonctionnalités sont incompatible (tâches kanban, chat,webconference), "
+"CEO-Vision recommande une migration au plus vite de IE11 et Edge vers "
+"Edge-Chromium ou Firefox ESR"
 msgstr ""
 "IE11 support will be optional in 2020 and some new features are already "
 "incompatible, CEO-Vision recommends a fast migration from IE11 and Edge to "
@@ -280,7 +290,7 @@ msgstr "Linux browser : Firefox 57+ (the latest ESR version)"
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:99
 msgid ""
 "Système d'exploitation Windows7 et plus, MacOS 10.11+ et Linux (Ubuntu "
-"16+), ChromeOS (sans support)"
+"16+), ChromeOS"
 msgstr ""
 "Operating system Windows10 and more, MacOS 10.10+ and Linux (Ubuntu 14+) and "
 "Android or iOS mobility"
@@ -294,8 +304,7 @@ msgstr "Android or iOS (Mobile)."
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:102
 msgid ""
 "Bureautique : MS-Office 2010 (>14.0.7190.5000) pour Windows, MS-Office "
-"2016 pour Mac, LibreOffice 5+, WPS (sans support), OnlyOffice Desktop "
-"(sans support)"
+"2016 pour Mac, LibreOffice 6+, OnlyOffice Desktop (à venir)"
 msgstr ""
 "Office: MS-Office 2010 (> 14.0.7190.5000) for Windows, MS-Office 2016 for "
 "Mac, LibreOffice 5+, WPS (without support), OnlyOffice Desktop (without "
@@ -8871,8 +8880,8 @@ msgid ""
 "les différentes actions à mener lors d’un projet."
 msgstr ""
 "For a better task management, GoFast offers an interface in the form of "
-"Kanban with a column and card system to organize the different actions to be "
-"carried out during a project."
+"Kanban with a column and card system to organize the different actions to"
+" be carried out during a project."
 
 # 28efc550dd6c4a0bb03c2275fe82509a
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_3.rst:927
@@ -8880,8 +8889,8 @@ msgid ""
 "Un seul Kanban est disponible par espace. Les espaces publiques ne "
 "disposent pas de ce gestionnaire de tâches."
 msgstr ""
-"Only one Kanban is available per space. Public spaces do not have this task "
-"manager."
+"Only one Kanban is available per space. Public spaces do not have this "
+"task manager."
 
 # 275d50b63b154415ad83ef956c42ef15
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_3.rst:930
@@ -8897,10 +8906,10 @@ msgid ""
 "ou Annulé. Pour créer une carte cliquer sur le bouton « Ajouter une "
 "nouvelle Carte »."
 msgstr ""
-"To access this feature, go to the space page and click on the \" Tasks \" "
-"tab. The most classic configuration consists of 4 columns: Start, In "
-"progress, Finalization, Completed or Canceled. To create a card click on the "
-"\" Add a new Card \" button."
+"To access this feature, go to the space page and click on the \" Tasks \""
+" tab. The most classic configuration consists of 4 columns: Start, In "
+"progress, Finalization, Completed or Canceled. To create a card click on "
+"the \" Add a new Card \" button."
 
 # 459e6ec5b2384b419e70925fa06073f2
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_3.rst:936
@@ -8909,8 +8918,8 @@ msgid ""
 "d’échéance, le responsable puis les participants et enfin appuyer sur « "
 "Enregistrer »."
 msgstr ""
-"Enter the title, the description, the related documents, the deadline date, "
-"the manager, then the participants and finally press \"Save\"."
+"Enter the title, the description, the related documents, the deadline "
+"date, the manager, then the participants and finally press \"Save\"."
 
 # b9682f85a3474772b5a3adae3b0d0bb1
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_3.rst:941
@@ -8938,16 +8947,15 @@ msgid ""
 "effectuer avec échéance. Chaque action pourra être affectée à un membre "
 "de l’équipe."
 msgstr ""
-"Todolist: In this section you can add several actions to be completed by a "
-"deadline. Each action can be assigned to a team member."
+"Todolist: In this section you can add several actions to be completed by "
+"a deadline. Each action can be assigned to a team member."
 
 # 6d0a8c9c926548a8af1ffdd60e77620e
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_3.rst:945
 msgid ""
 "Commentaire (s) : Ici vous pouvez partager des remarques et des "
 "suggestions avec les participants."
-msgstr ""
-"Comment (s): Here you can share remarks and suggestions with participants."
+msgstr "Comment (s): Here you can share remarks and suggestions with participants."
 
 # 64c4070ff33c4a54bf272628ccbea710
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_3.rst:946
@@ -8960,8 +8968,8 @@ msgid ""
 "Fermer ou supprimer : la suppression est activée uniquement pour les "
 "administrateurs de l’espace ou le créateur de la carte."
 msgstr ""
-"Close or delete: deletion is only enabled for space administrators or the "
-"card creator."
+"Close or delete: deletion is only enabled for space administrators or the"
+" card creator."
 
 # fc4152d6580249eb983928e1e7ae56d1
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_3.rst:953
@@ -8972,8 +8980,9 @@ msgid ""
 "(Titre, affectation, échéance) ou la supprimer."
 msgstr ""
 "In the Todolist section, team members can indicate the completion of the "
-"actions by checking the boxes adjacent to the titles. They can also modify "
-"the information of an action (Title, assignment, deadline) or delete it."
+"actions by checking the boxes adjacent to the titles. They can also "
+"modify the information of an action (Title, assignment, deadline) or "
+"delete it."
 
 # c7c64bcbdd50485cb0a8695d67a57f42
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_3.rst:959
@@ -8981,8 +8990,8 @@ msgid ""
 "Les cartes peuvent être déplacées en glisser/déposer d’une colonne à une "
 "autre suivant la progression des actions menées."
 msgstr ""
-"Cards can be dragged and dropped from one column to another one depending on "
-"the progress of the actions carried out."
+"Cards can be dragged and dropped from one column to another one depending"
+" on the progress of the actions carried out."
 
 # f289284a3add4b0894bcefb88d9508ff
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_3.rst:964
@@ -8993,10 +9002,10 @@ msgid ""
 "champs « Saisir le titre de la colonne », renseigner le nom puis appuyer "
 "sur « Ajouter colonne »."
 msgstr ""
-"It is also possible to customize the columns, by adding new ones, renaming "
-"or deleting existing ones. To add a new column, move to the right of the "
-"board and click on the “Enter the column title” field, enter the name and "
-"press “Add column”."
+"It is also possible to customize the columns, by adding new ones, "
+"renaming or deleting existing ones. To add a new column, move to the "
+"right of the board and click on the “Enter the column title” field, enter"
+" the name and press “Add column”."
 
 # 8f30b0bd531c4276bba8f01dff665df6
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_3.rst:970
@@ -9024,8 +9033,8 @@ msgid ""
 "Enfin, pour déplacer une colonne, il faudra la faire glisser vers "
 "l’emplacement souhaité puis la déposer."
 msgstr ""
-"Finally, to move a column, you will have to drag it to the desired location "
-"and then drop it."
+"Finally, to move a column, you will have to drag it to the desired "
+"location and then drop it."
 
 # 8c8c3ca67508405ebf4054a08272d7eb
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_3.rst:986
@@ -9040,7 +9049,8 @@ msgid ""
 "Qui peut créer/modifier/déplacer les cartes ? Les administrateurs de "
 "l’espace et les contributeurs."
 msgstr ""
-"Who can create / modify / move cards? Space administrators and contributors."
+"Who can create / modify / move cards? Space administrators and "
+"contributors."
 
 # f980097459014cf8821c5c463ae26bb2
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_3.rst:988
@@ -9057,8 +9067,8 @@ msgid ""
 " si assignés à la tâche/Checklist."
 msgstr ""
 "Who can comment on the cards / validate the checklists (Todolist)? Space "
-"administrators, contributors, and read-only members if assigned to the task /"
-" Checklist."
+"administrators, contributors, and read-only members if assigned to the "
+"task / Checklist."
 
 # d44c41c003c646739012ebec5a7f36b0
 # 98cd990067a74f42a35bc50a073fe1a3
@@ -9140,8 +9150,8 @@ msgid ""
 "personnel sur lequel le membre de l’équipe est assigné en tant que :"
 msgstr ""
 "The cards are present in the calendars of the spaces or their subspaces. "
-"They are also visible in the the personal space calendar to which the team "
-"member is assigned as:"
+"They are also visible in the the personal space calendar to which the "
+"team member is assigned as:"
 
 # 2cfac5effe944e789ab0886d22a1d838
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_3.rst:1012
@@ -9159,8 +9169,8 @@ msgid ""
 "Il suffit de cliquer sur l’événement dans le calendrier pour se rediriger"
 " sur le tableau (kanban) contenant la carte en question."
 msgstr ""
-"Just click on the event in the calendar to redirect to the board (kanban) "
-"containing the card in question."
+"Just click on the event in the calendar to redirect to the board (kanban)"
+" containing the card in question."
 
 # 5a3c8598f0f047f1a17881f4f2a9ca1a
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_3.rst:1021
@@ -9170,8 +9180,8 @@ msgid ""
 "la date d'échéance de la checklist."
 msgstr ""
 "If you are assigned to a Checklist element, the card will appear in the "
-"calendar on the deadline date of the card but not on the deadline date of "
-"the checklist."
+"calendar on the deadline date of the card but not on the deadline date of"
+" the checklist."
 
 # ce9c4b7e21804a2e920a417e1e92da22
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_3.rst:1023
@@ -9183,11 +9193,11 @@ msgid ""
 "rediriger vers le Kanban concerné, il faudra appuyer sur l’icône "
 "information en bas à droite."
 msgstr ""
-"From the main menu, you can view the open cards in the \"My Tasks\" section ("
-"Pinion Gear). The small window icon next to the card title allows to "
-"differentiate between workflow tasks and tasks created from the Kanban. To "
-"redirect to the relevant Kanban, press the information icon in the lower "
-"right."
+"From the main menu, you can view the open cards in the \"My Tasks\" "
+"section (Pinion Gear). The small window icon next to the card title "
+"allows to differentiate between workflow tasks and tasks created from the"
+" Kanban. To redirect to the relevant Kanban, press the information icon "
+"in the lower right."
 
 # bfdfe55a833c4d95adee09509143dc14
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_3.rst:1031
@@ -9205,8 +9215,8 @@ msgid ""
 msgstr ""
 "GoFast provides a search bar to filter the cards, it is placed above the "
 "columns in the Kanban. The search is done only on the title of the card. "
-"Just type in its name, the relevant card will appear in the board and all "
-"the others will become invisible."
+"Just type in its name, the relevant card will appear in the board and all"
+" the others will become invisible."
 
 # c542933d82b24f89bc67c36710a6c52d
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_3.rst:1039
@@ -9725,7 +9735,8 @@ msgid ""
 "Il est aussi possible de voir cette vue depuis la barre de navigation de "
 "la GoFAST:"
 msgstr ""
-"It is also possible to see this view from the navigation bar of the GoFAST:"
+"It is also possible to see this view from the navigation bar of the "
+"GoFAST:"
 
 # d997a9bf9b484946ab96365e147148c1
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:321
@@ -10755,3 +10766,37 @@ msgstr ""
 #~ "http://gofast-docs.readthedocs.io/en/latest/docs-"
 #~ "gofast-users/doc-gofast-userguide .html #"
 #~ " export-the-list-of-materials"
+
+# 88362bff46a24a129a64ade37f41d30b
+#~ msgid ""
+#~ "Navigateurs préférentiels Windows: **Firefox "
+#~ "(dernière version ESR) ou Chrome (et "
+#~ "bientôt Edge-Chromium)**"
+#~ msgstr ""
+
+# 97e71978844f49e999ba74c9f14e3211
+#~ msgid ""
+#~ "Mais fonctionne également sur les "
+#~ "versions récentes d’Internet Explorer 11 "
+#~ "pas en mode compatibilité (sauf "
+#~ "webconference), Edge (sauf webconference), "
+#~ "Edge-Chromium, en plus d’Opera"
+#~ msgstr ""
+#~ "Preferential Windows browsers: **Firefox 57+"
+#~ " (and the last ESR version currently"
+#~ " 60 until Oct.2019) or Chrome**. But"
+#~ " also works on recent versions of "
+#~ "Internet Explorer 11 not in "
+#~ "compatibility mode (except webconference), "
+#~ "Edge (except webconference),  Opera"
+
+# 975d9b816b62480e90f244ef5e677e6f
+#~ msgid ""
+#~ "Le support IE11 sera optionnel en "
+#~ "2020 et certaines nouvelles fonctionnalités"
+#~ " comme incompatible, CEO-Vision recommande"
+#~ " une migration au plus vite de "
+#~ "IE11 et Edge vers Edge-Chromium ou"
+#~ " Firefox ESR"
+#~ msgstr ""
+
