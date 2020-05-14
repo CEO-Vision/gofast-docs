@@ -34,12 +34,10 @@ Installation MountainDuck
 ^^^^^^^^^^^^^^^^^^^^^
 L'outil est disponible pour Windows et Mac téléchargeable ici : https://mountainduck.io/
 
-Voici les étapes pour configurer l'outil (**myorg** est à remplacer par
-le nom de votre organisation)
+Voici comment configurer l'outil (**gofast.ceo-vision.com** est à remplacer par
+le nom de votre GoFAST, **cpotter** par votre identifiant)
 
 |image23|
-
-
 
 
 Utilisation
