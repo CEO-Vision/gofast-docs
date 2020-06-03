@@ -20,9 +20,9 @@ Comment accéder à Riot
 
 Riot est accessible de plusieurs façons :
 
--par le volet de droite
--sur la page d'un espace (dont un salon a été activé)
--en pleine page par le menu "Discussion"
+- par le volet de droite
+- sur la page d'un espace (dont un salon a été activé)
+- en pleine page par le menu "Discussion"
  
  Organisation des salons
  --------------------------------------
