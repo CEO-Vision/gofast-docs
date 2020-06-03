@@ -10,8 +10,7 @@ L'outil de conversation permet des discussions de personne à personne ou des sa
 
 Un salon est normalement associé à un espace ou sous-espace.
 
-.. NOTE::
-C'est l'admistrateur de l'espace qui peut décider d'associer un salon à un espace.
+.. NOTE:: C'est l'admistrateur de l'espace qui peut décider d'associer un salon à un espace.
 
 De plus, cet outil de conversation Riot est installable aussi sur son smartphone (Android, iOS/iPAD) et comme une application sur PC, MacOS et Linux. 
 
