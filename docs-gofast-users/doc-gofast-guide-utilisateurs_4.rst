@@ -31,7 +31,8 @@ Riot est accessible de plusieurs façons :
  
  .. NOTE:: Pour créer une discussion avec un utilisateur en particulier, vous devez cliquer sur le + dans la zone du haut.
  
- .. figure:: media-guide/gofast-conversation-riot-conversation-zones_FR_EN.png
+.. figure:: media-guide/gofast-conversation-riot-conversation-zones_FR_EN.png
+    :alt:
  
  Pour sélectionner le salon, il suffit de cliquer dans le rond correspondant, puis :
  
