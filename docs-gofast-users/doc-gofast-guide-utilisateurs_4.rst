@@ -40,7 +40,6 @@ Riot est accessible de plusieurs façons :
  - déclencher une webconference (audio ou video)
  
  
-
 Messages internes
 =================
 
