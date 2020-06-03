@@ -1,182 +1,45 @@
-Chat/Messagerie instantanée (Enterprise only)
+Conversation/Chat/Messagerie instantanée (Enterprise only)
 ===============================================
    
-   
-.. NOTE:: Nous parlons ici de la version dans le navigateur du Chat, vous pouvez également recevoir les messages avec votre smartphone (voir Utilisation Avancée)
+GoFAST inclut un outil de conversation temps réel (Riot/Matrix) similaire à MS-Teams et Slack. Parcontre, contraiement à ces 2 concurrents, 
+vous savez totalement où sont stockés vos données, dans un datacenter souverain ou dans votre datacenter suivant l'option GoFAST choisit.
 
-Pour **ouvrir le chat**, il faut aller sur l’extrême droite de l’écran,
-cliquer sur la barre verticale grise.
+Riot/Matrix est la technologie retenue par l'Etat Français (Tchap) et Thales sous le nom de Citadel.
 
-.. figure:: media-guide/image336.png
-   :alt: 
+L'outil de conversation permet des discussions de personne à personne ou des salons permettant de rassembler plusieurs personnes autour d'une même thématique. Ces échanges peuvent être des messages texte ou des conférences audio/video.
 
-Vous pouvez ainsi voir la liste des personnes qui font partie des mêmes
-groupes que vous et qui sont, en ce moment, en ligne (boule verte sur la
-photo) ou absents (boule orange sur la photo).
+Un salon est normalement associé à un espace ou sous-espace.
 
-.. figure:: media-guide/image337.png
-   :alt: 
+.. NOTE::
+C'est l'admistrateur de l'espace qui peut décider d'associer un salon à un espace.
 
-Vous pouvez choisir votre **statut** sur le chat en cliquant sur le
-statut actuel à côté de votre photo, vous verrez ainsi une liste
-apparaître, cliquez sur votre choix pour le changer.
+De plus, cet outil de conversation Riot est installable aussi sur son smartphone (Android, iOS/iPAD) et comme une application sur PC, MacOS et Linux. 
 
-.. figure:: media-guide/image338.png
-   :alt: 
+Comment accéder à Riot
+----------------------
 
-Vous verrez si vous avez un **nouveau message dans le chat** grâce à un
-petit numéro qui « saute » à côté de votre statut. Mais ce message peut
-être une pop up, pas nécessairement un message d’un utilisateur.
+Riot est accessible de plusieurs façons :
 
-.. figure:: media-guide/image339.png
-   :alt: 
+ -par le volet de droite
+ -sur la page d'un espace (dont un salon a été activé)
+ -en pleine page par le menu "Discussion"
+ 
+ Organisation des salons
+ --------------------------------------
+ 
+ Riot est séparé en plusieurs zones, la zone du haut est réservée au conversation entre 2 utilisateurs, la zone du bas aux salons dont on est membre.
+ 
+ .. NOTE:: Pour créer une discussion avec un utilisateur en particulier, vous devez cliquer sur le + dans la zone du haut.
+ 
+ .. figure:: media-guide/gofast-conversation-riot-conversation-zones_FR_EN.png
+ 
+ Pour sélectionner le salon, il suffit de cliquer dans le rond correspondant, puis :
+ 
+ - commencer à taper du texte
+ - déclencher une webconference (audio ou video)
+ 
+ 
 
-Vous voyez aussi si vous avez un **message sur le chat** avec un petit
-carré qui clignote dans le coin droit inférieur de l’écran ou avec une
-pop-up si vous n’êtes pas sur l’écran GoFAST
-
-.. figure:: media-guide/image340.png
-   :alt: 
-   
-
-.. figure:: media-guide/image341.png
-   :alt: 
-
-
-.. figure:: media-guide/image342.png
-   :alt: 
-
-Ou d’une manière plus générale, vous verrez aussi un numéro sur l’onglet
-de votre page URL vous indiquant que vous avez un nouveau message (mail
-ou chat)
-
-.. figure:: media-guide/image403.png
-   :alt: 
-
-Vous pouvez alors **commencer la discussion**.
-
-Les petits « v » en fin de message confirment que votre interlocuteur a
-reçu le message.
-
-Vous pouvez remonter dans l’historique de la conversation en faisant
-glisser la barre grise sur la droite
-
-.. figure:: media-guide/image343.png
-   :alt: 
-
-Si vous cliquez sur les 3 points verticaux à côté du nom du contact,
-vous voyez 3 propositions : renommer, montrer info, supprimer contact .
-
-.. figure:: media-guide/image344.png
-   :alt: 
-
-Voici un exemple de ce qui apparaît si vous choisissez « Montrer les
-informations »
-
-.. figure:: media-guide/image345.png
-   :alt: 
-
-Dans le coin droit en bas, à côté de votre profil du chat « en ligne » ,
-l’icône avec les **3 barres horizontales ouvre plusieurs
-fonctionnalités** comme : les réglages du chat, le son, à propos des
-contacts, …
-
-.. figure:: media-guide/image346.png
-   :alt: 
-
-a) Voici la page qui s’ouvre si vous choisissez « \ **Réglages** », vous
-   pouvez y régler vos options d’identification, les priorités, la copie
-   carbone, le message history, les notifications de compositions, etc.
-
-.. figure:: media-guide/image347.png
-   :alt: 
-
-Il y a déjà des données enregistrées par défaut.
-
-.. figure:: media-guide/image348.png
-   :alt: 
-
-b) Si vous voulez ajouter un contact au chat , appuyez sur « \ **Ajouter
-   un contact** » ; une fenêtre s’ouvre où vous pouvez ajouter un nom et
-   un pseudo. Terminez avec « Ajouter ».
-
-.. figure:: media-guide/image349.png
-   :alt:
-   
-.. figure:: media-guide/image350.png
-   :alt:
-
-c) L’ « \ **Aide en ligne** » vous amène à un site externe avec des
-   explications et des démos
-
-.. figure:: media-guide/image351.png
-   :alt:
-
-.. figure:: media-guide/image352.png
-   :alt: 
-
-d) Pour **rejoindre une discussion** en cours, appuyez sur « Joindre la
-   discussion »
-
-.. figure:: media-guide/image353.png
-   :alt: 
-
-Une fenêtre s’ouvre avec les propositions de discussions existantes,
-sélectionnez celle que vous voulez joindre et appuyez sur « Continuer ».
-
-.. figure:: media-guide/image354.png
-   :alt: 
-
-« Salon » étant le « forum/la chatroom »
-
-Si l’encadrement devient rouge, ce n’est pas une discussion, s’il
-devient vert, vous pouvez continuer. Vous verrez une connexion s’activer
-sur le coin droit supérieur.
-
-.. figure:: media-guide/image355.png
-   :alt: 
-
-Lorsqu’une conversation dans le chat est en cours, avec un ou plusieurs
-interlocuteurs, vous voyez leur nom apparaître dans une petite fenêtre
-dans le bas de l’écran.
-
-Vous pouvez ainsi voir leur message et y répondre.
-
-Si vous voulez démarrer une **vidéoconférence,** appuyez sur la petite
-caméra à côté du nom de la personne en ligne. Elle sera blanche si vous
-et votre interlocuteur avez les accessoires nécessaires pour une
-vidéoconférence, elle sera barrée si ce n’est pas le cas.
-
-.. figure:: media-guide/image358.png
-   :alt: 
-
-.. figure:: media-guide/image404.png
-   :alt: 
-
-Si vous voulez terminer la conversation dans le chat, appuyez sur la
-petite croix à côté du nom de l’interlocuteur.
-
-.. figure:: media-guide/image359.png
-   :alt: 
-
-L’icône des 3 points verticaux à côté du nom de l’interlocuteur ouvre
-une petite fenêtre où vous pouvez effacer l’historique de cette
-conversation avec cet interlocuteur.
-
-.. figure:: media-guide/image360.png
-   :alt: 
-
-Pour **refermer la barre du chat,** et ne plus voir du tout les autres
-utilisateurs en ligne, il suffit de réappuyer sur la barre grise
-verticale.
-
-.. figure:: media-guide/image361.png
-   :alt: 
-
-.. image:: media-guide/Tag-Enterprise.png
-   :align: right
-   :scale: 7%
-   
 Messages internes
 =================
 
