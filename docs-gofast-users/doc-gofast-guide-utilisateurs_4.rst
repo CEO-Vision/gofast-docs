@@ -35,9 +35,10 @@ Riot est séparé en plusieurs zones, la zone du haut est réservée au conversa
 
 Pour sélectionner le salon, il suffit de cliquer dans le rond correspondant, puis :
  
- - commencer à taper du texte (si l'on souhaite écrire à quelqu'un en particulier, commencer par @ et son prénom/nom)
+ - commencer à taper du texte 
  - déclencher une webconference (audio ou video)
- 
+
+.. NOTE:: Si dans un salon vous voulez désigner un utilisateur en particulier, démarrer par @ puis le prénom et nom de la personne, celle-ci recevra une notification particulière
 .. NOTE:: C'est l'administrateur du salon (donc administrateur de l'espace) qui doit initier la 1ère webconference
 
 
