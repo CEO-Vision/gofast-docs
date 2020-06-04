@@ -23,10 +23,10 @@ Riot est accessible de plusieurs façons :
 - sur la page d'un espace (dont un salon a été activé)
 - en pleine page par le menu "Discussion"
  
- Organisation des salons
- --------------------------------------
+Organisation des salons
+--------------------------------------
  
- Riot est séparé en plusieurs zones, la zone du haut est réservée au conversation entre 2 utilisateurs, la zone du bas aux salons dont on est membre.
+Riot est séparé en plusieurs zones, la zone du haut est réservée au conversation entre 2 utilisateurs, la zone du bas aux salons dont on est membre.
  
 .. NOTE:: Pour créer une discussion avec un utilisateur en particulier, vous devez cliquer sur le + dans la zone du haut.
  
@@ -35,10 +35,12 @@ Riot est accessible de plusieurs façons :
 
 Pour sélectionner le salon, il suffit de cliquer dans le rond correspondant, puis :
  
- - commencer à taper du texte
+ - commencer à taper du texte (si l'on souhaite écrire à quelqu'un en particulier, commencer par @ et son prénom/nom)
  - déclencher une webconference (audio ou video)
  
- 
+.. NOTE:: C'est l'administrateur du salon (donc administrateur de l'espace) qui doit initier la 1ère webconference
+
+
 Messages internes
 =================
 
