@@ -321,3 +321,78 @@ Une petite fenêtre s’ouvre et vous informe que votre export est en cours de g
 
 .. figure:: media-guide/Export-all-spaces-download.jpg
    :alt:
+
+
+Gestion DUA (Durée de l'Utilité Administrative)
+===============================================
+La DUA ou la durée d’utilité administrative, est la durée pendant laquelle un document est conservé afin d’être consulté ou utilisé pendant la gestion d’un dossier ou à des fins juridiques. Une fois ce temps écoulé, il sera archivé de façon définitive ou détruit.
+
+Ce processus est indispensable dans la continuité des actions administratives. Il est donc fondamental dans une entreprise de bien maitriser le cycle de vie de chaque document et d’optimiser leur archivage.
+
+GoFAST propose cette fonctionnalité importante et offre la possibilité de personnaliser une DUA selon le type de document à traiter, la durée du processus et le sort final.  Il est également possible de définir une liste d’utilisateurs qui souhaitent être notifiés quand la DUA sera atteinte. 
+
+Pour gérer des DUA, il faut être administrateur de plateforme. 
+À partir du menu « Buger », aller dans « Administration » puis « GoFAST configuration ».   
+
+.. figure:: media-guide/DUA_image_1.jpg
+   :alt: 
+
+À gauche de votre page, défiler vers le bas puis cliquer sur « DUA (Durée d’Utilité Administrative) ».  
+Deux sections sont disponibles :
+
+* Liste des destinataires du mail de notification : dans cette section vous pouvez ajouter des utilisateurs GoFAST qui souhaitent être notifiés à la fin de la DUA.
+
+.. figure:: media-guide/DUA_image_2.jpg
+   :alt: 
+
+* Liste des DUA actuelles : dans cette partie, vous trouvez la liste des DUA déjà existantes. À partir de cet emplacement, vous pouvez également créer une nouvelle DUA. 
+
+.. figure:: media-guide/DUA_image_3.jpg
+   :alt: 
+
+Créer ou modifier une DUA 
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Pour créer une nouvelle DUA, cliquer sur le bouton « + Créer », une nouvelle section s’affiche « Ajouter / Editer des DUA existantes ». Renseigner les champs du formulaire :
+
+* Catégorie : plusieurs catégories sont disponibles par défaut (Contrat, Facture, Information, procédure, …). Il est possible de créer des catégories personnalisées adaptées aux besoins de l’entreprise.
+* DUA :  Nombre de jours ou mois ou années. 
+* Unité : Jour, Mois, Année.
+* Action (Le sort final) :  Archiver, Trier, Détruire.
+Ensuite appuyer sur « Enregistrer » pour valider.
+
+.. figure:: media-guide/DUA_image_4.jpg
+   :alt: 
+
+Vous pouvez également apporter des changements à une DUA existante. Dans la liste, choisissez celle que vous souhaitez modifier et cliquer sur l’icône éditer.
+Il est possible de modifier seulement les champs suivants :  DUA, Unité et Action. N’oubliez pas d’enregistrer pour valider.
+
+.. figure:: media-guide/DUA_image_5.jpg
+   :alt: 
+
+.. NOTE:: Pour supprimer une DUA, il suffit de laisser le champs DUA (Durée d’Utilité Administrative) vide puis Enregistrer.
+
+Appliquer une DUA
+~~~~~~~~~~~~~~~~~~
+Une DUA peut être appliquée sur un document ou plusieurs documents d’un ou plusieurs espace(s) spécifié(s).  
+Pour appliquer une DUA sur un document, dans le bloc métadonnées de ce dernier, aller sur le champ « Catégorie » puis cliquer sur modifier. 
+
+.. figure:: media-guide/DUA_image_6.jpg
+   :alt: 
+
+Choisissez la catégorie qui correspond au type de votre dossier puis appuyer sur « Appliquer ». 
+
+.. figure:: media-guide/DUA_image_7.jpg
+   :alt:
+
+Dans le cas où vous souhaitez affecter une DUA à un ou plusieurs espace(s) spécifique(s), aller dans le menu de « GoFAST Configuration » dans l’onglet « Catégories ».
+
+Dans la section « Filtrer les catégories par Espace(s) Collaboratif(s) », taper le nom de l’espace dans le champ de la catégorie correspondante à votre choix puis cliquer sur Enregistrer pour valider.
+
+.. figure:: media-guide/DUA_image_8.jpg
+   :alt:
+
+Enfin pour marquer un ou plusieurs(s) document(s) de cet espace avec cette catégorie, vous devez aller dans les métadonnées de chacun de ces documents et renseigner le nom de cette catégorie dans le champ « Catégorie ».
+
+.. NOTE::
+   Vous pouvez filtrer les catégories sur les espaces spécifiés. Cela signifie que seuls les documents dans au moins un de ces espaces peuvent être marqués avec cette catégorie. Laisser vide pour autoriser la catégorie pour chaque espace.
