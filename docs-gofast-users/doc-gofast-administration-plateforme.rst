@@ -351,7 +351,7 @@ Deux sections sont disponibles :
    :alt: 
 
 Créer ou modifier une DUA 
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+-------------------------
 
 Pour créer une nouvelle DUA, cliquer sur le bouton « + Créer », une nouvelle section s’affiche « Ajouter / Editer des DUA existantes ». Renseigner les champs du formulaire :
 
@@ -373,7 +373,7 @@ Il est possible de modifier seulement les champs suivants :  DUA, Unité et Acti
 .. NOTE:: Pour supprimer une DUA, il suffit de laisser le champs DUA (Durée d’Utilité Administrative) vide puis Enregistrer.
 
 Appliquer une DUA
-~~~~~~~~~~~~~~~~~~
+-----------------
 Une DUA peut être appliquée sur un document ou plusieurs documents d’un ou plusieurs espace(s) spécifié(s).  
 Pour appliquer une DUA sur un document, dans le bloc métadonnées de ce dernier, aller sur le champ « Catégorie » puis cliquer sur modifier. 
 
