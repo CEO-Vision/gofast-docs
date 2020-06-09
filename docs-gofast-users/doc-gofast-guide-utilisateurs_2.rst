@@ -376,6 +376,37 @@ Cela permet d’associés au processus tous les documents en une fois, que l’o
    
 Pour savoir comment démarrer un nouveau processus de tâches, merci de vous référer à la documentation : https://gofast-docs.readthedocs.io/fr/latest/docs-gofast-users/doc-gofast-guide-utilisateurs.html#workflows-processus-de-taches-enterprise-only
 
+DUA et pré-archivage des documents
+----------------------------------
+La DUA ou la durée d’utilité administrative, est la durée pendant laquelle un document est conservé afin d’être consulté ou utilisé pendant la gestion d’un dossier ou à des fins juridiques. Une fois ce temps écoulé, il sera archivé de façon définitive ou détruit. 
+Ce processus est indispensable dans la continuité des actions administratives. Il est donc fondamental dans une entreprise de bien maîtriser le cycle de vie de chaque document et d’optimiser leur archivage.
+
+GoFAST propose cette fonctionnalité importante et offre la possibilité de personnaliser une DUA selon la catégorie du document, la durée du processus de traitement et le sort final.  Il est également possible de définir une liste d’utilisateurs qui souhaitent être notifiés quand la DUA sera atteinte. 
+
+Appliquer une DUA 
+~~~~~~~~~~~~~~~~~
+Une DUA peut être appliquée sur un document ou plusieurs documents d’un ou plusieurs espace(s) spécifié(s).  
+Pour déclencher une DUA sur un document, dans le bloc métadonnées de ce dernier, aller dans le champ « Catégorie » puis cliquer sur modifier. 
+
+.. figure:: media-guide/DUA_image_6.jpg
+   :alt: 
+
+Choisissez la catégorie qui correspond au type de votre dossier puis appuyer sur « Appliquer ». 
+
+.. figure:: media-guide/DUA_image_7.jpg
+   :alt: 
+
+Ensuite, aller dans le champs «État», appuyer sur «Modifier»,  sélectionner « Pré-archivé » puis cliquer sur le bouton «Appliquer» pour sauvegarder.
+
+.. figure:: media-guide/DUA_image_9.jpg
+   :alt: 
+
+Une fois ce document est en état pré-archivé, son contenu et sa catégorie ne seront plus modifiables et la DUA est déclenchée à partir de la dernière date de sa modification. Quand la DUA est atteinte, les différents utilisateurs associés à cette dernière seront notifiés. 
+
+.. NOTE::
+   Il est important de renseigner le couple ( Catégorie, État : Pré-archivé ), si l’un des deux est vide, la DUA ne se déclenchera pas. 
+
+
 Edition de fichiers et Suite Office Collaborative
 =================================================
 

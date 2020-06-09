@@ -323,13 +323,8 @@ Une petite fenêtre s’ouvre et vous informe que votre export est en cours de g
    :alt:
 
 
-Gestion DUA (Durée de l'Utilité Administrative)
-===============================================
-La DUA ou la durée d’utilité administrative, est la durée pendant laquelle un document est conservé afin d’être consulté ou utilisé pendant la gestion d’un dossier ou à des fins juridiques. Une fois ce temps écoulé, il sera archivé de façon définitive ou détruit.
-
-Ce processus est indispensable dans la continuité des actions administratives. Il est donc fondamental dans une entreprise de bien maitriser le cycle de vie de chaque document et d’optimiser leur archivage.
-
-GoFAST propose cette fonctionnalité importante et offre la possibilité de personnaliser une DUA selon le type de document à traiter, la durée du processus et le sort final.  Il est également possible de définir une liste d’utilisateurs qui souhaitent être notifiés quand la DUA sera atteinte. 
+Configurer une  DUA (Durée de l'Utilité Administrative)
+=======================================================
 
 Pour gérer des DUA, il faut être administrateur de plateforme. 
 À partir du menu « Buger », aller dans « Administration » puis « GoFAST configuration ».   
@@ -372,27 +367,14 @@ Il est possible de modifier seulement les champs suivants :  DUA, Unité et Acti
 
 .. NOTE:: Pour supprimer une DUA, il suffit de laisser le champs DUA (Durée d’Utilité Administrative) vide puis Enregistrer.
 
-Appliquer une DUA
------------------
-Une DUA peut être appliquée sur un document ou plusieurs documents d’un ou plusieurs espace(s) spécifié(s).  
-Pour appliquer une DUA sur un document, dans le bloc métadonnées de ce dernier, aller sur le champ « Catégorie » puis cliquer sur modifier. 
-
-.. figure:: media-guide/DUA_image_6.jpg
-   :alt: 
-
-Choisissez la catégorie qui correspond au type de votre dossier puis appuyer sur « Appliquer ». 
-
-.. figure:: media-guide/DUA_image_7.jpg
-   :alt:
-
-Dans le cas où vous souhaitez affecter une DUA à un ou plusieurs espace(s) spécifique(s), aller dans le menu de « GoFAST Configuration » dans l’onglet « Catégories ».
+Filtrer une DUA par espace(s) 
+-----------------------------
+Si vous souhaitez affecter une DUA à un ou plusieurs espace(s) spécifique(s), aller dans le menu de « GoFAST Configuration » dans l’onglet « Catégories ».
 
 Dans la section « Filtrer les catégories par Espace(s) Collaboratif(s) », taper le nom de l’espace dans le champ de la catégorie correspondante à votre choix puis cliquer sur Enregistrer pour valider.
 
 .. figure:: media-guide/DUA_image_8.jpg
    :alt:
-
-Enfin pour marquer un ou plusieurs(s) document(s) de cet espace avec cette catégorie, vous devez aller dans les métadonnées de chacun de ces documents et renseigner le nom de cette catégorie dans le champ « Catégorie ».
 
 .. NOTE::
    Vous pouvez filtrer les catégories sur les espaces spécifiés. Cela signifie que seuls les documents dans au moins un de ces espaces peuvent être marqués avec cette catégorie. Laisser vide pour autoriser la catégorie pour chaque espace.
