@@ -323,7 +323,7 @@ Une petite fenêtre s’ouvre et vous informe que votre export est en cours de g
    :alt:
 
 
-Configurer une  DUA (Durée de l'Utilité Administrative)
+Configurer une DUA (Durée de l'Utilité Administrative)
 =======================================================
 
 Pour gérer des DUA, il faut être administrateur de plateforme. 
@@ -367,9 +367,9 @@ Il est possible de modifier seulement les champs suivants :  DUA, Unité et Acti
 
 .. NOTE:: Pour supprimer une DUA, il suffit de laisser le champs DUA (Durée d’Utilité Administrative) vide puis Enregistrer.
 
-Filtrer une DUA par espace(s) 
------------------------------
-Si vous souhaitez affecter une DUA à un ou plusieurs espace(s) spécifique(s), aller dans le menu de « GoFAST Configuration » dans l’onglet « Catégories ».
+Filtrer les catégories sur les espaces 
+--------------------------------------
+Si vous souhaitez affecter une catégorie à un ou plusieurs espace(s) spécifique(s), aller dans le menu de « GoFAST Configuration » dans l’onglet « Catégories ».
 
 Dans la section « Filtrer les catégories par Espace(s) Collaboratif(s) », taper le nom de l’espace dans le champ de la catégorie correspondante à votre choix puis cliquer sur Enregistrer pour valider.
 
