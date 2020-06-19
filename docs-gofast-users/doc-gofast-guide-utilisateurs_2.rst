@@ -413,7 +413,8 @@ Quand la DUA est atteinte, les différents utilisateurs associés à cette derni
    Il est important de renseigner le couple ( Catégorie, État : Pré-archivé ), si l’un des deux est vide, la DUA ne se déclenchera pas. 
    
 
-Pour configurer une DUA, seuls les administrateurs de plateforme sont habilités, merci de vous référer à la documentation : https://repo-ismahane.readthedocs.io/fr/3.8.0/docs-gofast-users/doc-gofast-administration-plateforme.html#configurer-une-dua-duree-de-l-utilite-administrative
+.. NOTE::
+   Pour configurer une DUA, seuls les administrateurs de plateforme sont habilités, merci de vous référer à la documentation : https://gofast-docs.readthedocs.io/fr/3.8.0/docs-gofast-users/doc-gofast-administration-plateforme.html#configurer-une-dua-duree-de-l-utilite-administrative
 
 
 Edition de fichiers et Suite Office Collaborative
