@@ -327,7 +327,7 @@ Configurer une DUA (Durée de l'Utilité Administrative)
 =======================================================
 
 Pour gérer des DUA, il faut être administrateur de plateforme. 
-À partir du menu « Buger », aller dans « Administration » puis « GoFAST configuration ».   
+À partir du menu « Burger », aller dans « Administration » puis « GoFAST configuration ».   
 
 .. figure:: media-guide/DUA_image_1.jpg
    :alt: 

@@ -386,6 +386,9 @@ GoFAST propose cette fonctionnalité importante et offre la possibilité de pers
 
 Appliquer une DUA 
 ~~~~~~~~~~~~~~~~~
+
+Le déclenchement de la DUA se fera lors de l'application du statut "Pré-archivé" sur un document, à condition que celui-ci possède une catégorie associée à une DUA.
+
 Une DUA peut être appliquée sur un document ou plusieurs documents d’un ou plusieurs espace(s) spécifié(s).  
 Pour déclencher une DUA sur un document, dans le bloc métadonnées de ce dernier, aller dans le champ « Catégorie » puis cliquer sur modifier. 
 
@@ -408,6 +411,9 @@ Quand la DUA est atteinte, les différents utilisateurs associés à cette derni
 
 .. NOTE::
    Il est important de renseigner le couple ( Catégorie, État : Pré-archivé ), si l’un des deux est vide, la DUA ne se déclenchera pas. 
+   
+
+Pour configurer une DUA, seuls les administrateurs de plateforme sont habilités, merci de vous référer à la documentation : https://repo-ismahane.readthedocs.io/fr/3.8.0/docs-gofast-users/doc-gofast-administration-plateforme.html#configurer-une-dua-duree-de-l-utilite-administrative
 
 
 Edition de fichiers et Suite Office Collaborative
