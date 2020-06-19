@@ -390,6 +390,7 @@ Appliquer une DUA 
 Le déclenchement de la DUA se fera lors de l'application du statut "Pré-archivé" sur un document, à condition que celui-ci possède une catégorie associée à une DUA.
 
 Une DUA peut être appliquée sur un document ou plusieurs documents d’un ou plusieurs espace(s) spécifié(s).  
+
 Pour déclencher une DUA sur un document, dans le bloc métadonnées de ce dernier, aller dans le champ « Catégorie » puis cliquer sur modifier. 
 
 .. figure:: media-guide/DUA_image_6.jpg
