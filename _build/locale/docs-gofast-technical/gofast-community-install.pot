@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gofast-docs latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-18 14:07+0100\n"
+"POT-Creation-Date: 2020-05-27 12:27+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,328 +16,327 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:3
-# 35f627c2b3e7471d9b98f8c59cc0b72c
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-community-install.rst:3
+#: 424c138fb5e447339f78807d6f534550
 msgid "GoFAST Community :  Installation"
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:4
-# bbd5d71efe7c4494b2970a56e75a8bb8
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-community-install.rst:4
+#: 51dc47265e864c6f9aa92dd7e3064739
 msgid "For english instruction please follow this link: https://ceo-vision.readthedocs.io/en/latest/docs/en/doc-gofast-community-install.html"
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:6
-# 73bd41911f8c4657a437f765286db0dd
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-community-install.rst:6
+#: 21e07e662958474496bd371032256c6f
 msgid "En cas de problème vous pouvez poser vos questions sur les forums : https://community.ceo-vision.com"
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:8
-# 39325ddf91ee422c8deefaff228ad812
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-community-install.rst:8
+#: 8d2acd60272e4c9c9d85f41b917dc29f
 msgid "Après l'installation, ne pas oublier de vérifier qu'il existe des mises à jour dans le menu (votre environnement doit avoir accès à internet) ou directement https://votre_adresse_ip/admin/config/gofast/update"
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:12
-# 34c7acc8e0c84507afa7a8ba3d827685
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-community-install.rst:12
+#: d6b1865677034484817be859feafbe00
 msgid "Instructions (pour AWS)"
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:13
-# 39526f7cbcef4ac1a3e1389ef0fadb9b
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-community-install.rst:13
+#: b7eb31d36e614cbd8bd658705a7514d7
 msgid "https://aws.amazon.com/marketplace/pp/B07NPZHPG3"
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:15
-# b6b367d7df5f48a5bfa4f1d39f3c96f0
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-community-install.rst:15
+#: 2909cd751bef4f76b0097ced04eae616
 msgid "Instancier GoFAST et aller au paragraphe `La Configuration`_"
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:17
-# c7915f1515534b88995209809bf8b85c
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-community-install.rst:17
+#: 781acafc5e814c2696f86c0eeb38cfdc
 msgid "Ne pas oublier de choisir ``default`` pour \"Security Group\" pour permettre le traffic entrant 22 (ssh) et 443 (https)"
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:20
-# d7cbd26186b1412b9aaa6b78c7a6a801
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-community-install.rst:20
+#: 02de538ef27a4eeba1f3cd25a89306ac
 msgid "Instructions (par image)"
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:22
-# 6e5e44e810ea40ccb25ed7ccc7f3d42c
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-community-install.rst:22
+#: fe6abd30a2484a97934ed196518944d9
 msgid "–Étape 1: Télécharger l’image sur le site https://www.ceo-vision.com/fr/content/gofast-community-ged-plateforme-collaborative-opensource (.ova, ...)"
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:24
-# 5fb1d19b200240728ca3b15b33c1fe16
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-community-install.rst:24
+#: 141371e6864c4a738db6596dbd3fc31f
 msgid "–Étape 2: Instancier l'image dans votre logiciel de virtualisation (VMWare, ...)"
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:26
-# dc628fe5e22e4ab4af9596ce93c78742
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-community-install.rst:26
+#: c72fdb9eb03342ec84ace6dc723d9e41
 msgid "GoFAST est une application d'entreprise et nécessite un serveur (mini 2vcpu,6GB RAM,SSD recommandé). L'utilisation sur un simple PC sous VirtualBox est donc déconseillée et il est possible de subir des timeouts au premier accès et ensuite à la fin de la configuration. Un simple rafraichissement de la page suffit."
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:28
-# 2d76ce00a990414ba0ecd6650468a4b3
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-community-install.rst:28
+#: d8917b89ba40425fa5a2b72f6b3f3d92
 msgid "-Étape 3: Se connecter à la machine virtuelle en mode console et lancer ``nmtui`` pour configurer le réseau (adresse IP fixe, passerelle ...). Voir https://gofast-docs.readthedocs.io/fr/latest/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.html#configuration-du-reseau-par-lexploitant"
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:30
-# 7d4d6d7d51ca4984ac823c231a9827cf
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-community-install.rst:30
+#: 44c89950e0ba4abe9f1d6ee0dc46dba7
 msgid "Pour vous connecter à votre VM : Le login utilisateur est ``root`` et le mot de passe ``@C0mmunity!`` (avec un ``0`` et non ``O``)."
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:31
-# a38b77a2fa4f4cc19aba5b4f6bad7fd4
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-community-install.rst:31
+#: 816f4cd36e284f81817ec39263a2d7d8
 msgid "Le clavier est initialement en mode FR ce qui peut poser problème lorsque vous entrez le mot de passe si vous utilisez un clavier QWERTY."
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:32
-# c3eb09c487e74bfb8d22522d2309bf3e
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-community-install.rst:32
+#: 8248767d3ce64fcbb11d174d3f38c573
 msgid "Le mot de passe root sera changé par celui défini lors du processus de configuration (voir ci-dessous)"
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:34
-# 844a92fa639449ffa5f14d36ac74d300
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-community-install.rst:34
+#: 09bf2c2f6e7f4b128178cef30f70bb1b
 msgid "–Étape 4: Se rendre sur ``https://votre_adresse_ip`` ce qui lance la configuration de la plate-forme."
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:36
-# 61fcb905bfb948da9e231349a07aa421
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-community-install.rst:36
+#: 70ab2979cb0548f98eb08d9d850f3eb0
 msgid "Pour pouvoir utiliser l'adresse complète (FQDN), déclarer la avec son adresse IP dans le fichier ``hosts`` ou dans le DNS"
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:40
-# 83e493bf7063484a9d93cd6ec6a716c3
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-community-install.rst:40
+#: f1547f2595b548cfa534f32c7eb2e967
 msgid "La configuration"
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:42
-# b96a7fb547254e9cbee609c97a2e6a03
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-community-install.rst:42
+#: df4b7fb627ef46ecbab1f92f77271a94
 msgid "Lorsque vous vous rendez sur l'adresse IP , une page de configuration fait son apparition, elle est constituée de 4 étapes:"
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:44
-# 825bb937ec0241b0848f0d10d30f0ae4
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-community-install.rst:44
+#: d39f5bbbb0514cadb2426631309c13c8
 msgid "–La configuration du nouveau nom de domaine"
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:46
-# f9946f02b19f49b59d0113b4ea25a9e4
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-community-install.rst:46
+#: c5fdfcf4ddde4ed2a7a72797bd9bf712
 msgid "–La configuration du certificat SSL"
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:48
-# 7878fdf6207241968d04bd7fc0bff0fa
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-community-install.rst:48
+#: 7339367e21474f8882758643e4050206
 msgid "–La configuration du serveur SMTP"
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:50
-# 31b89ed182e84707948a1b0013ba2c19
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-community-install.rst:50
+#: e9aef0531cc34ad9a16d5905bc8747f7
 msgid "–La configuration du compte administrateur de la plateforme"
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:52
-# 393549767bb74566bc1a0d786e329016
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-community-install.rst:52
+#: 1bf1e5e969fc4a5b813186a91bfe99d9
 msgid "Une fois ces 4 étapes effectuées, une page apparait avec un récapitulatif. Si tout est correct, validez la configuration."
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:55
-# a6252c327b7e4398860885b5be791498
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-community-install.rst:55
+#: 47e29bb574aa40f48cbd4172457470dc
 msgid "Etape 1 : Configuration du nom de domaine"
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:56
-# 64dee560536c4c53813301dbaf4018e0
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-community-install.rst:56
+#: bcb21948f7d64ce686db05d42c459f4c
 msgid "Sur cet écran vous configurez chaque partie du FQDN de GoFAST, ex. ``gofast.ceo-vision.com`` :"
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:58
-# 5c284f9428f04868a951a3e209eec87b
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-community-install.rst:58
+#: c5d0e5feb5374ed5b2bc328c22302246
 msgid "**Nouveau sous-domaine** : C'est le sous-domaine GoFAST, ex. ``gofast``"
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:59
-# 3de2f1a55b094816a0aebefa6a3018ce
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-community-install.rst:59
+#: d6b9266f6c0944549c06faaa7ba395fb
 msgid "**Nouveau domaine** : Le domaine habituel de votre organisation ex. ``ceo-vision``"
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:60
-# 223dbb584bf34ceaa0dea5a9be476f1f
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-community-install.rst:60
+#: 0cf4643656f54a85ba4f7770495fe40c
 msgid "**Extension** : Ceci est le TLD, la dernière partie de l'URL ex. ``com``"
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:63
-# 29ceb416c460489d8ff5fdb4cfa2b3c8
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-community-install.rst:63
+#: ab7ff1638fcf40d394d92980b2442b5c
 msgid "Etape 2 : Configuration du Certificat SSL"
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:64
-# daaab344b3af4f83a117b20bfca316e1
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-community-install.rst:64
+#: 7eac332998ed4f01919e8d157c0eefab
 msgid "2 possibilités à ce stade, utiliser vos certificats (recommandé) ou en créer des auto-signés."
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:68
-# 303995a3f32e4631ab13c07fb0e94dec
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-community-install.rst:68
+#: 1088af56548241e0b963184be96e02d6
 msgid "Pour la 1ère option vous devez fournir :"
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:67
-# 1830314c3ad7462eb084c070f1dd88ec
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-community-install.rst:67
+#: 476c1186d35b400e9d4f8714e794c972
 msgid "**la clef publique de votre certificat**"
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:68
-# 98ee51cc545f44b9a4337baf741bd747
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-community-install.rst:68
+#: bc551fbc58bb4cc89489e873e1fdf7ab
 msgid "**la clef privée**"
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:77
-# 253da9ce77c741a38ce7bcc883004b99
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-community-install.rst:77
+#: 03f93bb347e241019f4ce91c6996ee41
 msgid "Pour la 2ème option vous devez fournir :"
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:71
-# 2e1f30ea9ba84eb2a8e122dd4736362f
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-community-install.rst:71
+#: 47d3b82d3d1e4fc1a94b0068a3eb1470
 msgid "**Country**"
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:72
-# de27a93d6c6e4e8caf66cd1c800da48d
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-community-install.rst:72
+#: 9bd6046d9c30462d8c99cbe3795ffb53
 msgid "**State or Province**"
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:73
-# 5c4e255bca604a7db8d80c5dc0478c26
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-community-install.rst:73
+#: 2f5551b240ab46689675f78e1229d85c
 msgid "**City**"
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:74
-# e7aeba2767ba4e10be87de6f859caf15
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-community-install.rst:74
+#: df4d3852a725499f9ce029e36f89ba30
 msgid "**Company**"
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:75
-# 3e17084164e5424c813f44a93e3d3043
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-community-install.rst:75
+#: 6692aca073d147049e8a0699642446ba
 msgid "**Organization unit**"
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:76
-# 3ef39c5db0db43c78d4916a0949bf97a
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-community-install.rst:76
+#: 6a04c347de8a4df1b2760c82d6d2b2c1
 msgid "**Web site name**"
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:77
-# 820e2f97d5c24c52b826673f6d940296
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-community-install.rst:77
+#: d59746588ce9481b975ff36d26a07f99
 msgid "**E-mail address**"
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:80
-# 5bc99e137ca34294a08c850903e57619
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-community-install.rst:80
+#: 8016453745aa4d3ab825fbcb5e7df89b
 msgid "Etape 3 : Configuration Serveur SMTP"
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:81
-# ca4fbc2b131443dc98cf9cbe706bc506
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-community-install.rst:81
+#: f5097f46e9e8496eadd6b442c0754e34
 msgid "Cette 3ème étape permet de configurer le serveur SMTP utilisé par GoFAST pour envoyer des emails. Les champs nécessaires sont:"
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:83
-# 9165fa0d2be749fa9f83bb8856d8c805
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-community-install.rst:83
+#: c65cc67573b64835beed7e9ccdf828a1
 msgid "**SMTP Server** :"
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:84
-# 2e45907787d642058b8eb81489ce5050
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-community-install.rst:84
+#: 43d7fd30136d40a582f7ab2c121af090
 msgid "**Username** :"
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:85
-# 2f5a54779b2f46439e0700384d8c036b
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-community-install.rst:85
+#: e3a835df2b8c4fa18b5ec21f2ce5a116
 msgid "**Password** :"
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:86
-# 29abc2c7de9e41bc88fbf3196d24a85b
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-community-install.rst:86
+#: bdbe55e88ea74ba9a21af973591baec1
 msgid "**Security** : None (without security), TLS (....), SSL (....)"
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:87
-# 5ff9a58862d649b792c1745173670e39
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-community-install.rst:87
+#: ad8319ab5e3043cd9b2c5fbf4745c453
 msgid "**SMTP Port** :"
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:88
-# 2236e17fa2904bcd9ca529dd8338c023
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-community-install.rst:88
+#: ee23a9b5c6b348e2ae4218a93ae9ac38
 msgid "**Recipient address** :"
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:91
-# 5f04a2fd6fa8441984c3db0eeb494f35
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-community-install.rst:91
+#: bc45be0322cb4df78efb8056e2f625a5
 msgid "Etape 4 : Creation de l'utilisateur administrateur"
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:92
-# c12a8d70307b420aa9cd6d04bb21ea04
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-community-install.rst:92
+#: 81257d443aa841d4a2f11d0332033d67
 msgid "Cette étape définit le compte administrateur qui a accès à plusieurs configurations supplémentaires une fois l'instance GoFAST démarrée. Vous devez choisir l'identifiant, le mot de passe et l'adresse email de ce compte administrateur."
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:94
-# 8af17ed6b7974eb1a82913a3456e0955
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-community-install.rst:94
+#: 1e2ca782cabb4ef5ba82e91f32f37505
 msgid "Il n'est pas possible de choisier 'admin' qui est un compte réservé"
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:97
-# 7571fcd96fb744539eaeceab7690ef04
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-community-install.rst:97
+#: 7e89225b57634dbcac47d7c05bcdb59a
 msgid "Etape 5 : Confirmation de la configuration"
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:98
-# cf3d5be1a0ee47618f5ea2752bd9f04b
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-community-install.rst:98
+#: 0755a1dbd58b405c92a78bff2d9b37a9
 msgid "Vérifiez attentivement tous les champs et validez."
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:101
-# 630b93775f60457b8fbbb5922694c340
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-community-install.rst:101
+#: e7ae492fcd924ed8a6b5ade0bea99608
 msgid "Après avoir cliqué sur \"Terminer la configuration\" vous ne pouvez plus revenir aux étapes précédantes, bien vérifier tous les champs avant de passer à l'étape suivante"
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:103
-# e2a7b91e0efb40d28db2e870ca6bcf1f
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-community-install.rst:103
+#: 6c8655a256274e7f958b8a8267d2e179
 msgid "De nombreuses opérations techniques vont être effectuées ainsi que des démarrages de service, ceci pouvant être plus ou moins long suivant les capacités du serveur"
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:105
-# 86c83b891279431fa66ed546e23ffa6c
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-community-install.rst:105
+#: 8a73dfd090f246ed9ede3cd9762b2372
 msgid "Si vous avez généré un certificat SSL auto-signé, il vous faudra ouvrir une autre page avec la meme adresse IP pour de nouveau ajouter l'exception au navigateur. Après avoir ajouté cette exception, fermer immédiatement cette nouvelle page et retourner sur la page de chargement de votre GoFAST."
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:108
-# 48be4b0e53a84d28a61155693c6f13f2
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-community-install.rst:108
+#: 257fcdc913da4a8193e9e494af251233
 msgid "Démarrons !"
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:110
-# 3e0e63c1c8bb440f9afdbba1ec1485d0
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-community-install.rst:110
+#: 4c1058325f6642208939f91d342e195f
 msgid "Vous devez créer quelques utilisateurs et des espaces collaboratifs (et sous-espaces)."
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:112
-# b7720faf5dd541a184ed0177f2e203e8
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-community-install.rst:112
+#: bbd17417ec414985ad4bff9ecabca745
 msgid "Les espaces peuvent être de différents types, \"Organisation\" (départements, ...), \"Groupes\" (projets, ...), \"Extranet\" (partenaires, clients, ...). Voir la documentation en ligne ici : https://gofast-docs.readthedocs.io/fr/latest/docs-gofast-users/doc-gofast-guide-utilisateurs.html#gerer-un-espace-collaboratif-groupe"
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:114
-# f41dd2d105e34f38946aa125c515e8cd
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-community-install.rst:114
+#: 601a6f8a51274d7f928a35255893f20f
 msgid "Dans les sous-espaces créés, ajouter des membres qui pourront avoir accès au contenu de cet espace. Ajoutez des sous-espaces si nécessaire."
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:116
-# 83ecb1cdcc0c467d8a883c98d3d5f346
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-community-install.rst:116
+#: 8a16502b5b404f3f82fdfacf078863e0
 msgid "Ajoutez du contenu en utilisant le glisser-déposer dans le \"GoFAST File Browser\" (explorateur de fichiers)"
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:118
-# 3ca16082756744fb9751bdcde2138982
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-community-install.rst:118
+#: a3188eab882441a0b57d117cf0948132
 msgid "Vous êtes prêt pour démarrer !"
 msgstr ""
-
