@@ -42,14 +42,6 @@ Pour sélectionner le salon, il suffit de cliquer dans le rond correspondant, pu
 .. NOTE:: C'est l'administrateur du salon (donc administrateur de l'espace) qui doit initier la 1ère webconference
 
 
-Messages internes
-=================
-
-D’une manière générale, vous verrez un **numéro** sur l’onglet de votre
-page URL vous indiquant que vous avez un nouveau message (mail ou chat)
-
-.. figure:: media-guide/image324.png
-   :alt: 
 
 Lire ses messages et y répondre
 -------------------------------
