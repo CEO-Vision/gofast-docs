@@ -5,7 +5,7 @@ GoFAST : Problèmes connus
  
 .. CAUTION:: Si vous ne trouvez pas de réponse à vos questions ci-dessous et que vous disposez d'un abonnement GoFAST Entreprise il est important (après avoir vérifier que vous suivez les pré-requis) que vous fournissiez au support CEO-Vision le type (Windows, Mac, Linux) et la version de système d'exploitation, type et version de navigateur, le cas échéant version de la suite bureautique (MS-Office, LibreOffice,...). Vous pouvez aussi consulter les forums: https://community.ceo-vision.com
 
-.. CAUTION:: GoFAST ionterdit l'utilisation de protocoles non sécurisés comme SSL, TLS1.0 et TLS1.1. Ceci peut être la cause du rejet de connexion dans MS-Office et du Lecteur réseau sur Windows 7 (plus supporté par CEO-Vision) sur lesquels les correctifs sécurités n'auraient pas été appliqués (voir https://community.ceo-vision.com/topic/83/erreur-interne-du-chargement-des-biblioth%C3%A8ques-ssl-office2010-windows7-utilise-des-protocoles-non-s%C3%A9curis%C3%A9s).
+.. CAUTION:: GoFAST interdit l'utilisation de protocoles non sécurisés comme SSL, TLS1.0 et TLS1.1. Ceci peut être la cause du rejet de connexion dans MS-Office et du Lecteur réseau sur Windows 7 (plus supporté par CEO-Vision) sur lesquels les correctifs sécurités n'auraient pas été appliqués (voir https://community.ceo-vision.com/topic/83/erreur-interne-du-chargement-des-biblioth%C3%A8ques-ssl-office2010-windows7-utilise-des-protocoles-non-s%C3%A9curis%C3%A9s).
 
 Problèmes Microsoft Office
 ============================
