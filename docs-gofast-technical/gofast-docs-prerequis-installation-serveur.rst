@@ -68,11 +68,11 @@ Architecture
 +======================================+======================================+
 |Edition collaborative                 | OnlyOffice 5                         |
 +--------------------------------------+--------------------------------------+
-|Messagerie instantannée (<GoFAST 3.8) |eJabberd 16                           |
+|Messagerie instantannée (<GoFAST 3.8) | eJabberd 16                          |
 +--------------------------------------+--------------------------------------+
-|Messagerie instantannée (>GoFAST 3.8) |Prososy 0.11                          |
+|Messagerie instantannée (>GoFAST 3.8) | Matrix-Synapse v1.12                 |
 +--------------------------------------+--------------------------------------+
-|Webconference                         | Jitsi Meet 1.0                       |
+|Webconference                         | Jitsi Meet 1.0 et Prosody 0.11       |
 +--------------------------------------+--------------------------------------+
 |Reverse Proxy                         | nginx 1.12                           |
 +--------------------------------------+--------------------------------------+
