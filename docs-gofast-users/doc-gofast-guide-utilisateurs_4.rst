@@ -1,10 +1,10 @@
 Conversation/Chat/Messagerie instantanée (Enterprise only)
 ===============================================
    
-GoFAST inclut un outil de discussion/conversation temps réel (basé sur Element anciennement Riot) similaire à MS-Teams et Slack. Parcontre, contraiement à ces 2 concurrents, 
+GoFAST inclut un outil de discussion/conversation temps réel (basé sur "Element" anciennement Riot) similaire à MS-Teams et Slack. Parcontre, contraiement à ces 2 concurrents, 
 vous savez totalement où sont stockés vos données, dans un datacenter souverain ou dans votre datacenter suivant l'option GoFAST choisit.
 
-Element/Matrix est la technologie retenue par l'Etat Français (Tchap) et Thales sous le nom de Citadel.
+"Element"/Matrix est la technologie retenue par l'Etat Français (Tchap) et Thales sous le nom de Citadel.
 
 L'outil de conversation permet des discussions de personne à personne ou des salons permettant de rassembler plusieurs personnes autour d'une même thématique. Ces échanges peuvent être des messages texte ou des conférences audio/video.
 
