@@ -43,8 +43,8 @@ Pour sélectionner le salon, il suffit de cliquer dans le rond correspondant, pu
 
 
 
-Lire ses messages et y répondre
--------------------------------
+Message privé
+===============================================
 
 Lorsque vous apercevez un numéro rouge sur le logo GoFAST, dans le coin
 en haut à gauche, à côté de l’adresse GoFAST, cela veut aussi dire que
