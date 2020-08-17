@@ -1,10 +1,10 @@
 Conversation/Chat/Messagerie instantanée (Enterprise only)
 ===============================================
    
-GoFAST inclut un outil de conversation temps réel (Riot/Matrix) similaire à MS-Teams et Slack. Parcontre, contraiement à ces 2 concurrents, 
+GoFAST inclut un outil de discussion/conversation temps réel (basé sur Element anciennement Riot) similaire à MS-Teams et Slack. Parcontre, contraiement à ces 2 concurrents, 
 vous savez totalement où sont stockés vos données, dans un datacenter souverain ou dans votre datacenter suivant l'option GoFAST choisit.
 
-Riot/Matrix est la technologie retenue par l'Etat Français (Tchap) et Thales sous le nom de Citadel.
+Element/Matrix est la technologie retenue par l'Etat Français (Tchap) et Thales sous le nom de Citadel.
 
 L'outil de conversation permet des discussions de personne à personne ou des salons permettant de rassembler plusieurs personnes autour d'une même thématique. Ces échanges peuvent être des messages texte ou des conférences audio/video.
 
@@ -12,12 +12,12 @@ Un salon est normalement associé à un espace ou sous-espace.
 
 .. NOTE:: C'est l'admistrateur de l'espace qui peut décider d'associer un salon à un espace.
 
-De plus, cet outil de conversation Riot est installable aussi sur son smartphone (Android, iOS/iPAD) et comme une application sur PC, MacOS et Linux. Voir https://gofast-docs.readthedocs.io/fr/latest/docs-gofast-users/doc-gofast-utilisation-avancee.html#messagerie-instantanee-chat-conversation-sur-mobiles
+De plus, cet outil de conversation "Element" est installable aussi sur son smartphone (Android, iOS/iPAD) et comme une application sur PC, MacOS et Linux. Voir https://gofast-docs.readthedocs.io/fr/latest/docs-gofast-users/doc-gofast-utilisation-avancee.html#messagerie-instantanee-chat-conversation-sur-mobiles
 
-Comment accéder à Riot
+Comment accéder à "Element"
 ----------------------
 
-Riot est accessible de plusieurs façons :
+"Element" est accessible de plusieurs façons :
 
 - par le volet de droite
 - sur la page d'un espace (dont un salon a été activé)
@@ -26,7 +26,7 @@ Riot est accessible de plusieurs façons :
 Organisation des salons
 --------------------------------------
  
-Riot est séparé en plusieurs zones, la zone du haut est réservée au conversation entre 2 utilisateurs, la zone du bas aux salons dont on est membre.
+"Element" est séparé en plusieurs zones, la zone du haut est réservée au conversation entre 2 utilisateurs, la zone du bas aux salons dont on est membre.
  
 .. NOTE:: Pour créer une discussion avec un utilisateur en particulier, vous devez cliquer sur le + dans la zone du haut.
  
