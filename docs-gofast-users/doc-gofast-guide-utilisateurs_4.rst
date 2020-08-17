@@ -48,40 +48,13 @@ Message privé
 
 Lorsque vous apercevez un numéro rouge sur le logo GoFAST, dans le coin
 en haut à gauche, à côté de l’adresse GoFAST, cela veut aussi dire que
-vous avez un ou plusieurs **nouveaux messages (**\ par email). Cliquez
-sur ce numéro ou sur le message en vert (« You have 1 unread message »)
-pour voir la liste des messages reçus.
+vous avez un ou plusieurs **nouveaux messages (**\ par email). 
 
 .. figure:: media-guide/image325.png
    :alt: 
 
-a) **Voici ce que vous verrez si vous appuyez sur le message vert**
 
-    Vous voyez le titre du message reçu, l’expéditeur, la date et heure
-    de l’envoi et si c’est un nouveau message (« NOUVEAU » en bleu à
-    côté du titre)
-
-    Pour supprimer des messages, sélectionnez les en cochant les cases
-    devant chacun et appuyez sur « Supprimer » (en rouge)
-
-    .. figure:: media-guide/image326.png
-       :alt: 
-
-    Vous pouvez aussi choisir une action comme « Marquer comme lu ou
-    non-lu », en cliquant sur la flèche à droite au niveau de la ligne
-    « Actions »
-
-    .. figure:: media-guide/image327.png
-       :alt: 
-
-    Vous pouvez également trier par ordre chronologique croissant ou
-    décroissant en cliquant sur la flèche au-dessus des dates et heures
-    d’envoi
-
-.. figure:: media-guide/image328.png
-   :alt: 
-
-b) **Et voici ce que vous verrez si vous appuyez sur l’enveloppe**
+**Cliquez sur l’enveloppe**
 
     Vous voyez la liste des messages, les participants (expéditeurs et
     destinataires), la date et l’heure d’envoi et la poubelle pour le
