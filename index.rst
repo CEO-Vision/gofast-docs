@@ -5,7 +5,7 @@ Documentation GoFAST
 
 .. toctree::
    :maxdepth: 1
-   :caption: Documentation Technique GoFAST
+   :caption: GoFAST : Documentation Tech
    
    docs-gofast-technical/gofast-docs-prerequis-installation-serveur
    docs-gofast-technical/gofast-community-install
@@ -16,7 +16,7 @@ Documentation GoFAST
 
 .. toctree::
    :maxdepth: 1
-   :caption: Documentation Utilisateurs GoFAST 
+   :caption: GoFAST : Documentation Use 
 
    docs-gofast-users/doc-gofast-guide-utilisateurs
    docs-gofast-users/doc-gofast-utilisation-avancee
@@ -26,7 +26,7 @@ Documentation GoFAST
 
 .. toctree::
    :maxdepth: 1
-   :caption: Releases GoFAST
+   :caption: GoFAST : Releases
    
    docs-gofast-technical/release-notes-3.8.0
    docs-gofast-technical/release-notes-3.7.1
@@ -48,6 +48,6 @@ Documentation GoFAST
 
 .. toctree::
    :maxdepth: 1
-   :caption: Ressources développeur GoFAST
+   :caption: GoFAST : Developer Resources
    
    docs-gofast-development/api-rest
