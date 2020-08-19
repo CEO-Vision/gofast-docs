@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gofast-docs latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-27 12:27+0200\n"
+"POT-Creation-Date: 2020-08-19 10:26+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -5392,770 +5392,695 @@ msgstr ""
 
 #: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:2
 #: ceb1f05a8942464ebca9b400418189e0
-msgid "Chat/Messagerie instantanée (Enterprise only)"
+msgid "Conversation/Chat/Messagerie instantanée (Enterprise only)"
 msgstr ""
 
-#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:5
-#: b5d095ce4b7f40e29d7495ce6fe9dc96
-msgid "Nous parlons ici de la version dans le navigateur du Chat, vous pouvez également recevoir les messages avec votre smartphone (voir Utilisation Avancée)"
+#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:4
+#: a0d7d2f4f00e4edcaa80cf9663bed341
+msgid "GoFAST inclut un outil de discussion/conversation temps réel (basé sur \"Element\" anciennement Riot) similaire à MS-Teams et Slack. Parcontre, contraiement à ces 2 concurrents, vous savez totalement où sont stockés vos données, dans un datacenter souverain ou dans votre datacenter suivant l'option GoFAST choisit."
 msgstr ""
 
 #: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:7
-#: 64cecd9be2d14be3a79f3c75bc851f88
-msgid "Pour **ouvrir le chat**, il faut aller sur l’extrême droite de l’écran, cliquer sur la barre verticale grise."
+#: 29930b43b3f84a3a947f2e6ce0b2c368
+msgid "\"Element\"/Matrix est la technologie retenue par l'Etat Français (Tchap) et Thales sous le nom de Citadel."
+msgstr ""
+
+#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:9
+#: 7b39a7478b6e4f8b81fa6c5f506e486e
+msgid "L'outil de conversation permet des discussions de personne à personne ou des salons permettant de rassembler plusieurs personnes autour d'une même thématique. Ces échanges peuvent être des messages texte ou des conférences audio/video."
+msgstr ""
+
+#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:11
+#: 9a4ba6ddfa8e44c38163d29103ad812e
+msgid "Un salon est normalement associé à un espace ou sous-espace."
 msgstr ""
 
 #: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:13
-#: 548b3150dd8c488b95245f198330dd94
-msgid "Vous pouvez ainsi voir la liste des personnes qui font partie des mêmes groupes que vous et qui sont, en ce moment, en ligne (boule verte sur la photo) ou absents (boule orange sur la photo)."
+#: 5da00d547b5e41f5989da5d4f1c93024
+msgid "C'est l'admistrateur de l'espace qui peut décider d'associer un salon à un espace."
+msgstr ""
+
+#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:15
+#: 3386deaa93a148679f1c7fa025887c12
+msgid "De plus, cet outil de conversation \"Element\" est installable aussi sur son smartphone (Android, iOS/iPAD) et comme une application sur PC, MacOS et Linux. Voir https://gofast-docs.readthedocs.io/fr/latest/docs-gofast-users/doc-gofast-utilisation-avancee.html#messagerie-instantanee-chat-conversation-sur-mobiles"
+msgstr ""
+
+#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:18
+#: e2cbfeb88baa462aa242b0cb2461470d
+msgid "Comment accéder à \"Element\""
 msgstr ""
 
 #: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:20
-#: a37e94ae1b494a2eb38d433150b6f599
-msgid "Vous pouvez choisir votre **statut** sur le chat en cliquant sur le statut actuel à côté de votre photo, vous verrez ainsi une liste apparaître, cliquez sur votre choix pour le changer."
+#: 2348937afa53493c9835707a4ce01b0b
+msgid "\"Element\" est accessible de plusieurs façons :"
+msgstr ""
+
+#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:22
+#: 2d7f084d91164f5cb1087ab1d5da141e
+msgid "par le volet de droite"
+msgstr ""
+
+#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:23
+#: 3e67f4e855de48e8a07c3ec16e8184ab
+msgid "sur la page d'un espace (dont un salon a été activé)"
+msgstr ""
+
+#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:24
+#: 85749befd85c4b5c9495f3fb5edc66c2
+msgid "en pleine page par le menu \"Discussion\""
 msgstr ""
 
 #: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:27
-#: 84eaeb74c9bc4999b37f00a9ed00b1bd
-msgid "Vous verrez si vous avez un **nouveau message dans le chat** grâce à un petit numéro qui « saute » à côté de votre statut. Mais ce message peut être une pop up, pas nécessairement un message d’un utilisateur."
+#: ad037956f2634107999bc86a56e8fcf1
+msgid "Organisation des salons"
 msgstr ""
 
-#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:34
-#: 77af197347784609b559d54b63e0becc
-msgid "Vous voyez aussi si vous avez un **message sur le chat** avec un petit carré qui clignote dans le coin droit inférieur de l’écran ou avec une pop-up si vous n’êtes pas sur l’écran GoFAST"
+#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:29
+#: e7c8d8c4f3fc4fb8a441f9a9591c593c
+msgid "\"Element\" est séparé en plusieurs zones, la zone du haut est réservée au conversation entre 2 utilisateurs, la zone du bas aux salons dont on est membre."
+msgstr ""
+
+#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:31
+#: d9f39fc7e97449bf81f262069a87a870
+msgid "Pour créer une discussion avec un utilisateur en particulier, vous devez cliquer sur le + dans la zone du haut."
+msgstr ""
+
+#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:36
+#: 495ea2b7d1d94ba0a56546a3c0f45da4
+msgid "Pour sélectionner le salon, il suffit de cliquer dans le rond correspondant, puis :"
+msgstr ""
+
+#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:38
+#: 4ed69cd1a9174945b97a0518d353d6a0
+msgid "commencer à taper du texte"
+msgstr ""
+
+#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:39
+#: f59fab1fe32a4ae0bd11addcb3a0420b
+msgid "déclencher une webconference (audio ou video)"
+msgstr ""
+
+#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:41
+#: 0bc2d74e55294570bd96196ccce854eb
+msgid "Si dans un salon vous voulez désigner un utilisateur en particulier, démarrer par @ puis le prénom et nom de la personne, celle-ci recevra une notification particulière"
+msgstr ""
+
+#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:42
+#: 4b3b2e3db274488598fd9f21a1bb0d42
+msgid "C'est l'administrateur du salon (donc administrateur de l'espace) qui doit initier la 1ère webconference"
+msgstr ""
+
+#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:47
+#: 4999b3367e6f450c837c3bee9754302c
+msgid "Message privé"
 msgstr ""
 
 #: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:49
-#: 75a54dca38184614886d1056e7632181
-msgid "Ou d’une manière plus générale, vous verrez aussi un numéro sur l’onglet de votre page URL vous indiquant que vous avez un nouveau message (mail ou chat)"
-msgstr ""
-
-#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:56
-#: 3e7a25b01fea43cf885657af22fb9d50
-msgid "Vous pouvez alors **commencer la discussion**."
-msgstr ""
-
-#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:58
-#: 4a73fcb75ec745529ecc76d191760745
-msgid "Les petits « v » en fin de message confirment que votre interlocuteur a reçu le message."
-msgstr ""
-
-#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:61
-#: 45ad5db603d1449ebbcca3ead589f056
-msgid "Vous pouvez remonter dans l’historique de la conversation en faisant glisser la barre grise sur la droite"
-msgstr ""
-
-#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:67
-#: 37c11ba30d0744fcbd970100b2f5ac01
-msgid "Si vous cliquez sur les 3 points verticaux à côté du nom du contact, vous voyez 3 propositions : renommer, montrer info, supprimer contact ."
-msgstr ""
-
-#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:73
-#: 63e576c5353a48c882ff3e7b60079b4d
-msgid "Voici un exemple de ce qui apparaît si vous choisissez « Montrer les informations »"
-msgstr ""
-
-#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:79
-#: d48036a201ba45e9ba56bc384c5a0e99
-msgid "Dans le coin droit en bas, à côté de votre profil du chat « en ligne » , l’icône avec les **3 barres horizontales ouvre plusieurs fonctionnalités** comme : les réglages du chat, le son, à propos des contacts, …"
-msgstr ""
-
-#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:87
-#: 80b8bd0f703046ebbd94bb829d78410e
-msgid "Voici la page qui s’ouvre si vous choisissez « \\ **Réglages** », vous pouvez y régler vos options d’identification, les priorités, la copie carbone, le message history, les notifications de compositions, etc."
-msgstr ""
-
-#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:94
-#: b72069b9692d4ba0ad21d76c73f500f5
-msgid "Il y a déjà des données enregistrées par défaut."
-msgstr ""
-
-#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:99
-#: 75a521ca0efc4de4baf9115e20272f50
-msgid "Si vous voulez ajouter un contact au chat , appuyez sur « \\ **Ajouter un contact** » ; une fenêtre s’ouvre où vous pouvez ajouter un nom et un pseudo. Terminez avec « Ajouter »."
-msgstr ""
-
-#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:109
-#: e21898b659724d32840fb125c2d4a2ad
-msgid "L’ « \\ **Aide en ligne** » vous amène à un site externe avec des explications et des démos"
-msgstr ""
-
-#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:118
-#: f3854043fee645c296f37e75fe400840
-msgid "Pour **rejoindre une discussion** en cours, appuyez sur « Joindre la discussion »"
-msgstr ""
-
-#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:124
-#: 6134366c3ec3407980bd3adc1eb9f8a7
-msgid "Une fenêtre s’ouvre avec les propositions de discussions existantes, sélectionnez celle que vous voulez joindre et appuyez sur « Continuer »."
-msgstr ""
-
-#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:130
-#: 9f7aafe49b6549faa58c0286689fde3d
-msgid "« Salon » étant le « forum/la chatroom »"
-msgstr ""
-
-#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:132
-#: 04852a88ab3d40cbaefd343933f67ea5
-msgid "Si l’encadrement devient rouge, ce n’est pas une discussion, s’il devient vert, vous pouvez continuer. Vous verrez une connexion s’activer sur le coin droit supérieur."
-msgstr ""
-
-#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:139
-#: bd3a0f6b35f548b6b40b993a76685cd8
-msgid "Lorsqu’une conversation dans le chat est en cours, avec un ou plusieurs interlocuteurs, vous voyez leur nom apparaître dans une petite fenêtre dans le bas de l’écran."
-msgstr ""
-
-#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:143
-#: 84c93656897f418e82782b9ea4a494b5
-msgid "Vous pouvez ainsi voir leur message et y répondre."
-msgstr ""
-
-#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:145
-#: f729a89f597b4ca2b9b2bab5bca9571d
-msgid "Si vous voulez démarrer une **vidéoconférence,** appuyez sur la petite caméra à côté du nom de la personne en ligne. Elle sera blanche si vous et votre interlocuteur avez les accessoires nécessaires pour une vidéoconférence, elle sera barrée si ce n’est pas le cas."
-msgstr ""
-
-#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:156
-#: 92a408d8456c4deb8620614ad72b53db
-msgid "Si vous voulez terminer la conversation dans le chat, appuyez sur la petite croix à côté du nom de l’interlocuteur."
-msgstr ""
-
-#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:162
-#: f8aca41d44ee440ea1c02c568386d83b
-msgid "L’icône des 3 points verticaux à côté du nom de l’interlocuteur ouvre une petite fenêtre où vous pouvez effacer l’historique de cette conversation avec cet interlocuteur."
-msgstr ""
-
-#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:169
-#: ce8ce48c66cf4cb385f2843e92c9e1e1
-msgid "Pour **refermer la barre du chat,** et ne plus voir du tout les autres utilisateurs en ligne, il suffit de réappuyer sur la barre grise verticale."
-msgstr ""
-
-#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:181
-#: 4999b3367e6f450c837c3bee9754302c
-msgid "Messages internes"
-msgstr ""
-
-#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:183
-#: 90006c49c6434aa386e233b289ff4e17
-msgid "D’une manière générale, vous verrez un **numéro** sur l’onglet de votre page URL vous indiquant que vous avez un nouveau message (mail ou chat)"
-msgstr ""
-
-#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:190
-#: 5400fb517d604e76a035a560c0ae863e
-msgid "Lire ses messages et y répondre"
-msgstr ""
-
-#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:192
 #: 8b004c88c5734d6e8d344f854d1324a3
-msgid "Lorsque vous apercevez un numéro rouge sur le logo GoFAST, dans le coin en haut à gauche, à côté de l’adresse GoFAST, cela veut aussi dire que vous avez un ou plusieurs **nouveaux messages (**\\ par email). Cliquez sur ce numéro ou sur le message en vert (« You have 1 unread message ») pour voir la liste des messages reçus."
+msgid "Lorsque vous apercevez un numéro rouge sur le logo GoFAST, dans le coin en haut à gauche, à côté de l’adresse GoFAST, cela veut aussi dire que vous avez un ou plusieurs **nouveaux messages (**\\ par email)."
 msgstr ""
 
-#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:201
-#: 39541800db4046f581b737c0337d3c76
-msgid "**Voici ce que vous verrez si vous appuyez sur le message vert**"
+#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:57
+#: 219d37f37dd6484d81eb3fdafbba8462
+msgid "**Cliquez sur l’enveloppe**"
 msgstr ""
 
-#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:203
-#: a567c5ed72d049f992478c72f78e0cb0
-msgid "Vous voyez le titre du message reçu, l’expéditeur, la date et heure de l’envoi et si c’est un nouveau message (« NOUVEAU » en bleu à côté du titre)"
-msgstr ""
-
-#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:207
-#: 783e875d6692422dab96126cafe1d7f1
-msgid "Pour supprimer des messages, sélectionnez les en cochant les cases devant chacun et appuyez sur « Supprimer » (en rouge)"
-msgstr ""
-
-#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:213
-#: f94a99d49e99404fb6033d2aa74ae5d4
-msgid "Vous pouvez aussi choisir une action comme « Marquer comme lu ou non-lu », en cliquant sur la flèche à droite au niveau de la ligne « Actions »"
-msgstr ""
-
-#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:220
-#: 8f4e61a445b84d679f1dd3778ab38545
-msgid "Vous pouvez également trier par ordre chronologique croissant ou décroissant en cliquant sur la flèche au-dessus des dates et heures d’envoi"
-msgstr ""
-
-#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:227
-#: 5a6cfc97e38241748774cb442add9d32
-msgid "**Et voici ce que vous verrez si vous appuyez sur l’enveloppe**"
-msgstr ""
-
-#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:229
+#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:59
 #: 56110509ad67418c9d45e62fabee3301
 msgid "Vous voyez la liste des messages, les participants (expéditeurs et destinataires), la date et l’heure d’envoi et la poubelle pour le supprimer."
 msgstr ""
 
-#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:237
+#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:67
 #: 97a574d7213c4828b2a5d6643d501a4f
 msgid "Si vous cliquez sur l’enveloppe , une punaise rouge apparaît, ce qui fixe la fenêtre avec les messages. Pour la débloquer, cliquez ailleurs sur la bande noire du menu, ainsi la fenêtre avec la liste des messages se refermera."
 msgstr ""
 
-#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:245
+#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:75
 #: 219d37f37dd6484d81eb3fdafbba8462
 msgid "**Cliquez sur le titre du message pour l’ouvrir.**"
 msgstr ""
 
-#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:247
+#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:77
 #: c70cbd7840a1440cb4a5caf3e25ca26d
 msgid "Lorsque vous ouvrez le mail, vous retrouvez les informations telles que l’expéditeur (avec sa photo), la date et l’heure de l’envoi, le message envoyé et la possibilité d’y répondre avec les mêmes options que dans Word. Terminez avec « Envoyer le message »"
 msgstr ""
 
-#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:256
+#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:86
 #: 69c8fbe3dd7b4c8e9c45f1533e21dee1
 msgid "Vous ne pouvez ni ajouter, ni supprimer un participant en cours de conversation, ce qui veut dire que si l’échange de mail commence entre 2-3 personnes, vous ne pourrez pas y ajouter/supprimer un participant lors de vos échanges/réponses. Il n’est donc pas possible non plus de transférer un message."
 msgstr ""
 
-#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:262
+#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:92
 #: 3f224f5032444b0fb347e710eeb6fdb4
 msgid "Le service de mails sur GoFAST ne doit pas remplacer votre boîte mail traditionnelle (Lotus, Outlook, …) . Il est surtout utile pour converser directement sur GoFAST entre utilisateurs sans devoir passer d’une boîte de messagerie à une autre et de pouvoir, via la prévisualisation, envoyer directement un document (son lien GoFAST) par mail."
 msgstr ""
 
-#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:268
+#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:98
 #: 00b80233bbe8437cbf6ea429c8f9417c
 msgid "(Cfr : voir « Actions contextuelles de prévisualisation d’un document » / « Envoyer par mail » p.88)"
 msgstr ""
 
-#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:278
+#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:108
 #: cd05039f86374372a0aa693e41db8ec8
 msgid "Créer un nouveau message"
 msgstr ""
 
-#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:280
+#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:110
 #: 91729dcedc2c480a867564a3846d88eb
 msgid "Pour **créer un nouveau message/Email**, allez sur l’icône de l’enveloppe sur la barre noire supérieure. Cliquez ensuite sur « Nouveau message » en bleu."
 msgstr ""
 
-#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:287
+#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:117
 #: baa047ba656c4d42bf862d083a7fc368
 msgid "Ecrivez les 3 premières lettres du nom de l’utilisateur à qui vous voulez envoyer le mail (celui-ci doit être un utilisateur de la GoFAST), et le système vous proposera une liste de noms à sélectionner."
 msgstr ""
 
-#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:291
+#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:121
 #: 48437dd1a05c4a7887634d7959a09362
 msgid "Donnez un titre au mail et écrivez le contenu puis envoyez"
 msgstr ""
 
-#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:302
+#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:132
 #: 776058ebc4f649529a5c2d7b0ea25c57
 msgid "Favoris et Derniers contenus vus"
 msgstr ""
 
-#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:305
+#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:135
 #: 04f0ce22034246e8945aa2069708d785
 msgid "Derniers contenus vus"
 msgstr ""
 
-#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:307
+#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:137
 #: 7a804905c15147ea9f6f31bdb1c2fbd9
 msgid "Cette petite fenêtre visible presque sur toutes les pages, sur la droite de l’écran, vous permet de voir les **10 derniers documents** que vous avez consultés/ouverts, cela sert de raccourcis puisqu’il suffit de cliquer sur le titre pour ouvrir la prévisualisation."
 msgstr ""
 
-#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:315
+#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:145
 #: 16ee9098f0ac4719a9bd4fc596b99061
 msgid "Il est aussi possible de voir cette vue depuis la barre de navigation de la GoFAST:"
 msgstr ""
 
-#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:321
+#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:151
 #: 5ba1dd5dc7d2472dad78a178713f5007
 msgid "Accès aux Favoris"
 msgstr ""
 
-#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:323
+#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:153
 #: 2d6eba4c70da4750b24bd9432fa04c4e
 msgid "Vous pouvez voir **la liste** de vos documents/espaces/dossiers **favoris** en cliquant sur l’\\ **étoile** sur la bande noire du menu général. Une punaise rouge y apparaîtra, ce qui fixe la fenêtre avec la liste. Pour débloquer la liste, appuyez ailleurs sur la bande noire."
 msgstr ""
 
-#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:328
+#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:158
 #: abae7d871e8548eebcd5be6e99edf29c
 msgid "Lorsque vous ajouterez un favori à votre liste, il y aura le message en vert sur la droite de l’écran qui vous signalera l’ajout du favori."
 msgstr ""
 
-#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:331
+#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:161
 #: f2424e82377c4dbfb362d070f906b03a
 msgid "(Cfr : voir « Comment ajouter un favori » dans les actions contextuelles de prévisualisation p. 95)"
 msgstr ""
 
-#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:339
+#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:169
 #: 9605d2af3e0e411fa59fdd336fb48f75
 msgid "Tableau de Bord dynamique"
 msgstr ""
 
-#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:340
+#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:170
 #: f89d0b19c43748b7a7a673be97e1a72f
 msgid "À partir de la version 3.6.1, GoFAST bénéficie d’un Tableau de Bord dynamique pratique. Ce dernier permet d’avoir un accès rapide aux éléments les plus sollicités."
 msgstr ""
 
-#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:342
+#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:172
 #: 6189da2bba094897be6a5ee8c9bfa121
 msgid "On pourra y accéder de deux façons :"
 msgstr ""
 
-#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:344
+#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:174
 #: b73f1725d1384455914677b8a4e3800e
 msgid "À partir du menu principal, cliquer sur le Burger puis «Tableau de Bord » dans le menu déroulant."
 msgstr ""
 
-#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:349
+#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:179
 #: c283d42d8e6e4140a3b53aa75f209a6a
 msgid "À partir de la page « Fil d’activité », en cliquant sur « Tableau de Bord »."
 msgstr ""
 
-#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:354
+#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:184
 #: 231806886f70480792933d8a2001f512
 msgid "Ce dernier dispose de 6 blocs :"
 msgstr ""
 
-#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:360
+#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:190
 #: 3023823a8b9943d192f734f29b93a562
 msgid "Espace privé et profil"
 msgstr ""
 
-#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:362
+#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:192
 #: d8f4b60e7df94d439d35f1a3ca0073f6
 msgid "Ce bloc est statique, il permet d’accéder à votre espace privé, visualiser votre calendrier, gérer votre profil ainsi que vos abonnements."
 msgstr ""
 
-#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:365
+#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:195
 #: db6d49eb273944758e1502c709c934e3
 msgid "Votre espace principal (CEO-Vision)"
 msgstr ""
 
-#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:367
+#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:197
 #: 3fd2cf787e0e471bba706d3d42ab8cb1
 msgid "Dans ce bloc, vous avez la possibilité d’afficher l’espace principal de votre choix. Vous aurez à disposition l’accès au aux documents de ce dernier ainsi que son calendrier associé."
 msgstr ""
 
-#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:369
+#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:199
 #: 2ec721959b794ff88b22771fe7403f95
 msgid "Pour ce fait, aller dans votre profil puis cliquer sur « Paramètres du compte », défiler jusqu’à la section « Informations sur l’utilisateur » ensuite sélectionner dans le champs «Organisation principale » l’espace souhaité. N’oublier pas de sauvegarder en appuyant sur le bouton « Enregistrer» en bas de la fenêtre."
 msgstr ""
 
-#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:372
+#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:202
 #: ef8384b27f45493b860b78eb451e8b21
 msgid "Un seul espace principal pourra être mis en avant dans ce bloc du Tableau de bord."
 msgstr ""
 
-#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:375
+#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:205
 #: e00a53b339834e99ab3e66370ce2beb7
 msgid "Memos"
 msgstr ""
 
-#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:377
+#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:207
 #: 340ede2f5ff041df8b3c57d7c53849d9
 msgid "Ce bloc récupère toutes les nouvelles partagées créées à partir de la page « Fil d’activité »."
 msgstr ""
 
-#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:379
+#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:209
 #: 32269944cc0047529d293a90ac4466ba
 msgid "Pour créer un mémo, aller dans la page « Fil d’activité », cliquer sur « Partager une nouvelle», saisir votre texte puis appuyer sur « Envoyer » pour partager ou Annuler pour arrêter la création."
 msgstr ""
 
-#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:384
+#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:214
 #: d315b67b2a1b4d539e74070076766c21
 msgid "Pour supprimer un mémo de votre Tableau de bord, rendez-vous dans la page « Fil d’activité ». Vous pouvez également épingler son contenu."
 msgstr ""
 
-#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:390
+#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:220
 #: c1fb671541a54a8b8f75069fa4345d4c
 msgid "les mémos sont partagés en publique. Toutes les personnes inscrites sur la plate-forme auront accès à ces informations."
 msgstr ""
 
-#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:393
+#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:223
 #: 88b1f52fb9e5432dbe93597848e69d50
 msgid "Mes espaces favoris"
 msgstr ""
 
-#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:395
+#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:225
 #: 2b45013eae7b49ea8fee2dd1e8e0f98f
 msgid "Ce bloc permet de lister les espaces favoris pour un accès rapide. Il est possible également d’épingler d’autres espaces ou de les supprimer des favoris à partir du bloc."
 msgstr ""
 
-#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:397
+#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:227
 #: a0618c8e060e48aab978807454efb6e7
 msgid "Pour ajouter un ou plusieurs espaces favoris, cliquer sur le bouton +  « Épingler un nouvel espace »."
 msgstr ""
 
-#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:402
+#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:232
 #: adc5f7fc221c4ed5aed1a122a9ea7c98
 msgid "Taper les trois premières lettres de l’espace pour lequel vous voulez mettre en favoris. Une liste de propositions s’affiche, sélectionner le nom recherché. Une fois que vous avez terminé, appuyer sur « Épingler sur le tableau de bord »."
 msgstr ""
 
-#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:408
+#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:238
 #: ea763f1e27d64aba9b733415318e87e5
 msgid "Pour supprimer un espace des favoris, cliquer sur le bouton placé à droite du titre puis appuyer sur « Supprimer des favoris »."
 msgstr ""
 
-#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:413
+#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:243
 #: f07fe5dd71ab4f82b442b72fdfb753fd
 msgid "Un message de confirmation de suppression s’affiche en haut à droite de la fenêtre."
 msgstr ""
 
-#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:418
+#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:248
 #: b76e8eac61fc4cc48b9fb431983b56c1
 msgid "Vous remarquerez que l’espace est toujours épinglé  sur le bloc, cela ne signifie pas que l’action n’a pas eu lieu mais simplement par précaution en cas d’erreur, vous pouvez restaurer cet espace en cliquant sur le même bouton puis sur « Ajouter aux favoris »."
 msgstr ""
 
-#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:423
+#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:253
 #: 541a5fdc55ba40e18a0667f4c65991c5
 msgid "En revanche, si vous actualisez ou vous quittez la page du tableau de bord, la suppression se fait de manière définitive et l’espace ne sera plus visible dans le bloc."
 msgstr ""
 
-#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:426
+#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:256
 #: a7fc309801e54e7e99a087144b8f1a7f
 msgid "Mes contenus favoris"
 msgstr ""
 
-#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:427
+#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:257
 #: 1a728ca948ae4f7892e1e23704eb31e7
 msgid "Dans le bloc « Mes contenus favoris », vous pouvez épingler les documents favoris. Pour ajouter un ou plusieurs contenus, cliquer sur l’icône Plus à droite du titre du bloc « Épingler un nouveau contenu »."
 msgstr ""
 
-#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:432
+#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:262
 #: c16d7d4df3c84e0586942d7019e1ff83
 msgid "Renseigner le nom du contenu souhaité dans la barre de recherche puis faites votre sélection et enfin appuyer sur le bouton « Épingler sur le tableau de bord »."
 msgstr ""
 
-#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:437
+#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:267
 #: ef1664a84a344cc9bcaf24378c2cc87f
 msgid "Les documents épinglés peuvent être prévisualisés, édités, partagés, archivés et commentés directement à partir du tableau de bord."
 msgstr ""
 
-#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:444
+#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:274
 #: de5ab2e3c9bc451da6bc63a851249ff5
 msgid "Annuaires"
 msgstr ""
 
-#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:447
+#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:277
 #: c659022e20134929997e1d2d4681f800
 msgid "Chercher un Espace Collaboratif"
 msgstr ""
 
-#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:449
+#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:279
 #: 1cb5a613902143d2a1c80e9504b179bb
 msgid "Pour **rechercher des Espaces Collaboratifs via l’annuaire,** allez sur *Annuaire* dans le menu principal, puis sur Organisations, Groupes, Public ou Extranets. Vous trouverez l'arborescence des espaces existants, que vous pouvez rejoindre en cliquant dans les cases (une demande est alors envoyée aux administrateurs métier de l'Espace)."
 msgstr ""
 
-#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:459
+#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:289
 #: e6b6abe81f084f9ebdedea2c72729d30
 msgid "Chercher une Liste d'utilisateurs"
 msgstr ""
 
-#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:461
+#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:291
 #: 8147d51c0f6b423db77d883b8613cb03
 msgid "Pour **rechercher des Listes d'utilisateurs via l’annuaire,** allez sur *Annuaire* dans le menu principal, puis sur *Listes d'utilisateurs*."
 msgstr ""
 
-#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:468
+#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:298
 #: 997b9fdbbb1c44c78bdc12f904a78e6b
 msgid "Chercher un utilisateur"
 msgstr ""
 
-#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:470
+#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:300
 #: 26b07f3389b6479dae7c892440898a5e
 msgid "Pour rechercher un utilisateur vous avez le choix entre tapez son nom dans la recherche, ou passer par l’ \"Annuaire\" / \"Utilisateurs\". Vous verrez toute la liste des utilisateurs GoFAST avec leur « carte de visite »."
 msgstr ""
 
-#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:478
+#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:308
 #: f4d31992bfb04081bffee156d6a8e8e1
 msgid "Vous pouvez **filtrer** votre recherche selon les noms et l’alphabet ou les organisations/groupes/espaces"
 msgstr ""
 
-#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:484
+#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:314
 #: e0ebc91da763447f80f471834e3ca38f
 msgid "Vous pouvez directement envoyer un mail ou appeler l’utilisateur via son profil. De même que lui envoyer une demande de « relation », ce qui permet de contacter/voir le raccourci de cette personne même si elle ne fait pas partie de vos espaces collaboratifs."
 msgstr ""
 
-#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:494
+#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:324
 #: f0e263588047459ba7c26eb711955c95
 msgid "Flux d'information"
 msgstr ""
 
-#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:496
+#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:326
 #: c3abe75c013c45678ad4ccfa731f03d7
 msgid "Vous pouvez voir les **news** (pareil que sur l’Intranet) via ce logo (Flux) sur la bande noire du menu."
 msgstr ""
 
-#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:503
+#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:333
 #: 19a6011b105448858896bbc4a31bf671
 msgid "Rapports & statistiques"
 msgstr ""
 
-#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:506
+#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:336
 #: 976eed9f730b4bf784e895b20ce4497b
 msgid "Onglet « Statistiques » dans un Espace"
 msgstr ""
 
-#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:507
+#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:337
 #: d1334f488c78411697e07c7046e36c93
 msgid "Dans l'onglet **Statistiques**, vous pouvez choisir les informations que vous souhaitez retrouver graphiquement et sur une période sélectionnée."
 msgstr ""
 
-#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:509
+#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:339
 #: 94bbeb187af7470f8c94f675b8290b63
 msgid "Deux sous-onglets sont disponibles :"
 msgstr ""
 
-#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:511
+#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:341
 #: 13ebbc463dba483d8f3c30f32cc13786
 msgid "Sous-onglet « **Statistique des membres** » permet de visualiser les informations relatives aux membres actifs et inactifs, les nouveaux membres et membres connectés."
 msgstr ""
 
-#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:516
+#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:346
 #: d6c9a45e12b14f1d92f92b65229458d4
 msgid "Sous-onglet « **Statistique documentaires** », permet de visualiser toutes les informations relatives aux documents par sa catégorie, son état et son importance."
 msgstr ""
 
-#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:522
+#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:352
 #: 72160441427d4f188db97e2690391191
 msgid "Version mobile"
 msgstr ""
 
-#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:524
+#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:354
 #: 81a2b4f885e84395b7e56c45c4fcad86
 msgid "La plateforme GoFAST peut fonctionner également en mobilité, et est accessible depuis n'importe quel support sur smartphone ou tablette."
 msgstr ""
 
-#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:526
+#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:356
 #: 580ecf7cc0b44e558d80a64fd990f2f6
 msgid "Nous vous proposons une version simplifiée de la plateforme pour plus de facilité d'utilisation, voici quelques exemples des écrans que vous pouvez alors retrouver dans votre poche :"
 msgstr ""
 
-#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:529
+#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:359
 #: 7de4117ae20f48a8b9f2a884121d279d
 msgid "1. Le menu contextuel"
 msgstr ""
 
-#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:536
+#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:366
 #: f99ffe5f27b84b9e8d52e7bbbf6dab73
 msgid "2. Le fil d'actualité et son menu"
 msgstr ""
 
-#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:542
+#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:372
 #: 980174d753f0439282125fb4576105e6
 msgid "3. L'explorateur de fichiers / GoFAST File Browser"
 msgstr ""
 
-#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:549
+#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:379
 #: f6b6337d13854136ae38ae91121e33cb
 msgid "4. La prévisualisation et son menu de métadonnées"
 msgstr ""
 
-#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:554
+#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:384
 #: e6eb421db74d4d9a8dcdc7908cd9926c
 msgid "Vous pouvez alors mettre à jour une version d'un document, ou encore ajouter un commentaire"
 msgstr ""
 
-#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:558
+#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:388
 #: 37039ef12570452ab6e36cef9e5cdb7d
 msgid "5. Moteur de Recherche"
 msgstr ""
 
-#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:565
+#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:395
 #: 0efef06d468a424e8645b2f12294b850
 msgid "6. Le calendrier"
 msgstr ""
 
-#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:576
+#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:406
 #: f0548bff8c2f46b9a9a0a5719d30225a
 msgid "Utilisation avancée (signature, mobilité, ...)"
 msgstr ""
 
-#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:578
+#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:408
 #: a362ec96000647f9a6847a89d75e7d0c
 msgid "Un guide séparé a pour but de donner les instructions de configuration de logiciels tiers fonctionnant avec la plate-forme GoFAST démultipliant les usages et la puissance de la plateforme"
 msgstr ""
 
-#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:582
+#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:412
 #: 014497cf540d414fa6cc2c8b5973de4d
 msgid "Ces outils complémentaires permettent :"
 msgstr ""
 
-#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:584
+#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:414
 #: 935970582f2e41b3a65b8a41f590c18f
 msgid "Des outils complémentaires en mobilité"
 msgstr ""
 
-#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:585
+#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:415
 #: 20435581102b4dd7a5c1ebfdf4f6cb08
 msgid "Une synchronisation de GoFAST avec un PC pour travailler en mode « déconnecté » (type DropBox)"
 msgstr ""
 
-#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:587
+#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:417
 #: f24adc8ce1fc423f8032a7e8a72a857e
 msgid "L’accès à GoFAST sur les terminaux mobiles (tablettes,…) par explorateur de fichiers"
 msgstr ""
 
-#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:589
+#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:419
 #: f74a090096f843a9a0f22776af4c41ab
 msgid "La visualisation et/ou l’édition en ligne de documents Office sur tablette"
 msgstr ""
 
-#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:591
+#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:421
 #: 58522cbad6da45bf877d47f5a161adbd
 msgid "La messagerie instantanée (« chat ») sur mobile"
 msgstr ""
 
-#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:592
+#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:422
 #: eb2768b36076445b82ba5eef1408a608
 msgid "La vidéoconférence sur mobile (dans navigateur)"
 msgstr ""
 
-#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:594
+#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:424
 #: d2587d0fb97e4f4f83c4a025a5fcc6ac
 msgid "Des outils de dématérialisation (smartphone, copieur, ...)"
 msgstr ""
 
-#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:595
+#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:425
 #: 61efcb9fa3604daabda1cf231b38f4fe
 msgid "Des outils de signature électronique"
 msgstr ""
 
-#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:597
+#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:427
 #: fd97aabcf8af48108b6910ea3bcdac16
 msgid "Vous trouverez ce Guide ici : http://gofast-docs.readthedocs.io/fr/latest/docs-gofast-users/doc-gofast-utilisation-avancee.html"
 msgstr ""
 
-#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:601
+#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:431
 #: 96a62e3b1f9e4c439604ca9ddc368c27
 msgid "Annexes : Quelques bonnes pratiques"
 msgstr ""
 
-#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:604
+#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:434
 #: 745a8fd7e3e642f1a3d0bcde773979bb
 msgid "Même si GoFAST nécessite de changer un peu ses habitudes, il est important que le plus grand nombre fasse l'effort de changer. Les gains en temps sont ensuite très importants, tout le monde est alors gagnant!"
 msgstr ""
 
-#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:609
+#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:439
 #: 4abca3e7e7f24099b8ce9ed74ee4e4c9
 msgid "**Objectif 1: Diminuer le nombre de mails entre collègues et partenaires**"
 msgstr ""
 
-#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:611
+#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:441
 #: c857ca90fc9547caa81cd346a1169ea1
 msgid "Je n'envoie plus de mails avec pièce jointe, mais je mets un commentaire sur le document sur GoFAST, toutes les personnes recevront une notification."
 msgstr ""
 
-#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:615
+#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:445
 #: eef3fd8b54754dac9b6a750be2fb11ab
 msgid "dans de nombreux cas la pièce jointe n'est déjà plus à jour quand votre destinataire la recoit de plus les pièces jointes encombres les messageries."
 msgstr ""
 
-#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:619
+#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:449
 #: 5cc1c83398ea4cdeae1dee80ef008ba1
 msgid "Je n'envoie plus de mails avec pièce jointe à mes contacts n'ayant pas de compte GoFAST mais j'utilise la fonction \"Partager par email\""
 msgstr ""
 
-#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:621
+#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:451
 #: 201f59b7fa0d4cb0adb1e76e4e51dc59
 msgid "Je n'élabore plus un document 'chacun son tour' mais utilise la co-édition OnlyOffice"
 msgstr ""
 
-#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:623
+#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:453
 #: f3f9fd8188cd4985a20f1cc431bee21a
 msgid "Ceci permet de gagner du temps et limite les erreurs, évite d'avoir à fusionner les sections rédigées par chacun"
 msgstr ""
 
-#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:625
+#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:455
 #: 9dcaa71305bb484e92e3baea5e0300dc
 msgid "Je n’envoie plus de demandes de tâche ou validation par mail, mais j’utilise les ‘’workflows’’ (processus de tâches) pour relecture, validation, signature, etc. => tout le monde est notifié, chacun connaît sa tâche et les délais sont respectés."
 msgstr ""
 
-#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:629
+#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:459
 #: be34924e9053440785849a5d65bb5913
 msgid "J’utilise les forums pour mes questions/réponses au lieu des mails => tout le monde partage ses connaissances."
 msgstr ""
 
-#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:632
+#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:462
 #: 6ea2586dd31a47bebab64bad56c8f6a9
 msgid "**Objectif 2: Gagner du temps dans la recherche d’information, fichiers et autres contenus**"
 msgstr ""
 
-#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:634
+#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:464
 #: 4000810acb4649ca8b10fc4b8e6dd0eb
 msgid "La totalité des contenus (même cellules d'un tableur, ....) est indexé (indexation \"plein-texte\") et le moteur de recherche est considéré comme un des plus puissants"
 msgstr ""
 
-#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:637
+#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:467
 #: 89ea7c090b3845b5a8965d12ce040afa
 msgid "je gagne jusqu'à 30% de mon temps *(source IDC : 30% des cadres passent leur temps à rechercher des contenus dispersés et dupliquer)*"
 msgstr ""
 
-#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:640
+#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:470
 #: 3f61916da5394505aa40755e389c1042
 msgid "**Objectif 3 : Mettre fin aux doublons de fichiers et autres contenus**"
 msgstr ""
 
-#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:642
+#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:472
 #: 72586a7d2aee4ddab44dd8d013cc3510
 msgid "Je ne garde plus de fichiers sur mon PC ou boîte mail, les documents sont centralisés et accessibles selon les droits d’utilisateurs."
 msgstr ""
 
-#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:644
+#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:474
 #: da824370c3f64585bb7702033416e1bb
 msgid "Je ne copie plus jamais un document à plusieurs endroits, j'utilise la fonction Emplacement/Visibilité qui permet à un même document d'être vu dans plusieurs espaces."
 msgstr ""
 
-#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:648
+#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:478
 #: ca9c40807418485fa42e3a09fd606b7e
 msgid "Quelque soit l'espace, tout le monde aura la bonne version"
 msgstr ""
 
-#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:650
+#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:480
 #: 11bec5fff02542d4a7505d3659316c2f
 msgid "Je ne créé plus un fichier par version"
 msgstr ""
 
-#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:652
+#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:482
 #: 3036097bcaa049599abcf6c2e1debf56
 msgid "GoFAST versionne automatiquement et toutes les versions sont accessibles à tout moment."
 msgstr ""
 
-#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:655
+#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:485
 #: cce58f49b36e4004a7d3c693ad2f9320
 msgid "J’accède à mes documents de travail en mobilité et je n’ai pas besoin de copie locale ou de version papier (accès Online sur Tablettes et Online/Offline sur PC)."
 msgstr ""
 
-#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:658
+#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:488
 #: 409d5b0df46e48769ddad2f6dadff6a9
 msgid "Je partager les informations avec mes clients et fournisseurs dans l’Extranet GoFAST et ainsi, ils ont accès aux mêmes documents et non plus des doublons, qui sont rapidement obsolètes."
 msgstr ""
 
-#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:661
+#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:491
 #: ba6ce81629f34b5e8273a6d866b64036
 msgid "Je ne stocke plus mes documents dans la messagerie car un simple glisser-déposer suffit pour les transférer sur GoFAST."
 msgstr ""
 
-#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:664
+#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:494
 #: 2f6ec4e350854f6c9c8d7e210fe3443e
 msgid "**Objectif 4: Maîtriser les processus de traitement, validation et signature des documents**"
 msgstr ""
 
-#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:666
+#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:496
 #: 7f51b044846846699d45fb6e3f1380f9
 msgid "Les processus informels ou les procédures papier souvent inefficaces, sont modélisés dans GoFAST => grâce à des circuits de tâches prédéterminés, vous retrouvez la maîtrise des divers processus métier."
 msgstr ""
 
-#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:671
+#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:501
 #: 6c2725ea724746d59d4668fc9e05adbd
 msgid "Je n’ai plus à chercher les dates d’échéances dans mes mails, celles-ci sont clairement indiquées sur les processus et me sont rappelées par notification."
 msgstr ""
 
-#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:675
+#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:505
 #: d83ee7bbc93d42c7a6299208d1eb4dbc
 msgid "**Objectif 5: Diminuer le volume papier**"
 msgstr ""
 
-#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:677
+#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:507
 #: 12c2300249ba41108b81fc1bb8bdf51a
 msgid "Je numérise les documents papiers (contrats, factures, courriers, etc.) et les envoie directement vers la plateforme GoFAST où ils seront indexés plein texte à la volée."
 msgstr ""
 
-#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:680
+#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:510
 #: b2c5561114cd415db02ad5b4b4cd92e4
 msgid "Je transforme les formulaires papier en documents électroniques et les diffuse avec efficacité (cibler un groupe, rappels automatiques et relance, suivi des actions, etc.) et j’exporte les données dans un tableur."
 msgstr ""
 
-#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:684
+#: docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:514
 #: 47f83acc87354578b6a8a427393586c3
 msgid "Je signe électroniquement les PDF avec certificat sécurisé plutôt que de les imprimer pour les signer et les re-scanner."
 msgstr ""

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gofast-docs latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-27 12:27+0200\n"
+"POT-Creation-Date: 2020-08-19 10:26+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,770 +18,695 @@ msgstr ""
 
 #: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:2
 #: 1f78a4fcda73490eacefefb2ab1694d8
-msgid "Chat/Messagerie instantanée (Enterprise only)"
+msgid "Conversation/Chat/Messagerie instantanée (Enterprise only)"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:5
-#: b65e8029163e40509c49ef6f48a272a4
-msgid "Nous parlons ici de la version dans le navigateur du Chat, vous pouvez également recevoir les messages avec votre smartphone (voir Utilisation Avancée)"
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:4
+#: 657f77b5e30940e38272598ab44adac5
+msgid "GoFAST inclut un outil de discussion/conversation temps réel (basé sur \"Element\" anciennement Riot) similaire à MS-Teams et Slack. Parcontre, contraiement à ces 2 concurrents, vous savez totalement où sont stockés vos données, dans un datacenter souverain ou dans votre datacenter suivant l'option GoFAST choisit."
 msgstr ""
 
 #: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:7
-#: ab20ec6bbdbf47b0814570962ed3231b
-msgid "Pour **ouvrir le chat**, il faut aller sur l’extrême droite de l’écran, cliquer sur la barre verticale grise."
+#: bd71d1c2504e40efadf8582600addb93
+msgid "\"Element\"/Matrix est la technologie retenue par l'Etat Français (Tchap) et Thales sous le nom de Citadel."
+msgstr ""
+
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:9
+#: 35c5f399df194157a5208fab310a169a
+msgid "L'outil de conversation permet des discussions de personne à personne ou des salons permettant de rassembler plusieurs personnes autour d'une même thématique. Ces échanges peuvent être des messages texte ou des conférences audio/video."
+msgstr ""
+
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:11
+#: ec70cf61517543c090ce65e99a7c420b
+msgid "Un salon est normalement associé à un espace ou sous-espace."
 msgstr ""
 
 #: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:13
-#: fc8e0ddeeda54f4696f0144bf6331eda
-msgid "Vous pouvez ainsi voir la liste des personnes qui font partie des mêmes groupes que vous et qui sont, en ce moment, en ligne (boule verte sur la photo) ou absents (boule orange sur la photo)."
+#: 4fbb8112bc724a9aa0a65e7b5eec3e1b
+msgid "C'est l'admistrateur de l'espace qui peut décider d'associer un salon à un espace."
+msgstr ""
+
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:15
+#: f75041e004a342a28f17aee2d54abfc7
+msgid "De plus, cet outil de conversation \"Element\" est installable aussi sur son smartphone (Android, iOS/iPAD) et comme une application sur PC, MacOS et Linux. Voir https://gofast-docs.readthedocs.io/fr/latest/docs-gofast-users/doc-gofast-utilisation-avancee.html#messagerie-instantanee-chat-conversation-sur-mobiles"
+msgstr ""
+
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:18
+#: d0f0f4fc931a433a96558f2dc85afa7b
+msgid "Comment accéder à \"Element\""
 msgstr ""
 
 #: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:20
-#: 9b1673a145924137970f49c17cee0333
-msgid "Vous pouvez choisir votre **statut** sur le chat en cliquant sur le statut actuel à côté de votre photo, vous verrez ainsi une liste apparaître, cliquez sur votre choix pour le changer."
+#: 8ff9d9250a3a40b8b503ff80c203034e
+msgid "\"Element\" est accessible de plusieurs façons :"
+msgstr ""
+
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:22
+#: 65b1a80797ee413d93554e87a5b403b7
+msgid "par le volet de droite"
+msgstr ""
+
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:23
+#: ca804e91a26c444bac80e67e7e0092d9
+msgid "sur la page d'un espace (dont un salon a été activé)"
+msgstr ""
+
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:24
+#: dfabe996bd094ff7aa07bab6d53860a0
+msgid "en pleine page par le menu \"Discussion\""
 msgstr ""
 
 #: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:27
-#: 7d08ba92c4414f5a9d40b56bcf415824
-msgid "Vous verrez si vous avez un **nouveau message dans le chat** grâce à un petit numéro qui « saute » à côté de votre statut. Mais ce message peut être une pop up, pas nécessairement un message d’un utilisateur."
+#: 35ee2380f0f347f1a95e66a63cd2ba24
+msgid "Organisation des salons"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:34
-#: 54e4195b3a544256891bc322807a7491
-msgid "Vous voyez aussi si vous avez un **message sur le chat** avec un petit carré qui clignote dans le coin droit inférieur de l’écran ou avec une pop-up si vous n’êtes pas sur l’écran GoFAST"
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:29
+#: b156109b8a4d46d1b0a4778f23684ca9
+msgid "\"Element\" est séparé en plusieurs zones, la zone du haut est réservée au conversation entre 2 utilisateurs, la zone du bas aux salons dont on est membre."
+msgstr ""
+
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:31
+#: 19bc20c6d404487da335bef3459d7ad7
+msgid "Pour créer une discussion avec un utilisateur en particulier, vous devez cliquer sur le + dans la zone du haut."
+msgstr ""
+
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:36
+#: 86474e1735a94aebb96f04a8ed7af40d
+msgid "Pour sélectionner le salon, il suffit de cliquer dans le rond correspondant, puis :"
+msgstr ""
+
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:38
+#: eb13adc05fc942e78649426e358120c9
+msgid "commencer à taper du texte"
+msgstr ""
+
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:39
+#: 717e8f3a78f04d0b9eeee644427c8639
+msgid "déclencher une webconference (audio ou video)"
+msgstr ""
+
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:41
+#: 8b1a3697635b4812b30c2b86e6d48478
+msgid "Si dans un salon vous voulez désigner un utilisateur en particulier, démarrer par @ puis le prénom et nom de la personne, celle-ci recevra une notification particulière"
+msgstr ""
+
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:42
+#: d374a6cdab184823b6cd9a328aad799c
+msgid "C'est l'administrateur du salon (donc administrateur de l'espace) qui doit initier la 1ère webconference"
+msgstr ""
+
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:47
+#: 48093d3e84eb49d8b8e5375b0ec021f5
+msgid "Message privé"
 msgstr ""
 
 #: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:49
-#: 2da391d8d83946868057600487e8c566
-msgid "Ou d’une manière plus générale, vous verrez aussi un numéro sur l’onglet de votre page URL vous indiquant que vous avez un nouveau message (mail ou chat)"
-msgstr ""
-
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:56
-#: 23c0fac18b814fdbac772fb9276a0c8d
-msgid "Vous pouvez alors **commencer la discussion**."
-msgstr ""
-
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:58
-#: ab298080f8f54624974fe8a588cb27bb
-msgid "Les petits « v » en fin de message confirment que votre interlocuteur a reçu le message."
-msgstr ""
-
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:61
-#: 35f92327044e4cab8f111ff6555886bf
-msgid "Vous pouvez remonter dans l’historique de la conversation en faisant glisser la barre grise sur la droite"
-msgstr ""
-
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:67
-#: 05756ba6f4e847c3b4a9446d03b629e3
-msgid "Si vous cliquez sur les 3 points verticaux à côté du nom du contact, vous voyez 3 propositions : renommer, montrer info, supprimer contact ."
-msgstr ""
-
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:73
-#: 6097a60fc8574b358126aa1fc4e5127c
-msgid "Voici un exemple de ce qui apparaît si vous choisissez « Montrer les informations »"
-msgstr ""
-
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:79
-#: 247d8196e41a4a1796c63f6761961cd8
-msgid "Dans le coin droit en bas, à côté de votre profil du chat « en ligne » , l’icône avec les **3 barres horizontales ouvre plusieurs fonctionnalités** comme : les réglages du chat, le son, à propos des contacts, …"
-msgstr ""
-
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:87
-#: 9fc5df669c294ffa82adcdbe2c323200
-msgid "Voici la page qui s’ouvre si vous choisissez « \\ **Réglages** », vous pouvez y régler vos options d’identification, les priorités, la copie carbone, le message history, les notifications de compositions, etc."
-msgstr ""
-
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:94
-#: 14a5365fe1bc445eba6c6bfd5e839bf2
-msgid "Il y a déjà des données enregistrées par défaut."
-msgstr ""
-
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:99
-#: 6f11be4290ea4ff9b2637b68e88458c0
-msgid "Si vous voulez ajouter un contact au chat , appuyez sur « \\ **Ajouter un contact** » ; une fenêtre s’ouvre où vous pouvez ajouter un nom et un pseudo. Terminez avec « Ajouter »."
-msgstr ""
-
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:109
-#: 1131073842cc41d3b359ac00996ce883
-msgid "L’ « \\ **Aide en ligne** » vous amène à un site externe avec des explications et des démos"
-msgstr ""
-
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:118
-#: 077bc8e8fa574ef1ab619d2e9706d1b4
-msgid "Pour **rejoindre une discussion** en cours, appuyez sur « Joindre la discussion »"
-msgstr ""
-
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:124
-#: 21e0fde232d148dcb51e2c0d594a233e
-msgid "Une fenêtre s’ouvre avec les propositions de discussions existantes, sélectionnez celle que vous voulez joindre et appuyez sur « Continuer »."
-msgstr ""
-
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:130
-#: d49ff88cea8744878c20f0063c96e54c
-msgid "« Salon » étant le « forum/la chatroom »"
-msgstr ""
-
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:132
-#: 7d8a12277e4f47718dbb83ed124f9258
-msgid "Si l’encadrement devient rouge, ce n’est pas une discussion, s’il devient vert, vous pouvez continuer. Vous verrez une connexion s’activer sur le coin droit supérieur."
-msgstr ""
-
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:139
-#: 77402d1a41144e0ba91a27a6410e5084
-msgid "Lorsqu’une conversation dans le chat est en cours, avec un ou plusieurs interlocuteurs, vous voyez leur nom apparaître dans une petite fenêtre dans le bas de l’écran."
-msgstr ""
-
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:143
-#: d94f24855f1c41e8bec0b3351ac985bc
-msgid "Vous pouvez ainsi voir leur message et y répondre."
-msgstr ""
-
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:145
-#: b8ffb53a878a477ba1fda38984abf668
-msgid "Si vous voulez démarrer une **vidéoconférence,** appuyez sur la petite caméra à côté du nom de la personne en ligne. Elle sera blanche si vous et votre interlocuteur avez les accessoires nécessaires pour une vidéoconférence, elle sera barrée si ce n’est pas le cas."
-msgstr ""
-
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:156
-#: 99075460d0c04470aae21884ce9096e6
-msgid "Si vous voulez terminer la conversation dans le chat, appuyez sur la petite croix à côté du nom de l’interlocuteur."
-msgstr ""
-
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:162
-#: 78009e15229141edb4a621b7ef0156e5
-msgid "L’icône des 3 points verticaux à côté du nom de l’interlocuteur ouvre une petite fenêtre où vous pouvez effacer l’historique de cette conversation avec cet interlocuteur."
-msgstr ""
-
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:169
-#: 8291975c087b480cb18a06fab1370494
-msgid "Pour **refermer la barre du chat,** et ne plus voir du tout les autres utilisateurs en ligne, il suffit de réappuyer sur la barre grise verticale."
-msgstr ""
-
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:181
-#: 48093d3e84eb49d8b8e5375b0ec021f5
-msgid "Messages internes"
-msgstr ""
-
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:183
-#: 80cc090cb82742058397dd24f32f6aa9
-msgid "D’une manière générale, vous verrez un **numéro** sur l’onglet de votre page URL vous indiquant que vous avez un nouveau message (mail ou chat)"
-msgstr ""
-
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:190
-#: 16ec9d78760643a3af2841b53dbf05f7
-msgid "Lire ses messages et y répondre"
-msgstr ""
-
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:192
 #: 48a20f84bac848c980447272073ec21b
-msgid "Lorsque vous apercevez un numéro rouge sur le logo GoFAST, dans le coin en haut à gauche, à côté de l’adresse GoFAST, cela veut aussi dire que vous avez un ou plusieurs **nouveaux messages (**\\ par email). Cliquez sur ce numéro ou sur le message en vert (« You have 1 unread message ») pour voir la liste des messages reçus."
+msgid "Lorsque vous apercevez un numéro rouge sur le logo GoFAST, dans le coin en haut à gauche, à côté de l’adresse GoFAST, cela veut aussi dire que vous avez un ou plusieurs **nouveaux messages (**\\ par email)."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:201
-#: 1aa7534d254d4a8cb96424ca2e5c5e8e
-msgid "**Voici ce que vous verrez si vous appuyez sur le message vert**"
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:57
+#: 23cf02a8bb7643a18a64d4f6b2be08d7
+msgid "**Cliquez sur l’enveloppe**"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:203
-#: e18500499c66433ea67704ebf22d76fc
-msgid "Vous voyez le titre du message reçu, l’expéditeur, la date et heure de l’envoi et si c’est un nouveau message (« NOUVEAU » en bleu à côté du titre)"
-msgstr ""
-
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:207
-#: 7e4dfa6107314dd3bdc2a55f22a4964d
-msgid "Pour supprimer des messages, sélectionnez les en cochant les cases devant chacun et appuyez sur « Supprimer » (en rouge)"
-msgstr ""
-
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:213
-#: 4884633e491e4c15900350bd44e4de73
-msgid "Vous pouvez aussi choisir une action comme « Marquer comme lu ou non-lu », en cliquant sur la flèche à droite au niveau de la ligne « Actions »"
-msgstr ""
-
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:220
-#: de0a36651ecb45f2b5bce213f194eb65
-msgid "Vous pouvez également trier par ordre chronologique croissant ou décroissant en cliquant sur la flèche au-dessus des dates et heures d’envoi"
-msgstr ""
-
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:227
-#: 5e30859c0d2e4a2da17ab770e2698a7a
-msgid "**Et voici ce que vous verrez si vous appuyez sur l’enveloppe**"
-msgstr ""
-
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:229
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:59
 #: 9ed28d71db8b4fed9253aaad125f14f5
 msgid "Vous voyez la liste des messages, les participants (expéditeurs et destinataires), la date et l’heure d’envoi et la poubelle pour le supprimer."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:237
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:67
 #: ac26743bc80b440bbcf25778b244ebea
 msgid "Si vous cliquez sur l’enveloppe , une punaise rouge apparaît, ce qui fixe la fenêtre avec les messages. Pour la débloquer, cliquez ailleurs sur la bande noire du menu, ainsi la fenêtre avec la liste des messages se refermera."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:245
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:75
 #: 23cf02a8bb7643a18a64d4f6b2be08d7
 msgid "**Cliquez sur le titre du message pour l’ouvrir.**"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:247
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:77
 #: f205a2dd02c646cabca3d51c4405db40
 msgid "Lorsque vous ouvrez le mail, vous retrouvez les informations telles que l’expéditeur (avec sa photo), la date et l’heure de l’envoi, le message envoyé et la possibilité d’y répondre avec les mêmes options que dans Word. Terminez avec « Envoyer le message »"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:256
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:86
 #: 20408f9b1eb247bf97aeb78474d7d28e
 msgid "Vous ne pouvez ni ajouter, ni supprimer un participant en cours de conversation, ce qui veut dire que si l’échange de mail commence entre 2-3 personnes, vous ne pourrez pas y ajouter/supprimer un participant lors de vos échanges/réponses. Il n’est donc pas possible non plus de transférer un message."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:262
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:92
 #: 5810efa62aa14dd992c0b29720446617
 msgid "Le service de mails sur GoFAST ne doit pas remplacer votre boîte mail traditionnelle (Lotus, Outlook, …) . Il est surtout utile pour converser directement sur GoFAST entre utilisateurs sans devoir passer d’une boîte de messagerie à une autre et de pouvoir, via la prévisualisation, envoyer directement un document (son lien GoFAST) par mail."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:268
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:98
 #: c12072afb59a4f5a8bdee98f30f19c08
 msgid "(Cfr : voir « Actions contextuelles de prévisualisation d’un document » / « Envoyer par mail » p.88)"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:278
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:108
 #: 0937e06e7a66495f94c4a4efccc9923e
 msgid "Créer un nouveau message"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:280
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:110
 #: 94c60a3635474c7e86e7523dc2453611
 msgid "Pour **créer un nouveau message/Email**, allez sur l’icône de l’enveloppe sur la barre noire supérieure. Cliquez ensuite sur « Nouveau message » en bleu."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:287
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:117
 #: 8c6975159f9d418a9041b9bda998a1b4
 msgid "Ecrivez les 3 premières lettres du nom de l’utilisateur à qui vous voulez envoyer le mail (celui-ci doit être un utilisateur de la GoFAST), et le système vous proposera une liste de noms à sélectionner."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:291
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:121
 #: e620850ac42d48f2b1ba0bcbf132054b
 msgid "Donnez un titre au mail et écrivez le contenu puis envoyez"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:302
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:132
 #: 3e94600e53b44719b61f2bfad767fb36
 msgid "Favoris et Derniers contenus vus"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:305
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:135
 #: d0acbc1649624c4db20c31579d780e5c
 msgid "Derniers contenus vus"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:307
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:137
 #: be92ab4f0fae42148503ac1114195eb9
 msgid "Cette petite fenêtre visible presque sur toutes les pages, sur la droite de l’écran, vous permet de voir les **10 derniers documents** que vous avez consultés/ouverts, cela sert de raccourcis puisqu’il suffit de cliquer sur le titre pour ouvrir la prévisualisation."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:315
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:145
 #: c52d8ac50ad74c74b9a7ac833ac5d8c2
 msgid "Il est aussi possible de voir cette vue depuis la barre de navigation de la GoFAST:"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:321
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:151
 #: 5b9a12466a4b4fe3bf078414a877fb69
 msgid "Accès aux Favoris"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:323
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:153
 #: bc4fb3197845496ea4836d5c31ea409d
 msgid "Vous pouvez voir **la liste** de vos documents/espaces/dossiers **favoris** en cliquant sur l’\\ **étoile** sur la bande noire du menu général. Une punaise rouge y apparaîtra, ce qui fixe la fenêtre avec la liste. Pour débloquer la liste, appuyez ailleurs sur la bande noire."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:328
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:158
 #: 2862f2e4ffdb4298ad44e87a57823403
 msgid "Lorsque vous ajouterez un favori à votre liste, il y aura le message en vert sur la droite de l’écran qui vous signalera l’ajout du favori."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:331
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:161
 #: 15f7aaace20b46c084aec4852268c173
 msgid "(Cfr : voir « Comment ajouter un favori » dans les actions contextuelles de prévisualisation p. 95)"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:339
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:169
 #: 15b7481df19b4434a52802e88e9b3915
 msgid "Tableau de Bord dynamique"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:340
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:170
 #: c082727332fd4052940534657db4e2ba
 msgid "À partir de la version 3.6.1, GoFAST bénéficie d’un Tableau de Bord dynamique pratique. Ce dernier permet d’avoir un accès rapide aux éléments les plus sollicités."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:342
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:172
 #: c72559732af740a49e4291e52dcabb38
 msgid "On pourra y accéder de deux façons :"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:344
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:174
 #: c20eb1c09f124f7d92146d7083ca02d2
 msgid "À partir du menu principal, cliquer sur le Burger puis «Tableau de Bord » dans le menu déroulant."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:349
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:179
 #: 0a334d22321945c9a39b3e13213f45db
 msgid "À partir de la page « Fil d’activité », en cliquant sur « Tableau de Bord »."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:354
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:184
 #: 3077ab04300143819473e029a7d83107
 msgid "Ce dernier dispose de 6 blocs :"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:360
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:190
 #: ccb17fc91a0f42c8a1274d6b2783ba3e
 msgid "Espace privé et profil"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:362
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:192
 #: 78a6bc9d0f244cf1936ed2ec538a4019
 msgid "Ce bloc est statique, il permet d’accéder à votre espace privé, visualiser votre calendrier, gérer votre profil ainsi que vos abonnements."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:365
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:195
 #: c5757189842e4c248c04f4f6a20c40d8
 msgid "Votre espace principal (CEO-Vision)"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:367
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:197
 #: 6a7eeff6654d46b88eb6b2e11eec4f62
 msgid "Dans ce bloc, vous avez la possibilité d’afficher l’espace principal de votre choix. Vous aurez à disposition l’accès au aux documents de ce dernier ainsi que son calendrier associé."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:369
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:199
 #: eac84bbe0a8b4dbcbfc074ab29434131
 msgid "Pour ce fait, aller dans votre profil puis cliquer sur « Paramètres du compte », défiler jusqu’à la section « Informations sur l’utilisateur » ensuite sélectionner dans le champs «Organisation principale » l’espace souhaité. N’oublier pas de sauvegarder en appuyant sur le bouton « Enregistrer» en bas de la fenêtre."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:372
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:202
 #: 0a32eb1594b94bebb3b6b3b4e5cd0a49
 msgid "Un seul espace principal pourra être mis en avant dans ce bloc du Tableau de bord."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:375
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:205
 #: 118a5bc0b3654a18a0fada7fd28419a5
 msgid "Memos"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:377
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:207
 #: f49ec6f574f146bd9baefda7b54c8496
 msgid "Ce bloc récupère toutes les nouvelles partagées créées à partir de la page « Fil d’activité »."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:379
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:209
 #: ae73e480e66e4de4a84073ce621ec856
 msgid "Pour créer un mémo, aller dans la page « Fil d’activité », cliquer sur « Partager une nouvelle», saisir votre texte puis appuyer sur « Envoyer » pour partager ou Annuler pour arrêter la création."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:384
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:214
 #: a4fb60ffc0444a499c1c99efcbc5e45a
 msgid "Pour supprimer un mémo de votre Tableau de bord, rendez-vous dans la page « Fil d’activité ». Vous pouvez également épingler son contenu."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:390
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:220
 #: 73a7e73bc8124de98957a7c4e887d3d0
 msgid "les mémos sont partagés en publique. Toutes les personnes inscrites sur la plate-forme auront accès à ces informations."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:393
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:223
 #: 5f57fb33ec324a1faf5c911b59391e42
 msgid "Mes espaces favoris"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:395
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:225
 #: cfb0b23071654947a2412c19c832c454
 msgid "Ce bloc permet de lister les espaces favoris pour un accès rapide. Il est possible également d’épingler d’autres espaces ou de les supprimer des favoris à partir du bloc."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:397
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:227
 #: 40d856ad8f024cf18953243e0a01b338
 msgid "Pour ajouter un ou plusieurs espaces favoris, cliquer sur le bouton +  « Épingler un nouvel espace »."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:402
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:232
 #: ba7d5cb8bea94e679c859ab966ae7358
 msgid "Taper les trois premières lettres de l’espace pour lequel vous voulez mettre en favoris. Une liste de propositions s’affiche, sélectionner le nom recherché. Une fois que vous avez terminé, appuyer sur « Épingler sur le tableau de bord »."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:408
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:238
 #: 827fc74d72e04684a57da822379e9d2c
 msgid "Pour supprimer un espace des favoris, cliquer sur le bouton placé à droite du titre puis appuyer sur « Supprimer des favoris »."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:413
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:243
 #: 990afeb53f0446be9e72c87ab569770b
 msgid "Un message de confirmation de suppression s’affiche en haut à droite de la fenêtre."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:418
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:248
 #: 8d3c3e04b4804c259cca4b1a824f15cb
 msgid "Vous remarquerez que l’espace est toujours épinglé  sur le bloc, cela ne signifie pas que l’action n’a pas eu lieu mais simplement par précaution en cas d’erreur, vous pouvez restaurer cet espace en cliquant sur le même bouton puis sur « Ajouter aux favoris »."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:423
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:253
 #: 58745e7f39cc48f19a7364bcd114421a
 msgid "En revanche, si vous actualisez ou vous quittez la page du tableau de bord, la suppression se fait de manière définitive et l’espace ne sera plus visible dans le bloc."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:426
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:256
 #: b3ba9823b7684a8a9bcb74c283039185
 msgid "Mes contenus favoris"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:427
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:257
 #: df5528ed524547858fe2400e48e8b120
 msgid "Dans le bloc « Mes contenus favoris », vous pouvez épingler les documents favoris. Pour ajouter un ou plusieurs contenus, cliquer sur l’icône Plus à droite du titre du bloc « Épingler un nouveau contenu »."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:432
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:262
 #: 6e862a7ef41e468faea975cb857cbddd
 msgid "Renseigner le nom du contenu souhaité dans la barre de recherche puis faites votre sélection et enfin appuyer sur le bouton « Épingler sur le tableau de bord »."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:437
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:267
 #: 289e41f1d28e446a92065d0396abea6f
 msgid "Les documents épinglés peuvent être prévisualisés, édités, partagés, archivés et commentés directement à partir du tableau de bord."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:444
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:274
 #: 3a2a85bbf2cf46a9ac1dcf3ae064623b
 msgid "Annuaires"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:447
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:277
 #: 7510fb6def7c4901ad53d6bb450fdc8f
 msgid "Chercher un Espace Collaboratif"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:449
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:279
 #: 683626f9403146bba84fcbdedff6cc5a
 msgid "Pour **rechercher des Espaces Collaboratifs via l’annuaire,** allez sur *Annuaire* dans le menu principal, puis sur Organisations, Groupes, Public ou Extranets. Vous trouverez l'arborescence des espaces existants, que vous pouvez rejoindre en cliquant dans les cases (une demande est alors envoyée aux administrateurs métier de l'Espace)."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:459
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:289
 #: 4397323f8b154f93bbfd514cb02d353e
 msgid "Chercher une Liste d'utilisateurs"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:461
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:291
 #: d6701d23f0084f88bdfc4ae24e8f131c
 msgid "Pour **rechercher des Listes d'utilisateurs via l’annuaire,** allez sur *Annuaire* dans le menu principal, puis sur *Listes d'utilisateurs*."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:468
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:298
 #: b198c3072ac847c999c52e03b697246d
 msgid "Chercher un utilisateur"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:470
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:300
 #: 1075857b19e24231a387d87097951b64
 msgid "Pour rechercher un utilisateur vous avez le choix entre tapez son nom dans la recherche, ou passer par l’ \"Annuaire\" / \"Utilisateurs\". Vous verrez toute la liste des utilisateurs GoFAST avec leur « carte de visite »."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:478
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:308
 #: dab20ef76629415f902a7dde20f59a1e
 msgid "Vous pouvez **filtrer** votre recherche selon les noms et l’alphabet ou les organisations/groupes/espaces"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:484
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:314
 #: 256f5ba93184450abfa27f28381700a2
 msgid "Vous pouvez directement envoyer un mail ou appeler l’utilisateur via son profil. De même que lui envoyer une demande de « relation », ce qui permet de contacter/voir le raccourci de cette personne même si elle ne fait pas partie de vos espaces collaboratifs."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:494
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:324
 #: 5dc1c023a13e4780ace224bb005e469a
 msgid "Flux d'information"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:496
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:326
 #: 5d65959504c64859b00ddcab16249b3c
 msgid "Vous pouvez voir les **news** (pareil que sur l’Intranet) via ce logo (Flux) sur la bande noire du menu."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:503
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:333
 #: aa1631b1f95d422d833439028fb4e22b
 msgid "Rapports & statistiques"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:506
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:336
 #: b1ec3ee0ccc94f5ab99f0b9fb2f117f6
 msgid "Onglet « Statistiques » dans un Espace"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:507
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:337
 #: 78157510c3334c30bf6d3b3af4769932
 msgid "Dans l'onglet **Statistiques**, vous pouvez choisir les informations que vous souhaitez retrouver graphiquement et sur une période sélectionnée."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:509
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:339
 #: 6afefa88f53c4ffa9a44154eee8a6cad
 msgid "Deux sous-onglets sont disponibles :"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:511
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:341
 #: 057d398fed974a85a3ba88dfc26e74d8
 msgid "Sous-onglet « **Statistique des membres** » permet de visualiser les informations relatives aux membres actifs et inactifs, les nouveaux membres et membres connectés."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:516
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:346
 #: c23c611cfc324b5d926278596223b612
 msgid "Sous-onglet « **Statistique documentaires** », permet de visualiser toutes les informations relatives aux documents par sa catégorie, son état et son importance."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:522
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:352
 #: 81fd6680849a43099ac2717116b43c40
 msgid "Version mobile"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:524
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:354
 #: 1407b53fae92423aac52d7b5b681337f
 msgid "La plateforme GoFAST peut fonctionner également en mobilité, et est accessible depuis n'importe quel support sur smartphone ou tablette."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:526
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:356
 #: 1d68c2bb8c6845aca512ec6f93f1ddf2
 msgid "Nous vous proposons une version simplifiée de la plateforme pour plus de facilité d'utilisation, voici quelques exemples des écrans que vous pouvez alors retrouver dans votre poche :"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:529
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:359
 #: aef49df3fbf34dd388797d77aa910d42
 msgid "1. Le menu contextuel"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:536
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:366
 #: 99960d5b5f4d46699e8ffb3829086368
 msgid "2. Le fil d'actualité et son menu"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:542
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:372
 #: 2334e92b08994f63bd0eaae93e50d96f
 msgid "3. L'explorateur de fichiers / GoFAST File Browser"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:549
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:379
 #: 0cefbfbc92bc4ffbab67005a329bd40f
 msgid "4. La prévisualisation et son menu de métadonnées"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:554
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:384
 #: 39cd02c180b24377afc8d52c8a6c0f56
 msgid "Vous pouvez alors mettre à jour une version d'un document, ou encore ajouter un commentaire"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:558
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:388
 #: 2f5f9446a84346459f963a935ce52b95
 msgid "5. Moteur de Recherche"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:565
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:395
 #: bd6943c16f5f4276b8bb98d74fc55f8d
 msgid "6. Le calendrier"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:576
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:406
 #: ef42fd042fb849e197f92789f38d7404
 msgid "Utilisation avancée (signature, mobilité, ...)"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:578
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:408
 #: af02a86be8914ada9a45109c1989609e
 msgid "Un guide séparé a pour but de donner les instructions de configuration de logiciels tiers fonctionnant avec la plate-forme GoFAST démultipliant les usages et la puissance de la plateforme"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:582
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:412
 #: 315055b2dd5e4083862473320c272a11
 msgid "Ces outils complémentaires permettent :"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:584
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:414
 #: dcdbb1be21b94df3beba1e58f6a974a5
 msgid "Des outils complémentaires en mobilité"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:585
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:415
 #: 3da129b3c7bc4410a1f13c6c9bb7ed35
 msgid "Une synchronisation de GoFAST avec un PC pour travailler en mode « déconnecté » (type DropBox)"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:587
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:417
 #: 32fa4cba31254812a68c5f35e0e19b2b
 msgid "L’accès à GoFAST sur les terminaux mobiles (tablettes,…) par explorateur de fichiers"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:589
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:419
 #: c271a0ea210342f78d32332a99037512
 msgid "La visualisation et/ou l’édition en ligne de documents Office sur tablette"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:591
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:421
 #: d6516e7826ac40f9a9db60b300bd2d24
 msgid "La messagerie instantanée (« chat ») sur mobile"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:592
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:422
 #: d3a14e9cee3645cbb8606839b6dd357c
 msgid "La vidéoconférence sur mobile (dans navigateur)"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:594
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:424
 #: 0cca9b96ce6c47db87cd9341876c431a
 msgid "Des outils de dématérialisation (smartphone, copieur, ...)"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:595
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:425
 #: cc302204354343cb9f68827cdcef3766
 msgid "Des outils de signature électronique"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:597
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:427
 #: 52b288398f2848a5ab1ebccec5d73422
 msgid "Vous trouverez ce Guide ici : http://gofast-docs.readthedocs.io/fr/latest/docs-gofast-users/doc-gofast-utilisation-avancee.html"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:601
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:431
 #: 3f3a71319b494fe090a60a6c83a1bfcd
 msgid "Annexes : Quelques bonnes pratiques"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:604
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:434
 #: 7716729782174174a57c563648524924
 msgid "Même si GoFAST nécessite de changer un peu ses habitudes, il est important que le plus grand nombre fasse l'effort de changer. Les gains en temps sont ensuite très importants, tout le monde est alors gagnant!"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:609
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:439
 #: db41fb94ad034c98b70f03150b8135e1
 msgid "**Objectif 1: Diminuer le nombre de mails entre collègues et partenaires**"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:611
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:441
 #: 2f2b0440348646ae8f9e9fa4564e31cb
 msgid "Je n'envoie plus de mails avec pièce jointe, mais je mets un commentaire sur le document sur GoFAST, toutes les personnes recevront une notification."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:615
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:445
 #: 4b6e2a8293b54d668b26bd83e00c03af
 msgid "dans de nombreux cas la pièce jointe n'est déjà plus à jour quand votre destinataire la recoit de plus les pièces jointes encombres les messageries."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:619
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:449
 #: f8ba1fc40536481ea8a16f3a7da7c617
 msgid "Je n'envoie plus de mails avec pièce jointe à mes contacts n'ayant pas de compte GoFAST mais j'utilise la fonction \"Partager par email\""
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:621
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:451
 #: e9a9ff5764f64e78a2c3e692d064ac10
 msgid "Je n'élabore plus un document 'chacun son tour' mais utilise la co-édition OnlyOffice"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:623
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:453
 #: d4205fd7213c41649705b204ec44ae85
 msgid "Ceci permet de gagner du temps et limite les erreurs, évite d'avoir à fusionner les sections rédigées par chacun"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:625
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:455
 #: e12aef2af11c45cc8c0ef7d6b82d6897
 msgid "Je n’envoie plus de demandes de tâche ou validation par mail, mais j’utilise les ‘’workflows’’ (processus de tâches) pour relecture, validation, signature, etc. => tout le monde est notifié, chacun connaît sa tâche et les délais sont respectés."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:629
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:459
 #: b6c17b99fd7148baba84408a8f55a8d8
 msgid "J’utilise les forums pour mes questions/réponses au lieu des mails => tout le monde partage ses connaissances."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:632
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:462
 #: ba471dd6342c43d8be32d04909408fa9
 msgid "**Objectif 2: Gagner du temps dans la recherche d’information, fichiers et autres contenus**"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:634
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:464
 #: 970fa3e279cb48d6b68c6c9d41c46cc1
 msgid "La totalité des contenus (même cellules d'un tableur, ....) est indexé (indexation \"plein-texte\") et le moteur de recherche est considéré comme un des plus puissants"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:637
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:467
 #: 6703a5404009437a88e27ea7af9b9291
 msgid "je gagne jusqu'à 30% de mon temps *(source IDC : 30% des cadres passent leur temps à rechercher des contenus dispersés et dupliquer)*"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:640
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:470
 #: ba9f0eb85fcf4c70962915d0307afa1f
 msgid "**Objectif 3 : Mettre fin aux doublons de fichiers et autres contenus**"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:642
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:472
 #: 80416d65487e48cfa06a0b47e9b382e9
 msgid "Je ne garde plus de fichiers sur mon PC ou boîte mail, les documents sont centralisés et accessibles selon les droits d’utilisateurs."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:644
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:474
 #: ec2cc09fc21d446399a085a45368a689
 msgid "Je ne copie plus jamais un document à plusieurs endroits, j'utilise la fonction Emplacement/Visibilité qui permet à un même document d'être vu dans plusieurs espaces."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:648
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:478
 #: f9dfad6655d14659a44dee8875587186
 msgid "Quelque soit l'espace, tout le monde aura la bonne version"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:650
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:480
 #: e9d9af339bc14a30b2adc697d09c696a
 msgid "Je ne créé plus un fichier par version"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:652
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:482
 #: cbc8c14d4f7049b5b5798b26a11cddb0
 msgid "GoFAST versionne automatiquement et toutes les versions sont accessibles à tout moment."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:655
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:485
 #: 882e88380a2742b9838845f637f295c2
 msgid "J’accède à mes documents de travail en mobilité et je n’ai pas besoin de copie locale ou de version papier (accès Online sur Tablettes et Online/Offline sur PC)."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:658
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:488
 #: fab9560b02214e45947008ed7de4acdb
 msgid "Je partager les informations avec mes clients et fournisseurs dans l’Extranet GoFAST et ainsi, ils ont accès aux mêmes documents et non plus des doublons, qui sont rapidement obsolètes."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:661
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:491
 #: 26978a316a4c4753ba26dd70cd69e747
 msgid "Je ne stocke plus mes documents dans la messagerie car un simple glisser-déposer suffit pour les transférer sur GoFAST."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:664
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:494
 #: 0c6e03a91ea7475a811ab03428f602ab
 msgid "**Objectif 4: Maîtriser les processus de traitement, validation et signature des documents**"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:666
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:496
 #: c06f88980b0542d8abfcba1c4b3c8b61
 msgid "Les processus informels ou les procédures papier souvent inefficaces, sont modélisés dans GoFAST => grâce à des circuits de tâches prédéterminés, vous retrouvez la maîtrise des divers processus métier."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:671
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:501
 #: 2905a10d17f94b239eea49c5010bfabd
 msgid "Je n’ai plus à chercher les dates d’échéances dans mes mails, celles-ci sont clairement indiquées sur les processus et me sont rappelées par notification."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:675
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:505
 #: 67e78d8f11cc41798407758ca56c3add
 msgid "**Objectif 5: Diminuer le volume papier**"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:677
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:507
 #: 727af745fe2341359d379976d4e0aca7
 msgid "Je numérise les documents papiers (contrats, factures, courriers, etc.) et les envoie directement vers la plateforme GoFAST où ils seront indexés plein texte à la volée."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:680
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:510
 #: d45dd852c16947bf88b84c33f541b1b6
 msgid "Je transforme les formulaires papier en documents électroniques et les diffuse avec efficacité (cibler un groupe, rappels automatiques et relance, suivi des actions, etc.) et j’exporte les données dans un tableur."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:684
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:514
 #: 78a5c4ff6ba248678f6f321281373e59
 msgid "Je signe électroniquement les PDF avec certificat sécurisé plutôt que de les imprimer pour les signer et les re-scanner."
 msgstr ""
