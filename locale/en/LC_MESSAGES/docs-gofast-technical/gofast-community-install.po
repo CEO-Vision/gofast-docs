@@ -4,20 +4,21 @@
 # package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 # Sandra Massonnat <sandra.massonnat@ceo-vision.com>, 2019.
-# Christopher Potter <cpotter@ceo-vision.com>, 2019.
+# Christopher Potter <cpotter@ceo-vision.com>, 2019, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: gofast-docs latest\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-23 16:47+0100\n"
-"PO-Revision-Date: 2019-06-16 10:27+0000\n"
+"PO-Revision-Date: 2020-08-23 13:30+0000\n"
 "Last-Translator: Christopher Potter <cpotter@ceo-vision.com>\n"
-"Language: en\n"
 "Language-Team: en <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=n != 1\n"
+"Language: en\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.6.1\n"
 "Generated-By: Babel 2.7.0\n"
 
 # b91ac9032b254caa91c41f0c1d33a5c3
@@ -182,6 +183,8 @@ msgid ""
 "Lorsque vous vous rendez sur l'adresse IP , une page de configuration "
 "fait son apparition, elle est constituée de 4 étapes:"
 msgstr ""
+"After going to the IP address, a configuration page is displayed, containing "
+"4 steps:"
 
 # 8d5930879e0e4f7893344a73dea18c05
 #: ../../docs-gofast-technical/gofast-community-install.rst:44
@@ -209,6 +212,8 @@ msgid ""
 "Une fois ces 4 étapes effectuées, une page apparait avec un "
 "récapitulatif. Si tout est correct, validez la configuration."
 msgstr ""
+"Once those 4 steps completed, a page is displayed with a summary. If "
+"everything is correct, confirm the configuration."
 
 # 8d5930879e0e4f7893344a73dea18c05
 #: ../../docs-gofast-technical/gofast-community-install.rst:55
@@ -280,37 +285,37 @@ msgstr "For the second option you must provide :"
 # 2410c6e8b2e64b8ca81bbe9d497a7798
 #: ../../docs-gofast-technical/gofast-community-install.rst:71
 msgid "**Country**"
-msgstr ""
+msgstr "**Country**"
 
 # 934decca44dc4b3a9610e8a224111901
 #: ../../docs-gofast-technical/gofast-community-install.rst:72
 msgid "**State or Province**"
-msgstr ""
+msgstr "**State or Province**"
 
 # d926cf2cb000463ebb0a9054e05fddad
 #: ../../docs-gofast-technical/gofast-community-install.rst:73
 msgid "**City**"
-msgstr ""
+msgstr "**City**"
 
 # 09e4696a44f946cfb88d20eeba2ecab0
 #: ../../docs-gofast-technical/gofast-community-install.rst:74
 msgid "**Company**"
-msgstr ""
+msgstr "**Company**"
 
 # 8d666ec7e5b64d1da152f85f0ee30445
 #: ../../docs-gofast-technical/gofast-community-install.rst:75
 msgid "**Organization unit**"
-msgstr ""
+msgstr "**Organization unit**"
 
 # c59e98567fcd4dbeb7737c575f59a881
 #: ../../docs-gofast-technical/gofast-community-install.rst:76
 msgid "**Web site name**"
-msgstr ""
+msgstr "**Web site name**"
 
 # 3cb6438124dc445780a142579d01d1c7
 #: ../../docs-gofast-technical/gofast-community-install.rst:77
 msgid "**E-mail address**"
-msgstr ""
+msgstr "**E-mail address**"
 
 # 9c992cd3641743f4abe47d9566e232c5
 #: ../../docs-gofast-technical/gofast-community-install.rst:80
@@ -329,32 +334,32 @@ msgstr ""
 # cc6891e4c8944556bc8842a7c77e750c
 #: ../../docs-gofast-technical/gofast-community-install.rst:83
 msgid "**SMTP Server** :"
-msgstr ""
+msgstr "**SMTP Server** :"
 
 # 921784dea2df436699df2d7d62be5a29
 #: ../../docs-gofast-technical/gofast-community-install.rst:84
 msgid "**Username** :"
-msgstr ""
+msgstr "**Username** :"
 
 # cc695238a1944fdbb806492639a38fb8
 #: ../../docs-gofast-technical/gofast-community-install.rst:85
 msgid "**Password** :"
-msgstr ""
+msgstr "**Password** :"
 
 # bc91d762c78148ae9a47d26b18ef019c
 #: ../../docs-gofast-technical/gofast-community-install.rst:86
 msgid "**Security** : None (without security), TLS (....), SSL (....)"
-msgstr ""
+msgstr "**Security** : None (without security), TLS (....), SSL (....)"
 
 # 9817d88056b847ef8d5ac770f963ec6b
 #: ../../docs-gofast-technical/gofast-community-install.rst:87
 msgid "**SMTP Port** :"
-msgstr ""
+msgstr "**SMTP Port** :"
 
 # fbcc27ce01954b74ac7daa05145ba47f
 #: ../../docs-gofast-technical/gofast-community-install.rst:88
 msgid "**Recipient address** :"
-msgstr ""
+msgstr "**Recipient address** :"
 
 # 98abdcb9098b410f89e760971148b87d
 #: ../../docs-gofast-technical/gofast-community-install.rst:91
@@ -406,6 +411,8 @@ msgid ""
 "démarrages de service, ceci pouvant être plus ou moins long suivant les "
 "capacités du serveur"
 msgstr ""
+"Several technical operations will occur as well as several services restart, "
+"this can take more or less time depending of the server capacities"
 
 # 86c83b891279431fa66ed546e23ffa6c
 #: ../../docs-gofast-technical/gofast-community-install.rst:105
@@ -416,6 +423,10 @@ msgid ""
 "immédiatement cette nouvelle page et retourner sur la page de chargement "
 "de votre GoFAST."
 msgstr ""
+"If you generated a self-signed SSL certificate, you will need to open "
+"another page with the same IP address to add the exception to the browser "
+"again. After adding this exception, immediately close this new page and "
+"return to your GoFAST loading page."
 
 # 1e7114e836c043e88628ff80667c510c
 #: ../../docs-gofast-technical/gofast-community-install.rst:108
@@ -497,4 +508,3 @@ msgstr "You are now ready to start !"
 #~ " adresse IP pour de nouveau ajouter"
 #~ " l'exception au navigateur"
 #~ msgstr ""
-
