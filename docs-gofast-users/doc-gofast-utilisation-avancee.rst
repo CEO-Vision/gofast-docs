@@ -90,11 +90,16 @@ Vous pourrez configurer un espace de stockage directement sur la GoFAST
 par « Connecter les clouds » puis choisir « Autre cloud » puis « Webdav » et
 entrer l'adresse « https://gofast.mycomp.com/alfresco/webdav » où vous
 devez remplacer mycomp.com par le domaine de votre organisation.
+
 |image14|
 |image15|
+
 Vous pouvez ensuite naviguer dans votre arborescence et choisir le document que vous voulez éditer :
+
 |image16|
+
 Puis l'éditer : 
+
 |image21|
 
 
