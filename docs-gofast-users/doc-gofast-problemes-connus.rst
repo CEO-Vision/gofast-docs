@@ -196,7 +196,9 @@ Comme ci-dessous :
 .. figure:: media-guide/pb-chat-bloc-vide-deconnecte.png   
    :alt:
 
-.. NOTE:: Cela arrive lorsque le navigateur web ne parvient pas à connecter l’utilisateur au serveur de Chat à cause de la présence de plusieurs onglets pointant vers GoFAST (ex : vous avez 3 onglets ouvert vers la plateforme dans votre navigateur Firefox).
+
+
+.. NOTE:: Cela arrive lorsque le navigateur web ne parvient pas à connecter l’utilisateur au serveur de Chat à cause de la présence de plusieurs onglets pointant vers GoFAST. Par exemple, si vous avez 3 onglets ouvert vers la plateforme dans votre navigateur Firefox.
 
 
 **Comment résoudre le problème :**
