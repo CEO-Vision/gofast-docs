@@ -183,6 +183,24 @@ Nb: Souvent il s'agit de décision pour garder la compatibilité avec des ancien
 
 Pour changer ce mode, cliquer sur la roue crantée, "Outils de développement" et changer "Chaîne de l'agent utilisateur" par IE11 au lieu de IE10 (ici sur la copie d'écran)
 
+
+Problème de Chat Collaboratif - Messagerie live
+===============================================
+
+Volet du Chat vide et hors connexion
+------------------------------------
+
+Dans certains cas, il peut arriver que le bloc latéral de droite dédié au Chat collaboratif, reste vide. 
+
+.. NOTE:: Cela arrive lorsque le navigateur web ne parvient pas à connecter l’utilisateur au serveur de Chat à cause de la présence de plusieurs onglets pointant vers GoFAST (ex : vous avez 3 onglets ouvert vers la plateforme dans votre navigateur Firefox).
+
+
+**Comment résoudre le problème :**
+ 1. Fermez tous les onglets ouverts sur GoFAST, sauf 1
+ 2. Recharger la page, de préférence en faisant un ‘Ctrl+F5’ ou ‘Fn+F5’ (dépend de votre PC)
+ 3. Le volet du Chat va se reconnecter, puis vous pouvez rouvrir vos autres onglets GoFAST (ceux fermé précédemment). 
+
+
 Problème de prévisualisation
 ===============================
 Pas de streaming Video
