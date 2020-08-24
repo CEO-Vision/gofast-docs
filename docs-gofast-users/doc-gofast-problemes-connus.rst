@@ -191,6 +191,10 @@ Volet du Chat vide et hors connexion
 ------------------------------------
 
 Dans certains cas, il peut arriver que le bloc latéral de droite dédié au Chat collaboratif, reste vide. 
+Comme ci-dessous : 
+
+.. figure:: media-guide/pb-chat-bloc-vide-deconnecte.png   
+   :alt:
 
 .. NOTE:: Cela arrive lorsque le navigateur web ne parvient pas à connecter l’utilisateur au serveur de Chat à cause de la présence de plusieurs onglets pointant vers GoFAST (ex : vous avez 3 onglets ouvert vers la plateforme dans votre navigateur Firefox).
 
