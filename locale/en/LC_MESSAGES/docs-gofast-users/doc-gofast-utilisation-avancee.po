@@ -10,16 +10,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gofast-docs latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-27 12:27+0200\n"
+"POT-Creation-Date: 2020-08-24 18:01+0200\n"
 "PO-Revision-Date: 2020-08-23 13:30+0000\n"
 "Last-Translator: Christopher Potter <cpotter@ceo-vision.com>\n"
-"Language-Team: \n"
 "Language: en\n"
+"Language-Team: \n"
+"Plural-Forms: nplurals=2; plural=n != 1\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.6.1\n"
 "Generated-By: Babel 2.7.0\n"
 
 #: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-utilisation-avancee.rst:2
@@ -162,8 +161,8 @@ msgid ""
 "Voici comment configurer l'outil (**gofast.ceo-vision.com** est à "
 "remplacer par le nom de votre GoFAST, **cpotter** par votre identifiant)"
 msgstr ""
-"There are the steps to configure the tool (**gofast.ceo-vision.com** has to "
-"be replaced by the name of your GoFAST URL, **cpotter** by your login)"
+"There are the steps to configure the tool (**gofast.ceo-vision.com** has "
+"to be replaced by the name of your GoFAST URL, **cpotter** by your login)"
 
 #: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-utilisation-avancee.rst:40
 #: a5eb8d527d6d4ca493aec7ed086610c7
@@ -184,8 +183,8 @@ msgid ""
 "PC)."
 msgstr ""
 "When the computer is connected to the network, MountainDuck periodically "
-"checks whether documents have been changed on the GoFAST platform. If the "
-"documents have been changed, they are copied locally (on your PC)."
+"checks whether documents have been changed on the GoFAST platform. If the"
+" documents have been changed, they are copied locally (on your PC)."
 
 #: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-utilisation-avancee.rst:50
 #: cb1cdc24946b4dca9a3fe86b6969be59
@@ -238,9 +237,10 @@ msgid ""
 "version payante incluant la synchronisation locale est disponible sous le"
 " nom **« Webdav Navigator »**"
 msgstr ""
-"For that you need to install the free software **\"Webdav Navigator Lite\"** "
-"from iTunes, GooglePlay. Please note that a paid version including local "
-"synchronization is available under the name **\"Webdav Navigator\"**"
+"For that you need to install the free software **\"Webdav Navigator "
+"Lite\"** from iTunes, GooglePlay. Please note that a paid version "
+"including local synchronization is available under the name **\"Webdav "
+"Navigator\"**"
 
 #: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-utilisation-avancee.rst:74
 #: 4bb58ee9deeb41b39c5d567a46a02dee
@@ -282,80 +282,105 @@ msgid ""
 "Nous recommandons l'application OnlyOffice sur Googleplay (au 02/10/2019 "
 "la version n'est pas totalement fonctionnelle) et Applestore."
 msgstr ""
-"We recommend to use OnlyOffice Apps on Googleplay (on October, 2nd 2019 the "
-"version was not fully operational ) and Applestore."
+"We recommend to use OnlyOffice Apps on Googleplay (on October, 2nd 2019 "
+"the version was not fully operational ) and Applestore."
 
 #: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-utilisation-avancee.rst:89
 #: 94e24217f2294199bddf39b0474d7f03
+#, fuzzy
 msgid ""
 "Vous pourrez configurer un espace de stockage directement sur la GoFAST "
 "par « Connecter les clouds » puis choisir « Autre cloud » puis « Webdav »"
 " et entrer l'adresse « https://gofast.mycomp.com/alfresco/webdav » où "
-"vous devez remplacer mycomp.com par le domaine de votre organisation. "
-"|image14| |image15| Vous pouvez ensuite naviguer dans votre arborescence "
-"et choisir le document que vous voulez éditer : |image16| Puis l'éditer :"
-" |image21|"
+"vous devez remplacer mycomp.com par le domaine de votre organisation."
 msgstr ""
-"You will be able to configure a storage space directly on GoFAST by \"Open / "
-"Add cloud storage\" then choose \"Webdav\" and enter the address \""
-"https://gofast.mycomp.com/alfresco/webdav\" where you must replace "
+"You will be able to configure a storage space directly on GoFAST by "
+"\"Open / Add cloud storage\" then choose \"Webdav\" and enter the address"
+" \"https://gofast.mycomp.com/alfresco/webdav\" where you must replace "
 "mycomp.com by the domain of your organization."
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-utilisation-avancee.rst:102
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-utilisation-avancee.rst:94
+#: 1b1f3e7e278e400597c53e806530811f
+msgid "|image14| |image15|"
+msgstr ""
+
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-utilisation-avancee.rst:97
+#: 9c94cbbe4daa44a682652389bdd168ca
+msgid ""
+"Vous pouvez ensuite naviguer dans votre arborescence et choisir le "
+"document que vous voulez éditer :"
+msgstr ""
+
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-utilisation-avancee.rst:99
+#: 02e24b05298b477c8d1813e0c89e1cc3
+msgid "|image16|"
+msgstr ""
+
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-utilisation-avancee.rst:101
+#: cc240bfea06f4fbb828d367e5ca0fded
+msgid "Puis l'éditer :"
+msgstr ""
+
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-utilisation-avancee.rst:103
+#: ae6e334b7c3041d7813ef12b1ac54ef3
+msgid "|image21|"
+msgstr ""
+
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-utilisation-avancee.rst:107
 #: 4550b596a82640f3bb2903f7620c714b
 msgid "Messagerie instantanée (« chat / conversation ») sur mobiles"
 msgstr "Instant messaging (\"chat / Conversation\") on smartphones"
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-utilisation-avancee.rst:104
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-utilisation-avancee.rst:109
 #: e81fe88625d34f1286f26edce6448b3f
 msgid ""
 "Avec GoFAST vous avez une messagerie instantanée privée et sécurisée, "
 "équivalent de « WhatsApp » ou « MS-Teams » pour votre Organisation, "
 "fonctionnant avec Riot/Matrix (GoFAST > v3.8)"
 msgstr ""
-"With GoFAST you have a private and secure instant messenger, equivalent to \""
-"WhatsApp\" or \"MS-Teams\" for your Organization, using \"Element (former "
-"Riot)/Matrix\" (GoFAST > v3.8)"
+"With GoFAST you have a private and secure instant messenger, equivalent "
+"to \"WhatsApp\" or \"MS-Teams\" for your Organization, using \"Element "
+"(former Riot)/Matrix\" (GoFAST > v3.8)"
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-utilisation-avancee.rst:107
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-utilisation-avancee.rst:112
 #: dc0dd304ab3f40b0a5f8df7cf2a333b7
 msgid "Vous pouvez donc utiliser l'application pour votre téléphone suivant :"
 msgstr "Thus you can use an application for your phone following :"
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-utilisation-avancee.rst:109
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-utilisation-avancee.rst:114
 #: 8161e331041d44bfae81dd2a807370fa
 msgid ""
 "Android : "
 "https://play.google.com/store/apps/details?id=im.vector.app&hl=fr_FR"
 msgstr ""
-"Android : https://play.google.com/store/apps/"
-"details?id=im.vector.app&hl=en_EN"
+"Android : "
+"https://play.google.com/store/apps/details?id=im.vector.app&hl=en_EN"
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-utilisation-avancee.rst:111
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-utilisation-avancee.rst:116
 #: 66eb1b54833d4ce99fa63ea5bb80247f
 msgid "iOS/iPAD : https://apps.apple.com/fr/app/riot-im/id1083446067"
 msgstr "iOS/iPAD : https://apps.apple.com/us/app/riot-im/id1083446067"
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-utilisation-avancee.rst:114
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-utilisation-avancee.rst:119
 #: 967ea8b9010c4b48b9c622fc1f98e170
 msgid ""
 "Pour configurer ces clients il suffit d’entrer l'adresse de votre serveur"
 " GoFAST (avec -comm) :"
 msgstr ""
-"For setting up these chat applications just enter your GoFAST URL (adding "
-"-comm) :"
+"For setting up these chat applications just enter your GoFAST URL (adding"
+" -comm) :"
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-utilisation-avancee.rst:116
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-utilisation-avancee.rst:121
 #: ae6e334b7c3041d7813ef12b1ac54ef3
 msgid "|image22|"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-utilisation-avancee.rst:119
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-utilisation-avancee.rst:124
 #: 1fb17a23a0e945fd865d6626d254f732
 msgid "Signature électronique unitaire des PDF"
 msgstr "Unitary PDF Electronic signature"
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-utilisation-avancee.rst:121
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-utilisation-avancee.rst:126
 #: 3ecab76995e044c59d1f7150e070c638
 msgid ""
 "GoFAST permet d'ouvrir un PDF avec Foxit Reader (ou Acrobat), d'y apposer"
@@ -365,12 +390,12 @@ msgstr ""
 "GoFAST allows you to open a PDF with Foxit Reader (or Acrobat), to apply "
 "a signature and save the signed PDF directly on the GoFAST platform."
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-utilisation-avancee.rst:124
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-utilisation-avancee.rst:129
 #: 91bfb0c2708245e38192ff0c209a9f66
 msgid "Vous devez avoir installé \"ITHitEditDocumentOpener\""
 msgstr "You must have installed \"ITHitEditDocumentOpener\""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-utilisation-avancee.rst:126
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-utilisation-avancee.rst:131
 #: 0f16b35a548d4968a245f654c18e8be8
 msgid ""
 "Vous pouvez alors choisir dans le menu 'Editer en ligne'. Ceci ouvrira "
@@ -383,12 +408,12 @@ msgstr ""
 "you can sign with a handwritten signature or electronic certificate and "
 "save directly to GoFAST while creating a version."
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-utilisation-avancee.rst:128
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-utilisation-avancee.rst:133
 #: 02e24b05298b477c8d1813e0c89e1cc3
 msgid "|image17|"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-utilisation-avancee.rst:130
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-utilisation-avancee.rst:135
 #: 3666599996414049a4cb29bc9b8ab33f
 msgid ""
 "Si vous utilisez Acrobat Reader, l'application doit être déjà fermée "
@@ -397,25 +422,25 @@ msgstr ""
 "If you use Acrobat Reader, the application must be closed before "
 "launching the online edition"
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-utilisation-avancee.rst:133
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-utilisation-avancee.rst:138
 #: 815a38b254244419bd456c0f9abe5296
 msgid "Signature électronique en masse RGS 2* des PDF"
 msgstr "Bulk PDF Electronic signature with Qualified Signature"
 
 # e1285e2bfd934ada81227c32d1beda5c
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-utilisation-avancee.rst:135
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-utilisation-avancee.rst:140
 #: 168261c4385a46579ca99132a0f1854b
 msgid ""
 "Nous testons actuellement Xolidosign (site en Anglais mais application "
 "traduite en Francais)."
 msgstr "We are currently testing Xolidosign."
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-utilisation-avancee.rst:138
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-utilisation-avancee.rst:143
 #: 7181b746e43f40a3a23be83203da9f85
 msgid "Dématérialiser vers GoFAST"
 msgstr "Scan/Capture to GoFAST"
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-utilisation-avancee.rst:140
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-utilisation-avancee.rst:145
 #: 01e00f0f59bc44f7a2f8087be2269529
 msgid ""
 "Il est possible de créer un dossier permettant de déposer des PDF "
@@ -431,22 +456,22 @@ msgstr ""
 "Folder\" (ABBYY FineReader). It allows you to scan invoices and convert "
 "them into an Text PDF for an easy search on GoFAST."
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-utilisation-avancee.rst:145
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-utilisation-avancee.rst:150
 #: 269afbf40ff84d5c9338da0aad8e1ea6
 msgid "|image19|"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-utilisation-avancee.rst:147
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-utilisation-avancee.rst:152
 #: db41823201bf4cd9bbf96bfd44251e0c
 msgid "|image20|"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-utilisation-avancee.rst:151
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-utilisation-avancee.rst:156
 #: 3ca2451e3e5645d2bc2a3952749f6947
 msgid "Dématérialiser à partir d’un smartphone"
 msgstr "Scan from a smartphone"
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-utilisation-avancee.rst:153
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-utilisation-avancee.rst:158
 #: 07f1d9ee4d9744eba56b5b1063a9b965
 msgid ""
 "Il est possible de dématérialiser par exemple des notes de frais "
@@ -456,27 +481,27 @@ msgstr ""
 "For example, it is possible to scan expense reports directly from a "
 "smartphone and send them directly to GoFAST."
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-utilisation-avancee.rst:156
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-utilisation-avancee.rst:161
 #: a6f26822c8f04640a7406b34683025f8
 msgid "|image18|"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-utilisation-avancee.rst:158
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-utilisation-avancee.rst:163
 #: d23e8f93e78f4a59801ef70e09c44c30
 msgid "Pour cela vous devez avoir installé :"
 msgstr "For that you must have installed:"
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-utilisation-avancee.rst:160
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-utilisation-avancee.rst:165
 #: c169a72926fe4789b058b42c2980a45d
 msgid "CamScanner et \"Webdav Navigator\" ou"
 msgstr "CamScanner and \"Webdav Navigator\" or"
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-utilisation-avancee.rst:161
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-utilisation-avancee.rst:166
 #: acb9032c26074a38882b527d9e90cbd5
 msgid "Scanbot"
 msgstr "Scanbot"
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-utilisation-avancee.rst:163
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-utilisation-avancee.rst:168
 #: b4dddf137f424feb89c4d87d8597e6df
 msgid ""
 "Nous parlerons ici de la configuration de Scanbot dont l'utilisation est "
@@ -485,27 +510,27 @@ msgstr ""
 "We will discuss here the configuration of Scanbot which is more user-"
 "friendly."
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-utilisation-avancee.rst:165
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-utilisation-avancee.rst:170
 #: aa9b3f5353ad491aae1411aa10701546
 msgid "|image11|"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-utilisation-avancee.rst:167
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-utilisation-avancee.rst:172
 #: 56f723fd59d342fa853a896c99cc5481
 msgid "|image12|"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-utilisation-avancee.rst:169
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-utilisation-avancee.rst:174
 #: 2fea416fc5df48bea0918ae03451c963
 msgid "|image13|"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-utilisation-avancee.rst:172
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-utilisation-avancee.rst:177
 #: 2af34d5e4f61431fb80500cff5a6a670
 msgid "Dématérialiser à partir d'un copieur multi-fonction"
 msgstr "Scan from a multi-function copier"
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-utilisation-avancee.rst:174
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-utilisation-avancee.rst:179
 #: 0be35062b8d84bba8f57ef640ae821a6
 msgid ""
 "Pour ceci votre copieur doit posséder un connecteur webdavs. Nous "
@@ -514,17 +539,17 @@ msgstr ""
 "In this case your copier must have a **webdav** connector. Contact us for"
 " more details."
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-utilisation-avancee.rst:178
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-utilisation-avancee.rst:183
 #: 9180c54670a74d328ace3fc68649d2a9
 msgid "Reprise de contenus vers GoFAST"
 msgstr "Content migration to GoFAST"
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-utilisation-avancee.rst:181
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-utilisation-avancee.rst:186
 #: 199a75cc59c3429182b99fc7071ae2f8
 msgid "Reprise des contenus GoogleDocs/Drive"
 msgstr "GoogleDocs/Drive content migration"
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-utilisation-avancee.rst:182
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-utilisation-avancee.rst:187
 #: 65d5839929ae43e89e616cffc066f1ed
 msgid ""
 "Dans le cas de migration d'un entrepot Google vers GoFAST, suivre la "
@@ -533,7 +558,7 @@ msgstr ""
 "In the case of migration from a Google repository to GoFAST, follow the "
 "procedure below:"
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-utilisation-avancee.rst:186
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-utilisation-avancee.rst:191
 #: c4bbfca1d1824d6b905b064e5cb9b535
 msgid ""
 "Google vous propose de télécharger une archive au format \"zip\" avec les"
@@ -542,7 +567,7 @@ msgstr ""
 "Google offers to download a zip archive with content converted to MS-"
 "Office."
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-utilisation-avancee.rst:190
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-utilisation-avancee.rst:195
 #: cad05f74e8cb409d9a7f4afb09153887
 msgid ""
 "Vous pouvez à présent décompresser l'archive directement dans "
@@ -889,3 +914,4 @@ msgstr "Now you can unpack the archive directly into the directory tree on GoFAS
 #~ "**Login** : your_gofast_login@gofast-comm.xxxxx.yyy"
 #~ " where xxxxx.yyy is the domain of "
 #~ "your organisation"
+

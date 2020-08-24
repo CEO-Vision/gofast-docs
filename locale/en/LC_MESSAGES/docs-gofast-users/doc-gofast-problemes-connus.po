@@ -9,16 +9,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gofast-docs latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-19 10:26+0200\n"
+"POT-Creation-Date: 2020-08-24 18:01+0200\n"
 "PO-Revision-Date: 2020-08-23 13:30+0000\n"
 "Last-Translator: Christopher Potter <cpotter@ceo-vision.com>\n"
-"Language-Team: en <LL@li.org>\n"
 "Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=n != 1\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.6.1\n"
 "Generated-By: Babel 2.7.0\n"
 
 #: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-problemes-connus.rst:3
@@ -56,12 +55,12 @@ msgid ""
 "des-biblioth%C3%A8ques-ssl-office2010-windows7-utilise-des-protocoles-"
 "non-s%C3%A9curis%C3%A9s)."
 msgstr ""
-"GoFAST prohibits the use of insecure protocols like SSL, TLS1.0 and TLS1.1. "
-"This can be the cause of the connection rejection in MS-Office and the "
-"Network drive on Windows 7 (no longer supported by CEO-Vision) on which the "
-"security fixes would not have been applied (see https: //community.ceo-"
-"vision .com/topic/83/internal-error-loading-libraries-%C3%A8ques-ssl-"
-"office2010-windows7-uses-non-s%C3%A9curis%C3%A9s-protocols)."
+"GoFAST prohibits the use of insecure protocols like SSL, TLS1.0 and "
+"TLS1.1. This can be the cause of the connection rejection in MS-Office "
+"and the Network drive on Windows 7 (no longer supported by CEO-Vision) on"
+" which the security fixes would not have been applied (see https: "
+"//community.ceo-vision .com/topic/83/internal-error-loading-libraries-%C3"
+"%A8ques-ssl-office2010-windows7-uses-non-s%C3%A9curis%C3%A9s-protocols)."
 
 #: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-problemes-connus.rst:11
 #: fb49b9f0042f4c46ad365227003cb78f
@@ -698,17 +697,67 @@ msgstr ""
 "change “User Agent String” by IE11 instead of IE10 (see in the "
 "screenshot)"
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-problemes-connus.rst:187
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-problemes-connus.rst:188
+#: addfeefbe1594ac8a0d5d5077352241d
+msgid "Problème de Chat Collaboratif - Messagerie live"
+msgstr ""
+
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-problemes-connus.rst:191
+#: 6c657aad9d2347b28c1ae5503821951f
+msgid "Volet du Chat vide et hors connexion"
+msgstr ""
+
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-problemes-connus.rst:193
+#: cf32c4e980e14983844b1b1ebbc5279c
+msgid ""
+"Dans certains cas, il peut arriver que le bloc latéral de droite dédié au"
+" Chat collaboratif, reste vide. Comme ci-dessous :"
+msgstr ""
+
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-problemes-connus.rst:201
+#: 6bc74189930a41959adca5bd2cbbb619
+msgid ""
+"Cela arrive lorsque le navigateur web ne parvient pas à connecter "
+"l’utilisateur au serveur de Chat à cause de la présence de plusieurs "
+"onglets pointant vers GoFAST. Par exemple, si vous avez 3 onglets ouvert "
+"vers la plateforme dans votre navigateur Firefox."
+msgstr ""
+
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-problemes-connus.rst:208
+#: 809a8ca54d024d71bd173ea8be288dd8
+msgid "**Comment résoudre le problème :**"
+msgstr ""
+
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-problemes-connus.rst:205
+#: 3d14875448b743bd9ade024f1990004e
+msgid "Fermez tous les onglets ouverts sur GoFAST, sauf 1"
+msgstr ""
+
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-problemes-connus.rst:206
+#: b425ab1116db44fe9b382e6387eca7cc
+msgid ""
+"Recharger la page, de préférence en faisant un ‘Ctrl+F5’ ou ‘Fn+F5’ "
+"(dépend de votre PC)"
+msgstr ""
+
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-problemes-connus.rst:207
+#: a2c7c9ded08341e490f19e0b87b70edf
+msgid ""
+"Le volet du Chat va se reconnecter, puis vous pouvez rouvrir vos autres "
+"onglets GoFAST (ceux fermé précédemment)."
+msgstr ""
+
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-problemes-connus.rst:211
 #: 327f142c617e43f58b54b8034b6f958c
 msgid "Problème de prévisualisation"
 msgstr "Preview problem"
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-problemes-connus.rst:189
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-problemes-connus.rst:213
 #: 734b3fb3e7d74031a60aaf7da37d15f7
 msgid "Pas de streaming Video"
 msgstr "No streaming video"
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-problemes-connus.rst:191
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-problemes-connus.rst:215
 #: 16a87267d70546548e1fca437613f48b
 msgid ""
 "L'avantage du streaming video est de regarder directement une séquence "
@@ -720,43 +769,43 @@ msgstr ""
 " depends on the browser and the video format."
 
 # d42ef2e099fa4494867748f43fc0afd6
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-problemes-connus.rst:194
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-problemes-connus.rst:218
 #: 35374ca850064fd89dfe2333ccb6f1cf
 msgid "Format"
 msgstr "Format"
 
 # 9e07f36e4ada4f329bba710d655d5b92
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-problemes-connus.rst:194
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-problemes-connus.rst:218
 #: 33bc0666749b45dbb9befb83430c4691
 msgid "MP4"
 msgstr "MP4"
 
 # fa298ed89aaa4e8597e7926939b61580
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-problemes-connus.rst:194
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-problemes-connus.rst:218
 #: 4f43f8d704e84c698a1c326d91e6f054
 msgid "WMV"
 msgstr "WMV"
 
 # 141bb5420f8c40baaf5d462f5526ea38
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-problemes-connus.rst:194
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-problemes-connus.rst:218
 #: 333e79335ae146c49c7a0e448576efe5
 msgid "FLV"
 msgstr "FLV"
 
 # 4c6607832cbd45b5b985d722ba2b13e2
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-problemes-connus.rst:194
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-problemes-connus.rst:218
 #: c7a34a6999ff42e1947f0c5c821cc805
 msgid "AVI"
 msgstr "AVI"
 
 # 2e55eccce8e3450b8df691866bd3189d
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-problemes-connus.rst:194
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-problemes-connus.rst:218
 #: 487c96d7428144f6830fb8b5835b44c5
 msgid "OGV"
 msgstr "OGV"
 
 # 7469bda534b94a0298c73754a9759d5c
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-problemes-connus.rst:196
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-problemes-connus.rst:220
 #: e816b21f0abf482ab8ab81991457ef02
 msgid "Firefox"
 msgstr "Firefox"
@@ -764,9 +813,9 @@ msgstr "Firefox"
 # a14e16079e58496fb8b4639786ccc701
 # 68f6e419448847c09dde42fb34125a1a
 # e705aac2da574e2f9248a292b9842326
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-problemes-connus.rst:196
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-problemes-connus.rst:198
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-problemes-connus.rst:202
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-problemes-connus.rst:220
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-problemes-connus.rst:222
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-problemes-connus.rst:226
 #: cc3d3e0f67d84fbca3d1155160b5ee22
 msgid "OUI"
 msgstr "YES"
@@ -788,40 +837,37 @@ msgstr "YES"
 # 0c188f47570b4ad4b7caecd1696d32ba
 # 04832a49763a48b1b3940ed4762363f3
 # c802b385c65f4a46bdc771cb78fd1fb7
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-problemes-connus.rst:196
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-problemes-connus.rst:198
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-problemes-connus.rst:200
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-problemes-connus.rst:202
-#: 06d9a201d94f4b2fa060eab63f8b4cb3 0c55f3c8dfa9492ab432320c4a4fb93d
-#: 122222d02cd74ada81a092d022fb2a19 1f57799b361b444f8560e23df5df0a7e
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-problemes-connus.rst:220
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-problemes-connus.rst:222
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-problemes-connus.rst:224
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-problemes-connus.rst:226
+#: 0c55f3c8dfa9492ab432320c4a4fb93d 1f57799b361b444f8560e23df5df0a7e
 #: 2aef311702054492a4b6b78a4eb09f5b 347337c4cf1c4c0689231dce1542809e
 #: 7f231b9391434d349fd54226943ea2da b7ab2073e7664a54bea596499c5e5c86
-#: d1cc9f4c99b344e490f9eb6809ebf354 dc0f05c45d55456e8632537a121dc837
-#: e1a7b95ab27d48f28ef8fc939bd7e4a9 e47b87423bbe4633a6ed8a2dfcdadf52
-#: edcd1a92ef364967aea5dfe2ed924845 fa1a3973b596410e9c7055351983a625
+#: e47b87423bbe4633a6ed8a2dfcdadf52
 msgid "NON"
 msgstr "NO"
 
 # da807cae214e4e0da5541a7e54411f96
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-problemes-connus.rst:198
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-problemes-connus.rst:222
 #: afa24e3d2e914fe1a4ed5f34f15a0cdf
 msgid "Chrome"
 msgstr "Chrome"
 
 # 524cca11bef04fe7bcd192b564bc6e73
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-problemes-connus.rst:200
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-problemes-connus.rst:224
 #: e2a19f9dbb4e47d3b09baa0deab8dad5
 msgid "IE11"
 msgstr "IE11"
 
 # 5f0ff46aee65405d9041117b55687727
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-problemes-connus.rst:202
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-problemes-connus.rst:226
 #: 16feccf23ebc427fafee6eb087e0b350
 msgid "Safari"
 msgstr "Safari"
 
 # 105516cd38e0451ba155ca37420aee24
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-problemes-connus.rst:204
+#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-problemes-connus.rst:228
 #: d9286d149c43418dbdb93f770e52b006
 msgid "Edge     |    OUI     |   NON     |    NON    |    NON    |   NON"
 msgstr "Edge     |    YES    |   NO    |    NO    |    NO    |   NO"
@@ -838,3 +884,4 @@ msgstr "Edge     |    YES    |   NO    |    NO    |    NO    |   NO"
 #~ "Windows, qui empêche le transfert de "
 #~ "gros fichiers par Webdav."
 #~ msgstr ""
+
