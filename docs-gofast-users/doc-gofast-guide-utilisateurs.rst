@@ -97,7 +97,7 @@ Mais fonctionne également sans garantie sur la dernière version d’Internet E
 -  Navigateur Linux : Firefox (dernière version ESR)
    
 -  Système d'exploitation Windows7 et plus, MacOS 10.11+ et Linux (Ubuntu 16+), ChromeOS
--  En mobilité Android ou iOS (>13). 
+-  En mobilité Android ou iOS 13+ 
 
 -  Bureautique : MS-Office 2010 (>14.0.7190.5000) pour Windows, MS-Office 2016 pour Mac, LibreOffice 6+, OnlyOffice Desktop (à venir)
 
