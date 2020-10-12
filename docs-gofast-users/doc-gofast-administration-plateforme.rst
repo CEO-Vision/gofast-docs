@@ -321,3 +321,60 @@ Une petite fenêtre s’ouvre et vous informe que votre export est en cours de g
 
 .. figure:: media-guide/Export-all-spaces-download.jpg
    :alt:
+
+
+Configurer une DUA (Durée de l'Utilité Administrative)
+=======================================================
+
+Pour gérer des DUA, il faut être administrateur de plateforme. 
+À partir du menu « Burger », aller dans « Administration » puis « GoFAST configuration ».   
+
+.. figure:: media-guide/DUA_image_1.jpg
+   :alt: 
+
+À gauche de votre page, défiler vers le bas puis cliquer sur « DUA (Durée d’Utilité Administrative) ».  
+Deux sections sont disponibles :
+
+* Liste des destinataires du mail de notification : dans cette section vous pouvez ajouter des utilisateurs GoFAST qui souhaitent être notifiés à la fin de la DUA.
+
+.. figure:: media-guide/DUA_image_2.jpg
+   :alt: 
+
+* Liste des DUA actuelles : dans cette partie, vous trouvez la liste des DUA déjà existantes. À partir de cet emplacement, vous pouvez également créer une nouvelle DUA. 
+
+.. figure:: media-guide/DUA_image_3.jpg
+   :alt: 
+
+Créer ou modifier une DUA 
+-------------------------
+
+Pour créer une nouvelle DUA, cliquer sur le bouton « + Créer », une nouvelle section s’affiche « Ajouter / Editer des DUA existantes ». Renseigner les champs du formulaire :
+
+* Catégorie : plusieurs catégories sont disponibles par défaut (Contrat, Facture, Information, procédure, …). Il est possible de créer des catégories personnalisées adaptées aux besoins de l’entreprise.
+* DUA :  Nombre de jours ou mois ou années. 
+* Unité : Jour, Mois, Année.
+* Action (Le sort final) :  Archiver, Trier, Détruire.
+Ensuite appuyer sur « Enregistrer » pour valider.
+
+.. figure:: media-guide/DUA_image_4.jpg
+   :alt: 
+
+Vous pouvez également apporter des changements à une DUA existante. Dans la liste, choisissez celle que vous souhaitez modifier et cliquer sur l’icône éditer.
+Il est possible de modifier seulement les champs suivants :  DUA, Unité et Action. N’oubliez pas d’enregistrer pour valider.
+
+.. figure:: media-guide/DUA_image_5.jpg
+   :alt: 
+
+.. NOTE:: Pour supprimer une DUA, il suffit de laisser le champs DUA (Durée d’Utilité Administrative) vide puis Enregistrer.
+
+Filtrer les catégories sur les espaces 
+--------------------------------------
+Si vous souhaitez affecter une catégorie à un ou plusieurs espace(s) spécifique(s), aller dans le menu de « GoFAST Configuration » dans l’onglet « Catégories ».
+
+Dans la section « Filtrer les catégories par Espace(s) Collaboratif(s) », taper le nom de l’espace dans le champ de la catégorie correspondante à votre choix puis cliquer sur Enregistrer pour valider.
+
+.. figure:: media-guide/DUA_image_8.jpg
+   :alt:
+
+.. NOTE::
+   Vous pouvez filtrer les catégories sur les espaces spécifiés. Cela signifie que seuls les documents dans au moins un de ces espaces peuvent être marqués avec cette catégorie. Laisser vide pour autoriser la catégorie pour chaque espace.
