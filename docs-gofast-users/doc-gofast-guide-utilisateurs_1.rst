@@ -34,24 +34,22 @@ Créer une Web-conférence/Réunion (Enterprise only)
 
 .. CAUTION:: Les technologies de conférence Web sont assez récentes et nécessitent de bonnes ressources (PC, réseau, ...). Assurez-vous de suivre les pré-requis. En cas de problème consulter les problèmes fréquents : http://gofast-docs.readthedocs.io/fr/latest/docs-gofast-users/doc-gofast-problemes-connus.html#webconference
 
-Tout comme dans Skype ou autres outils de discussion en ligne, vous
-pouvez démarrer une **vidéoconférence** directement sur la GoFAST.
+Il est toujours préférable de créér une webconférence directement dans GoFAST car cela envoie notamment une invitation agenda à tous les participants et permet également de rattacher des contenus à cette évennement (ex.: ordre du jour, ...)
 
-Allez sur l’onglet « Créer », « Conférence ».
+Allez sur l’onglet « Créer », « Réunion ».
 
-Donnez un titre à la conférence, écrivez un résumé dans la grande
-fenêtre grâce aux mêmes options que Word, choisissez une date, ajoutez
+Donnez un titre à la webconférence, écrivez un résumé dans la zone de texte, choisissez une date, ajoutez
 les participants (écrivez les 3 premières lettres du nom pour avoir les
 propositions du système) et « Enregistrez »
 
 .. figure:: media-guide/image084.png
    :alt: 
 
-Vous pouvez remplir différents champs lors de la création d'une « Conférence ». 
+Vous pouvez remplir différents champs lors de la création d'une « Réunion ». 
 
 Vous avez la possibilité d'informer une Date de début et de Fin de la conférence,
-le lieu où se déroulera la visio-conférence et la possibilité de choisir les participants
-par Espace.
+le lieu où se déroulera la webconférence et la possibilité de choisir les participants
+par Espace collaboratif.
 
 Par exemple, concernant le choix des participants par Espace, vous avez la possibilité d'inviter tous les membres liés à l'Espace Commercial. 
 
@@ -64,20 +62,14 @@ les données de la conférence.
 
 On y voit la liste des participants, le nom de celui qui a lancé la
 conférence, la date et l’heure, un message d’erreur (en rouge) si vous
-ne disposez pas des accessoires nécessaires, …
+ne disposez pas des pré-requis nécessaires, …
 
 .. figure:: media-guide/image085.png
    :alt: 
 
-Par contre si tous vos accessoires sont disponibles, ils seront en vert
-et vous serez aptes à commencer la conférence
-
-.. figure:: media-guide/image086.png
-   :alt: 
-
-Un **mail** sera également envoyé aux **participants** avec le titre de
+Une invitation par **mail** sera également envoyé aux **participants** avec le titre de
 la conférence, un lien URL pour rejoindre la conférence sur GoFAST ou
-direct sur le système de vidéoconférence JITSI, la liste des
+sur le système de webconference JITSI (SaaS) en cas de secours, la liste des
 participants, …
 
 Vous serez en copie de ce mail de notification, ce qui vous permet de
@@ -86,9 +78,7 @@ renvoyer le lien URL à n’importe quel moment en cas de problème.
 .. figure:: media-guide/image087.png
    :alt: 
 
-Vous pouvez même enregistrer cet événement **dans votre agenda** Lotus
-par exemple, en cliquant sur l’icône Lotus Note dans l’email, un message
-s’affichera , vous demandant si vous voulez l’ajouter dans votre agenda.
+Vous pouvez même enregistrer cet événement **dans votre agenda** (Outlook, Thunderbird,...) en cliquant sur l’icône "Accepter"
 
 .. figure:: media-guide/image088.png
    :alt: 
