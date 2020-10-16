@@ -72,12 +72,6 @@ la conférence, un lien URL pour rejoindre la conférence sur GoFAST ou
 sur le système de webconference JITSI (SaaS) en cas de secours, la liste des
 participants, …
 
-Vous serez en copie de ce mail de notification, ce qui vous permet de
-renvoyer le lien URL à n’importe quel moment en cas de problème.
-
-.. figure:: media-guide/image087.png
-   :alt: 
-
 Vous pouvez même enregistrer cet événement **dans votre agenda** (Outlook, Thunderbird,...) en cliquant sur l’icône "Accepter"
 
 .. figure:: media-guide/Invitation-Outlook-webconference-GoFAST_FR.png
