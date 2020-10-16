@@ -80,7 +80,7 @@ renvoyer le lien URL à n’importe quel moment en cas de problème.
 
 Vous pouvez même enregistrer cet événement **dans votre agenda** (Outlook, Thunderbird,...) en cliquant sur l’icône "Accepter"
 
-.. figure:: media-guide/image088.png
+.. figure:: media-guide/Invitation-Outlook-webconference-GoFAST_FR.png
    :alt: 
 
 Si la conférence a été enregistrée pour une autre date à venir, les
