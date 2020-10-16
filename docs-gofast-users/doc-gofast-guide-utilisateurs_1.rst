@@ -81,9 +81,6 @@ Si la conférence a été enregistrée pour une autre date à venir, les
 participants et vous recevrez un reminder/rappel par mail également,
 reprenant les mêmes informations et le lien URL.
 
-.. figure:: media-guide/image089.png
-   :alt: 
-
 
 Gestion des Documents et Travail Collaboratif
 =============================================
