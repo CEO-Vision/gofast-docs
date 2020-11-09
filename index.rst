@@ -28,6 +28,7 @@ Documentation GoFAST
    :maxdepth: 1
    :caption: GoFAST : Releases
    
+   docs-gofast-technical/release-notes-3.8.1
    docs-gofast-technical/release-notes-3.8.0
    docs-gofast-technical/release-notes-3.7.1
    docs-gofast-technical/release-notes-3.6.2
