@@ -16,7 +16,6 @@ Améliorations fonctionnelles
    "[GOFAST-6482]", "Indicateur de présence des utilisateurs dans le Chat [Element]"
    "[GOFAST-5625]", "Liste utilisateurs 'Public' : remplacement du créateur 'admin' par un message (car liste créée automatiquement)"
    "[GOFAST-6087]", "Interdiction de refuser de rejoindre ou de quitter un salon de Chat associé à un Espace dont on est membre [Element]"
-   "[GOFAST-6196]", "Ajouter l'éditeur riche à la création d'un 'card kanban' (pour la mise en forme du texte 'description' de la tâche)"
    "[GOFAST-6245]", "Dans le Chat : afficher en premier les salons avec des messages non lus (ou récents) [Element]"
    "[GOFAST-6384]", "Profil utilisateur : ajout de la mention Extranet pour les utlisateurs ayant ce rôle"
    "[GOFAST-6191]", "Améliorer l'aperçu des documents affiché à partir des actions contextuelles (menu burger, ex : depuis résultat de recherche)"
