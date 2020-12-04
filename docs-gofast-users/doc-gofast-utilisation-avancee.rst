@@ -107,7 +107,7 @@ Messagerie instantanée (« chat / conversation ») sur mobiles
 ---------------------------------------------
 
 Avec GoFAST vous avez une messagerie instantanée privée et sécurisée, équivalent de «
-WhatsApp » ou « MS-Teams » pour votre Organisation, fonctionnant avec Riot/Matrix (GoFAST > v3.8)
+WhatsApp » ou « MS-Teams » pour votre Organisation, fonctionnant avec Element(Riot)/Matrix (GoFAST > v3.8)
 
 Vous pouvez donc utiliser l'application pour votre téléphone suivant :
 
