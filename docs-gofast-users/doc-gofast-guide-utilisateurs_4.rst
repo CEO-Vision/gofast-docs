@@ -44,6 +44,14 @@ Pour sélectionner le salon, il suffit de cliquer dans le rond correspondant, pu
 Webconference (Enterprise only)
 ===============================================
 
+GoFAST inclut la technologie de Webconference opensource Jitsi, alternative à MS-Teams et Zoom mais avec Jitsi/GoFAST dont les données restent dans votre datacenter souverain. Il est possible de faire des webconferences à des dizaines de participants sans problème de qualité. Jitsi fonctionne aussi dans l'application Element pour Android et iOS.
+
+Une webconference peut être créé de 3 façons différentes :
+
+- A partir de GoFAST en faisant "Créer Réunion/Conférence" https://gofast-docs.readthedocs.io/fr/latest/docs-gofast-users/doc-gofast-guide-utilisateurs.html#creer-une-web-conference-reunion-enterprise-only
+- A partir d'un salon dans Element
+- Avec un lien direct à partir de Jitsi
+
 EN COURS DE REDACTION
 
 Message privé
