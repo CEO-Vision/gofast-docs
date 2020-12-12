@@ -485,9 +485,6 @@ choisissez « S’abonner ».
 Un message en vert apparaîtra à droite de l’écran vous confirmant
 l’abonnement à ce groupe.
 
-.. figure:: media-guide/image124.png
-   :alt: 
-
 Vous pouvez par la même manœuvre vous désabonner à ce groupe. Ce qui
 veut dire que vous ne recevrez plus aucune notification en rapport avec
 ce groupe et son contenu.
@@ -496,9 +493,6 @@ ce groupe et son contenu.
    :alt: 
 
 Le même message en vert vous confirme votre désabonnement
-
-.. figure:: media-guide/image126.png
-   :alt: 
 
 Voir aussi  "Vos abonnements"
 
