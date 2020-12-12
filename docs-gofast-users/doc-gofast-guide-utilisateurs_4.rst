@@ -41,7 +41,10 @@ Pour sélectionner le salon, il suffit de cliquer dans le rond correspondant, pu
 .. NOTE:: Si dans un salon vous voulez désigner un utilisateur en particulier, démarrer par @ puis le prénom et nom de la personne, celle-ci recevra une notification particulière
 .. NOTE:: C'est l'administrateur du salon (donc administrateur de l'espace) qui doit initier la 1ère webconference
 
+Webconference (Enterprise only)
+===============================================
 
+EN COURS DE REDACTION
 
 Message privé
 ===============================================
