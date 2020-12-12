@@ -502,21 +502,13 @@ Le même message en vert vous confirme votre désabonnement
 
 Voir aussi  "Vos abonnements"
 
-Rejoindre la discussion (à compléter après test)
+Créer un Salon de discussion
 ------------------------------------------------
 
-Pour **rejoindre des discussions/videoconférences** en cours, un peu
-comme un chat/skype, appuyez sur « Rejoindre la discussion » dans les
-actions contextuelles ;
+Si vous êtes administrateur de l'espace, vous pouvez **Créer un salon de discussion** qui sera utilisable dans l'outil
+de chat temps réel Element. Tous les membres de l'espace seront automatiquement ajoutés au nouveau salon.
 
 .. figure:: media-guide/image127.png
-   :alt: 
-
-Des messages en bleu apparaîtront dans le coin droit supérieur de
-l’écran avec les différentes discussions en cours. Il suffira d’appuyer
-sur celle qui vous intéresse pour vous y intégrer.
-
-.. figure:: media-guide/image128.png
    :alt: 
 
 
