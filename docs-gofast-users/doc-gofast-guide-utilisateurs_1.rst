@@ -38,30 +38,21 @@ Il est toujours préférable de créér une webconférence directement dans GoFA
 
 Allez sur l’onglet « Créer », « Réunion ».
 
-Donnez un titre à la webconférence, écrivez un résumé dans la zone de texte, choisissez une date, ajoutez
-les participants (écrivez les 3 premières lettres du nom pour avoir les
-propositions du système) et « Enregistrez »
-
 .. figure:: media-guide/image084.png
    :alt: 
 
-Vous pouvez remplir différents champs lors de la création d'une « Réunion ». 
-
-Vous avez la possibilité d'informer une Date de début et de Fin de la conférence,
-le lieu où se déroulera la webconférence et la possibilité de choisir les participants
-par Espace collaboratif.
-
-Par exemple, concernant le choix des participants par Espace, vous avez la possibilité d'inviter tous les membres liés à l'Espace Commercial. 
+Donnez un titre à la webconférence, écrivez un résumé dans la zone de texte, choisissez une date et heure de début et fin, ajoutez
+les participants (écrivez les 3 premières lettres du nom ou d'un espace pour inviter tous les membres de l'espace).
 
 .. figure:: media-guide/Visio-conference.png
    :alt: 
+   
+Il est possible de joindre des liens vers des documents GoFAST à l'invitation (ex.: Ordre du jour) et des répertoires entiers.
 
-Une fois les participants et la date/heure de conférence introduits, et
-après avoir appuyé sur « Enregistrer », une autre fenêtre s’ouvre avec
-les données de la conférence.
+Une fois les informations entrées et après avoir appuyé sur « Enregistrer », une autre fenêtre s’ouvre avec
+le résumé de la webconférence.
 
-On y voit la liste des participants, le nom de celui qui a lancé la
-conférence, la date et l’heure, un message d’erreur (en rouge) si vous
+On y voit la liste des participants, le nom de l'organisateur, la date et l’heure, un message d’erreur (en rouge) si vous
 ne disposez pas des pré-requis nécessaires, …
 
 .. figure:: media-guide/image085.png
