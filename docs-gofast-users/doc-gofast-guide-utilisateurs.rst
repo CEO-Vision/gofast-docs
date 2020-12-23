@@ -81,7 +81,7 @@ mémos, etc.
 
 Pré-requis nécessaires pour l’utilisation de GoFAST
 ---------------------------------------------------
--  Navigateurs préférentiels Windows: **Firefox (dernière version ESR), Edge-Chromium**, Chrome
+-  Navigateurs préférentiels Windows: **Firefox (dernière version ESR et version supérieure), Edge-Chromium**, Chrome
 
 .. NOTE::
     Le support IE11 est optionnel en 2020 et certaines nouvelles fonctionnalités sont incompatible (tâches kanban, chat,webconference), CEO-Vision recommande une migration au plus vite de IE11 et Edge vers Edge-Chromium ou Firefox ESR. CEO-Vision n'assurera plus aucun support pour IE11 en 2021 
