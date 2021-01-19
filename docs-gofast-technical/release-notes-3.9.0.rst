@@ -10,8 +10,27 @@ Nouvelles fonctionnalités
 ******************************
 .. csv-table::  
    :header: "Ref.", "Description"
+   :widths: 10, 40   
+
+   "[GOFAST-6725]", "[ONLYOFFICE] Notes de bas de page et Références croisées "
+   "[GOFAST-6618]", "Module Connecteur Pastell (Libriciel)"
+   "[GOFAST-6602]", "Onglet pour les métadonnées spécifiques"
+   "[GOFAST-6582]", "Création de salon non attaché à des espaces collaboratifs (salon 'libre')"
+   "[GOFAST-6405]", "Notification par email tache workflow à échéance"
+   "[GOFAST-6364]", "Pouvoir télécharger l'ensemble des documents du panier"
+   "[GOFAST-6317]", "Implémentation des APIs de gestion des membres (Espaces & Listes d'Utilisateurs)"
+   "[GOFAST-6105]", "Enregistrer une webconference sur GoFAST / Webdav"
+   "[GOFAST-5629]", "Gestion des contacts externes"
+
+
+
+
+Améliorations fonctionnelles
+******************************
+.. csv-table::  
+   :header: "Ref.", "Description"
    :widths: 10, 40
-      
+   
    "[GOFAST-6763]", "Element/Chat Masquer 'Partager un utilisateur'"
    "[GOFAST-6747]", "[MOBILE] Ajout d'un menu 'A propos'"
    "[GOFAST-6692]", "MàJ Ajax library v5.18.x"
@@ -39,10 +58,46 @@ Nouvelles fonctionnalités
    "[GOFAST-6617]", "Augmentation de la taille maximum de fichier maximale autorisé sur Matrix"
    "[GOFAST-6166]", "Lors d'une connexion par SSO, l'url de la page d'arrivée sur GoFast n'est pas conservée"
    "[GOFAST-5294]", "SELINUX : industrialisation du paramétrage"
+
+
+   
+
+   
+
+Améliorations techniques
+**************************
+.. csv-table::  
+   :header: "Ref.", "Description"
+   :widths: 10, 40
+
    "[GOFAST-5269]", "Amélioration performances indexation"
    "[GOFAST-6666]", "Mise à jour Tika 1.18 -> 1.24.1"
    "[GOFAST-6360]", "Mise à jour de PHP 7.2.X vers PHP 7.4.X"
    "[GOFAST-5735]", "Mise à jour pdf-diff v0.9.1"
+
+   
+  
+
+Sécurité
+**********
+.. csv-table::  
+   :header: "Ref.", "Description"
+   :widths: 10, 40
+
+   "[GOFAST-6778]", "[iOS] GoFAST : Arret du support iOS12"
+   "[GOFAST-6505]", "Supprimer la possibilité de créer un utilisateur avec le rôle administrateur d'espace par défaut"
+   "[GOFAST-6797]", "Arrêt support Internet Explorer"
+   "[GOFAST-6546]", "Mise à jour Drupal Core 7.73"
+
+ 
+
+
+Bugs
+**********
+.. csv-table::  
+   :header: "Ref.", "Description"
+   :widths: 10, 40
+
    "[GOFAST-6846]", "[3.9.0_HOTFIX_1.0] Parfois, problème de synchronisation des membres des espaces public lors de la création"
    "[GOFAST-6833]", "[3.9.0_HOTFIX_1.0] Notification carte Kanban avec saut de ligne doublée"
    "[GOFAST-6789]", "Saut de lignes supplémentaires à l'affichage d'une description de tâche (Kanban)"
@@ -82,67 +137,6 @@ Nouvelles fonctionnalités
    "[GOFAST-2309]", "Problème d'impression de l'aperçu PDF"
    "[GOFAST-6193]", "Latences sur saisies dans le moteur de recherche [autocomplete]"
    "[GOFAST-6801]", "Désactivation temporaire du renommage au clic dans l'explorateur de fichiers"
-   "[GOFAST-6725]", "[ONLYOFFICE] Notes de bas de page et Références croisées "
-   "[GOFAST-6618]", "Module Connecteur Pastell (Libriciel)"
-   "[GOFAST-6602]", "Onglet pour les métadonnées spécifiques"
-   "[GOFAST-6582]", "Création de salon non attaché à des espaces collaboratifs (salon 'libre')"
-   "[GOFAST-6405]", "Notification par email tache workflow à échéance"
-   "[GOFAST-6364]", "Pouvoir télécharger l'ensemble des documents du panier"
-   "[GOFAST-6317]", "Implémentation des APIs de gestion des membres (Espaces & Listes d'Utilisateurs)"
-   "[GOFAST-6105]", "Enregistrer une webconference sur GoFAST / Webdav"
-   "[GOFAST-5629]", "Gestion des contacts externes"
-   "[GOFAST-6778]", "[iOS] GoFAST : Arret du support iOS12"
-   "[GOFAST-6505]", "Supprimer la possibilité de créer un utilisateur avec le rôle administrateur d'espace par défaut"
-   "[GOFAST-6797]", "Arrêt support Internet Explorer"
-   "[GOFAST-6546]", "Mise à jour Drupal Core 7.73"
-
-
-
-
-Améliorations fonctionnelles
-******************************
-.. csv-table::  
-   :header: "Ref.", "Description"
-   :widths: 10, 40
-   
-   "[xxxxxxxxxxx]", "xxxxxxxxxxxxxxxxxxxxxxxxx"
-   
-
-   
-
-Améliorations techniques
-**************************
-.. csv-table::  
-   :header: "Ref.", "Description"
-   :widths: 10, 40
-
-   "[xxxxxxxxxxx]", "xxxxxxxxxxxxxxxxxxxxxxxxx"
-
-   
-  
-
-Sécurité
-**********
-.. csv-table::  
-   :header: "Ref.", "Description"
-   :widths: 10, 40
-  
-
-   "[xxxxxxxxxxx]", "xxxxxxxxxxxxxxxxxxxxxxxxx"
-
-
- 
-
-
-Bugs
-**********
-.. csv-table::  
-   :header: "Ref.", "Description"
-   :widths: 10, 40
-
-
-   "[xxxxxxxxxxx]", "xxxxxxxxxxxxxxxxxxxxxxxxx"
-
 
 
 
