@@ -52,10 +52,9 @@ Améliorations fonctionnelles
    "[GOFAST-5096]", "Rajouter le numéro de la version dans le téléchargement de document"
    "[GOFAST-4817]", "Mise à jour Solr 8.x"
    "[GOFAST-3181]", "Synchronisation Etat d'un document avec ceux du Workflow standard"
-   "[GOFAST-6653]", "Pouvoir ajouter un webform dans les fichiers attachés à une réunion"
-   "[GOFAST-6617]", "Augmentation de la taille maximum de fichier maximale autorisé sur Matrix"
+   "[GOFAST-6653]", "Pouvoir ajouter un formulaire-web dans les contenus attachés à une réunion web-conférence"
+   "[GOFAST-6617]", "Augmentation de la taille maximum de fichier autorisé sur Matrix"
    "[GOFAST-6166]", "Lors d'une connexion par SSO, l'url de la page d'arrivée sur GoFast n'est pas conservée"
-   "[GOFAST-5294]", "SELINUX : industrialisation du paramétrage"
 
 
 Améliorations techniques
@@ -64,7 +63,8 @@ Améliorations techniques
    :header: "Ref.", "Description"
    :widths: 10, 40
 
-   "[GOFAST-5269]", "Amélioration performances indexation"
+   "[GOFAST-5269]", "Amélioration performances indexation"   
+   "[GOFAST-5294]", "SELINUX : industrialisation du paramétrage"
    "[GOFAST-6666]", "Mise à jour Tika 1.18 -> 1.24.1"
    "[GOFAST-6360]", "Mise à jour de PHP 7.2.X vers PHP 7.4.X"
    "[GOFAST-5735]", "Mise à jour pdf-diff v0.9.1"
