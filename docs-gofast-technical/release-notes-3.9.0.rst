@@ -23,14 +23,12 @@ Nouvelles fonctionnalités
    "[GOFAST-5629]", "Gestion des contacts externes"
 
 
-
-
 Améliorations fonctionnelles
 ******************************
 .. csv-table::  
    :header: "Ref.", "Description"
    :widths: 10, 40
-   
+
    "[GOFAST-6763]", "Element/Chat Masquer 'Partager un utilisateur'"
    "[GOFAST-6747]", "[MOBILE] Ajout d'un menu 'A propos'"
    "[GOFAST-6692]", "MàJ Ajax library v5.18.x"
@@ -60,10 +58,6 @@ Améliorations fonctionnelles
    "[GOFAST-5294]", "SELINUX : industrialisation du paramétrage"
 
 
-   
-
-   
-
 Améliorations techniques
 **************************
 .. csv-table::  
@@ -75,8 +69,6 @@ Améliorations techniques
    "[GOFAST-6360]", "Mise à jour de PHP 7.2.X vers PHP 7.4.X"
    "[GOFAST-5735]", "Mise à jour pdf-diff v0.9.1"
 
-   
-  
 
 Sécurité
 **********
@@ -88,8 +80,6 @@ Sécurité
    "[GOFAST-6505]", "Supprimer la possibilité de créer un utilisateur avec le rôle administrateur d'espace par défaut"
    "[GOFAST-6797]", "Arrêt support Internet Explorer"
    "[GOFAST-6546]", "Mise à jour Drupal Core 7.73"
-
- 
 
 
 Bugs
