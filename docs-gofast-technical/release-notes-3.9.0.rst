@@ -12,7 +12,13 @@ Nouvelles fonctionnalités
    :header: "Ref.", "Description"
    :widths: 10, 40
    
-   "XXXXXXXXXXX", "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+   "[GOFAST-6618]", "Module Connecteur Pastell [Libriciel]"
+   "[GOFAST-6602]", "Onglet pour les métadonnées spécifiques"
+   "[GOFAST-6582]", "Création de salon 'libre' non attaché à des espaces collaboratifs"
+   "[GOFAST-6364]", "Pouvoir télécharger l'ensemble des documents du panier"
+   "[GOFAST-6317]", "Implémentation des APIs de gestion des membres (Espaces & Listes d'Utilisateurs)"
+   "[GOFAST-6105]", "Enregistrer une webconference sur GoFAST (via le protocole Webdav)"
+   "[GOFAST-5629]", "Gestion des contacts externes"
 
 
 
