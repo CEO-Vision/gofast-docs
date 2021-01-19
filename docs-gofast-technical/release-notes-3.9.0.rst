@@ -132,7 +132,7 @@ Bugs mineurs
    :header: "Ref.", "Description"
    :widths: 10, 40
 
-   "[GOFAST-6651]", "Mauvais ordre des salons Element"
+   "[GOFAST-6651]", "Mauvais ordre des salons Chat Element"
    "[GOFAST-6568]", "Bug dans les statistiques des Espaces"
    "[GOFAST-6605]", "Enlever le bouton 'rejoindre' sur les Espaces Publics dans l'annuaire"
 
