@@ -29,9 +29,6 @@ Architecture
 .. figure:: media/image7.png
    :alt: 
 
-.. figure:: media/image8.png
-   :alt:
-   :align: center
 
 +--------------------------------------+--------------------------------------+
 |GoFAST3                                                                      |
