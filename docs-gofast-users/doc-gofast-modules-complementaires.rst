@@ -8,40 +8,38 @@ Ce document a pour but de vous fournir une documentation sur l'utilisation des m
 Couplage GoFAST-Pastell (signature)
 -----------------------------------
 
-A la demande général, nous avons créér un couplage Pastell GoFAST pour la gestion de la signature éléctronique.
-Voici comment l'utiliser:
+À la demande générale, nous avons créer un couplage Pastell GoFAST pour la gestion de la signature électronique.
+Voici comment l'utiliser :
 
 **Configuration**
 
-Dans l'image ci-dessous, vous pouvez voir la configuration de votre Pastell dans GoFAST (il necessite un identifiant, un mot de passe, et enfin l'URL de votre Pastell)
+Dans l'image ci-dessous, vous pouvez voir la configuration de votre Pastell dans GoFAST (il nécessite un identifiant, un mot de passe, et enfin l'URL de votre Pastell)
 
-
+.. image:: media-guide/Pastell_configuration.png
 
 **Utilisation**
 
-Lorsque vous arrivez sur un document PDF, il est possible d'envoyer le document à Pastell pour signature via le menu contextuel du document:
+Lorsque vous arrivez sur un document PDF, il est possible d'envoyer le document à Pastell pour signature via le menu contextuel du document :
+
+.. image:: media-guide/Pastell_bouton.png
+
+Vous arrivez alors sur cette modale là :
+
+.. image:: media-guide/Pastell_Modal2.png
+
+Vous devez alors choisir l'entité à laquelle vous appartenez :
+
+Puis le processus que vous décidez d'utiliser (cela dépend de la configuration de votre Pastell):
 
 
+vous pouvez maintenant envoyer à Pastell le document pour signature en cliquant sur le bouton envoyer.
 
-Vous arrivez alors sur cette modale là:
+Le document est alors "verrouillé" (métadonnées non-modifiable).
 
+L'état du document coté Pastell est écrit sous forme de "Message" quand nous allons sur le document :
 
+.. image:: media-guide/Pastell_toastr.png
 
-Vous devez alors choisir l'entité à laquelle vous appartenez:
+Une fois le processus de signature terminé (approuvé ou refusé), un commentaire est créé avec les différentes étapes et leurs informations :
 
-
-
-Puis le processus que vous decidez d'utiliser (cela depend de la configuration de votre Pastell):
-
-
-
-Vous pouvez maintenant envoyer à Pastell le document pour signature en cliquant sur le bouton envoyer
-
-Le document est alors "verrouillé" (métadonnées non modifiable).
-
-L'etat du document coté Pastell est ecrit sous forme de "Message" quand nous allons sur le document:
-
-
-
-Une fois le processus de signature est terminé (Approuvé ou refusé), un commentaire est créé avec les differentes étapes et leurs informations:
-
+.. image:: media-guide/Pastell_commentaires.png
