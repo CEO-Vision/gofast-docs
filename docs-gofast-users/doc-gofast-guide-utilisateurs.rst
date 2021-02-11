@@ -82,8 +82,7 @@ mémos, etc.
 Pré-requis nécessaires pour l’utilisation de GoFAST
 ---------------------------------------------------
 
-.. CAUTION::
-    Nous ne supportons que les navigateurs supportées par les éditeurs et ceci pour des raisons de sécurité. L’homologation de versions non supportées peut dans certains cas être envisagée avec des décharges de responsabilité et coûts additionnels 
+.. CAUTION:: Nous ne supportons que les navigateurs supportées par les éditeurs et ceci pour des raisons de sécurité. L’homologation de versions non supportées peut dans certains cas être envisagée avec des décharges de responsabilité et coûts additionnels 
 
 -  Navigateurs préférentiels Windows: **Firefox (dernière version ESR ou dernière version 'classique'), Edge-Chromium**, Chrome
 
