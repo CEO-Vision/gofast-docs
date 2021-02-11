@@ -107,7 +107,7 @@ Pré-requis nécessaires pour l’utilisation de GoFAST
 .. NOTE::
     Le support d'Office 2010 étant terminé par Microsoft depuis le 13 Octobre 2020, CEO-Vision ne supportera bientôt plus cette version. Nous encourageons une migration vers l'utilisation d'Onlyoffice inclut dans GoFAST
 
--  Messagerie : Outlook 2013+ (Outlook 2010 sans garantie), Thunderbird 52+, Client léger Bluemind  
+-  Messagerie : Outlook 2013+ (Outlook 2010 sans garantie), Thunderbird 78+, Client léger Bluemind  
 
 -  Une connexion relativement bonne est nécessaire : téléchargement de
    512 kbits/s min. et 256kbps upload . Vous pouvez d'ailleurs tester
