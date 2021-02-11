@@ -106,7 +106,7 @@ Pré-requis nécessaires pour l’utilisation de GoFAST
 
 -  En mobilité Android ou iOS 13+ 
 
--  Bureautique : MS-Office 2010 (>14.0.7190.5000) pour Windows, MS-Office 2016 pour Mac, LibreOffice 6+, OnlyOffice Desktop (à venir)
+-  Bureautique : Office 365 et Office Pro 2016+ pour Windows, MS-Office Pro 2016 pour Mac, LibreOffice 6+, OnlyOffice Desktop (à venir)
 .. NOTE::
     Le support d'Office 2010 étant terminé par Microsoft depuis le 13 Octobre 2020, CEO-Vision ne supportera bientôt plus cette version. Nous encourageons une migration vers l'utilisation d'Onlyoffice inclut dans GoFAST
 
