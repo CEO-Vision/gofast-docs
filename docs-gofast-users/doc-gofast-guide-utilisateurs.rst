@@ -92,7 +92,7 @@ Pré-requis nécessaires pour l’utilisation de GoFAST
     
     -Firefox ESR en Français https://www.mozilla.org/fr/firefox/organizations/all/
 
--  Navigateur MacOS : Safari 12+ (sauf webconference), Chrome 65+
+-  Navigateur MacOS : Safari (dernière version supportée), Chrome (dernière version supportée)
 
 -  Navigateur Linux : Firefox (dernière version ESR)
    
