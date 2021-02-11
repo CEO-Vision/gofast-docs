@@ -97,9 +97,15 @@ Pré-requis nécessaires pour l’utilisation de GoFAST
 -  Navigateur Linux : Firefox (dernière version ESR)
    
 -  Système d'exploitation Windows7 et plus, MacOS 10.11+ et Linux (Ubuntu 16+), ChromeOS
+
+.. NOTE::
+    Le support de Windows 7 étant terminé par Microsoft depuis le 14 Janvier 2020, CEO-Vision ne supporte plus officielement cette version
+
 -  En mobilité Android ou iOS 13+ 
 
 -  Bureautique : MS-Office 2010 (>14.0.7190.5000) pour Windows, MS-Office 2016 pour Mac, LibreOffice 6+, OnlyOffice Desktop (à venir)
+.. NOTE::
+    Le support d'Office 2010 étant terminé par Microsoft depuis le 13 Octobre 2020, CEO-Vision ne supportera bientôt plus cette version. Nous encourageons une migration vers l'utilisation d'Onlyoffice inclut dans GoFAST
 
 -  Messagerie : Outlook 2013+ (Outlook 2010 sans garantie), Thunderbird 52+, Client léger Bluemind  
 
