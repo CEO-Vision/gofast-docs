@@ -99,7 +99,7 @@ Pré-requis nécessaires pour l’utilisation de GoFAST
 -  Système d'exploitation Windows7 et plus, MacOS 10.11+ et Linux (Ubuntu 16+), ChromeOS
 
 .. NOTE::
-    Le support de Windows 7 étant terminé par Microsoft depuis le 14 Janvier 2020, CEO-Vision ne supporte plus officielement cette version
+    Le support de Windows 7 étant terminé par Microsoft depuis le 14 Janvier 2020, CEO-Vision ne supporte plus officiellement cette version
 
 -  En mobilité Android ou iOS 13+ 
 
