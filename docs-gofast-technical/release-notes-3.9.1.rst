@@ -1,3 +1,10 @@
+********************************************
+GoFAST :  Version 3.9.1
+********************************************
+
+**[GoFAST Enterprise]**
+
+
 Sécurité
 **********
 .. csv-table::  
@@ -5,7 +12,7 @@ Sécurité
    :widths: 10, 40
 
    "[GOFAST-6984]", "Mise à jour du module 'Webform Drupal' version 7.x-4.23"
-   "GOFAST-6976", "Mise à jour du module 'ITHit' (explorateur de fichiers) version 5.20.5616"
+   "[GOFAST-6976]", "Mise à jour du module 'ITHit' (explorateur de fichiers) version 5.20.5616"
    "[GOFAST-6972]", "Mise à jour du module 'Bind' version 9.11.4"
    "[GOFAST-6944]", "Mise à jour de PHP version 7.4.16"
    "[GOFAST-6943]", "Mise à jour du module 'Sudo' version 1.8.23"
