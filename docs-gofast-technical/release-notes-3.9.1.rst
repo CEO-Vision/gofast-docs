@@ -23,15 +23,16 @@ Sécurité
    "[GOFAST-6885]", "Mise à jour du module 'Sudo CentOS' version 7.78"
    
 
-
-
-
 Bugs
 **********
 .. csv-table::  
    :header: "Ref.", "Description"
    :widths: 10, 40
 
+
    "[GOFAST-7073]", "[HOTFIX] Suite au glisser-déposer dans un répertoire 'TEMPLATE', appliquer le tag "TEMPLATE" automatiquement sur le fichier"
    "[GOFAST-7053]", "[HOTFIX] A la création de dossiers depuis un modèle reprendre correctement les différents niveauX de l'arborescence"
     
+
+
+**Bonne utilisation de GoFAST !**
