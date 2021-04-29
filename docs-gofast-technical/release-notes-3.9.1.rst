@@ -29,8 +29,7 @@ Bugs
    :header: "Ref.", "Description"
    :widths: 10, 40
 
-
-   "[GOFAST-7073]", "[HOTFIX] Suite au glisser-déposer dans un répertoire 'TEMPLATE', appliquer le tag "TEMPLATE" automatiquement sur le fichier"
+   "[GOFAST-7073]", "[HOTFIX] Suite au glisser-déposer dans un répertoire 'TEMPLATE', appliquer le tag 'TEMPLATE' automatiquement sur le fichier"
    "[GOFAST-7053]", "[HOTFIX] A la création de dossiers depuis un modèle reprendre correctement les différents niveauX de l'arborescence"
     
 
