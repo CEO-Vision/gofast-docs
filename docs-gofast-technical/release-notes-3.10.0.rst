@@ -12,7 +12,7 @@ Nouvelles fonctionnalités
    :widths: 10, 40   
 
    "[	GOFAST-7005 	]", "	Nouvelle option pour la prévisualisation de fichiers Excel : utilisation de la Suite OnlyOffice en lecture seule (voir 'configuration' de la plateforme, menu 'document') 	"
-   "[	GOFAST-6932 	]", "	Nouvelle interface 'GoFAST Essentiel' : sur PC, Tablettes et Smartphones (choix laissé à l'utilisateur à la connexion)	"
+   "[	GOFAST-6932 	]", "	Nouvelle interface 'GoFAST Essentiel' : une interface adaptée pour les utilisateurs occasionnels "
    "[	GOFAST-6909 	]", "	Le 'super-administrateur' a la possibilité de pré-ajouter des membres dans les Espaces, avec demande de validation auprès des administrateurs métiers de ces Espaces	"
    "[	GOFAST-7092 	]", "	Fonctionnalités liées au champs 'importance' pour les documents dits 'Contenu Confidentiel' : impossible de télécharger, imprimer, partager avec l'extérieur	"
    "[	GOFAST-7034 	]", "	Workflow standard : option pour créer automatiquement la publication PDF d'un document travail avant l'étape de validation ou de signature	"
