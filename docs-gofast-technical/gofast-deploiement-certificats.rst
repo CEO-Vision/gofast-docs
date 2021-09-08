@@ -33,29 +33,37 @@ Correctifs à faire (si mauvais fonctionnement des services) :
 Problème connexion non automatique au chat Element (COMM):
 ------------------------------------------------------------
 
+Commandes à exécuter sur la plateforme COMM (en ssh) pour corriger le problème de connexion non automatique au chat.
+
 .. code-block::
 
   cd /opt/gofast-comm
-  echo "GoFAST MAIN URL:"
+  echo "Enter GoFAST MAIN URL (ex: gofast.ceo-vision.com):"
   read url_main
   java InstallCert $url_main
   cp jssecacerts /etc/pki/ca-trust/extracted/java/cacerts
   systemctl restart ma1sd
 
-Problème Cadena OnlyOffice (MAIN):
+Problème Cadenas OnlyOffice (MAIN):
 -------------------------------------
+
+Commandes à exécuter sur la plateforme MAIN (en ssh) pour corriger le problème de cadenas qui reste fermé à la sortie d'une coédition OnlyOffice.
 
 .. code-block::
 
   cd /opt
-  echo "GoFAST COMM URL:"
+  echo "Enter GoFAST COMM URL (ex: gofast-comm.ceo-vision.com):"
   read url_comm
   java InstallCert $url_comm
   cp jssecacerts /etc/pki/ca-trust/extracted/java/cacerts
+  echo "Warning la GED va redémarrer"
+  sleep 2
   systemctl restart tomcat@alfresco
 
 Problème Certificats Visio (COMM):
 -------------------------------------
+
+Commandes à exécuter sur la plateforme COMM (en ssh) pour corriger le problème de visio-conférence à trois minimum impossible.
 
 .. code-block::
 
@@ -100,13 +108,14 @@ Problème Certificats Visio (COMM):
 
   update-ca-trust extract -f
 
+  prosodyctl start
+
   prosodyctl register videobridge auth.$server_name $secret_key
   prosodyctl register jibri auth.$server_name $secret_key
   prosodyctl register recorder recorder.$server_name $secret_key
   prosodyctl register focus auth.$server_name $secret_key
   prosodyctl mod_roster_command subscribe focus.$server_name focus@auth.$server_name
 
-  prosodyctl start
   systemctl start jibri
   systemctl start jitsi-videobridge
   sleep 3
