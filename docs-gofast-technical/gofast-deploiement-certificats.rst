@@ -27,124 +27,88 @@ COMM :
 Tester les services (coo-édition, cadena coo-édition, visio, chat), corriger si ceux-ci ne fonctionnent plus.
 
 
-Let's Encrypt :
-==================
+Correctifs à faire (si mauvais fonctionnement des services) :
+========================================================================
 
-
-
-Installation du paquet pour la génération des certificats (à faire sur les deux machines) :
-
-.. code-block::
-
-  yum install -y certbot
-
-
-MAIN :
-
-Stop du service HTTPD + ouverture port 80 firewalld
+Problème connexion non automatique au chat Element (COMM):
+------------------------------------------------------------
 
 .. code-block::
 
-  systemctl stop httpd
-  firewall-cmd --permanent --add-port=80/tcp → ouverture
-  firewall-cmd --reload → reload
-
-Test génération certificats (changer l'URL de la plateforme) :
-
-.. code-block::
-
+  cd /opt/gofast-comm
+  echo "GoFAST MAIN URL:"
   read url_main
-  read url_mobile
+  java InstallCert $url_main
+  cp jssecacerts /etc/pki/ca-trust/extracted/java/cacerts
+  systemctl restart ma1sd
 
-  certbot certonly --non-interactive --email support@ceo-vision.fr \
-  --preferred-challenges http --standalone --agree-tos --renew-by-default \
-  --webroot-path  /var/www/html -d $url_main --dry-run
-
-    certbot certonly --non-interactive --email support@ceo-vision.fr \
-  --preferred-challenges http --standalone --agree-tos --renew-by-default \
-  --webroot-path  /var/www/html -d $url_mobile --dry-run
-
-Si ce test réussi, vous pouvez alors éxécuter ce code :
+Problème Cadena OnlyOffice (MAIN):
+-------------------------------------
 
 .. code-block::
 
-  read url_main
-  read url_mobile
-
-  certbot certonly --non-interactive --email support@ceo-vision.fr \
-  --preferred-challenges http --standalone --agree-tos --renew-by-default \
-  --webroot-path  /var/www/html -d $url_main
-
-  certbot certonly --non-interactive --email support@ceo-vision.fr \
-  --preferred-challenges http --standalone --agree-tos --renew-by-default \
-  --webroot-path  /var/www/html -d $url_mobile --dry-run
-
-
-Copie des certificats aux bons emplacements :
-
-.. code-block::
-
-  read url_main
-  read url_mobile
-
-  cp /etc/letsencrypt/live/$url_main/privkey.pem /etc/pki/tls/private/localhost.key
-  cp /etc/letsencrypt/live/$url_main/cert.pem /etc/pki/tls/certs/localhost.crt 
-  cp /etc/letsencrypt/live/$url_main/fullchain.pem /etc/pki/tls/certs/server-chain.crt 
-
-  cp /etc/letsencrypt/live/$url_mobile/privkey.pem /etc/pki/tls/private/localhost_mobile.key
-  cp /etc/letsencrypt/live/$url_mobile/cert.pem /etc/pki/tls/certs/localhost_mobile.crt
-
-  firewall-cmd --permanent --remove-port=80/tcp → ouverture
-  firewall-cmd --reload → reload
-
-  systemctl start httpd
-
-COMM :
-
-Stop service coturn :
-
-.. code-block::
-
-  systemctl stop coturn
-
-
-Test génération certificats (changer l'URL de la plateforme) :
-
-.. code-block::
-
+  cd /opt
+  echo "GoFAST COMM URL:"
   read url_comm
-  mkdir /var/www/html
+  java InstallCert $url_comm
+  cp jssecacerts /etc/pki/ca-trust/extracted/java/cacerts
+  systemctl restart tomcat@alfresco
 
-  certbot certonly --non-interactive --email support@ceo-vision.fr \
-  --preferred-challenges http --standalone --agree-tos --renew-by-default \
-  --webroot-path  /var/www/html -d $url_comm --dry-run
-
-
-Si ce test réussi, vous pouvez alors éxécuter ce code :
+Problème Certificats Visio (COMM):
+-------------------------------------
 
 .. code-block::
 
-  read url_comm
-  mkdir /var/www/html
+  server_name=`grep -oP "(?<=domain: \').+?(?=\')" /etc/ma1sd/ma1sd.yaml`
 
-  certbot certonly --non-interactive --email support@ceo-vision.fr \
-  --preferred-challenges http --standalone --agree-tos --renew-by-default \
-  --webroot-path  /var/www/html -d $url_comm
+  echo "secret_key = mot de passe dans /etc/jitsi/jicofo/config "
+
+  read secret_key
+
+  rm -Rf /var/lib/prosody/*
+  cd /opt/gofast-comm/update
+
+  systemctl stop crond
+  prosodyctl stop
+  systemctl stop jibri
+  systemctl stop jitsi-videobridge
+  systemctl stop jicofo
+
+  #Generate certificates
+
+  prosodyctl cert generate auth.${server_name}
+
+  echo "
+  #################################################
+  ## Entrez les informations suivantes
+  4096
+  FR
+  COMM
+  GOFAST
+  XMPP
+  auth.${server_name}
+
+  xmpp@auth.${server_name}
+  #################################################"
 
 
-Copie des certificats aux bons emplacements :
+  mv /var/lib/prosody/auth.$server_name.crt  /var/lib/prosody/auth.crt
+  mv /var/lib/prosody/auth.$server_name.key  /var/lib/prosody/auth.key
+  mv /var/lib/prosody/auth.$server_name.cnf  /var/lib/prosody/auth.cnf
 
-.. code-block::
+  ln -sf /var/lib/prosody/auth.crt /etc/pki/ca-trust/source/anchors/auth.crt
 
-  read url_comm
+  update-ca-trust extract -f
 
-  cp /etc/letsencrypt/live/$url_comm/privkey.pem /etc/pki/tls/private/gofast.key
-	cp /etc/letsencrypt/live/$url_comm/cert.pem /etc/pki/tls/certs/gofast.crt
+  prosodyctl register videobridge auth.$server_name $secret_key
+  prosodyctl register jibri auth.$server_name $secret_key
+  prosodyctl register recorder recorder.$server_name $secret_key
+  prosodyctl register focus auth.$server_name $secret_key
+  prosodyctl mod_roster_command subscribe focus.$server_name focus@auth.$server_name
 
-	cat /etc/pki/tls/certs/gofast.crt /etc/pki/tls/private/gofast.key > /etc/pki/tls/certs/gofast.pem
-
-  systemctl restart nginx
-  sleep 2
-  systemctl stat coturn
-
-Tester les services (coo-édition, cadena coo-édition, visio, chat), corriger si ceux-ci ne fonctionnent plus.
+  prosodyctl start
+  systemctl start jibri
+  systemctl start jitsi-videobridge
+  sleep 3
+  systemctl start jicofo
+  systemctl start crond
