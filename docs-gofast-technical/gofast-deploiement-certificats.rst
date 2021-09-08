@@ -63,7 +63,7 @@ Commandes à exécuter sur la plateforme MAIN (en ssh) pour corriger le problèm
 Problème Certificats Visio (COMM):
 -------------------------------------
 
-Commandes à exécuter sur la plateforme COMM (en ssh) pour corriger le problème de visio-conférence à trois minimum impossible.
+Commandes à exécuter sur la plateforme COMM (en ssh) pour corriger le problème de visio-conférence à trois minimum impossible. (avec flux vidéo)
 
 .. code-block::
 
