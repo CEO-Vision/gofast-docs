@@ -24,7 +24,21 @@ COMM :
 
   cat /etc/pki/tls/certs/gofast.crt /etc/pki/tls/private/gofast.key > /etc/pki/tls/certs/gofast.pem
 
-Tester les services (coo-édition, cadena coo-édition, visio, chat), corriger si ceux-ci ne fonctionnent plus.
+.. warning::
+  Cela fait, redémarrez le service "nginx" sur la comm et le service "httpd" sur la main.
+
+  MAIN :
+    .. code-block::
+
+      systemctl restart httpd
+
+  COMM :
+    .. code-block::
+
+      systemctl restart nginx
+
+
+Testez les services (coo-édition, cadena coo-édition, visio, chat), corriger si ceux-ci ne fonctionnent plus.
 
 
 Correctifs à faire (si mauvais fonctionnement des services) :
@@ -44,10 +58,10 @@ Commandes à exécuter sur la plateforme COMM (en ssh) pour corriger le problèm
   cp jssecacerts /etc/pki/ca-trust/extracted/java/cacerts
   systemctl restart ma1sd
 
-Problème Cadenas OnlyOffice (MAIN):
--------------------------------------
+Problème Cadenas OnlyOffice et non sauvegarde du document (MAIN):
+-------------------------------------------------------------------
 
-Commandes à exécuter sur la plateforme MAIN (en ssh) pour corriger le problème de cadenas qui reste fermé à la sortie d'une coédition OnlyOffice.
+Commandes à exécuter sur la plateforme MAIN (en ssh) pour corriger le problème de cadenas qui reste fermé à la sortie d'une coédition OnlyOffice (attention ce problème provoque que toute édition sur le document ne sera pas sauvegardé)
 
 .. code-block::
 
@@ -63,7 +77,11 @@ Commandes à exécuter sur la plateforme MAIN (en ssh) pour corriger le problèm
 Problème Certificats Visio (COMM):
 -------------------------------------
 
-Commandes à exécuter sur la plateforme COMM (en ssh) pour corriger le problème de visio-conférence à trois minimum impossible. (avec flux vidéo)
+Commandes à exécuter sur la plateforme COMM (en ssh) pour corriger le problème de visio-conférence à trois minimum impossible. (avec flux vidéo):
+
+.. warning::
+
+  La GED va redémarrer suite à ces commandes, faites en sorte de vous assurer que personne ne travaille dessus.
 
 .. code-block::
 
@@ -86,19 +104,24 @@ Commandes à exécuter sur la plateforme COMM (en ssh) pour corriger le problèm
 
   prosodyctl cert generate auth.${server_name}
 
-  echo "
-  #################################################
-  ## Entrez les informations suivantes
-  4096
-  FR
-  COMM
-  GOFAST
-  XMPP
-  auth.${server_name}
+.. warning::
 
-  xmpp@auth.${server_name}
-  #################################################"
+  Entrez les informations suivantes pour la commande "prosodyctl cert generate auth.${server_name}" :
 
+    4096
+
+    FR
+    COMM
+
+    GOFAST
+
+    XMPP
+
+    auth.${server_name}
+
+    xmpp@auth.${server_name}
+
+.. code-block::
 
   mv /var/lib/prosody/auth.$server_name.crt  /var/lib/prosody/auth.crt
   mv /var/lib/prosody/auth.$server_name.key  /var/lib/prosody/auth.key
