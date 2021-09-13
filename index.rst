@@ -10,6 +10,7 @@ Documentation GoFAST
    docs-gofast-technical/gofast-docs-prerequis-installation-serveur
    docs-gofast-technical/gofast-community-install
    docs-gofast-technical/gofast-exploitation
+   docs-gofast-technical/gofast-deploiement-certificats
    docs-gofast-users/doc-gofast-problemes-connus
    
 .. _users-docs:
