@@ -103,8 +103,11 @@ Des configurations et/ou installations supplémentaires sont nécessaires pour
 - Accès à l’arborescence de GoFAST via votre l'explorateur de fichiers du PC (Windows ou MacOS)
 
 Dans la plupart des cas, il est nécessaire de contacter votre support informatique (qui gèrent votre PC).
+
+
+
 Configurer le Lecteur Réseau
-^^^^^^^^^^^^^^^^^^^^^^^^
+
 Faire un clic-droit sur "Ce PC" et choisir "Connecter un lecteur réseau"
 
 .. figure:: media-guide/config-win-webdav1.png
