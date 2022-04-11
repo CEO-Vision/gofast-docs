@@ -513,7 +513,9 @@ Types d'Espaces Collaboratifs disponibles
 -  Publics (accessible à tous les utilisateurs internes en lecture seule, non aux externes)
 
 Chaque Espace Collaboratif est organisé de la même manière (onglet Documents, Tâches, membres…). Toutefois, il y a quelques fonctionnalités qui différent selon le type d’Espace (merci de vous référer aux rubriques décrivant chaque type d’Espace). 
+
 **La gestion des accès aux espaces suit une suite logique d'entonnoir :**
+
 Chaque espace peut contenir un ou plusieurs sous espaces. Dans ce cas il est possible d'avoir un sous-ensemble de membres dans ces sous-espaces afin de restreindre l'accès. Plus vous descendez dans l'arborescence, moins il y a potentiellement de membres. 
 
 .. NOTE::
