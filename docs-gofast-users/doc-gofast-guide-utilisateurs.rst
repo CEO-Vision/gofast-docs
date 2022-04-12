@@ -337,6 +337,7 @@ Le fil d’activité de GoFAST vous donne une **vue d’ensemble** sur ce qui s�
 
 **Actions possible depuis le Fil d’activité :**
 - Le "Menu Burger" (actions contextuelles) 
+
 .. figure:: media-guide/raccourci-fonctionnalités.png
    :alt: 
 
