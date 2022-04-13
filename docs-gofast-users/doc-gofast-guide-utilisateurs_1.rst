@@ -71,6 +71,8 @@ Vous pouvez même enregistrer cet événement **dans votre agenda** (Outlook, Th
 Si la conférence a été enregistrée pour une autre date à venir, les
 participants et vous recevrez un reminder/rappel par mail également,
 reprenant les mêmes informations et le lien URL.
+
+
 Consulter un Document/Contenu et informations associées
 =================================================
 En plus de pouvoir consulter le document ou autre contenu, il y a plusieurs fonctionnalités telles que : actualiser l’aperçu, processus et tâches (workflow), pleine page, actions contextuelles (parcourir, modifier, télécharger…).
@@ -119,7 +121,7 @@ Pour avoir la liste des diverses actions possible depuis ce menu, merci de vous 
 Zone de prévisualisation/Aperçu (dont titre +)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-La prévisualisation d'un fichier serf à consulter le fichier (document, image, vidéo...) directement dans le navigateur, sans avoir à l'ouvrir en édition avec une application sur son poste de travail ou le Suite Collaborative intégrée.
+La prévisualisation d'un fichier sert à consulter le fichier (document, image, vidéo...) directement dans le navigateur, sans avoir à l'ouvrir en édition avec une application sur son poste de travail ou le Suite Collaborative intégrée.
 
 .. NOTE:: Certains types de fichiers (MS-Office ou LibreOffice), sont affiché au format PDF dans cette zone de prévisualisation. La transformation à la volé des formats MS-Office vers PDF est effectuée par un système de Libreoffice (Community) ou d’OnlyOffice (Enterprise) GoFAST. Attention, le document lui-même ne change pas de format, cette transformation à la volé n’est utile que pour la prévisualisation. Les fichiers tableurs sont eux affiché soit en PDF, soit directement via OnlyOffice (selon la configuration de votre plateforme).  
 
@@ -323,6 +325,7 @@ Pour plus d’information sur la gestion des versions, merci de vous référer a
 
 
 **Audit**
+
 GoFAST offre de très nombreuses pistes d’audit sur les actions réalisées sur les documents pour des questions de sécurité et de contrôle des données. 
 L’audit n’est accessible que pas les utilisateurs ayant le profil "support-utilisateurs", sur la page d’un document (dernier onglet du bloc d’information), ou depuis la page Audit accessible via le menu principal de gauche. 
 Pour en savoir plus, merci de vous référer à la rubrique : « Profil Support-Utilisateurs ». 
@@ -370,8 +373,10 @@ Menu des actions contextuelles "Menu Burger"
 - Autre actions possibles (renvoi vers les modifier les autres types de contenus + modules additionnels)
 
 Pour en savoir plus sur ces actions, merci de vous référer à la rubrique : « Actions sur un document/contenu »)
+
 Gestion Collaborative des Documents / Contenus
 ========================================
+
 Actions sur un document/contenu (Cf. Menu "Burger")
 -------------------------------------------------------------------------------------------
 Ce sont toutes les **actions qu’on peut faire avec /sur ce document** : parcourir, télécharger, éditer en ligne/modifier, nouveau commentaire, envoyer par mail, gérer les traductions, créer une publication, …
@@ -524,6 +529,7 @@ Créer une publication
 Objectif d’une publication : partager auprès d’un public élargi (ex. DG, Partenaires, Base de connaissances, etc.) une version finie et validée, créée depuis un document de travail. Le document de travail reste dans le(s) Espace(s) dédié(s) à son élaboration, visible uniquement par les utilisateurs en charge, alors que la Publication est visible dans d’autres Espaces Collaboratifs dédiés à la consultation. 
 
 **Principaux avantages de la Publication :** 
+
 - Gérer de manière indépendante les accès/la visibilité des deux documents (publication et le document de travail d’origine).
 - Eviter de partager tous les commentaires de travail faits au fur et à mesure de l’élaboration du document. La Publication dispose alors de son propre flux de commentaires. 
 - Disposer d’une gestion séparée des versions (chaque document a sa propre gestion des versions)
@@ -556,6 +562,7 @@ Vous serez redirigé vers la page de cette nouvelle Publication, où vous pourre
    :alt: 
 
 **À tout moment, vous avez la possibilité de mettre à jour la Publication :**
+
 - Depuis le document de travail, allez dans le menu « Burger »
 - Cliquer sur « Publier à nouveau »
 - A chaque mise à jour réalisée de cette manière, la Publication prendra un numéro de version majeure (ex. de 1.0 on passe à 2.0). 
