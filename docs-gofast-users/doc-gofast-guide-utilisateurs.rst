@@ -272,9 +272,7 @@ Menu d’accès rapides
 
 .. figure:: media-guide/votre-profil-0.png
    :alt: 
-   
-.. figure:: media-guide/votre-profil-1.png
-   :alt: 
+
 
 Menu latéral 
 ~~~~~~~~~~~~~~~~~~~
@@ -296,6 +294,7 @@ Vous pouvez plier et déplier ce menu avec l’icône burger en haut à gauche.
                         
 
 **Accès limités aux Profil Support-Utilisateurs :**
+
 Au-delà des accès à des pages d’audit et statistiques, ainsi qu’une visibilité plus étendue sur les utilisateurs existants et l’arborescence des Espaces, ce profil permet d’affecter plus d’actions depuis les "menu burger". Attention, ce profil ne donne en aucun cas un accès par défaut à des Espaces et leurs contenus (pour voir les contenus d’un espace, l’utilisateur doit forcément en être membre). Pour plus d’informations, merci de vous référer à la rubrique : « Profils Utilisateurs »
 Les accès supplémentaires autorisés pour ce profil : 
 - GoFAST Configuration (accès uniquement aux onglets : Visibilité, Catégories, DUA et Lien personnalisé). Pour plus d’informations sur ces fonctionnalités, voir la rubrique « Administration ». 
@@ -304,6 +303,7 @@ Les accès supplémentaires autorisés pour ce profil :
 - Import d’utilisateurs (LDAP) : vous pouvez visualiser les utilisateurs qui sont dans votre annuaire interne (AD/LDAP, si celui-ci a été configuré sur votre plateforme). 
 
 **Accès limités aux Profil Super-Administrateur :**
+
 - GoFAST Configuration (accès aux diverses possibilités de configurations techniques de la plateforme). Pour plus d’informations sur ces fonctionnalités, voir la rubrique « Administration ». 
 Ce profil ne donne en aucun cas un accès par défaut à des Espaces et leurs contenus (pour voir les contenus d’un espace, l’utilisateur doit forcément en être membre). Pour plus d’informations, merci de vous référer à la rubrique : « Profils Utilisateurs »
 
@@ -321,6 +321,7 @@ Fil d’Activité
 Le fil d’activité de GoFAST vous donne une **vue d’ensemble** sur ce qui s’est passé sur les contenus de vos espaces collaboratifs (Groupes/Organisations/Publics/Extranets).
 
 **La page Fil d’activité est organisée en quatre parties :**
+
 - La photo de profil : qui renvoie la personne qui a effectué l’action.
 - Titre du document/contenu concerné et le type d’action faite. A droite du contenu, un menu "Burger" permet de réaliser des actions sur le contenu, directement depuis le fil d’activité.
 - Espace(s) où se trouve le contenu concerné (en un clic vous pouvez vous rendre sur l’Espace).
@@ -365,14 +366,14 @@ Vous pouvez choisir de masquer ou afficher les **« Nouvelles »** qui sont post
 .. figure:: media-guide/image013.png
    :alt: 
 
-.. figure:: media-guide/image012.png
-   :alt: 
+
 
 Tableau de Bord
 ~~~~~~~~~~~~~~
 Le tableau de bord permet un accès rapide aux éléments les plus sollicités. Par défaut, tous les utilisateurs ont le même tableau de bord. 
 
 **Accédez au Tableau de Bord :**
+
 - À partir du menu principal de gauche, cliquer sur « Tableau de Bord ».
 
 .. figure:: media-guide/Dashboard.png
@@ -486,14 +487,6 @@ Vous arriverez sur la page d’ajout/modification de la photo de profil. Appuyez
    :alt: 
 
 Votre photo apparaîtra dès lors sur votre profil et partout où vous êtes cité sur la plateforme (ex. fil d’activité, tâche…). C’est un moyen rapide et convivial de connaître ses collègues éloignés et de savoir plus facilement à qui on s’adresse (à condition de mettre de vraies photos de profil).
-
-.. figure:: media-guide/image023.png
-   :alt: 
-
-.. figure:: media-guide/image024.png
-   :alt: 
-
-
 
 Les Espaces Collaboratifs
 ---------------------------------
@@ -640,9 +633,6 @@ Pour accéder à votre espace personnel, il suffit d’aller dans le menu des ac
 .. figure:: media-guide/image026.png
    :alt: 
 
-.. figure:: media-guide/image027.png
-   :alt: 
-
 
 
 Créer des Contenus (Documents, Réunions, Forums…)
@@ -669,9 +659,6 @@ Puis enregistrez.
 .. figure:: media-guide/image050.png
    :alt: 
 
-.. figure:: media-guide/image051.png
-   :alt: 
-
 Si le document existe déjà ailleurs sur votre PC, vous pouvez l’ajouter sur la GoFAST via ce canal-ci également.
 
 Il suffit alors de le télécharger en cliquant sur « **Télécharger un fichier** » et « Choisir fichier » ; l’explorateur de fichier de votre PC s’ouvre, choisissez votre document. Puis choisissez le(s) emplacement(s) dans l’arborescence de GoFAST. Puis enregistrez.
@@ -679,8 +666,7 @@ Il suffit alors de le télécharger en cliquant sur « **Télécharger un fichie
 .. figure:: media-guide/image052.png
    :alt: 
 
-.. figure:: media-guide/image053.png
-   :alt: 
+
 
 Vous verrez ainsi la prévisualisation de votre document et pourrez commencer à travailler dessus : apposer les métadonnées, l’éditer/coéditer, le commenter...
 
@@ -699,6 +685,7 @@ Choisissez l’option « Créer à partir d’un modèle » (onglet sur le formu
 Sélectionnez le modèle que vous voulez utiliser. Le titre et l’extension se mettront automatiquement selon le type de modèle choisi. Saisissez un nouveau titre, la langue et le(s) emplacement(s) où vous voulez le partager, puis cliquez sur « Enregistrer ».
 
 Après avoir appuyé sur « Enregistrer », vous serez redirigé vers la page de ce nouveau document, avec la prévisualisation et informations associées que vous pouvez compléter/modifier.
+
 
 .. figure:: media-guide/image058.png
    :alt: 
@@ -726,6 +713,7 @@ Créer une Réunion/Webconférence (Enterprise only)
 Il est toujours préférable de créer la réunion directement dans GoFAST car cela envoie notamment une invitation agenda à tous les participants et permet également de rattacher des contenus (ex.: ordre du jour, annexes…)
 
 **Une webconférence peut être créé de 2 façons différentes :**
+
 - Pour programmer une réunion à une date précise, avec invitation agenda : à partir de la barre d’accès rapide (menu du haut) ou le Calendrier d’un Espace. 
 - Pour une webconférence immédiate : à partir d'un salon de discussion instantanée (Tchat), via l’icône « caméra ».
 
@@ -749,6 +737,7 @@ Une fois les informations entrées et après avoir appuyé sur « Enregistrer »
 
 On y voit donc la liste des participants, le nom de l'organisateur, la date et l’heure, etc. 
 Un message en rouge peut s’afficher si vous ne disposez pas des prérequis nécessaires (micro, caméra, réseau…). 
+
 .. figure:: media-guide/image085.png
    :alt: 
 
@@ -806,6 +795,7 @@ Ces pages sont visibles dans l’explorateur de fichier, dans les emplacements o
 Créer un Forum
 ---------------------
 **Objectif des forums :**
+
 Partager des idées, bonnes pratiques et conseils avec les membres d’un ou plusieurs Espaces Collaboratifs, sur une ou plusieurs thématiques. Les forums permettent de conserver les échanges et donc, de constituer une base de connaissances. Cela permet de gagner un temps précieux lors que l’on a besoin d’informations, plutôt que reposer sans cesse les mêmes questions.
 
 Il est possible de créer des « forums » dans un Espaces et les partager dans plusieurs Espaces (comme un document).
@@ -832,9 +822,11 @@ Pour en savoir plus sur l’utilisation des Forums, merci de vous référer à l
 Créer un Formulaire
 ----------------------------
 **Objectif des formulaires :**
+
 Récolter des avis, des idées, réaliser un sondage sur un sujet prédéterminé… les formulaires permettent de créer des questionnaires avec divers champs (dates, texte, cases à cochers, listes déroulantes…) et de les diffuser auprès des utilisateurs. Une fois les formulaires renseignés par les utilisateurs GoFAST, il est possible de consulter et d’analyser les résultats.
 
 **Lancer la création d’un formulaire :**
+
 Dans la barre des accès rapides (menu principal du haut), allez sur l’icône "+", sur "contenu", puis dans le sous-menu cliquez sur "Formulaires"
 
 Vous allez être redirigé vers la page de création du formulaire.
@@ -844,6 +836,7 @@ Vous allez être redirigé vers la page de création du formulaire.
 
 
 **Poursuivre la création d’un formulaire :** 
+
 1. Renseignez un titre (et vérifiez la langue définie pour votre formulaire)
 2. Cochez, le ou les Espace(s) où le formulaire sera partagé (un formulaire est classé directement à la racine des Espaces, il est donc normal de ne pas pouvoir dérouler l’arborescence des dossiers classiques dans les Espaces). 
 3. Vous avez la possibilité d’ajouter un descriptif (optionnel) pour que le formulaire dispose d’une introduction. 
@@ -858,9 +851,13 @@ Vous allez être redirigé vers la page de création du formulaire.
 Vous allez être redirigé vers la page de gestion du formulaire où seront affichés le titre et le descriptif. C’est sur cette page qu’arriveront les utilisateurs qui voudront renseigner le formulaire (onglet "Remplir"). Toutefois, juste après cette 1ère étape de création, cette page est vide car vous n’avez pas encore ajouté de champs à votre formulaire.
 
 **Comment retrouver un formulaire :**
-- Fil d’activité (si formulaire créé, modifié ou commenté récemment). 
+
+- Fil d’activité (si formulaire créé, modifié ou commenté récemment).
+
 - Dans le calendrier de l’un des Espaces où se trouve le formulaire ou dans son calendrier personnel (dans le cas où on a ajouté une échéance à ce formulaire). 
+
 - Via la recherche par mots clefs, une recherche "à blanc" (= sans mot-clef) et les filtres de recherche, en particulier par type de contenu "formulaire"
+
 - Dans ses contenus favoris (si on y a ajouté le formulaire au préalable)
 
 .. figure:: media-guide/image073.png
