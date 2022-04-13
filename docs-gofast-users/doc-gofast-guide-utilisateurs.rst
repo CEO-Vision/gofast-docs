@@ -280,6 +280,7 @@ Ce menu est donne accès aux principales pages de GoFAST. Selon votre profil uti
 Vous pouvez plier et déplier ce menu avec l’icône burger en haut à gauche.
 
 **Accès pour tous les niveaux de "Profil Utilisateur" (dont "Standard") :**
+
 - Tableau de bord. Pour plus d’information, voir la rubrique "Tableau de Bord". 
 - Fil d’activité 
 - Espaces collaboratifs : accès à l’arborescence des Espaces où vous êtes membres.
@@ -888,19 +889,21 @@ Pour connaitre quels profils ont la possibilité de créer ces premiers Espaces 
 Créer un Espace/Sous-Espace Collaboratif 
 ---------------------------------------------------------
 
-Il est possible de **créer de nouveaux Espaces Collaboratifs (Sous-Espaces)**, **si toutefois vous en avez les droits, c’est-à-dire si vous êtes administrateur de l’espace-parent.**
+Il est possible de **créer de nouveaux Espaces Collaboratifs (Sous-Espaces)**, **si toutefois vous en avez les droits, c’est-à-dire si vous êtes administrateur de l’espace-parent.** 
+
 Vous pouvez créer un nouvel espace, de type :
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-   - Organisation (vos services/départements/etc.)
-   - Groupe (projets/partages transversaux)
-   - Public (uniquement si vous êtes membres de la « Liste Public »)
-   - Extranet (partage avec les utilisateurs externes) 
+  - Organisation (vos services/départements/etc.)
+  - Groupe (projets/partages transversaux)
+  - Public (uniquement si vous êtes membres de la « Liste Public »)
+  - Extranet (partage avec les utilisateurs externes) 
 Pour en savoir plus sur les types d’Espaces, merci de vous référer à la rubrique : « Les Espaces collaboratifs »
 
 Formulaire de création d’un Espace :
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Depuis la barre des accès rapides (menu principal du haut) cliquer sur « + » puis sur « Espace », et allez sur le type d’Espace que vous souhaitez créer. 
 Une page s’ouvre où vous pouvez ajouter :
+
 - un titre de l’espace (obligatoire)
 - une brève description (obligatoire)
 - créer une page d’accueil (facultatif)
@@ -917,6 +920,7 @@ Le principe est identique pour toute création d’espace dans Groups, Public et
    :alt: 
 
 On peut également voir le chemin d’accès et le nom de l’Espace, au-dessus des onglets :
+
 .. figure:: media-guide/Image-4.png
    :alt: 
 
@@ -927,15 +931,18 @@ Les différents onglets de votre Espace :
    :alt: 
 
 **L’onglet « Accueil » :**
-Vous pouvez le personnaliser à tout moment avec une photo, un message, une page web). Les autres administrateurs le cet Espace pourrons eux aussi modifier cette onglet accueil. 
+
+Vous pouvez le personnaliser à tout moment avec une photo, un message, une page web). Les autres administrateurs de cet Espace pourront eux aussi modifier cette onglet accueil. 
 
 .. figure:: media-guide/image079.png
    :alt: 
 
 **L’onglet « Statistiques » :**
+
 Permet de visualiser sur une période donnée l’évolution des membres et de documents.
 
 **L’onglet « Documents » :**
+
 Montre l’explorateur de fichiers de GoFAST, avec tous les contenus qui se trouvent dans votre espace dans la zone principale au centre de l’écran, ainsi que l’arborescence complète à laquelle vous avez accès dans la zone de gauche (pour pouvoir facilement naviguer entre les divers Espaces depuis l’arborescence).
 
 .. NOTE::
@@ -945,15 +952,19 @@ C’est ici que vous pouvez directement **glisser-déposer des fichiers** qui se
 Pour savoir comment ajouter un document depuis cet onglet « Documents », merci de vous référer à la rubrique : "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX "
 
 **L’onglet « Calendrier » :**
+
 Vous permet de visualiser les réunions et webconférence planifiées dans votre espace, les échéances des documents ou des tâches collaboratives (= cartes Kanban).
 
 **L’onglet « Tâches » :**
+
 Contient un tableau Kanban avec des colonnes et des cartes correspondant généralement à des tâches.
 
 **L’onglet « Membres »**
+
 Permet de visualiser les utilisateurs ou listes d’utilisateurs ayant accès à l’espace, ainsi que leurs rôles dans l’espace.
 
 **L’onglet « Discussion » :** 
+
 S’il est activé par l’un des administrateurs de l’Espace, il permet de disposer d’un salon de discussion associé avec les mêmes membres, qui peuvent alors Tchater ou lancers des webconférences depuis ce salon.
 
 
