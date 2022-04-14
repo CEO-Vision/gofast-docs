@@ -681,6 +681,7 @@ Dans la fenêtre de gestion des traductions, allez dans le champ qui correspond 
    :alt: 
 
 **Lier un document existant à un document de traduction à charger depuis votre PC :**
+
 - Dans la fenêtre de gestion des traductions, cliquez sur le bouton « + » au niveau du drapeau qui correspond à la langue du document cible. 
 - Vous serez alors redirigé vers le formulaire de création de document. 
 - Le titre de votre document sera prérempli, avec à la fin du titre les lettres qui correspondent à la langue ciblée (ex . /_EN)
@@ -700,6 +701,7 @@ Il suffit de cliquer sur l’un des drapeaux pour aller sur l’une des traducti
    :alt: 
 
 .. NOTE::
+
    GoFAST ne permet pas de traduire le contenu des documents automatiquement. Il s’agit ici de documents qui existent déjà en différentes langues et qu’on veut lier pour pouvoir passer d’une à l’autre en un clic.
    Toutefois, lors du chargement d’un nouveau document sur la plateforme, la langue est automatiquement détectée (détection basée sur l‘extraction du contenu, faite automatiquement après le dépôt du nouveau document sur GoFAST). 
    Pour modifier la langue d’un document, il suffit de cliquer sur le drapeau désignant la langue du document sur lequel on se trouve. Une liste va alors s’afficher, où il sera possible de sélectionner la langue souhaitée. 
@@ -707,7 +709,8 @@ Il suffit de cliquer sur l’un des drapeaux pour aller sur l’une des traducti
 Charger une nouvelle version 
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Avant de mettre à jour un document sur GoFAST en chargeant un fichier qui se trouve sur votre PC, il est impératif de vérifier la date de mise à jour du document (sur la page du document dans le Bloc d’informations, ou dans l’explorateur de fichier, colonne « Modifié »). 
+Avant de mettre à jour un document sur GoFAST en chargeant un fichier qui se trouve sur votre PC, il est impératif de vérifier la date de mise à jour du document (sur la page du document dans le Bloc d’informations, ou dans l’explorateur de fichier, colonne « Modifié »).
+
 - Si la date « Modifié le » est postérieure à la version sur votre PC, il est préférable de ne pas écraser la version sur GoFAST. 
 - Dans ce cas, il est conseillé de contacter l’utilisateur à l’origine de la dernière version (ex. via le Tchat ou « Partager le document par email » possible dans le menu « Burger »). Le dernier contributeur est indiqué dans le champ « Modifié par » dans le Bloc d’informations (sur la page du document).   
 
@@ -719,12 +722,15 @@ Avant de mettre à jour un document sur GoFAST en chargeant un fichier qui se tr
 - Aller sur la page du document.
 - Glissez-déposez votre fichier depuis votre PC vers la zone de « glisser-déposer » qui se trouve au-dessus de la prévisualisation. 
 OU
+
 - Passez par le menu « Burger », puis dans « Voir plus », cliquez sur « Charger nouvelle version ». 
 
 .. NOTE::
+
    Une fois votre fichier déposé, une fenêtre s’ouvre pour pouvoir laisser un commentaire lié à votre nouvelle version. Vous pouvez également cocher la case « Version majeure » (conseillé dans le cas où vous considérez que les modifications faites sont importantes).
 
 La version du document sur GoFAST sera écrasée par celle que vous venez de charger : 
+
 - Dans le cas où vous avez laissé un commentaire, celui-ci sera consultable via l’onglet « Commentaires » du bloc d’infestations. 
 Si vous avez coché « Version majeure », le numéro de version passera en version majeure (ex. depuis 1.4, vous passerez en 2.0). 
 
@@ -742,6 +748,7 @@ Si besoin, vous pouvez transformer la version en cours du document en une versio
 **Passer en version majeure un document à tout moment :**
 
 - Sur la page du document, allez dans le menu « Burger » (actions contextuelles)
+
 - Allez dans « Voir plus »
 - Cliquer sur « Définir comme version majeure ».
 
@@ -789,11 +796,14 @@ Voir aussi "Glisser et déposer une nouvelle version"
 Supprimer les versions mineures 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Le principal objectif de la suppression des versions mineures est de libérer de l’espace de stockage sur la plateforme. Dans le cas où un document a énormément de versions mineures, cela permet aussi de réduire la liste dans l’onglet « Versions ». 
+
 **Avant de supprimer les versions mineures, il est conseillé de vérifier si le document comporte des versions majeures :**
+
 - Si c’est le cas, les versions majeures seront conservées et vous pourrez les télécharger en cas de besoins. 
 - Si le document ne comporte aucune version majeure en dehors de la toute première (1.0), seule cette première version et la dernière version en cours seront conservées. 
 
 **Pour supprimer les versions mineures :**
+
 - Sur la page d’un document, allez dans le menu « Burger » (actions contextuelles) ou depuis l’explorateur de fichier faites un clic-droit.
 - Dans « Voir plus », cliquez sur « Supprimer versions mineures ».
 
@@ -817,6 +827,7 @@ Dans le bloc des métadonnées, onglet « versions », vous ne verrez désormais
 Comparer deux versions
 ~~~~~~~~~~~~~~~~~~~~
 Pour afficher les écarts entre deux versions d’un même document, vous avez la possibilité de lancer un comparatif : 
+
 - Depuis la page du document, allez dans le menu « Burger » (les actions contextuelles).
 - Allez dans « Voir plus ».
 - Cliquez sur « 
@@ -839,6 +850,7 @@ Ajouter aux favoris
    :alt: 
 
 Ajouter un document/contenu à ses favoris personnels est possible depuis : 
+
 - la page du document, via le menu « Burger » (les actions contextuelles)
 - l’explorateur de fichiers en faisant un clic-droit sur le document pour ouvrir le menu
 - partout où vous avez le menu « Burger » d’un document (ex. fil d’activité, résultat d’une recherche…)
@@ -851,6 +863,7 @@ Lorsque vous cliquez sur « Ajouter aux favoris » un message apparaît, en haut
 La prochaine fois que vous voulez accéder à ce document, il suffira d’aller sur l’icône « étoile » dans la barre des accès rapides (menu principal du haut) et cliquer sur le document dans la liste de vos favoris.
 
 Vous pouvez enlever le document/contenu favoris : 
+
 - de la même manière que pour l’ajout (via le menu des actions contextuelles)
 - depuis la liste des contenus favoris, en cliquez sur la corbeille à droite du titre du document.
 
@@ -872,7 +885,9 @@ Ajouter au panier documentaire
 **Objectif du panier documentaire :** 
 
 Rassemble plusieurs documents, pouvant se trouver dans des dossiers divers de l’arborescence, pour pouvoir effectuer des actions sur l’ensemble de ces documents. 
+
 **Pour ajouter des documents dans son panier :**
+
 - Sur la page d’un document, via le menu « Burger » (menu des actions contextuelles), allez dans « Voir plus » et cliquez sur « Ajouter au panier ».
    
 .. figure:: media-guide/ Ecran-GoFAST_Panier-Documentaire_ajout-au-panier-sur-page-document.png
@@ -887,6 +902,7 @@ Rassemble plusieurs documents, pouvant se trouver dans des dossiers divers de l�
    :alt:
    
 **Il est possible de retirer les documents de son panier documentaire :**
+
    - Unitairement, en cliquant sur l’icône à droite du document dans le panier.
    - Tous les documents en une fois, en cliquant sur "retirer tous les documents" en bas de la fenêtre du panier. 
 
@@ -900,6 +916,7 @@ Epingler un contenu
 **Objectif de « épingler un contenu » :** afficher tout en haut du fil d’activité, un document spécifique. Ainsi peu importe l’activité sur la plateforme, tous les utilisateurs ayant accès à ce document, le verront épinglé en haut du fil. 
 Seul le « Profil de Support-Utilisateurs » ou « Super-Administrateur » permet d’épingler un document sur le fil d’activité. 
 **Pour épingler un document/contenu en haut du fil d’activité :**
+
 - Sur la page d’un document, via le menu « Burger » (menu des actions contextuelles), allez dans « Voir plus » et cliquez sur « Epingler ».
 - Partout où vous voyez le menu « Burger » d’un document, vous pouvez réaliser la même action.
 - Depuis l’explorateur de fichiers, faites un clic-droit sur un document pour ouvrir le même menu « Burger ».
@@ -911,6 +928,7 @@ S’abonner
 ~~~~~~~~~
 **Objectif de s’abonner :** permet de gérer la fréquence des notifications liées à l’activité d’un document spécifique. Ainsi, vous pouvez par exemple avoir un rapport d’activité sur tous les contenus des espaces où vous êtres membres 2 fois par jour, mais être notifié immédiatement dès lors que ce document spécifique est modifié ou commenté. 
 **Pour s’aboner à un contenu/document :**
+
 - Sur la page d’un document, via le menu « Burger » (menu des actions contextuelles), allez dans « Voir plus » et cliquez sur « Epingler ».
 - Partout où vous voyez le menu « Burger » d’un document, vous pouvez réaliser la même action.
 - Depuis l’explorateur de fichiers, faites un clic-droit sur un document pour ouvrir le même menu « Burger ».
@@ -935,6 +953,7 @@ Pour en savoir plus sur les abonnements à l’activité documentaire, merci de 
 Autres actions possibles
 ~~~~~~~~~~~~~~~~~~~~
 En plus du menu "Burger" (actions contextuelles), sur la page du document il est possible d’effectuer d’autres actions, dont : 
+
 - Modifier les informations (=métadonnées), voir : XXXXXXXXXXXXXXXX
 - Pré-archiver un document (via la modification de la métadonnée "Etat"), voir : Pré-archiver des documents et DUA
 - Modifier les emplacements/visibilité (dans les Espaces Collaboratifs), voir : « Modifier les Emplacements/Visibilité »
@@ -1204,6 +1223,7 @@ Les commentaires sont affichés à droite de la prévisualisation et visible par
 A ne pas confondre avec les commentaires faits directement dans le fichier lors de l’édition (ex. dan fichier Office), qui se retrouvent dans le contenu même du document.
 
 **Pour ajouter un commentaire :**
+
 -  Allez dans l’onglet « Commentaires » et cliquez sur « Ajouter ici un nouveau commentaire »
 OU 
 - Allez dans le menu « Burger » (les actions contextuelles), puis cliquez sur « Nouveau commentaire ».
@@ -1232,6 +1252,7 @@ Les utilisateurs qui ont accès au document, verront une alerte (bulle rouge) da
    :alt: 
 
 **Commentaires partagés ou privés**
+
 Au moment où on fait un commentaire, on a le choix entre "privé" ou "partagé". 
 Attention : par défaut, le commentaire est partagé.
 
