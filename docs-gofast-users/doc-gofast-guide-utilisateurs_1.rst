@@ -424,7 +424,7 @@ Pour savoir comment coéditer un document, merci de vous référer à la rubriqu
 
 Nouveau Commentaire
 ~~~~~~~~~~~~~~~~~~~
-Le bouton « Nouveau commentaire » permet d’ajouter un commentaire sur le document où on se trouve. Ce commentaire sera visible dans l’onglet « Commentaires » du bloc de droite et partagé avec tous les utilisateurs qui ont accès à ce document. Cela évite l’envoi d’un grand nombre d’emails et évité par la même d’envoyer des pièces-jointes d’emails. 
+Le bouton « Nouveau commentaire » permet d’ajouter un commentaire sur le document où on se trouve. Ce commentaire sera visible dans l’onglet « Commentaires » du bloc de droite et partagé avec tous les utilisateurs qui ont accès à ce document. Cela évite l’envoi d’un grand nombre d’emails et par la même d’envoyer des pièces-jointes d’emails. 
 Pour savoir comment les commentaires d’un document, merci de vous référer à la rubrique : « XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX ». 
 
 Partager/ Modifier les emplacements
@@ -458,8 +458,6 @@ Ecrivez votre message et « Envoyez »
 Le destinataire recevra une **notification par mail** avec le lien et votre commentaire. 
 Il pourra clique sur répondre à la notification et c’est l’adresse email de l’expéditeur qui sera alors chargée dans la barre destinataire de messagerie. De même pour vous, lorsque que vous recevrez un nouveau message par mail via la GoFAST.
 
-.. figure:: media-guide/image172.png
-   :alt: 
 
 .. NOTE::
    Pour que les non-utilisateurs de la plateforme puissent récupérer les documents, ces liens redirigent vers un page où ils pourront télécharger les documents dans un délai de 14 jours. 
@@ -473,7 +471,7 @@ Il pourra clique sur répondre à la notification et c’est l’adresse email d
 Télécharger le document
 ~~~~~~~~~~~~~~~~~~~~
 
-Via le menu des actions contextuelles (menu « Burger »), vous pouvez **télécharger le document** afin de le sauver sur votre ordinateur. A noter qu’il s’agit d’une pratique fortement déconseillée, car une version donnée téléchargée à un instant précis, devient rapidement obsolète (si le document est mis à jour par un autre utilisateur). 
+Via le menu des actions contextuelles (menu « Burger »), vous pouvez **télécharger le document** afin de le sauvegarder sur votre ordinateur. A noter qu’il s’agit d’une pratique fortement déconseillée, car une version donnée téléchargée à un instant précis, devient rapidement obsolète (si le document est mis à jour par un autre utilisateur). 
 
 .. figure:: media-guide/image141.png
    :alt: 
@@ -518,7 +516,7 @@ Voici ce que ça donne lorsque vous le coller :
 *https://gofast3-integration.ceo-vision.com/node/4551*
 
 Il suffira de cliquer dessus pour être renvoyé sur la page du document (si vous n’êtes pas membre d’au moins un des Espaces où se trouve ce document, vous n’y aurez pas accès). Cela offre une grande sécurité, car il y a moins de risques d’erreurs, comme on a souvent l’occasion de voir quand on partage des pièces-jointes par email).
-Il est possible de récupérer un permalien partout où un document est cité : clic droit sur le nom du document et « copier l’adresse du lien » (hors sur l’explorateur om le clic droit permet d’ouvrir le menu « burger » où vous pouvez cliquer sur « Permalien »). 
+Il est possible de récupérer un permalien partout où un document est cité : clic droit sur le nom du document et « copier l’adresse du lien » (hors sur l’explorateur le clic droit permet d’ouvrir le menu « burger » où vous pouvez cliquer sur « Permalien »). 
 
 Créer depuis modèle 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -546,6 +544,7 @@ Objectif d’une publication : partager auprès d’un public élargi (ex. DG, P
 
 La création d’une Publication consiste donc à générer un nouveau document (souvent au format PDF) à partir de la dernière version du document de travail existant (souvent un fichier bureautique/Office). 
 Passer par le menu « Burger » (menu des actions contextuelles) disponible sur la page du document (ou via un clic-droit dans l’explorateur de fichiers), puis cliquez sur « Créer Publication ».
+
 .. figure:: media-guide/image174.png
    :alt: 
 
@@ -582,6 +581,7 @@ Renommer
 ~~~~~~~~~~~~~~~~~~~~
 Pour renommer un document, il faut avoir au moins le rôle de « Contributeur » dans l’Espace où il se trouve. 
 Vous pouvez renommer un document depuis : 
+
 - L’explorateur de fichiers : clic droit sur le document, puis dans le menu cliquez sur « Renommer ». 
 - La page du document en faisant un clic sur le titre (au-dessus de la prévisualisation du document). 
 
@@ -595,14 +595,13 @@ Changez le titre dans le champ et cliquez sur l’icône de validation (ou juste
    :alt: 
 
 
-.. figure:: media-guide/image140.png
-   :alt: 
 
 Ajouter/Modifier le Résumé
 ~~~~~~~~~~~~~~~~~~~~~~
 
 Vous pouvez ajouter un texte d’introduction ou de synthèse à votre document, qui sera affiché au-dessus de la prévisualisation. Ainsi, tous ceux qui consulterons le document, verront ce Résumé. 
 Via le menu « Burger » (les actions contextuelles), cliquez sur « **Modifier le Résumé** ».
+
 .. figure:: media-guide/image390.png
    :alt: 
 
@@ -626,7 +625,7 @@ Tous les utilisateurs pouvant modifier le document (contributeur ou administrate
 
 Supprimer/Restaurer
 ~~~~~~~~~
-Sur GoFAST, la suppression d’un document reste rare car il n’y a plus de doublons et donc, la suppression est souvent utilisée à la suite d’une erreur (ex. on a créer un doublon par mégarde). Dans le cas où vous avez fait une erreur d’emplacement à la création/dépôt d’un document, il est préférable de modifier le ou les emplacement(s), plutôt que de supprimer. 
+Sur GoFAST, la suppression d’un document reste rare car il n’y a plus de doublons et donc, la suppression est souvent utilisée à la suite d’une erreur (ex. on a créé un doublon par mégarde). Dans le cas où vous avez fait une erreur d’emplacement à la création/dépôt d’un document, il est préférable de modifier le ou les emplacement(s), plutôt que de supprimer. 
 
 **Supprimer un document revient à :** 
 
@@ -638,12 +637,14 @@ Sur GoFAST, la suppression d’un document reste rare car il n’y a plus de dou
 .. figure:: media-guide/image185.png
    :alt: 
 
-**Restaurer un document supprimé : **
+**Restaurer un document supprimé :**
+
 A la suppression d’un document, celui-ci n’est pas supprimé définitivement et il sera possible de le restaurer dans un délai de 90 jours. 
 Seul le créateur du document ou les administrateurs de l’espace où se trouvait le document pourront le restaurer en cas d’erreur. 
 Dans le cas où on se rend sur la page d’un document supprimé, à la place de la prévisualisation on verra un message indiquant cette suppression, avec comme seule action possible « Restaurer le document » (via le menu « Burger »). 
 
 Pour restaurer un document il faut : 
+
 - Retrouver le document via la recherche avec l’option « Rechercher dans la corbeille » : possible uniquement pour les utilisateurs qui avaient accès au document avant sa suppression. 
 - Retrouver le document via la piste d’audit : possible uniquement pour les utilisateurs ayant le « Profil Support-Utilisateurs » (les autres n’ayant pas accès à ces pistes d’audit)
 
@@ -654,7 +655,9 @@ Si un document existe en **plusieurs langues**, vous pouvez **lier entre eux** l
 La langue d’un document est affichée sous la forme d’un drapeau dans l’onglet « Informations », du bloc qui se trouve à droite de la prévisualisation d’un document (tout en bas de la liste des métadonnées). 
 
 **Comment gérer les traductions :**
-Sur la page d’un document, via le menu « Burger » (les actions contextuelles) : 
+
+Sur la page d’un document, via le menu « Burger » (les actions contextuelles) :
+
 - allez dans « voir plus », 
 - cliquez sur « Gérer les traductions ». 
 - une fenêtre avec plusieurs champs s’ouvre, ceux-ci correspondent aux traductions possibles.
@@ -666,7 +669,9 @@ Sur la page d’un document, via le menu « Burger » (les actions contextuelles
    La même action est possible via un clic droit sur un document depuis l’explorateur de fichiers. 
 
 **Lier plusieurs documents existants sur la plateforme, comme étant des traductions :**
+
 Dans la fenêtre de gestion des traductions, allez dans le champ qui correspond à la langue du document cible. Les langues sont indiquées par un drapeau. 
+
 - Il faut saisir au moins les 3 premières lettres du titre du document cible (ici le document en anglais).
 - Une liste affichera des suggestions basées sur le titre (il faut commencer par le début du titre du document cible pur avoir des suggestions pertinentes ou copier-coller le titre dans le champ). 
 - Sélectionnez votre document cible dans la liste des suggestions. 
@@ -710,6 +715,7 @@ Avant de mettre à jour un document sur GoFAST en chargeant un fichier qui se tr
    :alt: 
 
 **Charger un fichier depuis son PC pour mettre à jour un document sur GoFAST :**
+
 - Aller sur la page du document.
 - Glissez-déposez votre fichier depuis votre PC vers la zone de « glisser-déposer » qui se trouve au-dessus de la prévisualisation. 
 OU
@@ -734,6 +740,7 @@ Dès que vous faites une modification sur un document via la fonctionnalité « 
 Si besoin, vous pouvez transformer la version en cours du document en une version majeure, c’est-à-dire une nouvelle base de travail (ex. la version 1.11 devient la version 2.0).
 
 **Passer en version majeure un document à tout moment :**
+
 - Sur la page du document, allez dans le menu « Burger » (actions contextuelles)
 - Allez dans « Voir plus »
 - Cliquer sur « Définir comme version majeure ».
@@ -742,6 +749,7 @@ Si besoin, vous pouvez transformer la version en cours du document en une versio
    :alt: 
 
 **Passer un document source en version majeure lors d’une Publication :**
+
 - Sur la page du document, allez dans le menu « Burger » (les actions contextuelles).
 - Cliquez sur « Créer une publication » (ou sur « Publier à nouveau ce document » si une publication existe déjà et que vous souhaitez la mettre à jour).
 - Cocher la case « Définir comme version majeure le document d’origine », 
@@ -755,12 +763,14 @@ Si besoin, vous pouvez transformer la version en cours du document en une versio
    :alt: 
 
 **Importance des versions majeures :**
+
 -  Si vous pré-archivez un document (cf. champs « état » d’un document), ses versions mineures seront supprimées et donc, seules les versions majeures (ex. 1.0, 2.0, 3.0…) et la dernière version en cours avant le préarchivage, seront conservées. 
 
 .. figure:: media-guide/image202.png
    :alt: 
 
 **Commenter votre version majeure :**
+
 Vous pouvez ajouter un commentaire à cette nouvelle version majeure à l’occasion de cette mise à jour. 
 Celui-ci sera visible dans l’onglet « Commentaires » à droite de la prévisualisation du document, par tous les utilisateurs ayant accès au document.
 
