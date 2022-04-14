@@ -105,9 +105,6 @@ A droite, se trouvent toutes les informations (métadonnées) liées au document
 
 Vous pouvez déplier le bloc caché de gauche (accès rapide à l’explorateur de fichiers sans quitter la page du document), pour voir les autres documents qui se trouvent dans ce même emplacement.
 
-.. figure:: media-guide/image376.png
-   :alt: 
-
 Vous pouvez accéder aux fonctionnalités liées au document via le menu « Burger » (menu des actions contextuelles : 3 barres horizontales, dans le coin droit au-dessus de la prévisualisation).
 
 .. figure:: media-guide/image375.png
@@ -123,7 +120,7 @@ Zone de prévisualisation/Aperçu (dont titre +)
 
 La prévisualisation d'un fichier sert à consulter le fichier (document, image, vidéo...) directement dans le navigateur, sans avoir à l'ouvrir en édition avec une application sur son poste de travail ou le Suite Collaborative intégrée.
 
-.. NOTE:: Certains types de fichiers (MS-Office ou LibreOffice), sont affiché au format PDF dans cette zone de prévisualisation. La transformation à la volé des formats MS-Office vers PDF est effectuée par un système de Libreoffice (Community) ou d’OnlyOffice (Enterprise) GoFAST. Attention, le document lui-même ne change pas de format, cette transformation à la volé n’est utile que pour la prévisualisation. Les fichiers tableurs sont eux affiché soit en PDF, soit directement via OnlyOffice (selon la configuration de votre plateforme).  
+.. NOTE:: Certains types de fichiers (MS-Office ou LibreOffice), sont affichés au format PDF dans cette zone de prévisualisation. La transformation à la volée des formats MS-Office vers PDF est effectuée par un système de Libreoffice (Community) ou d’OnlyOffice (Enterprise) GoFAST. Attention, le document lui-même ne change pas de format, cette transformation à la volée n’est utile que pour la prévisualisation. Les fichiers tableurs sont eux affichés soit en PDF, soit directement via OnlyOffice (selon la configuration de votre plateforme).  
 
 **Les principaux formats prévisualisés :**
 
@@ -186,8 +183,7 @@ Le **« -»  et le « + »** permettent de zoomer. Et l’ « \ **Automatic zoom
 
 L’icône « imprimante » permet de **télécharger** le document en PDF. Vous retrouverez le lien pour l’ouvrir dans le coin inférieur gauche de votre écran ou en haut à droite de votre navigateur (selon le navigateur utilisé). Par défaut Windows classe les fichiers téléchargés dans le dossier « Téléchargements » (de votre PC). 
 
-.. figure:: media-guide/image384.png
-   :alt: 
+
    
 .. figure:: media-guide/image385.png
    :alt: 
@@ -207,19 +203,19 @@ Vous pourrez alors **consulter la version PDF** du document avec les fonctionnal
 
 Et enfin, la dernière icône avec les 2 flèches vers la droite ouvre d’autres options, dont « **Enable hand tool** », la petite main qui permet notamment de monter/descendre dans un PDF sans utiliser le curseur.
 
-.. figure:: media-guide/image389.png
+.. figure:: media-guide/image384.png
    :alt: 
 Afficher le contenu en pleine page
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Permet de **masquer** toutes les données autour de la prévisualisation et ne n’avoir plus que la page du document en plein écran.
+Permet de **masquer** toutes les données autour de la prévisualisation et n’avoir plus que la page du document en plein écran.
 
-.. figure:: media-guide/image134.png
+.. figure:: media-guide/image133.png
    :alt: 
 
 Pour revenir à la prévisualisation normale avec les infos, il suffira d’appuyer sur le logo à 2 flèches. 
 
-.. figure:: media-guide/image135.png
+.. figure:: media-guide/image134.png
    :alt: 
 
 
@@ -265,6 +261,7 @@ Bloc d’informations (onglets : informations, Tâches, Commentaires, Versions, 
 Sur la page d’un document/contenu, vous avez un bloc de métadonnées et autres éléments associé au document (à droite de votre prévisualisation). Ce bloc est constitué de différents onglets :
 
 **Informations**
+
 Sur la page du document, vous disposez de diverses informations relatives au document/contenu : type de document, taille, format, catégorie, auteur, langue, version, emplacement, etc
 
 Ces informations sont très utiles lors de la recherche automatique car elles vous permettront de filtrer davantage vos résultats.
@@ -273,6 +270,7 @@ Ces informations sont très utiles lors de la recherche automatique car elles vo
    :alt: 
 
 Liste des métadonnées standards GoFAST : 
+
 - Type de fichier (selon le format, ex : texte, présentation, tableur, image…)
 - Extension de fichier (ex : docx, xlsx, odt, png, mp4…)
 - Taille du fichier 
@@ -319,6 +317,7 @@ Pour en savoir plus sur l’utilisation des commentaires, merci de bien vouloir 
 
 GoFAST permet de sauvegarder chaque nouvelle version d’un document après édition, avec un numéro de version, l’horodatage et l’identité de l’utilisateur contributeur. 
 Pour plus d’information sur la gestion des versions, merci de vous référer aux rubriques : 
+
 - Gestionnaire de versions de document
 - Charger nouvelle version
 - Définir comme version majeure
@@ -328,7 +327,7 @@ Pour plus d’information sur la gestion des versions, merci de vous référer a
 **Audit**
 
 GoFAST offre de très nombreuses pistes d’audit sur les actions réalisées sur les documents pour des questions de sécurité et de contrôle des données. 
-L’audit n’est accessible que pas les utilisateurs ayant le profil "support-utilisateurs", sur la page d’un document (dernier onglet du bloc d’information), ou depuis la page Audit accessible via le menu principal de gauche. 
+L’audit n’est accessible que par les utilisateurs ayant le profil "support-utilisateurs", sur la page d’un document (dernier onglet du bloc d’information), ou depuis la page Audit accessible via le menu principal de gauche. 
 Pour en savoir plus, merci de vous référer à la rubrique : « Profil Support-Utilisateurs ». 
 
 Accès direct à l’édition collaborative 
@@ -393,8 +392,10 @@ Ces actions liées directement au document que vous prévisualisez, peuvent **va
 Pour voir la liste des actions possibles depuis ce menu, merci de vous référer à la rubrique : « Menu des actions contextuelles Menu Burger ». Pour savoir comment effectuer les diverses actions possibles sur un document, merci de poursuivre dans cette rubrique. 
 
 Ouvrir l’emplacement du document 
+
 Lorsque vous prévisualisez un document, vous pouvez voir le(s) emplacements de ce dernier dans l’arborescence, avec les niveaux supérieurs de dossiers et espaces.
-Vous pouvez aller dans l’explorateur de fichiers à partir : 
+Vous pouvez aller dans l’explorateur de fichiers à partir :
+
 * des actions contextuelles (Menu « Burger »), en cliquant sur « Ouvrir l’emplacement du document ».
 * En un clic sur les emplacements listés dans le bloc d’informations (Champ « Emplacements /Visibilité »).
 
