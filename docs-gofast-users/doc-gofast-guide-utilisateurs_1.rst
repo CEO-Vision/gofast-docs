@@ -316,6 +316,7 @@ Permet de consulter les divers commentaires laissés par les utilisateurs ayant 
 Pour en savoir plus sur l’utilisation des commentaires, merci de bien vouloir vous référer à la rubrique : « XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX »
 
 **Versions**
+
 GoFAST permet de sauvegarder chaque nouvelle version d’un document après édition, avec un numéro de version, l’horodatage et l’identité de l’utilisateur contributeur. 
 Pour plus d’information sur la gestion des versions, merci de vous référer aux rubriques : 
 - Gestionnaire de versions de document
@@ -375,6 +376,7 @@ Menu des actions contextuelles "Menu Burger"
 Pour en savoir plus sur ces actions, merci de vous référer à la rubrique : « Actions sur un document/contenu »)
 
 Gestion Collaborative des Documents / Contenus
+
 ========================================
 
 Actions sur un document/contenu (Cf. Menu "Burger")
@@ -626,6 +628,7 @@ Supprimer/Restaurer
 Sur GoFAST, la suppression d’un document reste rare car il n’y a plus de doublons et donc, la suppression est souvent utilisée à la suite d’une erreur (ex. on a créer un doublon par mégarde). Dans le cas où vous avez fait une erreur d’emplacement à la création/dépôt d’un document, il est préférable de modifier le ou les emplacement(s), plutôt que de supprimer. 
 
 **Supprimer un document revient à :** 
+
 - le supprimer de tous les emplacements (Espaces où il se trouve). 
 - Supprimer la page du document, avec tous ses commentaires et ses versions. 
 - Supprimer les liens pointant vers ce document depuis les autres documents (cf. notion de liens entre contenus). 
@@ -642,6 +645,7 @@ Dans le cas où on se rend sur la page d’un document supprimé, à la place de
 Pour restaurer un document il faut : 
 - Retrouver le document via la recherche avec l’option « Rechercher dans la corbeille » : possible uniquement pour les utilisateurs qui avaient accès au document avant sa suppression. 
 - Retrouver le document via la piste d’audit : possible uniquement pour les utilisateurs ayant le « Profil Support-Utilisateurs » (les autres n’ayant pas accès à ces pistes d’audit)
+
 Gérer les traductions
 ~~~~~~~~~~~~~~~~~
 
@@ -855,6 +859,7 @@ Un message en haut à droite de l’écran vous confirmera la bonne suppression 
 Ajouter au panier documentaire
 ~~~~~~~~~~~~~~~~~~~~
 **Objectif du panier documentaire :** 
+
 Rassemble plusieurs documents, pouvant se trouver dans des dossiers divers de l’arborescence, pour pouvoir effectuer des actions sur l’ensemble de ces documents. 
 **Pour ajouter des documents dans son panier :**
 - Sur la page d’un document, via le menu « Burger » (menu des actions contextuelles), allez dans « Voir plus » et cliquez sur « Ajouter au panier ».
@@ -1127,6 +1132,7 @@ Sortez du champ pour valider (clic ailleurs sur la page).
 
 .. figure:: media-guide/image220.png
    :alt: 
+   
 Historique et versions du Document
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
