@@ -996,9 +996,6 @@ Puis, cliquez sur le document souhaité dans la liste suggérée pour le sélect
 .. figure:: media-guide/image215.png
    :alt: 
 
-.. figure:: media-guide/image216.png
-   :alt: 
-
 Ainsi, les documents auront un lien entre eux et vous pourrez cliquer sur ces liens pour passer d’un document à l’autre en un clic pour gagner un temps précieux.
 
 .. figure:: media-guide/image217.png
