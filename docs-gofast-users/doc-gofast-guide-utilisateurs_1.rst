@@ -117,16 +117,10 @@ L’icône « imprimante » permet de **télécharger** le document en PDF. Vous
 
 Un clic-droit sur l’étendard vertical permet plusieurs options, dont celle d’ouvrir le document ou la **prévisualisation** dans une autre fenêtre/onglet ou copier le lien (URL).
 
-.. figure:: media-guide/image386.png
-   :alt: 
-
 .. figure:: media-guide/image387.png
    :alt: 
 
 Vous pourrez alors **consulter la version PDF** du document avec les fonctionnalités PDF associées
-
-.. figure:: media-guide/image388.png
-   :alt: 
 
 Et enfin, la dernière icône avec les 2 flèches vers la droite ouvre d’autres options, dont « **Enable hand tool** », la petite main qui permet notamment de monter/descendre dans un PDF sans utiliser le curseur.
 
