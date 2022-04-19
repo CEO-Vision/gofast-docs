@@ -114,8 +114,6 @@ L’icône « imprimante » permet de **télécharger** le document en PDF. Vous
 .. figure:: media-guide/image384.png
    :alt: 
    
-.. figure:: media-guide/image385.png
-   :alt: 
 
 Un clic-droit sur l’étendard vertical permet plusieurs options, dont celle d’ouvrir le document ou la **prévisualisation** dans une autre fenêtre/onglet ou copier le lien (URL).
 
