@@ -780,9 +780,6 @@ Créer un modèle d’arborescence de répertoires est une fonctionnalité qui a
 .. NOTE:: 
    Les modèles d’arborescences se trouvent dans le répertoire « FOLDERS TEMPLATES », dans la zone de gauche de l’explorateur de fichiers (structure de l'arborescence). La création de nouveaux modèles d’arborescences est réservée aux administrateurs. 
 
-.. figure:: media-guide/Template-folders-create.jpg
-   :alt:
-
 Dans la barre de tâche de l’explorateur de fichiers, cliquez sur « Nouveau » puis « Dossier depuis modèle ». 
 
 .. figure:: media-guide/Template-folders-duplicate.jpg
