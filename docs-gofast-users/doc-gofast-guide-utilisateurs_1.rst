@@ -1209,9 +1209,6 @@ Il n’y à présent plus de message dans les métadonnées et l’état est red
 
 Vous pouvez aussi voir l’état de vos documents dans l’onglet « Activité » du groupe, dans l’encadré « Contenus avec Etat », à condition que son état ait bien été enregistré dans les métadonnées (voir § sur les métadonnées d’un document p.106)
 
-.. figure:: media-guide/image184.png
-   :alt: 
-
 Appliquer une DUA 
 ~~~~~~~~~~~~~~~~~
 La DUA ou la durée d’utilité administrative, est la durée pendant laquelle un document est conservé afin d’être consulté ou utilisé pendant la gestion d’un dossier ou à des fins juridiques. Une fois ce temps écoulé, il sera archivé de façon définitive ou détruit. 
