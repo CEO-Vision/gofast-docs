@@ -710,9 +710,6 @@ Programmer une réunion/Webconférence
 
 Via le menu des accès rapides (menu principal du haut), allez sur l’onglet « + », puis sur « Réunion ».
 
-.. figure:: media-guide/image084.png
-   :alt: 
-
 Donnez un titre à la webconférence, écrivez un résumé dans la zone de texte, choisissez une date et heure de début et fin
 Ajoutez les participants (écrivez les 3 premières lettres du nom ou d'un espace pour inviter tous les membres de l'espace).
 
