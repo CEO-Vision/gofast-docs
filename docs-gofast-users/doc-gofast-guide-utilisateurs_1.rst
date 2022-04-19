@@ -383,9 +383,6 @@ Il pourra clique sur répondre à la notification et c’est l’adresse email d
 
 **Exemple** de mail/notification reçu dans votre boîte mail normale, vous invitant à cliquer sur le lien attaché pour visualiser un document. Avec le message pour les non-utilisateurs de GoFAST (qui n’ont pas de compte GoFAST) signalant que ce lien est utilisable 2 semaines à partir de la date de l’envoi de l’email.
 
-.. figure:: media-guide/image173.png
-   :alt: 
-
 
 Télécharger le document
 ~~~~~~~~~~~~~~~~~~~~
