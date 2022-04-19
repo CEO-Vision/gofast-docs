@@ -993,9 +993,6 @@ Le lien vers un document a la possibilité d’être modifié depuis celui-ci, n
 Pour ajouter des documents/contenus liés, cliquez sur le champ, puis tapez les premières lettres du nom du document que vous voulez lier (au moins 3 caractères). Le système va vous le proposer automatiquement (liste de suggestions). 
 Puis, cliquez sur le document souhaité dans la liste suggérée pour le sélectionner. Sortez du champ pour valider (clic ailleurs sur la page).
 
-.. figure:: media-guide/image214.png
-   :alt: 
-
 .. figure:: media-guide/image215.png
    :alt: 
 
