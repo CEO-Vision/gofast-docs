@@ -1030,9 +1030,6 @@ Juste en dessous de l’historique, vous pouvez voir aussi les **versions** du d
  Par contre, si vous écrasez la dernière version mineure par une nouvelle version du document (avec le glisser/coller par exemple), le système vous demandera si vous voulez qu’elle devienne une version majeure (1.3 => 2.0) et donc une nouvelle base de travail.
 La 1ere version que vous créez ou migrez sur GoFAST commence à 1.0.
 
-.. figure:: media-guide/image236.png
-   :alt: 
-
 Cliquez sur « Show versions list » pour voir les versions antérieures, vous pouvez même choisir le type de versions (actuelle, majeure ou toutes), puis cliquez sur le numéro de la version que vous voulez ouvrir.
 
 .. figure:: media-guide/image237.png
@@ -1104,9 +1101,6 @@ De la même manière, vous pouvez répondre à un autre commentaire en cliquant 
   Dans le cas d'une réponse à un commentaire, le titre est prérempli depuis le titre du commentaire d’origine préfixé de "Re:" (pour réponse). Il est toutefois possible de le modifier.
 
 Les utilisateurs qui ont accès au document, verront une alerte (bulle rouge) dans l’onglet « Commentaire » (dans le bloc d’informations) avec le nombre de commentaires non lus.
-
-.. figure:: media-guide/image146.png
-   :alt: 
 
 **Commentaires partagés ou privés**
 Au moment où on fait un commentaire, on a le choix entre "privé" ou "partagé". 
