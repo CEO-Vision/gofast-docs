@@ -1229,9 +1229,6 @@ Choisissez la catégorie qui correspond au type de votre dossier puis appuyer su
 
 Ensuite, aller dans le champ « État », appuyer sur « Modifier », sélectionner « Pré-archivé » puis cliquer sur le bouton « Appliquer » pour sauvegarder.
 
-.. figure:: media-guide/DUA_image_9.jpg
-   :alt: 
-
 Une fois ce document est en état pré-archivé, son contenu et sa catégorie ne seront plus modifiables et la DUA est déclenchée à partir de la dernière date de modification de ce document. 
 
 Quand la DUA est atteinte, les différents utilisateurs associés à cette dernière seront notifiés. 
