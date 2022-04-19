@@ -777,9 +777,6 @@ Modèle d’arborescence de répertoires (dossiers)
 ------------------------------------
 Créer un modèle d’arborescence de répertoires est une fonctionnalité qui a été implémentée dans le but de permettre aux utilisateurs de la plateforme GoFAST de dupliquer un ensemble de dossiers/sous-dossiers pour gagner du temps. Cela est très pratique quand on doit construire dans un Espace, une arborescence type, par exemple un modèle d’arborescence pour des projets. 
 
-.. figure:: media-guide/Template-folders-access.jpg
-   :alt:
-
 .. NOTE:: 
    Les modèles d’arborescences se trouvent dans le répertoire « FOLDERS TEMPLATES », dans la zone de gauche de l’explorateur de fichiers (structure de l'arborescence). La création de nouveaux modèles d’arborescences est réservée aux administrateurs. 
 
