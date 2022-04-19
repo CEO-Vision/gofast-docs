@@ -350,9 +350,6 @@ Un message en vert apparaîtra à droite de l’écran vous confirmant l’abonn
 
 Vous pouvez par la même manœuvre vous désabonner à ce groupe. Ce qui veut dire que vous ne recevrez plus aucune notification en rapport avec ce groupe et son contenu.
 
-.. figure:: media-guide/image125.png
-   :alt: 
-
 Le même message en vert vous confirme votre désabonnement
 
 Voir aussi la rubrique : "Gérer ses abonnements"
