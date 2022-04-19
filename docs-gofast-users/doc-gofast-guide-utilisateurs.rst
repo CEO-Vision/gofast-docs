@@ -930,7 +930,8 @@ Montre l’explorateur de fichiers de GoFAST, avec tous les contenus qui se trou
    Dans l’arborescence, on distingue les espaces avec un underscore devant leur nom « _ » ; s’il n’y a rien, ce sont des dossiers. Dans les 2 cas, vous pouvez voir leurs niveaux inférieurs en cliquant sur le petit « + » devant chacun. Ou les cacher avec le petit « - ».
 
 C’est ici que vous pouvez directement **glisser-déposer des fichiers** qui se trouvent sur votre ordinateur ou les télécharger via le bouton « Nouveau ».
-Pour savoir comment ajouter un document depuis cet onglet « Documents », merci de vous référer à la rubrique : "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX "
+
+Pour savoir comment ajouter un document depuis cet onglet « Documents », merci de vous référer à la rubrique : "Déposer des fichiers sur GoFAST via l’explorateur"
 
 **L’onglet « Calendrier » :**
 
