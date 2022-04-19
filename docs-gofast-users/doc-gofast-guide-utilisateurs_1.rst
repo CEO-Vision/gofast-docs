@@ -378,9 +378,6 @@ Ecrivez votre message et « Envoyez »
 Le destinataire recevra une **notification par mail** avec le lien et votre commentaire. 
 Il pourra clique sur répondre à la notification et c’est l’adresse email de l’expéditeur qui sera alors chargée dans la barre destinataire de messagerie. De même pour vous, lorsque que vous recevrez un nouveau message par mail via la GoFAST.
 
-.. figure:: media-guide/image172.png
-   :alt: 
-
 .. NOTE::
    Pour que les non-utilisateurs de la plateforme puissent récupérer les documents, ces liens redirigent vers un page où ils pourront télécharger les documents dans un délai de 14 jours. 
 
