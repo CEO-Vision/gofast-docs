@@ -583,10 +583,6 @@ A l’inverse des autres Espaces, **l’Espace Public** n’a pas de notion de g
 
 Dédiés aux contenus totalement transversaux et publics à l'Organisation. On peut également y mettre des forums de support et autres bases de connaissances. A noter que les documents de travail restent dans les autres Espaces Collaboratifs, où ils sont créés et gérés, puis seuls les publications PDF créées depuis les documents de travail sont partagés dans les Espaces Publics (question de bonnes pratiques).
 
-.. figure:: media-guide/image033.png
-   :alt: 
-
-
 **Gestion des Espaces Publics :**
 Ces Espaces Publics internes sont gérés par tous les utilisateurs membres de la "Liste Public" (permet de créer des sous-espaces, déposer les documents, etc..). 
 Les autres utilisateurs sont en Lecture Seule.
