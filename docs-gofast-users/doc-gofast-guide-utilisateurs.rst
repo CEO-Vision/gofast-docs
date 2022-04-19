@@ -848,7 +848,7 @@ Vous allez être redirigé vers la page de gestion du formulaire où seront affi
 
 - Dans ses contenus favoris (si on y a ajouté le formulaire au préalable)
 
-.. figure:: media-guide/image073.png
+.. figure:: media-guide/[IMAGE]
    :alt: 
 
 .. NOTE::
