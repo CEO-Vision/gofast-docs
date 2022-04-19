@@ -458,9 +458,6 @@ Suivre grâce à une synthèse d’activité les actions faites sur les document
 Cela permet de réduire considérablement les emails, car plus besoin d’envoyer un email à vos collègues pour les avertir des modifications que vous avez réalisées ou des commentaires faits. Tout le monde reçoit un email listant ces actions, les documents/contenus concernés, classés par Espace Collaboratif et bien entendu, selon ses droits d’accès aux Espaces. 
 Par défaut, GoFAST envoie 2 emails de notification de « Synthèse d’Activité » par jour : un à midi et un à minuit (ce dernier à lire le matin, en arrivant au bureau par exemple). 
 
-.. figure:: media-guide/image200.png
-   :alt: 
-
 Types d’abonnement pour la « Synthèse d’Activité »
 ----------------------------------------------------------------------
 Tous les membres d’un Espace Collaboratif sont par défaut abonnés à l’activité de cet Espace. 
@@ -500,7 +497,7 @@ Chaque utilisateur peut s’abonner ou se désabonner à tout moment des divers 
 
 - La fenêtre des abonnements s’ouvre, avec un tableau de tous les éléments auxquels vous êtes abonné. 
 
-.. figure:: media-guide/image317.png
+.. figure:: media-guide/image200.png
    :alt: 
 
 Dans le tableau des abonnements, vous pouvez modifier la fréquence pour chaque élément ou vous désabonner en cliquant sur l’icône « corbeille » (tout à droite dans le tableau). 
