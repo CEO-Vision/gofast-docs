@@ -794,4 +794,3 @@ Choisissez votre modèle de répertoires, en cochant les dossiers que vous souha
 .. figure:: media-guide/Template-folders-duplicated.jpg
    :alt:
 
-
