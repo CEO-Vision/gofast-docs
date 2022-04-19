@@ -923,9 +923,6 @@ Certains niveaux permettent de restreindre le partage et le téléchargement d�
 Allez au niveau « Importance » dans les métadonnées du document, cliquez sur le champ puis choisissez le niveau d’importance.
 Sortez du champ pour valider (clic ailleurs sur la page).
 
-.. figure:: media-guide/image230.png
-   :alt: 
-
 .. figure:: media-guide/image231.png
    :alt: 
 
