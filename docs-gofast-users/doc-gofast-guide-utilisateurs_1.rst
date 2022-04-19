@@ -1017,9 +1017,6 @@ Sortez du champ pour valider (clic ailleurs sur la page).
 .. figure:: media-guide/image219.png
    :alt: 
 
-.. figure:: media-guide/image220.png
-   :alt: 
-
 
 Historique et versions du Document
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
