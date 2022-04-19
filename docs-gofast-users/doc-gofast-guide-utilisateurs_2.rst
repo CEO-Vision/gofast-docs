@@ -681,9 +681,6 @@ Via un clic-droit sur une sélection de plusieurs fichiers, les actions proposé
 .. figure:: media-guide/FBrowser-14.png
    :alt:
 
-.. figure:: media-guide/FBrowser-15.jpg
-   :align: right
-
 
 Partager par email en masse les documents
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -802,7 +799,5 @@ Choisissez votre modèle de répertoires, en cochant les dossiers que vous souha
 
 .. figure:: media-guide/Template-folders-duplicated.jpg
    :alt:
-
-
 
 
