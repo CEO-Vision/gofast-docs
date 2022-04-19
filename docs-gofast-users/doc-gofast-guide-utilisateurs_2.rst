@@ -322,6 +322,7 @@ Recherche normale ou stricte
 La recherche stricte est une option qui signifie que tous les mots-clés renseignés dans la barre de recherche sont obligatoires et qu’ils doivent être impérativement présents dans les documents listés dans le résultat de recherche. 
 Pour chaque document indexé, ces mots clés se trouvent soit dans son titre, soit dans son contenu, soit dans les commentaires et les métadonnées.
 Pour activer/désactiver cette option, sur la page d’un résultat de recherche, allez dans le bloc des Options de recherche et cliquer sur « l’interrupteur ». Il est en couleur si activé ou grisé si non activé. 
+
 .. figure:: media-guide/Strict-search.jpg
    :alt:
 
@@ -332,7 +333,8 @@ Pour activer/désactiver cette option, sur la page d’un résultat de recherche
 
 Autres options de recherche disponibles
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-* **Conserver les filtres ** (permet de changer les mots-clefs saisis dans sa recherche, sans avoir à remettre ses filtres entre deux recherches) 
+* **Conserver les filtres** (permet de changer les mots-clefs saisis dans sa recherche, sans avoir à remettre ses filtres entre deux recherches)
+
 * **Rechercher uniquement dans le titre** 
 
 * **Rechercher les contenus archivés** (état « pré-archivé ») 
@@ -347,12 +349,15 @@ Filtrer le résultat de recherche
 Dans le cas où les mots-clefs saisis ne permettent pas de retrouver rapidement le document recherché, GoFAST propose de nombreux filtres.
 Pour appliquer des filtres, il faut aller dans le bloc des filtres, à droite du résultat de recherche, puis déplier les types de filtres souhaités (ex. Catégories, Etat, Date de création, Type, etc.).
 La liste des filtres est conditionnée au résultat de recherche, ex : si pour les mots-clefs saisis il n'y a aucun document de type PDF, ce format ne sera pas proposé dans les filtres.
+
 .. NOTE::
+
    La plupart des métadonnées que vous pouvez associer à un document, ou qui sont générées automatiquement (ex. date de création), peuvent être utilisées comme filtre du résultat de recherche. 
 
 **Filtres disponibles :**
 
 Entre parenthèses, le nombre de documents disponibles en ajoutant ce filtre est affiché)
+
 * Date de création, 
 * Date de modification, 
 * Type de document (selon le format de fichier), 
@@ -425,6 +430,7 @@ Accéder à l'explorateur de fichiers GoFAST
 Il existe 4 façons d'accéder à l'explorateur de fichiers GoFAST File Browser :
 
 1. Depuis la barre des accès rapides (menu principal du haut), en allant sur l’icône « Dossier », puis un type d’espace et dans le menu qui s’affiche vous pouvez naviguer dans l’arborescence des Espaces pour aller sur celui que vous souhaitez. Vous serez redirigé vers la page de l’Espace et arriver par défaut sur l’onglet « Document » où il y a l’explorateur de fichiers. 
+
 .. figure:: media-guide/FBrowser-01.png
    :alt:
 
