@@ -375,15 +375,11 @@ Le tableau de bord permet un accès rapide aux éléments les plus sollicités. 
 **Accédez au Tableau de Bord :**
 
 - À partir du menu principal de gauche, cliquer sur « Tableau de Bord ».
-
-.. figure:: media-guide/Dashboard.png
-   :alt: 
-
 - À partir du logo en haut à gauche, à partir du moment où le Tableau de Bord est défini comme page d’accueil par défaut. 
 
 **Le tableau de bord par défaut affiche six blocs :**
 
-.. figure:: media-guide/Dashboard-blocs.jpg
+.. figure:: media-guide/Dashboard.png
    :alt: 
 
 - **Espace personnel et Profil** : accès à votre espace personnel, profil, calendrier et à la gestion de vos abonnements. 
