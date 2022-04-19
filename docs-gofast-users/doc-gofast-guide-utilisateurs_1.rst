@@ -891,9 +891,6 @@ Echéance
 Consiste à appliquer une date d’échéance au document, afin qu’un rappel soit envoyé 24h avant. Il s’agira de retrouver ce document dans la synthèse des échéances envoyées par email, listant tous les contenus dont l’échéance arrive à sa fin. 
 Cela peut servir pour un contrat avec une date limite, un document qui doit être finalisé à une date précise…
 
-.. figure:: media-guide/image228.png
-   :alt: 
-
 Pour ajouter une échéance, cliquez sur « Aucun » face à « Echéance » et choisissez la date. Sortez du champ pour valider (clic ailleurs sur la page). 
 
 .. figure:: media-guide/image229.png
