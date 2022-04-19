@@ -92,11 +92,11 @@ Prérequis à l’utilisation de GoFAST
 
 -  Résolution écran 1366x768 minimum (format 16:9)
 
-- En mobilité : Tablette ou smartphone récent (ios ou android)
+- En mobilité : Tablette ou smartphone récent (iOS ou Android)
 
 Configurations/Installations optionnelles
 ------------------------------------------------------
-Des configurations et/ou installations supplémentaires sont nécessaires pour 
+**Des configurations et/ou installations supplémentaires sont nécessaires pour :**
 
 - Editer en ligne les contenus non-Office (exemple signature de PDF) ou via LibreOffice 
 - Synchronisation hors-ligne
@@ -106,7 +106,7 @@ Dans la plupart des cas, il est nécessaire de contacter votre support informati
 
 
 
-Configurer le Lecteur Réseau
+**Configurer le Lecteur Réseau :**
 
 Faire un clic-droit sur "Ce PC" et choisir "Connecter un lecteur réseau"
 
