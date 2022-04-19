@@ -323,8 +323,8 @@ La recherche stricte est une option qui signifie que tous les mots-clés renseig
 Pour chaque document indexé, ces mots clés se trouvent soit dans son titre, soit dans son contenu, soit dans les commentaires et les métadonnées.
 Pour activer/désactiver cette option, sur la page d’un résultat de recherche, allez dans le bloc des Options de recherche et cliquer sur « l’interrupteur ». Il est en couleur si activé ou grisé si non activé. 
 
-.. figure:: media-guide/Strict-search.jpg
-   :alt:
+.. figure:: media-guide/image038.png
+   :alt: 
 
 .. IMPORTANT:: 
    Si vous utilisez des « Opérateurs booléens », notez que les mots clés précédés par un tiret « - » sont exclus de la recherche.
@@ -371,9 +371,6 @@ Entre parenthèses, le nombre de documents disponibles en ajoutant ce filtre est
 * Importance, 
 * Langue,
 * Echéance.
-
-.. figure:: media-guide/image038.png
-   :alt: 
 
 Il est possible d’effacer les filtres de recherche un à un, en cliquant sur la croix rouge correspondante, dans le bloc à droite du résultat de recherche.
 
@@ -805,14 +802,6 @@ Choisissez votre modèle de répertoires, en cochant les dossiers que vous souha
 
 .. figure:: media-guide/Template-folders-duplicated.jpg
    :alt:
-
-
-
-
-
-
-
-
 
 
 
