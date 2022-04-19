@@ -905,9 +905,6 @@ Le fait d’indiquer **l’auteur** du document permet de savoir qui a créé le
 
 Si le fichier déposé sur GoFAST contient une métadonnée "auteur" (ex: un fichier Word indique dans les informations du document que l'auteur est "Christopher"), ça sera automatiquement récupéré depuis le fichier par GoFAST et affiché sur la page du document. 
 
-.. figure:: media-guide/image233.png
-   :alt: 
-
 Pour modifier ce champ, cliquez dessus et saisissez un nom et/ou prénom, ou tapez les premières lettres du nom et le système vous proposera une liste des auteurs déjà saisis par vous, sélectionnez le nom souhaité. 
 
 Sortez du champ pour valider (clic ailleurs sur la page).
