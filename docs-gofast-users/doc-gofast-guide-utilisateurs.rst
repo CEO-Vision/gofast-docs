@@ -678,10 +678,6 @@ Sélectionnez le modèle que vous voulez utiliser. Le titre et l’extension se 
 
 Après avoir appuyé sur « Enregistrer », vous serez redirigé vers la page de ce nouveau document, avec la prévisualisation et informations associées que vous pouvez compléter/modifier.
 
-
-.. figure:: media-guide/image058.png
-   :alt: 
-   
 .. NOTE::
    Lorsqu’un document est créé depuis un modèle, il prend automatiquement une étiquette « From Template » et un lien vers le modèle d’origine est ajouté. 
 
