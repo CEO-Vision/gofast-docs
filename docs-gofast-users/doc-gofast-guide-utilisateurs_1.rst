@@ -1152,9 +1152,6 @@ Vous pourrez également retrouver votre annotation sous la prévisualisation, co
 **Annotations partagées ou privées**
 Au moment où on fait une annotation, on a le choix entre "privé" ou "partagé". Attention : par défaut, l'annotation est partagée.
 
-.. figure:: media-guide/Annotation1.png
-   :alt: 
-
 .. figure:: media-guide/Annotation2.png
    :alt:
 
