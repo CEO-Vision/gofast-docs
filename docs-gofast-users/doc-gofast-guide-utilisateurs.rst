@@ -350,23 +350,22 @@ Vous pouvez **filtrer** la liste des documents de votre fil d’activité selon 
 .. figure:: media-guide/filtres.png
    :alt: 
 
-Vous pouvez choisir de masquer ou afficher les **« Nouvelles »** qui sont postées à tous les utilisateurs de la plateforme par un utilisateur ayant le Profil Support-Utilisateur ou Super-Administrateur. Si vous avez un de ces profil, vous pouvez partager une information : cliquez sur « Partager une nouvelle » (en haut au centre du fil d’activité) une fenêtre s’ouvre, vous écrivez votre message puis cliquez sur « Envoyer ». Le message est visible sur le fil d’activité. 
+Vous pouvez choisir de masquer ou afficher les **« Nouvelles »** qui sont postées à tous les utilisateurs de la plateforme par un utilisateur ayant le Profil Support-Utilisateur ou Super-Administrateur. 
 
 .. figure:: media-guide/afficher-les-nouvelles.png
    :alt: 
+
+Si vous avez un de ces profil, vous pouvez partager une information : 
+* cliquez sur « Partager une nouvelle » (en haut au centre du fil d’activité) une fenêtre s’ouvre, 
+* écrivez votre message 
+* cliquez sur « Envoyer ». 
+Le message sera visible sur le fil d’activité pour tous les utilisateurs. 
 
 .. figure:: media-guide/image014.png
    :alt: 
 
 .. figure:: media-guide/image015.png
    :alt: 
-
-.. figure:: media-guide/image016.png
-   :alt: 
-
-.. figure:: media-guide/image013.png
-   :alt: 
-
 
 
 Tableau de Bord
