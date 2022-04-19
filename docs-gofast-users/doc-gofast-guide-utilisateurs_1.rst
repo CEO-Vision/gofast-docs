@@ -1202,9 +1202,6 @@ Vous pouvez inverser le processus et désarchiver le document pour le rendre act
 
 Cliquez sur « Unarchive »
 
-.. figure:: media-guide/image182.png
-   :alt: 
-
 Il n’y à présent plus de message dans les métadonnées et l’état est redevenu normal ou comme à l’origine.
 
 .. figure:: media-guide/image183.png
