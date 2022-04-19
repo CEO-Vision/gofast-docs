@@ -531,9 +531,6 @@ Le texte s’affiche au-dessus de la prévisualisation et sous le titre du docum
 
 Vous pouvez à tout moment modifier le résumé, toujours via le menu « Burger » et clic sur « Modifier le Résumé ».
 
-.. figure:: media-guide/image393.png
-   :alt: 
-
 Tous les utilisateurs pouvant modifier le document (contributeur ou administrateurs), pourront également modifier le résumé, contrairement aux commentaires (NB. seul l’auteur d’un commentaire ou un administrateur de l’espace peuvent le modifier). 
 
 Supprimer/Restaurer
