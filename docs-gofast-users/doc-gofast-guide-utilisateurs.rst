@@ -856,9 +856,6 @@ Vous allez être redirigé vers la page de gestion du formulaire où seront affi
    En tant que créateur du formulaire, vous avez la possibilité d'accéder aux onglets "Gérer" et "Résultats". Les administrateurs de l'espace dans lequel est ce formulaire y ont également accès.
 
 
-.. figure:: media-guide/form01.png
-   :alt: 
-
 
 Pour en savoir plus sur l’utilisation des formulaires, merci de vous référer à la rubrique : « Formulaires  »  
 
