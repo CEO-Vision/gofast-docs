@@ -586,7 +586,7 @@ Pour sélectionner un processus et le démarrer depuis la page d’un document :
    :alt:
 - Cliquer sur « Nouveau » et vous aurez la liste des processus disponibles. 
 - Cliquer sur le nom du processus souhaité ou sur l’icône ">"
-.. figure:: media-guide/Ecran-GoFAST_Workflows_choix-processus.png
+.. figure:: media-guide/[IMAGE]
    :alt:
 
 - Vous pouvez sélectionner un modèle (pour avoir le formulaire du processus prérempli) via la liste déroulante disponible au niveau de chaque type de processus. Dans ce cas, sélectionner le modèle souhaité avant de cliquer sur « > ». 
