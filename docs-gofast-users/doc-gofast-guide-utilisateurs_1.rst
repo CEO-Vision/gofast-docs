@@ -1271,9 +1271,6 @@ Actions possibles depuis le panier documentaire
 **Démarrer un processus de tâches depuis le panier (Enterprise only) :**
 Les documents du panier sont proposés lors du démarrage d’un nouveau workflow, via le menu principal. 
 
-.. figure:: media-guide/Ecran-GoFAST_Panier-Documentaire_demarrer-workflow.png	
-   :alt:
-
 Cela permet d’associés au processus tous les documents en une fois, que l’on peut ensuite retirer unitairement dans le formulaire du processus.
 
 .. figure:: media-guide/Ecran-GoFAST_Panier-Documentaire_retirer-du-panier.png	
