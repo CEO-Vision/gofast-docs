@@ -305,9 +305,6 @@ Actions sur un document/contenu (Cf. Menu "Burger")
 
 Ce sont toutes les **actions qu’on peut faire avec /sur ce document** : parcourir, télécharger, éditer en ligne/modifier, nouveau commentaire, envoyer par mail, gérer les traductions, créer une publication, …
 
-.. figure:: media-guide/image136.png
-   :alt: 
-
 Ces actions liées directement au document que vous prévisualisez, peuvent **varier selon le rôle** que vous avez dans le(s) Espace(s) où se trouve le document (administrateur, contributeur, ou en lecture seule), et selon que vous en êtes le créateur ou pas du document.
 
 .. figure:: media-guide/image137.png
