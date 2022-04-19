@@ -658,9 +658,6 @@ Si besoin, vous pouvez transformer la version en cours du document en une versio
 - Cliquez sur « Créer une publication » (ou sur « Publier à nouveau ce document » si une publication existe déjà et que vous souhaitez la mettre à jour).
 - Cocher la case « Définir comme version majeure le document d’origine », 
 
-.. figure:: media-guide/image205.png
-   :alt: 
-
 - Cliquez sur le bouton « Valider » pour sauvegarder. 
 
 .. figure:: media-guide/Versioning-define-majour-version-pub.jpg
