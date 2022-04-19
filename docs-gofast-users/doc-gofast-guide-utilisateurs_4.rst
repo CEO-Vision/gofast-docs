@@ -281,7 +281,7 @@ Zone "Export" permet d’exporter les données au format CSV. Il suffit de chois
 
 
 Favoris, Derniers contenus vus et Flux RSS
-================================
+===================================
 
 Derniers contenus vus
 ------------------------------
@@ -313,7 +313,7 @@ Voir également les rubriques :
 
 
 Flux d’information RSS 
-==================
+-------------------------------
 
 Vous pouvez voir les **news** (récupérées depuis d’autres sites, par exemple l’Intranet ou le site web) via ce logo « Flux » sur la barre des accès rapides (menu en haut de la page).
 
