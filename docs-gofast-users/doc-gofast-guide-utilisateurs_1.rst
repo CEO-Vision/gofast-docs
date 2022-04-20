@@ -451,6 +451,7 @@ Il se peut que le document se téléchargera directement (dépend de la configur
 
 .. NOTE::
     Si vous téléchargez un document et que vous y apportez des modifications, elles ne seront pas synchronisées sur GoFAST. Il faudra alors remettre le document au même emplacement (glisser/coller comme nouvelle version) pour partager cette nouvelle version sur GoFAST. Cela crée un risque, car si un autre collègue a fait des modifications en ligne entre temps, vous allez écraser sa version et ses modifications seront donc perdues (mais récupérable en allant chercher les versions précédentes dans l’onglet « Versions »).
+    
 
 Permalien 
 ~~~~~~~~~
@@ -584,6 +585,7 @@ Vous pouvez à tout moment modifier le résumé, toujours via le menu « Burger 
 
 Tous les utilisateurs pouvant modifier le document (contributeur ou administrateurs), pourront également modifier le résumé, contrairement aux commentaires (NB. seul l’auteur d’un commentaire ou un administrateur de l’espace peuvent le modifier). 
 
+
 Supprimer/Restaurer
 ~~~~~~~~~
 
@@ -648,7 +650,9 @@ Dans la fenêtre de gestion des traductions, allez dans le champ qui correspond 
  - Selon sur la langue cible choisie, la langue du document cible sera pré-renseignée. 
  - Cliquez sur « Choisissez un fichier » et votre explorateur de fichiers local s’ouvre (celui de votre PC). 
  - Allez chercher votre document cible dans votre arborescence et cliquez sur « ouvrir » (ou faites un double-clic sur le document). 
+ 
 [IMAGE]
+
  - Sélectionnez les emplacements souhaités dans l’arborescence documentaire. 
  - Cliquez sur « Enregistrer » pour à la fois charger le nouveau document et sauvegarder votre lien de traduction. 
 
@@ -713,12 +717,13 @@ Si besoin, vous pouvez transformer la version en cours du document en une versio
  - Cliquez sur « Créer une publication » (ou sur « Publier à nouveau ce document » si une publication existe déjà et que vous souhaitez la mettre à jour).
  - Cocher la case « Définir comme version majeure le document d’origine », 
 
-- Cliquez sur le bouton « Valider » pour sauvegarder. 
+Cliquez sur le bouton « Valider » pour sauvegarder. 
 
 .. figure:: media-guide/Versioning-define-majour-version-pub.jpg
    :alt: 
 
 **Importance des versions majeures :**
+
  - Si vous pré-archivez un document (cf. champs « état » d’un document), ses versions mineures seront supprimées et donc, seules les versions majeures (ex. 1.0, 2.0, 3.0…) et la dernière version en cours avant le préarchivage, seront conservées. 
 
 .. figure:: media-guide/image202.png
@@ -738,7 +743,8 @@ Terminer en cliquant sur « Valider ».
 
 Dans les métadonnées, vous verrez le changement du numéro de version (ex. version 1.2 est passée en 2.0). Quand le 1\ :sup:`er` chiffre change, c’est une version majeure, autrement il s’agit d’une version mineure.
 
-Voir aussi "Glisser et déposer une nouvelle version"
+Voir aussi / "Glisser et déposer une nouvelle version"
+
 
 Supprimer les versions mineures 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -770,8 +776,10 @@ Dans le bloc des métadonnées, onglet « versions », vous ne verrez désormais
 .. NOTE::
    Pour une bonne gestion des versions, il est conseillé de régulièrement « transformer en version majeure » la dernière version disponible du document. Ainsi, en cas de suppression des versions mineures, on conserve quelques versions traçant l’historique du document. 
 
+
 Comparer deux versions
 ~~~~~~~~~~~~~~~~~~~~
+
 Pour afficher les écarts entre deux versions d’un même document, vous avez la possibilité de lancer un comparatif : 
  - Depuis la page du document, allez dans le menu « Burger » (les actions contextuelles).
  - Allez dans « Voir plus ».
@@ -864,6 +872,7 @@ Pour en savoir plus sur les profils ayant des permissions avancées, merci de vo
 
 Vous pouvez également consulter la rubrique « Fil d’Activité ».
 
+
 S’abonner 
 ~~~~~~~~~
 
@@ -893,13 +902,16 @@ Pour en savoir plus sur les abonnements à l’activité documentaire, merci de 
 
 Autres actions possibles
 ~~~~~~~~~~~~~~~~~~~~
+
 En plus du menu "Burger" (actions contextuelles), sur la page du document il est possible d’effectuer d’autres actions, dont : 
+
  - Modifier les informations (=métadonnées)
  - Pré-archiver un document (via la modification de la métadonnée "Etat"), voir : Pré-archiver des documents et DUA
  - Modifier les emplacements/visibilité (dans les Espaces Collaboratifs), voir : « Modifier les Emplacements/Visibilité »
  - Mettre à jour le document en chargeant un fichier depuis son PC, voir : « Glisser-déposer un document »
  - Partager des commentaires (onglet "Commentaires"), voir : « Onglet Commentaires » 
  - Assigner des tâches de processus (onglet "Tâches"), voir : « Onglet Tâches »
+
 
 Modifier les Emplacements/Visibilité 
 -------------------------------------------------------------------------------------------------
@@ -911,6 +923,7 @@ Un même et unique fichier peut être classé dans plusieurs emplacements grâce
    :alt: 
 
 L’ajout ou la suppression des emplacements dépend des rôles que vous avez dans les divers Espaces Collaboratifs. Pour plus d’information, merci de vous référer à la rubrique : « Espaces Collaboratifs »
+
 
 Ajouter/Modifier les informations d’un document (métadonnées) 
 -------------------------------------------------------------------------------------------------
