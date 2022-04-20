@@ -1,11 +1,12 @@
 
 Consulter un Document/Contenu et informations associées
-=================================================
+=======================================================
 
 En plus de pouvoir consulter le document ou autre contenu, il y a plusieurs fonctionnalités telles que : actualiser l’aperçu, processus et tâches (workflow), pleine page, actions contextuelles (parcourir, modifier, télécharger…).
 
+
 Accès à un Document/Contenu
------------------------------
+----------------------------
 GoFAST permet d’accéder à un document ou autre contenu par divers moyens. Dès qu’un contenu est mentionné (titre du contenu), il suffit de cliquer dessus pour arriver sur la page de consultation du contenu et des informations associés. 
 
 **Il est possible d’accès à un document/contenu depuis :**
@@ -23,6 +24,7 @@ GoFAST permet d’accéder à un document ou autre contenu par divers moyens. D�
 
 Comprendre la page d’un document/contenu
 ------------------------------------------------------------
+
 Sur la page d’un document/contenu, vous pouvez le consulter et accéder à plusieurs fonctionnalités liées directement au type de contenu et à vos droits sur celui-ci.
 En zone centrale, la prévisualisation de votre document vous permet de vérifier le contenu en un coup d’œil et voir si c’est le bon document.
 Au-dessus de la prévisualisation, il y a le titre du document et le(s) emplacement(s) où se trouve le document dans l’arborescence.
@@ -60,17 +62,17 @@ La prévisualisation d'un fichier serf à consulter le fichier (document, image,
    :header: "Formats", "Commentaires"
    :widths: 10, 40
    
-   "doc,dot,xls,ppt", "transformé en PDF" 
-   "docx,dotx,xlsx,pptx","transformé en PDF"
-   "odt,ott,ods,odp","transformé en PDF"
-   "txt,rtf","transformé en PDF"
-   "eps","transformé en PDF"
-   "msg","transformé text brut puis PDF"
-   "eml","transformé en PDF"
-   "jpg,png,gif","directement affiché par le navigateur"
-   "svg","directement affiché par le navigateur"
-   "mp4","directement lu dans le navigateur (streaming video)"
-   "pdf","directement lu dans le navigateur"
+ - "doc,dot,xls,ppt", "transformé en PDF" 
+ - "docx,dotx,xlsx,pptx","transformé en PDF"
+ - "odt,ott,ods,odp","transformé en PDF"
+ - "txt,rtf","transformé en PDF"
+ - "eps","transformé en PDF"
+ - "msg","transformé text brut puis PDF"
+ - "eml","transformé en PDF"
+ - "jpg,png,gif","directement affiché par le navigateur"
+ - "svg","directement affiché par le navigateur"
+ - "mp4","directement lu dans le navigateur (streaming video)"
+ - "pdf","directement lu dans le navigateur"
 
 
 .. NOTE::
@@ -103,12 +105,12 @@ Les **flèches** vers le haut ou vers le bas permettent d’aller à la page pr�
 .. figure:: media-guide/image380.png
    :alt: 
 
-«**Page**» et les numéros permettent de voir combien de pages comprend le document et vous pouvez changer le numéro pour atteindre la page souhaitée.
+**Page** et les numéros permettent de voir combien de pages comprend le document et vous pouvez changer le numéro pour atteindre la page souhaitée.
 
 .. figure:: media-guide/image381.png
    :alt: 
 
-Le **« -»  et le « + »** permettent de zoomer. Et l’ « \ **Automatic zoom** » vous donne des dimensions prédéfinies.
+Le **« - » et le « + »** permettent de zoomer. Et l’ « \ **Automatic zoom** » vous donne des dimensions prédéfinies.
 
 .. figure:: media-guide/image382.png
    :alt: 
@@ -124,7 +126,7 @@ Un clic-droit sur l’étendard vertical permet plusieurs options, dont celle d�
 .. figure:: media-guide/image387.png
    :alt: 
 
-Vous pourrez alors **consulter la version PDF** du document avec les fonctionnalités PDF associées
+Vous pourrez alors **consulter la version PDF** du document avec les fonctionnalités PDF associées.
 
 Et enfin, la dernière icône avec les 2 flèches vers la droite ouvre d’autres options, dont « **Enable hand tool** », la petite main qui permet notamment de monter/descendre dans un PDF sans utiliser le curseur.
 
@@ -139,6 +141,7 @@ Afficher le contenu en pleine page
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Permet de **masquer** toutes les données autour de la prévisualisation et ne n’avoir plus que la page du document en plein écran.
+
 .. figure:: media-guide/image135.png
    :alt: 
 .. figure:: media-guide/image133.png
@@ -193,6 +196,7 @@ Si vous chargez une nouvelle version, mais que le nom du fichier est différent,
 .. figure:: media-guide/image156.png
    :alt: 
 
+
 Bloc d’informations (onglets : informations, Tâches, Commentaires, Versions, Audit)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -207,6 +211,7 @@ Ces informations sont très utiles lors de la recherche automatique car elles vo
    :alt: 
 
 Liste des métadonnées standards GoFAST : 
+
  - Type de fichier (selon le format, ex : texte, présentation, tableur, image…)
  - Extension de fichier (ex : docx, xlsx, odt, png, mp4…)
  - Taille du fichier 
@@ -317,8 +322,10 @@ Menu des actions contextuelles "Menu Burger"
 Pour en savoir plus sur ces actions, merci de vous référer à la rubrique : « Actions sur un document/contenu »)
 
 
+
 Gestion Collaborative des Documents / Contenus
 ========================================
+
 
 Actions sur un document/contenu (Cf. Menu "Burger")
 -------------------------------------------------------------------------------------------
