@@ -56,7 +56,9 @@ Verrou d’édition
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
 Lorsqu’un document est en cours d’édition par vous ou un autre utilisateur, un verrou est apposé automatiquement. 
-Ce verrou apparaitra en « rouge » et « fermé » sur la page du document et dans l’explorateur de fichiers. Cela signifie que personne d’autre ne peut ouvrir le document pour l’éditer, tant que vous n’avez pas fini. Cela évite donc les erreurs de versions et le temps perdu à consolider plusieurs versions en une seule (ex. si trois personnes éditent chacune de son côté le document sans tenir compte du travail des ses collègues). 
+
+Ce verrou apparaitra en « rouge » et « fermé » sur la page du document et dans l’explorateur de fichiers. Cela signifie que personne d’autre ne peut ouvrir le document pour l’éditer, tant que vous n’avez pas fini. Cela évite donc les erreurs de versions et le temps perdu à consolider plusieurs versions en une seule (ex. si trois personnes éditent chacune de son côté le document sans tenir compte du travail des ses collègues).
+
 A côté du verrou vous verrez la photo de l’utilisateur qui édite le document. En passant la souri dessus, vous verrez le nom de l’utilisateur. En cas de besoin, n’hésitez pas à le contacter via le Tchat ou le citer dans un commentaire sur la page du document (pour citer, commencez par saisir @ puis le prénom ou nom de l’utilisateur. Il sera alors alerté automatiquement dans le Tchat).
 
 .. figure:: media-guide/image162.png
@@ -84,11 +86,13 @@ Vous pouvez voir qui a fait une action sur ce document dans le bloc d’informat
 Vous pouvez également voir les versions précédentes, en allant dans l’onglet « versions ». 
 
    
-Editer/Coéditer un document via la Suite Collaborative OnlyOffice (Enterprise only) .. image:: media-guide/Tag-Enterprise.png
+Editer/Coéditer un document via la Suite Collaborative OnlyOffice (Enterprise only) 
+-------------------------------------------------------------------------------------
+   
+.. image:: media-guide/Tag-Enterprise.png
    :align: right
    :scale: 7%
------------------------------------------------------------------------------------------------------
-   
+
 GoFAST apporte une dimension très innovante et vous permet d’éditer des documents dans un simple navigateur **avec d’autres personnes en simultané**. Vous pouvez ainsi travailler à plusieurs, en même temps, sur un même document pour d’importants gains de temps. 
 
 .. CAUTION::   
