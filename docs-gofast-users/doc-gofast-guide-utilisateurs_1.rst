@@ -1,3 +1,4 @@
+
 Consulter un Document/Contenu et informations associées
 =================================================
 
@@ -18,6 +19,7 @@ GoFAST permet d’accéder à un document ou autre contenu par divers moyens. D�
  - l’explorateur de fichier (double clic à faire) 
  - liste des tâches/processus sur les documents
  - le Tchat (si un lien a été partagé)
+
 
 Comprendre la page d’un document/contenu
 ------------------------------------------------------------
