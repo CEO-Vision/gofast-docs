@@ -1,16 +1,12 @@
-
 Consulter un Document/Contenu et informations associées
-=======================================================
-
+=================================================
 En plus de pouvoir consulter le document ou autre contenu, il y a plusieurs fonctionnalités telles que : actualiser l’aperçu, processus et tâches (workflow), pleine page, actions contextuelles (parcourir, modifier, télécharger…).
 
-
 Accès à un Document/Contenu
-----------------------------
+---------------------------------------------------------------------------------------------------
 GoFAST permet d’accéder à un document ou autre contenu par divers moyens. Dès qu’un contenu est mentionné (titre du contenu), il suffit de cliquer dessus pour arriver sur la page de consultation du contenu et des informations associés. 
-
 **Il est possible d’accès à un document/contenu depuis :**
- - le fil d’activité
+  - le fil d’activité
  - le tableau de bord
  - le résultat d’une recherche 
  - un lien depuis un autre document
@@ -21,10 +17,8 @@ GoFAST permet d’accéder à un document ou autre contenu par divers moyens. D�
  - liste des tâches/processus sur les documents
  - le Tchat (si un lien a été partagé)
 
-
 Comprendre la page d’un document/contenu
 ------------------------------------------------------------
-
 Sur la page d’un document/contenu, vous pouvez le consulter et accéder à plusieurs fonctionnalités liées directement au type de contenu et à vos droits sur celui-ci.
 En zone centrale, la prévisualisation de votre document vous permet de vérifier le contenu en un coup d’œil et voir si c’est le bon document.
 Au-dessus de la prévisualisation, il y a le titre du document et le(s) emplacement(s) où se trouve le document dans l’arborescence.
@@ -62,17 +56,17 @@ La prévisualisation d'un fichier serf à consulter le fichier (document, image,
    :header: "Formats", "Commentaires"
    :widths: 10, 40
    
- - "doc,dot,xls,ppt", "transformé en PDF" 
- - "docx,dotx,xlsx,pptx","transformé en PDF"
- - "odt,ott,ods,odp","transformé en PDF"
- - "txt,rtf","transformé en PDF"
- - "eps","transformé en PDF"
- - "msg","transformé text brut puis PDF"
- - "eml","transformé en PDF"
- - "jpg,png,gif","directement affiché par le navigateur"
- - "svg","directement affiché par le navigateur"
- - "mp4","directement lu dans le navigateur (streaming video)"
- - "pdf","directement lu dans le navigateur"
+   "doc,dot,xls,ppt", "transformé en PDF" 
+   "docx,dotx,xlsx,pptx","transformé en PDF"
+   "odt,ott,ods,odp","transformé en PDF"
+   "txt,rtf","transformé en PDF"
+   "eps","transformé en PDF"
+   "msg","transformé text brut puis PDF"
+   "eml","transformé en PDF"
+   "jpg,png,gif","directement affiché par le navigateur"
+   "svg","directement affiché par le navigateur"
+   "mp4","directement lu dans le navigateur (streaming video)"
+   "pdf","directement lu dans le navigateur"
 
 
 .. NOTE::
@@ -105,12 +99,12 @@ Les **flèches** vers le haut ou vers le bas permettent d’aller à la page pr�
 .. figure:: media-guide/image380.png
    :alt: 
 
-**Page** et les numéros permettent de voir combien de pages comprend le document et vous pouvez changer le numéro pour atteindre la page souhaitée.
+«**Page**» et les numéros permettent de voir combien de pages comprend le document et vous pouvez changer le numéro pour atteindre la page souhaitée.
 
 .. figure:: media-guide/image381.png
    :alt: 
 
-Le **« - » et le « + »** permettent de zoomer. Et l’ « \ **Automatic zoom** » vous donne des dimensions prédéfinies.
+Le **« -»  et le « + »** permettent de zoomer. Et l’ « \ **Automatic zoom** » vous donne des dimensions prédéfinies.
 
 .. figure:: media-guide/image382.png
    :alt: 
@@ -126,7 +120,7 @@ Un clic-droit sur l’étendard vertical permet plusieurs options, dont celle d�
 .. figure:: media-guide/image387.png
    :alt: 
 
-Vous pourrez alors **consulter la version PDF** du document avec les fonctionnalités PDF associées.
+Vous pourrez alors **consulter la version PDF** du document avec les fonctionnalités PDF associées
 
 Et enfin, la dernière icône avec les 2 flèches vers la droite ouvre d’autres options, dont « **Enable hand tool** », la petite main qui permet notamment de monter/descendre dans un PDF sans utiliser le curseur.
 
@@ -136,12 +130,10 @@ Et enfin, la dernière icône avec les 2 flèches vers la droite ouvre d’autre
 .. figure:: media-guide/image384.png
    :alt: 
 
-
 Afficher le contenu en pleine page
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Permet de **masquer** toutes les données autour de la prévisualisation et ne n’avoir plus que la page du document en plein écran.
-
 .. figure:: media-guide/image135.png
    :alt: 
 .. figure:: media-guide/image133.png
@@ -169,11 +161,8 @@ Zone pour glisser-déposer nouvelle version
 
 .. figure:: media-guide/image153.png
    :alt: 
-
 Le fait de **glisser une nouvelle version** de votre document à cet endroit (au-dessus de la prévisualisation) va écraser la précédente version, mais conservera dans tous les cas toutes les anciennes versions (accessible via l’onglet « versions »). 
-
 Le système vous demandera alors si vous voulez qu’elle devienne une version majeure (ex. passer de 1.24 à 2.0). A ce moment-là, vous pouvez également ajouter un commentaire lié à cette nouvelle version majeure. 
-
 Les autres versions faites lors de l’édition et de l’enregistrement via une application de son PC ou la Suite Office Collaborative sont considérées mineures.
 
 Terminez en cliquant sur « Valider »
@@ -185,7 +174,6 @@ Vous pouvez retrouver le numéro et la date, avec le contributeur de cette derni
 
 .. NOTE::
     Vous ne pouvez glisser/coller que des documents de même format, ce qui veut dire que vous ne pouvez pas remplacer une version avec une extension « doc » par une version « docx » et vice-versa.
-    
 Autrement, voici le message d’erreur que vous aurez :
 
 .. figure:: media-guide/image155.png
@@ -196,10 +184,8 @@ Si vous chargez une nouvelle version, mais que le nom du fichier est différent,
 .. figure:: media-guide/image156.png
    :alt: 
 
-
 Bloc d’informations (onglets : informations, Tâches, Commentaires, Versions, Audit)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
 Sur la page d’un document/contenu, vous avez un bloc de métadonnées et autres éléments associé au document (à droite de votre prévisualisation). Ce bloc est constitué de différents onglets :
 
 **Informations**
@@ -211,7 +197,6 @@ Ces informations sont très utiles lors de la recherche automatique car elles vo
    :alt: 
 
 Liste des métadonnées standards GoFAST : 
-
  - Type de fichier (selon le format, ex : texte, présentation, tableur, image…)
  - Extension de fichier (ex : docx, xlsx, odt, png, mp4…)
  - Taille du fichier 
@@ -256,7 +241,6 @@ Pour en savoir plus sur l’utilisation des commentaires, merci de bien vouloir 
 
 **Versions**
 GoFAST permet de sauvegarder chaque nouvelle version d’un document après édition, avec un numéro de version, l’horodatage et l’identité de l’utilisateur contributeur. 
-
 Pour plus d’information sur la gestion des versions, merci de vous référer aux rubriques : 
  - Gestionnaire de versions de document
  - Charger nouvelle version
@@ -266,29 +250,20 @@ Pour plus d’information sur la gestion des versions, merci de vous référer a
 
 **Audit**
 GoFAST offre de très nombreuses pistes d’audit sur les actions réalisées sur les documents pour des questions de sécurité et de contrôle des données. 
-
 L’audit n’est accessible que pas les utilisateurs ayant le profil "support-utilisateurs", sur la page d’un document (dernier onglet du bloc d’information), ou depuis la page Audit accessible via le menu principal de gauche. 
-
 Pour en savoir plus, merci de vous référer à la rubrique : « Profil Support-Utilisateurs ». 
-
 
 Accès direct à l’édition collaborative 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 A dessus de la prévisualisation du document, vous trouverez l’icône « crayon » qui permet d’ouvrir un fichier office directement dans la Suite Collaborative OnlyOffice, sans passer par le menu « Burger » (menu des actions contextuelles). 
-
 Pour en savoir plus sur l’édition d’un document, merci de vous référer à la rubrique : « éditer/coéditer un document »
-
 
 Comprendre le verrou d’édition
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 GoFAST dispose d’un système automatique de verrouillage d’un document lorsqu’il est en cours d’édition. Ce verrou est aussi relâché automatiquement dès lors que l’utilisateur a fermé l’application utilisée pour l’édition. 
-
 Le verrou est rouge fermé, si le document est édité par un utilisateur via une application de son PC (ne permet pas la coédition en simultanée). 
-
 Le verrou est rouge ouvert, si le document est édité par un ou plusieurs utilisateur(s) via la Suite Office Collaborative de GoFAST OnlyOffice (cela permet alors la coédition en simultanée et vous pouvez rejoindre cette coédition dans OnlyOffice).
-
 Pour en savoir plus sur l’édition d’un document, merci de vous référer à la rubrique : « éditer/coéditer un document »
-
 
 Menu des actions contextuelles "Menu Burger"
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -322,10 +297,8 @@ Menu des actions contextuelles "Menu Burger"
 Pour en savoir plus sur ces actions, merci de vous référer à la rubrique : « Actions sur un document/contenu »)
 
 
-
 Gestion Collaborative des Documents / Contenus
 ========================================
-
 
 Actions sur un document/contenu (Cf. Menu "Burger")
 -------------------------------------------------------------------------------------------
@@ -339,15 +312,12 @@ Ces actions liées directement au document que vous prévisualisez, peuvent **va
 
 Pour voir la liste des actions possibles depuis ce menu, merci de vous référer à la rubrique : « Menu des actions contextuelles Menu Burger ». Pour savoir comment effectuer les diverses actions possibles sur un document, merci de poursuivre dans cette rubrique. 
 
-
 Ouvrir l’emplacement du document 
-
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Lorsque vous prévisualisez un document, vous pouvez voir le(s) emplacements de ce dernier dans l’arborescence, avec les niveaux supérieurs de dossiers et espaces.
-
 Vous pouvez aller dans l’explorateur de fichiers à partir : 
- - Des actions contextuelles (Menu « Burger »), en cliquant sur « Ouvrir l’emplacement du document ».
- - En un clic sur les emplacements listés dans le bloc d’informations (Champ « Emplacements /Visibilité »).
+* des actions contextuelles (Menu « Burger »), en cliquant sur « Ouvrir l’emplacement du document ».
+* En un clic sur les emplacements listés dans le bloc d’informations (Champ « Emplacements /Visibilité »).
 
 .. figure:: media-guide/image195.png
    :alt: 
@@ -362,42 +332,32 @@ De là, vous pouvez naviguer dans l’arborescence, chercher d’autres document
 
 Co-éditer avec OnlyOffice 
 ~~~~~~~~~~~~~~~~~~~~~~
-
 GoFAST apporte une dimension très innovante et vous permet d’éditer des documents Office dans un simple navigateur **avec d’autres personnes en simultané**. 
 Vous pouvez ainsi travailler à plusieurs, en même temps, sur un même document.
-
 Pour savoir comment coéditer un document, merci de vous référer à la rubrique : « Coéditer un document ». 
 
 
 Editer depuis PC 
 ~~~~~~~~~~~~~~~~~~~~~~
-
 Cette fonction permet **d’ouvrir un fichier pour édition/modification** via une application instalée sur son PC, sans avoir à le télécharger au préalable. 
-
 Pour savoir comment coéditer un document, merci de vous référer à la rubrique : « Editer un document ». 
-
 
 Nouveau Commentaire
 ~~~~~~~~~~~~~~~~~~~
 Le bouton « Nouveau commentaire » permet d’ajouter un commentaire sur le document où on se trouve. Ce commentaire sera visible dans l’onglet « Commentaires » du bloc de droite et partagé avec tous les utilisateurs qui ont accès à ce document. Cela évite l’envoi d’un grand nombre d’emails et évité par la même d’envoyer des pièces-jointes d’emails. 
-
 Pour savoir comment les commentaires d’un document, merci de vous référer à la rubrique : « XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX ». 
-
 
 Partager/ Modifier les emplacements
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Ce bouton permet d’ouvrir la fenêtre de gestion des emplacements du document. Il s’agit d’un partage sans doublon, dans divers Espaces Collaboratifs (ou dossiers) pour pouvoir aisément collaborer avec diverses équipes et autres directions. 
-
 Pour savoir comment ajouter/enlever des emplacements à un document, merci de vous référer à la rubrique : « XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX ». 
 
 Partager le document par mail
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Via les actions contextuelles (menu « Burger ») vous pouvez **envoyer un lien sécurisé par email** d’accès (pour les utilisateurs) ou de téléchargement du document (pour les non-utilisateurs), directement depuis GoFAST. 
-
 Il est possible de saisir comme destinataires : un utilisateur, une liste d'utilisateur, les membres d'un Espace Collaboratif ou bien une adresse email externe. 
 Le lien vers le document est également automatiquement attaché à votre message.
-
 Ce lien est contextuel : les utilisateurs ayant accès au document pourront consulter sa page avec tous les détails, alors que les non-utilisateurs auront un lien de téléchargement valable 14 jours avec accusé de téléchargement, l’audit de l’IP et horodatage.
 
 .. NOTE:: 
@@ -407,9 +367,7 @@ Ce lien est contextuel : les utilisateurs ayant accès au document pourront cons
    :alt: 
 
 Choisissez les destinataires en écrivant les 3 premières lettres de leur nom/prénom (le système vous proposera des utilisateurs) ; leur nom et photo se retrouveront dans la barre des destinataires. 
-
 Vous pourrez annuler des destinataires en cliquant sur la petite croix à côté de leur profil.
-
 Le sujet est automatiquement généré, mais vous pouvez le modifier.
 
 Ecrivez votre message et « Envoyez »
@@ -418,7 +376,6 @@ Ecrivez votre message et « Envoyez »
    :alt: 
 
 Le destinataire recevra une **notification par mail** avec le lien et votre commentaire. 
-
 Il pourra clique sur répondre à la notification et c’est l’adresse email de l’expéditeur qui sera alors chargée dans la barre destinataire de messagerie. De même pour vous, lorsque que vous recevrez un nouveau message par mail via la GoFAST.
 
 .. NOTE::
@@ -451,13 +408,11 @@ Il se peut que le document se téléchargera directement (dépend de la configur
 
 .. NOTE::
     Si vous téléchargez un document et que vous y apportez des modifications, elles ne seront pas synchronisées sur GoFAST. Il faudra alors remettre le document au même emplacement (glisser/coller comme nouvelle version) pour partager cette nouvelle version sur GoFAST. Cela crée un risque, car si un autre collègue a fait des modifications en ligne entre temps, vous allez écraser sa version et ses modifications seront donc perdues (mais récupérable en allant chercher les versions précédentes dans l’onglet « Versions »).
-    
 
 Permalien 
 ~~~~~~~~~
 
 Le permalien d’un document correspond au **lien « URL » qui ramène sur la page du document**. 
-
 Vous pouvez copier et coller où vous voulez pour renvoyer à ce document en un clic, par exemple dans le Tchat (messagerie instantanée), un email (ainsi ne plus envoyer de pièces-jointes) ou dans un commentaire sur un autre document, etc.
 
 Via le menu des actions contextuelles (menu « Burger »), cliquez une fois sur « Permalien », vous verrez un message en bleu signalant que le lien bien été copié dans le presse-papier de votre PC. Puis, collez-le où vous voulez (clic droit de votre souri, puis coller).
@@ -479,15 +434,11 @@ Voici ce que ça donne lorsque vous le coller :
 Il suffira de cliquer dessus pour être renvoyé sur la page du document (si vous n’êtes pas membre d’au moins un des Espaces où se trouve ce document, vous n’y aurez pas accès). Cela offre une grande sécurité, car il y a moins de risques d’erreurs, comme on a souvent l’occasion de voir quand on partage des pièces-jointes par email).
 Il est possible de récupérer un permalien partout où un document est cité : clic droit sur le nom du document et « copier l’adresse du lien » (hors sur l’explorateur om le clic droit permet d’ouvrir le menu « burger » où vous pouvez cliquer sur « Permalien »). 
 
-
 Créer depuis modèle 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Tous les documents identifiés comme modèle, disposent d’un bouton « Créer depuis modèle » via le menu « Burger » (menu des actions contextuelles). 
-
 Si vous cliquer sur « Créer depuis modèle », vous serez redirigé vers la page de création d’un document, onglet « Depuis modèle ». 
-
 Pour savoir comment créer un nouveau document depuis ce formulaire, merci de vous référer à la rubrique : « Créer un nouveau Document ». 
-
 
 Créer une publication
 ~~~~~~~~~~~~~~~~~~~
@@ -507,9 +458,7 @@ Objectif d’une publication : partager auprès d’un public élargi (ex. DG, P
     Vous pouvez donc avoir un grand nombre de versions d’un document de travail au sein d'un service, pour seulement 1 ou 2 versions de la Publication.
 
 La création d’une Publication consiste donc à générer un nouveau document (souvent au format PDF) à partir de la dernière version du document de travail existant (souvent un fichier bureautique/Office). 
-
 Passer par le menu « Burger » (menu des actions contextuelles) disponible sur la page du document (ou via un clic-droit dans l’explorateur de fichiers), puis cliquez sur « Créer Publication ».
-
 .. figure:: media-guide/image174.png
    :alt: 
 
@@ -561,7 +510,6 @@ Changez le titre dans le champ et cliquez sur l’icône de validation (ou juste
 .. figure:: media-guide/image140.png
    :alt: 
 
-
 Ajouter/Modifier le Résumé
 ~~~~~~~~~~~~~~~~~~~~~~
 
@@ -585,10 +533,8 @@ Vous pouvez à tout moment modifier le résumé, toujours via le menu « Burger 
 
 Tous les utilisateurs pouvant modifier le document (contributeur ou administrateurs), pourront également modifier le résumé, contrairement aux commentaires (NB. seul l’auteur d’un commentaire ou un administrateur de l’espace peuvent le modifier). 
 
-
 Supprimer/Restaurer
 ~~~~~~~~~
-
 Sur GoFAST, la suppression d’un document reste rare car il n’y a plus de doublons et donc, la suppression est souvent utilisée à la suite d’une erreur (ex. on a créer un doublon par mégarde). Dans le cas où vous avez fait une erreur d’emplacement à la création/dépôt d’un document, il est préférable de modifier le ou les emplacement(s), plutôt que de supprimer. 
 
 **Supprimer un document revient à :** 
@@ -601,7 +547,6 @@ Sur GoFAST, la suppression d’un document reste rare car il n’y a plus de dou
    :alt: 
 
 **Restaurer un document supprimé : **
-
 A la suppression d’un document, celui-ci n’est pas supprimé définitivement et il sera possible de le restaurer dans un délai de 90 jours. 
 Seul le créateur du document ou les administrateurs de l’espace où se trouvait le document pourront le restaurer en cas d’erreur. 
 Dans le cas où on se rend sur la page d’un document supprimé, à la place de la prévisualisation on verra un message indiquant cette suppression, avec comme seule action possible « Restaurer le document » (via le menu « Burger »). 
@@ -633,7 +578,6 @@ Sur la page d’un document, via le menu « Burger » (les actions contextuelles
    La même action est possible via un clic droit sur un document depuis l’explorateur de fichiers. 
 
 **Lier plusieurs documents existants sur la plateforme, comme étant des traductions :**
-
 Dans la fenêtre de gestion des traductions, allez dans le champ qui correspond à la langue du document cible. Les langues sont indiquées par un drapeau. 
  - Il faut saisir au moins les 3 premières lettres du titre du document cible (ici le document en anglais).
  - Une liste affichera des suggestions basées sur le titre (il faut commencer par le début du titre du document cible pur avoir des suggestions pertinentes ou copier-coller le titre dans le champ). 
@@ -650,9 +594,7 @@ Dans la fenêtre de gestion des traductions, allez dans le champ qui correspond 
  - Selon sur la langue cible choisie, la langue du document cible sera pré-renseignée. 
  - Cliquez sur « Choisissez un fichier » et votre explorateur de fichiers local s’ouvre (celui de votre PC). 
  - Allez chercher votre document cible dans votre arborescence et cliquez sur « ouvrir » (ou faites un double-clic sur le document). 
- 
 [IMAGE]
-
  - Sélectionnez les emplacements souhaités dans l’arborescence documentaire. 
  - Cliquez sur « Enregistrer » pour à la fois charger le nouveau document et sauvegarder votre lien de traduction. 
 
@@ -689,7 +631,7 @@ OU
    Une fois votre fichier déposé, une fenêtre s’ouvre pour pouvoir laisser un commentaire lié à votre nouvelle version. Vous pouvez également cocher la case « Version majeure » (conseillé dans le cas où vous considérez que les modifications faites sont importantes).
 
 La version du document sur GoFAST sera écrasée par celle que vous venez de charger : 
-- Dans le cas où vous avez laissé un commentaire, celui-ci sera consultable via l’onglet « Commentaires » du bloc d’infestations. 
+ - Dans le cas où vous avez laissé un commentaire, celui-ci sera consultable via l’onglet « Commentaires » du bloc d’infestations. 
 Si vous avez coché « Version majeure », le numéro de version passera en version majeure (ex. depuis 1.4, vous passerez en 2.0). 
 
 .. figure:: media-guide/image151.png
@@ -697,7 +639,6 @@ Si vous avez coché « Version majeure », le numéro de version passera en vers
 
 .. figure:: media-guide/image152.png
    :alt: 
-
 
 Définir comme version majeure
 ~~~~~~~~~~~~~~~~~~~~
@@ -717,14 +658,13 @@ Si besoin, vous pouvez transformer la version en cours du document en une versio
  - Cliquez sur « Créer une publication » (ou sur « Publier à nouveau ce document » si une publication existe déjà et que vous souhaitez la mettre à jour).
  - Cocher la case « Définir comme version majeure le document d’origine », 
 
-Cliquez sur le bouton « Valider » pour sauvegarder. 
+ - Cliquez sur le bouton « Valider » pour sauvegarder. 
 
 .. figure:: media-guide/Versioning-define-majour-version-pub.jpg
    :alt: 
 
 **Importance des versions majeures :**
-
- - Si vous pré-archivez un document (cf. champs « état » d’un document), ses versions mineures seront supprimées et donc, seules les versions majeures (ex. 1.0, 2.0, 3.0…) et la dernière version en cours avant le préarchivage, seront conservées. 
+ -  Si vous pré-archivez un document (cf. champs « état » d’un document), ses versions mineures seront supprimées et donc, seules les versions majeures (ex. 1.0, 2.0, 3.0…) et la dernière version en cours avant le préarchivage, seront conservées. 
 
 .. figure:: media-guide/image202.png
    :alt: 
@@ -743,14 +683,11 @@ Terminer en cliquant sur « Valider ».
 
 Dans les métadonnées, vous verrez le changement du numéro de version (ex. version 1.2 est passée en 2.0). Quand le 1\ :sup:`er` chiffre change, c’est une version majeure, autrement il s’agit d’une version mineure.
 
-Voir aussi / "Glisser et déposer une nouvelle version"
-
+Voir aussi "Glisser et déposer une nouvelle version"
 
 Supprimer les versions mineures 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
 Le principal objectif de la suppression des versions mineures est de libérer de l’espace de stockage sur la plateforme. Dans le cas où un document a énormément de versions mineures, cela permet aussi de réduire la liste dans l’onglet « Versions ». 
-
 **Avant de supprimer les versions mineures, il est conseillé de vérifier si le document comporte des versions majeures :**
  - Si c’est le cas, les versions majeures seront conservées et vous pourrez les télécharger en cas de besoins. 
  - Si le document ne comporte aucune version majeure en dehors de la toute première (1.0), seule cette première version et la dernière version en cours seront conservées. 
@@ -776,10 +713,8 @@ Dans le bloc des métadonnées, onglet « versions », vous ne verrez désormais
 .. NOTE::
    Pour une bonne gestion des versions, il est conseillé de régulièrement « transformer en version majeure » la dernière version disponible du document. Ainsi, en cas de suppression des versions mineures, on conserve quelques versions traçant l’historique du document. 
 
-
 Comparer deux versions
 ~~~~~~~~~~~~~~~~~~~~
-
 Pour afficher les écarts entre deux versions d’un même document, vous avez la possibilité de lancer un comparatif : 
  - Depuis la page du document, allez dans le menu « Burger » (les actions contextuelles).
  - Allez dans « Voir plus ».
@@ -829,12 +764,10 @@ Un message en haut à droite de l’écran vous confirmera la bonne suppression 
 
 Ajouter au panier documentaire
 ~~~~~~~~~~~~~~~~~~~~
-
 **Objectif du panier documentaire :** 
 Rassemble plusieurs documents, pouvant se trouver dans des dossiers divers de l’arborescence, pour pouvoir effectuer des actions sur l’ensemble de ces documents. 
-
 **Pour ajouter des documents dans son panier :**
-- Sur la page d’un document, via le menu « Burger » (menu des actions contextuelles), allez dans « Voir plus » et cliquez sur « Ajouter au panier ».
+ - Sur la page d’un document, via le menu « Burger » (menu des actions contextuelles), allez dans « Voir plus » et cliquez sur « Ajouter au panier ».
    
 .. figure:: media-guide/ Ecran-GoFAST_Panier-Documentaire_ajout-au-panier-sur-page-document.png
    :alt:
@@ -842,14 +775,14 @@ Rassemble plusieurs documents, pouvant se trouver dans des dossiers divers de l�
  - Partout où vous voyez le menu « Burger » d’un document, vous pouvez réaliser la même action.
  - Depuis l’explorateur de fichiers, faites un clic-droit sur un document pour ouvrir le même menu « Burger ».
  - Pour ajouter plusieurs documents au panier, allez dans l’explorateur de fichier, cochez un ensemble de documents, puis cliquez sur l’icône « panier » dans la barre des actions de l’explorateur de fichiers.   
- - Depuis l’explorateur de fichiers "GoFAST File Browser" en sélectionnant les documents souhaités et en cliquant sur l’icône "panier"
+    - Depuis l’explorateur de fichiers "GoFAST File Browser" en sélectionnant les documents souhaités et en cliquant sur l’icône "panier"
    
 .. figure:: media-guide/Ecran-GoFAST_Panier-Documentaire_ajout-au-panier-dans-gofast-file-browser.png	
    :alt:
    
 **Il est possible de retirer les documents de son panier documentaire :**
- - Unitairement, en cliquant sur l’icône à droite du document dans le panier.
- - Tous les documents en une fois, en cliquant sur "retirer tous les documents" en bas de la fenêtre du panier. 
+    - Unitairement, en cliquant sur l’icône à droite du document dans le panier.
+    - Tous les documents en une fois, en cliquant sur "retirer tous les documents" en bas de la fenêtre du panier. 
 
 .. figure:: media-guide/Ecran-GoFAST_Panier-Documentaire_retirer-du-panier.png	
    :alt:
@@ -858,26 +791,19 @@ Pour en savoir plus sur les actions possibles depuis un panier documentaire, mer
 
 Epingler un contenu 
 ~~~~~~~~~~~~~~~~
-
 **Objectif de « épingler un contenu » :** afficher tout en haut du fil d’activité, un document spécifique. Ainsi peu importe l’activité sur la plateforme, tous les utilisateurs ayant accès à ce document, le verront épinglé en haut du fil. 
-
 Seul le « Profil de Support-Utilisateurs » ou « Super-Administrateur » permet d’épingler un document sur le fil d’activité. 
-
 **Pour épingler un document/contenu en haut du fil d’activité :**
  - Sur la page d’un document, via le menu « Burger » (menu des actions contextuelles), allez dans « Voir plus » et cliquez sur « Epingler ».
  - Partout où vous voyez le menu « Burger » d’un document, vous pouvez réaliser la même action.
  - Depuis l’explorateur de fichiers, faites un clic-droit sur un document pour ouvrir le même menu « Burger ».
 
 Pour en savoir plus sur les profils ayant des permissions avancées, merci de vous référer aux rubriques : « Profil Support-Utilisateur » et « Profil Super-Administrateur ». 
-
-Vous pouvez également consulter la rubrique « Fil d’Activité ».
-
+Vous pouvez également consulter la rubrique « Fil d’Activité » ; 
 
 S’abonner 
 ~~~~~~~~~
-
 **Objectif de s’abonner :** permet de gérer la fréquence des notifications liées à l’activité d’un document spécifique. Ainsi, vous pouvez par exemple avoir un rapport d’activité sur tous les contenus des espaces où vous êtres membres 2 fois par jour, mais être notifié immédiatement dès lors que ce document spécifique est modifié ou commenté. 
-
 **Pour s’aboner à un contenu/document :**
  - Sur la page d’un document, via le menu « Burger » (menu des actions contextuelles), allez dans « Voir plus » et cliquez sur « Epingler ».
  - Partout où vous voyez le menu « Burger » d’un document, vous pouvez réaliser la même action.
@@ -902,16 +828,13 @@ Pour en savoir plus sur les abonnements à l’activité documentaire, merci de 
 
 Autres actions possibles
 ~~~~~~~~~~~~~~~~~~~~
-
 En plus du menu "Burger" (actions contextuelles), sur la page du document il est possible d’effectuer d’autres actions, dont : 
-
- - Modifier les informations (=métadonnées)
+ - Modifier les informations (=métadonnées), voir : XXXXXXXXXXXXXXXX
  - Pré-archiver un document (via la modification de la métadonnée "Etat"), voir : Pré-archiver des documents et DUA
  - Modifier les emplacements/visibilité (dans les Espaces Collaboratifs), voir : « Modifier les Emplacements/Visibilité »
  - Mettre à jour le document en chargeant un fichier depuis son PC, voir : « Glisser-déposer un document »
  - Partager des commentaires (onglet "Commentaires"), voir : « Onglet Commentaires » 
  - Assigner des tâches de processus (onglet "Tâches"), voir : « Onglet Tâches »
-
 
 Modifier les Emplacements/Visibilité 
 -------------------------------------------------------------------------------------------------
@@ -924,17 +847,12 @@ Un même et unique fichier peut être classé dans plusieurs emplacements grâce
 
 L’ajout ou la suppression des emplacements dépend des rôles que vous avez dans les divers Espaces Collaboratifs. Pour plus d’information, merci de vous référer à la rubrique : « Espaces Collaboratifs »
 
-
 Ajouter/Modifier les informations d’un document (métadonnées) 
 -------------------------------------------------------------------------------------------------
-
 Pour modifier les informations liées à un document, il faut se rendre sur la page du document ou passer par l’explorateur de fichiers, puis bouton gérer un fois que l’on sélectionnés les documents que l’ont souhaite qualifier. 
-
 Sur la page du document dans le champ « Emplacements/Visibilité » cliquez sur le bouton « Modifier », une fenêtre s’ouvre et affiche l’arborescence où vous pouvez partager le document. Vous pouvez alors cocher ou décocher les emplacements, puis cliquez sur le bouton « Enregistrer ». 
-
 Le document est partagé dans les emplacements choisis, sans aucun doublon.
 Vous pouvez consulter toute la liste des utilisateurs ayant accès au document via l’icône juste à droite de « Emplacements/Visibilité » (icône représentant un ensemble d’utilisateurs). 
-
 
 Catégories et Etats
 ~~~~~~~~~~~~~~~
@@ -957,8 +875,6 @@ Sortez du champ pour valider (clic ailleurs sur la page).
    
 .. figure:: media-guide/image402.png
    :alt: 
-
-
 Donner une note 
 ~~~~~~~~~~~~~~~
 Vous pouvez partage rune appréciation sur le document en cliquant sur les points (1 à 5). Vous ne pouvez noter le document qu’une seule fois, mais vous pouvez modifier votre note à tout moment en recliquant dessus. 
@@ -967,13 +883,8 @@ Vous pouvez partage rune appréciation sur le document en cliquant sur les point
 Référence documentaire 
 ~~~~~~~~~~~~~~~~~~~~~
 Il s’agit d’un champ libre, qui permet de renseigner un code ou un numéro désigné comme étant la référence du document. 
-
 Sortez du champ pour valider (clic ailleurs sur la page).
-
-Il est envisageable de mettre un système automatique basé sur un modèle de nommage, mais cela implique un accompagnement pour la mise en place. 
-
-N’hésitez pas à poser vos questions sur les forums de la communauté d’utilisateurs. 
-
+Il est envisageable de mettre un système automatique basé sur un modèle de nommage, mais cela implique un accompagnement pour la mise en place. N’hésitez pas à poser vos questions sur les forums de la communauté d’utilisateurs. 
 
 Echéance
 ~~~~~~~~
@@ -986,10 +897,10 @@ Pour ajouter une échéance, cliquez sur « Aucun » face à « Echéance » et 
    :alt: 
 
 
+
 Auteur 
 ~~~~~~
 L’auteur d’un document (champs libre) est une notion différente du créateur de document (métadonnée automatique et non modifiable à la main). Il peut donc y avoir deux personnes différentes entre ces deux champs.
-
 Le fait d’indiquer **l’auteur** du document permet de savoir qui a créé le fichier initial (ex. si créé sur un PC avant le dépôt sur GoFAST). Cela permet par exemple, de savoir à qui s’adresser en cas de questions, mais surtout de l’utiliser comme filtre lors de la recherche. 
 
 Si le fichier déposé sur GoFAST contient une métadonnée "auteur" (ex: un fichier Word indique dans les informations du document que l'auteur est "Christopher"), ça sera automatiquement récupéré depuis le fichier par GoFAST et affiché sur la page du document. 
@@ -1004,11 +915,10 @@ Sortez du champ pour valider (clic ailleurs sur la page).
 
 Importance 
 ~~~~~~~~~~~~~~~
-Vous pouvez signaler l’importance d’un document dans les métadonnées et son niveau : critique, haute, normale, basse et autres niveaux de confidentialités.
-
+Vous pouvez signaler l’importance d’un document dans les métadonnées et son niveau : critique, haute, normale, basse et autres niveaux de confidentialités. 
 Certains niveaux permettent de restreindre le partage et le téléchargement d’un document afin de garantir un niveau de sécurité de la donnée plus élevée.
- - Niveau « Donnée confidentielle », le document associé à ce type d’importance ne peut pas être ni téléchargé ni partagé. 
- - Niveau « Diffusion Interne » le document ne peut pas être partagé ou téléchargé dans un Espace Extranet.
+      - Niveau « Donnée confidentielle », le document associé à ce type d’importance ne peut pas être ni téléchargé ni partagé. 
+      - Niveau « Diffusion Interne » le document ne peut pas être partagé ou téléchargé dans un Espace Extranet.
 
 Allez au niveau « Importance » dans les métadonnées du document, cliquez sur le champ puis choisissez le niveau d’importance.
 Sortez du champ pour valider (clic ailleurs sur la page).
@@ -1025,18 +935,19 @@ Etiquettes (mots-clefs)
 Les "Etiquettes" sont des mots-clés que les utilisateurs peuvent à tout moment ajouter aux documents. 
 
 **Ces étiquettes sont utiles dans les cas suivants :**
- - Informer les autres utilisateurs qui consultent le document sur la thématique ou une spécificité liée au document,
- - Retrouver plus facilement certains contenus car les étiquettes sont indexées par le moteur de recherche et donnent un poids supplémentaire qui remonte ces contenus dans le résultat,
- - Pouvoir filtrer un résultat de recherche par "étiquette" (ex : on recherche "documentation" et on filtre avec l'étiquette "GoFAST"),
- - Pouvoir s'abonner à ces étiquettes pour être notifié de l'activité des documents ayant cette étiquette (chaque abonnement à une "étiquette" peut être paramétré par l'utilisateur pour sa fréquence).
- - Pouvoir retrouver des fichiers qui sont dans des formats autres que texte (ex : les images, les vidéo, PDF images, etc.)
+
+* Informer les autres utilisateurs qui consultent le document sur la thématique ou une spécificité liée au document,
+* Retrouver plus facilement certains contenus car les étiquettes sont indexées par le moteur de recherche et donnent un poids supplémentaire qui remonte ces contenus dans le résultat,
+* Pouvoir filtrer un résultat de recherche par "étiquette" (ex : on recherche "documentation" et on filtre avec l'étiquette "GoFAST"),
+* Pouvoir s'abonner à ces étiquettes pour être notifié de l'activité des documents ayant cette étiquette (chaque abonnement à une "étiquette" peut être paramétré par l'utilisateur pour sa fréquence).
+* Pouvoir retrouver des fichiers qui sont dans des formats autres que texte (ex : les images, les vidéo, PDF images, etc.)
 
 **Pour ajouter ou enlever une "étiquette" :**
 
- - Allez au niveau de "Etiquettes" et cliquez dans la zone grise (non sur une étiquette déjà mise, mais à côté),
- - Pour ajouter une étiquette, il faut commencer à taper le mot souhaité et des suggestions vous seront proposées. Cliquez sur une des suggestions. Si aucune suggestion ne vous convient, saisissez le mot ou les mots souhaité(s). 
- - Sortez du champ pour valider (clic ailleurs sur la page).
- - Pour enlever une étiquette existante, il suffit de re-rentrer dans le champ et cliquer sur la petite croix au niveau de l'étiquette.
+* Allez au niveau de "Etiquettes" et cliquez dans la zone grise (non sur une étiquette déjà mise, mais à côté),
+* Pour ajouter une étiquette, il faut commencer à taper le mot souhaité et des suggestions vous seront proposées. Cliquez sur une des suggestions. Si aucune suggestion ne vous convient, saisissez le mot ou les mots souhaité(s). 
+* Sortez du champ pour valider (clic ailleurs sur la page).
+* Pour enlever une étiquette existante, il suffit de re-rentrer dans le champ et cliquer sur la petite croix au niveau de l'étiquette.
 
 .. figure:: media-guide/image221.png
    :alt: 
@@ -1075,12 +986,11 @@ Si des documents ont **un lien vers/depuis**, il est possible de passer de l’u
 C’est un peu une autre manière de voir les hyperliens dans un document. Ici vous n’êtes pas obligés d’ouvrir le document où il y a les hyperliens, vous pouvez directement cliquer sur le document lié dans les métadonnées.
 
 **Liens vers / Liens depuis**
-Un « lien vers » signifie : un lien ajouté depuis le document où on se trouve vers d’autres contenus. * Un « lien en provenance » signifie : un lien ajouté depuis d’autres contenus vers le document où on se trouve.
+* Un « lien vers » signifie : un lien ajouté depuis le document où on se trouve vers d’autres contenus. * Un « lien en provenance » signifie : un lien ajouté depuis d’autres contenus vers le document où on se trouve.
 
 Le lien vers un document a la possibilité d’être modifié depuis celui-ci, néanmoins un lien en provenance d’un autre document ne peut être modifié que depuis ce dernier.
 
 Pour ajouter des documents/contenus liés, cliquez sur le champ, puis tapez les premières lettres du nom du document que vous voulez lier (au moins 3 caractères). Le système va vous le proposer automatiquement (liste de suggestions). 
-
 Puis, cliquez sur le document souhaité dans la liste suggérée pour le sélectionner. Sortez du champ pour valider (clic ailleurs sur la page).
 
 .. figure:: media-guide/image215.png
@@ -1116,10 +1026,8 @@ L’\ **historique** indique les actions qui ont été faites sur le document, p
 .. figure:: media-guide/image235.png
    :alt: 
 
-Juste en dessous de l’historique, vous pouvez voir aussi les **versions** du documents, c’est-à-dire le numéro des versions actuelles et combien il y en a eu avant. Sachant que chaque sauvegarde du document est considérée comme une nouvelle version mineure (1.0 => 1.1, 1.2, 1.3,….).
-
-Par contre, si vous écrasez la dernière version mineure par une nouvelle version du document (avec le glisser/coller par exemple), le système vous demandera si vous voulez qu’elle devienne une version majeure (1.3 => 2.0) et donc une nouvelle base de travail.
-
+Juste en dessous de l’historique, vous pouvez voir aussi les **versions** du documents, c’est-à-dire le numéro des versions actuelles et combien il y en a eu avant. Sachant que chaque sauvegarde du document est considérée comme une nouvelle version mineure (1.0 => 1.1, 1.2, 1.3,….) .
+ Par contre, si vous écrasez la dernière version mineure par une nouvelle version du document (avec le glisser/coller par exemple), le système vous demandera si vous voulez qu’elle devienne une version majeure (1.3 => 2.0) et donc une nouvelle base de travail.
 La 1ere version que vous créez ou migrez sur GoFAST commence à 1.0.
 
 Cliquez sur « Show versions list » pour voir les versions antérieures, vous pouvez même choisir le type de versions (actuelle, majeure ou toutes), puis cliquez sur le numéro de la version que vous voulez ouvrir.
@@ -1131,10 +1039,9 @@ Voir également la rubrique : “Gestion des versions ».
 
 
 Les langues
-~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Vous pouvez mettre la **langue du document** dans les métadonnées, ainsi plus besoin d’indiquer la langue dans le nom du fichier ou de rajouter un « EN » ou « FR » etc. 
-
 Cela donne également un niveau de **filtre** supplémentaire dans la recherche de documents.
 
 Si le document existe en différentes langues, vous pouvez lier entre elles les traductions de ce document : il suffira ensuite d’appuyer sur le drapeau correspondant à la langue souhaitée pour aller sur la page du document considéré comme étant la traduction.
@@ -1166,16 +1073,13 @@ Commenter/Annoter les Documents/Contenus
 
 Commenter un document
 ~~~~~~~~~~~~~~~~~~~~~
-**Objectif des commentaires et annotations :** 
-Centraliser tous les échanges liés à un document, sur la page de ce document afin de garantir que tous ceux qui doivent travailler ou consulter ce document, soient au courant des questions, réponses et autres remarques faites sur le document. Cela permet de réduire drastiquement le nombre d’emails entre collègues, mais aussi de ne plus jamais envoyer de pièce-jointe. Enfin, cela évite de perdre les échanges et de pérenniser l’information.
-
+**Objectif des commentaires et annotations :** Centraliser tous les échanges liés à un document, sur la page de ce document afin de garantir que tous ceux qui doivent travailler ou consulter ce document, soient au courant des questions, réponses et autres remarques faites sur le document. Cela permet de réduire drastiquement le nombre d’emails entre collègues, mais aussi de ne plus jamais envoyer de pièce-jointe. Enfin, cela évite de perdre les échanges et de pérenniser l’information. 
 Les commentaires sont affichés à droite de la prévisualisation et visible par ceux qui ont accès au document. Il n’y a donc pas besoin d'ouvrir le fichier pour les lire.
-
 A ne pas confondre avec les commentaires faits directement dans le fichier lors de l’édition (ex. dan fichier Office), qui se retrouvent dans le contenu même du document.
 
 **Pour ajouter un commentaire :**
- - Allez dans l’onglet « Commentaires » et cliquez sur « Ajouter ici un nouveau commentaire »
- OU 
+ -  Allez dans l’onglet « Commentaires » et cliquez sur « Ajouter ici un nouveau commentaire »
+OU 
  - Allez dans le menu « Burger » (les actions contextuelles), puis cliquez sur « Nouveau commentaire ».
 
 .. figure:: media-guide/image143.png
@@ -1267,7 +1171,7 @@ Si l'annotation de départ est supprimée, le commentaire associé et les répon
 
  
 Pré-archiver des documents et DUA
-----------------------------------
+------------------------------------------------
 
 Etat "Pré-archivé"
 ~~~~~~~~~~~~~~~~~
@@ -1303,19 +1207,14 @@ Il n’y à présent plus de message dans les métadonnées et l’état est red
 .. figure:: media-guide/image183.png
    :alt: 
 
-Vous pouvez aussi voir l’état de vos documents dans l’onglet « Activité » du groupe, dans l’encadré « Contenus avec Etat », à condition que son état ait bien été enregistré dans les métadonnées.
-
+Vous pouvez aussi voir l’état de vos documents dans l’onglet « Activité » du groupe, dans l’encadré « Contenus avec Etat », à condition que son état ait bien été enregistré dans les métadonnées (voir § sur les métadonnées d’un document p.106)
 
 Appliquer une DUA 
 ~~~~~~~~~~~~~~~~~
 La DUA ou la durée d’utilité administrative, est la durée pendant laquelle un document est conservé afin d’être consulté ou utilisé pendant la gestion d’un dossier ou à des fins juridiques. Une fois ce temps écoulé, il sera archivé de façon définitive ou détruit. 
-
 Ce processus est indispensable dans la continuité des actions administratives. Il est donc fondamental dans une entreprise de bien maîtriser le cycle de vie de chaque document et d’optimiser leur archivage.
-
 GoFAST propose cette fonctionnalité importante et offre la possibilité de personnaliser une DUA selon la catégorie du document, la durée du processus de traitement et le sort final.  Il est également possible de définir une liste d’utilisateurs qui souhaitent être notifiés quand la DUA sera atteinte. 
-
 Le déclenchement de la DUA se fera lors de l'application du statut "Pré-archivé" sur un document, à condition que celui-ci possède une catégorie associée à une DUA.
-
 Une DUA peut être appliquée sur un document ou plusieurs documents d’un ou plusieurs espace(s).  
 
 Pour déclencher une DUA sur un document, dans le bloc métadonnées de ce dernier, aller dans le champ « Catégorie » puis cliquer sur modifier. 
@@ -1344,7 +1243,6 @@ Quand la DUA est atteinte, les différents utilisateurs associés à cette derni
 
 Panier Documentaire
 ----------------------------
-
 **Objectif du panier documentaire :** 
 Rassemble plusieurs documents, pouvant se trouver dans des dossiers divers de l’arborescence, pour pouvoir effectuer des actions sur l’ensemble de ces documents. 
 Le panier est accessible depuis la barre des accès rapides (menu principal du haut), à droite de la barre de recherche, dans l’icône « Panier ».  
@@ -1357,17 +1255,15 @@ Ajouter/retirer des documents dans son panier documentaire
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Pour savoir comment ajouter des documents dans votre panier, merci de vous référer à la rubrique : « Ajouter/retirer des documents dans son panier documentaire ». 
 
-
 Actions possibles depuis le panier documentaire
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
 **Gérer en masse les documents du panier :**
- - Télécharger
- - Gérer les métadonnées (catégorie, étiquettes, état, langue, etc.)
- - Partager / Ajouter des emplacements 
- - Créer des publications 
- - Partager par email 
- - Pré-archiver 
+    - Télécharger
+    - Gérer les métadonnées (catégorie, étiquettes, état, langue, etc.)
+    - Partager / Ajouter des emplacements 
+    - Créer des publications 
+    - Partager par email 
+    - Pré-archiver 
 
 .. figure:: media-guide/Ecran-GoFAST_Panier-Documentaire_actions-depuis-panier-gestion-en-masse.png	
    :alt:
@@ -1381,6 +1277,4 @@ Cela permet d’associés au processus tous les documents en une fois, que l’o
    :alt:
    
 Pour savoir comment démarrer un nouveau processus de tâches, merci de vous référer à la documentation : https://gofast-docs.readthedocs.io/fr/latest/docs-gofast-users/doc-gofast-guide-utilisateurs.html#workflows-processus-de-taches-enterprise-only
-
-
 
