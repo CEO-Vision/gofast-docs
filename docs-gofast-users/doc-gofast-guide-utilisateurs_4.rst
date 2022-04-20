@@ -27,11 +27,12 @@ Tous les utilisateurs ayant accès, peuvent enrichir le forum en partageant leur
 - OU clic sur l’icône « flèche » sous l’introduction/descriptif du forum (message tout en haut, sous le titre du forum). 
 - OU clic sur l’icône « flèche » sous un commentaire pour répondre à un commentaire existant. 
 
+.. figure:: media-guide/image067.png
+   :alt: 
+
 Vous pourrez ensuite soit supprimer (corbeille), soit modifier (crayon sur feuille) votre commentaire, ainsi que vous abonner/désabonner à ce forum via le menu « Burger ».
 Un message en haut à droite apparaîtra signalant la publication de votre nouveau commentaire.
 
-.. figure:: media-guide/image067.png
-   :alt: 
 
 Seuls les membres administrateurs ou contributeurs des Espaces peuvent créer un forum. Les membres Lecture Seule peuvent toutefois poster des commentaires dans les forums existants. 
 Merci de vous référer également à la rubrique : « Créer un Forum ». 
