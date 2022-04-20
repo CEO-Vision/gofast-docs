@@ -1,5 +1,6 @@
 Editer/Coéditer des Documents/Contenus
 =================================================
+
 **Qui peut modifier un document :**
 
 Tous les utilisateurs ayant le rôle de « Contributeur » ou « Administrateur » d’au moins un des Espaces où se trouve le document. 
@@ -23,6 +24,7 @@ Pour les fichiers de type PDF, Images, etc. un module nommé « ITHIT » doit ê
 
 Comment « Editer depuis PC » :  
 ~~~~~~~~~~~~~~~~~~~~~~~~
+
 **Depuis la page d’un document :**
 
  - Allez dans le menu « Burger » (les actions contextuelles) 
@@ -60,9 +62,6 @@ A côté du verrou vous verrez la photo de l’utilisateur qui édite le documen
 .. figure:: media-guide/image162.png
    :alt: 
 
-.. image:: media-guide/Tag-Enterprise.png
-   :align: right
-   :scale: 7%
 
 .. NOTE::
 
@@ -85,7 +84,9 @@ Vous pouvez voir qui a fait une action sur ce document dans le bloc d’informat
 Vous pouvez également voir les versions précédentes, en allant dans l’onglet « versions ». 
 
    
-Editer/Coéditer un document via la Suite Collaborative OnlyOffice (Enterprise only)
+Editer/Coéditer un document via la Suite Collaborative OnlyOffice (Enterprise only) .. image:: media-guide/Tag-Enterprise.png
+   :align: right
+   :scale: 7%
 -----------------------------------------------------------------------------------------------------
    
 GoFAST apporte une dimension très innovante et vous permet d’éditer des documents dans un simple navigateur **avec d’autres personnes en simultané**. Vous pouvez ainsi travailler à plusieurs, en même temps, sur un même document pour d’importants gains de temps. 
