@@ -5,7 +5,7 @@ Consulter un Document/Contenu et informations associées
 En plus de pouvoir consulter le document ou autre contenu, il y a plusieurs fonctionnalités telles que : actualiser l’aperçu, processus et tâches (workflow), pleine page, actions contextuelles (parcourir, modifier, télécharger…).
 
 Accès à un Document/Contenu
----------------------------------------------------------------------------------------------------
+-----------------------------
 GoFAST permet d’accéder à un document ou autre contenu par divers moyens. Dès qu’un contenu est mentionné (titre du contenu), il suffit de cliquer dessus pour arriver sur la page de consultation du contenu et des informations associés. 
 
 **Il est possible d’accès à un document/contenu depuis :**
@@ -887,7 +887,7 @@ Pour en savoir plus sur les abonnements à l’activité documentaire, merci de 
 Autres actions possibles
 ~~~~~~~~~~~~~~~~~~~~
 En plus du menu "Burger" (actions contextuelles), sur la page du document il est possible d’effectuer d’autres actions, dont : 
- - Modifier les informations (=métadonnées), voir : XXXXXXXXXXXXXXXX
+ - Modifier les informations (=métadonnées)
  - Pré-archiver un document (via la modification de la métadonnée "Etat"), voir : Pré-archiver des documents et DUA
  - Modifier les emplacements/visibilité (dans les Espaces Collaboratifs), voir : « Modifier les Emplacements/Visibilité »
  - Mettre à jour le document en chargeant un fichier depuis son PC, voir : « Glisser-déposer un document »
@@ -947,8 +947,12 @@ Vous pouvez partage rune appréciation sur le document en cliquant sur les point
 Référence documentaire 
 ~~~~~~~~~~~~~~~~~~~~~
 Il s’agit d’un champ libre, qui permet de renseigner un code ou un numéro désigné comme étant la référence du document. 
+
 Sortez du champ pour valider (clic ailleurs sur la page).
-Il est envisageable de mettre un système automatique basé sur un modèle de nommage, mais cela implique un accompagnement pour la mise en place. N’hésitez pas à poser vos questions sur les forums de la communauté d’utilisateurs. 
+
+Il est envisageable de mettre un système automatique basé sur un modèle de nommage, mais cela implique un accompagnement pour la mise en place. 
+
+N’hésitez pas à poser vos questions sur les forums de la communauté d’utilisateurs. 
 
 
 Echéance
@@ -1051,11 +1055,12 @@ Si des documents ont **un lien vers/depuis**, il est possible de passer de l’u
 C’est un peu une autre manière de voir les hyperliens dans un document. Ici vous n’êtes pas obligés d’ouvrir le document où il y a les hyperliens, vous pouvez directement cliquer sur le document lié dans les métadonnées.
 
 **Liens vers / Liens depuis**
-* Un « lien vers » signifie : un lien ajouté depuis le document où on se trouve vers d’autres contenus. * Un « lien en provenance » signifie : un lien ajouté depuis d’autres contenus vers le document où on se trouve.
+Un « lien vers » signifie : un lien ajouté depuis le document où on se trouve vers d’autres contenus. * Un « lien en provenance » signifie : un lien ajouté depuis d’autres contenus vers le document où on se trouve.
 
 Le lien vers un document a la possibilité d’être modifié depuis celui-ci, néanmoins un lien en provenance d’un autre document ne peut être modifié que depuis ce dernier.
 
 Pour ajouter des documents/contenus liés, cliquez sur le champ, puis tapez les premières lettres du nom du document que vous voulez lier (au moins 3 caractères). Le système va vous le proposer automatiquement (liste de suggestions). 
+
 Puis, cliquez sur le document souhaité dans la liste suggérée pour le sélectionner. Sortez du champ pour valider (clic ailleurs sur la page).
 
 .. figure:: media-guide/image215.png
@@ -1091,8 +1096,10 @@ L’\ **historique** indique les actions qui ont été faites sur le document, p
 .. figure:: media-guide/image235.png
    :alt: 
 
-Juste en dessous de l’historique, vous pouvez voir aussi les **versions** du documents, c’est-à-dire le numéro des versions actuelles et combien il y en a eu avant. Sachant que chaque sauvegarde du document est considérée comme une nouvelle version mineure (1.0 => 1.1, 1.2, 1.3,….) .
- Par contre, si vous écrasez la dernière version mineure par une nouvelle version du document (avec le glisser/coller par exemple), le système vous demandera si vous voulez qu’elle devienne une version majeure (1.3 => 2.0) et donc une nouvelle base de travail.
+Juste en dessous de l’historique, vous pouvez voir aussi les **versions** du documents, c’est-à-dire le numéro des versions actuelles et combien il y en a eu avant. Sachant que chaque sauvegarde du document est considérée comme une nouvelle version mineure (1.0 => 1.1, 1.2, 1.3,….).
+
+Par contre, si vous écrasez la dernière version mineure par une nouvelle version du document (avec le glisser/coller par exemple), le système vous demandera si vous voulez qu’elle devienne une version majeure (1.3 => 2.0) et donc une nouvelle base de travail.
+
 La 1ere version que vous créez ou migrez sur GoFAST commence à 1.0.
 
 Cliquez sur « Show versions list » pour voir les versions antérieures, vous pouvez même choisir le type de versions (actuelle, majeure ou toutes), puis cliquez sur le numéro de la version que vous voulez ouvrir.
@@ -1104,9 +1111,10 @@ Voir également la rubrique : “Gestion des versions ».
 
 
 Les langues
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~
 
 Vous pouvez mettre la **langue du document** dans les métadonnées, ainsi plus besoin d’indiquer la langue dans le nom du fichier ou de rajouter un « EN » ou « FR » etc. 
+
 Cela donne également un niveau de **filtre** supplémentaire dans la recherche de documents.
 
 Si le document existe en différentes langues, vous pouvez lier entre elles les traductions de ce document : il suffira ensuite d’appuyer sur le drapeau correspondant à la langue souhaitée pour aller sur la page du document considéré comme étant la traduction.
@@ -1138,14 +1146,17 @@ Commenter/Annoter les Documents/Contenus
 
 Commenter un document
 ~~~~~~~~~~~~~~~~~~~~~
-**Objectif des commentaires et annotations :** Centraliser tous les échanges liés à un document, sur la page de ce document afin de garantir que tous ceux qui doivent travailler ou consulter ce document, soient au courant des questions, réponses et autres remarques faites sur le document. Cela permet de réduire drastiquement le nombre d’emails entre collègues, mais aussi de ne plus jamais envoyer de pièce-jointe. Enfin, cela évite de perdre les échanges et de pérenniser l’information. 
+**Objectif des commentaires et annotations :** 
+Centraliser tous les échanges liés à un document, sur la page de ce document afin de garantir que tous ceux qui doivent travailler ou consulter ce document, soient au courant des questions, réponses et autres remarques faites sur le document. Cela permet de réduire drastiquement le nombre d’emails entre collègues, mais aussi de ne plus jamais envoyer de pièce-jointe. Enfin, cela évite de perdre les échanges et de pérenniser l’information.
+
 Les commentaires sont affichés à droite de la prévisualisation et visible par ceux qui ont accès au document. Il n’y a donc pas besoin d'ouvrir le fichier pour les lire.
+
 A ne pas confondre avec les commentaires faits directement dans le fichier lors de l’édition (ex. dan fichier Office), qui se retrouvent dans le contenu même du document.
 
 **Pour ajouter un commentaire :**
--  Allez dans l’onglet « Commentaires » et cliquez sur « Ajouter ici un nouveau commentaire »
-OU 
-- Allez dans le menu « Burger » (les actions contextuelles), puis cliquez sur « Nouveau commentaire ».
+ - Allez dans l’onglet « Commentaires » et cliquez sur « Ajouter ici un nouveau commentaire »
+ OU 
+ - Allez dans le menu « Burger » (les actions contextuelles), puis cliquez sur « Nouveau commentaire ».
 
 .. figure:: media-guide/image143.png
    :alt: 
@@ -1236,7 +1247,7 @@ Si l'annotation de départ est supprimée, le commentaire associé et les répon
 
  
 Pré-archiver des documents et DUA
-------------------------------------------------
+----------------------------------
 
 Etat "Pré-archivé"
 ~~~~~~~~~~~~~~~~~
@@ -1329,6 +1340,7 @@ Pour savoir comment ajouter des documents dans votre panier, merci de vous réf�
 
 Actions possibles depuis le panier documentaire
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 **Gérer en masse les documents du panier :**
  - Télécharger
  - Gérer les métadonnées (catégorie, étiquettes, état, langue, etc.)
@@ -1349,4 +1361,6 @@ Cela permet d’associés au processus tous les documents en une fois, que l’o
    :alt:
    
 Pour savoir comment démarrer un nouveau processus de tâches, merci de vous référer à la documentation : https://gofast-docs.readthedocs.io/fr/latest/docs-gofast-users/doc-gofast-guide-utilisateurs.html#workflows-processus-de-taches-enterprise-only
+
+
 
