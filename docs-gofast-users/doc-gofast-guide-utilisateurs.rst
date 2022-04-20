@@ -41,15 +41,15 @@ Améliorer la collaboration est la principale problématique à laquelle répond
 Objectifs et avantages de GoFAST
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--  Favoriser le travail collaboratif (jusqu'à la coédition simultanée) et le partage d’informations
--  Diminuer le nombre d’emails internes et supprimer les emails avec des pièces jointes (problèmes de quota, mauvaises versions)
--  Arrêter la duplication des contenus 
--  Gagner du temps dans la recherche d’informations (dont les fichiers)
--  Respecter les processus mis en place et ne plus jamais manquer une échéance
--  Diminution des erreurs en ayant accès à toutes les versions d'un document
--  Améliorer la sécurité (gestion des droits d'accès)
--  Faciliter le travail lors de déplacements
--  Réduire le volume de papier
+  - Favoriser le travail collaboratif (jusqu'à la coédition simultanée) et le partage d’informations
+  - Diminuer le nombre d’emails internes et supprimer les emails avec des pièces jointes (problèmes de quota, mauvaises versions)
+  - Arrêter la duplication des contenus 
+  - Gagner du temps dans la recherche d’informations (dont les fichiers)
+  - Respecter les processus mis en place et ne plus jamais manquer une échéance
+  - Diminution des erreurs en ayant accès à toutes les versions d'un document
+  - Améliorer la sécurité (gestion des droits d'accès)
+  - Faciliter le travail lors de déplacements
+  - Réduire le volume de papier
 
 Pour plus d’information sur les objectifs atteints avec GoFAST, merci de vous référer à la rubrique : "Quelques bonnes pratiques"
 
@@ -58,49 +58,49 @@ Prérequis à l’utilisation de GoFAST
 
 .. CAUTION:: Nous ne supportons que les navigateurs supportés par les éditeurs et ceci pour des raisons de sécurité. L’homologation de versions non supportées peut dans certains cas être envisagé avec des décharges de responsabilité et coûts additionnels 
 
--  Navigateurs préférentiels Windows : **Firefox (dernière version ESR ou dernière version classique'), Edge-Chromium, Chrome.**
+  - Navigateurs préférentiels Windows : **Firefox (dernière version ESR ou dernière version classique'), Edge-Chromium, Chrome.**
 
 .. NOTE::
     A titre d'illustration, au 23/12/2020 nous supportons Firefox 84 et Firefox ESR 78.6 
 .. NOTE::
     Le support IE11 est optionnel en 2020 et certaines nouvelles fonctionnalités sont incompatible (tâches kanban, chat,webconference), CEO-Vision recommande une migration au plus vite de IE11 et Edge vers Edge-Chromium ou Firefox ESR. CEO-Vision n'assurera plus aucun support pour IE11 en 2021 
     
-    - Edge-Chromium https://www.microsoftedgeinsider.com/fr-fr/enterprise
+     - Edge-Chromium https://www.microsoftedgeinsider.com/fr-fr/enterprise
     
-    - Firefox ESR en Français https://www.mozilla.org/fr/firefox/organizations/all/
+     - Firefox ESR en Français https://www.mozilla.org/fr/firefox/organizations/all/
 
-    -  Navigateur MacOS : Safari (dernière version supportée), Firefox (dernière version supportée), Chrome (dernière version supportée)
+      - Navigateur MacOS : Safari (dernière version supportée), Firefox (dernière version supportée), Chrome (dernière version supportée)
 
-    -  Navigateur Linux : Firefox (dernière version ESR)
+      - Navigateur Linux : Firefox (dernière version ESR)
    
-    -  Système d'exploitation Windows7 et plus, MacOS 10.11+ et Linux (Ubuntu 16+), ChromeOS
+      - Système d'exploitation Windows7 et plus, MacOS 10.11+ et Linux (Ubuntu 16+), ChromeOS
 
 .. NOTE::
     Le support de Windows 7 étant terminé par Microsoft depuis le 14 Janvier 2020, CEO-Vision ne supporte plus officiellement cette version
 
--  En mobilité Android ou iOS 13+ 
+  - En mobilité Android ou iOS 13+ 
 
--  Bureautique : Office 365 et Office Pro 2016+ pour Windows, MS-Office Pro 2016 pour Mac, LibreOffice 6+, OnlyOffice Desktop (à venir)
+  - Bureautique : Office 365 et Office Pro 2016+ pour Windows, MS-Office Pro 2016 pour Mac, LibreOffice 6+, OnlyOffice Desktop (à venir)
 .. NOTE::
     Le support d'Office 2010 étant terminé par Microsoft depuis le 13 Octobre 2020, CEO-Vision ne supportera bientôt plus cette version. Nous encourageons une migration vers l'utilisation d'OnlyOffice inclut dans GoFAST
 
--  Messagerie : Outlook 2013+ (Outlook 2010 sans garantie), Thunderbird 78+, Client léger Bluemind  
+  - Messagerie : Outlook 2013+ (Outlook 2010 sans garantie), Thunderbird 78+, Client léger Bluemind  
 
--  Une connexion relativement bonne est nécessaire : téléchargement de 512 kbits/s min. et 256kbps upload . Vous pouvez d'ailleurs tester directement votre connexion via ce lien : http://www.speedtest.net/
+  - Une connexion relativement bonne est nécessaire : téléchargement de 512 kbits/s min. et 256kbps upload . Vous pouvez d'ailleurs tester directement votre connexion via ce lien : http://www.speedtest.net/
    
--  Une très bonne connexion pour la webconference en HD : jusqu'à 6MB/s peuvent être nécessaire. Certains filtrages réseaux peuvent empecher le fonctionnement de la webconference. Si https://gofast-docs.readthedocs.io/fr/latest/docs-gofast-users/doc-gofast-problemes-connus.html#webconference ne vous aide pas, contacter votre administrateur réseau en cas de problème.    
+  - Une très bonne connexion pour la webconference en HD : jusqu'à 6MB/s peuvent être nécessaire. Certains filtrages réseaux peuvent empecher le fonctionnement de la webconference. Si https://gofast-docs.readthedocs.io/fr/latest/docs-gofast-users/doc-gofast-problemes-connus.html#webconference ne vous aide pas, contacter votre administrateur réseau en cas de problème.    
 
--  Résolution écran 1366x768 minimum (format 16:9)
+  - Résolution écran 1366x768 minimum (format 16:9)
 
-- En mobilité : Tablette ou smartphone récent (iOS ou Android)
+ - En mobilité : Tablette ou smartphone récent (iOS ou Android)
 
 Configurations/Installations optionnelles
 ------------------------------------------------------
 **Des configurations et/ou installations supplémentaires sont nécessaires pour :**
 
-- Editer en ligne les contenus non-Office (exemple signature de PDF) ou via LibreOffice 
-- Synchronisation hors-ligne
-- Accès à l’arborescence de GoFAST via votre l'explorateur de fichiers du PC (Windows ou MacOS)
+ - Editer en ligne les contenus non-Office (exemple signature de PDF) ou via LibreOffice 
+ - Synchronisation hors-ligne
+ - Accès à l’arborescence de GoFAST via votre l'explorateur de fichiers du PC (Windows ou MacOS)
 
 Dans la plupart des cas, il est nécessaire de contacter votre support informatique (qui gèrent votre PC).
 
@@ -145,38 +145,38 @@ Quelques bonnes pratiques
 Objectif 1: Diminuer le nombre de mails entre collègues et partenaires
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--  Je n'envoie plus de mails avec pièce jointe, mais je mets un commentaire sur le document sur GoFAST, toutes les personnes recevront une notification.
+  - Je n'envoie plus de mails avec pièce jointe, mais je mets un commentaire sur le document sur GoFAST, toutes les personnes recevront une notification.
 
-   -  dans de nombreux cas la pièce jointe n'est déjà plus à jour quand votre destinataire la reçoit de plus les pièces jointes encombres les messageries.
+     - dans de nombreux cas la pièce jointe n'est déjà plus à jour quand votre destinataire la reçoit de plus les pièces jointes encombres les messageries.
 
--  Je n'envoie plus de mails avec pièce jointe à mes contacts n'ayant pas de compte GoFAST mais j'utilise la fonction "Partager par email"
+  - Je n'envoie plus de mails avec pièce jointe à mes contacts n'ayant pas de compte GoFAST mais j'utilise la fonction "Partager par email"
 
--  Je n'élabore plus un document 'chacun son tour' mais utilise la coédition OnlyOffice
+  - Je n'élabore plus un document 'chacun son tour' mais utilise la coédition OnlyOffice
 
-   - Ceci permet de gagner du temps et limite les erreurs, évite d'avoir à fusionner les sections rédigées par chacun
+    - Ceci permet de gagner du temps et limite les erreurs, évite d'avoir à fusionner les sections rédigées par chacun
 
--  Je n’envoie plus de demandes de tâche ou validation par mail, mais j’utilise les ‘’workflows’’ (processus de tâches) pour relecture, validation, signature, etc. Tout le monde est notifié, chacun connaît sa tâche et les délais sont respectés.
--  J’utilise les forums pour mes questions/réponses au lieu des mails. Tout le monde partage ses connaissances.
+  - Je n’envoie plus de demandes de tâche ou validation par mail, mais j’utilise les ‘’workflows’’ (processus de tâches) pour relecture, validation, signature, etc. Tout le monde est notifié, chacun connaît sa tâche et les délais sont respectés.
+  - J’utilise les forums pour mes questions/réponses au lieu des mails. Tout le monde partage ses connaissances.
 
 Objectif 2: Gagner du temps dans la recherche d’information et contenus
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--  La totalité des contenus (même cellules d'un tableur...) est indexé (indexation "plein-texte") et le moteur de recherche est considéré comme un des plus puissants
--  je gagne jusqu'à 30% de mon temps *(source IDC : 30% des cadres passent leur temps à rechercher des contenus dispersés et dupliquer)*
+  - La totalité des contenus (même cellules d'un tableur...) est indexé (indexation "plein-texte") et le moteur de recherche est considéré comme un des plus puissants
+  - je gagne jusqu'à 30% de mon temps *(source IDC : 30% des cadres passent leur temps à rechercher des contenus dispersés et dupliquer)*
 
 Objectif 3 : Mettre fin aux doublons de fichiers et erreurs de versions
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--  Je ne garde plus de fichiers sur mon PC ou boîte mail, les documents sont centralisés et accessibles selon les droits d’utilisateurs.
--  Je ne copie plus jamais un document à plusieurs endroits, j'utilise la fonction Emplacement/Visibilité qui permet à un même document d'être vu dans plusieurs espaces.
-   -  Quelque-soit l'espace, tout le monde aura la bonne version
+  - Je ne garde plus de fichiers sur mon PC ou boîte mail, les documents sont centralisés et accessibles selon les droits d’utilisateurs.
+  - Je ne copie plus jamais un document à plusieurs endroits, j'utilise la fonction Emplacement/Visibilité qui permet à un même document d'être vu dans plusieurs espaces.
+     - Quelque-soit l'espace, tout le monde aura la bonne version
 
--  Je ne créé plus un fichier par version
-   -  GoFAST versionne automatiquement et toutes les versions sont accessibles à tout moment.
+  - Je ne créé plus un fichier par version
+     - GoFAST versionne automatiquement et toutes les versions sont accessibles à tout moment.
 
--  J’accède à mes documents de travail en mobilité et je n’ai pas besoin de copie locale ou de version papier (accès Online sur Tablettes et Online/Offline sur PC).
--  Je partager les informations avec mes clients et fournisseurs dans l’Extranet GoFAST et ainsi, ils ont accès aux mêmes documents et non plus des doublons, qui sont rapidement obsolètes.
--  Je ne stocke plus mes documents dans la messagerie car un simple glisser-déposer suffit pour les transférer sur GoFAST.
+  - J’accède à mes documents de travail en mobilité et je n’ai pas besoin de copie locale ou de version papier (accès Online sur Tablettes et Online/Offline sur PC).
+  - Je partager les informations avec mes clients et fournisseurs dans l’Extranet GoFAST et ainsi, ils ont accès aux mêmes documents et non plus des doublons, qui sont rapidement obsolètes.
+  - Je ne stocke plus mes documents dans la messagerie car un simple glisser-déposer suffit pour les transférer sur GoFAST.
 
 
 
@@ -185,16 +185,16 @@ Objectif 3 : Mettre fin aux doublons de fichiers et erreurs de versions
 Objectif 4: Maîtriser les processus de traitement, validation et signature des documents
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--  Les processus informels ou les procédures papier souvent inefficaces, sont modélisés dans GoFAST. Grâce à des circuits de tâches prédéterminés, vous retrouvez la maîtrise des divers processus métier.
+  - Les processus informels ou les procédures papier souvent inefficaces, sont modélisés dans GoFAST. Grâce à des circuits de tâches prédéterminés, vous retrouvez la maîtrise des divers processus métier.
 
--  Je n’ai plus à chercher les dates d’échéances dans mes mails, celles-ci sont clairement indiquées sur les processus et me sont rappelées par notification.
+  - Je n’ai plus à chercher les dates d’échéances dans mes mails, celles-ci sont clairement indiquées sur les processus et me sont rappelées par notification.
 
 Objectif 5 : Diminuer le volume papier
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--  Je numérise les documents papiers (contrats, factures, courriers, etc.) et les envoie directement vers la plateforme GoFAST, où ils seront indexés plein texte à la volée.
--  Je transforme les formulaires papier en documents électroniques et les diffuse avec efficacité (cibler un groupe, rappels automatiques et relance, suivi des actions, etc.) et j’exporte les données dans un tableur.
--  Je signe électroniquement les PDF avec certificat sécurisé plutôt que de les imprimer pour les signer et les re-scanner. 
+  - Je numérise les documents papiers (contrats, factures, courriers, etc.) et les envoie directement vers la plateforme GoFAST, où ils seront indexés plein texte à la volée.
+  - Je transforme les formulaires papier en documents électroniques et les diffuse avec efficacité (cibler un groupe, rappels automatiques et relance, suivi des actions, etc.) et j’exporte les données dans un tableur.
+  - Je signe électroniquement les PDF avec certificat sécurisé plutôt que de les imprimer pour les signer et les re-scanner. 
 
 
 Quoi de neuf dans la dernière version de GoFAST
@@ -244,31 +244,31 @@ Qui se trouve à gauche. Ce menu permet d’accéder aux principales pages de la
 Menu d’accès rapides
 ~~~~~~~~~~~~~~~~~~
 
-- Le logo : permet de retourner sur votre page d’accueil, soit le fil d’activité, soit le tableau de bord selon la configuration de votre plateforme. 
-- L’icône « + » : permet de créer les contenus, documents et utilisateurs. Pour plus d’informations, voir la partie : Création de documents, Contenus, Utilisateurs.
--  L’icône Dossier : permet d’accéder à l’arborescence des espaces de la plateforme que vous avez d’accès.
-- Les Roues Crantées : permettent l’accès à ses processus et tâches. Plus d’information, voir la rubrique : Workflows et Signature : Processus et Tâches (entreprise Only).  
-- L’icône de Flux : permet de voir les nouvelles du site internet défini. 
-- L’icône Etoile : permet de retrouver vos contenus et dossiers épinglés comme favoris personnels. 
-- L’icône Horloge : permet d’accéder à vos 10 derniers contenus vus. 
-- Le barre de recherche : permet d’effectuer une recherche parmi tous les contenus auxquels vous avez accès sur la plateforme (documents, espaces, utilisateurs, forums, etc.). Plus d’information, voir la rubrique : Moteur de Recherche.
-- L’icône Panier : permet d’accéder à la liste des documents que vous avez mis dans le panier au préalable, pour effectuer des actions sur l’ensemble des documents du panier. Plus d’information pour cette partie, voir la partie : Panier Documentaire.
-- L’icône Drapeau ou lettres désignant la langue (ex. FR/EN) : permet de changer la langue de l’interface de la plateforme.
+ - Le logo : permet de retourner sur votre page d’accueil, soit le fil d’activité, soit le tableau de bord selon la configuration de votre plateforme. 
+ - L’icône « + » : permet de créer les contenus, documents et utilisateurs. Pour plus d’informations, voir la partie : Création de documents, Contenus, Utilisateurs.
+  - L’icône Dossier : permet d’accéder à l’arborescence des espaces de la plateforme que vous avez d’accès.
+ - Les Roues Crantées : permettent l’accès à ses processus et tâches. Plus d’information, voir la rubrique : Workflows et Signature : Processus et Tâches (entreprise Only).  
+ - L’icône de Flux : permet de voir les nouvelles du site internet défini. 
+ - L’icône Etoile : permet de retrouver vos contenus et dossiers épinglés comme favoris personnels. 
+ - L’icône Horloge : permet d’accéder à vos 10 derniers contenus vus. 
+ - Le barre de recherche : permet d’effectuer une recherche parmi tous les contenus auxquels vous avez accès sur la plateforme (documents, espaces, utilisateurs, forums, etc.). Plus d’information, voir la rubrique : Moteur de Recherche.
+ - L’icône Panier : permet d’accéder à la liste des documents que vous avez mis dans le panier au préalable, pour effectuer des actions sur l’ensemble des documents du panier. Plus d’information pour cette partie, voir la partie : Panier Documentaire.
+ - L’icône Drapeau ou lettres désignant la langue (ex. FR/EN) : permet de changer la langue de l’interface de la plateforme.
 
 .. figure:: media-guide/choix-langue.png
    :alt: 
 
-- L’icône Point d’interrogation permet l’accès aux : 
-    - Forums : renvoie aux forums où tous les utilisateurs de GoFAST peuvent échanger sur des problématiques, évolutions, bonnes pratiques, questions fonctionnelles… entre eux et avec les équipes de CEO-Vision (éditeur de GoFAST). 
-    - Nouvelles fonctionnalités : affiche le carrousel des nouvelles fonctionnalités apportées selon la version que vous utilisez. 
-    - Documentation : renvoie à cette documentation en ligne. 
-    - A propos : Sur cette partie, vous pouvez consulter les différents composants installés dans la plateforme ainsi que leurs versions.
-    - Enfin si vous avez configurez un lien personnalisé (voir la partie Administrateur …). Vous pouvez le retrouver le lien ici (un sous onglet après A propos).
-- La photo (son avatar utilisateur) permet l’accès aux : 
-    - Mon profil : vous donnez accès à votre profil, voir partie : Mon Profil
-    - Abonnements : vous permet d’accéder à votre page d’abonnement, voir la partie : Gestion des abonnements 
-    - Le choix entre GoFAST Essentiel ou GoFAST Plus. 
-    - Déconnexion pour vous déconnecter de la plateforme. A noter que la durée de session de GoFAST est dans tous les cas, limitée dans le temps et vous serez donc déconnecté au bout d’un délais (10h). 
+ - L’icône Point d’interrogation permet l’accès aux : 
+     - Forums : renvoie aux forums où tous les utilisateurs de GoFAST peuvent échanger sur des problématiques, évolutions, bonnes pratiques, questions fonctionnelles… entre eux et avec les équipes de CEO-Vision (éditeur de GoFAST). 
+     - Nouvelles fonctionnalités : affiche le carrousel des nouvelles fonctionnalités apportées selon la version que vous utilisez. 
+     - Documentation : renvoie à cette documentation en ligne. 
+     - A propos : Sur cette partie, vous pouvez consulter les différents composants installés dans la plateforme ainsi que leurs versions.
+     - Enfin si vous avez configurez un lien personnalisé (voir la partie Administrateur …). Vous pouvez le retrouver le lien ici (un sous onglet après A propos).
+ - La photo (son avatar utilisateur) permet l’accès aux : 
+     - Mon profil : vous donnez accès à votre profil, voir partie : Mon Profil
+     - Abonnements : vous permet d’accéder à votre page d’abonnement, voir la partie : Gestion des abonnements 
+     - Le choix entre GoFAST Essentiel ou GoFAST Plus. 
+     - Déconnexion pour vous déconnecter de la plateforme. A noter que la durée de session de GoFAST est dans tous les cas, limitée dans le temps et vous serez donc déconnecté au bout d’un délais (10h). 
 
 .. figure:: media-guide/votre-profil-0.png
    :alt: 
@@ -281,31 +281,31 @@ Vous pouvez plier et déplier ce menu avec l’icône burger en haut à gauche.
 
 **Accès pour tous les niveaux de "Profil Utilisateur" (dont "Standard") :**
 
-- Tableau de bord. Pour plus d’information, voir la rubrique "Tableau de Bord". 
-- Fil d’activité 
-- Espaces collaboratifs : accès à l’arborescence des Espaces où vous êtes membres.
-- Processus et tâches : accès à la liste des processus et filtrer selon divers critères pour retrouver un processus en cours ou terminé.   
-- Calendrier : accès au calendrier de votre espace personnel (qui affiche la somme des échéances sur les contenus, tâches et réunions, selon vos droits d’accès).
-- Discussion : accès à la messagerie instantanée (Tchat) en plein écran dans son navigateur. 
-- Annuaires en 4 parties (Vous pouvez effectuer des actions en masse depuis ces annuaires) :
-    - Utilisateurs : tous les utilisateurs que vous avez le droit de voir, avec le nom, prénom, entité, dernière connexion, date de création, statut et les points que l’utilisateur a gagné. 
-    - Listes Utilisateurs : toutes les listes d’utilisateurs que vous avez le droit de voir, avec le nom, le créateur, le nombre d’administrateurs dans la liste, le nombre de membres et la date de création.
-    - Espaces : tous les espaces que vous avez le droit de voir, avec le nom, le type d’espace, le nombre des documents, le nombre des administrateurs, etc. 
-    - Contact : liste des contacts (non-utilisateurs) avec le nom, le prénom, l’entité, l’email et le mobile. 
+ - Tableau de bord. Pour plus d’information, voir la rubrique "Tableau de Bord". 
+ - Fil d’activité 
+ - Espaces collaboratifs : accès à l’arborescence des Espaces où vous êtes membres.
+ - Processus et tâches : accès à la liste des processus et filtrer selon divers critères pour retrouver un processus en cours ou terminé.   
+ - Calendrier : accès au calendrier de votre espace personnel (qui affiche la somme des échéances sur les contenus, tâches et réunions, selon vos droits d’accès).
+ - Discussion : accès à la messagerie instantanée (Tchat) en plein écran dans son navigateur. 
+ - Annuaires en 4 parties (Vous pouvez effectuer des actions en masse depuis ces annuaires) :
+     - Utilisateurs : tous les utilisateurs que vous avez le droit de voir, avec le nom, prénom, entité, dernière connexion, date de création, statut et les points que l’utilisateur a gagné. 
+     - Listes Utilisateurs : toutes les listes d’utilisateurs que vous avez le droit de voir, avec le nom, le créateur, le nombre d’administrateurs dans la liste, le nombre de membres et la date de création.
+     - Espaces : tous les espaces que vous avez le droit de voir, avec le nom, le type d’espace, le nombre des documents, le nombre des administrateurs, etc. 
+     - Contact : liste des contacts (non-utilisateurs) avec le nom, le prénom, l’entité, l’email et le mobile. 
                         
 
 **Accès limités aux Profil Support-Utilisateurs :**
 
 Au-delà des accès à des pages d’audit et statistiques, ainsi qu’une visibilité plus étendue sur les utilisateurs existants et l’arborescence des Espaces, ce profil permet d’affecter plus d’actions depuis les "menu burger". Attention, ce profil ne donne en aucun cas un accès par défaut à des Espaces et leurs contenus (pour voir les contenus d’un espace, l’utilisateur doit forcément en être membre). Pour plus d’informations, merci de vous référer à la rubrique : « Profils Utilisateurs »
 Les accès supplémentaires autorisés pour ce profil : 
-- GoFAST Configuration (accès uniquement aux onglets : Visibilité, Catégories, DUA et Lien personnalisé). Pour plus d’informations sur ces fonctionnalités, voir la rubrique « Administration ». 
-- Statistiques : accès aux statistiques des utilisateurs, des espaces et des documents. Pour plus d’info, voir la rubrique « Statistiques ».
-- Audit : permet de vérifier les données auditées (actions sur les documents, accès à la plateforme, suppressions, etc.). Pour plus d’informations sur ces fonctionnalités, voir la rubrique « Administration ».
-- Import d’utilisateurs (LDAP) : vous pouvez visualiser les utilisateurs qui sont dans votre annuaire interne (AD/LDAP, si celui-ci a été configuré sur votre plateforme). 
+ - GoFAST Configuration (accès uniquement aux onglets : Visibilité, Catégories, DUA et Lien personnalisé). Pour plus d’informations sur ces fonctionnalités, voir la rubrique « Administration ». 
+ - Statistiques : accès aux statistiques des utilisateurs, des espaces et des documents. Pour plus d’info, voir la rubrique « Statistiques ».
+ - Audit : permet de vérifier les données auditées (actions sur les documents, accès à la plateforme, suppressions, etc.). Pour plus d’informations sur ces fonctionnalités, voir la rubrique « Administration ».
+ - Import d’utilisateurs (LDAP) : vous pouvez visualiser les utilisateurs qui sont dans votre annuaire interne (AD/LDAP, si celui-ci a été configuré sur votre plateforme). 
 
 **Accès limités aux Profil Super-Administrateur :**
 
-- GoFAST Configuration (accès aux diverses possibilités de configurations techniques de la plateforme). Pour plus d’informations sur ces fonctionnalités, voir la rubrique « Administration ». 
+ - GoFAST Configuration (accès aux diverses possibilités de configurations techniques de la plateforme). Pour plus d’informations sur ces fonctionnalités, voir la rubrique « Administration ». 
 Ce profil ne donne en aucun cas un accès par défaut à des Espaces et leurs contenus (pour voir les contenus d’un espace, l’utilisateur doit forcément en être membre). Pour plus d’informations, merci de vous référer à la rubrique : « Profils Utilisateurs »
 
 .. NOTE::
@@ -323,10 +323,10 @@ Le fil d’activité de GoFAST vous donne une **vue d’ensemble** sur ce qui s�
 
 **La page Fil d’activité est organisée en quatre parties :**
 
-- La photo de profil : qui renvoie la personne qui a effectué l’action.
-- Titre du document/contenu concerné et le type d’action faite. A droite du contenu, un menu "Burger" permet de réaliser des actions sur le contenu, directement depuis le fil d’activité.
-- Espace(s) où se trouve le contenu concerné (en un clic vous pouvez vous rendre sur l’Espace).
-- Bloc de filtres (permet de filtrer le fil d’activité sur divers critères).
+ - La photo de profil : qui renvoie la personne qui a effectué l’action.
+ - Titre du document/contenu concerné et le type d’action faite. A droite du contenu, un menu "Burger" permet de réaliser des actions sur le contenu, directement depuis le fil d’activité.
+ - Espace(s) où se trouve le contenu concerné (en un clic vous pouvez vous rendre sur l’Espace).
+ - Bloc de filtres (permet de filtrer le fil d’activité sur divers critères).
 
 .. figure:: media-guide/Image-Accueil-1.png
    :alt: 
@@ -338,7 +338,7 @@ Le fil d’activité de GoFAST vous donne une **vue d’ensemble** sur ce qui s�
    :alt: 
 
 **Actions possible depuis le Fil d’activité :**
-- Le "Menu Burger" (actions contextuelles) 
+ - Le "Menu Burger" (actions contextuelles) 
 
 .. figure:: media-guide/raccourci-fonctionnalités.png
    :alt: 
@@ -374,22 +374,22 @@ Le tableau de bord permet un accès rapide aux éléments les plus sollicités. 
 
 **Accédez au Tableau de Bord :**
 
-- À partir du menu principal de gauche, cliquer sur « Tableau de Bord ».
-- À partir du logo en haut à gauche, à partir du moment où le Tableau de Bord est défini comme page d’accueil par défaut. 
+ - À partir du menu principal de gauche, cliquer sur « Tableau de Bord ».
+ - À partir du logo en haut à gauche, à partir du moment où le Tableau de Bord est défini comme page d’accueil par défaut. 
 
 **Le tableau de bord par défaut affiche six blocs :**
 
 .. figure:: media-guide/Dashboard.png
    :alt: 
 
-- **Espace personnel et Profil** : accès à votre espace personnel, profil, calendrier et à la gestion de vos abonnements. 
+ - **Espace personnel et Profil** : accès à votre espace personnel, profil, calendrier et à la gestion de vos abonnements. 
 
 .. NOTE::
    Un seul espace principal pourra être mis en avant dans ce bloc du Tableau de bord. Pour modifier l’espace principal d’un utilisateur, il faut aller sur la page de profil de cet utilisateur, puis dans le menu de configuration. 
 
-- **Mon calendrier** : accès à vos renions à venir et tous les documents auxquels vous avez accès et ayant une échéance. Sur le filtre du bloc (haut-droite), vous pouvez choisir d’afficher les réunions ou les documents. Vous pouvez également créer une réunion avec le bouton « + ». 
-- **Mes tâches** : accès aux processus et tâches qui vous ont été assignés. Vous avez la possibilité de démarrer un nouveau processus via le bouton « + » en haut à droite. Via l’icône « tableau », vous pouvez aller sur le Tableau des Processus. 
-- **Mes espaces favoris** : affiche tous les espaces que vous avez épinglés comme favoris. Vous pouvez ajouter un espace en favori via l’icône « + ». Vous pouvez effectuer des actions sur un espace via le "Menu Burger". 
+ - **Mon calendrier** : accès à vos renions à venir et tous les documents auxquels vous avez accès et ayant une échéance. Sur le filtre du bloc (haut-droite), vous pouvez choisir d’afficher les réunions ou les documents. Vous pouvez également créer une réunion avec le bouton « + ». 
+ - **Mes tâches** : accès aux processus et tâches qui vous ont été assignés. Vous avez la possibilité de démarrer un nouveau processus via le bouton « + » en haut à droite. Via l’icône « tableau », vous pouvez aller sur le Tableau des Processus. 
+ - **Mes espaces favoris** : affiche tous les espaces que vous avez épinglés comme favoris. Vous pouvez ajouter un espace en favori via l’icône « + ». Vous pouvez effectuer des actions sur un espace via le "Menu Burger". 
 
 .. figure:: media-guide/Dashboard-add-favorite-space.jpg
    :alt:
@@ -416,8 +416,8 @@ Vous remarquerez que l’espace est toujours épinglé sur le bloc, cela ne sign
 
 En revanche, si vous actualisez ou que vous quittez la page du tableau de bord, la suppression est confirmée et l’espace ne sera plus visible dans votre bloc.
 
-- **Mes répertoires favoris** :  affiche tous les dossiers que vous avez épinglés comme favoris. Via l’icône « flèche », vous pouvez accéder à l’arborescence à l’emplacement du dossier. Vous pouvez ajouter un dossier en favori via l’icône « + ». 
-- **Mes contenus favoris** : affiche tous les documents et autres types de contenus (hors les espaces) que vous avez épinglés comme favoris. Via l’icône « + », vous pouvez accéder ajouter d’autres contenus favoris. Vous pouvez effectuer des actions sur un documents/contenu via le "Menu Burger".
+ - **Mes répertoires favoris** :  affiche tous les dossiers que vous avez épinglés comme favoris. Via l’icône « flèche », vous pouvez accéder à l’arborescence à l’emplacement du dossier. Vous pouvez ajouter un dossier en favori via l’icône « + ». 
+ - **Mes contenus favoris** : affiche tous les documents et autres types de contenus (hors les espaces) que vous avez épinglés comme favoris. Via l’icône « + », vous pouvez accéder ajouter d’autres contenus favoris. Vous pouvez effectuer des actions sur un documents/contenu via le "Menu Burger".
 Pour ajouter un ou plusieurs contenus, cliquer sur l’icône « + »  à droite du titre du bloc :
 
 .. figure:: media-guide/Dashboard-add-favorite-content.jpg
@@ -452,16 +452,16 @@ Cette page affiche les informations vous concernant :  nom, prénom, fonction, e
 Paramètres du profil
 ~~~~~~~~~~~~~~~~~
 Vous pouvez voir et/ou modifier les divers éléments de votre profil directement en cliquant dessus dans le bloc de gauche ou en passant par le menu de **paramètres du compte** : 
-- identifiant (non modifiable)
-- nom
-- prénom
-- email (modifiable uniquement pas vous)
-- option d’authentification (si la connexion est déléguée à l’annuaire interne de votre Organisation/Entreprise ou pas) 
-- mot de passe (masqué et modifiable uniquement si l’authentification n’est pas déléguée à l’annuaire interne de votre Organisation/Entreprise)
-- vos Profils sur la plateforme (Support-utilisateur, Super-Administrateur ou Standard ou Externe, Broadcaster, restriction de partage des notifications)
-- Votre rôle par défaut lorsque l’on vous ajoute à un espace (Contributeur ou Lecture Seule) 
-- Informations sur votre Entité (votre entreprise ou organisation), votre poste et Direction de rattachement, votre manageur, vos numéros de téléphone, votre date d’anniversaire, etc. 
-- Langue affichée pour l’interface de la plateforme et vos notifications email. 
+ - identifiant (non modifiable)
+ - nom
+ - prénom
+ - email (modifiable uniquement pas vous)
+ - option d’authentification (si la connexion est déléguée à l’annuaire interne de votre Organisation/Entreprise ou pas) 
+ - mot de passe (masqué et modifiable uniquement si l’authentification n’est pas déléguée à l’annuaire interne de votre Organisation/Entreprise)
+ - vos Profils sur la plateforme (Support-utilisateur, Super-Administrateur ou Standard ou Externe, Broadcaster, restriction de partage des notifications)
+ - Votre rôle par défaut lorsque l’on vous ajoute à un espace (Contributeur ou Lecture Seule) 
+ - Informations sur votre Entité (votre entreprise ou organisation), votre poste et Direction de rattachement, votre manageur, vos numéros de téléphone, votre date d’anniversaire, etc. 
+ - Langue affichée pour l’interface de la plateforme et vos notifications email. 
 
 .. figure:: media-guide/image019.png
    :alt: 
@@ -500,10 +500,10 @@ Il suffit de réappuyer sur la même icône à 2 flèches pour revenir à la vue
 
 Types d'Espaces Collaboratifs disponibles
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
--  Organisations (représentent globalement l’Organigramme : Directions, Départements, Services...)
--  Groupes (Dédiés au travail transversal : projet, base de connaissances, produit, site géographique, thématique...)
--  Extranets (dédiés au travail avec des partenaires externes)
--  Publics (accessible à tous les utilisateurs internes en lecture seule, non aux externes)
+  - Organisations (représentent globalement l’Organigramme : Directions, Départements, Services...)
+  - Groupes (Dédiés au travail transversal : projet, base de connaissances, produit, site géographique, thématique...)
+  - Extranets (dédiés au travail avec des partenaires externes)
+  - Publics (accessible à tous les utilisateurs internes en lecture seule, non aux externes)
 
 Chaque Espace Collaboratif est organisé de la même manière (onglet Documents, Tâches, membres…). Toutefois, il y a quelques fonctionnalités qui différent selon le type d’Espace (merci de vous référer aux rubriques décrivant chaque type d’Espace). 
 
@@ -516,13 +516,13 @@ Chaque espace peut contenir un ou plusieurs sous espaces. Dans ce cas il est pos
    Les espaces sont représentés dans l'explorateur de fichiers intégré par des icônes distinctes et avec un "_" devant le nom de l'espace (ex: _Organisation) dans l'explorateur de fichiers Windows ou Mac. 
    Avant de pouvoir déposer les fichiers sur la plateforme GoFAST, assurez-vous de créer les "bons" espaces et sous-espaces collaboratifs de type Organisation, Groupe ou Extranet ! 
 
-- Espace Personnel : disponible pour chaque utilisateur (personne, si ce n’est l’utilisateur lui-même n’a accès à cet espace personnel). 
+ - Espace Personnel : disponible pour chaque utilisateur (personne, si ce n’est l’utilisateur lui-même n’a accès à cet espace personnel). 
 
 Rôles des membres des Espaces Collaboratifs
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-- Administrateur (il peut modifier l’espace et ses membres) 
-- Contributeur (il peut effectuer des actions sur les contenus/dossier de l’espace)
-- Lecture Seule (il peut consulter les contenus de l’espace et partager des commentaires)
+ - Administrateur (il peut modifier l’espace et ses membres) 
+ - Contributeur (il peut effectuer des actions sur les contenus/dossier de l’espace)
+ - Lecture Seule (il peut consulter les contenus de l’espace et partager des commentaires)
 
 Pour connaitre les "Profils" existant sur la plateforme, merci de vous référer à la rubrique dédiée. Ces profil ne donnent pas accès aux Espaces Collaboratifs, mais permettent d’effectuer des actions de configurations. 
 
@@ -702,8 +702,8 @@ Il est toujours préférable de créer la réunion directement dans GoFAST car c
 
 **Une webconférence peut être créé de 2 façons différentes :**
 
-- Pour programmer une réunion à une date précise, avec invitation agenda : à partir de la barre d’accès rapide (menu du haut) ou le Calendrier d’un Espace. 
-- Pour une webconférence immédiate : à partir d'un salon de discussion instantanée (Tchat), via l’icône « caméra ».
+ - Pour programmer une réunion à une date précise, avec invitation agenda : à partir de la barre d’accès rapide (menu du haut) ou le Calendrier d’un Espace. 
+ - Pour une webconférence immédiate : à partir d'un salon de discussion instantanée (Tchat), via l’icône « caméra ».
 
 Programmer une réunion/Webconférence
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -840,13 +840,13 @@ Vous allez être redirigé vers la page de gestion du formulaire où seront affi
 
 **Comment retrouver un formulaire :**
 
-- Fil d’activité (si formulaire créé, modifié ou commenté récemment).
+ - Fil d’activité (si formulaire créé, modifié ou commenté récemment).
 
-- Dans le calendrier de l’un des Espaces où se trouve le formulaire ou dans son calendrier personnel (dans le cas où on a ajouté une échéance à ce formulaire). 
+ - Dans le calendrier de l’un des Espaces où se trouve le formulaire ou dans son calendrier personnel (dans le cas où on a ajouté une échéance à ce formulaire). 
 
-- Via la recherche par mots clefs, une recherche "à blanc" (= sans mot-clef) et les filtres de recherche, en particulier par type de contenu "formulaire"
+ - Via la recherche par mots clefs, une recherche "à blanc" (= sans mot-clef) et les filtres de recherche, en particulier par type de contenu "formulaire"
 
-- Dans ses contenus favoris (si on y a ajouté le formulaire au préalable)
+ - Dans ses contenus favoris (si on y a ajouté le formulaire au préalable)
 
 .. figure:: media-guide/[IMAGE]
    :alt: 
@@ -866,8 +866,8 @@ Créer un Espace à la racine
 -------------------------------------------------------------------------------------------
 Afin de construire l’arborescence des Espaces Collaboratifs, il est nécessaire de commencer par les tout premiers niveaux, c’est-à-dire à la racine de Organisations, Groupes, Extranet ou Public.
 Pour connaitre quels profils ont la possibilité de créer ces premiers Espaces Collaboratifs, merci de vous référer aux rubriques : 
-- Tableau des permissions par Profil
-- Profil Support-Utilisateurs
+ - Tableau des permissions par Profil
+ - Profil Support-Utilisateurs
 
 Créer un Espace/Sous-Espace Collaboratif 
 ---------------------------------------------------------
@@ -876,10 +876,10 @@ Il est possible de **créer de nouveaux Espaces Collaboratifs (Sous-Espaces)**, 
 
 Vous pouvez créer un nouvel espace, de type :
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-  - Organisation (vos services/départements/etc.)
-  - Groupe (projets/partages transversaux)
-  - Public (uniquement si vous êtes membres de la « Liste Public »)
-  - Extranet (partage avec les utilisateurs externes) 
+   - Organisation (vos services/départements/etc.)
+   - Groupe (projets/partages transversaux)
+   - Public (uniquement si vous êtes membres de la « Liste Public »)
+   - Extranet (partage avec les utilisateurs externes) 
 Pour en savoir plus sur les types d’Espaces, merci de vous référer à la rubrique : « Les Espaces collaboratifs »
 
 Formulaire de création d’un Espace :
@@ -887,12 +887,12 @@ Formulaire de création d’un Espace :
 Depuis la barre des accès rapides (menu principal du haut) cliquer sur « + » puis sur « Espace », et allez sur le type d’Espace que vous souhaitez créer. 
 Une page s’ouvre où vous pouvez ajouter :
 
-- un titre de l’espace (obligatoire)
-- une brève description (obligatoire)
-- créer une page d’accueil (facultatif)
-- choisir l’emplacement (obligatoire) : vous verrez toute l’arborescence des espaces dans lesquels vous pouvez créer un nouveau sous-espace. 
-- Ajouter une identité visuelle (facultatif : image qui sera utilisée pour le salon de discussion / Tchat dédié à cet Espace si vous décider d’en créer un par la suite). 
-- puis « Enregistrer » et vous serez alors redirigé vers la page de votre nouvel Espace.
+ - un titre de l’espace (obligatoire)
+ - une brève description (obligatoire)
+ - créer une page d’accueil (facultatif)
+ - choisir l’emplacement (obligatoire) : vous verrez toute l’arborescence des espaces dans lesquels vous pouvez créer un nouveau sous-espace. 
+ - Ajouter une identité visuelle (facultatif : image qui sera utilisée pour le salon de discussion / Tchat dédié à cet Espace si vous décider d’en créer un par la suite). 
+ - puis « Enregistrer » et vous serez alors redirigé vers la page de votre nouvel Espace.
 
 .. figure:: media-guide/image076.png
    :alt: 
@@ -927,7 +927,7 @@ Permet de visualiser sur une période donnée l’évolution des membres et de d
 Montre l’explorateur de fichiers de GoFAST, avec tous les contenus qui se trouvent dans votre espace dans la zone principale au centre de l’écran, ainsi que l’arborescence complète à laquelle vous avez accès dans la zone de gauche (pour pouvoir facilement naviguer entre les divers Espaces depuis l’arborescence).
 
 .. NOTE::
-   Dans l’arborescence, on distingue les espaces avec un underscore devant leur nom « _ » ; s’il n’y a rien, ce sont des dossiers. Dans les 2 cas, vous pouvez voir leurs niveaux inférieurs en cliquant sur le petit « + » devant chacun. Ou les cacher avec le petit « - ».
+   Dans l’arborescence, on distingue les espaces avec un underscore devant leur nom « _ » ; s’il n’y a rien, ce sont des dossiers. Dans les 2 cas, vous pouvez voir leurs niveaux inférieurs en cliquant sur le petit « + » devant chacun. Ou les cacher avec le petit «  - ».
 
 C’est ici que vous pouvez directement **glisser-déposer des fichiers** qui se trouvent sur votre ordinateur ou les télécharger via le bouton « Nouveau ».
 
@@ -986,9 +986,9 @@ Les listes d'utilisateurs facilitent la gestion en masse et automatisée des mem
    :alt: 
 
 Pour créer une liste, via la barre des accès rapides (menu principal du haut) cliquez sur « + », puis "Liste d’utilisateurs". Vous êtes redirigé vers le formulaire et il suffit de renseigner les 3 champs affichés :
-   - Nom de la liste,
-   - Description,
-   - Membres de la liste (rentrez au moins 3 caractères du nom/prénom d'un utilisateur pour avoir des suggestions),
+    - Nom de la liste,
+    - Description,
+    - Membres de la liste (rentrez au moins 3 caractères du nom/prénom d'un utilisateur pour avoir des suggestions),
 
 .. figure:: media-guide/Ecran-GoFAST_Liste-Utilisateurs_creer-liste-renseigner-formulaire.png	
    :alt: 
