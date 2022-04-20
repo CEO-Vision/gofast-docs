@@ -65,20 +65,20 @@ Plusieurs actions sont disponibles sur un Espace, selon le rôle du membre de ce
 Selon votre rôle dans un Espace, vous pouvez y ajouter des membres ou modifier leur rôle, créer un nouvel utilisateur dans cet espace, créer un sous-espace, archiver l’espace ou le supprimer, se désabonner ou s’abonner, créer un document/contenus, etc.
 Pour accéder aux diverses actions possibles dans l’Espace, allez dans le menu « Burger » (Actions contextuelles) via l’icône avec les **3 barres horizontales** dans le coin droit supérieur de la page de l’espace.
 Les actions réservées aux administrateurs d’espaces sont précisées avec une *. Elles seront grisées et non cliquables pour les membres contributeurs ou lecture seule :
--	S’abonner / Se désabonner 
--	Ajouter aux / Supprimer des favoris
--	Demander à rejoindre
--	Ajouter membres / listes *
--	Créer utilisateur dans le groupe*
--	Ajouter un sous-espace *
--	Créer / Supprimer Salon de discussion*
+-	S’abonner / Se désabonner  
+-	Ajouter aux / Supprimer des favoris 
+-	Demander à rejoindre 
+-	Ajouter membres / listes * 
+-	Créer utilisateur dans le groupe* 
+-	Ajouter un sous-espace * 
+-	Créer / Supprimer Salon de discussion* 
 -	Plus …
 o	Renommer cet espace *
 o	Déplacer cet espace *
 o	Archiver cet espace *
 o	Supprimer*
 o	Pré-ajouter membres*
-o	Contacter les administrateurs de l’espace *
+o	Contacter les administrateurs de l’espace * 
 
 .. figure:: media-guide/image112.png
    :alt: 
@@ -121,7 +121,7 @@ Dans le cas où vous avez besoin de créer un nouvel Espace à la racine, c’es
 
 Créer un Sous-Espace (dans un Espace)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Pour savoir comment créer de nouveaux Espaces/Sous-Espaces Collaboratifs, merci de vous référer à la rubrique : « Créer des Espaces Collaboratifs ». 
+Pour savoir comment créer de nouveaux Espaces/Sous-Espaces Collaboratifs, merci de vous référer à la rubrique : « Créer des Espaces Collaboratifs ».  
 .. NOTE:: Merci de lire en introduction la différence entre les espaces de type Organisation, Groupes, Extranet, Public.
 
 Rôles/droits des membres d’un Espace
@@ -176,7 +176,7 @@ Gérer les membres d’un Espace Collaboratif signifie **ajouter/enlever des mem
 .. NOTE:: 
    Ces droits sont strictement réservés aux membres administrateurs des Espaces. Toutefois, il existe un profil « Support-Utilisateurs » qui permet de pré-ajouter des membres dans des Espaces, sans en être membre lui-même : les administrateurs des Espaces devront valider ce pré-ajout avant que les nouveaux membres n’aient effectivement accès aux Espaces. 
 
-**La gestion des membres d’un Espace peut être réalisée via :**
+**La gestion des membres d’un Espace peut être réalisée via : **
 - Le menu « Burger » (actions contextuelles) sur la page d’un Espace
 - Le menu « Burger » (actions contextuelles) d’un Espace ou une sélection d’Espaces, depuis l’annuaire des Espaces
 - Via la gestion des Listes d’Utilisateurs (voir la rubrique : « Gérer des Listes d’Utilisateurs »)
@@ -193,7 +193,7 @@ Rechercher un membre d’un espace
 .. NOTE:: 
    Il est possible de connaître tous les Espaces dont est membre un utilisateur en allant sur sa page de profil. 
 
-Modifier le membre d’un Espace
+Modifier le membre d’un Espace 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Pour modifier le rôle ou enlever un membre d’un espace : 
 - Allez sur la page de l’Espace que vous souhaitez gérer. 
@@ -209,7 +209,7 @@ La fenêtre pour changer le rôle s’ouvre :
 
 Merci de consulter également la rubrique : « Rôles/droits des membres d’un Espace ».  
 
-Ajouter des membres à un Espace
+Ajouter des membres à un Espace 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 **Ajouter des membres** dans un Espace signifie donner accès à cet Espace à un ou plusieurs Utilisateur(s) ou à une Liste d’Utilisateurs, en spécifiant le rôle. 
 
@@ -260,10 +260,10 @@ Cette fonctionnalité permet à la fois de créer un nouvel utilisateur et l’a
 
 Il est indispensable de consulter la rubrique « créer un utilisateur » 
 
-.. NOTE:: 
+.. NOTE :: 
    Lorsque vous créer un utilisateur, vous indiquez son rôle par défaut dans les Espaces. Une fois l’utilisateur créé, vous pouvez modifier son rôle dans l’espace à tout moment. 
 
-Modifier le nom et l’accueil d’un Espace Collaboratif
+Modifier le nom et l’accueil d’un Espace Collaboratif 
 --------------------------------------------------------------------
 **Pour renommer l’Espace :**
 - Via le menu « Burger » de l’Espace, puis clic que « Renommer ».
@@ -273,7 +273,7 @@ Modifier le nom et l’accueil d’un Espace Collaboratif
 - Allez sur l’onglet Accueil de l’Espace.
 - Cliquer sur la page pour la modifier (vous disposez d’un éditeur avec diverses possibilités de mises en page). 
 
-Modifier les emplacements d’un Espace Collaboratif
+Modifier les emplacements d’un Espace Collaboratif 
 ---------------------------------------------------------------------
 Modifier l’emplacement d’un Espace dans l’arborescence signifie changer l’espace-parent : attention, les Membres seront automatiquement ajoutés dans les nouveaux Espaces parents, avec leur rôle par défaut).
 
@@ -318,7 +318,7 @@ Le contenu de cet Espace apparaîtra comme archivé et ne sera plus visible lors
    Les éléments archivés sont identifiés dans l’explorateur de fichiers grâce à l’icône « archive ». 
 
 
-Supprimer un Espace Collaboratif
+Supprimer un Espace Collaboratif 
 --------------------------------------------
 
 .. NOTE:: 
@@ -370,7 +370,7 @@ Gérer des Listes d’Utilisateurs
 Les listes d'utilisateurs facilitent la gestion en masse et automatisée des membres des Espaces Collaboratifs et leurs rôles. Ainsi, lorsqu’un utilisateur GoFAST est ajouté à une liste, il devient automatiquement membre de tous les espaces associés à cette liste. 
 
 .. NOTE:: 
-   Les listes peuvent aussi être sélectionnées lors d'un partage de documents par email (voir « Partager le document par mail ». 
+   Les listes peuvent aussi être sélectionnées lors d'un partage de documents par email (voir « Partager le document par mail ».  
 
 Pour savoir comment créer une Liste d’Utilisateurs, merci de vous référer à la rubrique : « Créer une Liste d’Utilisateurs »
 
@@ -973,7 +973,7 @@ La recherche se fait uniquement sur le titre de la carte. Il suffit de taper le 
 .. figure:: media-guide/Kanban-filter.jpg	
    :alt:
 
-Permissions 
+Permissions  
 -----------------
 Pour connaître les permissions sur la gestion des colonnes et des cartes dans un tableau Kanban, merci de vous référer à la rubrique : « Tableau des permissions par rôles » 
 Notifications 
