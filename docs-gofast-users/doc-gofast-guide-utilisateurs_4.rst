@@ -13,8 +13,8 @@ Aller sur un Forum
 Les forums sont accessibles à tous les membres des Espaces où sont partagés ces forums, peu importe leur rôle dans ces Espaces. 
 
 **Pour trouver un forum :** 
-* Via le volet de gauche : clic sur la « > » pour déplier le volet, puis sur l’onglet « Forums » en bas de ce volet. Vous verrez tous les forums existants où vous avez accès. Vous pouvez filtrer l’arborescence (le sommaire) des forums via le champ « Filtrer », en saisissant les premières lettres du nom du forum. 
-* Via le moteur de recherche, en saisissant des mots-clefs ou en faisant une recherche à blanc, puis en filtrant part type de contenu « Forums ». 
+ - Via le volet de gauche : clic sur la « > » pour déplier le volet, puis sur l’onglet « Forums » en bas de ce volet. Vous verrez tous les forums existants où vous avez accès. Vous pouvez filtrer l’arborescence (le sommaire) des forums via le champ « Filtrer », en saisissant les premières lettres du nom du forum. 
+ - Via le moteur de recherche, en saisissant des mots-clefs ou en faisant une recherche à blanc, puis en filtrant part type de contenu « Forums ». 
 
 Il faut cliquer sur le nom du forum pour aller dessus. 
 
@@ -22,10 +22,10 @@ Participer dans un forum
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Tous les utilisateurs ayant accès, peuvent enrichir le forum en partageant leurs commentaires.
 **Pour partager un commentaire dans un forum :**
-* Allez sur la page du forum (voir rubrique précédente).
-* Via le menu « Burger », clic sur « Nouveau commentaire ».
-* OU clic sur l’icône « flèche » sous l’introduction/descriptif du forum (message tout en haut, sous le titre du forum). 
-* OU clic sur l’icône « flèche » sous un commentaire pour répondre à un commentaire existant. 
+ - Allez sur la page du forum (voir rubrique précédente).
+ - Via le menu « Burger », clic sur « Nouveau commentaire ».
+ - OU clic sur l’icône « flèche » sous l’introduction/descriptif du forum (message tout en haut, sous le titre du forum). 
+ - OU clic sur l’icône « flèche » sous un commentaire pour répondre à un commentaire existant. 
 
 .. figure:: media-guide/image067.png
    :alt:  
@@ -48,9 +48,9 @@ Aller sur un Wiki
 Les Wikis sont accessibles à tous les membres de l’Espace où sont partagés ces Wikis, peu importe leur rôle dans cet Espace. 
 
 **Pour trouver un Wiki :** 
-* Via le volet de gauche : clic sur la « > » pour déplier le volet, puis sur l’onglet « Wiki » en bas de ce volet. Vous verrez tous les Wikis existants où vous avez accès. Vous pouvez filtrer l’arborescence (le sommaire) des Wikis via le champ « Filtrer », en saisissant les premières lettres du nom du Wiki. 
-* Via l’explorateur de fichier, onglet « Documents » sur la page d’un Espace, dans le dossier « Wiki »
-* Via le moteur de recherche, en saisissant des mots-clefs ou en faisant une recherche à blanc, puis en filtrant part type de contenu « Wikis ». 
+ - Via le volet de gauche : clic sur la « > » pour déplier le volet, puis sur l’onglet « Wiki » en bas de ce volet. Vous verrez tous les Wikis existants où vous avez accès. Vous pouvez filtrer l’arborescence (le sommaire) des Wikis via le champ « Filtrer », en saisissant les premières lettres du nom du Wiki. 
+ - Via l’explorateur de fichier, onglet « Documents » sur la page d’un Espace, dans le dossier « Wiki »
+ - Via le moteur de recherche, en saisissant des mots-clefs ou en faisant une recherche à blanc, puis en filtrant part type de contenu « Wikis ». 
 
 Il faut cliquer sur le nom du Wiki pour aller dessus ou faire un double-clic si c’est depuis l’explorateur de fichiers.
 
@@ -58,9 +58,9 @@ Participer dans un Wiki
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Tous les utilisateurs ayant accès, peuvent partager des commentaires sur le Wiki.
 **Pour partager un commentaire dans un Wiki :**
-* Allez sur la page du Wiki (voir rubrique précédente).
-* Via le menu « Burger », clic sur « Nouveau commentaire ». 
-* Via l’onglet « Commentaires » dans le bloc d’information du Wiki : clic sur « Nouveau commentaire » OU clic sur l’icône « flèche » sous un commentaire pour répondre à un commentaire existant.
+ - Allez sur la page du Wiki (voir rubrique précédente).
+ - Via le menu « Burger », clic sur « Nouveau commentaire ». 
+ - Via l’onglet « Commentaires » dans le bloc d’information du Wiki : clic sur « Nouveau commentaire » OU clic sur l’icône « flèche » sous un commentaire pour répondre à un commentaire existant.
 
 [IMAGE]
 
@@ -89,10 +89,10 @@ Accéder au Tchat
 ------------------------------------
 
 **Le Tchat est accessible de plusieurs façons :**
-* Via le volet de droite : clic sur l’icône « bulle de discussion » ou sur un des salons représentés par une image-cercle, pour déplier le volet. Très pratique su besoin de discuter sans quitter la page d’un document par exemple. 
-* Sur la page d'un espace, onglet « Discussion » (si le salon a été activé)
-* Via le menu principal de gauche, clic sur "Discussion" pour ouvrir le Tchat en pleine page.  
-* Depuis une application à installer sur votre PC ou Smartphone : merci de vous référer à la rubrique « Application Tchat PC / Smartphone »
+ - Via le volet de droite : clic sur l’icône « bulle de discussion » ou sur un des salons représentés par une image-cercle, pour déplier le volet. Très pratique su besoin de discuter sans quitter la page d’un document par exemple. 
+ - Sur la page d'un espace, onglet « Discussion » (si le salon a été activé)
+ - Via le menu principal de gauche, clic sur "Discussion" pour ouvrir le Tchat en pleine page.  
+ - Depuis une application à installer sur votre PC ou Smartphone : merci de vous référer à la rubrique « Application Tchat PC / Smartphone »
 
 
 Organisation des salons de discussions 
@@ -101,9 +101,9 @@ Un salon de discussions est normalement associé à un Espace Collaboratif. Dans
 .. NOTE:: C'est l'administrateur de l'espace qui peut décider d'associer un salon à l’espace. Toutefois, certains salons de discussions liés aux Espaces Collaboratifs sont créés automatiquement (les premiers niveaux des Espaces de type Organisation). 
 
 **Le Tchat est séparé en plusieurs zones :**
-* la zone des salons « favoris » : si on a indiqué favoris pours certains salons, ils seront dans la zone du haut dans la colonne des salons. 
-* la zone réservée aux conversations entre 2 utilisateurs (2e zone si on a des salons favoris, ou 1ère zone).
-* la zone des salons dont on est membre (la dernière zone de la colonne des salons).
+ - la zone des salons « favoris » : si on a indiqué favoris pours certains salons, ils seront dans la zone du haut dans la colonne des salons. 
+ - la zone réservée aux conversations entre 2 utilisateurs (2e zone si on a des salons favoris, ou 1ère zone).
+ - la zone des salons dont on est membre (la dernière zone de la colonne des salons).
  
 .. NOTE:: Pour créer un salon privé avec un utilisateur en particulier ou créer un salon de discussion non lié à un Espace, vous devez cliquer sur le + dans la colonne des salons.
  
@@ -120,16 +120,16 @@ Application Tchat PC / Smartphone
 -----------------------------------------------
 Il est nécessaire de télécharger l’application « Element » pour avoir accès au Tchat via votre Smartphone. 
 Liens pour télécharger l’application : 
-* PC Windows : https://packages.riot.im/desktop/install/win32/x64/Element%20Setup.exe 
-* PC Mac : https://packages.riot.im/desktop/install/macos/Element.dmg
-* PC Linux : https://element.io/get-started#linux-details
-* Smartphone App Store : https://apps.apple.com/app/vector/id1083446067
-* Smartphone Google Play : https://play.google.com/store/apps/details?id=im.vector.app
-* Smartphone F-Droid : https://f-droid.org/packages/im.vector.app/
+ - PC Windows : https://packages.riot.im/desktop/install/win32/x64/Element%20Setup.exe 
+ - PC Mac : https://packages.riot.im/desktop/install/macos/Element.dmg
+ - PC Linux : https://element.io/get-started#linux-details
+ - Smartphone App Store : https://apps.apple.com/app/vector/id1083446067
+ - Smartphone Google Play : https://play.google.com/store/apps/details?id=im.vector.app
+ - Smartphone F-Droid : https://f-droid.org/packages/im.vector.app/
 
 Pour avoir accès à votre Tchat via l’application : 
-* Renseigner l’URL de votre serveur, sur le modèle : https://XXXXXX-comm.YYYYYYYYY.com/ (recopiez l’URL depuis votre PC et ajouter « -comm » avant le « . »)
-* Rentrez vos identifiants GoFAST (les mêmes que lorsque vous-vous connectez à GoFAST). 
+ - Renseigner l’URL de votre serveur, sur le modèle : https://XXXXXX-comm.YYYYYYYYY.com/ (recopiez l’URL depuis votre PC et ajouter « -comm » avant le « . »)
+ - Rentrez vos identifiants GoFAST (les mêmes que lorsque vous-vous connectez à GoFAST). 
 
 N’hésitez pas à poser vos questions sur les forums de la communauté GoFAST : https://community.ceo-vision.com/ 
 
@@ -141,11 +141,11 @@ GoFAST inclut la technologie de Webconférence Open Source Jitsi, alternative à
 Retrouver une Réunion/Webconférence 
 ------------------------------------------------------
 Pour retrouver une réunion / webconférence, plusieurs possibilités : 
-* Depuis l’onglet « Calendrier » de votre espace personnel ou un espace collaboratif (si la réunion est lié à cet Espace). 
-* Via le moteur de recherche
-* Sur votre Tableau de Bord (si le bloc « Mes Réunions » est affiché) 
-* Via votre outil de messagerie (ex. Bluemind, Outlook) : les réunions où vous êtes convié sont notifiées par email avec une invitation agenda. 
-* Via la notification envoyée par email 
+ - Depuis l’onglet « Calendrier » de votre espace personnel ou un espace collaboratif (si la réunion est lié à cet Espace). 
+ - Via le moteur de recherche
+ - Sur votre Tableau de Bord (si le bloc « Mes Réunions » est affiché) 
+ - Via votre outil de messagerie (ex. Bluemind, Outlook) : les réunions où vous êtes convié sont notifiées par email avec une invitation agenda. 
+ - Via la notification envoyée par email 
 
 Une fois que vous avez trouvé la réunion, vous pouvez cliquer dessus et voir les détails (participants, organisateur, documents ou dossiers liés, descriptif, etc.). 
 
@@ -156,35 +156,35 @@ Depuis la page de la réunion ou l’email de notification, vous pouvez cliquer 
 [IMAGE]
 
 **Sur la première page de confirmation, vous pouvez :**
-* Choisir/activer le microphone,
-* Choisir/activer la caméra,
-* Personnaliser votre nom/identifiant, 
-* Cliquer sur « Rejoindre la réunion ». 
+ - Choisir/activer le microphone,
+ - Choisir/activer la caméra,
+ - Personnaliser votre nom/identifiant, 
+ - Cliquer sur « Rejoindre la réunion ». 
 
 .. NOTE:: Sur la page de la webconférence, vous avez en haut le nom de la réunion, le nombre de participants présents et les paramètres de performance. 
 
 **Dans la webconférence, vous pouvez notamment :**
-* A gauche, vous avez les vignettes de tous les participants de la réunion, vous pouvez choisir la vignette de la personne que vous souhaitez voir en plein écran (surtout si ce participant fait un partage d’écran). 
-* En bas de la page, vous pouvez activer ou désactiver le micro et la caméra en cliquant sur les icônes. 
-* En bas de la page, vous pouvez faire un partage d’écran. Pour cela, cliquez sur l’icône, une fenêtre s’ouvre, vous choisissez ce que vous souhaitez partager (tout l’écran, la fenêtre, un onglet ...) puis cliquez sur Partager. Vous pouvez à tout moment arrêter le partage en cliquant sur le bouton « Arrêter le partage ».
-* En bas de la page, la « petite main » vous permet de lever la main si vous souhaitez prendre la parole. 
-* Via l’icône « participants », vous pouvez voir tous les participants de la réunion et inviter d’autres si besoin.
-* En bas de la page, vous pouvez activer et désactiver la vue mosaïque (pour passer en plein écran ou avoir des vignettes).
-* En bas de la page, via l’icône « … », vous pouvez réaliser les autres actions disponibles (ex. enregistrer la réunion, couper le micro de tous les autres participants, si vous êtes l’organisateur).
+ - A gauche, vous avez les vignettes de tous les participants de la réunion, vous pouvez choisir la vignette de la personne que vous souhaitez voir en plein écran (surtout si ce participant fait un partage d’écran). 
+ - En bas de la page, vous pouvez activer ou désactiver le micro et la caméra en cliquant sur les icônes. 
+ - En bas de la page, vous pouvez faire un partage d’écran. Pour cela, cliquez sur l’icône, une fenêtre s’ouvre, vous choisissez ce que vous souhaitez partager (tout l’écran, la fenêtre, un onglet ...) puis cliquez sur Partager. Vous pouvez à tout moment arrêter le partage en cliquant sur le bouton « Arrêter le partage ».
+ - En bas de la page, la « petite main » vous permet de lever la main si vous souhaitez prendre la parole. 
+ - Via l’icône « participants », vous pouvez voir tous les participants de la réunion et inviter d’autres si besoin.
+ - En bas de la page, vous pouvez activer et désactiver la vue mosaïque (pour passer en plein écran ou avoir des vignettes).
+ - En bas de la page, via l’icône « … », vous pouvez réaliser les autres actions disponibles (ex. enregistrer la réunion, couper le micro de tous les autres participants, si vous êtes l’organisateur).
 
 **Pour enregistrer une réunion :**
-* Le premier participant à se connecter à la webconférence peut enregistrer la réunion (car il est considéré comme organisateur de la webconférence.
-* Cliquez sur les trois points en bas de l’écran (le menu des actions).
-* Cliquez sur « commencer l’enregistrement ». Un message vocal indique à ce moment là qu’un enregistrement est lancé. 
-* Une fois que la réunion est finie, cliquez à nouveau sur les trois points puis sur « Arrêter l’enregistrement ». Une demande de confirmation s’affiche, vous validez après vous raccrochez pour fermer la webconférence.
-* Allez dans votre espace personnel sur GoFAST pour retrouver le fichier vidéo de la réunion.
+ - Le premier participant à se connecter à la webconférence peut enregistrer la réunion (car il est considéré comme organisateur de la webconférence.
+ - Cliquez sur les trois points en bas de l’écran (le menu des actions).
+ - Cliquez sur « commencer l’enregistrement ». Un message vocal indique à ce moment là qu’un enregistrement est lancé. 
+ - Une fois que la réunion est finie, cliquez à nouveau sur les trois points puis sur « Arrêter l’enregistrement ». Une demande de confirmation s’affiche, vous validez après vous raccrochez pour fermer la webconférence.
+ - Allez dans votre espace personnel sur GoFAST pour retrouver le fichier vidéo de la réunion.
 
 Modifier une Réunion
 ------------------------------
 Seul l’utilisateur qui a créé une réunion ou un administrateur de l’Espace auquel est associée la réunion, peut la modifier. 
 Pour modifier une réunion : 
-* Allez sur la page de la réunion (via la recherche, le fil d’activité ou votre calendrier).
-* Cliquez sur le menu « Burger » de la réunion, puis « Modifier cette réunion » 
+ - Allez sur la page de la réunion (via la recherche, le fil d’activité ou votre calendrier).
+ - Cliquez sur le menu « Burger » de la réunion, puis « Modifier cette réunion » 
 Une fois que vous enregistrez les modifications, vous et les participants recevrez les modifications (ex. si la date ou l’heure ont été mis à jour).   
 
 Pour savoir comment créer une webconférence, merci de vous référer à la rubrique : « Créer une Réunion/Webconférence (Enterprise only) »
@@ -199,10 +199,10 @@ Merci de vous référer également à la rubrique : « Créer un Formulaire »
 
 Retrouver/Consulter un formulaire
 ------------------------------------------------
-* Fil d’activité (si formulaire créé, modifié ou commenté récemment). 
-* Dans le calendrier de l’un des Espaces où se trouve le formulaire ou dans son calendrier personnel (dans le cas où on a ajouté une échéance à ce formulaire). 
-* Via la recherche par mots clefs, une recherche "à blanc" (= sans mot-clef) et les filtres de recherche, en particulier par type de contenu "formulaire"
-* Dans ses contenus favoris (si on y a ajouté le formulaire au préalable)
+ - Fil d’activité (si formulaire créé, modifié ou commenté récemment). 
+ - Dans le calendrier de l’un des Espaces où se trouve le formulaire ou dans son calendrier personnel (dans le cas où on a ajouté une échéance à ce formulaire). 
+ - Via la recherche par mots clefs, une recherche "à blanc" (= sans mot-clef) et les filtres de recherche, en particulier par type de contenu "formulaire"
+ - Dans ses contenus favoris (si on y a ajouté le formulaire au préalable)
 
 .. figure:: media-guide/image073.png
    :alt: 
@@ -288,9 +288,9 @@ Derniers contenus vus
 ------------------------------
 Vous pouvez à tout moment retourner sur l’un des 10 derniers contenus vus, autrement dits, ceux que vous avez consultés en allant sur la page du contenu. 
 **Pour retrouver ses 10 derniers contenus vus :**
-* Passer par la barre des accès rapides (menu principale du haut) 
-* Cliquez sur l’icône « chrono »
-* Cliquez sur l’un des contenus pour allez dessus. 
+ - Passer par la barre des accès rapides (menu principale du haut) 
+ - Cliquez sur l’icône « chrono »
+ - Cliquez sur l’un des contenus pour allez dessus. 
 
 .. figure:: media-guide/Ecran-GoFAST-Dernier_Contenus_vues.png
    :alt: 
@@ -309,8 +309,8 @@ Lorsque vous ajouterez un favori à votre liste, il y aura le message en vert su
    :alt: 
 
 Voir également les rubriques : 
-* « Tableau de Bord »
-* « Ajouter aux favoris »
+ - « Tableau de Bord »
+ - « Ajouter aux favoris »
 
 
 Flux d’information RSS 
@@ -331,8 +331,8 @@ Annuaire des Utilisateurs
 ----------------------------------
 [EN COURS DE MISE A JOUR POUR V4.0]
 **Pour rechercher un utilisateur vous avez le choix entre :**
-* Saisir son nom dans la recherche, 
-* Passer par l’ "Annuaire" / "Utilisateurs". Vous verrez toute la liste des utilisateurs dans un tableau.
+ - Saisir son nom dans la recherche, 
+ - Passer par l’ "Annuaire" / "Utilisateurs". Vous verrez toute la liste des utilisateurs dans un tableau.
 
 .. figure:: media-guide/image321.png
    :alt: 
@@ -362,8 +362,8 @@ Annuaire des Espace Collaboratif
 -------------------------------------------
 [EN COURS DE MISE A JOUR POUR V4.0]
 **Pour rechercher un Espace via l’annuaire :**
-* Allez dans le menu principal de gauche.
-* Cliquer sur Annuaire puis Espaces.
+ - Allez dans le menu principal de gauche.
+ - Cliquer sur Annuaire puis Espaces.
 Vous trouverez un tableau listant les espaces existants. 
 
 Vous pouvez utiliser les filtres dans le bloc à droite de l’écran pour préciser le type d’espace recherché : Organisation, Groupe, Public ou Extranet.
@@ -391,6 +391,7 @@ Onglet « Statistiques » dans un Espace
 Dans l'onglet **Statistiques**, vous pouvez choisir les informations que vous souhaitez retrouver graphiquement et sur une période sélectionnée. 
 Allez sur la page d’un espace, onglet « Statistiques ». 
 Deux sous-onglets sont disponibles :
+
 1. Sous-onglet « **Statistique des membres** » permet de visualiser les informations relatives aux membres actifs et inactifs, les nouveaux membres et membres connectés.
 .. figure:: media-guide/statistics-users-space.jpg
    :alt: 
@@ -479,14 +480,14 @@ Utilisation avancée et Modules additionnels
 Un guide séparé a pour but de donner les instructions de configuration de logiciels tiers fonctionnant avec la plate-forme GoFAST démultipliant les usages et la puissance de la plateforme.
 
 **Ces outils complémentaires permettent :**
-*  Des outils complémentaires en mobilité (dont le Tchat)
-*  Une synchronisation de GoFAST avec un PC pour travailler en mode « déconnecté » (type DropBox)
-*  L’accès à GoFAST sur les terminaux mobiles (tablettes/Smartphones) par l’explorateur de fichiers
-*  La visualisation et/ou l’édition en ligne de documents Office sur tablette
-*  La messagerie instantanée (« chat ») sur mobile
-*  La vidéoconférence sur mobile (dans navigateur)
-*  Des outils de dématérialisation (smartphone, copieur, ...)
-*  Des outils de signature électronique
+ - Des outils complémentaires en mobilité (dont le Tchat)
+ - Une synchronisation de GoFAST avec un PC pour travailler en mode « déconnecté » (type DropBox)
+ - L’accès à GoFAST sur les terminaux mobiles (tablettes/Smartphones) par l’explorateur de fichiers
+ - La visualisation et/ou l’édition en ligne de documents Office sur tablette
+ - La messagerie instantanée (« chat ») sur mobile
+ - La vidéoconférence sur mobile (dans navigateur)
+ - Des outils de dématérialisation (smartphone, copieur, ...)
+ - Des outils de signature électronique
 
 **Vous trouverez ce Guide ici :**
 http://gofast-docs.readthedocs.io/fr/latest/docs-gofast-users/doc-gofast-utilisation-avancee.html
