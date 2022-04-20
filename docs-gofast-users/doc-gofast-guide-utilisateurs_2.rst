@@ -25,8 +25,8 @@ Comment « Editer depuis PC » :
 ~~~~~~~~~~~~~~~~~~~~~~~~
 **Depuis la page d’un document :**
 
-- Allez dans le menu « Burger » (les actions contextuelles) 
-- Cliquez sur « Editer depuis PC »
+ - Allez dans le menu « Burger » (les actions contextuelles) 
+ - Cliquez sur « Editer depuis PC »
 
     .. figure:: media-guide/image157.png
        :alt: 
@@ -35,8 +35,8 @@ Cette action est possible également depuis d’autres pages de GoFAST où un do
 
 **Depuis l’explorateur de fichiers :**
 
-- Faites un clic-droit sur le document pour ouvrir le menu des actions contextuelles
-- Cliquez sur « Editer depuis PC »
+ - Faites un clic-droit sur le document pour ouvrir le menu des actions contextuelles
+ - Cliquez sur « Editer depuis PC »
 
 
 Dans certains cas, le système vous demande votre mot de passe avant d’ouvrir le document, afin de vous identifier. Il faut alors saisir votre identifiant et mot de passe (les mêmes que pour vous connecter à GoFAST).
@@ -107,9 +107,9 @@ Comment « Coéditer via OnlyOffice » :
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 **Depuis la page d’un document :**
 
-- Allez dans le menu « Burger » (les actions contextuelles).
-- Cliquez sur « Coéditer via OnlyOffice ».
-- La Suite collaborative s’ouvre dans un nouvel onglet de votre navigateur web. 
+ - Allez dans le menu « Burger » (les actions contextuelles).
+ - Cliquez sur « Coéditer via OnlyOffice ».
+ - La Suite collaborative s’ouvre dans un nouvel onglet de votre navigateur web. 
 
 .. figure:: media-guide/image163.png
    :alt: 
@@ -118,8 +118,8 @@ Cette action est possible également depuis d’autres pages de GoFAST où un do
 
 **Depuis l’explorateur de fichiers :**
 
-- Faites un clic-droit sur le document pour ouvrir le menu des actions contextuelles
-- Cliquez sur « Coéditer via OnlyOffice »
+ - Faites un clic-droit sur le document pour ouvrir le menu des actions contextuelles
+ - Cliquez sur « Coéditer via OnlyOffice »
 
 
 .. IMPORTANT::
@@ -179,9 +179,9 @@ Modifier les autres types de contenus (forums, Wiki…)
 Les actions de modification des autres types (ex. Forums, page Wiki) de contenus suit la même logique que pour les fichiers classiques : les actions sont listées dans le menu « Burger » du contenu. Les possibilités sont dépendantes du type de contenu et de vos droits sur ce contenu (cf. rôle que vous avez des le(s) Espace(s) où se trouve le contenu). 
 **Pour savoir comment modifier les autres types de contenus, merci de vous référez aux rubriques suivantes :**
 
-- « Réunions / Webconférence (Enterprise only) »
-- « Forums et Pages Wiki »
-- « Formulaires »
+ - « Réunions / Webconférence (Enterprise only) »
+ - « Forums et Pages Wiki »
+ - « Formulaires »
 
 Gestion des versions 
 -----------------------------------------------------
@@ -189,9 +189,9 @@ GoFAST dispose d’un gestionnaire de versions de document. Il consiste à numé
 
 **Objectifs principaux de la gestion des versions :**
 
-- Disposer d’un point de sauvegarde de toutes les versions pour pouvoir récupérer une ancienne version en cas de besoin. 
-- Horodater chaque version pour ainsi savoir de quand date la dernière version. 
-- Identifier l’utilisateurs à l’origine de chaque version 
+ - Disposer d’un point de sauvegarde de toutes les versions pour pouvoir récupérer une ancienne version en cas de besoin. 
+ - Horodater chaque version pour ainsi savoir de quand date la dernière version. 
+ - Identifier l’utilisateurs à l’origine de chaque version 
 
 **Récupérer une ancienne version :**
 
@@ -202,10 +202,10 @@ Si la version actuelle du document est erronée, par exemple si un collègue a s
 
 **Sur la page d’un document :**
 
-- Allez dans l’onglet « Version » du bloc d’information (à droite de la prévisualisation). 
-- Choisissez si vous affichez toutes les versions ou uniquement les version dites « majeures ». 
-- Cliquer sur le numéro de version souhaitée pour lancer le téléchargement. 
-- Le document va être téléchargé sur votre PC (souvent dans le dossier « Téléchargement » de votre Windows), avec à la fin du titre du fichier, le numéro de la version téléchargée.  
+ - Allez dans l’onglet « Version » du bloc d’information (à droite de la prévisualisation). 
+ - Choisissez si vous affichez toutes les versions ou uniquement les version dites « majeures ». 
+ - Cliquer sur le numéro de version souhaitée pour lancer le téléchargement. 
+ - Le document va être téléchargé sur votre PC (souvent dans le dossier « Téléchargement » de votre Windows), avec à la fin du titre du fichier, le numéro de la version téléchargée.  
 Si vous avez besoin d’écraser le document sur GoFAST pour le mettre à jour (=écraser la version en cours), faites un glisser-déposer dans la zone prévue pour, sur la page du document, au-dessus de la prévisualisation. 
 
 .. figure:: media-guide/Versioning-backup.jpg
@@ -221,9 +221,9 @@ Si vous avez besoin d’écraser le document sur GoFAST pour le mettre à jour (
 
 Pour plus d’information sur la gestion des versions, merci de vous référer aux rubriques : 
 
-- « Charger nouvelle version »
-- « Définir comme version majeure »
-- « Supprimer les versions mineures »
+ - « Charger nouvelle version »
+ - « Définir comme version majeure »
+ - « Supprimer les versions mineures »
 
 
 Rechercher des Documents / Contenus
@@ -237,23 +237,23 @@ Tout le contenu texte des documents (Word, Excel, PDF, mail, pages web, wiki, et
 
 Principaux formats pris en charge par l’indexation
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-* HyperText Markup Language (HTML)
-* Fichiers vectoriels (SVG, VSD)
-* Formats XML et dérivés (XHTML, OOXML, ODF)
-* Documents Microsoft Office (DOC, PPT, EXL, DOCX, PPTX, PPSX, EXLX, etc.)
-* OpenDocument Format (ODF)
-* Documents iWorks
-* Portable Document Format (PDF)
-* Format de publication électronique (EPUB)
-* Rich Text Format (RTF)
-* Formats de compression et d'emballage (Tar, RAR, AR, CPIO, Zip, 7Zip, Gzip, BZip2, XZ et Pack200)
-* Formats de texte (TXT)
-* Formats de flux et de la syndication (RSS, Atom)
-* Formats d'aide (CHM)
-* Formats audio - au cas où il y a du texte intégré, ex : paroles (mp3, mp4, Vorbis, Speex, Opus, Flac etc.)
-* Dossiers et archives de classe Java
-* Code source (Java, C, C++, Groovy, etc)
-* Formats e-mail (ex : eml, PST, MSG, TNEF)
+ - HyperText Markup Language (HTML)
+ - Fichiers vectoriels (SVG, VSD)
+ - Formats XML et dérivés (XHTML, OOXML, ODF)
+ - Documents Microsoft Office (DOC, PPT, EXL, DOCX, PPTX, PPSX, EXLX, etc.)
+ - OpenDocument Format (ODF)
+ - Documents iWorks
+ - Portable Document Format (PDF)
+ - Format de publication électronique (EPUB)
+ - Rich Text Format (RTF)
+ - Formats de compression et d'emballage (Tar, RAR, AR, CPIO, Zip, 7Zip, Gzip, BZip2, XZ et Pack200)
+ - Formats de texte (TXT)
+ - Formats de flux et de la syndication (RSS, Atom)
+ - Formats d'aide (CHM)
+ - Formats audio - au cas où il y a du texte intégré, ex : paroles (mp3, mp4, Vorbis, Speex, Opus, Flac etc.)
+ - Dossiers et archives de classe Java
+ - Code source (Java, C, C++, Groovy, etc)
+ - Formats e-mail (ex : eml, PST, MSG, TNEF)
 
 Recherche par mots-clefs
 -----------------------------------
@@ -285,27 +285,29 @@ Il est alors possible d’utiliser les « opérateurs booléens » qui sont des 
 
 Résultat de recherche
 ------------------------------
+
 Affichage du résultat par pertinence 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Tout un ensemble de critères est pris en compte dans le calcul de cette pertinence, dont : 
-- le nombre d’occurrences des mots-clefs recherchés, 
-- les emplacements des mots-clefs (ex : titre du fichier, d’un paragraphe dans le document…), 
-- les dates de création et modification (ex : un contenu récent sera privilégié vis-à-vis d’un document ancien), 
-- la popularité des contenus (ex : un document consulté souvent sera privilégié vis-à-vis d’un document qui n’a pas été consulté depuis des mois).
+ - le nombre d’occurrences des mots-clefs recherchés, 
+ - les emplacements des mots-clefs (ex : titre du fichier, d’un paragraphe dans le document…), 
+ - les dates de création et modification (ex : un contenu récent sera privilégié vis-à-vis d’un document ancien), 
+ - la popularité des contenus (ex : un document consulté souvent sera privilégié vis-à-vis d’un document qui n’a pas été consulté depuis des mois).
 
 Actions depuis le résultat de recherche
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
 Pour chaque document affiché dans le résultat de recherche, vous pouvez consulter :
-* L’icône indiquant le type du document (fichier texte, tableur, PDF, image, vidéo…) ou autre contenu (forum, page Wiki, profil utilisateur, Espace Collaboratif…),
-* Le titre du fichier (un clic dessus permet d'aller sur la page du document), 
-* Le menu « Burger » (les actions contextuelles) sur un document (icône avec 3 petite barres à droite du titre du document), 
-* Des "fragments" de texte qui sont des extraits du contenu avec les mots-clefs recherchés et qui permettent de vérifier si le document est bien celui que l’on cherche sans avoir à l’ouvrir (si plusieurs extraits sont trouvés, il est possible de les consulter l’un après l’autre en utilisant la pagination), 
-* Un bouton "prévisualiser" qui permet d’afficher un aperçu du document en un clic (NB : certains contenu ne le permettent pas car ne bénéficient pas la prévisualisation)
-* Des informations clefs sur le contenu (dont date de création/dernière modification et le(s) Espace(s) ù se trouve le document)
-* Les métadonnées associées aux documents, dont : étiquettes, catégories, importance et états des documents. 
+ - L’icône indiquant le type du document (fichier texte, tableur, PDF, image, vidéo…) ou autre contenu (forum, page Wiki, profil utilisateur, Espace Collaboratif…),
+ - Le titre du fichier (un clic dessus permet d'aller sur la page du document), 
+ - Le menu « Burger » (les actions contextuelles) sur un document (icône avec 3 petite barres à droite du titre du document), 
+ - Des "fragments" de texte qui sont des extraits du contenu avec les mots-clefs recherchés et qui permettent de vérifier si le document est bien celui que l’on cherche sans avoir à l’ouvrir (si plusieurs extraits sont trouvés, il est possible de les consulter l’un après l’autre en utilisant la pagination), 
+ - Un bouton "prévisualiser" qui permet d’afficher un aperçu du document en un clic (NB : certains contenu ne le permettent pas car ne bénéficient pas la prévisualisation)
+ - Des informations clefs sur le contenu (dont date de création/dernière modification et le(s) Espace(s) ù se trouve le document)
+ - Les métadonnées associées aux documents, dont : étiquettes, catégories, importance et états des documents. 
 
 .. figure:: media-guide/recherche-contextuelle.png
    :alt:
+
 
 Recherche contextuelle dans un document
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -333,15 +335,16 @@ Pour activer/désactiver cette option, sur la page d’un résultat de recherche
 
 Autres options de recherche disponibles
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-* **Conserver les filtres** (permet de changer les mots-clefs saisis dans sa recherche, sans avoir à remettre ses filtres entre deux recherches)
 
-* **Rechercher uniquement dans le titre** 
+ - **Conserver les filtres** (permet de changer les mots-clefs saisis dans sa recherche, sans avoir à remettre ses filtres entre deux recherches)
 
-* **Rechercher les contenus archivés** (état « pré-archivé ») 
+ - **Rechercher uniquement dans le titre** 
 
-* **Rechercher les contenus obsolètes** (état « Obsolète »)
+ - **Rechercher les contenus archivés** (état « pré-archivé ») 
 
-* **Rechercher dans la corbeille** (pour retrouver un document supprimé et restaurable) 
+ - **Rechercher les contenus obsolètes** (état « Obsolète »)
+
+ - **Rechercher dans la corbeille** (pour retrouver un document supprimé et restaurable) 
 
 
 Filtrer le résultat de recherche
@@ -358,42 +361,46 @@ La liste des filtres est conditionnée au résultat de recherche, ex : si pour l
 
 Entre parenthèses, le nombre de documents disponibles en ajoutant ce filtre est affiché)
 
-* Date de création, 
-* Date de modification, 
-* Type de document (selon le format de fichier), 
-* Etiquettes, 
-* Catégorie,
-* Espaces Collaboratifs,
-* Créateur, 
-* Dernier contributeur, 
-* Auteur, 
-* Etat, 
-* Importance, 
-* Langue,
-* Echéance.
+ - Date de création, 
+ - Date de modification, 
+ - Type de document (selon le format de fichier), 
+ - Etiquettes, 
+ - Catégorie,
+ - Espaces Collaboratifs,
+ - Créateur, 
+ - Dernier contributeur, 
+ - Auteur, 
+ - Etat, 
+ - Importance, 
+ - Langue,
+ - Echéance.
 
 Il est possible d’effacer les filtres de recherche un à un, en cliquant sur la croix rouge correspondante, dans le bloc à droite du résultat de recherche.
 
 
 Trier le résultat de recherche
 ----------------------------------------
+
 Par défaut, le résultat de recherche classe les documents par pertinence selon les mots-clefs recherchés (voir "fonctionnement du moteur de recherche").
  
 **Il est possible de modifier de tri pour classer les contenus par :** 
 
-* Titre (ordre alphabétique)
-* Auteur
-* Popularité
-* Date de création 
-* Date de modification
-* Type/Format 
+ - Titre (ordre alphabétique)
+ - Auteur
+ - Popularité
+ - Date de création 
+ - Date de modification
+ - Type/Format 
 
 .. NOTE::
 trier le résultat de recherche sur un autre critère que la pertinence, peut afficher en haut de la liste des contenus qui correspondent mois bien aux mots-clefs saisis, car le critère sélectionné pour le tri prime. Pour affiner votre recherche, il est donc plutôt conseillé d’utiliser les filtres qui se trouvent dans le bloc à droite du résultat de recherche. 
 
+
 Sauvegarde sa recherche
 ------------------------------------
+
 Avec GoFAST, il est possible de sauvegarder manuellement plusieurs recherches prédéfinies et les relancer en un clic à tout moment. Cela permet un gain de temps considérable.
+
 Une fois votre recherche au point (avec ou sans mots-clefs, avec vos filtres), il suffit de cliquer sur la disquette dans le bloc de droite (au-dessus des options de recherche), donner un titre à votre recherche puis appuyer sur « Enregistrer ». 
 
 .. figure:: media-guide/search-save-process.jpg
@@ -404,14 +411,14 @@ Une fois votre recherche au point (avec ou sans mots-clefs, avec vos filtres), i
 
 **Pour accéder aux recherches sauvegardées, vous avez deux possibilités :**
 
-* Dans la barre de recherche, à droite il suffit de cliquer sur la flèche descendante.
+ - Dans la barre de recherche, à droite il suffit de cliquer sur la flèche descendante.
 .. figure:: media-guide/search-saved-from-field.jpg
    :alt:
 
-* Depuis le bloc de recherche à droite, onglet « Mes recherches enregistrées », à ce niveau vous pouvez :
-   * Exécuter une recherche sauvegardée en cliquant dessus,
-   * Remplacer « écraser » la recherche sauvegardée par la recherche courante en cliquant sur la « Disquette », Supprimer cette recherche en allant sur le bouton « Corbeille »,
-   * Supprimer une recherche sauvegardée en cliquant sur « Corbeille ».
+ - Depuis le bloc de recherche à droite, onglet « Mes recherches enregistrées », à ce niveau vous pouvez :
+ 	- Exécuter une recherche sauvegardée en cliquant dessus,
+ 	- Remplacer « écraser » la recherche sauvegardée par la recherche courante en cliquant sur la « Disquette », Supprimer cette recherche en allant sur le bouton « Corbeille »,
+ 	- Supprimer une recherche sauvegardée en cliquant sur « Corbeille ».
 
 .. figure:: media-guide/search-saved-list-from-tabs.jpg
    :alt:
@@ -443,10 +450,13 @@ Il existe 4 façons d'accéder à l'explorateur de fichiers GoFAST File Browser 
 .. figure:: media-guide/FBrowser-03.png
    :alt: 
 
+
 Se repérer dans GoFAST File Browser
 -----------------------------------
+
 Se repérer dans l’explorateur de fichiers
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 **L'explorateur de fichiers GoFAST comporte 4 zones distinctes :**
 
 1. Menu des actions (barre horizontale en haut de l’explorateur de fichiers)
@@ -461,11 +471,11 @@ Les divers contenus affichés dans l’explorateur de fichiers sont identifiés 
 Chaque type d’espace collaboratif a une icône spécifique (Organisation, Groupe, Extranet, Public, Personnel). Les dossiers dits classiques sont représentés par l’icône « Dossier ».
 
 Dans la zone principale, les dossiers et fichiers sont présentés sous forme de tableau avec pour colonnes : 
-- Le nom du dossier ou du contenu (le titre) 
-- La taille 
-- La type de dossier ou le format, l’extension du fichier 
-- La date de dernière modification 
-- Infos : vos droits associés aux dossiers ou contenus et les partages en vigueur
+ - Le nom du dossier ou du contenu (le titre) 
+ - La taille 
+ - La type de dossier ou le format, l’extension du fichier 
+ - La date de dernière modification 
+ - Infos : vos droits associés aux dossiers ou contenus et les partages en vigueur
 
 .. Note:: 
    Pour plus de lisibilité, vous pouvez redimensionner les blocs 2, 3 et 4 ainsi que les en-têtes des colonnes de l’explorateur.
@@ -482,10 +492,12 @@ Dans la zone principale, les dossiers et fichiers sont présentés sous forme de
 
 Comprendre les icônes (Multi-emplacement et permissions)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 Dans l’explorateur de fichiers, il existe plusieurs icônes communes dans la colonne « Info » de la zone principale. Ces icônes donnent des informations concernant le multi-emplacement et vos permissions sur les documents, les répertoires et les espaces. L’objectif de cet affichage est de simplifier le travail de l’utilisateur et d'éviter la duplication inutile des éléments.
 
 .. figure:: media-guide/Display-multifiling-icons.jpg
    :alt:
+
 
 **Ci-dessous la liste des icônes et leur signification :**
 
@@ -531,12 +543,16 @@ Les fichiers ainsi déposés sont chargés et la progression est affichée dans 
 
    Pendant le chargement des fichiers depuis le PC vers GoFAST : ne pas supprimer, ni déplacer les fichiers côté PC car pour charger il faut conserver l'emplacement d'origine. 
 
+
 Barre d’outils de GoFAST File Browser
 --------------------------------------------------
 
 La barre d’outils de l’explorateur de fichier se situe dans la partie haute de l’écran.
+
 En survolant les icônes avec la souris, vous verrez à quelle action elle correspond avec un petit mot affiché sous l’icône.
-Les actions possibles depuis cette barre : 
+
+Les actions possibles depuis cette barre sont listées si après.  
+
 
 Modifier la manière dont sont affichés les contenus
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -548,14 +564,15 @@ Modifier la manière dont sont affichés les contenus
 
    Le mode d’affichage de l’explorateur choisi s’applique instantanément partout.
 
-Créer un nouveau contenu dans le dossier sectionné
+
+réer un nouveau contenu dans le dossier sectionné
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Si vous appuyez sur le bouton Nouveau, vous avez le choix de créer à l’emplacement en cours : 
-- Un dossier 
-- Un dossier depuis modèle permet d’ajouter plusieurs dossiers selon un template d’arborescence préenregistré 
-- Un ou plusieurs documents 
-- Un article (page Wiki)
+ - Un dossier 
+ - Un dossier depuis modèle permet d’ajouter plusieurs dossiers selon un template d’arborescence préenregistré 
+ - Un ou plusieurs documents 
+ - Un article (page Wiki)
 
 .. figure:: media-guide/FBrowser-07.png
    :alt:
@@ -563,6 +580,7 @@ Si vous appuyez sur le bouton Nouveau, vous avez le choix de créer à l’empla
 .. NOTE::
 
    Pour créer un nouveau document dans l'emplacement où vous vous trouvez, cliquez sur *Nouveau*, puis *Document*. Vous serez alors ramené vers le formulaire de création de document avec l'emplacement présélectionné.
+   
 
 Gérer les métadonnées (taxonomie) et les emplacements des contenu(s)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -572,17 +590,18 @@ Une fois les éléments sélectionnés, vous pouvez réaliser des actions en mas
 
 **Les actions disponibles sont :**
 
-- Gérer les métadonnées
-- Partager / Ajouter des emplacements  
-- Créer des publications 
-- Partager par email 
-- Pré-Archiver 
-- Ajouter au panier
+ - Gérer les métadonnées
+ - Partager / Ajouter des emplacements  
+ - Créer des publications 
+ - Partager par email 
+ - Pré-Archiver 
+ - Ajouter au panier
 
 .. Note:: Les modifications d'informations de taxonomie sont possibles sur : l'état, la catégorie, le(s) étiquette(s), et la langue. Dans le cas où vous ne souhaitez pas modifier tous ces éléments, laisser le champ positionné sur *Ne pas modifier*. Ces informations serviront ensuite dans les filtres d’un résultat de recherche. 
 
 .. figure:: media-guide/FBrowser-08.png
    :alt:
+
 
 Filtrer les contenus
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -594,21 +613,25 @@ Cette fonctionnalité permet de retrouver vos documents plus facilement dans le 
 
 
 
-
-
-
 Copier/Couper/Coller un document
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 **Copier/Coller un document :**
 
 L’icône des 2 feuilles superposées permet de Copier le document sélectionné dans un autre emplacement de la GoFAST, il vous faudra alors ensuite appuyer sur la dernière icône quand vous voudrez coller le document à l’emplacement où vous souhaitez le coller, clic-droit de la souris et « Coller ».
-Cette démarche revient à dire que le document sera dupliqué et le risque à ce moment-là est d’avoir des doublons car si quelqu’un modifie le document à un endroit, l’autre document copié ne sera pas modifié lui. Vous vous retrouverez alors avec 2 documents de même nom, à des emplacements différents, avec des versions différentes. Dans ce cas d’usage, nous vous conseillons de privilégier l’utilisation de la fonction multi-emplacements. Copier-coller un document est utile donc uniquement si on souhaite créer un nouveau document semblable au premier et en changeant le titre, mais non pour partager un même document dans plusieurs emplacements. 
+
+Cette démarche revient à dire que le document sera dupliqué et le risque à ce moment-là est d’avoir des doublons car si quelqu’un modifie le document à un endroit, l’autre document copié ne sera pas modifié lui. Vous vous retrouverez alors avec 2 documents de même nom, à des emplacements différents, avec des versions différentes.
+
+Dans ce cas d’usage, nous vous conseillons de privilégier l’utilisation de la fonction multi-emplacements. Copier-coller un document est utile donc uniquement si on souhaite créer un nouveau document semblable au premier et en changeant le titre, mais non pour partager un même document dans plusieurs emplacements.
+
+
 .. NOTE:: 
    GoFAST vous permet le multi-emplacement des documents sans créer de copies de vos documents. Le multi-emplacement est préférable (via les métadonnées), ainsi il permet de garder la même version du document visible à partir de plusieurs emplacements et évite les doublons avec des versions différentes et toujours avec la mise à jour la plus actuelle. ( = un seul document, une seule version actuelle, un permalien unique). 
 
 .. figure:: media-guide/FBrowser-09.png
    :alt: 
       
+
 **Couper/Coller un document**
 
 Le principe est proche de celui de Copier/Coller, mais le Couper/Coller permet de déplacer un dossier vers un autre emplacement sur GoFAST =. Cette fois, il faut utiliser les ciseaux pour couper et l’avant dernier icône noir et blanc pour Coller.
@@ -622,30 +645,34 @@ Cette démarche, contrairement à la précédente permet d’éviter les doublon
 .. NOTE:: 
 
    Cela fonctionne aussi avec les raccourcis claviers habituels : 
-   CTRL+ C pour Copier
-   CTRL + X pour Couper 
-   CTRL + V pour Coller
+    - CTRL+ C pour Copier
+    - CTRL + X pour Couper 
+    - CTRL + V pour Coller
 
 .. NOTE:: 
 
    C’est le même principe que de déplacer en glissant le document d’un emplacement à un autre dans l’arborescence. Vous ne pouvez Couper/Coller des documents que dans GoFAST. Vous ne pouvez donc pas coller un document externe à la GoFAST, il faut le télécharger préalablement. 
    Il est également possible de déplacer un document en modifiant ses emplacements.
   
+  
 Ajouter un/des document(s) au panier
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Lorsque vous sélectionnez un ou plusieurs fichiers vous avez la possibilité en cliquant sur l'icône « Panier » de les ajouter à votre panier documentaire. 
-Ce panier documentaire d'exécuter des actions sur une sélection de documents, comme lancer un processus de validation (workflow). 
-Pour plus de détails voire le paragraphe consacré aux Processus de Tâches (Workflows) » et au « Panier Documentaire »
+Ce panier documentaire d'exécuter des actions sur une sélection de documents, comme lancer un processus de validation (workflow).
+
+Pour plus de détails voire le paragraphe consacré aux Processus de Tâches (Workflows) » et au « Panier Documentaire ».
 
 .. figure:: media-guide/FBrowser-11.png
    :alt: 
+
 
 Actions depuis GoFAST File Browser (Explorateur de Fichiers)
 -----------------------------------------------------------
 
 Les actions autorisées sur les espaces, dossiers et/ou fichiers visibles dans l'explorateur de fichiers restent strictement conforme à vos droits sur l'espace concerné.
 Lorsque vous êtes dans l’explorateur de fichiers, faites un clic droit pour afficher le menu des actions contextuelles. 
+
 
 Actions sur un unique document
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -654,11 +681,12 @@ Lorsque vous faite un clic droit sur le document souhaité, le menu des actions 
 .. figure:: media-guide/FBrowser-13.png
    :alt:
 
-Pour connaître la liste des actions possibles via le menu des actions contextuelles sur un document (menu « Burger »), merci de vous référer à la rubrique : « XXXXXXXXXXXXXXXXXXXXXXXXXXXX »
-En plus des actions disponibles habituellement dans le menu « Burger », depuis l’explorateur de fichiers, vous avec ces deux actions supplémentaires : 
+Pour connaître la liste des actions possibles via le menu des actions contextuelles sur un document (menu « Burger »), merci de vous référer à la rubrique : « XXXXXXXXXXXXXXXXXXXXXXXXXXXX ».
 
-*Ouvrir dans un nouvel onglet (de votre navigateur)
-*Ouvrir dans l’onglet actif (remplace l’affichage en cours) 
+En plus des actions disponibles habituellement dans le menu « Burger », depuis l’explorateur de fichiers, vous avec ces deux actions supplémentaires : 
+ - Ouvrir dans un nouvel onglet (de votre navigateur)
+ - Ouvrir dans l’onglet actif (remplace l’affichage en cours) 
+
 
 Actions sur une sélection de fichiers ou dossier (classique)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -667,16 +695,17 @@ Pour sélectionner plusieurs documents dans l’explorateur de fichiers vous dev
 .. Note::
 
    Vous pouvez également sélectionner le premier document en tête de votre liste à sélectionner, puis maintenir la touche « Shift » enfoncée tout en cliquant sur le dernier document de la liste que vous souhaitez sélectionner. Cette démarche est valable sur : Windows, Mac, Linux
+   
 Via un clic-droit sur une sélection de plusieurs fichiers, les actions proposées sont restreintes par rapport à l’action sur un fichier unique : 
 
- * Supprimer 
- * Télécharger 
- * Gérer les métadonnées
- * Partager / Ajouter des emplacements 
-* Créer des Publications 
-* Partager par email
-* Pré-Archiver
-* Ajouter au panier 
+ - Supprimer 
+ - Télécharger 
+ - Gérer les métadonnées
+ - Partager / Ajouter des emplacements 
+ - Créer des Publications 
+ - Partager par email
+ - Pré-Archiver
+ - Ajouter au panier 
 
 .. figure:: media-guide/FBrowser-14.png
    :alt:
@@ -730,6 +759,7 @@ Le formulaire de gestion des publications s'ouvre et il faut alors cocher les em
 
    Les publications sont une fonctionnalité clef pour une gestion efficace et en toute sécurité des documents.
   
+
 Pré-Archiver en masse les documents
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Il est possible de prés-archiver une sélection de documents en une fois. 
@@ -747,9 +777,10 @@ Après avoir sélectionné les documents souhaités, il suffit de cliquer sur *G
 Partager / Ajouter des emplacements (Multi-emplacement = zéro doublon de fichier)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Il est possible d’ajouter des emplacements à un ou plusieurs documents en une fois, depuis l’explorateur de fichiers. Il s’agit ici de partager sans doublonner les documents.
+
 Pour en savoir plus sur la notion de Multi-emplacement, merci de vous référer aux rubriques : 
-- « Modifier les Emplacements/Visibilité 
-- « Espaces Collaboratifs »
+ - « Modifier les Emplacements/Visibilité 
+ - « Espaces Collaboratifs »
 
 Après avoir sélectionné les documents souhaités, il suffit de cliquer sur *Gérer* ou faire un clic-droit sur votre sélection, puis cliquer sur « Partager / Ajouter des emplacements ».
 
@@ -758,8 +789,8 @@ Après avoir sélectionné les documents souhaités, il suffit de cliquer sur *G
 
 **La fenêtre d’ajout d’emplacement s’ouvre :**
 
-- Cocher les différents emplacements où vous voulez partager le document.
-- Terminez en cliquant sur « Enregistrer »
+ - Cocher les différents emplacements où vous voulez partager le document.
+ - Terminez en cliquant sur « Enregistrer »
 
 Lisez bien la remarque dans l’encadré :
 
