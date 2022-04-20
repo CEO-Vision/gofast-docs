@@ -28,7 +28,7 @@ Tous les utilisateurs ayant accès, peuvent enrichir le forum en partageant leur
 - OU clic sur l’icône « flèche » sous un commentaire pour répondre à un commentaire existant. 
 
 .. figure:: media-guide/image067.png
-   :alt: 
+   :alt:  
 
 Vous pourrez ensuite soit supprimer (corbeille), soit modifier (crayon sur feuille) votre commentaire, ainsi que vous abonner/désabonner à ce forum via le menu « Burger ».
 Un message en haut à droite apparaîtra signalant la publication de votre nouveau commentaire.
@@ -69,7 +69,7 @@ Seuls les membres administrateurs ou contributeurs des Espaces peuvent créer un
 
 Merci de vous référer également à la rubrique : « Créer une page Wiki »
 
-Notion de Livre Wiki
+Notion de Livre Wiki 
 ~~~~~~~~~~~~~~~~~
 Un **Livre Wiki** est un regroupement de pages Wiki. 
 Toutes les Wiki créés dans un Espace sont listés comme pages du Livre Wiki de cet Espace. 
@@ -98,7 +98,7 @@ Accéder au Tchat
 Organisation des salons de discussions 
 --------------------------------------------------
 Un salon de discussions est normalement associé à un Espace Collaboratif. Dans ce cas, tous les membres de cet Espace ont accès à ce salon.
-.. NOTE:: C'est l'administrateur de l'espace qui peut décider d'associer un salon à l’espace. Toutefois, certains salons de discussions liés aux Espaces Collaboratifs sont créés automatiquement (les premiers niveaux des Espaces de type Organisation).
+.. NOTE:: C'est l'administrateur de l'espace qui peut décider d'associer un salon à l’espace. Toutefois, certains salons de discussions liés aux Espaces Collaboratifs sont créés automatiquement (les premiers niveaux des Espaces de type Organisation). 
 
 **Le Tchat est séparé en plusieurs zones :**
 - la zone des salons « favoris » : si on a indiqué favoris pours certains salons, ils seront dans la zone du haut dans la colonne des salons. 
@@ -348,7 +348,7 @@ Vous pouvez directement envoyer un mail ou appeler l’utilisateur via son profi
 .. figure:: media-guide/image323.png
    :alt: 
 
-Annuaire des Liste d’utilisateurs
+Annuaire des Liste d’utilisateurs 
 --------------------------------------------
 [EN COURS DE MISE A JOUR POUR V4.0]
 Pour rechercher des Listes d’utilisateurs via l’annuaire, allez sur Annuaire dans le menu de gauche, puis sur Listes d’utilisateurs.
@@ -386,7 +386,7 @@ EN COURS DE REDACTION – SERA PUBLIE FIN AVRIL 2022
 Statistiques 
 ==========
 
-Onglet « Statistiques » dans un Espace
+Onglet « Statistiques » dans un Espace 
 ---------------------------------------------------
 Dans l'onglet **Statistiques**, vous pouvez choisir les informations que vous souhaitez retrouver graphiquement et sur une période sélectionnée. 
 Allez sur la page d’un espace, onglet « Statistiques ». 
