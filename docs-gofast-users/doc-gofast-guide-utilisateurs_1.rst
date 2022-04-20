@@ -6,7 +6,7 @@ Accès à un Document/Contenu
 ---------------------------------------------------------------------------------------------------
 GoFAST permet d’accéder à un document ou autre contenu par divers moyens. Dès qu’un contenu est mentionné (titre du contenu), il suffit de cliquer dessus pour arriver sur la page de consultation du contenu et des informations associés. 
 **Il est possible d’accès à un document/contenu depuis :**
-  - le fil d’activité
+ - le fil d’activité
  - le tableau de bord
  - le résultat d’une recherche 
  - un lien depuis un autre document
