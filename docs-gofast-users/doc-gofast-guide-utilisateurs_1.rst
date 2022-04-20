@@ -29,9 +29,6 @@ A droite, se trouvent toutes les informations (métadonnées) liées au document
 
 Vous pouvez déplier le bloc caché de gauche (accès rapide à l’explorateur de fichiers sans quitter la page du document), pour voir les autres documents qui se trouvent dans ce même emplacement.
 
-.. figure:: media-guide/image376.png
-   :alt: 
-
 Vous pouvez accéder aux fonctionnalités liées au document via le menu « Burger » (menu des actions contextuelles : 3 barres horizontales, dans le coin droit au-dessus de la prévisualisation).
 
 .. figure:: media-guide/image375.png
