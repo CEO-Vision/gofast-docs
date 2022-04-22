@@ -235,6 +235,7 @@ GoFAST dispose de deux menus principaux :
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 **« Menu d’accès rapides » :** 
 Qui est affiché tout en haut de l’écran, sur toutes les pages de la plateforme (barre principale du haut). Ce menu permet notamment d’accéder à divers contenus et à la création de nouveaux contenus. 
+
 **« Menu principal latéral » :**
 Qui se trouve à gauche. Ce menu permet d’accéder aux principales pages de la plateforme, notamment au fil d’activité, tableau de bord, l’arborescence des Espaces Collaboratifs, annuaires, etc.
 
@@ -254,7 +255,7 @@ Menu d’accès rapides
  - Le barre de recherche : permet d’effectuer une recherche parmi tous les contenus auxquels vous avez accès sur la plateforme (documents, espaces, utilisateurs, forums, etc.). Plus d’information, voir la rubrique : Moteur de Recherche.
  - L’icône Panier : permet d’accéder à la liste des documents que vous avez mis dans le panier au préalable, pour effectuer des actions sur l’ensemble des documents du panier. Plus d’information pour cette partie, voir la partie : Panier Documentaire.
  - L’icône Drapeau ou lettres désignant la langue (ex. FR/EN) : permet de changer la langue de l’interface de la plateforme.
-
+ 
 .. figure:: media-guide/choix-langue.png
    :alt: 
 
