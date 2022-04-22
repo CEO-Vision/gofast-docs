@@ -829,6 +829,7 @@ Vous pouvez également consulter la rubrique « Fil d’Activité » ;
 S’abonner 
 ~~~~~~~~~
 **Objectif de s’abonner :** permet de gérer la fréquence des notifications liées à l’activité d’un document spécifique. Ainsi, vous pouvez par exemple avoir un rapport d’activité sur tous les contenus des espaces où vous êtres membres 2 fois par jour, mais être notifié immédiatement dès lors que ce document spécifique est modifié ou commenté. 
+
 **Pour s’aboner à un contenu/document :**
 
  - Sur la page d’un document, via le menu « Burger » (menu des actions contextuelles), allez dans « Voir plus » et cliquez sur « Epingler ».
