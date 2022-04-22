@@ -125,6 +125,7 @@ Dans le cas où vous avez besoin de créer un nouvel Espace à la racine, c’es
 Créer un Sous-Espace (dans un Espace)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Pour savoir comment créer de nouveaux Espaces/Sous-Espaces Collaboratifs, merci de vous référer à la rubrique : « Créer des Espaces Collaboratifs ».  
+
 .. NOTE:: Merci de lire en introduction la différence entre les espaces de type Organisation, Groupes, Extranet, Public.
 
 Rôles/droits des membres d’un Espace
@@ -179,14 +180,15 @@ Gérer les membres d’un Espace Collaboratif signifie **ajouter/enlever des mem
 .. NOTE:: 
    Ces droits sont strictement réservés aux membres administrateurs des Espaces. Toutefois, il existe un profil « Support-Utilisateurs » qui permet de pré-ajouter des membres dans des Espaces, sans en être membre lui-même : les administrateurs des Espaces devront valider ce pré-ajout avant que les nouveaux membres n’aient effectivement accès aux Espaces. 
 
-**La gestion des membres d’un Espace peut être réalisée via : **
+**La gestion des membres d’un Espace peut être réalisée via :**
+
  - Le menu « Burger » (actions contextuelles) sur la page d’un Espace
  - Le menu « Burger » (actions contextuelles) d’un Espace ou une sélection d’Espaces, depuis l’annuaire des Espaces
  - Via la gestion des Listes d’Utilisateurs (voir la rubrique : « Gérer des Listes d’Utilisateurs »)
 
 Rechercher un membre d’un espace
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
- - Allez dans l’onglet « Membres » sur la page d’un Espace et vous retrouverez le tableau des membres, avec les colonnes : **Nom, Prénom, Type, Rôle, A rejoint le, Statu**, ainsi que la colonne avec les menus des **Actions** possibles sur un membre (dernière colonne). 
+ - Allez dans l’onglet « Membres » sur la page d’un Espace et vous retrouverez le tableau des membres, avec les colonnes : **Nom, Prénom, Type, Rôle, A rejoint le, Statut**, ainsi que la colonne avec les menus des **Actions** possibles sur un membre (dernière colonne). 
  - Vous pouvez **trier** les membres en cliquant sur le nom des colonnes du tableau (la ligne d’entête du tableau). 
  - Vous pouvez **filtrer** les membres de l’Espace par : « statu » (actif ou bloqué), type (utilisateur unique ou liste d’utilisateurs), rôle (administrateur, contributeur, lecture seule). 
  - Vous pouvez **rechercher** un membre en saisissant son nom/prénom (au moins les 3 premières lettres).
@@ -219,6 +221,7 @@ Ajouter des membres à un Espace
 **Ajouter des membres** dans un Espace signifie donner accès à cet Espace à un ou plusieurs Utilisateur(s) ou à une Liste d’Utilisateurs, en spécifiant le rôle. 
 
 **Pour ajouter des membres à un Espace :**
+
 - Allez dans le menu « Burger » (les actions contextuelles, en haut à droite sur la page de l’Espace ou via la page « Annuaire des Espaces »).
 
 .. figure:: media-guide/image094.png
@@ -243,7 +246,8 @@ Ajouter des membres à un Espace
 
 Créer un utilisateur dans un Espace
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Cette fonctionnalité permet à la fois de créer un nouvel utilisateur et l’ajouter comme membre dans un Espace.  
+Cette fonctionnalité permet à la fois de créer un nouvel utilisateur et l’ajouter comme membre dans un Espace.
+
 **Pour créer un utilisateur dans l’Espace :**
  - Allez dans le menu « Burger » (les actions contextuelles, en haut à droite sur la page de l’Espace ou via la page « Annuaire des Espaces »).
  - Cliquez sur « Créer utilisateur dans l’Espace » et vous serez redirigé vers le formulaire de création d’un utilisateur.
@@ -305,6 +309,7 @@ Archiver un Espace permet de conserver tout son contenu en Lecture Seule, afin d
    Il est par exemple conseillé d’archiver un Espace de type Groupe, dédié à un projet, une fois que celui-ci est terminé.
 
 **Pour archiver un espace :**
+
  - Allez dans le menu « Burger » de l’Espace (actions contextuelles). 
  - Cliquez sur « Archivez cet espace ».
  - Une fenêtre de confirmation s’ouvre. 
@@ -330,6 +335,7 @@ Supprimer un Espace Collaboratif
    Supprimer un Espace est une action définitive : il n’y a pas de possibilité de le restaurer. Une fois supprimé, l’Espace ne sera plus visible nulle part. 
 
 **Pour supprimer un espace :**
+
  - Allez dans le menu « Burger » de l’Espace (actions contextuelles). 
  - Cliquez sur « Supprimer cet espace ».
  - Une fenêtre de confirmation s’ouvre. 
@@ -385,6 +391,7 @@ Modifier une liste d’utilisateurs
 Vous pouvez voir les membres d’une Liste d’Utilisateurs en allant sur cette liste, puis sur l’onglet « Membres ». Vous verrez alors qui est membre ou qui est Administrateur non-membre. 
 
 **Pour modifier les éléments de la liste (nom, description, membres), il faut :**
+
  - Cliquer sur le menu « Burger » (actions contextuelles) sur la page de la Liste ou depuis l’annuaire des Listes d’Utilisateurs. 
  - Cliquer sur « Editer cette Liste d’utilisateurs ». 
  - Dans le champ « Membres de la liste d'utilisateurs », commencez à saisir le nom/prénom d’un utilisateur et cliquez sur une des suggestions (liste qui s’affiche selon votre saisie). 
@@ -504,7 +511,9 @@ Modifier ses abonnements :
 Chaque utilisateur peut s’abonner ou se désabonner à tout moment des divers éléments, unitairement ou en masse. 
 
 **Pour gérer vos abonnements :**
-- Via le menu de votre Profil (dans la barre des accès rapides, en haut à droite), cliquez sur « Abonnements ». 
+
+- Via le menu de votre Profil (dans la barre des accès rapides, en haut à droite), cliquez sur « Abonnements ».
+
 .. figure:: media-guide/image316.png
    :alt: 
 
@@ -527,7 +536,8 @@ Dans le tableau des abonnements, vous pouvez modifier la fréquence pour chaque 
 
 S’abonner à un élément :
 --------------------------------------
-Pour vous abonner à un document/contenu, étiquette ou tout un Espace, il faut avant tout avoir accès à cet élément. 
+Pour vous abonner à un document/contenu, étiquette ou tout un Espace, il faut avant tout avoir accès à cet élément.
+
 **Pour s’abonner à un document/contenu :**
  - Allez sur la page du document/contenu et cliquez sur le menu « Burger » (actions contextuelles) OU faites un clic droit sur le document dans l’explorateur de fichiers. 
  - Dans le menu (des actions contextuelles), cliquez sur « s’abonner ».
@@ -568,6 +578,7 @@ Démarrer un processus de tâches
  - Depuis le panier documentaire. 
 
 **L'icône représentant les workflows est :**
+
 .. figure:: media-guide/Ecran-GoFAST_Workflows_icone-processus-et-taches.png
    :alt:
 
@@ -575,6 +586,7 @@ Démarrer un processus via la barre des accès rapides
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Pour sélectionner un processus et le démarrer depuis la barre d’accès rapide (menu du haut) :
+
  - Cliquez sur l’icône "Processus et Tâches" qui se trouve tout en haut de la page, 
  - Dans la fenêtre "Processus et Tâches", cliquez sur l’onglet "Nouveau" 
  
@@ -598,10 +610,13 @@ Démarrer un processus depuis la page d'un document
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Pour sélectionner un processus et le démarrer depuis la page d’un document :
 - Allez dans l’onglet « Tâches » qui se trouve dans le bloc d’informations à droite de la prévisualisation du document, 
+
 .. figure:: media-guide/Ecran-GoFAST_Workflows_lancer-processus-depuis-page-document.png
    :alt:
+   
  - Cliquer sur « Nouveau » et vous aurez la liste des processus disponibles. 
  - Cliquer sur le nom du processus souhaité ou sur l’icône ">"
+ 
 .. figure:: media-guide/[IMAGE]
    :alt:
 
@@ -648,9 +663,9 @@ Lorsque vous renseignez le formulaire du processus standard, vous avez la possib
     De cette manière, vous n’aurez pas besoin de créer vos Publications PDF à la main, elles seront automatiquement créées à l’étape choisie, puis partagées dans les mêmes emplacements que les documents de travail d’origine. 
 Si vous ne souhaitez pas générer de Publication PDF, laisser le choix sur « Pas de Publication PDF ». 
 
-**Etape de Signatures : **
-Vous pouvez demander des signatures sur les documents via le processus standard. 
+**Etape de Signatures :**
 
+Vous pouvez demander des signatures sur les documents via le processus standard. 
 Dans le cas où aucun parapheur n’est couplé à GoFAST, il s’agit d’une simple demande de signature : Les signataires pourront alors cliquez sur « éditer depuis PC » pour les documents concernés, puis apposer une signature via leur application PDF (ex. Acrobat Reader ou Foxit Reader), soit une image, soit un certificat électronique personnel (ex. sur clef USB RGS**).  
 
 Dans le cas où un parapheur est couplé à GoFAST via le module de signature (Yousign, Pastell i-Parapheur, ESUP-Signature, Xparaph, etc.) vous pouvez choisir le parapheur disponible (où l’un des processus de signature du parapheur). 
@@ -665,6 +680,7 @@ Modèle de processus
 Vous avez la possibilité de renseigner le formulaire du processus standard et de le sauvegarder comme modèle, afin de gagner du temps au moment où vous ou un autre utilisateur, voudrez lancer ce processus. 
 
 **Pour créer un modèle de processus :**
+
  - Comme pour lancer un processus, allez dans « Nouveau » (depuis la barre des accès rapides ou la page d’un document ou le panier documentaire)
  - Au niveau du processus, vous verrez une icône « + ». Cliquez dessus et le formulaire va s’ouvrir. 
  - Renseigner le formulaire du processus et cliquez sur : « Créer le modèle de processus »
@@ -692,6 +708,7 @@ A chaque démarrage du processus, les personnes assignées sont notifiées et c�
    :alt:
 
 **Les notifications indiquent :** 
+
  - le type de processus lancé et le nom spécifique renseigné par l’initiateur,
  - l’initiateur du processus, 
  - la date de démarrage et d’échéance,
@@ -710,6 +727,7 @@ Liste des tâches à traiter et assignées aux autres
 Chaque utilisateur a la possibilité de consulter la liste des tâches qu’il a à traiter, ainsi que les tâches qu’il a assignées à d’autres utilisateurs. De même, on est notifié sur la page d’un document, si celui-ci est associé à un processus en cours. 
 
 **Dans la barre des accès rapides (menu principal du haut) :** 
+
 - Un chiffre apparait sur l’icône « Processus et Tâches » indiquant le nombre de tâche que vous avez à traiter.
 - Cliquez sur l’icône pour afficher la liste de tâches.
 
@@ -722,6 +740,7 @@ Chaque utilisateur a la possibilité de consulter la liste des tâches qu’il a
 Vous avez alors un onglet distinct pour les tâches à traiter et un autre pour les tâches assignées à d'autres utilisateurs. Dans le cas où il y a beaucoup de tâches, vous disposez d’une pagination. 
 
 **Sur la page d'un document :** 
+
  - Un chiffre apparait dans l’onglet « Taches » du bloc d’informations du document, indiquant le nombre de tâche en attente d’être traitées (toutes les tâches en cours, non seulement les vôtres).
  - Cliquez une fois sur cet onglet, puis sur « Mes tâches » OU sur « Autres tâches », selon si vous souhaitez effectuer vos tâches ou vérifier celles assignées aux autres utilisateurs. 
 
@@ -729,6 +748,7 @@ Vous avez alors un onglet distinct pour les tâches à traiter et un autre pour 
    :alt:
 
 **La liste des tâches permet de consulter les informations clefs :** 
+
  - type et nom du processus
  - les tâches à assignées (ex. pour commentaire, pour validation, etc.)
  - le(s) document(s) concerné(s)
@@ -772,6 +792,7 @@ Historique des processus en cours et archivés
 Que ce soit pour les processus en cours ou archivés, vous avez la possibilité de consulter les détails des étapes et commentaires faits. 
 
 **Cet historique détaillé est accessible :**
+
  - Via la barre des accès rapides (menu principal du haut), clic sur l’icône « i » au niveau d’un processus.
  - Depuis la page d’un document, onglet « Tâches », soit sur l’icône « i » d’un processus s’il est en cours, soit via l’onglet « Historique » pour les processus terminés. 
  - Depuis le Tableau des Processus (merci de vous référer à la rubrique « Tableau des Processus »). 
@@ -796,6 +817,7 @@ Historique des processus terminés
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 **Depuis la page d’un document :**
+
 Pour consulter la liste des processus terminés, associés à un document rendez-vous sur la page du dit document et cliquez sur l’onglet « Tâches » du bloc d’informations, puis « Historique » dans le menu déroulant.
 
 .. figure:: media-guide/Ecran-GoFAST_Workflows_consulter-processus-depuis-page-document.png
@@ -840,6 +862,7 @@ Le tableau de bord offre divers filtres afin de rechercher un processus.
    :alt:
 
 **La recherche se fait avec un ou plusieurs critère(s) :**
+
  - Titre du processus : Nom complet du processus.
  - Démarré après le :  Date après le démarrage du processus.
  - Échéance avant le :  Date d‘échéance avant la fin du processus.
@@ -858,15 +881,19 @@ Afficher les détails d'un processus
 Pour consulter les détails d’un processus, il suffit de cliquer sur le nom de ce dernier dans les Résultats de recherche. 
 
 **Trois sections sont disponibles :**
+
 1- Tâches du processus 
+
 .. figure:: media-guide/Dashboard-workflow-processus-tasks.jpg
    :alt:
 
 2- Documents dans ce processus
+
 .. figure:: media-guide/Dashboard-workflow-doc-linked.jpg
    :alt:
 
 3- Historique du processus
+
 .. figure:: media-guide/Dashboard-workflows-history.jpg
    :alt:
 
@@ -893,6 +920,7 @@ La configuration la plus classique consiste à créer 4 colonnes : Démarrage, E
 Gérer les colonnes 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 **Pour créer une nouvelle colonne :**
+
  - Renseignez le champ « Saisir le nom de la nouvelle colonne »
  - Cliquez sur le bouton « Ajouter la colonne » et votre nouvelle colonne apparait alors dans le tableau kanban. 
 
@@ -995,6 +1023,7 @@ Les cartes sont visibles aux utilisateurs membres de l’Espace où elles se tro
 **Vous pouvez y accéder :**
 
  - Depuis l’onglet « Tâche » ou « Calendrier » d’un Espace Collaboratif ou son Espace Personnel.
+ 
 .. figure:: media-guide/kanban-card-display-calendar.jpg	
    :alt:
 
@@ -1002,6 +1031,7 @@ Les cartes sont visibles aux utilisateurs membres de l’Espace où elles se tro
    La carte apparaîtra dans le calendrier à la date d'échéance de la carte et non à la date d'échéance de la checklist.
 
  - Depuis l’icône « processus et tâches » dans la barre des accès rapides (menu principal du haut), où il n’y a que les tâches où vous avez été assigné. Pour aller sur une tâche, cliquez sur l’icône « i » en bas à droite de cette tâche.
+ 
 .. figure:: media-guide/Kanban-card-display-menu-tasks.jpg	
    :alt:
 
@@ -1025,8 +1055,10 @@ La recherche se fait uniquement sur le titre de la carte. Il suffit de taper le 
 Permissions  
 -----------------
 Pour connaître les permissions sur la gestion des colonnes et des cartes dans un tableau Kanban, merci de vous référer à la rubrique : « Tableau des permissions par rôles » 
+
 Notifications 
----------------------- 
+----------------------
+
 +---------------------------------------+-------------+--------------+----------------------+
 | Notifications	                        | Responsable | Participants | Assignés aux actions |
 +=======================================+=============+==============+======================+
