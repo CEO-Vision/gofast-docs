@@ -570,7 +570,7 @@ Modifier la manière dont sont affichés les contenus
    Le mode d’affichage de l’explorateur choisi s’applique instantanément partout.
 
 
-réer un nouveau contenu dans le dossier sectionné
+Créer un nouveau contenu dans le dossier sectionné
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Si vous appuyez sur le bouton Nouveau, vous avez le choix de créer à l’emplacement en cours : 
@@ -686,7 +686,7 @@ Lorsque vous faite un clic droit sur le document souhaité, le menu des actions 
 .. figure:: media-guide/FBrowser-13.png
    :alt:
 
-Pour connaître la liste des actions possibles via le menu des actions contextuelles sur un document (menu « Burger »), merci de vous référer à la rubrique : « XXXXXXXXXXXXXXXXXXXXXXXXXXXX ».
+Pour connaître la liste des actions possibles via le menu des actions contextuelles sur un document (menu « Burger »), merci de vous référer à la rubrique : « Menu ses actions contextuelles  ».
 
 En plus des actions disponibles habituellement dans le menu « Burger », depuis l’explorateur de fichiers, vous avec ces deux actions supplémentaires : 
  - Ouvrir dans un nouvel onglet (de votre navigateur)
