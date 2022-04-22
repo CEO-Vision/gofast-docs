@@ -21,6 +21,7 @@ Il faut cliquer sur le nom du forum pour aller dessus.
 Participer dans un forum
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Tous les utilisateurs ayant accès, peuvent enrichir le forum en partageant leurs commentaires.
+
 **Pour partager un commentaire dans un forum :**
  - Allez sur la page du forum (voir rubrique précédente).
  - Via le menu « Burger », clic sur « Nouveau commentaire ».
@@ -57,6 +58,7 @@ Il faut cliquer sur le nom du Wiki pour aller dessus ou faire un double-clic si 
 Participer dans un Wiki
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Tous les utilisateurs ayant accès, peuvent partager des commentaires sur le Wiki.
+
 **Pour partager un commentaire dans un Wiki :**
  - Allez sur la page du Wiki (voir rubrique précédente).
  - Via le menu « Burger », clic sur « Nouveau commentaire ». 
@@ -82,7 +84,9 @@ Messagerie instantanée / TChat (Enterprise only)
 ===============================================
 
 GoFAST inclut un outil de discussion/conversation en temps réel (basé sur « Element » anciennement Riot Matrix) similaire à MS-Teams et Slack. Mais, contrairement à ces 2 solutions concurrentes, vous savez exactement où sont stockés vos données, dans un datacenter souverain ou dans votre datacenter suivant l’hébergement choisi par votre Organisation/Entreprise.
+
 .. NOTE:: Element est un logiciel libre de messagerie instantanée et c’est la technologie retenue par l’Etat Français (sous le nom de Tchap) et Thales (sous le nom de Citadel Team).
+
 L’outil permet des discussions de personne à personne ou des salons rassemblant plusieurs utilisateurs autour d’une même thématique. Ces échanges peuvent être des messages texte, des images ou des conférences audio/video.
 
 Accéder au Tchat 
@@ -98,7 +102,10 @@ Accéder au Tchat
 Organisation des salons de discussions 
 --------------------------------------------------
 Un salon de discussions est normalement associé à un Espace Collaboratif. Dans ce cas, tous les membres de cet Espace ont accès à ce salon.
-.. NOTE:: C'est l'administrateur de l'espace qui peut décider d'associer un salon à l’espace. Toutefois, certains salons de discussions liés aux Espaces Collaboratifs sont créés automatiquement (les premiers niveaux des Espaces de type Organisation). 
+
+.. NOTE::
+
+C'est l'administrateur de l'espace qui peut décider d'associer un salon à l’espace. Toutefois, certains salons de discussions liés aux Espaces Collaboratifs sont créés automatiquement (les premiers niveaux des Espaces de type Organisation). 
 
 **Le Tchat est séparé en plusieurs zones :**
  - la zone des salons « favoris » : si on a indiqué favoris pours certains salons, ils seront dans la zone du haut dans la colonne des salons. 
@@ -217,6 +224,7 @@ Retrouver/Consulter un formulaire
 
 
 **La page d’un formulaire affiche les onglets suivants :** 
+
 1. "Remplir" avec l’introduction et les champs à remplir par les utilisateurs
 2. "Gérer" où vous avez la possibilité de créer, modifier, supprimer les champs
 3. "Résultats" où seront présentées les résultats quantifiés, les soumissions et les valeurs saisies par les utilisateurs 
@@ -226,9 +234,12 @@ Retrouver/Consulter un formulaire
 
 
 **L’accès à ces onglets dépend de vos droits sur le formulaire :**
+
 1. Tous les membres des Espaces où est partagé le formulaire pourront accéder aux onglets "Remplir" et "Vos soumissions". Attention, dans ce dernier onglet chaque utilisateur ne voit que les soumissions qu’il a lui-même réalisées. 
-2. Seul le créateur du formulaire et les administrateurs des Espaces où se trouve le formulaire pourront accéder aux onglets "Gérer" et "Résultats". 
+2. Seul le créateur du formulaire et les administrateurs des Espaces où se trouve le formulaire pourront accéder aux onglets "Gérer" et "Résultats".
+
 Gérer un formulaire : ajouter, déplacer, supprimer les champs 
+
 1. Pour ajouter des champs au formulaire, allez sur l’onglet "Gérer"
 2. Une fois sur l’onglet "Gérer", allez dans la zone "Edition"
 3. Glissez-déposez les champs souhaités depuis la liste des champs disponibles (à droite), vers la zone de construction du formulaire (à gauche)
@@ -239,6 +250,7 @@ Gérer un formulaire : ajouter, déplacer, supprimer les champs
 
 Gérer un formulaire : modifier les champs
 -------------------------------------------------------
+
 1. Pour modifier un champ, cliquez sur l’icône "crayon" [ajouter icone] qui s’affiche en haut à droite au survol de la sourie sur le champ. 
 2. Vous allez alors rentrer dans la configuration du champ. Selon le type de champs, diverses possibilités seront proposées. 
 3. Pour modifier le nom d’un champ, saisissez le texte souhaité dans la propriété "Titre"
@@ -253,6 +265,7 @@ Gérer un formulaire : modifier les champs
 Gérer un formulaire : configurer 
 ---------------------------------------------
 La partie "Configurer" dans l’onglet "Gérer" vous permet de modifier des conditions telles que : 
+
 1. Le nombre maximal de soumissions autorisées (au total)
 2. Le nombre maximal de soumissions autorisées par utilisateur et sur une période donnée (ex. par jour, par heure…) 
 3. Modifier le statut du formulaire "Ouvert" pour permettre aux utilisateurs de renseigner le formulaire ou "Fermé" pour empêcher toute saisie. 
@@ -262,18 +275,22 @@ Pensez à cliquer sur "Enregistrer la configuration" si vous avez apporté des m
 Exploiter les réponses d’un formulaire
 ---------------------------------------------------
 L’onglet "Résultats" est accessible par le créateur du formulaire et les administrateurs des espaces où se trouve le formulaire. 
+
 .. figure:: media-guide/form07.png
    :alt: 
 
 Zone "Statistiques" : permet d’avoir la synthèse quantifiée des réponses pour chaque champ du formulaire.
+
 .. figure:: media-guide/form09.png
    :alt: 
 
 Zone "Soumissions" : permet de visualiser unitairement toutes les soumissions de chaque utilisateur.
+
 .. figure:: media-guide/form08.png
    :alt: 
 
 Zone "Export" permet d’exporter les données au format CSV. Il suffit de choisir les champs souhaités et de cliquer sur "Télécharger".
+
 .. figure:: media-guide/form10.png
    :alt:
 
@@ -287,6 +304,7 @@ Favoris, Derniers contenus vus et Flux RSS
 Derniers contenus vus
 ------------------------------
 Vous pouvez à tout moment retourner sur l’un des 10 derniers contenus vus, autrement dits, ceux que vous avez consultés en allant sur la page du contenu. 
+
 **Pour retrouver ses 10 derniers contenus vus :**
  - Passer par la barre des accès rapides (menu principale du haut) 
  - Cliquez sur l’icône « chrono »
@@ -330,6 +348,7 @@ Annuaires
 Annuaire des Utilisateurs
 ----------------------------------
 [EN COURS DE MISE A JOUR POUR V4.0]
+
 **Pour rechercher un utilisateur vous avez le choix entre :**
  - Saisir son nom dans la recherche, 
  - Passer par l’ "Annuaire" / "Utilisateurs". Vous verrez toute la liste des utilisateurs dans un tableau.
@@ -361,6 +380,7 @@ Vous pouvez ensuite utiliser les filtres dans le bloc à droite de l’écran po
 Annuaire des Espace Collaboratif
 -------------------------------------------
 [EN COURS DE MISE A JOUR POUR V4.0]
+
 **Pour rechercher un Espace via l’annuaire :**
  - Allez dans le menu principal de gauche.
  - Cliquer sur Annuaire puis Espaces.
@@ -393,10 +413,12 @@ Allez sur la page d’un espace, onglet « Statistiques ».
 Deux sous-onglets sont disponibles :
 
 1. Sous-onglet « **Statistique des membres** » permet de visualiser les informations relatives aux membres actifs et inactifs, les nouveaux membres et membres connectés.
+
 .. figure:: media-guide/statistics-users-space.jpg
    :alt: 
 
 2. Sous-onglet « **Statistique documentaires** », permet de visualiser toutes les informations relatives aux documents par sa catégorie, son état et son importance.
+
 .. figure:: media-guide/statistics-docs-space.jpg
    :alt: 
 
