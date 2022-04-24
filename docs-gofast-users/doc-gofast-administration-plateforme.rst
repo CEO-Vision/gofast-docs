@@ -25,29 +25,34 @@ Les 3 profils principaux
  - **Super-administrateur** : il s’agit d’un profil technique qui permet de réaliser les diverses configurations de la plateforme (ex. coupler avec son annuaire interne, avec son serveur de messagerie…). Ce profil ne permet pas de voir l’arborescence des Espaces, ni des comptes existants (sauf pour les Espaces où cet utilisateur super-administrateur est membre).
 
 .. NOTE::  Aucun "Profil" ne donne accès par défaut aux Espaces Collaboratifs, ni leurs contenus. Ces derniers sont gérés indépendamment, via la notion de membre et de rôle dans un espace. Il s’agit ici de garantir la confidentialité en évitant qu’un utilisateur technique ou de support n’ait accès à toutes données gérées sur la plateforme, sans qu’un responsable métier ne l’ait expressément ajouté comme membre d’un espace.
+
 .. NOTE::  Un utilisateur ayant le profil "standard" ne peut pas être "Support-utilisateurs", ni "Super-administrateur". Il est possible de cumuler le profil "Support-utilisateurs" et "Super-administrateur" (pratique dans les petites structures/entreprises).
 
 Autres profils disponibles
 -----------------------------------
 - **Externe** : destiné à identifier les utilisateurs externes à l’entité (entreprise/organisation), tels que les partenaires, prestataires, clients, fournisseurs, etc. Les externes n’ont pas accès aux espaces "Publics" qui sont réservés uniquement aux salariés/agents internes. 
+
 .. NOTE::  Le profil externe est cumulable avec certains des autres profils. Il est donc possible d’être soit « externe » et « standard », ou bien « externe » et « support-utilisateur », dans le cas par exemple, où l’on souhaite confier le support niveau 1 et l’accompagnement des responsables métiers (qui sont souvent les administrateurs des espaces) à un prestataire. Un utilisateur externe ne peut pas être « super-administrateur ». 
 
 - **Broadcaster** : permet de partager des documents dans des espaces collaboratifs sans en être membre, ou les espaces personnels des autres utilisateurs. Attention : ce profil ne permet pas de voir les contenus (ni dossiers, ni fichiers) dans ces espaces, mais uniquement d’en déposer.
+
 .. NOTE::  Ce profil peut être cumulé avec les autres profils. 
 
  - **Restrictions des commentaires et annotations** : un utilisateur ayant ce profil ne peut faire que des commentaires et annotations privées. Il sera alors le seul à pouvoir les consulter et ne pourra pas les partager avec les autres utilisateurs (il s’agit des commentaires et annotations faits sur des documents/contenus).
+
 .. NOTE::  Ce profil peut être cumulé avec le profil standard.
 
 
 Tableau des permissions par profil
 =============================
-Mettre sur la doc en ligne le tableau (après avoir ajouté une colonne "Standard" : https://gofast.ceo-vision.com/node/124618 
+En cours de mise-à-jour
 
 .. NOTE::  Pour les rôles liés aux Espaces Collaboratifs et leur administration, merci de vous référer à la rubrique "Gestion des Espaces Collaboratifs".
 
 Profil « Support-utilisateurs »
 ========================
 Le profil de "support-utilisateurs" a vocation d’accompagner les utilisateurs, en particulier ceux ayant le rôle administrateur d’espaces, dans la gestion des membres et veiller à la cohérence de l’arborescence des espaces. 
+
 .. NOTE::  En aucun cas le profil de "support-utilisateurs" se substitue aux administrateurs des espaces collaboratifs, qui doivent être des responsables métiers (ex. chefs de services/directions, des responsables d’équipe/projets, etc.). Toutefois, il peut lui-même être un administrateur dans des Espaces dont il est membre. 
 
 Visibilité sur les Espaces
@@ -55,6 +60,7 @@ Visibilité sur les Espaces
 Le support-utilisateur a la visibilité de tous les Espaces Collaboratifs existants via l’annuaire des espaces et le moteur de recherche :
  - Dans le cas où il n’est pas membre, il ne pourra pas accéder aux contenus des Espace (ni fichiers, ni dossiers). 
  - Dans le cas où il est membre d’un espace, il peut y accéder et ces permissions dépondent alors du "rôle" qu’il a dans cet Espace.
+
 .. NOTE::  Pour plus d’informations, merci de vous référer à la rubrique : « tableau des permissions par profil ».
 
 Visibilité sur les Utilisateurs 
@@ -115,8 +121,11 @@ Il s'agit de permettre aux utilisateurs de voir ou pas les différents Espaces C
 Visibilité des utilisateurs Désactivés
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Pour des raisons de traçabilité (audit et sécurité), les utilisateurs ayant quitté l’entité (entreprise/organisation) seront désactivés sur la plate-forme et non supprimés définitivement. 
+
 .. NOTE::  Attention à distinguer les utilisateurs « Désactivé » (volontairement), des utilisateurs « bloqués » (ceux ayant tenté de se connecter avec un mauvais mot de passe plus de 5 fois, et qui doivent être débloqués par un « support-utilisateurs » ou un « super-administrateur »).  
+
 Les profils des utilisateurs désactivés sont inaccessibles et anonymisés aux yeux des utilisateurs standards. Seuls les administrateurs de la plate-forme (profil « support-utilisateurs ») peuvent les retrouver et les réactiver si besoin.
+
 .. NOTE::  Les utilisateurs désactivés sont visibles par les utilisateurs « support-utilisateurs » dans l’annuaire des utilisateurs, dans tous les espaces où ils étaient membres, ainsi que via le moteur de recherche. 
 
 **Désactiver/Réactiver un utilisateur :**
@@ -139,6 +148,7 @@ Pour désactiver ou réactiver un utilisateur et donc, bloquer ou autoriser son 
 Configuration : Catégories 
 --------------------------------------
 Les « Catégories » sont des métadonnées qu’un utilisateur peut appliquer sur les documents auxquels il a accès. Il s’agit du type de document, par exemple : courrier, facture, rapport, contrat, etc. 
+
 .. NOTE::
    Seul le profil « support-utilisateurs » peut gérer les catégories. 
 
@@ -166,6 +176,7 @@ Filtrer les catégories par Espace permet de limiter la liste de ces catégories
 
 .. figure:: media-guide/DUA_image_8.jpg
    :alt:
+
 
 .. NOTE::
    Laissez vide pour autoriser la catégorie dans tous les espaces.
@@ -223,6 +234,7 @@ Cliquez sur « Enregistrer » pour valider.
 .. figure:: media-guide/DUA_image_5.jpg
    :alt: 
 
+
 .. NOTE:: Pour supprimer une DUA, il suffit de laisser le champs DUA (Durée d’Utilité Administrative) vide puis Enregistrer.
 
 
@@ -242,6 +254,7 @@ Accès aux Statistiques
  À partir du menu principal de gauche, aller dans « Statistiques ».   
 .. figure:: media-guide/statistics-access.jpg
    :alt: 
+
 
 .. NOTE:: Seuls les utilisateurs ayant le profil « support-utilisateurs » sont habilités à accéder aux statistiques globales de la plateforme. Toutefois, les divers administrateurs des espaces peuvent également y accéder, mais les statistiques affichées seront limitées aux espaces qu’administrent ces utilisateurs.  
 
@@ -293,8 +306,11 @@ Dans l’onglet **Statistiques documentaires** il est possible de réaliser un e
  - Créé par (utilisateur ayant déposé/créé le document sur la plateforme) 
  - Date de modification (dernière date où le document a été modifié/édité)
 
+
 .. NOTE:: Pour effectuer l’export d’une liste de documents, il est nécessaire de sélectionner au moins un espace.
+
 .. NOTE:: Il est possible de sélectionner les informations de votre choix pour la liste des documents, en sélectionnant une ou plusieurs données parmi celles disponibles (cochez la case).  
+
 .. figure:: media-guide/Export-members.jpg
    :alt:
 
@@ -341,6 +357,7 @@ Supprimer un utilisateur (s’il ne s’est jamais connecté)
  - etc.
 
 **Aller sur l’audit :**
+
 .. NOTE:: Cette fonctionnalité est accessible uniquement aux utilisateurs ayant le profil « support-utilisateur ». 
 
 L’audit complet est accessible via le menu principal de gauche, clic sur « Audit ». 
@@ -374,6 +391,7 @@ En cours de mise à jour
 
 Créer / Gérer les utilisateur(s)
 -------------------------------------------
+
 .. NOTE::  Le profil "support-utilisateur" peut créer des comptes-utilisateurs. Toutefois, il ne peut que les pré-ajouter dans les Espaces Collaboratifs car les administrateurs de ces Espaces devront valider l’accès pour ces nouveaux membres.  
 
 Créer un utilisateur et lui donner des accès aux Espaces Collaboratifs
@@ -418,6 +436,7 @@ Pour pouvoir réaliser les actions autorisées sur les listes, il faut allez dan
 Créer / Gérer les espaces
 ----------------------------------
 Les utilisateurs ayant le profil de « support-utilisateurs » ont la possibilité de réaliser diverses actions sur les espaces collaboratifs. Toutefois, la gestion des espaces et de leurs membres dépend de la validation des administrateurs de ces Espaces. 
+
 .. NOTE::  merci de consulter l’introduction afin de comprendre les objectifs de ce profil dans la gestion de l’arborescence des Espaces Collaboratifs et des utilisateurs.
 
 **Sur la page d’un espace, le « support-utilisateurs » peut consulter les onglets suivants :** 
@@ -431,7 +450,9 @@ Créer des Espaces à la "Racine"
  - Via la barre des accès rapides (menu du haut), cliquez sur "+" , puis sur espace, pus le type d’espace souhaité (Organisation, Groupe…)  
  - Espace à la racine = 1er niveau dans Organisations, Groupes, Extranet, Public
  - L’utilisateur ayant créé un espace devient automatiquement administrateur de cet espace. Il faut alors ajouter des administrateurs supplémentaires et les autres membres. 
+
 .. NOTE::  Le profil « support-utilisateurs » est le seul à pouvoir créer un espace « à la racine ». 
+
 Pour plus d’informations, merci de vous référer à la rubrique : « Créer un Espace Collaboratif ». 
 
 Pré-ajouter des membres dans des Espaces Collaboratifs
@@ -459,7 +480,7 @@ Pour contacter les administrateurs d’un espace :
  - Cliquez sur le menu « Burger », puis sur « Contacter administrateurs ». 
  - Une fenêtre s’ouvre pour rédiger le message et valider l’envoi. 
 
-NOTE : Cette action est possible avec le profil "Support-utilisateurs" ou "Super-administrateur". A la différence que seul le profil "Support-utilisateur" peut voir toute l’arborescence des Espaces Collaboratifs (via les annuaires et la recherche).
+.. NOTE::  Cette action est possible avec le profil "Support-utilisateurs" ou "Super-administrateur". A la différence que seul le profil "Support-utilisateur" peut voir toute l’arborescence des Espaces Collaboratifs (via les annuaires et la recherche).
 
 Restaurer un document
 -----------------------------------------------
@@ -524,6 +545,7 @@ Une fois la connexion établie avec le Serveur LDAP, aller dans la section «Aut
 L'activation de l'authentification déléguée SASL permet aux utilisateurs de se connecter à GoFAST en utilisant les informations d'identification de l'entreprise (Active Directory, OpenLDAP...).
 .. figure:: media-guide/Synchro-ldap-delegation.jpg
    :alt: 
+
 .. NOTE:: L’authentification SASL ne fonctionne qu'avec les utilisateurs qui sont enregistrés dans l'annuaire de l'entreprise. En tant qu'administrateur, vous pouvez également activer/désactiver l'authentification déléguée pour un utilisateur spécifique directement à partir du formulaire de modification de compte. Assurez-vous que les paramètres LDAP sont appropriés pour que cette fonctionnalité puisse être activée.
 
 Configuration de la synchronisation
