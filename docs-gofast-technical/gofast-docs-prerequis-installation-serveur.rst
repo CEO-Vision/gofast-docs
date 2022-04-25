@@ -18,7 +18,7 @@ Composants et configurations optionnels
 
 - Montage "Lecteur Réseau" (voir http://gofast-docs.readthedocs.io/fr/latest/docs-gofast-users/doc-gofast-guide-utilisateurs.html#ajouter-un-ou-plusiers-documents-par-le-lecteur-reseau)
 - ITHitDocumentOpener (pour l'édition en ligne de contenus non-Office/LibreOffice)
-- Synchronisation hors-ligne (voir http://gofast-docs.readthedocs.io/fr/latest/docs-gofast-users/doc-gofast-utilisation-avancee.html#installation-cmissync)
+- Synchronisation hors-ligne (voirhttps://gofast-docs.readthedocs.io/fr/latest/docs-gofast-users/doc-gofast-utilisation-avancee.html#synchronisation-locale-gofast-hors-ligne)
 
 Pré-requis et installation Serveur
 ==================================
