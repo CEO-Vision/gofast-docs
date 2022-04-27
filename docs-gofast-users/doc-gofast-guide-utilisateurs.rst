@@ -290,8 +290,7 @@ Vous pouvez plier et déplier ce menu avec l’icône burger en haut à gauche.
      - Listes Utilisateurs : toutes les listes d’utilisateurs que vous avez le droit de voir, avec le nom, le créateur, le nombre d’administrateurs dans la liste, le nombre de membres et la date de création.
      - Espaces : tous les espaces que vous avez le droit de voir, avec le nom, le type d’espace, le nombre des documents, le nombre des administrateurs, etc. 
      - Contact : liste des contacts (non-utilisateurs) avec le nom, le prénom, l’entité, l’email et le mobile. 
-                        
-
+     
 **Accès limités aux Profil Support-Utilisateurs :**
 
 Au-delà des accès à des pages d’audit et statistiques, ainsi qu’une visibilité plus étendue sur les utilisateurs existants et l’arborescence des Espaces, ce profil permet d’affecter plus d’actions depuis les "menu burger". Attention, ce profil ne donne en aucun cas un accès par défaut à des Espaces et leurs contenus (pour voir les contenus d’un espace, l’utilisateur doit forcément en être membre). Pour plus d’informations, merci de vous référer à la rubrique : « Profils Utilisateurs »
@@ -315,6 +314,8 @@ Page d’Accueil
 La première fois que vous vous connectez à GoFAST à la suite d’une mise à jour, il se peut que vous arriviez sur le carrousel qui affiche les nouvelles fonctionnalités. 
 Selon la configuration de la page d’accueil de votre plateforme, vous pouvez arriver soit sur le Fil d’activité, soit sur le Tableau de bord.
 
+.. figure:: media-guide/Image-Accueil-1.png
+
 Fil d’Activité 
 ~~~~~~~~~~
 Le fil d’activité de GoFAST vous donne une **vue d’ensemble** sur ce qui s’est passé sur les contenus de vos espaces collaboratifs (Groupes/Organisations/Publics/Extranets).
@@ -334,6 +335,7 @@ Le fil d’activité de GoFAST vous donne une **vue d’ensemble** sur ce qui s�
    :alt: 
 
 **Actions possible depuis le Fil d’activité :**
+
  - Le "Menu Burger" (actions contextuelles) 
 
 .. figure:: media-guide/raccourci-fonctionnalités.png
@@ -365,11 +367,8 @@ Le tableau de bord permet un accès rapide aux éléments les plus sollicités. 
  - À partir du logo en haut à gauche, à partir du moment où le Tableau de Bord est défini comme page d’accueil par défaut. 
 
 **Le tableau de bord par défaut affiche six blocs :**
-
-.. figure:: media-guide/Image-Accueil-1.png
-   :alt: 
+   
 .. figure:: media-guide/Dashboard.png
-   :alt: 
 
  - **Espace personnel et Profil** : accès à votre espace personnel, profil, calendrier et à la gestion de vos abonnements. 
 
