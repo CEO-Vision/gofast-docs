@@ -485,11 +485,6 @@ Changez le titre dans le champ et cliquez sur l’icône de validation (ou juste
 
 .. figure:: media-guide/image138.png
    :alt: 
-  
-
-
-.. figure:: media-guide/image140.png
-   :alt: 
 
 Ajouter/Modifier le Résumé
 ~~~~~~~~~~~~~~~~~~~~~~
