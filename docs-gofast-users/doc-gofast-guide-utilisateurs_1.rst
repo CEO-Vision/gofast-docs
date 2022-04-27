@@ -43,7 +43,7 @@ Pour avoir la liste des diverses actions possible depuis ce menu, merci de vous 
 Zone de prévisualisation/Aperçu (dont titre +)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-La prévisualisation d'un fichier serf à consulter le fichier (document, image, vidéo...) directement dans le navigateur, sans avoir à l'ouvrir en édition avec une application sur son poste de travail ou le Suite Collaborative intégrée.
+La prévisualisation d'un fichier sert à consulter le fichier (document, image, vidéo...) directement dans le navigateur, sans avoir à l'ouvrir en édition avec une application sur son poste de travail ou le Suite Collaborative intégrée.
 
 .. NOTE:: Certains types de fichiers (MS-Office ou LibreOffice), sont affiché au format PDF dans cette zone de prévisualisation. La transformation à la volé des formats MS-Office vers PDF est effectuée par un système de Libreoffice (Community) ou d’OnlyOffice (Enterprise) GoFAST. Attention, le document lui-même ne change pas de format, cette transformation à la volé n’est utile que pour la prévisualisation. Les fichiers tableurs sont eux affiché soit en PDF, soit directement via OnlyOffice (selon la configuration de votre plateforme).  
 
@@ -67,12 +67,8 @@ La prévisualisation d'un fichier serf à consulter le fichier (document, image,
 
 
 .. NOTE::
-   Il se peut que la prévisualisation ne s’ouvre pas directement et que vous ayez le message suivant :
-
-.. figure:: media-guide/image374.png
-   :alt: 
-
-Il faudra juste cliquer sur le bouton « Tenter de prévisualiser à nouveau » ou actualiser la page (cela arrive si la connexion internet est de mauvaise qualité/instable). 
+   Il se peut que la prévisualisation ne s’ouvre pas directement.
+Il faudra juste actualiser la page (cela arrive si la connexion internet est de mauvaise qualité/instable). 
 
 Au-dessus de la **prévisualisation** du document, vous voyez une **barre
 d’outils**. 
@@ -106,23 +102,9 @@ Le **« -»  et le « + »** permettent de zoomer. Et l’ « \ **Automatic zoom
 .. figure:: media-guide/image382.png
    :alt: 
 
-L’icône « imprimante » permet de **télécharger** le document en PDF. Vous retrouverez le lien pour l’ouvrir dans le coin inférieur gauche de votre écran ou en haut à droite de votre navigateur (selon le navigateur utilisé). Par défaut Windows classe les fichiers téléchargés dans le dossier « Téléchargements » (de votre PC). 
-
-.. figure:: media-guide/image384.png
-   :alt: 
-   
-
-Un clic-droit sur l’étendard vertical permet plusieurs options, dont celle d’ouvrir le document ou la **prévisualisation** dans une autre fenêtre/onglet ou copier le lien (URL).
-
-.. figure:: media-guide/image387.png
-   :alt: 
-
-Vous pourrez alors **consulter la version PDF** du document avec les fonctionnalités PDF associées
+L’icône « imprimante » permet de **télécharger** le document en PDF. Vous retrouverez le lien pour l’ouvrir dans le coin inférieur gauche de votre écran ou en haut à droite de votre navigateur (selon le navigateur utilisé). Par défaut Windows classe les fichiers téléchargés dans le dossier « Téléchargements » (de votre PC).    
 
 Et enfin, la dernière icône avec les 2 flèches vers la droite ouvre d’autres options, dont « **Enable hand tool** », la petite main qui permet notamment de monter/descendre dans un PDF sans utiliser le curseur.
-
-.. figure:: media-guide/image389.png
-   :alt: 
 
 .. figure:: media-guide/image384.png
    :alt: 
@@ -159,9 +141,12 @@ Zone pour glisser-déposer nouvelle version
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. figure:: media-guide/image153.png
-   :alt: 
-Le fait de **glisser une nouvelle version** de votre document à cet endroit (au-dessus de la prévisualisation) va écraser la précédente version, mais conservera dans tous les cas toutes les anciennes versions (accessible via l’onglet « versions »). 
+   :alt:
+   
+Le fait de **glisser une nouvelle version** de votre document à cet endroit (au-dessus de la prévisualisation) va écraser la précédente version, mais conservera dans tous les cas toutes les anciennes versions (accessible via l’onglet « versions »).
+
 Le système vous demandera alors si vous voulez qu’elle devienne une version majeure (ex. passer de 1.24 à 2.0). A ce moment-là, vous pouvez également ajouter un commentaire lié à cette nouvelle version majeure. 
+
 Les autres versions faites lors de l’édition et de l’enregistrement via une application de son PC ou la Suite Office Collaborative sont considérées mineures.
 
 Terminez en cliquant sur « Valider »
@@ -169,7 +154,7 @@ Terminez en cliquant sur « Valider »
 .. figure:: media-guide/image154.png
    :alt: 
 
-Vous pouvez retrouver le numéro et la date, avec le contributeur de cette dernière version, en bas des métadonnées (bloc d’informations).
+Vous pouvez retrouver le numéro et la date, avec le contributeur de cette dernière version, à droite des métadonnées (bloc d’informations).
 
 .. NOTE::
     Vous ne pouvez glisser/coller que des documents de même format, ce qui veut dire que vous ne pouvez pas remplacer une version avec une extension « doc » par une version « docx » et vice-versa.
@@ -225,17 +210,11 @@ Pour en savoir plus sur l’utilisation des métadonnées, merci de bien vouloir
 
 Permet de **consulter ou d’assigner une tâche de processus** à un autre utilisateur sur le document : demander une contribution, une validation… Ou de voir quelles sont les tâches qui vous sont attribuées sur le document\ **.(= To Do)**
 
-.. figure:: media-guide/image132.png
-   :alt: 
-
 Pour en savoir plus sur l’utilisation des tâches de processus, merci de bien vouloir vous référer à la rubrique : « Processus de Tâches-Workflows (Entreprise Olny)»
 
 **Commentaires**
 
 Permet de consulter les divers commentaires laissés par les utilisateurs ayant accès au document ou de partager un nouveau commentaire sur le document, qui sera donc visible par les membres du/des Espace(s) où se trouve le document, dès qu’ils arriveront sur la page.
-
-.. figure:: media-guide/image133.png
-   :alt: 
 
 Pour en savoir plus sur l’utilisation des commentaires, merci de bien vouloir vous référer à la rubrique : « Commenter un document »
 
@@ -353,7 +332,7 @@ Pour savoir comment les commentaires d’un document, merci de vous référer à
 Partager/ Modifier les emplacements
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Ce bouton permet d’ouvrir la fenêtre de gestion des emplacements du document. Il s’agit d’un partage sans doublon, dans divers Espaces Collaboratifs (ou dossiers) pour pouvoir aisément collaborer avec diverses équipes et autres directions. 
-Pour savoir comment ajouter/enlever des emplacements à un document, merci de vous référer à la rubrique : « XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX ». 
+Pour savoir comment ajouter/enlever des emplacements à un document, merci de vous référer à la rubrique : « Modifier les Emplacements/Visibilité ». 
 
 Partager le document par mail
 ~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -506,10 +485,7 @@ Changez le titre dans le champ et cliquez sur l’icône de validation (ou juste
 
 .. figure:: media-guide/image138.png
    :alt: 
-   
-
-.. figure:: media-guide/image139.png
-   :alt: 
+  
 
 
 .. figure:: media-guide/image140.png
@@ -665,7 +641,7 @@ Si besoin, vous pouvez transformer la version en cours du document en une versio
  - Allez dans « Voir plus »
  - Cliquer sur « Définir comme version majeure ».
 
-.. figure:: media-guide/Versioning-define-majour-version.jpg
+.. figure:: media-guide/image202.png
    :alt: 
 
 **Passer un document source en version majeure lors d’une Publication :**
@@ -683,8 +659,7 @@ Si besoin, vous pouvez transformer la version en cours du document en une versio
 
  -  Si vous pré-archivez un document (cf. champs « état » d’un document), ses versions mineures seront supprimées et donc, seules les versions majeures (ex. 1.0, 2.0, 3.0…) et la dernière version en cours avant le préarchivage, seront conservées. 
 
-.. figure:: media-guide/image202.png
-   :alt: 
+
 
 **Commenter votre version majeure :**
 
