@@ -379,6 +379,7 @@ Le tableau de bord permet un accès rapide aux éléments les plus sollicités. 
  - **Mon calendrier** : accès à vos renions à venir et tous les documents auxquels vous avez accès et ayant une échéance. Sur le filtre du bloc (haut-droite), vous pouvez choisir d’afficher les réunions ou les documents. Vous pouvez également créer une réunion avec le bouton « + ». 
  - **Mes tâches** : accès aux processus et tâches qui vous ont été assignés. Vous avez la possibilité de démarrer un nouveau processus via le bouton « + » en haut à droite. Via l’icône « tableau », vous pouvez aller sur le Tableau des Processus. 
  - **Mes espaces favoris** : affiche tous les espaces que vous avez épinglés comme favoris. Vous pouvez ajouter un espace en favori via l’icône « + ». 
+ 
 .. figure:: media-guide/Dashboard-add-favorite-space.jpg
    :alt:
 
@@ -564,9 +565,6 @@ Ces Espaces Publics internes sont gérés par tous les utilisateurs membres de l
 Les autres utilisateurs sont en Lecture Seule.
 
 Vous pouvez **vous abonner** à cet espace en cliquant sur « s’abonner ». Vous recevrez ainsi des notifications liées au contenus de cet espace (dans votre rapport de synthèse d’activité). Vous pourrez d’ailleurs faire cela pour tous les espaces.
-
-.. figure:: media-guide/image034.png
-   :alt: 
 
 Toutefois, les administrateurs de la plateforme (profil Support-Utilisateur) peuvent également configurer l'espace public de telle sorte que tous les utilisateurs interne (non Externes) puissent contribuer aussi à cet espace public (choix de configuration : soit la lecture, soit l'écriture).
 
