@@ -247,7 +247,7 @@ Menu d’accès rapides
 
  - Le logo : permet de retourner sur votre page d’accueil, soit le fil d’activité, soit le tableau de bord selon la configuration de votre plateforme. 
  - L’icône « + » : permet de créer les contenus, documents et utilisateurs. Pour plus d’informations, voir la partie : Création de documents, Contenus, Utilisateurs.
-  - L’icône Dossier : permet d’accéder à l’arborescence des espaces de la plateforme que vous avez d’accès.
+ - L’icône Dossier : permet d’accéder à l’arborescence des espaces de la plateforme que vous avez d’accès.
  - Les Roues Crantées : permettent l’accès à ses processus et tâches. Plus d’information, voir la rubrique : Workflows et Signature : Processus et Tâches (entreprise Only).  
  - L’icône de Flux : permet de voir les nouvelles du site internet défini. 
  - L’icône Etoile : permet de retrouver vos contenus et dossiers épinglés comme favoris personnels. 
@@ -255,9 +255,6 @@ Menu d’accès rapides
  - Le barre de recherche : permet d’effectuer une recherche parmi tous les contenus auxquels vous avez accès sur la plateforme (documents, espaces, utilisateurs, forums, etc.). Plus d’information, voir la rubrique : Moteur de Recherche.
  - L’icône Panier : permet d’accéder à la liste des documents que vous avez mis dans le panier au préalable, pour effectuer des actions sur l’ensemble des documents du panier. Plus d’information pour cette partie, voir la partie : Panier Documentaire.
  - L’icône Drapeau ou lettres désignant la langue (ex. FR/EN) : permet de changer la langue de l’interface de la plateforme.
- 
-.. figure:: media-guide/choix-langue.png
-   :alt: 
 
  - L’icône Point d’interrogation permet l’accès aux : 
      - Forums : renvoie aux forums où tous les utilisateurs de GoFAST peuvent échanger sur des problématiques, évolutions, bonnes pratiques, questions fonctionnelles… entre eux et avec les équipes de CEO-Vision (éditeur de GoFAST). 
@@ -329,8 +326,6 @@ Le fil d’activité de GoFAST vous donne une **vue d’ensemble** sur ce qui s�
  - Espace(s) où se trouve le contenu concerné (en un clic vous pouvez vous rendre sur l’Espace).
  - Bloc de filtres (permet de filtrer le fil d’activité sur divers critères).
 
-.. figure:: media-guide/Image-Accueil-1.png
-   :alt: 
 
 .. NOTE::
     Vous pouvez revenir à la page du fil d’activité à tout moment depuis le menu principal de gauche (ou le logo en haut à gauche, si c’est la page d’accueil par défaut).
@@ -352,22 +347,13 @@ Vous pouvez **filtrer** la liste des documents de votre fil d’activité selon 
    :alt: 
 
 Vous pouvez choisir de masquer ou afficher les **« Nouvelles »** qui sont postées à tous les utilisateurs de la plateforme par un utilisateur ayant le Profil Support-Utilisateur ou Super-Administrateur. 
+ 
+Si vous avez un de ces profil, vous pouvez partager une information :
 
-.. figure:: media-guide/afficher-les-nouvelles.png
-   :alt: 
-
-Si vous avez un de ces profil, vous pouvez partager une information : 
 * cliquez sur « Partager une nouvelle » (en haut au centre du fil d’activité) une fenêtre s’ouvre, 
 * écrivez votre message 
 * cliquez sur « Envoyer ». 
 Le message sera visible sur le fil d’activité pour tous les utilisateurs. 
-
-.. figure:: media-guide/image014.png
-   :alt: 
-
-.. figure:: media-guide/image015.png
-   :alt: 
-
 
 Tableau de Bord
 ~~~~~~~~~~~~~~
@@ -380,6 +366,8 @@ Le tableau de bord permet un accès rapide aux éléments les plus sollicités. 
 
 **Le tableau de bord par défaut affiche six blocs :**
 
+.. figure:: media-guide/Image-Accueil-1.png
+   :alt: 
 .. figure:: media-guide/Dashboard.png
    :alt: 
 
@@ -390,15 +378,14 @@ Le tableau de bord permet un accès rapide aux éléments les plus sollicités. 
 
  - **Mon calendrier** : accès à vos renions à venir et tous les documents auxquels vous avez accès et ayant une échéance. Sur le filtre du bloc (haut-droite), vous pouvez choisir d’afficher les réunions ou les documents. Vous pouvez également créer une réunion avec le bouton « + ». 
  - **Mes tâches** : accès aux processus et tâches qui vous ont été assignés. Vous avez la possibilité de démarrer un nouveau processus via le bouton « + » en haut à droite. Via l’icône « tableau », vous pouvez aller sur le Tableau des Processus. 
- - **Mes espaces favoris** : affiche tous les espaces que vous avez épinglés comme favoris. Vous pouvez ajouter un espace en favori via l’icône « + ». Vous pouvez effectuer des actions sur un espace via le "Menu Burger". 
-
+ - **Mes espaces favoris** : affiche tous les espaces que vous avez épinglés comme favoris. Vous pouvez ajouter un espace en favori via l’icône « + ». 
 .. figure:: media-guide/Dashboard-add-favorite-space.jpg
    :alt:
 
-Taper au moins les trois premières lettres de l’espace que vous voulez mettre en favoris. Une liste de propositions s’affiche, sélectionner le nom recherché. Puis, cliquez sur « Épingler sur le tableau de bord ».
+Sélectionnez à partir de l’arborescence proposé, l’espace que vous souhaitez mettre en favori, puis cliquez sur le bouton « Epingler sur le tableau de bord ».
 
-.. figure:: media-guide/Dashboard-add-favorite-space-1.jpg
-   :alt:
+Vous pouvez effectuer des actions sur un espace via le "Menu Burger". 
+
 
 Pour supprimer un espace des favoris, passez par le menu "Burger", puis « Supprimer des favoris ».
 
@@ -406,16 +393,6 @@ Pour supprimer un espace des favoris, passez par le menu "Burger", puis « Suppr
    :alt:
 
 Un message de confirmation de suppression s’affiche en haut à droite de la fenêtre.
-
-.. figure:: media-guide/Dashboard-notif-delete-space.jpg
-   :alt:
-
-Vous remarquerez que l’espace est toujours épinglé sur le bloc, cela ne signifie pas que l’action n’a pas eu lieu mais en cas d’erreur, vous permet de remettre cet espace en cliquant sur le même bouton puis sur « Ajouter aux favoris ».
-
-.. figure:: media-guide/Dashboard-restore-deleted-space.jpg
-   :alt:
-
-En revanche, si vous actualisez ou que vous quittez la page du tableau de bord, la suppression est confirmée et l’espace ne sera plus visible dans votre bloc.
 
  - **Mes répertoires favoris** :  affiche tous les dossiers que vous avez épinglés comme favoris. Via l’icône « flèche », vous pouvez accéder à l’arborescence à l’emplacement du dossier. Vous pouvez ajouter un dossier en favori via l’icône « + ». 
  - **Mes contenus favoris** : affiche tous les documents et autres types de contenus (hors les espaces) que vous avez épinglés comme favoris. Via l’icône « + », vous pouvez accéder ajouter d’autres contenus favoris. Vous pouvez effectuer des actions sur un documents/contenu via le "Menu Burger".
@@ -441,8 +418,6 @@ Page "Profil Utilisateur"
 --------------------------------
 Depuis votre photo de profil (via le menu d’accès rapide, tout en haut à droite), vous pouvez accéder à votre page de profil, qui est comme votre « carte de visite virtuelle ». 
 
-.. figure:: media-guide/image017.png
-   :alt: 
 
 Cette page affiche les informations vous concernant :  nom, prénom, fonction, entreprise, téléphone, email, un mot à votre propos, vos compétences… ainsi que les informations liées à vos accès sur la plateforme : votre profil (ex. Support-utilisateur, Super-Administrateur ou Standard ou Externe) vos espaces collaboratifs, groupes, organisations, listes d’utilisateurs…
 
@@ -494,10 +469,10 @@ Une icône « Afficher le contenu en pleine page » permet **d’agrandir la vue
 .. figure:: media-guide/image030.png
    :alt: 
 
+Il suffit de réappuyer sur la même icône à 2 flèches pour revenir à la vue précédente.
+
 .. figure:: media-guide/image031.png
    :alt: 
-
-Il suffit de réappuyer sur la même icône à 2 flèches pour revenir à la vue précédente.
 
 Types d'Espaces Collaboratifs disponibles
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -770,9 +745,6 @@ Avec cette fonctionnalité, vous pouvez **intégrer des pages externes** qui pro
 
 Allez sur l’icône « + », « Contenu », « Page Externe »
 
-.. figure:: media-guide/image062.png
-   :alt: 
-
 Indiquez un titre, choisissez la langue, copier le lien URL, choisissez l’emplacement dans l’arborescence (cochez la case ou cliquez sur le nom du groupe pour le retrouver en bleu sur la droite), enregistrez.
 
 .. figure:: media-guide/image063.png
@@ -802,9 +774,7 @@ Indiquez le sujet du Forum, choisissez la langue, écrivez l’introduction, cho
 Vous et les autres utilisateurs ayant accès, pouvez enrichir le forum par le même principe que l’ajout de commentaire sur la page d’un document. 
 Vous pourrez ensuite soit supprimer (poubelle) /modifier (crayon sur feuille) votre commentaire, soit répondre à un commentaire (petite flèche), ainsi que vous abonner/désabonner à ce forum.
 Un message en haut à droite apparaîtra signalant la publication de votre nouveau commentaire.
-
-.. figure:: media-guide/image067.png
-   :alt: 
+ 
 
 Pour en savoir plus sur l’utilisation des Forums, merci de vous référer à la rubrique : « Forums » 
 
@@ -900,8 +870,6 @@ Une page s’ouvre où vous pouvez ajouter :
 
 Le principe est identique pour toute création d’espace dans Groups, Public et Extranet.
 
-.. figure:: media-guide/image077.png
-   :alt: 
 
 On peut également voir le chemin d’accès et le nom de l’Espace, au-dessus des onglets :
 
@@ -911,8 +879,6 @@ On peut également voir le chemin d’accès et le nom de l’Espace, au-dessus 
 Les différents onglets de votre Espace :
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. figure:: media-guide/image078.png
-   :alt: 
 
 **L’onglet « Accueil » :**
 
@@ -983,16 +949,13 @@ Créer une Liste d’Utilisateurs
 ------------------------------------------
 Les listes d'utilisateurs facilitent la gestion en masse et automatisée des membres des Espaces Collaboratifs et leurs rôles. Ainsi, lorsqu’un utilisateur GoFAST est ajouté à une liste, il devient automatiquement membre de tous les espaces associés à cette liste.
 
-.. figure:: media-guide/Ecran-GoFAST_Liste-Utilisateurs_creer-liste.png
-   :alt: 
 
 Pour créer une liste, via la barre des accès rapides (menu principal du haut) cliquez sur « + », puis "Liste d’utilisateurs". Vous êtes redirigé vers le formulaire et il suffit de renseigner les 3 champs affichés :
     - Nom de la liste,
-    - Description,
     - Membres de la liste (rentrez au moins 3 caractères du nom/prénom d'un utilisateur pour avoir des suggestions),
+    - Administrateurs de la liste 
+     - Description,
 
-.. figure:: media-guide/Ecran-GoFAST_Liste-Utilisateurs_creer-liste-renseigner-formulaire.png	
-   :alt: 
 
 
 .. NOTE:: 
