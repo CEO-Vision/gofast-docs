@@ -946,13 +946,11 @@ Pour savoir comment créer des utilisateurs en masse via un import depuis l’an
 Créer une Liste d’Utilisateurs
 ------------------------------------------
 Les listes d'utilisateurs facilitent la gestion en masse et automatisée des membres des Espaces Collaboratifs et leurs rôles. Ainsi, lorsqu’un utilisateur GoFAST est ajouté à une liste, il devient automatiquement membre de tous les espaces associés à cette liste.
-
-
 Pour créer une liste, via la barre des accès rapides (menu principal du haut) cliquez sur « + », puis "Liste d’utilisateurs". Vous êtes redirigé vers le formulaire et il suffit de renseigner les 3 champs affichés :
     - Nom de la liste,
     - Membres de la liste (rentrez au moins 3 caractères du nom/prénom d'un utilisateur pour avoir des suggestions),
     - Administrateurs de la liste 
-     - Description,
+    - Description,
 
 
 
