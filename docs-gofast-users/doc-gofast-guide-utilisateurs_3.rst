@@ -83,8 +83,6 @@ Les actions réservées aux administrateurs d’espaces sont précisées avec un
     - Pré-ajouter membres*
     - Contacter les administrateurs de l’espace * 
 
-.. figure:: media-guide/image112.png
-   :alt: 
 
 .. NOTE:: 
    Les onglets d’un espace affichent des éléments liés à l’espace sur lequel on se trouve. Le titre de l’espace et le chemin d’accès s’actualisent juste au-dessus des onglets.
@@ -100,18 +98,13 @@ Il faut bien sûr d’abord avoir un compte GoFAST. Si ce n’est pas encore le 
  - soit l’administrateur de l’Espace qui a créé votre compte, vous ajoute directement comme membre,
  - soit en faisant la demande via l’annuaire des Espaces : vous avez la liste des espaces collaboratifs (sélectionnez ceux que vous souhaitez), puis via le menu « Burger » cliquer sur « Rejoindre ».
 
-.. figure:: media-guide/image090.png
-   :alt: 
 
 Un message s’afficher confirmant votre demande de rejoindre cet espace :
 
-.. figure:: media-guide/image091.png
-   :alt: 
+
 
 Vous retrouverez ensuite vos demandes sur votre page de profil utilisateur.
 
-.. figure:: media-guide/image092.png
-   :alt: 
 
 - Être membre d’une liste d’utilisateurs qui elle-même devient membre de l’Espace (vous aurez donc le même rôle que celui attribué à la liste). 
 
@@ -211,8 +204,6 @@ La fenêtre pour changer le rôle s’ouvre :
  - Cochez le nouveau rôle souhaité et cliquez sur « Mettre à jour ». 
  - Pour enlever le membre de l’Espace : cliquez sur « Retirer ».
 
-.. figure:: media-guide/image097.png
-   :alt: 
 
 Merci de consulter également la rubrique : « Rôles/droits des membres d’un Espace ».  
 
@@ -224,21 +215,12 @@ Ajouter des membres à un Espace
 
 - Allez dans le menu « Burger » (les actions contextuelles, en haut à droite sur la page de l’Espace ou via la page « Annuaire des Espaces »).
 
-.. figure:: media-guide/image094.png
-   :alt: 
-
  - Cliquez sur « Ajouter membres/listes », la fenêtre d’ajout de membres s’ouvre. 
  - Utiliser la recherche pour sélectionner les utilisateurs ou listes que vous souhaitez ajouter : saisissez au moins les 3 premières lettres du nom de l’utilisateur ou de la liste.
  - Cliquez sur une des suggestions pour ajouter l’utilisateur ou la liste d’utilisateurs. Vous pouvez ainsi rechercher et ajouter plusieurs utilisateurs. 
  - Cocher le rôle souhaité pour l’ensemble des utilisateurs et/ou des listes sélectionnés. 
  - Vous pouvez écrire un message qui sera envoyé aux autres administrateurs de cet Espace. 
  - Cliquez sur « Ajouter le(s) nouveau(x) membre(s) » pour valider. 
-
-.. figure:: media-guide/image095.png
-   :alt: 
-
-.. figure:: media-guide/image096.png
-   :alt: 
 
 .. NOTE:: 
    Si le compte utilisateur n’existe pas encore, il doit être créé. Il est possible d’effectuer cette action depuis le même menu « Burger » en cliquant sur « Créer utilisateur dans l’Espace ». 
@@ -252,20 +234,9 @@ Cette fonctionnalité permet à la fois de créer un nouvel utilisateur et l’a
  - Allez dans le menu « Burger » (les actions contextuelles, en haut à droite sur la page de l’Espace ou via la page « Annuaire des Espaces »).
  - Cliquez sur « Créer utilisateur dans l’Espace » et vous serez redirigé vers le formulaire de création d’un utilisateur.
 
-.. figure:: media-guide/image098.png
-   :alt: 
-
  - Depuis le formulaire de création d’un utilisateur, vous pouvez soit renseigner les divers champs disponibles, soit « recherche dans LDAP » pour préremplir les données (il s’agit de l’annuaire interne de votre organisation/entreprise : AD ou LDAP). 
  - Terminez la création du nouvel utilisateur en cliquant sur « Enregistrer »
 
-.. figure:: media-guide/image099.png
-   :alt: 
-
-.. figure:: media-guide/image100.png
-   :alt: 
-
-.. figure:: media-guide/image101.png
-   :alt: 
 
 Il est indispensable de consulter la rubrique « créer un utilisateur » 
 
@@ -291,11 +262,7 @@ Modifier l’emplacement d’un Espace dans l’arborescence signifie changer l�
  - Sélectionnez en un clic le nouvel emplacement souhaité. 
  - Terminez par « Déplacer cet Espace ».
 
-.. figure:: media-guide/image118.png
-   :alt: 
 
-.. figure:: media-guide/image119.png
-   :alt: 
 
 .. NOTE:: 
    Pour réaliser ce déplacement, il est nécessaire d’avoir le rôle administrateur à la fois dans l’espace parent (là où se trouve votre Espace) et dans l’espace cible (vers lequel vous souhaitez faire le déplacement). Vous allez déplacer cet espace et tout son contenu, ses membres et ses sous espaces vers un autre emplacement. Cette opération peut prendre du temps et ne peut pas être interrompue.
@@ -315,13 +282,7 @@ Archiver un Espace permet de conserver tout son contenu en Lecture Seule, afin d
  - Une fenêtre de confirmation s’ouvre. 
  - Confirmez en cliquant sur « Archiver ».
 
-.. figure:: media-guide/image120.png
-   :alt: 
-
 Le contenu de cet Espace apparaîtra comme archivé et ne sera plus visible lors de la recherche, sauf si vous mettez l’option de recherche « Rechercher dans les contenus archivés ».
-
-.. figure:: media-guide/image121.png
-   :alt: 
 
 .. NOTE:: 
    Les espaces collaboratifs de type "Organisation" ne peuvent pas être archivés, ni les Espaces personnels des utilisateurs.
@@ -340,9 +301,6 @@ Supprimer un Espace Collaboratif
  - Cliquez sur « Supprimer cet espace ».
  - Une fenêtre de confirmation s’ouvre. 
  - Confirmez en cliquant sur « Supprimer ».
-
-.. figure:: media-guide/image122.png
-   :alt: 
 
 .. NOTE:: 
    Lors de la suppression d’un Espace, plusieurs opérations sont automatiquement réalisées : traitement des contenus « multifilés » (ceux qui ont d’autres emplacements dans d’autres Espaces), la suppression des contenus non « multifilés », la suppression des dossiers. Si vous souhaitez conserver les contenus tout en mettant l’Espace en Lecture Seule, privilégiez l’action « Archiver ». 
@@ -400,8 +358,6 @@ Vous pouvez voir les membres d’une Liste d’Utilisateurs en allant sur cette 
  - Vous pouvez modifier la description de la liste dans le champ « Description »
  - Cliquer sur « Enregistrer » pour sauvegarder vos modifications. 
 
-.. figure:: media-guide/Ecran-GoFAST_Liste-Utilisateurs_modifier-les-membres-de-la-liste.png	
-   :alt:
 
 .. NOTE:: 
    Les membre d’une Liste vont avoir accès à tous les Espaces où cette Liste est elle-même membre. Les Administrateurs de la Liste n’ont pas accès aux Espaces, mais peuvent gérer la Liste. 
@@ -416,13 +372,8 @@ L'ajout d'une liste dans un espace collaboratif est similaire à l’ajout d’u
  - Ouvrir le menu "Burger" (actions contextuelles)
  - Cliquer sur "ajouter membre/liste"
    
-.. figure:: media-guide/Ecran-GoFAST_Liste-Utilisateurs_ajouter-liste-dans-espace-collaboratif.png	
-   :alt: 
-
 Le formulaire d'ajout d'un membre s'ouvre et il faut commencer à rentrer le nom de la liste (au moins 3 caractères) pour avoir des suggestions. 
 
-.. figure:: media-guide/Ecran-GoFAST_Liste-Utilisateurs_ajouter-liste-dans-espace-collaboratif-formulaire.png	
-   :alt: 
 
 .. NOTE:: 
    Pour ajouter une liste d'utilisateurs comme membre d'un espace, il faut être administrateur de l'Espace. 
@@ -432,13 +383,9 @@ Le formulaire d'ajout d'un membre s'ouvre et il faut commencer à rentrer le nom
    
 Une fois la liste ajoutée à l'Espace Collaboratif, celle-ci est affichée parmi les autres membres. 
 
-.. figure:: media-guide/Ecran-GoFAST_Liste-Utilisateurs_liste-dans-espace-collaboratif.png	
-   :alt: 
-
 Les Espaces Collaboratifs dont est membre la liste sont affichés sur la page de la liste, onglet "Emplacements". 
 
-.. figure:: media-guide/Ecran-GoFAST_Liste-Utilisateurs_emplacements-associes-a-la-liste.png	
-   :alt: 
+
 
 Afficher/Rechercher les listes d'utilisateurs
 ---------------------------------------------
@@ -446,9 +393,7 @@ Afficher/Rechercher les listes d'utilisateurs
 Annuaire des Liste d'Utilisateurs
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Pour consulter les listes existantes, il suffit de passer par les annuaires accessibles depuis le menu principal de gauche. 
-
-.. figure:: media-guide/Ecran-GoFAST_Liste-Utilisateurs_annuaire-liste.png	
-   :alt: 
+ 
    
 Pour aller sur une liste depuis l'annuaire, vous pouvez cliquer sur le nom de la liste. Vous pourrez alors consulter les membres et les emplacements de celle-ci. 
 
@@ -514,9 +459,6 @@ Chaque utilisateur peut s’abonner ou se désabonner à tout moment des divers 
 
 - Via le menu de votre Profil (dans la barre des accès rapides, en haut à droite), cliquez sur « Abonnements ».
 
-.. figure:: media-guide/image316.png
-   :alt: 
-
 - La fenêtre des abonnements s’ouvre, avec un tableau de tous les éléments auxquels vous êtes abonné. 
 
 .. figure:: media-guide/image200.png
@@ -550,10 +492,8 @@ Pour vous abonner à un document/contenu, étiquette ou tout un Espace, il faut 
  - Pour les Etiquettes : faites un clic sur l’icône « s’abonner » (à droite de chaque étiquette, et . 
  - Pour un Utilisateur : dans le menu « Burger » (des actions contextuelles) sur la page de profil, cliquez sur « s’abonner ».
 
-[IMAGE]
-
 **Pour s’abonner à un Espace Collaboratif :**
-Merci de vous référer à la rubrique : « XXXXXXXXXXXXXXXXXXXXXX »
+Merci de vous référer à la rubrique : « s'abonner ou se désabonner d'un Espace Collaboratif »
 
 
 Processus de Tâches - Workflows (Enterprise only)
@@ -591,13 +531,11 @@ Pour sélectionner un processus et le démarrer depuis la barre d’accès rapid
  - Dans la fenêtre "Processus et Tâches", cliquez sur l’onglet "Nouveau" 
  
 .. figure:: media-guide/Ecran-GoFAST_Workflows_lancer-processus-depuis-menu-principal-acces-rapide.png
-   :alt:
 
  - Sélectionner le processus souhaité en cliquant sur le titre du processus (ex. « Diffusion de documents ») OU sur l’icône « > » OU sur l’icône « panier » si vous souhaité lancer votre processus sur tous les documents de votre panier. 
 
 .. figure:: media-guide/Ecran-GoFAST_Workflows_choix-processus.png
-   :alt:
-
+ 
  - Vous pouvez sélectionner un modèle (pour avoir le formulaire du processus prérempli) via la liste déroulante disponible au niveau de chaque type de processus. Dans ce cas, sélectionner le modèle souhaité avant de cliquer sur « > ». 
 
 .. NOTE::
@@ -609,17 +547,14 @@ Pour sélectionner un processus et le démarrer depuis la barre d’accès rapid
 Démarrer un processus depuis la page d'un document
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Pour sélectionner un processus et le démarrer depuis la page d’un document :
+
 - Allez dans l’onglet « Tâches » qui se trouve dans le bloc d’informations à droite de la prévisualisation du document, 
 
 .. figure:: media-guide/Ecran-GoFAST_Workflows_lancer-processus-depuis-page-document.png
-   :alt:
-   
+
  - Cliquer sur « Nouveau » et vous aurez la liste des processus disponibles. 
  - Cliquer sur le nom du processus souhaité ou sur l’icône ">"
- 
-.. figure:: media-guide/[IMAGE]
-   :alt:
-
+   
  - Vous pouvez sélectionner un modèle (pour avoir le formulaire du processus prérempli) via la liste déroulante disponible au niveau de chaque type de processus. Dans ce cas, sélectionner le modèle souhaité avant de cliquer sur « > ». 
 
 .. NOTE::
@@ -795,10 +730,7 @@ Que ce soit pour les processus en cours ou archivés, vous avez la possibilité 
 
  - Via la barre des accès rapides (menu principal du haut), clic sur l’icône « i » au niveau d’un processus.
  - Depuis la page d’un document, onglet « Tâches », soit sur l’icône « i » d’un processus s’il est en cours, soit via l’onglet « Historique » pour les processus terminés. 
- - Depuis le Tableau des Processus (merci de vous référer à la rubrique « Tableau des Processus »). 
-
-.. figure:: media-guide/Ecran-GoFAST_Workflows_acces-aux-processus-et-taches.png	
-   :alt:   
+ - Depuis le Tableau des Processus (merci de vous référer à la rubrique « Tableau des Processus »).    
 
 
 Historique des processus en cours 
@@ -844,9 +776,6 @@ Pour accéder au Tableau des Processus :
  - Allez dans « Processus et Tâches » 
 Vous pouvez également cliquez sur l’icône « Processus » dans ce menu principal de gauche. 
 
-.. figure:: media-guide/Dashboard-workflow.jpg
-   :alt:
-
 Par défaut, quand vous arrivez sur le Tableau des Processus, seuls les processus en cours sont listés. 
 
 .. figure:: media-guide/Dashboard-workflow-listing.jpg
@@ -857,9 +786,6 @@ Filtrer la liste des processus
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 Le tableau de bord offre divers filtres afin de rechercher un processus. 
-
-.. figure:: media-guide/Dashboard-workflow-filter.jpg
-   :alt:
 
 **La recherche se fait avec un ou plusieurs critère(s) :**
 
@@ -884,8 +810,6 @@ Pour consulter les détails d’un processus, il suffit de cliquer sur le nom de
 
 1- Tâches du processus 
 
-.. figure:: media-guide/Dashboard-workflow-processus-tasks.jpg
-   :alt:
 
 2- Documents dans ce processus
 
@@ -924,21 +848,13 @@ Gérer les colonnes
  - Renseignez le champ « Saisir le nom de la nouvelle colonne »
  - Cliquez sur le bouton « Ajouter la colonne » et votre nouvelle colonne apparait alors dans le tableau kanban. 
 
-.. figure:: media-guide/Kanban-add-column.jpg	
-   :alt:
 
 **Pour déplacer une colonne :**
  - Cliquez sur la colonne en maintenant le clic
  - Glissez vers l’emplacement souhaité et déposez.
 
-.. figure:: media-guide/kanban-move-column.jpg	
-   :alt:
-
 **Renommer ou supprimer une colonne :**
 Pour supprimer ou renommer une colonne, il suffit de cliquer sur l’icône « … » qui se trouve au coin en haut à droite de la colonne, puis choisir l’action souhaitée.
-
-.. figure:: media-guide/Kanban-rename-delete-column.jpg	
-   :alt:
 
 .. NOTE::
    - La suppression de la colonne effacera toutes les cartes qu’elle contient. 
@@ -948,9 +864,6 @@ Pour supprimer ou renommer une colonne, il suffit de cliquer sur l’icône « �
 Créer une nouvelle carte 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  - Cliquez sur le bouton « + » en haut à droite de l’une des colonnes disponibles 
-
-.. figure:: media-guide/creer-colonne-tache-kanban.jpg	
-   :alt:
    
 
  - Renseignez un titre pour votre carte dans le champ qui apparait.
@@ -1009,8 +922,6 @@ Les cartes peuvent être déplacées par glisser-déposer d’une colonne à une
  - Cliquez sur la carte sans l’ouvrir, en maintenant le clic
  - Glissez vers l’emplacement souhaité et déposez.
 
-.. figure:: media-guide/Kanban-move-card.jpg	
-   :alt:
 
   
 Afficher ses cartes (tâches d’un Kanban)
@@ -1024,16 +935,12 @@ Les cartes sont visibles aux utilisateurs membres de l’Espace où elles se tro
 
  - Depuis l’onglet « Tâche » ou « Calendrier » d’un Espace Collaboratif ou son Espace Personnel.
  
-.. figure:: media-guide/kanban-card-display-calendar.jpg	
-   :alt:
 
 .. NOTE::
    La carte apparaîtra dans le calendrier à la date d'échéance de la carte et non à la date d'échéance de la checklist.
 
  - Depuis l’icône « processus et tâches » dans la barre des accès rapides (menu principal du haut), où il n’y a que les tâches où vous avez été assigné. Pour aller sur une tâche, cliquez sur l’icône « i » en bas à droite de cette tâche.
- 
-.. figure:: media-guide/Kanban-card-display-menu-tasks.jpg	
-   :alt:
+
 
 .. NOTE::
    L’icône « Post-it » disposée à côté du titre de la carte permet de faire la différence entre les tâches de processus et les tâches collaboratives d’un Kanban.
@@ -1049,8 +956,6 @@ Filtrer les cartes
 GoFAST met à disposition une barre de recherche pour filtrer les cartes, elle est placée au-dessus des colonnes dans le Kanban, sur la page d’un Espace. 
 La recherche se fait uniquement sur le titre de la carte. Il suffit de taper le titre, la carte concernée s’affichera dans le tableau et toutes les autres deviendront invisibles. 
 
-.. figure:: media-guide/Kanban-filter.jpg	
-   :alt:
 
 Permissions  
 -----------------
