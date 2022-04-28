@@ -42,9 +42,7 @@ Cette action est possible également depuis d’autres pages de GoFAST où un do
 
 
 Dans certains cas, le système vous demande votre mot de passe avant d’ouvrir le document, afin de vous identifier. Il faut alors saisir votre identifiant et mot de passe (les mêmes que pour vous connecter à GoFAST).
-
-.. figure:: media-guide/image158.png
-   :alt: 
+ 
 
 Le document s’ouvre dans Office et vous pouvez l’éditer. Dans certains cas, la Suite Office Microsoft demande « d’activer la modification ». Cliquez dessus pour pouvoir rentrer en édition. 
 N’oubliez pas de sauver (icône « disquette » de votre application) avant de fermer le document pour être certain que le système a enregistré vos modifications.
