@@ -28,9 +28,6 @@ Tous les utilisateurs ayant accès, peuvent enrichir le forum en partageant leur
  - OU clic sur l’icône « flèche » sous l’introduction/descriptif du forum (message tout en haut, sous le titre du forum). 
  - OU clic sur l’icône « flèche » sous un commentaire pour répondre à un commentaire existant. 
 
-.. figure:: media-guide/image067.png
-   :alt:  
-
 Vous pourrez ensuite soit supprimer (corbeille), soit modifier (crayon sur feuille) votre commentaire, ainsi que vous abonner/désabonner à ce forum via le menu « Burger ».
 Un message en haut à droite apparaîtra signalant la publication de votre nouveau commentaire.
 
@@ -63,8 +60,6 @@ Tous les utilisateurs ayant accès, peuvent partager des commentaires sur le Wik
  - Allez sur la page du Wiki (voir rubrique précédente).
  - Via le menu « Burger », clic sur « Nouveau commentaire ». 
  - Via l’onglet « Commentaires » dans le bloc d’information du Wiki : clic sur « Nouveau commentaire » OU clic sur l’icône « flèche » sous un commentaire pour répondre à un commentaire existant.
-
-[IMAGE]
 
 Vous pourrez ensuite soit supprimer (corbeille), soit modifier (crayon sur feuille) votre commentaire, ainsi que vous abonner/désabonner à ce Wiki via le menu « Burger ».
 Seuls les membres administrateurs ou contributeurs des Espaces peuvent créer un Wiki. Les membres Lecture Seule peuvent toutefois poster des commentaires dans les Wikis existants. 
@@ -160,8 +155,6 @@ Rejoindre une Réunion / Webconférence
 ------------------------------------------------------
 Depuis la page de la réunion ou l’email de notification, vous pouvez cliquer sur « rejoindre » pour aller sur la page de la webconférence. 
 
-[IMAGE]
-
 **Sur la première page de confirmation, vous pouvez :**
  - Choisir/activer le microphone,
  - Choisir/activer la caméra,
@@ -211,8 +204,6 @@ Retrouver/Consulter un formulaire
  - Via la recherche par mots clefs, une recherche "à blanc" (= sans mot-clef) et les filtres de recherche, en particulier par type de contenu "formulaire"
  - Dans ses contenus favoris (si on y a ajouté le formulaire au préalable)
 
-.. figure:: media-guide/image073.png
-   :alt: 
 
 .. NOTE::
    Une fois que votre formulaire est créé, vous arriverez sur la page du formulaire. C'est sur cette page qu'arriveront les utilisateurs qui rempliront votre formulaire. Pour l'instant, elle est vide et tant que vous n'aurez pas publié votre formulaire, personne ne pourra le remplir. 
@@ -230,8 +221,6 @@ Retrouver/Consulter un formulaire
 3. "Résultats" où seront présentées les résultats quantifiés, les soumissions et les valeurs saisies par les utilisateurs 
 4. "Vos soumissions" où chaque utilisateur pourra voir les éléments qu’il a lui-même soumis  
 
-[IMAGE]
-
 
 **L’accès à ces onglets dépend de vos droits sur le formulaire :**
 
@@ -246,8 +235,6 @@ Gérer un formulaire : ajouter, déplacer, supprimer les champs
 4. Vous pouvez glisser-déplacer les champs pour en changer l’ordre
 5. Pour supprimer un champ, cliquez sur la (x) qui s’affiche en haut à droite au survol de la sourie sur le champ. 
 
-[IMAGE]
-
 Gérer un formulaire : modifier les champs
 -------------------------------------------------------
 
@@ -258,8 +245,6 @@ Gérer un formulaire : modifier les champs
 5. Vous pouvez choisir de "Désactiver" un champ pour qu’il soit affiché dans le formulaire, mais uniquement en consultation (il ne sera pas possible d’y saisir d’information".
 6. Vous pouvez rendre un champs "privé" pour qu’il ne soit affiché que pour les utilisateurs autorisés à consulter les résultats (créateur et administrateurs des espaces où se trouve le formulaire).
 7. Si vous souhaitez obliger les utilisateurs à renseigner un champ, vous pouvez cocher la case "Requis(e)"
-
-[IMAGE]
 
 
 Gérer un formulaire : configurer 
@@ -310,9 +295,6 @@ Vous pouvez à tout moment retourner sur l’un des 10 derniers contenus vus, au
  - Cliquez sur l’icône « chrono »
  - Cliquez sur l’un des contenus pour allez dessus. 
 
-.. figure:: media-guide/Ecran-GoFAST-Dernier_Contenus_vues.png
-   :alt: 
-   
 .. NOTE::
    Il est également possible d’aller sur les derniers contenus vus depuis le Tableau de Bord (si ce bloc est activé). 
    Vous retrouverez dans ces derniers contenus vus, tous les types de contenus, y compris les Espaces, documents, Wiki, etc. Toutefois, vous ne retrouverez pas les dossiers de l’explorateur de fichiers. 
@@ -353,27 +335,19 @@ Annuaire des Utilisateurs
  - Saisir son nom dans la recherche, 
  - Passer par l’ "Annuaire" / "Utilisateurs". Vous verrez toute la liste des utilisateurs dans un tableau.
 
-.. figure:: media-guide/image321.png
-   :alt: 
 
 **Sur la page de l’annuaire :**
 Dans le bloc de droite, vous pouvez filtrer votre recherche selon le prénom, le nom, la période de connexion ou de création de l’utilisateur et l’état du compte utilisateur (actif ou pas actif).
 
-.. figure:: media-guide/image322.png
-   :alt: 
 
 Vous pouvez directement envoyer un mail ou appeler l’utilisateur via son profil. De même que lui envoyer une demande de « relation », ce qui permet de contacter/voir le raccourci de cette personne même si elle ne fait pas partie de vos espaces collaboratifs.
-
-.. figure:: media-guide/image323.png
-   :alt: 
+ 
 
 Annuaire des Liste d’utilisateurs 
 --------------------------------------------
 [EN COURS DE MISE A JOUR POUR V4.0]
 Pour rechercher des Listes d’utilisateurs via l’annuaire, allez sur Annuaire dans le menu de gauche, puis sur Listes d’utilisateurs.
 
-.. figure:: media-guide/Ecran-GoFAST_Liste-Utilisateurs_annuaire-liste.png
-   :alt: 
 
 Vous pouvez ensuite utiliser les filtres dans le bloc à droite de l’écran pour préciser le nom de la liste, de son créateur ou la période de création (au format JJ/MM/AAAA  ou JJ/MM/AA)
 
@@ -389,11 +363,6 @@ Vous trouverez un tableau listant les espaces existants.
 Vous pouvez utiliser les filtres dans le bloc à droite de l’écran pour préciser le type d’espace recherché : Organisation, Groupe, Public ou Extranet.
 Vous pouvez demander à rejoindre un Espace via le menu « Burger » (une demande est alors envoyée aux administrateurs métier de l'Espace). 
 
-.. figure:: media-guide/image319.png
-   :alt: 
-   
-.. figure:: media-guide/image320.png
-   :alt: 
 
 .. NOTE::
    Selon les paramétrages de la plateforme et vos droits d’accès, vous pourrez visualiser tous ou une partie des espaces existants.
@@ -414,20 +383,15 @@ Deux sous-onglets sont disponibles :
 
 1. Sous-onglet « **Statistique des membres** » permet de visualiser les informations relatives aux membres actifs et inactifs, les nouveaux membres et membres connectés.
 
-.. figure:: media-guide/statistics-users-space.jpg
-   :alt: 
 
 2. Sous-onglet « **Statistique documentaires** », permet de visualiser toutes les informations relatives aux documents par sa catégorie, son état et son importance.
-
-.. figure:: media-guide/statistics-docs-space.jpg
-   :alt: 
 
 
 Statistiques de la plateforme
 ---------------------------------------------------------------------------
 Les administrateurs des Espaces Collaboratifs ont la possibilité de consulter les statistiques de l’ensemble des Espaces qu’ils gèrent. 
 Pour accéder aux statistiques, il faut passer par le menu principal de gauche, puis cliquer sur "Statistiques". 
-[IMAGE]
+
 Merci de consulter également la rubrique « Statistiques » pour le « Profil Support-utilisateurs ». 
 
 
@@ -439,15 +403,14 @@ Nous vous proposons une version restreinte de la plateforme pour plus de facilit
 Le menu contextuel 
 ------------------------------
 
-.. figure:: media-guide/Mobile-Fil-actualite.png
-   :alt:
+
    
    
 Accueil : Tableau de bord 
 ------------------------------
 Affiche les divers blocs de votre tableau de bord. 
 
-[IMAGE]
+
 
 Accueil : Documents
 ------------------------------
@@ -492,8 +455,7 @@ Le moteur de recherche fonctionne à l’identique en mode GoFAST Essentiel ou G
 Le calendrier 
 ------------------
 
-.. figure:: media-guide/Mobile-Calendrier.png
-   :alt:
+
    
 
 Utilisation avancée et Modules additionnels
