@@ -282,10 +282,6 @@ Il est alors possible d’utiliser les « opérateurs booléens » qui sont des 
 * **"..."** : appliqués sur une suite de mots permet de rechercher une expression exacte (ex : "Mémoire Technique et Fonctionnalités GoFAST") et donc d’indiquer au moteur de recherche d’exclure les documents qui contiennent ses mots clefs s’ils ne sont pas exactement comme dans l’expression saisie. 
 * ***** : ajoutée à la fin ou au début d’un mot-clef permet de le rendre approximatif (ex : Fonction*) et donc d’indiquer au moteur de recherche d’afficher les documents qui contiennent tous les termes qui ont pour racine le mot-clef saisi. 
 
-.. figure:: media-guide/operateurs-booleens.jpg
-   :alt: 
-
-
 Résultat de recherche
 ------------------------------
 
@@ -406,8 +402,6 @@ Avec GoFAST, il est possible de sauvegarder manuellement plusieurs recherches pr
 
 Une fois votre recherche au point (avec ou sans mots-clefs, avec vos filtres), il suffit de cliquer sur la disquette dans le bloc de droite (au-dessus des options de recherche), donner un titre à votre recherche puis appuyer sur « Enregistrer ». 
 
-.. figure:: media-guide/search-save-process.jpg
-   :alt:
 
 .. figure:: media-guide/search-title-save.png
    :alt:
@@ -415,16 +409,12 @@ Une fois votre recherche au point (avec ou sans mots-clefs, avec vos filtres), i
 **Pour accéder aux recherches sauvegardées, vous avez deux possibilités :**
 
  - Dans la barre de recherche, à droite il suffit de cliquer sur la flèche descendante.
-.. figure:: media-guide/search-saved-from-field.jpg
-   :alt:
 
  - Depuis le bloc de recherche à droite, onglet « Mes recherches enregistrées », à ce niveau vous pouvez :
+ 
  	- Exécuter une recherche sauvegardée en cliquant dessus,
  	- Remplacer « écraser » la recherche sauvegardée par la recherche courante en cliquant sur la « Disquette », Supprimer cette recherche en allant sur le bouton « Corbeille »,
  	- Supprimer une recherche sauvegardée en cliquant sur « Corbeille ».
-
-.. figure:: media-guide/search-saved-list-from-tabs.jpg
-   :alt:
 
 
 
@@ -723,9 +713,6 @@ Il est possible d'envoyer plusieurs fichiers via un partage par mail.
 
 Après avoir sélectionné les documents souhaités, il suffit de cliquer sur *Gérer* (barre des tâches de l’explorateur de fichiers) ou faire un clic-droit sur votre sélection, puis cliquer sur *Partager par email*. 
 
-.. figure:: media-guide/Ecran-GoFAST_GoFASTFileBrowser_Partager-par-email-en-masse.png 
-	:alt:
-
 Le formulaire d'envoi par email s'ouvre et il faut alors entrer les utilisateurs (GoFAST ou emails externes).
 
 .. figure:: media-guide/Ecran-GoFAST_GoFASTFileBrowser_Partager-par-email-en-masse-modal.png
@@ -772,10 +759,6 @@ Il est possible de prés-archiver une sélection de documents en une fois.
    Cette fonctionnalité est possible unitairement sur la page d'un document, mais aussi en masse depuis GoFAST File Browser. 
    
 Après avoir sélectionné les documents souhaités, il suffit de cliquer sur *Gérer* ou faire un clic-droit sur votre sélection, puis cliquer sur *Pré-Archiver*. 
-
-.. figure:: media-guide/Ecran-GoFAST_GoFASTFileBrowser_Archiver-en-masse.png	
-   :alt:
-
 
 Partager / Ajouter des emplacements (Multi-emplacement = zéro doublon de fichier)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
