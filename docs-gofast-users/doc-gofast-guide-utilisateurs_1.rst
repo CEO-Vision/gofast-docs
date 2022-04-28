@@ -116,11 +116,6 @@ Permet de **masquer** toutes les données autour de la prévisualisation et n’
 
 .. figure:: media-guide/image133.png
    :alt: 
-   
-
-
-
-
 
 Pour revenir à la prévisualisation normale avec les infos, il suffira d’appuyer sur le logo à 2 flèches. 
 
@@ -250,6 +245,7 @@ Menu des actions contextuelles "Menu Burger"
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 **Liste des actions disponibles dans le menu "Burger" (dépend de vos droits sur le document) :**
+
  - Ouvrir l’emplacement du document 
  - Co-éditer avec OnlyOffice (renvoi vers éditer un document)
  - Editer depuis PC (renvoi vers éditer un document)
@@ -576,7 +572,6 @@ Dans la fenêtre de gestion des traductions, allez dans le champ qui correspond 
  - Selon sur la langue cible choisie, la langue du document cible sera pré-renseignée. 
  - Cliquez sur « Choisissez un fichier » et votre explorateur de fichiers local s’ouvre (celui de votre PC). 
  - Allez chercher votre document cible dans votre arborescence et cliquez sur « ouvrir » (ou faites un double-clic sur le document). 
-[IMAGE]
  - Sélectionnez les emplacements souhaités dans l’arborescence documentaire. 
  - Cliquez sur « Enregistrer » pour à la fois charger le nouveau document et sauvegarder votre lien de traduction. 
 
@@ -676,6 +671,7 @@ Voir aussi "Glisser et déposer une nouvelle version"
 Supprimer les versions mineures 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Le principal objectif de la suppression des versions mineures est de libérer de l’espace de stockage sur la plateforme. Dans le cas où un document a énormément de versions mineures, cela permet aussi de réduire la liste dans l’onglet « Versions ». 
+
 **Avant de supprimer les versions mineures, il est conseillé de vérifier si le document comporte des versions majeures :**
 
  - Si c’est le cas, les versions majeures seront conservées et vous pourrez les télécharger en cas de besoins. 
@@ -709,7 +705,7 @@ Pour afficher les écarts entre deux versions d’un même document, vous avez l
 
  - Depuis la page du document, allez dans le menu « Burger » (les actions contextuelles).
  - Allez dans « Voir plus ».
- - Cliquez sur « 
+ - Cliquez sur « Comparer les versions »
 
 .. figure:: media-guide/Ecran-GoFAST_Comparatif-Versions_lancer-le-comparatif.png
    :alt: 
@@ -724,9 +720,6 @@ Ajouter aux favoris
 ~~~~~~~~~~~~~~~~
 
 **Ajouter un document aux favoris** permet d’y accéder très rapidement par la suite, depuis la barre des accès rapides icône « étoile » (menu du haut) ou depuis son tableau de bord (page d’accueil, si on dispose du bloc « Contenus favoris ». 
-
-.. figure:: media-guide/image186.png
-   :alt: 
 
 Ajouter un document/contenu à ses favoris personnels est possible depuis :
 
@@ -758,11 +751,12 @@ Ajouter au panier documentaire
 ~~~~~~~~~~~~~~~~~~~~
 **Objectif du panier documentaire :** 
 Rassemble plusieurs documents, pouvant se trouver dans des dossiers divers de l’arborescence, pour pouvoir effectuer des actions sur l’ensemble de ces documents. 
+
 **Pour ajouter des documents dans son panier :**
  - Sur la page d’un document, via le menu « Burger » (menu des actions contextuelles), allez dans « Voir plus » et cliquez sur « Ajouter au panier ».
    
 .. figure:: media-guide/ Ecran-GoFAST_Panier-Documentaire_ajout-au-panier-sur-page-document.png
-   :alt:
+
 
  - Partout où vous voyez le menu « Burger » d’un document, vous pouvez réaliser la même action.
  - Depuis l’explorateur de fichiers, faites un clic-droit sur un document pour ouvrir le même menu « Burger ».
@@ -814,7 +808,7 @@ Un message, en haut à droite de votre écran, vous confirme que l’abonnement 
 .. figure:: media-guide/image198.png
    :alt: 
 
-Vous voir vos abonnements et gérer leurs intervalles, cliquez sur la flèche à côté de votre nom de profil puis sur « Abonnements »
+Pous voir vos abonnements et gérer leurs intervalles, cliquez sur la flèche à côté de votre nom de profil puis sur « Abonnements »
 
 .. figure:: media-guide/image199.png
    :alt: 
@@ -997,13 +991,6 @@ Puis, cliquez sur le document souhaité dans la liste suggérée pour le sélect
 
 Ainsi, les documents auront un lien entre eux et vous pourrez cliquer sur ces liens pour passer d’un document à l’autre en un clic pour gagner un temps précieux.
 
-.. figure:: media-guide/image217.png
-   :alt: 
-
-.. figure:: media-guide/image218.png
-   :alt: 
-
-
 **Liens externes**
 
 Permet d’ajouter un **lien vers une page web externe** en y mettant **une URL.**
@@ -1051,7 +1038,7 @@ Si le document existe en différentes langues, vous pouvez lier entre elles les 
 Le premier drapeau correspond à la langue du document où vous trouvez, les autres sont les traductions disponibles. 
 Donc dans l’exemple ci-dessus le document est en français (on voit le drapeau) et il existe une traduction en anglais (on voit l’autre drapeau).
 
-Pour **lier 2 documents de langues différentes** il faut passer par le menu « Burger » (menu des actions contextuelles), dans « voir plus » acliquer sur « gérer les traductions ».
+Pour **lier 2 documents de langues différentes** il faut passer par le menu « Burger » (menu des actions contextuelles), dans « voir plus » cliquer sur « gérer les traductions ».
 
 .. figure:: media-guide/image241.png
    :alt: 
@@ -1091,7 +1078,7 @@ Une fenêtre s’ouvre où vous pouvez écrire le titre de votre commentaire et 
 
 Le commentaire se retrouve dans le bloc à droite de la prévisualisation, dans l’onglet « Commentaire ». 
 Vous pouvez modifier ou supprimer votre commentaire à tout moment, via les icônes sous le commentaire. 
-De la même manière, vous pouvez répondre à un autre commentaire en cliquant sur l’cône « flèche vers la gauche ».
+De la même manière, vous pouvez répondre à un autre commentaire en cliquant sur l’icône « flèche vers la gauche ».
 
 .. figure:: media-guide/image145.png
    :alt: 
@@ -1118,7 +1105,7 @@ Le commentaire partagé est visible par tous les utilisateurs ayant accès au do
 Il est possible de modifier la visibilité de votre commentaire à tout moment, en cliquant sur l’icône pour modifier le commentaire.
 
  - Si le commentaire est "partagé" et qu'on veut le rendre "privé" : le commentaire et les éventuelles réponses au commentaire laissées par les autres utilisateurs deviennent privés.
- - Si le commentaire est supprimé, les réponses à ce commentaire le sont également. 
+ - Si le commentaire est supprimé, les réponses à ce commentaire les sont également. 
 
 .. NOTE:: Le profil super administrateur a la possibilité de cocher/décocher une case sur le profil d'un utilisateur pour lui interdire/autoriser les commentaires partagés. Dans ce cas, l'utilisateur ne pourra faire que des commentaires privés. 
 
@@ -1141,7 +1128,7 @@ Pour **annoter un mot ou un paragraphe** il suffit de sélectionner le texte sou
 Vous verrez l’endroit que vous avez annoté surligner en jaune dans la prévisualisation et en cliquant dessus, vous verrez le contenu de l’annotation.
 
 .. ATTENTION::
-   Les annotations ne sont que sur une version donnée du document, si la version est mise à jour, vous ne verrez plus l'annotation dans la prévisualisation, mais celle-ci reste dans les commentaires en dessous du document.
+   Les annotations ne sont que sur une version donnée du document, si la version est mise à jour, vous ne verrez plus l'annotation dans la prévisualisation, mais celle-ci reste dans les commentaires dans le bloc des metadonnées.
 
 .. figure:: media-guide/image149.png
    :alt: 
@@ -1201,7 +1188,7 @@ Vous pouvez inverser le processus et désarchiver le document pour le rendre act
 .. figure:: media-guide/image181.png
    :alt: 
 
-Cliquez sur « Unarchive »
+Cliquez sur « Désarchive »
 
 Il n’y à présent plus de message dans les métadonnées et l’état est redevenu normal ou comme à l’origine.
 
@@ -1246,11 +1233,9 @@ Panier Documentaire
 ----------------------------
 **Objectif du panier documentaire :** 
 
-Rassemble plusieurs documents, pouvant se trouver dans des dossiers divers de l’arborescence, pour pouvoir effectuer des actions sur l’ensemble de ces documents. 
-Le panier est accessible depuis la barre des accès rapides (menu principal du haut), à droite de la barre de recherche, dans l’icône « Panier ».  
+Rassemble plusieurs documents, pouvant se trouver dans des dossiers divers de l’arborescence, pour pouvoir effectuer des actions sur l’ensemble de ces documents.
 
-.. figure:: media-guide/Ecran-GoFAST_Panier-Documentaire_acces-au-panier.png	
-   :alt:
+Le panier est accessible depuis la barre des accès rapides (menu principal du haut), à droite de la barre de recherche, dans l’icône « Panier ».  
 
 
 Ajouter/retirer des documents dans son panier documentaire
@@ -1268,8 +1253,6 @@ Actions possibles depuis le panier documentaire
     - Partager par email 
     - Pré-archiver 
 
-.. figure:: media-guide/Ecran-GoFAST_Panier-Documentaire_actions-depuis-panier-gestion-en-masse.png	
-   :alt:
 
 **Démarrer un processus de tâches depuis le panier (Enterprise only) :**
 
