@@ -642,7 +642,7 @@ Si besoin, vous pouvez transformer la version en cours du document en une versio
 
  - Cliquez sur le bouton « Valider » pour sauvegarder. 
 
-.. figure:: media-guide/Versioning-define-majour-version-pub.jpg
+.. figure:: media-guide/Versioning-define-majour-version-pub.jpg.png
    :alt: 
 
 **Importance des versions majeures :**
@@ -1207,7 +1207,7 @@ Une DUA peut être appliquée sur un document ou plusieurs documents d’un ou p
 
 Pour déclencher une DUA sur un document, dans le bloc métadonnées de ce dernier, aller dans le champ « Catégorie » puis cliquer sur modifier. 
 
-.. figure:: media-guide/DUA_image_6.jpg
+.. figure:: media-guide/DUA_image_6.jpg.png
    :alt: 
 
 Choisissez la catégorie qui correspond au type de votre dossier puis appuyer sur « Appliquer ». 
