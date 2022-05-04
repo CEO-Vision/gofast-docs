@@ -200,9 +200,6 @@ GoFAST dispose d’un gestionnaire de versions de document. Il consiste à numé
 
 Si la version actuelle du document est erronée, par exemple si un collègue a supprimé certaines parties par erreur, vous pouvez récupérer la version précédente ou toute autre ancienne version. 
 
-.. figure:: media-guide/Versioning-doc.jpg
-   :alt: 
-
 **Sur la page d’un document :**
 
  - Allez dans l’onglet « Version » du bloc d’information (à droite de la prévisualisation). 
@@ -211,7 +208,8 @@ Si la version actuelle du document est erronée, par exemple si un collègue a s
  - Le document va être téléchargé sur votre PC (souvent dans le dossier « Téléchargement » de votre Windows), avec à la fin du titre du fichier, le numéro de la version téléchargée.  
 Si vous avez besoin d’écraser le document sur GoFAST pour le mettre à jour (=écraser la version en cours), faites un glisser-déposer dans la zone prévue pour, sur la page du document, au-dessus de la prévisualisation. 
 
-.. figure:: media-guide/Versioning-backup.jpg
+
+.. figure:: media-guide/Versioning-doc.jpg.png
    :alt: 
 
 .. NOTE::
@@ -281,6 +279,9 @@ Il est alors possible d’utiliser les « opérateurs booléens » qui sont des 
 * **+** : ajouté devant un mot-clef permet de le rendre obligatoire (ex : Mémoire Technique +Fonctionnalités) pour indiquer au moteur de recherche que parmi les termes saisis, certains doivent obligatoirement être présents dans le document recherché. 
 * **"..."** : appliqués sur une suite de mots permet de rechercher une expression exacte (ex : "Mémoire Technique et Fonctionnalités GoFAST") et donc d’indiquer au moteur de recherche d’exclure les documents qui contiennent ses mots clefs s’ils ne sont pas exactement comme dans l’expression saisie. 
 * ***** : ajoutée à la fin ou au début d’un mot-clef permet de le rendre approximatif (ex : Fonction*) et donc d’indiquer au moteur de recherche d’afficher les documents qui contiennent tous les termes qui ont pour racine le mot-clef saisi. 
+
+.. figure:: media-guide/operateurs-booleens.jpg.png
+
 
 Résultat de recherche
 ------------------------------
