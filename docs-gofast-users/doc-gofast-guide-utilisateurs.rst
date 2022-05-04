@@ -379,7 +379,7 @@ Le tableau de bord permet un accès rapide aux éléments les plus sollicités. 
  - **Mes tâches** : accès aux processus et tâches qui vous ont été assignés. Vous avez la possibilité de démarrer un nouveau processus via le bouton « + » en haut à droite. Via l’icône « tableau », vous pouvez aller sur le Tableau des Processus. 
  - **Mes espaces favoris** : affiche tous les espaces que vous avez épinglés comme favoris. Vous pouvez ajouter un espace en favori via l’icône « + ». 
  
-.. figure:: media-guide/Dashboard-add-favorite-space.jpg
+.. figure:: media-guide/Dashboard-add-favorite-space.png
    :alt:
 
 Sélectionnez à partir de l’arborescence proposé, l’espace que vous souhaitez mettre en favori, puis cliquez sur le bouton « Epingler sur le tableau de bord ».
@@ -389,7 +389,7 @@ Vous pouvez effectuer des actions sur un espace via le "Menu Burger".
 
 Pour supprimer un espace des favoris, passez par le menu "Burger", puis « Supprimer des favoris ».
 
-.. figure:: media-guide/Dashboard-delete-favorite-space.jpg
+.. figure:: media-guide/Dashboard-delete-favorite-space.jpg.png
    :alt:
 
 Un message de confirmation de suppression s’affiche en haut à droite de la fenêtre.
@@ -398,7 +398,7 @@ Un message de confirmation de suppression s’affiche en haut à droite de la fe
  - **Mes contenus favoris** : affiche tous les documents et autres types de contenus (hors les espaces) que vous avez épinglés comme favoris. Via l’icône « + », vous pouvez accéder ajouter d’autres contenus favoris. Vous pouvez effectuer des actions sur un documents/contenu via le "Menu Burger".
 Pour ajouter un ou plusieurs contenus, cliquer sur l’icône « + »  à droite du titre du bloc :
 
-.. figure:: media-guide/Dashboard-add-favorite-content.jpg
+.. figure:: media-guide/Dashboard-add-favorite-content.jpg.png
    :alt:
 
 Renseigner le nom du contenu souhaité dans la barre de saisie (au moins trois lettre) puis faites cliquez sur un des contenus suggérés et enfin validez via le bouton « Épingler sur le tableau de bord ».
@@ -877,6 +877,9 @@ Les différents onglets de votre Espace :
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
+
+.. figure:: media-guide/image078.png
+
 **L’onglet « Accueil » :**
 
 Vous pouvez le personnaliser à tout moment avec une photo, un message, une page web). Les autres administrateurs de cet Espace pourront eux aussi modifier cette onglet accueil. 
@@ -945,7 +948,12 @@ Pour savoir comment créer des utilisateurs en masse via un import depuis l’an
 Créer une Liste d’Utilisateurs
 ------------------------------------------
 Les listes d'utilisateurs facilitent la gestion en masse et automatisée des membres des Espaces Collaboratifs et leurs rôles. Ainsi, lorsqu’un utilisateur GoFAST est ajouté à une liste, il devient automatiquement membre de tous les espaces associés à cette liste.
-Pour créer une liste, via la barre des accès rapides (menu principal du haut) cliquez sur « + », puis "Liste d’utilisateurs". Vous êtes redirigé vers le formulaire et il suffit de renseigner les 3 champs affichés :
+Pour créer une liste, via la barre des accès rapides (menu principal du haut) cliquez sur « + », puis "Liste d’utilisateurs". 
+
+.. figure:: media-guide/Ecran-GoFAST_Liste-Utilisateurs_creer-liste.png
+
+Vous êtes redirigé vers le formulaire et il suffit de renseigner les 3 champs affichés :
+
     - Nom de la liste,
     - Membres de la liste (rentrez au moins 3 caractères du nom/prénom d'un utilisateur pour avoir des suggestions),
     - Administrateurs de la liste 
