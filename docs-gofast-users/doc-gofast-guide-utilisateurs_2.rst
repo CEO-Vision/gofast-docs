@@ -759,7 +759,10 @@ Il est possible de prés-archiver une sélection de documents en une fois.
 
    Cette fonctionnalité est possible unitairement sur la page d'un document, mais aussi en masse depuis GoFAST File Browser. 
    
-Après avoir sélectionné les documents souhaités, il suffit de cliquer sur *Gérer* ou faire un clic-droit sur votre sélection, puis cliquer sur *Pré-Archiver*. 
+Après avoir sélectionné les documents souhaités, il suffit de cliquer sur *Gérer* puis sur *Gérer les métadonnées*, une fênetre s'ouvre et vous selectionnez *Pré-Archivé* sur le champs *Etat* puis cliquez sur « Enregistrer »
+
+.. figure:: media-guide/Ecran-GoFAST_GoFASTFileBrowser_Archiver-en-masse.png
+:alt
 
 Partager / Ajouter des emplacements (Multi-emplacement = zéro doublon de fichier)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -786,8 +789,6 @@ Lisez bien la remarque dans l’encadré :
 
 Vous pouvez aller plus loin dans l’arborescence en cliquant sur les petits « + » devant les noms d’espaces :
 
-.. figure:: media-guide/image255.png
-   :alt: 
 
 Lorsque des documents ont plusieurs emplacements, une icône « partagé » est affichée dans la colonne « info » dans la zone principale de l’explorateur de fichiers.
 
@@ -800,15 +801,12 @@ Créer un modèle d’arborescence de répertoires est une fonctionnalité qui a
 
 Dans la barre de tâche de l’explorateur de fichiers, cliquez sur « Nouveau » puis « Dossier depuis modèle ». 
 
-.. figure:: media-guide/Template-folders-duplicate.jpg
-   :alt:
+Choisissez votre modèle de répertoires, en cochant les dossiers que vous souhaitez dupliquer ensuite cliquer sur le bouton « Valider ».
 
+.. figure:: media-guide/Template-folders-duplicated.jpg.png
+   :alt:
+   
 .. NOTE:: 
 
    Vous pouvez créer autant de répertoires et personnaliser votre arborescence à votre convenance, pour peu que vous ayez le rôle Contributeur ou Administrateur les Espaces où vous souhaitez créer ces dossiers. 
-
-Choisissez votre modèle de répertoires, en cochant les dossiers que vous souhaitez dupliquer ensuite cliquer sur le bouton « Valider ».
-
-.. figure:: media-guide/Template-folders-duplicated.jpg
-   :alt:
 
