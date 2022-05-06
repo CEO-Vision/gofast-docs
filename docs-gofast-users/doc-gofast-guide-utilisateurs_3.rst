@@ -49,9 +49,6 @@ Merci de consulter également la rubrique : « Onglet Statistiques dans un Espac
 
 S’il y a des utilisateurs qui ont fait la demande de rejoindre cet espace, le rôle indiqué sera « en attente » et seuls les Administrateurs de l’Espace peuvent valider la demande d’accès et attribuer un rôle. 
 
-.. figure:: media-guide/image111.png
-   :alt: 
-
 **Discussions :** salon de Tchat / messagerie instantanée dédié à l’Espace. 
 
 .. NOTE:: 
@@ -97,14 +94,16 @@ Il faut bien sûr d’abord avoir un compte GoFAST. Si ce n’est pas encore le 
 **Les diverses façons de devenir membre d’un espace :**
  - soit l’administrateur de l’Espace qui a créé votre compte, vous ajoute directement comme membre,
  - soit en faisant la demande via l’annuaire des Espaces : vous avez la liste des espaces collaboratifs (sélectionnez ceux que vous souhaitez), puis via le menu « Burger » cliquer sur « Rejoindre ».
-
+ 
+.. figure:: media-guide/image090.png
 
 Un message s’afficher confirmant votre demande de rejoindre cet espace :
 
-
+.. figure:: media-guide/image091.png
 
 Vous retrouverez ensuite vos demandes sur votre page de profil utilisateur.
 
+.. figure:: media-guide/image092.png
 
 - Être membre d’une liste d’utilisateurs qui elle-même devient membre de l’Espace (vous aurez donc le même rôle que celui attribué à la liste). 
 
@@ -186,8 +185,6 @@ Rechercher un membre d’un espace
  - Vous pouvez **filtrer** les membres de l’Espace par : « statu » (actif ou bloqué), type (utilisateur unique ou liste d’utilisateurs), rôle (administrateur, contributeur, lecture seule). 
  - Vous pouvez **rechercher** un membre en saisissant son nom/prénom (au moins les 3 premières lettres).
 
-[IMAGE]
-
 .. NOTE:: 
    Il est possible de connaître tous les Espaces dont est membre un utilisateur en allant sur sa page de profil. 
 
@@ -204,6 +201,7 @@ La fenêtre pour changer le rôle s’ouvre :
  - Cochez le nouveau rôle souhaité et cliquez sur « Mettre à jour ». 
  - Pour enlever le membre de l’Espace : cliquez sur « Retirer ».
 
+.. figure:: media-guide/image097.png
 
 Merci de consulter également la rubrique : « Rôles/droits des membres d’un Espace ».  
 
@@ -215,12 +213,17 @@ Ajouter des membres à un Espace
 
 - Allez dans le menu « Burger » (les actions contextuelles, en haut à droite sur la page de l’Espace ou via la page « Annuaire des Espaces »).
 
- - Cliquez sur « Ajouter membres/listes », la fenêtre d’ajout de membres s’ouvre. 
- - Utiliser la recherche pour sélectionner les utilisateurs ou listes que vous souhaitez ajouter : saisissez au moins les 3 premières lettres du nom de l’utilisateur ou de la liste.
- - Cliquez sur une des suggestions pour ajouter l’utilisateur ou la liste d’utilisateurs. Vous pouvez ainsi rechercher et ajouter plusieurs utilisateurs. 
- - Cocher le rôle souhaité pour l’ensemble des utilisateurs et/ou des listes sélectionnés. 
- - Vous pouvez écrire un message qui sera envoyé aux autres administrateurs de cet Espace. 
- - Cliquez sur « Ajouter le(s) nouveau(x) membre(s) » pour valider. 
+.. figure:: media-guide/image094.png
+
+- Cliquez sur « Ajouter membres/listes », la fenêtre d’ajout de membres s’ouvre. 
+- Utiliser la recherche pour sélectionner les utilisateurs ou listes que vous souhaitez ajouter : saisissez au moins les 3 premières lettres du nom de l’utilisateur ou de la liste.
+ 
+- Cliquez sur une des suggestions pour ajouter l’utilisateur ou la liste d’utilisateurs. Vous pouvez ainsi rechercher et ajouter plusieurs utilisateurs. 
+- Cocher le rôle souhaité pour l’ensemble des utilisateurs et/ou des listes sélectionnés. 
+- Vous pouvez écrire un message qui sera envoyé aux autres administrateurs de cet Espace. 
+- Cliquez sur « Ajouter le(s) nouveau(x) membre(s) » pour valider. 
+
+.. figure:: media-guide/image095.png
 
 .. NOTE:: 
    Si le compte utilisateur n’existe pas encore, il doit être créé. Il est possible d’effectuer cette action depuis le même menu « Burger » en cliquant sur « Créer utilisateur dans l’Espace ». 
@@ -233,10 +236,12 @@ Cette fonctionnalité permet à la fois de créer un nouvel utilisateur et l’a
 **Pour créer un utilisateur dans l’Espace :**
  - Allez dans le menu « Burger » (les actions contextuelles, en haut à droite sur la page de l’Espace ou via la page « Annuaire des Espaces »).
  - Cliquez sur « Créer utilisateur dans l’Espace » et vous serez redirigé vers le formulaire de création d’un utilisateur.
+ 
+.. figure:: media-guide/image098.png
 
- - Depuis le formulaire de création d’un utilisateur, vous pouvez soit renseigner les divers champs disponibles, soit « recherche dans LDAP » pour préremplir les données (il s’agit de l’annuaire interne de votre organisation/entreprise : AD ou LDAP). 
- - Terminez la création du nouvel utilisateur en cliquant sur « Enregistrer »
-
+- Depuis le formulaire de création d’un utilisateur, vous pouvez soit renseigner les divers champs disponibles, soit « recherche dans LDAP » pour préremplir les données (il s’agit de l’annuaire interne de votre organisation/entreprise : AD ou LDAP). 
+- Terminez la création du nouvel utilisateur en cliquant sur « Enregistrer »
+.. figure:: media-guide/image099.png
 
 Il est indispensable de consulter la rubrique « créer un utilisateur » 
 
@@ -262,7 +267,7 @@ Modifier l’emplacement d’un Espace dans l’arborescence signifie changer l�
  - Sélectionnez en un clic le nouvel emplacement souhaité. 
  - Terminez par « Déplacer cet Espace ».
 
-
+.. figure:: media-guide/image118.png
 
 .. NOTE:: 
    Pour réaliser ce déplacement, il est nécessaire d’avoir le rôle administrateur à la fois dans l’espace parent (là où se trouve votre Espace) et dans l’espace cible (vers lequel vous souhaitez faire le déplacement). Vous allez déplacer cet espace et tout son contenu, ses membres et ses sous espaces vers un autre emplacement. Cette opération peut prendre du temps et ne peut pas être interrompue.
@@ -281,6 +286,8 @@ Archiver un Espace permet de conserver tout son contenu en Lecture Seule, afin d
  - Cliquez sur « Archivez cet espace ».
  - Une fenêtre de confirmation s’ouvre. 
  - Confirmez en cliquant sur « Archiver ».
+ 
+.. figure:: media-guide/image120.png
 
 Le contenu de cet Espace apparaîtra comme archivé et ne sera plus visible lors de la recherche, sauf si vous mettez l’option de recherche « Rechercher dans les contenus archivés ».
 
@@ -358,6 +365,7 @@ Vous pouvez voir les membres d’une Liste d’Utilisateurs en allant sur cette 
  - Vous pouvez modifier la description de la liste dans le champ « Description »
  - Cliquer sur « Enregistrer » pour sauvegarder vos modifications. 
 
+.. figure:: media-guide/Ecran-GoFAST_Liste-Utilisateurs_modifier-les-membres-de-la-liste.png
 
 .. NOTE:: 
    Les membre d’une Liste vont avoir accès à tous les Espaces où cette Liste est elle-même membre. Les Administrateurs de la Liste n’ont pas accès aux Espaces, mais peuvent gérer la Liste. 
@@ -371,20 +379,27 @@ L'ajout d'une liste dans un espace collaboratif est similaire à l’ajout d’u
  - Aller sur la page de l'espace (ou via l’Annuaire des Espaces)
  - Ouvrir le menu "Burger" (actions contextuelles)
  - Cliquer sur "ajouter membre/liste"
+ 
+.. figure:: media-guide/Ecran-GoFAST_Liste-Utilisateurs_ajouter-liste-dans-espace-collaboratif.png 
    
 Le formulaire d'ajout d'un membre s'ouvre et il faut commencer à rentrer le nom de la liste (au moins 3 caractères) pour avoir des suggestions. 
+
+.. figure:: media-guide/Ecran-GoFAST_Liste-Utilisateurs_ajouter-liste-dans-espace-collaboratif-formulaire.png
 
 
 .. NOTE:: 
    Pour ajouter une liste d'utilisateurs comme membre d'un espace, il faut être administrateur de l'Espace. 
 
 .. NOTE:: 
-   Le rôle attribué à chaque utilisateur dans l'Espace Collaboratif et celui coché lors de l'ajout de la liste. Si l'utilisateur est membre d'un espace de plusieurs façons (Listes + unitairement), c'est le rôle qui offre le plus de droits qui s'appliquera. De cette façon, on évite de restreindre les droits d'un utilisateur qui serait déjà membre de l'Espace Collaboratif.
+   Le rôle attribué à chaque utilisateur dans l'Espace Collaboratif et celui coché lors de l'ajout de la liste. Si l'utilisateur est membre d'un espace de plusieurs façons (Listes + unitairement), c'est le rôle qui offre le plus de droits qui s'appliquera. De cette façon, on évite de restreindre les droits d'un utilisateur qui serait déjà membre de l'Espace Collaboratif... figure:: media-
    
 Une fois la liste ajoutée à l'Espace Collaboratif, celle-ci est affichée parmi les autres membres. 
 
-Les Espaces Collaboratifs dont est membre la liste sont affichés sur la page de la liste, onglet "Emplacements". 
+.. figure:: media-guide/Ecran-GoFAST_Liste-Utilisateurs_liste-dans-espace-collaboratif.png
 
+Les Espaces Collaboratifs dont est membre la liste sont affichés sur la page de la liste, onglet "Emplacements".
+
+.. figure:: media-guide/Ecran-GoFAST_Liste-Utilisateurs_emplacements-associes-a-la-liste.png
 
 
 Afficher/Rechercher les listes d'utilisateurs
@@ -776,9 +791,11 @@ Pour accéder au Tableau des Processus :
  - Allez dans « Processus et Tâches » 
 Vous pouvez également cliquez sur l’icône « Processus » dans ce menu principal de gauche. 
 
+.. figure:: media-guide/Dashboard-workflow.jpg.png
+
 Par défaut, quand vous arrivez sur le Tableau des Processus, seuls les processus en cours sont listés. 
 
-.. figure:: media-guide/Dashboard-workflow-listing.jpg
+.. figure:: media-guide/Dashboard-workflow-listing.jpg.
    :alt:
 
 
@@ -848,10 +865,29 @@ Gérer les colonnes
  - Renseignez le champ « Saisir le nom de la nouvelle colonne »
  - Cliquez sur le bouton « Ajouter la colonne » et votre nouvelle colonne apparait alors dans le tableau kanban. 
 
-
+.. figure:: media-guide/Kanban-add-column.jpg.png
 **Pour déplacer une colonne :**
  - Cliquez sur la colonne en maintenant le clic
  - Glissez vers l’emplacement souhaité et déposez.
+ 
+.. figure:: media-guide/kanban-move-column.jpg.png
+
+**Renommer ou supprimer une colonne :**
+Pour supprimer ou renommer une colonne, il suffit de cliquer sur l’icône « ... » qui se trouve au coin
+en haut à droite de la colonne, puis choisir l’action souhaitée.
+
+
+
+.. NOTE::
+- La suppression de la colonne effacera toutes les cartes qu’elle contient.
+- Cette action est irréversible.
+Créer une nouvelle carte
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+- Cliquez sur le bouton « + » en haut à droite de l’une des colonnes disponibles
+.. figure:: media-guide/creer-colonne-tache-kanban.jpg
+:alt:
+- Renseignez un titre pour votre carte dans le champ qui apparait.
+- Clique sur l’icône « v » et votre nouvelle carte est créée.
 
 **Renommer ou supprimer une colonne :**
 Pour supprimer ou renommer une colonne, il suffit de cliquer sur l’icône « … » qui se trouve au coin en haut à droite de la colonne, puis choisir l’action souhaitée.
