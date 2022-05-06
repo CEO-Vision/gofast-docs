@@ -229,8 +229,11 @@ Il suffit d’entrer votre **identifiant** et votre **mot de passe** ou vous con
 Vous pouvez choisir entre deux interfaces : **GoFAST plus** ou **GoFAST Essentielle**  
 L’interface GoFAST Essentielle est la version "restreinte" de GoFAST Plus (interface complète). Elle propose les fonctionnalités principales et masque certaines fonctionnalités plus avancées (ex. Gestion d’un Espace) avec une page d’accueil et une navigation plus adaptée à un utilisateur occasionnel. Pour toute question, n’hésitez pas à allez sur les forums de la communauté des utilisateurs. 
 
+
 Se repérer sur GoFAST (menus, icônes…)
 --------------------------------------------------------
+
+
 GoFAST dispose de deux menus principaux :
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 **« Menu d’accès rapides » :** 
@@ -241,6 +244,7 @@ Qui se trouve à gauche. Ce menu permet d’accéder aux principales pages de la
 
 .. NOTE::
     En plus du menu principal de gauche, il est possible de déplier un volet latéral (aussi à gauche) pour un accès pratique à l’arborescence des documents, liste des pages wiki, ainsi que des forums.
+
 
 Menu d’accès rapides
 ~~~~~~~~~~~~~~~~~~
@@ -274,6 +278,7 @@ Menu d’accès rapides
 
 Menu latéral 
 ~~~~~~~~~~~~~~~~~~~
+
 Ce menu est donne accès aux principales pages de GoFAST. Selon votre profil utilisateur (Standard, Support-Utilisateurs ou Super-Administrateur) vous aurez des accès standards ou supplémentaires. 
 Vous pouvez plier et déplier ce menu avec l’icône burger en haut à gauche.
 
@@ -357,8 +362,10 @@ Si vous avez un de ces profil, vous pouvez partager une information :
 * cliquez sur « Envoyer ». 
 Le message sera visible sur le fil d’activité pour tous les utilisateurs. 
 
+
 Tableau de Bord
 ~~~~~~~~~~~~~~
+
 Le tableau de bord permet un accès rapide aux éléments les plus sollicités. Par défaut, tous les utilisateurs ont le même tableau de bord. 
 
 **Accédez au Tableau de Bord :**
@@ -416,6 +423,7 @@ N’hésitez pas à poser vos questions sur le tableau de bord et les autres blo
 
 Page "Profil Utilisateur"
 --------------------------------
+
 Depuis votre photo de profil (via le menu d’accès rapide, tout en haut à droite), vous pouvez accéder à votre page de profil, qui est comme votre « carte de visite virtuelle ». 
 
 
@@ -427,6 +435,7 @@ Cette page affiche les informations vous concernant :  nom, prénom, fonction, e
 
 Paramètres du profil
 ~~~~~~~~~~~~~~~~~
+
 Vous pouvez voir et/ou modifier les divers éléments de votre profil directement en cliquant dessus dans le bloc de gauche ou en passant par le menu de **paramètres du compte** : 
  - identifiant (non modifiable)
  - nom
@@ -460,19 +469,12 @@ Vous arriverez sur la page d’ajout/modification de la photo de profil. Appuyez
 
 Votre photo apparaîtra dès lors sur votre profil et partout où vous êtes cité sur la plateforme (ex. fil d’activité, tâche…). C’est un moyen rapide et convivial de connaître ses collègues éloignés et de savoir plus facilement à qui on s’adresse (à condition de mettre de vraies photos de profil).
 
+
 Les Espaces Collaboratifs
 ---------------------------------
+
 Les Espaces Collaboratifs sont des zones de travail et de partage de documents, tâches et autres types de contenus, discussions, accessibles uniquement aux utilisateurs membres.
 
-Une icône « Afficher le contenu en pleine page » permet **d’agrandir la vue** de la page en masquant les menus principaux de la plateforme.
-
-.. figure:: media-guide/image030.png
-   :alt: 
-
-Il suffit de réappuyer sur la même icône à 2 flèches pour revenir à la vue précédente.
-
-.. figure:: media-guide/image031.png
-   :alt: 
 
 Types d'Espaces Collaboratifs disponibles
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -480,6 +482,9 @@ Types d'Espaces Collaboratifs disponibles
   - Groupes (Dédiés au travail transversal : projet, base de connaissances, produit, site géographique, thématique...)
   - Extranets (dédiés au travail avec des partenaires externes)
   - Publics (accessible à tous les utilisateurs internes en lecture seule, non aux externes)
+
+.. figure:: Carrousel GoFAST 4-0_N0_types-espaces_fr.png
+   :alt: 
 
 Chaque Espace Collaboratif est organisé de la même manière (onglet Documents, Tâches, membres…). Toutefois, il y a quelques fonctionnalités qui différent selon le type d’Espace (merci de vous référer aux rubriques décrivant chaque type d’Espace). 
 
@@ -493,6 +498,15 @@ Chaque espace peut contenir un ou plusieurs sous espaces. Dans ce cas il est pos
    Avant de pouvoir déposer les fichiers sur la plateforme GoFAST, assurez-vous de créer les "bons" espaces et sous-espaces collaboratifs de type Organisation, Groupe ou Extranet ! 
 
  - Espace Personnel : disponible pour chaque utilisateur (personne, si ce n’est l’utilisateur lui-même n’a accès à cet espace personnel). 
+
+
+Une icône « Afficher le contenu en pleine page » permet **d’agrandir la vue** de la page en masquant les menus principaux de la plateforme.
+
+.. figure:: media-guide/image030.png
+   :alt: 
+
+Il suffit de réappuyer sur la même icône à 2 flèches pour revenir à la vue précédente.
+
 
 Rôles des membres des Espaces Collaboratifs
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
