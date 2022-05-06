@@ -486,7 +486,6 @@ Types d'Espaces Collaboratifs disponibles
   - Publics (accessible à tous les utilisateurs internes en lecture seule, non aux externes)
 
 .. figure:: media-guide/Carrousel GoFAST 4-0_N0_types-espaces_fr.png
-   :alt: 
 
 
 Chaque Espace Collaboratif est organisé de la même manière (onglet Documents, Tâches, membres…). Toutefois, il y a quelques fonctionnalités qui différent selon le type d’Espace (merci de vous référer aux rubriques décrivant chaque type d’Espace). 
