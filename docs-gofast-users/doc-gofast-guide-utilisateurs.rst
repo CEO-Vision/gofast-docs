@@ -412,13 +412,8 @@ Pour ajouter un ou plusieurs contenus, cliquer sur l’icône « + »  à droite
 
 Renseigner le nom du contenu souhaité dans la barre de saisie (au moins trois lettre) puis faites cliquez sur un des contenus suggérés et enfin validez via le bouton « Épingler sur le tableau de bord ».
 
-.. figure:: media-guide/Dashboard-add-favorite-content-1.jpg
-   :alt:
-
 Les documents épinglés peuvent être prévisualisés, édités, partagés, archivés et commentés directement à partir du tableau de bord.
  
-.. figure:: media-guide/Dashboard-manage-favorite-content.jpg
-   :alt:
 
 N’hésitez pas à poser vos questions sur le tableau de bord et les autres blocs disponibles via les Forums. 
 
@@ -761,10 +756,10 @@ Avec cette fonctionnalité, vous pouvez **intégrer des pages externes** qui pro
 
 Allez sur l’icône « + », « Contenu », « Page Externe »
 
-Indiquez un titre, choisissez la langue, copier le lien URL, choisissez l’emplacement dans l’arborescence (cochez la case ou cliquez sur le nom du groupe pour le retrouver en bleu sur la droite), enregistrez.
-
-.. figure:: media-guide/image063.png
+.. figure:: media-guide/image0063.png
    :alt: 
+
+Indiquez un titre, choisissez la langue, copier le lien URL, choisissez l’emplacement dans l’arborescence (cochez la case ou cliquez sur le nom du groupe pour le retrouver en bleu sur la droite), enregistrez.
 
 Les page web externe se comportent comme les autres fichiers/documents sur GoFAST (possible de qualifier/ajouter des métadonnées, partager dans plusieurs emplacements, mettre à jour…). 
 Ces pages sont visibles dans l’explorateur de fichier, dans les emplacements où elles se trouvent, ainsi que via le moteur de recherche. 
