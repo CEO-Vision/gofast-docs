@@ -271,6 +271,7 @@ Menu d’accès rapides
      - Abonnements : vous permet d’accéder à votre page d’abonnement, voir la partie : Gestion des abonnements 
      - Le choix entre GoFAST Essentiel ou GoFAST Plus. 
      - Déconnexion pour vous déconnecter de la plateforme. A noter que la durée de session de GoFAST est dans tous les cas, limitée dans le temps et vous serez donc déconnecté au bout d’un délais (10h). 
+     
 
 .. figure:: media-guide/votre-profil-0.png
    :alt: 
@@ -320,6 +321,7 @@ La première fois que vous vous connectez à GoFAST à la suite d’une mise à 
 Selon la configuration de la page d’accueil de votre plateforme, vous pouvez arriver soit sur le Fil d’activité, soit sur le Tableau de bord.
 
 .. figure:: media-guide/Image-Accueil-1.png
+
 
 Fil d’Activité 
 ~~~~~~~~~~
@@ -483,8 +485,9 @@ Types d'Espaces Collaboratifs disponibles
   - Extranets (dédiés au travail avec des partenaires externes)
   - Publics (accessible à tous les utilisateurs internes en lecture seule, non aux externes)
 
-.. figure:: Carrousel GoFAST 4-0_N0_types-espaces_fr.png
+.. figure:: media-guide/Carrousel GoFAST 4-0_N0_types-espaces_fr.png
    :alt: 
+
 
 Chaque Espace Collaboratif est organisé de la même manière (onglet Documents, Tâches, membres…). Toutefois, il y a quelques fonctionnalités qui différent selon le type d’Espace (merci de vous référer aux rubriques décrivant chaque type d’Espace). 
 
