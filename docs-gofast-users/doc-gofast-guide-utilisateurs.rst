@@ -2,10 +2,14 @@
 GoFAST : Guide Utilisateurs 
 ==============================
 
-   
-.. NOTE:: Si vous êtes en version 4.0 de GoFAST, merci de vous réfèrer à la documentation ici : https://gofast-docs.readthedocs.io/fr/4.0/
-   .. figure:: media-guide/image001.png
+
+
+
+Si vous êtes en version 4.0 de GoFAST, merci de vous réfèrer à la documentation ici : https://gofast-docs.readthedocs.io/fr/4.0/
+
+.. figure:: media-guide/image001.png
    :alt: 
+
 
 
    
