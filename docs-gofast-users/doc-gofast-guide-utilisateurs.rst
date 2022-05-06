@@ -486,9 +486,8 @@ Types d'Espaces Collaboratifs disponibles
   - Publics (accessible à tous les utilisateurs internes en lecture seule, non aux externes)
 
 
-.. figure:: media-guide/Carrousel GoFAST 4-0_N0_types-espaces_fr.png
+.. figure:: docs-gofast-users/media-guide/Carrousel GoFAST 4-0_N0_types-espaces_fr.png
    :alt: 
-
 
 
 
