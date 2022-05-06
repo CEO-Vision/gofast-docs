@@ -7,7 +7,6 @@ C’est un élément capital sur la plateforme GoFAST Digital Workplace et il es
 
 Se repérer sur la page d’un Espace Collaboratif
 -------------------------------------------------------------
-
 Généralités 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Un Espace est un ensemble de : 
@@ -876,21 +875,8 @@ Gérer les colonnes
 Pour supprimer ou renommer une colonne, il suffit de cliquer sur l’icône « ... » qui se trouve au coin
 en haut à droite de la colonne, puis choisir l’action souhaitée.
 
+.. figure:: media-guide/Kanban-rename-delete-column.jpg.png
 
-
-.. NOTE::
-- La suppression de la colonne effacera toutes les cartes qu’elle contient.
-- Cette action est irréversible.
-Créer une nouvelle carte
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-- Cliquez sur le bouton « + » en haut à droite de l’une des colonnes disponibles
-.. figure:: media-guide/creer-colonne-tache-kanban.jpg
-:alt:
-- Renseignez un titre pour votre carte dans le champ qui apparait.
-- Clique sur l’icône « v » et votre nouvelle carte est créée.
-
-**Renommer ou supprimer une colonne :**
-Pour supprimer ou renommer une colonne, il suffit de cliquer sur l’icône « … » qui se trouve au coin en haut à droite de la colonne, puis choisir l’action souhaitée.
 
 .. NOTE::
    - La suppression de la colonne effacera toutes les cartes qu’elle contient. 
@@ -901,15 +887,16 @@ Créer une nouvelle carte
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  - Cliquez sur le bouton « + » en haut à droite de l’une des colonnes disponibles 
    
+.. figure:: media-guide/creer-colonne-tache-kanban.jpg.png
 
  - Renseignez un titre pour votre carte dans le champ qui apparait.
  - Clique sur l’icône « v » et votre nouvelle carte est créée. 
  - Cliquez sur la nouvelle carte que vous venez de créer pour ouvrir le formulaire associé. 
 
-.. figure:: media-guide/creer-une-carte.jpg	
+.. figure:: media-guide/creer-une-carte.jpg.png	
    :alt:
 
-- Renseigner le titre, la description, les documents liés, la date d’échéance, le responsable puis les participants et enfin appuyer sur « Enregistrer ».
+- Renseigner le titre, la description, les documents liés, la date d’échéance, le responsable puis les participants. Ces informations sont enregistrées automatiquement.
 
 .. NOTE::
    Vous pouvez modifier les informations précédemment entrées ou ajouter plus d’éléments à tout moment, en cliquant sur la carte. 
@@ -927,13 +914,13 @@ Les champs disponibles dans une carte
  - Documents : champ modifiable, vous pouvez lier des documents à cette carte en saisissant le titre (au moins 3 caractères à saisir pour avoir des suggestions) ou en collant le titre d’un document. Cliquez sur une des suggestions pour lier le document ou sur « x » pour un document déjà lié. 
  - Todolist :  champ modifiable, où vous pouvez lister les sous-tâches précises à effectuer. Cliquez sur « Ajouter nouvelle tâche », saisissez un titre, puis cliquez sur « v » pour enregistrer votre nouvelle tâche de la todolist. Chaque tâche pourra être affectée à un membre de l’Espace avec une échéance précise. 
  
-.. figure:: media-guide/kanban-todolist-management.jpg	
+.. figure:: media-guide/kanban-todolist-management.jpg.png	
    :alt:
 
 - Commentaire (s) : champ modifiable, où vous pouvez partager des remarques et des suggestions avec les participants de la carte.
 -  Historique : champ non modifiable, qui affiche l’audit des actions faites sur la carte.
 
-.. figure:: media-guide/kanban-card-fields-edit.jpg	
+.. figure:: media-guide/kanban-card-fields-edit.jpg.png	
    :alt:
 
 .. NOTE::
@@ -958,7 +945,7 @@ Les cartes peuvent être déplacées par glisser-déposer d’une colonne à une
  - Cliquez sur la carte sans l’ouvrir, en maintenant le clic
  - Glissez vers l’emplacement souhaité et déposez.
 
-
+.. figure:: media-guide/Kanban-move-card.jpg.png
   
 Afficher ses cartes (tâches d’un Kanban)
 -----------------------------------------------
@@ -971,6 +958,7 @@ Les cartes sont visibles aux utilisateurs membres de l’Espace où elles se tro
 
  - Depuis l’onglet « Tâche » ou « Calendrier » d’un Espace Collaboratif ou son Espace Personnel.
  
+.. figure:: media-guide/kanban-card-display-calendar.jpg.png
 
 .. NOTE::
    La carte apparaîtra dans le calendrier à la date d'échéance de la carte et non à la date d'échéance de la checklist.
@@ -992,6 +980,7 @@ Filtrer les cartes
 GoFAST met à disposition une barre de recherche pour filtrer les cartes, elle est placée au-dessus des colonnes dans le Kanban, sur la page d’un Espace. 
 La recherche se fait uniquement sur le titre de la carte. Il suffit de taper le titre, la carte concernée s’affichera dans le tableau et toutes les autres deviendront invisibles. 
 
+.. figure:: media-guide/Kanban-filter.jpg.png
 
 Permissions  
 -----------------
