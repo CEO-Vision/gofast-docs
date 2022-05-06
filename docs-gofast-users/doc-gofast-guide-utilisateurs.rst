@@ -487,6 +487,8 @@ Types d'Espaces Collaboratifs disponibles
 
 
 .. figure:: media-guide/Carrousel GoFAST 4-0_N0_types-espaces_fr.png
+   :alt: 
+
 
 
 
