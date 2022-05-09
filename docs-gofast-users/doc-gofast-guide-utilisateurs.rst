@@ -747,7 +747,7 @@ Vous pourrez ensuite soit supprimer (poubelle) /modifier (crayon sur feuille) vo
 Un message en haut à droite apparaîtra signalant la publication de votre nouveau commentaire.
  
 
-Pour en savoir plus sur l’utilisation des Forums, merci de vous référer à la rubrique : « Forums » 
+Pour en savoir plus sur l’utilisation des Forums, merci de vous référer à la rubrique : « :ref:`Forums et Pages Wiki` »
 
 Créer un Formulaire
 ----------------------------
