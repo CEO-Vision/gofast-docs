@@ -1016,9 +1016,6 @@ La 1ere version que vous créez ou migrez sur GoFAST commence à 1.0.
 
 Cliquez sur « Show versions list » pour voir les versions antérieures, vous pouvez même choisir le type de versions (actuelle, majeure ou toutes), puis cliquez sur le numéro de la version que vous voulez ouvrir.
 
-.. figure:: media-guide/image237.png
-   :alt: 
-
 Voir également la rubrique : “Gestion des versions ». 
 
 
