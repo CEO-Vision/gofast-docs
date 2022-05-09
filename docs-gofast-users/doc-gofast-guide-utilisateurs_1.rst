@@ -661,8 +661,6 @@ Terminer en cliquant sur « Valider ».
 .. figure:: media-guide/image203.png
    :alt: 
 
-.. figure:: media-guide/image204.png
-   :alt: 
 
 Dans les métadonnées, vous verrez le changement du numéro de version (ex. version 1.2 est passée en 2.0). Quand le 1\ :sup:`er` chiffre change, c’est une version majeure, autrement il s’agit d’une version mineure.
 
