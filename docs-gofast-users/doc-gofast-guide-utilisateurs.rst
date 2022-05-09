@@ -747,7 +747,7 @@ Vous pourrez ensuite soit supprimer (poubelle) /modifier (crayon sur feuille) vo
 Un message en haut à droite apparaîtra signalant la publication de votre nouveau commentaire.
  
 
-Pour en savoir plus sur l’utilisation des Forums, merci de vous référer à la rubrique : « `Forums<https://gofast-docs.readthedocs.io/fr/4.0/docs-gofast-users/doc-gofast-guide-utilisateurs.html#les-forums>` »
+Pour en savoir plus sur l’utilisation des Forums, merci de vous référer à la rubrique : « Forums »
 
 Créer un Formulaire
 ----------------------------
