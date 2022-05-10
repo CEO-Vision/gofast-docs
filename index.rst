@@ -1,5 +1,5 @@
-Documentation GoFAST
-####################
+Documentation GoFAST v3
+#######################
 
 .. _technical-docs:
 
