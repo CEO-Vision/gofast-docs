@@ -95,7 +95,7 @@ GoFAST apporte une dimension très innovante et vous permet d’éditer des docu
 
 .. CAUTION::   
 
-   Cette rubrique décrit comment éditer/coéditer un fichier bureautique via la Suite OnlyOffice sur GoFAST (ouvrir, fermer, système de verrou…). Toutefois, pour connaitre les nombreuses fonctionnalités de cette Suite collaborative, merci de bien vouloir vous référer à la documentation de OnlyOffice, ici : XXXXXXXXXXXXXXXXXXXXXXXXXX
+   Cette rubrique décrit comment éditer/coéditer un fichier bureautique via la Suite OnlyOffice sur GoFAST (ouvrir, fermer, système de verrou…). Toutefois, pour connaitre les nombreuses fonctionnalités de cette Suite collaborative, merci de bien vouloir vous référer à la documentation de OnlyOffice, ici : https://helpcenter.onlyoffice.com/fr/userguides.aspx
 
 Types de fichiers concernés 
 ~~~~~~~~~~~~~~~~~~~~~~~~
