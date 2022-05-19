@@ -9,7 +9,8 @@ Nouvelles fonctionnalités
 *****************************
 .. csv-table::
    :header: "Ref.", "Description"
-   :widths: 20, 60   
+   :widths: 1000, 60000
+  
 
    [GOFAST-7420],"Accueil Tableau de Bord : Dans bloc 'Espaces Favoris' affichage du chemin (fil d'ariane)"
    [GOFAST-8044],"Accueil Tableau de Bord : Nouveau Bloc zone de texte éditable par le profil 'Support-Utilisateur (dont liens vers applications ou sites web)"
