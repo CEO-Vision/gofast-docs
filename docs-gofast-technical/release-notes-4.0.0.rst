@@ -138,8 +138,33 @@ Sécurité
    [GOFAST-8329],"Mise à jour de Openssl"
    [GOFAST-7588],"Mise à jour du module CKEditor et librairie"
    [GOFAST-8352],"Statistiques : restreindre l'export de la liste des utilisateurs au seul profil support-utilisateurs"
-
+  
+   
    
 
+Bugs 
+******************************
+.. csv-table::
+   :header: "Ref.", "Description"
+   :widths: 1000, 60000
    
+   
+  
+   [GOFAST-8460],"Afficher le champ de configuration 'timezone' dans l'édition d'un compte utilisateur"
+   [GOFAST-8258],"Empêcher la réactivation d'un compte désactivé lors de la synchronisation avec AD/LDAP"
+   [GOFAST-7669],"Ergonomie : Mise à jour de certaines traductions"
+   [GOFAST-6839],"Impossible de renommer une colonne Kanban dans certains cas (perte du focus)"
+   [GOFAST-8019],"Impression/prévisualisation impossible dans certains cas avec OnlyOffice"
+   [GOFAST-7093],"Le champ 'Time to live' des messages doit être pris en compte par le module SSO"
+   [GOFAST-6853],"Ne pas afficher les répertoires 'TEMPLATES' dans les espaces racines (1er niveau)"
+   [GOFAST-6630],"Notifications : Ne pas notifier de l'ajout/suppression d'un membre si il est aussi dans une Liste d'Utilisateurs dans l'espace"
+   [GOFAST-7064],"Notifications : Problème de formatage des notifications de conférence sous Outlook (2013 - 2016) "
+   [GOFAST-5648],"Office Microsoft : Après édition impossible de sauvegarder (message 'Échec du téléchargement')"
+
+
+  
+ 
+
+  
+
    
