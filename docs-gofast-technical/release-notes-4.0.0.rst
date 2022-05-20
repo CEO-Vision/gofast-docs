@@ -36,7 +36,7 @@ Nouvelles fonctionnalités
    [GOFAST-4833],"Gérer les étiquettes : Possibilité de fusionner, modifier et supprimer"
    [GOFAST-7339],"Menu 'à propos' : possibilité d'ajouter un lien personnalisé (via la page de configuration)"
    [GOFAST-7780],"Module Optionnel GoFAST : Gestion des courriers entrants"
-   [GOFAST-7934],"Module Optionnel GoFAST : Sécurité Additionnelle (Brute Force/DDoS Attacks + WAF) "
+   [GOFAST-7934],"Module Optionnel GoFAST : Sécurité Avancée (Brute Force/DDoS Attacks + WAF) "
    [GOFAST-7939],"Module Optionnel GoFAST : SSO Keycloak"
    [GOFAST-5214],"Module Optionnel GoFAST : Synchronisation hors ligne (en local)"
    [GOFAST-4446],"Multi-emplacement automatique des dossiers (ou 'Dossier miroirs') "
