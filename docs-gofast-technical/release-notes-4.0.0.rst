@@ -52,6 +52,57 @@ Nouvelles fonctionnalités
    [GOFAST-7834],"Tchat : Pleine page dédiée hors contexte GoFAST (Ajouter en fin d'URL : /sites/all/libraires/riot/index.html#/login)"
    [GOFAST-7319],"Web-conférence : Possible de séparer une réunion en plusieurs"
 
+Améliorations 
+******************************
+.. csv-table::
+   :header: "Ref.", "Description"
+   :widths: 1000, 60000
+  
 
+  
+   [GOFAST-7350],"Annuaire Contacts : ajout de fonctionnalités de tri et de gestion (modifier, supprimer) "
+   [GFAST-7364],"API Recherche : Retourner le nombre total de résultats"
+   [GOFAST-7621],"Articles Wiki : Amélioration du formulaire de création d'un Article Wiki"
+   [GOFAST-7925],"Articles Wiki : Harmonisation des désignations des wiki ('page interne' => 'Article Wiki')"
+   [GOFAST-7592],"Carrousel v4.0 : ajout de mémos-guides pour les nouvelles fonctionnalités v4"
+   [GOFAST-7255],"Création Publication : pré-cocher 'conserver les métadonnées' "
+   [GOFAST-6997],"Ergonomie : Amélioration de la page de création d'un Article Wiki"
+   [GOFAST-7000],"Ergonomie : Amélioration de la page de création d'un formulaire"
+   [GOFAST-7008],"Ergonomie : Amélioration de la page de création d'un forum"
+   [GOFAST-7014],"Ergonomie : Amélioration de la page de création d'un utilisateur"
+   [GOFAST-7023],"Ergonomie : Amélioration de la page de création d'une liste d'utilisateurs"
+   [GOFAST-6985],"Ergonomie : Amélioration de la page de création d'une réunion / Web-conférence"
+   [GOFAST-7556],"Ergonomie : Amélioration de la page de téléchargement (partage de lien par email)"
+   [GOFAST-6850],"Ergonomie : Amélioration de la page d'un document et nouveau bloc avec onglets (Informations, Tâches, Commentaires, etc.)"
+   [GOFAST-6815],"Ergonomie : Amélioration de la page d'un espace collaboratif"
+   [GOFAST-5873],"Ergonomie : Amélioration de la page d'une liste d'utilisateurs"
+   [GOFAST-7352],"Ergonomie : Amélioration de la page 'non trouvée' et page 'accès interdit'"
+   [GOFAST-6491],"Ergonomie : Amélioration des icônes"
+   [GOFAST-6822],"Ergonomie : Amélioration des pages de statistiques"
+   [GOFAST-6610],"Ergonomie : Amélioration du 'KANBAN' (onglet tâches d'un espace)"
+   [GOFAST-5478],"Ergonomie : Améliorer la visibilité du menu burger (actions contextuelles) "
+   [GOFAST-8389],"Ergonomie : Distinguer les 'Profils' (ex. Super-administrateur), 'Types' (ex. Externe) et 'Permissions' (ex. Broadcaster)"
+   [GOFAST-3909],"Ergonomie : 'Favoris Publics' renommé en 'Favoris d'Espace'"
+   [GOFAST-7851],"Ergonomie : Harmonisation des terminologies 'Rôle' dans un espace et 'Profil' sur la plateforme"
+   [GOFAST-8319],"Ergonomie : Message d'aide (?) indiquant de ne pas s'identifier avec son email sur la page de connexion"
+   [GOFAST-7446],"Ergonomie : Nouveau look & feel GoFAST Essential (et interface mobile) "
+   [GOFAST-5480],"Ergonomie : Nouveau message d'alerte au clic sur 'déverrouiller' un document en cours d'édition"
+   [GOFAST-6720],"Ergonomie : Nouvelle page de connexion "
+   [GOFAST-8275],"Ergonomie : Regroupement des fonctionnalités de signature dans le menu burger"
+   [GOFAST-6114],"Ergonomie : Renommage 'Espace Privé' en 'Espace Personnel'"
+   [GOFAST-5166],"Ergonomie : Renommer le Type d'utilisateur 'Extranet' par 'Externe'"
+   [GOFAST-5414],"Ergonomie : 'Titre' renommé en 'Fonction' et 'Société' renommé en 'Entité' "
+   [GOFAST-7447],"Explorateur de fichiers : Ajout du texte 'Déposer ici' et clic pour charger des documents"
+   
+   
+   
+   
+   
+   
+   
+   [GFAST-7364],"API Recherche : Retourner le nombre total de résultats"
+   [GOFAST-7621],"Articles Wiki : Amélioration du formulaire de création d'un Article Wiki"
 
-
+   
+   
+   
