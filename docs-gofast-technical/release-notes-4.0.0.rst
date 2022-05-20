@@ -93,15 +93,36 @@ Améliorations
    [GOFAST-5166],"Ergonomie : Renommer le Type d'utilisateur 'Extranet' par 'Externe'"
    [GOFAST-5414],"Ergonomie : 'Titre' renommé en 'Fonction' et 'Société' renommé en 'Entité' "
    [GOFAST-7447],"Explorateur de fichiers : Ajout du texte 'Déposer ici' et clic pour charger des documents"
+   [GOFAST-3971], "Mise à jour d'Alfresco 6.2.0"
+   [GOFAST-5424],"Mise à jour de LibreOffice 7.2.5"
+   [GOFAST-7574],"Mise à jour d'Element (v1.95) + Synapse"
+   [GOFAST-7439],"Mise à jour d'OnlyOffice v7"
+   [GOFAST-8393],"Mise à jour Solr 8.11.1"
+   [GOFAST-7620],"Mise à jour Tomcat 9.0.56"
+   [GOFAST-7627],"Notifications : Nouveau design des emails (Synthèses Activité, Processus, Échéances, etc.)"
+   [GOFAST-7349],"Notifications : Nouvelle notification des demandes d'ajout de membres dans un Espace par le profil 'Support-Utilisateurs'"
+   [GOFAST-7360],"Notifications : Regroupement des rappels des échéances (sur documents et taches) dans une seule notification"
+   [GOFAST-7273],"Notifications : regrouper les notifications 'immédiates' des tâches collaboratives 'Kanban'"
+   [GOFAST-8255],"Office Coédition : Griser le bouton 'Co-éditer via OnlyOffice' pour les formats doc, ppt, xls"
+   [GOFAST-6804],"Partage de documents par email : Editeur riche disponible dans la zone commentaire"
+   [GOFAST-7372],"Partager une nouvelle (sur fil d'activité) : fonctionnalité autorisée uniquement au profil 'Support-Utilisateurs'"
+   [GOFAST-8496],"Performance : Changement du système de prévisualisation PDF"
+   [GOFAST-8085],"Performances : Optimisation du Tchat (refactoring implémentation)"
+   [GOFAST-5006],"Réunion Web-conférence : possibilité d'ajouter les Liste d'utilisateurs comme participants"
+   [GOFAST-4177],"Réunion Web-conférence : Utilisation du port 443/TCP"
+   [GOFAST-8278],"Sélecteur de langue : remplacer les drapeaux par la langue sur 2 lettres (FR/EN)"
+   [GOFAST-6159],"Suppression de la fonction 'messages privés' : désormais les messages privés passent par le Tchat"
+   [GOFAST-6612],"Notifications : Amélioration des emails des réunions Web-conférence"
+   [GOFAST-7281],"Performance : Utilisation du protocole http/2 "
+   [GOFAST-5502],"Ergomonie : Agrandir la taille de police"
+   [GOFAST-6057],"Page Document : Accès à l'empacement du document depuis la zone 'Emplacements / Visibilités' dans le bloc d'informations"
+
+  
    
    
    
    
-   
-   
-   
-   [GFAST-7364],"API Recherche : Retourner le nombre total de résultats"
-   [GOFAST-7621],"Articles Wiki : Amélioration du formulaire de création d'un Article Wiki"
+  
 
    
    
