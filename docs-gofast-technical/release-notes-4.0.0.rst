@@ -116,14 +116,30 @@ Améliorations
    [GOFAST-7281],"Performance : Utilisation du protocole http/2 "
    [GOFAST-5502],"Ergomonie : Agrandir la taille de police"
    [GOFAST-6057],"Page Document : Accès à l'empacement du document depuis la zone 'Emplacements / Visibilités' dans le bloc d'informations"
+   
+   
 
+Sécurité 
+******************************
+.. csv-table::
+   :header: "Ref.", "Description"
+   :widths: 1000, 60000
   
-   
-   
-   
-   
-  
+   [GOFAST-8502],"Aucun appel externe autorisé hors Atatus et Newrelic"
+   [GOFAST-8379],"Correctifs Faille : DNRED"
+   [GOFAST-8338],"Correctifs Faille : XSS"
+   [GOFAST-8195],"Correctifs failles : 'CSRF'"
+   [GOFAST-8193],"Correctifs failles : 'STORED XSS' et 'Reflected XSS'"
+   [GOFAST-7634],"Correctifs 'Hotfix' : Faille log4j CVE-2021-44228"
+   [GOFAST-8190],"Injection SQL"
+   [GOFAST-6805],"Mise à jour Bonita v7.7.4"
+   [GOFAST-8111],"Mise à jour CentOS (Log4j et autres)"
+   [GOFAST-8328],"Mise à jour de Expat"
+   [GOFAST-8329],"Mise à jour de Openssl"
+   [GOFAST-7588],"Mise à jour du module CKEditor et librairie"
+   [GOFAST-8352],"Statistiques : restreindre l'export de la liste des utilisateurs au seul profil support-utilisateurs"
 
    
+
    
    
