@@ -126,7 +126,6 @@ Sécurité
    :widths: 1000, 60000
   
    [GOFAST-8502],"Aucun appel externe autorisé hors Atatus et Newrelic"
-   [GOFAST-8379],"Correctifs Faille : DNRED"
    [GOFAST-8338],"Correctifs Faille : XSS"
    [GOFAST-8195],"Correctifs failles : 'CSRF'"
    [GOFAST-8193],"Correctifs failles : 'STORED XSS' et 'Reflected XSS'"
