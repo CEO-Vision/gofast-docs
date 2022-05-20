@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2020
+# Copyright (C) 2022
 # This file is distributed under the same license as the gofast-docs package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gofast-docs latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-27 12:27+0200\n"
+"POT-Creation-Date: 2022-05-20 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,2024 +16,2024 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:3
-#: 653ce0e4477c4533af4ed6b979b75dc0
+#: ../../docs-gofast-development/api-rest.rst:3
+#: 66c775cf65c3462cb4f79608fa2bb902
 msgid "GoFAST :  API REST"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:5
-#: 249b695824494d4b8a172d50ccc7de49
+#: ../../docs-gofast-development/api-rest.rst:5
+#: fff2cfedafc24999aa3b4c797f2407c1
 msgid "L'API REST de GoFAST permet aux développeurs d'intéragir avec l'application de manière programmative. Vous trouverez sur cette page toutes les informations nécessaires à l'exploitation de cette API."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:8
-#: ef050869ec6c4ce3a586adff5bbe6afa
+#: ../../docs-gofast-development/api-rest.rst:8
+#: 4c28f566f7b74ba79bb52de7edd8e13b
 msgid "Authentification"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:11
-#: 67e0a7edf385476b8a30cef077d2cf76
+#: ../../docs-gofast-development/api-rest.rst:11
+#: cb42870624c148eaab15ad0394b9bd74
 msgid "Basic"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:13
-#: adbb8b55c3ac49d8ad267f5a7767eaf1
+#: ../../docs-gofast-development/api-rest.rst:13
+#: 22d90dc716e3438d85024881c72f5474
 msgid "La méthode d'authentification Basic est la méthode d'authentification classique définit dans la RFC 7617 controlée par le protocole HTTP (aussi appelée HTTP authentication)."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:15
-#: 0377d17f8ed444268d001ff83d8f5784
+#: ../../docs-gofast-development/api-rest.rst:15
+#: 4ac8bab0b696486fa76e2236971877c0
 msgid "Elle nécessite de passer le header *Authorization* à une requête avec en valeur la chaine *Basic AUTHORIZATION_VALUE* ou *AUTHORIZATION_VALUE* est la chaine *username:password* encodée en base 64."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:17
-#: 245bebce30f245ed8a7403554529948f
+#: ../../docs-gofast-development/api-rest.rst:17
+#: ed159ee69e2941cca648b28c0f979d96
 msgid "Exemple : Pour l'utilisateur user1:motdepasse1, il faudra passer la valeur : *Basic dXNlcjE6bW90ZGVwYXNzZTE=*"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:21
-#: 9af4955b88374ddb9346b2803731dd98
+#: ../../docs-gofast-development/api-rest.rst:21
+#: f56cc38c0a1c4e05a1df78de27c8888a
 msgid "Token"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:23
-#: f7154184f5844d52ab7b2ee9371ff998
+#: ../../docs-gofast-development/api-rest.rst:23
+#: a168987bf27d43cbaf197e44e79a7f54
 msgid "La méthode d'authentification par token est utilisée pour générer une session temporaire identifiée par un jeton (une chaine de caractères)."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:25
-#: 11eac6c1a14b4cb99bb9aeb7c908c0db
+#: ../../docs-gofast-development/api-rest.rst:25
+#: 6d3cb7b4e6be4361af39ecc48e9b5ccf
 msgid "Elle utilise la ressource *login*, l'action *token* et la méthode *GET*."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:27
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:42
-#: b761d365b34e47b9947215a8cb3b9c1b
-#: a859defb5b5b44de8edece2971420ff2
+#: ../../docs-gofast-development/api-rest.rst:27
+#: ../../docs-gofast-development/api-rest.rst:42
+#: 061852758a3841d4bcc7a152d741c858
+#: b92740a1e850454b93e06a06d6637e77
 msgid "L'action *token* n'est pas disponible depuis l'API externe de GoFAST, elle est utilisée entre les composants internes de la plateforme."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:30
-#: c05e10ca0d4349f094d37e763b3efe16
+#: ../../docs-gofast-development/api-rest.rst:30
+#: 216a26c89d1e415b97456b2d18d7d011
 msgid "Ressources"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:33
-#: 5ca9dd8be94b44748be87cd552906be1
+#: ../../docs-gofast-development/api-rest.rst:33
+#: 145111dab30141f4b11ef6ec101d9502
 msgid "Ressource : login"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:35
-#: 07e0c48e492c4b32bc4b3149a4c64753
+#: ../../docs-gofast-development/api-rest.rst:35
+#: 5c3589a80e5d4e75b569e49f7156dde9
 msgid "Cette ressource permet d'intéragir avec le système d'authentification de GoFAST."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:38
-#: a084738639ad4b17b5167f98cea00848
+#: ../../docs-gofast-development/api-rest.rst:38
+#: 3563e2b9f8d14b009f2d346ea2d1c649
 msgid "Action : token"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:40
-#: 3c58d8aa248243d3a669ce300bd7ce3d
+#: ../../docs-gofast-development/api-rest.rst:40
+#: 86c164e0e5bf415b99d8862fe650d26c
 msgid "Cette action permet d'intéragir avec le système d'authentification par token."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:45
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:88
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:214
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:362
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:480
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:571
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:611
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:649
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:695
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:742
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:882
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:923
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:954
-#: 90c3be07bdc049a79d9e094822898fc1
-#: e3ae6055f9e442508a9f155f4bef2db9
-#: 1f9e83d266b64f32890692fb76f564c9
-#: 78b52686cfa446eead5504cd694055ff
-#: d7e9fce7a9904b20acfa416b86c5c4b4
-#: 3f0534766657421e975024f35de373dc
-#: e9ad6abb270349c08d8be7124978f0ac
-#: 588a79a4d377431fafe2cb112612e588
-#: 90fe97aed7d84ccaa7fbac1cdcc01bca
-#: 1bc73c04ed9241ef82176867592b41c4
-#: ddd70422a1534b5eb2449e034eeda701
-#: fb684cfcebaa40fca9889a28ef845235
-#: 9cdf48f4750544ecb1c951b42df1c51b
+#: ../../docs-gofast-development/api-rest.rst:45
+#: ../../docs-gofast-development/api-rest.rst:88
+#: ../../docs-gofast-development/api-rest.rst:214
+#: ../../docs-gofast-development/api-rest.rst:362
+#: ../../docs-gofast-development/api-rest.rst:480
+#: ../../docs-gofast-development/api-rest.rst:571
+#: ../../docs-gofast-development/api-rest.rst:611
+#: ../../docs-gofast-development/api-rest.rst:649
+#: ../../docs-gofast-development/api-rest.rst:695
+#: ../../docs-gofast-development/api-rest.rst:742
+#: ../../docs-gofast-development/api-rest.rst:882
+#: ../../docs-gofast-development/api-rest.rst:923
+#: ../../docs-gofast-development/api-rest.rst:954
+#: 16d089a89e414ec0983732546fecfdbc
+#: 177711977d774502b13a5a8b146b1fec
+#: 39e1df748a12478aaddc871099aa1a43
+#: 7097cfb27d64473b985ec5c21b1b0494
+#: 5ca4762810ea4af68eadf58ca51dbabd
+#: df68e02b344a49cf9d05af9af9b027f2
+#: 130354cf011246dd81d133353991ce1f
+#: 0ce44a552f7b4a88898d98ad02dab859
+#: d7454a76ee554c25959dab9d751c4a81
+#: 3ec90180063e461b95ec227aa76aa1ec
+#: 7a22a96d07754eed81b1578d510e1536
+#: fb7e2dc04b8d447ea34a753116f985e1
+#: cd9b1dd5fea942c6a5e3e7f147b5ce0b
 msgid "GET"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:47
-#: cd569c7960624375838a10970bc75fb0
+#: ../../docs-gofast-development/api-rest.rst:47
+#: c4d663cc049d47f6b58c022f679c893c
 msgid "Cette méthode permet de récupérer un token d'authentification. Ce dernier est valable pendant 3 minutes."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:49
-#: a874fa4403dd485d9ea8c27c42d61967
+#: ../../docs-gofast-development/api-rest.rst:49
+#: 205c85bffe214f7796f1cbe5946be4e2
 msgid "*GET: /api/login/token*"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:52
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:66
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:95
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:109
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:156
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:168
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:197
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:221
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:235
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:258
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:290
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:311
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:343
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:369
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:383
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:404
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:420
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:441
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:457
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:487
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:503
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:521
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:533
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:552
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:578
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:594
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:618
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:632
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:656
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:670
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:702
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:719
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:749
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:763
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:792
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:812
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:841
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:860
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:891
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:906
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:932
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:961
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:976
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:1005
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:1019
-#: 7675845235c346b68789503cb42c94e4
-#: 705f61a0f18241cb9af50c4d2b592f65
-#: eb878e4a205d47a3aec8edba57abf95b
-#: 154d74a4601146a6b2ab8d1a59f833f3
-#: d4ad591abe41422fab7de2899c5204fd
-#: 58cce32dcdaa41959c321eb250627a68
-#: e9b1131316ec4b08951f721815294df8
-#: 2f62cd5957154b0789582351093561e6
-#: e5d7f70231ab4f9d825e47b173d42b37
-#: f904f8555e33401784ba1bf23e3b07e7
-#: 6feca049149d4cc4a7e37e197cbe809f
-#: 335c1073057c4ef1b6a28cefae735a40
-#: e76130a6350641cab50652591a045f0b
-#: 1ed9f069b667406bb6d1d8a0effa518d
-#: 3233ae9622694aeba92374c149aea4f3
-#: 319ec875b1704027b069978cbf73d312
-#: 737b4f2f3879407fbe367c64a663a3e2
-#: 6f44ce554bef4457a46d94ad4e578e97
-#: 46d4a60701bc4e1d87d84a549198bada
-#: 63ec37ff4493436f9e011e4bf6286da9
-#: 105f399cffe7463c9cec7a41842509f0
-#: 67eed1f768a644659f0b64990307a11d
-#: 49b4fc6fc87c43a8b127cdda95d383eb
-#: 9472deb489714b2680a1369ae7a98721
-#: 32b06f317ec04fa29bb7c9888bd38ade
-#: 8c4d06b725f945b1a0255fc29433ff43
-#: 41a062a2ee0b4e588c9a607fe10ae2c7
-#: a11f4b10529a466aa7f85257515d958a
-#: 21b3e9421bf94c4899f73de9017a6f1a
-#: fbd3ceba7f0a4394838f71ab1fe43c19
-#: db99e82c2c614302a9482c5b9b3ad280
-#: 2c779005ce7f4d4288dda66f884d4e78
-#: 0569dfa9d00143d28f42d88a23ad32cd
-#: dc04db24580045d6a21b0fb1a180de1d
-#: 1c815f9e15084754b8763ca3cdf50da2
-#: b9c89900733546c7a393f45ca3411c98
-#: caa2f5f91ba3417c84457faa6bff86e7
-#: c66ea30a863546548e981d89d7d85aee
-#: 4424bacd11b24025b57fe651f4693cef
-#: fd4f1f6f4cca4c5aa1e3fcab993a21e6
-#: f794db197f464af4a13a6b65fd1ca2cb
-#: 38bef13a5ed94e6b9d5960275e2862c1
-#: 5615a4ef1d5c4a2dbb211a90593e17bb
-#: f0841ef754de415789e3a8d03e7dfa98
-#: ba07575f107b47b7a533170192689717
+#: ../../docs-gofast-development/api-rest.rst:52
+#: ../../docs-gofast-development/api-rest.rst:66
+#: ../../docs-gofast-development/api-rest.rst:95
+#: ../../docs-gofast-development/api-rest.rst:109
+#: ../../docs-gofast-development/api-rest.rst:156
+#: ../../docs-gofast-development/api-rest.rst:168
+#: ../../docs-gofast-development/api-rest.rst:197
+#: ../../docs-gofast-development/api-rest.rst:221
+#: ../../docs-gofast-development/api-rest.rst:235
+#: ../../docs-gofast-development/api-rest.rst:258
+#: ../../docs-gofast-development/api-rest.rst:290
+#: ../../docs-gofast-development/api-rest.rst:311
+#: ../../docs-gofast-development/api-rest.rst:343
+#: ../../docs-gofast-development/api-rest.rst:369
+#: ../../docs-gofast-development/api-rest.rst:383
+#: ../../docs-gofast-development/api-rest.rst:404
+#: ../../docs-gofast-development/api-rest.rst:420
+#: ../../docs-gofast-development/api-rest.rst:441
+#: ../../docs-gofast-development/api-rest.rst:457
+#: ../../docs-gofast-development/api-rest.rst:487
+#: ../../docs-gofast-development/api-rest.rst:503
+#: ../../docs-gofast-development/api-rest.rst:521
+#: ../../docs-gofast-development/api-rest.rst:533
+#: ../../docs-gofast-development/api-rest.rst:552
+#: ../../docs-gofast-development/api-rest.rst:578
+#: ../../docs-gofast-development/api-rest.rst:594
+#: ../../docs-gofast-development/api-rest.rst:618
+#: ../../docs-gofast-development/api-rest.rst:632
+#: ../../docs-gofast-development/api-rest.rst:656
+#: ../../docs-gofast-development/api-rest.rst:670
+#: ../../docs-gofast-development/api-rest.rst:702
+#: ../../docs-gofast-development/api-rest.rst:719
+#: ../../docs-gofast-development/api-rest.rst:749
+#: ../../docs-gofast-development/api-rest.rst:763
+#: ../../docs-gofast-development/api-rest.rst:792
+#: ../../docs-gofast-development/api-rest.rst:812
+#: ../../docs-gofast-development/api-rest.rst:841
+#: ../../docs-gofast-development/api-rest.rst:860
+#: ../../docs-gofast-development/api-rest.rst:891
+#: ../../docs-gofast-development/api-rest.rst:906
+#: ../../docs-gofast-development/api-rest.rst:932
+#: ../../docs-gofast-development/api-rest.rst:961
+#: ../../docs-gofast-development/api-rest.rst:976
+#: ../../docs-gofast-development/api-rest.rst:1005
+#: ../../docs-gofast-development/api-rest.rst:1019
+#: fdda84be71b94a3296bd0dc4714e9802
+#: 5199d6cf20084022b178ce6651c93cef
+#: 54f7884a7c2a4869b420e0145ed66284
+#: 2df9392a8b934b428157e4aa412dd1d2
+#: 95b6ae17dfbd4ea882c3d27d45eab9ba
+#: b4f5975c9dd54340ba8e78bcc9e0a535
+#: a16b6f3c7a1543a69f649ec14f4f2d0b
+#: d5461c3e32eb4594940fb0a82234ccbb
+#: ca9c629d3594488a9ed764767d88d37d
+#: dc7800c33f6842a1b5a63afbcc260cdb
+#: e4ddfabbc94042c581e37d734c00d1f9
+#: 0fc9925065fa4209bd03ee5b17daf557
+#: 89eb1718e8be4646a66b6a19a2fd3ea4
+#: 2eb81165ab8541a9a4e61bf367e27678
+#: 9282ad6291e84f988fbe612c12de269d
+#: 3c6be6d566474b778ef24e82273eb33f
+#: 4bafdef4b24843c2a8aa4d01ba5ed292
+#: bdc0b13052504b908a7bdd9a37b9a227
+#: 8d0563a4404e4796bb37aee92e272402
+#: c8ad9e60bacb44e0ba762860ba381e78
+#: a8d5f45657b2484f98e7e67c0acb95ce
+#: bf7bbc4752924049b3e55ea17f593f67
+#: 91303f28439848f98de291cb94bb86ac
+#: c6e02ebd2b0340ada5113bd0ddbdfba1
+#: 03ec2be8abf140da9ae39492ede6d25e
+#: db6dd984e2d44e8a857b4a75e38525ff
+#: 04d36447b7d64c479b6fa0ded7f39403
+#: d596ba0e740c4f74a2fbd5845a88867a
+#: b1ff1db20c3c4437be4a6d53fb4a4c2f
+#: 86efd8c2585e41d38b828e303223fc83
+#: 6e8c58c6dcd04bb58e0cb070c662a6bd
+#: 87fd145647f546e19cfa18e51cf00bc9
+#: e8fdae8b489e4062bdb9cb6bc5b9eb81
+#: 1665560036304acf87271ffb27434423
+#: 8c26938b437a4f36bb10d5e623dab93e
+#: 6df0b998ebcb44218e1c1f3976e04f98
+#: a19aae5389694f1eb8c75fee83ebe394
+#: acb809f028eb45e788bf4db8941ae546
+#: bb23bc3abfdd48b3b96cdd6c6723c68a
+#: f383b594878d46f38e17a2909b7813a0
+#: cb07c2805b9d44e5bb82c7ffd20cadc5
+#: e1273ec3c26c45a7a7ca2188c3d6fcb0
+#: fb3c9b777f5d4182b337c51e5f30f5d5
+#: 92d4af31b3a744cab64f9fd490c09077
+#: 127a964e708a453ea2f8f0dab98ea69c
 msgid "Header"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:52
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:58
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:66
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:72
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:95
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:101
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:109
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:115
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:156
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:162
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:168
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:174
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:197
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:203
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:221
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:227
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:235
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:243
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:258
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:278
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:290
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:296
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:311
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:331
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:343
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:349
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:369
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:375
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:383
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:391
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:404
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:420
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:428
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:441
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:457
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:465
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:487
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:495
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:503
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:521
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:527
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:533
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:539
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:552
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:558
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:578
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:586
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:594
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:618
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:624
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:632
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:638
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:656
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:662
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:670
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:676
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:702
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:708
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:719
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:725
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:749
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:755
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:763
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:769
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:792
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:798
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:812
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:818
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:841
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:847
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:860
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:866
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:891
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:897
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:906
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:912
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:932
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:938
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:961
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:967
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:976
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:982
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:1005
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:1011
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:1019
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:1025
-#: 2468d621cd50402692b215e9aa89080f
-#: 8a681e776270475aa2f982f03907a34d
-#: 27fe65590ce7426dae8f8da7647dda67
-#: 5afdeaed5e5e486a9fe3567f8e8b93cf
-#: 2b07fe88e01743969cb551c958e40b52
-#: d62dd7b1c4814265a0a5c5d56b7f4b8e
-#: 6b2b78f68323415bafe0974eeeef99ac
-#: e9cfb6ee93004ef0a076e5cf99df83b5
-#: 5721748b4e3e4657afe168e88043ca28
-#: 839034d8524b40f595e414bfb4e69eab
-#: bb031ecbe87142ed83c79b09a574ae5e
-#: f35739683e624bbb8b49937dd1c4e9e2
-#: 440afc17ed814a20822df93c0d8c8833
-#: dea25b4d18ee43da8fc11587a0ff81bb
-#: 4770b2bc80db4e0c9e41b36871315cce
-#: 1d67bf3a6d4b4cf2b99093d0e6a2fea9
-#: 6e6f5bccc5dc44ae9bf1205e4f3289c4
-#: 0039d5d339a440a59aee7d6c2ddfa0b1
-#: 429cd0f6d97446b4b45e2b1293a525ec
-#: 8d98d9a43582455fbe6549361f1291c6
-#: d4b178ceee4f4aea9bb6dccc4602f289
-#: 6f363b76178d4a7f8d3ddf2d781aaba8
-#: 774c1e83cabc442997082dab3e1bf466
-#: 9e73e329dedd40cd9d0ff17c24b1dff5
-#: ab6c17fc32764a44ab4369504a01a6bc
-#: f89d5cb3925f4ed6b39abad5dafadfaf
-#: 0de3105607124e75af66148d33883216
-#: aad5a4bac64b4768800194e7c7c8fc43
-#: e3c628be70cf4f5dbc3d8ce27e822834
-#: bcf479542da14966b0f75d763f6ad9be
-#: 55046b3fc31342d6a79bc5ffe4850e64
-#: f54a668dc31142829ad8f69cc1e251ae
-#: 8493106011a74741b264fbc56f581ffd
-#: 1058175439044836ba9d6815718e1aad
-#: 833ea87cfdb4416dad7a6d92b7989b01
-#: 9fc1faeecd6441e2b5653cfb83af833d
-#: 47ad42310b104b918599430a785e8ba5
-#: b9260284fd494d9d8d71e5d342049457
-#: 7737cab178bf42eab89c94963210d56a
-#: eff483ec3d2a4b79a85d7787f9fdf10b
-#: 9bfa5287041340c4afe95ff9ffe078ab
-#: 70a6e05a4b4243d2bc05eaf9db243ec7
-#: a68e7e76ae8a4f438f12ef8bdc3b3583
-#: ffe18486142f4c7c9e788a5a1fb156ad
-#: bf28a1ae3fb44f76a6ebe4ff2d6798c1
-#: 2c86efc2f9c341cb86419958b730234a
-#: 5e23f39d80de4123b719c2843eb3f01c
-#: 321bd08bdce942cdbd468bf0dc8156c1
-#: e7bb8d5965da48c58d2abefa9f91ebc0
-#: ee36c3f43ecc4f18bb6b633f7fe5b41c
-#: 6ef223fbbcae4541aab2f69249faa41e
-#: c14c2fb1eee749ce82b0bb66d250e29e
-#: 72932c75766645a186c15b3275ed5553
-#: f105daa7389c48c9a163d287ca34fb1b
-#: dc2dc2dff3164691b7ba4a3c73595612
-#: 7e2b5284cfe24cf0bb4be6ae01c4d0f9
-#: 267f19a1e80a4948ba692249ec83925a
-#: 77b3f82b74e64eccad673fe439562a52
-#: 30054d58b60e4a818db6e7017f19cfa4
-#: 5815dc6e7c2e44efbe9a9b8b054573be
-#: f57d22bb718b4380a99bfdd9dc1a2288
-#: accd2b427cbd4172bfb1b036cd41ff2f
-#: f8fb5626a0cd44c187bf7503c34ae034
-#: 195a148ab14148dc9e90089b5f586ed9
-#: 347e2e1e64334fc28ad78bb0534c78af
-#: 23f68ae336b549068c539736c84ed338
-#: 6decb046dd5c4a5ebcfd464e78e62f5a
-#: 913844cc9b8241e58852c6f4fb9fb52d
-#: b01797c63fa348aabd85f35e488acd05
-#: b60a01fe17c6408a8b47816f6199a379
-#: 611cc24ffa494c2388b07b3d54d385fc
-#: 1fe648e018bc4845a1a83e4a18448016
-#: 68118cacdf2a4828bacf2a86d7ae3fe2
-#: 06e924017ebc47d5948a969b0750ba49
-#: 33272c0c98ff4cafb3f5a3ca3958138e
-#: 2aed4abf68724ed48dd945afbb2e4f87
-#: e299f00bd2384ce795d56e0e6e4073a7
-#: e83a9f63c536465896531c9c4d0410c2
-#: 41e8e83d031648768ce48d11f0a1adfc
-#: 8d607049b0544ffe88fb3cfeec573815
-#: 58aebea28672413ea82fef7decd2eb68
-#: 59b27317323c489fbd103b1bef954390
-#: 7ecd88f54ff14b4d86c630e481fbe73a
-#: 2be310e654ea44c4a7313fc8c9aee36b
-#: eb01b36d0efe44bc839d8aed236018e0
-#: b077b8c6f7cc45c8812b062febf42993
+#: ../../docs-gofast-development/api-rest.rst:52
+#: ../../docs-gofast-development/api-rest.rst:58
+#: ../../docs-gofast-development/api-rest.rst:66
+#: ../../docs-gofast-development/api-rest.rst:72
+#: ../../docs-gofast-development/api-rest.rst:95
+#: ../../docs-gofast-development/api-rest.rst:101
+#: ../../docs-gofast-development/api-rest.rst:109
+#: ../../docs-gofast-development/api-rest.rst:115
+#: ../../docs-gofast-development/api-rest.rst:156
+#: ../../docs-gofast-development/api-rest.rst:162
+#: ../../docs-gofast-development/api-rest.rst:168
+#: ../../docs-gofast-development/api-rest.rst:174
+#: ../../docs-gofast-development/api-rest.rst:197
+#: ../../docs-gofast-development/api-rest.rst:203
+#: ../../docs-gofast-development/api-rest.rst:221
+#: ../../docs-gofast-development/api-rest.rst:227
+#: ../../docs-gofast-development/api-rest.rst:235
+#: ../../docs-gofast-development/api-rest.rst:243
+#: ../../docs-gofast-development/api-rest.rst:258
+#: ../../docs-gofast-development/api-rest.rst:278
+#: ../../docs-gofast-development/api-rest.rst:290
+#: ../../docs-gofast-development/api-rest.rst:296
+#: ../../docs-gofast-development/api-rest.rst:311
+#: ../../docs-gofast-development/api-rest.rst:331
+#: ../../docs-gofast-development/api-rest.rst:343
+#: ../../docs-gofast-development/api-rest.rst:349
+#: ../../docs-gofast-development/api-rest.rst:369
+#: ../../docs-gofast-development/api-rest.rst:375
+#: ../../docs-gofast-development/api-rest.rst:383
+#: ../../docs-gofast-development/api-rest.rst:391
+#: ../../docs-gofast-development/api-rest.rst:404
+#: ../../docs-gofast-development/api-rest.rst:420
+#: ../../docs-gofast-development/api-rest.rst:428
+#: ../../docs-gofast-development/api-rest.rst:441
+#: ../../docs-gofast-development/api-rest.rst:457
+#: ../../docs-gofast-development/api-rest.rst:465
+#: ../../docs-gofast-development/api-rest.rst:487
+#: ../../docs-gofast-development/api-rest.rst:495
+#: ../../docs-gofast-development/api-rest.rst:503
+#: ../../docs-gofast-development/api-rest.rst:521
+#: ../../docs-gofast-development/api-rest.rst:527
+#: ../../docs-gofast-development/api-rest.rst:533
+#: ../../docs-gofast-development/api-rest.rst:539
+#: ../../docs-gofast-development/api-rest.rst:552
+#: ../../docs-gofast-development/api-rest.rst:558
+#: ../../docs-gofast-development/api-rest.rst:578
+#: ../../docs-gofast-development/api-rest.rst:586
+#: ../../docs-gofast-development/api-rest.rst:594
+#: ../../docs-gofast-development/api-rest.rst:618
+#: ../../docs-gofast-development/api-rest.rst:624
+#: ../../docs-gofast-development/api-rest.rst:632
+#: ../../docs-gofast-development/api-rest.rst:638
+#: ../../docs-gofast-development/api-rest.rst:656
+#: ../../docs-gofast-development/api-rest.rst:662
+#: ../../docs-gofast-development/api-rest.rst:670
+#: ../../docs-gofast-development/api-rest.rst:676
+#: ../../docs-gofast-development/api-rest.rst:702
+#: ../../docs-gofast-development/api-rest.rst:708
+#: ../../docs-gofast-development/api-rest.rst:719
+#: ../../docs-gofast-development/api-rest.rst:725
+#: ../../docs-gofast-development/api-rest.rst:749
+#: ../../docs-gofast-development/api-rest.rst:755
+#: ../../docs-gofast-development/api-rest.rst:763
+#: ../../docs-gofast-development/api-rest.rst:769
+#: ../../docs-gofast-development/api-rest.rst:792
+#: ../../docs-gofast-development/api-rest.rst:798
+#: ../../docs-gofast-development/api-rest.rst:812
+#: ../../docs-gofast-development/api-rest.rst:818
+#: ../../docs-gofast-development/api-rest.rst:841
+#: ../../docs-gofast-development/api-rest.rst:847
+#: ../../docs-gofast-development/api-rest.rst:860
+#: ../../docs-gofast-development/api-rest.rst:866
+#: ../../docs-gofast-development/api-rest.rst:891
+#: ../../docs-gofast-development/api-rest.rst:897
+#: ../../docs-gofast-development/api-rest.rst:906
+#: ../../docs-gofast-development/api-rest.rst:912
+#: ../../docs-gofast-development/api-rest.rst:932
+#: ../../docs-gofast-development/api-rest.rst:938
+#: ../../docs-gofast-development/api-rest.rst:961
+#: ../../docs-gofast-development/api-rest.rst:967
+#: ../../docs-gofast-development/api-rest.rst:976
+#: ../../docs-gofast-development/api-rest.rst:982
+#: ../../docs-gofast-development/api-rest.rst:1005
+#: ../../docs-gofast-development/api-rest.rst:1011
+#: ../../docs-gofast-development/api-rest.rst:1019
+#: ../../docs-gofast-development/api-rest.rst:1025
+#: 6a639507ac2b4056b342eff5cd2e3359
+#: e03cec5a68144321819527e890c166dd
+#: 963079b748404857a0015b67fd515396
+#: 212e70cb5733400981be9ffaf67e20a9
+#: fdfb10f43f0646d2a7f61b55c8c038c9
+#: 5797b8c5d49441258c64295afaa65e2d
+#: f470746a0e76405db11d13dac4104ee9
+#: 38a094bf733541cea4321e8b81179f72
+#: 5236568fb38d4d4583600421cdd6a78a
+#: 47edaae2e8a94b16b75e134ade22dcb4
+#: 54cc5bcd87534d719dd14d7ad1316c16
+#: 57d951eef2fc490994d321d153aac980
+#: dbe61cb3d91c44e4ab30ed98748dccb3
+#: 6c06135c2b1541d09d86633f42e0862a
+#: 79c87a5cf0a5488883253f6e55f9eae1
+#: 05052fce83844e62a7b24f999a74f641
+#: 438842b49c4446539edf33cc4e9a58eb
+#: bfb3cb09aa0d489abd6ccd931c44dee4
+#: c70c8ec7a6e24e07a6027e356f69e297
+#: 32e53c15789242498e08efdf32022ae0
+#: 6587547c6401499090e02fb0431b41b8
+#: 4ce326fb9e02452aa8cfeebec1f17db0
+#: 322e215d668a4a0a9396602fb1b1ef3e
+#: 0bd96ee19c5f412aab97c85c7d03f150
+#: 14d2ee8796b6483ab7be0f09d66c3474
+#: c4bf6029d21e4a049893a97f6d1b41b9
+#: cf61b9b6157c479f877c1a9035901ba3
+#: 27ebc2bf24454cb095ebb992d1d3e6fb
+#: 01e074ee7aee4c23bf3d372f3033a208
+#: 7253c3aba9884b4bb4d43f059888b997
+#: aebaa82824a149ebb763caa468dfaf96
+#: 7d59664ee34e4374b05a0631d6075b19
+#: cf9474fce76042549af484bde2336716
+#: 7a6d83d570d248f89dd3851f28f72d75
+#: 3808da5a9d1240d182b9fa62f4deb4b2
+#: 4a674477f07d4ec48a8e647f11cbe292
+#: 69c3e291e5bf47c48b964fd38315df16
+#: 5b69bdbb5d2d46bfb1483f47d8d1dac7
+#: cfc0a00d85d542699e0f8f19e1c57404
+#: 030edbfab69042f9808dd9a82173be25
+#: ba6f604aa272445faccae67eafb1b909
+#: 230837daa2f748bd825be8c8fd971305
+#: b118483baa0d46149b8483afa0dc3e6d
+#: 524e9d58a0af4224b95ec4e0a49c23b8
+#: 25df1e8a36f7465486e4ad5df9ed94e1
+#: 7260cb8ce6ea4762b5301920a3b7bc2d
+#: d903c5f6b5f4405094193baba0ade1f9
+#: 9bff0249a2144c8dbae10eec1cd21890
+#: f9c3be21d2c1498399b0122e89b25f34
+#: ece2e2b9e0124b31bbc762b963f63137
+#: e02b621e395e45f7851d9d844dbb41e6
+#: 5ee259ad21c64107bd7a0c29943254d3
+#: d97a0128d27d4fc8937d768699985f6c
+#: b368b2227d8743e4ac4c8c175e65a2f7
+#: bcb51959ae8748fd8abaa03b36664684
+#: 82f76900b17c46c59b773d2ceda08ea6
+#: 807bd0b378d444b2aa1be4535659886b
+#: f5ed17becc8544a380f43ecf161cd067
+#: 39bd4243d78a4aa1b3cef8ec5e3fba0f
+#: 30481066f77144c4b7206691cdc8dc1e
+#: 458369997e1a4d3d829c738ed3c7e955
+#: 04c05e88aa06479ca23d93c74a1faa68
+#: cdf9715d03c44946b26b7914cc255941
+#: 138d523631474bd79f113a8b9df1d0e7
+#: 3fa0b3a3a11b4dc7af00c69087e02b0c
+#: 174186a1936c4a09966de20734693984
+#: 84c82da4e64f44d8be7c7ab781bbbe69
+#: 776c80c4cc0442819b488fc1589688bd
+#: 5caaabbf42fa4e26b64f9b23ff355163
+#: c4de8e7c2ff947f8afd737dd843140f2
+#: d03fb74156ef483f9aeae06fbb3910d8
+#: 73263634e3a64c83a5c1dd5d34b0bcef
+#: c5b171feb6d842e4b5fb9ee3edb13023
+#: 4cb93d8e185c4b35b510175251feb887
+#: caf4610e023849f68b984fc424178571
+#: d86397a913be4913bfd511bb8d4c2423
+#: a403d3907b4b45bba6e6bd372f75bb32
+#: f3cfcdf5bbf140b2879fda514ed6e240
+#: 5f3c8bd9679b43cf873b237ff20a2797
+#: 0811e54587a545c4a0864f474ede2a05
+#: ef9a15bfa531480083246d347f4bda7d
+#: 1875554d65ba4f628d2138e96e5f5f99
+#: 7a139b3f11c748cc94caad61154d1c42
+#: 3b45811e2ac143b7a3ec2a94b8b14dd4
+#: 64c7f157b8944dbeb4080edaab5be6e4
+#: 2f8140c042c14edea152872079ae017f
 msgid "Valeur"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:54
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:68
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:97
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:111
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:158
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:170
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:199
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:223
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:237
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:260
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:292
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:313
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:345
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:371
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:385
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:406
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:422
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:443
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:459
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:489
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:505
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:523
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:535
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:554
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:580
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:596
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:620
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:634
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:658
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:672
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:704
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:721
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:751
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:765
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:794
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:814
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:843
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:862
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:893
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:908
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:934
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:963
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:978
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:1007
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:1021
-#: e5bbfab47fd44a9b9e48a4f6c43575ef
-#: 8d28d2f260aa407aa8e755416321d5ed
-#: 378f850fa4ae4fa58ed419ef767d662a
-#: b70e0f4b829c4ee6bb91367be9f60c54
-#: 7edefa05ecab46a890ace634c1a12d5b
-#: 21e403b69c944f56b4fa914bab44025c
-#: 297591ad648c4e6191591296de34073f
-#: 97fe56cad8154d5999bc3784b69a6208
-#: 1286371c23b74f4b83035be1e6b8b608
-#: 7eb81a90cc6b47c2850a505f3d12d927
-#: 4f0484a665c5427fb90957b43d9456ba
-#: e070ce00083d4234b7937a0cad608d28
-#: 77ad5c4ef3e34892bb6a131b14229b51
-#: 81efbff8b91d442380f4d2291d4d097f
-#: 465f68515f74402ba0f9416371b30f66
-#: e7519729aa584e7d9c8ba7ad15be9138
-#: d35a0d51e03a4a738a7cb47b81814594
-#: 3bd7a46fe48d4d4e83af386ac08a38e0
-#: 43f96834db6340bb99f762ca3b531453
-#: 053f3ffc23b9488fbc4141fe9f6593b7
-#: 6a98b76c052445008a5dcf23adb95fd4
-#: db61bf7849b2420cb33cb78fef789526
-#: 85b9071107ea442a86e09335ce75bd07
-#: 576ecfcde54c4a41830758b9401acd11
-#: dfc0cf97d8d54bed9a26aabaab5d4166
-#: 4ce08d0e91c54d3bb360079282345017
-#: ba2a7874d4ff43bbabee10abca3fb54e
-#: 419777947a5f4617b9a18a489b67cabe
-#: 299c5e081fe24e2c8102730404808be2
-#: 2117222b4f9f476b910e90df6f5d28bf
-#: 40cd2b8b54a64f2282c6d869d7225972
-#: dabf325846e44afc9cca0dedad4bdd80
-#: 851660d2b9ac4f679486dfdb254e6b23
-#: 30f9fb0e71564d7f931f932fc77483c9
-#: e6d546dea86c4f97bd4e092b8366cb21
-#: b09d1e8a11f742edafd8bfe9f868a91f
-#: 9c5a664b5f1241d5bc5c4774611d4924
-#: 3bf0f10c4fab4b3cb95defc1e6c0d9a8
-#: 0b769b6246b34bb68c1595270f7b0a2c
-#: 38a3ef8c048d437badb1bee9f0219e92
-#: 3fc79fb5d24b4c59aacddf2d101b2708
-#: 49e0fdd5724f4e53bdf78d36273c8249
-#: afcf26bda75041a58302a2ef594e3506
-#: 522cfb0738d5450783e2d5024e169abb
-#: efd084819c9b43e281c661f58aab90f2
+#: ../../docs-gofast-development/api-rest.rst:54
+#: ../../docs-gofast-development/api-rest.rst:68
+#: ../../docs-gofast-development/api-rest.rst:97
+#: ../../docs-gofast-development/api-rest.rst:111
+#: ../../docs-gofast-development/api-rest.rst:158
+#: ../../docs-gofast-development/api-rest.rst:170
+#: ../../docs-gofast-development/api-rest.rst:199
+#: ../../docs-gofast-development/api-rest.rst:223
+#: ../../docs-gofast-development/api-rest.rst:237
+#: ../../docs-gofast-development/api-rest.rst:260
+#: ../../docs-gofast-development/api-rest.rst:292
+#: ../../docs-gofast-development/api-rest.rst:313
+#: ../../docs-gofast-development/api-rest.rst:345
+#: ../../docs-gofast-development/api-rest.rst:371
+#: ../../docs-gofast-development/api-rest.rst:385
+#: ../../docs-gofast-development/api-rest.rst:406
+#: ../../docs-gofast-development/api-rest.rst:422
+#: ../../docs-gofast-development/api-rest.rst:443
+#: ../../docs-gofast-development/api-rest.rst:459
+#: ../../docs-gofast-development/api-rest.rst:489
+#: ../../docs-gofast-development/api-rest.rst:505
+#: ../../docs-gofast-development/api-rest.rst:523
+#: ../../docs-gofast-development/api-rest.rst:535
+#: ../../docs-gofast-development/api-rest.rst:554
+#: ../../docs-gofast-development/api-rest.rst:580
+#: ../../docs-gofast-development/api-rest.rst:596
+#: ../../docs-gofast-development/api-rest.rst:620
+#: ../../docs-gofast-development/api-rest.rst:634
+#: ../../docs-gofast-development/api-rest.rst:658
+#: ../../docs-gofast-development/api-rest.rst:672
+#: ../../docs-gofast-development/api-rest.rst:704
+#: ../../docs-gofast-development/api-rest.rst:721
+#: ../../docs-gofast-development/api-rest.rst:751
+#: ../../docs-gofast-development/api-rest.rst:765
+#: ../../docs-gofast-development/api-rest.rst:794
+#: ../../docs-gofast-development/api-rest.rst:814
+#: ../../docs-gofast-development/api-rest.rst:843
+#: ../../docs-gofast-development/api-rest.rst:862
+#: ../../docs-gofast-development/api-rest.rst:893
+#: ../../docs-gofast-development/api-rest.rst:908
+#: ../../docs-gofast-development/api-rest.rst:934
+#: ../../docs-gofast-development/api-rest.rst:963
+#: ../../docs-gofast-development/api-rest.rst:978
+#: ../../docs-gofast-development/api-rest.rst:1007
+#: ../../docs-gofast-development/api-rest.rst:1021
+#: 9246fa28ec774259b810b7de120bfc36
+#: 2eaa6d75d9ff443c9deb49157b936bc4
+#: 56c04fbc8290482996919c0a39e8c946
+#: fcb09b833e484cbd96acc65e67b4d184
+#: 1153135ecfcf48468495265977dc6eba
+#: eb20509114514dd9a143578e571023f1
+#: 04ddbc9dee7b4940adaaa6587f2b5075
+#: c094f81da1434929a731e5bed456d514
+#: 50caa526a7894a3aa2fe996df0aac2b8
+#: 8e8d21a4bcf445a28429dec8cde65873
+#: a05f735a2d074b54b5681392919087ba
+#: 1265a48ba85d4204938b97da46dca3d6
+#: 1696cb9a7b7e416a828dc5068f919955
+#: 35d3ac0f62674be6925d91587ec6ffad
+#: 6fe0e2aed5c94e6784acf3674a89d657
+#: e64e25afa0db4f7986d6d85c4a09772d
+#: cc0b7b43218f43a39a2038a5acff1a88
+#: bb1b262444764e03a4e7ebc862a1243b
+#: 54da4157950c4f7cb18b98b98124c520
+#: 70f733b1bf3047aebc6f1f25a1eabbed
+#: 17a083d23f4e425487f1200e0a4a8395
+#: 5918c24602e440db988dbf8a5d4fa24e
+#: 28d89ebf63f0477d9ce957fc84e57b03
+#: e0f70ce7d2684369b53eae009a69b1c0
+#: 2cd078e64fce4f8dbb968f569aeb21cc
+#: 319d79af8fb0485eb878c433dd874edc
+#: 2fea288ea2ed463d9b080aacbf8f8e82
+#: ed694def790a43698a25ec4fff9fc9b4
+#: 74108612253141dbb0db20866f4231ed
+#: 2c7a058117dd47a1bac802841ace9006
+#: 863bc9239ff8496d9f707f5f3e84658b
+#: 9f7b7f577e774fe59b2fd70837a5b226
+#: 920a6da6a1154962b9e446f8f9a60c21
+#: 99ff6a1c33394e20bf4f065dc52c9d66
+#: 00ed2f382b5e43e395baaa92ef5ebc27
+#: 5e65f7f05cf6465a879a02411f0ed829
+#: dc107182fd10481d8f7d1bee894ffcd1
+#: 953f4d1bff24463791b0799b19808b5e
+#: 8fcc1ce525484bb7b7b58c7be884f149
+#: 7ae580738dbc48b998e68d950e3e1069
+#: 5b522f8e0e014d27b1c72985b01d6235
+#: 71f65673bd4f4b6d9074abdec8bce4b8
+#: 0592df42711549cda80e8c4a5e886c10
+#: 46bf7cf4c9724b61a24329c9bf480775
+#: 6d9d773163ad427da605dc7341acb0e0
 msgid "Content-Type"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:54
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:68
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:97
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:111
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:170
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:199
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:223
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:237
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:260
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:292
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:313
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:345
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:371
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:385
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:406
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:422
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:443
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:459
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:535
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:554
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:620
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:634
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:658
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:672
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:704
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:721
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:751
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:765
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:794
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:814
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:843
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:862
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:893
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:908
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:934
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:963
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:978
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:1007
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:1021
-#: b6aee22cbc9749c8a2c9569cc0ad2f98
-#: 1b0ed5c4edbd4489ad2f60e375a114d7
-#: 310e3af7a66f4d5e9bf2730cca4d124c
-#: 332b578bdbe74de69a0d776ce4c7d92b
-#: f83d5ac96621463a8ca04b308dbe81b7
-#: 96970086cfa941a7a953742021a3dea4
-#: dc0a2ce4f0e0470e999b1b1f24fa910e
-#: 55244da8ef3040aaacc10973a591015a
-#: 1bcc938ef7a24a8e85c949a0dfab7dae
-#: 3da0f482dc1c436790b2a8a49f262782
-#: 87aba7561c99457caac486d7bff3a6b7
-#: e75927525fc140fa9ed93d2f237c8069
-#: 1aa5104135a64cd0932b8a0c3db27582
-#: 6f03d84d60164c4b8629a92d07a0fb00
-#: ba3578022efe4e19b1988a3525ca5e06
-#: 7c8c17a7ccb04255938b159f074ced1d
-#: ec5ef94fcdf74c42883e4a1f2ba6c95a
-#: 5cd64693c4e349ebb9dbedc85a4c85a7
-#: e4d2c52e9cfe4c67a290969a633fff25
-#: 3dff2dd26a9843abb0fc52cb0bbacbce
-#: 951005240eea4dec8626e4a348850b7f
-#: 6fbd67aa80b149f08b3c2b637e098cc9
-#: a4090e55c10e45f5a5089942fce61c0b
-#: 0c3a23582bb54d8082543b01434e4c2f
-#: ae89f301736743a6862cd5127b3652b8
-#: 06674773fa1948199ebe5ecffd549915
-#: 8c4ffb26710544aba430c092ee72eeb9
-#: c668ee44de1a4748b1cca840ab6ba3bd
-#: b051f62eda3a48cdb0974b09562cd667
-#: c0d2f9636c774c43ba02333af09c586b
-#: 51200facf6f744439d06d27fd4b70753
-#: 0392747c12ec4855a27ace9d49740301
-#: 9255d053831a4762b46305254d02c66b
-#: dbe2077d5b594e3caea7ac2bddcf7104
-#: bcccfdf0d62340c39a67a881e185d16d
-#: 4bb578cdacb845f4afc258ee69f66505
-#: 4789a41379be40dea1d9048dd868b2ba
-#: 88e3a81a2ba642b29e42dca7d23565a9
-#: 5e5cbfdd9ff945448568e06999250f64
+#: ../../docs-gofast-development/api-rest.rst:54
+#: ../../docs-gofast-development/api-rest.rst:68
+#: ../../docs-gofast-development/api-rest.rst:97
+#: ../../docs-gofast-development/api-rest.rst:111
+#: ../../docs-gofast-development/api-rest.rst:170
+#: ../../docs-gofast-development/api-rest.rst:199
+#: ../../docs-gofast-development/api-rest.rst:223
+#: ../../docs-gofast-development/api-rest.rst:237
+#: ../../docs-gofast-development/api-rest.rst:260
+#: ../../docs-gofast-development/api-rest.rst:292
+#: ../../docs-gofast-development/api-rest.rst:313
+#: ../../docs-gofast-development/api-rest.rst:345
+#: ../../docs-gofast-development/api-rest.rst:371
+#: ../../docs-gofast-development/api-rest.rst:385
+#: ../../docs-gofast-development/api-rest.rst:406
+#: ../../docs-gofast-development/api-rest.rst:422
+#: ../../docs-gofast-development/api-rest.rst:443
+#: ../../docs-gofast-development/api-rest.rst:459
+#: ../../docs-gofast-development/api-rest.rst:535
+#: ../../docs-gofast-development/api-rest.rst:554
+#: ../../docs-gofast-development/api-rest.rst:620
+#: ../../docs-gofast-development/api-rest.rst:634
+#: ../../docs-gofast-development/api-rest.rst:658
+#: ../../docs-gofast-development/api-rest.rst:672
+#: ../../docs-gofast-development/api-rest.rst:704
+#: ../../docs-gofast-development/api-rest.rst:721
+#: ../../docs-gofast-development/api-rest.rst:751
+#: ../../docs-gofast-development/api-rest.rst:765
+#: ../../docs-gofast-development/api-rest.rst:794
+#: ../../docs-gofast-development/api-rest.rst:814
+#: ../../docs-gofast-development/api-rest.rst:843
+#: ../../docs-gofast-development/api-rest.rst:862
+#: ../../docs-gofast-development/api-rest.rst:893
+#: ../../docs-gofast-development/api-rest.rst:908
+#: ../../docs-gofast-development/api-rest.rst:934
+#: ../../docs-gofast-development/api-rest.rst:963
+#: ../../docs-gofast-development/api-rest.rst:978
+#: ../../docs-gofast-development/api-rest.rst:1007
+#: ../../docs-gofast-development/api-rest.rst:1021
+#: c063ea7348b84cc682e4bcca0d16d580
+#: 4dcc9012767d4c2c981581c347569138
+#: de425d21a4e14832918ef6e6a6fa6aef
+#: 71a28f43244848df8a01c89637af3a7a
+#: b1516bf314ca400394bb1a14d6067c8e
+#: 91531cee3e1343c58eb3adaf9d02ba98
+#: 915f471c92924f1d979fbe8ade463776
+#: 1bc435c361d74c0aaff81e3f3d772bce
+#: 076ce6e968fc46148e3b9d85c20ac8ab
+#: 98e182678b5947d18ed323b6defc1336
+#: 81cf33aea47d4c56987ce08bc0280db4
+#: 0cc4c9d96cb44fc4a97ea17899f998fb
+#: 1db8966ca43e493ea34d58323379c79e
+#: 28528417918e4611ab5011087fa356b8
+#: cc8bdf5c90664ff6a0cdf92718fea50d
+#: 54f395d138a346de817b5e1dc12a3289
+#: fdab96f327854e73860dcf5419d0d0c1
+#: 1575b6a9e9444b62892f14532e690778
+#: 9ff0497078f04de697a7d3a9647106e3
+#: 55c380f8a74b4e68a2dc3eedabc04af5
+#: 6d11038588074a2286f71e25a717cda3
+#: f7bc887b29fc4a1cb1a17343b3187f0c
+#: bb103509fb454ba28cc987ffa255a67e
+#: b0381ed1d0a94c049e4065429e69be08
+#: 7b481656cce54af6b9c521806022d7f3
+#: 0d61a16f0c26419fb59efb843aec3af0
+#: 3a3938ca32f54150b49c23b22a9d2a36
+#: c90be779823c4a4ab8a3cac46c6224bc
+#: c74ce44cdc2a475aa7877aa75d7fbfa2
+#: 43050fb2622e42408b099092848496f1
+#: bb42582213414ffdab2b52712115c776
+#: 84d69fb0079a45bbb7694d5f558c2585
+#: 24107be5108647908016465daa08bd4f
+#: 80cdd66a23d74eb0a89fcf497bc18659
+#: d38d5d58390845f7bec661baea1c9ab8
+#: 37427050c346492aaa39f896110db43e
+#: a0732eaf8f7b4298baa1bc2fb5966b29
+#: 05c7772f96d74d22a51e3963109cfccc
+#: 7cc9949553e143f3a1fdad40ca96aaf4
 msgid "application/json"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:58
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:101
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:227
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:375
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:495
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:586
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:624
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:662
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:755
-#: 7d6e09d6e39d4f9e94272f738728dd8e
-#: 3b69ef4c5b49422ab042f807b4bff3fd
-#: 6576799560b84a9eb367e287ff1602d0
-#: d9bb9722cc3146b7abac97fff55afa6a
-#: 4d49a0162ff049d5897735f4e2be2057
-#: d83f205a16104812ab5f5c6f04b16cf4
-#: 101cc593d9d3480ea96717b6abba3da9
-#: dcf32dd42d4742a2869e6ad9d7d309ad
-#: 7d0a5e6eb97041348c8c5e1f3ad7dbc0
+#: ../../docs-gofast-development/api-rest.rst:58
+#: ../../docs-gofast-development/api-rest.rst:101
+#: ../../docs-gofast-development/api-rest.rst:227
+#: ../../docs-gofast-development/api-rest.rst:375
+#: ../../docs-gofast-development/api-rest.rst:495
+#: ../../docs-gofast-development/api-rest.rst:586
+#: ../../docs-gofast-development/api-rest.rst:624
+#: ../../docs-gofast-development/api-rest.rst:662
+#: ../../docs-gofast-development/api-rest.rst:755
+#: 3ea33450e27b4fd0891632ac2abaed35
+#: 89477666490c4518a1158eba0307f8d4
+#: a1aa1d93183146c2861587c09341472e
+#: 5dae13f41db442ec8ab7333cffe65973
+#: 8c7ed1daf41245d1b139c57c1ef4bdbb
+#: 186b6b552b284b44838263353b1b11d5
+#: 7f89c567e0274d34b47c6fee3f11f6d4
+#: 6bcfba8827b14b37ab6cfd72c1f1ebe6
+#: 43811b07204947eaba31ed038a54e2d2
 msgid "GET Parameter"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:60
-#: b06c9b527466451d9cdf57cef2dd7ff5
+#: ../../docs-gofast-development/api-rest.rst:60
+#: af5f93d2ffae4eae910264ec484209ea
 msgid "name*"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:60
-#: 413faf10cd984d97b6c3dd7db31d274f
+#: ../../docs-gofast-development/api-rest.rst:60
+#: b0e05f4796cb4359969766ebc1cd559b
 msgid "Username de l'utilisateur"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:63
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:106
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:194
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:232
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:287
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:340
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:380
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:417
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:454
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:500
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:549
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:591
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:629
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:667
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:716
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:760
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:809
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:857
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:903
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:929
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:973
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:1016
-#: f364fcc10a294b9784b4c93d14139629
-#: 8e204836665a4a94a84d32caf3637015
-#: 2309b51d275c44519d6f9436ae5f4478
-#: 10e9149cb6c34699a169230f93e39601
-#: 252915322ed2436783fe0c5b1cde0e7e
-#: 21870f502fba4491a9846fcbcb0e1954
-#: 065ec754848347938fedcc4bb91dcc41
-#: 4005845e85be4e36be31d03f7f823f3a
-#: 40e6572fd5bc4b55a3616448e228f0e0
-#: ec6d7447fbbb407d858a5234ac3c6089
-#: 6256f4b4f46b4cb99c14a575bc603f3a
-#: b96e29d93f244080a1c3843a1cf619b4
-#: d5163debbff641af884ec10f1684c245
-#: b9d624a8246d4ac38506e42badb9af01
-#: 3afd9e7b972e41a6bbdfe809ffe0f759
-#: 9508b912809f488cb272ff47badcec73
-#: 6693274c90d84a74bcabceee9e4603cc
-#: c48bebde77c542cc94ce042f36b73b61
-#: 530fd8e1b4d249f4a1cb6424075f5a9f
-#: d3b78d5bee994311b466473d31df13d2
-#: 93f9598946e54e4daa75a3a37857a517
-#: af44ea7929ec43568160dbd368d4e2f5
+#: ../../docs-gofast-development/api-rest.rst:63
+#: ../../docs-gofast-development/api-rest.rst:106
+#: ../../docs-gofast-development/api-rest.rst:194
+#: ../../docs-gofast-development/api-rest.rst:232
+#: ../../docs-gofast-development/api-rest.rst:287
+#: ../../docs-gofast-development/api-rest.rst:340
+#: ../../docs-gofast-development/api-rest.rst:380
+#: ../../docs-gofast-development/api-rest.rst:417
+#: ../../docs-gofast-development/api-rest.rst:454
+#: ../../docs-gofast-development/api-rest.rst:500
+#: ../../docs-gofast-development/api-rest.rst:549
+#: ../../docs-gofast-development/api-rest.rst:591
+#: ../../docs-gofast-development/api-rest.rst:629
+#: ../../docs-gofast-development/api-rest.rst:667
+#: ../../docs-gofast-development/api-rest.rst:716
+#: ../../docs-gofast-development/api-rest.rst:760
+#: ../../docs-gofast-development/api-rest.rst:809
+#: ../../docs-gofast-development/api-rest.rst:857
+#: ../../docs-gofast-development/api-rest.rst:903
+#: ../../docs-gofast-development/api-rest.rst:929
+#: ../../docs-gofast-development/api-rest.rst:973
+#: ../../docs-gofast-development/api-rest.rst:1016
+#: f5e3888479c34735851c0b0b3cd9d0a3
+#: 577fbe9ae674430c8d62864cf442b9e5
+#: e2d09badaeef4679b586ef47a151013c
+#: b35a3a1e99264d65bad4d1a65ba01ac5
+#: cea0535f3cd64b578adbae92c1c66fa5
+#: bd4fa120c8ba47ad9a382bb8bf6dd182
+#: 3db11e6f1a8a49cba2a14e4c523d706e
+#: 81198179427a49b995b06b131fb03141
+#: e3dd18ba20ad4b51bc1612ce16ca5b99
+#: 185078b208d2419790b52c85a302f815
+#: b4c5b296243642998a887975b4d284d3
+#: 25188f4656ea4d1885eb5e357ba40080
+#: fbda01c2b3244ad18afcd35ae723b06e
+#: 4be0073799cf4b7cbc2faa5a51f57b30
+#: 7270687d4cf1412fa40f39540fb1e7c6
+#: d588c93f9c3447f1ac1ccbfbd8116b96
+#: e9e053953e9f45e1ac40415c596bf058
+#: 2bd367e803c74b5aa430537363d69c4f
+#: 954fd0461230437d88606dcfd4160426
+#: e78dde75c7be4cfba7ff9aeed3c483b2
+#: 3a10e09d484b48f0a0fdf51eeb70edaa
+#: 579437b7cace4063a846f57f6f204adf
 msgid "*Retour:*"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:72
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:115
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:162
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:174
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:203
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:243
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:278
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:296
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:331
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:349
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:391
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:428
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:465
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:539
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:558
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:638
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:676
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:708
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:725
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:769
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:798
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:818
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:847
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:866
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:897
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:912
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:938
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:967
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:982
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:1011
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:1025
-#: ad349fa5c412470faa08c0edcbfa4e19
-#: 2b48528cb0b5449881befcde71222b84
-#: 37041a38722e4d8cae1baddb4e459fc9
-#: df34c23503c64b9e95b4ceb6060ea6ad
-#: 1e26f15dc7e849ae956c4d0b8433ab81
-#: af3b6d551fd144d99abf16b13634103a
-#: eca4820679a84a61bbeb92b0899addef
-#: ed4b4a6bd3b0450fa615b6812c12b4fd
-#: 36514b4cd62941418a0472ba13525822
-#: 37473cd883b34265b4f723c4989db4be
-#: ad149e54407e4c389d0ef3574723e9b3
-#: 09d4d016f07c4520a3e0a398c4f5019b
-#: 63d2cea0e9834908bc719446805677d8
-#: 5c9faa564e4349669d990d7030a0bedb
-#: b1bcd79c10ef457c8d8895d5acb402cc
-#: 16aa3eeaa6bd4238840fd9f640595b43
-#: 2f24b7bfa3344ff6abd162812054204c
-#: 393aa987cda54de2b90e74ba222211f5
-#: d90c7d193d8d40d2b7b2dce1a2ca84d8
-#: a78f5c3ff51e4b6a93bef8125301f47d
-#: e2c3b944b9854fd7ad794d5179750133
-#: dca214f3a1254a5990a5921ba3cd7d32
-#: a4126d5a3bb44bf88e69835a52117973
-#: f48b13704063449593735ff455b7aaea
-#: 6bd561d99fb34d10be856e66d4315a6a
-#: 6260244584e147178d55062f9473a20e
-#: c1c803755b7c4612afcfec3ce2eb20d8
-#: 1d25c22409314bc0adae53f712d5bb72
-#: 8a021471b51447e9a88c797ddfa65228
-#: 3193fdd7e1a944f184b9501e107ea6f6
-#: 843a0de796b74c7e8dcb82d5077cecb6
+#: ../../docs-gofast-development/api-rest.rst:72
+#: ../../docs-gofast-development/api-rest.rst:115
+#: ../../docs-gofast-development/api-rest.rst:162
+#: ../../docs-gofast-development/api-rest.rst:174
+#: ../../docs-gofast-development/api-rest.rst:203
+#: ../../docs-gofast-development/api-rest.rst:243
+#: ../../docs-gofast-development/api-rest.rst:278
+#: ../../docs-gofast-development/api-rest.rst:296
+#: ../../docs-gofast-development/api-rest.rst:331
+#: ../../docs-gofast-development/api-rest.rst:349
+#: ../../docs-gofast-development/api-rest.rst:391
+#: ../../docs-gofast-development/api-rest.rst:428
+#: ../../docs-gofast-development/api-rest.rst:465
+#: ../../docs-gofast-development/api-rest.rst:539
+#: ../../docs-gofast-development/api-rest.rst:558
+#: ../../docs-gofast-development/api-rest.rst:638
+#: ../../docs-gofast-development/api-rest.rst:676
+#: ../../docs-gofast-development/api-rest.rst:708
+#: ../../docs-gofast-development/api-rest.rst:725
+#: ../../docs-gofast-development/api-rest.rst:769
+#: ../../docs-gofast-development/api-rest.rst:798
+#: ../../docs-gofast-development/api-rest.rst:818
+#: ../../docs-gofast-development/api-rest.rst:847
+#: ../../docs-gofast-development/api-rest.rst:866
+#: ../../docs-gofast-development/api-rest.rst:897
+#: ../../docs-gofast-development/api-rest.rst:912
+#: ../../docs-gofast-development/api-rest.rst:938
+#: ../../docs-gofast-development/api-rest.rst:967
+#: ../../docs-gofast-development/api-rest.rst:982
+#: ../../docs-gofast-development/api-rest.rst:1011
+#: ../../docs-gofast-development/api-rest.rst:1025
+#: 80d42dbaeca24a7eb8c611d2d0ef56fb
+#: b322284fa9334102a6f71ad7ce5872d9
+#: c11454cf5baa40eeb33c13cce8f1f351
+#: 31c16b3dad3f4680bdc2a6c85ab2a442
+#: 784186b5a3074511b0a96b8d6c9bf072
+#: e2d1ad50a65e4563abd72290520fc3b9
+#: 1db29d78c19445d7b75d5928b505689e
+#: d882fa64308e488da4b4ffe2a07ad68c
+#: f8b2d939f2cc41e4b0e515ec50b61cd1
+#: acc4e6f5239f4bf182b45a0d46d12ead
+#: a658599ba9a14aabb29001e24c30d7cb
+#: ed5dccbfc5cd4bf9bdbfc0002b7ccc77
+#: 8f493453bf794ecc8ea1fb8462a933d3
+#: 1c9bc519804b4cdca37645bd887d775b
+#: 71a1dd3f11994788a318548001dd36cb
+#: fc743395f39d4039a2031aeee348d179
+#: 8b5adff349e7437b816ad35670344349
+#: e67dd29ffb7340fdb701cf3977a9d00a
+#: 85431f048c9a473cbacd9899bdf59cce
+#: a4954a1e348d4ae08a246d9b47ec36c4
+#: 0e377923125a4ac3a8edfff79c8534ae
+#: 3c0e12ea5bab4fa485c6ece31bd95bf9
+#: 5dff466e119642e9939424813a16f42a
+#: ba8756d720c14178a6d249dd25deaf7d
+#: 6e187d19f19d4c4aa18283af282f3301
+#: 3de1e94d0d2145539eb9bdb52856fd94
+#: 1b68e2e639b14b04841caf7f674930d3
+#: ed78210233d0431fb8f4bd44940b22a8
+#: 3a886de845d541a5af29c032e4ef58bc
+#: f586541205d34b988b7d396744662335
+#: 8880805ee3124d42b5fd38085cb77d24
 msgid "Clé"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:74
-#: 2be1d81895884feabc32270a571a5c36
+#: ../../docs-gofast-development/api-rest.rst:74
+#: 7ccae3474d744fac85ff1d8d68abb3ba
 msgid "token"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:74
-#: a2167ca094fa45ebb12a48764f0d2c5c
+#: ../../docs-gofast-development/api-rest.rst:74
+#: 19de3168f4844b558f275bb6f034ed72
 msgid "Jeton d'authentification"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:78
-#: f96b25bd68b84592bf652f078c1d9a34
+#: ../../docs-gofast-development/api-rest.rst:78
+#: 8265488a5e70438f966560f2b897462e
 msgid "Ressource : node"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:80
-#: b9ce032d5313438d9d77b7a631b1c50c
+#: ../../docs-gofast-development/api-rest.rst:80
+#: 0bd9ac1e814a424c935a330c3133388d
 msgid "Cette ressource permet d'intéragir avec les entités Drupal de type noeud. Ces derniers peuvent représenter des documents, articles, espaces, formulaires..."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:83
-#: 5d3ab73c976848508e900463ebd9e5e5
+#: ../../docs-gofast-development/api-rest.rst:83
+#: 439bbd23cc2141bf9a8d3fae22ae0a61
 msgid "Action : node"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:85
-#: 37f7fc400f0b4e20963193ae8162aa89
+#: ../../docs-gofast-development/api-rest.rst:85
+#: 13ac261a1f6b4b5c901c2db6e9a12210
 msgid "Cette action permet d'intéragir basiquement avec les entités Drupal de type noeud."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:90
-#: 83d44ab348c44ce5b0f62f022ade2962
+#: ../../docs-gofast-development/api-rest.rst:90
+#: 0a248d3be82a4c99ad902ab9fdf5913b
 msgid "Cette méthode permet de récupérer des informations génériques d'une entité de type noeud"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:92
-#: 0d11c165b5654afbabd93883d1744636
+#: ../../docs-gofast-development/api-rest.rst:92
+#: c6b7969d043c4b2dbcf88cd39d194070
 msgid "*GET: /api/node/node*"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:103
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:229
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:280
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:333
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:377
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:412
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:449
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:497
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:541
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:588
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:626
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:664
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:800
-#: 8ef2ea065ec643bc9c75561f74eb53b4
-#: 20b43a97d7714aa1b62982d16dfa3c32
-#: d989f30815384e109ef04d84c035f092
-#: 676163375f30416581cfc1f3607f0b3c
-#: 53d31b4989ad405baee0e07232c25a7c
-#: fa466f81942947aa9f447859cedee8ea
-#: 7c0222293f0c4b9eab4d2b7e4126d933
-#: 97dec75031c144f2915cdac9361f60a9
-#: 680b03c98efb4a9bb7b0331bf04a3f41
-#: 23f20ba4577545db8f5d242572d65b36
-#: 516e7bca9d8d4f00b4c21b7db5214fe9
-#: 79c15b39e364439990f4426af7ebbb71
-#: 74384b6665ea4501a8b30bcd5ffe727f
+#: ../../docs-gofast-development/api-rest.rst:103
+#: ../../docs-gofast-development/api-rest.rst:229
+#: ../../docs-gofast-development/api-rest.rst:280
+#: ../../docs-gofast-development/api-rest.rst:333
+#: ../../docs-gofast-development/api-rest.rst:377
+#: ../../docs-gofast-development/api-rest.rst:412
+#: ../../docs-gofast-development/api-rest.rst:449
+#: ../../docs-gofast-development/api-rest.rst:497
+#: ../../docs-gofast-development/api-rest.rst:541
+#: ../../docs-gofast-development/api-rest.rst:588
+#: ../../docs-gofast-development/api-rest.rst:626
+#: ../../docs-gofast-development/api-rest.rst:664
+#: ../../docs-gofast-development/api-rest.rst:800
+#: 7136e0c65cff4999a1fd8ba842b67405
+#: 21ee0c53887d4674b0ed6b011db07d44
+#: 1b7d3e664e9647679bb98ef4c2f2da6d
+#: 29ea4d1e01854cb6bd53c2ed82b53a3a
+#: 3d1d777483724360a4a6403a56f08e2d
+#: f0b3ef8932284292bb1fdca0731fb864
+#: e9617f6e98ac425f920f8494ba5c494b
+#: f59e62bd65e04f91b2d9e0845a87d40a
+#: 3a5896fbc7c8426493ba7a3e65df62c2
+#: 2ea532230fa943e3b9949500ef1c548c
+#: dfb4591ea162440092bbaaac8a774d22
+#: 2abb16821f374924b27d927ef7a076a4
+#: 497333fa9f3d45cda1a4d90ad99777a7
 msgid "nid*"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:103
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:117
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:205
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:229
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:280
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:333
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:377
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:412
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:449
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:497
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:541
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:588
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:626
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:664
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:771
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:800
-#: 8400413faad04bceaa3eb2def263f67a
-#: dd41530a62294369be8cf443e79c2eee
-#: de1a60e489fd4517b4e8b2d3726a574e
-#: e735a1336a4b46708d8ecf26c00121a4
-#: ac71f87a0ec74dc0aca3b356c3d9a2b6
-#: a24d0d22e1414e7f9507062541f708a3
-#: 59119f890e124ddc923d41f13b78b6c7
-#: d5fb8fcac94d465ca9451ee3bd35ea4f
-#: ffde5c34137346d09492678e204afd5f
-#: 8fb99f9156964c4c983d623c2ae0f9ef
-#: 5edc249fbe554a359a881625aeaea719
-#: d59e51b777e8497c95e61b8ca9d27221
-#: 127c900664c64135af2e86a42b709d98
-#: bbc1a4c026284f13843afa5e7388fe0a
-#: 9c0e646c21af489bbd121bb6c7162efd
-#: 0209f9470aec447688a2ef625b098193
+#: ../../docs-gofast-development/api-rest.rst:103
+#: ../../docs-gofast-development/api-rest.rst:117
+#: ../../docs-gofast-development/api-rest.rst:205
+#: ../../docs-gofast-development/api-rest.rst:229
+#: ../../docs-gofast-development/api-rest.rst:280
+#: ../../docs-gofast-development/api-rest.rst:333
+#: ../../docs-gofast-development/api-rest.rst:377
+#: ../../docs-gofast-development/api-rest.rst:412
+#: ../../docs-gofast-development/api-rest.rst:449
+#: ../../docs-gofast-development/api-rest.rst:497
+#: ../../docs-gofast-development/api-rest.rst:541
+#: ../../docs-gofast-development/api-rest.rst:588
+#: ../../docs-gofast-development/api-rest.rst:626
+#: ../../docs-gofast-development/api-rest.rst:664
+#: ../../docs-gofast-development/api-rest.rst:771
+#: ../../docs-gofast-development/api-rest.rst:800
+#: 1d29425a65804d35a0f4e1ef5d29e260
+#: d7bdce73d65f4a66863a1c387b01a0ee
+#: 3ab277a13b99405c862c3acfc7aa6518
+#: 0943046b231a4795b9fb056a7b26a5d7
+#: c127ab1cc7e34be58cf9954a72e01d0d
+#: 8234465e0b584d46ac3eaa766e6f5266
+#: 95c39678ea9745dba2769336e524fb8b
+#: b261e321f26d49ec8b2b277ead2250d9
+#: 30692195aaa44e7b8e83b7a24bf188b3
+#: e1f8116c74844e5aa6c551925cf94b0f
+#: d68af2b9af48470d9cec6bbf50fadc83
+#: 4422428aae014048bfe6a4e0cef0529f
+#: 104c24a76872477bad5cd7a7552d07b8
+#: 18fc07318e4b427187600273a0abf426
+#: 49b261bb5eec498a812e3bbcfa7e13ce
+#: 3358389566024a958a88b0e1a48868ec
 msgid "N° du noeud"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:117
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:205
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:771
-#: 711aa847a7c447e68309a96010e52e44
-#: 0f3fc2915f44489d903eaf39a1e32640
-#: f46730d7aa574309af11bb52ebf43af8
+#: ../../docs-gofast-development/api-rest.rst:117
+#: ../../docs-gofast-development/api-rest.rst:205
+#: ../../docs-gofast-development/api-rest.rst:771
+#: 71a3d217df2d440291f8f00e861eb550
+#: ac79c7666bc14821939a900663e200d3
+#: 18dd696c61db4019982181666c30dd9f
 msgid "nid"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:119
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:680
-#: 935f1110e4fb4120ad0665e65f5c6624
-#: 6bb1f6259628417fbff7147e65e08772
+#: ../../docs-gofast-development/api-rest.rst:119
+#: ../../docs-gofast-development/api-rest.rst:680
+#: 3831eb5b8bf1419bada823c43f326fe4
+#: 95f9cf6ee5854fb7a20ca2f653f324b0
 msgid "type"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:119
-#: 75ad8922279f4c9abc1d367fac5fafb5
+#: ../../docs-gofast-development/api-rest.rst:119
+#: fe295b829d2a4bfb8fc7956d2b87f6af
 msgid "Type du noeud"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:121
-#: cb428a2adf5b4c078692299c14088220
+#: ../../docs-gofast-development/api-rest.rst:121
+#: 62ae3d6de7e54b50bcd1633eba6c378f
 msgid "title"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:121
-#: 6c7691571886462283bfaede05e8a192
+#: ../../docs-gofast-development/api-rest.rst:121
+#: 017d6ac1d2d244619392673040222146
 msgid "Titre du noeud"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:123
-#: 86fa5c57732d4f9cac873664e82b0d2d
+#: ../../docs-gofast-development/api-rest.rst:123
+#: bdf940d3674e44b4a33b4baa63019e5d
 msgid "status"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:123
-#: 495bbcdaf14f4538b44d4a7658b1e918
+#: ../../docs-gofast-development/api-rest.rst:123
+#: d27c976e2ef149cbb934135a1f48911d
 msgid "1: Publié, 0: Dépublié (Supprimé)"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:125
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:727
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:775
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:984
-#: 6307204b61ea4e2eb226f782b1a4e803
-#: dbe2b6a1ec6f40b99ced06bdc7cc794c
-#: c2b08dfee18d4d26acc1c32c6db6b2b3
-#: d243072379274f22b7e89cca27665483
+#: ../../docs-gofast-development/api-rest.rst:125
+#: ../../docs-gofast-development/api-rest.rst:727
+#: ../../docs-gofast-development/api-rest.rst:775
+#: ../../docs-gofast-development/api-rest.rst:984
+#: 710df1e61d4c4cd78ba9056170867b9f
+#: 2eb02068ba114719893c6bc778778e11
+#: c0add0c55be74b2fbdbb9ae7fc4f3f45
+#: 92d11f4f166e43b7a9e90f4e288d2c4a
 msgid "uid"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:125
-#: 4bd52748c985408c942297a1895ba5df
+#: ../../docs-gofast-development/api-rest.rst:125
+#: 8b593e28a0c94c5084910670c3d64b43
 msgid "N° du créateur du noeud"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:127
-#: eba876cf144045d9bf3836ee97e12b88
+#: ../../docs-gofast-development/api-rest.rst:127
+#: 365c98508f95421f9e65e55b7398a16a
 msgid "sticky"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:127
-#: 135cdc075d8e48eda6630a557b14f3a5
+#: ../../docs-gofast-development/api-rest.rst:127
+#: 4f55bab036c445d897da711c68aa5820
 msgid "1: Epinglé, 0: Pas épinglé"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:129
-#: 24caa0bd231e4b9489b405b471e9598a
+#: ../../docs-gofast-development/api-rest.rst:129
+#: 14c359be1e65449cae6cff7366c94d2a
 msgid "language"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:129
-#: f3cdb718dbed455f84aaf25085e21844
+#: ../../docs-gofast-development/api-rest.rst:129
+#: 48c3aad43c7d4063b7a4f2950e9a7005
 msgid "Langue du noeud (und, fr, en, nl...)"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:131
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:682
-#: 363596124eb6419ab332166ee6ded0e1
-#: 8e6899b4b1464db8a57fbe84beb70bad
+#: ../../docs-gofast-development/api-rest.rst:131
+#: ../../docs-gofast-development/api-rest.rst:682
+#: ed6b2c03aefb4cdf823101758458b0f6
+#: ca50afaa6b4e40939b79d73fcc3b7e79
 msgid "created"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:131
-#: dd690ca72ea44763adbc4a2afb516bbd
+#: ../../docs-gofast-development/api-rest.rst:131
+#: 6404f1ec73dd4308acde38e0ea39784d
 msgid "Timestamp de création du noeud"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:133
-#: 964ee4a0043147fdabc414587fbdd2e1
+#: ../../docs-gofast-development/api-rest.rst:133
+#: f1c49ad42437433ea5324ec89dc2c288
 msgid "updated"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:133
-#: 58e0a06dcab04c928b2bfe645facd894
+#: ../../docs-gofast-development/api-rest.rst:133
+#: 51d8c496cf9747f4948843fa57c6d03d
 msgid "Timestamp de dernière modification du noeud"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:135
-#: a063941e8f68471fa26bc6b2e4791528
+#: ../../docs-gofast-development/api-rest.rst:135
+#: 37d1e1f3314b4412a552f31a2b3bc6f8
 msgid "update_uid"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:135
-#: 82c8f073a0f748d9b8b746151500621f
+#: ../../docs-gofast-development/api-rest.rst:135
+#: 7a1d92ea3bcb4169bccf445ec2cfb995
 msgid "N° du dernier modificateur du noeud"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:137
-#: f282624527024f5f9c0aa9bc687b807a
+#: ../../docs-gofast-development/api-rest.rst:137
+#: 29fbcb85824b4f5cab68b21c57b57dec
 msgid "comment_count"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:137
-#: 1722c0dfc8b347e1b7cd6a6ef3c8b028
+#: ../../docs-gofast-development/api-rest.rst:137
+#: 1098fa8262b145b1918529cc3c91c41e
 msgid "Nombre de commentaires attachés au noeud"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:139
-#: ea1f9a2e8e9b4479906d8516b8ab6c9e
+#: ../../docs-gofast-development/api-rest.rst:139
+#: e36a87c39ab0441f90abdd50aa3307ee
 msgid "last_comment_uid"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:139
-#: 6a451f1b132e47cc8db5d79678f99e5b
+#: ../../docs-gofast-development/api-rest.rst:139
+#: 1b5507e98dda4c35b89c9f75e77fba0d
 msgid "N° du dernier commentateur du noeud"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:141
-#: 4ab2d09e393a45f2ad4ff72ee05eafa3
+#: ../../docs-gofast-development/api-rest.rst:141
+#: 50a87fb371f74ae1820a21387a877ac3
 msgid "last_comment_timestamp"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:141
-#: b9bbba341bbe4b8db5dc157b9565ef31
+#: ../../docs-gofast-development/api-rest.rst:141
+#: cba17be6d59841feaf1c20507ba51d1e
 msgid "Timestamp du dernier commentaire du noeud"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:143
-#: 4f2eb66426fe457ab8ee89787436c416
+#: ../../docs-gofast-development/api-rest.rst:143
+#: 0f9fb3480e5c4eb4ad726e9d84dd9de6
 msgid "last_comment_cid"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:143
-#: 2b83e88a790d4f31b847fe764816164a
+#: ../../docs-gofast-development/api-rest.rst:143
+#: 920949778b3d41ae946216b56d331a42
 msgid "N° du dernier commentaire du noeud"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:145
-#: f72f44dc5ae14cb4af4f37663b02a149
+#: ../../docs-gofast-development/api-rest.rst:145
+#: 05bf662fca714cfbbbecbc288087eb18
 msgid "alfresco_reference"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:145
-#: 1975c211e92640719ab7386ab290d07a
+#: ../../docs-gofast-development/api-rest.rst:145
+#: d852a18fb24a461dafd537bc53033498
 msgid "Référence du contenu Alfresco associé au noeud"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:149
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:251
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:434
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:514
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:998
-#: 4f7ed4c29be2443fa93da18fd0b003b6
-#: 64e597c18b7f4228b76bb89e035052c4
-#: 1e121e36123a49b68726e7acfbd1f2b6
-#: 1bb7c45ce2974d158c0b4aa477002617
-#: d94618c26b4b46f2b6ef81f0dcb32cbb
+#: ../../docs-gofast-development/api-rest.rst:149
+#: ../../docs-gofast-development/api-rest.rst:251
+#: ../../docs-gofast-development/api-rest.rst:434
+#: ../../docs-gofast-development/api-rest.rst:514
+#: ../../docs-gofast-development/api-rest.rst:998
+#: a1380c7663424d99a6f5a6bc482788bf
+#: 05e92edca90b42b38e82c5d84b790970
+#: 3a2402da63dc449abdbec1c6e6620f3d
+#: 66cf737268c94ad39d7347087c2e7540
+#: 86296005e62e4f83ba455a3d9611cb33
 msgid "POST"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:151
-#: 07475e0799c94ae693d3a9dbe729d6bf
+#: ../../docs-gofast-development/api-rest.rst:151
+#: 9f888b258ee64bf8889e4ca949f08a1b
 msgid "Cette méthode permet de créer une entité de type noeud. Si ce noeud est de type alfresco_item et qu'il n'est pas crée à partir d'un modèle, il est obligatoire d'y ajouter un fichier."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:153
-#: 7671a6e823d24048ac5b218f21a49e1f
+#: ../../docs-gofast-development/api-rest.rst:153
+#: 56a7b5011cdd46779a10b80e4f71f730
 msgid "*POST: /api/node/node*"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:158
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:523
-#: 3031d279f91d4a5fb6ce7817e211bda8
-#: cdce5da71e794404b94deb2ad44fae9e
+#: ../../docs-gofast-development/api-rest.rst:158
+#: ../../docs-gofast-development/api-rest.rst:523
+#: d821beeda9684c40b981076a2696ebd4
+#: b9b6b527907d4c0bbbd341a6591cdcfc
 msgid "multipart/form-data"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:164
-#: 9e46fc01882942b985c2718e071b8419
+#: ../../docs-gofast-development/api-rest.rst:164
+#: 2698cd700878497b8167ff9227b9bbf7
 msgid "file**"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:164
-#: 3e5485b018bb47e1a1c1007d30800a6b
+#: ../../docs-gofast-development/api-rest.rst:164
+#: 1960fd7a052b4568bfb325a7c05e62b4
 msgid "Le fichier à charger (si le type de noeud est 'alfresco_item' et qu'il n'est pas à créer à partir d'un template)"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:176
-#: a3251adbda7242fa869902330c208ccd
+#: ../../docs-gofast-development/api-rest.rst:176
+#: 1c8b56fe78b24870beddcbc6a779784a
 msgid "type*"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:176
-#: 4eef82288a85420cb758c7f47827a6af
+#: ../../docs-gofast-development/api-rest.rst:176
+#: 9081fddd3e474ce1876e8acb0729b91a
 msgid "Type de noeud"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:178
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:851
-#: ddd1ddc861454b469cc97a7842529eaa
-#: f228da7a385e4e27ab41f76326754b1c
+#: ../../docs-gofast-development/api-rest.rst:178
+#: ../../docs-gofast-development/api-rest.rst:851
+#: c5b5f3dfbae44dc3973509e1a4d6ab56
+#: 2c3b299317d246359affae19cbce97a1
 msgid "title*"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:178
-#: 78f10cf0ec4644948b57f33aabb88006
+#: ../../docs-gofast-development/api-rest.rst:178
+#: a00fe853527043429d496b3a95c168b7
 msgid "Le titre du fichier, de l'article, du forum..."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:180
-#: 6384ce961ee14d1a8931e9824a19095b
+#: ../../docs-gofast-development/api-rest.rst:180
+#: 17efe4bee2684b8abde17fc8dc7c8e92
 msgid "locations**"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:180
-#: cb49505729374b5eb2f20413ab4b323a
+#: ../../docs-gofast-development/api-rest.rst:180
+#: f46aea5e21944995879005d48ee35543
 msgid "Les emplacements dans un tableau sous la forme \"/Sites/_Organisations/Mon Organisation/XXX\" (alfresco_item seulement)"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:182
-#: 418d59a754fb49bfb6b36a53fa4cf400
+#: ../../docs-gofast-development/api-rest.rst:182
+#: 334cf63fb17c40f8aa85ac1b20534143
 msgid "template_nid**"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:182
-#: 14d0a9d7d20446ef9167499ec17ff2a0
+#: ../../docs-gofast-development/api-rest.rst:182
+#: 54eb7207f37844c5812098738608eb43
 msgid "L'identifiant du noeud du template à partir duquel créer le fichier si nécessaire (alfresco_item seulement)"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:184
-#: b52a2734e5524cb29da4c9fcd2a9485f
+#: ../../docs-gofast-development/api-rest.rst:184
+#: 5900df8071944b02a13ae03466df2339
 msgid "gids**"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:184
-#: ed94a14ad4b5490f81ee4968ac95a03b
+#: ../../docs-gofast-development/api-rest.rst:184
+#: 5b52ce9153e34c298ac18d4f2a7dd541
 msgid "Les n° des espaces de destination dans un tableau (article, forum seulement)"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:186
-#: 44acf0f7edc04a46804c109a32b2b65a
+#: ../../docs-gofast-development/api-rest.rst:186
+#: 2762558932444a5694fc87e41ccc0f9c
 msgid "body**"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:186
-#: 46193238c3614bb8a21f28541a616255
+#: ../../docs-gofast-development/api-rest.rst:186
+#: dc2d10f96654475fb8ae3e5b3f8cd127
 msgid "Le contenu au format HTML (article, forum seulement)"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:192
-#: 35558c1372a543d8b8401dd5a38fc915
+#: ../../docs-gofast-development/api-rest.rst:192
+#: 187f613e3d1143a9af60cb403f5f2356
 msgid "Les types de noeud disponibles sont :"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:190
-#: 72793b991e8742ae9f9f2c1d324fc693
+#: ../../docs-gofast-development/api-rest.rst:190
+#: 6c96932dc62144b5823b717981da1f58
 msgid "alfresco_item (Document)"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:191
-#: 9b0abaf58f9047bcb9878038ebe6dd02
+#: ../../docs-gofast-development/api-rest.rst:191
+#: cb9fe24fe7e6448eb12db5b88c923dc5
 msgid "article (Page interne)"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:192
-#: bdbf3e75437148ea84292f9f0f351b00
+#: ../../docs-gofast-development/api-rest.rst:192
+#: b1168f6faaeb44c89fadb0f1ceaa0a8f
 msgid "forum (Forum)"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:209
-#: 09aa04e4e1d1446ca525d7eef28c4928
+#: ../../docs-gofast-development/api-rest.rst:209
+#: b565297e421b4c4c9d4cd8572ba3bb20
 msgid "Action : metadata"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:211
-#: 76e2e5bc593c4f7cb4aeec1b55f832af
+#: ../../docs-gofast-development/api-rest.rst:211
+#: 72a685caf0584ada93bda89dca9126d9
 msgid "Cette action permet d'intéragir avec les métadonnées associés aux entités de type noeud"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:216
-#: 86fcf162d22a488e81d1afd818a4745e
+#: ../../docs-gofast-development/api-rest.rst:216
+#: 4adcea1b7b7d45499bd8d30fd1e6e136
 msgid "Cette méthode permet de récupérer les métadonnées associés aux entités de type noeud"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:218
-#: 850a02cbf5314059b75f2347cd7d31c0
+#: ../../docs-gofast-development/api-rest.rst:218
+#: 0f7e1d7d08fa4bb5b0a252a63bd68bcc
 msgid "*GET: /api/node/metadata*"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:245
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:282
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:335
-#: b71bdd734f0749cf8a68305ae36af74a
-#: 4297c7c3d3a54b468e058bda8a5f0abb
-#: b02ad214b7c441f5865eb950c57efa6b
+#: ../../docs-gofast-development/api-rest.rst:245
+#: ../../docs-gofast-development/api-rest.rst:282
+#: ../../docs-gofast-development/api-rest.rst:335
+#: 15afcdeb660642fab1afa6631e68ed2b
+#: 994385f6bc2948e68f4e54587cfd98b0
+#: 1ce7f4676466430a887c5f8671147b52
 msgid "field_XXX"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:245
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:247
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:282
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:284
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:335
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:337
-#: 7bd35c52864046fd90541192961accba
-#: d62a9625feda4720a7411dde28f2aaec
-#: 1c64b60421a54c49ab8b0cb935cbc526
-#: ddc1ab67c6f94dbbbe749eeccbe4823b
-#: ece9b2819dbf44bfaf954bb1cb3edb22
-#: 23330d1572ed4c16872aab83efe8a68c
+#: ../../docs-gofast-development/api-rest.rst:245
+#: ../../docs-gofast-development/api-rest.rst:247
+#: ../../docs-gofast-development/api-rest.rst:282
+#: ../../docs-gofast-development/api-rest.rst:284
+#: ../../docs-gofast-development/api-rest.rst:335
+#: ../../docs-gofast-development/api-rest.rst:337
+#: 1a1de06db28b47d3a0228affa6954374
+#: 04d1eeeba17a4e2791645da2bc73573e
+#: 8d0d6d1217c24030bb4122cb6c2528b4
+#: 0edaa54829f5493c8059b761b9f7c907
+#: 87357e6833964bfcaa99bbb13d3db9cb
+#: 6ba61062f4644d0fbc032eccafd58257
 msgid "Tableau contenant les valeurs du champ"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:247
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:284
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:337
-#: ef1001c6dc0549b986f8420b7924ab44
-#: 76119ed068534ba6ad0305f9ff975701
-#: a3e3d6d140af4d5690a70b005b5417e5
+#: ../../docs-gofast-development/api-rest.rst:247
+#: ../../docs-gofast-development/api-rest.rst:284
+#: ../../docs-gofast-development/api-rest.rst:337
+#: f181f1523dc14428b825a6c6c7198851
+#: e59a67f3766e40a6b7b2d966238ab517
+#: 495e9e6c2ace4160bbe46862cd482a58
 msgid "field_YYY"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:253
-#: 079e09320b054e7e947354889d8bdeb1
+#: ../../docs-gofast-development/api-rest.rst:253
+#: dbb728b6cc904011b60be756980b03cc
 msgid "Cette méthode permet de mettre à jour les métadonnées associés aux entités de type noeud"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:255
-#: 343f6bfdba9c4543a5f80ef43dea0246
+#: ../../docs-gofast-development/api-rest.rst:255
+#: 0ecb01b9ec3941debe105d5245f98aab
 msgid "*POST: /api/node/metadata*"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:267
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:320
-#: ce595c425f874de0807a265747486a62
-#: 3c5e7ef2b903485f9edefd727dc592b7
+#: ../../docs-gofast-development/api-rest.rst:267
+#: ../../docs-gofast-development/api-rest.rst:320
+#: 941cb509eedb4386990f7cd72c261839
+#: e757633ad7434b47a62b8151ed022b59
 msgid "Contrairement au retour de la méthode GET, les valeurs ne doivent pas êtres listés de cette manière"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:267
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:271
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:320
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:324
-#: ae369f1c39e34237b59071944c855830
-#: 2a8d4ae414844b36a1ecf3e2f7929c34
-#: aa62fa5c349a4157a11298185b4fa867
-#: 9e74ac1a85ca4349aff9a986dcb021c7
+#: ../../docs-gofast-development/api-rest.rst:267
+#: ../../docs-gofast-development/api-rest.rst:271
+#: ../../docs-gofast-development/api-rest.rst:320
+#: ../../docs-gofast-development/api-rest.rst:324
+#: b5ddb839002148b1bda25e2e15630002
+#: 228037ca765b4028a0bcf6f27263a30a
+#: caad0c0195f74876a5e2fe2df69a83ef
+#: f5295691d387405b83cb1ef8be0570ce
 msgid "field_XXX : *Array*"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:266
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:270
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:319
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:323
-#: 07e443bcf4a24d5f8922022e625f7f3e
-#: 926d3f0c9959481789e4e503b5f6fdb1
-#: f9f743a8ce3041d5ac5f3022a344f930
-#: fdedab5206054d7bb491e6c3b05fa607
+#: ../../docs-gofast-development/api-rest.rst:266
+#: ../../docs-gofast-development/api-rest.rst:270
+#: ../../docs-gofast-development/api-rest.rst:319
+#: ../../docs-gofast-development/api-rest.rst:323
+#: 0156b7f5f0d24b52a38904ecefd9b559
+#: 67afa9b3ce6c43949f5f0f90fc427095
+#: 588abefe02234868ae4d0cd850734e13
+#: e231b1af0d5241b7b8998fe743c0284a
 msgid "Array"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:265
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:318
-#: a5ca009d91dc4602b80c3966cdfc283d
-#: 79acde3d73fe4870afc7fbd67b9d88e2
+#: ../../docs-gofast-development/api-rest.rst:265
+#: ../../docs-gofast-development/api-rest.rst:318
+#: ea9233adfca641fbb0434659384e21e2
+#: 0011167220c847e3bfbd6a4b63eae502
 msgid "0: value: *Array*"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:266
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:319
-#: be940b98abcf4e0cac1c099026d63ef2
-#: 286c35dfe11c4faaa056492835a979aa
+#: ../../docs-gofast-development/api-rest.rst:266
+#: ../../docs-gofast-development/api-rest.rst:319
+#: fba6510c156342f5aa7420d47f77551d
+#: 9e896549c6f940f797f2d16fd0ab8030
 msgid "VAL1"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:267
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:320
-#: ef122511f4d84f55bf2ce80889fd7ec6
-#: 47d913c31c91433d9dd8158ee8045d20
+#: ../../docs-gofast-development/api-rest.rst:267
+#: ../../docs-gofast-development/api-rest.rst:320
+#: 7637ade561964514b9679dba623f0d6e
+#: e1a25603931c4d489d2ca0110193c674
 msgid "1: value: *Array*"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:268
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:321
-#: fcf1c86d57b44a24881335aff5fe14b2
-#: 464eff5f940e45ba81df5aabeea7c0e7
+#: ../../docs-gofast-development/api-rest.rst:268
+#: ../../docs-gofast-development/api-rest.rst:321
+#: 14ef7c715be74792bc06f2a04b686e1c
+#: 37cbdb319f7f430e811c7df2b126f564
 msgid "VAL2"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:271
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:324
-#: d6c4bb2a02c1414abd8b451979777b60
-#: 58e83f3cca0149779f75b0285beb0a44
+#: ../../docs-gofast-development/api-rest.rst:271
+#: ../../docs-gofast-development/api-rest.rst:324
+#: 1029df7a166a4e7e9e2d43ff0ef4d5f8
+#: 7c00ff62e4954d43be3d9537cffe17ce
 msgid "Mais plutôt comme ceci"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:271
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:324
-#: 819bef52a0b64496bdfcc0eef78bf259
-#: 7adab64e913f4021983979e4a57b031f
+#: ../../docs-gofast-development/api-rest.rst:271
+#: ../../docs-gofast-development/api-rest.rst:324
+#: 1f86fa77763147589839b9dc56992a4c
+#: 2ddefd789b7849acabf6803fa7be936e
 msgid "0: VAL1, 1: VAL2"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:273
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:326
-#: 544ef476163f4e1bb881925f3c37e416
-#: f1df8e369d09422098807feda20ba193
+#: ../../docs-gofast-development/api-rest.rst:273
+#: ../../docs-gofast-development/api-rest.rst:326
+#: d7cefa2796c84cb196bf93574272780b
+#: 66d12540add448c19bd5dde0d28bc03e
 msgid "Ou comme cela selon le champ modifié"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:274
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:327
-#: 469eadfb9cc648589611b46bffc062bf
-#: 4014bfd1322541f08e4e8262d77a0954
+#: ../../docs-gofast-development/api-rest.rst:274
+#: ../../docs-gofast-development/api-rest.rst:327
+#: 0365636fe347413ab3c1a5372425c41c
+#: bc2176faa8c0419fbd7072db94971fb7
 msgid "field_XXX : VAL"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:275
-#: ba6ea941314842528dac93d964ff7c44
+#: ../../docs-gofast-development/api-rest.rst:275
+#: 75251d92a34f449ca82dadb85499d8ce
 msgid "Les champs modifiables sont : field_category, field_state, field_target_link, field_external_page_url, field_date, field_criticity, field_document_author, field_tags"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:298
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:351
-#: 599d44922c2c47e5b59582524c37f362
-#: 7f9a159c5dc8424c8e54c4ef41f3f8d3
+#: ../../docs-gofast-development/api-rest.rst:298
+#: ../../docs-gofast-development/api-rest.rst:351
+#: f5ea7567f8cd417c9ddc6ce1aae7e1cd
+#: 087b1f6c927e4fd9a7a67d97494f7e05
 msgid "Field_XXX"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:298
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:300
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:351
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:353
-#: 92dd8f0975184f1d9df5c706581907c2
-#: c36e531dd51747359fbd407b30804311
-#: 9fa87eceafc24246b91f748dc0f0a787
-#: 6b26a998b0b94f76bb8baabe4ca541b7
+#: ../../docs-gofast-development/api-rest.rst:298
+#: ../../docs-gofast-development/api-rest.rst:300
+#: ../../docs-gofast-development/api-rest.rst:351
+#: ../../docs-gofast-development/api-rest.rst:353
+#: 808fb2be59434e5f90d6a675f5cda756
+#: 7d0281b52a37439f82aea8008ef2d7c8
+#: f5eccb8694cf4bb691a7a5ac6e5bf8ea
+#: ca352230aaea43d8b8039910ed616f84
 msgid "Tableau contenant le retour de la fonction"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:300
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:353
-#: 89e7efebf1ff4321bfa6b65b5701133d
-#: 7bdcf2de99c642e89e759824fb3a9dbd
+#: ../../docs-gofast-development/api-rest.rst:300
+#: ../../docs-gofast-development/api-rest.rst:353
+#: 7b9cc05ba4ba466ab847d145d38737de
+#: fa24a548dd344b84a3f87c023dd7e6d9
 msgid "Field_YYY"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:304
-#: 74f6c51663f24325b7ef07ab73080e64
+#: ../../docs-gofast-development/api-rest.rst:304
+#: ab6eaf0c11b44d04b71779b536637a81
 msgid "PATCH"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:306
-#: a15578777ff544538478260afd827c42
+#: ../../docs-gofast-development/api-rest.rst:306
+#: 01600a21049446d39cb76c2e61f4ad17
 msgid "Cette méthode permet d'ajouter une valeur à certaines métadonnées associés aux entités de type noeud"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:308
-#: 034f728f7dcd4cd0ae3ecee8b3d2ff27
+#: ../../docs-gofast-development/api-rest.rst:308
+#: cfa89d54078c4183a9461182fac70d7a
 msgid "*PATCH: /api/node/metadata*"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:328
-#: a0f287e0c0c64a4980399d1da43a52f5
+#: ../../docs-gofast-development/api-rest.rst:328
+#: 33e7f9f5ef004d6088afcabdd9699eab
 msgid "Les champs alterables sont : field_target_link, field_external_page_url, field_tags"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:357
-#: 61cbc60d720f4a76b82e331fcf9da7d8
+#: ../../docs-gofast-development/api-rest.rst:357
+#: 031cf0463a7f47fd86ebf578bc46edf1
 msgid "Action : locations"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:359
-#: d6b3d827a4064f05be94c26da61fd4d3
+#: ../../docs-gofast-development/api-rest.rst:359
+#: 8096c22755d647f290b565bd070b0bd5
 msgid "Cette action permet d'intéragir avec les emplacements des contenus associés aux entités de type noeud"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:364
-#: bbd348bc49f745aa875473059ad4042a
+#: ../../docs-gofast-development/api-rest.rst:364
+#: 42aa47a43dd84e2caabb32404b38fa6b
 msgid "Cette méthode permet de récupérer les emplacements des contenus associés aux entités de type noeud"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:366
-#: eee3ce35f3304a1c8225a82501d79164
+#: ../../docs-gofast-development/api-rest.rst:366
+#: 1a171d14256f458ca598548b4b31efb7
 msgid "*GET: /api/node/locations*"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:393
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:430
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:467
-#: f1bf1682481b499a928100026af39af3
-#: 9e20619edfb343e89a78b1f50f599871
-#: c1bbede584d04cfd9b21f0d61bb015d4
+#: ../../docs-gofast-development/api-rest.rst:393
+#: ../../docs-gofast-development/api-rest.rst:430
+#: ../../docs-gofast-development/api-rest.rst:467
+#: ae7b964d6f384022b6dca6b0533101ac
+#: 1a9af236d3ff4eb99c45820ad60386ae
+#: 16b747926fb34e989c3811b79f1aaacb
 msgid "locations"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:393
-#: fc76ce5ef0424c81a7dee343b376248a
+#: ../../docs-gofast-development/api-rest.rst:393
+#: 20afb49d7a274a7fb6354709f65c9758
 msgid "Tableau indexé contenant les emplacements."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:397
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:785
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:834
-#: 8ccf00f7419f46759f36aa027f110217
-#: 2a2f31926ebc4e1ea24bfaba61b4d137
-#: 55375156ac004163a48e0ab12586fc55
+#: ../../docs-gofast-development/api-rest.rst:397
+#: ../../docs-gofast-development/api-rest.rst:785
+#: ../../docs-gofast-development/api-rest.rst:834
+#: ba15f7a0a3b949e1a5ad4ca7d4ce8275
+#: af7a4f2242b04b3b876b36bb82aae189
+#: 2f7cf070d9a240b39ed2f2157fe42fc7
 msgid "PUT"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:399
-#: 4c7c93ca83b54315844dd923a456b408
+#: ../../docs-gofast-development/api-rest.rst:399
+#: 78bc21e0b54e42c59edbcd7a78877a83
 msgid "Cette méthode permet de modifier les emplacements des contenus associés aux entités de type noeud"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:401
-#: 6f1003777f7a42fab201ef729d76ac76
+#: ../../docs-gofast-development/api-rest.rst:401
+#: 92269245efc64ebf93aa54713bda38e6
 msgid "*PUT: /api/node/locations*"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:410
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:447
-#: f380aae05de24218967c0cdee01ffebe
-#: 7e0e7629ca834de9a063344ce4250611
+#: ../../docs-gofast-development/api-rest.rst:410
+#: ../../docs-gofast-development/api-rest.rst:447
+#: a2a483b4c69b4f26a9ec7bed9d75ed91
+#: 0d21982580d14a74901d83bcc855b79c
 msgid "POST Parameter    |   Valeur"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:414
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:451
-#: 67ccd76d77dd42d09b70b33744135004
-#: fed1aa906f834d43a898530c8bc32a5d
+#: ../../docs-gofast-development/api-rest.rst:414
+#: ../../docs-gofast-development/api-rest.rst:451
+#: 05b44775495d47d89ad88c40f297c626
+#: eb208c40ce67405d98cdf4ccc4da0fe3
 msgid "locations*"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:414
-#: 461ad83d9c66487283332a6938160cf7
+#: ../../docs-gofast-development/api-rest.rst:414
+#: 102e7eccdfb04172ae058b7e00d4fb31
 msgid "Tableau indexé contenant les emplacements"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:430
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:467
-#: 72fb5f0b0c2b4bc2ae4a474a34bf92d5
-#: 5aa306997dd34a938c5b3e153d3cf525
+#: ../../docs-gofast-development/api-rest.rst:430
+#: ../../docs-gofast-development/api-rest.rst:467
+#: 3fbd1ad819604f8cb276d4c637840555
+#: 2e3feb1a721843abbd3a8c8a922a7b19
 msgid "Tableau indexé contenant les emplacements après vidage du cache."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:436
-#: d2ce6958bacb486abe2a4483333ed5fc
+#: ../../docs-gofast-development/api-rest.rst:436
+#: 3e69b06ceb194a0c9807e13f176ca5e5
 msgid "Cette méthode permet d'ajouter ou de supprimer des emplacements des contenus associés aux entités de type noeud"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:438
-#: ecb3cf11468742f6a9d90a178b3cdeb4
+#: ../../docs-gofast-development/api-rest.rst:438
+#: 85f6921ddd2a4fbbbdff012cd7848bf9
 msgid "*POST: /api/node/locations*"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:451
-#: 45485c3648c94246b8efc54637a0435e
+#: ../../docs-gofast-development/api-rest.rst:451
+#: 0e89eae50ed04cc9ad7c9c9bb1aaabed
 msgid "Tableau indexé contenant les nouveaux emplacements à ajouter"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:469
-#: 4e7298a87a99469f82c0bbd865bdb944
+#: ../../docs-gofast-development/api-rest.rst:469
+#: 328bd53664d74eb6afbfa60b87fcaa82
 msgid "delete"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:469
-#: 96772ea8dde044cc80a6a0299bafde67
+#: ../../docs-gofast-development/api-rest.rst:469
+#: 55299650cdca4d2ca3e46347027039b3
 msgid "Boolean 1 = suppression; 0 = ajout."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:473
-#: 648c7dcb3c6c4fbc88596ada574f209e
+#: ../../docs-gofast-development/api-rest.rst:473
+#: e5cd019abfbd45dd8c02598881d99563
 msgid "Action : content"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:475
-#: f5e3fc5645b04d82960bbad9e37efc35
+#: ../../docs-gofast-development/api-rest.rst:475
+#: 10c1ddbdc88d448c86dd32c628c1889a
 msgid "Cette action permet d'intéragir avec le contenu Alfresco associés aux entités de type noeud"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:477
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:568
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:608
-#: a8f92cc567084dd3b6262983334fbacc
-#: 8eea1cde046d40c9b5e8a5cb4bb696c8
-#: 02bd78e583a844a89c4185e29ee809c5
+#: ../../docs-gofast-development/api-rest.rst:477
+#: ../../docs-gofast-development/api-rest.rst:568
+#: ../../docs-gofast-development/api-rest.rst:608
+#: cc133345f3ce445ca50bbbcfae2de2b3
+#: 0a1fbc61f29d4150bc214deb52afd94b
+#: a9dda3c4e03740ed8942bfa919fa7fcf
 msgid "Utiliser cette action sur un noeud sans contenu Alfresco associé aboutira à une erreur \"404 Not Found\". Les noeuds associés à un contenu Alfresco sont de type \"alfresco_item\"."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:482
-#: d8bfffe93d4844019271c6e4c1b25499
+#: ../../docs-gofast-development/api-rest.rst:482
+#: b4a2c5f127104cd7bf6b2db395d8b9d0
 msgid "Cette méthode permet de récupérer le contenu Alfresco associé à un noeud."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:484
-#: 2703f8fb2f7644b295567426a667376a
+#: ../../docs-gofast-development/api-rest.rst:484
+#: 2e96249a5e164a8087516ac995d90721
 msgid "*GET: /api/node/content*"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:489
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:505
-#: 9a9d74e65b98413a9b10c63333835d2e
-#: 9a73c1eb86a7426f859e92d21af3c61b
+#: ../../docs-gofast-development/api-rest.rst:489
+#: ../../docs-gofast-development/api-rest.rst:505
+#: 60be4b0537bc444faf809426a3a88266
+#: 6ca4ddf1896e425d9cc6a0dc806768e6
 msgid "application/octet-stream"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:491
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:507
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:582
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:598
-#: a1d8c1bac7764fd18cd62261b5d20ba8
-#: 295dc378e6cd45b7a7cfaee058a09fa4
-#: e0683f8dcea2484eacc72fe326d7cc15
-#: 9d11721ce16948bbbe6f75932b75cb88
+#: ../../docs-gofast-development/api-rest.rst:491
+#: ../../docs-gofast-development/api-rest.rst:507
+#: ../../docs-gofast-development/api-rest.rst:582
+#: ../../docs-gofast-development/api-rest.rst:598
+#: 8dcbee105ed24cea99ee848d3385262d
+#: aeafa103768b4dfbae7c6b783d1cd1dd
+#: 11005efe416c4396af39124b935c6650
+#: 1c7c0e0b411548179fcf86bda865f35a
 msgid "Content-Disposition"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:491
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:582
-#: 70c48fd7b9544740a8e9b84eb5d12dc7
-#: aa3721aa3f2247b4ae4dc043a2eed8bf
+#: ../../docs-gofast-development/api-rest.rst:491
+#: ../../docs-gofast-development/api-rest.rst:582
+#: ade465a710f745b2a0c5ab9bd0a5a1c3
+#: a99a0f3e56f94cdfb33d31ed23df31d0
 msgid "attachment"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:507
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:598
-#: c62d4eb427db465ab2c67396e5ba1b85
-#: cd98c703f6c343d7bc74e1794db58eb1
+#: ../../docs-gofast-development/api-rest.rst:507
+#: ../../docs-gofast-development/api-rest.rst:598
+#: f4623cee0feb45788b6e443c6e47c1e8
+#: d62dde4ec3494039a537aa1631cae05c
 msgid "attachment; filename=\"nom_du_fichier\""
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:510
-#: f065c15700694132b49fce75d4a512b3
+#: ../../docs-gofast-development/api-rest.rst:510
+#: c0aa151b99b547ce815529aa0a18634d
 msgid "Le contenu du retour de la requête est le contenu du document."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:516
-#: aefc0968a4ea4cebbef98183031968ff
+#: ../../docs-gofast-development/api-rest.rst:516
+#: 291ff40ab78547cebc117586606e743c
 msgid "Cette méthode permet de remplacer le contenu Alfresco associé à un noeud en créant une nouvelle version."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:518
-#: d63c09484a98471f82010e576d02b765
+#: ../../docs-gofast-development/api-rest.rst:518
+#: bcc767fe039b4ae69112010d7ef3b565
 msgid "*POST: /api/node/content*"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:527
-#: 058e7bcce6b7463499897737c0d525d3
+#: ../../docs-gofast-development/api-rest.rst:527
+#: eda276eca85d4923aba916ae9b8a1545
 msgid "POST Parameter"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:529
-#: bbb8c90cf32c48ea9cc80693005fa557
+#: ../../docs-gofast-development/api-rest.rst:529
+#: 86866b38b1984e48a211e60c97c4f45a
 msgid "file"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:529
-#: e168207752fb45b3a6c1ed8a936b6cf2
+#: ../../docs-gofast-development/api-rest.rst:529
+#: 6e8a07197c644deb8bbc30cf957a3c83
 msgid "The file to upload"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:543
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:686
-#: bf8a9999f6ad41afb03bd533efc93dc3
-#: 9c480b38a2884693862027d222155a2f
+#: ../../docs-gofast-development/api-rest.rst:543
+#: ../../docs-gofast-development/api-rest.rst:686
+#: 6eb1eedb2a3342808b59067f45cdff0e
+#: 67fdabb789ae483d88624b71c9dc1312
 msgid "comment"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:543
-#: 73da8b6869524f179addb491d1f436fe
+#: ../../docs-gofast-development/api-rest.rst:543
+#: 5ea5463df0e94e4ebc3058b4369915e4
 msgid "Commentaire associé à la nouvelle version"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:545
-#: dfe11efcd80d4f2c8ea92815eeb922ef
+#: ../../docs-gofast-development/api-rest.rst:545
+#: aca79dce404444e891cc96b6c8a3c605
 msgid "major_version"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:545
-#: 13061c73dd314ce089da3fa1f80a4cd4
+#: ../../docs-gofast-development/api-rest.rst:545
+#: fb47205a641241599955190ce7a8d3f8
 msgid "0: Version mineure, 1: Version majeure (default : 0)"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:560
-#: 40245ebcd9474076a0eceed806ef9cb3
+#: ../../docs-gofast-development/api-rest.rst:560
+#: 044126f30a7540e7aa1a109d3308637b
 msgid "success"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:560
-#: 4565f3bdf839479d97dee5eb6e422577
+#: ../../docs-gofast-development/api-rest.rst:560
+#: fde3877097454dc09908839fc2641984
 msgid "1: OK, 0: Erreur"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:564
-#: 73723cfd300541f681055fcd24f848cc
+#: ../../docs-gofast-development/api-rest.rst:564
+#: 81aa92a2018c485aa3286b7295119c35
 msgid "Action : preview"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:566
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:606
-#: 8cb67ea7cfa74e0cbc608c0b10bbf5d8
-#: 2d5aba9c10a941a285fd9e5f5f2e27cd
+#: ../../docs-gofast-development/api-rest.rst:566
+#: ../../docs-gofast-development/api-rest.rst:606
+#: e41191c4c27747e3b865fb0e80fa31fc
+#: d5852af7835542ae95a884b00e3b518d
 msgid "Cette action permet d'intéragir avec les prévisualisations PDF associés aux entités de type noeud"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:573
-#: 460e1b1f48d042eabef9d8fe005c133f
+#: ../../docs-gofast-development/api-rest.rst:573
+#: 138eb7d61f6d47eeaba7fb6f43c27f64
 msgid "Cette méthode permet de récupérer la prévisualisation PDF d'un contenu Alfresco associé à un noeud."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:575
-#: bde39bffd5464d7aa5e4d85a0871faf2
+#: ../../docs-gofast-development/api-rest.rst:575
+#: caaa5a9e611a49fba68d5d111e45e6b0
 msgid "*GET: /api/node/preview*"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:580
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:596
-#: b00bd3621bb04c2486ccf6a5627a33e0
-#: a01156335a794cf2b371ca11dcb1983d
+#: ../../docs-gofast-development/api-rest.rst:580
+#: ../../docs-gofast-development/api-rest.rst:596
+#: 7daa38fe4eff4088bf3833c799c24ad6
+#: 38757daabf6644029889ba34b7416790
 msgid "application/pdf"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:601
-#: ad093950f05748d8bf2b6e883705af41
+#: ../../docs-gofast-development/api-rest.rst:601
+#: 4f092ef806ef4574867683ed886af806
 msgid "Le contenu du retour de la requête est le contenu de la prévisualisation PDF du document."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:604
-#: 1442fe6f80ea46fe92ded7e091ddef1f
+#: ../../docs-gofast-development/api-rest.rst:604
+#: cb7fda341cf14a7aa27fd95169e6ef7b
 msgid "Action : preview_link"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:613
-#: 76870571da114b2592701adfb8e10f80
+#: ../../docs-gofast-development/api-rest.rst:613
+#: dc3d75cea8c24f08aff1d53a8d503ecd
 msgid "Cette méthode permet de récupérer un lien vers une prévisualisations PDF associée à une entité de type noeud"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:615
-#: ab2c022bf98d43798848338762325a8b
+#: ../../docs-gofast-development/api-rest.rst:615
+#: eb1a90547b254a859026009f809d9ddf
 msgid "*GET: /api/node/preview_link*"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:640
-#: 476b0eea708548c78c343326243c2151
+#: ../../docs-gofast-development/api-rest.rst:640
+#: 923781fb42ac438e80e98d0e7f5be85e
 msgid "link"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:640
-#: 64845d26bb00440595069386b07a39f0
+#: ../../docs-gofast-development/api-rest.rst:640
+#: e6419a06febd4b65a8c8689ba487ddd0
 msgid "Lien vers la prévisualisation"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:644
-#: 53a03b292159459d92391f20916a86e4
+#: ../../docs-gofast-development/api-rest.rst:644
+#: 9d31d76f0131426db681c1db98db0476
 msgid "Action : version"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:646
-#: 7b1611ef65d041ffb741ad4e1892955b
+#: ../../docs-gofast-development/api-rest.rst:646
+#: 51a4bf5122514383a0475081683f13fa
 msgid "Cette action permet d'intéragir avec les versions des contenus Alfresco associés aux entités de type noeud"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:651
-#: 13a6f813cccd4c5db5ee060a408cfa36
+#: ../../docs-gofast-development/api-rest.rst:651
+#: 23db3fd31fff4465ac1ecdf369f4297e
 msgid "Cette méthode permet de récupérer les versions d'un contenu Alfresco associé à une entité de type noeud"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:653
-#: 87bdcfb7f10945ee8446b246b6850024
+#: ../../docs-gofast-development/api-rest.rst:653
+#: 6adef9e205f945119537aac5c98808c8
 msgid "*GET: /api/node/version*"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:678
-#: ecb96a6f76d34e84be8e3090852dad4b
+#: ../../docs-gofast-development/api-rest.rst:678
+#: 0b821f89790746558226e562a2e2aa79
 msgid "creator"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:678
-#: bd9dcc6ba659448fab72edc7cd3ab661
+#: ../../docs-gofast-development/api-rest.rst:678
+#: f84c958858c844d09ebbbf7720ef9f52
 msgid "Identifiant du créateur de la version"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:680
-#: e5260a895e5c419e9d414ea46933caf7
+#: ../../docs-gofast-development/api-rest.rst:680
+#: d0a55b28f2e2405c8a8d5d1dfaed623c
 msgid "MINOR : Version mineure, MAJOR : Version majeure"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:682
-#: faa2521f2e4c48ecb5f57060cc39c983
+#: ../../docs-gofast-development/api-rest.rst:682
+#: 46e738b6736644fd88f9bb1733e71b5d
 msgid "Timestamp de la création de la version"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:684
-#: 30b2b6bf097c4a48b08eb079668173c3
+#: ../../docs-gofast-development/api-rest.rst:684
+#: 7c90057cdc744754a929607f89200607
 msgid "version"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:684
-#: cd0dec0d814748b29527237a4305ad9d
+#: ../../docs-gofast-development/api-rest.rst:684
+#: 379db867073f465a8bf4dc14fb1dc62f
 msgid "N° de version"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:686
-#: a3a5bc1f6d3d4a7f9f877bb559ea97af
+#: ../../docs-gofast-development/api-rest.rst:686
+#: 1ba36fd3119641bb970792aee82cadf0
 msgid "Commentaire associé à la version"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:690
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:949
-#: da328745a3074ec481ef840eca0bb325
-#: b596742415d345bf82a5b3d43f7f864f
+#: ../../docs-gofast-development/api-rest.rst:690
+#: ../../docs-gofast-development/api-rest.rst:949
+#: 6c3a5e8a80204909877c37a232f51e1f
+#: a88b9b2ed15f411da44b47d11d2e6173
 msgid "Action : autocomplete"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:692
-#: e3691776b36649e68b63730731d62a3f
+#: ../../docs-gofast-development/api-rest.rst:692
+#: 3fb957086ee94d76bee661984a204f45
 msgid "Cette action permet d'intéragie avec le système d'autocomplétion des entités *node* de Drupal."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:697
-#: f91da717a419468ca17c5a77387c2f1b
+#: ../../docs-gofast-development/api-rest.rst:697
+#: acd0fdf9e1cb44a5b1c0f626a2d849a3
 msgid "Cette méthode permet de récupérer une liste de noeuds en fonction de la chaine passée en input et des bundles demandés."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:699
-#: 5fd8da1f4052410bb4db34448ff7f50e
+#: ../../docs-gofast-development/api-rest.rst:699
+#: 1938187221c147ba847b12cd0c67fe31
 msgid "*GET: /api/node/autocomplete*"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:710
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:969
-#: 8f7e59c87f8f49b6b501bee4834047ef
-#: bf1b4371c2054394b4d20c57cc42911a
+#: ../../docs-gofast-development/api-rest.rst:710
+#: ../../docs-gofast-development/api-rest.rst:969
+#: 9595fb4493c64160a06bd2ebf4450607
+#: fd2ca4dae9034056a08ff713d7bad3d3
 msgid "str*"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:710
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:969
-#: 29ee90740c97419f91ac5f4df31d733c
-#: 65fe9db4d49243088c511b0c7d2b36ec
+#: ../../docs-gofast-development/api-rest.rst:710
+#: ../../docs-gofast-development/api-rest.rst:969
+#: 15f77caf0c8548d193354181bb92ba7b
+#: 4fe4cce1714643d4b6575175bb7b7aba
 msgid "Input"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:712
-#: dda48ea2543b49f3bb2801dff06e0010
+#: ../../docs-gofast-development/api-rest.rst:712
+#: 48a150f45a614ef786a4c425293f7959
 msgid "bundles"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:712
-#: 0452d827222b4a89998581d2deb34637
+#: ../../docs-gofast-development/api-rest.rst:712
+#: 4229b5690f0e449bbcab4bf373f86611
 msgid "Liste de bundles séparés par une virgule (alfresco_item par default)"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:727
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:984
-#: 4abf5d71ea5140cc934432db4d1b5c75
-#: 08aae06ddcdf45c5b33977e27d37eb35
+#: ../../docs-gofast-development/api-rest.rst:727
+#: ../../docs-gofast-development/api-rest.rst:984
+#: f5a63ee085954c2c96f9c21c3dfa8ce1
+#: 79050ca1de4b4c6f83e3f4d44336ea1f
 msgid "Quelques informations de base sur l'utilisateur"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:732
-#: aec653fe33854056a178227671b23931
+#: ../../docs-gofast-development/api-rest.rst:732
+#: 27b8b99ef49d4ed9b777dda1f4dcfd3a
 msgid "Ressource : comment"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:734
-#: 24e119328fe04349a766c6e1241edc4a
+#: ../../docs-gofast-development/api-rest.rst:734
+#: 0376b66cdfda471185f219f7f636f400
 msgid "Cette ressource permet d'intéragir avec les entités Drupal de type comment. Ces derniers représent des commentaires associés à des entités de type noeud (node)"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:737
-#: 88539deb00034eee83af99893583fa1c
+#: ../../docs-gofast-development/api-rest.rst:737
+#: 892471fee89f46a994b27f38327a9b6f
 msgid "Action : comment"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:739
-#: f895548e6c534c039c012306ce9638d4
+#: ../../docs-gofast-development/api-rest.rst:739
+#: 9ea5515a7f3a4941ab3f79b73ace6c2a
 msgid "Cette action permet d'intéragir basiquement avec les entités Drupal de type comment."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:744
-#: 46d6a101ff154083b5b2995547b256a4
+#: ../../docs-gofast-development/api-rest.rst:744
+#: b5be464444574299a62e38f90656a994
 msgid "Cette méthode permet de récupérer un commentaire"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:746
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:789
-#: 756735b4e63846819ee94fe047dd3f15
-#: 99afe0e347f24f3c87c91b91d4a98460
+#: ../../docs-gofast-development/api-rest.rst:746
+#: ../../docs-gofast-development/api-rest.rst:789
+#: 4c4cff98ddc444aba8be5f3ece15b3e7
+#: 69ce6791f4a845948e15c9f4472d0bde
 msgid "*GET: /api/comment/comment*"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:757
-#: cdde20294c04415ea1abbe0a6d804f3b
+#: ../../docs-gofast-development/api-rest.rst:757
+#: 94df98bfc0bf478f8806fb4650ae6a55
 msgid "cid*"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:757
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:773
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:820
-#: 58a4e96336bb4262806ec7b8a564f337
-#: 6e877c85820b409ea2c088dfe2fe0168
-#: 5447f49bc8fb4511b49ef38345b3e6d8
+#: ../../docs-gofast-development/api-rest.rst:757
+#: ../../docs-gofast-development/api-rest.rst:773
+#: ../../docs-gofast-development/api-rest.rst:820
+#: 0fc338fbf43649fb99868c90904cdf60
+#: 9874d193c9f04a3480719b0625190a19
+#: 29bf95fa30844c619da27d58d5e8c2e0
 msgid "N° du commentaire"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:773
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:820
-#: 469a56b2b9f34bc0a4464010846424ce
-#: 9137dd9378b348639e2eb35a90ca0fb3
+#: ../../docs-gofast-development/api-rest.rst:773
+#: ../../docs-gofast-development/api-rest.rst:820
+#: 780a00f791214632b91cfee225961aa6
+#: b8ec331837cc479d8d6cc950b7013b27
 msgid "cid"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:775
-#: 47d6837b13ff435fb2c0232b0e4cdcbf
+#: ../../docs-gofast-development/api-rest.rst:775
+#: 86425223b71a4effae99c27f2ba9ad55
 msgid "N° de l'utilisateur ayant commenté"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:777
-#: 4b0ed9caa1f84407b7b4d533db9c942e
+#: ../../docs-gofast-development/api-rest.rst:777
+#: 52f549dcd8ee4c16a6da1e3bac2f8828
 msgid "subject"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:777
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:802
-#: 71b5886433b249998df5f78edf52799d
-#: eed2396afba643c38842858270ca992a
+#: ../../docs-gofast-development/api-rest.rst:777
+#: ../../docs-gofast-development/api-rest.rst:802
+#: 06225addce86444b8405912a6f2af63a
+#: af29c112b9a94b858cfae3155327f8a9
 msgid "Titre du commentaire"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:779
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:853
-#: 8c95f747839e4a1bb2bbbd0dababb372
-#: f8add748ce2e469a891498aadcb300e0
+#: ../../docs-gofast-development/api-rest.rst:779
+#: ../../docs-gofast-development/api-rest.rst:853
+#: b32ad71d25ca4aafb73d659d1eced74c
+#: 4bbceac0f3f344e2b9373224c88e2154
 msgid "body"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:779
-#: 952bb0f4041c4cb6993e338353496882
+#: ../../docs-gofast-development/api-rest.rst:779
+#: 00cfd11300744f509dc3cb4d254b1796
 msgid "contenu du commentaire"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:781
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:806
-#: c477fecd6df248a6b96d97dddbc67464
-#: 1192cd5ed3c24d41b8d26e571f090a3c
+#: ../../docs-gofast-development/api-rest.rst:781
+#: ../../docs-gofast-development/api-rest.rst:806
+#: 725ac5555ad14296968c210918949338
+#: fb2881949e9d4433910beed0a2a776a3
 msgid "is_private"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:781
-#: 0c6323ea904447f2805665a96dfa0fd1
+#: ../../docs-gofast-development/api-rest.rst:781
+#: 88f50dc017f540e3a31546935175f066
 msgid "0: Commentaire publique, 1: Commentaire privé"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:787
-#: cf6f0ca73d0e48d5bb58e9f801bc644f
+#: ../../docs-gofast-development/api-rest.rst:787
+#: cfe77752055841eeb2f9e1b1ccc21d1f
 msgid "Cette méthode permet d'attacher un commentaire à une entité de type noeud"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:802
-#: 1d3265989f8047d7985d8c7d89c92ee5
+#: ../../docs-gofast-development/api-rest.rst:802
+#: 48a318ca63dd4f608cc333695dca49a3
 msgid "subject*"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:804
-#: d787688660fd4b2b84ff4f3d26022377
+#: ../../docs-gofast-development/api-rest.rst:804
+#: 054891c9045f455b9a9c459af4aa60cf
 msgid "body*"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:804
-#: b1851affe15b42f088795b42a6ac4dec
+#: ../../docs-gofast-development/api-rest.rst:804
+#: ae95147e7e474c7eb8226688b9f5b585
 msgid "Contenu du commentaire (format HTML)"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:806
-#: c371b788aa4d42adbc9af7ae9dc5206a
+#: ../../docs-gofast-development/api-rest.rst:806
+#: 475645dc8e454e6383d2cd104cca8815
 msgid "0: Commentaire publique, 1: Commentaire privé (défaut : 0)"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:824
-#: c33afb915e0d43a891434dc9deeb3192
+#: ../../docs-gofast-development/api-rest.rst:824
+#: 61628c0cc89a4f34b1275a6c6dfd4897
 msgid "Ressource : space"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:826
-#: e18ebe5282e240bea91575cc1f47b780
+#: ../../docs-gofast-development/api-rest.rst:826
+#: 618698ab46b44f7b93a6d1753c91d543
 msgid "Cette ressource permet d'intéragir avec les *Organic Groups* de Drupal de type comment. Ces derniers représentent ce que l'on appelle des *espaces collaboratifs*"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:829
-#: fe406908b3724d94bb75f0faad8c850e
+#: ../../docs-gofast-development/api-rest.rst:829
+#: 4b3c30f17e7843b0bcd0025a882b887b
 msgid "Action : space"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:831
-#: 5584595a78b248fc908553abc125b443
+#: ../../docs-gofast-development/api-rest.rst:831
+#: ea3ba88c200c48ec8ffb4ef5b2cbc0f0
 msgid "Cette action permet d'intéragir basiquement avec les *Organic Groups* de Drupal."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:836
-#: 4f86a0de3ad64025831c81e844660027
+#: ../../docs-gofast-development/api-rest.rst:836
+#: 9153f32c0c3248408ca853fa30fcb8a3
 msgid "Cette méthode permet de créer un *espace collaboratif* en passant par le mécanisme Drupal"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:838
-#: b63c3849be83450d8279dff222bfd0c1
+#: ../../docs-gofast-development/api-rest.rst:838
+#: a1776209ac0b407d90a09bd8afd899c3
 msgid "*PUT: /api/space/space*"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:849
-#: 85ab0bbe62f940a3b11ffc9cd6ceed61
+#: ../../docs-gofast-development/api-rest.rst:849
+#: 7bded263a1f74a5795f71a8225dc2b96
 msgid "gid*"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:849
-#: 7ea427504da14f58bf11594927d65628
+#: ../../docs-gofast-development/api-rest.rst:849
+#: b6c27d2ad9c24de8918a24aecc5eb8c6
 msgid "N° de noeud de l'espace parent"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:851
-#: e32e082aecf54616a21a0af4466aa728
+#: ../../docs-gofast-development/api-rest.rst:851
+#: 172969f6a3a04520a1cebdcc43266c62
 msgid "Titre du nouvel espace"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:853
-#: e86cf2649b6b4bc78b790e3fb17583ce
+#: ../../docs-gofast-development/api-rest.rst:853
+#: 31bb3043aea249728fad7ab383cf2125
 msgid "Contenu de l'accueil de l'espace (format HTML)"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:868
-#: c0faec29d9704f84b0682e417cc4ae92
+#: ../../docs-gofast-development/api-rest.rst:868
+#: 1019f2666cea4a978519451ed4705123
 msgid "gid"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:868
-#: 3a8e960f667443cba15dadd48bd934d0
+#: ../../docs-gofast-development/api-rest.rst:868
+#: e0858fe5f9ee4dce8aba3755f29469e5
 msgid "N° de l'espace crée"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:872
-#: d0d2abc2011e4bcfa3f7c93784dd4c44
+#: ../../docs-gofast-development/api-rest.rst:872
+#: 7df458e3561348729daf0c268bbf2df9
 msgid "Ressource : taxonomy"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:874
-#: 6af9a6cebb8e4394a2dd405878468dcd
+#: ../../docs-gofast-development/api-rest.rst:874
+#: 940d8d341aa94b1bb276fd9e814e4027
 msgid "Cette ressource permet d'intéragir avec la taxonomy de Drupal. La taxonomy permets d'associer des *termes* à un contenu (exemple : catégorie, importance...)"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:877
-#: da54a51e20d64ebb92fada788d0e177b
+#: ../../docs-gofast-development/api-rest.rst:877
+#: b909277beaca49528c43469d8ea4d81e
 msgid "Action : terms"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:879
-#: 732cf3b71eec4552b700f6802002bfdd
+#: ../../docs-gofast-development/api-rest.rst:879
+#: 6947b5b89908437dbaf21f8df32c4e91
 msgid "Cette action permet d'intéragir avec les *termes* de la taxonomy de Drupal."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:884
-#: 997d6168278540908afcfaa37734ef02
+#: ../../docs-gofast-development/api-rest.rst:884
+#: bc7ef095247b439c8c7dbaa4e3e65808
 msgid "Cette méthode permet de récupérer les *termes* de taxonomy associés à un vocabulaire"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:886
-#: 4d521ed9cf6f40589c0aeb95340f298e
+#: ../../docs-gofast-development/api-rest.rst:886
+#: 1bbbdfbfe4f64928955b160f3a8ac027
 msgid "Les valeurs de *vocabulary_name* disponibles peuvent être récupérés depuis l'action vocabularies. Exemple de valeurs exploitables : category, criticity, tags"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:888
-#: fbea359b054e443abbea5f45b7a6b679
+#: ../../docs-gofast-development/api-rest.rst:888
+#: b8eb10086fb94102893bf0875b429c2f
 msgid "*GET: /api/taxonomy/terms*"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:899
-#: 0243324c69e543319fbcfef3be41fbb4
+#: ../../docs-gofast-development/api-rest.rst:899
+#: 23b2023c74b74949b0d2e7523b3bc3d5
 msgid "vocabulary_name*"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:899
-#: 3f6ddcdbaa154832b4928771509c19c0
+#: ../../docs-gofast-development/api-rest.rst:899
+#: 22bd2f6dd23e4a77a286db8db73bf0bc
 msgid "Nom du vocabulaire"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:914
-#: 986cf7ae724044e2b469bcf0278c3358
+#: ../../docs-gofast-development/api-rest.rst:914
+#: cf3f69ff9acc4a799df6ae32d5ef004d
 msgid "term_name"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:914
-#: 71796d7ec1b645e69932c62a335c2c1b
+#: ../../docs-gofast-development/api-rest.rst:914
+#: e42db6491f544beda721fa535ac07580
 msgid "Tableau contenant l'ID du terme et certaines informations"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:918
-#: 2c11268d749e4413809890f67f17056e
+#: ../../docs-gofast-development/api-rest.rst:918
+#: 249d952db86f418f93459002b1ec84c8
 msgid "Action : vocabularies"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:920
-#: 8d39c0be12974e9997580dee679bada1
+#: ../../docs-gofast-development/api-rest.rst:920
+#: 48ff8967de1b4de2bcd08e9db395f1e5
 msgid "Cette action permet d'intéragir avec les *vocabularies* de la taxonomy de Drupal."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:925
-#: 205bd7f541ef44388e6dbaad42940fe6
+#: ../../docs-gofast-development/api-rest.rst:925
+#: 3ec27278b2894518aa631d66217f9ae1
 msgid "Cette méthode permet de récupérer les *vocabularies* de la taxonomy de Drupal"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:927
-#: 6a3fb4f446524e139a9bb4a6b5b350f0
+#: ../../docs-gofast-development/api-rest.rst:927
+#: 5a55caf7796a49ebbaa825a548c106a7
 msgid "*GET: /api/taxonomy/vocabularies*"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:940
-#: e08dcd6a4abe4aa285b63064a71b5469
+#: ../../docs-gofast-development/api-rest.rst:940
+#: a931d64f626a4ab0a7298d1c5536ffc4
 msgid "vocabulary_name"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:940
-#: 748bc11ce9244dd991ffc617d0e3919c
+#: ../../docs-gofast-development/api-rest.rst:940
+#: 8d8be242a4ac4e86a8b3bec8ae2e536f
 msgid "Tableau contenant l'ID du vocabulary et certaines informations"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:944
-#: a0f5cee483104d28b07209461c66b84d
+#: ../../docs-gofast-development/api-rest.rst:944
+#: 5e52c81822c245ecb24df275ac13ee4b
 msgid "Ressource : user"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:946
-#: 6e9792250ec24124a8d9296b65cd4c60
+#: ../../docs-gofast-development/api-rest.rst:946
+#: 2d357b9b96004481983665d6ad01cc6d
 msgid "Cette ressource permet d'intéragir avec les entités *user* de Drupal. Ces entités représentent les utilisateurs enregistrés sur la plateforme."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:951
-#: 57526780fb5d4c419601759644aa3a48
+#: ../../docs-gofast-development/api-rest.rst:951
+#: 110685079f1d42a3a67e8eded74c160f
 msgid "Cette action permet d'intéragie avec le système d'autocomplétion des entités *user* de Drupal."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:956
-#: 2a70f28037114efb98c15759640da283
+#: ../../docs-gofast-development/api-rest.rst:956
+#: 3b0804b365464365bb4da534741d77e4
 msgid "Cette méthode permet de récupérer une liste d'utilisateurs en fonction de la chaine passée en input."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:958
-#: 85cb43212f9743e2b72d3cb71beb7114
+#: ../../docs-gofast-development/api-rest.rst:958
+#: 0b9327d224da460a889e5327891cdd68
 msgid "*GET: /api/user/autocomplete*"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:988
-#: fb8a3a7df20a4046b92c672a2e785a0f
+#: ../../docs-gofast-development/api-rest.rst:988
+#: 8bf843608a554db8b4096c6543e67e47
 msgid "Ressource : locations"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:990
-#: ba509a5217d84128b1834764f9077d3e
+#: ../../docs-gofast-development/api-rest.rst:990
+#: 731b3e0d0a794ef2b80aa0edf86c8a64
 msgid "Cette ressource permet d'intéragir avec les emplacements disponibles sur Alfresco (l'ensemble des dossiers et espaces d'un point de vue GED uniquement)"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:993
-#: 932967fe541a43ab8089989e11ffae74
+#: ../../docs-gofast-development/api-rest.rst:993
+#: 966afacf37ad43cd977bcafe3decd41e
 msgid "Action : tree"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:995
-#: 868cc14da7ca4ac0b9b1e2f7e9eda74b
+#: ../../docs-gofast-development/api-rest.rst:995
+#: 732b3148595d4ad799339c2e52ef46c2
 msgid "Cette action permet de récupérer un *tree* d'emplacements au format JSON compatible avec le composant ZTree."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:1000
-#: 9e1f85662d83495db40224f878b3076c
+#: ../../docs-gofast-development/api-rest.rst:1000
+#: fbcf0e2b11524de588c914fb731f0427
 msgid "Cette méthode permet de récupérer un *tree* d'emplacements au format JSON compatible avec le composant ZTree."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:1002
-#: 4566caec32e74940a4ca83def807a9e9
+#: ../../docs-gofast-development/api-rest.rst:1002
+#: 933544394bd54c00b07c4e36d6573cfa
 msgid "*GET: /api/locations/tree*"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:1013
-#: 263842b74b2c4250a05d1b439ab4fb13
+#: ../../docs-gofast-development/api-rest.rst:1013
+#: e50b1fc9187943f0a422404c2227b80f
 msgid "ename"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:1013
-#: 046f6b8464634875b8e2c4ce233fc66d
+#: ../../docs-gofast-development/api-rest.rst:1013
+#: d3379c46f843441780bba57f3daddd56
 msgid "Chemin à partir duquel récupérer les enfants"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:1027
-#: 68b7135bab1141ff8b2771472522b3d9
+#: ../../docs-gofast-development/api-rest.rst:1027
+#: 8991bd0da3b84442b1c45b6e5106a01b
 msgid "tree"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-development/api-rest.rst:1027
-#: 256122f39fae49deb3c4a6fc91171c24
+#: ../../docs-gofast-development/api-rest.rst:1027
+#: b35e6037e36240a1bda21273ed3784d8
 msgid "Chaine au format JSON directement exploitable par la librairie ZTree"
 msgstr ""

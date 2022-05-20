@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2020
+# Copyright (C) 2022
 # This file is distributed under the same license as the gofast-docs package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gofast-docs latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-27 12:27+0200\n"
+"POT-Creation-Date: 2022-05-20 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,1516 +16,1597 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:2
-#: 452fe8ae0d4f44d1a6f15c7db2572aa6
-msgid "Métadonnées : infos relatives aux documentx"
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:2
+#: 4472532c0fd845db9e5d18cddd348314
+msgid "Editer/Coéditer des Documents/Contenus"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:4
-#: c1e5546b69184e3c8f3ff3d31fa58d01
-msgid "Lors de la prévisualisation, vous voyez toute une série d’informations relatives au document que vous êtes en train de **prévisualiser** : type de document, taille, format, catégorie, auteur, langue, version, emplacement, etc"
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:4
+#: f5fcefcf79ac40f8835c64f38dad1352
+msgid "**Qui peut modifier un document :**"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:8
-#: 4d70ee1761464ed2b7bb92f6e54896f6
-msgid "Ces informations sont très utiles lors de la recherche automatique car elles vous permettront de filtrer davantage vos résultats."
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:6
+#: 06eb072df53c400089ac2cfd6bd84027
+msgid "Tous les utilisateurs ayant le rôle de « Contributeur » ou « Administrateur » d’au moins un des Espaces où se trouve le document. Donc, si vous êtes membre contributeur dans un Espace, vous pouvez modifier les documents de cet Espace, soit via la fonctionnalité « éditer en ligne », soit « Coéditer avec OnlyOffice ». Pour les autres type de contenus, comme les forums ou pages Wiki, le bouton sera « Modifier »."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:15
-#: 9db88a47d3c34c92ba2d1473209e93d5
-msgid "Emplacements"
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:10
+#: 93844928ef5a491fb006e336f976ddf5
+msgid "Editer un document depuis PC (via une application installée sur PC)"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:17
-#: 9cd7c6ae79ec4b6e8e77cfdd25aa8842
-msgid "L’emplacement correspond aux Espaces et dossiers où se trouve votre document sur GoFAST (ex: dans un groupe ou une organisation ou votre espace privé et/ou un répertoire)."
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:12
+#: 13146aa493d149d081bccb749e842895
+msgid "Cette fonction permet d’ouvrir un fichier pour l’éditer avec une application de son PC, sans avoir à le télécharger au préalable en local (sur son PC), ni devoir le recharger sur GoFAST après édition."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:21
-#: 49816ca652bb43ca9bb12cd57b07a3ea
-msgid "Un même et unique fichier peut être classé dans plusieurs emplacements grâce au *Multi-filing* et ainsi ne plus avoir de doublons de fichiers, ni d'erreurs de versions."
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:15
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:101
+#: 029a9d5a5ffa412a930cd17aa82707e8
+#: dc49851f1c6946f9943b3a6dad9f3ce7
+msgid "Types de fichiers concernés"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:27
-#: 20cc5504dd1b488e84ab98fe59162715
-msgid "Catégories et Etats"
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:17
+#: bb8801f780fc4d58a6e023b6d8040477
+msgid "**Le document type « Office » :**"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:32
-#: 4f2908cf7020497db1efac124f8b5129
-msgid "Les **catégories** correspondent à la nature du contenu du document : template, guideline, article, PV, …"
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:19
+#: 84f539fc36c14d0bb9719172bf86f2ee
+msgid "Sera ouvert avec l’application définie par défaut sur votre poste (exemple Office, LibreOffice, WPS). A noter que selon le navigateur et la configuration de votre PC, soit vous avez la possibilité de choisir à ouverture l’application souhaitée, soit celle par défaut s’ouvre automatiquement."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:35
-#: 6d14b10c431a43198a51ed8acfa809fd
-msgid "L’\\ **état** correspond aux « stades de vie » du document : draft, à valider, validé, obsolète, archivé, …"
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:21
+#: d87a58e42437465b840ca46cec8627c9
+msgid "**Autre type de fichiers :**"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:38
-#: 93acef77cb2740dabebac27609485803
-msgid "Pour les modifier, allez sur « Autre » en face de « catégorie » ou « état » , la case bleue « Modifier » apparaît, cliquez dessus et choisissez la proposition adéquate."
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:23
+#: cd28a25286fa468eabe973ea4269ac5c
+msgid "Pour les fichiers de type PDF, Images, etc. un module nommé « ITHIT » doit être installée au préalable sur le poste et activé dans votre navigateur. Vous pouvez ensuite ouvrir le fichier en édition (ex. un PDF avec Adobe ou Foxit) pour le modifier ou le signer, puis le sauvegarder directement sur GoFAST (clic sur le buton « enregistrer » de votre application)."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:42
-#: 92cdedea3df64cfba93e4466261a3009
-msgid "**Exemples de catégories et états:**"
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:26
+#: eb0704059ed245919cc584d3c5e96bfc
+msgid "Comment « Editer depuis PC » :"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:52
-#: 3207ebb50e7f46f49855026417e3f444
-msgid "Contenus liés"
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:28
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:111
+#: 761a3cd5ed8943588bb1027e494fe101
+#: f2d1500de408451ba64335c65ade2543
+msgid "**Depuis la page d’un document :**"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:54
-#: 703ddd974c074f1daa1bd8be1a976034
-msgid "Si 2 documents ont **un lien commun**, si un document renvoie à un autre par exemple, vous pouvez mettre à cet endroit le nom du document lié au document initial que vous êtes en train de prévisualiser."
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:30
+#: 5d6fffd65bd8454882597cbc6d68eb42
+msgid "Allez dans le menu « Burger » (les actions contextuelles)"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:58
-#: 0755390ad0404240b868d5b4731bb9dd
-msgid "C’est un peu une autre manière de voir les hyperliens dans un document. Ici vous n’êtes pas obligés d’ouvrir le document où il y a les hyperliens, vous pouvez directement cliquer sur le document lié dans les métadonnées."
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:31
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:41
+#: cdb2adcd3f4a4ae6b0e8606073d9c73b
+#: 81e57257fd10449d876493202cd220df
+msgid "Cliquez sur « Editer depuis PC »"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:63
-#: c0094d8dd8ff417ea57418ad1a59e3a9
-msgid "Mettez la souris sur « Autre » en face de « Contenus liés », cliquez sur la case bleue « Modifier », tapez les premières lettres du nom du document que vous voulez lier ; le système devrait vous le proposer automatiquement ; cliquez sur le nom de votre document pour le sélectionner et sur « Appliquer »"
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:36
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:120
+#: 3d21c7b4a7e0423a954635f7897356a3
+#: 5ed8d2547e62434d8bd2aea8578cda15
+msgid "Cette action est possible également depuis d’autres pages de GoFAST où un document est cité et où il y a un menu « Burger » pour ce document (ex. Fil d’Activité », résultat d’une recherche, etc.)."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:78
-#: a052a339f990415fbd95b1366e118917
-msgid "Ainsi, un document sera lié à votre document original et vous pourrez cliquer sur son lien pour l’ouvrir directement et passer d’un document à l’autre en un clic."
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:38
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:122
+#: 434de3b3f3e54cf59d522ebc05868650
+#: aa56d85017f2424f91098a4b21058466
+msgid "**Depuis l’explorateur de fichiers :**"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:85
-#: cefc0672849d429fa661b28e5c29970b
-msgid "N’oubliez pas de sauver en actualisant l’aperçu du document : cliquez sur les petites flèches arrondies rouges, entouré en rouge sur l’image. Un message vous le rappelle dans l’encadré bleu, en haut à droite de l’écran."
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:40
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:124
+#: f1e134b073ec4a7799568a12e2320f7d
+#: 547ad81f328540448c2ed9ef0400c601
+msgid "Faites un clic-droit sur le document pour ouvrir le menu des actions contextuelles"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:93
-#: 4152eb00477f41019088aaf1403b23b2
-msgid "**Liens vers / Liens depuis**"
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:44
+#: abe2a90efb9f480f88f32e4aabe2d3a7
+msgid "Dans certains cas, le système vous demande votre mot de passe avant d’ouvrir le document, afin de vous identifier. Il faut alors saisir votre identifiant et mot de passe (les mêmes que pour vous connecter à GoFAST)."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:95
-#: 167a4200eb784e4eb29da0a8ff7ee1f9
-msgid "Nous avons volontairement dissocié la formulation des liens \"depuis\" et liens \"vers\" pour la possibilité de modification."
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:47
+#: a856504fe49642ddb771f713e070fe72
+msgid "Le document s’ouvre dans Office et vous pouvez l’éditer. Dans certains cas, la Suite Office Microsoft demande « d’activer la modification ». Cliquez dessus pour pouvoir rentrer en édition. N’oubliez pas de sauver (icône « disquette » de votre application) avant de fermer le document pour être certain que le système a enregistré vos modifications."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:97
-#: e3c4b0b1fc4e4f09b8d6f980947010c0
-msgid "Un « *lien vers* » signifie : un lien vers d'autres contenus, depuis le document sélectionné (= sur lequel vous vous trouvez). Un « *lien depuis* » signifie : un lien provenant depuis d'autres contenus."
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:54
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:145
+#: f801afaef13b4856bca6a38d23f9add3
+#: 2e66880a13bf4e198f407157528836ea
+msgid "Verrou d’édition"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:100
-#: 439fd9fc2bd54140b73ac8e6cc5324ea
-msgid "Le lien vers un document a la possibilité d'être modifié depuis celui-ci, néanmoins un lien depuis un document tiers ne peut être modifié que depuis ce document tiers (non depuis le document sélectionné)."
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:56
+#: 73904b6d165e4fcea3070e5260655622
+msgid "Lorsqu’un document est en cours d’édition par vous ou un autre utilisateur, un verrou est apposé automatiquement."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:102
-#: 16e48b250ca54a41b162678475ea8985
-msgid "C'est sur le constat de liens entrants et sortants."
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:58
+#: 06911a82f881445c89f4920bb7d19ecb
+msgid "Ce verrou apparaitra en « rouge » et « fermé » sur la page du document et dans l’explorateur de fichiers. Cela signifie que personne d’autre ne peut ouvrir le document pour l’éditer, tant que vous n’avez pas fini. Cela évite donc les erreurs de versions et le temps perdu à consolider plusieurs versions en une seule (ex. si trois personnes éditent chacune de son côté le document sans tenir compte du travail des ses collègues)."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:108
-#: 4e1ef32c46d343d4a9f21c784ecc189e
-msgid "**Liens externes**"
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:60
+#: 57809c13f9044629887ff0b4ad9258a3
+msgid "A côté du verrou vous verrez la photo de l’utilisateur qui édite le document. En passant la souri dessus, vous verrez le nom de l’utilisateur. En cas de besoin, n’hésitez pas à le contacter via le Tchat ou le citer dans un commentaire sur la page du document (pour citer, commencez par saisir @ puis le prénom ou nom de l’utilisateur. Il sera alors alerté automatiquement dans le Tchat)."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:110
-#: a59d0361fbad410ba278c12b7f68214e
-msgid "Permet d’ajouter un **lien vers une page web externe** en y mettant **l’URL.**"
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:68
+#: e846cdaef02a4d6291cbb68252d3701a
+msgid "Lors de l’édition d’un document, un message est affiché sur la page du document, en haut du bloc d’informations à droite de la prévisualisation : « Document en cours d’édition, les métadonnées sont verrouillées »."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:113
-#: defd43f13437454f8cb7b3cbebaec9bc
-msgid "Ainsi les **documents seront toujours liés** et vous pourrez passer d’un à l’autre en un clic (pareil que « Contenus liés »)"
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:70
+#: dd7ad06435284cc5864bf06e0796ee05
+msgid "Le verrou saute automatiquement dès lors que l’on sort de l’édition en fermant son application."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:116
-#: eb77cd142c584177833d8a8483e73842
-msgid "C’est le même principe que pour les autres métadonnées, lorsque la case bleue « Modifier » apparaît en face de « Liens externes », cliquez dessus et coller l’URL souhaité. Puis terminez en appuyant sur « Appliquer »"
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:73
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:175
+#: a0d96afb8d6640f7a0182a8c57ee0125
+#: fdd6acacd3114ab3a474e0fb5ec59fea
+msgid "Actualiser l’aperçu du document"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:128
-#: 91e1a3ee8c3d4ff49fa0b12e332d7387
-msgid "Etiquettes (mots-clefs)"
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:75
+#: 7bae7f6e794d4125a48ce2da65ca5a4c
+msgid "Afin de faciliter la lecture du document alors qu’un autre utilisateur est entrain de l’éditer, la prévisualisation (sur la page du document) ne se met pas à jour automatiquement, mais une icône « actualiser l’aperçu » devient rouge et vous pouvez cliquer dessus pour actualiser."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:130
-#: 9575607c28bb4ab9920ed4de86cd170b
-msgid "Les \"Etiquettes\" sont des mots-clés que les utilisateurs peuvent à tout moment ajouter aux documents."
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:77
+#: 6b6ce0931853493cb9a01cf7091cd65b
+msgid "Une fois que vous avez actualisé la prévisualisation, vous pouvez voir la nouvelle version du document, avec les modifications qui viennent d’être faites."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:132
-#: cabbe40c7f564ed0bf6abb7dde28d08e
-msgid "**Ces étiquettes sont utiles dans les cas suivants :**"
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:82
+#: 95a3f53c3b4241abaf5cb16d3ecb84b2
+msgid "Vous pouvez voir qui a fait une action sur ce document dans le bloc d’informations (à droite de la prévisualisation)."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:134
-#: 2d6ab5780f4e48fc8c0670168a60150c
-msgid "Informer les autre utilisateurs qui consultent le document sur la thématique ou une spécificité liée au document,"
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:84
+#: 9164915bb74442deb91361d4e2a67f8e
+msgid "Vous pouvez également voir les versions précédentes, en allant dans l’onglet « versions »."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:135
-#: 4cf1f3fdab454d5591471ae9b698ae1d
-msgid "Retrouver plus facilement certains contenus car les étiquettes sont indexées par le moteur de recherche et donnent un poids supplémentaire qui remonte ces contenus dans le résultat,"
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:88
+#: 7e4cc25543604283823b2e9140df96bf
+msgid "Editer/Coéditer un document via la Suite Collaborative OnlyOffice (Enterprise only)"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:136
-#: c52d19aa9d2846c29b8146ab7ee82fc4
-msgid "Pouvoir filtrer un résultat de recherche par \"étiquette\" (ex : on recherche \"documentation\" et on filtre avec l'étiquette \"GoFAST\"),"
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:94
+#: aabfe807988342c59afcd6cf76fe9302
+msgid "GoFAST apporte une dimension très innovante et vous permet d’éditer des documents dans un simple navigateur **avec d’autres personnes en simultané**. Vous pouvez ainsi travailler à plusieurs, en même temps, sur un même document pour d’importants gains de temps."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:137
-#: 28aebe060859478fbfd7dcd46c62bd69
-msgid "Pouvoir s'abonner à ces étiquettes pour être notifié de l'activité des documents ayant cette étiquette (chaque abonnement à une \"étiquette\" peut être paramétré par l'utilisateur pour sa fréquence)."
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:98
+#: 0d07127354b842f5b3c8d31d538fcc5f
+msgid "Cette rubrique décrit comment éditer/coéditer un fichier bureautique via la Suite OnlyOffice sur GoFAST (ouvrir, fermer, système de verrou…). Toutefois, pour connaitre les nombreuses fonctionnalités de cette Suite collaborative, merci de bien vouloir vous référer à la documentation de OnlyOffice, ici : https://helpcenter.onlyoffice.com/fr/userguides.aspx"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:138
-#: 7da8b3639c314304853ddb852f371eb2
-msgid "Pouvoir retrouver des fichiers qui sont dans des formats autres que texte (ex : les images, les vidéo, PDF images, etc.)"
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:102
+#: e795841d1a3b4d9ba6a64b1390a7e043
+msgid "L’édition et la coédition via OnlyOffice n’est possible que pour les fichiers de type Office (ex. docx, xlsx, pptx)."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:140
-#: abac2fcbb2a74d0f9d363627132a4d81
-msgid "**Pour ajouter ou enlever une \"étiquette\" :**"
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:106
+#: c36c70da2dc643c6a45602ab4b1dbc0d
+msgid "Contrairement à GoogleDocs/Drive, **vous conservez vos formats Office** et vous pouvez ensuite ouvrir le fichier avec la Suite Microsoft Office ou LibreOffice, sans avoir à changer de format. La Suite Collaborative OnlyOffice est totalement intégrée à GoFAST et donc, hébergée soit en SaaS souverain, soit dans votre datacenter et dans ce cas cela limite les besoins de bande passante et garantie une confidentialité totale."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:142
-#: 6ac3d0fa5bd14863a389717467ae09a3
-msgid "Allez au niveau de \"Etiquettes\" avec la souris et le bouton \"Modifier\" apparaît,"
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:110
+#: 18c3c72b50934aff947c592333548fd4
+msgid "Comment « Coéditer via OnlyOffice » :"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:143
-#: 9f8e13a6c6a54400b2e3a40e1d26481c
-msgid "Cliquer sur le bouton \"Modifier\" pour ouvrir la popup de modification des étiquettes,"
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:113
+#: 847cb99b10e24ae68492ff288f810146
+msgid "Allez dans le menu « Burger » (les actions contextuelles)."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:144
-#: 2dcece967b634c50a70617bb6769dc20
-msgid "Pour ajouter une étiquette, il faut commencer à taper le mot souhaité et des suggestions vous seront proposées. Cliquez sur une des suggestions ou sur \"nouveau terme\" si aucune suggestion ne vous convient. Enfin, cliquez sur \"Appliquer\" pour enregistrer les modifications,"
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:114
+#: 2c44bd84ea214ba08ec6b091ecf8887d
+msgid "Cliquez sur « Coéditer via OnlyOffice »."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:145
-#: 2a889c05a40143c9909b5b124e6779b2
-msgid "Pour enlever une étiquette existante, il suffit de cliquer sur la petite croix au niveau de l'étiquette."
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:115
+#: f25a678903ab479ea8eb36cd6cd1daf5
+msgid "La Suite collaborative s’ouvre dans un nouvel onglet de votre navigateur web."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:153
-#: c6b70e7529e74e5c96199ebfd108af96
-msgid "**S'abonner ou se désaboner des \"Etiquettes\" :**"
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:125
+#: 110878ccfbe24d2dadf3999ee1416c7b
+msgid "Cliquez sur « Coéditer via OnlyOffice »"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:155
-#: 142361479c89496894137ba32d8c0c15
-msgid "L'abonnement à des étiquettes permet d'être notifié sur l'activité des contenus selon une thématique ou un sujet spécifique (ex: on est membre d'un espace de travail, mais plutôt que d'être notifié sur toute l'activité de cet espace, on fait le choix d'être notifié sur les documents ayant une étiquette précise). Sur la page d'un document, pour vous abonner ou vous désabonner d'une étiquette, il faut cliquer sur la petite icône d'abonnement. Ensuite, il est possible de paramétrer la fréquence de ses notifications selon les étiquettes (dans le menu du profil utilisateur, entrée \"Abonnements\")."
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:130
+#: f258c94db3a9475c8d4525f442cfa9a5
+msgid "Si vous souhaitez co-éditer les anciens formats Microsoft (.doc, .xls, .ppt) ou les formats LibreOffice (ex. un .odt), ceux-ci seront convertis dans les formats récents (.docx, .xlsx, .pptx). Selon la mise en page de votre document, il est possible que le passage de la Suite Microsoft Office ou LibreOffice vers OnlyOffice présente quelques écarts. Toutefois OnlyOffice a une compatibilité élevée avec la Suite Microsoft Office, ce qui limite le risque d’avoir une mise en page mal formatée."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:165
-#: 20646cbd4b52485c8d5ff90c336ae1df
-msgid "Un message apparaît dans le coin droit supérieur, pour vous confirmer la prise en compte de l'abonnement ou du désabonnement."
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:132
+#: c46f7ab6ff5745e39057654766479cd3
+msgid "Selon le format de fichier, il se peut que ce message apparaisse :"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:170
-#: f33e5faa864849b98c3ef9076e5e253c
-msgid "L'icône d'abonnement apparaîtra en rouge dans l'étiquette si vous êtes abonné à ce terme, et en bleu si vous n’y êtes pas abonné."
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:137
+#: 99d35372769a4065b59b9e5f89c8005f
+msgid "Cliquez sur « Continuer » si vous souhaitez poursuivre l’ouverture avec OnlyOffice."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:176
-#: f9fd7992ba0c4b739cec71684c5fc9fd
-msgid "Échéance"
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:139
+#: e7563943aba546f3b2b9f480770ad3ed
+msgid "Voici l’exemple d’un document texte ouvert avec OnlyOffice, pour coédition. On peut noter qu'un autre utilisateur est entrain d'éditer en même temps le document."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:177
-#: 3c009ee0a33d4b4ba4221d9eb6d05811
-msgid "Consiste à donner une **date d’échéance** au document, c’est-à-dire qu’un rappel par notification vous sera envoyé par rapport à ce document à cette date."
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:147
+#: 7bf1878f16de4711a69138edb4e5efad
+msgid "Lorsqu’un document est en cours d’édition via la Suite OnlyOffice, un verrou est apposé automatiquement. Ce verrou apparaitra en « rouge » et « ouvert » sur la page du document et dans l’explorateur de fichiers. A côté du verrou vous verrez la photo de l’utilisateur qui est le premier à avoir ouvert le document pour coédition. En passant la souri dessus, vous verrez le nom de l’utilisateur."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:181
-#: 3fa0c2ef89d14ec480593ef1d36ba56c
-msgid "Cela peut servir pour un contrat avec une date limite, un document qui doit être finalisé à une date précise, …"
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:156
+#: 3299f11650d84cfdbfa2bd97689bf2d7
+msgid "Vous pouvez utiliser les fonctionnalités habituelles d’une Suite Office. Notamment, il est recommandé d'activer le mode révision (en bas à droite dans OnlyOffice), les autres utilisateurs amenés à éditer/coéditer ce document, identifieront mieux vos modifications."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:187
-#: e2ce6595325b4878993a4d52d39e4699
-msgid "Pour introduire la date, cliquez sur « Aucun » face à « Echéance » et choisissez la date pour le rappel. Terminez par « Appliquer »"
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:160
+#: 2da733bf1e3b48f289603915a46024a1
+msgid "Lors de la coédition d’un document, un message est affiché sur la page du document, en haut du bloc d’informations à droite de la prévisualisation : « Document en cours d’édition, les métadonnées sont verrouillées »."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:194
-#: 346f3224cb844b5e93aaee64907d2480
-msgid "Importance du Document/Contenu"
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:162
+#: f0731098663d498faa22b8a4dd1948af
+msgid "Faites vos modifications, puis fermez OnlyOffice et vous serez redirigé sur la page du document. Le verrou saute automatiquement dès lors que tous les utilisateurs sont sortis de la coédition, en fermant OnlyOffice. Une fois que tous les utilisateurs ont fermé la Suite OnlyOffice, une nouvelle version est créée. Pour en savoir plus, merci de vous référer à la rubrique « Gestion des versions »."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:196
-#: 99f6c7b06a7243d1821775ffc6ad76d2
-msgid "Vous pouvez signaler **l’importance d’un document** dans les métadonnées et son niveau : critique, haute, normale ou basse."
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:168
+#: 31a087a9865141288137ea3b845ba50e
+msgid "OnlyOffice vous permet de co-éditer des contrats, des budgets, des présentations Powerpoint d'une façon beaucoup plus rapide que traditionnellement, c’est-à-dire chacun son tour."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:199
-#: e9faf9a75b794221a5c346e41134e87d
-msgid "Allez au niveau « Importance » dans les métadonnés du document, appuyez sur « Modifier », choisissez le niveau d’importance et terminez avec « Appliquer »"
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:172
+#: 5d0a9a0a35a14fc2a9320bdea0dff84d
+msgid "Une connexion réseau d'assez bonne qualité est nécessaire pour éviter d’éventuelles pertes de connexion ou des latences lors de la coédition."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:212
-#: cb9e32103440415ea85b40a15d6b220d
-msgid "Cette métadonnée permet d’ajouter un filtre à votre recherche automatique et ….. ? (listing résultat ?) (en attente réponse CEO vision)"
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:176
+#: f76e88a4f26f4811a56cb4b9807929cc
+msgid "Le fonctionnement de la prévisualisation est le même que l’on « édite depuis PC » ou que l’on « coédite via OnlyOffice ». Merci de bien vouloir consulter la sous-rubrique « Actualiser l’aperçu du document » dans la rubrique « Editer un document depuis PC (via une application installée sur PC) »."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:217
-#: 4786125b5ab94c5ab7f6271be2375a09
-msgid "Auteur du Document/Contenu"
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:181
+#: 3c5c19de8d9147ef99835660aa080167
+msgid "Modifier les autres types de contenus (forums, Wiki…)"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:219
-#: e76eb66171d54813bb829c9c52544d7a
-msgid "Le fait d’indiquer **l’auteur** du document permet de savoir à qui s’adresser en cas de question et d’ajouter un filtre lors de la recherche."
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:182
+#: fc364af63a8141e6abf71aee658893a9
+msgid "Les actions de modification des autres types (ex. Forums, page Wiki) de contenus suit la même logique que pour les fichiers classiques : les actions sont listées dans le menu « Burger » du contenu. Les possibilités sont dépendantes du type de contenu et de vos droits sur ce contenu (cf. rôle que vous avez des le(s) Espace(s) où se trouve le contenu). **Pour savoir comment modifier les autres types de contenus, merci de vous référez aux rubriques suivantes :**"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:223
-#: 20b3c75c45fd4ce48a6862f49b9c95da
-msgid "Si le fichier déposé sur GoFAST contient une métadonnée \"auteur\" (ex: un fichier Word indique dans les informations du document que l'auteur est \"Christopher\"), ça sera automatiquement récupéré depuis le fichier par GoFAST et affiché sur la page du document."
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:185
+#: 0bd1fd0eddb24168a246627ce8739106
+msgid "« Réunions / Webconférence (Enterprise only) »"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:228
-#: 7353e08aac254da6852125b2477a39e2
-msgid "Tapez les premières lettres du nom et le système vous proposera une liste d’utilisateurs, sélectionnez le nom souhaité et cliquez sur « Appliquer »."
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:186
+#: 772f431c3ade4fffa64f72c09d2eb1fe
+msgid "« Forums et Pages Wiki »"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:236
-#: 1774c48f572344d0996979d8f0e183ec
-msgid "Historique et versions du Document"
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:187
+#: 4bbc789d85d445b08cfd733b3927ad12
+msgid "« Formulaires »"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:238
-#: 5acd096a535e4a58905894baeeeb7ea9
-msgid "L’\\ **historique** indique les actions qui ont été faites sur le document, par qui et quand : création, modification, …"
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:190
+#: 3831345c99ff43fa93655a8ddf702648
+msgid "Gestion des versions"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:244
-#: d8d95a8f7aa74d1fa3cd4c941f13dea8
-msgid "Juste en dessous de l’historique , vous pouvez voir aussi les **versions** du documents, c’est-à-dire le numéro des versions actuelles et combien il y en a eu avant. Sachant que chaque sauvegarde du document est considérée comme une nouvelle version mineure (1.0 => 1.1, 1.2, 1.3, ….) . Par contre, si vous écrasez la dernière version mineure par une nouvelle version du document (avec le glisser/coller par exemple), le système vous demandera si vous voulez qu’elle devienne une version majeure (1.3 => 2.0) et donc une nouvelle base de travail."
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:191
+#: 4336450441d54c8cab37ca8530c15d2f
+msgid "GoFAST dispose d’un gestionnaire de versions de document. Il consiste à numéroter et horodater chaque nouvelle version d’un document après modification (ex. édition depuis PC ou Coédition via OnlyOffice)."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:253
-#: 367fbcc2bf59441a8243c25936d767ef
-msgid "La 1ere version que vous créez ou migrez sur GoFAST commence à 1.0."
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:193
+#: 273720a083db4089950d4c3977dfd9df
+msgid "**Objectifs principaux de la gestion des versions :**"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:258
-#: 6d4aa94a4ee647a883acb68af22e32e5
-msgid "Cliquez sur « Show versions list » pour voir les versions antérieures, vous pouvez même choisir le type de versions (actuelle, majeure ou toutes), puis cliquez sur le numéro de la version que vous voulez ouvrir."
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:195
+#: d454174d7fe84b95bd9a132205a3b75f
+msgid "Disposer d’un point de sauvegarde de toutes les versions pour pouvoir récupérer une ancienne version en cas de besoin."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:267
-#: 0ef1267b0b7e45f6b4a1ad698e38d3ae
-msgid "Les langues et traductions du Document/Contenu"
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:196
+#: 8b9e6491e9184c19acce3f52c3e69764
+msgid "Horodater chaque version pour ainsi savoir de quand date la dernière version."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:269
-#: d602ce5d398b41bfb767cce30253682b
-msgid "Vous pouvez mettre la **langue du document** dans les métadonnées, ainsi plus besoin d’indiquer la langue dans le nom du document. Cela donne également un niveau de **filtre** supplémentaire dans la recherche de documents."
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:197
+#: 81312d4c338b40709bc31b7d93c710aa
+msgid "Identifier l’utilisateurs à l’origine de chaque version"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:274
-#: 4b313c4280984812afb1732cd26e27ea
-msgid "Allez dans les métadonnées, tout en bas, au niveau « Langues », appuyer sur « Modifier », une petite fenêtre s’ouvre où vous pouvez choisir la langue de ce document, avec le petit dérouleur qui vous donnera un choix de plusieurs langues."
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:199
+#: 7418c33eefce4e3c901520bef6d34b1f
+msgid "**Récupérer une ancienne version :**"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:279
-#: 310f0e497e0240c0ba818fde5f1801a3
-msgid "Terminez avec « Appliquer »."
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:201
+#: 0fc6a78ba2e147e5a18ccb4b0b94208c
+msgid "Si la version actuelle du document est erronée, par exemple si un collègue a supprimé certaines parties par erreur, vous pouvez récupérer la version précédente ou toute autre ancienne version."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:287
-#: 3874ab45094342c1b88ea6ecf2c15a8d
-msgid "De même, si le document existe en différentes langues (comme c’est le cas des templates, guidelines, etc), vous pouvez lier entre elles les traductions de ce document ; il suffira ensuite d’appuyer sur le drapeau correspondant à la langue souhaitée pour prévisualiser le document dans cette langue."
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:203
+#: d9eb2dca36e74dca8f05d12b4c2b6524
+msgid "**Sur la page d’un document :**"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:296
-#: 75ee1ea2e0294ab3a7acf72a712df985
-msgid "Le premier drapeau correspond à la langue du document prévisualisé, les autres sont les traductions disponibles. Donc dans l’exemple ci-dessus le document est en anglais (on voit le drapeau + la langue à côté) et il existe une traduction en français (on voit juste le drapeau)."
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:205
+#: fcbd33cdbdc94389872da6a1c78c4d47
+msgid "Allez dans l’onglet « Version » du bloc d’information (à droite de la prévisualisation)."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:301
-#: bea12f062bab45f69580376129b13421
-msgid "Pour **lier 2 documents de langues différentes** : cliquez sur l’icône avec les 3 barres horizontales dans la barre d’outil de la prévisualisation, et choisissez la fonction « Editer les traductions « ."
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:206
+#: 81691a9fa1f8459cbc918874e09afc21
+msgid "Choisissez si vous affichez toutes les versions ou uniquement les version dites « majeures »."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:308
-#: 188b99aba17641ba8f519321547ce4b7
-msgid "Vous arrivez sur un formulaire où vous pouvez taper les premières lettres du document que vous voulez lier, dans la case de la langue souhaitée. Dans l’exemple ci-dessous, c’est la version française qu’on veut ajouter et lier au document initial."
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:207
+#: d14cf399b1394c38a2e3f56e13490ba2
+msgid "Cliquer sur le numéro de version souhaitée pour lancer le téléchargement."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:313
-#: ed44fa44c93748ebb364d2626f355cde
-msgid "Terminez en appuyant sur la case bleue « Mettre à jour les traductions »"
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:208
+#: c690797cb2dc4d92b23bea350081bdb6
+msgid "Le document va être téléchargé sur votre PC (souvent dans le dossier « Téléchargement » de votre Windows), avec à la fin du titre du fichier, le numéro de la version téléchargée."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:318
-#: 181d04b6d4714d97b85e0f6e8808cd87
-msgid "Vous pouvez ainsi lier les différentes versions d’un même document qui existe en plusieurs langues. Et les drapeaux correspondant à ces langues se retrouveront dans les métadonnées du document."
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:209
+#: 39191f00c40a4cf7842874d3eb3f4164
+msgid "Si vous avez besoin d’écraser le document sur GoFAST pour le mettre à jour (=écraser la version en cours), faites un glisser-déposer dans la zone prévue pour, sur la page du document, au-dessus de la prévisualisation."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:324
-#: b3050c8f8315439086878d2aa5c4ab71
-msgid "Panier Documentaire"
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:217
+#: c6e1c65e430a4074b15c785547805ea5
+msgid "La numérotation des versions permet la notion de « version mineur » (ex. 1.39 qui est générée automatiquement à l’enregistrement du document lors de l’édition/coédition) et de « version majeure » (ex. 3.0 qui peut être créée lors d’une mise à jour par glisser-déposer sur la page du document, lors de la création d’une Publication depuis le document de travail ou à tout moment via le menu « Burger » du document)."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:325
-#: df0f6c89b1444292b9c8f6e0fe854ab6
-msgid "Le panier documentaire permet de rassembler plusieurs documents sans modifier leur emplacements pour exécuter diverses fonctionnalités sur l’ensemble du panier. Le panier est accessible depuis le menu principale, icône \"3 barres\"/\"burger\" puis clic sur \"Panier documentaire\" (à partir de la v3.6, autrement c’est dans le menu du profil utilisateur)."
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:221
+#: 755eb1a05a734ef0bd6816edfba7f879
+msgid "A la création ou au dépôt sur GoFAST d’un nouveau document, le numéro de version sera toujours 1.0."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:332
-#: 5230fade41e04d04af37bded000a660f
-msgid "Ajouter/retirer des documents dans son panier documentaire"
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:223
+#: d37c3336e1fc49d0824cadca7985c535
+msgid "Pour plus d’information sur la gestion des versions, merci de vous référer aux rubriques :"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:334
-#: b138727f5c1345ec8a61a411d278244e
-msgid "**Il est possible d’ajouter des documents dans le panier :**"
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:225
+#: 220442b02e4c487ba73f055931e69df6
+msgid "« Charger nouvelle version »"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:334
-#: b8fe8d75920948b082c2fdd0b0ad7886
-msgid "Via le menu \"burger\" (actions contextuelles sur un document) sur la page du document, le fil d’activité, résultat de recherche…"
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:226
+#: 70f83730410e49aab73e85b4f6bb6c75
+msgid "« Définir comme version majeure »"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:339
-#: f2224490c9c9438e83c84e7a1c2a5855
-msgid "."
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:227
+#: ab1fb5615cea4947bedf3856a01cc4cf
+msgid "« Supprimer les versions mineures »"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:341
-#: f77767d8f0324f62a737cd2db3ba89d2
-msgid "Depuis l’explorateur de fichiers \"GoFAST File Browser\" en sélectionnant les documents souhaités et en cliquant sur l’icône \"panier\""
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:231
+#: f754d33d057a4c9b8dfbff450790ef40
+msgid "Rechercher des Documents / Contenus"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:348
-#: a7b00b70c178415c9edfd6b0b566c50f
-msgid "**Il est possible de retirer les documents de son panier documentaire :**"
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:234
+#: f92bab98a10849a6906429c04aa0faad
+msgid "Introduction au Moteur de recherche"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:347
-#: 41a7bd5dd6984d1eb120bce408795abc
-msgid "Unitairement, en cliquant sur \"retirer du panier\""
-msgstr ""
-
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:348
-#: af12b975a9df411ebbc41eb28de9eb1a
-msgid "Tous les documents en une fois, en cliquant sur \"retirer tous les documents\""
-msgstr ""
-
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:355
-#: 5e723b821ca1415cb65c2557ee5d8cdf
-msgid "Actions possible depuis le panier documentaire"
-msgstr ""
-
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:361
-#: 0bd35a6cab924b569ae37de5da3b4d05
-msgid "**Gérer en masse les documents du panier :**"
-msgstr ""
-
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:357
-#: cec60f6bdc0b428ea266282f4a381556
-msgid "Gérer la taxonomie (catégorie, étiquettes, état, langue)"
-msgstr ""
-
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:358
-#: b65dde8940e34054bc31ff7239c52a19
-msgid "Ajouter des emplacements aux documents de travail"
-msgstr ""
-
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:359
-#: b65d5e814754464e84c09a06098405c3
-msgid "Créer des publications à partir des documents de travail"
-msgstr ""
-
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:360
-#: ba12775baf294bdc813dc9e862cd63e0
-msgid "Partager par mail des documents"
-msgstr ""
-
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:361
-#: e5ecd1cbaedb444e84161448999311cd
-msgid "Archiver les documents"
-msgstr ""
-
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:366
-#: 48b81e71d4044313b26ac11fa2dd9750
-msgid "**Démarrer un processus de tâches depuis le panier (Enterprise only) :** Les documents du paniers sont proposés lors du démarrage d’un nouveau workflow, via le menu principale."
-msgstr ""
-
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:372
-#: 5c42bd8907dc4a4d834ea131fb620c76
-msgid "Cela permet d’associés au processus tous les documents en une fois, que l’on peut ensuite retirer unitairement dans le formulaire du processus."
-msgstr ""
-
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:377
-#: 648183ef41de4867bc59d357d93be3e7
-msgid "Pour savoir comment démarrer un nouveau processus de tâches, merci de vous référer à la documentation : https://gofast-docs.readthedocs.io/fr/latest/docs-gofast-users/doc-gofast-guide-utilisateurs.html#workflows-processus-de-taches-enterprise-only"
-msgstr ""
-
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:380
-#: dce29e488d6c46d7981571954c959866
-msgid "Edition de fichiers et Suite Office Collaborative"
-msgstr ""
-
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:383
-#: 4e2076ad19ca41e8afbcbd202235d919
-msgid "Editer/modifier en ligne le document"
-msgstr ""
-
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:385
-#: e60b197be7e44c6db0aed5384513cc58
-msgid "Cette fonction permet **d’ouvrir un fichier pour édition/modification** sans avoir à le sauvegarder au préalable en local."
-msgstr ""
-
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:388
-#: e4cca425315040c99dcd3aa79b7b1b7c
-msgid "Le document type « Office » sera ouvert avec l’application définie par défaut sur votre poste (exemple Office, LibreOffice, WPS). A noter que sur Firefox, vous avez la possibilité de choisir à chaque ouverture l’application."
-msgstr ""
-
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:393
-#: 77b6901c2c4542ee8fbc95ff84f1afd7
-msgid "Pour les types de contenus comme PDF, Images, une petite application doit être installée au préalable sur le poste. Vous pouvez ensuite ouvrir un PDF dans Adobe ou Foxit, le signer et directement le sauvegarder sur GoFAST."
-msgstr ""
-
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:398
-#: 30f404ecf2e74f18b9c6553ccc1f3aa0
-msgid "Si vous êtes donc un utilisateur standard/contributeur dans vos groupes, vous pouvez modifier des documents, « éditer en ligne », de telle sorte que les modifications apportées au document seront directement enregistrées sur la GoFAST et donc visibles à tous les membres de ce groupe. C’est ce qu’on appelle la synchronisation."
-msgstr ""
-
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:404
-#: 110b51259ce043d89805bb1e1a4d15f5
-msgid "Allez dans le menu des fonctionnalités/actions contextuelles de la prévisualisation et cliquez sur « **Editer en ligne** »…"
-msgstr ""
-
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:410
-#: 262fc8d0fd50404cbf2cd1f19ed60619
-msgid "Le système vous demande votre mot de passe afin de vous **identifier**. Ainsi le système pourra montrer qui a fait les derniers changements (cf : historique des versions et du document dans les métadonnées)."
-msgstr ""
-
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:414
-#: bed5e0e1d68b4bcab80a89d09bd8b2d5
-msgid "Votre identifiant et mot de passe sont les mêmes que pour vous loguer à GoFAST."
-msgstr ""
-
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:420
-#: ecf35eb0ed9f4554ba02c95b94491e17
-msgid "Le document s’ouvre dans Office et vous pouvez y travailler normalement, n’oubliez pas de sauver (disquette) avant de fermer le document pour être certain que le système a enregistré vos modifications."
-msgstr ""
-
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:427
-#: d5151577ae8e4cb5977ca34830afcac6
-msgid "De retour sur l’interface GoFAST, faites un refresh de la page pour que la prévisualisation du document apparaisse avec les modifications qui viennent d’être faites."
-msgstr ""
-
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:434
-#: b20f12a5fa1d43b4baa6112d7179dd8e
-msgid "Vous pouvez voir qui a fait une action sur ce document dans l’historique, dans l’encadrement des métadonnées, tout en bas."
-msgstr ""
-
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:437
-#: 00adfecfaceb4625a5013d6016f407b8
-msgid "Vous pouvez également voir les versions précédentes, en cliquant sur « Show versions list » au niveau « Révisions dans les métadonnées."
-msgstr ""
-
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:444
-#: 9670b2f0bab1442aa814230f6d2d3c59
-msgid "Lorsque vous êtes en train d’éditer un document (que vous l’avez ouvert en ligne ), les autres personnes qui voudraient l’ouvrir auront ce message lors de sa prévisualisation, au-dessus des métadonnées « Vous êtes en lecture-seule sur ce document »"
-msgstr ""
-
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:449
-#: afc88490c2f44748a48fc7406866aeeb
-msgid "Et ils verront un petit cadenas fermé rouge dans la barre des fonctionnalités de la prévisualisation, avec la photo de l’utilisateur qui est en train de travailler sur le document. En mettant sa souris sur l’icône, vous pouvez voir le nom de l’autre utilisateur."
-msgstr ""
-
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:463
-#: 66fc5f73acd44684bdbf60de69244ea0
-msgid "Editer avec la Suite Collaborative OnlyOffice (Enterprise only)"
-msgstr ""
-
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:465
-#: 432f5cdf338145c799bf152a7286b541
-msgid "GoFAST 3 apporte une dimension très innovante et vous permet d’éditer des documents Office dans un simple navigateur **avec d’autres personnes en simultané**. Vous pouvez ainsi travailler à plusieurs, en même temps, sur un même document."
-msgstr ""
-
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:471
-#: 7912d9af08df4d05af56740ed6362455
-msgid "Contrairement à GoogleDocs/Drive, **vous conservez vos formats Office** et vous pouvez ensuite directement ouvrir le fichier avec Office sans avoir à changer de format."
-msgstr ""
-
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:476
-#: 18311b58d250480fbf847a3d30fe42a8
-msgid "De plus OnlyOffice est dans votre datacenter limitant les besoins de bande passante et garantissant une confidentialité totale."
-msgstr ""
-
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:480
-#: 7852bd6dbea848688ea23b820e38a647
-msgid "Une connexion réseau d'assez bonne qualité est nécessaire"
-msgstr ""
-
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:483
-#: 1c38e558bec44fa68ce3b014215724c7
-msgid "Pour cela lancer la co-édition, allez dans les actions contextuelles de la prévisualisation et appuyez sur l’option «  Editer avec OnlyOfice »"
-msgstr ""
-
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:490
-#: 7f9e5120eb0d4298bd0e96a944697611
-msgid "Si vous souhaitez co-éditer les anciens formats Microsoft (.doc, .xls, .ppt) ou les formats OpenDocument (.odt, ...) ceux-ci seront convertis dans les formats équivalents .docx, .xlsx, .pptx). Si vous souhaitez une conversion la plus fidèle possible, faire cette conversion sous Office ou LibreOffice De même la version actuelle ne génère pas les Table de Matières, celles-ci devant être généré une fois le document terminé sous votre éditeur de texte."
-msgstr ""
-
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:495
-#: 814d8d3e24584500a51aba7088f43cf1
-msgid "Ce message apparaît, cliquez sur « Continuer »"
-msgstr ""
-
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:500
-#: a4f9aab6cb2b49e08a9fe910ba236340
-msgid "Voici un exemple d’un document Word ouvert avec OnlyOffice, pour modification. On peut noter qu'une personne est entrain d'éditer en même temps le document."
-msgstr ""
-
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:508
-#: 55abd31be0d24db19175d09708b065b7
-msgid "Faites vos modifications puis fermer OnlyOffice, vous serez redirigé sur la prévisualisation de votre document dans GoFAST ; **une fois que toutes les personnes seront sorties d’OnlyOffice, une nouvelle version sera créée** ; rafraichissez la page avec les petites flèches rondes rouges, vous verrez ainsi vos modifications enregistrées dans le document."
-msgstr ""
-
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:516
-#: b6dacbad7dcb469f93b796c114ae64bd
-msgid "Vous pouvez utiliser de nombreuses fonctionnalités de Word, notamment nous vous recommandons d'activer le mode révision (en bas à droite), les autres éditeurs identifieront mieux vos changements."
-msgstr ""
-
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:521
-#: 49e26ba739624bc896eb85a96f692fc7
-msgid "Lorsque vous êtes en train d’éditer un document avec OnlyOffice (que vous l’avez ouvert en ligne), les autres personnes qui voudraient l’ouvrir auront ce message lors de sa prévisualisation, au-dessus des métadonnées « Vous êtes en lecture-seule sur ce document »"
-msgstr ""
-
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:526
-#: 14625a4bf56e40b38ccb8ebf7159c199
-msgid "Et ils verront un petit cadenas ouvert rouge dans la barre des fonctionnalités de la prévisualisation, avec la photo de l’utilisateur qui est en train de travailler sur le document. En mettant sa souris sur l’icône, vous pouvez voir le nom de l’utilisateur qui a ouvert en 1\\ :sup:`er` le document."
-msgstr ""
-
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:536
-#: 10e1dd75c70e433f8f8f9b0043175bca
-msgid "OnlyOffice vous permet de co-éditer des contrats, des budgets, des présentations Powerpoint d'une façon beaucoup plus rapide que traditionnement, chacun travaillant à son tour."
-msgstr ""
-
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:544
-#: e9a4f15c413e4ba3bd33ee28c2c6dd92
-msgid "GoFAST dispose d’un gestionnaire de versions de document. Il consiste à mettre en place un historique de toutes les modifications effectuées sur un document. Chaque modification enregistrée, un point de sauvegarde est crée de l’état actuel du document avec un numéro de version."
-msgstr ""
-
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:546
-#: 1b29a5186084433b9049f2c6449eaf68
-msgid "Le but de ce fonctionnement est de permettre de récupérer une version  antérieure et ce en cas d'erreur ou de problème sur une version actuelle."
-msgstr ""
-
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:551
-#: e5e8ca62d5bb4f13ab852a99f90bcd45
-msgid "Pour remettre une version antérieure, il suffit de cliquer sur le numéro de version souhaitée afin de télécharger le document puis le faire glisser et déposer dans la zone de chargement."
-msgstr ""
-
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:556
-#: 47f3a900f1f94cdba1818c7db5ee4a3d
-msgid "Par défaut la version 1.0 est considérée comme la version majeure du document. La notion majeure  signifie que le document est finalisé et près à être publié."
-msgstr ""
-
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:559
-#: e7318827f6d64048a6d4d95d118e9c62
-msgid "Définir la version actuelle comme version majeure"
-msgstr ""
-
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:561
-#: 6366d3654d464c11917f89b3fad41bf3
-msgid "Pour passer un document encours de modification en version majeure, aller dans le menu contextuel de ce dernier, survoler le sous-menu «Voir plus» puis cliquer sur « Définir comme version majeur»."
-msgstr ""
-
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:568
-#: 2d729329097e4f96aeb090710c2b4bea
-msgid "Passer le document source en version majeure lors d'une publication"
-msgstr ""
-
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:570
-#: ec1be9882cd74488b48110f87fcaaf34
-msgid "Pour passer un document source en version majeure lors d’une publication, aller dans le menu contextuel de ce document,  cliquer sur le sous-menu «Créer une  publication». Ensuite configurer votre publication et ne pas oublier de cocher la case «Définir comme version majeure le document origine» puis appuyer sur le bouton «Valider» pour exécuter."
-msgstr ""
-
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:580
-#: 293759b948f14919a603e5137931815a
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:236
+#: 320cf41bb9134ff493c67d58358e945f
 msgid "Fonctionnement du Moteur de Recherche :"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:581
-#: 1ef65151ee9e474f838592bf6a9f13ad
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:237
+#: ebcb867f11b94f34adefa8763820826f
 msgid "Tout le contenu texte des documents (Word, Excel, PDF, mail, pages web, wiki, etc.) et leurs caractéristiques (les métadonnées) sont indexés. Vous trouvez une information précise ou un fichier par mots-clefs, même approximatifs (pluriel vs singulier, fautes de frappe, etc…) et sans avoir à connaitre le titre. Des mots-clefs approchants sont proposés en cas de recherche infructueuse."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:584
-#: 43340ce9f1da48cc9d8686b5a92c9fe8
-msgid "Le moteur de recherche restitue le résultat selon la pertinence :"
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:240
+#: 018ea2763ee24405ac068f4a6798aa74
+msgid "Principaux formats pris en charge par l’indexation"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:585
-#: 9d522b3fc9c74b6984eefed8b0e22f5a
-msgid "Tout un ensemble de critères est pris en compte dans le calcul de cette pertinence : le nombre d’occurrences des mots-clefs recherchés, les emplacements des mots-clefs (ex : titre du fichier, d’un paragraphe dans le document…), les dates de création et modification (ex : un contenu récent sera privilégié vis-à-vis d’un document ancien), la popularité des contenus (ex : un document consulté souvent sera privilégié vis-à-vis d’un document qui n’a pas été consulté depuis des mois), etc."
-msgstr ""
-
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:588
-#: c839e9b372764049ae1ae30f3aaa88f7
-msgid "Liste des principaux formats pris en charge par l’extraction/indexation :"
-msgstr ""
-
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:589
-#: 8a14101866ee44de94f98e7877d263e9
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:241
+#: 123538d171c345bab8d584a5917a0388
 msgid "HyperText Markup Language (HTML)"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:590
-#: 0e73272802744eeabe33d6887bece9e3
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:242
+#: 861ecc2ccd074fbf9102c9e4fedee0b3
 msgid "Fichiers vectoriels (SVG, VSD)"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:591
-#: 836310c072dc49d8b83e2ec975ef2874
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:243
+#: 4cb319ece6d04698862f1b6de7743ca6
 msgid "Formats XML et dérivés (XHTML, OOXML, ODF)"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:592
-#: 53ea7658c4e147e5ba7bb417c7b030d2
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:244
+#: 3b9ffcbf59b84b829e7a1c674385d40b
 msgid "Documents Microsoft Office (DOC, PPT, EXL, DOCX, PPTX, PPSX, EXLX, etc.)"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:593
-#: a6ed180c9f20432d81ef2de180ecc226
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:245
+#: 7dd0fef9292f487c92865cc2b15f03ed
 msgid "OpenDocument Format (ODF)"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:594
-#: a7eca14e4bbf4f04ad516c206be7bb5a
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:246
+#: 1c721746c03744999d37d73ed8790f6a
 msgid "Documents iWorks"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:595
-#: 1991ae7858e84243a7e742e3f11a01dd
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:247
+#: a63c011874a44badba270e06d3f30612
 msgid "Portable Document Format (PDF)"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:596
-#: f6e32d864bf2470aaba118d1ad14197f
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:248
+#: 05c7c35a67884baea84302e779206129
 msgid "Format de publication électronique (EPUB)"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:597
-#: 0461cfc9cc5b439e8ebbb2128fb8b9b4
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:249
+#: 1ae9e21e9c5b44f48fba6cb5f2ac16ad
 msgid "Rich Text Format (RTF)"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:598
-#: 98c2155c37e84235924eaf0019bf9270
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:250
+#: a10b9262915449eaa35321fc6a62451c
 msgid "Formats de compression et d'emballage (Tar, RAR, AR, CPIO, Zip, 7Zip, Gzip, BZip2, XZ et Pack200)"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:599
-#: 1c25d000fecb4ac69075341fbbd5cf0d
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:251
+#: 241b7ebc1816464491ebc7e60ae3af53
 msgid "Formats de texte (TXT)"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:600
-#: 40e4e52bdbde4ed3bfdaf0437501657d
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:252
+#: c1c38cb010b34d5c83504a71ec549a00
 msgid "Formats de flux et de la syndication (RSS, Atom)"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:601
-#: ee4cf1c70d2945cea5f86c0c6dbce192
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:253
+#: 30e0a4d4044546a88cb8780977eb7454
 msgid "Formats d'aide (CHM)"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:602
-#: 906df45803c34a49a1c7cfaf61f4dfc2
-msgid "Formats audio - au cas où il y a du texte intégré, ex : paroles (mp3, mp4, Vorbis, Speex, Opus, Flac etc.)"
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:254
+#: d056e3c7be074b859117b7edfe0a150b
+msgid "Formats audio - au cas où il y a du texte intégré, ex : paroles (mp3, mp4, Vorbis, Speex, Opus, Flac etc.)"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:603
-#: 6207dfd2f59e4a5296fc8177c496b0e4
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:255
+#: c4277083dc674b2d9a5c10333b12e72e
 msgid "Dossiers et archives de classe Java"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:604
-#: bb1f1b35067a4f59b133bdf3f4194737
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:256
+#: 569724c3745d4f129bf3798fe77286af
 msgid "Code source (Java, C, C++, Groovy, etc)"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:605
-#: 54b499530f43400e959645a22487e998
-msgid "Formats e-mail (ex : eml, PST, MSG, TNEF)"
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:257
+#: 625d82c3c214493fa80ebcf83f9587d5
+msgid "Formats e-mail (ex : eml, PST, MSG, TNEF)"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:608
-#: 7e29ca68afff40e3ba8dd2cacbabf210
-msgid "Rechercher un document avec des mots-clefs"
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:260
+#: c0909b7c2cc44bd69cebb71c2546ac7f
+msgid "Recherche par mots-clefs"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:609
-#: def9feccaefa42b08cada5989ac393e6
-msgid "La barre de recherche se trouve dans le menu principale pour être accessible à tout moment, depuis toutes les pages de GoFAST. Pour rechercher, il suffit de taper les mots clefs-souhaités et cliquer sur le bouton \"loupe\" ou faire \"Entrer\" sur son clavier."
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:262
+#: a02c82250f9c44868f8f60af39124eae
+msgid "Saisir des mots-clefs dans la barre de recherche (entrée/suggestions)"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:612
-#: 4ce79e53c2224fe59ae2395945002e86
-msgid "Une recherche avec 1 ou 2 mots-clefs sera élargie, alors qu'une recherche avec 3 mots-clefs ou plus sera plus restreinte. En effet, avec 2 mots clefs le moteur de recherche va proposer des contenus qui ont soit les 2 mots-clefs, soit l'un des deux mots-clefs. Alors qu’avec plus de 3 mots-clefs le moteur de recherche va proposer des contenus qui répondent à au moins 75% de la recherche. Donc, plus il y a de mots-clefs, plus la recherche est précise. Il est donc conseillé de rentrer peu de mots-clefs si on n’est pas certain des termes recherchés et au contraire, rentrer plus de 3 mots-clefs si on sais exactement ce qu’on cherche et qu’on est sûr des termes saisis."
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:263
+#: f4cf0e7f37eb4effb369e31ed04860a4
+msgid "La recherche se trouve dans la barre d’accès rapide (menu du haut) pour être accessible à tout moment, depuis toutes les pages de GoFAST. Pour rechercher, il suffit de saisir les mots clefs-souhaités et cliquer sur le bouton \"loupe\" ou faire \"Entrer\" sur son clavier."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:615
-#: 3e248b5be5f54907927c6ae6adf051cf
-msgid "Recherche avancée avec les opérateurs booléens"
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:268
+#: e893f2668c0440f681eff6d069341a21
+msgid "Une recherche avec 1 ou 2 mots-clefs sera élargie, alors qu'une recherche avec 3 mots-clefs ou plus sera plus restreinte. En effet, avec 2 mots clefs le moteur de recherche va proposer des contenus qui ont soit les 2 mots-clefs, soit l'un des deux mots-clefs. Alors qu’avec plus de 3 mots-clefs le moteur de recherche va proposer des contenus qui répondent à au moins 75% de votre recherche. Donc, plus il y a de mots-clefs, plus la recherche est restreinte. Il est donc conseillé de rentrer peu de mots-clefs si on n’est pas certain des termes recherchés et au contraire, rentrer plus de 3 mots-clefs si on sait exactement ce qu’on cherche et qu’on est sûr des mots-clefs saisis."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:616
-#: 9b259bb939894281a268fc602f41927b
-msgid "Par défaut, le moteur de recherche fonctionne avec la notion de \"OU\" : lorsqu'on saisit 2 mots-clefs le moteur va proposer les contenus avec le 1ère mot-clef OU l'autre mot-clef OU les 2 mots-clefs. Cela permet un résultat de recherche très large, mais parfois il est nécessaire de restreindre la recherche. Il est alors possible d’utiliser les \"opérateurs booléens\" qui sont des symboles à mettre avant ou après les mots-clefs pour indiquer au moteur de recherche comment traiter ces mots-clefs en particulier (ex : mot obligatoire, à exclure, chaine de mots exacte, etc.)."
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:271
+#: 645d8ffcd13a4d31931dc569e1c922fa
+msgid "Utiliser des opérateurs booléens"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:620
-#: d5139f037e0741ad8de1172d461a90ed
-msgid "Liste des opérateurs booléens possibles :"
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:272
+#: e4cea1e33c914d589af49ebaed45811c
+msgid "Par défaut, le moteur de recherche fonctionne avec la notion de \"OU\" : lorsqu'on saisit 2 mots-clefs, le moteur va proposer les contenus avec le 1ère mot-clef OU l'autre mot-clef OU les 2 mots-clefs. Cela permet un résultat de recherche très large, mais parfois il est nécessaire de restreindre la recherche. Il est alors possible d’utiliser les « opérateurs booléens » qui sont des symboles à mettre avant ou après les mots-clefs, pour indiquer au moteur de recherche comment traiter ces mots-clefs en particulier (ex : mot obligatoire, à exclure, chaine de mots exacte, etc.)."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:621
-#: 66902228e0a24f2d918ac6ae2cbde6ff
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:276
+#: fac4ab531b0440d894dad278a230adc7
+msgid "**Principaux opérateurs booléens :**"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:278
+#: 12d6eb2c268f4b71a61c20d0b0a098b6
 msgid "**AND** : intercalé entre les mots-clefs permet d'indiquer au moteur de recherche qu'il faut que tous les mots clefs soit présents (ex: Mémoire AND Technique AND Fonctionnalités)"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:622
-#: 6788639cefe946a2b8ee56e718289f54
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:279
+#: 8a0a1967f1304f35a85a58acff543828
 msgid "**+** : ajouté devant un mot-clef permet de le rendre obligatoire (ex : Mémoire Technique +Fonctionnalités) pour indiquer au moteur de recherche que parmi les termes saisis, certains doivent obligatoirement être présents dans le document recherché."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:623
-#: 3a7d1f391a9141c9a61c0fdb969b4e35
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:280
+#: 5b0a7bc094684036a3839c6ec7bb739b
 msgid "**\"...\"** : appliqués sur une suite de mots permet de rechercher une expression exacte (ex : \"Mémoire Technique et Fonctionnalités GoFAST\") et donc d’indiquer au moteur de recherche d’exclure les documents qui contiennent ses mots clefs s’ils ne sont pas exactement comme dans l’expression saisie."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:624
-#: ae2c275f3e704a8aaec4711d18941e2c
-msgid "***** : ajoutée à la fin ou au début d’un mot-clef permet de le rendre approximatif (ex : Fonction*) et donc d’indiquer au moteur de recherche d’afficher les documents qui contiennent tous les termes qui ont pour racine le mot-clef sais."
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:281
+#: 63e2e3b4080b4e06b7a41dcb340a6200
+msgid "***** : ajoutée à la fin ou au début d’un mot-clef permet de le rendre approximatif (ex : Fonction*) et donc d’indiquer au moteur de recherche d’afficher les documents qui contiennent tous les termes qui ont pour racine le mot-clef saisi."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:630
-#: 5922af15f8794d34adaac13ad8b693ff
-msgid "Consulter le résultat de Recherche"
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:287
+#: ef238aa90ced45748796c3b770fbfccf
+msgid "Résultat de recherche"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:631
-#: af6804983ea3494b8d4a80a796a43040
-msgid "Pour connaître la manière dont GoFAST restitue un résultat de recherche, merci de consulter la partie : \"Le moteur de recherche restitue le résultat selon la pertinence\""
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:290
+#: 31d0d3a369094292bdd77f8c54c162ef
+msgid "Affichage du résultat par pertinence"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:634
-#: 05262b5e07b24abca37f2f6c4a195503
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:295
+#: adf79486e2a84e79bd3c3a5781a92a69
+msgid "Tout un ensemble de critères est pris en compte dans le calcul de cette pertinence, dont :"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:292
+#: f59e7bf3e7ac415f9a3a9d521b12c431
+msgid "le nombre d’occurrences des mots-clefs recherchés,"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:293
+#: 902e24fad8bd4824a5c97185a6fec5d5
+msgid "les emplacements des mots-clefs (ex : titre du fichier, d’un paragraphe dans le document…),"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:294
+#: 9886666cb9b74ea1b1078a6a19daddde
+msgid "les dates de création et modification (ex : un contenu récent sera privilégié vis-à-vis d’un document ancien),"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:295
+#: 2b847c8b2730450c9c1553917413233e
+msgid "la popularité des contenus (ex : un document consulté souvent sera privilégié vis-à-vis d’un document qui n’a pas été consulté depuis des mois)."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:298
+#: 7be1a0197e1b4819b9adc666a88b4d58
+msgid "Actions depuis le résultat de recherche"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:306
+#: 75dee22c10dd4138a6e110ad60796f3d
 msgid "Pour chaque document affiché dans le résultat de recherche, vous pouvez consulter :"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:635
-#: b9a53d3ba9ab4c70a615336639ca7dd2
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:300
+#: 95b400083e20446ab42581cbc0eac1f2
 msgid "L’icône indiquant le type du document (fichier texte, tableur, PDF, image, vidéo…) ou autre contenu (forum, page Wiki, profil utilisateur, Espace Collaboratif…),"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:636
-#: 7443d4ea13354ff699c748a18257a828
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:301
+#: 6d6c486de2e44ef8bd3b950aee3450be
 msgid "Le titre du fichier (un clic dessus permet d'aller sur la page du document),"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:637
-#: a48829ce8cf34e67adbc841c0d3e56e7
-msgid "Le menu des actions possible sur un document (icône avec 3 petite barres à droite du titre du document),"
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:302
+#: 5e9c41791cbf4fe080ddd403047cf12b
+msgid "Le menu « Burger » (les actions contextuelles) sur un document (icône avec 3 petite barres à droite du titre du document),"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:638
-#: 172c6777b0c545748c9976e654f14e63
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:303
+#: db099d8c6d1e48b4be53295a920912ec
 msgid "Des \"fragments\" de texte qui sont des extraits du contenu avec les mots-clefs recherchés et qui permettent de vérifier si le document est bien celui que l’on cherche sans avoir à l’ouvrir (si plusieurs extraits sont trouvés, il est possible de les consulter l’un après l’autre en utilisant la pagination),"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:639
-#: 77b5e9d0e9ae47cf8b36711fd986779f
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:304
+#: 75554b3df8d5446d9c06298a519be1d7
 msgid "Un bouton \"prévisualiser\" qui permet d’afficher un aperçu du document en un clic (NB : certains contenu ne le permettent pas car ne bénéficient pas la prévisualisation)"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:640
-#: befc739b5156473c836a381d36cf6680
-msgid "Des informations clefs sur le contenu (date de création/dernière modification, la popularité...)"
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:305
+#: a7d22df606c74225858796177ee230a0
+msgid "Des informations clefs sur le contenu (dont date de création/dernière modification et le(s) Espace(s) ù se trouve le document)"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:641
-#: 7b41d9d00e84480ba79d900c9456ea81
-msgid "Les étiquettes, catégories, l'importance et les états des documents."
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:306
+#: d159d7f2811e468d857275c9fcbe37fd
+msgid "Les métadonnées associées aux documents, dont : étiquettes, catégories, importance et états des documents."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:647
-#: 052f1797c34142318b0bd777f30d50e0
-msgid "Recherche contextuelle dans un document :"
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:313
+#: 03a6ee1606e24198a3b140adf5388d62
+msgid "Recherche contextuelle dans un document"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:648
-#: e29fff426a934620afe9427b0350bd60
-msgid "Le résultat de recherche permet de cliquer sur les mots-clefs mis en gras dans les titres et dans les extraits des contenus trouvés. Ces mots en gras permettent une recherche contextuelle dans un document : en cliquant sur un mot-clé mis en gras, vous accéder à la page du document avec dans la prévisualisation, la mise en évidence des mots-clefs recherchés et la possibilité de les passer l’un après l’autre. Cette recherche contextuelle offre un important gain de temps lorsqu’il faut trouver un élément précis dans un document en particulier ou pour en faire une lecture rapide."
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:314
+#: ef0007334b51456e86a7c7bf21bdd346
+msgid "Le résultat de recherche permet de cliquer sur les mots-clefs mis en gras dans les extraits des contenus trouvés. Ces mots en gras permettent une recherche contextuelle dans un document : en cliquant sur un mot-clé mis en gras, vous accéder à la page du document avec dans la prévisualisation, la mise en évidence des mots-clefs recherchés et la possibilité de les passer l’un après l’autre. Cette recherche contextuelle offre un important gain de temps lorsqu’il faut trouver un élément précis dans un document en particulier ou pour en faire une lecture rapide."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:653
-#: f7c63dbcf825483eacd6387b4f39fef8
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:320
+#: 6871e96153244e5abcb8f5b13aa31a6a
+msgid "Options de Recherche"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:323
+#: 099dc8a77e6c4aac8d5e7cb93dcca962
+msgid "Recherche normale ou stricte"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:324
+#: 0df859b34c1145f698aafa3e20accd6b
+msgid "La recherche stricte est une option qui signifie que tous les mots-clés renseignés dans la barre de recherche sont obligatoires et qu’ils doivent être impérativement présents dans les documents listés dans le résultat de recherche. Pour chaque document indexé, ces mots clés se trouvent soit dans son titre, soit dans son contenu, soit dans les commentaires et les métadonnées. Pour activer/désactiver cette option, sur la page d’un résultat de recherche, allez dans le bloc des Options de recherche et cliquer sur « l’interrupteur ». Il est en couleur si activé ou grisé si non activé."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:332
+#: 9535578b25fb4cea8320f613a97f3c14
+msgid "Si vous utilisez des « Opérateurs booléens », notez que les mots clés précédés par un tiret « - » sont exclus de la recherche. Exemple : « Réunion février 2019  -Mardi » ( Tous les documents contenant le mot clé «Mardi» seront exclus des résultats )."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:337
+#: f0630ffad5264ba8be966f7e4e4ce62b
+msgid "Autres options de recherche disponibles"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:339
+#: 3444a9e5ef044bf79cbcd84447f2e2bf
+msgid "**Conserver les filtres** (permet de changer les mots-clefs saisis dans sa recherche, sans avoir à remettre ses filtres entre deux recherches)"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:341
+#: 9ed8398f3a9341709c7175f09db82cf5
+msgid "**Rechercher uniquement dans le titre**"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:343
+#: 154fcdb92c8f4c189e980ac426957223
+msgid "**Rechercher les contenus archivés** (état « pré-archivé »)"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:345
+#: 34cb5892bb0a462aa6fed184f33e60a9
+msgid "**Rechercher les contenus obsolètes** (état « Obsolète »)"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:347
+#: a42efc74f3594ee388afe70c7d600bdb
+msgid "**Rechercher dans la corbeille** (pour retrouver un document supprimé et restaurable)"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:351
+#: 08590ac5becc4fbfbb36bb3946dc5423
 msgid "Filtrer le résultat de recherche"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:654
-#: 1e942860564e446d957d8369763a3267
-msgid "Dans le cas où les mots-clefs saisis ne permettent pas de retrouver rapidement le document recherché, GoFAST propose de nombreux filtres. La liste des filtres est conditionnée au résultat de recherche, ex : si pour les mots-clefs saisis il n'y a aucun document de type PDF, ce format ne sera pas proposé dans les filtres disponibles."
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:352
+#: 70ed52289c7a40bb97d9f4abbac669d0
+msgid "Dans le cas où les mots-clefs saisis ne permettent pas de retrouver rapidement le document recherché, GoFAST propose de nombreux filtres. Pour appliquer des filtres, il faut aller dans le bloc des filtres, à droite du résultat de recherche, puis déplier les types de filtres souhaités (ex. Catégories, Etat, Date de création, Type, etc.). La liste des filtres est conditionnée au résultat de recherche, ex : si pour les mots-clefs saisis il n'y a aucun document de type PDF, ce format ne sera pas proposé dans les filtres."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:657
-#: 4bfccbb835134d7fa1ad0eb9f0334c08
-msgid "Groupes de filtres disponibles :"
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:358
+#: e14b42dd13914835aa30ab880940c6c2
+msgid "La plupart des métadonnées que vous pouvez associer à un document, ou qui sont générées automatiquement (ex. date de création), peuvent être utilisées comme filtre du résultat de recherche."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:659
-#: ef43c5bcf9994dbb94b7b088809adef0
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:360
+#: ad173b8810e54d82bcb3b56515e31a1e
+msgid "**Filtres disponibles :**"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:362
+#: 38449201a2c14815b6343de4e0e8ad80
+msgid "Entre parenthèses, le nombre de documents disponibles en ajoutant ce filtre est affiché)"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:364
+#: 10852ca249574f66be74130788eb00ff
 msgid "Date de création,"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:660
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:686
-#: d8ed651891484c23b5524f6e50c17e02
-#: ccf220b7e45b4690ae5e84e3babf15e4
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:365
+#: 74e2f0ae320c46dda6ce9eb291ffb8e5
 msgid "Date de modification,"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:661
-#: 7f39406e67ab497e92a01bd993103aff
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:366
+#: 3c9849e8a6234036aa889e33500bbe7c
 msgid "Type de document (selon le format de fichier),"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:662
-#: 795a8f7ee2ed469bb6393824e69307cf
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:367
+#: 76ed1ef86f4647918c54de388a441e82
 msgid "Etiquettes,"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:663
-#: 514b863cf94040208bebfacd54c51fbf
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:368
+#: 4f74c5904b094801b94b0f7a6b2dc3c8
 msgid "Catégorie,"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:664
-#: 658c24d0080649b889d5e39be9eb55e4
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:369
+#: b7b353517ede435087d8e5374d44539a
 msgid "Espaces Collaboratifs,"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:665
-#: 8022bd4212604cc8b9ef7805a84062d7
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:370
+#: 076f3c36ec3945aeb041ac3ce3d9cafc
 msgid "Créateur,"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:666
-#: 5c3de49c118642dda99c4a4a13d0530b
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:371
+#: c006871f135e4cb1a3595f02f289ef41
 msgid "Dernier contributeur,"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:667
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:683
-#: 9e2ff6452a3f42c68143a1c0a48dff18
-#: 508617d5bca8456f8567fe167c6c2728
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:372
+#: 20c7040473534abb890a948a57a19ef1
 msgid "Auteur,"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:668
-#: a395c15f400b424b9006f9c251df5ac7
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:373
+#: 013099d2eb704d71b6836a9e7541afb9
 msgid "Etat,"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:669
-#: 6949935911cc4bfcbff0a7d88bef61b5
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:374
+#: e41195d898ed4498a401d7c339218239
 msgid "Importance,"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:670
-#: d96a8a8040f74e1eb3a0dd3661fd3b76
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:375
+#: a9fe93fb46d9481286f7988338c4e1a7
 msgid "Langue,"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:671
-#: 210b7a6a09ea473f8ecf72f4d0b9924f
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:376
+#: 27e80b9dc1224be1926b3106baf2434b
 msgid "Echéance."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:677
-#: 5b0778f0e241434fa56bb010e7ff7d55
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:378
+#: 358b5f2051c44af5803c561eb86013d5
+msgid "Il est possible d’effacer les filtres de recherche un à un, en cliquant sur la croix rouge correspondante, dans le bloc à droite du résultat de recherche."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:382
+#: d58da2f13fe442f79af40dbfe91405ec
 msgid "Trier le résultat de recherche"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:678
-#: d7890e612b5044a9a5867fadf670f98c
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:384
+#: e8cc2ce1d5d6431c8e84c204edd131a5
 msgid "Par défaut, le résultat de recherche classe les documents par pertinence selon les mots-clefs recherchés (voir \"fonctionnement du moteur de recherche\")."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:680
-#: 0349a6cae80c48bca285476689b101cd
-msgid "Il est toutefois possible de modifier de tri pour classer les contenus par :"
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:386
+#: 0ec59bba60d2464bb1dd2ac73aade26f
+msgid "**Il est possible de modifier de tri pour classer les contenus par :**"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:682
-#: 110cd7f3811b46ef96f15ad368bc186e
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:388
+#: 3da29ebff7a345899319bcbb69b3dbd1
 msgid "Titre (ordre alphabétique)"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:684
-#: 9dd970d4e09543038909c63b93051c87
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:389
+#: 0315e7a93c384994bfad18fee678d84f
+msgid "Auteur"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:390
+#: 5e62d7f8485d419b992ac29544d43bbb
 msgid "Popularité"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:685
-#: c1a1d01cb01f4805a37a4a5389b0f33a
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:391
+#: aa64bf0f7c7d47968d8a98fd0ee505ec
 msgid "Date de création"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:687
-#: 42c75b62ef3b41a1a37cd601a32539fa
-msgid "Type de document"
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:392
+#: 7349e2996e0547f0ba912cf9e328791e
+msgid "Date de modification"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:689
-#: 926ceec1ed2343f6b4790242b5878f4e
-msgid "trier le résultat de recherche sur un autre critère que la pertinence, peut afficher en haut de la liste des contenus qui correspondent mois bien aux mots-clefs saisis car le critère sélectionné pour le tri prime."
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:393
+#: 1d246c473c354b4fba7a80bd3f3d30d5
+msgid "Type/Format"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:692
-#: 3306b6a85ffc40c3a0b6ff3cf72cd188
-msgid "Sauvegarde des critères de recherche"
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:396
+#: 3353015c639848ae9acd964dfd091542
+msgid "trier le résultat de recherche sur un autre critère que la pertinence, peut afficher en haut de la liste des contenus qui correspondent mois bien aux mots-clefs saisis, car le critère sélectionné pour le tri prime. Pour affiner votre recherche, il est donc plutôt conseillé d’utiliser les filtres qui se trouvent dans le bloc à droite du résultat de recherche."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:693
-#: e76efd6345a84731bb56b55dbb4e64ff
-msgid "Avec GoFAST, il est possible de sauvegarder manuellement plusieurs recherches prédéfinies et les relancer en un clic en cas de besoin. Cela permettra un gain de temps considérable. Pour enregistrer une sauvegarde, il suffit de taper le mot clef dans la barre de recherche puis cliquer sur la « loupe » ou faire « Entrer » sur le clavier. Une fois que votre recherche est validée et vos filtres sont appliqués, aller dans le volet « Recherche actuelle » et cliquer sur la disquette dans le coin à droite, donner un titre à votre recherche puis appuyer sur « Enregistrer »."
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:400
+#: de3dd72bb2324058890bed8ace28be09
+msgid "Sauvegarde sa recherche"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:702
-#: 947efcf38da04a4089e6858ab601093b
-msgid "Pour accéder aux recherches sauvegardées, vous avez deux possibilités :"
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:402
+#: c3111bd04e014478acd0282524d1ea83
+msgid "Avec GoFAST, il est possible de sauvegarder manuellement plusieurs recherches prédéfinies et les relancer en un clic à tout moment. Cela permet un gain de temps considérable."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:704
-#: c4d31d9d59f24a89a4d048d218045038
-msgid "Dans la barre de recherche, à droite il suffit de passer la souris sur la petite fléchette à coté de la loupe, une liste s’affichera contenant les titres des recherches enregistrées. A ce niveau, vous pouvez accéder seulement à votre recherche en cliquant sur le titre souhaité."
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:404
+#: 1b9bb1d264a84c91a07a7d13a835a70d
+msgid "Une fois votre recherche au point (avec ou sans mots-clefs, avec vos filtres), il suffit de cliquer sur la disquette dans le bloc de droite (au-dessus des options de recherche), donner un titre à votre recherche puis appuyer sur « Enregistrer »."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:712
-#: b9fe92b1ec024f44bc63634ca418e9ca
-msgid "Á partir du bloc de recherche (Filtres) dans le volet « Mes recherches enregistrées », à ce niveau vous pouvez :"
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:410
+#: eb0b85ef610b423684441ce87811174d
+msgid "**Pour accéder aux recherches sauvegardées, vous avez deux possibilités :**"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:710
-#: 65c241a912ce492082614858aefe698f
-msgid "Exécuter votre recherche en cliquant sur le «Titre»,"
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:412
+#: 7378b4e46a994d20a0613d2efcdbaf62
+msgid "Dans la barre de recherche, à droite il suffit de cliquer sur la flèche descendante."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:711
-#: 711c5bfa3f8d4edaa454540ed68a26c5
-msgid "Remplacer la recherche sauvegardée par la recherche courante en appuyant sur la «Disquette»,"
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:414
+#: 61ab09fe53da4c8789d502892f1b7058
+msgid "Depuis le bloc de recherche à droite, onglet « Mes recherches enregistrées », à ce niveau vous pouvez :"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:712
-#: 0b607c354bfe43068fe0d8b0b45b0e97
-msgid "Supprimer cette recherche en allant sur le bouton «Corbeille»."
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:416
+#: a716a39ba34b42768b0e93c65cf4ba34
+msgid "Exécuter une recherche sauvegardée en cliquant dessus,"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:719
-#: fd8efb419da24b9a9c1b6d5fed3decd9
-msgid "Recherche stricte"
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:417
+#: 4ff9c2d781574ba3911af9877237be65
+msgid "Remplacer « écraser » la recherche sauvegardée par la recherche courante en cliquant sur la « Disquette », Supprimer cette recherche en allant sur le bouton « Corbeille »,"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:720
-#: d8c0ccc25ffa44fea3a45303ba722eb2
-msgid "La recherche stricte est une fonctionnalité activée par défaut sur GoFAST, elle signifie que tous les mots clés renseignés dans la barre de recherche sont obligatoires et qu’ils doivent être impérativement présents dans les documents listés dans le résultats de recherche. Pour chaque document recensé, ces mots clés se trouvent soit dans son titre, soit dans son contenu, soit dans les commentaires et les métadonnées."
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:418
+#: 4c40daf400d44971b993689a6ec84115
+msgid "Supprimer une recherche sauvegardée en cliquant sur « Corbeille »."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:726
-#: aa547c55290848c8bd9addd4926191b5
-msgid "Notez que les mots clés précédés par un tiret « - » sont exclus de la recherche. Exemple : « Réunion février 2019  -Mardi » ( Tous les documents contenant le mot clé «Mardi» seront exclus des résultats )."
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:423
+#: 7cb57c9671234c24b96b7daf8f2c5dc6
+msgid "Explorateur de fichiers GoFAST File Browser"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:733
-#: 4a74414064b94eb585b2380adabe1dc7
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:426
+#: 56e2465aa8a24aaf8467a7640fe4beb1
 msgid "Accéder à l'explorateur de fichiers GoFAST"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:735
-#: 9abc6ec6df1a4a2f81fbd4e266faeab7
-msgid "Il existe 3 façons d'accéder à l'explorateur de fichiers GoFAST File Browser :"
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:428
+#: 530b3352e0874414a0d0d63a943581f3
+msgid "Il existe 4 façons d'accéder à l'explorateur de fichiers GoFAST File Browser :"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:737
-#: 123ee707426f45c6b99eb7cb9b547be4
-msgid "Vous pouvez afficher l'explorateur de fichier GoFAST depuis le menu principal en allant dans \"Espace\", puis sur \"Explorateur\"."
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:430
+#: 336804d0355f47caa0aad20448d6f329
+msgid "Depuis la barre des accès rapides (menu principal du haut), en allant sur l’icône « Dossier », puis un type d’espace et dans le menu qui s’affiche vous pouvez naviguer dans l’arborescence des Espaces pour aller sur celui que vous souhaitez. Vous serez redirigé vers la page de l’Espace et arriver par défaut sur l’onglet « Document » où il y a l’explorateur de fichiers."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:742
-#: e3a042fd21c1409db534f895ede5165a
-msgid "Vous pouvez afficher l'explorateur de fichier GoFAST depuis la page d'un espace en cliquant sur l'onglet \"Documents\""
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:435
+#: eec0acc9212e4755888eaa5c6846d52d
+msgid "Si vous êtes sur la page d'un Espace, cliquez sur l'onglet « Documents »."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:747
-#: 004c920b5fe845b0b75a5b625316516d
-msgid "Vous pouvez à tout moment déplier le bloc de l'explorateur de fichiers qui est caché à gauche sur chaque page de GoFAST"
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:440
+#: 545c663587794df994c37a94c5d6beef
+msgid "Depuis le menu principal de gauche, allez sur « Espaces Collaboratifs » et vous serez alors redirigé vers la page d’un Espace, onglet « Documents »."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:753
-#: 981407476d704e19b96f24e913a4c3fe
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:442
+#: d291b2d4ce7a42bea7ba261bc946a4fe
+msgid "Vous pouvez à tout moment déplier le bloc de l'explorateur de fichiers qui est caché à gauche (petite icône avant le menu principal de gauche). Cet explorateur est disponible sur presque toutes les pages de GoFAST, dont la page d’un document."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:449
+#: d27a8ef13ea849ac8e1d5c52d9950bc2
 msgid "Se repérer dans GoFAST File Browser"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:755
-#: f01b7000105d41c6bd308421a6046fe2
-msgid "L'explorateur de fichiers GoFAST comporte 4 zones distinctes :"
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:452
+#: 578cea600cf543489cf1840d42858603
+msgid "Se repérer dans l’explorateur de fichiers"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:757
-#: fda7cfb1ddfc48d5ad856b63217c05a1
-msgid "Barre de tâche (zone horizontale en haute)"
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:454
+#: af121f393f414f878a2e5ca150637459
+msgid "**L'explorateur de fichiers GoFAST comporte 4 zones distinctes :**"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:758
-#: 7edff9912e444b3492270ce0696090f7
-msgid "Bloc structure de l'arborescence (zone verticale à gauche)"
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:456
+#: cdd4ae943eb246c7bd2b0696582c9ed1
+msgid "Menu des actions (barre horizontale en haut de l’explorateur de fichiers)"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:759
-#: 57df7596266642e5bd8b3ee842ad2657
-msgid "Bloc principale affichant le contenu d'un dossier (zone la plus large, centre-droit)"
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:457
+#: ac43cb9d03ea47d5aad4c08d01542230
+msgid "Zone structure de l'arborescence (zone verticale à gauche)"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:760
-#: c696bc6614da4583ac641e327b3a6181
-msgid "Bloc de progression (zone horizontale en bas)"
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:458
+#: 1469e311bf974d67a19423c08107c4b9
+msgid "Zone principale affichant le contenu d'un dossier (zone la plus large, centre-droit)"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:765
-#: e0f6a5cea522433c98c98dcea439d210
-msgid "Les divers contenus affichés dans l'explorateur de fichiers sont identifiés par des icônes selon leur type ou format de fichier. Chaque type d'espace collaboratif ou votre espace privé disposent d'une icône distincte. Les répertoires dits classiques sont représentés par des icônes \"Dossier\"."
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:459
+#: 2e46c3d0f0794ad6ab8e2b65fd2395c7
+msgid "Zone de chargement, avec la barre de progression (zone horizontale en bas)"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:768
-#: dad638736f87417a9074e516f3cfa92d
-msgid "Pour plus de lisibilité, vous pouvez redimentionner les blocs 2, 3 et 4 ainsi que les en-têtes des colonnes de l'explorateur."
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:464
+#: dd5e11c93e21455f830685cdad174ccd
+msgid "Les divers contenus affichés dans l’explorateur de fichiers sont identifiés par des icônes selon leur type/format de fichier. Chaque type d’espace collaboratif a une icône spécifique (Organisation, Groupe, Extranet, Public, Personnel). Les dossiers dits classiques sont représentés par l’icône « Dossier »."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:774
-#: e0b7e2743d674bb2a5621a334dafe644
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:472
+#: 923a7343508146d4a88b5c8f100a4469
+msgid "Dans la zone principale, les dossiers et fichiers sont présentés sous forme de tableau avec pour colonnes :"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:468
+#: bb132ba7d5e244d0954c5ad3f067736b
+msgid "Le nom du dossier ou du contenu (le titre)"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:469
+#: 543228d802ed449e994cb4b7ed9d3ae2
+msgid "La taille"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:470
+#: 4bce7b30a109445f8dcc038915e388b6
+msgid "La type de dossier ou le format, l’extension du fichier"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:471
+#: bc2ae8823aba4080ae3d803832b2be0f
+msgid "La date de dernière modification"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:472
+#: 9ba8a732c37344529ee45539461efd71
+msgid "Infos : vos droits associés aux dossiers ou contenus et les partages en vigueur"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:475
+#: aab5efd2cfa348d6bd86fbaed32a15be
+msgid "Pour plus de lisibilité, vous pouvez redimensionner les blocs 2, 3 et 4 ainsi que les en-têtes des colonnes de l’explorateur."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:481
+#: a17805894cfe4a39872e2140076819c4
 msgid "Dans la zone principale à la première ligne, vous disposez d'un bouton qui permet de revenir à l’emplacement précédent."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:780
-#: 05c815a5da824fa79960746fe25ac5ff
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:488
+#: b45f25a9c9874f3790985bfd66e3ed5e
+msgid "Comprendre les icônes (Multi-emplacement et permissions)"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:490
+#: 7b7ee499e68247ce9a9a8800acac64e4
+msgid "Dans l’explorateur de fichiers, il existe plusieurs icônes communes dans la colonne « Info » de la zone principale. Ces icônes donnent des informations concernant le multi-emplacement et vos permissions sur les documents, les répertoires et les espaces. L’objectif de cet affichage est de simplifier le travail de l’utilisateur et d'éviter la duplication inutile des éléments."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:496
+#: 74b4bfd8aff3484389ac8fd45465b0a2
+msgid "**Ci-dessous la liste des icônes et leur signification :**"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:499
+#: 0dd403cfe8414e9ab33e93146a98df7b
+msgid "Icônes"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:499
+#: 61f95b5c0ec542e7a4c7451db488488b
+msgid "Permissions"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:499
+#: 92f892d9895541beb915b375bc8f4c64
+msgid "Significations"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:501
+#: d74ac4b8cf304c719b0876bb52697c83
+msgid "Lecture Seule"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:501
+#: aac467f54e624903980150df127f290d
+msgid "Vous avez des permissions de lecture seule, vous pouvez voir tous les contenus de ce dossier / cet espace mais vous n'aurez pas de permissions supplémentaires."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:504
+#: 5fa02100838e4a7d8568fdda4c9a42c7
+msgid "Contributeur"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:504
+#: 4ec565c36d8244e8ac924b4e0998ea9e
+msgid "Vous avez des permissions de contribution, vous pourrez collaborer sur tous les contenus de ce dossier / cet espace."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:507
+#: 87f7ca05353346169ec8937665eab55a
+msgid "Propriétaire"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:507
+#: f9bb32b43cc74920b43adcc7b75ab3a5
+msgid "Vous pouvez gérer ce contenu (édition, suppression) car vous avez des droits de créateur sur celui-ci."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:510
+#: 001677439a70420a8c72bf11c1e5aab5
+msgid "Administrateur"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:510
+#: 880122bbe1434ccea33db9bc2f26e923
+msgid "Vous avez des permissions d'administration, vous pouvez gérer tous les contenus de ce dossier / cet espace."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:513
+#: 00472b2c33fc4542a8653caa72ce20ad
+msgid "Partagé"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:513
+#: 614dd54abd614e35bad8a38bc9573cd2
+msgid "Ce contenu est dans plusieurs emplacements mais vous n'avez pas accès à tous ces emplacements."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:516
+#: c340e42df699496b84ed91c08e83051e
+msgid "Catégorie spéciale"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:516
+#: 04487c96f3c64bbf825fcbd92469c6c9
+msgid "Vous pouvez seulement consulter ce contenu et le commenter car il a des permissions spéciales (archivé, DUA...)."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:522
+#: 39a66b2b6d824f5d98ee8f9c1634a802
 msgid "Déposer des fichiers sur GoFAST via l'explorateur"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:782
-#: d3a114e0c90746c9a2e4905c792fda3f
-msgid "Pour déposer des fichiers depuis votre PC vers GoFAST, il est conseillé de faire un *Glisser/Déposer* directement dans l'espace ou le dossier souhaité."
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:524
+#: d8ea041811f04aa9bbab8cc7f8ba8816
+msgid "Pour déposer des fichiers depuis votre PC vers GoFAST, il est conseillé de faire un Glisser/Déposer directement dans l’espace ou le dossier souhaité."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:785
-#: f2f0f763046a4f1aa76a4d5717e2c1d6
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:528
+#: 2b70ba6c2281446193a1bc0a54fb0cbc
 msgid "Il faut déposer le(s) fichier(s) soit dans le cadre principal (zone 2 sur la copie écran ci-dessus), soit dans le cadre à gauche où il y a l'arborescence (zone 3 sur la copie écran au-dessus)."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:787
-#: 08921c9b66554b84a664b17dc8c5e721
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:530
+#: a9362069da8b447ab658a7b858ad4899
 msgid "Les fichiers ainsi déposés sont chargés et la progression est affichée dans la zone horizontale en bas de l'explorateur. Vous pouvez à tout moment cliquer sur *Pause*, *Annuler* ou bien *Reprendre* le chargement."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:790
-#: d4b0159765f045d0b36c71d97000cc75
-msgid "Le chargement se fera uniquement si vous avez les droits pour déposer des contenus dans l'espace concerné. Pendant le chargement des fichiers depuis le PC vers GoFAST, ne pas supprimer, ni déplacer les fichiers côté PC car pour charger il faut conserver l'emplacement d'origine, autrement GoFAST ne sais plus depuis où il faut les récupérer ."
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:534
+#: 3eae8a570c9e4a83a0bd24c3f1c96f93
+msgid "Le chargement se fera uniquement si vous avez les droits pour déposer des contenus dans l'espace concerné (dont non autorisé pour les membres ayant le rôle « Lecture Seule » dans l’Espace)."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:794
-#: eb9dc4f6a3d34102a718e1561baa11dd
-msgid "Utiliser la barre d’outils de GoFAST File Browser"
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:538
+#: b0e0e2be12ad47bf80910b03eaafdeb2
+msgid "Pendant le chargement des fichiers depuis le PC vers GoFAST : ne pas supprimer, ni déplacer les fichiers côté PC car pour charger il faut conserver l'emplacement d'origine."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:796
-#: 34108849af4843149d0af6a929614ce9
-msgid "La barre d'outils de l'explorateur de fichier permet d'effectuer les action suivantes :"
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:542
+#: 699671c2f3994f06852ecb9afc3396ab
+msgid "Barre d’outils de GoFAST File Browser"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:799
-#: 5902b8590023447abe5a98f174e07d4d
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:544
+#: d3b614694a7d48e4858a871da15da3d0
+msgid "La barre d’outils de l’explorateur de fichier se situe dans la partie haute de l’écran."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:546
+#: d6b688b6eda74087b15a92398545b192
+msgid "En survolant les icônes avec la souris, vous verrez à quelle action elle correspond avec un petit mot affiché sous l’icône."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:548
+#: 289a2d8c3bdc461eabe3873c2935931a
+msgid "Les actions possibles depuis cette barre sont listées si après."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:552
+#: c7dab307e542448da87180294db2fe23
 msgid "Modifier la manière dont sont affichés les contenus"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:806
-#: c36df33a4d0349998405c31d8a9978f9
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:559
+#: ae201b84bff642f7b6d790b0a7a1f3f1
+msgid "Le mode d’affichage de l’explorateur choisi s’applique instantanément partout."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:563
+#: a1386dbb3f38416484b71e6dafbb1cbe
 msgid "Créer un nouveau contenu dans le dossier sectionné"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:808
-#: 6ce46811f4af4eeba3826d3421171fa1
-msgid "Si vous appuyez sur le bouton *Nouveau* puis *Dossier*, cela vous permet de créer un nouveau dossier à cet emplacement. Il vous suffit ensuite de le nommer, puis valider."
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:569
+#: d3a106b74c0744e58dad3dff249aba8e
+msgid "Si vous appuyez sur le bouton Nouveau, vous avez le choix de créer à l’emplacement en cours :"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:813
-#: 774f8aea6bea43b98efc61efbb1a45ef
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:566
+#: 20fbb1e06c5743c49acef859de61dc8b
+msgid "Un dossier"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:567
+#: 709b4f555f6742e3a3ab4805ab318595
+msgid "Un dossier depuis modèle permet d’ajouter plusieurs dossiers selon un template d’arborescence préenregistré"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:568
+#: 7f35fcabd2e84350b67b3bd33f1ca7a5
+msgid "Un ou plusieurs documents"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:569
+#: 0955e44705f54c5baee6ab2784f1448c
+msgid "Un article (page Wiki)"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:576
+#: 09f19c481be045f3910f8a87dc31678d
 msgid "Pour créer un nouveau document dans l'emplacement où vous vous trouvez, cliquez sur *Nouveau*, puis *Document*. Vous serez alors ramené vers le formulaire de création de document avec l'emplacement présélectionné."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:816
-#: 79a622ce0b4b40aea78b114fd167b54a
-msgid "Gérer les métadonnées (taxonomie) et les emplacements d’un ou plusieurs contenu(s)"
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:580
+#: 2f2530d1bda44e94ba8b44a69302baa2
+msgid "Gérer les métadonnées (taxonomie) et les emplacements des contenu(s)"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:818
-#: 30f0b1a4cfd14f20bc6040387eb8eefd
-msgid "Pour pouvoir cliquer sur le bouton *Gérer* il faut au-préalable sélectionner un ou plusieurs dossier(s) et/ou contenu(s) dans la zone principale de l'explorateur de fichiers."
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:582
+#: e32699ae37f84ef49a4704ba595681d3
+msgid "Pour pouvoir cliquer sur le bouton « Gérer » il faut au-préalable sélectionner au moins un dossier ou contenu dans la zone principale de l’explorateur de fichiers. Une fois les éléments sélectionnés, vous pouvez réaliser des actions en masse via ce bouton « Gérer », c’est-à-dire sur plusieurs fichiers ou contenus simultanément."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:820
-#: b5eaf89d92eb4cf9b6967f3a891b35c5
-msgid "Une fois les éléments sélectionnés, vous pouvez gérer la visibilité des contenus (selon vos droits utilisateur) en cliquant sur *Gérer les emplacements*, ou bien modifier les informations de taxonomie."
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:585
+#: 43ad2ce5b70540928d150d012098b9e7
+msgid "**Les actions disponibles sont :**"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:822
-#: 1715730335d5422a9a47afdc8666f441
-msgid "Les modifications d'informations de taxonomie sont possibles sur : l'état, la catégorie, le(s) étiquette(s), et la langue. Dans le cas où vous ne souhaitez pas modifier tous ces éléments, laisser le champ positionné sur *Ne pas modifier*. Ces informations serviront ensuie dans les filtres de la recherche automatique pour réduire la liste des résultats."
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:587
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:697
+#: 57d4577b920b452595c27b96de0b5d13
+#: 9e682c4094f6442eb647618625907e57
+msgid "Gérer les métadonnées"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:828
-#: 6aee4a503e9e4c3cb23fab5c6509f95a
-msgid "Créer en masse les Publications de documents (en v 3.6)"
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:588
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:698
+#: f5d2a882481e4c008ae0eef89558fe6e
+#: 7a468ce33d7f41a6864a37de15e97d53
+msgid "Partager / Ajouter des emplacements"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:829
-#: 1aa35ac57f604cf2b1fd5ea32de16f80
-msgid "Il est possible de générer des publications depuis une sélection de document de travail pour partager dans d'autres Espaces Collaboratifs des versions finies/validées, sans partager tout l'historique des versions et commentaires des documents de travail. Les publications sont ainsi largement partagées et les documents de travail restent accessibles uniquement dans les Espaces d'origine."
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:589
+#: 05e62030946e4bb0957db8c7431c3cea
+msgid "Créer des publications"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:832
-#: 3c34c4a992d845dd9efbe79bff252a84
-msgid "Cette fonctionnalité est possible unitairement sur la page d'un document, mais aussi en masse depuis GoFAST File Browser (à partir de la v3.6)."
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:590
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:700
+#: bb8011b6be7a4c17b745651d9fea59a0
+#: 86d2d897a30b4422bfeb919ac9ccba47
+msgid "Partager par email"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:834
-#: 1e31cb7cdc0c46c4acb5f782d32326c7
-msgid "Après avoir séléctionné les documents souhaités, il suffit de cliquer sur *Gérer*, puis sur *Créer des publications*."
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:591
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:701
+#: 4644489c74554678b747d016560ebdd4
+#: 2abe73ad525047b4a058149f89630c17
+msgid "Pré-Archiver"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:839
-#: c0c43838bc604746ae45357ec8d6dca5
-msgid "Le formulaire de gestion des publications s'ouvre et il faut alors cocher les emplacements où seront partagées ces publications. Il est possible de demander à convertir au format PDF ou de laisser les formats d'origine."
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:592
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:702
+#: 620ab9ae41e44035b00de2dbf6fd9453
+#: e84ab03414e549efb39c986eeb89da8c
+msgid "Ajouter au panier"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:845
-#: b88fc7ef278c485091fbe83fa92191b0
-msgid "Les publications sont une fonctionnalité clef pour une gestion efficace et en toute sécurité des documents."
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:594
+#: cf4e0fb4cf854a3da41b1b680d041c82
+msgid "Les modifications d'informations de taxonomie sont possibles sur : l'état, la catégorie, le(s) étiquette(s), et la langue. Dans le cas où vous ne souhaitez pas modifier tous ces éléments, laisser le champ positionné sur *Ne pas modifier*. Ces informations serviront ensuite dans les filtres d’un résultat de recherche."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:849
-#: 62bd4fa415624eda87a9c5729a801772
-msgid "Archiver en masse les documents (en v 3.7)"
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:601
+#: 629dc47e7c9a486f9f4e7e082e3cdbe0
+msgid "Filtrer les contenus"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:850
-#: a2d997937d9f40cd93922f69d8fb937f
-msgid "Il est possible d'archiver une sélection de document de travail."
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:603
+#: 519bcda5feb3492c81634a70bceb0bd0
+msgid "Cette fonctionnalité permet de retrouver vos documents plus facilement dans le dossier où vous vous trouvez. Dans la barre *Filtre* (dans la zone principale de l’explorateur de fichiers), écrivez le titre du document que vous recherchez, et tous les documents du dossier seront filtrés."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:853
-#: dbf808c23a6346e89605cd92bcd326df
-msgid "Cette fonctionnalité est possible unitairement sur la page d'un document, mais aussi en masse depuis GoFAST File Browser (à partir de la v3.7)."
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:611
+#: a6308899fe7f4f0e9892719aacc867e6
+msgid "Copier/Couper/Coller un document"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:855
-#: b54e1e05e20847648a1816339c9337d8
-msgid "Après avoir séléctionné les documents souhaités, il suffit de cliquer sur *Gérer*, puis sur *Archiver*."
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:613
+#: 32405b1916054f56a6424b276ae02e07
+msgid "**Copier/Coller un document :**"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:862
-#: c61a3943fba24576b5a1de2b5ef9b3ea
-msgid "Partager par email en masse les documents"
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:615
+#: 5f9682032ec04e15ab4d81bef72fde62
+msgid "L’icône des 2 feuilles superposées permet de Copier le document sélectionné dans un autre emplacement de la GoFAST, il vous faudra alors ensuite appuyer sur la dernière icône quand vous voudrez coller le document à l’emplacement où vous souhaitez le coller, clic-droit de la souris et « Coller »."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:863
-#: df72324d57ec4c73a2afcc320b946e9a
-msgid "Il est possible d'envoyer plusieurs fichiers via un partage par mail."
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:617
+#: 218c2e6b777e488eb5ac7deecd6cc2f9
+msgid "Cette démarche revient à dire que le document sera dupliqué et le risque à ce moment-là est d’avoir des doublons car si quelqu’un modifie le document à un endroit, l’autre document copié ne sera pas modifié lui. Vous vous retrouverez alors avec 2 documents de même nom, à des emplacements différents, avec des versions différentes."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:865
-#: ce14626dea1d471599c728b4d11e165b
-msgid "Cette fonctionnalité est possible unitairement sur la page d'un document, mais aussi en masse depuis GoFAST File Browser."
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:619
+#: 2d0ff885320845f1aaa5ff6422db6e1b
+msgid "Dans ce cas d’usage, nous vous conseillons de privilégier l’utilisation de la fonction multi-emplacements. Copier-coller un document est utile donc uniquement si on souhaite créer un nouveau document semblable au premier et en changeant le titre, mais non pour partager un même document dans plusieurs emplacements."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:867
-#: 39325a76dc8741b697907395fcd3fc03
-msgid "Après avoir sélectionné les documents souhaités, il suffit de cliquer sur *Gérer*, puis sur *Partager par email*."
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:623
+#: c0b20b770bcb49e996a45baa4827a9a4
+msgid "GoFAST vous permet le multi-emplacement des documents sans créer de copies de vos documents. Le multi-emplacement est préférable (via les métadonnées), ainsi il permet de garder la même version du document visible à partir de plusieurs emplacements et évite les doublons avec des versions différentes et toujours avec la mise à jour la plus actuelle. ( = un seul document, une seule version actuelle, un permalien unique)."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:872
-#: 17599f45f38c4d28a0a938406b20055d
-msgid "Le formulaire d'envoi par email s'ouvre et il faut alors entrer les utilisateurs (GoFAST ou externe)."
-msgstr ""
-
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:877
-#: 5f723f1039b14ddf96447d729d941681
-msgid "L'utilisateur recevra alors une notification listant tous les documents avec un bouton \"Télécharger les documents\", dès qu'il cliquera dessus, il sera redirigé vers cette fenêtre de téléchargement:"
-msgstr ""
-
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:883
-#: d7b400d85cc2456a93ae3c6bc8f40568
-msgid "L'utilisateur recevra une notification dès que la personne a téléchargé le document."
-msgstr ""
-
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:886
-#: bf8ef47adde34e42ba6bf2b1a4a2b898
-msgid "Ajouter un/des document(s) au panier"
-msgstr ""
-
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:888
-#: ff5ca092cb72466ebefe178fe62d885f
-msgid "Lorsque vous sélectionnez un ou plusieurs fichiers vous avez la possibilité en cliquant sur l'icône (voir ci-dessous) de les ajouter à votre panier documentaire."
-msgstr ""
-
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:890
-#: 4f7bc5503e1b496fb4f30f19373f758e
-msgid "Ce panier documentaire d'exécuter des actions sur une sélection de documents, comme par exemple lancer un processus de validation (workflow). *Pour plus de détails voire le paragraphe consacré aux Workflows et au Panier Documentaire*"
-msgstr ""
-
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:898
-#: 6be47a3f6f9046159b5c005a63d497eb
-msgid "Filtrer les contenus dans un dossier ou espace"
-msgstr ""
-
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:900
-#: 22ee8f1b1c264a3e9ccfbbcc9ee3d55f
-msgid "Cette nouvelle fonctionnalité va vous permettre de retrouver vos documents plus facilement. Dans la barre *Filtre* (voir image ci-dessous), écrivez le titre du document que vous recherchez, et la recherche va filtrer tous les documents sur la page de l'espace où vous êtes."
-msgstr ""
-
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:907
-#: 14d8f947bd0c482d8d232a6795f9058c
-msgid "Copier/Couper/Coller des documents"
-msgstr ""
-
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:909
-#: 45e45d59fe9f4f4094f4fe2d5b008f1c
-msgid "En survolant les icônes avec la souris, vous verrez à quelle action elle correspond avec un petit mot affiché sous l'icône."
-msgstr ""
-
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:912
-#: 7098b167d81f46658bf7a42c4e96e80d
-msgid "**Copier/Coller un document**"
-msgstr ""
-
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:914
-#: e2e807efc3124fbea206a89cd92fc46f
-msgid "L’icône des 2 feuilles superposées (encadré en orange ici) permet de *Copier* le document sélectionné dans un autre emplacement de la GoFAST, il vous faudra alors ensuite appuyer sur le dernier icône (encadré en jaune ici) quand vous voudrez coller le document à l'emplacement où vous souhaitez le coller, clic-droit de la souris et \"Coller\"."
-msgstr ""
-
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:916
-#: 4fd29918d9ba46cab97b7a38db18d133
-msgid "Cette démarche revient à dire que le document sera à 2 endroits différents sur GoFAST et le risque à ce moment là est d'avoir des doublons car si quelqu'un modifie le document à un endroit, l'autre document copié ne sera pas modifié lui. Vous vous retrouverez alors avec 2 documents de même nom, à des emplacements différents, avec des versions différentes."
-msgstr ""
-
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:918
-#: 7d8bcb5c046c4f59823200bc14a797ef
-msgid "MAIS, GoFAST vous permet le multi-emplacement des documents sans créer de copies de vos documents. Le multi-emplacement est préférable (via les métadonnées), ainsi il permet de garder la même version du document visible à partir de plusieurs emplacements et évite les doublons avec des versions différentes et toujours avec la mise à jour la plus actuelle. ( = un seul document, une seule version actuelle, un permalink unique, à plusieurs endroits)."
-msgstr ""
-
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:925
-#: e67dcebfb4a049e0a8c8a030d3498bf6
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:629
+#: 696eb7f0ef0945efb35d810853cde552
 msgid "**Couper/Coller un document**"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:927
-#: dc4a9f0b22694eb98268e744254c32c3
-msgid "Même principe que pour *Copier/Coller* , mais ici pour déplacer un dossier vers un autre emplacement sur GoFAST est de *Couper* puis *Coller*. Cette fois, il faut utiliser les ciseaux pour couper (entouré ci-dessous en orange) et l’avant dernier icône noir et blanc pour Coller (entouré ci-dessous en jaune)."
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:631
+#: dbac83b3226a48d8b755b32af5f93b47
+msgid "Le principe est proche de celui de Copier/Coller, mais le Couper/Coller permet de déplacer un dossier vers un autre emplacement sur GoFAST =. Cette fois, il faut utiliser les ciseaux pour couper et l’avant dernier icône noir et blanc pour Coller."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:932
-#: 0fd899d0177043ea9e0e6335b50cb21b
-msgid "Cette démarche, contrairement à la précédente permet d'éviter les doublons. Il n'y alors qu'une version du document à un seul endroit sur GoFAST."
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:636
+#: b14b6817e28b4f3ebc15023f7db5ef35
+msgid "Cette démarche, contrairement à la précédente permet d’éviter les doublons. Il n’y alors qu’une version du document à un seul endroit sur GoFAST."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:935
-#: 51240b51eec94ecd93e4eaacc2563e0c
-msgid "C’est le même principe que de déplacer en glissant le document d’un emplacement à un autre dans l’arborescence. Vous ne pouvez *Couper/Coller* des documents que dans GoFAST. Vous ne pouvez donc pas coller un document externe à la GoFAST, il faut le télécharger préalablement."
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:643
+#: 197d4a094f0c43a1b2221908cdc1b765
+msgid "Cela fonctionne aussi avec les raccourcis claviers habituels :"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:940
-#: 9115eb11dc3a4b42aae59381a052aff1
-msgid "Actions depuis GoFAST File Browser selon le type de contenu"
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:642
+#: 9795c857b1434fad8582bd3a90e41c8d
+msgid "CTRL+ C pour Copier"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:942
-#: abf11de945dd428fb1bad4bfacaa271e
-msgid "De manière générale, les actions autorisées sur les espaces, dossiers et/ou fichiers visibles dans l'explorateur de fichiers restent strictement conforme à vos droits sur l'espace concerné."
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:643
+#: b973c9efb3f1424fbc9509434617fd37
+msgid "CTRL + X pour Couper"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:944
-#: 94f6385889be42b68a7f699f94575bb4
-msgid "Lorsque vous êtes dans votre explorateur de fichiers/arborescence GoFAST, vous pouvez aussi gérer vos documents avec quelques raccourcis via le **clic-droit de la souris**, sans devoir passer par la prévisualisation donc."
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:644
+#: fe36bdb0bc97472889ac94331e169352
+msgid "CTRL + V pour Coller"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:949
-#: ae4fb10f86fc427e86c95a0a4694dd7d
-msgid "Il faut juste sélectionner le/les documents sur lesquels s’appliquent la fonctionnalité"
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:648
+#: 8ef6642ac0944e7ea3651e7c998110e6
+msgid "C’est le même principe que de déplacer en glissant le document d’un emplacement à un autre dans l’arborescence. Vous ne pouvez Couper/Coller des documents que dans GoFAST. Vous ne pouvez donc pas coller un document externe à la GoFAST, il faut le télécharger préalablement. Il est également possible de déplacer un document en modifiant ses emplacements."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:952
-#: 69bed57eeced4402ab85ee95edf111f1
-msgid "Le clic droit permet d'afficher le menu des actions contextuelles au type de contenu. Ci-après les diverses actions possibles par type de contenu avec les droits d'administrateur de l'espace."
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:653
+#: fab39de38eca4261b36267370de48592
+msgid "Ajouter un/des document(s) au panier"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:956
-#: 5affc35c9bfc4ac8af425f0ba56f5b8b
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:655
+#: 7191da6d58f744139410755b42bf1baa
+msgid "Lorsque vous sélectionnez un ou plusieurs fichiers vous avez la possibilité en cliquant sur l'icône « Panier » de les ajouter à votre panier documentaire. Ce panier documentaire d'exécuter des actions sur une sélection de documents, comme lancer un processus de validation (workflow)."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:658
+#: dcbec117fa814112abd47eb3b79c12c2
+msgid "Pour plus de détails voire le paragraphe consacré aux Processus de Tâches (Workflows) » et au « Panier Documentaire »."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:665
+#: 945533133e3f492087c6c2774d3686c1
+msgid "Actions depuis GoFAST File Browser (Explorateur de Fichiers)"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:667
+#: ccc4dd47d7ef40adadb2ccf2bc2786e7
+msgid "Les actions autorisées sur les espaces, dossiers et/ou fichiers visibles dans l'explorateur de fichiers restent strictement conforme à vos droits sur l'espace concerné. Lorsque vous êtes dans l’explorateur de fichiers, faites un clic droit pour afficher le menu des actions contextuelles."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:672
+#: 7acf9ede0d3e4608868756a1a1c588b4
 msgid "Actions sur un unique document"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:961
-#: 8450227856e44915b15d04c125c29e0e
-msgid "Lorsque vous faite un clic droit sur le document souhaité, une liste de plusieurs menus vous sont proposez (voir copie d’écran) qui va vous permettre un certains nombre d’actions sans pour autant avoir besoin d’aller sur la prévisualisation du document."
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:673
+#: 052928329cb747a8a05a6c7bd82b10cd
+msgid "Lorsque vous faite un clic droit sur le document souhaité, le menu des actions contextuelles s’ouvre et vous permet de réaliser diverses actions, sans pour autant avoir besoin d’aller sur la page du document."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:965
-#: d2dab8f9cd944a22bf32d7f3654c51f1
-msgid "Actions sur une selection de fichiers ou dossier (classique)"
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:678
+#: 84376e45af954f3996b5ead007fa1c36
+msgid "Pour connaître la liste des actions possibles via le menu des actions contextuelles sur un document (menu « Burger »), merci de vous référer à la rubrique : « Menu ses actions contextuelles  »."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:967
-#: 52d23563f9a44b97aceb3737f3d4c473
-msgid "Un clic droit sur une sélection de plusieurs fichiers, plusieurs actions vous sont proposées (de manière restreinte par rapport à l’action sur un fichier unique) telles que :"
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:683
+#: 12d58eedd82740e99bf1ae238f66872f
+msgid "En plus des actions disponibles habituellement dans le menu « Burger », depuis l’explorateur de fichiers, vous avec ces deux actions supplémentaires :"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:969
-#: 6f38c43755b64671b15b30dd42aeef0f
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:681
+#: b5a2e038c7f74f698a9a74fee40d76f4
+msgid "Ouvrir dans un nouvel onglet (de votre navigateur)"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:682
+#: c00de94b5e1c41e6b1b8bc54a9ee2943
+msgid "Ouvrir dans l’onglet actif (remplace l’affichage en cours)"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:686
+#: b6e2fc766e29436cad6dbbc148dd01c8
+msgid "Actions sur une sélection de fichiers ou dossier (classique)"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:687
+#: 3771c43c2157472b91a8046de096512a
+msgid "Pour sélectionner plusieurs documents dans l’explorateur de fichiers vous devez cocher les cases qui sont à gauche des titres des fichiers (dans la zone principale de l’explorateur de fichiers). Vous pouvez sélectionner tous les contenus de l’emplacement où vous vous trouvez en un clic dans la case qui se trouve tout en haut de la liste des contenus."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:691
+#: 6bf9bfd0330c47bbaf30e77c3e67982c
+msgid "Vous pouvez également sélectionner le premier document en tête de votre liste à sélectionner, puis maintenir la touche « Shift » enfoncée tout en cliquant sur le dernier document de la liste que vous souhaitez sélectionner. Cette démarche est valable sur : Windows, Mac, Linux"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:693
+#: 90bfc2469e894353bf60b1c8541783dc
+msgid "Via un clic-droit sur une sélection de plusieurs fichiers, les actions proposées sont restreintes par rapport à l’action sur un fichier unique :"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:695
+#: 3b1a9880e3fc48ecb5daebeb1e15c1cd
 msgid "Supprimer"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:970
-#: cc7acf3849654bf0ac033f29e3d2b005
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:696
+#: 47664089a4c942c48a91c5d0dcf3a50d
 msgid "Télécharger"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:971
-#: 180b78c816b64924bd8beed057c8f6eb
-msgid "Gérer la taxonomie"
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:699
+#: 7321728342954e98aed485273ab03184
+msgid "Créer des Publications"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:972
-#: 276f059f76fe4c43a2409bec8bd5c108
-msgid "Gérer les emplacements"
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:709
+#: 3c3f93e7b84546599c8d29169e0c2f3b
+msgid "Partager par email en masse les documents"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:980
-#: 82cd453b65b04c5a921001ba4238e42e
-msgid "Pour sélectionner plusieurs documents dans l’explorateur de fichiers vous devez sélectionner le premier document en tête de votre liste à sélectionner, puis maintenir la touche «Shift» enfoncée tout en sélectionnant le dernier document de votre liste que vous souhaitez sélectionner."
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:711
+#: 795bbf6f55ee4d1d9d04c5374282437d
+msgid "Il est possible d'envoyer plusieurs fichiers via un partage par mail."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:982
-#: 7e01f6670be04fba9e2083f220eaa640
-msgid "Cette démarche est valable sur : Windows, Mac, Linux"
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:713
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:737
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:760
+#: 1820ffa5c4d2404f9a212aeaf0b5e661
+#: 5dcefb4f9849403ca7ce6f27a947176c
+#: da2c1a39ed824629b15a2c0cedd5b691
+msgid "Cette fonctionnalité est possible unitairement sur la page d'un document, mais aussi en masse depuis GoFAST File Browser."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:986
-#: d127c1ff19e243c2b54214bef3608355
-msgid "Gérer les emplacements (Multi-emplacement = zéro doublon de fichier)"
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:715
+#: 1a74e278d45241e78dc4cf88ae895c0f
+msgid "Après avoir sélectionné les documents souhaités, il suffit de cliquer sur *Gérer* (barre des tâches de l’explorateur de fichiers) ou faire un clic-droit sur votre sélection, puis cliquer sur *Partager par email*."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:988
-#: 32d7c62882764803a356ddf99191c3f0
-msgid "**Multifiler** signifie mettre le *même et seul document à plusieurs endroits* sur la GoFAST et ainsi rendre une même et seule version visible par plusieurs groupes. Il s’agit d’une action de «Partage» évitant tout doublon."
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:717
+#: 4aab905fc8d646239f27eb0190e1e5ee
+msgid "Le formulaire d'envoi par email s'ouvre et il faut alors entrer les utilisateurs (GoFAST ou emails externes)."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:990
-#: eaf337cafd6c42ee9fcc99a59839cbed
-msgid "Si votre document est dans votre groupe et que vous voulez que les membres d’un autre groupe puissent le voir aussi pour y travailler, il suffit d’ajouter un emplacement dans les métadonnées du document."
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:722
+#: a3f1d607b27548a3bf1aee5326344e1e
+msgid "L'utilisateur recevra alors une notification listant tous les documents avec un bouton \"Télécharger les documents\", dès qu'il cliquera dessus, il sera redirigé vers la page de téléchargement :"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:995
-#: 672bdd62a4c44ea5b9122430cda6b774
-msgid "Cliquez sur « Gérer les emplacements », et choisissez les différents groupes/espaces/répertoires où vous voulez que le document soit visible (cochez les cases ou cliquez sur le nom de l’espace pour qu’il se retrouve à droite en bleu)."
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:728
+#: 6087a2b957ce4373b3eb16d5b389ef04
+msgid "Vous recevrez une notification par email dès que la personne a téléchargé le document."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:997
-#: 8ce161e06ae7492cad029fc9ad15776a
-msgid "Terminez avec « Enregistrer »"
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:732
+#: 7174e4ba20b44031a506aad9830715ca
+msgid "Créer en masse les Publications de documents"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:999
-#: 369e8779a1204c9094c167e120f637b4
-msgid "Lisez bien la remarque dans l’encadré"
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:734
+#: 005874e6488844f88d5d1a97e286d4fc
+msgid "Il est possible de générer des publications depuis une sélection de document de travail pour partager dans d'autres Espaces Collaboratifs des versions finies/validées, sans partager tout l'historique des versions et commentaires des documents de travail. Les publications sont ainsi largement partagées et les documents de travail restent accessibles uniquement dans les Espaces d'origine."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:1004
-#: e4e7a546e16b492ab8820ffef0e13032
-msgid "Vous pouvez aller plus loin dans l’arborescence en cliquant sur les petits « + » devant les noms d’espaces"
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:739
+#: 07a8b4e1652d49f38c46ee1500244f5a
+msgid "Après avoir sélectionné les documents souhaités, il suffit de cliquer sur *Gérer* ou faire un clic-droit sur votre sélection, puis sur *Créer des publications*."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:1009
-#: af4120517fea4f20ae0ddee11a3e9447
-msgid "Lorsque vous retournez sur la prévisualisation du document, vous verrez, dans les métadonnées, les différents emplacements où se trouve le document."
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:744
+#: 48dde600b8f94a908cb046ee258127c5
+msgid "Le formulaire de gestion des publications s'ouvre et il faut alors cocher les emplacements où seront partagées ces publications. Il est possible de demander à convertir au format PDF ou de laisser les formats d'origine."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:1016
-#: 4a3cc44ccdf542969df7210ba0c077f6
-msgid "Actions sur un Espace"
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:751
+#: a16be92746f3425eb9f646472b17f602
+msgid "Les publications sont une fonctionnalité clef pour une gestion efficace et en toute sécurité des documents."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:1018
-#: 76eb523e78914c31b88df4edf4b556b0
-msgid "Plusieurs actions sont également disponible sur un Espace (voir copie d’écran ci-dessous)."
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:755
+#: 38380ff31b8a4ae0bfccbf7856601f61
+msgid "Pré-Archiver en masse les documents"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:1025
-#: cd23ad5faa2a4734abce35c8acaf309b
-msgid "Exportation des listes de documents"
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:756
+#: 0e386bf607c44732a26338d24e18ce03
+msgid "Il est possible de prés-archiver une sélection de documents en une fois."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:1026
-#: c8aa37468838417091f2486731a35ae0
-msgid "Sous le profil Administrateur de la plate-forme, de nouveaux menus apparaissent tel que « **Statistics** ». Vous retrouvez ce nouveau sous-menus sous votre Menu Utilisateur. Cette fonctionnalité vous permet alors de visualiser les différentes statistiques découpées en 3 catégories."
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:762
+#: 415bc7c152bc41e9bbbaafd1f29aa5b8
+msgid "Après avoir sélectionné les documents souhaités, il suffit de cliquer sur *Gérer* puis sur *Gérer les métadonnées*, une fênetre s'ouvre et vous selectionnez *Pré-Archivé* sur le champs *Etat* puis cliquez sur « Enregistrer »"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:1031
-#: dc7c4609f5f44db8a6a16cb0da98694f
-msgid "Depuis ce nouveau menu, vous visualisez toutes les statistiques utilisateurs, documentaires et d'espaces. Vous devez cliquer sur l'onglet « **Statistiques documentaires** », afin d'accéder au menu qui permet d'exporter une liste de documents."
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:765
+#: 706596643ab44ee18ca8119f35fbd918
+msgid ":alt"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:1036
-#: 4599d60420bb4322b18e637bde300187
-msgid "Vous faites le choix des sous-groupes et répertoires dont vous souhaitez exporter votre liste de documents. Une fois votre choix sélectionné, une extraction est faite dans un fichier Excel."
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:768
+#: d0f0c15752a5488ab8158db5e6ee4a8f
+msgid "Partager / Ajouter des emplacements (Multi-emplacement = zéro doublon de fichier)"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:1043
-#: 042f3f300540482987b008378a26588d
-msgid "Modèle d’arborescence de répertoires"
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:769
+#: e38ead8c76a744bcb3c0a052facc2199
+msgid "Il est possible d’ajouter des emplacements à un ou plusieurs documents en une fois, depuis l’explorateur de fichiers. Il s’agit ici de partager sans doublonner les documents."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:1044
-#: 7597dc9c9d324f73b79077d7e5122a87
-msgid "Créer un modèle d’arborescence de répertoires est une fonctionnalité qui a été implémentée dans le but de permettre aux utilisateurs de la plateforme  GoFAST de dupliquer un gabarit déjà existant sur d’autres espaces pour gagner du temps. Cela est principalement utile quand l’arborescente possède une structure complexe et comprend plusieurs niveaux."
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:773
+#: e669bdf1a83440999ba175975e291515
+msgid "Pour en savoir plus sur la notion de Multi-emplacement, merci de vous référer aux rubriques :"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:1046
-#: d2e5cb6e1c81431f871f4258c0cc8b7d
-msgid "Pour commencer, connectez-vous en tant qu’administrateur de plateforme puis aller dans l’Explorateur."
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:772
+#: 5913e62c6e6846408c49e73fd2cf8016
+msgid "« Modifier les Emplacements/Visibilité"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:1051
-#: d45e921df532455fada6240c55a78153
-msgid "Positionnez-vous dans le répertoire «FOLDERS TEMPLATES» qui se trouve dans la barre latérale gauche de la page ( Bloc structure de l'arborescence ), ensuite cliquer sur la menu «Nouveau» puis «Dossier». Vous pouvez créer autant de répertoires et personnaliser votre arborescence à votre convenance."
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:773
+#: ba910be9f9064778a2435b513efff460
+msgid "« Espaces Collaboratifs »"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:1056
-#: 2b67868c23674e098002b1f3ddc377c6
-msgid "Une fois votre gabarit est prêt, il suffit de se rendre dans un répertoire d’un espace de votre choix, cliquer sur le menu «Nouveau» puis «Dossiers depuis un modèle»."
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:775
+#: 2ff52a3881474854a9dfae1b7a7aac77
+msgid "Après avoir sélectionné les documents souhaités, il suffit de cliquer sur *Gérer* ou faire un clic-droit sur votre sélection, puis cliquer sur « Partager / Ajouter des emplacements »."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:1061
-#: 3ac476b677df41d4963463ff560912aa
-msgid "Choisissez votre modèle de répertoires, en cochant les dossiers que vous souhaitez dupliquer ensuite cliquer sur le bouton «Valider»."
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:780
+#: a5cbb2f6bc9142bcbf923111b31c41eb
+msgid "**La fenêtre d’ajout d’emplacement s’ouvre :**"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:782
+#: d7320da47767413691bbf18c0586a858
+msgid "Cocher les différents emplacements où vous voulez partager le document."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:783
+#: d0861cb95c2f48f9905980b6097e259a
+msgid "Terminez en cliquant sur « Enregistrer »"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:785
+#: 3e1f6530c72f4135ab4944a28855f17f
+msgid "Lisez bien la remarque dans l’encadré :"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:790
+#: b7fae5b2ee9f4498b22c2d9790b27043
+msgid "Vous pouvez aller plus loin dans l’arborescence en cliquant sur les petits « + » devant les noms d’espaces :"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:793
+#: 72854daa11dc436a98381636cba435bb
+msgid "Lorsque des documents ont plusieurs emplacements, une icône « partagé » est affichée dans la colonne « info » dans la zone principale de l’explorateur de fichiers."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:796
+#: 720000f7381244aea762c2a551f03e3a
+msgid "Modèle d’arborescence de répertoires (dossiers)"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:797
+#: 366d3b4131f8457c8a281306d5644435
+msgid "Créer un modèle d’arborescence de répertoires est une fonctionnalité qui a été implémentée dans le but de permettre aux utilisateurs de la plateforme GoFAST de dupliquer un ensemble de dossiers/sous-dossiers pour gagner du temps. Cela est très pratique quand on doit construire dans un Espace, une arborescence type, par exemple un modèle d’arborescence pour des projets."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:800
+#: fb3f0a7fb23e4a6bb4ba9e20eaf11206
+msgid "Les modèles d’arborescences se trouvent dans le répertoire « FOLDERS TEMPLATES », dans la zone de gauche de l’explorateur de fichiers (structure de l'arborescence). La création de nouveaux modèles d’arborescences est réservée aux administrateurs."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:802
+#: 6f18813d7337488a84ab780787185609
+msgid "Dans la barre de tâche de l’explorateur de fichiers, cliquez sur « Nouveau » puis « Dossier depuis modèle »."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:804
+#: 030423b0040043b38e473cd474ec39d4
+msgid "Choisissez votre modèle de répertoires, en cochant les dossiers que vous souhaitez dupliquer ensuite cliquer sur le bouton « Valider »."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:811
+#: 337d6fee0c4443288e96f91756706e1c
+msgid "Vous pouvez créer autant de répertoires et personnaliser votre arborescence à votre convenance, pour peu que vous ayez le rôle Contributeur ou Administrateur les Espaces où vous souhaitez créer ces dossiers."
 msgstr ""

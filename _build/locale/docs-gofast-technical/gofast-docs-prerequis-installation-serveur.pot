@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2020
+# Copyright (C) 2022
 # This file is distributed under the same license as the gofast-docs package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gofast-docs latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-19 10:26+0200\n"
+"POT-Creation-Date: 2022-05-20 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,1057 +16,1034 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:3
-#: e959190b9043496db4a1757939f31336
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:3
+#: b75cd31b2df240b0aadaf4b83fde0254
 msgid "GoFAST :  Pré-requis et installation Serveur"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:9
-#: 4aa0c1de5d7e4f3bac302aa3bbf1f759
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:9
+#: c3267014b1e24061a02ebc3737abb5e7
 msgid "Poste Client"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:12
-#: 6708bd99d7be47b497fcf1fa2e1b8c84
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:12
+#: 50fb733f6a684a709b33f597718e1186
 msgid "Pré-requis"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:14
-#: 77badf23f28749e4ba9eda9148e95bf7
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:14
+#: cfb50dc14aa14acb8096408ecb78442b
 msgid "Voir http://gofast-docs.readthedocs.io/fr/latest/docs-gofast-users/doc-gofast-guide-utilisateurs.html#pre-requis-necessaires-pour-lutilisation-de-gofast"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:17
-#: 27e5012a3f784482bd54655607602e28
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:17
+#: 084611206e44407c9d613f6a9e519e3d
 msgid "Composants et configurations optionnels"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:19
-#: 634cc132ad7646dfbffec203ad9e1b7c
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:19
+#: c5933b0b91794fed8d45ae4cfee5b0f3
 msgid "Montage \"Lecteur Réseau\" (voir http://gofast-docs.readthedocs.io/fr/latest/docs-gofast-users/doc-gofast-guide-utilisateurs.html#ajouter-un-ou-plusiers-documents-par-le-lecteur-reseau)"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:20
-#: 8b29cb55194d4e0cb364887e016712b8
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:20
+#: d0ed706e9a4646c196b088e21bfb3822
 msgid "ITHitDocumentOpener (pour l'édition en ligne de contenus non-Office/LibreOffice)"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:21
-#: ae4d077541f84f6fbef659a082d8cf68
-msgid "Synchronisation hors-ligne (voir http://gofast-docs.readthedocs.io/fr/latest/docs-gofast-users/doc-gofast-utilisation-avancee.html#installation-cmissync)"
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:21
+#: 1b4c8c01018240bca729d1a84b49acf3
+msgid "Synchronisation hors-ligne (voir https://gofast-docs.readthedocs.io/fr/latest/docs-gofast-users/doc-gofast-utilisation-avancee.html#synchronisation-locale-gofast-hors-ligne)"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:24
-#: b798c6cd54864bcabddab5b0666c35a8
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:24
+#: 3144ee1341eb4ea4b8d0d8c3ade99f14
 msgid "Pré-requis et installation Serveur"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:27
-#: 5df51fe67fa942c3b8dbfc726200020e
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:27
+#: 535e28c2d3a54c32a7971a28b3f2f087
 msgid "Architecture"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:37
-#: 278bb44e7422480ea17502d4b938887c
-msgid "GoFAST3"
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:34
+#: e8b75effebfc48bf8cd9f51681db38d5
+msgid "GoFAST 4"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:39
-#: 85ab2f939a734f04a4c8b0f2bdd59caa
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:36
+#: a6aa138113e044e884a8d6c62f37cb3f
 msgid "OS"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:39
-#: 7ec9db40b02b4cfb93d7c8cdd2ef3be2
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:36
+#: c9e556e3b13c483595e0b99a3f9b311d
 msgid "CentOS 7 64bits"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:41
-#: d3e530829fff46f8b025bc21cf720526
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:38
+#: c1ec410a2f1542db848c3660b0f24624
 msgid "CMS"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:41
-#: a6bab208d6a84be08a0d4ec2d430c8ae
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:38
+#: c8a4d3b830e644ffb52eaa90e9ee1f17
 msgid "Drupal 7"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:43
-#: d021d8f793c14e3b8427e689ff6a82ab
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:40
+#: e401c153d26d4667a64de679956680e9
 msgid "Serveur Web & Reverse Proxy"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:43
-#: d1943a04e7ba45ce80ebc6af0b81fcf9
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:40
+#: 931fa32c799d40bc8ced65047976f7de
 msgid "Apache 2.4 (php-fpm)"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:45
-#: 37a01b4bfbfb4d8da61051b5a239e70b
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:42
+#: 435ed3cd5325451789c4405438bb0d72
 msgid "Base de données"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:45
-#: e78d02671d7b4f21810942a5f729c829
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:42
+#: 6579cb3079fc40e993b11671c95b5446
 msgid "MySQL 5.7"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:47
-#: b299384796464c2393a349821f61b707
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:44
+#: 0b22e44e99fc40c9b644d95b8626129b
 msgid "Annuaire"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:47
-#: 28b3b1e3ad1f4a619b81477cc1801e3a
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:44
+#: 87141eabf2464526a7342f121b7ce6a5
 msgid "OpenLDAP 2.4"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:49
-#: 101a47d8f9a341d482876b811895d56d
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:46
+#: a60b472605ae458c9607f0928c8fa77b
 msgid "GED"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:49
-#: c244b8eb69ea46bb8bc02489308b5cc7
-msgid "Alfresco 5.2 Community"
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:46
+#: d170c27eec13457c9c594a577159fe08
+msgid "Alfresco 6.2 Community"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:51
-#: 3a2779f114884fd0ba76ca1a4889d4f4
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:48
+#: 7c89f1112b5448ba8466e439beea3d6e
 msgid "Recherche"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:51
-#: ba680764d6874070a83856cf3abae84b
-msgid "Apache Solr 5"
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:48
+#: cd0d3693a50645948ce94b0b3ad30f9c
+msgid "Apache Solr 8"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:53
-#: cd571bbc1f5a4f30a276bb86140df94f
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:50
+#: 9e9032bfefa64df2a6406e1cb6ced45b
 msgid "Serveur API"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:53
-#: 9ad5f88e1e624dd382908f157cdbac96
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:50
+#: 4fb6d9056c3040c3b081875ec54104fd
 msgid "Apache Tomcat 7"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:55
-#: ed4c7304e80f4fa9bbe1ee454eaec2a4
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:52
+#: d586658a7161479cb785fb8e98473041
 msgid "Workflow (GoFAST 3.6+)"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:55
-#: 30e803d4c8c2460d938edcf36d9447b8
-msgid "Bonitasoft Community 7"
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:52
+#: 7df7811fe73d4739a9ec1942e764e590
+msgid "Bonitasoft Community 7.13+"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:57
-#: 3b38d552a1114bcfb9c5b507c3a39e16
-msgid "Workflow (<GoFAST 3.6+)"
-msgstr ""
-
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:57
-#: 0fe61d089f3c44a4b7258692ab48b5e7
-msgid "Bonitasoft Community 6"
-msgstr ""
-
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:67
-#: 4df7c6316acf4180a57e0e786333270f
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:62
+#: 2c559190ff4a4f4189db2ae23d243593
 msgid "GoFAST  Comm-Serveur"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:69
-#: 7e2a3d6f6cac4de6b56b23b8a371557b
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:64
+#: 8814200f1d2947569da82ecbde0ee610
 msgid "Edition collaborative"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:69
-#: 1b736ce8740f4f749ea1120b40d69a6a
-msgid "OnlyOffice 5"
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:64
+#: 0afeadeb424b42f9bdf70026f3dd43cd
+msgid "OnlyOffice 7"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:71
-#: 46f2a650c0e44b2c9eb28f2e07641a05
-msgid "Messagerie instantannée (<GoFAST 3.8)"
-msgstr ""
-
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:71
-#: 42b41bf422614525be92ebea43e78bf5
-msgid "eJabberd 16"
-msgstr ""
-
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:73
-#: 46f2a650c0e44b2c9eb28f2e07641a05
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:66
+#: d283a72950a7465e82f05f6f2d413873
 msgid "Messagerie instantannée (>GoFAST 3.8)"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:73
-#: 28c8c9828e974d69a0da98923987a7ed
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:66
+#: 5eb73dcc8ca446c8bce6b5e61ed1a7f1
 msgid "Matrix-Synapse v1.12"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:75
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:239
-#: 3e9fa5ee9a234b52bde99533867c2d97
-#: 3e9fa5ee9a234b52bde99533867c2d97
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:68
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:229
+#: b2c4ed918a9a4419add730d59cda2531
+#: 018ac163adc54ca8b7c19c36713490f5
 msgid "Webconference"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:75
-#: 003bd273db9949feabf809c69f5898da
-msgid "Jitsi Meet 1.0 et Prosody 0.11"
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:68
+#: c861700169914b5c9c961871c8c47dce
+msgid "Jitsi (Web 1.0.x server 2.1 / Prosody 0.11"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:77
-#: 33d652992fbb4cb099edbaa19214e16f
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:70
+#: 685da69c039246a39fbc312b55f979bd
 msgid "Reverse Proxy"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:77
-#: 1080888fd72144b283baaf217518d1e8
-msgid "nginx 1.12"
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:70
+#: 76a1218b17fe4e208e752677b9424bed
+msgid "nginx 1.20"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:81
-#: e66732a57fdf47df95337d23430400a1
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:74
+#: d32b68f685c44882a6d0d79fd94fdf6a
 msgid "Pré-requis « serveur »"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:83
-#: 56e9a5eeb2a3438397ab4a99513f6c58
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:76
+#: 6fa75cab17524542ab8f9a825f754795
 msgid "La plate-forme GoFAST est une application d'entreprise qui nécessite une architecture haute performance afin de délivrer une bonne montée en charge et des temps de réponse."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:88
-#: 039511172f3c4b69ad8e3ce0c3177814
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:81
+#: 29fab5fe9c6a41d5af2879c18f627aed
 msgid "GoFAST est notamment très sensible à la performance des entrées/sorties (I/O) et au bon dimensionnement de mémoire vive (RAM)"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:91
-#: bd11191817014ec6aa0c259bb7cb65d3
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:84
+#: a1a7a52b7a2f4b2294ff0777ed6c5bec
 msgid "Conséquence de la sensibilité au I/O, une attention particulière doit être portée au stockage distant. Celui-ci doit privilégier le  type SAN. Eviter tout stockage distant WAN et de type NFS."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:94
-#: 0225a2f3e0da44168d5e1b12b5d31569
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:87
+#: 4ef6ee625bec474cb73b849a292a69f1
 msgid "GoFAST v3 nécessite par défaut 2 VM."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:97
-#: ee93de1c00424072a69237195f143f22
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:90
+#: 83045b39404946229fe4f349c61c1e57
 msgid "Pré-requis Machine Virtuelle"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:99
-#: b720e8b8dae242fbba17fcbf306c7592
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:92
+#: 68d4eb65c3d747fda05b73de5ace90a9
 msgid "La plate-forme GoFAST est prévue pour fonctionner sur les Hyperviseurs (n'ayant pas atteint leur EOL) 64 bits suivant :"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:102
-#: 6e9fba7d35394048b13b5d65b8ea917d
-msgid "VMWare ESX"
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:95
+#: e694c7e3dc7c4dbdb9bbf1d15a7b1fcc
+msgid "VMWare ESX 6+"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:104
-#: 98a2d88f8cd7442f9df5270ae18dd932
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:97
+#: c1bcbbc141054d97a57b06532066cfb4
 msgid "HyperV"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:106
-#: c93ef5c557cc4d54bdd9c3ce7e6a6717
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:99
+#: de385b5ffb84437aadbb92d3d3d77ff3
 msgid "KVM"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:108
-#: c10f796c36a44135bfe8428fa6d16a59
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:101
+#: daa8f4398b6e4fa88744c4016b26f318
 msgid "HVM (Amazon Web Services)"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:110
-#: 598ddf2fc11a4b60943bde2733f959c1
-msgid "et sans retour d'expérience en exploitation, XEN 6+"
-msgstr ""
-
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:113
-#: a0b27aba4bbe48bdbe9fdad5270f9ec5
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:104
+#: ed54b05e2e8e4e5697b641d4cddb6cb4
 msgid "Pas possible d'import actuellement par images dans un HyperV (ou sous Azure). Une installation par script est effectuée"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:116
-#: a57484221f37425f988a428edd2e9ef3
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:107
+#: c18e71541a264094b3380a46d4d09ddc
 msgid "La VM GoFAST doit posséder un datastore dédié (LUN)."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:117
-#: 4e66d61b12cc4812b75180f8da786e57
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:108
+#: ba42adc3a05a41b0af94fe74d1e41997
 msgid "Sous VMWARE, choisir \"RedHat Enterprise\" et \"paravirtualized SCSI adapter\" à partir de CentOS 7.4 / GoFAST v3.1.1"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:119
-#: 05c4e8f0fcea4f988e57a203daa36307
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:110
+#: 5d290562edf840a9b45114354660daea
 msgid "VM 2 (GF-COMM) n'est compris uniquement dans l'offre Enterprise"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:122
-#: 0c124c1302ee4d939778b28ef2cb6052
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:113
+#: 84c9aaa3fd294f3580aee62c423452e8
 msgid "VM 1 (GF)"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:122
-#: 5802a89e5ab74a418504cadaf0b4d310
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:113
+#: 26d2eca58dbf42bab9fcf3c937ac01e7
 msgid "VM 2 (GF-COMM)*"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:124
-#: 881a33f1b7d7466382bab3c558d24bc1
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:115
+#: a337a69dbce94d909d10cd5f7f11f716
 msgid "Coeurs"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:124
-#: d3106679ff9c44f086f4581abdda8798
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:115
+#: 5867f9e5ce4f4b7cbe5848f422e5bdd2
+msgid "6+"
+msgstr ""
+
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:115
+#: d8503a0894ca463da1e8e7a0f9936214
 msgid "4+"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:124
-#: 6c7b98f9f5ac4f838aacf1e52d96cf89
-msgid "2+"
-msgstr ""
-
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:126
-#: 12480571d7624f6996e8e4d604122ede
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:117
+#: 8f48bfe41fc04e0e8654d49e66464938
 msgid "RAM"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:126
-#: 899f5616d9ef4c8691f4214c15194b18
-msgid "10GB+"
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:117
+#: fd7157f837204f0eb1d4897dc039fdbc
+msgid "16GB+"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:126
-#: 35d366644cea43efb7d5a32ec1701bff
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:117
+#: acd09b289df549bdbed4bd07f99863e8
 msgid "6GB"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:128
-#: 018751592dbe4386b53343e4d40fc7d5
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:119
+#: 02e812575bf74ded9e9cfcf2510437bd
 msgid "Stockage"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:128
-#: 5ed3142ada4a44f6888dafa806af3e30
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:119
+#: 8fe67d54ca50436abf7d208dd8e1f6f7
 msgid "200GB+"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:128
-#: db5f3caeb8f0456897e6fba75959b584
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:119
+#: 3951e74414c7499f9b1299f3e5253679
 msgid "50GB"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:130
-#: eef0c304cc8445b5aa39bdd8812303b0
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:121
+#: 621169c9cde54c5d965b8f3299a8a1e7
 msgid "IOPS(FIO)"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:130
-#: 83bf66dbfd574766b4ef8a484dabadec
-msgid "500+"
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:121
+#: 7ab458837a3d47829ca0753a9b50d627
+msgid "800+"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:132
-#: 8feb708e8d8b4540b49ed93befd4e159
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:123
+#: b5ba485be11f4436afd4157cd48fb673
 msgid "Réseau"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:132
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:132
-#: 19aa638d0e3641e58be0f703f755545d
-#: 19aa638d0e3641e58be0f703f755545d
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:123
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:123
+#: fa611c7e60dc48979ec1907f048aa4e1
+#: a4a7bf11c7e14043a68270e8178c190e
 msgid "100Mpbs"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:136
-#: 01d3faa042df467cb35346275ddff381
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:127
+#: df68105419804ea18163d19bee051786
 msgid "Une webconference avec 6 utilisateurs (dont 5 avec de la video) consomme 12Mbps (sortant), 3Mbps (entrant), 50% de CPU"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:140
-#: 054fecb9734f4943ba95bd8e6568b26c
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:131
+#: 06f789521a7b4048b33a62c4cabbfb7b
 msgid "Évaluation des besoins de stockage"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:142
-#: 57af02da1b374eb29408406fed3d66fc
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:133
+#: c73e866be9d6457b859076cc8ad5b834
 msgid "15 GB d'espace disque pour l'application et le système (partition ``/``)"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:145
-#: 6ebd320b361241eb825d971c25e78ba9
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:136
+#: e13157733f1548389381d6f31480c24c
 msgid "Espace de stockage de données (partition ``/var``)"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:147
-#: 92947d8ef5174faaa18365f8ebb0babe
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:138
+#: 45e0310089f5409393ef2aaea7ada3b7
 msgid "*Utilisation normale*"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:149
-#: 97691582f793435884da6fc8f6793a55
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:140
+#: 488be1b11f6c4f5388bf53f5f4c869dc
 msgid "2 à 3 GB d'espace disque par utilisateurs 'débutants' pour leurs contenus personnels"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:152
-#: 8443dbc1f5ca47d1901d0d7fb112718d
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:143
+#: 467729566e91429ea2e5b09d0aa4a695
 msgid "4 à 6 GB par Groupes et Organisations prévus"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:154
-#: 4dc6bc244c9e4576999a17934f6c5b5c
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:145
+#: f810f1b8fb2f4ca993fb248a27ebcb49
 msgid "*Utilisation intensive*"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:156
-#: 71c065c0acfd4e028a8144597c615be9
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:147
+#: 12ea553c246842d48f4ed992e5ce5e7a
 msgid "5 à 10 GB d'espace disque par utilisateurs 'débutants' pour leurs contenus personnels"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:159
-#: ecf59853902143e6aaeffcc4cd8db513
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:150
+#: e80b0845a7cc479ba3240a02e913a4ea
 msgid "10 à 20 GB par Groupes et Organisations prévus"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:161
-#: 4e160577be544cf2b4a2cd47a886a338
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:152
+#: 71f7995b29f042c5b7c48403c377f39a
 msgid "Simulation d'espace disque pour 100 utilisateurs (x5GB), 10 organisations(x10GB), 15 groupes (x10GB) soit un total de 765 GB"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:165
-#: 924049960c12453c9e4a4809ce781de8
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:156
+#: ccc17ec55dc5446893dcf210ecca2266
 msgid "Partitionnement optionnel"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:167
-#: a8362ad1746f43eebee0e363483c0cdc
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:158
+#: 3c1338adc3b047ee8863b17c1609d00a
 msgid "L'essentiel des données sont stockées dans ``/var``. Une sauvegarde quotidienne est effectuée dans ``/var/backup``. Si l'image utilisée ne possède pas un partitionnement suffisant nous vous recommandons de le réaliser."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:170
-#: 7728f68587574b42ae546a43fcd2de9b
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:161
+#: 04d3ac622795479b97bc35bd8b492225
 msgid "Il est très recommandé mais non obligatoire de créer une partition pour ``/var``"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:172
-#: 52c494220d2b4b81a598cb3c02d2cc0d
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:163
+#: a46bb67c467b4556a5129776321c7048
 msgid "Si la partition ``/var`` est sur un stockage distant (NAS/NFS ...) ceci ne doit pas entrainer une forte dégradations des performances (IOPS) par rapport à un stockage local. Tout stockage WAN doit être évité"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:175
-#: 3019b532e67a4c57bbd4d6b61db17ab5
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:166
+#: 51d072a4fce0414892aa254befa6e36b
 msgid "Il est recommandé mais non obligatoire de créer une partition pour ``/var/backup`` pour la sauvegarde des données applicatives et ce point de montage devant être déporté"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:180
-#: fe4470fee19141daa2ea687b23df607c
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:171
+#: 14981917ca3b4f87813b5f96bf61c345
 msgid "La partition ``swap`` doit être au moins égale à 50% de la mémoire physique de la machine"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:183
-#: 4978920022314558802cf49750f541dc
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:174
+#: 914da9cd3aec45b2a4f63ac95396b805
 msgid "Réseaux et Sécurité"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:186
-#: 9eb9bd1177de40a995a06f902d136dd8
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:177
+#: 9bbb7847136e446983072516056d1902
 msgid "Certificat"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:188
-#: da2c8585254d428987e2c219adeb0b66
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:179
+#: bc8b328a7e1546ed8043c20f91d59e3b
 msgid "La **plate-forme GoFAST ne fonctionne qu'avec un certificat « serveur » délivré par une autorité de certification.** Le certificat doit être au format ``.pem``, ou\\ ``.crt`` et ``.key``"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:193
-#: 807e2dce0ee44378ba84c0ba79e95f13
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:184
+#: 0087ba55704f452b8b7259d7c5e1f81b
 msgid "Le certificat doit être de type « wildcard »"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:196
-#: 44f2efe4ee7e4b9f878dda7bbd6e9e15
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:187
+#: 3b695b58f5824f169682dc070dad5867
 msgid "Si GoFAST n’est accessible qu'en Intranet, le certificat peut être généré par les « Certificate Services » d' Active Directory."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:200
-#: 487b983cc84546c58bc95aff3e210e6a
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:191
+#: 4045e5d61c1444169b33a2dbf15bc023
 msgid "Architecture Réseau"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:202
-#: cb6df31f4da9414587db03f4c51abe36
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:193
+#: 4b69c04a47b64d8c9f8c2006711de6b7
 msgid "La plate-forme GoFAST peut s'installer :"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:204
-#: 80ad64a8b8fa43fcbf7fa4488c40b275
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:195
+#: 18c5cfe429264f3395546b285732e023
 msgid "préférablement sur une DMZ pour que la plate-forme soit accessible de l'extérieur (extranet, utilisation en mobilité, ...)"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:207
-#: d2ac0f2637d14c7b8b49e7b5fe4c82da
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:198
+#: 8425c21935ea4a68b8e7df585b9c0970
 msgid "soit sur le réseau (LAN) de l'entreprise"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:209
-#: b9556bbc45e8467284917d817e202a0d
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:200
+#: 913986ccb5bc40768bcc38a49fb5d43a
 msgid "soit sur un autre réseau accessible par Internet (attention dans ce cas aux performances, débit, routage, ...)"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:213
-#: 78187ad0ccc147f885cdf7c2b6424f5b
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:204
+#: 84fd992bc293468f825b6b6980de672a
 msgid "Si l'organisation utilise un Proxy pour l'accès à Internet ou sur le LAN des configurations particulières doivent être effectuées. D'expérience des problèmes sans rapport avec GoFAST et lié à des problèmes de configuration de proxy peuvent survenir"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:216
-#: f01a6f87da384fc3871d037823dc2e81
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:207
+#: f48ae8b1a060462fb9e5e24b9b956551
 msgid "Liste des ports"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:218
-#: dc16c5fc24f141c386d400c71917f507
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:209
+#: 73f2eb1b0ee64342a0d9b054e9b99321
 msgid "Voici la liste des ports qui doivent pouvoir être accessibles en entrée et en sortie."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:222
-#: e391c00e0d9a4d828322a1dc96f73e23
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:213
+#: 4910530797614d96b7df2d9a699195f6
 msgid "VM1"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:222
-#: 26ef18ec5b344d9bab1759b212c4a383
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:213
+#: d69fc29389d54b1195c4e049ea84a634
 msgid "VM2"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:222
-#: ac1ffd08d0b34ec4853b00e6bc61b9ea
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:213
+#: fdec92bbadd5448699a4283b5c49fadc
 msgid "Ports entrants"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:222
-#: 30be8bdc5ffb4e9ba47dfa637ae44752
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:213
+#: 947e9595ca634e9fba177b2727af0ca7
 msgid "Ports sortants"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:224
-#: 10ef31869ffc471c97f995ff335dc236
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:215
+#: 7892282517d94911b2e152d7d3a25f77
 msgid "Installation de la plate-forme, mise à jour, flux RSS externes, import de page Web, supervision"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:224
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:224
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:227
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:229
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:232
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:234
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:234
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:236
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:236
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:238
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:242
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:244
-#: fe67815a98fc4bf387521d8b5d6cb3fd
-#: 5f5a9ed117354ba4aa2c178225ed50ee
-#: 66df6c10a380463a88d8363baba69d90
-#: fe67815a98fc4bf387521d8b5d6cb3fd
-#: fe67815a98fc4bf387521d8b5d6cb3fd
-#: fe67815a98fc4bf387521d8b5d6cb3fd
-#: fe67815a98fc4bf387521d8b5d6cb3fd
-#: fe67815a98fc4bf387521d8b5d6cb3fd
-#: fe67815a98fc4bf387521d8b5d6cb3fd
-#: fe67815a98fc4bf387521d8b5d6cb3fd
-#: fe67815a98fc4bf387521d8b5d6cb3fd
-#: fe67815a98fc4bf387521d8b5d6cb3fd
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:215
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:215
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:218
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:220
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:222
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:222
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:224
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:224
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:226
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:226
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:228
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:232
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:234
+#: 9b807ce2da7344f88e4718b814c56432
+#: a20aff04cb8242148cea68664c71835c
+#: 4c7ab9c847354af88fb7838748e79907
+#: 9905536363d2426d845bbb1877a11038
+#: 32eefa76bcfd44bcb5ddba9f0274b438
+#: 463f5b82b2ea42bfbc4ee7326b7be998
+#: 3db33572a0ae4dfe83ccb156d1ed8499
+#: cb49f0b1b6714d7d8efc6c5fc9a5f040
+#: 063ca1688cb8454eaefe3673fd2b5416
+#: 726c88e1a06a4ac48f2939e2cf4fd0df
+#: 7ca92a8a6d9940a2a34730c630bd0541
+#: 3e70fceb8a0a4c69b4efb445fc4d0b9f
+#: e73fc260d564466b9799ae593669045a
 msgid "x"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:224
-#: f6e0638f4a33434a9bc24fc135861ea4
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:215
+#: 749f02dd57794c27b225dc87c6f76638
 msgid "80 & 443"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:227
-#: d239ec35371545209b9519472ddea752
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:218
+#: e091ab4688c5490f809eb2730799c1b5
 msgid "Accès à la plate-forme en HTTPS et WebDav"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:227
-#: 3e72df608c2c4ca6b6292c2fa2b1581e
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:218
+#: b0f049a163ec4cbead8034809278492d
 msgid "X"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:227
-#: bf00023c4670439e847bd8f478e6f190
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:218
+#: 65d1c35f114542789689d679c0c1810f
 msgid "443"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:229
-#: e33682ac29494869aef3566e426c76e4
-msgid "Accès à l'annuaire LDAP GoFAST par le S.I de l'entreprise et par VM2"
-msgstr ""
-
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:229
-#: f3ba2fd5c5c141a2a69f8cf116d6f5e0
-msgid "636"
-msgstr ""
-
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:232
-#: be34cc09e9a641f989bbf7357daa2acc
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:220
+#: 0659d7bbbfe64d2ab35f86fe3afd113f
 msgid "Envoi des mails de notification ou autres services internes"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:232
-#: 197231db53ed45c98829a37d736ebd8c
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:220
+#: bf8d8f1f3d5447a389203feeecc1a2f5
 msgid "25, 465, 636.."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:234
-#: 31c7cfff53254a2c910980a49eb4265c
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:222
+#: c99f78036b3a46e08deb65ac45196583
 msgid "Télé-administration (SSH)"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:234
-#: abc6b636c0f54cf68112686142acdd2d
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:222
+#: 2dbb63c97008458b82c12548d816a6de
 msgid "Politique à définir"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:236
-#: b5542dc248534b008ddabfffe848978c
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:224
+#: df47416068464692b060b905ec9556e5
 msgid "Supervision Zabbix"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:236
-#: c899efe14f9d4e01a9354dc3ff2ab643
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:224
+#: 1f3a84c4845a458da308ecab2da94bb7
 msgid "10051"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:238
-#: f12bf1d6f69340468d0fe88d66d54d57
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:226
+#: 339b133b86444c95b14d4c83c64f5c52
+msgid "Centralisation des logs (Graylog)"
+msgstr ""
+
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:226
+#: 0b645ace1a964b82bd2bf1dbb18ae1f3
+msgid "443(UDP)"
+msgstr ""
+
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:228
+#: b233adf632594a6ba1ae84e3017807e6
 msgid "10000/UDP"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:240
-#: 98508ff300ec4219b80296feaf8615d6
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:230
+#: 09318e8d76024d8b8ba5e524c177b7d4
 msgid "\\(x\\)"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:240
-#: 5ed5c78561cd46418c5e1cf591e569d7
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:230
+#: e8c279cf21584939aa08a92e43f5d8a2
 msgid "80/TCP*"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:242
-#: d239ec35371545209b9519472ddea752
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:232
+#: 79cebaacc6fa434f9ca9a29492f8a551
 msgid "Accès à la plate-forme en IMAPS (FACULTATIF)"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:242
-#: 79738ce084464a6d8069e98aaa9d171e
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:232
+#: ceef8ec31f1a4b98977a549c66ffec8a
 msgid "993"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:244
-#: 89f6854a4d4c488fb6e32a08456d4140
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:234
+#: 4434cf482a784ad1aada880ceb863fe7
 msgid "Import d'emails extrérieures (FACULTATIF)"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:244
-#: a99e69bc595847dd98bf0bf34e333266
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:234
+#: 4b7ff1adc2ee483592b50b5b1e9b943b
 msgid "25"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:247
-#: 64668c51222249899ce49d00f16a020d
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:237
+#: 2c6aafc790344813beef0a6778277ff3
 msgid "\\* si les ports udp ne peuvent être ouverts"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:250
-#: 5f0d3d0f00f94de1a559a995717a7aab
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:240
+#: 350e3b4e23e546efa9387a25e43937a6
 msgid "Si le participant n'est pas sur le LAN, *son accès Internet doit laisser passer le trafic sur le port 10000/udp*. Ceci peut poser des problèmes sur certains réseaux InternetPro par exemple des sites distants connectés au siège où se trouve le serveur GoFAST. A noter qu'il est rare que ce problème se retrouve sur les réseaux 4G."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:256
-#: 98c345960f914ca9aff860d8fbf779c0
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:246
+#: 057c240dfbf34125ab0484191ea9c4f7
 msgid "Ressources WebRTC (Enterprise only)"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:261
-#: 6b3f5e10dd1f426985f66206265966c8
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:251
+#: ecd46c09bbd642b4bf3a88bb09b9bb87
 msgid "Le fonctionnement Webrtc est décrit ici : https://developer.mozilla.org/fr/docs/Web/Guide/API/WebRTC/WebRTC_architecture"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:263
-#: 88c868482dc948279a8d7b7397e13fd2
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:253
+#: c5a6b05b608246c1975f7ad28e749445
 msgid "Un diagnostic réseau est possible ici : https://www.netscan.co/  (cliquer sur \"Scan my Network\", le diagnostic est stocké sous forme d'une URL https://www.netscan.co/r/ayiIL )"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:266
-#: 9c908d9ac04b48ec8bd4d3f552c1e442
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:256
+#: d3d89bcc8dfe484c9ac2bcb957a313ec
 msgid "Contrairement au videochat, jitsi-meet ne nécessite pas de serveur STUN."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:272
-#: 916a94a0c80f4f1fafb56e999932ce6c
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:262
+#: e2ef8931e0b44ae2b09f377144278aa4
 msgid "Installation"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:275
-#: fcafcfcb88f24e8baa684bea00d3b098
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:265
+#: 821d59e9ccf94c599b120f330eb905e5
 msgid "Installation par import de VM"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:277
-#: a50affb5704548feb845255e5daad2ed
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:267
+#: 447058244e854cd7bf1f313affeed562
 msgid "CEO-Vision peut fournir une image de la VM sous forme OVA (format universel). Pour les autres formats nous contacter."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:280
-#: 4014d2b495e34354a4b48821c8ac6625
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:270
+#: 1eb20ffaf4d64bcb8afb3a26303ee939
 msgid "Dans le cas du format OVA, une machine virtuelle avec des prérequis standards est fournie."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:284
-#: 09389467c4ee4c2d81d8079e5dd00eb4
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:274
+#: d302ddcf2c1e4962ab4c6ab93a2b71e7
 msgid "Pour VMWare, vérifier que le \"PVSCSI adapter\" est bien utilisé"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:286
-#: 69d34ae3fce1438a8fd9118e500d0308
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:276
+#: a26f5cb7dc244d1894a69424fafb3e45
 msgid "Dans certains cas la machine virtuelle peut avoir un espace disque alloué supérieur au partitionnement de la VM. Dans ce cas les opérations suivantes sont à effectuer: ::"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:327
-#: 0516929c9eaa4208ba4ee4dbf0f80fc2
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:317
+#: b74312542a4b4d21875972625a632441
 msgid "la dernière opération peut prendre entre 30min et 1h30 pour une augmentation de 1To"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:332
-#: 0d5a8fb4122f4db980870b6a71f0cf78
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:322
+#: 831e232e3500430c8b5b5a48932f058c
 msgid "Installation par script (Enterprise only)"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:337
-#: a747549acb034da096799b7f0c72da53
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:327
+#: d5d45191157b4776aa0013a4ad7e9a61
 msgid "A noter que ce type d’installation engendre un coût supplémentaire (facturation en régie)."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:340
-#: 3a3fc2e8210447f48d4d06e5ae894058
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:330
+#: 576ab7c82fb048a982ab25356a7217d2
 msgid "Dans ce cas, une VM avec Centos 7 x64 Minimal est mise à disposition de CEO-Vision qui fait ensuite une installation par script."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:344
-#: 2c1f6bb43f80498480730045291745c3
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:334
+#: a35dda3899c84bbca9cd8548e1f27440
 msgid "Post-installation de la VM (Enterprise only)"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:351
-#: eb6bd42059364aad908e14842cc6e03d
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:341
+#: 42b1d7b49ab04f778a30c56ee73deeb0
 msgid "Configuration du réseau (par l’Exploitant)"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:352
-#: 3309393c7a5c4750b223d06888cf506d
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:342
+#: 2651e69e2e0e41648dbbcf6511ef0d97
 msgid "Se connecter en console à la VM et lancer ``nmtui``"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:353
-#: d6bf3a385b5f4432baa8ce05b4a2901f
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:343
+#: b62a9bf80a24411aba0c7a8885f14f22
 msgid "Choisir ``Edit a connection`` puis l'interface, normalement ``ems33``"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:358
-#: 4df9cbaf324841a292b41b8e0d3400a5
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:348
+#: 5842f0587b39452aa9e4623e9011abd2
 msgid "Cliquer sur ``Show`` au niveau de ``IP v4 Configuration``"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:359
-#: 47af5a82a456423199df5a075bb3939f
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:349
+#: 691167f248b545b8a28f88580337be4e
 msgid "Renseigner les informations (Manual, Addresses, Gateway, DNS serveurs)"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:365
-#: eff778cad50a41ed908373813527f448
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:355
+#: 5606a7bb2d624e9d82091a16c0585a0f
 msgid "Si votre GoFAST est accessible d'Internet, l'adresse est une IP publique"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:367
-#: 9606a8af004f4a20998534a459dffa50
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:357
+#: 0d922c67e8824b02af345dff689c6ffa
 msgid "Dans un environnement virtualisé, la passerelle (gateway) est l'adresse IP du host avec la fin remplacée par .254"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:369
-#: 4df848f6ebc94b33af3c47dc28819bdb
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:359
+#: 0284641d54fe447fb84826fd11836e90
 msgid "Sélectionner ``OK``"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:370
-#: 0f1f15c8f46c4e7ba3b319c81a6507fb
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:360
+#: a29fbf5a643d43f9b9e5648a6f612aba
 msgid "Choisir ``Set system hostname`` normalement le même nom que celui ensuite entré dans les DNS"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:371
-#: 4f371eedc3b449e29e3c9fd0013756b1
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:361
+#: f5f64ff05f6848bc89dccbd21881b829
 msgid "Sortir de l'application"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:372
-#: b4919234fd714ecc972cc7e6c91fc3be
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:362
+#: 89d097f1bf174949a5b4e43cf7203f55
 msgid "``reboot``"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:373
-#: cf3e5d5318974ecfa6f9401a337da4ba
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:363
+#: 527782c7f62f4e4bb90af69288e312b8
 msgid "A la reconnection, vérifier qu'internet est accessible ``ping 8.8.8.8``"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:376
-#: f958e2e168474633882fa8db85e36211
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:366
+#: 3663aa09f9f840d5a37d1de259cf363a
 msgid "Dans le cas ESX, vérifier que l'adresse MAC correspond à l'adresse IP publique configurée"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:379
-#: 60ea03438b744ca69cb7c3e04846433f
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:369
+#: 52f315fcd3c74c36a15b5f5410661a79
 msgid "Configuration / Paramétrage (par l’Exploitant)"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:382
-#: e6ed20d9317c4cd29373b91b2166755f
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:372
+#: 8f03f2380ca44623a8330f1278659809
 msgid "Ces étapes sont très importantes et doivent etre faite le plus tot possible par l’exploitant/infogerant"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:385
-#: bae438013c654dbd8c26d7bd227a017f
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:375
+#: c3eb60ad16844cea8539e34d9074e4ff
 msgid "Déposer sur le serveur le certificat SSL « wildcard » (clef publique et privée correspondant à ``*.mydomain.tld``, ex. ``gofast.ceo-vision.com``)"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:389
-#: 7e7f9d36a75e4453a776f1b91039c8ef
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:379
+#: 7317c34453c24d14a4a70d2ac2329d0f
 msgid "Entrer l'adresse IP et le nom de domaine de la GoFAST dans le DNS de l'entreprise"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:392
-#: e40ef729a4e340a183cab5b0d1c076e6
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:382
+#: d376be66bb7a43759cafadfdb83f0d1d
 msgid "Créer des entrées DNS :"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:394
-#: 23ab23d70d43407aba3b5303a38c78ff
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:384
+#: 5048ced35d0e4a67b0e20512d535b222
 msgid "Vers IP VM1"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:396
-#: 22d405218be74a809b3e6d9264ce32ed
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:386
+#: facc7160bca2439a8c8b988036ff31a8
 msgid "``gofast.mydomain.tld`` (ex. : ``gofast.ceo-vision.com``)"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:398
-#: aae60e8ab419407a947fe503f0094b40
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:388
+#: b723e9863610448b90c4a5d371323a0c
 msgid "``gofast-mobile.mydomain.tld`` (ex. : ``gofast-mobile.ceo-vision.com``)"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:401
-#: 870230a849184cd8bc5bdac5d25a96a2
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:391
+#: 2a2002c0793e48fc9a14077162578ab7
 msgid "Vers IP VM2"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:403
-#: 2fc375af48f7498e97449f38a725b5e4
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:393
+#: 32a5e6bde2a6403c8f75dae874bcae10
 msgid "``gofast-comm.mydomain.tld`` (ex. : ``gofast-comm.ceo-vision.com``)"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:406
-#: 3cd996bf97cb4733b20de8633fd02715
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:396
+#: 45375f705270457abfbb845b4bc2018c
 msgid "Vérifier que la plate-forme GoFAST a bien accès à Internet"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:408
-#: e17c5d9d28dd4234b12c5976329d3f77
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:398
+#: e6c973ce57574e598a586787c7e2ade4
 msgid "Vérifier que toutes les interconnexions entre le VM fonctionnent sur les ports listés au paragraphe « Liste des ports »"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:411
-#: 11759c55e14a4978b5f775579ce3a5b2
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:401
+#: ef6fd16dd02348b48cb5dafe7c7456ef
 msgid "Fournir des informations d'accès en télé-administration (SSH, passerelle SMTP …) à CEO-Vision"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:415
-#: 65d02982f8da47dd952f46e545e22168
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:405
+#: 04ebd261c26840a2a62c34020daa4da4
 msgid "Configuration / Paramétrage par CEO-Vision"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:417
-#: d1e38add024a43298d7be36e1f547aee
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:407
+#: b143d60677054e248518e90a6b5b69db
 msgid "Vérification des pré-requis"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:419
-#: 04deb349567f4d8ea7538d8b004fe0b9
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:409
+#: 72906a5edc174d77913cc6db2d3f9d42
 msgid "Benchmark"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:421
-#: 4bce9e61936b46fe810dfc6e96a9aba7
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:411
+#: 886add78df9b4a8d9b0bb1357316c8fa
 msgid "OPTIONNEL : Configuration avec le proxy"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:423
-#: 44e2bfcd6db34c08ae15ca74e1d54c3b
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:413
+#: f2a4bd404e684fed9f5803500cb213c0
 msgid "OPTIONNEL : Couplage à l'annuaire OpenLDAP ou ActiveDirectory (optionnel)"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:426
-#: 0f07cbc9946148258a3fd691f6e9d758
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:416
+#: 2b0a51f3fd8746f989ac8de1f4f0d636
 msgid "OPTIONNEL : Configuration de la délégation d'authentification"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:428
-#: d43edda256a44e079c3b99dbfd6eb49a
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:418
+#: a56f2687020b44c0baf8a269ac069da4
 msgid "Configuration smtp"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:430
-#: b0bb5c3e10f8445395ebc7070e08a0cd
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:420
+#: f1213f4a97f64636a9a4feb50b673051
 msgid "Installation de la charte graphique"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:432
-#: ac0a7cc17cd54337bd0b9c212c34c334
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:422
+#: 4cc118ad732e4ae4b53c5e3577c1cd44
 msgid "Configuration des sondes de supervision Zabbix"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:434
-#: 895ccf508fc240d7872d43625990ed0f
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:424
+#: 83fa22109e764c68a2f508f3f71dd394
 msgid "Installation des sondes APM (édition XXL)"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:438
-#: 841a268520bd405fb8cf1e545a8683ce
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:428
+#: 36447ba00abb4c84adec0cba50d279d3
 msgid "Vérifications post-installation CEO-Vision"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:441
-#: 6c2b1a0e0d6f468dbf999d879809dff9
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:431
+#: 3b94fb81147849ee82e88bcba7eed28d
 msgid "Vérification basique des performances"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:443
-#: ccadbe665e0442a79d1e2517c8baaf81
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:433
+#: 99fce9e1980a4c50b27f991cda7f400f
 msgid "Installation de l'outil: ::"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:453
-#: 5be6aa9ea54f4f32b2ce128cd863e856
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:443
+#: 1792e0a4dc274e948d1695ff2110feb7
 msgid "Commandes pour obtenir l'environnement logiciel et matériel lors du bechmark: ::"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:464
-#: 2716e52938184ff3b19b209a71672033
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:454
+#: 8a3881d8635a4aad912fb62b2b26bc6f
 msgid "CPU"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:466
-#: a6aea77e04144a0c967c3a849ce1a441
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:456
+#: ff1a5ac275be40ebb63ba0a9bda78217
 msgid "Mesurer les performances de votre CPU en exécutant ce qui suit: ::"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:471
-#: 6aa24c1283ae4e039ee1013ba8b959ac
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:461
+#: b94ddcaae38e4d6fb5ecc5749764286e
 msgid "Exemple de résultat (en secondes, le plus petit le mieux): ::"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:476
-#: f766dbbe39f04c888a63d7979281fa0d
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:466
+#: f281815e2107499e9b264d6d008ef0c0
 msgid "File IO Benchmark"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:478
-#: f5b8047daa2c43e3b349a35412c53c61
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:468
+#: 0d3e0bc7ded14fefb54a8a1c85307264
 msgid "Pour mesurer les performances des E/S (entrées/sorties) il est nécessaire de créer un fichier beaucoup plus grand que la mémoire vive (RAM) disponible car sinon le système utilise la mémoire comme cache ce qui fausse les résultats - 150GB est une bonne valeur pas toujours utilisable (manque d'espace disque): ::"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:486
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:521
-#: 2bf3992570ef475b9fe3c8745e7f79b0
-#: 2bf3992570ef475b9fe3c8745e7f79b0
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:476
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:511
+#: 006648a3c2b94fc8aaf21a3eb0f5ce44
+#: 5fb9303b271e4f86b19427ea05cb0f47
 msgid "Ensuite, exécuter le benchmark: ::"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:491
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:525
-#: 60bae23992674b198353143c54f7eaff
-#: 60bae23992674b198353143c54f7eaff
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:481
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:515
+#: 241daecc0fd04c4b8eea2275d2527803
+#: 89e46ab260c1467c985311ee8a6312fa
 msgid "Exemple de résultat: ::"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:495
-#: 41d156a8b71b49b9b91e4769d4c3f532
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:485
+#: 522d49bec8044f429e05a663fbbb2f98
 msgid "Puis vous pouvez effacer le fichier de test: ::"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:500
-#: cfec60db2aab4341a7a0d445f86c52a7
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:490
+#: 9cced6db9d034f4aa7663048f9a4a149
 msgid "File IO Benchmark (FIO)"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:510
-#: 61bbaf4f4a4e4365bed113f8ac4f6cdc
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:500
+#: ccedfc7fd92e45d5b60374c676f71bac
 msgid "MySQL Benchmark"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:512
-#: 12adf95445a84439b793416effa13cd9
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:502
+#: fe946e3622894e97949bf2a34a2d3a38
 msgid "Pour mesurer la performance de la base de données MySQL, nous devons d'abord créer une table **test** dans la base de données **test** (crée manuellement) avec 1,000,000 lignes de données: ::"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:530
-#: 7c30bb85157a4d26879b01fa983478a9
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:520
+#: b4ef9109b1af4736831010a8d7d86b64
 msgid "Indicateurs MySQL en fonctionnement normal"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:592
-#: 3b1b1a0733c94746914caea7b13291f9
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:582
+#: 2e020cefac4144e6a1c8f443a8419a2b
 msgid "ANNEXE I : Problèmes courants"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:595
-#: a042e84f1970447a9aa16b3afc922e57
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:585
+#: 79b762b068d24f7aa8296af7097e77df
 msgid "Pas d'envoi des mails techniques"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:597
-#: ed2fb359710648bea4a0ceace83d9eeb
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:587
+#: 737e78caee55457abdc23c9d956c20e0
 msgid "Configurer le relais SMTP dans sendmail (``/etc/postfix/main.cf``) ::"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:602
-#: d22012748aef4817930d2f1efb06565d
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:592
+#: d3210702126d492b859490c68512f954
 msgid "Connexion impossible à la GoFAST par la messagerie (IMAPS)"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:604
-#: 4a93e0408bb347f9bdc2f69f3b653453
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:594
+#: 206ae53dd6fd4fc5877d78f958e49683
 msgid "Le test suivant doit fonctionner (fin de message « **\\* OK IMAP4rev1 Server GreenMail ready** ») d'un serveur interne ou externe si la GoFAST est sur une DMZ ::"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:610
-#: 04cb6df5230541b48d3b15d57f14f364
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:600
+#: fe9357a7a0f542878b9cf940454630c8
 msgid "Dans le cas contraire vérifier que :"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:612
-#: a18f6d7fd2624769a560792167e580d5
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:602
+#: 2be46529a8914a2ba3708181ed4b7232
 msgid "le port 993 est correctement ouvert (voir § sur la vérification des ports ouverts)"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:615
-#: e8aef239b62848b9808d3094755e34ae
+#: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:605
+#: 57b922c413ee48cbaab585ae9759cff7
 msgid "que le process « **stunnel**  »fonctionne"
 msgstr ""
