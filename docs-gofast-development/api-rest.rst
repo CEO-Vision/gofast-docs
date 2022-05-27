@@ -1139,7 +1139,7 @@ Cette méthode permet d'accéder à un *espace collaboratif* en passant par le m
 +-------------------+------------------------------------------------+
 |  Clé              |   Valeur                                       |
 +===================+================================================+
-|    nid            |N° de noeud                                     |
+|    gid*           |N° de noeud de l'espace parent                  |
 +-------------------+------------------------------------------------+
 
 
@@ -1173,7 +1173,7 @@ Cette méthode permet d'ajouter une valeur à certains *espaces collaboratif* de
 +-------------------+------------------------------------------------+
 |  Clé              |   Valeur                                       |
 +===================+================================================+
-|      nid          |N° de noeud                                     |
+|      gid*         |N° de noeud de l'espace parent                  |
 +-------------------+------------------------------------------------+
 
 
@@ -1189,6 +1189,45 @@ Cette méthode permet d'ajouter une valeur à certains *espaces collaboratif* de
 |   Clé                 |   Valeur                                           |
 +=======================+====================================================+
 |        uid            |Quelques informations de base sur l'utilisateur     |
++-----------------------+----------------------------------------------------+
+
+Action : members
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Cette action permet d'intéragir basiquement avec les *Organic Groups* de Drupal.
+
+GET
+__________
+
+Cette méthode permet d'accéder à des *espaces collaboratifs* en passant par le mécanisme Drupal
+
+*GET: /api/space/members*
+
++-------------------+----------------------------------------+
+|   Header          |   Valeur                               |
++===================+========================================+
+|Content-Type       | application/json                       |
++-------------------+----------------------------------------+
+
++-------------------+------------------------------------------------+
+|  Clé              |   Valeur                                       |
++===================+================================================+
+|    uid            |Quelques informations de base sur l'utilisateur |
++-------------------+------------------------------------------------+
+
+
+*Retour:*
+
++-------------------+----------------------------------------+
+|   Header          |   Valeur                               |
++===================+========================================+
+|Content-Type       | application/json                       |
++-------------------+----------------------------------------+
+
++-----------------------+----------------------------------------------------+
+|   Clé                 |   Valeur                                           |
++=======================+====================================================+
+|     body              |Contenu de l’accueil de l’espace (format HTML)     |
 +-----------------------+----------------------------------------------------+
 
 Ressource : taxonomy
@@ -1268,10 +1307,49 @@ Ressource : user
 
 Cette ressource permet d'intéragir avec les entités *user* de Drupal. Ces entités représentent les utilisateurs enregistrés sur la plateforme.
 
+Action : main_orga
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Cette action permet d'intéragir
+
+GET
+__________
+
+Cette méthode permet de
+
+*GET: /api/user/main_orga*
+
++-------------------+--------------------------+
+|  Header           |   Valeur                 |
++===================+==========================+
+|Content-Type       | application/json         |
++-------------------+--------------------------+
+
++-------------------+--------------------------------------------------+
+|  Clé              |   Valeur                                         |
++===================+==================================================+
+|  uid              |Quelques informations de base sur l'utilisateur   |
++-------------------+--------------------------------------------------+
+
+
+*Retour:*
+
++-------------------+--------------------------+
+|  Header           |   Valeur                 |
++===================+==========================+
+|Content-Type       | application/json         |
++-------------------+--------------------------+
+
++-------------------+--------------------------------------------------+
+|  Clé              |   Valeur                                         |
++===================+==================================================+
+|  nid              |N° du noeud                                       |
++-------------------+--------------------------------------------------+
+
 Action : autocomplete
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Cette action permet d'intéragie avec le système d'autocomplétion des entités *user* de Drupal.
+Cette action permet d'intéragir avec le système d'autocomplétion des entités *user* de Drupal.
 
 GET
 __________
