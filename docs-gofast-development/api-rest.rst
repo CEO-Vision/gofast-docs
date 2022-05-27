@@ -118,6 +118,73 @@ Ressource : node
 
 Cette ressource permet d'intéragir avec les entités Drupal de type noeud. Ces derniers peuvent représenter des documents, articles, espaces, formulaires...
 
+Action : informations
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Cette action permet d'intéragir basiquement avec les informations associées aux entités Drupal de type noeud.
+
+GET
+__________
+
+Cette méthode permet de récupérer des informations d'une entité de type noeud.
+
+*GET: /api/node/informations*
+
++-------------------+--------------------------+
+|  Header           |   Valeur                 |
++===================+==========================+
+|Content-Type       | application/json         |
++-------------------+--------------------------+
+
++-------------------+--------------------------+
+|  GET Parameter    |   Valeur                 |
++===================+==========================+
+|    nid*           |N° du noeud               |
++-------------------+--------------------------+
+
+
+*Retour:*
+
++-------------------+----------------------------------------+
+|   Header          |   Valeur                               |
++===================+========================================+
+|Content-Type       | application/json                       |
++-------------------+----------------------------------------+
+
++-----------------------+----------------------------------------------------+
+|   Clé                 |   Valeur                                           |
++=======================+====================================================+
+|nid                    | N° du noeud                                        |
++-----------------------+----------------------------------------------------+
+|type                   | Type du noeud                                      |
++-----------------------+----------------------------------------------------+
+|title                  | Titre du noeud                                     |
++-----------------------+----------------------------------------------------+
+|status                 | 1: Publié, 0: Dépublié (Supprimé)                  |
++-----------------------+----------------------------------------------------+
+|uid                    | N° du créateur du noeud                            |
++-----------------------+----------------------------------------------------+
+|sticky                 | 1: Epinglé, 0: Pas épinglé                         |
++-----------------------+----------------------------------------------------+
+|language               | Langue du noeud (und, fr, en, nl...)               |
++-----------------------+----------------------------------------------------+
+|created                | Timestamp de création du noeud                     |
++-----------------------+----------------------------------------------------+
+|updated                | Timestamp de dernière modification du noeud        |
++-----------------------+----------------------------------------------------+
+|update_uid             | N° du dernier modificateur du noeud                |
++-----------------------+----------------------------------------------------+
+|comment_count          | Nombre de commentaires attachés au noeud           |
++-----------------------+----------------------------------------------------+
+|last_comment_uid       | N° du dernier commentateur du noeud                |
++-----------------------+----------------------------------------------------+
+|last_comment_timestamp | Timestamp du dernier commentaire du noeud          |
++-----------------------+----------------------------------------------------+
+|last_comment_cid       | N° du dernier commentaire du noeud                 |
++-----------------------+----------------------------------------------------+
+|alfresco_reference     | Référence du contenu Alfresco associé au noeud     |
++-----------------------+----------------------------------------------------+
+
 Action : node
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
