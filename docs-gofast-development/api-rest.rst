@@ -858,32 +858,48 @@ Cette méthode permet de récupérer les status associés à des entités *node*
 Action : publication
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Cette action permet
+Cette action permet t'intéragir avec les publications Alfresco associés à des entités de type noeud.
 
 GET
 __________
 
-Cette méthode permet
+Cette méthode permet t'intéragir avec une publication Alfresco associé à des entités de type noeud.
 
 *GET: /api/node/publication*
 
 +-------------------+--------------------------+
 |  Header           |   Valeur                 |
 +===================+==========================+
-|Content-Type       | application/json         |
+|  Content-Type     | application/json         |
 +-------------------+--------------------------+
 
++-------------------+--------------------------------------------------------------------+
+|  Clé              |   Valeur                                                           |
++===================+====================================================================+
+|  str*             |Input                                                               |
++-------------------+--------------------------------------------------------------------+
 
 
+*Retour:*
 
++-------------------+--------------------------+
+|  Header           |   Valeur                 |
++===================+==========================+
+|  Content-Type     | application/json         |
++-------------------+--------------------------+
 
-
-
++-------------------+--------------------------------------------------------------------+
+|  Clé              |   Valeur                                                           |
++===================+====================================================================+
+|  nid              |N° du noeud                                                         |
++-------------------+--------------------------------------------------------------------+
+|  uid              |Quelques informations de base sur l'utilisateur                     |
++-------------------+--------------------------------------------------------------------+
 
 Action : autocomplete
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Cette action permet d'intéragie avec le système d'autocomplétion des entités *node* de Drupal.
+Cette action permet d'intéragir avec le système d'autocomplétion des entités *node* de Drupal.
 
 GET
 __________
@@ -921,6 +937,46 @@ Cette méthode permet de récupérer une liste de noeuds en fonction de la chain
 |uid                    | Quelques informations de base sur l'utilisateur           |
 +-----------------------+-----------------------------------------------------------+
 
+Action : readonly
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Cette action permet d'intéragir 
+
+POST
+__________
+
+Cette méthode permet de
+
+*POST: /api/comment/readonly*
+
++-------------------+--------------------------+
+|  Header           |   Valeur                 |
++===================+==========================+
+|Content-Type       | application/json         |
++-------------------+--------------------------+
+
++-------------------+--------------------------+
+|  POST Parameter   |   Valeur                 |
++===================+==========================+
+|    cid            |N° du commentaire         |
++-------------------+--------------------------+
+
+
+*Retour:*
+
++-------------------+--------------------------+
+|  Header           |   Valeur                 |
++===================+==========================+
+|Content-Type       | application/json         |
++-------------------+--------------------------+
+
++-----------------------+----------------------------------------------------+
+|   Clé                 |   Valeur                                           |
++=======================+====================================================+
+|nid                    | N° du noeud                                        |
++-----------------------+----------------------------------------------------+
+|uid*                   | quelques informations de base sur l'utilisateur    |
++-----------------------+----------------------------------------------------+
 
 Ressource : comment
 **********************
