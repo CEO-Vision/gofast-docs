@@ -1455,7 +1455,7 @@ Cette méthode permet de récupérer une liste d'utilisateurs en fonction de la 
 Action : picture
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Cette action permet d'intéragie avec le système...
+Cette action permet d'intéragie...
 
 GET
 __________
