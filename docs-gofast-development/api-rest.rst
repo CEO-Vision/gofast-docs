@@ -1007,12 +1007,12 @@ Cette méthode permet de récupérer une liste de noeuds en fonction de la chain
 Action : readonly
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Cette action permet d'intéragir 
+Cette action permet d'intéragir...
 
 POST
 __________
 
-Cette méthode permet de
+Cette méthode permet de...
 
 *POST: /api/comment/readonly*
 
@@ -1377,12 +1377,12 @@ Cette ressource permet d'intéragir avec les entités *user* de Drupal. Ces enti
 Action : main_orga
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Cette action permet d'intéragir
+Cette action permet d'intéragir...
 
 GET
 __________
 
-Cette méthode permet de
+Cette méthode permet de...
 
 *GET: /api/user/main_orga*
 
@@ -1455,12 +1455,12 @@ Cette méthode permet de récupérer une liste d'utilisateurs en fonction de la 
 Action : picture
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Cette action permet d'intéragie avec le système..
+Cette action permet d'intéragie avec le système...
 
 GET
 __________
 
-Cette méthode permet de..
+Cette méthode permet de...
 
 *GET: /api/user/picture*
 
