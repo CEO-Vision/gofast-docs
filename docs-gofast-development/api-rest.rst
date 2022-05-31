@@ -721,15 +721,15 @@ Cette méthode permet de récupérer les versions des contenus Alfresco associé
 +-----------------------+----------------------------------------------------+
 |   Clé                 |   Valeur                                           |
 +=======================+====================================================+
-|creator                | Identifiant du créateur de la version              |
+|creator                | Identifiant des créateur des versions              |
 +-----------------------+----------------------------------------------------+
 |type                   | MINOR : Version mineure, MAJOR : Version majeure   |
 +-----------------------+----------------------------------------------------+
-|created                | Timestamp de la création de la version             |
+|created                | Timestamp de la création des versions              |
 +-----------------------+----------------------------------------------------+
-|version                | N° de version                                      |
+|version                | N° des versions                                    |
 +-----------------------+----------------------------------------------------+
-|comment                | Commentaire associé à la version                   |
+|comment                | Commentaire associé aux versions                   |
 +-----------------------+----------------------------------------------------+
 
 Action : archive
@@ -755,7 +755,7 @@ Cette méthode permet de récupérer les archives de Alfresco associés à une e
 +===================+====================================================================+
 |      nid*         |N° du noeud                                                         |
 +-------------------+--------------------------------------------------------------------+
-|    locations*     |Tableau indexé contenant les nouveaux archives à ajouter            |
+|    locations*     |Tableau indexé contenant les nouvelles archives à ajouter           |
 +-------------------+--------------------------------------------------------------------+
 
 *Retour:*
@@ -769,9 +769,7 @@ Cette méthode permet de récupérer les archives de Alfresco associés à une e
 +-------------------+--------------------------------------------------------------------+
 |  Clé              |   Valeur                                                           |
 +===================+====================================================================+
-|     locations     |Tableau indexé contenant les àrchives après vidage du cache.        |
-+-------------------+--------------------------------------------------------------------+
-|      delete       |1 = suppression; 0 = ajout.                                         |
+|     locations     |Tableau indexé contenant les archives après vidage du cache.        |
 +-------------------+--------------------------------------------------------------------+
 
 Action : status
