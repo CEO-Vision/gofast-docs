@@ -735,12 +735,12 @@ Cette méthode permet de récupérer les versions des contenus Alfresco associé
 Action : archive
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Cette action permet d'intéragir avec les archives de Alfresco associés aux entités de type noeud
+Cette action permet d'intéragir avec les archives associés aux entités de type noeud
 
 POST
 __________
 
-Cette méthode permet de récupérer les archives de Alfresco associés à une entité de type noeud
+Cette méthode permet d'archiver un document associés à une entité de type noeud
 
 *POST: /api/node/archive*
 
@@ -755,7 +755,7 @@ Cette méthode permet de récupérer les archives de Alfresco associés à une e
 +===================+====================================================================+
 |      nid*         |N° du noeud                                                         |
 +-------------------+--------------------------------------------------------------------+
-|    locations*     |Tableau indexé contenant les nouvelles archives à ajouter           |
+|    unarchive*     |Le fichier à charger                                                |
 +-------------------+--------------------------------------------------------------------+
 
 *Retour:*
@@ -769,7 +769,7 @@ Cette méthode permet de récupérer les archives de Alfresco associés à une e
 +-------------------+--------------------------------------------------------------------+
 |  Clé              |   Valeur                                                           |
 +===================+====================================================================+
-|     locations     |Tableau indexé contenant les archives après vidage du cache.        |
+|     nid           |N° du noeud                                                         |
 +-------------------+--------------------------------------------------------------------+
 
 Action : status
@@ -780,7 +780,7 @@ Cette action permet t'intéragir avec le status des entités *node* de Drupal.
 POST
 __________
 
-Cette méthode permet de récupérer les status associés à des entités *node* de Drupal.
+Cette méthode permet de restaurer le statut associés à des entités *node* de Drupal.
 
 *POST: /api/node/status*
 
@@ -793,7 +793,9 @@ Cette méthode permet de récupérer les status associés à des entités *node*
 +-------------------+--------------------------------------------------------------------+
 |  Clé              |   Valeur                                                           |
 +===================+====================================================================+
-|  nid*             |N° du noeud                                                         |
+|  nid*             |   N° du noeud                                                      |
++-------------------+--------------------------------------------------------------------+
+|  restore*         |   Le fichier à restaurer                                           |
 +-------------------+--------------------------------------------------------------------+
 
 *Retour:*
@@ -807,9 +809,9 @@ Cette méthode permet de récupérer les status associés à des entités *node*
 +-------------------+--------------------------------------------------------------------+
 |  Clé              |   Valeur                                                           |
 +===================+====================================================================+
-|  nid*             |N° du noeud                                                         |
+|  nid              |N° du noeud                                                         |
 +-------------------+--------------------------------------------------------------------+
-|  bundles          |1 = suppression; 1 = ajout.                                         |
+|  status           |1: Publié, 0: Dépublié (Supprimé)                                   |
 +-------------------+--------------------------------------------------------------------+
 
 Action : publication
@@ -833,9 +835,10 @@ Cette méthode permet t'intéragir avec une publication Alfresco associé à des
 +-------------------+--------------------------------------------------------------------+
 |  Clé              |   Valeur                                                           |
 +===================+====================================================================+
-|  str*             |Input                                                               |
+|  nid*             |N° du noeud                                                         |
 +-------------------+--------------------------------------------------------------------+
-
+|  field_XXX        |Tableau contenant les valeurs du champ                              |
++-------------------+--------------------------------------------------------------------+
 
 *Retour:*
 
@@ -850,8 +853,48 @@ Cette méthode permet t'intéragir avec une publication Alfresco associé à des
 +===================+====================================================================+
 |  nid              |N° du noeud                                                         |
 +-------------------+--------------------------------------------------------------------+
-|  uid              |Quelques informations de base sur l'utilisateur                     |
+|  field_XXX        |Tableau contenant le retour de la fonction                          |
 +-------------------+--------------------------------------------------------------------+
+
+POST
+__________
+
+Cette méthode permet t'intéragir avec une publication Alfresco associé à des entités de type noeud.
+
+*POST: /api/node/publication*
+
++-------------------+--------------------------+
+|  Header           |   Valeur                 |
++===================+==========================+
+|  Content-Type     | application/json         |
++-------------------+--------------------------+
+
++-------------------+--------------------------------------------------------------------+
+|  Clé              |   Valeur                                                           |
++===================+====================================================================+
+|nid*               |N° du noeud                                                         |
++-------------------+--------------------------------------------------------------------+
+|locations*         |Tableau indexé contenant les emplacements                           |
++-------------------+--------------------------------------------------------------------+
+|  field_XXX        |Tableau contenant les valeurs du champs                             |
++-------------------+--------------------------------------------------------------------+
+
+*Retour:*
+
++-------------------+--------------------------+
+|  Header           |   Valeur                 |
++===================+==========================+
+|  Content-Type     | application/json         |
++-------------------+--------------------------+
+
++-------------------+--------------------------------------------------------------------+
+|  Clé              |   Valeur                                                           |
++===================+====================================================================+
+|  nid              |N° du noeud                                                         |
++-------------------+--------------------------------------------------------------------+
+|  field_XXX        |Tableau contenant le retour de la fonction                          |
++-------------------+--------------------------------------------------------------------+
+
 
 Action : autocomplete
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -893,47 +936,6 @@ Cette méthode permet de récupérer une liste de noeuds en fonction de la chain
 +=======================+===========================================================+
 |uid                    | Quelques informations de base sur l'utilisateur           |
 +-----------------------+-----------------------------------------------------------+
-
-Action : readonly
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Cette action permet d'intéragir...
-
-POST
-__________
-
-Cette méthode permet de...
-
-*POST: /api/comment/readonly*
-
-+-------------------+--------------------------+
-|  Header           |   Valeur                 |
-+===================+==========================+
-|Content-Type       | application/json         |
-+-------------------+--------------------------+
-
-+-------------------+--------------------------+
-|  POST Parameter   |   Valeur                 |
-+===================+==========================+
-|    cid            |N° du commentaire         |
-+-------------------+--------------------------+
-
-
-*Retour:*
-
-+-------------------+--------------------------+
-|  Header           |   Valeur                 |
-+===================+==========================+
-|Content-Type       | application/json         |
-+-------------------+--------------------------+
-
-+-----------------------+----------------------------------------------------+
-|   Clé                 |   Valeur                                           |
-+=======================+====================================================+
-|nid                    | N° du noeud                                        |
-+-----------------------+----------------------------------------------------+
-|uid*                   | quelques informations de base sur l'utilisateur    |
-+-----------------------+----------------------------------------------------+
 
 Ressource : comment
 **********************
@@ -1098,7 +1100,8 @@ Cette méthode permet d'accéder à un *espace collaboratif* en passant par le m
 +===================+================================================+
 |    gid*           |N° de noeud de l'espace parent                  |
 +-------------------+------------------------------------------------+
-
+|    role*          |Rôle de l'utilisateur                           |
++-------------------+------------------------------------------------+
 
 *Retour:*
 
@@ -1127,12 +1130,13 @@ Cette méthode permet d'ajouter une valeur à certains *espaces collaboratif* de
 |Content-Type       | application/json                       |
 +-------------------+----------------------------------------+
 
-+-------------------+------------------------------------------------+
-|  Clé              |   Valeur                                       |
-+===================+================================================+
-|      gid*         |N° de noeud de l'espace parent                  |
-+-------------------+------------------------------------------------+
-
++-------------------+----------------------------------------+
+|  Clé              |   Valeur                               |
++===================+========================================+
+|      gid*         |N° de noeud de l'espace parent          |
++-------------------+----------------------------------------+
+|      new_role*    |Nouveaux rôles des utilisateurs         |
++-------------------+----------------------------------------+
 
 *Retour:*
 
@@ -1142,11 +1146,11 @@ Cette méthode permet d'ajouter une valeur à certains *espaces collaboratif* de
 |Content-Type       | application/json                       |
 +-------------------+----------------------------------------+
 
-+-----------------------+----------------------------------------------------+
-|   Clé                 |   Valeur                                           |
-+=======================+====================================================+
-|        uid            |Quelques informations de base sur l'utilisateur     |
-+-----------------------+----------------------------------------------------+
++-------------------+---------------------------------------------------+
+|   Clé             |   Valeur                                          |
++===================+===================================================+
+|        uid        |Quelques informations de base sur les utilisateurs |
++-------------------+---------------------------------------------------+
 
 Action : members
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -1169,7 +1173,7 @@ Cette méthode permet d'accéder à des *espaces collaboratifs* en passant par l
 +-------------------+------------------------------------------------+
 |  Clé              |   Valeur                                       |
 +===================+================================================+
-|    uid            |Quelques informations de base sur l'utilisateur |
+|    nid*           |N° du noeud                                     |
 +-------------------+------------------------------------------------+
 
 
@@ -1184,7 +1188,9 @@ Cette méthode permet d'accéder à des *espaces collaboratifs* en passant par l
 +-----------------------+----------------------------------------------------+
 |   Clé                 |   Valeur                                           |
 +=======================+====================================================+
-|     body              |Contenu de l’accueil de l’espace (format HTML)     |
+|     uid               |Quelques informations de base sur l'utilisateur     |
++-----------------------+----------------------------------------------------+
+|     name              |Username de l'utilisateur                           |
 +-----------------------+----------------------------------------------------+
 
 Ressource : taxonomy
