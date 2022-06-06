@@ -822,7 +822,7 @@ Cette action permet t'intéragir avec les publications Alfresco associés à des
 GET
 __________
 
-Cette méthode permet t'intéragir avec une publication Alfresco associé à des entités de type noeud.
+Cette méthode permet récupérer le statut d'une publication Alfresco associé à des entités de type noeud.
 
 *GET: /api/node/publication*
 
@@ -836,8 +836,6 @@ Cette méthode permet t'intéragir avec une publication Alfresco associé à des
 |  Clé              |   Valeur                                                           |
 +===================+====================================================================+
 |  nid*             |N° du noeud                                                         |
-+-------------------+--------------------------------------------------------------------+
-|  field_XXX        |Tableau contenant les valeurs du champ                              |
 +-------------------+--------------------------------------------------------------------+
 
 *Retour:*
@@ -853,13 +851,13 @@ Cette méthode permet t'intéragir avec une publication Alfresco associé à des
 +===================+====================================================================+
 |  nid              |N° du noeud                                                         |
 +-------------------+--------------------------------------------------------------------+
-|  field_XXX        |Tableau contenant le retour de la fonction                          |
+|  status           |1: Publié, 0: Dépublié (Supprimé)                                   |
 +-------------------+--------------------------------------------------------------------+
 
 POST
 __________
 
-Cette méthode permet t'intéragir avec une publication Alfresco associé à des entités de type noeud.
+Cette méthode permet de créer un document Alfresco en une publication Alfresco associé à des entités de type noeud.
 
 *POST: /api/node/publication*
 
@@ -876,8 +874,6 @@ Cette méthode permet t'intéragir avec une publication Alfresco associé à des
 +-------------------+--------------------------------------------------------------------+
 |locations*         |Tableau indexé contenant les emplacements                           |
 +-------------------+--------------------------------------------------------------------+
-|  field_XXX        |Tableau contenant les valeurs du champs                             |
-+-------------------+--------------------------------------------------------------------+
 
 *Retour:*
 
@@ -890,9 +886,7 @@ Cette méthode permet t'intéragir avec une publication Alfresco associé à des
 +-------------------+--------------------------------------------------------------------+
 |  Clé              |   Valeur                                                           |
 +===================+====================================================================+
-|  nid              |N° du noeud                                                         |
-+-------------------+--------------------------------------------------------------------+
-|  field_XXX        |Tableau contenant le retour de la fonction                          |
+|publication_nid    |N° du noeud de la publication                                       |
 +-------------------+--------------------------------------------------------------------+
 
 
