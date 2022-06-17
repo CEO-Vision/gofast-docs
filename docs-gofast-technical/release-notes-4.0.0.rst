@@ -93,7 +93,6 @@ Améliorations
    [GOFAST-7446],"Ergonomie : Nouveau look & feel GoFAST Essential (et interface mobile) "
    [GOFAST-5480],"Ergonomie : Nouveau message d'alerte au clic sur 'déverrouiller' un document en cours d'édition"
    [GOFAST-6720],"Ergonomie : Nouvelle page de connexion "
-   [GOFAST-8275],"Ergonomie : Regroupement des fonctionnalités de signature dans le menu burger"
    [GOFAST-6114],"Ergonomie : Renommage 'Espace Privé' en 'Espace Personnel'"
    [GOFAST-5166],"Ergonomie : Renommer le Type d'utilisateur 'Extranet' par 'Externe'"
    [GOFAST-5414],"Ergonomie : 'Titre' renommé en 'Fonction' et 'Société' renommé en 'Entité' "
