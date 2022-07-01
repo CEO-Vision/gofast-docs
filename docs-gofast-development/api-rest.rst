@@ -755,7 +755,7 @@ Cette méthode permet d'archiver un document associés à une entité de type no
 +===================+====================================================================+
 |      nid*         |N° du noeud                                                         |
 +-------------------+--------------------------------------------------------------------+
-|    unarchive*     |Le fichier à archiver                                               |
+|    unarchive*     |Boolean 1: archiver, 0: désarchiver                                 |
 +-------------------+--------------------------------------------------------------------+
 
 *Retour:*
@@ -780,7 +780,7 @@ Cette action permet t'intéragir avec le status des entités *node* de Drupal.
 POST
 __________
 
-Cette méthode permet de restaurer le statut associés à des entités *node* de Drupal.
+Cette méthode permet de publié ou dépublié un noeud et si il s’agit d’un document, il sera restauré ou supprimé.
 
 *POST: /api/node/status*
 
@@ -795,7 +795,7 @@ Cette méthode permet de restaurer le statut associés à des entités *node* de
 +===================+====================================================================+
 |  nid*             |   N° du noeud                                                      |
 +-------------------+--------------------------------------------------------------------+
-|  restore*         |   Le fichier à restaurer                                           |
+|  restore*         |   Boolean 1: Publié, 0: Dépublié                                   |
 +-------------------+--------------------------------------------------------------------+
 
 *Retour:*
@@ -811,7 +811,7 @@ Cette méthode permet de restaurer le statut associés à des entités *node* de
 +===================+====================================================================+
 |  nid              |N° du noeud                                                         |
 +-------------------+--------------------------------------------------------------------+
-|  status           |1: Publié, 0: Dépublié (Supprimé)                                   |
+|  status           |Boolean 1: Publié, 0: Dépublié (Supprimé)                           |
 +-------------------+--------------------------------------------------------------------+
 
 Action : publication
@@ -822,7 +822,7 @@ Cette action permet t'intéragir avec les publications Alfresco associés à des
 GET
 __________
 
-Cette méthode permet récupérer le statut d'une publication Alfresco associé à des entités de type noeud.
+ette méthode permet de récupérer la publication d’un document si elle existe.
 
 *GET: /api/node/publication*
 
@@ -851,13 +851,13 @@ Cette méthode permet récupérer le statut d'une publication Alfresco associé 
 +===================+====================================================================+
 |  nid              |N° du noeud                                                         |
 +-------------------+--------------------------------------------------------------------+
-|  status           |1: Publié, 0: Dépublié (Supprimé)                                   |
+|  status           |1: Publié, 0: Dépublié                                              |
 +-------------------+--------------------------------------------------------------------+
 
 POST
 __________
 
-Cette méthode permet de créer un document Alfresco en une publication Alfresco associé à des entités de type noeud.
+Cette méthode permet de créer une publication à partir d’un document Alfresco associé à des entités de type noeud.
 
 *POST: /api/node/publication*
 
@@ -1079,7 +1079,7 @@ Cette action permet d'intéragir basiquement avec les *Organic Groups* de Drupal
 PUT
 __________
 
-Cette méthode permet d'accéder à un *espace collaboratif* en passant par le mécanisme Drupal
+Permet d’ajouter un membre (utilisateur ou une liste d’utilisateur) dans un espace avec un rôle.
 
 *PUT: /api/space/member*
 
@@ -1114,7 +1114,7 @@ Cette méthode permet d'accéder à un *espace collaboratif* en passant par le m
 PATCH
 __________
 
-Cette méthode permet d'ajouter une valeur à certains *espaces collaboratif* de Drupal
+Permet de mettre à jour le rôle d’un membre (utilisateur ou liste d'utilisateur) d’un espace.
 
 *PATCH: /api/space/member*
 
@@ -1146,6 +1146,43 @@ Cette méthode permet d'ajouter une valeur à certains *espaces collaboratif* de
 |        uid        |N° de l’utilisateur                     |
 +-------------------+----------------------------------------+
 
+DELETE
+__________
+
+Permet de retirer le rôle d’un membre (utilisateur ou une liste d'utilisateur) d’un espace.
+
+*DELETE: /api/space/member*
+
++-------------------+----------------------------------------+
+|   Header          |   Valeur                               |
++===================+========================================+
+|Content-Type       | application/json                       |
++-------------------+----------------------------------------+
+
++-------------------+----------------------------------------+
+|  Clé              |   Valeur                               |
++===================+========================================+
+|      gid*         |N° de noeud de l'espace parent          |
++-------------------+----------------------------------------+
+|    uid            |N° de l'utilisateur                     |
++-------------------+----------------------------------------+
+
+*Retour:*
+
++-------------------+----------------------------------------+
+|   Header          |   Valeur                               |
++===================+========================================+
+|Content-Type       | application/json                       |
++-------------------+----------------------------------------+
+
++-------------------+-------------------------------------------+
+|   Clé             |   Valeur                                  |
++===================+===========================================+
+|        uid        |N° de l’utilisateur                        |
++-------------------+-------------------------------------------+
+|      status       |Boolean 1: , 0: Supprimé         |
++-------------------+-------------------------------------------+
+
 Action : members
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -1154,7 +1191,7 @@ Cette action permet d'intéragir basiquement avec les *Organic Groups* de Drupal
 GET
 __________
 
-Cette méthode permet d'accéder à des *espaces collaboratifs* en passant par le mécanisme Drupal
+Cette méthode permet de récupérer les membres d’un espace.
 
 *GET: /api/space/members*
 
@@ -1372,7 +1409,7 @@ Cette méthode permet de récupérer les tâches d'un utilisateur.
 +-------------------+----------------------------------------------+
 |  Clé              |   Valeur                                     |
 +===================+==============================================+
-|                   |                                              |
+| uid               |N° de l'utilisateur                           |
 +-------------------+----------------------------------------------+
 
 *Retour:*
@@ -1394,17 +1431,17 @@ Cette méthode permet de récupérer les tâches d'un utilisateur.
 Ressource : search
 **********************
 
-Cette ressource permet d'intéragir
+Cette ressource permet d'intéragir avec les recherches documentaires.
 
 Action : search
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Cette action permet de
+Cette action permet d'effectuer une recherche documentaire.
 
 POST
 __________
 
-Cette méthode permet récupérer
+Cette méthode permet d'effectuer une recherche documentaire.
 
 *POST: /api/search/search*
 
@@ -1417,7 +1454,9 @@ Cette méthode permet récupérer
 +-------------------+----------------------------------------------+
 |  Clé              |   Valeur                                     |
 +===================+==============================================+
-|                   |                                              |
+|        query      |Requête de la recherche                                              |hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh
++-------------------+----------------------------------------------+
+|      filters      |Filtres à utiliser avec un format correct     |
 +-------------------+----------------------------------------------+
 
 *Retour:*
@@ -1445,7 +1484,7 @@ Cette méthode permet récupérer
 +-----------------------+----------------------------------------------------------------------+
 |user                   |Nom de l'utilisateur                                                  |
 +-----------------------+----------------------------------------------------------------------+
-|node                   |                                                                      |
+|node                   |N° du noeud                                                           |
 +-----------------------+----------------------------------------------------------------------+
 |uid                    |N° de l'utilisateur                                                   |
 +-----------------------+----------------------------------------------------------------------+
@@ -1455,17 +1494,17 @@ Cette méthode permet récupérer
 Ressource : userlist
 **********************
 
-Cette ressource permet d'intéragir
+Cette ressource permet d'intéragir avec les userlists.
 
 Action : userlist
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Cette action permet de récupérer
+Cette action permet d'intéragir avec les userlists.
 
 GET
 __________
 
-Cette méthode permet de récupérer
+Cette méthode permet de récupérer les informations d’une userlist.
 
 *GET: /api/userlist/userlist*
 
@@ -1502,7 +1541,7 @@ Cette méthode permet de récupérer
 PUT
 __________
 
-Cette méthode permet de créer un document de type userlist
+Cette méthode permet de créer une userlist.
 
 *PUT: /api/userlist/userlist*
 
@@ -1515,9 +1554,9 @@ Cette méthode permet de créer un document de type userlist
 +-------------------+----------------------------------------------+
 |  Clé              |   Valeur                                     |
 +===================+==============================================+
-|title              |Titre du document à créer                     |
+|title              |Titre de la liste d'utilisateur               |
 +-------------------+----------------------------------------------+
-|description        |Description du document à créer               |
+|description        |Description de la liste d'utilisateur         |
 +-------------------+----------------------------------------------+
 
 *Retour:*
@@ -1531,21 +1570,21 @@ Cette méthode permet de créer un document de type userlist
 +-----------------------+----------------------------------------------------------------------+
 |   Clé                 |   Valeur                                                             |
 +=======================+======================================================================+
-|title                  |Nom du document créé                                                  |
+|title                  |Nom de la liste d'utilisateur                                         |
 +-----------------------+----------------------------------------------------------------------+
-|nid                    |N° de noeud du document créé                                          |
+|nid                    |N° de noeud de la liste d'utilisateur                                 |
 +-----------------------+----------------------------------------------------------------------+
-|type                   |Type du document créé                                                 |
+|type                   |Type de la liste d'utilisateur                                        |
 +-----------------------+----------------------------------------------------------------------+
-|created                |Date de création du document                                          |
+|created                |Date de création de la liste d'utilisateur                            |
 +-----------------------+----------------------------------------------------------------------+
-|creator_id             |N° du créateur du document                                            |
+|creator_id             |N° du créateur de la liste d'utilisateur                              |
 +-----------------------+----------------------------------------------------------------------+
 
 PATCH
 __________
 
-Cette méthode permet de 
+Cette méthode permet de mettre à jour une userlist.
 
 *PATCH: /api/userlist/userlist*
 
@@ -1558,7 +1597,7 @@ Cette méthode permet de
 +-------------------+----------------------------------------------+
 |  Clé              |   Valeur                                     |
 +===================+==============================================+
-|nulid              |N° de noeud du document                       |
+|nulid              |N° de noeud de la liste d'utilisateur         |
 +-------------------+----------------------------------------------+
 |title              |Titre du document                             |
 +-------------------+----------------------------------------------+
@@ -1574,20 +1613,20 @@ Cette méthode permet de
 +-----------------------+----------------------------------------------------------------------+
 |   Clé                 |   Valeur                                                             |
 +=======================+======================================================================+
-|new_title              |Nouveau titre du document                                             |
+|new_title              |Nouveau titre de la liste d'utilisateur                               |
 +-----------------------+----------------------------------------------------------------------+
-|status                 |Statut du document                                                    |
+|status                 |Statut de la liste d'utilisateur                                      |
 +-----------------------+----------------------------------------------------------------------+
 
 Action : admins
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Cette action permet aux administrateur de gérer l'userlist.
+Cette action permet aux administrateur de gérer la userlist.
 
 PUT
 __________
 
-Cette méthode permet d'ajouter un administrateur a l'userlist.
+Cette méthode permet d'ajouter un administrateur la userlist.
 
 *PUT: /api/userlist/admins*
 
@@ -1600,9 +1639,9 @@ Cette méthode permet d'ajouter un administrateur a l'userlist.
 +-------------------+----------------------------------------------+
 |  Clé              |   Valeur                                     |
 +===================+==============================================+
-|nulid              |N° de noeud d'un document de type userlist    |
+|nulid              |N° de noeud de la liste d'utilisateur         |
 +-------------------+----------------------------------------------+
-|uid                |N° du créateur du document                    |
+|uid                |N° du créateur de la liste d'utilisateur      |
 +-------------------+----------------------------------------------+
 
 *Retour:*
@@ -1623,12 +1662,12 @@ Cette méthode permet d'ajouter un administrateur a l'userlist.
 Action : members
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Cette action permet aux membres d'accéder à l'userlist.
+Cette action permet aux membres d'accéder à la userlist.
 
 GET
 __________
 
-Cette méthode permet de récupérer la liste des membres de l'userlist.
+Cette méthode permet de récupérer la liste des membres de la userlist.
 
 *GET: /api/userlist/members*
 
@@ -1678,9 +1717,9 @@ Cette méthode permet d'ajouter un membre à l'userlist
 +-------------------+----------------------------------------------+
 |  Clé              |   Valeur                                     |
 +===================+==============================================+
-|nulid              |N° de noeud d'un document de type userlist    |
+|nulid              |N° de noeud de la liste d'utilisateur         |
 +-------------------+----------------------------------------------+
-|uid                |N° du créateur du document                    |
+|uid                |N° du créateur de la liste d'utilisateur      |
 +-------------------+----------------------------------------------+
 
 *Retour:*
@@ -1700,17 +1739,17 @@ Cette méthode permet d'ajouter un membre à l'userlist
 Ressource : workflow
 **********************
 
-Cette ressource permet d'intéragir
+Cette ressource permet d'intéragir avec les modèles de processus.
 
 Action : profil
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Cette action permet de récupérer
+Cette action permet de d'intéragir avec les modèles de profil.
 
 GET
 __________
 
-Cette méthode permet de récupérer
+Cette méthode permet de récupérer les modèles de profil.
 
 *GET: /api/workflow/profil*
 
