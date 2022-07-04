@@ -817,12 +817,12 @@ Cette méthode permet de publier ou dépublier un noeud et s'il s’agit d’un 
 Action : publication
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Cette action permet t'intéragir avec les publications Alfresco associés à des entités de type noeud.
+Cette action permet t'intéragir avec les publications Alfresco associées à des entités de type noeud.
 
 GET
 __________
 
-ette méthode permet de récupérer la publication d’un document si elle existe.
+Cette méthode permet de récupérer la publication d’un document si elle existe.
 
 *GET: /api/node/publication*
 
@@ -857,7 +857,7 @@ ette méthode permet de récupérer la publication d’un document si elle exist
 POST
 __________
 
-Cette méthode permet de créer une publication à partir d’un document Alfresco associé à des entités de type noeud.
+Cette méthode permet de créer une publication à partir d’un document Alfresco associée à des entités de type noeud.
 
 *POST: /api/node/publication*
 
@@ -1079,7 +1079,7 @@ Cette action permet d'intéragir basiquement avec les *Organic Groups* de Drupal
 PUT
 __________
 
-Permet d’ajouter un membre (utilisateur ou une liste d’utilisateur) dans un espace avec un rôle.
+Permet d’ajouter un membre (utilisateur ou une liste d’utilisateurs) dans un espace avec un rôle.
 
 *PUT: /api/space/member*
 
