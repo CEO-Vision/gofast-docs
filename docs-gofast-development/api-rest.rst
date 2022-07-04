@@ -735,12 +735,12 @@ Cette méthode permet de récupérer les versions des contenus Alfresco associé
 Action : archive
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Cette action permet d'intéragir avec les archives associés aux entités de type noeud
+Cette action permet d'intéragir avec les archives associées aux entités de type noeud.
 
 POST
 __________
 
-Cette méthode permet d'archiver un document associés à une entité de type noeud
+Cette méthode permet d'archiver un document associé à une entité de type noeud.
 
 *POST: /api/node/archive*
 
@@ -780,7 +780,7 @@ Cette action permet t'intéragir avec le status des entités *node* de Drupal.
 POST
 __________
 
-Cette méthode permet de publié ou dépublié un noeud et si il s’agit d’un document, il sera restauré ou supprimé.
+Cette méthode permet de publier ou dépublier un noeud et s'il s’agit d’un document, il sera restauré ou supprimé.
 
 *POST: /api/node/status*
 
@@ -1114,7 +1114,7 @@ Permet d’ajouter un membre (utilisateur ou une liste d’utilisateur) dans un 
 PATCH
 __________
 
-Permet de mettre à jour le rôle d’un membre (utilisateur ou liste d'utilisateur) d’un espace.
+Permet de mettre à jour le rôle d’un membre (utilisateur ou liste d'utilisateurs) d’un espace.
 
 *PATCH: /api/space/member*
 
@@ -1149,7 +1149,7 @@ Permet de mettre à jour le rôle d’un membre (utilisateur ou liste d'utilisat
 DELETE
 __________
 
-Permet de retirer le rôle d’un membre (utilisateur ou une liste d'utilisateur) d’un espace.
+Cette méthode permet de retirer le rôle d’un membre (utilisateur ou une liste d'utilisateurs) d’un espace.
 
 *DELETE: /api/space/member*
 
@@ -1309,7 +1309,7 @@ Cette action permet d'intéragir avec le système d'autocomplétion des entités
 GET
 __________
 
-Cette méthode permet de récupérer une liste d'utilisateurs en fonction de la chaine passée en input.
+Cette méthode permet de récupérer une liste d'utilisateurs en fonction de la chaine passée en saisie.
 
 *GET: /api/user/autocomplete*
 
@@ -1443,6 +1443,8 @@ __________
 
 Cette méthode permet d'effectuer une recherche documentaire.
 
+.. NOTE:: Les valeurs de *filters* disponibles peuvent être récupérés depuis la ressource taxonomy et l'action terms (*/api/taxonomy/terms*).
+
 *POST: /api/search/search*
 
 +-------------------+--------------------------+
@@ -1451,13 +1453,13 @@ Cette méthode permet d'effectuer une recherche documentaire.
 |Content-Type       | application/json         |
 +-------------------+--------------------------+
 
-+-------------------+----------------------------------------------+
-|  Clé              |   Valeur                                     |
-+===================+==============================================+
-|        query      |                                              |
-+-------------------+----------------------------------------------+
-|      filters      |                                              |
-+-------------------+----------------------------------------------+
++-------------------+-----------------------------------------------------------+
+|  Clé              |   Valeur                                                  |
++===================+===========================================================+
+|        query      |                                                           |
++-------------------+-----------------------------------------------------------+
+|      filters      |ID du terme de recherche                                   |
++-------------------+-----------------------------------------------------------+
 
 *Retour:*
 
@@ -1494,17 +1496,17 @@ Cette méthode permet d'effectuer une recherche documentaire.
 Ressource : userlist
 **********************
 
-Cette ressource permet d'intéragir avec les userlists (liste d'utilisateur).
+Cette ressource permet d'intéragir avec les listes d'utilisateurs.
 
 Action : userlist
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Cette action permet d'intéragir avec les userlists (liste d'utilisateur).
+Cette action permet d'intéragir avec les listes d'utilisateurs.
 
 GET
 __________
 
-Cette méthode permet de récupérer les informations d’une userlist (liste d'utilisateur).
+Cette méthode permet de récupérer les informations d’une liste d'utilisateurs.
 
 *GET: /api/userlist/userlist*
 
@@ -1517,7 +1519,7 @@ Cette méthode permet de récupérer les informations d’une userlist (liste d'
 +-------------------+----------------------------------------------+
 |  Clé              |   Valeur                                     |
 +===================+==============================================+
-|nulid              |N° de noeud d'une liste d'utilisateur         |
+|nulid              |N° de noeud d'une liste d'utilisateurs        |
 +-------------------+----------------------------------------------+
 
 *Retour:*
@@ -1541,7 +1543,7 @@ Cette méthode permet de récupérer les informations d’une userlist (liste d'
 PUT
 __________
 
-Cette méthode permet de créer une userlist.
+Cette méthode permet de créer une liste d'utilisateurs.
 
 *PUT: /api/userlist/userlist*
 
@@ -1554,9 +1556,9 @@ Cette méthode permet de créer une userlist.
 +-------------------+----------------------------------------------+
 |  Clé              |   Valeur                                     |
 +===================+==============================================+
-|title              |Titre de la liste d'utilisateur               |
+|title              |Titre de la liste d'utilisateurs              |
 +-------------------+----------------------------------------------+
-|description        |Description de la liste d'utilisateur         |
+|description        |Description de la liste d'utilisateurs        |
 +-------------------+----------------------------------------------+
 
 *Retour:*
@@ -1570,21 +1572,21 @@ Cette méthode permet de créer une userlist.
 +-----------------------+----------------------------------------------------------------------+
 |   Clé                 |   Valeur                                                             |
 +=======================+======================================================================+
-|title                  |Nom de la liste d'utilisateur                                         |
+|title                  |Nom de la liste d'utilisateurs                                        |
 +-----------------------+----------------------------------------------------------------------+
-|nid                    |N° de noeud de la liste d'utilisateur                                 |
+|nid                    |N° de noeud de la liste d'utilisateurs                                |
 +-----------------------+----------------------------------------------------------------------+
-|type                   |Type de la liste d'utilisateur                                        |
+|type                   |Type de la liste d'utilisateurs                                       |
 +-----------------------+----------------------------------------------------------------------+
-|created                |Date de création de la liste d'utilisateur                            |
+|created                |Date de création de la liste d'utilisateurs                           |
 +-----------------------+----------------------------------------------------------------------+
-|creator_id             |N° du créateur de la liste d'utilisateur                              |
+|creator_id             |N° du créateur de la liste d'utilisateurs                             |
 +-----------------------+----------------------------------------------------------------------+
 
 PATCH
 __________
 
-Cette méthode permet de mettre à jour une userlist (liste d'utilisateur).
+Cette méthode permet de mettre à jour une liste d'utilisateurs.
 
 *PATCH: /api/userlist/userlist*
 
@@ -1597,7 +1599,7 @@ Cette méthode permet de mettre à jour une userlist (liste d'utilisateur).
 +-------------------+----------------------------------------------+
 |  Clé              |   Valeur                                     |
 +===================+==============================================+
-|nulid              |N° de noeud de la liste d'utilisateur         |
+|nulid              |N° de noeud de la liste d'utilisateurs        |
 +-------------------+----------------------------------------------+
 |title              |Titre du document                             |
 +-------------------+----------------------------------------------+
@@ -1613,20 +1615,20 @@ Cette méthode permet de mettre à jour une userlist (liste d'utilisateur).
 +-----------------------+----------------------------------------------------------------------+
 |   Clé                 |   Valeur                                                             |
 +=======================+======================================================================+
-|new_title              |Nouveau titre de la liste d'utilisateur                               |
+|new_title              |Nouveau titre de la liste d'utilisateurs                              |
 +-----------------------+----------------------------------------------------------------------+
-|status                 |Statut de la liste d'utilisateur                                      |
+|status                 |Statut de la liste d'utilisateurs                                     |
 +-----------------------+----------------------------------------------------------------------+
 
 Action : admins
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Cette action permet aux administrateur de gérer la userlist (liste d'utilisateur).
+Cette action permet aux administrateur de gérer la liste d'utilisateurs.
 
 PUT
 __________
 
-Cette méthode permet d'ajouter un administrateur la userlist (liste d'utilisateur).
+Cette méthode permet d'ajouter un administrateur la liste d'utilisateurs.
 
 *PUT: /api/userlist/admins*
 
@@ -1639,9 +1641,9 @@ Cette méthode permet d'ajouter un administrateur la userlist (liste d'utilisate
 +-------------------+----------------------------------------------+
 |  Clé              |   Valeur                                     |
 +===================+==============================================+
-|nulid              |N° de noeud de la liste d'utilisateur         |
+|nulid              |N° de noeud de la liste d'utilisateurs        |
 +-------------------+----------------------------------------------+
-|uid                |N° du créateur de la liste d'utilisateur      |
+|uid                |N° du créateur de la liste d'utilisateurs     |
 +-------------------+----------------------------------------------+
 
 *Retour:*
@@ -1662,12 +1664,12 @@ Cette méthode permet d'ajouter un administrateur la userlist (liste d'utilisate
 Action : members
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Cette action permet aux membres d'accéder à la userlist (liste d'utilisateur).
+Cette action permet aux membres d'accéder à la liste d'utilisateurs.
 
 GET
 __________
 
-Cette méthode permet de récupérer la liste des membres de la userlist (liste d'utilisateur).
+Cette méthode permet de récupérer la liste des membres de la liste d'utilisateurs.
 
 *GET: /api/userlist/members*
 
@@ -1680,7 +1682,7 @@ Cette méthode permet de récupérer la liste des membres de la userlist (liste 
 +-------------------+----------------------------------------------+
 |  Clé              |   Valeur                                     |
 +===================+==============================================+
-|nulid              |N° de noeud d'un document de type userlist    |
+|nulid              |N° de noeud d'une liste d'utilisateurs        |
 +-------------------+----------------------------------------------+
 
 *Retour:*
@@ -1696,7 +1698,7 @@ Cette méthode permet de récupérer la liste des membres de la userlist (liste 
 +=======================+======================================================================+
 |uid                    |N° de l'utilisateur                                                   |
 +-----------------------+----------------------------------------------------------------------+
-|uid                    |Nom d'utilisateur                                                     |
+|username               |Nom d'utilisateur                                                     |
 +-----------------------+----------------------------------------------------------------------+
 |display_name           |Nom d'affichage de l'utilisateur                                      |
 +-----------------------+----------------------------------------------------------------------+
@@ -1704,7 +1706,8 @@ Cette méthode permet de récupérer la liste des membres de la userlist (liste 
 PUT
 __________
 
-Cette méthode permet d'ajouter un membre à l'userlist (liste d'utilisateur).
+Cette méthode permet d'ajouter un membre à la liste d'utilisateurs.
+
 *PUT: /api/userlist/members*
 
 +-------------------+--------------------------+
@@ -1716,9 +1719,9 @@ Cette méthode permet d'ajouter un membre à l'userlist (liste d'utilisateur).
 +-------------------+----------------------------------------------+
 |  Clé              |   Valeur                                     |
 +===================+==============================================+
-|nulid              |N° de noeud de la liste d'utilisateur         |
+|nulid              |N° de noeud de la liste d'utilisateurs        |
 +-------------------+----------------------------------------------+
-|uid                |N° du créateur de la liste d'utilisateur      |
+|uid                |N° du créateur de la liste d'utilisateurs     |
 +-------------------+----------------------------------------------+
 
 *Retour:*
@@ -1891,7 +1894,7 @@ Cette méthode permet de mettre à jour un modèle de profil.
 DELETE
 __________
 
-Cette méthode permet de supprimé un modèle de profil.
+Cette méthode permet de supprimer un modèle de profil.
 
 *DELETE: /api/workflow/profil*
 
