@@ -735,7 +735,7 @@ Cette méthode permet de récupérer les versions des contenus Alfresco associé
 Action : archive
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Cette action permet d'intéragir avec les archives associées aux entités de type noeud.
+Cette action permet d'intéragir avec l'archivage des documents associées aux entités de type noeud.
 
 POST
 __________
@@ -755,7 +755,7 @@ Cette méthode permet d'archiver un document associé à une entité de type noe
 +===================+====================================================================+
 |      nid*         |N° du noeud                                                         |
 +-------------------+--------------------------------------------------------------------+
-|    unarchive*     |Boolean 1: archiver, 0: désarchiver                                 |
+|    unarchive*     |Si la valeur est "true", le document sera désarchivé                |
 +-------------------+--------------------------------------------------------------------+
 
 *Retour:*
@@ -775,7 +775,7 @@ Cette méthode permet d'archiver un document associé à une entité de type noe
 Action : status
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Cette action permet t'intéragir avec le status des entités *node* de Drupal.
+Cette action permet d'intéragir avec le status des entités *node* de Drupal.
 
 POST
 __________
@@ -795,7 +795,7 @@ Cette méthode permet de publier ou dépublier un noeud et s'il s’agit d’un 
 +===================+====================================================================+
 |  nid*             |   N° du noeud                                                      |
 +-------------------+--------------------------------------------------------------------+
-|  restore*         |   Boolean 1: Publié, 0: Dépublié                                   |
+|  restore*         |   Si la valeur est "true", le document sera restauré               |
 +-------------------+--------------------------------------------------------------------+
 
 *Retour:*
@@ -811,13 +811,11 @@ Cette méthode permet de publier ou dépublier un noeud et s'il s’agit d’un 
 +===================+====================================================================+
 |  nid              |N° du noeud                                                         |
 +-------------------+--------------------------------------------------------------------+
-|  status           |Boolean 1: Publié, 0: Dépublié (Supprimé)                           |
-+-------------------+--------------------------------------------------------------------+
 
 Action : publication
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Cette action permet t'intéragir avec les publications Alfresco associées à des entités de type noeud.
+Cette action permet d'intéragir avec les publications de documents associées à des entités de type noeud.
 
 GET
 __________
@@ -859,6 +857,8 @@ __________
 
 Cette méthode permet de créer une publication à partir d’un document Alfresco associée à des entités de type noeud.
 
+.. CAUTION:: La documentation de cette API n'est pas encore complète.
+
 *POST: /api/node/publication*
 
 +-------------------+--------------------------+
@@ -867,13 +867,13 @@ Cette méthode permet de créer une publication à partir d’un document Alfres
 |  Content-Type     | application/json         |
 +-------------------+--------------------------+
 
-+-------------------+--------------------------------------------------------------------+
-|  Clé              |   Valeur                                                           |
-+===================+====================================================================+
-|nid*               |N° du noeud                                                         |
-+-------------------+--------------------------------------------------------------------+
-|locations*         |Tableau indexé contenant les emplacements                           |
-+-------------------+--------------------------------------------------------------------+
++-------------------+----------------------------------------------------------------------+
+|  Clé              |   Valeur                                                             |
++===================+======================================================================+
+|nid*               |N° du noeud                                                           |
++-------------------+----------------------------------------------------------------------+
+|locations*         |Tableau indexé contenant les emplacements sous la forme "/Sites/_xxx" |
++-------------------+----------------------------------------------------------------------+
 
 *Retour:*
 
@@ -1074,7 +1074,7 @@ Cette méthode permet de créer un *espace collaboratif* en passant par le méca
 Action : member
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Cette action permet d'intéragir basiquement avec les *Organic Groups* de Drupal.
+Cette action permet d'intéragir basiquement avec les membres des *Organic Groups* de Drupal.
 
 PUT
 __________
@@ -1089,13 +1089,15 @@ Permet d’ajouter un membre (utilisateur ou une liste d’utilisateurs) dans un
 |Content-Type       | application/json                       |
 +-------------------+----------------------------------------+
 
-+-------------------+------------------------------------------------+
-|  Clé              |   Valeur                                       |
-+===================+================================================+
-|    gid*           |N° de noeud de l'espace parent                  |
-+-------------------+------------------------------------------------+
-|    role*          |Rôle de l'utilisateur                           |
-+-------------------+------------------------------------------------+
++------------------------+-------------------------------------------------------------+
+|  Clé                   |   Valeur                                                    |
++========================+=============================================================+
+|    gid*                |N° de noeud de l'espace                                      |
++------------------------+-------------------------------------------------------------+
+|    role*               |Rôle de l'utilisateur                                        |
++------------------------+-------------------------------------------------------------+
+|    uid OU ul_node_id*  |Identifiant de l'utilisateur OU de la liste d'utilisateurs   |
++------------------------+-------------------------------------------------------------+
 
 *Retour:*
 
@@ -1124,13 +1126,15 @@ Permet de mettre à jour le rôle d’un membre (utilisateur ou liste d'utilisat
 |Content-Type       | application/json                       |
 +-------------------+----------------------------------------+
 
-+-------------------+----------------------------------------+
-|  Clé              |   Valeur                               |
-+===================+========================================+
-|      gid*         |N° de noeud de l'espace parent          |
-+-------------------+----------------------------------------+
-|      new_role*    |Nouveaux rôles des utilisateurs         |
-+-------------------+----------------------------------------+
++------------------------+-------------------------------------------------------------+
+|  Clé                   |   Valeur                                                    |
++========================+=============================================================+
+|      gid*              |N° de noeud de l'espace                                      |
++------------------------+-------------------------------------------------------------+
+|      new_role*         |Nouveaux rôles des utilisateurs                              |
++------------------------+-------------------------------------------------------------+
+|    uid OU ul_node_id*  |Identifiant de l'utilisateur OU de la liste d'utilisateurs   |
++------------------------+-------------------------------------------------------------+
 
 *Retour:*
 
@@ -1149,7 +1153,7 @@ Permet de mettre à jour le rôle d’un membre (utilisateur ou liste d'utilisat
 DELETE
 __________
 
-Cette méthode permet de retirer le rôle d’un membre (utilisateur ou une liste d'utilisateurs) d’un espace.
+Cette méthode permet de retirer un membre (un utilisateur ou une liste d'utilisateurs) d’un espace.
 
 *DELETE: /api/space/member*
 
@@ -1159,13 +1163,13 @@ Cette méthode permet de retirer le rôle d’un membre (utilisateur ou une list
 |Content-Type       | application/json                       |
 +-------------------+----------------------------------------+
 
-+-------------------+----------------------------------------+
-|  Clé              |   Valeur                               |
-+===================+========================================+
-|      gid*         |N° de noeud de l'espace parent          |
-+-------------------+----------------------------------------+
-|    uid            |N° de l'utilisateur                     |
-+-------------------+----------------------------------------+
++------------------------+-------------------------------------------------------------+
+|  Clé                   |   Valeur                                                    |
++========================+=============================================================+
+|      gid*              |N° de noeud de l'espace                                      |
++------------------------+-------------------------------------------------------------+
+|    uid OU ul_node_id*  |Identifiant de l'utilisateur OU de la liste d'utilisateurs   |
++------------------------+-------------------------------------------------------------+
 
 *Retour:*
 
@@ -1180,7 +1184,7 @@ Cette méthode permet de retirer le rôle d’un membre (utilisateur ou une list
 +===================+===========================================+
 |        uid        |N° de l’utilisateur                        |
 +-------------------+-------------------------------------------+
-|      status       |Boolean 1: Aucun changement, 0: Supprimé   |
+|      status       |OK si tout s'est bien passé                |
 +-------------------+-------------------------------------------+
 
 Action : members
@@ -1219,7 +1223,7 @@ Cette méthode permet de récupérer les membres d’un espace.
 +-------------------+----------------------------------------------------+
 |   Clé             |   Valeur                                           |
 +===================+====================================================+
-|     uid           |Quelques informations de base sur l'utilisateur     |
+|     uid           |Identifiant de l'utilisateurs                       |
 +-------------------+----------------------------------------------------+
 |     name          |Username de l'utilisateur                           |
 +-------------------+----------------------------------------------------+
