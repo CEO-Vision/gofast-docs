@@ -216,3 +216,43 @@ Vous pouvez à présent décompresser l'archive directement dans l'arborescence 
 .. |image20| image:: img/abbyy_hot_folder_config-0.png
 .. |image22| image:: media-guide/riot-gofast-login-ipad-FR.png
 .. |image23| image:: img/mountainduck-gofast-config_FR.PNG
+
+Configurations/Installations optionnelles
+------------------------------------------------------
+**Des configurations et/ou installations supplémentaires sont nécessaires pour :**
+
+ - Editer en ligne les contenus non-Office (exemple signature de PDF) ou via LibreOffice 
+ - Synchronisation hors-ligne
+ - Accès à l’arborescence de GoFAST via votre l'explorateur de fichiers du PC (Windows ou MacOS)
+
+Dans la plupart des cas, il est nécessaire de contacter votre support informatique (qui gèrent votre PC).
+
+
+
+**Configurer le Lecteur Réseau :**
+
+Faire un clic-droit sur "Ce PC" et choisir "Connecter un lecteur réseau"
+
+.. figure:: media-guide/config-win-webdav1.png
+   :alt: 
+   
+Entrer l'adresse pointant vers votre GoFAST, ex. ``\\gofast.ceo-vision.com@SSL\alfresco\webdav\``
+
+.. figure:: media-guide/config-win-webdav2.png
+   :alt:
+
+Une boite de dialogue s'ouvrira ensuite dans laquelle vous devrez entrer vos identifiants / mot de passe GoFAST
+ 
+En cas d'erreur voir http://gofast-docs.readthedocs.io/fr/latest/docs-gofast-users/doc-gofast-problemes-connus.html#gofast-problemes-connus 
+ 
+Une fois cette opération faite, vous pouvez voir GoFAST comme un "Lecteur Réseau", alors la même arborescence
+
+.. figure:: media-guide/webdav-gofast.png
+   :alt:
+
+Vous pouvez faire toute opération, comme des copier-coller de documents ou de répertoires entiers.  
+
+.. CAUTION:: Vous ne pouvez pas faire d'opérations sur les Espaces (commençant par un _)
+
+.. figure:: media-guide/copier-coller-webdav.png
+   :alt:

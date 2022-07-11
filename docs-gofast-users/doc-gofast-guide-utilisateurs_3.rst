@@ -1,589 +1,421 @@
-Iconologie GoFAST (Multifiling et permissions)
-==============================================
-Dans tous les espaces de la plate-forme, il existe plusieurs icônes communes dans la colonne «Info» du bloc principal. Ces icônes donnent des informations concernant le multifiling et les permissions  sur les documents, les répertoires et les espaces. L’objectif de cet affichage est de simplifier le travail de l’utilisateur et d'éviter la duplication inutile des éléments.
-
-.. figure:: media-guide/Display-multifiling-icons.jpg
-   :alt:
-
-Vous trouvez ci-dessous la liste de ces dernières ainsi que leurs significations respectives :
-
-+-------------------------------------------------------+---------------------+--------------+--------------------------------------------------------------------------------------------------------------------------------------------------+
-| Icônes	                                        | Permissions         |            Significations                                                                                                                                       |
-+=======================================================+=====================+=================================================================================================================================================================+
-| .. figure:: media-guide/icon-read-only.png            | Lecture Seule       | Vous avez des permissions de lecture seule, vous pouvez voir tous les contenus de ce dossier / cet espace mais vous n'aurez pas de permissions supplémentaires. |
-|    :alt:                                              |                     |                                                                                                                                                                 |
-+-------------------------------------------------------+---------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| .. figure:: media-guide/icon-contributor.png          | Contributeur        | Vous avez des permissions de contribution, vous pourrez collaborer sur tous les contenus de ce dossier / cet espace.                                            |
-|    :alt:                                              |                     |                                                                                                                                                                 |
-+-------------------------------------------------------+---------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| .. figure:: media-guide/icon-owner.png                | Propriétaire        |Vous pouvez gérer ce contenu (édition, suppression) car vous avez des droits de créateur sur celui-ci.                                                           |
-|    :alt:                                              |                     |                                                                                                                                                                 |
-+-------------------------------------------------------+---------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| .. figure:: media-guide/icon-administrator.png        | Administrateur      | Vous avez des permissions d'administration, vous pouvez gérer tous les contenus de ce dossier / cet espace.                                                     |
-|    :alt:                                              |                     |                                                                                                                                                                 |
-+-------------------------------------------------------+---------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| .. figure:: media-guide/icon-share.png                | Partagé             | Ce contenu est dans plusieurs emplacements mais vous n'avez pas accès à tous ces emplacements.                                                                  |
-|    :alt:                                              |                     |                                                                                                                                                                 |
-+-------------------------------------------------------+---------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| .. figure:: media-guide/icon-cat-specefic.png         | Catégorie spéciale  | Vous pouvez seulement consulter ce contenu et le commenter car il a des permissions spéciales (archivé, DUA...).                                                |
-|    :alt:                                              |                     |                                                                                                                                                                 |
-+-------------------------------------------------------+---------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------+
-
-
-Gestion des Espaces Collaboratifs
+Gérer les Espaces Collaboratifs
 =================================
 
-Voir aussi "Création d’un espace"
+Les Espaces Collaboratifs structure toute la gestion collaborative et le partage de contenus entre les diverses Directions, Services, groupes de travail, partenaires externes, etc. 
 
-Devenir membre d’un espace/groupe
----------------------------------
+C’est un élément capital sur la plateforme GoFAST Digital Workplace et il est fortement recommandé de consulter la rubrique : « Les Espaces collaboratifs » dans « Les Bases ». 
 
-Il faut bien sûr d’abord avoir un compte GoFAST. Si ce n’est pas encore
-le cas, il faut **le demander** à l’administrateur général (à ICT) ou à
-un autre administrateur d’espace (désormais possible dans GoFAST3) .
-Puis,
+Se repérer sur la page d’un Espace Collaboratif
+-------------------------------------------------------------
+Généralités 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Un Espace est un ensemble de : 
+ - Membres ayant accès à cet Espace
+ - Documents/Contenus/Taches/Discussions/Statistiques partagés dans cet Espace. 
+Le nom de l’Espace où vous trouvez, est indiqué à gauche en haut sur la page de l’Espace.
+Merci de consulter la rubrique : « Les bases » pour en savoir plus sur les types d’Espaces Collaboratifs. 
 
--  soit l’administrateur du groupe qui a créé votre compte, vous ajoute
-   directement comme membre de ce groupe ;
-
--  soit en faisant la demande via l’annuaire et les
-   groupes/organisations/espaces : vous avez la liste des espaces
-   collaboratifs à droite (cliquez sur ceux que vous voulez) , vous les
-   retrouvez ainsi à gauche et avez la possibilité de les rejoindre un
-   par un en cliquant sur « Rejoindre » dans chaque case d’espace.
-
-.. figure:: media-guide/image090.png
-   :alt: 
-
-Vous verrez un message bleu s’afficher confirmant votre demande de
-joindre ce groupe/cet espace
-
-.. figure:: media-guide/image091.png
-   :alt: 
-
-Vous retrouverez ensuite vos demandes dans votre profil.
-
-.. figure:: media-guide/image092.png
-   :alt: 
-
-Ajouter des membres à un espace/groupe
---------------------------------------
-
-Le **compte** de la personne doit déjà exister, si pas, il doit **être
-créé** dans l'annuaire par quelqu'un d'habilité (l’administrateur
-général/ICT ou un autre administrateur de l’espace en question) .
-
-(voir « Création d’ un utilisateur » p.43 et « Créer un utilisateur dans
-un espace » p.52)
-
-Pour connaître les administrateurs d’un groupe, allez sur l’onglet
-« Membres » de ce groupe, vous y verrez en 1ere ligne les
-administrateurs de l’espace.
-
-.. figure:: media-guide/image093.png
-   :alt: 
-
-**Si vous avez donc les droits d’administrateur de cet espace** ;
-lorsque vous êtes dans l’espace collaboratif en question (groupe ou
-organisation), allez dans les actions contextuelles (3 barres
-horizontales) , cliquez sur « Ajouter membre»
-
-.. figure:: media-guide/image094.png
-   :alt: 
-
-Remplissez cette fenêtre avec le nom du nouveau membre (inscrivez les 3
-premières lettres pour avoir des propositions de noms), choisissez le
-rôle que vous lui donnez (administrateur, contributeur standard ou
-lecture seule). Vous pouvez également mettre un petit mot dans la zone
-de texte « Request message » pour prévenir les autres administrateurs de
-cet espace de cet ajout et la raison. Terminez en cliquant sur « Ajouter
-le nouveau membre » en vert.
-
-.. figure:: media-guide/image095.png
-   :alt: 
-
-.. figure:: media-guide/image096.png
-   :alt: 
-
-Lorsque vous revenez sur l’onglet « Membres » du groupe, vous voyez les
-noms des membres (icône/photo) et dans quelle catégorie de rôle ils
-sont.
-
-**Rechercher/modifier/supprimer un membre dans un espace**
-
--  Vous pouvez **rechercher** un membre en tapant les 3 premières
-   lettres de son nom/prénom.
-
--  Sous les noms des membres, vous pouvez **modifier** un par un leur
-   rôle ; appuyez sur « Modifier rôle » ; la fenêtre pour changer les
-   rôles s’ouvre. Mettez à jour.
-
--  Vous pouvez aussi **supprimer** un membre dans un groupe de cette
-   façon. Appuyez sur « Retirer »
-
-.. figure:: media-guide/image097.png
-   :alt: 
-
-Voir aussi"Gérer les membres d’un groupe" 
-
-Créer un utilisateur dans un espace/groupe
-------------------------------------------
-
-Si vous voulez **ajouter un nouvel utilisateur** à la GoFAST, il faut
-lui créer un compte.
-
-Toujours dans les actions contextuelles d’un groupe, vous pouvez créer
-un nouvel utilisateur dans ce groupe/espace, à condition d’en avoir les
-droits d’administrateur d’espace.
-
-.. figure:: media-guide/image098.png
-   :alt: 
-
-Ce formulaire s’ouvre, dans lequel vous pouvez soit aller chercher dans
-le LDAP, l’annuaire (AD) de l'Organisation (si le couplage a été fait) , et certaines les données seront alors
-préremplies ; soit remplir à la main avec les données du nouvel
-utilisateur (externe) pour lequel vous créez ce compte.
-
-Terminez par « Enregistrer »
-
-.. figure:: media-guide/image099.png
-   :alt: 
-
-.. figure:: media-guide/image100.png
-   :alt: 
-
-.. figure:: media-guide/image101.png
-   :alt: 
-
-Gérer les membres d’un espace/groupe
-------------------------------------
-
-Gérer les membres d’un groupe signifie **ajouter/supprimer des membres,
-leur donner un rôle spécifique** (voir : « Rôles/droits des membres d’un
-espace/groupe » p.56).
-
-C’est **l’administrateur du groupe** qui peut faire cela.
-L’administrateur étant celui qui a créé le groupe ou celui à qui on a
-confié ce rôle (assistant administratif, N+1, responsable du groupe, …)
-
-Si vous avez donc les droits pour gérer les membres d’un groupe parce
-que vous en êtes l’administrateur, il faut cliquer sur la flèche de
-l’onglet « Espaces » puis sur « Gestion des membres » ; une
-page s’ouvre avec 2 parties : « Ajouter un membre » et « Mettre à
-jour ».
-
-.. figure:: media-guide/image102.png
-   :alt: 
-
-La 1ere partie « \ **Ajouter un membre** » vous permet d’ajouter un ou
-plusieurs membres en une fois dans un groupe. Sélectionnez les membres à
-ajouter, en tapant les 1eres lettres de leur nom ou prénom, le système
-vous proposera une liste à cocher ; choisissez ensuite le ou les
-groupe(s) dans lesquels vous voulez les ajouter, ainsi que le rôle que
-vous voulez leur donner (administrateur, contributeur ou en lecture
-seule). Par défaut, ils seront abonnés à ce/ces groupes, donc n’oubliez
-pas de choisir NON sous « subscription » si vous ne voulez pas qu’ils
-reçoivent automatiquement les notifications liées à ce(s) groupe(s).
-
-Terminez par « **Appliquer** »
-
-.. figure:: media-guide/image103.png
-   :alt: 
-
-La 2eme partie «**Mettre à jour** » permet de gérer les utilisateurs
-déjà membres de ce groupe et donc soit de les supprimer, soit de changer
-leur rôle.
-
-Cochez le groupe dont il est question, une liste apparaît, on y voit les
-noms des membres et leur rôle actuel dans ce groupe. Cochez les membres
-que vous voulez changer, choisissez leur nouveau rôle et « Appliquez » ;
-ou supprimez les du groupe avec « Retirer les droits d’accès »
-
-.. figure:: media-guide/image104.png
-   :alt: 
-
-Pour annuler l’action, cliquez sur le logo GoFAST, dans le coin gauche
-supérieur de l’écran ; vous revenez ainsi à la page d’accueil.
-
-.. figure:: media-guide/image105.png
-   :alt: 
-
-Rôles/droits des membres d’un groupe/espace
--------------------------------------------
-
-Il y a **3 types d’utilisateurs** selon les droits qu’ils ont sur la
-gestion des documents :
-
-1) **L’administrateur/rice** d’un groupe : peut tout faire dans le
-   groupe : ajouter/supprimer des membres, leur donner différents
-   droits, supprimer/ajouter n’importe quel document, créer des
-   sous-espaces dans ce groupe, et toutes les fonctionnalités de base :
-   télécharger, éditer, déplacer un document, gérer la taxonomie (=
-   métadonnées/infos liées au document), …
-
-2) **L’utilisateur standard** : peut utiliser toutes les fonctionnalités
-   de base : télécharger, éditer, ajouter/supprimer/déplacer un document
-   *dont il est l’auteur,* gérer la taxonomie (= métadonnées/infos liées
-   au document), …
-
-3) **L’utilisateur « read only/lecture seule »** : peut juste
-   télécharger le document ou le commenter. 
-
-Gérer un espace collaboratif /groupe
-------------------------------------
-
-Lorsque vous êtes dans un **espace/groupe,** voici le genre de données
-que vous pouvez voir :
-
-a) Une page **d'Accueil** ;
+Onglets disponibles sur la page d’un Espace Collaboratif 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+- **Accueil :** page personnalisable par les Administrateurs de l’Espace.
 
 .. figure:: media-guide/image106.png
    :alt: 
 
-b) Un onglet « **Activité** », où vous avez une vue d’ensemble de ce
-   qui se passe dans ce groupe ;
-
-.. figure:: media-guide/image107.png
-   :alt: 
-   
-c) Un onglet « **Statistiques** », où vous voyez les activités des membres actifs et inactifs, ainsi que les statistiques documentaires de l'espace ;
+- **Statistiques :** avec les statistiques de l’activité des membres de l’espace, ainsi que les statistiques documentaires.
 
 .. figure:: media-guide/Statistiques.png
    :alt: 
 
-d) Un onglet « **Documents** », où vous voyez les documents et
-   l’arborescence de ceux-ci ; 
+Merci de consulter également la rubrique : « Onglet Statistiques dans un Espace » (dans « Statistiques ») 
+
+**Documents :** explorateur de fichiers positionné au niveau de l’arborescence de l’Espace. 
 
 .. figure:: media-guide/Image-Document-6.png
    :alt: 
 
-e) Un onglet « **Calendrier** », où vous pouvez mettre des dates
-   d’échéance, des rappels, … ;
+**Calendrier :** avec les dates d’échéance, les réunions et les tâches de cet espace.
 
 .. figure:: media-guide/image109.png
    :alt: 
 
-f) Un onglet « **Membres** », où vous voyez les membres du groupe et
-   leur rôle respectif
+**Tâches :** donne accès au tableau de tâches collaboratives de l’Espace (tâche de type « Kanban » : post-it partagés avec des « todolists ») 
+
+**Membres :** avec la liste des membres de l’Espace et leur rôle (pour les utilisateurs unitaire et pour les listes d’utilisateurs. 
 
 .. figure:: media-guide/image110.png
    :alt: 
 
-S’il y a des utilisateurs qui ont fait la demande de rejoindre ce
-groupe, on peut le voir sous ce titre « Utilisateurs en attente »
+S’il y a des utilisateurs qui ont fait la demande de rejoindre cet espace, le rôle indiqué sera « en attente » et seuls les Administrateurs de l’Espace peuvent valider la demande d’accès et attribuer un rôle. 
 
-.. figure:: media-guide/image111.png
-   :alt: 
-
-Vous pouvez gérer votre groupe grâce à l’icône avec les **3 barres
-horizontales**, dans le coin droit supérieur de la page du groupe, qui
-correspond aux fonctionnalités/actions contextuelles liées à un groupe,.
-Par contre, si vous n’êtes pas administrateur de groupe, certaines de
-ces options vous seront invisibles.
-
-.. figure:: media-guide/image112.png
-   :alt: 
-
-Vous pouvez y ajouter un membre, créer un nouvel utilisateur pour cet
-espace, créer un sous-espace, modifier les données du groupe, archiver
-ce groupe, supprimer ce groupe, se désabonner ou s’abonner, rejoindre
-une discussion,...
-
-.. NOTE:: Les onglets "accueil", "activité", "statistiques", "membres" d'un espace affichent des éléments liés à l'espace sur lequel on se trouve et dont le titre est indiqué juste au-dessus des onglets. Toutefois, l'onglet "Document" ne cloisonne pas l'utilisateur à cet unique espace, mais lui permet de naviguer dans tous les emplacements où il a accès. Il peut donc arriver que le nom de l'espace indiqué au dessus des onglet ne soit pas celui de l'emplacement d'arborescence où on se trouve. 
-
-
-Ajouter un sous-espace
-----------------------
-
-.. NOTE:: Merci de lire en introduction la différence entre les espaces de type Organisation, Groupes, Extranet, ... http://gofast-docs.readthedocs.io/fr/latest/docs-gofast-users/doc-gofast-guide-utilisateurs.html#les-espaces-collaboratifs
-
-Il est possible de créer de **nouveaux espaces dans un espace**
-déjà existant ou dans une organisation, que nous appellerons « sous-espaces »; 
-
-.. IMPORTANT:: Pourquoi créer des sous-espaces au lieu de simples répertoires ? => Pour limiter l'accès de ce nouveau sous-espace à un nombre plus restreints de membres que l'espace "parent"
-
-.. CAUTION:: Seul le super-administrateur ou Administrateur de plateforme peut créer des sous-espaces à la racine
-
-Dans les actions contextuelles de l’espace (icône avec 3 barres
-horizontales), choisissez « Ajouter sous-organisation ou sous-groupe »
-
-.. figure:: media-guide/image113.png
-   :alt: 
-
-Il suffit alors de remplir cette page avec le nom du nouvel espace,
-donner une brève description, créer éventuellement une page d’accueil,
-choisir l’endroit où il se trouvera dans l’arborescence de la GoFAST et
-terminer avec « Enregistrer ».
-
-.. figure:: media-guide/image114.png
-   :alt: 
-
-Ce sera donc un nouveau groupe/espace qui se gère comme les autres, où
-il faudra y ajouter des membres et des fichiers à partager.
-
-Vous pouvez retrouver ce **sous-espaces dans vos espaces** ; par
-exemple, ici comme c’est un sous-espace d’une organisation, allez sur
-les petites flèches à côté des noms d’espaces/organisation jusqu’au
-niveau de votre sous-espace.
-
-.. figure:: media-guide/image115.png
-   :alt: 
-
-.. NOTE::
-    Il est conseillé de ne pas créer trop de sous-groupes
-    si il n’est pas nécessaire de gérer des droits particuliers quant au
-    contenu de ce groupe ; créez plutôt des répertoires qui resteront
-    visibles à tous les membres du groupe-parent.
-
-Si les sous-espaces/groupes ne sont pas visibles directement via
-l’onglet « Espaces », une autre manière d’explorer les sous-niveaux et
-leur contenu, est d’appuyer sur le logo d’organigramme (« Parcourir à
-partir d’ici » ) à droite du nom du groupe ; cela vous amènera à
-l’arborescence plus détaillée de l’espace (avec ses sous-espaces) et son
-contenu.
-
-.. figure:: media-guide/image116.png
-   :alt: 
-
-.. figure:: media-guide/Image-Arborescence-7.png
-   :alt: 
-
-.. NOTE::
-   Les membres d’un sous-groupe auront accès aux documents/répertoires qui se
-   trouvent à un niveau supérieur (dans le groupe-parent) , par contre les
-   membres du groupe-parent n’auront pas nécessairement accès aux documents
-   de ce sous-groupes car la liste des membres du sous-groupe peut varier
-   par rapport à celle des membres du groupe-parent.
-
-**Exemple :**
-
--  Monsieur X est membre du *sous-groupe* « Support GoFAST », entouré
-   en rouge ; 
-
--  Madame Y est membre du *sous-groupe* « test\_group », entouré en
-   noir ; 
-
--  Junior fait partie du *groupe-parent* ou groupe-racine « Groupes »,
-   entouré en jaune.
-
-.. figure:: media-guide/image370.png
-   :alt: 
-
-Ils voient tous les 3 ce qu’il se passe dans le groupe-racine
-« Groupes » (entouré en jaune) , c’est-à-dire les répertoires et activités
-propres à ce groupe-racine *MAIS* Monsieur X et Madame Y ne voient que
-ce qu’il se passe dans leur propre sous-groupe respectif ( entouré en
-rouge ou en noir) et donc l’un ne voit pas ce qu’il se passe dans le
-groupe de l’autre. Madame Y (entouré en noir) ne voit pas ce qu’il se
-passe chez Monsieur X (entouré en rouge) et vice -versa. Quant à Junior
-(entouré en jaune), il ne voit pas ce qu’il se passe dans les
-(sous-)groupes de Madame Y et Monsieur X, à moins qu’il ne devienne
-membre de ce/ces sous-groupes aussi. => nouveaux groupes et sous-groupes
-= plus de confidentialité et possibilité de membres différents d’un
-groupe à l’autre.
-
-**Autre manière d’expliquer, avec l’arborescence :**
-
-Je suis membre du groupe « \_Support GoFAST » qui est un sous-groupe de
-l’espace « Groupes ». J’ai donc accès à tous les répertoires qui se trouvent
-dans « \_Groupes » et dans « \_Support GoFAST » (nom précédé d’un
-underscore = espace/groupe).
-
-.. figure:: media-guide/image371.png
-   :alt: 
-
-Par contre, je ne vois pas le sous-groupe « test\_group » dans
-l’arborescence car je n’en suis pas membre.
-
-Je sais juste qu’il existe parce qu’il est dans les espaces visibles à
-partir du menu.
-
-.. figure:: media-guide/image372.png
-   :alt: 
-
-Et si je clique dessus à partir du menu, j’arriverai sur la page du
-groupe « Test\_group » mais l’accès à son contenu me sera refusé.
-
-Je devrai demander d’en devenir membre si je veux voir le contenu et y
-travailler.
-
-.. figure:: media-guide/image373.png
-   :alt: 
-
-Modifier un espace collaboratif/groupe
----------------------------------------
-
-Cette fonctionnalité permet de **modifier les informations concernant un
-groupe** déjà existant : vous pouvez changer le nom, la description, la
-page d’accueil et son emplacement dans l’arborescence (par exemple,
-changer l’espace-parent).
-
-Reprenez les actions contextuelles d’un groupe (les 3 barres
-horizontales), choisissez « Modifier » et changer les données. Terminez
-par « Enregistrer ».
-
-.. figure:: media-guide/image118.png
-   :alt: 
-
-.. figure:: media-guide/image119.png
-   :alt: 
-
-Archiver un espace collaboratif/groupe
------------------------------------------
-
-**Archiver un groupe** permet de garder une trace de son contenu et donc
-de ne pas le supprimer totalement de la GoFAST. On peut archiver un
-groupe de travail qui n’est plus actif par exemple.
-
-Pour archiver un groupe : allez dans les actions contextuelles du groupe
-(les 3 barres horizontales) et choisissez « Archivez cet espace ».
-
-Une fenêtre s’ouvre vous demandant si vous êtes sûr de vouloir archiver
-cet espace, confirmez en appuyant sur « Archive ».
-
-.. figure:: media-guide/image120.png
-   :alt: 
-
-Le contenu de ce groupe apparaîtra comme archivé et ne sera plus visible
-lors de la recherche, sauf si vous mettez l’option de recherche
-« Inclure les contenus archivés ».
-
-.. figure:: media-guide/image121.png
-   :alt: 
+**Discussions :** salon de Tchat / messagerie instantanée dédié à l’Espace. 
 
 .. NOTE:: 
-   Seuls les espaces collaboratifs de type "Groupe" sont archivables.
+   Les onglets d'un espace affichent des éléments liés à l'espace sur lequel on se trouve et dont le titre est indiqué juste au-dessus des onglets. Toutefois, l'onglet "Document" ne cloisonne pas l'utilisateur à cet unique espace, mais lui permet de naviguer dans tous les emplacements où il a accès. Il peut donc arriver que le nom de l'espace indiqué au-dessus des onglets ne soit pas celui de l'emplacement dans l'arborescence où on se trouve. 
+
+Actions sur un Espace
+---------------------------------
+
+Plusieurs actions sont disponibles sur un Espace, selon le rôle du membre de cet Espace (Administrateur, Contributeur, Lecture Seule) : 
+
+.. figure:: media-guide/FBrowser-16.png
+   :alt:
+
+Selon votre rôle dans un Espace, vous pouvez y ajouter des membres ou modifier leur rôle, créer un nouvel utilisateur dans cet espace, créer un sous-espace, archiver l’espace ou le supprimer, se désabonner ou s’abonner, créer un document/contenus, etc.
+Pour accéder aux diverses actions possibles dans l’Espace, allez dans le menu « Burger » (Actions contextuelles) via l’icône avec les **3 barres horizontales** dans le coin droit supérieur de la page de l’espace.
+Les actions réservées aux administrateurs d’espaces sont précisées avec une *. Elles seront grisées et non cliquables pour les membres contributeurs ou lecture seule :
+ - S’abonner / Se désabonner  
+ - Ajouter aux / Supprimer des favoris 
+ - Demander à rejoindre 
+ - Ajouter membres / listes * 
+ - Créer utilisateur dans le groupe* 
+ - Ajouter un sous-espace * 
+ - Créer / Supprimer Salon de discussion* 
+ - Plus …
+    - Renommer cet espace *
+    - Déplacer cet espace *
+    - Archiver cet espace *
+    - Supprimer*
+    - Pré-ajouter membres*
+    - Contacter les administrateurs de l’espace * 
 
 
-Supprimer un groupe
--------------------
+.. NOTE:: 
+   Les onglets d’un espace affichent des éléments liés à l’espace sur lequel on se trouve. Le titre de l’espace et le chemin d’accès s’actualisent juste au-dessus des onglets.
 
-Supprimer un groupe consiste à **supprimer tout son contenu** de la
-GoFAST définitivement ! Il ne sera donc plus visible nulle part.
-Réfléchissez donc bien avant de vouloir supprimer un groupe,
-assurez-vous qu’il soit bien vide par exemple.
+Merci de consulter aussi la rubrique : « Créer un Espace Collaboratif »
 
-Toujours dans les actions contextuelles, choisissez « Supprimer cet
-espace »
+Être membre d’un Espace (dont rôles possibles)
+------------------------------------------------------------
 
-.. figure:: media-guide/image122.png
-   :alt: 
+Il faut bien sûr d’abord avoir un compte GoFAST. Si ce n’est pas encore le cas, il faut **le demander** à votre service IT interne.
 
-S’abonner ou se désabonner à un groupe (voir mes abonnements)
+**Les diverses façons de devenir membre d’un espace :**
+ - soit l’administrateur de l’Espace qui a créé votre compte, vous ajoute directement comme membre,
+ - soit en faisant la demande via l’annuaire des Espaces : vous avez la liste des espaces collaboratifs (sélectionnez ceux que vous souhaitez), puis via le menu « Burger » cliquer sur « Rejoindre ».
+ 
+.. figure:: media-guide/image090.png
+
+Un message s’afficher confirmant votre demande de rejoindre cet espace :
+
+.. figure:: media-guide/image091.png
+
+Vous retrouverez ensuite vos demandes sur votre page de profil utilisateur.
+
+.. figure:: media-guide/image092.png
+
+- Être membre d’une liste d’utilisateurs qui elle-même devient membre de l’Espace (vous aurez donc le même rôle que celui attribué à la liste). 
+
+Créer un Espace / Sous-Espace Collaboratif
+------------------------------------------------------------
+
+Créer un Espace à la racine (1er niveau)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Dans le cas où vous avez besoin de créer un nouvel Espace à la racine, c’est-à-dire au premier niveau dans Organisations, Groupes, Extranet ou Public, merci de vous référer à la rubrique : « Créer des Espaces Collaboratifs ». Cette action nécessite d’avoir le profil "support-utilisateur" alors que la création d’un sous-espace (les autres niveaux dans l’arborescence des Espaces) nécessite d’être membre administrateur de l’espace parent. 
+
+Créer un Sous-Espace (dans un Espace)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Pour savoir comment créer de nouveaux Espaces/Sous-Espaces Collaboratifs, merci de vous référer à la rubrique : « Créer des Espaces Collaboratifs ».  
+
+.. NOTE:: Merci de lire en introduction la différence entre les espaces de type Organisation, Groupes, Extranet, Public.
+
+Rôles/droits des membres d’un Espace
+------------------------------------------------------------
+Au sein d’un espace, un utilisateur « Membre » peut avoir l’un des 3 « Rôles » disponibles (Administrateur, Contributeur, Lecture Seule), impactant les droits qu’ils ont sur la gestion des documents et de l’Espace lui-même.
+
+.. NOTE:: 
+   Voir le « Tableau des permissions par Rôle » à la fin de cette rubrique en plus du descriptif de chaque rôle). 
+
+
+Membre Administrateur d’un Espace
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Ce rôle est réservé aux responsables métiers (ex. responsables d’un Service, Projet, etc.) qui sont donc en charge de la gestion de l’Espace, avec les documents et autres contenus partagés dans l’Espace. 
+
+.. NOTE:: 
+   Il s’agit d’un rôle important qui doit absolument être partagé entre plusieurs membres, pour éviter tout blocage dans la gestion de l’Espace dans le cas où un des Administrateurs n’est pas disponible (ex. en congés, a quitté l’entreprise, n’a pas le temps de gérer l’espace, etc.) 
+
+Permissions principales liées au rôle Administrateur : ajouter/supprimer des membres et déterminer leur rôle, créer des sous-espaces, créer/modifier/supprimer des dossiers (pour classer les documents), réaliser toutes les actions disponibles sur les documents/contenus (dont les modèles dans dossier « TEMPLATES » : ajouter, renommer, éditer, partager/déplacer, télécharger, gérer les métadonnées, commentaire, etc. Il a également la possibilité de modifier les commentaires laissés par les autres membres (il est clairement précisé que le commentaire a été modifié, par qui et quand). 
+
+Membre Contributeur d’un Espace
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Ce rôle est donné à la plupart des Membres d’un Espace Collaboratif, pour leur permettre de travailler aisément sur les documents/contenus et en créer/partager de nouveaux. 
+Permissions principales liées au rôle Contributeur : réaliser la grande majorité des actions disponibles sur les documents/contenus de l’Espace (ajouter, renommer, éditer, partager dans d’autres Espaces, télécharger, ajouter/modifier la plupart des métadonnées, commentaire, etc.). Ce rôle permet également de créer des dossiers pour classer les documents. 
+
+.. NOTE:: 
+   Ce rôle Contributeur ne permet pas de supprimer un document/contenu, sauf s’il en est lui-même le créateur. Il ne peut pas effectuer certaines modifications de métadonnées qui impactent le document (ex. désarchiver un document ou enlever les niveaux les plus élevés pour la confidentialité des documents, comme « Diffusion interne » dans le champ « importance »).  
+
+Membre Lecture Seule d’un Espace 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Ce rôle est donné à tous les Membres d’un Espace qui doivent pouvoir consulter un document, souvent utilisé dans des Espaces dédiés au partage d’un référentiel, d’une base de connaissances, ou dans des Espaces qui ont pour but de partager des Publications finies et validées (souvent des PDF générés depuis un document de travail qui est classé dans d’autres Espaces). 
+
+.. NOTE:: 
+   Il est conseillé de donner ce rôle dans tous les Espaces des premiers niveaux, voués à organiser l’arborescence/structure des Espaces, ex : dans l’espace « Direction RH » la majorité des utilisateurs sont en Lecture Seule », mais ces mêmes utilisateurs sont Contributeurs, voir Administrateurs des Sous-Espaces « Service Formations et Développement » ou « Service Recrutements » ou « Service Communication RH », etc.). 
+
+Permissions principales liées au rôle Lecture Seule : consulter les documents, les commenter, télécharger sur son PC, partager par email (lien d’accès/téléchargement sécurisé).
+
+Tableau des permissions par Rôle
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Ce tableau récence les permissions données aux 3 rôles disponibles dans un Espace Collaboratif, sur les documents/contenus/dossiers, ainsi que l’Espace lui-même.
+
+[Tableau en cours de construction et sera disponible d’ici quelques jours.]
+
+
+Gérer les membres d’un Espace 
+------------------------------------------------------------
+
+Gérer les membres d’un Espace Collaboratif signifie **ajouter/enlever des membres et définir leur rôle dans l’Espace** (voir : « Rôles/droits des membres d’un Espace »). 
+
+.. NOTE:: 
+   Ces droits sont strictement réservés aux membres administrateurs des Espaces. Toutefois, il existe un profil « Support-Utilisateurs » qui permet de pré-ajouter des membres dans des Espaces, sans en être membre lui-même : les administrateurs des Espaces devront valider ce pré-ajout avant que les nouveaux membres n’aient effectivement accès aux Espaces. 
+
+**La gestion des membres d’un Espace peut être réalisée via :**
+
+ - Le menu « Burger » (actions contextuelles) sur la page d’un Espace
+ - Le menu « Burger » (actions contextuelles) d’un Espace ou une sélection d’Espaces, depuis l’annuaire des Espaces
+ - Via la gestion des Listes d’Utilisateurs (voir la rubrique : « Gérer des Listes d’Utilisateurs »)
+
+Rechercher un membre d’un espace
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ - Allez dans l’onglet « Membres » sur la page d’un Espace et vous retrouverez le tableau des membres, avec les colonnes : **Nom, Prénom, Type, Rôle, A rejoint le, Statut**, ainsi que la colonne avec les menus des **Actions** possibles sur un membre (dernière colonne). 
+ - Vous pouvez **trier** les membres en cliquant sur le nom des colonnes du tableau (la ligne d’entête du tableau). 
+ - Vous pouvez **filtrer** les membres de l’Espace par : « statu » (actif ou bloqué), type (utilisateur unique ou liste d’utilisateurs), rôle (administrateur, contributeur, lecture seule). 
+ - Vous pouvez **rechercher** un membre en saisissant son nom/prénom (au moins les 3 premières lettres).
+
+.. NOTE:: 
+   Il est possible de connaître tous les Espaces dont est membre un utilisateur en allant sur sa page de profil. 
+
+Modifier le membre d’un Espace 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Pour modifier le rôle ou enlever un membre d’un espace : 
+ - Allez sur la page de l’Espace que vous souhaitez gérer. 
+ - Retrouver l’utilisateur membre que vous souhaitez gérer. 
+ - Cliquez sur le menu des actions contextuelles de ce membre (bouton à droite dans la dernière colonne du tableau des membres)
+
+La fenêtre pour changer le rôle s’ouvre : 
+ - Vous voyez les 3 rôles possibles et celui qui est attribué actuellement au membre. 
+ - Cochez le nouveau rôle souhaité et cliquez sur « Mettre à jour ». 
+ - Pour enlever le membre de l’Espace : cliquez sur « Retirer ».
+
+.. figure:: media-guide/image097.png
+
+Merci de consulter également la rubrique : « Rôles/droits des membres d’un Espace ».  
+
+Ajouter des membres à un Espace 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+**Ajouter des membres** dans un Espace signifie donner accès à cet Espace à un ou plusieurs Utilisateur(s) ou à une Liste d’Utilisateurs, en spécifiant le rôle. 
+
+**Pour ajouter des membres à un Espace :**
+
+- Allez dans le menu « Burger » (les actions contextuelles, en haut à droite sur la page de l’Espace ou via la page « Annuaire des Espaces »).
+
+.. figure:: media-guide/image094.png
+
+- Cliquez sur « Ajouter membres/listes », la fenêtre d’ajout de membres s’ouvre. 
+- Utiliser la recherche pour sélectionner les utilisateurs ou listes que vous souhaitez ajouter : saisissez au moins les 3 premières lettres du nom de l’utilisateur ou de la liste.
+ 
+- Cliquez sur une des suggestions pour ajouter l’utilisateur ou la liste d’utilisateurs. Vous pouvez ainsi rechercher et ajouter plusieurs utilisateurs. 
+- Cocher le rôle souhaité pour l’ensemble des utilisateurs et/ou des listes sélectionnés. 
+- Vous pouvez écrire un message qui sera envoyé aux autres administrateurs de cet Espace. 
+- Cliquez sur « Ajouter le(s) nouveau(x) membre(s) » pour valider. 
+
+.. figure:: media-guide/image095.png
+
+.. NOTE:: 
+   Si le compte utilisateur n’existe pas encore, il doit être créé. Il est possible d’effectuer cette action depuis le même menu « Burger » en cliquant sur « Créer utilisateur dans l’Espace ». 
+
+
+Créer un utilisateur dans un Espace
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Cette fonctionnalité permet à la fois de créer un nouvel utilisateur et l’ajouter comme membre dans un Espace.
+
+**Pour créer un utilisateur dans l’Espace :**
+ - Allez dans le menu « Burger » (les actions contextuelles, en haut à droite sur la page de l’Espace ou via la page « Annuaire des Espaces »).
+ - Cliquez sur « Créer utilisateur dans l’Espace » et vous serez redirigé vers le formulaire de création d’un utilisateur.
+ 
+.. figure:: media-guide/image098.png
+
+- Depuis le formulaire de création d’un utilisateur, vous pouvez soit renseigner les divers champs disponibles, soit « recherche dans LDAP » pour préremplir les données (il s’agit de l’annuaire interne de votre organisation/entreprise : AD ou LDAP). 
+- Terminez la création du nouvel utilisateur en cliquant sur « Enregistrer »
+.. figure:: media-guide/image099.png
+
+Il est indispensable de consulter la rubrique « créer un utilisateur » 
+
+.. NOTE :: 
+   Lorsque vous créer un utilisateur, vous indiquez son rôle par défaut dans les Espaces. Une fois l’utilisateur créé, vous pouvez modifier son rôle dans l’espace à tout moment. 
+
+Modifier le nom et l’accueil d’un Espace Collaboratif 
+--------------------------------------------------------------------
+**Pour renommer l’Espace :**
+ - Via le menu « Burger » de l’Espace, puis clic que « Renommer ».
+ - En cliquant sur le nom de l’Espace (en haut de la page de l’Espace) : modifier et cliquer en dehors du champ pour sauvegarder. 
+
+**Pour modifier la page d’accueil :**
+ - Allez sur l’onglet Accueil de l’Espace.
+ - Cliquer sur la page pour la modifier (vous disposez d’un éditeur avec diverses possibilités de mises en page). 
+
+Modifier les emplacements d’un Espace Collaboratif 
+---------------------------------------------------------------------
+Modifier l’emplacement d’un Espace dans l’arborescence signifie changer l’espace-parent : attention, les Membres seront automatiquement ajoutés dans les nouveaux Espaces parents, avec leur rôle par défaut).
+
+ - Allez dans le menu « Burger » (actions contextuelles) d’un Espace.
+ - Cliquer sur « Déplacer cet Espace », la fenêtre de modification de l’emplacement s’ouvre (on voit l’emplacement en cours de l’Espace dans l’arborescence). 
+ - Sélectionnez en un clic le nouvel emplacement souhaité. 
+ - Terminez par « Déplacer cet Espace ».
+
+.. figure:: media-guide/image118.png
+
+.. NOTE:: 
+   Pour réaliser ce déplacement, il est nécessaire d’avoir le rôle administrateur à la fois dans l’espace parent (là où se trouve votre Espace) et dans l’espace cible (vers lequel vous souhaitez faire le déplacement). Vous allez déplacer cet espace et tout son contenu, ses membres et ses sous espaces vers un autre emplacement. Cette opération peut prendre du temps et ne peut pas être interrompue.
+
+Archiver un Espace Collaboratif
+-----------------------------------------
+
+Archiver un Espace permet de conserver tout son contenu en Lecture Seule, afin de permettre aux membres d’y accéder, mais sans pouvoir le modifier, ni ajouter de nouveaux contenus. 
+
+.. NOTE:: 
+   Il est par exemple conseillé d’archiver un Espace de type Groupe, dédié à un projet, une fois que celui-ci est terminé.
+
+**Pour archiver un espace :**
+
+ - Allez dans le menu « Burger » de l’Espace (actions contextuelles). 
+ - Cliquez sur « Archivez cet espace ».
+ - Une fenêtre de confirmation s’ouvre. 
+ - Confirmez en cliquant sur « Archiver ».
+ 
+.. figure:: media-guide/image120.png
+
+Le contenu de cet Espace apparaîtra comme archivé et ne sera plus visible lors de la recherche, sauf si vous mettez l’option de recherche « Rechercher dans les contenus archivés ».
+
+.. NOTE:: 
+   Les espaces collaboratifs de type "Organisation" ne peuvent pas être archivés, ni les Espaces personnels des utilisateurs.
+   Les éléments archivés sont identifiés dans l’explorateur de fichiers grâce à l’icône « archive ». 
+
+
+Supprimer un Espace Collaboratif 
+--------------------------------------------
+
+.. NOTE:: 
+   Supprimer un Espace est une action définitive : il n’y a pas de possibilité de le restaurer. Une fois supprimé, l’Espace ne sera plus visible nulle part. 
+
+**Pour supprimer un espace :**
+
+ - Allez dans le menu « Burger » de l’Espace (actions contextuelles). 
+ - Cliquez sur « Supprimer cet espace ».
+ - Une fenêtre de confirmation s’ouvre. 
+ - Confirmez en cliquant sur « Supprimer ».
+
+.. NOTE:: 
+   Lors de la suppression d’un Espace, plusieurs opérations sont automatiquement réalisées : traitement des contenus « multifilés » (ceux qui ont d’autres emplacements dans d’autres Espaces), la suppression des contenus non « multifilés », la suppression des dossiers. Si vous souhaitez conserver les contenus tout en mettant l’Espace en Lecture Seule, privilégiez l’action « Archiver ». 
+
+S’abonner ou se désabonner d’un Espace Collaboratif 
 -------------------------------------------------------------
 
-Vous pouvez vous **abonner à un groupe** pour rester au courant de tout
-ce qu’il s’y passe, vous recevrez alors régulièrement une notification
-vous informant de telle ou telle action sur les documents de ce groupe.
+Vous pouvez vous **abonner à un Espace** pour rester au courant de tout ce qu’il s’y passe, vous recevrez alors régulièrement une notification vous informant de telle ou telle action sur les documents de cet espace.
 
-Dans les actions contextuelles du groupe (3 barres horizontales),
-choisissez « S’abonner ».
+Dans les actions contextuelles du groupe (3 barres horizontales), choisissez « S’abonner ».
 
 .. figure:: media-guide/image123.png
    :alt: 
 
-Un message en vert apparaîtra à droite de l’écran vous confirmant
-l’abonnement à ce groupe.
+Un message en vert apparaîtra à droite de l’écran vous confirmant l’abonnement à ce groupe.
 
-Vous pouvez par la même manœuvre vous désabonner à ce groupe. Ce qui
-veut dire que vous ne recevrez plus aucune notification en rapport avec
-ce groupe et son contenu.
-
-.. figure:: media-guide/image125.png
-   :alt: 
+Vous pouvez par la même manœuvre vous désabonner à ce groupe. Ce qui veut dire que vous ne recevrez plus aucune notification en rapport avec ce groupe et son contenu.
 
 Le même message en vert vous confirme votre désabonnement
 
-Voir aussi  "Vos abonnements"
+Voir aussi la rubrique : "Gérer ses abonnements"
 
-Créer un Salon de discussion
-------------------------------------------------
 
-Si vous êtes administrateur de l'espace, vous pouvez **Créer un salon de discussion** qui sera utilisable dans l'outil
-de chat temps réel Element. Tous les membres de l'espace seront automatiquement ajoutés au nouveau salon.
+Créer un Salon de Discussion dans un Espace
+----------------------------------------------------------
+
+Si vous êtes administrateur de l'espace, vous pouvez **Créer un salon de discussion** qui sera utilisable dans l'outil de Tchat (Messagerie instantanée). Tous les membres de l'espace seront automatiquement ajoutés au nouveau salon de discussion.
 
 .. figure:: media-guide/image127.png
    :alt: 
 
+Pour en savoir plus sur le fonctionnement du Tchat, merci de vous référer à la rubrique : « Tchat/Messagerie instantanée ».
 
-Gestion des Listes d'Utilisateurs (en v3.6)
-===========================================
+
+Gérer des Listes d’Utilisateurs
+===========================
 Les listes d'utilisateurs facilitent la gestion en masse et automatisée des membres des Espaces Collaboratifs et leurs rôles. Ainsi, lorsqu’un utilisateur GoFAST est ajouté à une liste, il devient automatiquement membre de tous les espaces associés à cette liste. 
 
-Les listes peuvent aussi être sélectionnées lors d'un partage de documents par email (voir *Partager le document par mail* : https://gofast-docs.readthedocs.io/fr/latest/docs-gofast-users/doc-gofast-guide-utilisateurs.html?highlight=panier#partager-le-document-par-mail)
+.. NOTE:: 
+   Les listes peuvent aussi être sélectionnées lors d'un partage de documents par email (voir « Partager le document par mail ».  
 
-Créer/Modifier une liste d'utilisateurs
----------------------------------------
+Pour savoir comment créer une Liste d’Utilisateurs, merci de vous référer à la rubrique : « Créer une Liste d’Utilisateurs »
 
-.. figure:: media-guide/Ecran-GoFAST_Liste-Utilisateurs_creer-liste.png
-   :alt: 
+Modifier une liste d’utilisateurs
+--------------------------------------------------
+Vous pouvez voir les membres d’une Liste d’Utilisateurs en allant sur cette liste, puis sur l’onglet « Membres ». Vous verrez alors qui est membre ou qui est Administrateur non-membre. 
 
-Pour créer une liste, cliquez sur "Créer", puis "Liste d’utilisateurs" dans le menu principale. Vous êtes redirigé vers le formulaire et il suffit de renseigner les 3 champs affichés :
+**Pour modifier les éléments de la liste (nom, description, membres), il faut :**
 
-   - Nom de la liste,
-   - Desccription,
-   - Membres de la liste (rentrez au moins 3 caractère du nom/prénom d'un utilisateur pour avoir des suggestions),
+ - Cliquer sur le menu « Burger » (actions contextuelles) sur la page de la Liste ou depuis l’annuaire des Listes d’Utilisateurs. 
+ - Cliquer sur « Editer cette Liste d’utilisateurs ». 
+ - Dans le champ « Membres de la liste d'utilisateurs », commencez à saisir le nom/prénom d’un utilisateur et cliquez sur une des suggestions (liste qui s’affiche selon votre saisie). 
+ - Dans le champ « Administrateurs de la liste d'utilisateurs », commencez à saisir le nom/prénom d’un utilisateur et cliquez sur une des suggestions (liste qui s’affiche selon votre saisie). 
+ - Pour enlever un membre ou un administrateur de la liste, cliquez sur la croix à droite du nom de l’utilisateur (dans la vignette). 
+ - Vous pouvez modifier la description de la liste dans le champ « Description »
+ - Cliquer sur « Enregistrer » pour sauvegarder vos modifications. 
 
-.. figure:: media-guide/Ecran-GoFAST_Liste-Utilisateurs_creer-liste-renseigner-formulaire.png	
-   :alt: 
-
+.. figure:: media-guide/Ecran-GoFAST_Liste-Utilisateurs_modifier-les-membres-de-la-liste.png
 
 .. NOTE:: 
-   Le créateur d’une liste d’utilisateur devient administrateur de celle-ci. 
+   Les membre d’une Liste vont avoir accès à tous les Espaces où cette Liste est elle-même membre. Les Administrateurs de la Liste n’ont pas accès aux Espaces, mais peuvent gérer la Liste. 
 
-Pour modifier les éléments de la liste (nom, description, membres), il suffit de cliquer sur le menu "Burger" (actions contextuelles) sur la page de la liste. 
-
-.. figure:: media-guide/Ecran-GoFAST_Liste-Utilisateurs_modifier-les-membres-de-la-liste.png	
-   :alt: 
+Voir également la rubrique : « Créer une Liste d’Utilisateurs ». 
 
 Ajouter/enlever une liste d'utilisateurs comme membre d’un Espace Collaboratif
-------------------------------------------------------------------------------
-L'ajout d'une liste dans un espace collaboratif se fait comme pour un utilisateur unitaire :
+------------------------------------------------------------------------------------------------------------
 
-   - Aller sur la page de l'espace
-   - Ouvrir le menu "Burger" (actions contextuelles)
-   - Cliquer sur "ajouter membre/liste"
+L'ajout d'une liste dans un espace collaboratif est similaire à l’ajout d’un utilisateur unitaire :
+ - Aller sur la page de l'espace (ou via l’Annuaire des Espaces)
+ - Ouvrir le menu "Burger" (actions contextuelles)
+ - Cliquer sur "ajouter membre/liste"
+ 
+.. figure:: media-guide/Ecran-GoFAST_Liste-Utilisateurs_ajouter-liste-dans-espace-collaboratif.png 
    
-.. figure:: media-guide/Ecran-GoFAST_Liste-Utilisateurs_ajouter-liste-dans-espace-collaboratif.png	
-   :alt: 
-
 Le formulaire d'ajout d'un membre s'ouvre et il faut commencer à rentrer le nom de la liste (au moins 3 caractères) pour avoir des suggestions. 
 
-.. figure:: media-guide/Ecran-GoFAST_Liste-Utilisateurs_ajouter-liste-dans-espace-collaboratif-formulaire.png	
-   :alt: 
+.. figure:: media-guide/Ecran-GoFAST_Liste-Utilisateurs_ajouter-liste-dans-espace-collaboratif-formulaire.png
+
 
 .. NOTE:: 
-   Pour ajouter une liste d'utilisateurs comme membre d'un espace, il faut être administrateur de l'espace. 
+   Pour ajouter une liste d'utilisateurs comme membre d'un espace, il faut être administrateur de l'Espace. 
 
 .. NOTE:: 
-   Le rôle attribué à chaque utilisateur dans l'Espace Collaboratif et celui coché lors de l'ajout de la liste. Si l'utilisateur est membre d'un espace de plusieurs façons (Listes + directement via son profile), c'est le rôle qui offre le plus de privilège qui s'appliquera. De cette façon, on évite de restreindre les droits d'un utilisateur qui serait déjà membre de l'Espace Collaboratif.
+   Le rôle attribué à chaque utilisateur dans l'Espace Collaboratif et celui coché lors de l'ajout de la liste. Si l'utilisateur est membre d'un espace de plusieurs façons (Listes + unitairement), c'est le rôle qui offre le plus de droits qui s'appliquera. De cette façon, on évite de restreindre les droits d'un utilisateur qui serait déjà membre de l'Espace Collaboratif... figure:: media-
    
 Une fois la liste ajoutée à l'Espace Collaboratif, celle-ci est affichée parmi les autres membres. 
 
-.. figure:: media-guide/Ecran-GoFAST_Liste-Utilisateurs_liste-dans-espace-collaboratif.png	
-   :alt: 
+.. figure:: media-guide/Ecran-GoFAST_Liste-Utilisateurs_liste-dans-espace-collaboratif.png
 
-Les Espaces Collaboratifs dont est membre la liste sont affichés sur la page de la liste, onglet "Emplacements". 
+Les Espaces Collaboratifs dont est membre la liste sont affichés sur la page de la liste, onglet "Emplacements".
 
-.. figure:: media-guide/Ecran-GoFAST_Liste-Utilisateurs_emplacements-associes-a-la-liste.png	
-   :alt: 
+.. figure:: media-guide/Ecran-GoFAST_Liste-Utilisateurs_emplacements-associes-a-la-liste.png
+
 
 Afficher/Rechercher les listes d'utilisateurs
 ---------------------------------------------
 
 Annuaire des Liste d'Utilisateurs
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Pour consulter les listes existantes, il suffit de passer par les annuaires accessibles depuis le menu principal. 
-
-.. figure:: media-guide/Ecran-GoFAST_Liste-Utilisateurs_annuaire-liste.png	
-   :alt: 
+Pour consulter les listes existantes, il suffit de passer par les annuaires accessibles depuis le menu principal de gauche. 
+ 
    
-Pour aller sur un liste depuis l'annuaire, vous pouvez cliquer sur le nom de la liste. Vous pourrez alors consulter les membres et les emplacements de celle-ci. 
+Pour aller sur une liste depuis l'annuaire, vous pouvez cliquer sur le nom de la liste. Vous pourrez alors consulter les membres et les emplacements de celle-ci. 
+
 
 Rechercher une Liste d'Utilisateurs
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Les listes d'utilisateurs sont recherchables via la moteur de recherche et peuvent être utilisées comme "filtre de format".
+Les listes d'utilisateurs sont recherchables via le moteur de recherche et peuvent être utilisées comme "filtre de format".
 
 .. figure:: media-guide/Ecran-GoFAST_Liste-Utilisateurs_rechercher-liste.png	
    :alt: 
@@ -591,307 +423,409 @@ Les listes d'utilisateurs sont recherchables via la moteur de recherche et peuve
 .. NOTE:: 
    Les listes dont fait partie un utilisateur sont affichées sur sa page de profile. 
 
-   
+
+Gérer ses Abonnements / Notifications
+================================
+
+Objectifs des abonnements
+-------------------------------------
+Suivre grâce à une synthèse d’activité les actions faites sur les documents/contenus auxquels vous avez accès. 
+
+Cela permet de réduire considérablement les emails, car plus besoin d’envoyer un email à vos collègues pour les avertir des modifications que vous avez réalisées ou des commentaires faits. Tout le monde reçoit un email listant ces actions, les documents/contenus concernés, classés par Espace Collaboratif et bien entendu, selon ses droits d’accès aux Espaces.
+
+Par défaut, GoFAST envoie 2 emails de notification de « Synthèse d’Activité » par jour : un à midi et un à minuit (ce dernier à lire le matin, en arrivant au bureau par exemple). 
 
 
-Gestion des abonnements
-=======================
+Types d’abonnement pour la « Synthèse d’Activité »
+----------------------------------------------------------------------
 
-Un abonnement permet de **rester au courant** de ce qu’il se passe dans
-un groupe ou sur un document ; ce qui veut dire qu’ à chaque fois qu’il
-y aura une activité dans ce groupe ou sur ce document, vous recevrez une
-notification par mail, dont vous pouvez choisir l’intervalle (2x/jour,
-1x/jour, 1x/semaine, …).
+Tous les membres d’un Espace Collaboratif sont par défaut abonnés à l’activité de cet Espace. 
 
-Vous pouvez accéder à vos abonnements à partir de votre nom et les gérer
-comme vous le souhaitez
+**Les actions notifiées concernent :**
+ - la mise à jour d’un document/contenu (après édition/modification, nouvelle version)
+ - la modification des informations et du partage d’un document/contenu (changement d’état, ajout d’un emplacement, renommage, etc.) 
+ - les commentaires faits sur les documents/contenus 
 
-.. figure:: media-guide/image316.png
+**Les éléments auxquels on peut s’abonner :** 
+
+ - Espaces Collaboratifs (toute l’activité des Espaces dont on est membre)
+ - Une Etiquette (métadonnée liée aux documents/contenus)
+ - Un document/contenu spécifique 
+ - Un utilisateur (les modifications et commentaires faits par un autre utilisateur) 
+
+**Fréquence des notifications :**
+Chaque utilisateur peut s’abonner à tout moment aux divers éléments, en spécifiant la fréquence souhaitée pour chacun. 
+Pour chaque élément, il est possible de choisir : 
+- 2 fois par jour
+- 1 fois par jour
+- 1 fois par semaine
+- 1 fois par mois
+- Instantanément
+
+.. NOTE:: 
+   Vous ne recevrez pas spécialement plus d’emails en ayant des fréquences différentes, mais vous ne verrez dans ces notifications, que l’activité réalisée dans l’intervalle de temps choisie. Exemple : si vous avez fait le choix d’être notifié qu’une fois par semaine pour un Espace, vous ne retrouverez l’activité de cet Espace que dans une seule de vos notifications (une fois dans la semaine).
+
+Modifier ses abonnements :
+---------------------------------------------------------------------
+Chaque utilisateur peut s’abonner ou se désabonner à tout moment des divers éléments, unitairement ou en masse. 
+
+**Pour gérer vos abonnements :**
+
+- Via le menu de votre Profil (dans la barre des accès rapides, en haut à droite), cliquez sur « Abonnements ».
+
+- La fenêtre des abonnements s’ouvre, avec un tableau de tous les éléments auxquels vous êtes abonné. 
+
+.. figure:: media-guide/image200.png
    :alt: 
 
-.. figure:: media-guide/image317.png
-   :alt: 
+Dans le tableau des abonnements, vous pouvez modifier la fréquence pour chaque élément ou vous désabonner en cliquant sur l’icône « corbeille » (tout à droite dans le tableau). 
 
-Si au contraire, vous voyez que vous recevez **trop de notifications**
-par rapport à un groupe où vous n’êtes pas très actif et qui ne vous
-intéresse pas davantage, vous pouvez vous désabonner ou choisir un
-intervalle hebdomadaire par exemple. Vous ne recevrez alors qu’un mail
-par semaine qui vous indiquera ce qu’il s’est passé sur ce document ou
-dans ce groupe.
+.. NOTE:: 
+   Si vous voyez que vous recevez **trop de notifications** liées à un Espace où vous n’êtes pas très actif et qui ne vous intéresse pas davantage, vous pouvez vous désabonner ou choisir une fréquence hebdomadaire par exemple. 
 
-Pour vous **abonner à un document**, allez sur la prévisualisation du
-document et cliquez sur le dernier icône avec les 3 barres horizontales,
-à côté du titre. Une liste de fonctionnalités s’ouvre, choisissez
-« s’abonner ».
+.. figure:: media-guide/image201.png
+   :alt:
+
+**Pour modifier plusieurs abonnements en une fois :**
+ - Cocher les éléments souhaités dans le tableau des abonnements 
+ - Sélectionnez la fréquence souhaitée dans la liste déroulante tout en bas à droite de la fenêtre des abonnements ou cliquez sur l’icône « corbeille » pour vous désabonner. 
+
+S’abonner à un élément :
+--------------------------------------
+Pour vous abonner à un document/contenu, étiquette ou tout un Espace, il faut avant tout avoir accès à cet élément.
+
+**Pour s’abonner à un document/contenu :**
+ - Allez sur la page du document/contenu et cliquez sur le menu « Burger » (actions contextuelles) OU faites un clic droit sur le document dans l’explorateur de fichiers. 
+ - Dans le menu (des actions contextuelles), cliquez sur « s’abonner ».
 
 .. figure:: media-guide/image318.png
    :alt: 
 
-(cfr : Gestion de groupe/ « S’abonner à un groupe » p.66 et Gestion de
-documents/« Actions contextuelles »/ « S’abonner au document » p.100 )
+**Pour s’abonner à une Etiquette ou à un Utilisateur :**
+ - Allez sur la page du document/contenu OU sur la page de profil d’un utilisateur. 
+ - Pour les Etiquettes : faites un clic sur l’icône « s’abonner » (à droite de chaque étiquette, et . 
+ - Pour un Utilisateur : dans le menu « Burger » (des actions contextuelles) sur la page de profil, cliquez sur « s’abonner ».
+
+**Pour s’abonner à un Espace Collaboratif :**
+Merci de vous référer à la rubrique : « s'abonner ou se désabonner d'un Espace Collaboratif »
 
 
-
-Workflows : Processus de Tâches (Enterprise only)
+Processus de Tâches - Workflows (Enterprise only)
 =================================================
    
 Dans cette partie de la documentation vous trouverez comment consulter les processus en cours/archivés, les tâches à traiter, mais aussi comment démarrer un processus de tâches parmi la liste des processus disponibles, sur un ou plusieurs documents en les attribuant à des utilisateurs GoFAST (y compris vous-même).
 
 .. NOTE::
-    GoFAST propose dans tous les cas au moins un workflow de "Diffusion de Document(s)" qui permet d’assigner des tâches essentielles de manière très flexible, pour répondre à la majorité des besoins de vérification, correction, validation et signature des documents.
+    GoFAST propose en standard un workflow de "Diffusion de Document(s)" qui permet d’assigner des tâches essentielles de manière très flexible, pour répondre à la majorité des besoins de vérification, correction, validation et signature des documents. Il est possible que d’autres processus vous soient proposés (selon les modules optionnels activés ou un processus spécifiquement modélisé pour/par votre organisation/entreprise). 
     
 .. NOTE::
-    Il est aussi possible de modéliser des processus spécifiques simples ou avancés et dans ce cas, leur fonctionnement et les formulaires associés peuvent ne pas correspondre à certaines parties de cette documentation. Pour savoir comment modéliser un workflow spécifique, merci de vous tourner vers les forums GoFAST (https://community.ceo-vision.com/). 
+    Si des processus spécifiques vous sont proposés, leur fonctionnement et les formulaires associés peuvent ne pas correspondre à certaines parties de cette documentation. Pour savoir comment modéliser un workflow spécifique, merci de vous tourner vers les forums GoFAST (https://community.ceo-vision.com/). 
     
 
-1. Démarrer un processus de tâches
-----------------------------------
+Démarrer un processus de tâches
+--------------------------------------------
 
-GoFAST propose deux façons de lancer un workflow : 
+**GoFAST propose 3 façons de lancer un workflow :**
 
-- Depuis le menu principale, via l’accès rapide aux "Processus et Tâches"
-- Depuis la page d’un document, via le bouton "Processus et Tâches" 
+ - Depuis la barre principale du haut, via l’accès rapide aux "Processus et Tâches"
+ - Depuis la page d’un document, via le bouton "Processus et Tâches" 
+ - Depuis le panier documentaire. 
 
-Dans les deux cas, l'icône représentant les workflows est :
+**L'icône représentant les workflows est :**
 
 .. figure:: media-guide/Ecran-GoFAST_Workflows_icone-processus-et-taches.png
    :alt:
 
-Demarrer un processus depuis le menu pricnipal
+Démarrer un processus via la barre des accès rapides
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Pour sélectionner un processus et le démarrer depuis le menu principal de GoFAST :
+Pour sélectionner un processus et le démarrer depuis la barre d’accès rapide (menu du haut) :
 
-- Cliquez sur l’icône "Processus et Tâches" qui se trouve tout en haut de la page sur la gauche, 
-- Dans la fenêtre qui s’affiche (la liste des tâches en cours), cliquez sur "Nouveau" pour avoir la possibilité de démarrer soit un "Nouveau processus", soit un "Nouveau processus depuis les documents du panier",
-
+ - Cliquez sur l’icône "Processus et Tâches" qui se trouve tout en haut de la page, 
+ - Dans la fenêtre "Processus et Tâches", cliquez sur l’onglet "Nouveau" 
+ 
 .. figure:: media-guide/Ecran-GoFAST_Workflows_lancer-processus-depuis-menu-principal-acces-rapide.png
-   :alt:
 
-- Une liste des processus disponibles vous sera proposée
-- Cliquer sur le nom du processus souhaité ou sur l’icône ">" 
+ - Sélectionner le processus souhaité en cliquant sur le titre du processus (ex. « Diffusion de documents ») OU sur l’icône « > » OU sur l’icône « panier » si vous souhaité lancer votre processus sur tous les documents de votre panier. 
 
 .. figure:: media-guide/Ecran-GoFAST_Workflows_choix-processus.png
-   :alt:
+ 
+ - Vous pouvez sélectionner un modèle (pour avoir le formulaire du processus prérempli) via la liste déroulante disponible au niveau de chaque type de processus. Dans ce cas, sélectionner le modèle souhaité avant de cliquer sur « > ». 
 
 .. NOTE::
-    En lançant un processus depuis le menu principal, le formulaire du processus n'intégre pas de document et il faut donc le(s) ajouter directement depuis ce formulaire (hors dans le cas d'un éventuel processus spécifique ayant un autre fonctionnement). 
+    En lançant un processus depuis la barre des actions rapides (menu principal du haut), le formulaire du processus n'intègre pas de document et il faut donc le(s) ajouter directement depuis ce formulaire (hors dans le cas d'un processus lancé sur les documents de votre panier ou un modèle de processus ayant des documents déjà présélectionnés). 
     
 .. NOTE::
    En lançant un processus depuis le menu principal sur les documents du "panier documentaire", ces derniers sont automatiquement associés au processus. Vous avez ensuite la possibilité d'enlever/ajouter les documents dans le formulaire du workflow.
 
-
 Démarrer un processus depuis la page d'un document
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Pour sélectionner un processus et le démarrer depuis la page d’un document :
 
-- Cliquez sur l’icône "Processus et Tâches" qui se trouve en haut à droite de l’aperçu du document, 
+- Allez dans l’onglet « Tâches » qui se trouve dans le bloc d’informations à droite de la prévisualisation du document, 
 
 .. figure:: media-guide/Ecran-GoFAST_Workflows_lancer-processus-depuis-page-document.png
-   :alt:
 
-- Une liste des processus disponibles vous sera proposée
-- Cliquer sur le nom du processus souhaité ou sur l’icône ">"
+ - Cliquer sur « Nouveau » et vous aurez la liste des processus disponibles. 
+ - Cliquer sur le nom du processus souhaité ou sur l’icône ">"
    
-.. figure:: media-guide/Ecran-GoFAST_Workflows_choix-processus.png
-   :alt:
+ - Vous pouvez sélectionner un modèle (pour avoir le formulaire du processus prérempli) via la liste déroulante disponible au niveau de chaque type de processus. Dans ce cas, sélectionner le modèle souhaité avant de cliquer sur « > ». 
 
 .. NOTE::
-    En lançant un processus directement depuis la page du document, ce dernier est automatiquement associé au workflow dans le formulaire. 
+    En lançant un processus directement depuis la page du document, ce dernier est automatiquement associé au formulaire du processus. 
+
+Démarrer un processus depuis le panier  
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ - Cliquez sur l’icône « panier » dans la barre des accès rapides (menu principale du haut)
+ - Sous la liste des documents de votre panier, cliquez sur « Nouveau processus ».  
+ - La liste des processus disponible s’affiche : sélectionner le processus souhaité et cliquez sur « > » ou le titre du processus. 
+ - Vous pouvez sélectionner un modèle (pour avoir le formulaire du processus prérempli) via la liste déroulante disponible au niveau de chaque type de processus. Dans ce cas, sélectionner le modèle souhaité avant de cliquer sur « > ». 
+
+Merci de vous référer également à la rubrique : « Panier Documentaire ». 
 
 
+Renseigner le formulaire du processus de tâches 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Renseigner le formulaire du processus de tâches pour le démarrer  
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Une fois que le processus souhaité est sélectionné, le formulaire associé s’ouvre et vous permet de renseigner les diverses informations nécessaires. 
-
 Le formulaire proposé et donc les champs à renseigner, sont totalement dépendants du processus choisi. 
 
 .. figure:: media-guide/Ecran-GoFAST_Workflows_formulaire-processus-standard.png
    :alt:
 
 **Focus sur les champs "Document(s)" et "Assignation(s)" du formulaire :** 
-  Dans le cas du processus standard GoFAST, parmi les champs proposés il y a les documents associés et les personnes à assigner. 
-  
-  Pour correctement renseigner ces champs, il est nécessaire de commencer à rentrer le nom du document ou d’un utilisateur (minimum 3 caractères), puis cliquer sur la suggestion pour valider son choix. 
-  
-  Que ce soit pour les documents ou les assignations, vous avez la possibilité de cliquer sur "+" pour ajouter des champs supplémentaires, ou sur la corbeille pour en enlever. 
+Dans le cas du processus standard, parmi les champs proposés il y a les documents associés et les personnes à assigner. 
 
-Enfin, pour lancer le processus et les notifications associées, il suffit de cliquer sur "Envoyer" (en bas du formulaire).
+Pour correctement renseigner ces champs, il est nécessaire de commencer à saisir le nom du document ou d’un utilisateur (minimum 3 caractères), puis cliquer sur la suggestion pour valider son choix. 
+
+Que ce soit pour les documents ou les assignations, vous avez la possibilité de cliquer sur "+" pour ajouter des champs supplémentaires, ou sur la corbeille pour en enlever. 
+
+Enfin, pour lancer le processus, il suffit de cliquer sur "Envoyer" (en bas du formulaire).
+
+**Création automatique de Publications PDF :**
+
+Lorsque vous renseignez le formulaire du processus standard, vous avez la possibilité de transformer un document de travail (ex. docx) en une Publication PDF avant : 
+ - L’étape des validations 
+ - L’étape des signatures
+
+.. NOTE::
+    De cette manière, vous n’aurez pas besoin de créer vos Publications PDF à la main, elles seront automatiquement créées à l’étape choisie, puis partagées dans les mêmes emplacements que les documents de travail d’origine. 
+Si vous ne souhaitez pas générer de Publication PDF, laisser le choix sur « Pas de Publication PDF ». 
+
+**Etape de Signatures :**
+
+Vous pouvez demander des signatures sur les documents via le processus standard. 
+Dans le cas où aucun parapheur n’est couplé à GoFAST, il s’agit d’une simple demande de signature : Les signataires pourront alors cliquez sur « éditer depuis PC » pour les documents concernés, puis apposer une signature via leur application PDF (ex. Acrobat Reader ou Foxit Reader), soit une image, soit un certificat électronique personnel (ex. sur clef USB RGS**).  
+
+Dans le cas où un parapheur est couplé à GoFAST via le module de signature (Yousign, Pastell i-Parapheur, ESUP-Signature, Xparaph, etc.) vous pouvez choisir le parapheur disponible (où l’un des processus de signature du parapheur). 
+
+.. NOTE::
+    Dans le cas d’un couplage avec un Parapheur électronique, les documents seront automatiquement transmis au dit Parapheur à l’étape de signature. Une fois que toutes les demandes de signature prévues par le Parapheur seront traitées, le document sera automatiquement mis à jour sur GoFAST, avec l’historique des actions dans les commentaires des documents. 
+N'hésitez pas à poser vos questions sur les modules de signatures disponibles, sur les forums. 
+
+Modèle de processus
+-------------------------------------------
+
+Vous avez la possibilité de renseigner le formulaire du processus standard et de le sauvegarder comme modèle, afin de gagner du temps au moment où vous ou un autre utilisateur, voudrez lancer ce processus. 
+
+**Pour créer un modèle de processus :**
+
+ - Comme pour lancer un processus, allez dans « Nouveau » (depuis la barre des accès rapides ou la page d’un document ou le panier documentaire)
+ - Au niveau du processus, vous verrez une icône « + ». Cliquez dessus et le formulaire va s’ouvrir. 
+ - Renseigner le formulaire du processus et cliquez sur : « Créer le modèle de processus »
+Vous retrouverez votre nouveau modèle dans la liste des modèles proposés au lancement d’un processus. 
+
+.. NOTE::
+    Si vous créez votre modèle à partir de la page d’un document ou du panier, le(s) document(s) sont pris en compte sur la création du modèle.
+
+Voir aussi la rubrique : « Renseigner le formulaire du processus de tâches »
 
 
-2. Etre notifié et consulter ses tâches à traiter et/ou assignées aux autres
+Suivre ses tâches à traiter et/ou assignées aux autres
 ----------------------------------------------------------------------------
 
-Notifications des workflows envoyées par e-mail 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Notifications emails liées aux Processus
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+A chaque démarrage du processus, les personnes assignées sont notifiées et c’est aussi le cas à chaque fois qu’une étape est traitée. 
 
 .. NOTE::
    Les notifications sont dépendantes du processus lancé. Par exemple, dans le cas d’un processus spécifique il est possible que le contenu des notifications et leur fréquence soient fortement adaptées aux équipes métier concernés. 
    Le descriptif ci-après est donc basé sur le fonctionnement du processus standard disponible dans GoFAST. 
 
-A chaque démarrage du processus, les personnes assignées sont notifiées et c’est aussi le cas à chaque fois qu’une étape est traitée. 
-
 .. figure:: media-guide/Ecran-GoFAST_Workflows_notification-email-processus-tache-traitee.png	
    :alt:
 
-**Les notifications indiquent donc :** 
-   - le type de processus lancé et le nom spécifique renseigné par l’initiateur,
-   - l’initiateur du processus, 
-   - la tâche qu’on a à traiter et les autres tâches du processus (avec état de la tâche),
-   - l’étape du processus (ex : initiation ou fin d’une tâche ou fin du processus),
-   - la date de démarrage, de traitement des tâches et l’échéance,
-   - titre(s) et lien(s) vers le(s) document(s) concerné(s),
-   - le commentaire fait au moment du démarrage, puis ceux ajoutés lors du traitement des tâches,
+**Les notifications indiquent :** 
+
+ - le type de processus lancé et le nom spécifique renseigné par l’initiateur,
+ - l’initiateur du processus, 
+ - la date de démarrage et d’échéance,
+ - l’étape d’avancement du processus (ex : initiation ou fin d’une tâche ou fin du processus),
+ - la tâche qu’on a à traiter et les autres tâches déjà traitées (avec état de la tâche),
+ - titre(s) et lien(s) vers le(s) document(s) concerné(s),
+ - le commentaire fait au moment du démarrage, puis ceux ajoutés lors du traitement des tâches,
 
 .. NOTE::
-   Les notifications liées aux workflows et envoyées par email ne sont pas configurables par les utilisateurs car elles sont directement dépendantes du processus lancé. Il n’est donc pas possible de se désabonner de ces notifications ou de changer leur fréquence. 
+   Les notifications liées aux processus et envoyées par email, ne sont pas configurables par les utilisateurs car elles sont directement dépendantes du processus lancé. Il n’est donc pas possible de se désabonner de ces notifications ou de changer leur fréquence à sa guise (comme c’est le cas pour les notifications « Synthèse d’Activité »). 
 
 
-Liste des tâches à traiter et tâches assignées aux autres
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Liste des tâches à traiter et assignées aux autres
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-En complément des notifications envoyées par e-mail, chaque utilisateur a la possibilité de consulter la liste des tâches qu’il a à traiter, ainsi que les tâches qu’il a assignées à d’autres. Les utilisateurs sont également informés lorsqu'un document qu'ils consultent est associé à un processus. 
+Chaque utilisateur a la possibilité de consulter la liste des tâches qu’il a à traiter, ainsi que les tâches qu’il a assignées à d’autres utilisateurs. De même, on est notifié sur la page d’un document, si celui-ci est associé à un processus en cours. 
 
-**Dans le menu principal :** un numéro apparait sur l'icône "Processus et Taches" indiquant le nombre de tâche qu'on a à traiter.
+**Dans la barre des accès rapides (menu principal du haut) :** 
+
+- Un chiffre apparait sur l’icône « Processus et Tâches » indiquant le nombre de tâche que vous avez à traiter.
+- Cliquez sur l’icône pour afficher la liste de tâches.
 
 .. figure:: media-guide/Ecran-GoFAST_Workflows_consulter-processus-depuis-menu-principal.png	
    :alt:
-
-**Sur la page d'un document :** l'icône "Processus et Tâches" est rouge dès lors qu'un processus en cours y est associé, précisant le nombre de tâche. Si aucun processus n'est en cours, l'icône reste grise.
-
-.. figure:: media-guide/Ecran-GoFAST_Workflows_consulter-processus-depuis-page-document.png	
-   :alt:
-
-**Pour afficher la liste de tâches :** il suffit de cliquer sur l’icône "Processus et Tâches" (que ce soit depuis le menu ou la page d'un document).
 
 .. figure:: media-guide/Ecran-GoFAST_Workflows_liste-taches-dans-menu-principal-acces-rapide.png
    :alt:
 
 Vous avez alors un onglet distinct pour les tâches à traiter et un autre pour les tâches assignées à d'autres utilisateurs. Dans le cas où il y a beaucoup de tâches, vous disposez d’une pagination. 
 
-**Cette vue permet de consulter en un clin d’œil les informations clefs :** 
-   - type et nom du processus
-   - le(s) document(s) concerné(s)
-   - date de démarrage et échéance 
-   - l’initiateur du processus 
+**Sur la page d'un document :** 
+
+ - Un chiffre apparait dans l’onglet « Taches » du bloc d’informations du document, indiquant le nombre de tâche en attente d’être traitées (toutes les tâches en cours, non seulement les vôtres).
+ - Cliquez une fois sur cet onglet, puis sur « Mes tâches » OU sur « Autres tâches », selon si vous souhaitez effectuer vos tâches ou vérifier celles assignées aux autres utilisateurs. 
+
+.. figure:: media-guide/Ecran-GoFAST_Workflows_consulter-processus-depuis-page-document.png	
+   :alt:
+
+**La liste des tâches permet de consulter les informations clefs :** 
+
+ - type et nom du processus
+ - les tâches à assignées (ex. pour commentaire, pour validation, etc.)
+ - le(s) document(s) concerné(s)
+ - date de démarrage et l’échéance 
+ - l’initiateur du processus 
 
 **Les actions possibles depuis cette liste des tâches :** 
-   - Aller sur la page de(s) document(s) du processus en cliquant sur le titre du document,
-   - Consulter l’historique du processus du processus en cours en cliquant sur l’icône "i",
-   - Effectuer sa tâche et consulter l’historique du processus en cours en cliquant sur l’icône ">"
+ - Aller sur la page de(s) document(s) du processus en cliquant sur le titre du document,
+ - Consulter l’historique du processus du processus en cours en cliquant sur l’icône "i",
+ - Effectuer sa tâche et consulter l’historique du processus en cours en cliquant sur l’icône ">"
 
 .. figure:: media-guide/Ecran-GoFAST_Workflows_details-tache-dans-menu-principal-acces-rapide.png
    :alt:
 
+Dans la liste des tâches, l’icône « Horloge » peut apparaitre sous 3 couleurs :
+ - Rouge si date d’échéance atteinte/dépassée  
+ - Orange 24h avant la date d’échéance
+ - Vert si date d’échéance à plus de 24h
+
 Traiter ses tâches
 ~~~~~~~~~~~~~~~~~~
-Depuis la liste des tâches à traiter, il suffit de cliquer sur l'icône ">" pour ouvrir le formulaire et indiquer qu'on a effectué sa tâche. 
+
+**Vous pouvez traiter vos tâches :**
+
+ - Soit depuis la page d’un document : dans le bloc d’informations, onglet « Tâche », vous retrouverez le formulaire pour effectuer votre tâche (en arrivant sur le document, vous serez automatiquement positionné sur cet onglet si vous avez une tâche à traiter). 
+[IMAGE]
+
+ - Soit depuis toute liste des tâches de processus : cliquez sur l'icône ">" pour ouvrir le formulaire et indiquer que vous avez effectué votre tâche, en laissant un commentaire. 
 
 .. figure:: media-guide/Ecran-GoFAST_Workflows_formulaire-traiter-sa-tache.png	
    :alt:
 
-Cliquez sur "Envoyer" (ou autre selon la tâche qui nous a été assignée) pour enregistrer le traitement de la tâche. 
+Cliquez sur "Envoyer" (ou autre selon la tâche qui vous a été assignée) pour enregistrer le traitement de la tâche. 
 
 .. NOTE:: 
    Selon le processus, il est possible de laisser un commentaire (ex : processus standard GoFAST). Celui-ci est vivement conseillé pour favoriser le travail collaboratif.
 
-3. Historique des tâches et processus en cours et archivés
+Historique des processus en cours et archivés
 ----------------------------------------------------------
 
 Que ce soit pour les processus en cours ou archivés, vous avez la possibilité de consulter les détails des étapes et commentaires faits. 
 
-**Cet historique est accessible :**
-   - via le menu principal
-   - depuis la page d’un document
+**Cet historique détaillé est accessible :**
 
-.. figure:: media-guide/Ecran-GoFAST_Workflows_acces-aux-processus-et-taches.png	
-   :alt:   
+ - Via la barre des accès rapides (menu principal du haut), clic sur l’icône « i » au niveau d’un processus.
+ - Depuis la page d’un document, onglet « Tâches », soit sur l’icône « i » d’un processus s’il est en cours, soit via l’onglet « Historique » pour les processus terminés. 
+ - Depuis le Tableau des Processus (merci de vous référer à la rubrique « Tableau des Processus »).    
+
 
 Historique des processus en cours 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-  
+
 Pour consulter l'historique des actions dans un processus en cours, il suffit de cliquer sur l’icône "i" ou ">" au niveau d'une tâche : 
-   
 .. figure:: media-guide/Ecran-GoFAST_Workflows_details-tache-ouvrir-formulaire-historique.png
 
-.
-
-   - le ">" s'affiche uniquement s'il s'agit d'une tâche qui nous a été assignée (permet d'ouvrir le formulaire pour effectuer sa tâche et de voir l'historique des tâches précédentes),
-   - le "i" permet de consulter l'historique depuis une tâche assignée à quelqu'un d'autre (ou bien à soi-même, si on ne souhaite pas ouvrir le formulaire).
+ - le ">" s'affiche uniquement s'il s'agit d'une tâche qui vous a été assignée (permet d'ouvrir le formulaire pour effectuer sa tâche et de voir l'historique des tâches déjà traitées de ce processus),
+ - le "i" permet de consulter l'historique depuis une tâche assignée à quelqu'un d'autre (ou bien à soi-même, si on ne souhaite pas ouvrir le formulaire de traitement).
 
 .. figure:: media-guide/Ecran-GoFAST_Workflows_processus-en-cours-historique.png	
    :alt:
 
-Historique des processus archivés 
+Historique des processus terminés 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Pour consulter la liste des processus archivés associés à un document, rendez-vous sur la page du dit document et cliquez sur l’icône "Processus et Tâches". 
+**Depuis la page d’un document :**
+
+Pour consulter la liste des processus terminés, associés à un document rendez-vous sur la page du dit document et cliquez sur l’onglet « Tâches » du bloc d’informations, puis « Historique » dans le menu déroulant.
 
 .. figure:: media-guide/Ecran-GoFAST_Workflows_consulter-processus-depuis-page-document.png
    :alt:
    
-Une fois la fenêtre des Processus et Tâches ouverte, il faut aller dans l’onglet "Historique". Cette onglet affiche la liste de tous les processus archivés associés au document. 
+Cet onglet affiche la liste de tous les processus terminés associés au document. 
 
 .. figure:: media-guide/Ecran-GoFAST_Workflows_processus-archive-acces-historique.png	
    :alt:
   
-Pour consulter les détails d'un processus archivé, il suffit de cliquer sur l’icône "i" au niveau du processus. 
+Pour consulter les détails d'un processus terminé, il suffit de cliquer sur l’icône "i" au niveau du processus. 
 
 .. figure:: media-guide/Ecran-GoFAST_Workflows_processus-archive-historique.png	
    :alt:
 
-4. Tableau de bord
--------------------
 
-GoFAST intègre un tableau de bord pour afficher tous les workflows créés par l’utilisateur ainsi que ceux qui  lui ont été assignés. Pour y accéder, cliquer sur l’icône Burger du menu principal, dans le menu déroulant appuyer sur « Tableau de bord des processus ».
+Tableau des processus 
+-------------------------------
 
-.. figure:: media-guide/Dashboard-workflow.jpg
+Le tableau des processus affiche tous les processus existants (en cours ou terminés), selon ses droits d’accès : créés par l’utilisateur et que ceux qui lui ont été assignés. 
+
+Pour accéder au Tableau des Processus :
+ - Dépliez le menu principal de gauche
+ - Allez dans « Processus et Tâches » 
+Vous pouvez également cliquez sur l’icône « Processus » dans ce menu principal de gauche. 
+
+.. figure:: media-guide/Dashboard-workflow.jpg.png
+
+Par défaut, quand vous arrivez sur le Tableau des Processus, seuls les processus en cours sont listés. 
+
+.. figure:: media-guide/Dashboard-workflow-listing.jpg.
    :alt:
 
-Par défaut, dans la section « Resultats de recherche » tous les processus en cours sont listées. 
 
-.. figure:: media-guide/Dashboard-workflow-listing.jpg
-   :alt:
+Filtrer la liste des processus 
+~~~~~~~~~~~~~~~~~~~~~~~
 
-Filtrer les résultats de recherche
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Le tableau de bord offre divers filtres afin de rechercher un processus. 
 
-Le tableau de bord offre un filtre avec plusieurs options afin de rechercher un processus particulier. Pour y accéder, appuyer sur la barre bleue « Rechercher des processus ».
+**La recherche se fait avec un ou plusieurs critère(s) :**
 
-.. figure:: media-guide/Dashboard-workflow-filter.jpg
-   :alt:
+ - Titre du processus : Nom complet du processus.
+ - Démarré après le :  Date après le démarrage du processus.
+ - Échéance avant le :  Date d‘échéance avant la fin du processus.
+ - Type de processus : Il est possible de faire le tri avec deux types de processus « Diffusion de document » et « Sous processus de diffusion de document ».
+ - État du processus : Deux états sont disponibles « En cours » et « Terminé ».
+ - Démarré par : Ce champs permet de renseigner le nom de l’utilisateur qui a démarré le processus (suggestions si on saisit au moins 3 caractères du nom/prénom).
+ - Documents associés : Document(s) lié(s) au processus recherché (suggestions si on saisit au moins 3 caractères du titre). 
+ - Utilisateurs associés : Dans ce champ, vous pouvez renseigner les utilisateurs assignés aux différentes tâches du processus recherché (suggestions si on saisit au moins 3 caractères du nom/prénom).
 
-La recherche se fait avec un ou plusieurs critère(s) :
+Pour lancer la requête de recherche, ne pas oublier d’appuyer sur le bouton « Rechercher ».
 
-- Titre du processus : Nom complet du processus.
-
-- Démarré après le :  Date après le démarrage du processus.
-
-- Échéance avant le :  Date d‘échéance avant la fin du processus.
-
-- Type de processus : Il est possible de faire le tri avec deux types de processus « Diffusion de document » et « Sous processus de diffusion de document ».
-
-- État du processus : Deux états sont disponibles « En cours » et « Terminé ».
-
-- Démarré par : Ce champs vous permet de renseigner le nom de l’utilisateur qui a démarré le processus ( Liste de propositions disponible ). 
-
-- Documents associés : Document(s) lié(s) au processus recherché ( Liste de propositions disponible).
- 
-- Utilisateurs associés :  Dans ce champs, vous pouvez renseigner les utilisateurs assignés aux différents actions du processus recherché(Liste de propositions disponible).
-
-Pour lancer la requête de tri, ne pas oublier d’appuyer sur le bouton « Rechercher ».
 
 Afficher les détails d'un processus
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Pour consulter les détails d'un processus, il suffit de cliquer sur le nom de ce dernier dans les Résultats de recherche.
-Trois sections sont disponibles :
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Pour consulter les détails d’un processus, il suffit de cliquer sur le nom de ce dernier dans les Résultats de recherche. 
+
+**Trois sections sont disponibles :**
 
 1- Tâches du processus 
 
-.. figure:: media-guide/Dashboard-workflow-processus-tasks.jpg
-   :alt:
 
 2- Documents dans ce processus
 
@@ -904,139 +838,172 @@ Trois sections sont disponibles :
    :alt:
 
 
-Gestion des tâches collaboratives (Kanban)
+Tâches collaboratives - Kanban
 ==========================================
 
-Pour une meilleure gestion de tâches, GoFast propose une interface sous forme de kanban avec un système de colonnes et de cartes pour organiser les différentes actions à mener lors d’un projet.
+Pour une meilleure gestion de tâches collaboratives, GoFAST propose une interface de type « kanban » avec un système de colonnes (par état d’avancement) et de cartes (post-it) pour organiser les différentes actions à mener lors d’un projet.
 
 .. NOTE::
-   Un seul Kanban est disponible par espace. Les espaces publiques ne disposent pas de ce gestionnaire de tâches.
+   Un seul tableau « Kanban » est disponible par espace. Les espaces publiques ne disposent pas de ce gestionnaire de tâches.
 
-Gestion du Kanban
------------------
-Pour accéder à cette fonctionnalité, aller dans la page d’un espace puis cliquer sur l’onglet « Tâches ». La configuration la plus classique consiste à créer 4 colonnes : Démarrage, En cours, Finalisation, Terminé ou Annulé.
-Pour créer une carte cliquer sur le bouton « Ajouter une nouvelle Carte ». 
 
-.. figure:: media-guide/creer-colonne-tache-kanban.jpg	
-   :alt:
-Renseigner le titre, la description, les documents liés, la date d’échéance, le responsable puis les participants et enfin appuyer sur « Enregistrer ».
+Gestion du Tableau Kanban
+------------------------
 
-.. figure:: media-guide/creer-une-carte.jpg	
-   :alt:
+Pour accéder à un tableau Kanban :
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ - Allez sur la page d’un Espace 
+ - Allez sur l’onglet « Tâches » de l’Espace.
 
-Une fois la carte créée, vous pouvez modifier les informations précédemment entrées ou ajouter plus d’éléments en cliquant sur le champ concerné. 
+La configuration la plus classique consiste à créer 4 colonnes : Démarrage, En cours, Finalisation, Terminé ou Annulé. Dans chaque colonne, vous retrouverez les cartes existantes. 
 
-1. Statut :  La carte peut avoir trois états possibles (A traiter en priorité, En cours, Terminé).
-2. Todolist :  Dans cette section vous pouvez ajouter plusieurs actions à effectuer avec échéance. Chaque action pourra être affectée à un membre de l’équipe.
-3. Commentaire (s) : Ici vous pouvez partager des remarques et des suggestions avec les participants.
-4. Afficher le détail : Afficher l’audit des actions d’une carte.
-5. Fermer ou supprimer : la suppression est activée uniquement pour les administrateurs de l’espace ou le créateur de la carte.
+Gérer les colonnes 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+**Pour créer une nouvelle colonne :**
 
-.. figure:: media-guide/kanban-card-fields-edit.jpg	
-   :alt:
+ - Renseignez le champ « Saisir le nom de la nouvelle colonne »
+ - Cliquez sur le bouton « Ajouter la colonne » et votre nouvelle colonne apparait alors dans le tableau kanban. 
 
-.. NOTE::
-   Dans la section Todolist, les membres de l’équipe peuvent indiquer la fin de la réalisation des actions en cochant les cases adjacentes aux titres. 
-   Ils peuvent également modifier les informations d’une action (Titre, affectation, échéance) ou la supprimer.
+.. figure:: media-guide/Kanban-add-column.jpg.png
+**Pour déplacer une colonne :**
+ - Cliquez sur la colonne en maintenant le clic
+ - Glissez vers l’emplacement souhaité et déposez.
+ 
+.. figure:: media-guide/kanban-move-column.jpg.png
 
-.. figure:: media-guide/kanban-todolist-management.jpg	
-   :alt:
+**Renommer ou supprimer une colonne :**
+Pour supprimer ou renommer une colonne, il suffit de cliquer sur l’icône « ... » qui se trouve au coin
+en haut à droite de la colonne, puis choisir l’action souhaitée.
 
-Les cartes peuvent être déplacées en glisser/déposer d’une colonne à une autre suivant la progression des actions menées.
+.. figure:: media-guide/Kanban-rename-delete-column.jpg.png
 
-.. figure:: media-guide/Kanban-move-card.jpg	
-   :alt:
-
-Il est possible également de personnaliser les colonnes, en ajoutant de nouvelles, renommant ou supprimant des existantes.
-Pour ajouter une nouvelle colonne, placez-vous à droite du tableau puis cliquer dans le champs « Saisir le titre de la colonne », renseigner le nom puis appuyer sur « Ajouter colonne ».
-
-.. figure:: media-guide/Kanban-add-column.jpg	
-   :alt:
-
-Pour supprimer ou renommer une colonne, il suffit de cliquer sur l’icône qui se trouve au coin en haut à droite de la colonne, puis choisir l’action souhaitée.
-
-.. figure:: media-guide/Kanban-rename-delete-column.jpg	
-   :alt:
 
 .. NOTE::
    - La suppression de la colonne effacera toutes les cartes qu’elle contient. 
    - Cette action est irréversible. 
 
-Enfin, pour déplacer une colonne, il faudra la faire glisser vers l’emplacement souhaité puis la déposer.
 
-.. figure:: media-guide/kanban-move-column.jpg	
+Créer une nouvelle carte 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ - Cliquez sur le bouton « + » en haut à droite de l’une des colonnes disponibles 
+   
+.. figure:: media-guide/creer-colonne-tache-kanban.jpg.png
+
+ - Renseignez un titre pour votre carte dans le champ qui apparait.
+ - Clique sur l’icône « v » et votre nouvelle carte est créée. 
+ - Cliquez sur la nouvelle carte que vous venez de créer pour ouvrir le formulaire associé. 
+
+.. figure:: media-guide/creer-une-carte.jpg.png	
    :alt:
+
+- Renseigner le titre, la description, les documents liés, la date d’échéance, le responsable puis les participants. Ces informations sont enregistrées automatiquement.
+
+.. NOTE::
+   Vous pouvez modifier les informations précédemment entrées ou ajouter plus d’éléments à tout moment, en cliquant sur la carte. 
+   
+
+Les champs disponibles dans une carte
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+ - Le titre de la carte : champ modifiable en un clic dessus 
+ - Créé le : date non modifiable 
+ - Etat : modifiable en un clic dessus, puis un clic pour sélectionner l’état. La carte peut avoir trois états (A traiter en priorité, En cours, Terminé).
+ - Responsable : champ modifiable en un clic, puis saisi du nom d’un utilisateur (au moins 3 caractères à saisir pour avoir des suggestions). Un seul responsable est possible. 
+ - Participants : champ modifiable en un clic, puis saisi du nom d’un utilisateur (au moins 3 caractères à saisir pour avoir des suggestions). Plusieurs participants peuvent être ajutés. 
+ - Description : champ modifiable, faites un clic dessus pour rentrer en édition, puis sur « enregistrer » ou « annuler » pour sortir du champ. 
+ - Documents : champ modifiable, vous pouvez lier des documents à cette carte en saisissant le titre (au moins 3 caractères à saisir pour avoir des suggestions) ou en collant le titre d’un document. Cliquez sur une des suggestions pour lier le document ou sur « x » pour un document déjà lié. 
+ - Todolist :  champ modifiable, où vous pouvez lister les sous-tâches précises à effectuer. Cliquez sur « Ajouter nouvelle tâche », saisissez un titre, puis cliquez sur « v » pour enregistrer votre nouvelle tâche de la todolist. Chaque tâche pourra être affectée à un membre de l’Espace avec une échéance précise. 
+ 
+.. figure:: media-guide/kanban-todolist-management.jpg.png	
+   :alt:
+
+- Commentaire (s) : champ modifiable, où vous pouvez partager des remarques et des suggestions avec les participants de la carte.
+-  Historique : champ non modifiable, qui affiche l’audit des actions faites sur la carte.
+
+.. figure:: media-guide/kanban-card-fields-edit.jpg.png	
+   :alt:
+
+.. NOTE::
+   Dans la section Todolist, les membres de l’Espace peuvent indiquer la fin de la réalisation des tâches en cochant les cases adjacentes aux titres. 
+   Les membres contributeurs de l’Espace peuvent également modifier les informations d’une Carte.
+
+Cliquez sur « Fermer » pour sortir de la carte. 
+
+
+Supprimer la carte
+~~~~~~~~~~~~~~~~~~
+
+Pour supprimer une carte, il faut d’abord l’ouvrir, puis cliquer sur « Supprimer » en bas de la carte. 
+
+La suppression est activée uniquement pour les administrateurs de l’espace ou le créateur de la carte.
+
+
+Déplacer une carte 
+~~~~~~~~~~~~~~~~~~
+
+Les cartes peuvent être déplacées par glisser-déposer d’une colonne à une autre, suivant la progression :
+ - Cliquez sur la carte sans l’ouvrir, en maintenant le clic
+ - Glissez vers l’emplacement souhaité et déposez.
+
+.. figure:: media-guide/Kanban-move-card.jpg.png
   
-Permissions 
------------
-- Qui peut ajouter/renommer/supprimer/déplacer les colonnes ?  Les administrateurs de l’espace. 
-- Qui peut créer/modifier/déplacer les cartes ? Les administrateurs de l’espace et les contributeurs.
-- Qui peut supprimer une carte ? Les administrateurs de l’espace et les créateurs des tâches. 
-- Qui peut commenter les cartes/valider les checklist (Todolist) ? Les administrateurs de l’espace, contributeurs et les membres en lecture seul si assignés à la tâche/Checklist.
+Afficher ses cartes (tâches d’un Kanban)
+-----------------------------------------------
+
+Accès à une carte Kanban
+~~~~~~~~~~~~~~~~~~
+
+Les cartes sont visibles aux utilisateurs membres de l’Espace où elles se trouvent.
+**Vous pouvez y accéder :**
+
+ - Depuis l’onglet « Tâche » ou « Calendrier » d’un Espace Collaboratif ou son Espace Personnel.
+ 
+.. figure:: media-guide/kanban-card-display-calendar.jpg.png
+
+.. NOTE::
+   La carte apparaîtra dans le calendrier à la date d'échéance de la carte et non à la date d'échéance de la checklist.
+
+ - Depuis l’icône « processus et tâches » dans la barre des accès rapides (menu principal du haut), où il n’y a que les tâches où vous avez été assigné. Pour aller sur une tâche, cliquez sur l’icône « i » en bas à droite de cette tâche.
+
+
+.. NOTE::
+   L’icône « Post-it » disposée à côté du titre de la carte permet de faire la différence entre les tâches de processus et les tâches collaboratives d’un Kanban.
+
+ - Depuis le moteur de recherche (dont filtre par type de contenus « tâches »). 
+
+Il suffit de cliquer sur la carte pour être redirigé sur le tableau Kanban, avec la carte ouverte.
+
+
+Filtrer les cartes
+~~~~~~~~~~~~~~~~~~
+
+GoFAST met à disposition une barre de recherche pour filtrer les cartes, elle est placée au-dessus des colonnes dans le Kanban, sur la page d’un Espace. 
+La recherche se fait uniquement sur le titre de la carte. Il suffit de taper le titre, la carte concernée s’affichera dans le tableau et toutes les autres deviendront invisibles. 
+
+.. figure:: media-guide/Kanban-filter.jpg.png
+
+Permissions  
+-----------------
+Pour connaître les permissions sur la gestion des colonnes et des cartes dans un tableau Kanban, merci de vous référer à la rubrique : « Tableau des permissions par rôles » 
 
 Notifications 
----------------------- 
+----------------------
+
 +---------------------------------------+-------------+--------------+----------------------+
 | Notifications	                        | Responsable | Participants | Assignés aux actions |
 +=======================================+=============+==============+======================+
 | Création de carte 	                |      X      |      X	     |                      |
 +---------------------------------------+-------------+--------------+----------------------+
-| Création d’action (Checklist)	        |      X      |      X	     |          X           |
+| Création de tâches (Todolist)	        |      X      |      X	     |          X           |
 +---------------------------------------+-------------+--------------+----------------------+
 | Date d’échéance de la carte   	|      X      |      X       |  	X           |
 +---------------------------------------+-------------+--------------+----------------------+
-| Date d’échéance de l’action Checklist	|             |       	     |          X           |
+| Date d’échéance de tâches (Todolist)	|             |       	     |          X           |
 +---------------------------------------+-------------+--------------+----------------------+
-| Soumission Commentaire	        |      X      |      X	     |          X           |
+| Commentaires sur une Carte	        |      X      |      X	     |          X           |
 +---------------------------------------+-------------+--------------+----------------------+
-
-Visualisation des cartes (Agenda & Menu Tâches)
------------------------------------------------
-
-Les cartes sont présentes dans les calendriers des espaces ou leurs sous-espaces. Elles sont également visibles dans le calendrier de l’espace personnel sur lequel le membre de l’équipe est assigné en tant que :
-
-- Membre de la carte.
-- Affecté à un élément de Checklist.
-
-Il suffit de cliquer sur l’événement dans le calendrier pour se rediriger sur le tableau (kanban) contenant la carte en question.
-
-.. figure:: media-guide/kanban-card-display-calendar.jpg	
-   :alt:
 
 .. NOTE::
-   Dans le cas où on est assigné sur un élément de Checklist, la carte apparaîtra dans le calendrier à la date d'échéance de la carte et non à la date d'échéance de la checklist.
+   Les échéances qui arrivent à leurs termes, sont rappelées dans une notification email de synthèse : la liste de toutes les cartes et tâches dont l’échéance est à 24h. 
 
-À partir du menu principal, vous pouvez visualiser les cartes ouvertes dans la rubrique Mes tâches (Roues crantées).
-L’icône en petite fenêtre disposée à côté du titre de la carte permet de faire la différence entre les tâches workflow et les tâches créées à partir du Kanban.
-Pour se rediriger vers le Kanban concerné, il faudra appuyer sur l’icône information en bas à droite.
 
-.. figure:: media-guide/Kanban-card-display-menu-tasks.jpg	
-   :alt:
-
-Filtrer les cartes
-------------------
-GoFast met à disposition une barre de recherche pour filtrer les cartes, elle est placée au dessus des colonnes dans le Kanban. 
-La recherche se fait uniquement sur le titre de la carte. Il suffit de taper son nom, la carte concernée s’affichera dans le tableau et toutes les autres deviendront invisibles. 
-
-.. figure:: media-guide/Kanban-filter.jpg	
-   :alt:
-
-Forums de discussion
-=====================
-
-Le forum général pour tous les utilisateurs de la GoFAST permet
-d’échanger des informations et questions sur l’outil et sur son
-utilisation.
-
-C’est à ce niveau notamment que vous allez retrouver la vidéo
-d’introduction de la GoFAST (version 2.0), les tutoriels, les guides
-d’utilisation, les guides de gestion documentaire, …
-
-Vous pourrez y posez des questions générales et chacun pourra y
-répondre. De même, l’administrateur général peut vous donner des trucs
-et astuces via ce canal également.
-
-Vous pouvez d’ailleurs vous abonner à ce forum si vous voulez rester au
-courant de tout ce qu’il s’y passe.
-
-   

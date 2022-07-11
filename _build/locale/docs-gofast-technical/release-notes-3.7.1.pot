@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2020
+# Copyright (C) 2022
 # This file is distributed under the same license as the gofast-docs package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gofast-docs latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-27 12:27+0200\n"
+"POT-Creation-Date: 2022-05-20 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,1402 +16,1402 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:3
-#: 77ad7c0e6b25408e9f89ec8e73b129ea
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:3
+#: 38f3db639a744d74877e6271f04e9b14
 msgid "GoFAST :  Version 3.7.1"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:5
-#: aaca978e5e604563896aebfd16884bea
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:5
+#: 2d7fb67d5eee4e3bb5eb6815de47f2b7
 msgid "**[GoFAST Enterprise]** N’hésitez pas à solliciter notre support pour planifier la mise à jour (https://srv01.ceo-vision.com/osticket/index.php)."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:7
-#: 8471af1bdaa042c6bbfd2d9b5e408410
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:7
+#: 28c566a806c3470a992036de8ac7fe70
 msgid "**[GoFAST Community]** Pour que vous puissiez mettre à jour votre GoFAST Community, le serveur de mise à jour doit être accessible. Posez-vos questions sur nos forums : https://community.ceo-vision.com/"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:11
-#: 3b7b4992ee944343b3137685de05228e
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:11
+#: b770828fd9e544a6a52e9eb4ae518979
 msgid "Nouvelles fonctionnalités"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 9a9905d2183c4ba0a8ba7f03c9682abc
-#: 3d2d46c68606492887bc90b94b8fae60
-#: 90072a0b019d4e379ba4e113cf08031e
-#: e28d19a88b164fd3a878c776c4e40fb1
-#: e678833f58df496aa25f9a844c5f8219
-#: 1c4b937639104814be5e065e4d4848b1
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: 192d634df4f042b1ac3061a52c5e71fe
+#: 1ec402e3f3084af49aacbd8f959c15df
+#: 4b787e1e1f6846d9bc551bac67da80af
+#: 5d7a5e1aea20421a889342c492357878
+#: b770f8524f6a4e88b28ed65ab9d99fc1
+#: 6af6c32ee5a74a79b4f5e0f132eec87b
 msgid "Ref."
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: f6c664b0ac444a6a89ce2cf59dffa184
-#: 84b7a65475414858a058664c50de0c91
-#: 78cc76d5992840b9af88ffbed875dcb3
-#: ef633bf107634d719ace8c6400f257c3
-#: 55ee73b69f2343b6846d6f285839f11e
-#: 432457d22dfc4df9b184855f794ed2d4
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: bbbdff80adec4d859367d5650d6d090e
+#: e2d936ccc021420ba2f93bb3b1ffd85a
+#: 034574193f6b4f12865f5bd66aca1fe3
+#: e0136dd386654a92b1f2493d7c1d9c49
+#: 1426457b39ba4729a04bcad274eed25b
+#: 4e1cffe0683e4c1d8068658071815044
 msgid "Description"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 1a3df067b23f47b2ba90fdf6b72a71dd
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: 58b688637d4f4190a73a62299f8543b3
 msgid "[GOFAST-3535]"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: b4916260361145a1abcb99700b4c2787
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: 0af23a0660dd4430979771e5b76b5e06
 msgid "Guide de démarrage avec GoFAST (Carousel explicatif)"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 6eb9d0cfda984939a46daf00faa48d8a
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: aadc7113078a4a8ab1d5c734118f7e92
 msgid "[GOFAST-2582]"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: d3911caf7e0b421ab59c055bbc962bce
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: d20a76d0c5e4481bba2a1e41f5471505
 msgid "Chat-Messagerie Instantanée avec des groupe de discussions (Salon)"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: df6e72e571b047dab691c0ef0db58f14
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: ad8d73bed5b9494a8d3c445d3182d1b8
 msgid "[GOFAST-3296]"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 40bec8a56b0d4ca8bddbb06f8f4b9d2d
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: e80af4c53611440e8a316eb270be156c
 msgid "Modèle d’arborescence de répertoires"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: febbafcefcad410bbea35177f65a1cf9
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: 1b36bda82a4e4cf68aeb0ec57243d7fc
 msgid "[GOFAST-4885]"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 80720d126e4043458bfdae16f577e311
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: e103fd96a7ac403b9f7f737f94fcbd05
 msgid "Gestion collaborative des tâches sous forme Kanban (= type Trello)"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 10a4a255c8504bd68746121c9154f43e
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: de184d465df84bda99bafd8d25b22388
 msgid "[GOFAST-4981]"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 25691206d787440faa7ba8ba874fedc2
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: cc1eee76981045188d05b130b5683766
 msgid "Option de recherche 'stricte' (en plus de la recherche actuelle considérée comme étendue)"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 9dfe9674180e48598f47c1dff756f24a
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: 6ba0811d53b6457094d09448cc585cab
 msgid "[GOFAST-5014]"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: a4ae982e5ab94439a173bbe1eae77be8
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: d8f3b0ef65d64c3a918e7dfaedfba07c
 msgid "Accéder à la piste d’audit depuis la page d'un document (uniquement pour les ‘super-administrateur’)"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: f3df8670a2c54d0c81f86f8a6bd0dcf8
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: 73d2678b8cfd4a62bd7a274a4d2fe9bf
 msgid "[GOFAST-5029]"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 46e512b69b4647608b6f8cf9334cc054
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: cb92fe346adf4b10908dd41b3b94d5cc
 msgid "Sauvegarde des critères de recherche"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 82b0cff20b77431992f7b81f25cd120e
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: 2581b869376a46c49abc01a8f91ad7a8
 msgid "[GOFAST-5031]"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 1cf54d2498a141a382a3e0c17db02d50
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: ad6d3286bc2d4545a00e9604fc0cddb3
 msgid "Pouvoir passer le document d’origine/de travail en version majeure lors d'une publication"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: f885b3d4b407436d90cd8fbd0941faf4
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: 890b71a4325d42d584b600cc0da86c35
 msgid "[GOFAST-5032]"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 24aa64c15e3b4cf481a99248049ab4e0
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: 77d921792b1e4687a210b5df361d2f0e
 msgid "Afficher le formulaire de connexion sur la page de téléchargement d’un document transmis par e-mail sous forme de lien de téléchargement"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 5d72b3fa4dd242c38f0e6ca30df53412
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: eb85763a3d014f389769a17990971026
 msgid "[GOFAST-5120]"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 2de22c7e1fdd4ea3a99964795767d612
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: 949567874ed34cc5a443de925cb8b825
 msgid "Nouveau Tableau de Bord des Workflows"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 1db2ca46df804ddc90585e0d1324ad3c
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: 2237c58c1fb94f9194a051fd6845784d
 msgid "[GOFAST-5123]"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 89a544b0eef04d3bac8c9f129bc1d61b
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: d741b45f24f8429b9edb45d625abd4c2
 msgid "Système d’authentification SingleSignOn (SSO SAML)"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 10fb354db35649afb0ab67203cd023b1
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: 7a199b6253784f9aba9fd6a854150a72
 msgid "[GOFAST-5336]"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 7b969c18449c483bac98be67855317d6
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: 6c3e095e1f7748089e2a4f9934fa6d56
 msgid "Notion d'utilisateur 'supprimé' (ayant quitté l'organisation)"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 478d1076b4664b3498c20ab28da1e13d
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: d0edee06f465413bb48ef1d35d3a6eba
 msgid "[GOFAST-5391]"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 606b4f96ec864d869e00039e32ea5218
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: 556e0f5b857c48d09ba0956a008d1ef6
 msgid "Pouvoir afficher la liste des emplacements d’un document et les droits de l’utilisateur sur les divers contenus (Documents, Espaces…) dans GoFAST File Browser"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 1e5f68c6e82d468d818a2c04668f1343
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: be1aa0c83dfa4ba09860719ed822cb90
 msgid "[GOFAST-4846]"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: dca7e73065924d1c907577a601e64f41
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: 244b5cc0d14846ddbc0ebd468139c551
 msgid "Pouvoir archiver en masse les documents depuis le panier documentaire et GoFAST File Browser"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 9c53e9d410604676a0c097d81f99cc9b
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: a033d6b3281348fbb519d3b0d3e7ff11
 msgid "[GOFAST-5358]"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 452c5558288c4c6284ef2b37f530503b
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: c1afd1dd416f445cb1bf146d2c1a5e86
 msgid "Notification de suppression d'un membre d'Espace envoyée aux administrateurs de l’Espace et à l’utilisateur concerné"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 3f8232880a1645a9b66e42ccf7393c47
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: a9fff94a0b204f69ab780be61b4fa878
 msgid "[GOFAST-5598]"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 0e655aaba9e44fec91dba5e54315dc0c
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: 356795e8e29746068f37791cc5b5646c
 msgid "Création d'un champ 'Référence Documentaire' avec un libellé paramétrable"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:35
-#: e9d5ff2b8fa8483ba2a69829cd3bf787
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:35
+#: 41f0e51caa2f4cf6bcfe9a74f6cc0066
 msgid "Améliorations fonctionnelles"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: f6557379e70243ef985170bcfc01936e
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: 3a4be4db079c4e219a804ccdde895642
 msgid "[GOFAST-5426]"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: c6befc902e3f4d6684bf4c65b3ce4148
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: 9879b15c25924549bdff3e66b19d79bb
 msgid "Export complet des informations relatives aux Espaces depuis la vue des statistiques"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 4f9b543ff65049b2a19f49fc290a33d9
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: 360f7be2a45d4606b2400dd6532863f6
 msgid "[GOFAST-3588]"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 5550760e90c84fa7b5867ae0198b23b4
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: 8a64831752034a4caf678dfae6d5835b
 msgid "Avoir des administrateurs 'métiers' de l'Espace Public pouvant ajouter du contenus"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 484decb6d3c74a7b824b2c2dea1955aa
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: 03c43ab2d30349ac841f0aa0794e6414
 msgid "[GOFAST-4000]"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 5afa2be62f8342cca6949f174ab4977b
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: beb3b42495f04bc7bdfdf870307604b8
 msgid "DUA : Application rétroactive de la DUA (Durée d’Utilité Administrative)"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 2404ac70628b4175adb6d548807a64fc
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: 5a8ab7a7630c4a76b3bba8b263acf75e
 msgid "[GOFAST-4892]"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: c5f844383e4243649faa0293a79355c6
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: 912ef4ef195543099ffad0b13c8a141e
 msgid "Pouvoir arrêter le chargement d'un fichier unitairement dans la file d’attente de GoFAST File Browser"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 058d21f6219f4ffca5f3771f05010c04
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: ac094a6923314bc9afccf8368c3c58ea
 msgid "[GOFAST-4917]"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 379d14d3d23a4e70a354c4d6d76a19cf
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: 010dddf156b34e308be5fe14f8adf8a5
 msgid "Regrouper les notifications d'ajout/suppression de membres, pour les administrateurs d'Espaces"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 5263859428f24c71b5823fc68b2eb16f
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: 235a3adce1e249d9a77c49901ff168dc
 msgid "[GOFAST-5051]"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 89f95231fc6b427c940bff880a12f34a
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: 02d07a440df4462cbf4a5597bcfb6fd9
 msgid "Ajout d’un lien vers le profil de l'utilisateur dans la notification d'utilisateur bloqué"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: f4d588d4f31640d898bacb55f20d9e5f
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: 41e309a5364242aebdb73cca92da9049
 msgid "[GOFAST-5004]"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 6cf64e97231e4860879c88796f0ae3a5
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: 2c0f0a3b8ad34839bfb7467bae397907
 msgid "Liste Utilisateurs : possibilité de donner le rôle d’administrateur d’une liste à d’autres utilisateurs en plus du créateur de la liste"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 2964befe3fa442b3a1481a22b874a8d7
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: c45afe4fdb6f4fd2a94dc9b7098e0961
 msgid "[GOFAST-5139]"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: fdb59e0a099c4227a8e1a151fd2ecf22
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: 4f4112c5c1bc4012a4a9c2489f7eea0c
 msgid "Blog : pouvoir épingler, éditer et supprimer les messages à tout moment (pour le créateur du message)"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 01ab446faf744158b8498dc433659f87
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: 76f7e055445840a19151d9043b4d55fe
 msgid "[GOFAST-5171]"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 9e94e0a3ab2c4fa093f08c44610ffbed
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: 25abf2febf394c91b852f9aa7bfc53a8
 msgid "Avoir l’autosuggestion des contenus lors de la saisie des numéros de référence des contenus (numéro du ‘node’ dans l’URL)"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: b5d53706a2b0461da9e7f8a6daf85f18
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: c6b1e471af404a45a1a1af53e371c1e2
 msgid "[GOFAST-5187]"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: abd1a3d026974600bf537bc1623bdbcc
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: e7d4b48f51bd4a0b854acb83f76fda26
 msgid "Mise à jour de la Suite OnlyOffice 5.4.1 : nouvelles fonctionnalités, améliorations et ergonomie plus proche de la Suite de MS Office365 (release note OnlyOffice : https://helpcenter.onlyoffice.com/fr/server/document/changelog.aspx)"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 815c61dfa52745cc9545adef92c9d508
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: 8d09c9c388d241a4bdbc4684b75c7af0
 msgid "[GOFAST-5192]"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: eee6827dc0b7468fa1c022a433eb0223
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: 73d5b7b8513d4179adf95158b8df98f7
 msgid "Amélioration de la gestion en masse des emplacements/visibilité des documents"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 2ba06f47aca14f05a166f468920d7c0a
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: 1cd041e564d0456f8a64f595e02772ce
 msgid "[GOFAST-5195]"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 678a64b709d64778a138afd491e82475
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: 9d683feb4cec41bea287bea33d41da99
 msgid "Empêcher le changement de l'extension des fichiers dans GoFAST File Browser, lors du renommage d’un fichier"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 1486392437fa4d7f9812d21fd8a1e1b7
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: abcc86ce4ccc4b8cb96d2d50b0655147
 msgid "[GOFAST-5202]"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 5138cb4bb6d7415fab932e49ce0d93a7
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: 420bec3bb5bc499485aa347c35f155b6
 msgid "Evolution du système de prévisualisation (basé OnlyOffice en plus de LibreOffice)"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 2f96b1d27b3049c6b740fc4bc2dc1de2
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: 5c8ebfbd24b346889962e1f05e5c2e0b
 msgid "[GOFAST-5352]"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 382f689b34214ffda184066d715ccb47
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: d7cd9395bf384852994199052f90b0b6
 msgid "Interface mobile : amélioration de l’affichage des Espaces sur le profil utilisateur"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 15a91c0570d04048a3d7c2f14f6845ed
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: 50e575999f184f24b3b8d1ecbc72cd31
 msgid "[GOFAST-5385]"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 17c27daa90a34eb48e95ba9cffa72392
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: 2dcc6d982b8a4fd08077f8a7f44438d3
 msgid "Regroupement des actions d'administration de la plateforme du menu contextuel dans un sous-menu (uniquement pour les administrateurs système)"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 39f07a2cd6674be7bc6bfc5cd9a274ba
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: a78ce470837a4fb790930c426b214c5e
 msgid "[GOFAST-5400]"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: faf2eb4e3a394a05bcb111527ed79df7
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: 418b9cfebf6340b2ad98d101134332dd
 msgid "Identification des fichiers ayant l’extension .mov en tant que format vidéo (permet la lecture en streaming)"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 31336fc14a81401db3077d4a5a9acfde
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: 14f4917a0dbc4d4cb6c05dd5bf3612e0
 msgid "[GOFAST-5409]"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 08fb50604cbe4975977a5e1a1bebc4dc
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: f99a57f0ecb14433b8a759814d2f81b3
 msgid "Réorganisation des actions du menu contextuel d'un document (le ‘Burger menu’)"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: e10a34cc9c024b1391f7a8075249bfcd
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: 9f10292257ef48eba62e1ccd529ba2d1
 msgid "[GOFAST-5140]"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: e5a6c5ebc1a742e2831c46dddc632fb7
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: f0dbc60cedc14f179ca0b96a5666239e
 msgid "Amélioration de l’affichage des contenus liés dans la popup de modification des contenus liés, si beaucoup de contenus"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 7eb254827c0549f1a99126f909b293af
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: 45315da2c1004509818412e6cf8a170c
 msgid "[GOFAST-5146]"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: cc470f75402c4f2eaccb1dc12ae02983
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: 8693d10a253649db811ec30ba9d8a965
 msgid "Déplier les dossiers ‘TEMPLATES’ par défaut dans l’arborescence, permettant de sélectionner le modèle plus rapidement, lors de la création d’un document"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 9a76580acc814dfb80ec02788d793536
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: d5a4d85ae7a34f64a3ea7e606dd382fa
 msgid "[GOFAST-5323]"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 6f1f2f209d354c85a9484c70efa5da5b
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: 8b0ed0fb927043b09ca0f427d36308fa
 msgid "Indexation des comptes bloqués plus cohérente : exclus par défaut et recherchables via un filtre"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 207ddbfad1c4465cbc49f8d7b4c85eee
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: 4c0e1b2187964b2cbf153c4c35936415
 msgid "[GOFAST-5309]"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: eb583799e31d46e197dac6e1025b0d34
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: da4eb963c036404d9a303039f9f0639a
 msgid "Amélioration de diverses traductions (anglais, français, néerlandais)"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 97779a38a0954ad5b272ab06cdc6f493
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: 3b5fa02a86ee48159957d531aa00d21b
 msgid "[GOFAST-5411]"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: f02c6f38651542bdb0cf4d909cdebc77
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: fa8370043091469a9594aeb6a1b8fdc7
 msgid "Amélioration et uniformisation de la taxonomie de certaines actions en masses"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 89dab0374cae4198bf7c937b3a028497
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: 1be82bfcaac94d2fa1a13ca8ebf64666
 msgid "[GOFAST-5548]"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: f1d3265cb55e4be9a370277d9ba64b4b
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: 0728065b52fc427289f0a3d4d45b3101
 msgid "Gris plus foncé pour la police"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: c16fd9e6552c48d597d0e6c633ebe09b
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: 2f2fea15c5184b48bc97de3add21b1e5
 msgid "[GOFAST-5603]"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 7f73862641644f46a3fa92c3bfc718c1
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: 3128405a78ba42889a1c3378ae3ff229
 msgid "Amélioration d'affichage 'Supprimer des favoris'"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: f4ce63004417456b89034cd151ea5336
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: 94c6fbed3d6a49bca0fa5e6fec48d438
 msgid "[GOFAST-5679]"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 9dc89d34258c4c7bb043c830f914139f
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: eec37c5e28d3492b89bbcf4be86abd79
 msgid "Améliorer la compréhension de la modification des recherches sauvegardées"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 232b143e9a0c4d7a854ea11c68b0a93c
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: 7f66495eeb4c468099c72b865cd143f0
 msgid "[GOFAST-5730]"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 698381cbafef4ea99fc7ce4de956da10
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: 42125eedfcbb4c4eb603dcd5b6a55e5c
 msgid "Ne plus générer de mot de passe envoyé par mail lors de la création des comptes"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 490c55a1748b44c8a83234cb25c5cc17
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: 3f415a60f8cd4613a8a0e62262327ae4
 msgid "[GOFAST-5738]"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 97ea7b1b8d7b4f0a8581db8c3b92950b
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: f30d1032c25642559c0d242e976ce993
 msgid "Empêcher de pouvoir naviguer sur la plateforme pendant la session temporaire de récupération de mot de passe"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 54716da930ff47f380638ecf9aca90d1
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: 22c5b1fd81f14116b0c4e38e0016ea2c
 msgid "[GOFAST-5818]"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 0ac4181d772843aaabf95a2d6cdc20d6
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: e0d0b12d62444d638f1beb6e8e510191
 msgid "Améliorer l'affichage des erreurs"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:71
-#: 196d6f4cc6ad4d8fb0594d372c18f795
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:71
+#: 93d8619c570a4a149718e699d319652a
 msgid "Améliorations techniques"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 3887c043a07e4a90b941d3bfe329ee78
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: a5ef964faa504f4db39e53d3529bb192
 msgid "[GOFAST-4982]"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: dc6f3e3de53744d8832ce1e83f4953b0
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: 00082ebe5d484f469d30ee9f101d1236
 msgid "Supervision : avoir le nombre d’utilisateurs connectés dans l'heure et le nombre de documents non indexés dans Zabbix"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: a40c30dbc1f44b8b9cbe3c0f3d522dbe
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: e965599e881f47aa98b14d179f350c75
 msgid "[GOFAST-5256]"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 34daba308db04e5485bbc9770474e913
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: 68896d7435754b72956ab3a4ad935888
 msgid "Asynchroniser l'archivage d'espace (éxecution en arrière plan)"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: e95cf0a2740248218f87b42707201d84
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: 91ffb584a6374b3abdea26810e05d9cc
 msgid "[GOFAST-5320]"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 7571cb11ae2a4a92aaa63e2a3e0ecd29
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: feb7f533223d4882909840d83d1d78bc
 msgid "Réinitialisation de la date des VM au lancement de celles-ci"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 4cc4cbf7638f401ab7261d3d9e1c261d
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: 6279cf9d1ffb4ede91acc594d11c15f5
 msgid "[GOFAST-5337]"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 62dc4bbdd9e049febd466758c08b1687
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: 16372a42ddff475294906baf646a50a6
 msgid "Permettre de filtrer les utilisateurs pendant la synchronisation LDAP"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 416c1b24afdf444495bac1e3f532873f
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: 5774c32f26734b23953b86bcf66ff30b
 msgid "[GOFAST-5355]"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 9ef124770a274a98a1f2eb950b5d94f7
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: c1a9188e2b904535901bc8d7283ae6de
 msgid "Extension des actions auditées : téléchargement et publication"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: c07a5c67b06145de8bada676073d519c
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: c731cbe0869c4ebdba9d39795cc1e62e
 msgid "[GOFAST-5364]"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 120e2ea3ab924a2e960de1de4fe2169d
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: 58598ae92d0849e0a1e06b1b181b38f0
 msgid "Eviter le rechargement de GoFAST File Browser après le dépôt d'un fichier"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 31ae95a3559d48ffbecd5e84c9b44039
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: ce253dc6c66b4a3fbe01bac2295c2fce
 msgid "[GOFAST-5366]"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 6be057bcc7264e18a4406556a8647e38
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: 819e052d212245e89480b7e022fd1f28
 msgid "Améliorations diverses des API GoFAST (pour étendre les possibilités dans les workflows)"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 23ec0826118a4d528a5b8ac84ef8ac8e
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: 50d647f087504379b1baabe09e77fd7b
 msgid "[GOFAST-5369]"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 770a88c4d5774a60bb932d2f4ab9952d
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: 2abbbcf0d5114d11bd7d68916a76a653
 msgid "Activation du module HTTP Upload d'Ejabberd : Transfert de fichiers/images dans le Chat"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 57d04e318cd34e218166ccd1c900d774
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: 0bcb7623a4a143c79a8c68c23812f71e
 msgid "[GOFAST-5415]"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: a2246a848f4e4386a3b7823026572946
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: e6ff23f04f66412295a7c3e58e4d6bbd
 msgid "Amélioration des performance à cause du hook node_access sur environnements avec beaucoup d'espaces"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: b15b4ca34d514fb0ae33e051bf9959fd
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: d7ff9d9bb2f64bba9938cf17cfba1019
 msgid "[GOFAST-5422]"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: b9063da0564e48288e046c94835b7b02
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: f3cda98e9f20482bbe2c1f1f2bef1414
 msgid "Ajout d’un champs 'summary' (décrit l'état en cours d'un workflow) dans l'objet BDM processHistory"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: c54aca69bd094011b93704f7ce8e749b
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: 9e8670bc4829404597228ef2d2aa4a4d
 msgid "[GOFAST-5432]"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 55beb68d001e4af898e63c7af3c80043
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: e9db505902ad40af8dd68c0dbb082a37
 msgid "Amélioration des performances du formulaire de création de document lorsqu’il y a de nombreux modèles de documents"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: d0b0948114f34517a8690cb315858828
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: b6cc5a3aa1344f23ab4df94971eec203
 msgid "[GOFAST-5437]"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 5bc90147862640a6b75be11107bff6f7
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: deb32308c0d644a296a7757e1194c885
 msgid "Amélioration des performance du bloc des métadonnées (dans le cas où il y a un grand nombre d’Espaces)"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: c4b8448aadc348f4a4f4f7632109574a
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: 4046dc3e0d0a45cba4c95ad67a0dd3a5
 msgid "[GOFAST-5441]"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 62675f325d9747d58dd03c4bab02a070
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: ab108d648e404a0785f55923f0d3c281
 msgid "Optimiser le temps de chargement de la page d'un espace"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 007708a7cd4743ebb6e00d91007be9af
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: 7ecb179e26854e6d8cb9cf86f9499de4
 msgid "[GOFAST-5444]"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: e61feeb2b8d244b697812892872d121e
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: b7ec6abaec84467aa47df738f4879442
 msgid "Supervision : ajout du nombre de connexion maximum MySQL dans Zabbix"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 382216ecbbdf4bd6bce224d11c4d43c8
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: 905dd8d94b7d422cbb9f0418dada06ba
 msgid "[GOFAST-5446]"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 68b72afff6c9430092914f5f3aa2807d
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: ba461913364141b098f92ef67e4cf36f
 msgid "Optimisation des performances de l'audit pendant la création d'un contenu"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 4a6eeb09cc00424593a6f0066b25a30d
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: b6404d6ea39b4505ad66245614838735
 msgid "[GOFAST-5453]"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 214de84736b24c78bbf2af66a2752899
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: 53f820f0e870400981ff4cd84c829429
 msgid "Optimisation des performances du fil d'activité"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: e94f17bd895b405ab97a614b6b9b9e30
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: 8b5d5f04a12c41dd93312849b396bd66
 msgid "[GOFAST-5457]"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 7e2aaf1505114ef39fc4a2a23d400618
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: 66a37e00100f432682366c32eb205ed1
 msgid "Optimiser le temps de chargement d'un profil"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 103d2c18889f4caa9966abbc03b95791
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: 4f6824f7600e49b69820234fd7748ad0
 msgid "[GOFAST-5459]"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 529d4c13cb0a461a8bdeae0273262db0
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: fb1e796908b446369e395ffce66a47da
 msgid "Amélioration des performances de création d'un compte-utilisateur"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: d9f7bcc15a434cf2bcd6e7f287c36e78
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: 76b1bacc1801491dabdaf56b806e8e90
 msgid "[GOFAST-5460]"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 7f277f46301e4075add642c93cc2376e
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: 97fad0b306ec4a6eb6a4a052c6e6cb59
 msgid "Mise à jour librairie ITHit WebDAV AJAX Library v5.10.4919.0"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 1b5dde0a7bb74e21a858a5ec02389c2c
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: 107590b048c2404faea265cf0bd1f5a9
 msgid "[GOFAST-2342]"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 519dc4afa61b4f9586d2d75e33e91dff
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: d5485a2ecde84b4692a452e2bd9475eb
 msgid "Sauvegarde des historiques des échanges dans le Chat côté serveur JSXC (Chat Ejabberd)"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: ebbcdbf271be495c9e5568355cfa3521
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: aeeef45261d841e3862557433f952949
 msgid "[GOFAST-2568]"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 69d9f08fad894cb3b0c8f41464830742
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: 0bb7c5d2976844a589d9b4631680dc23
 msgid "Réduire le nombre de sessions Tomcat non nécessaires"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: de71910b03c9424ab3c6c1ce64313194
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: aa2e41c719764bfa8d9440b0fe38afed
 msgid "[GOFAST-2625]"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 0b39225091234822bb4b71cc994954c0
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: 137d67a4ff764fa9a3b3df759881177a
 msgid "Optimisations JVM : Garbage Collector G1, paramètres optimisation mémoire et compatibilitée JDK 1.8"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: ba00995e333e44ecb8757e810581e918
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: c03c4fa11cd6430dac05e76591a789f9
 msgid "[GOFAST-2710]"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 78925f95d5194ee7a6ebf603d0c8706d
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: f22580e4ac114bdaac0f5f29fadcb0c7
 msgid "OpenLDAP : amélioration des performances au démarrage et des logs transactionnels"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 120714e339ea42b78abf40ba04b663a5
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: 8f26638985294dbf88031e2684cae068
 msgid "[GOFAST-5368]"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 53d4d246df5e4c058c57888cfda9931e
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: a7fdd160714a45d594ce92a9eed2673f
 msgid "Amélioration de l'auto-restart des services"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 841a01f2a5314116b9094d924a4df184
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: a45674a6c0bc4e0c9a6cb96695d7f760
 msgid "[GOFAST-5442]"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: ff88b22792e247ec870f63f85097d0a1
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: adce2d36aa294d128d6f6b08b3209992
 msgid "Supervision : récupération des données IOSTAT/MYSQL dans Zabbix"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: b01b3a115c874637b327c0236c6d38c6
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: 5e19632ebc3648daa8554f80b92da720
 msgid "[GOFAST-5255]"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 5741985edbee40a3abc0ec2e674c4f16
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: d9675e1e48804b61ba16e6e4201a49a6
 msgid "Amélioration de l’expérience utilisateur lors d’un déplacement d'un Espace qui est désormais fait de manière asynchrone"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 256d21d8e4c14efbbcba60f70e15359d
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: 19de0971793843ed8f95326a16bed17b
 msgid "[GOFAST-5321]"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 51bb831927f848eebecfa027ce1e8d2a
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: 1fe0d8f7c82f4ac388db56b930b897f7
 msgid "Interdiction du choix de l'état 'archivé' pour les contenus dans la gestion en masse de la taxonomie (l’archivage est fait via la fonction 'Archiver' sous condition d’en avoir les droits)"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 7f257c20b5f54e61a686a3613fae1e70
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: 77561d6f8c654cb293f89a067271ef6c
 msgid "[GOFAST-5443]"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 4c1132d8bb0a49afbe34ba8eb576893b
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: 63948982445a4475bb7ae6127a4135d3
 msgid "Réduction de la place disque utilisé par le mécanisme de contrôle d'intégrité de l'annuaire LDAP"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 747f6a657f8943ea81ae32a82bfdc9fa
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: 97f6a56fe50747b0875b730464a8523e
 msgid "[GOFAST-2886]"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 52f9ad9d86da4ec79c96c2ca7ce7b17e
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: 8c1bed39172a49e8b33025a6d53d46ae
 msgid "Mise à jour EJABBERD version 19.05"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 49c0616e02184c93bd197960de2cdfd6
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: 4f638e8e47744228a136410529fefc99
 msgid "[GOFAST-4437]"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: d4bee713d1094fffb1fd3296829fa17a
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: 74e84c80c20d4bf3933b0828f224ce2b
 msgid "Mise à jour Alfresco 5.2g - General Release : 201707"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 81d3fb30a4eb4942b663f719e181fccf
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: 43558a7ce3f5478a9003d40e8d3753ca
 msgid "[GOFAST-4621]"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 8fb0e64e203047e9aa3ad885b419b893
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: 22590186a0234af48676568bf6a59482
 msgid "Mise à jour JSXC 4.0 (serveur de Chat Ejabberd)"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: d8ee3b31baf3498788b0bfc0bd2e2bea
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: 57c6bd8872b74b48909c5f062784cf8b
 msgid "[GOFAST-5392]"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: b0a16dc8bb1a40a7b23606fc85444cd9
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: 094dd7e37575494fb912132166a67a0e
 msgid "Retirer la possibilité de désactiver les notifications depuis la gestion en masse"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: f127f268d89b42018c944d02b332da41
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: f3585649d8b7453eab1e2a9cbff07043
 msgid "[GOFAST-5447]"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 01b4da9d8a7047a8ba90854700dd1279
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: ebc7701a0c8841738c021a4b8884491d
 msgid "Retirer la sauvegarde interne des erreurs JS"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 6fe41d4716734d0dbfd98e64e1ebc142
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: 9bbc1e9f0fc847408f8b788197cc98c1
 msgid "[GOFAST-4994]"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 765218979b0047e19c5e88bbe4ccdaa1
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: af74ebcdcff14c6ab44926d6a8c18bd3
 msgid "Supervision Zabbix httpd"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: a651f8e6e7584d00a0f8426685b010d0
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: 0b901b1fa92542ea87860a86d351f84e
 msgid "[GOFAST-5538]"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 71512f5496ec4194820d4b38a0af5210
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: b77061f1c228429a82bc92e07df1842d
 msgid "Mise en place d'un mécanisme de vérification de l'intégrité des droits des documents et des espaces, lié à la réplication"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: a3d527e6e3d04e3d8b30c1991ca6b823
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: 10f200e1a5794ed189ffce2ee90d39d0
 msgid "[GOFAST-5807]"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 046498c15bc4417495d98cbfc7dab543
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: c1ab6b07ddf04287bff969ece3633d65
 msgid "Amélioration de performance du mécanisme de vérification de la fiabilité de connexion avec OnlyOffice"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:115
-#: a77eed6dc95443a9afe19f10c653a08d
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:115
+#: 1f2450e66a304162aa6a75a8e6edb73c
 msgid "Sécurité"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 38d9ebffe7504b148398f08db8dd583c
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: d82186c78c6b4c1ba1e69ab4d794a309
 msgid "[GOFAST-5471]"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 2fed455e3b4d42fa90041b9abfc81697
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: e3e8feef4de5483483bc679879604902
 msgid "[Multiple CVE] Mise à jour kernel CentOS kernel-3.10.0-1062.7.1.el7"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 1af35a17a82d4bff9aac68f20e43feb9
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: ea3353e498914996a55ae07dc9502cc9
 msgid "[GOFAST-5528]"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 7212e9a6905542b686bbb7a1507369a2
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: 463016ebdfb34ffa882cea82530632ac
 msgid "Mise-à-jour du module Localization"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: dc70cc8f5f2a471b880687597447de8c
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: 862ae6ef4ed648a3ae7e4157d17d361a
 msgid "[GOFAST-5545]"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 6e84994b2e33461a925841c8a8c242d3
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: a83222514f5841228085762d207a8c27
 msgid "RHSA-2019:2964 : Mise à jour du paquet patch-2.7.1-12.el7"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 734ea304c02b4b4cb4c381c25200eb86
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: 431e76db64db4860ab8658f1a97c415c
 msgid "[GOFAST-5546]"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: c13bfb9dce9f4c78b5a23bb04cd8ec9a
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: c318db52f5f04b4fae77ec76768cece1
 msgid "RHSA-2019:3128 Mise à jour du paquet java-1.8.0-openjdk-1.8.0.232.b09-0.el7"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: c6980a1b6ca14784854477f928f454ea
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: cdf8a255ef98418897dc37db96bb813d
 msgid "[GOFAST-5653]"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 9bd823cc3700400aa8809966c47bc482
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: b09fa38563db47d4a10403506f255faf
 msgid "Vérification de la désactivation de TLSv1 TLSv1.1 et certains Cyphers sur GoFAST COMM"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 8f7e2588b2fc4f9893f8afe3a5d410ba
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: 5df230be48784d6bbcfd56731147d132
 msgid "[GOFAST-5723]"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: b0269aa0bc814b7384becc93300af9d5
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: 1d5367f345ee41e791e11448a0d64f24
 msgid "[CVE] Mise à jour nss-3.44.0-7.el7_7.x86_64"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:129
-#: f682fab5e78f45e09585d053042bd54d
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:129
+#: 131b7cbba28644a2a0955e0c2015114f
 msgid "Bugs"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: e7344d8f5d654b6792fc28cd5ad23a01
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: 8cdaea8089a4486a97d789e4b7972f4f
 msgid "[GOFAST-4697]"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: f375e325399145bab9431f14e41de3f8
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: d4a0a7c642954d1da34ffa8433899dc4
 msgid "Scalabilité : Annuaire des utilisateurs actifs / inactifs"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 2b7cfe2b701040abbf623b3c501c40bb
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: c7bd1fad3f0c437a91bfd382688e3db8
 msgid "[GOFAST-4920]"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 0e6d4e5ce1dc4f708d2eb6e39c2377a9
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: e60525b4aa1947b390c3ffb4018d5129
 msgid "Le bouton ‘Annoter’ ne doit pas être visible dans le preview PDF sur la version PC"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 3c62245c27254d22a96f335013f8f84a
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: 69beccc824784f468ffe3971727e2afa
 msgid "[GOFAST-5228]"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 8f7df25258dc4f6c9ad25f879920652a
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: 3660d31f94eb41478e839b24216135d6
 msgid "Message privé : correction ‘page non trouvée’ après un clic sur ‘répondre’ dans la notification e-mail"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: b9ff8fd76d89469a8db796be7280e8e0
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: feccef9bae3541b3ad85b235d89e464e
 msgid "[GOFAST-5388]"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: eb6a4005db874fc88b7a79738cee6546
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: 9ffc1e52ad324e40a7f52af0638904cc
 msgid "Correction de la mise à jour d’un PDF par glisser-déposer quand l’extension est en majuscule"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 0f279d6d8dca42619eb7eb967d45e554
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: 651a970d60f044bf9e465b5cfbee4a5e
 msgid "[GOFAST-5420]"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 5a73994904084fa9a5c44a595acd7745
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: ccb88727e94b48d4a9325f280dc35bbe
 msgid "Résolution des problèmes de performance liés à de grosses volumétries"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 3780a1df412e425c911d82f4c790af06
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: 2df386f4bd424b16a44862bf900a63dc
 msgid "[GOFAST-5421]"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 9d5f3f88e92347a5a0b1c70e8232772f
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: 3ea63b5a186e45f8bb1eab3fbd323058
 msgid "L’autocomplétion de recherche est trop lente si beaucoup documents et d’espaces"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: c455130250594c1f935f26e1afd4e1e7
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: 57d2294d571d412c86b0362965657d64
 msgid "[GOFAST-5468]"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: e114b4ff537c4cb9a69a04824b0450c5
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: 1a4a3d7773734df2b8f5983a782fc148
 msgid "La sélection d’une catégorie non-standard créé parfois un doublon de celle-ci"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 035aa35a38554a0089570241c9630bd5
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: 2efea818513945138f84a55f9da99db6
 msgid "[GOFAST-5557]"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 8f28585b7c044eda889a287bce1311be
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: c9812e86712143c39cc5ea465745a2ad
 msgid "Correction de l’affichage de la vue des favoris personnels"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 9bf38ff026674fdcb79ab6167972aef7
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: 5f66143b4cee42438ab56476a1ce6910
 msgid "[GOFAST-5609]"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: c4bf221984c64cc595cde02ba8e2c27b
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: e1c8ad567234465887fb95ca3d719867
 msgid "Clarifier le message sur la complexité du mot de passe (Contraintes obligatoires)"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: e39327bb07c0432bbac2ff2eb4f7f83c
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: 63ba237fc28e43dcb7e743db7cdfe3af
 msgid "[GOFAST-5620]"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 4d3378f661fc4a85a3e419c7d9048edd
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: 4af50cef924c442d88f96360988ddd2b
 msgid "Le mécanisme de mise à jour passe plusieurs fois les mises à jour GoFAST COMM"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: a78d9dcc64ca4e46a57c01422b194681
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: e8f20e54a50143f4acd029dad12c1138
 msgid "[GOFAST-5654]"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: b391ccf94c684f6a98b082b6bd9c934e
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: 30f726424e864b70b9e25981027e97e7
 msgid "Correction problème d’import de users depuis LDAP après la navigation sur une autre page"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: a5808d5a86a94c7097f0bf5611e0e1a6
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: d9f4ab2ab89d4272a675e22709264cbb
 msgid "[GOFAST-5656]"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: b9704e9e825642ae8b555ba4f3c5b05a
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: 545b8002322549fc80b4d97acb4af695
 msgid "Lors d’un lock Microsoft Office, le menu contextuel ne grise pas certaines actions après un rechargement de page"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 9adf533c758543f4bf0da306b99a43d5
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: 30fa1bc7caf14f70a936931499d19a27
 msgid "[GOFAST-5661]"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: d46cfd5973664408b1c29f1f73a2ff1f
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: c9a71cf1c9f64a43bd1bf4795be79d2f
 msgid "Corriger les doublons de dossiers épinglés sur le tableau de bord causant des bugs dans l’explorateur et des doublons dans les favoris"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 2a469b15c9e744008938718a76c71251
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: 9b7189e051da40fda04dd2532402879b
 msgid "[GOFAST-5663]"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 66eaeab02e2e4d38b60b82dbaaa1e15b
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: 8b80e44358574fb79e85dcf707fe0ab5
 msgid "Le comparateur de version se trompe de version au dessus de la version X.9"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 27a501a742f64f91870b49c42635eb8f
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: 45b4e93db6ed4aeda4a59db91463069c
 msgid "[GOFAST-5666]"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 1ed2292c855e4101abf214458bfdd6e1
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: 926170bc22ae419c8e99eff1311fb278
 msgid "La mémoire allouée à Solr n’est pas adaptée à tous les environnements"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 3047dd1994fe403b916b00eb20403845
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: 05041569ddb441ad9cb355535710466d
 msgid "[GOFAST-5693]"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: f16a954027c842c6bd1e565590994664
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: 351f2b7a50be4d9eb6ce4661d6547f8d
 msgid "Gérer les renommages des dossiers pour éviter les favoris morts"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: aae82e6658fc491b9c1983a91707a317
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: c438b9e0d2ed4e8bb54afcfbca5688e9
 msgid "[GOFAST-5696]"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 647746ff614b4e978ab4565c12ce16aa
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: 1fc6472fb6e24bc09bbc9ee38cb7ee4f
 msgid "Profil : champs 'Demande d’accès à' toujours vide"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 47a21a9a60da44e9a1c45baac1c7021a
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: 35f1fa2fea4c48139989b0d8234149bb
 msgid "[GOFAST-5712]"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 75fc210ce7b94cc58a7cc535821c9502
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: cc15b3ff61b44e2491a9a66be7f7e370
 msgid "COMMUNITY : Avoir une apostrophe dans le mot de passe MySQL fait planter la configuration"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 336b1d7c4bda43cda6ddc8ebb82d6ce2
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: aebba098eab84ddba23e72453c4dc3f5
 msgid "[GOFAST-5716]"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 714277be00b64c5abed8f475c7e10d43
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: b15a237c4ef1480a9d7c627d4787066a
 msgid "Lors du téléchargement d’un document partagé par mail, si le titre contient un espace, le nom du document est coupé"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: c5b0626788394c1288dbdd1dab61e894
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: cb0b5cd87b644540bb533daf2a6a2304
 msgid "[GOFAST-5732]"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: e5bf20e3c24e4fe9a6bf9021f1e0cca0
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: 7a6216f14ce64d5bb9559feb6ef0bf7b
 msgid "Mettre un message d’erreur compréhensible lorsqu’on accède à un lien de partage expiré"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 9aa069c5b93f4d3498c887e04b1aac5a
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: b5c0cf3ed3d94e27a3867ccaae725694
 msgid "[GOFAST-5733]"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 306a5265332c446086aa4952e06469d4
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: ae21262702be4020b997ae918984b4f7
 msgid "Correction problème pour retirer un emplacement quand un document est multifilé plusieurs fois dans le même espace"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 91cfb64e31c44f3daf7384e49220f2cb
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: 24e1543a036f461d944563acc0511603
 msgid "[GOFAST-5744]"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 597c9e449e8c48a59346dfe9410cec76
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: e4fac511e72f4020bd683098f0fe1730
 msgid "Mettre un lien vers le fil d’activité dans le menu de la version mobile"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: c3537bd4682d46bebe2f69fd93c43151
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: d9a27d9e541d4549baaf3dcb0732a047
 msgid "[GOFAST-5745]"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: a09a0c58e97b443f9b3e4b7e37bdf6cc
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: b09cd54a511949d888073dc9382a93f6
 msgid "DUA : L’adresse mail de notification n’est pas enregistrée"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 4717f0d32b3346558c11a286655f2c50
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: d76cfd7dba9b462c957bd2a8c76c0b55
 msgid "[GOFAST-5763]"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: a2962ae533ff444b851ef67075e8e056
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: ef7cda0f4d8b44b984c531770f2e7e8c
 msgid "En version mobile, la zone principale de contenu ne prend pas toute la largeur"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 0580de968c664d76ad4daecf98df2dcd
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: dc98832ebc7d4ad694297e5360cf429c
 msgid "[GOFAST-5767]"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 9291a655c4aa42d494471b04599e382c
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: 6398e34a7bc14772a94afc4b926d7e5b
 msgid "Un article multifilé apparaît plusieurs fois dans le bloc article d’un espace"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 3077787c9f384fad86e74c3074f4fde5
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: e22c33f3b4fd4c86b2da61f70df66b1a
 msgid "[GOFAST-5769]"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 32e39c14904c4b5fbe44da3098e17c93
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: e42bd255bdc04fbda2453f03c75f6cb0
 msgid "Rajouter le champ Broadcast dans la fenêtre de publication"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 3872977ffe414b80a70874de612dfb5e
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: c108515fb694477699ba838cd6553946
 msgid "[GOFAST-5772]"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 67dd49628fd84e19aebc0d938586664f
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: a0d23f1e6f2d4299b85d7365cd6061b1
 msgid "Dans la page de recherche, on affiche 2 fois l’étiquette correspondante à l’état sur les résultats de recherche"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 3355131d02e8463f90b82383cdab4d66
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: 7cc8eddc8f4041a5b4082ac2fb44c20b
 msgid "[GOFAST-5785]"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 8a0594dd29c242f19b096ab663a9db40
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: 653d37ae26cf4d0ca603d65ca9c860bc
 msgid "Le bloc des livres n’apparait plus sur les articles dans les livres"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: c1134cdba0b242fb994aa96dfd1e1e93
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: 0d72c6fc88534ebf94869a424ca8afc2
 msgid "[GOFAST-5805]"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 7e9a319db13d499a8c14268b56478b71
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: c66986c9c31848dbaf8b5936910807df
 msgid "Limiter l’appel à l’API de génération du ticket de session Ejabberd"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 7b6da635c3c747bdb00a8d4abddf06aa
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: d5102682bbcb403483e6172fb79d199e
 msgid "[GOFAST-5822]"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: f6a71b41284e4f2094eef6b2f1ab4176
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: 2b3c9053d2e044d2bd2e83adb0d1cbe4
 msgid "Permission : impossible de renommer un espace pour un admin d’un seul espace"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:167
-#: e604e4c415634f7388ddbaca973aaf5b
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:167
+#: 0ee59a51375b47e198d05ddb5683169d
 msgid "Bugs mineurs"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: d34676014c024c20ad01d36fae17f023
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: f0e8b255eb06421e9b4b6720a91d744f
 msgid "[GOFAST-5047]"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: e837c35710964cda95710192855298d4
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: 0cc2657c7f014753affd04da7d1d6de8
 msgid "Correction de l’affichage de la liste des tâches d’un processus (workflow) sur l’interface mobile"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: c0c29fe35f3a449fadaecfdae10d8522
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: 3cbe95974be04ef3b2fea893f37e9331
 msgid "[GOFAST-5144]"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 0e49abc6c1794feeba4fb50e24460ced
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: ddb34b69f7d44ab38beb9aed09f9c459
 msgid "Correction de l'affichage de la hauteur du champ de renommage d'un fichier dans GoFAST File Browser"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 4415296593e140208122bd3e7e4ca394
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: 1cfde498934847cc98631f1a95021b33
 msgid "[GOFAST-5157]"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: a76969e529ca4f1996cf029edcbb2c7b
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: 9f95b305254449c79767ed3d16625a6e
 msgid "Correction du bug d’affichage des contenus en double dans le GoFAST File Browser"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 18409deb3cae42279a63fedd4ef6c216
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: be15f74674e14128b571a74b083c7c83
 msgid "[GOFAST-5168]"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 8c3f2a53161a4b429ce628acb3b19208
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: c267ab5418484115b9e64778c0fbf5bd
 msgid "Empêcher que des emplacements non désirés se déplient dans l'arborescence de GoFAST File Browser"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: aeef7fcf4a0447b0865ec8ac22ae0332
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: 0b63b1bdc8dd49b9a0393bccf19b8e5b
 msgid "[GOFAST-5205]"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 5268b88105724e55adc2a50b1af79961
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: f5acd77f26c04727a2ecfc1596d2f30d
 msgid "Griser le bouton 'Nouveau' dans le menu du GoFAST File Browser quand on est dans un Espace archivé"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 1f62e79acc1240d08bd4efd260c33279
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: 16f23276099c44dfba3eae043c56b6be
 msgid "[GOFAST-5334]"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 55b6edca42224959afd56c01dee6528e
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: c2a7705b8851431397b831ae04ca54da
 msgid "Supervision : rermettre le démarrage automatique de Zabbix pour les nouvelles installations de GoFAST"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: e98f0a2625e64548950ada7438090ea3
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: 20b5bb6dfe334e35bca73cce016357cd
 msgid "[GOFAST-5367]"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: e68b58a1564042448d918c429bd6c2cb
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: fb941ec734e3460bbda5946af89760e8
 msgid "Permettre de faire du multi-lignes dans le mail de Bienvenue"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: e1637c7767104ff7bed68fc703eb5bcf
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: e963b7aea5f943cbb84047e56f5d4fe6
 msgid "[GOFAST-5381]"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 8b859710f0e14e9499fe93c93bc939d5
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: bd6d71540b3e436ba284af904be6b8ef
 msgid "Correction d'un bug qui empêche de modifier les participants d'une réunion"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 6dada21553e14ad9b351a0f7feee3615
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: be35c10eeab4418898defa3d5e2e41a5
 msgid "[GOFAST-5382]"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 86acfc48366b4e79b1fa4ea0d41bfb14
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: d6e38db6637f4d94b6bd3bd74d05cbe6
 msgid "Empêcher l’affichage du bouton renommer dans le menu contextuel d'un Espace (le ‘burger menu’) si l’action n’est pas permise à l’utilisateur"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 671ed9a2643543d0bbe9d4de013998b4
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: b5096a90991f48dc9b4ce6da40cb85d9
 msgid "[GOFAST-5405]"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 3ba7729b10dc47ab8467efaf6bcd4eda
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: 2acb104e6bfc4e6cbc2b2fbaf8e486fa
 msgid "Vider le contenu du champ message après soumission dans les mails internes"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: c4509426c7214cc4a4e429a98f04a795
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: 0a64e82b2dcb45a59519e826e0600000
 msgid "[GOFAST-5419]"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 9f7e075a32404832a327953a1388588b
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: e1d7c14ba4064cb28fcc74eb5ff5d429
 msgid "Correction message d'erreur lors de la création d'un document depuis un fichier vide sans sélectionner de type"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: cb1515bd47c64024b355aa560c7739cf
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: 82ed1b8415e84d11a1b0e53193469191
 msgid "[GOFAST-5438]"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 878daa49318d4ab8a6d1e2cb5f7bd210
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: 389719caa8514e008be7013b8c486b65
 msgid "Message d'erreur lors de l'export de l'audit"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 3c3a4a7a399a4eeeb7f8e31bbafb0c79
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: 966c48fa351c4563a8c3d0f5d2cfc157
 msgid "[GOFAST-5495]"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 6c2033be1144410f9b2110e783380e36
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: e3617fd93b664904b8b3296d3f90a855
 msgid "Message d'erreur quand partage d’un document par e-mail via lien URL de téléchargement"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 177ac3314fc14635820cd399c454f290
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: 2176c56f67c84a16be282907306dba4f
 msgid "[GOFAST-5643]"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: cce2345eb380401bac4bc0657168e43e
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: ca4378023bea4462b590cd518df707dc
 msgid "Correction perte du nom de l'organisation principale de l'utilisateur dans le snippet de la recherche"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 7e56a777bd244e84b124477dc1bf25b7
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: 29eb936a33cb48899139aa52ae7c0ad9
 msgid "[GOFAST-5743]"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 491643f82d054439bbbe2331dfc98e60
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: 9a00b18a3ddd42cb973d296a3362ba58
 msgid "Correction des actions contextuelles dans la version mobile sur l'explorateur de fichier"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: 8c1aec8251074eabadc0fef2ce0f5522
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: beeba423e3414c3ca70a6582673ec639
 msgid "[GOFAST-5758]"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:1
-#: b132f431bc7142aca8922e0e15d63bf7
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:1
+#: 819e8e5f0b3945bcaeecf5509c8578ef
 msgid "Pouvoir créer un document depuis un modèle depuis le résultat de recherche"
 msgstr ""
 
-#: /home/jleman/SSD/dev/gofast-docs/docs-gofast-technical/release-notes-3.7.1.rst:190
-#: 7074d2f8ec23486ab053779c6a82c242
+#: ../../docs-gofast-technical/release-notes-3.7.1.rst:190
+#: 25e0da4bfa1d4f78bc424a64101dd6c9
 msgid "**Bonne utilisation de GoFAST !**"
 msgstr ""

@@ -16,913 +16,734 @@ Si vous êtes en version 4.0 de GoFAST, merci de vous réfèrer à la documentat
 Introduction
 ============
 
-Ce guide vous apprend à utiliser GoFAST de la manière la plus efficace
-possible et de manière didactique avec de nombreuses copies d'écran de
-la plateforme, qui vous guident pas à pas. Il vous explique tous les
-trucs et astuces, les raccourcis et les différentes manières de faire
-une même action par rapport à un document/un espace.
+Ce guide vous apprend à utiliser GoFAST de la manière la plus efficace possible, avec de nombreuses copies d'écran de la plateforme, qui vous guident pas à pas. Il vous explique tous les "trucs et astuces", les raccourcis et les différentes manières de faire une même action sur les documents, contenus, Espaces Collaboratifs, utilisateurs, etc.
 
-.. NOTE:: Nous vous recommandons de lire impérativement l'annexe "Les
-   bonnes pratiques avec GoFAST" et visioner nos videos tutoriaux https://www.youtube.com/playlist?list=PLPEB28cL2VmHsEft6pxpp_LDWzPAxwxS0
+.. NOTE:: Nous vous recommandons de lire la rubrique "Les bonnes pratiques avec GoFAST" et visionner la vidéo de démonstration :  https://mautic.ceo-vision.com/asset/81:fr-videodecouvrir-gofast-digital-workplace-et-ged-collaborative-open-source 
 
-.. NOTE:: Un forum vient d'être lancé, n'hésitez pas à créer un compte https://community.ceo-vision.com
+.. NOTE:: Des forums de la communauté d’utilisateurs est disponible pour échanger avec les équipes de l’éditeur CEO-Vision, n'hésitez pas à vous créer un compte : https://community.ceo-vision.com
    
 
-Rappel des principes de la plateforme GoFAST
---------------------------------------------
+Concept GoFAST Digital Workplace GED
+-----------------------------------------------------
 
 GoFAST en 2 mots
 ~~~~~~~~~~~~~~~~
 
-GoFAST, fruit de plusieurs années de développement, est une puissante
-plateforme collaborative et de gestion documentaire. GoFAST est basée
-sur les technologies Opensource les plus reconnues du marché dont
-Alfresco, Drupal, Bonitasoft et bien d'autres. GoFAST est reconnue comme
-étant une des plateformes collaboratives les plus intuitives.
-Enfin, GoFAST est hébergé dans votre organisation garantissant le
-*meilleur niveau de confidentialité* et de sécurité.
+GoFAST, fruit de plusieurs années de développement, est une puissante plateforme collaborative et de gestion documentaire. GoFAST est basée sur les technologies Open Source les plus reconnues et éprouvées, dont Alfresco, Drupal, Bonitasoft, OnlyOffice, Element et bien d'autres. 
+Pour une plateforme aussi riche fonctionnellement, GoFAST est connue pour être très intuitive et permet de rapidement prendre en main les principales fonctionnalités.
+Enfin, GoFAST est hébergé dans votre organisation (OnPremise) ou en SaaS souverain dédié, garantissant le *meilleur niveau de confidentialité* et de sécurité.
 
-A quoi sert GoFAST?
-~~~~~~~~~~~~~~~~~~~
 
-C’est une plateforme d’échanges d’information qui permettra à tous les
-collègues, aussi bien siège et terrain (et même des externes)
-, de pouvoir gérer/modifier et commenter des documents, partager des
-informations, chatter en direct, échanger des expériences, s’envoyer des
-mails, … Bref, c’est un outil de collaboration moderne et interactif qui
-fonctionne partout où il y a une connexion internet, et même hors ligne
-avec synchronisation possible par la suite lorsque vous vous
-reconnectez.
-
-Améliorer la **collaboration** est la principale problématique à
-laquelle répond GoFAST : elle permet de centraliser les documents et les
-échanges à propos de ces documents en un seul endroit, accessible
-partout et à tout moment ; de limiter les doublons ; de diffuser des
-notifications automatiques qui optimisent non seulement la collaboration
-mais aussi la gestion documentaire.
-
-Objectifs et avantages de la GoFAST
+A qui est destinée la plateforme GoFAST ?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--  Favoriser le travail collaboratif (jusqu'à la co-édition simultannée) et
-   l’échange d’informations
--  Diminuer le nombre d’emails internes et supprimer les emails avec des
-   pièces jointes (problèmes de quota, mauvaises versions)
--  Arrêter la duplication des contenus
--  Gagner du temps dans la recherche d’informations (dont les fichiers)
--  Respecter les processus mis en place. Et ne plus jamais manquer une
-   deadline
--  Diminution des erreurs en ayant accès à toutes les versions d'un
-   document
--  Améliorer la sécurité (gestion des droits d'accès)
--  Faciliter le travail lors de déplacements
--  Réduire le volume de papier
+GoFAST Digital Workplace est destiné aux Grands Comptes ou PME, Collectivités, Ministères, Ecoles et Universités, Associations… 
+Tous les membres de votre organisation peuvent travailler ensemble de manière collaborative, ainsi qu’avec vos partenaires grâce à une zone "Extranet".
 
-Pour qui ?
-~~~~~~~~~~
 
-Pour tous les membres de votre organisation, et des vos partenaires
-réguliers grace à une zone "Extranet".
+A quoi sert la plateforme GoFAST ?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Au-delà des espaces collaboratifs, GoFAST offre un espace personnel,
-réservé à chaque utilisateur pour ses documents personnels, brouillons,
-mémos, etc.
+C’est une plateforme d’échanges d’information qui permettra à tous les collègues, aussi bien siège et terrain (et même des externes), de pouvoir gérer/modifier et commenter des documents, partager des informations, chatter en direct, traiter les processus, gérer des tâches collaboratives, et. Bref, c’est un outil de collaboration moderne et interactif qui fonctionne partout où il y a une connexion internet, et même hors ligne avec synchronisation lorsque vous vous reconnectez.
+Améliorer la collaboration est la principale problématique à laquelle répond GoFAST : elle permet de centraliser les documents et les échanges à propos de ces documents en un seul endroit, accessible partout et à tout moment ; de limiter les doublons ; de diffuser des notifications automatiques qui optimisent non seulement la collaboration mais aussi la gestion documentaire.
 
-Pré-requis nécessaires pour l’utilisation de GoFAST
----------------------------------------------------
+Objectifs et avantages de GoFAST
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+  - Favoriser le travail collaboratif (jusqu'à la coédition simultanée) et le partage d’informations
+  - Diminuer le nombre d’emails internes et supprimer les emails avec des pièces jointes (problèmes de quota, mauvaises versions)
+  - Arrêter la duplication des contenus 
+  - Gagner du temps dans la recherche d’informations (dont les fichiers)
+  - Respecter les processus mis en place et ne plus jamais manquer une échéance
+  - Diminution des erreurs en ayant accès à toutes les versions d'un document
+  - Améliorer la sécurité (gestion des droits d'accès)
+  - Faciliter le travail lors de déplacements
+  - Réduire le volume de papier
+
+Pour plus d’information sur les objectifs atteints avec GoFAST, merci de vous référer à la rubrique : "Quelques bonnes pratiques"
+
+Prérequis à l’utilisation de GoFAST
+----------------------------------------------
 
 .. CAUTION:: Nous ne supportons que les navigateurs supportés par les éditeurs et ceci pour des raisons de sécurité. L’homologation de versions non supportées peut dans certains cas être envisagé avec des décharges de responsabilité et coûts additionnels 
 
--  Navigateurs préférentiels Windows: **Firefox (dernière version ESR ou dernière version 'classique'), Edge-Chromium**, Chrome
+  - Navigateurs préférentiels Windows : **Firefox (dernière version ESR ou dernière version classique'), Edge-Chromium, Chrome.**
 
 .. NOTE::
     A titre d'illustration, au 23/12/2020 nous supportons Firefox 84 et Firefox ESR 78.6 
 .. NOTE::
     Le support IE11 est optionnel en 2020 et certaines nouvelles fonctionnalités sont incompatible (tâches kanban, chat,webconference), CEO-Vision recommande une migration au plus vite de IE11 et Edge vers Edge-Chromium ou Firefox ESR. CEO-Vision n'assurera plus aucun support pour IE11 en 2021 
     
-    -Edge-Chromium https://www.microsoftedgeinsider.com/fr-fr/enterprise
+     - Edge-Chromium https://www.microsoftedgeinsider.com/fr-fr/enterprise
     
-    -Firefox ESR en Français https://www.mozilla.org/fr/firefox/organizations/all/
+     - Firefox ESR en Français https://www.mozilla.org/fr/firefox/organizations/all/
 
--  Navigateur MacOS : Safari (dernière version supportée), Firefox (dernière version supportée), Chrome (dernière version supportée)
+      - Navigateur MacOS : Safari (dernière version supportée), Firefox (dernière version supportée), Chrome (dernière version supportée)
 
--  Navigateur Linux : Firefox (dernière version ESR)
+      - Navigateur Linux : Firefox (dernière version ESR)
    
--  Système d'exploitation Windows7 et plus, MacOS 10.11+ et Linux (Ubuntu 16+), ChromeOS
+      - Système d'exploitation Windows7 et plus, MacOS 10.11+ et Linux (Ubuntu 16+), ChromeOS
 
 .. NOTE::
     Le support de Windows 7 étant terminé par Microsoft depuis le 14 Janvier 2020, CEO-Vision ne supporte plus officiellement cette version
 
--  En mobilité Android ou iOS 13+ 
+  - En mobilité Android ou iOS 13+ 
 
--  Bureautique : Office 365 et Office Pro 2016+ pour Windows, MS-Office Pro 2016 pour Mac, LibreOffice 6+, OnlyOffice Desktop (à venir)
+  - Bureautique : Office 365 et Office Pro 2016+ pour Windows, MS-Office Pro 2016 pour Mac, LibreOffice 6+, OnlyOffice Desktop (à venir)
 .. NOTE::
-    Le support d'Office 2010 étant terminé par Microsoft depuis le 13 Octobre 2020, CEO-Vision ne supportera bientôt plus cette version. Nous encourageons une migration vers l'utilisation d'Onlyoffice inclut dans GoFAST
+    Le support d'Office 2010 étant terminé par Microsoft depuis le 13 Octobre 2020, CEO-Vision ne supportera bientôt plus cette version. Nous encourageons une migration vers l'utilisation d'OnlyOffice inclut dans GoFAST
 
--  Messagerie : Outlook 2013+ (Outlook 2010 sans garantie), Thunderbird 78+, Client léger Bluemind  
+  - Messagerie : Outlook 2013+ (Outlook 2010 sans garantie), Thunderbird 78+, Client léger Bluemind  
 
--  Une connexion relativement bonne est nécessaire : téléchargement de
-   512 kbits/s min. et 256kbps upload . Vous pouvez d'ailleurs tester
-   directement votre connexion via ce lien http://www.speedtest.net/
-   (http://beta.speedtest.net/)
+  - Une connexion relativement bonne est nécessaire : téléchargement de 512 kbits/s min. et 256kbps upload . Vous pouvez d'ailleurs tester directement votre connexion via ce lien : http://www.speedtest.net/
    
--  Une très bonne connexion pour la webconference en HD : jusqu'à 6MB/s peuvent être nécessaire. Certains filtrages réseaux peuvent empecher le fonctionnement de la webconference. Si https://gofast-docs.readthedocs.io/fr/latest/docs-gofast-users/doc-gofast-problemes-connus.html#webconference ne vous aide pas, contacter votre administrateur réseau en cas de problème.    
+  - Une très bonne connexion pour la webconference en HD : jusqu'à 6MB/s peuvent être nécessaire. Certains filtrages réseaux peuvent empecher le fonctionnement de la webconference. Si https://gofast-docs.readthedocs.io/fr/latest/docs-gofast-users/doc-gofast-problemes-connus.html#webconference ne vous aide pas, contacter votre administrateur réseau en cas de problème.    
 
--  Résolution écran 1366x768 minimum (format 16:9)
+  - Résolution écran 1366x768 minimum (format 16:9)
 
-- En mobilité : Tablette ou smartphone récent (ios ou android)
+ - En mobilité : Tablette ou smartphone récent (iOS ou Android)
 
-Configuration/Installation supplémentaires optionnelles
----------------------------------------------------------
-Des configurations et/ou installations supplémentaires sont nécessaires pour 
 
-- Voir GoFAST dans l'explorateur de fichiers Windows
-- Editer en ligne les contenus non Office ou LibreOffice (exemple signature de PDF)
-- Synchonisation hors-ligne
+Quelques bonnes pratiques
+--------------------------------------
 
-Dans la plupart des cas contacter votre support informatique.
+.. IMPORTANT:: 
+   Même si GoFAST nécessite de changer un peu ses habitudes, il est important que le plus grand nombre fasse l'effort de changer. Les gains en temps sont ensuite très importants, tout le monde est alors gagnant !
 
-Quoi de neuf en GoFAST v3
--------------------------
 
-GoFAST v3 est le résultat de 2 années et demi de R&D et est un important
-saut en avant en terme fonctionnel, ergonomique et technologique.
+Objectif 1: Diminuer le nombre de mails entre collègues et partenaires
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-On peut rapidemment noter :
+  - Je n'envoie plus de mails avec pièce jointe, mais je mets un commentaire sur le document sur GoFAST, toutes les personnes recevront une notification.
 
-**Un socle technologique totalement mis à jour :**
+     - dans de nombreux cas la pièce jointe n'est déjà plus à jour quand votre destinataire la reçoit de plus les pièces jointes encombres les messageries.
 
--  Alfresco 4 vers 5, Drupal 6 vers 7, CentOS 6 vers 7, ...
--  L'ajout d'un 2ème serveur pour gérer la partie collaborative
+  - Je n'envoie plus de mails avec pièce jointe à mes contacts n'ayant pas de compte GoFAST mais j'utilise la fonction "Partager par email"
 
-**Des nouvelles fonctionnalités :**
+  - Je n'élabore plus un document 'chacun son tour' mais utilise la coédition OnlyOffice
 
--  de vidéo-conférence (Jitsi)  concurrente de Skype mais d'un
-   fonctionnement plus simple (simple navigateur+url de conférence) et
-   prenant moins de bande passante ;
--  l'édition en ligne simultanée, c-à-d que plusieurs personnes peuvent
-   désormais travailler sur un même document en même temps (même
-   principe que GoogleDocs mais restant dans un format Office) ;
--  une version pour les smartphones et tablettes;
--  la possibilité de partager des documents avec des personnes n'ayant
-   pas de compte
+    - Ceci permet de gagner du temps et limite les erreurs, évite d'avoir à fusionner les sections rédigées par chacun
 
-**De multiples améliorations :**
+  - Je n’envoie plus de demandes de tâche ou validation par mail, mais j’utilise les ‘’workflows’’ (processus de tâches) pour relecture, validation, signature, etc. Tout le monde est notifié, chacun connaît sa tâche et les délais sont respectés.
+  - J’utilise les forums pour mes questions/réponses au lieu des mails. Tout le monde partage ses connaissances.
 
--  d’une interface plus dynamique (responsive), plus simple (menu
-   contextuel d'actions, ...) et avec plus de visibilité (élargissement
-   de la zone d'affichage des documents)
--  d'une meilleure gestion des "modèles/templates"
--  la possibilité de voir les changements de prévisualisation ou
-   métadonnées sans recharger la page
--  d'un nouvel outil de messagerie instantannée / chat pouvant même être
-   utilisé sur un smartphone
--  les téléversements en masse ne pénalisent plus ceux qui mettent un seul document
--  d’une version néerlandophone
+Objectif 2: Gagner du temps dans la recherche d’information et contenus
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+  - La totalité des contenus (même cellules d'un tableur...) est indexé (indexation "plein-texte") et le moteur de recherche est considéré comme un des plus puissants
+  - je gagne jusqu'à 30% de mon temps *(source IDC : 30% des cadres passent leur temps à rechercher des contenus dispersés et dupliquer)*
+
+Objectif 3 : Mettre fin aux doublons de fichiers et erreurs de versions
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+  - Je ne garde plus de fichiers sur mon PC ou boîte mail, les documents sont centralisés et accessibles selon les droits d’utilisateurs.
+  - Je ne copie plus jamais un document à plusieurs endroits, j'utilise la fonction Emplacement/Visibilité qui permet à un même document d'être vu dans plusieurs espaces.
+     - Quelque-soit l'espace, tout le monde aura la bonne version
+
+  - Je ne créé plus un fichier par version
+     - GoFAST versionne automatiquement et toutes les versions sont accessibles à tout moment.
+
+  - J’accède à mes documents de travail en mobilité et je n’ai pas besoin de copie locale ou de version papier (accès Online sur Tablettes et Online/Offline sur PC).
+  - Je partager les informations avec mes clients et fournisseurs dans l’Extranet GoFAST et ainsi, ils ont accès aux mêmes documents et non plus des doublons, qui sont rapidement obsolètes.
+  - Je ne stocke plus mes documents dans la messagerie car un simple glisser-déposer suffit pour les transférer sur GoFAST.
+
+
+
+
+
+Objectif 4: Maîtriser les processus de traitement, validation et signature des documents
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+  - Les processus informels ou les procédures papier souvent inefficaces, sont modélisés dans GoFAST. Grâce à des circuits de tâches prédéterminés, vous retrouvez la maîtrise des divers processus métier.
+
+  - Je n’ai plus à chercher les dates d’échéances dans mes mails, celles-ci sont clairement indiquées sur les processus et me sont rappelées par notification.
+
+Objectif 5 : Diminuer le volume papier
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+  - Je numérise les documents papiers (contrats, factures, courriers, etc.) et les envoie directement vers la plateforme GoFAST, où ils seront indexés plein texte à la volée.
+  - Je transforme les formulaires papier en documents électroniques et les diffuse avec efficacité (cibler un groupe, rappels automatiques et relance, suivi des actions, etc.) et j’exporte les données dans un tableur.
+  - Je signe électroniquement les PDF avec certificat sécurisé plutôt que de les imprimer pour les signer et les re-scanner. 
+
+
+Quoi de neuf dans la dernière version de GoFAST
+-----------------------------------------------------------------
+Merci de consulter les "Release-Notes" de la dernière version disponible.  
+
+
+
+
+
+
+
+
 
 Les Bases
 =========
 
 Connexion/Login
----------------
+-----------------------
+
+Vous pouvez vous identifier à GoFAST via l’adresse URL sur le modèle suivant :
+https://gofast.monorganisation.com
 
 .. figure:: media-guide/image001.png
    :alt: 
 
-Vous pouvez vous identifier à GoFAST 3.0 via l’adresse URL :
-https://gofast.monorganisation.com
-
-Il suffit d’entrer votre **identifiant** et votre **mot de passe**.
+Il suffit d’entrer votre **identifiant** et votre **mot de passe** ou vous connecter via le SSO (Authentification automatique si celle-ci a été configurée sur votre plateforme).
 
 .. NOTE::
-   Si la délégation d'authentification a été activée sur votre
-   site, il s'agit de votre mot de passe Windows
+   Si la délégation d'authentification a été activée sur votre site, il s'agit de votre mot de passe habituel (celui de l’annuaire de votre Organisation/Entreprise). Si le SSO a été configuré, vous n’avez pas besoin de saisir votre identifiant, ni votre mot de passe, mais juste cliquer sur le bouton de connexion automatique. 
 
-Accueil
--------
+Vous pouvez choisir entre deux interfaces : **GoFAST plus** ou **GoFAST Essentielle**  
+L’interface GoFAST Essentielle est la version "restreinte" de GoFAST Plus (interface complète). Elle propose les fonctionnalités principales et masque certaines fonctionnalités plus avancées (ex. Gestion d’un Espace) avec une page d’accueil et une navigation plus adaptée à un utilisateur occasionnel. Pour toute question, n’hésitez pas à allez sur les forums de la communauté des utilisateurs. 
 
-La première fois que vous vous loguez sur la GoFAST 3.0, il se peut que
-vous arriviez sur une page d’accueil de ce genre, avec un message
-public.
 
-.. figure:: media-guide/image002.png
+Se repérer sur GoFAST (menus, icônes…)
+--------------------------------------------------------
+
+
+GoFAST dispose de deux menus principaux :
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+**« Menu d’accès rapides » :** 
+Qui est affiché tout en haut de l’écran, sur toutes les pages de la plateforme (barre principale du haut). Ce menu permet notamment d’accéder à divers contenus et à la création de nouveaux contenus. 
+
+**« Menu principal latéral » :**
+Qui se trouve à gauche. Ce menu permet d’accéder aux principales pages de la plateforme, notamment au fil d’activité, tableau de bord, l’arborescence des Espaces Collaboratifs, annuaires, etc.
+
+.. NOTE::
+    En plus du menu principal de gauche, il est possible de déplier un volet latéral (aussi à gauche) pour un accès pratique à l’arborescence des documents, liste des pages wiki, ainsi que des forums.
+
+
+Menu d’accès rapides
+~~~~~~~~~~~~~~~~~~
+
+ - Le logo : permet de retourner sur votre page d’accueil, soit le fil d’activité, soit le tableau de bord selon la configuration de votre plateforme. 
+ - L’icône « + » : permet de créer les contenus, documents et utilisateurs. Pour plus d’informations, voir la partie : Création de documents, Contenus, Utilisateurs.
+ - L’icône Dossier : permet d’accéder à l’arborescence des espaces de la plateforme que vous avez d’accès.
+ - Les Roues Crantées : permettent l’accès à ses processus et tâches. Plus d’information, voir la rubrique : Workflows et Signature : Processus et Tâches (entreprise Only).  
+ - L’icône de Flux : permet de voir les nouvelles du site internet défini. 
+ - L’icône Etoile : permet de retrouver vos contenus et dossiers épinglés comme favoris personnels. 
+ - L’icône Horloge : permet d’accéder à vos 10 derniers contenus vus. 
+ - Le barre de recherche : permet d’effectuer une recherche parmi tous les contenus auxquels vous avez accès sur la plateforme (documents, espaces, utilisateurs, forums, etc.). Plus d’information, voir la rubrique : Moteur de Recherche.
+ - L’icône Panier : permet d’accéder à la liste des documents que vous avez mis dans le panier au préalable, pour effectuer des actions sur l’ensemble des documents du panier. Plus d’information pour cette partie, voir la partie : Panier Documentaire.
+ - L’icône Drapeau ou lettres désignant la langue (ex. FR/EN) : permet de changer la langue de l’interface de la plateforme.
+
+ - L’icône Point d’interrogation permet l’accès aux : 
+     - Forums : renvoie aux forums où tous les utilisateurs de GoFAST peuvent échanger sur des problématiques, évolutions, bonnes pratiques, questions fonctionnelles… entre eux et avec les équipes de CEO-Vision (éditeur de GoFAST). 
+     - Nouvelles fonctionnalités : affiche le carrousel des nouvelles fonctionnalités apportées selon la version que vous utilisez. 
+     - Documentation : renvoie à cette documentation en ligne. 
+     - A propos : Sur cette partie, vous pouvez consulter les différents composants installés dans la plateforme ainsi que leurs versions.
+     - Enfin si vous avez configurez un lien personnalisé (voir la partie Administrateur …). Vous pouvez le retrouver le lien ici (un sous onglet après A propos).
+ - La photo (son avatar utilisateur) permet l’accès aux : 
+     - Mon profil : vous donnez accès à votre profil, voir partie : Mon Profil
+     - Abonnements : vous permet d’accéder à votre page d’abonnement, voir la partie : Gestion des abonnements 
+     - Le choix entre GoFAST Essentiel ou GoFAST Plus. 
+     - Déconnexion pour vous déconnecter de la plateforme. A noter que la durée de session de GoFAST est dans tous les cas, limitée dans le temps et vous serez donc déconnecté au bout d’un délais (10h). 
+     
+
+.. figure:: media-guide/votre-profil-0.png
    :alt: 
 
-Voici un aperçu général de la **page d’accueil GoFAST 3.0** avec : le
-fil d’activité et tous les événements au centre ; vos dossiers à
-gauche ; et les filtres à droite ; ainsi que toutes les fonctionnalités
-de base au-dessus sur la barre noire du menu et dans le coin gauche en
-bas.
+
+Menu latéral 
+~~~~~~~~~~~~~~~~~~~
+
+Ce menu est donne accès aux principales pages de GoFAST. Selon votre profil utilisateur (Standard, Support-Utilisateurs ou Super-Administrateur) vous aurez des accès standards ou supplémentaires. 
+Vous pouvez plier et déplier ce menu avec l’icône burger en haut à gauche.
+
+**Accès pour tous les niveaux de "Profil Utilisateur" (dont "Standard") :**
+
+ - Tableau de bord. Pour plus d’information, voir la rubrique "Tableau de Bord". 
+ - Fil d’activité 
+ - Espaces collaboratifs : accès à l’arborescence des Espaces où vous êtes membres.
+ - Processus et tâches : accès à la liste des processus et filtrer selon divers critères pour retrouver un processus en cours ou terminé.   
+ - Calendrier : accès au calendrier de votre espace personnel (qui affiche la somme des échéances sur les contenus, tâches et réunions, selon vos droits d’accès).
+ - Discussion : accès à la messagerie instantanée (Tchat) en plein écran dans son navigateur. 
+ - Annuaires en 4 parties (Vous pouvez effectuer des actions en masse depuis ces annuaires) :
+     - Utilisateurs : tous les utilisateurs que vous avez le droit de voir, avec le nom, prénom, entité, dernière connexion, date de création, statut et les points que l’utilisateur a gagné. 
+     - Listes Utilisateurs : toutes les listes d’utilisateurs que vous avez le droit de voir, avec le nom, le créateur, le nombre d’administrateurs dans la liste, le nombre de membres et la date de création.
+     - Espaces : tous les espaces que vous avez le droit de voir, avec le nom, le type d’espace, le nombre des documents, le nombre des administrateurs, etc. 
+     - Contact : liste des contacts (non-utilisateurs) avec le nom, le prénom, l’entité, l’email et le mobile. 
+     
+**Accès limités aux Profil Support-Utilisateurs :**
+
+Au-delà des accès à des pages d’audit et statistiques, ainsi qu’une visibilité plus étendue sur les utilisateurs existants et l’arborescence des Espaces, ce profil permet d’affecter plus d’actions depuis les "menu burger". Attention, ce profil ne donne en aucun cas un accès par défaut à des Espaces et leurs contenus (pour voir les contenus d’un espace, l’utilisateur doit forcément en être membre). Pour plus d’informations, merci de vous référer à la rubrique : « Profils Utilisateurs »
+Les accès supplémentaires autorisés pour ce profil : 
+ - GoFAST Configuration (accès uniquement aux onglets : Visibilité, Catégories, DUA et Lien personnalisé). Pour plus d’informations sur ces fonctionnalités, voir la rubrique « Administration ». 
+ - Statistiques : accès aux statistiques des utilisateurs, des espaces et des documents. Pour plus d’info, voir la rubrique « Statistiques ».
+ - Audit : permet de vérifier les données auditées (actions sur les documents, accès à la plateforme, suppressions, etc.). Pour plus d’informations sur ces fonctionnalités, voir la rubrique « Administration ».
+ - Import d’utilisateurs (LDAP) : vous pouvez visualiser les utilisateurs qui sont dans votre annuaire interne (AD/LDAP, si celui-ci a été configuré sur votre plateforme). 
+
+**Accès limités aux Profil Super-Administrateur :**
+
+ - GoFAST Configuration (accès aux diverses possibilités de configurations techniques de la plateforme). Pour plus d’informations sur ces fonctionnalités, voir la rubrique « Administration ». 
+Ce profil ne donne en aucun cas un accès par défaut à des Espaces et leurs contenus (pour voir les contenus d’un espace, l’utilisateur doit forcément en être membre). Pour plus d’informations, merci de vous référer à la rubrique : « Profils Utilisateurs »
+
+.. NOTE::
+    Depuis les annuaires « Utilisateurs » et « Espace », différentes actions sont possibles, selon le profil (standard, support utilisateur, super administrateur). 
+
+
+Page d’Accueil
+--------------------
+La première fois que vous vous connectez à GoFAST à la suite d’une mise à jour, il se peut que vous arriviez sur le carrousel qui affiche les nouvelles fonctionnalités. 
+Selon la configuration de la page d’accueil de votre plateforme, vous pouvez arriver soit sur le Fil d’activité, soit sur le Tableau de bord.
 
 .. figure:: media-guide/Image-Accueil-1.png
-   :alt: 
+
+
+Fil d’Activité 
+~~~~~~~~~~
+Le fil d’activité de GoFAST vous donne une **vue d’ensemble** sur ce qui s’est passé sur les contenus de vos espaces collaboratifs (Groupes/Organisations/Publics/Extranets).
+
+**La page Fil d’activité est organisée en quatre parties :**
+
+ - La photo de profil : qui renvoie la personne qui a effectué l’action.
+ - Titre du document/contenu concerné et le type d’action faite. A droite du contenu, un menu "Burger" permet de réaliser des actions sur le contenu, directement depuis le fil d’activité.
+ - Espace(s) où se trouve le contenu concerné (en un clic vous pouvez vous rendre sur l’Espace).
+ - Bloc de filtres (permet de filtrer le fil d’activité sur divers critères).
+
 
 .. NOTE::
-    Vous pouvez revenir à la page du fil d’activité à tout moment
-    en cliquant sur le symbole GoFAST, dans le coin gauche supérieur.
+    Vous pouvez revenir à la page du fil d’activité à tout moment depuis le menu principal de gauche (ou le logo en haut à gauche, si c’est la page d’accueil par défaut).
 
 .. figure:: media-guide/Home-GoFAST.png 
    :alt: 
 
-Vous pouvez directement choisir la langue dans laquelle vous voulez
-travailler, dans le coin en haut à droite (FR,EN, NL)
+**Actions possible depuis le Fil d’activité :**
 
-.. figure:: media-guide/choix-langue.png
-   :alt: 
-
-Pour accéder à **votre profil**, cliquez sur votre nom. De là, vous
-pourrez également accéder à vos abonnements, votre panier ou vous déconnecter.
-
-.. figure:: media-guide/votre-profil-0.png
-   :alt: 
-   
-.. figure:: media-guide/votre-profil-1.png
-   :alt: 
-
-Dans l’ensemble, le principe et l’utilisation du fil d’activité reste
-pareil que dans la GoFAST 2, c’est-à-dire qu’il vous donne une **vue
-d’ensemble** sur tout ce qui s’est passé dans vos espaces collaboratifs
-(groupes/organisation/Public/Extranet) ; vous pouvez voir les
-personnes qui ont mis un nouveau document ou modifier un document ou
-commenter un document dans vos espaces collaboratifs, quel type de
-document, où il se trouve, son statut…
-
-Il suffit de cliquer sur le nom du fichier pour l’ouvrir/le visualiser
-et sur les trois bandes horizontales pour y voir les raccourcis de certaines
-fonctionnalités (éditer, télécharger, commenter, favoris, abonnement,
-permalien…)
+ - Le "Menu Burger" (actions contextuelles) 
 
 .. figure:: media-guide/raccourci-fonctionnalités.png
    :alt: 
 
-(voir aussi plus loin : Actions contextuelles)
+Pour en savoir plus sur les actions possibles sur un document/contenus, merci de vous référer à la rubrique : "Gestion Collaborative des Documents / Contenus"
 
-.. HINT::
-   Appuyez sur Ctrl et sur le titre du document pour
-   l’ouvrir dans un nouvel onglet. Cela devrait fonctionner partout.
-
-Vous pouvez **filtrer** la liste des documents de votre fil d’activité
-selon des groupes spécifiques et le statut des documents (draft,
-archivé, validé, …).
+Vous pouvez **filtrer** la liste des documents de votre fil d’activité selon des Espaces, le statut des documents (brouillon, en cours, validé…).
 
 .. figure:: media-guide/filtres.png
    :alt: 
 
-Vous pouvez également choisir de masquer ou afficher les **« Nouvelles »** =
-ce que vous ou les autres écrivent dans **« Partager une
-nouvelle »** et qui se retrouvent également dans le fil d’activité. Pour
-ce, appuyez sur « Afficher les nouvelles » dans les « Filtrer le fil
-d’activité »
+Vous pouvez choisir de masquer ou afficher les **« Nouvelles »** qui sont postées à tous les utilisateurs de la plateforme par un utilisateur ayant le Profil Support-Utilisateur ou Super-Administrateur. 
+ 
+Si vous avez un de ces profil, vous pouvez partager une information :
 
-.. figure:: media-guide/afficher-les-nouvelles.png
-   :alt: 
+* cliquez sur « Partager une nouvelle » (en haut au centre du fil d’activité) une fenêtre s’ouvre, 
+* écrivez votre message 
+* cliquez sur « Envoyer ». 
+Le message sera visible sur le fil d’activité pour tous les utilisateurs. 
 
-Pour mettre ce genre de message général sur la GoFAST (votre humeur, une
-question, une citation du jour,…des infos qui se retrouveront dans le
-fil d’activités), appuyez sur « Partager une nouvelle » tout en haut du
-fil d’activité. Une fenêtre s’ouvre où vous pouvez écrire votre message,
-terminez par « Envoyer ». Et votre message apparaîtra dans les
-événements.
 
-.. figure:: media-guide/image014.png
-   :alt: 
+Tableau de Bord
+~~~~~~~~~~~~~~
 
-.. figure:: media-guide/image015.png
-   :alt: 
+Le tableau de bord permet un accès rapide aux éléments les plus sollicités. Par défaut, tous les utilisateurs ont le même tableau de bord. 
 
-.. figure:: media-guide/image016.png
-   :alt: 
+**Accédez au Tableau de Bord :**
 
-L’écran d’accueil vous montre aussi directement **l’arborescence de vos
-espaces** collaboratifs (votre espace privé, l’Extranet, vos groupes,
-votre organisation, l’espace Public) si vous choisissez d’ afficher
-cette partie (où on voit l’arborescence GoFAST et vos dossiers/groupes)
-en cliquant sur la barre grise verticale.
+ - À partir du menu principal de gauche, cliquer sur « Tableau de Bord ».
+ - À partir du logo en haut à gauche, à partir du moment où le Tableau de Bord est défini comme page d’accueil par défaut. 
 
-Vous retrouverez cette même barre grise verticale du côté droit pour
-afficher ou masquer le chat.
+**Le tableau de bord par défaut affiche six blocs :**
+   
+.. figure:: media-guide/Dashboard.png
 
-.. figure:: media-guide/image013.png
-   :alt: 
+ - **Espace personnel et Profil** : accès à votre espace personnel, profil, calendrier et à la gestion de vos abonnements. 
 
-Il suffit de cliquer sur le dossier bleu pour en voir les **niveaux
-inférieurs et vos fichiers**, et d’ensuite cliquer sur le fichier
-souhaité pour en prévisualiser le contenu.
+.. NOTE::
+   Un seul espace principal pourra être mis en avant dans ce bloc du Tableau de bord. Pour modifier l’espace principal d’un utilisateur, il faut aller sur la page de profil de cet utilisateur, puis dans le menu de configuration. 
 
-.. figure:: media-guide/image012.png
-   :alt: 
+ - **Mon calendrier** : accès à vos renions à venir et tous les documents auxquels vous avez accès et ayant une échéance. Sur le filtre du bloc (haut-droite), vous pouvez choisir d’afficher les réunions ou les documents. Vous pouvez également créer une réunion avec le bouton « + ». 
+ - **Mes tâches** : accès aux processus et tâches qui vous ont été assignés. Vous avez la possibilité de démarrer un nouveau processus via le bouton « + » en haut à droite. Via l’icône « tableau », vous pouvez aller sur le Tableau des Processus. 
+ - **Mes espaces favoris** : affiche tous les espaces que vous avez épinglés comme favoris. Vous pouvez ajouter un espace en favori via l’icône « + ». 
+ 
+.. figure:: media-guide/Dashboard-add-favorite-space.png
+   :alt:
 
-Mon profil
-----------
+Sélectionnez à partir de l’arborescence proposé, l’espace que vous souhaitez mettre en favori, puis cliquez sur le bouton « Epingler sur le tableau de bord ».
 
-.. figure:: media-guide/image017.png
-   :alt: 
+Vous pouvez effectuer des actions sur un espace via le "Menu Burger". 
 
-Vous retrouvez les données vous concernant dans « **Mon profil** »,
-sous votre nom, à droite de l’écran d’accueil.
 
-Les données de votre profil restent les mêmes que dans GoFAST 2, seule
-la visualisation change un peu.
+Pour supprimer un espace des favoris, passez par le menu "Burger", puis « Supprimer des favoris ».
 
-Vous retrouvez « votre carte de visite virtuelle » avec votre nom,
-prénom, fonction, entreprise, rôle dans GoFAST, téléphone, email, …
-ainsi que les données liées à votre compte GoFAST : vos espaces
-collaboratifs, groupes, organisation(s), hobbies, …
+.. figure:: media-guide/Dashboard-delete-favorite-space.jpg.png
+   :alt:
+
+Un message de confirmation de suppression s’affiche en haut à droite de la fenêtre.
+
+ - **Mes répertoires favoris** :  affiche tous les dossiers que vous avez épinglés comme favoris. Via l’icône « flèche », vous pouvez accéder à l’arborescence à l’emplacement du dossier. Vous pouvez ajouter un dossier en favori via l’icône « + ». 
+ - **Mes contenus favoris** : affiche tous les documents et autres types de contenus (hors les espaces) que vous avez épinglés comme favoris. Via l’icône « + », vous pouvez accéder ajouter d’autres contenus favoris. Vous pouvez effectuer des actions sur un documents/contenu via le "Menu Burger".
+Pour ajouter un ou plusieurs contenus, cliquer sur l’icône « + »  à droite du titre du bloc :
+
+.. figure:: media-guide/Dashboard-add-favorite-content.jpg.png
+   :alt:
+
+Renseigner le nom du contenu souhaité dans la barre de saisie (au moins trois lettre) puis faites cliquez sur un des contenus suggérés et enfin validez via le bouton « Épingler sur le tableau de bord ».
+
+Les documents épinglés peuvent être prévisualisés, édités, partagés, archivés et commentés directement à partir du tableau de bord.
+ 
+
+N’hésitez pas à poser vos questions sur le tableau de bord et les autres blocs disponibles via les Forums. 
+
+
+Page "Profil Utilisateur"
+--------------------------------
+
+Depuis votre photo de profil (via le menu d’accès rapide, tout en haut à droite), vous pouvez accéder à votre page de profil, qui est comme votre « carte de visite virtuelle ». 
+
+
+Cette page affiche les informations vous concernant :  nom, prénom, fonction, entreprise, téléphone, email, un mot à votre propos, vos compétences… ainsi que les informations liées à vos accès sur la plateforme : votre profil (ex. Support-utilisateur, Super-Administrateur ou Standard ou Externe) vos espaces collaboratifs, groupes, organisations, listes d’utilisateurs…
 
 .. figure:: media-guide/image018.png
    :alt: 
 
-Paramètres du profil
-~~~~~~~~~~~~~~~~~~~~
 
-La page de vos **paramètres de compte** a un peu changé d’apparence mais
-on y retrouve les mêmes informations : identifiant, nom, prénom, email,
-mot de passe, votre **langue de travail.**
+Paramètres du profil
+~~~~~~~~~~~~~~~~~
+
+Vous pouvez voir et/ou modifier les divers éléments de votre profil directement en cliquant dessus dans le bloc de gauche ou en passant par le menu de **paramètres du compte** : 
+ - identifiant (non modifiable)
+ - nom
+ - prénom
+ - email (modifiable uniquement pas vous)
+ - option d’authentification (si la connexion est déléguée à l’annuaire interne de votre Organisation/Entreprise ou pas) 
+ - mot de passe (masqué et modifiable uniquement si l’authentification n’est pas déléguée à l’annuaire interne de votre Organisation/Entreprise)
+ - vos Profils sur la plateforme (Support-utilisateur, Super-Administrateur ou Standard ou Externe, Broadcaster, restriction de partage des notifications)
+ - Votre rôle par défaut lorsque l’on vous ajoute à un espace (Contributeur ou Lecture Seule) 
+ - Informations sur votre Entité (votre entreprise ou organisation), votre poste et Direction de rattachement, votre manageur, vos numéros de téléphone, votre date d’anniversaire, etc. 
+ - Langue affichée pour l’interface de la plateforme et vos notifications email. 
 
 .. figure:: media-guide/image019.png
    :alt: 
 
-Ajouter une photo à son profil 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+La plupart de ces informations ne sont pas obligatoires, mais elles peuvent être importantes pour faciliter le travail collaboratif avec vos collègues. 
 
-Allez dans votre profil, cliquez sur le logo de la **photo**, vous
-verrez d’ailleurs votre nom apparaître.
+
+Ajouter une photo à son profil 
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Allez sur la page de votre profil, cliquez sur l’icône « crayon » qui apparait au survol de l’image (dans l’angle haut à gauche).
 
 .. figure:: media-guide/image020.png
    :alt: 
 
-Vous arriverez sur cette page, appuyez sur « Charger un fichier » pour
-aller chercher votre photo sur votre ordinateur, double-cliquez dessus
-ou cliquez sur OUVRIR. Vous pourrez l’adapter. Puis « Enregistrez ».
+Vous arriverez sur la page d’ajout/modification de la photo de profil. Appuyez sur « Charger un fichier » pour aller chercher votre photo depuis votre ordinateur, double-cliquez dessus ou cliquez sur OUVRIR. Une fois chargée, vous pourrez adapter le cadre, puis « Enregistrez ».
 
 .. figure:: media-guide/image021.png
    :alt: 
 
-Votre photo apparaîtra dès lors dans votre profil et partout où vous
-agirez sur GoFAST. C’est un moyen rapide et amusant de connaître ses
-collègues éloignés et de savoir à qui on s’adresse ( à condition de
-mettre de vraies photos de profil) .
+Votre photo apparaîtra dès lors sur votre profil et partout où vous êtes cité sur la plateforme (ex. fil d’activité, tâche…). C’est un moyen rapide et convivial de connaître ses collègues éloignés et de savoir plus facilement à qui on s’adresse (à condition de mettre de vraies photos de profil).
 
-.. figure:: media-guide/image023.png
+
+Les Espaces Collaboratifs
+---------------------------------
+
+Les Espaces Collaboratifs sont des zones de travail et de partage de documents, tâches et autres types de contenus, discussions, accessibles uniquement aux utilisateurs membres.
+
+
+Types d'Espaces Collaboratifs disponibles
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  - Organisations (représentent globalement l’Organigramme : Directions, Départements, Services...)
+  - Groupes (Dédiés au travail transversal : projet, base de connaissances, produit, site géographique, thématique...)
+  - Extranets (dédiés au travail avec des partenaires externes)
+  - Publics (accessible à tous les utilisateurs internes en lecture seule, non aux externes)
+
+
+.. figure:: media-guide/Carrousel-GoFAST-4-0_N0_types-espaces_fr.png
    :alt: 
 
-.. figure:: media-guide/image024.png
-   :alt: 
 
-Les Espaces collaboratifs
--------------------------
-Les espaces collaboratifs sont des zones de travail collaboratif et de partage de documents accessibles uniquement aux utilisateurs membres.
 
-Il existe plusieurs types d'Espaces Collaboratifs : 
+Chaque Espace Collaboratif est organisé de la même manière (onglet Documents, Tâches, membres…). Toutefois, il y a quelques fonctionnalités qui différent selon le type d’Espace (merci de vous référer aux rubriques décrivant chaque type d’Espace). 
 
--  Organisation (Organigramme : Directions, Départements, Services...)
--  Groupe (espaces transverses : projet, produit, site géographique, thématique, ...)
--  Extranet (espaces de travail avec des collaborateurs extranets)
--  Public (accessible à tous les utilisateurs internes - non "extranets")
+**La gestion des accès aux espaces suit une suite logique d'entonnoir :**
 
-Un espace Privé est également disponible pour chaque utilisateur. 
-
-Les Rôles disponibles pour les Membres des Espaces Collaboratifs sont : 
-
-- Administrateur 
-- Contributeur
-- Lecture Seule 
-
-Chaque espace peut contenir un ou plusieurs sous espaces. Dans ce cas il est possible d'avoir un sous-ensemble de membres dans les sous-espaces afin de restreindre l'accès. Plus vous descendez dans l'arborescence, moins il y a potentiellement de membres. 
-La gestion des accès aux espaces suit une suite logique d'entonnoir. 
+Chaque espace peut contenir un ou plusieurs sous espaces. Dans ce cas il est possible d'avoir un sous-ensemble de membres dans ces sous-espaces afin de restreindre l'accès. Plus vous descendez dans l'arborescence, moins il y a potentiellement de membres. 
 
 .. NOTE::
    Les espaces peuvent contenir des fichiers, autres contenus (ex : forums, pages Wiki, etc.), des sous-espaces (avec droits associés) ou encore des dossiers classiques. Les dossiers classiques héritent des mêmes droits d'accès que l'espace parent où ils se trouvent.
    Les espaces sont représentés dans l'explorateur de fichiers intégré par des icônes distinctes et avec un "_" devant le nom de l'espace (ex: _Organisation) dans l'explorateur de fichiers Windows ou Mac. 
+   Avant de pouvoir déposer les fichiers sur la plateforme GoFAST, assurez-vous de créer les "bons" espaces et sous-espaces collaboratifs de type Organisation, Groupe ou Extranet ! 
 
-Avant de pouvoir déposer les fichiers et les documents sur la plateforme GoFAST, assurez-vous de créer les "bons" espaces et sous-espaces collaboratifs de type Organisation, Groupe ou Extranet ! 
+ - Espace Personnel : disponible pour chaque utilisateur (personne, si ce n’est l’utilisateur lui-même n’a accès à cet espace personnel). 
 
 
-Notion de partage de contenus entre espaces
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-.. IMPORTANT::
-   Pour qu'un document se retrouve dans plusieurs espaces (et
-   bien sûr sans doublons), il est **partagé** en changeant sa visibilité
-   (sur la page sur document)
-
-.. figure:: media-guide/image369.png
-   :alt: 
-
-Retrouver ses espaces
-~~~~~~~~~~~~~~~~~~~~~
-
-Dans l’onglet « **Espaces** », vous retrouvez tous vos **espaces
-collaboratifs**, c’est-à-dire vos groupes, votre organisation, votre
-espace privé, l’espace Public, l’Extranet, …
-
-.. figure:: media-guide/image025.png
-   :alt: 
-
-Espace Privé
-~~~~~~~~~~~~
-
-Plutôt que de stocker les documents sur le desktop de votre ordinateur,
-il est recommandé de les mettre dans cet **espace personnel** pour ainsi
-bénéficier des fonctionnalités GoFAST, notamment le moteur de recherche,
-le versionning (qui évite de perdre des informations si une version de
-fichier est corrompue) ou encore l’accès à distance à ses fichiers (via
-un autre PC, tablettes et smartphone).
-
-Pour accéder à votre espace personnel, il suffit d’aller sur l’onglet «
-Espaces », « Mon Espace Privé » . Vous arrivez sur votre page
-personnelle avec votre page d’accueil, vos activités, vos documents,
-votre calendrier, … (= les 4 onglets que vous retrouverez dans chaque
-espace collaboratif/groupe).
-
-.. figure:: media-guide/image026.png
-   :alt: 
-
-.. figure:: media-guide/image027.png
-   :alt: 
-
-De même, dans chaque espace collaboratif, vous retrouverez les 2 petites
-icônes en haut à droite ; dont la 1ère « Parcourir à partir
-d’ici » vous permet d’ouvrir une **nouvelle page** avec l’arborescence
-de vos dossiers et fichiers, et avoir ainsi une vue d’ensemble de vos
-fichiers. (pareil que l’onglet « Documents »)
-
-.. figure:: media-guide/image028.png
-   :alt: 
-
-.. figure:: media-guide/Image-Espace-2.png
-   :alt: 
-
-La 2eme icône « Afficher le contenu en pleine page » permet **d’agrandir
-la vue** de la page, en supprimant ce qui entoure les onglets
+Une icône « Afficher le contenu en pleine page » permet **d’agrandir la vue** de la page en masquant les menus principaux de la plateforme.
 
 .. figure:: media-guide/image030.png
    :alt: 
 
-.. figure:: media-guide/image031.png
+Il suffit de réappuyer sur la même icône à 2 flèches pour revenir à la vue précédente.
+
+
+Rôles des membres des Espaces Collaboratifs
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ - Administrateur (il peut modifier l’espace et ses membres) 
+ - Contributeur (il peut effectuer des actions sur les contenus/dossier de l’espace)
+ - Lecture Seule (il peut consulter les contenus de l’espace et partager des commentaires)
+
+Pour connaitre les "Profils" existant sur la plateforme, merci de vous référer à la rubrique dédiée. Ces profil ne donnent pas accès aux Espaces Collaboratifs, mais permettent d’effectuer des actions de configurations. 
+
+Notion de partage de contenus entre Espaces Collaboratifs
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+GoFAST est fait pour permettre le partage de documents/contenus sans créer de doublon et ainsi éviter toute erreur de version. 
+
+.. IMPORTANT::
+   Pour qu'un document se retrouve dans plusieurs espaces sans doublon, il est *partagé** en changeant sa visibilité depuis le menu "Burger", sur la page sur document ou depuis l’explorateur de fichier (clic droit où menu "Gérer", puis "Emplacements/Visibilité").
+
+.. figure:: media-guide/image369.png
    :alt: 
 
-Il suffit de réappuyer sur la même icône à 2 flèches pour revenir à la
-vue précédente, avec plus d’infos comme les derniers contenus vus.
 
-Espace Public
+Retrouver ses Espaces Collaboratifs
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Les Espaces Collaboratifs sont accessibles depuis les menus principaux, la recherche, le fil d’activité et partout où est affiché un emplacement vers un contenu. 
+
+.. figure:: media-guide/image025.png
+   :alt: 
+
+Pour plus d’information, merci de vous référer à la rubrique : " Se repérer sur GoFAST (menus, icônes…)"
+
+Espaces Organisations (= Départements/Services)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Les espaces collaboratifs appelés « **Organisations** » correspondent aux **départements** et **services** selon l'organigramme de votre Organisation/Entreprise ; En dehors des annuaires, vous ne voyez que les espace où vous êtes membres (RH, DAF, DSI…).
+
+.. figure:: media-guide/image037.png
+   :alt: 
+
+Les ‘‘Organisations’’ représentent donc une structure hiérarchisée et chaque département (RH, IT, Financier...) peut avoir des sous-espaces pour les services.
+
+.. NOTE::
+   Il arrive souvent que vous n’aurez accès qu’à une seule **organisation** de premier niveau, puis à ses **sous-organisations**. 
+   Un utilisateur peut éventuellement faire partie de plusieurs organisations de premier niveau si il a des fonctions partagées entre 2 départements.
+
+.. NOTE::
+   Si vous devez **partager** des documents entre différents départements, vous devez le faire à travers un **Groupe** dédié au projet, thématique, etc. Par exemple un contrat est dans l'Organisation "Juridique" et aussi dans le Groupe "ProjetA" car c'est un contrat qui concerne ce "ProjetA" dans lequel des membres de plusieurs départements sont rassemblés.
+  
+Espaces Groupes (= Travail transversal)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Les « **Groupes** » sont des zones de partage **transversales** / **interservices** (ex : des groupes de projet). Ce sont des espaces dédiés à des thématiques spécifiques qui ont un grand rôle collaboratif : toutes les personnes concernées par le projet/sujet y ont accès, y compris dans le cas où elles ne sont pas rattachées à la même « Organisation » (=Direction, Service…). 
+Vous pouvez donc faire partie d’un grand nombre de d’Espace de type Groupes.
+
+Hors les annuaires, vous ne verrez que les groupes dont vous êtes membres.
+
+.. figure:: media-guide/image036.png
+   :alt: 
+
+
+Espaces Publics
 ~~~~~~~~~~~~~
 
-A l’inverse de l’espace personnel/privé, **l’Espace Public** donne accès
-aux documents « publics » visibles par tous les utilisateurs internes GoFAST
-(sauf les membres Extranet).
+A l’inverse des autres Espaces, **l’Espace Public** n’a pas de notion de gestion des membres car il donne accès en Lecture Seule à tous les utilisateurs internes (non les "Externes") à tous les documents qui y sont partagés.
 
-Mais contrairement à GoFAST 2, cet espace Public interne est maintenant
-géré par **tous les administrateurs de plateforme** de la GoFAST (y créer des
-sous-espaces, déposer les documents etc..) : les autres utilisateurs
-dits « standards/contributeurs» ne peuvent *pas ajouter de contenus ni
-les modifier dans l’espace Public*, ils devront le demander à leur
-administrateur de plateforme.
+**Que trouve-t-on dans cet espace Public ?**
 
-Par contre, les administrateurs peuvent également configurer l'espace
-public de telle sorte que tous les utilisateurs et membres de la plateforme (hors Extranet) puissent
-contribuer aussi à cet espace public: soit la lecture, soit l'écriture.
+Dédiés aux contenus totalement transversaux et publics à l'Organisation. On peut également y mettre des forums de support et autres bases de connaissances. A noter que les documents de travail restent dans les autres Espaces Collaboratifs, où ils sont créés et gérés, puis seuls les publications PDF créées depuis les documents de travail sont partagés dans les Espaces Publics (question de bonnes pratiques).
 
-Pour y accéder, allez dans « **Espaces** », « **Public** ». Pas
-besoin d’en être membre, vous y avez accès automatiquement.
+**Gestion des Espaces Publics :**
+Ces Espaces Publics internes sont gérés par tous les utilisateurs membres de la "Liste Public" (permet de créer des sous-espaces, déposer les documents, etc..). 
+Les autres utilisateurs sont en Lecture Seule.
 
-Pour résumé, il y a donc deux possibilités d'alimenter cet espace **Public**.
+Vous pouvez **vous abonner** à cet espace en cliquant sur « s’abonner ». Vous recevrez ainsi des notifications liées au contenus de cet espace (dans votre rapport de synthèse d’activité). Vous pourrez d’ailleurs faire cela pour tous les espaces.
 
--  Les utilisateurs ayant pour rôle **Super-Administrateurs** peuvent alimenter, modifier, créer des documents, créer des sous-espaces, etc. Les documents sont alors visibles par tous les utilisateurs en **Lecture Seule**.
--  Tous les utilisateurs et membres de la plateforme (hors membres Extranet) sont **Contributeurs** de cet espace et ont la possibilité d'ajouter, modifier, supprimer les documents.
+Toutefois, les administrateurs de la plateforme (profil Support-Utilisateur) peuvent également configurer l'espace public de telle sorte que tous les utilisateurs interne (non Externes) puissent contribuer aussi à cet espace public (choix de configuration : soit la lecture, soit l'écriture).
 
 .. figure:: media-guide/image032.png
    :alt: 
 
-**Que trouve-t-on dans cet espace Public ?**
 
-Pour le contenus totalement transversal à l'Organisation. On peut également y mettre des forums de support et tout contenus généraux.
-
-.. figure:: media-guide/image033.png
-   :alt: 
-
-.. NOTE::
-   Petite différence avec la version précédente de GoFAST v2 \ **: les
-   dossiers de l’Espace Public deviennent des sous-espaces** par souci de
-   clarté.
-
-Vous pouvez **vous abonner** à cet espace via le petit logo entouré en
-mauve et en cliquant sur « s’abonner ». Vous recevrez ainsi directement
-des notifications par rapport au contenu de cet espace. Vous pourrez
-d’ailleurs faire cela pour tous les espaces.
-
-.. figure:: media-guide/image034.png
-   :alt: 
-
-Espace Extranet
+Espaces Extranets
 ~~~~~~~~~~~~~~~
 
 .. figure:: media-guide/image035.png
    :alt: 
 
-L’espace « **Extranet** » a la même fonction que dans GoFAST 2, c’est
-l’espace partagé avec des externes à l'organisation.
+Cet espace « Extranet » permet de partager des contenus avec des clients, fournisseurs ou toute autre entité partenaire qui collabore fréquemment mais **qui ne fait pas partie de l’organisation interne.**
 
-Cet espace/groupe « Extranet » permet donc de partager des contenus avec
-des clients, fournisseurs ou toute autre entité partenaire qui collabore
-fréquemment mais **qui ne fait pas partie de l’organisation interne.**
-
-Si vous voulez donner accès à cet espace à une personne externe, le
-principe est le même que pour tout nouvel utilisateur, il faut lui créer
-un compte et le faire membre du sous-espace Extranet le concernant. On
-peut donner le rôle de « contributeur » à ce nouveau membre externe si
-on veut qu’il puisse travailler sur les documents partagés ou alors
-juste le mettre en « lecture seule », ainsi il ne pourra pas modifier de
-documents partagés mais juste les commenter et télécharger (attention :
-il ne pourra pas non plus en rajouter alors).
+Si vous voulez donner accès à cet espace à une personne externe, le principe est le même que pour tout nouvel utilisateur, il faut lui créer un compte et le faire membre du sous-espace Extranet le concernant. On peut donner le rôle de « contributeur » à ce nouveau membre externe si on veut qu’il puisse travailler sur les documents partagés ou alors juste le mettre en « lecture seule », ainsi il ne pourra pas modifier de documents partagés, mais juste les commenter et télécharger (attention :
+il ne pourra pas non plus en rajouter).
 
 .. NOTE::
-   Si on est administrateur d’un espace, on peut créer des comptes
-   d’utilisateurs mais on ne pourra mettre ces utilisateurs que dans les
-   espaces dont on a la responsabilité. Il se peut donc que vous soyez
-   administrateur d’un groupe mais pas d’Extranet.
+   Si on est administrateur d’un espace, on peut créer des comptes d’utilisateurs mais on ne pourra mettre ces utilisateurs que dans les espaces dont on a la responsabilité.
 
 .. NOTE::
-   GoFAST 3 permet d’envoyer, vers des personnes externes (= qui n’ont
-   pas de compte GoFAST), des messages avec le lien vers un document qui
-   se trouve sur GoFAST ; ils pourront ainsi charger le lien et avoir
-   accès au document pendant 15 jours. Si vous voulez donc juste
-   partager des documents pour information et non pour travailler
-   dessus, pas besoin de créer un compte et un groupe spécifique avec un
-   externe pour cela.
+   GoFAST permet d’envoyer, vers des personnes non-utilisatrices (= qui n’ont pas de compte), des messages avec le lien vers un document qui se trouve sur GoFAST ; ils pourront dans un délai de 14 jours, télécharger via le lien et avoir accès au document. Si vous voulez donc juste partager des documents pour information et non pour travailler dessus, pas besoin de créer un compte.
 
-Les Groupes (= Espaces Transversaux)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Espace Personnel
+~~~~~~~~~~~~~~
 
-Les « **Groupes** » sont des zones de partage **transversales** /
-interservices (ex : des groupes de projet). Ce sont des espaces dédiés à
-des thématiques spécifiques qui ont un grand rôle collaboratif : toutes
-les personnes concernées par le projet/sujet y ont accès, y compris dans
-le cas où elles ne sont pas rattachées à la même « Organisation ».
+Plutôt que de stocker les documents sur le desktop de votre ordinateur, il est recommandé de les mettre dans cet **espace personnel** pour ainsi bénéficier des fonctionnalités GoFAST, notamment le moteur de recherche, le gestion des versions (qui évite de perdre des informations si une version de fichier est corrompue) ou encore l’accès à distance à ses fichiers (via un autre PC, tablettes et smartphone).
 
-Vous pouvez donc faire partie de plusieurs groupes.
+Pour accéder à votre espace personnel, il suffit d’aller dans le menu des accès rapides (barre principale du haut), icône "dossiers", puis « Espace Personnel » . Vous arrivez sur votre Espace avec votre page d’accueil, vos documents, vos tâches, votre calendrier… (= les mêmes onglets que vous retrouverez dans chaque espace collaboratif, hors "Membres" et "Discussion").
 
-A ce niveau, dans l’onglet « Espace » et « groupes » , vous ne verrez
-que les groupes dont vous êtes membres et dans lesquels vous avez donc
-accès aux documents. (=> non défini)
-
-.. figure:: media-guide/image036.png
+.. figure:: media-guide/image026.png
    :alt: 
 
-Les Organisations (= Départements/Services)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Les espaces collaboratifs appelés « **Organisations** » correspondent
-aux **départements** et **services** selon l'organigramme de votre
-organisation; à ce niveau, vous n’y verrez que ceux auxquels vous
-appartenez (RH, FIN, ….)
-
-.. figure:: media-guide/image037.png
-   :alt: 
-
-Les ‘‘Organisations’’ représentent donc normalement la structure
-hiérarchique de l’entreprise et chaque département (RH, IT, Financier,
-...) peut avoir des sous-espaces pour les services.
-
-Vous n’aurez donc accès qu’à **une organisation** dont vous êtes membre.
-
-.. NOTE::
-   Si vous devez **partager** des documents entre différents
-   départements, vous devez le faire à travers un **Groupe** dédié. Par
-   exemple un contrat est dans l'Organisation "Juridique" et aussi dans
-   le Groupe "ProjetA" car c'est un contrat qui concerne le "ProjetA"
-   dans lequel des membres de plusieurs départements sont rassemblés.
-  
-.. NOTE::
-   Un utilisateur peut faire partie d’une ou plusieurs organisations (si
-   fonction partagée entre 2 départements) et sous-organisations (les
-   Services), et fait d’office partie de **plusieurs groupes** et
-   sous-groupes collaboratifs pour pouvoir travailler avec ses collègues
-   sur des projets/groupes de travail transversaux.
 
 
-
-Création de Documents, Contenus, Utilisateurs
+Créer des Contenus (Documents, Réunions, Forums…)
 =============================================
+Créer/Ajouter des Documents/Fichiers
+-----------------------------------------------------
+Créer un document vierge (fichier Office)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Il est possible de **créer de nouveaux documents** directement sur la plateforme, plus besoin de créer d’abord le document sur votre PC puis de le partager après coup sur la plateforme.
 
-Créer un Espace Collaboratif
-----------------------------
-
-Il est possible de **créer de nouveaux Espaces
-Collaboratifs/sous-Espaces**, **si toutefois vous en avez les droits,
-c’est-à-dire si vous êtes administrateur de l’espace-parent.**
-
-Vous pouvez créer un nouvel espace:
-   - dans les groupes transversaux
-   - dans les organisations (vos services/département)
-   - dans Public (visible par tous les utilisateurs sauf les externes)
-   - sur l’Extranet (visible aussi par les externes)
-
-Allez sur l’onglet « Créer » puis sur la flèche à côté de « Espace »,
-vous verrez la liste des espaces dans lesquels vous pouvez créer un
-nouveau sous-espace/groupe.
-
-.. figure:: media-guide/image076.png
-   :alt: 
-
-Exemple ici pour créer un nouvel espace dans « Organisation » (dans
-l’organigramme de la société donc) : Appuyez sur « Organisation », une
-page s’ouvre où vous pouvez ajouter le titre de l’espace, une brève
-description, créer une page d’accueil, choisir l’emplacement (le groupe
-parent), … puis « Enregistrez »
-
-Même principe pour toute création d’espace dans les groupes, Public
-et Extranet.
-
-.. figure:: media-guide/image077.png
-   :alt: 
-
-Votre sous-espace (dans Organisations ici ) est ainsi créé, avec ces
-différents onglets et sa page d’\ **accueil** en 1er onglet
-(que vous pouvez customiser comme vous voulez, avec une photo, un
-message, une page web, …, pour présenter votre groupe)
-
-.. figure:: media-guide/image078.png
-   :alt: 
-
-a) L’onglet « **Activité** » montre les événements qui se passent dans
-   ce groupe : le forum s’il y a des conversations/commentaires ; les
-   pages intranet liées ; les contenus/documents les plus consultés dans
-   ce groupe ; et les contenus définis avec un état (validé, draft, etc)
-
-.. figure:: media-guide/image079.png
-   :alt: 
-
-b) L’onglet « **Documents** » montre tous les fichiers qui se trouvent
-   dans votre groupe, dans la fenêtre au centre de l’écran, et
-   l’arborescence par rapport à toute la GoFAST dans la colonne de
-   gauche.
-
-On voit dans l’exemple ici qu’il y a dans la fenêtre du milieu un
-dossier et plusieurs fichiers qui font partie du groupe « \_Test pour
-annuler » qui lui-même se trouve dans l’arborescence (flèche rouge à
-gauche) de l’espace de base/espace-parent « Organisation », sous-espaces
-« BTCCTB » et « Test sous-organisation».
-
-.. NOTE::
-   Dans l’arborescence, on distingue les espaces avec un
-   underscore devant leur nom « \_ » ; s’il n’y a rien , ce sont des
-   dossiers/
-   s. Dans les 2 cas, vous pouvez voir leurs niveaux
-   inférieurs en cliquant sur le petit « + » devant chacun. Ou les cacher
-   avec le petit « - ».
-
-On peut également voir le cheminement du fichier (path), au-dessus des
-onglets, encadré en vert ici.
-
-.. figure:: media-guide/Image-4.png
-   :alt: 
-
-C’est à ce stade que vous pouvez **glisser/déposer directement des
-fichiers** qui se trouvent ailleurs sur votre ordinateur ou les
-télécharger en appuyant sur « Parcourir » en bleu en bas à droite.
-
-.. figure:: media-guide/image081.png
-   :alt: 
-
-Une fois avoir double-cliqué sur le document à télécharger ou sur
-« Open », vous voyez une barre de progression en bas de page qui vous
-indique que le document se charge sur la GoFAST. (flèche bleue devant le
-nom du document = en charge, croix = problème, sablier = en liste
-d’attente)
-
-.. figure:: media-guide/image082.png
-   :alt: 
-
-Dès que le document est chargé et apparaît dans la fenêtre centrale,
-vous pouvez y travailler comme à l’habitude, grâce aux raccourcis de
-fonctionnalités (clic-droit de la souris quand vous avez sélectionné le
-document) ou en double-cliquant sur le titre du fichier pour le
-prévisualiser et avoir accès à toutes ses métadonnées et ses
-fonctionnalités.
-
-.. figure:: media-guide/Picture1.png
-   :alt: 
-
-Voir aussi"Gestion des documents"
-
-Créer un compte Utilisateur
---------------------------------
-
-Voir 'Créer un utilisateur dans un
-espace/groupe'
-
-Chaque administrateur d’espace/groupe peut **créer un nouvel
-utilisateur** qu’il rattachera alors directement à ce groupe (et autres
-si besoin et s’il en est l’administrateur aussi).
-
-.. image:: media-guide/Tag-Enterprise.png
-   :align: right
-   :scale: 7%
-   
-
-Créer/Ajouter un nouveau Document
----------------------------------
-
-Il est possible de **créer de nouveaux documents** directement sur la
-GoFAST, plus besoin de créer d’abord le document sur votre desktop puis
-de le migrer .
-
-Allez sur l’onglet « Créer », « Contenu », « Fichier,Document ».
+Allez sur l’onglet « + », « Contenu », puis « Fichier, Document ».
 
 .. figure:: media-guide/image049.png
    :alt: 
 
-Une page s’ouvre, sur laquelle vous pouvez indiquer le nom du document «
-titre » et déjà y apposer quelques métadonnées de base (extension/type,
-langues).
+Une page s’ouvre, sur laquelle vous pouvez indiquer le nom du document « titre » et vérifier les deux informations (métadonnées) de base : extension (format de fichier) et la langue.
 
-Choisissez l’option « Créer un fichier vide »
+Choisissez l’option « Créer un fichier vide »
 
-Choisissez l’emplacement où se retrouvera le document dans
-l’arborescence des fichiers en cochant la case devant le nom du
-groupe/répertoire en question ou en cliquant 2x sur le nom du groupe pour
-qu’il se retrouve sur la droite en bleu.
+Choisissez l’emplacement où se retrouvera le document dans l’arborescence en cochant la case devant le nom d’un Espace ou d’un dossier. Vous pouvez cocher plusieurs emplacements dès la création du document, pour pouvoir collaborer dessus avec diverses équipes/Directions.
 
 Puis enregistrez.
 
 .. figure:: media-guide/image050.png
    :alt: 
 
-.. figure:: media-guide/image051.png
-   :alt: 
+Si le document existe déjà ailleurs sur votre PC, vous pouvez l’ajouter sur la GoFAST via ce canal-ci également.
 
-Si le document existe déjà ailleurs sur votre PC, vous pouvez l’ajouter
-sur la GoFAST via ce canal-ci également.
-
-Il suffit alors de le télécharger en cliquant sur « **Télécharger un
-fichier** » et « Choose File » ; le contenu de votre PC s’ouvre,
-choisissez votre document à migrer ; choisissez l’emplacement dans
-l’arborescence. Puis enregistrez.
+Il suffit alors de le télécharger en cliquant sur « **Télécharger un fichier** » et « Choisir fichier » ; l’explorateur de fichier de votre PC s’ouvre, choisissez votre document. Puis choisissez le(s) emplacement(s) dans l’arborescence de GoFAST. Puis enregistrez.
 
 .. figure:: media-guide/image052.png
    :alt: 
 
-.. figure:: media-guide/image053.png
-   :alt: 
 
-Vous verrez ainsi la prévisualisation de votre document et pourrez
-commencer à y travailler et y apposer les métadonnées relatives.
 
-Créer un document à partir d’un modèle (template)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Vous verrez ainsi la prévisualisation de votre document et pourrez commencer à travailler dessus : apposer les métadonnées, l’éditer/coéditer, le commenter...
 
-Vous pouvez créer un **nouveau document à partir d’un template** déjà
-existant sur la GoFAST.
+Créer un document à partir d’un modèle (Template)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Il faut pour cela que vos templates soient placés au préalable dans un
-répertoire spécifique appelé « TEMPLATES » qui se trouve dans les espaces et
-sous-espaces.
+Vous pouvez créer un **nouveau document à partir d’un modèle** déjà existant sur GoFAST.
+Il faut pour cela que vos modèles soient placés au préalable dans un répertoire spécifique appelé « TEMPLATES » qui se trouve dans les espaces et sous-espaces. Le fait de les déposer dans ce dossier leur donne automatiquement l’étiquette de « Template ». 
+Vous pourrez ensuite retrouver ces documents dans le Formulaire "Créer un document à partir d'un Modèle".
 
-Le fait de les déposer dans ce répertoire leur donne automatiquement
-l’étiquette de « Template ». Vous pourrez ensuite retrouver ces
-documents dans le Formulaire "Créer un document à partir d'un Modèle".
+Les dossiers « TEMPLATES » sont automatiquement créés dans chaque Espace Collaboratif et peut être consulté dans l’onglet « Documents » de l’Espace.
+
+Pour créer ce nouveau document à partir d’un modèle, via le menu des accès rapides, allez sur l’icône « + », puis « Contenu » et  « Fichier, Document ».
+
+Choisissez l’option « Créer à partir d’un modèle » (onglet sur le formulaire de création de document), vous verrez alors les différents **dossiers « TEMPLATES »** contenant les modèles. 
+Sélectionnez le modèle que vous voulez utiliser. Le titre et l’extension se mettront automatiquement selon le type de modèle choisi. Saisissez un nouveau titre, la langue et le(s) emplacement(s) où vous voulez le partager, puis cliquez sur « Enregistrer ».
+
+Après avoir appuyé sur « Enregistrer », vous serez redirigé vers la page de ce nouveau document, avec la prévisualisation et informations associées que vous pouvez compléter/modifier.
 
 .. NOTE::
-   Dans GoFAST 3, la catégorie « Template » n'existe plus.
-   C'est à présent dans les étiquettes que vous la retrouverez.
+   Lorsqu’un document est créé depuis un modèle, il prend automatiquement une étiquette « From Template » et un lien vers le modèle d’origine est ajouté. 
 
-Vous devez créer ce répertoire « TEMPLATES » dans l’onglet « Documents »
-dans les espaces et les sous-espaces de type Organisation/Groupe.
-
-Pour créer ce nouveau document à partir d’un template existant, allez
-dans l’onglet « Créer »\_« Contenu »\_«Fichier,Document ».
-
-Choisissez l’option « Créer à partir d’un modèle » (en dessous du
-titre), vous verrez alors les différentes possibilités de **répertoires
-« TEMPLATES »** contenant des modèles. Cochez le modèle que vous voulez
-utiliser. Le titre et l’extension se mettront automatiquement selon le
-type de modèle choisi. Choisissez un nouveau titre, la langue et
-l’emplacement où vous voulez le placer puis « Enregistrer ».
-
-Vous pouvez même éviter la notification aux autres membres de la
-création de ce document, en cochant la petite case juste au-dessus d’ «
-Enregistrer »
-
-.. figure:: media-guide/image057.png
-   :alt: 
-
-Après avoir appuyé sur « Enregistrer » , vous verrez la prévisualisation
-de votre nouveau document.
-
-.. figure:: media-guide/image058.png
-   :alt: 
-   
-Ajouter un ou plusieurs documents par *glisser-déposer*
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Vous pouvez à tout instant glisser un document vers GoFAST, soit sur la page d'accueil soit dans l'explorateur de fichiers.
+Glisser-déposer des documents depuis son PC par (Office, PDF, Image…)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Vous pouvez à tout instant glisser un document vers GoFAST, depuis l'explorateur de fichiers.
 
 .. figure:: media-guide/glisser-deposer-ithit.png
    :alt:
 
-Ajouter un ou plusiers documents par le *Lecteur Réseau*
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Ajouter des documents via le Lecteur Réseau
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Pour utiliser l'explorateur Windows (ou Explorer sous MAC) vous devez configurer celui-ci pour qu'il accède à GoFAST.
+Merci de vous référer à la rubrique : "Configurations/Installations optionnelles"
+Une fois le Lecteur Réseau monté, vous pouvez naviguer dans l’arborescence et y déposer des fichiers, tout comme les éditer via vos applications du PC. Attention, cette pratique n’est pas recommandée dans la plupart des cas, car cela empêche le travail collaboratif efficace. Il s’agit ici, surtout d’un moyen simple de charger un grand nombre de fichiers sur la plateforme, surtout au démarrage de son utilisation. 
 
-Configurer le *Lecteur Réseau*
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Créer une Réunion/Webconférence (Enterprise only)
+-----------------------------------------------------------------------
+.. CAUTION:: Les technologies de conférence « Full-Web » sont assez récentes et nécessitent de bonnes ressources (PC, réseau, ...). Assurez-vous de suivre les prérequis. En cas de problème consulter les problèmes fréquents : http://gofast-docs.readthedocs.io/fr/latest/docs-gofast-users/doc-gofast-problemes-connus.html#webconference
 
-Faire un clic-droit sur "Ce PC" et choisir "Connecter un lecteur réseau"
+Il est toujours préférable de créer la réunion directement dans GoFAST car cela envoie notamment une invitation agenda à tous les participants et permet également de rattacher des contenus (ex.: ordre du jour, annexes…)
 
-.. figure:: media-guide/config-win-webdav1.png
+**Une webconférence peut être créé de 2 façons différentes :**
+
+ - Pour programmer une réunion à une date précise, avec invitation agenda : à partir de la barre d’accès rapide (menu du haut) ou le Calendrier d’un Espace. 
+ - Pour une webconférence immédiate : à partir d'un salon de discussion instantanée (Tchat), via l’icône « caméra ».
+
+Programmer une réunion/Webconférence
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Via le menu des accès rapides (menu principal du haut), allez sur l’onglet « + », puis sur « Réunion ».
+
+.. figure:: media-guide/image084.png
+   :alt: 
+
+Donnez un titre à la webconférence, écrivez un résumé dans la zone de texte, choisissez une date et heure de début et fin
+Ajoutez les participants (écrivez les 3 premières lettres du nom ou d'un espace pour inviter tous les membres de l'espace).
+
+.. figure:: media-guide/Visio-conference.png
    :alt: 
    
-Entrer l'adresse pointant vers votre GoFAST, ex. ``\\gofast.ceo-vision.com@SSL\alfresco\webdav\``
+Il est possible de joindre des liens vers des documents (lien d’accès ou de téléchargement selon si on est utilisateur où non sur GoFAST) à l'invitation qui sera envoyée par email (ex.: Ordre du jour) et des lien vers des dossiers (nécessaire d’être membre de l’Espace où se trouve ces dossiers).
 
-.. figure:: media-guide/config-win-webdav2.png
-   :alt:
+Une fois les informations entrées et après avoir appuyé sur « Enregistrer », une autre fenêtre s’ouvre avec les éléments que vous avez saisis.
 
-Une boite de dialogue s'ouvrira ensuite dans laquelle vous devrez entrer vos identifiants / mot de passe GoFAST
- 
-En cas d'erreur voir http://gofast-docs.readthedocs.io/fr/latest/docs-gofast-users/doc-gofast-problemes-connus.html#gofast-problemes-connus 
- 
-Une fois cette opération faite, vous pouvez voir GoFAST comme un "Lecteur Réseau", alors la même arborescence
+On y voit donc la liste des participants, le nom de l'organisateur, la date et l’heure, etc. 
+Un message en rouge peut s’afficher si vous ne disposez pas des prérequis nécessaires (micro, caméra, réseau…). 
 
-.. figure:: media-guide/webdav-gofast.png
-   :alt:
-
-Vous pouvez faire toute opération, commme des copier-coller de documents ou de répertoires entiers.  
-
-.. CAUTION:: Vous ne pouvez pas faire d'opérations sur les Espaces (commençant par un _)
-
-.. figure:: media-guide/copier-coller-webdav.png
-   :alt:
-
-Créer une page Wiki (page interne)
---------------------------------------
-
-Il est possible de **créer une page Intranet/Wiki** sur la GoFAST.
-
-Allez sur l’onglet « Créer » puis « Contenu », « Page Intranet ».
-
-Donnez-lui un titre, créez son contenu grâce aux mêmes fonctionnalités
-que Word, choisissez son emplacement dans l’arborescence.
-
-Vous pouvez choisir l'emplacement du livre, puis sélectionnez soit
-« Créer un nouveau livre », soit « créer ce livre dans un autre livre »
-(une sorte espace/sous-espace). Puis cliquez sur « Enregistrer ». Vous
-retrouverez votre livre au niveau d'un espace choisi auparavant.
-
-Le **livre** est une sorte de classement virtuel de pages Intranet. Vous
-pouvez ajouter n'importe quelle page Intranet qui est sur GoFAST dans le
-livre. Vous pouvez créer des thématiques et puis naviguer facilement
-d'un contenu à l'autre.
-
-Par exemple, créer un livre peut être intéressant dans le cadre de
-réalisation d'un projet collaboratif lorsque vous avez besoin de créer
-l'ensemble de contenus par thème.
-
-Concernant le poids : plus le poids du contenu est lourd, plus il sera
-négatif; si le poids du contenu est léger, plus il sera positif. Il
-l'attribue automatiquement en mesurant le poids du contenu créé.
-
-.. figure:: media-guide/image059.png
+.. figure:: media-guide/image085.png
    :alt: 
 
-.. figure:: media-guide/image060.png
+Une invitation par **mail** sera envoyée aux **participants** avec le titre de la conférence, un lien URL pour rejoindre la conférence.  
+
+Vous pouvez même enregistrer cet événement **dans votre agenda personnel** (non GoFAST) en cliquant sur l’icône "Accepter" depuis votre messagerie classique (Outlook, BlueMind, Thunderbird…) 
+
+.. figure:: media-guide/Invitation-Outlook-webconference-GoFAST_FR.png
    :alt: 
 
-Voici un exemple d’aperçu d’une page web, qui se compore comme un
-document, avec les métadonnées relatives sur la droite
+Si la conférence a été modifié (changement de date ou des participants), les participants et vous recevrez l’email associé avec la modification côté agenda. 
+L’utilisateur qui crée la réunion est considéré comme « organisateur » de celle-ci est sera le seul à pouvoir la modifier. 
+
+Lancer une Webconférence depuis le Tchat 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Vous pouvez lancer une webconférence à partir d’un salon de discussion du Tchat (Messagerie Instantanée Element). Pratique dans le cas où vous souhaitez passer d’un échange écrit avec vos collègues à un échange vocal sans perdre de temps. 
+Allez dans le salon où vous souhaitez lancer la webconférence (ex. via le bloc latéral du Tchat qui se trouve à droite de votre écran), cliquez sur l’icône « caméra » et un message de confirmation s’affiche avec une zone pour la webconférence. 
+Vous pouvez détacher la zone de la webconférence pour l’ouvrir en plaine page dans un nouvel onglet de votre navigateur. 
+Cliquez sur le bouton « Rejoindre ». Les membres du salon de discussion peuvent aussi se joindre à la réunion.
+Pour connaître les fonctionnalités de la webconférence, merci de vous référer à la rubrique : « Réunions / Webconference (Enterprise only) » (et la documentation Jitsi Meet). 
+
+
+Créer une page Wiki 
+----------------------------
+
+Il est possible de **créer une page Wiki** qui sont des pages web interne à la plateforme, partagés au sein d’un Espace Collaboratif.
+
+Allez sur l’onglet « + » puis « Contenu », « Page Wiki ».
+
+Donnez un titre à votre page, créez son contenu (vous disposez d’un menu avec diverses actions de mise à page possible, comme lors d’un partage de commentaire), choisissez son emplacement dans l’arborescence des Espaces.
+
+Voici un exemple d’aperçu d’une page web, avec les métadonnées relatives sur la droite :
 
 .. figure:: media-guide/image061.png
    :alt: 
 
 Créer une page Web externe (URL)
-----------------------------------
+----------------------------------------------
 
-Avec cette fonctionnalité, vous pouvez **intégrer des pages externes**
-qui proviennent d'autres sites web. On pourra donc visualiser le contenu
-d'une page web externe directement dans la plateforme GoFAST.
+Avec cette fonctionnalité, vous pouvez **intégrer des pages externes** qui proviennent d'autres sites web. On pourra donc visualiser le contenu d'une page web externe directement dans la plateforme GoFAST.
 
-Allez sur l’onglet « Créer », « Contenu », « Page Externe URL »
+Allez sur l’icône « + », « Contenu », « Page Externe »
 
-.. figure:: media-guide/image062.png
+.. figure:: media-guide/image0063.png
    :alt: 
 
-Indiquez un titre, choisissez la langue, copier le lien URL, choisissez
-l’emplacement dans l’arborescence (cochez la case ou cliquez sur le nom
-du groupe pour le retrouver en bleu sur la droite), enregistrez.
+Indiquez un titre, choisissez la langue, copier le lien URL, choisissez l’emplacement dans l’arborescence (cochez la case ou cliquez sur le nom du groupe pour le retrouver en bleu sur la droite), enregistrez.
 
-.. figure:: media-guide/image063.png
-   :alt: 
+Les page web externe se comportent comme les autres fichiers/documents sur GoFAST (possible de qualifier/ajouter des métadonnées, partager dans plusieurs emplacements, mettre à jour…). 
+Ces pages sont visibles dans l’explorateur de fichier, dans les emplacements où elles se trouvent, ainsi que via le moteur de recherche. 
 
 Créer un Forum
----------------
+---------------------
+**Objectif des forums :**
 
-Il est possible de créer des « mini-forums » dans un groupe. Ce qui
-revient à démarrer un fil de **discussion** via les commentaires.
+Partager des idées, bonnes pratiques et conseils avec les membres d’un ou plusieurs Espaces Collaboratifs, sur une ou plusieurs thématiques. Les forums permettent de conserver les échanges et donc, de constituer une base de connaissances. Cela permet de gagner un temps précieux lors que l’on a besoin d’informations, plutôt que reposer sans cesse les mêmes questions.
 
-Allez sur l’onglet « Créer » , « Contenu », « Forum ».
+Il est possible de créer des « forums » dans un Espaces et les partager dans plusieurs Espaces (comme un document).
 
-Indiquez le sujet du Forum, choisissez la langue, écrivez du contenu
-(comme dans Word), choisissez l’emplacement dans l’arborescence,
-enregistrez.
+Depuis la barre des accès rapides (menu principal du haut), cliquez sur « + » puis « Contenu », « Forum ». 
+
+Indiquez le sujet du Forum, choisissez la langue, écrivez l’introduction, choisissez l’emplacement dans l’arborescence des Espaces, puis enregistrez.
 
 .. figure:: media-guide/image064.png
    :alt: 
@@ -930,35 +751,35 @@ enregistrez.
 .. figure:: media-guide/image065.png
    :alt: 
 
-Si le forum que vous avez créé se trouve dans un groupe, vous le
-retrouverez dans l’onglet « Activité » de votre groupe, 1\ :sup:`er`
-cadre. Cliquez sur son nom pour l’ouvrir.
+Vous et les autres utilisateurs ayant accès, pouvez enrichir le forum par le même principe que l’ajout de commentaire sur la page d’un document. 
+Vous pourrez ensuite soit supprimer (poubelle) /modifier (crayon sur feuille) votre commentaire, soit répondre à un commentaire (petite flèche), ainsi que vous abonner/désabonner à ce forum.
+Un message en haut à droite apparaîtra signalant la publication de votre nouveau commentaire.
+ 
 
-.. figure:: media-guide/image066.png
-   :alt: 
-
-Vous pouvez enrichir le forum de votre groupe par le même principe que
-l’ajout de commentaire. Vous pourrez ensuite soit supprimer (poubelle)
-/modifier (crayon sur feuille) votre commentaire, soit répondre à un
-commentaire (petite flèche) ainsi que vous abonner/désabonner à ce
-forum.
-
-Un message en haut à droite apparaîtra signalant la publication de votre
-commentaire.
-
-.. figure:: media-guide/image067.png
-   :alt: 
+Pour en savoir plus sur l’utilisation des Forums, merci de vous référer à la rubrique : « Forums »
 
 Créer un Formulaire
--------------------
+----------------------------
+**Objectif des formulaires :**
 
-Il est possible de **créer un formulaire d’enquête** par exemple
-directement sur la GoFAST.
+Récolter des avis, des idées, réaliser un sondage sur un sujet prédéterminé… les formulaires permettent de créer des questionnaires avec divers champs (dates, texte, cases à cochers, listes déroulantes…) et de les diffuser auprès des utilisateurs. Une fois les formulaires renseignés par les utilisateurs GoFAST, il est possible de consulter et d’analyser les résultats.
 
-Allez sur l’onglet  « Créer », « Contenu », « Formulaire » .
+**Lancer la création d’un formulaire :**
 
-Donnez un titre au formulaire, créer le contenu de l’intro, choisissez
-son emplacement dans l’arborescence, enregistrez.
+Dans la barre des accès rapides (menu principal du haut), allez sur l’icône "+", sur "contenu", puis dans le sous-menu cliquez sur "Formulaires"
+
+Vous allez être redirigé vers la page de création du formulaire.
+
+
+
+
+
+**Poursuivre la création d’un formulaire :** 
+
+1. Renseignez un titre (et vérifiez la langue définie pour votre formulaire)
+2. Cochez, le ou les Espace(s) où le formulaire sera partagé (un formulaire est classé directement à la racine des Espaces, il est donc normal de ne pas pouvoir dérouler l’arborescence des dossiers classiques dans les Espaces). 
+3. Vous avez la possibilité d’ajouter un descriptif (optionnel) pour que le formulaire dispose d’une introduction. 
+4. Cliquez sur "Enregistrer" en bas de la page
 
 .. figure:: media-guide/image068.png
    :alt: 
@@ -966,68 +787,170 @@ son emplacement dans l’arborescence, enregistrez.
 .. figure:: media-guide/image069.png
    :alt: 
 
-Vous le retrouverez dans les contenus populaires ou dans l’emplacement/dans le groupe 
-où vous avez mis votre formulaire. Il se retrouvera également
-en haut du fil d'activité, dans la recherche et dans vos derniers contenus vus.
+Vous allez être redirigé vers la page de gestion du formulaire où seront affichés le titre et le descriptif. C’est sur cette page qu’arriveront les utilisateurs qui voudront renseigner le formulaire (onglet "Remplir"). Toutefois, juste après cette 1ère étape de création, cette page est vide car vous n’avez pas encore ajouté de champs à votre formulaire.
 
-.. figure:: media-guide/image073.png
-   :alt: 
+**Comment retrouver un formulaire :**
 
-Une fois que votre formulaire est crée, vous arriverez sur la page du formulaire.
-C'est sur cette page qu'arriveront les utilisateurs
-qui rempliront votre formulaire. Pour l'instant, elle est vide.
+ - Fil d’activité (si formulaire créé, modifié ou commenté récemment).
 
-.. NOTE::
-   Pour l'instant, et tant que vous n'aurez pas publié votre formulaire, personne
-   ne pourra le remplir.
+ - Dans le calendrier de l’un des Espaces où se trouve le formulaire ou dans son calendrier personnel (dans le cas où on a ajouté une échéance à ce formulaire). 
 
-.. figure:: media-guide/form01.png
-   :alt: 
+ - Via la recherche par mots clefs, une recherche "à blanc" (= sans mot-clef) et les filtres de recherche, en particulier par type de contenu "formulaire"
 
-En tant que créateur du formulaire, vous avez la possibilité
-d'accéder aux onglets "Gérer" et "Résultats". Les administrateurs
-de l'espace dans lequel est ce formulaire y ont également accès.
+ - Dans ses contenus favoris (si on y a ajouté le formulaire au préalable)
 
-Configurer un formulaire
-~~~~~~~~~~~~~~~~~~~~~~~~
-
-Nous allons nous concentrer sur l'onglet "Gérer" qui va servir à configurer les champs de votre formulaire.
-
-.. figure:: media-guide/form02.png
-   :alt: 
-
-Glissez / déposez les champs que vous voulez mettre dans le formulaire, ils
-apparaîtront à gauche sous « Edition du formulaire ».
-
-.. figure:: media-guide/form03.png
-   :alt: 
-
-En cliquant sur les champs, des options de configuration sont disponibles
-
-.. figure:: media-guide/form04.png
+.. figure:: media-guide/[IMAGE]
    :alt: 
 
 .. NOTE::
-   N'oubliez pas d'enregistrer régulièrement votre travail en cliquant 
-   sur le bouton "Enregistrer".
+   Une fois que votre formulaire est créé, vous arriverez sur la page du formulaire. C'est sur cette page qu'arriveront les utilisateurs qui rempliront votre formulaire. Pour l'instant, elle est vide et tant que vous n'aurez pas publié votre formulaire, personne ne pourra le remplir. 
+   En tant que créateur du formulaire, vous avez la possibilité d'accéder aux onglets "Gérer" et "Résultats". Les administrateurs de l'espace dans lequel est ce formulaire y ont également accès.
 
-Une fois que votre formulaire vous convient, vous pouvez configurer
-d'autres paramètres dans l'onglet "Configuration du formulaire".
 
-.. figure:: media-guide/form05.png
+Pour en savoir plus sur l’utilisation des formulaires, merci de vous référer à la rubrique : « Formulaires  »  
+
+
+Créer des Espaces Collaboratifs
+===========================
+
+Créer un Espace à la racine
+-------------------------------------------------------------------------------------------
+Afin de construire l’arborescence des Espaces Collaboratifs, il est nécessaire de commencer par les tout premiers niveaux, c’est-à-dire à la racine de Organisations, Groupes, Extranet ou Public.
+Pour connaitre quels profils ont la possibilité de créer ces premiers Espaces Collaboratifs, merci de vous référer aux rubriques : 
+ - Tableau des permissions par Profil
+ - Profil Support-Utilisateurs
+
+Créer un Espace/Sous-Espace Collaboratif 
+---------------------------------------------------------
+
+Il est possible de **créer de nouveaux Espaces Collaboratifs (Sous-Espaces)**, **si toutefois vous en avez les droits, c’est-à-dire si vous êtes administrateur de l’espace-parent.** 
+
+Vous pouvez créer un nouvel espace, de type :
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   - Organisation (vos services/départements/etc.)
+   - Groupe (projets/partages transversaux)
+   - Public (uniquement si vous êtes membres de la « Liste Public »)
+   - Extranet (partage avec les utilisateurs externes) 
+Pour en savoir plus sur les types d’Espaces, merci de vous référer à la rubrique : « Les Espaces collaboratifs »
+
+Formulaire de création d’un Espace :
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Depuis la barre des accès rapides (menu principal du haut) cliquer sur « + » puis sur « Espace », et allez sur le type d’Espace que vous souhaitez créer. 
+Une page s’ouvre où vous pouvez ajouter :
+
+ - un titre de l’espace (obligatoire)
+ - une brève description (obligatoire)
+ - créer une page d’accueil (facultatif)
+ - choisir l’emplacement (obligatoire) : vous verrez toute l’arborescence des espaces dans lesquels vous pouvez créer un nouveau sous-espace. 
+ - Ajouter une identité visuelle (facultatif : image qui sera utilisée pour le salon de discussion / Tchat dédié à cet Espace si vous décider d’en créer un par la suite). 
+ - puis « Enregistrer » et vous serez alors redirigé vers la page de votre nouvel Espace.
+
+.. figure:: media-guide/image076.png
    :alt: 
+
+Le principe est identique pour toute création d’espace dans Groups, Public et Extranet.
+
+
+On peut également voir le chemin d’accès et le nom de l’Espace, au-dessus des onglets :
+
+.. figure:: media-guide/Image-4.png
+   :alt: 
+
+Les différents onglets de votre Espace :
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+.. figure:: media-guide/image078.png
+
+**L’onglet « Accueil » :**
+
+Vous pouvez le personnaliser à tout moment avec une photo, un message, une page web). Les autres administrateurs de cet Espace pourront eux aussi modifier cette onglet accueil. 
+
+
+**L’onglet « Statistiques » :**
+
+Permet de visualiser sur une période donnée l’évolution des membres et de documents.
+
+**L’onglet « Documents » :**
+
+Montre l’explorateur de fichiers de GoFAST, avec tous les contenus qui se trouvent dans votre espace dans la zone principale au centre de l’écran, ainsi que l’arborescence complète à laquelle vous avez accès dans la zone de gauche (pour pouvoir facilement naviguer entre les divers Espaces depuis l’arborescence).
 
 .. NOTE::
-   N'oubliez pas d'enregistrer votre configuration en cliquant 
-   sur le bouton "Enregistrer la configuration".
+   Dans l’arborescence, on distingue les espaces avec un underscore devant leur nom « _ » ; s’il n’y a rien, ce sont des dossiers. Dans les 2 cas, vous pouvez voir leurs niveaux inférieurs en cliquant sur le petit « + » devant chacun. Ou les cacher avec le petit «  - ».
 
-Il est enfin temps de publier votre formulaire. Pour ce faire, il suffit
-de cliquer sur le bouton "Publier" dans "Edition du formulaire" tout en bas.
-A partir de maintenant, toutes les personnes qui ont accès à votre formulaire
-pourront le remplir.
+C’est ici que vous pouvez directement **glisser-déposer des fichiers** qui se trouvent sur votre ordinateur ou les télécharger via le bouton « Nouveau ».
 
-.. figure:: media-guide/form06.png
-   :alt: 
+Pour savoir comment ajouter un document depuis cet onglet « Documents », merci de vous référer à la rubrique : "Déposer des fichiers sur GoFAST via l’explorateur"
+
+**L’onglet « Calendrier » :**
+
+Vous permet de visualiser les réunions et webconférence planifiées dans votre espace, les échéances des documents ou des tâches collaboratives (= cartes Kanban).
+
+**L’onglet « Tâches » :**
+
+Contient un tableau Kanban avec des colonnes et des cartes correspondant généralement à des tâches.
+
+**L’onglet « Membres »**
+
+Permet de visualiser les utilisateurs ou listes d’utilisateurs ayant accès à l’espace, ainsi que leurs rôles dans l’espace.
+
+**L’onglet « Discussion » :** 
+
+S’il est activé par l’un des administrateurs de l’Espace, il permet de disposer d’un salon de discussion associé avec les mêmes membres, qui peuvent alors Tchater ou lancers des webconférences depuis ce salon.
+
+
+Créer des dossiers dans les Espaces Collaboratifs
+------------------------------------------------------------------
+Contrairement aux Espaces Collaboratifs, un dossier ne dispose pas de notion de membres. Il est destiné à classer les divers contenus/fichiers dans les Espaces. Tous les membres d’un Espace Collaboratif voient et peuvent accéder aux dossiers (les Administrateurs et Contributeurs de l’Espace peuvent créer des dossiers dans l’Espace). 
+Pour savoir comment créer un dossier, merci de vous référer à la rubrique : Explorateur de fichiers
+
+
+Créer des Utilisateurs / Listes d’Utilisateurs / Contacts
+============================================
+
+Formulaire de création d’un Utilisateur
+----------------------------------------------------
+
+Depuis la barre de menu principal cliquer sur « +» puis « Utilisateur ». Vous serez alors redirigé vers le formulaire de création d’un utilisateur. 
+Il est indispensable de renseigner tous les champs obligatoire (ayant une *) et vous pouvez renseigner les autres champs proposés (voir aussi la rubrique : « Page Profil Utilisateur »).
+
+Chaque administrateur d’espace peut **créer un nouvel utilisateur** qu’il rattachera alors à cet Espace (et autres si besoin et s’il en est l’administrateur).
+
+.. image:: media-guide/Tag-Enterprise.png
+   :align: right
+   :scale: 7%
+   
+Voir “Créer un utilisateur dans un espace/groupe”
+
+Importer des Utilisateurs depuis AD/LDAP
+-------------------------------------------------------
+Pour savoir comment créer des utilisateurs en masse via un import depuis l’annuaire interne de votre Organisation/Entreprise, merci de vous référer à la rubrique : « Profil support-utilisateur ») 
+
+
+Créer une Liste d’Utilisateurs
+------------------------------------------
+Les listes d'utilisateurs facilitent la gestion en masse et automatisée des membres des Espaces Collaboratifs et leurs rôles. Ainsi, lorsqu’un utilisateur GoFAST est ajouté à une liste, il devient automatiquement membre de tous les espaces associés à cette liste.
+Pour créer une liste, via la barre des accès rapides (menu principal du haut) cliquez sur « + », puis "Liste d’utilisateurs". 
+
+.. figure:: media-guide/Ecran-GoFAST_Liste-Utilisateurs_creer-liste.png
+
+Vous êtes redirigé vers le formulaire et il suffit de renseigner les 3 champs affichés :
+
+    - Nom de la liste,
+    - Membres de la liste (rentrez au moins 3 caractères du nom/prénom d'un utilisateur pour avoir des suggestions),
+    - Administrateurs de la liste 
+    - Description,
+
+
+
+.. NOTE:: 
+   Le créateur d’une liste d’utilisateur devient administrateur de celle-ci. Pour en savoir plus sur les listes d’utilisateurs, merci de vous référer à la rubrique : Gérer des Listes d’Utilisateurs.
+
+Créer un contact (non-utilisateur)
+-------------------------------------------------------
+Actuellement, la création de nouveaux contacts est possible uniquement via le processus de tâches, lors de l’assignation d’une e-signature et dans le cas où un module optionnel est activé (couplage avec un parapheur tiers qui permet la demande de e-signatures à des non-utilisateurs).
+N’hésitez pas à poser vos questions sur les possibilités liés aux contacts et à la signature électronique sur nos forums. 
 
 .. include:: doc-gofast-guide-utilisateurs_1.rst
 .. include:: doc-gofast-guide-utilisateurs_2.rst

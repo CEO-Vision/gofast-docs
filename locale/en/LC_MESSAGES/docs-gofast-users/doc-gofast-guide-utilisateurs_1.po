@@ -1,1673 +1,3089 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2020
+# Copyright (C) 2022
 # This file is distributed under the same license as the gofast-docs
 # package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: gofast-docs latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-26 13:05+0100\n"
+"POT-Creation-Date: 2022-05-20 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.7.0\n"
+"Generated-By: Babel 2.10.1\n"
 
-# 461aa5a437e2457dab7ecb8278455e6e
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:2
-msgid "Exploiter les réponses d'un formulaire"
+#: 1a5ae628312846688184d533c778483d
+msgid "Consulter un Document/Contenu et informations associées"
 msgstr ""
 
-# 86883b14d3124ba898e6e018925f4d95
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:4
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:3
+#: 2b1410452b49447bb1fc0a0a331720d7
 msgid ""
-"L'onglet \"Résultats\" est accessible par le créateur du formulaire et "
-"les administrateurs des espaces dans lesquelles est le formulaire. "
-"L'entrée \"Soumissions\" vous permets de visualiser unitairement les "
-"soumissions de chaque utilisateur."
+"En plus de pouvoir consulter le document ou autre contenu, il y a "
+"plusieurs fonctionnalités telles que : actualiser l’aperçu, processus et "
+"tâches (workflow), pleine page, actions contextuelles (parcourir, "
+"modifier, télécharger…)."
 msgstr ""
 
-# 957a7273b11441578eb934458f1350db
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:6
+#: 0dd3c913a67544ddb9d20ea84cd322d7
+msgid "Accès à un Document/Contenu"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:7
+#: 79ec4549f6e746a6b4bca14473c244ce
+msgid ""
+"GoFAST permet d’accéder à un document ou autre contenu par divers moyens."
+" Dès qu’un contenu est mentionné (titre du contenu), il suffit de cliquer"
+" dessus pour arriver sur la page de consultation du contenu et des "
+"informations associés. **Il est possible d’accès à un document/contenu "
+"depuis :**"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:9
+#: d8d6c022eaa84d298b28daafca4de091
+msgid "le fil d’activité"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:10
+#: b43e28affd1f4d44ac4a5ebd7414cbf1
+msgid "le tableau de bord"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:11
+#: afd4e6badb944cac9ac35a12c43cf4be
+msgid "le résultat d’une recherche"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:12
+#: c02cd1eba2394b8cbb4cd88a7a5a4975
+msgid "un lien depuis un autre document"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:13
+#: 8a66c1d2ccee430080f064815a2abafa
+msgid "accès à ces derniers contenus vus"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:14
+#: 4741564d47d344b193fe28445c239a42
+msgid "accès depuis ses favoris"
+msgstr ""
+
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:15
-msgid ""
-"L'entrée \"Statistiques\" permets d'afficher des statistiques globales "
-"concernant les champs de votre formulaire."
+#: 1722800e12994423851fd81a9bccd342
+msgid "le panier documentaire"
 msgstr ""
 
-# a5a44cce9bd5499cb69df4704025a8c0
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:16
+#: 6691eead378a4f1985d62c8c626a6a8b
+msgid "l’explorateur de fichier (double clic à faire)"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:17
+#: 9cab13bfb083406988a6c6162ffff661
+msgid "liste des tâches/processus sur les documents"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:18
+#: b917ae714571499abce3cd533e0dc383
+msgid "le Tchat (si un lien a été partagé)"
+msgstr ""
+
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:21
-msgid ""
-"L'entrée \"Export\" permets d'exporter les statistiques au format CSV. Il"
-" suffit de choisir les champs souhaités et de cliquer sur "
-"\"Téléchargement\"."
+#: 14707ea8109f44feb68c62d04e572e0b
+msgid "Comprendre la page d’un document/contenu"
 msgstr ""
 
-# 1193865afb60452782c551e6b6f14359
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:22
+#: 9559ef815d804e1abb632665fb40601f
+msgid ""
+"Sur la page d’un document/contenu, vous pouvez le consulter et accéder à "
+"plusieurs fonctionnalités liées directement au type de contenu et à vos "
+"droits sur celui-ci. En zone centrale, la prévisualisation de votre "
+"document vous permet de vérifier le contenu en un coup d’œil et voir si "
+"c’est le bon document. Au-dessus de la prévisualisation, il y a le titre "
+"du document et le(s) emplacement(s) où se trouve le document dans "
+"l’arborescence. A droite, se trouvent toutes les informations "
+"(métadonnées) liées au document : type, format, catégorie, état, langue, "
+"emplacement(s), historique, versions, etc."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:30
+#: 7654db6a62cd45d8838279aa36b54d6c
+msgid ""
+"Vous pouvez déplier le bloc caché de gauche (accès rapide à l’explorateur"
+" de fichiers sans quitter la page du document), pour voir les autres "
+"documents qui se trouvent dans ce même emplacement."
+msgstr ""
+
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:32
-msgid "Créer une Web-conférence/Réunion (Enterprise only)"
-msgstr ""
-
-# a6cf265e7e5b45c09d9f2ad771088d1a
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:35
+#: 0e70f638499c4c1f969ccbc358df6fb7
 msgid ""
-"Les technologies de conférence Web sont assez récentes et nécessitent de "
-"bonnes ressources (PC, réseau, ...). Assurez-vous de suivre les "
-"pré-requis. En cas de problème consulter les problèmes fréquents : http"
-"://gofast-docs.readthedocs.io/fr/latest/docs-gofast-users/doc-gofast-"
-"problemes-connus.html#webconference"
+"Vous pouvez accéder aux fonctionnalités liées au document via le menu « "
+"Burger » (menu des actions contextuelles : 3 barres horizontales, dans le"
+" coin droit au-dessus de la prévisualisation)."
 msgstr ""
 
-# 92c149496860450bb3fd81c0704b671c
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:37
+#: 23c86be9b577467589e88e7afcd1ef67
 msgid ""
-"Tout comme dans Skype ou autres outils de discussion en ligne, vous "
-"pouvez démarrer une **vidéoconférence** directement sur la GoFAST."
+"Pour avoir la liste des diverses actions possible depuis ce menu, merci "
+"de vous référer à la rubrique : « Menu des actions contextuelles Menu "
+"Burger »"
 msgstr ""
 
-# 05dd5f8c9438475baae5511d550008b5
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:40
-msgid "Allez sur l’onglet « Créer », « Conférence »."
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:44
+#: 75e4a479bcd642ebb979133d6538bf19
+msgid "Zone de prévisualisation/Aperçu (dont titre +)"
 msgstr ""
 
-# e14fd0ea07fa463c8c38f4b738c5ed4e
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:42
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:46
+#: c329629d826343eba2a444eb866c8281
 msgid ""
-"Donnez un titre à la conférence, écrivez un résumé dans la grande fenêtre"
-" grâce aux mêmes options que Word, choisissez une date, ajoutez les "
-"participants (écrivez les 3 premières lettres du nom pour avoir les "
-"propositions du système) et « Enregistrez »"
+"La prévisualisation d'un fichier sert à consulter le fichier (document, "
+"image, vidéo...) directement dans le navigateur, sans avoir à l'ouvrir en"
+" édition avec une application sur son poste de travail ou le Suite "
+"Collaborative intégrée."
 msgstr ""
 
-# 3462a1d4d8734f44875e859a0ee6dee6
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:48
+#: c4fae590a7524046b2f69f620f8ff4c7
+msgid ""
+"Certains types de fichiers (MS-Office ou LibreOffice), sont affiché au "
+"format PDF dans cette zone de prévisualisation. La transformation à la "
+"volé des formats MS-Office vers PDF est effectuée par un système de "
+"Libreoffice (Community) ou d’OnlyOffice (Enterprise) GoFAST. Attention, "
+"le document lui-même ne change pas de format, cette transformation à la "
+"volé n’est utile que pour la prévisualisation. Les fichiers tableurs sont"
+" eux affiché soit en PDF, soit directement via OnlyOffice (selon la "
+"configuration de votre plateforme)."
+msgstr ""
+
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:50
-msgid ""
-"Vous pouvez remplir différents champs lors de la création d'une « "
-"Conférence »."
+#: 1a49629434cb4408883ce011a5473ef1
+msgid "**Les principaux formats prévisualisés :**"
 msgstr ""
 
-# 423b1543e8314ab0b8cec0939c0a6702
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:52
-msgid ""
-"Vous avez la possibilité d'informer une Date de début et de Fin de la "
-"conférence, le lieu où se déroulera la visio-conférence et la possibilité"
-" de choisir les participants par Espace."
-msgstr ""
-
-# 2b4e04096b494cc7b2d427b204f1f2a7
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:56
-msgid ""
-"Par exemple, concernant le choix des participants par Espace, vous avez "
-"la possibilité d'inviter tous les membres liés à l'Espace Commercial."
-msgstr ""
-
-# 24b3d7d58cd948faa7781c33ac58b15c
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:61
-msgid ""
-"Une fois les participants et la date/heure de conférence introduits, et "
-"après avoir appuyé sur « Enregistrer », une autre fenêtre s’ouvre avec "
-"les données de la conférence."
-msgstr ""
-
-# c1c9469b3b7e4ae682d8a317bfc3fde7
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:65
-msgid ""
-"On y voit la liste des participants, le nom de celui qui a lancé la "
-"conférence, la date et l’heure, un message d’erreur (en rouge) si vous ne"
-" disposez pas des accessoires nécessaires, …"
-msgstr ""
-
-# e709541359c8409d8ed20beb1c98d196
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:72
-msgid ""
-"Par contre si tous vos accessoires sont disponibles, ils seront en vert "
-"et vous serez aptes à commencer la conférence"
-msgstr ""
-
-# 8775441fb3ed43ca8740d9b9af1df08d
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:78
-msgid ""
-"Un **mail** sera également envoyé aux **participants** avec le titre de "
-"la conférence, un lien URL pour rejoindre la conférence sur GoFAST ou "
-"direct sur le système de vidéoconférence JITSI, la liste des "
-"participants, …"
-msgstr ""
-
-# 402bd22c38d24b51970ecb2e4495de66
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:83
-msgid ""
-"Vous serez en copie de ce mail de notification, ce qui vous permet de "
-"renvoyer le lien URL à n’importe quel moment en cas de problème."
-msgstr ""
-
-# 320f61a52acc4e6f9498cd18f2d950e3
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:89
-msgid ""
-"Vous pouvez même enregistrer cet événement **dans votre agenda** Lotus "
-"par exemple, en cliquant sur l’icône Lotus Note dans l’email, un message "
-"s’affichera , vous demandant si vous voulez l’ajouter dans votre agenda."
-msgstr ""
-
-# 01aafbe2762d4056a361b80fbc56775c
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:96
-msgid ""
-"Si la conférence a été enregistrée pour une autre date à venir, les "
-"participants et vous recevrez un reminder/rappel par mail également, "
-"reprenant les mêmes informations et le lien URL."
-msgstr ""
-
-# 923a3e8b6136447690c18b7fa9826b64
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:105
-msgid "Gestion des Documents et Travail Collaboratif"
-msgstr ""
-
-# cf85ac21324f4af29976577abd027410
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:107
-msgid ""
-"Lors de la **prévisualisation d’un document**, vous pouvez accéder à "
-"plusieurs **fonctionnalités** liées directement au document ."
-msgstr ""
-
-# 2c0dbab0c50a4a4b9a6ffdbc50538b1e
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:110
-msgid ""
-"En page centrale, la prévisualisation de votre document vous permet de "
-"vérifier le contenu en un coup d’œil et voir si c’est le bon document."
-msgstr ""
-
-# 4a73b07dab734910bd272264aefa2d0b
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:113
-msgid ""
-"Au-dessus de la prévisualisation, il y a le titre du document et le "
-"chemin (path) = l’emplacement où se trouve le document dans "
-"l’arborescence."
-msgstr ""
-
-# 52ef2bc0c895484e886a15fd3962544a
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:117
-msgid ""
-"A gauche, vous voyez en même temps les autres documents qui se trouvent "
-"dans ce même répertoire."
-msgstr ""
-
-# f767c6ec96804519a6e82c1d7284ab1d
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:120
-msgid ""
-"En haut à droite, encadré en orange sur l’image, vous retrouvez des "
-"raccourcis de fonctionnalités liées au document prévisualisé. (processus,"
-" commentaire, affichage, actions contextuelles)"
-msgstr ""
-
-# eb15fa5992ff4125917c20e8ff55a27e
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:124
-msgid ""
-"A droite, se trouvent toutes les métadonnées liées au document : type, "
-"format, statut, langue, emplacement, historique, version, …."
-msgstr ""
-
-# da6072d6ec8a44e79db01868a09c454e
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:131
-msgid ""
-"Il se peut que la prévisualisation ne s’ouvre pas directement et que vous"
-" ayez le message suivant :"
-msgstr ""
-
-# 079de037d4354abcab81ab78248a206e
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:137
-msgid ""
-"Il faudra juste cliquer sur la zone bleue « Tenter de prévisualiser à "
-"nouveau »."
-msgstr ""
-
-# 1c1d49cb08a74fce864984b94af24f5f
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:140
-msgid ""
-"Si ça ne fonctionne toujours pas, vous pouvez tout de même accéder aux "
-"fonctionnalités et options liées au document et donc vous pourrez par "
-"exemple télécharger le document malgré tout. Allez dans les actions "
-"contextuelles (3 barres horizontales, dans le coin droit supérieur, à "
-"côté du titre) (voir plus loin pour les détails)"
-msgstr ""
-
-# 8e2b9bbcd1e84969b5fadc9c2fd066ac
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:149
-msgid ""
-"Pour rappel, vous pouvez **masquer ou afficher** à tout moment la partie "
-"avec l’\\ **arborescence** de vos répertoires/groupes en cliquant sur la "
-"barre grise verticale qui se trouve à gauche de la partie centrale de "
-"l’écran. (prévisualisation ou fil d’activité)"
-msgstr ""
-
-# 01c6e9e6b21348c0b0f77afbbfd0cf24
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:157
-msgid ""
-"Voici en détail, la liste des actions contextuelles (fonctionnalités) "
-"liées au document : parcourir, télécharger, éditer, commenter, …"
-msgstr ""
-
-# 448267ddc813449d86781dca4decac4a
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:160
-msgid ""
-"Vous y accédez par l’icône avec les 3 barres horizontales tout à droite, "
-"sur la même ligne que le titre de votre document. (voir plus bas pour les"
-" détails des Actions contextuelles p.75)"
-msgstr ""
-
-# f704235afcfd48e1b1edc3681b848400
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:168
-msgid "Prévisualisation des Documents : fonctionnement et fonctionnalités"
-msgstr ""
-
-# 6d67f9527fc34eadb049535ac6ebeb66
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:170
-msgid ""
-"La prévisualisation d'un fichier est la possibilité de visualiser le "
-"fichier (document, image, vidéo,...) directement dans le navigateur, sans"
-" avoir à l'ouvrir avec une application sur son poste de travail."
-msgstr ""
-
-# 5f0c86ed076b41608e763d56fa92c0ee
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:172
-msgid ""
-"Pour certains types de fichiers (MS-Office ou LibreOffice), une "
-"transformation PDF est nécessaire. La transformation MS-Office => PDF est"
-" effectuée par Libreoffice (Community) ou OnlyOffice (Enterprise) GoFAST "
-"> 3.7"
-msgstr ""
-
-# 6a6a08ee2f3b45a0810601acaf40e110
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:174
-msgid "Les principaux formats prévisualisés :"
-msgstr ""
-
-# 1230fcaf8b5a4dac900e6b528c86e744
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:1
+#: d29606aebec1404d963b702879fe6ac4
 msgid "Formats"
 msgstr ""
 
-# 1ce79a4ada444c9f93ae859cb5c850a0
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:1
+#: f3643ca7d9bc4e22a7fcd7869a49a7bb
 msgid "Commentaires"
 msgstr ""
 
-# e100c5cb0bbc4429909004f032d7a272
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:1
+#: 8b40edf4271f400cb9d34ce5ab20e3ed
 msgid "doc,dot,xls,ppt"
 msgstr ""
 
-# 820c7cefbdc94af9a98b526f279cff6a
-# f6cc987ef0004f33960a53d119611837
-# c47cce3742924c9fa1c758b7263a2fe4
-# 2a06266490d742939ebda7caad68e65d
-# 54b109dfbe4b41489735e1bf79371a52
-# 0cfffb60a7f14c6084687ee63697a3eb
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:1
+#: 13216e9406c6496a934e5106cb90138b 213be8accefd4091b979dde8a13da584
+#: 68e097122fa14f50b60b5ead40d20f06 7b48785422a04a68b5f37d474feee514
+#: b29b8be524d147e18d5a254a11ad0468 e701d7c93be849768ebb89f3a28bce51
 msgid "transformé en PDF"
 msgstr ""
 
-# d974a405be974bb382ab58919f66a742
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:1
+#: 5aaa0aebf60049ffbe0a5b5a4cf1e7d2
 msgid "docx,dotx,xlsx,pptx"
 msgstr ""
 
-# 5866268c442242b5891751121e8532ca
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:1
+#: 0f9f74a4a34c4a6cbfd5543a5c9eaf26
 msgid "odt,ott,ods,odp"
 msgstr ""
 
-# 04c2286554dd439c8e4136fa443e375a
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:1
+#: 5b31552e955a4ddfafe3e0dcd61a1e4a
 msgid "txt,rtf"
 msgstr ""
 
-# af3daa71416d4d5497d93bfb4186458d
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:1
+#: e23b3ef8707d46b298168e26ad3b9b5b
 msgid "eps"
 msgstr ""
 
-# 26ffdc90f8a64d2cb47b593c7461eff3
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:1
+#: 9b4bcf9c8f3e4279afa6e4e1038e0a5f
 msgid "msg"
 msgstr ""
 
-# b850440eb51344f08f615c6c78d37064
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:1
+#: 735a6af75d064ed69b397297f191fd9d
 msgid "transformé text brut puis PDF"
 msgstr ""
 
-# 89c7114f7ac44e24be8a1f997fec1e0f
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:1
+#: b3945839a46f4bc9a5119c0822d38a97
 msgid "eml"
 msgstr ""
 
-# 508e69989b664a2483317a7dbad5d2bb
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:1
+#: 8766825d74ad4a388b907ff3ea86f9d9
 msgid "jpg,png,gif"
 msgstr ""
 
-# 7bdb2d159c8e4689813cd95dc0b81cdd
-# 439befa4b990452d82110c04342764e5
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:1
+#: 7aa67899ba77433d95e6039c512887e3 af6e1638a3dc4aec842f5f57d413a2e5
 msgid "directement affiché par le navigateur"
 msgstr ""
 
-# f18af40dadac4729a06f76ea33155297
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:1
+#: 906ed411b65c4902b1171f5780363822
 msgid "svg"
 msgstr ""
 
-# da68b64e48af4ac1b117de259e4b43c0
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:1
+#: c05a7d595d644dbb8771bab8d3e51b0f
 msgid "mp4"
 msgstr ""
 
-# acf50b20bf124f04a00b78e0e663c570
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:1
+#: 623647e463044a518f13177bc75d6f5e
 msgid "directement lu dans le navigateur (streaming video)"
 msgstr ""
 
-# 43f07dad2b764499a583b73010089e2f
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:1
+#: 61acada005c74a128bc03bfdcf18956f
 msgid "pdf"
 msgstr ""
 
-# 04642491f7634313aa1ab205e381d994
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:1
+#: d1630578fdfd423baa8b0256fe2ce927
 msgid "directement lu dans le navigateur"
 msgstr ""
 
-# 7001e4343db04fc8839b26ed82db6c57
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:192
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:70
+#: 03b9a4c44e704c88961dacb29d1cc3c1
+msgid "Il se peut que la prévisualisation ne s’ouvre pas directement."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:71
+#: 83558188e1b7483b91d37b3bfbcf03fb
+msgid ""
+"Il faudra juste actualiser la page (cela arrive si la connexion internet "
+"est de mauvaise qualité/instable)."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:73
+#: f2255adfe25c49a394c9773083fd94ec
 msgid ""
 "Au-dessus de la **prévisualisation** du document, vous voyez une **barre "
-"d’outils noire.**"
+"d’outils**. Celle-ci permet certaines fonctionnalités comme la loupe, le "
+"zoom, page suivante, etc."
 msgstr ""
 
-# 36f59452b2824a61a50eb60d6581fc1e
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:195
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:80
+#: fbff278578d64501874d3d6d3f5728be
 msgid ""
-"Celle-ci permet certaines fonctionnalités comme la loupe, le zoom, page "
-"suivante, etc."
+"La première icône (carré gris) « **Toggle sidebar** », permet de voir les"
+" « slides/pages » que comprend le document. Vous pouvez ainsi aller "
+"directement sur la page souhaitée. Ce même icône donne accès à 3 autres "
+"options **« Show thumbnails », « Show document outline », « Show "
+"attachment »**"
 msgstr ""
 
-# 92b965f921ec474fb92730bf08bf72ac
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:201
-msgid ""
-"Le premier icône, (carré gris et noir) « **Toggle sidebar** », permet de "
-"voir les « slides/pages » que comprend le document. Vous pouvez ainsi "
-"aller directement sur la page souhaitée. Ce même icône donne accès à 3 "
-"autres options **« Show thumbnails », « Show document outline », « Show "
-"attachment »**"
-msgstr ""
-
-# cbe3fdd477af4e36a07d953179c70053
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:210
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:85
+#: 71dc82bf60ee4348b192da61f95e3fa8
 msgid "La **loupe** permet de rechercher un mot dans le texte (= Ctrl+F)"
 msgstr ""
 
-# 4e955ed5725b4f9ab725f0c8fc11bc62
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:215
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:90
+#: 3ce4e3f5bc8948d3a6f6a52107cefa8a
 msgid ""
 "Les **flèches** vers le haut ou vers le bas permettent d’aller à la page "
 "précédente ou suivante"
 msgstr ""
 
-# 561edf5d290f445cb63c8ed8d3a600fd
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:221
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:95
+#: 5a0815f0014642dc95e1eebbecd87962
 msgid ""
 "«**Page**» et les numéros permettent de voir combien de pages comprend le"
 " document et vous pouvez changer le numéro pour atteindre la page "
-"souhaitée"
+"souhaitée."
 msgstr ""
 
-# 14a03a39b30b40ff86efbdd3a0482184
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:228
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:100
+#: c7389850fcbe4283ac6b30db791166ce
 msgid ""
-"Le **« -»  et le « + »** permettent de zoomer. Et l’ « \\ **Automatic "
-"zoom** » vous donne des dimensions prédéfinies"
+"Le **« -»  et le « + »** permettent de zoomer. Et l’ « \\ **Automatic "
+"zoom** » vous donne des dimensions prédéfinies."
 msgstr ""
 
-# ead5adf454904f4ba6728d1a8dc47dcd
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:234
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:105
+#: 6e6a262c68754a50817b3f6b67f730e7
 msgid ""
-"Le dossier blanc avec une flèche noire vers le haut permet **d’ouvrir "
-"votre browser** et d’aller chercher un document sur votre ordinateur."
+"L’icône « imprimante » permet de **télécharger** le document en PDF. Vous"
+" retrouverez le lien pour l’ouvrir dans le coin inférieur gauche de votre"
+" écran ou en haut à droite de votre navigateur (selon le navigateur "
+"utilisé). Par défaut Windows classe les fichiers téléchargés dans le "
+"dossier « Téléchargements » (de votre PC)."
 msgstr ""
 
-# d667d25ab8f9467e9af6234d2b65f974
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:240
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:107
+#: 6d6508ae840545c1b090664c27f3de9d
 msgid ""
-"La feuille blanche avec une flèche noire vers le bas permet de "
-"**télécharger** le document en PDF. Vous retrouverez le lien pour "
-"l’ouvrir dans le coin inférieur gauche de votre écran (selon votre "
-"browser)"
-msgstr ""
-
-# 4bc5761f9dc24f20a09a4f82079d41db
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:251
-msgid ""
-"Un clic-droit sur l’étendard vertical permet plusieurs options, dont "
-"celle d’ouvrir le document ou la **prévisualisation** dans une autre "
-"fenêtre/onglet ou copier le lien (URL)."
-msgstr ""
-
-# bb66c2c9ed02487fb04f53d9705d11b2
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:261
-msgid ""
-"Vous pourrez alors **consulter la version PDF** du document avec les "
-"fonctionnalités PDF associées"
-msgstr ""
-
-# c465001e2fd840718846216aef7bdffe
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:267
-msgid ""
-"Et enfin, le dernier icône avec les 2 flèches vers la droites ouvrent "
-"d’autres options, dont « **Enable hand tool** », la petite main qui "
+"Et enfin, la dernière icône avec les 2 flèches vers la droite ouvre "
+"d’autres options, dont « **Enable hand tool** », la petite main qui "
 "permet notamment de monter/descendre dans un PDF sans utiliser le "
 "curseur."
 msgstr ""
 
-# 65d3a7ae0a8c48628a9af96d802c44c9
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:276
-msgid "Actions sur la page d'un document/contenu"
-msgstr ""
-
-# dff31285ebd54347be279733a01b3ae2
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:278
-msgid ""
-"Il y a plusieurs **fonctionnalités liées à un document** telles que : "
-"actualiser l’aperçu, processus et tâches (workflow), pleine page, actions"
-" contextuelles (parcourir, modifier, télécharger, …)"
-msgstr ""
-
-# 329cc9597ef74316bc1f1232b3c644a3
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:283
-msgid "Actualiser l’aperçu"
-msgstr ""
-
-# 037c7c140dd645ca88403ffda0c565d2
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:285
-msgid ""
-"Revient à **rafraîchir la page** et permet de mettre à jour la "
-"synchronisation."
-msgstr ""
-
-# 27dbc444510548c3b84292e35d7ad833
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:292
-msgid "Processus et tâches / Workflow"
-msgstr ""
-
-# 331b6e80fe66474a92065c5d49898f99
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:294
-msgid ""
-"Permet de **confier une tâche** à un autre utilisateur, par rapport à ce "
-"document : demander une contribution, une validation, … Ou de voir "
-"quelles sont les tâches qui vous sont attribuées par rapport à ce "
-"document\\ **.(= To Do)**"
-msgstr ""
-
-# 96c8429b3de049ee85a748a091288d78
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:303
-msgid "Commenter"
-msgstr ""
-
-# 9f4bc8c8a4954009997197e1d4dd673e
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:305
-msgid ""
-"Permet de mettre un **commentaire général** sur le document, qui se "
-"retrouvera en dessous de la prévisualisation et donc sera visible par "
-"tous les membres de ce groupe dès qu’ils arriveront sur la "
-"prévisualisation de ce document."
-msgstr ""
-
-# 138cb332e20c4e549a9ab0c2f2837da6
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:314
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:113
+#: 85d76205d6514d60b9192559418500dd
 msgid "Afficher le contenu en pleine page"
 msgstr ""
 
-# f3d632e6d4804dce963ce8ca13243ff5
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:316
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:115
+#: 1f151a4ff700446a8bf580f72f26e600
 msgid ""
 "Permet de **masquer** toutes les données autour de la prévisualisation et"
-" ne n’avoir plus que la page du document en vue plein écran."
+" n’avoir plus que la page du document en plein écran."
 msgstr ""
 
-# 38806fd2ef614b0bbcf709769deedc30
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:322
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:120
+#: b194a980db3a47759a7123a2a7cb21b4
 msgid ""
 "Pour revenir à la prévisualisation normale avec les infos, il suffira "
-"d’appuyer sur le logo à 2 flèches"
+"d’appuyer sur le logo à 2 flèches."
 msgstr ""
 
-# 15a57d4c3cb24fa0b854ace228c7ec3a
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:329
-msgid "Actions contextuelles"
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:127
+#: 76ccbb8fd5c745e9b448a73383323fc0
+msgid "Actualiser la prévisualisation"
 msgstr ""
 
-# 3382fdecc5ca4e50b8c4191e17f19194
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:331
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:129
+#: 47bdf307a48c4f2da7530fc83030fda6
 msgid ""
-"Ce sont toutes les **actions qu’on peut faire avec /sur ce document** : "
+"Permet de **rafraîchir la prévisualisation** pour la mettre à jour après "
+"l’édition du document (ex. Si vous consultez un document alors qu’il est "
+"en cours d’édition par un autre utilisateur et après qu’il ait sauvegardé"
+" ses modifications)."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:136
+#: 3a080d2657014c93aa4c0295f9a80cf0
+msgid "Zone pour glisser-déposer nouvelle version"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:141
+#: 8be2bb5170b44f42b9b1d756151e49ac
+msgid ""
+"Le fait de **glisser une nouvelle version** de votre document à cet "
+"endroit (au-dessus de la prévisualisation) va écraser la précédente "
+"version, mais conservera dans tous les cas toutes les anciennes versions "
+"(accessible via l’onglet « versions »)."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:143
+#: 46b0bf0c685a4ed38553841d47ac3056
+msgid ""
+"Le système vous demandera alors si vous voulez qu’elle devienne une "
+"version majeure (ex. passer de 1.24 à 2.0). A ce moment-là, vous pouvez "
+"également ajouter un commentaire lié à cette nouvelle version majeure."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:145
+#: 00293d4004af434b9939077b7a7a4992
+msgid ""
+"Les autres versions faites lors de l’édition et de l’enregistrement via "
+"une application de son PC ou la Suite Office Collaborative sont "
+"considérées mineures."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:147
+#: a00fd1368ee3463cb64a4e498dd67fd4
+msgid "Terminez en cliquant sur « Valider »"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:152
+#: db4bd77888534d539c385402c80b89d3
+msgid ""
+"Vous pouvez retrouver le numéro et la date, avec le contributeur de cette"
+" dernière version, à droite des métadonnées (bloc d’informations)."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:155
+#: 8e9cbae3e93d41f49e641fe7c0605618
+msgid ""
+"Vous ne pouvez glisser/coller que des documents de même format, ce qui "
+"veut dire que vous ne pouvez pas remplacer une version avec une extension"
+" « doc » par une version « docx » et vice-versa."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:156
+#: bcd716c480514aa394722250abc80f18
+msgid "Autrement, voici le message d’erreur que vous aurez :"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:161
+#: aa152f46c9024e6683dde0ee15297b4a
+msgid ""
+"Si vous chargez une nouvelle version, mais que le nom du fichier est "
+"différent, vous aurez ce message (mais vous ne serez pas bloqué) :"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:167
+#: 4a7941ff0ecb49a29154e6f48b827314
+msgid ""
+"Bloc d’informations (onglets : informations, Tâches, Commentaires, "
+"Versions, Audit)"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:168
+#: d0ded5dc5a864549b1c804f8509c158b
+msgid ""
+"Sur la page d’un document/contenu, vous avez un bloc de métadonnées et "
+"autres éléments associé au document (à droite de votre prévisualisation)."
+" Ce bloc est constitué de différents onglets :"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:170
+#: 8a78474c7b574f1aa7553db625044d94
+msgid "**Informations**"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:172
+#: 82f95882fe714d578dc2ed66acf4deb7
+msgid ""
+"Sur la page du document, vous disposez de diverses informations relatives"
+" au document/contenu : type de document, taille, format, catégorie, "
+"auteur, langue, version, emplacement, etc"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:174
+#: 052cc4efc36347b59535b11a6f0d28bc
+msgid ""
+"Ces informations sont très utiles lors de la recherche automatique car "
+"elles vous permettront de filtrer davantage vos résultats."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:198
+#: 537fd6605c2740898da59156ef0ffa77
+msgid "Liste des métadonnées standards GoFAST :"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:180
+#: 608fb6cd4d0a4fa38308a79703a84ad6
+msgid ""
+"Type de fichier (selon le format, ex : texte, présentation, tableur, "
+"image…)"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:181
+#: a6096211eddd49d7be70e60c57a2ce3a
+msgid "Extension de fichier (ex : docx, xlsx, odt, png, mp4…)"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:182
+#: 9f0bbcf6892a4edc96490610f4fb71eb
+msgid "Taille du fichier"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:183
+#: c61cd177112043bfb5aa3e52c2099a57
+msgid "Catégories de document (ex. Facture, Rapport, Contrat, Documentation…)"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:184
+#: 35f4cc2bd50342e8bd488847a35d3803
+msgid "Etat (ex : brouillon, en cours, en attente de validation, terminé…)"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:185
+#: 5dfa2cfae5954f6eb42e78141ee6d213
+msgid "Note (de 1 à 5 avec un unique vote par utilisateur)"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:186
+#: 47771a2064f740858e5bdaf19e2b2031
+msgid "Popularité (dépende des consultations et actions récentes sur le document)"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:187
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:874
+#: 1c6917bf69f14b8c98c77c4027432497 c76e6dd4ee974b4c87b00e2d33955cab
+msgid "Référence documentaire"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:188
+#: efe90a395443494ba734618cf0d61ca6
+msgid "Échéance"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:189
+#: 90ec4a91917a418cb0d37a827a4024be
+msgid ""
+"Auteur (différent du créateur : donnée libre ou récupérée depuis le "
+"fichier)"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:190
+#: f87ebdb997444356a90348a99d14a4b9
+msgid "Importance (dont classification selon niveau de confidentialité)."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:191
+#: d20152b809574e4289eaf2c2486fc948
+msgid "Date de création du document (piste d’audit)"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:192
+#: da0905f74cb542399af833b8dda8ae7e
+msgid "Créateur du document (piste d’audit)"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:193
+#: 7af4e970cfb54a76804ba9c73749d252
+msgid ""
+"Date de modification du document avec numéro de version (piste d’audit et"
+" gestion des versions)"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:194
+#: ac7fac85c4f34cce99a5d1cedd696fcd
+msgid "Modifié par (utilisateur à l’origine de la dernière version du document)"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:195
+#: 8ed7277b57e94958847a0dcd86de8c5b
+msgid "Emplacements/Visibilité (renvoi vers le multi-emplacement)"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:196
+#: a102d39c96414fee99e2bb11c4af6135
+msgid "Etiquettes (mots-clefs à ajouter librement)"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:197
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:972
+#: 228cedcf120e457486750379bff18899 55186e71d65c429783e01284c243e8db
+msgid "Contenus liés (liens vers/en prévenance de, liens externes)"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:198
+#: ead9b25ca37840d1b7fb156482f86918
+msgid "Langues"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:200
+#: b42b6b0e4fe740b6be228b66a426bc4d
+msgid ""
+"Ces métadonnées sont en grande partie utilisées comme filtres du résultat"
+" de recherche (après avoir effectué une recherche par mots-clefs)."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:202
+#: 85d9bcc5a77e4a619aaf9011658c73a4
+msgid ""
+"Pour en savoir plus sur l’utilisation des métadonnées, merci de bien "
+"vouloir vous référer à la rubrique : « Ajouter/Modifier les informations "
+"d’un document (métadonnées) »"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:204
+#: f2698a672bad453bb693e27c35bbc4e8
+msgid "**Tâches**"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:206
+#: 48faa60cb97b491f939d6bbe3e39d2cb
+msgid ""
+"Permet de **consulter ou d’assigner une tâche de processus** à un autre "
+"utilisateur sur le document : demander une contribution, une validation… "
+"Ou de voir quelles sont les tâches qui vous sont attribuées sur le "
+"document\\ **.(= To Do)**"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:208
+#: 0580dcde07ba44c5b79f4c128c5b6a2a
+msgid ""
+"Pour en savoir plus sur l’utilisation des tâches de processus, merci de "
+"bien vouloir vous référer à la rubrique : « Processus de Tâches-Workflows"
+" (Entreprise Olny)»"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:210
+#: 75cea18f29f84f46b9af2335ecc1a37b
+msgid "**Commentaires**"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:212
+#: b9d596d1d0c845768f013c7bbb2f29b9
+msgid ""
+"Permet de consulter les divers commentaires laissés par les utilisateurs "
+"ayant accès au document ou de partager un nouveau commentaire sur le "
+"document, qui sera donc visible par les membres du/des Espace(s) où se "
+"trouve le document, dès qu’ils arriveront sur la page."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:214
+#: 447a753a09e947f79926e28baccaef92
+msgid ""
+"Pour en savoir plus sur l’utilisation des commentaires, merci de bien "
+"vouloir vous référer à la rubrique : « Commenter un document »"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:216
+#: 86feb885673b47e8a780cd1d02927517
+msgid "**Versions**"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:218
+#: 6106a9d3990b4a0bb809d660332f47ac
+msgid ""
+"GoFAST permet de sauvegarder chaque nouvelle version d’un document après "
+"édition, avec un numéro de version, l’horodatage et l’identité de "
+"l’utilisateur contributeur. Pour plus d’information sur la gestion des "
+"versions, merci de vous référer aux rubriques :"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:220
+#: 1fc5efefad6e492db875648886eee1b0
+msgid "Gestionnaire de versions de document"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:221
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:263
+#: 33c02cef4a6641dd8d5ff0679dde765e c4af73f994f4419181367c3e5ac512d8
+msgid "Charger nouvelle version"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:222
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:264
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:624
+#: 1ec61a097a3042acab5d85522e0191f7 51155f1257ff4d76a526e1d80626c5ce
+#: 9735beb42ed845758f3e7c343d9a7f61
+msgid "Définir comme version majeure"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:223
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:265
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:670
+#: 131ac7271dac42d5bb7f80ca544eeb32 a4d22bb0c8f2402bbb2997a37f4dd1d7
+#: fd643dd1786940e28b32eda35bdfdd05
+msgid "Supprimer les versions mineures"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:226
+#: acba6b6c1e3b470d920f1bdd3d6dc506
+msgid "**Audit**"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:228
+#: c2d65d01c8454723b80d9f948467ebbe
+msgid ""
+"GoFAST offre de très nombreuses pistes d’audit sur les actions réalisées "
+"sur les documents pour des questions de sécurité et de contrôle des "
+"données. L’audit n’est accessible que pas les utilisateurs ayant le "
+"profil \"support-utilisateurs\", sur la page d’un document (dernier "
+"onglet du bloc d’information), ou depuis la page Audit accessible via le "
+"menu principal de gauche. Pour en savoir plus, merci de vous référer à la"
+" rubrique : « Profil Support-Utilisateurs »."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:233
+#: 08cd98cdc2984c3dbed619959ec2c4d5
+msgid "Accès direct à l’édition collaborative"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:234
+#: 6929cdceca97430e9c2b71087934e8b8
+msgid ""
+"A dessus de la prévisualisation du document, vous trouverez l’icône « "
+"crayon » qui permet d’ouvrir un fichier office directement dans la Suite "
+"Collaborative OnlyOffice, sans passer par le menu « Burger » (menu des "
+"actions contextuelles). Pour en savoir plus sur l’édition d’un document, "
+"merci de vous référer à la rubrique : « éditer/coéditer un document »"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:238
+#: aa4649b466ca4c35a418156d44f5b726
+msgid "Comprendre le verrou d’édition"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:239
+#: 1e23961a995f43029520b555dba6d811
+msgid ""
+"GoFAST dispose d’un système automatique de verrouillage d’un document "
+"lorsqu’il est en cours d’édition. Ce verrou est aussi relâché "
+"automatiquement dès lors que l’utilisateur a fermé l’application utilisée"
+" pour l’édition. Le verrou est rouge fermé, si le document est édité par "
+"un utilisateur via une application de son PC (ne permet pas la coédition "
+"en simultanée). Le verrou est rouge ouvert, si le document est édité par "
+"un ou plusieurs utilisateur(s) via la Suite Office Collaborative de "
+"GoFAST OnlyOffice (cela permet alors la coédition en simultanée et vous "
+"pouvez rejoindre cette coédition dans OnlyOffice). Pour en savoir plus "
+"sur l’édition d’un document, merci de vous référer à la rubrique : « "
+"éditer/coéditer un document »"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:245
+#: 44fe1d2042024ec59b5195e0fff12b70
+msgid "Menu des actions contextuelles \"Menu Burger\""
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:247
+#: 4241c98026e0485093d6b9b90b737081
+msgid ""
+"**Liste des actions disponibles dans le menu \"Burger\" (dépend de vos "
+"droits sur le document) :**"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:249
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:293
+#: b03eab1e722c4042b7cb322ce8fe5a33 c78caec650dd4e3abba2973675b41bd8
+msgid "Ouvrir l’emplacement du document"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:250
+#: d6cd1a73fa7c47c5be4b32c6e6358575
+msgid "Co-éditer avec OnlyOffice (renvoi vers éditer un document)"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:251
+#: 061972e20b8b44a2a97802ba423d1d61
+msgid "Editer depuis PC (renvoi vers éditer un document)"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:252
+#: e4d2d6cdfc1a41b98b8b8ec5617d0793
+msgid "Nouveau Commentaire (renvoi ver Travail Collaboratif sur les documents)"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:253
+#: 54d8d74ebab841498ea618a6fce89e96
+msgid ""
+"Partager/ Modifier les emplacements (renvoi ver Travail Collaboratif sur "
+"les documents)"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:254
+#: 9720cd931e684c15b7c5cc6ca40962a5
+msgid ""
+"Partager le document par mail (renvoi ver Travail Collaboratif sur les "
+"documents)"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:255
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:366
+#: 10ba09b90945455a977dfad774176e9c 7c90b7880b894ee5b9e17a5f13473d16
+msgid "Télécharger le document"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:256
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:391
+#: 78ca3593080c4f7aa70b97a9cf5253e8 b65c5878105c406b83a942267146ebfd
+msgid "Permalien"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:257
+#: 048b105b325545a99240134fedd4717e
+msgid "Créer depuis modèle (renvoi vers créer un document)"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:258
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:422
+#: 1c1881bffd844fce807b22b70f37697b d1421893b368475faa95dd8a25a1d70e
+msgid "Créer une publication"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:259
+#: 1faef6738a484565bfdbb8452999fc4c
+msgid "Renommer un document"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:260
+#: 5ea7ead7640742eb9dd187bf098b9962
+msgid "Modifier le Résumé"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:261
+#: b056a84e3ee44e36a16f8de48e3daab9
+msgid "Supprimer"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:262
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:538
+#: 0990743b01b341a5b95372e7f3340eed c622f91a11614a10afb58b2a89502ffc
+msgid "Gérer les traductions"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:266
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:701
+#: 05edb3f0e104439eaf2af9d061720c88 a0fb84c61b4444cc95a278fb045cefea
+msgid "Comparer deux versions"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:267
+#: a34cf6caa076472c93d2e646cfdc9f0f
+msgid "Ajouter aux favoris (renvoi vers Tableau de Bord d’Accueil)"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:268
+#: 8e498fe4fb3c4d9295e62c930721be72
+msgid "Ajouter aux favoris d’Espace"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:269
+#: d0b0515489b048b7a3f9ea7c4eefc5d7
+msgid "Ajouter au panier (renvoi vers panier)"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:270
+#: 14c5128c357b48aca84cb2f0e3b25fb7
+msgid "Epingler ce contenu (renvoi vers fil d’activité)"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:271
+#: 3052d528b961453c95790ca007a45dd9
+msgid "S’abonner (renvoi vers gérer ses abonnements)"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:272
+#: 6e75c4ebcba14cb2870c8366341dc695
+msgid ""
+"Autre actions possibles (renvoi vers les modifier les autres types de "
+"contenus + modules additionnels)"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:274
+#: fa217e262bad48a9b33a7b7744f0d8ce
+msgid ""
+"Pour en savoir plus sur ces actions, merci de vous référer à la rubrique "
+": « Actions sur un document/contenu »)"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:278
+#: a53494ef752d406e9c165c4173ee7674
+msgid "Gestion Collaborative des Documents / Contenus"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:281
+#: 3ebe3a282cd74c139b9a185dfa1a7b34
+msgid "Actions sur un document/contenu (Cf. Menu \"Burger\")"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:283
+#: 51ea445b4e384d2ebf38dc6b28ed5084
+msgid ""
+"Ce sont toutes les **actions qu’on peut faire avec /sur ce document** : "
 "parcourir, télécharger, éditer en ligne/modifier, nouveau commentaire, "
 "envoyer par mail, gérer les traductions, créer une publication, …"
 msgstr ""
 
-# 4210fe6d45e145cfa8f6534008522c01
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:339
-msgid "Actions contextuelles / fonctionnalités sur un document"
-msgstr ""
-
-# b769ef58196c4e67b4fcd89d987769ad
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:341
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:285
+#: 5c01133176704571b4ff1669b3d4a5d9
 msgid ""
-"Ces actions liées directement au document que vous prévisualisez peuvent "
-"**varier selon le rôle** que vous avez dans ce groupe "
-"(standard/contributeur, administrateur ou en lecture seule). Et selon que"
-" vous en êtes l’auteur ou pas."
+"Ces actions liées directement au document que vous prévisualisez, peuvent"
+" **varier selon le rôle** que vous avez dans le(s) Espace(s) où se trouve"
+" le document (administrateur, contributeur, ou en lecture seule), et "
+"selon que vous en êtes le créateur ou pas du document."
 msgstr ""
 
-# b7ecd53534594383960ed7555abb175c
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:351
-msgid "Renommer un document"
-msgstr ""
-
-# e5c59662e1e74629953a4d23c8d6c523
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:353
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:290
+#: f21a543abc014502b4d06fb7902148a7
 msgid ""
-"Si vous en avez les droits ou en êtes l’auteur, vous pouvez renommer un "
-"fichier via l’ action contextuelle : «**Rename**»."
+"Pour voir la liste des actions possibles depuis ce menu, merci de vous "
+"référer à la rubrique : « Menu des actions contextuelles Menu Burger ». "
+"Pour savoir comment effectuer les diverses actions possibles sur un "
+"document, merci de poursuivre dans cette rubrique."
 msgstr ""
 
-# b4cef9db3b6a4a04a6e541b6c75b854e
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:356
-msgid "Changez le nom dans la case blanche et « Appliquez »"
-msgstr ""
-
-# e1cc8693f8034a87a352ce9f878dfa5b
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:365
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:294
+#: 0c275c01bbb74cc3a7b781287efa5454
 msgid ""
-"Faites ensuite un refresh de la page pour être certain que le changement "
-"a été enregistré. Les petites flèches rondes apparaîtront en rouge pour "
-"vous le rappeler."
+"Lorsque vous prévisualisez un document, vous pouvez voir le(s) "
+"emplacements de ce dernier dans l’arborescence, avec les niveaux "
+"supérieurs de dossiers et espaces. Vous pouvez aller dans l’explorateur "
+"de fichiers à partir :"
 msgstr ""
 
-# 64183ba93b7f478ba44530b374bcc4ea
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:373
-msgid "Résumé/présentation d’un document"
-msgstr ""
-
-# f933588d9a5445d9babb75b9daa151c9
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:375
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:297
+#: f903b8279f774bf28ed091ec958a2112
 msgid ""
-"Si vous voulez ajouter un genre de résumé/présentation à votre document, "
-"cliquez sur « **Modifier le Résumé** » dans les « actions contextuelles» "
-"dans le coin droit en haut de la prévisualisation du document."
+"des actions contextuelles (Menu « Burger »), en cliquant sur « Ouvrir "
+"l’emplacement du document »."
 msgstr ""
 
-# a5158102a02b44efa9e54792daaeb0b1
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:382
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:298
+#: 5e1b522fa85c42e481acfa8a6d92a3f2
 msgid ""
-"Une fenêtre de texte s’ouvre avec les mêmes fonctionnalités que Word : "
-"écrivez votre texte et sauvez en cliquant sur « Appliquer »."
+"En un clic sur les emplacements listés dans le bloc d’informations (Champ"
+" « Emplacements /Visibilité »)."
 msgstr ""
 
-# 07270f092e904c7f91995ec7609ee418
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:388
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:303
+#: 1caa6fa6c0964703bc32c0f18f6c0525
 msgid ""
-"Le texte se retrouvera au-dessus de la prévisualisation de votre "
-"document, entre le titre et le document."
+"Vous arriverez alors sur l’explorateur de fichiers, sur la page d’un "
+"espace (onglet Documents), où retrouverez votre document dans "
+"l’arborescence."
 msgstr ""
 
-# cd48a8f4ea1a4caa98360b25e02f5495
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:394
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:308
+#: f8731576bdb1420cb30bf2e0d0c3f667
 msgid ""
-"Si vous voulez changer le contenu de ce résumé, appuyez sur « Modifier le"
-" Résumé», qui apparaît lorsque vous mettez la souris au niveau du résumé."
+"De là, vous pouvez naviguer dans l’arborescence, chercher d’autres "
+"documents, utiliser le filtre par dossier…"
 msgstr ""
 
-# 5e6f76f318c24dd49e3937294b5c6868
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:402
-msgid "Télécharger le document"
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:312
+#: e9b982e5abb24e579992d942e8f03728
+msgid "Co-éditer avec OnlyOffice"
 msgstr ""
 
-# c1089ceb33be489894a161bf6aceed32
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:404
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:313
+#: de52552351cf435b8d2882ca6d31a41f
 msgid ""
-"A partir des actions contextuelles de la prévisualisation, vous pouvez "
-"**télécharger le document** afin de l’ouvrir pour lecture ou pour le "
-"sauver sur votre ordinateur."
+"GoFAST apporte une dimension très innovante et vous permet d’éditer des "
+"documents Office dans un simple navigateur **avec d’autres personnes en "
+"simultané**. Vous pouvez ainsi travailler à plusieurs, en même temps, sur"
+" un même document. Pour savoir comment coéditer un document, merci de "
+"vous référer à la rubrique : « Coéditer un document »."
 msgstr ""
 
-# c6c7f09d76154c0b99eabc7499896673
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:411
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:319
+#: d51d58ff2a0145d4a8b4b73c7489cc08
+msgid "Editer depuis PC"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:320
+#: af5bd77b954f4b72a66fbf23b1154191
 msgid ""
-"Vous verrez probablement ce message vous demandant si vous voulez ouvrir,"
-" sauver le document ou annuler l’action."
+"Cette fonction permet **d’ouvrir un fichier pour édition/modification** "
+"via une application instalée sur son PC, sans avoir à le télécharger au "
+"préalable. Pour savoir comment coéditer un document, merci de vous "
+"référer à la rubrique : « Editer un document »."
 msgstr ""
 
-# c3efecdc51a242c9b327f0aece533177
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:414
-msgid "Si vous voulez juste l’ouvrir pour lecture => « Open »"
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:324
+#: 8cc185885b8d444d94cdce59befd7af5
+msgid "Nouveau Commentaire"
 msgstr ""
 
-# 4625a11301d54069b692020a19e7012c
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:416
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:325
+#: a6de3a0f50864560a5c92e7989d9cf01
 msgid ""
-"Si vous voulez le sauver ailleurs => « Save » et l’explorateur de votre "
-"ordinateur s’ouvrira pour pouvoir enregistre ce document où vous voulez, "
-"ailleurs que sur la GoFAST."
+"Le bouton « Nouveau commentaire » permet d’ajouter un commentaire sur le "
+"document où on se trouve. Ce commentaire sera visible dans l’onglet « "
+"Commentaires » du bloc de droite et partagé avec tous les utilisateurs "
+"qui ont accès à ce document. Cela évite l’envoi d’un grand nombre "
+"d’emails et évité par la même d’envoyer des pièces-jointes d’emails. Pour"
+" savoir comment les commentaires d’un document, merci de vous référer à "
+"la rubrique : « Commennter un document »."
 msgstr ""
 
-# 977a6905c8e44a39aaf9635f9ad7405d
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:423
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:329
+#: 4529c650a56b4b4a8025040f1623bc00
+msgid "Partager/ Modifier les emplacements"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:330
+#: 74081d33a6b941c580c8facab939dc8c
 msgid ""
-"Ou alors il se téléchargera tout seul, et vous le retrouverez dans le "
-"coin inférieur gauche de votre écran"
+"Ce bouton permet d’ouvrir la fenêtre de gestion des emplacements du "
+"document. Il s’agit d’un partage sans doublon, dans divers Espaces "
+"Collaboratifs (ou dossiers) pour pouvoir aisément collaborer avec "
+"diverses équipes et autres directions. Pour savoir comment "
+"ajouter/enlever des emplacements à un document, merci de vous référer à "
+"la rubrique : « Modifier les Emplacements/Visibilité »."
 msgstr ""
 
-# 320b3d94967b4aa19827c02c0e808606
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:430
-msgid ""
-"Si vous téléchargez un document, que vous y apportez des modifications, "
-"elles ne seront pas synchronisées sur la GoFAST. Il faudra remettre le "
-"document au même emplacement (glisser/coller comme nouvelle version) pour"
-" que GoFAST les prennent en compte. Cela porte un risque car si un autre "
-"collègue a fait des modifications en ligne pendant au même moment, vous "
-"allez écraser sa version actuelle et ses modifications seront donc "
-"perdues."
-msgstr ""
-
-# 4266ebb14c084bda8b766c0c94f8a1a6
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:440
-msgid "Charger une nouvelle version du document"
-msgstr ""
-
-# fb72882470f54436a720d04f218e2c8d
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:442
-msgid ""
-"Via les actions contextuelles de la prévisualisation, vous pouvez "
-"**charger une nouvelle version du document**, ce qui revient à écraser "
-"l’ancienne version et à repartir de celle que vous venez de charger comme"
-" nouvelle base de travail. Vous pouvez même la rendre « Version majeure "
-"»."
-msgstr ""
-
-# 23aac17c77874af39a9f0c8bb57731bb
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:451
-msgid ""
-"Aller chercher la nouvelle version du document sur votre ordinateur via "
-"le bouton « Browse », terminez avec « Open ». Le nom du fichier "
-"apparaîtra sur la ligne grise."
-msgstr ""
-
-# 8608d9694c5640f1813c23bfde135655
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:455
-msgid ""
-"Choisissez de la rendre version majeure (1.36 => 2.0) en cochant la case "
-"« Enregistrer comme version majeure », ajoutez un commentaire si vous "
-"voulez et terminez avec « Valider »"
-msgstr ""
-
-# 4e13be6e72174c47895c63bd475a479f
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:462
-msgid "Par conséquent le numéro de version changera dans les métadonnées."
-msgstr ""
-
-# 2abbac58238e4175adb76777259df13f
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:468
-msgid "Glisser-déposer une nouvelle version"
-msgstr ""
-
-# e84369cffed74e929073d6f06f9d45b3
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:473
-msgid ""
-"Le fait de **glisser une nouvelle version** de votre document à cet "
-"endroit (dans la fenêtre des métadonnées liées au document) va écraser la"
-" précédente mais conservera toutes les anciennes versions (=> "
-"historique). Le système vous demandera alors si vous voulez qu’elle "
-"devienne une version majeure (passer de 1.0 à 2.0 par exemple = nouvelle "
-"base de travail). Les autres petites modifications précédentes étant "
-"considérées comme des versions mineures à chaque fois qu’il y a eu une "
-"sauvegarde sur le document."
-msgstr ""
-
-# 2563286deb7b4238a32455a632104afd
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:482
-msgid "Si pouvez également ajouter un commentaire sur cette nouvelle version."
-msgstr ""
-
-# 9d694ca667cb4d7185824e5eed1f030b
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:484
-msgid "Terminez par « Valider »"
-msgstr ""
-
-# 1faae1c1f2aa4a43bd84c47a72ed07df
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:489
-msgid ""
-"Vous pouvez retrouver les versions précédentes en bas des métadonnées "
-"également."
-msgstr ""
-
-# ed78b4975c654912b70be11b63ce04d9
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:493
-msgid ""
-"Vous ne pouvez glisser/coller que des documents de même format, ce qui "
-"veut dire que vous ne pouvez pas remplacer une version avec une extension"
-" « doc » par une version « docx » et vice-versa."
-msgstr ""
-
-# a0101a3398344bbfadd0de9b677299a7
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:498
-msgid "Sinon voici le message d’erreur que vous aurez"
-msgstr ""
-
-# 09146ead4c0e4921a161cc87d0029e73
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:503
-msgid ""
-"Si vous chargez une nouvelle version mais que le nom du fichier est "
-"différent, vous recevrez ce message."
-msgstr ""
-
-# c3b8ad6f27654c949218748b28e20b70
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:512
-msgid "Gérer les traductions du document"
-msgstr ""
-
-# 98731ac97f294f36bbabe38e0e1c4687
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:514
-msgid ""
-"Si le document existe en **plusieurs langues**, vous pouvez les **lier "
-"entre elles** pour ainsi passer d’une version de document à sa traduction"
-" en un clic ."
-msgstr ""
-
-# 1cf66833b0c441fd916c77acd0fe157f
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:518
-msgid ""
-"Dans les actions contextuelles, prenez l’option « Gérer les traductions »"
-" dans « voir plus d’options »"
-msgstr ""
-
-# 533270289f4840bba419e1eaf2a30d45
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:524
-msgid ""
-"Une fenêtre avec plusieurs champs s’ouvre, ceux-ci correspondent aux "
-"traductions possibles."
-msgstr ""
-
-# ef8bc53370e34e04aef2af021370e74c
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:527
-msgid ""
-"Pour notre exemple, prenons la version en Français à laquelle on veut "
-"lier la version en Anglais. On part donc de la prévisualisation du "
-"document en français."
-msgstr ""
-
-# 8a5754ba9c774b4ba3dcbe8b2a8a5732
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:531
-msgid ""
-"Et on remplit le champ de la version anglaise. Il suffit d’écrire les 3 "
-"premières lettres du nom du fichier anglais et le système vous donnera "
-"des propositions, sélectionnez votre document et terminez avec « Mettre à"
-" jour les traductions »."
-msgstr ""
-
-# c613830b4f274065a8b802f6d587ce64
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:539
-msgid ""
-"Dans les métadonnées, il sera à présent indiqué les différentes "
-"versions/traductions dans lesquelles on peut trouver ce document. Le 1\\ "
-":sup:`er` drapeau étant le document d’origine que vous prévisualisez et "
-"les drapeaux suivants sont les traductions existantes."
-msgstr ""
-
-# 1a567a79123b4e13b7a226dba9338074
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:544
-msgid ""
-"Il suffit de cliquer sur les différents drapeaux pour prévisualiser les "
-"autres traductions."
-msgstr ""
-
-# f7be86e72ff14224a76f62913f0e3588
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:551
-msgid ""
-"GoFAST ne permet pas de traduire des documents, il s’agit ici de "
-"documents qui existent déjà en différentes langues et qu’on veut lier par"
-" facilité pour pouvoir passer d’une à l’autre en un clic."
-msgstr ""
-
-# 40b6152aced540a6b1653c5f6f8ff6e0
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:556
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:334
+#: 83b1e5fb6f794a85aa30fdff27a69ba8
 msgid "Partager le document par mail"
 msgstr ""
 
-# 36eefba33d4b403b83bf4f8462b433a6
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:558
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:336
+#: 213099997ed4467089d717fec22d473b
 msgid ""
-"Via les actions contextuelles de la prévisualisation, vous pouvez "
-"**envoyer un lien sécurisé** sur le document directement **par email** à "
-"un utilisateur, une liste d'utilisateur, les membres d'un Espace "
-"Collaboratif ou bien à une adresse email externe. Le document sera donc "
-"automatiquement attaché à votre message. Ce lien est contextuel : les "
-"utilisateurs ayant accès au document pourront consulter sa page avec tous"
-" les détails, alors que les non-utilisateurs auront un lien de "
-"téléchargement valable 14 jours avec accusé de téléchargement."
+"Via les actions contextuelles (menu « Burger ») vous pouvez **envoyer un "
+"lien sécurisé par email** d’accès (pour les utilisateurs) ou de "
+"téléchargement du document (pour les non-utilisateurs), directement "
+"depuis GoFAST. Il est possible de saisir comme destinataires : un "
+"utilisateur, une liste d'utilisateur, les membres d'un Espace "
+"Collaboratif ou bien une adresse email externe. Le lien vers le document "
+"est également automatiquement attaché à votre message. Ce lien est "
+"contextuel : les utilisateurs ayant accès au document pourront consulter "
+"sa page avec tous les détails, alors que les non-utilisateurs auront un "
+"lien de téléchargement valable 14 jours avec accusé de téléchargement, "
+"l’audit de l’IP et horodatage."
 msgstr ""
 
-# 4a21efdef1f247b5b12b77930e91159f
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:560
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:342
+#: 0f80b70a74ba4dc594c351cec8e089c9
 msgid ""
 "Cette méthode est nettement plus sécurisée (RGPD) et auditable que "
-"l'envoi d'un email classique avec des pièces jointes sensibles"
+"l'envoi d'un email classique avec des pièces jointes. Cela permet "
+"notamment de ne plus surcharger votre boîte de messagerie avec des pièces"
+" jointes lourdes et rapidement obsolètes (car le travail collaboratif "
+"continu sur GoFAST par vos collègues)."
 msgstr ""
 
-# 3ba55dffbd074f99a5ad01cd086d4cee
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:562
-msgid ""
-"Ceci permet notamment de ne plus surcharger votre boîte mail avec des "
-"pièces jointes lourdes destinée à des personnes n'ayant pas de comptes "
-"GoFAST."
-msgstr ""
-
-# f8f9a16b2dba4992bb772c1be3867fa2
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:569
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:347
+#: db361d6aa1724ac38e204fc580ab8135
 msgid ""
 "Choisissez les destinataires en écrivant les 3 premières lettres de leur "
-"nom/prénom (le système vous proposera des utilisateurs) ; leur nom et "
+"nom/prénom (le système vous proposera des utilisateurs) ; leur nom et "
 "photo se retrouveront dans la barre des destinataires. Vous pourrez "
-"d’ailleurs annuler des noms en cliquant sur la petite croix rouge à côté "
-"de leur profil."
+"annuler des destinataires en cliquant sur la petite croix à côté de leur "
+"profil. Le sujet est automatiquement généré, mais vous pouvez le "
+"modifier."
 msgstr ""
 
-# 2727ecc28e3b43a2b6fd7cc6c5afe39f
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:575
-msgid "Le sujet est automatiquement généré."
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:351
+#: ce31362a5333486f8d603d985f26b863
+msgid "Ecrivez votre message et « Envoyez »"
 msgstr ""
 
-# 27b0c72e0fcb44eaa7384fc8e68346ed
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:577
-msgid "Le lien vers le document est également automatiquement attaché."
-msgstr ""
-
-# 033c8e00c3044bdda53ae9e10019ec62
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:579
-msgid "Ecrivez votre message et « Envoyez »"
-msgstr ""
-
-# be5968a50f9d45959ec1fdd0455a99d6
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:584
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:356
+#: 29a1c6d200d04cb4b846c38cfb8b63bd
 msgid ""
-"Le destinataire recevra une **notification par mail** et verra également "
-"un petit numéro à côté de l’enveloppe dans la barre des fonctionnalités "
-"générales de la GoFAST lui indiquant qu’il a reçu un nouveau message."
+"Le destinataire recevra une **notification par mail** avec le lien et "
+"votre commentaire. Il pourra clique sur répondre à la notification et "
+"c’est l’adresse email de l’expéditeur qui sera alors chargée dans la "
+"barre destinataire de messagerie. De même pour vous, lorsque que vous "
+"recevrez un nouveau message par mail via la GoFAST."
 msgstr ""
 
-# 0c177f2d73a14e5eb28b0a34e3f53071
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:588
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:360
+#: 764f106ef4d9451ba11d443dcb0e6e4b
 msgid ""
-"Pareil pour vous lorsque que vous recevrez un nouveau message par mail "
-"via la GoFAST."
+"Pour que les non-utilisateurs de la plateforme puissent récupérer les "
+"documents, ces liens redirigent vers un page où ils pourront télécharger "
+"les documents dans un délai de 14 jours."
 msgstr ""
 
-# 403c46aba9a64611bb8395b10c50d1ea
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:595
-msgid ""
-"Pour que les non-utilisateurs de la plateforme puissent également avoir "
-"accès à certains documents, les liens attachés au mail sont utilisables "
-"pendant 15 jours. Une fois le document téléchargé, les non-utilisateurs "
-"peuvent le consulter de suite."
-msgstr ""
-
-# c2a469df767c49bbab8c3bade31f8e02
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:600
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:362
+#: c37746c4c41e4bb8ae05d7163c33be8d
 msgid ""
 "**Exemple** de mail/notification reçu dans votre boîte mail normale, vous"
 " invitant à cliquer sur le lien attaché pour visualiser un document. Avec"
 " le message pour les non-utilisateurs de GoFAST (qui n’ont pas de compte "
 "GoFAST) signalant que ce lien est utilisable 2 semaines à partir de la "
-"date de réception du mail."
+"date de l’envoi de l’email."
 msgstr ""
 
-# 2492cf3bcac74912b47f3eadb101a9b9
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:610
-msgid "Créer une publication du document"
-msgstr ""
-
-# f828c6e1eec84bd496ef26bac1300ef9
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:612
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:368
+#: 691e93b49fa84e31929a5ad3253e3661
 msgid ""
-"Faire d’un document une publication consiste à en copier une version "
-"donnée dans un autre espace, d'éventuellement le transformer en PDF pour "
-"le **rendre non modifiable.**"
+"Via le menu des actions contextuelles (menu « Burger »), vous pouvez "
+"**télécharger le document** afin de le sauver sur votre ordinateur. A "
+"noter qu’il s’agit d’une pratique fortement déconseillée, car une version"
+" donnée téléchargée à un instant précis, devient rapidement obsolète (si "
+"le document est mis à jour par un autre utilisateur)."
 msgstr ""
 
-# d496f98e78d948e9940f057b4e7baede
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:619
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:373
+#: b304bb252ebc4638bfb8f60c65ff7868
 msgid ""
-"L’avantage de faire une publication est de garder la version d’origine en"
-" Word/Excel/Power Point liée au document publié (généralement en PDF), "
-"même si la publication se trouve dans un autre emplacement."
+"Vous verrez probablement ce message vous demandant si vous voulez ouvrir,"
+" sauver le document ou annuler l’action."
 msgstr ""
 
-# 79bae3723bf84d9d907522572d80c0f9
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:624
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:375
+#: 859695a917574ad9a3e2d1998de83577
+msgid "Si vous voulez juste l’ouvrir pour lecture => « Open » /  « Ouvrir »"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:377
+#: 4a423d88c942459292bdaac5725d7f34
 msgid ""
-"Vous pouvez donc avoir 20 versions de travail d’un document Office au "
-"sein d'un service avec des commentaires et ne publier que la version "
-"finale sans les commentaires pour tous les autres utilisateurs."
+"Si vous voulez le sauvegarder sur votre PC => « Save » / « Enregistrer » "
+"et l’explorateur de votre ordinateur s’ouvrira pour pouvoir enregistre ce"
+" document où vous voulez."
 msgstr ""
 
-# 156d152d5fb0449f820df6bffeefd0bf
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:629
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:382
+#: d5f2278776ef4fde81fb7be1e862c97e
 msgid ""
-"Vous pouvez choisir où sera la publication de votre document de travail, "
-"où il apparaîtra uniquement en PDF. Cochez la case correspondant à "
-"l’emplacement voulu pour la publication. Et « Valider »"
+"Il se peut que le document se téléchargera directement (dépend de la "
+"configuration de votre PC), et vous le retrouverez sur votre PC (souvent "
+"le dossier « téléchargements » sur Windows)."
 msgstr ""
 
-# 6698a3392862425ca14afc1e9950ed45
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:636
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:388
+#: 2c6154e560e34bf2aa1a4f0922a0abd2
 msgid ""
-"Vous verrez alors dans les métadonnées de ce document que c’est devenu "
-"une publication et les emplacements de la publication par rapport au "
-"document d’origine."
+"Si vous téléchargez un document et que vous y apportez des modifications,"
+" elles ne seront pas synchronisées sur GoFAST. Il faudra alors remettre "
+"le document au même emplacement (glisser/coller comme nouvelle version) "
+"pour partager cette nouvelle version sur GoFAST. Cela crée un risque, car"
+" si un autre collègue a fait des modifications en ligne entre temps, vous"
+" allez écraser sa version et ses modifications seront donc perdues (mais "
+"récupérable en allant chercher les versions précédentes dans l’onglet « "
+"Versions »)."
 msgstr ""
 
-# 555534d80ae54731a0e43eff5ae67346
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:641
-msgid "Le document publié possède un nom se terminant par \\_PUB"
-msgstr ""
-
-# b403e1147b8a4ecc9a39735c12662255
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:646
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:393
+#: 2fcf111d17f348b3a54737fc683e4a5b
 msgid ""
-"Vous pouvez de la même manière supprimer une publication, cette action ne"
-" supprimera que le document publié (le PDF) mais pas le document "
-"d’origine (Word/Excel/Powerpoint)."
+"Le permalien d’un document correspond au **lien « URL » qui ramène sur la"
+" page du document**. Vous pouvez copier et coller où vous voulez pour "
+"renvoyer à ce document en un clic, par exemple dans le Tchat (messagerie "
+"instantanée), un email (ainsi ne plus envoyer de pièces-jointes) ou dans "
+"un commentaire sur un autre document, etc."
 msgstr ""
 
-# d495114000f44bf0806799e7592ae3c6
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:654
-msgid "Archiver le document"
-msgstr ""
-
-# 2de8bdcecb2644a1bd2cf54d40955b76
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:656
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:396
+#: d862b0d0d4e649b8ba2a94d6e7615c9d
 msgid ""
-"**Archiver un document** permet de le rendre invisible dans la recherche,"
-" à moins de spécifier l’option « inclure les contenus archivés », sans "
-"qu’il soit complètement supprimé de la GoFAST. Et de ce fait, vous ne "
-"pouvez plus travailler dessus."
+"Via le menu des actions contextuelles (menu « Burger »), cliquez une fois"
+" sur « Permalien », vous verrez un message en bleu signalant que le lien "
+"bien été copié dans le presse-papier de votre PC. Puis, collez-le où vous"
+" voulez (clic droit de votre souri, puis coller)."
 msgstr ""
 
-# 80fa6a2fbc9e4212826a0e48cab61b10
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:664
-msgid ""
-"Le document aura désormais le statut « archivé » et toutes ses versions "
-"mineures seront effacées."
-msgstr ""
-
-# 5b2bd93ca10541d88638d9ebfdec67df
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:667
-msgid ""
-"Un message vous redemande donc si vous êtes certain de vouloir archiver, "
-"si oui, appuyez sur « Archive »"
-msgstr ""
-
-# d415f9ebf82f4786b9be8eca12397388
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:673
-msgid ""
-"Une fois le **document archivé**, il apparaîtra dans les métadonnés que "
-"vous pouvez juste le lire => « en lecture seule », et son état est « "
-"archivé ». Plus aucune modification n’est donc possible sur un document «"
-" archivé »."
-msgstr ""
-
-# 722c5023ef074f48832d1725345175ee
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:678
-msgid ""
-"Il se peut aussi, lorsque vous voulez visualiser un document, que vous "
-"voyez un message orange vous signalant qu’il est en statut « archivé » et"
-" que si vous voulez retravailler dessus, il faut demander à "
-"l’administrateur du groupe de le désarchiver."
-msgstr ""
-
-# 7f4d52e805184b32bc32adfb867782da
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:686
-msgid ""
-"Vous pouvez inverser le processus et désarchiver le document pour le "
-"rendre actif à nouveau."
-msgstr ""
-
-# 3a8080ac356e4c44933618fcf87d5b53
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:692
-msgid "Cliquez sur « Unarchive »"
-msgstr ""
-
-# 2cc4ff0af2ed445bbbecf8b6f122da5a
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:697
-msgid ""
-"Il n’y à présent plus de message dans les métadonnées et l’état est "
-"redevenu normal ou comme à l’origine."
-msgstr ""
-
-# 1c6bf5998c804133a62cd803d163fe5f
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:703
-msgid ""
-"Vous pouvez aussi voir l’état de vos documents dans l’onglet « Activité »"
-" du groupe, dans l’encadré « Contenus avec Etat », à condition que son "
-"état ait bien été enregistré dans les métadonnées (voir § sur les "
-"métadonnées d’un document p.106)"
-msgstr ""
-
-# c527b72ce46246da90fc00c550441d47
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:712
-msgid "Supprimer le document"
-msgstr ""
-
-# 86ac41c71ee54211b7ac26b33210a5b3
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:714
-msgid ""
-"**Supprimer un document** de la GoFAST revient à le supprimer de toutes "
-"vues définitivement, donc Attention !!! si vous le supprimez à un endroit"
-" et qu’il était multifilé, il sera supprimé partout."
-msgstr ""
-
-# f8d065507b3649edaec6a43d0570c5de
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:721
-msgid ""
-"Seul l’auteur du document ou les administrateurs de l’espace où était le "
-"document pourront le restaurer en cas de suppression erronée ; le "
-"document leur étant encore accessible pendant 90 jours avant de "
-"disparaître définitivement du système."
-msgstr ""
-
-# c923d40098624fe88d623326c004302e
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:727
-msgid "Ajouter le document aux favoris"
-msgstr ""
-
-# b9030e4b5a484d78889fa27ae1cc6429
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:729
-msgid ""
-"**Ajouter un document aux favoris** permet de créer des **raccourcis** "
-"pour atteindre ce document car ils se retrouveront à un endroit "
-"accessible à tout moment."
-msgstr ""
-
-# aef40883f93940318f434c6ec2c71462
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:736
-msgid ""
-"Lorsque vous cliquez sur l’option « Ajouter aux favoris », dans les "
-"actions contextuelles de la prévisualisation, apparaît, en haut à droite,"
-" un message vert vous confirmant que le contenu a été ajouté à vos "
-"favoris."
-msgstr ""
-
-# 804012f1fafa49a08dd14975aa91953c
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:744
-msgid ""
-"La prochaine fois que vous voulez accéder à ce document, il suffira "
-"d’aller sur **l’étoile** dans le menu principal de la GoFAST pour voir la"
-" liste de vos documents favoris."
-msgstr ""
-
-# cd14d71f864b4d928f104abb345551f3
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:748
-msgid ""
-"Cliquez sur votre fichier pour l’ouvrir, ou cliquez sur la poubelle à "
-"droite du titre de votre fichier pour le supprimer de cette liste."
-msgstr ""
-
-# 3b8115f18b414e92885e21967de324eb
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:754
-msgid "Un message en vert vous confirmera sa suppression de la liste des favoris."
-msgstr ""
-
-# e0e6656c5e4a408896e85bd08dd96c1d
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:761
-msgid "Ajouter le document aux favoris publics"
-msgstr ""
-
-# db3808dc799a4b7589bc6e2b7dabf497
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:769
-msgid ""
-"Vous pouvez faire l’inverse et le supprimer des favoris publics, avec "
-"l’option « Supprimer des favoris publics » dans les actions contextuelles"
-" de la prévisualisation."
-msgstr ""
-
-# 4caf4d67655848eb9bb21391dccbc975
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:777
-msgid "Permalien du document"
-msgstr ""
-
-# fefd0cc25ef74ae29310ec4abfaa341a
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:779
-msgid ""
-"Le permalien d’un document est son **lien « URL »,** que vous pouvez "
-"copier et coller où vous voulez pour renvoyer à ce document en un clic. "
-"(dans un mail par exemple)"
-msgstr ""
-
-# fbbf0dd43457487fa04e7da753c752f4
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:783
-msgid ""
-"Dans la actions contextuelles de la prévisualisation, appuyer une fois "
-"sur l’option « Permalien », vous verrez un message en bleu signalant que "
-"le lien est prêt à être copié ailleurs. Collez le où vous voulez."
-msgstr ""
-
-# 6c4c22d853a34c9e82255da90e2ef769
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:793
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:404
+#: c6ff1c3fa69241658f87064511ee7ac2
 msgid ""
 "Vous pouvez retrouver le permalien également dans les raccourcis à partir"
-" du fil d’activité. Appuyez sur l'icône d'actions contextuelles sous le "
-"nom du fichier pour ouvrir la liste des fonctionnalités, puis appuyez sur"
-" « Permalien » pour copier le lien."
+" du fil d’activité. Toujours depuis le menu des actions contextuelles à "
+"côté du nom du document."
 msgstr ""
 
-# 7d581d4991d54c2a8d01d04a8345b46c
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:801
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:409
+#: 3e3f17fa71e54e979163c69a398817c8
 msgid ""
-"Voici ce que ça donne lorsque vous le coller : "
+"Voici ce que ça donne lorsque vous le coller : "
 "*https://gofast3-integration.ceo-vision.com/node/4551*"
 msgstr ""
 
-# a0d1b3872a344c79bfe30763fd89c07b
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:804
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:412
+#: 24eb8455c4c2481da83229d55c4bed56
 msgid ""
-"Il suffira de cliquer dessus pour être renvoyé sur la GoFAST et sur la "
-"prévisualisation du document. (cfr : si vous n’êtes pas membre du groupe "
-"dans lequel se trouve ce document, vous n’y aurez pas accès, d’où "
-"l’avantage encore une fois de multifiler les documents dans plusieurs "
-"groupes)."
+"Il suffira de cliquer dessus pour être renvoyé sur la page du document "
+"(si vous n’êtes pas membre d’au moins un des Espaces où se trouve ce "
+"document, vous n’y aurez pas accès). Cela offre une grande sécurité, car "
+"il y a moins de risques d’erreurs, comme on a souvent l’occasion de voir "
+"quand on partage des pièces-jointes par email). Il est possible de "
+"récupérer un permalien partout où un document est cité : clic droit sur "
+"le nom du document et « copier l’adresse du lien » (hors sur "
+"l’explorateur om le clic droit permet d’ouvrir le menu « burger » où vous"
+" pouvez cliquer sur « Permalien »)."
 msgstr ""
 
-# ae29bf3c712a46f08fddfa2c582fc128
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:810
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:416
+#: 2e74ed3118a24d78a4009c2d887a5439
+msgid "Créer depuis modèle"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:417
+#: 5d2aba464f20425788c705151d9a2cf7
 msgid ""
-"Encore un autre raccourci pour le lien URL d’un document: via les "
-"derniers contenus vus, sélectionnez le document, clic-droit de la souris "
-"pour ouvrir la fenêtre avec l’option « Copy link address ». Ensuite "
-"coller l’URL où vous voulez."
+"Tous les documents identifiés comme modèle, disposent d’un bouton « Créer"
+" depuis modèle » via le menu « Burger » (menu des actions contextuelles)."
+" Si vous cliquer sur « Créer depuis modèle », vous serez redirigé vers la"
+" page de création d’un document, onglet « Depuis modèle ». Pour savoir "
+"comment créer un nouveau document depuis ce formulaire, merci de vous "
+"référer à la rubrique : « Créer un nouveau Document »."
 msgstr ""
 
-# 80c50f31613b449a99aad2a0c085ec9f
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:815
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:424
+#: 21b45b985efc479ca1d4c10230253559
 msgid ""
-"Ou ouvrez carrément le document sur un autre onglet/fenêtre Window avec "
-"l’option « Open link in new tab/window »"
+"Objectif d’une publication : partager auprès d’un public élargi (ex. DG, "
+"Partenaires, Base de connaissances, etc.) une version finie et validée, "
+"créée depuis un document de travail. Le document de travail reste dans "
+"le(s) Espace(s) dédié(s) à son élaboration, visible uniquement par les "
+"utilisateurs en charge, alors que la Publication est visible dans "
+"d’autres Espaces Collaboratifs dédiés à la consultation."
 msgstr ""
 
-# d270119c1465494a940ae5a28b88f48a
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:822
-msgid "Ouvrir l’emplacement du document"
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:433
+#: 7da670d887e74c8ca94f32e859cf4d7f
+msgid "**Principaux avantages de la Publication :**"
 msgstr ""
 
-# 39859d54ced840d0b4e9a74f83129b33
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:824
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:427
+#: 3dc6e7b0072642d88c88baf19c038607
 msgid ""
-"Lorsque vous prévisualisez un document, vous pouvez voir le "
-"**cheminement** (path), le trajet dans l’\\ **arborescence** avec les "
-"niveaux supérieurs de répertoires et espaces. (encadré en vert sur "
-"l’image)."
+"Gérer de manière indépendante les accès/la visibilité des deux documents "
+"(publication et le document de travail d’origine)."
 msgstr ""
 
-# f779cf5023e14d9caa6d78e2c7dcd6df
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:828
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:428
+#: dc35b128995542ada4b231ef6a2a75fe
 msgid ""
-"Si vous voulez voir les détails de l’arborescence et l’emplacement du "
-"document que vous visualisez par rapport à cette arborescence, vous "
-"pouvez ouvrir l’explorateur de fichiers à partir des actions "
-"contextuelles de lhb va prévisualisation, en cliquant sur « Ouvrir "
-"l’emplacement du document »."
+"Eviter de partager tous les commentaires de travail faits au fur et à "
+"mesure de l’élaboration du document. La Publication dispose alors de son "
+"propre flux de commentaires."
 msgstr ""
 
-# ed9babf7e81b4e71af1e3c2685af3e9d
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:837
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:429
+#: c8714139b65a42ae892961cfa62d7028
 msgid ""
-"Voici le genre de vue que vous aurez, où vous retrouverez votre document "
-"et son emplacement par rapport au reste de l’arborescence GoFAST."
+"Disposer d’une gestion séparée des versions (chaque document a sa propre "
+"gestion des versions)"
 msgstr ""
 
-# 663607e7d6ee4d39b9237b0d4bea9861
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:843
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:430
+#: 60de9c0a8a894464b7a1f299334c8cb0
 msgid ""
-"De là, vous pouvez naviguer dans l’arborescence, chercher d’autres "
-"documents, utiliser les raccourcis, …"
+"Disposer d’un lien entre le document de travail et sa publication pour "
+"pouvoir passer en un clic de l’un à l’autre (remarque : si un utilisateur"
+" ayant accès à la Publication n’est pas membres des Espaces où se trouve "
+"le document d’origine, il aura un accès refusé s’il tente de le "
+"consulter)."
 msgstr ""
 
-# 4b6e79d417af4881b7ba4e5ee500b626
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:847
-msgid "S’abonner au document"
-msgstr ""
-
-# 3a1fe00a5275477cbf73b67fb5f90644
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:849
-msgid "Voir aussi \"Vos abonnements\""
-msgstr ""
-
-# eeb0f391dce44607ba2fc5ea2e68f7b8
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:851
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:431
+#: 454f9c7373d44564864472b4312a58e7
 msgid ""
-"**S’abonner à un document** permet de **rester au courant** de ce qu’il "
-"se passe par rapport à ce document ; vous recevrez une notification par "
-"mail dès qu’il y a activité sur ce document : une modification, un "
-"commentaire, une mise à jour des métadonnées, …. Vous pouvez choisir "
-"l’intervalle de ces notifications (instantanément, 2x/jour, 1x/jour, "
-"1x/semaine, 1x/mois)."
+"Pouvoir mettre à jour à tout moment la Publication depuis le document de "
+"travail (ex. si ce dernier a évolué dans le temps et que la publication "
+"faite initialement n’est plus d’actualité)."
 msgstr ""
 
-# 2af0eb13052a4624bcba98d33b5a21bc
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:858
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:432
+#: 67bda25538014cee990cd49565a79c8a
 msgid ""
-"Allez dans les actions contextuelles de la prévisualisation et cliquez "
-"sur « S’abonner »"
+"Disposer d’une gestion séparée des métadonnées/informations entre la "
+"Publication et son document de travail d’origine (ex. état « en attente "
+"de signature » pour la Publication, et état « terminé » pour le document "
+"de travail)."
 msgstr ""
 
-# c532916a0c414da38c9cb5781bfdcd19
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:864
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:433
+#: 7c0df9443f4e43ee9c931c24912b11f1
 msgid ""
-"Un message en vert, dans le coin droit supérieur, vous confirme votre "
-"abonnement à ce contenu."
+"Notifier les utilisateurs ayant accès à la Publication de ses mises à "
+"jours et commentaires, en évitant de les notifier de l’activité liée au "
+"document de travail."
 msgstr ""
 
-# 6e78dd3770254ca8b68b0d5e68ab5c0d
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:870
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:436
+#: 1832374da8024804ab995d7a71d82950
 msgid ""
-"Vous voir vos abonnements et gérer leurs intervalles, cliquez sur la "
-"flèche à côté de votre nom de profil puis sur « Abonnements »"
+"Vous pouvez donc avoir un grand nombre de versions d’un document de "
+"travail au sein d'un service, pour seulement 1 ou 2 versions de la "
+"Publication."
 msgstr ""
 
-# a702ae2754e745a4b7fcd3c39b5e495c
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:876
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:438
+#: 9ac2b97813f74cdfbb63299dd835618b
 msgid ""
-"Vous retrouvez toute la liste de vos abonnements à des espaces/groupes ou"
-" documents. Vous pouvez choisir les intervalles dans la colonne « "
-"Fréquence », en cliquant sur la petite flèche, vous aurez les "
-"propositions d’intervalles, sélectionnez celles que vous souhaitez pour "
-"chaque abonnement."
+"La création d’une Publication consiste donc à générer un nouveau document"
+" (souvent au format PDF) à partir de la dernière version du document de "
+"travail existant (souvent un fichier bureautique/Office). Passer par le "
+"menu « Burger » (menu des actions contextuelles) disponible sur la page "
+"du document (ou via un clic-droit dans l’explorateur de fichiers), puis "
+"cliquez sur « Créer Publication »."
 msgstr ""
 
-# 698b84d833ad49769f4ac0e1322b4d38
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:885
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:444
+#: 46364c0c7bcf4757967bb37b8c3aaaef
 msgid ""
-"De la même manière, vous pourrez également vous désabonner quand vous "
-"voulez."
+"Une fenêtre s’ouvre pour vous permettre de sélectionner les emplacements "
+"souhaités pour votre Publication. Les emplacements du document de travail"
+" sont pré-cochés pour que vous puissiez à la fois partager la publication"
+" dans des nouveaux Espaces, tout en la classant dans les mêmes "
+"emplacements que le document d’origine (très pratique lorsque l’on "
+"navigue dans l’arborescence documentaire). Une fois les emplacements "
+"sélectionnés, cliquez sur « Valider »."
 msgstr ""
 
-# 0c74f22c78c846cda6bf4899014968a6
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:888
-msgid "Un message vert vous confirmera votre désabonnement à ce contenu."
-msgstr ""
-
-# b4967a3e3b5e4259a44ed57943e49ce1
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:894
-msgid "Comparer deux versions d'un document (beta en v3.6)"
-msgstr ""
-
-# 5035d1c393e846649a7d16e539d39aa7
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:895
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:451
+#: bace4eb37af442bca2143780db4a1456
 msgid ""
-"Pour afficher les écarts entre deux versions d’un même document, vous "
-"avez la possibilité de lancer le comparatif via le menu \"Burger\" "
-"(actions contextuelles)."
+"Vous serez redirigé vers la page de cette nouvelle Publication, où vous "
+"pourrez vérifier le document et ses emplacements."
 msgstr ""
 
-# ad3ea42d2e8542948febbd697c68c745
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:900
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:454
+#: 2252162565a64a3193d19dd89ae9b703
 msgid ""
-"Sélectionnez dans les deux listes les deux versions que vous souhaitez "
-"comparer :"
+"Les Publication prennent automatiquement \\_PUB à la fin du titre. Ex. "
+"pour un fichier nommé « Contrat-A », la Publication deviendra « « "
+"Contrat-A_PUB »."
 msgstr ""
 
-# c39abbeb6f2345f5a39826d529b868f1
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:907
-msgid "Créer une version majeure du document"
-msgstr ""
-
-# 3de9bd4cb7e64720a7dae0f25ffeb1e5
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:909
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:459
+#: 6b0cfb03422d4c21aac27a8e605ef0dc
 msgid ""
-"Dès que vous faites une modification sur un document avec la "
-"fonctionnalité « Editer en ligne » et que vous la sauver, une nouvelle "
-"version du document est générée (1.0=>1.1, 1.2, 1.3, etc), ce qu’on "
-"appelle des «Version mineures ». Mais vous pouvez écraser ces versions "
-"mineures avec une version majeure, c’est-à-dire une nouvelle base de "
-"travail (1.11 =>2.0)."
+"**À tout moment, vous avez la possibilité de mettre à jour la Publication"
+" :**"
 msgstr ""
 
-# 0d8395ecae614b72a7b4fe39d431c188
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:916
-msgid "**Importance des versions majeures :**"
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:461
+#: 0fe58f97b05947ecafa23f683efd822c
+msgid "Depuis le document de travail, allez dans le menu « Burger »"
 msgstr ""
 
-# 3934baaab42642c88fc3252eda184050
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:918
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:462
+#: 0f067de70dc64e60a32bb1283f150b5a
+msgid "Cliquer sur « Publier à nouveau »"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:463
+#: bcf49d4bbd364c56b13b31d49dc2e961
 msgid ""
-"Si vous archivez un document, ses versions mineures seront supprimées, "
-"seule sa dernière version majeure sera encore accessible."
+"A chaque mise à jour réalisée de cette manière, la Publication prendra un"
+" numéro de version majeure (ex. de 1.0 on passe à 2.0)."
 msgstr ""
 
-# 776574dc2d0b4223a948fc30a15c384b
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:921
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:464
+#: f2ba71d7d0df40379a0097697b5565f1
 msgid ""
-"Pareil si un document est supprimé par erreur, seule sa dernière version "
-"majeure sera récupérable."
+"Pour chaque version du document de travail ayant généré une Publication "
+"(ex. 3.14), on peut voir le numéro de la Publication associée (ex. 2.0), "
+"l’affichage prend cette forme : version 3.14(2.0)."
 msgstr ""
 
-# 028ef4e7e8ed433e94c3d2fc6731f309
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:927
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:466
+#: c705711b1e0c4f9a863228c6e955e9af
 msgid ""
-"Vous pouvez également ajouter un commentaire à cette nouvelle version "
-"majeure. Celui-ci sera visible sous la prévisualisation."
+"Vous pouvez supprimer une Publication via le menu « Burger », dans « voir"
+" plus » cliquez sur « Supprimer Publication ». Cette action ne supprimera"
+" que la Publication, mais pas le document de travail d’origine."
 msgstr ""
 
-# 43b5444ca41b43beb9bf694c6fd56446
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:930
-msgid "Terminer avec « Valider »"
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:474
+#: 799411ee61004ba19100969775352bd4
+msgid "Renommer"
 msgstr ""
 
-# c07723b225364d0380c4621029aacc2f
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:938
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:475
+#: 8008b93040ec4fee918640ad086037f3
 msgid ""
-"Dans les métadonnées, vous verrez le changement de numéro des versions "
-"(1.2=> 2.0 ou 3.0,etc), quand le 1\\ :sup:`er` chiffre change, c’est une "
-"version majeure. Sinon ça reste une version mineure."
+"Pour renommer un document, il faut avoir au moins le rôle de « "
+"Contributeur » dans l’Espace où il se trouve. Vous pouvez renommer un "
+"document depuis :"
 msgstr ""
 
-# 029c546a75db4fb783e8c552b0e87cf2
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:942
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:477
+#: 30679fe361d54a8aa7be9fb124b2bd7e
 msgid ""
-"Vous verrez également un nouveau commentaire par rapport à la version "
-"majeure xx."
+"L’explorateur de fichiers : clic droit sur le document, puis dans le menu"
+" cliquez sur « Renommer »."
 msgstr ""
 
-# 77acb714210e462891cd152a58a0911b
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:948
-msgid "Voir aussi \"Glisser et déposer une nouvelle version\""
-msgstr ""
-
-# ac625c24b3714af2aa8dcdbbab53f6fe
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:951
-msgid "Supprimer les versions mineures du document"
-msgstr ""
-
-# b81fbdff26de4f6596c52ed6ff62853e
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:953
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:478
+#: 17faa9f10c6c4a078b02ad7ca851292f
 msgid ""
-"Comme signaler plus haut, pour une raison d’espace de stockage et "
-"**éviter de surcharger** la plateforme inutilement, vous pouvez "
-"**supprimer des versions mineures** qui n’ont plus d’intérêt."
+"La page du document en faisant un clic sur le titre (au-dessus de la "
+"prévisualisation du document)."
 msgstr ""
 
-# 26e43ad9606b4ee4a876d5bdbfa25846
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:957
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:480
+#: 042654fe54124ae6a1cfa36c893f8712
 msgid ""
-"Dès lors que vous en faites une version majeure et que vous ne devez plus"
-" consulter les versions mineures antérieures, cela ne pose pas de "
-"problème d’historique."
+"Changez le titre dans le champ et cliquez sur l’icône de validation (ou "
+"juste sortez du champ en cliquant ailleurs lors que vous renommer depuis "
+"la page du document)."
 msgstr ""
 
-# 4d61afa31c8d4fad8662185e708cee47
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:964
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:486
+#: 74ebaf1bdbf947bdb6ef14ca1b5013b7
+msgid "Ajouter/Modifier le Résumé"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:488
+#: 7da1a9a1b9c84100b373b4843b714254
 msgid ""
-"Un message vous avertit de la suppression définitive et irréversible des "
-"versions mineures précédentes. Si vous êtes d’accord, appuyez sur « "
-"Supprimer »."
+"Vous pouvez ajouter un texte d’introduction ou de synthèse à votre "
+"document, qui sera affiché au-dessus de la prévisualisation. Ainsi, tous "
+"ceux qui consulterons le document, verront ce Résumé. Via le menu « "
+"Burger » (les actions contextuelles), cliquez sur « **Modifier le "
+"Résumé** »."
 msgstr ""
 
-# ee0e81e79b3c47738a19cefef6cba938
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:971
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:494
+#: bffe686f99c246c7bf1d15caf493be8c
 msgid ""
-"Dans les métadonnées, vous ne verrez désormais plus que les versions "
-"majeures de ce document, plus aucune version mineure ne sera disponible."
+"Une zone de texte s’ouvre avec les mêmes possibilités de mise en page que"
+" dans les commentaires (type/taille de police, couleurs, tableau, images,"
+" etc.). Rédigez votre texte, puis sauvegardez en cliquant sur « Appliquer"
+" »."
 msgstr ""
 
-# fd556388a77247bfaf9c5bc22d2a37a3
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:978
-msgid "Commentaires et Annotations des documents"
-msgstr ""
-
-# 8cf63b7838af4c7aab601e4b5e4c7e71
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:981
-msgid "Commentaire sur le document"
-msgstr ""
-
-# 92aca72958da46f982ef6d20fedc1d70
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:983
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:500
+#: 7db0259a599b4f37aec19e0aa3ab02e3
 msgid ""
-"Pour réduire le nombre d'emais et sécuriser les échanges, il est possible"
-" de faire des **commentaires** sur les documents. Ceux-là seront affichés"
-" sous la prévisualisation et visible par ceux qui ont accès au dit "
+"Le texte s’affiche au-dessus de la prévisualisation et sous le titre du "
 "document."
 msgstr ""
 
-# fa646cfcddc744a791f268baccbbfc39
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:985
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:505
+#: 634327d4df5445c8b60329f1646e19db
 msgid ""
-"Il n’y a donc même pas besoin d'ouvrir le fichier pour lire les "
-"commentaires."
+"Vous pouvez à tout moment modifier le résumé, toujours via le menu « "
+"Burger » et clic sur « Modifier le Résumé »."
 msgstr ""
 
-# eb88c425a0d64062948eb53dbe98353a
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:987
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:507
+#: 211b324c244b41b8a0cb19d7581c5f3b
 msgid ""
-"A ne pas confondre avec les commentaires faits diréctement dans le "
-"fichier, qui se retrouvent dans le contenu même du document."
+"Tous les utilisateurs pouvant modifier le document (contributeur ou "
+"administrateurs), pourront également modifier le résumé, contrairement "
+"aux commentaires (NB. seul l’auteur d’un commentaire ou un administrateur"
+" de l’espace peuvent le modifier)."
 msgstr ""
 
-# 8ab355b9e8f645dfb6cfebd6ce5e0a05
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:989
-msgid ""
-"Pour ajouter un commentaire, cliquez sur « Nouveau commentaire » dans le "
-"menu des actions contextuelles."
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:510
+#: 026b18f2c8604c9f9b1801e1c8c1c6cc
+msgid "Supprimer/Restaurer"
 msgstr ""
 
-# 7ba8a4f71c0a44e4bf573852e65e5acc
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:511
+#: 26b29d342e9340839bd0d3cc9d4a9b08
+msgid ""
+"Sur GoFAST, la suppression d’un document reste rare car il n’y a plus de "
+"doublons et donc, la suppression est souvent utilisée à la suite d’une "
+"erreur (ex. on a créer un doublon par mégarde). Dans le cas où vous avez "
+"fait une erreur d’emplacement à la création/dépôt d’un document, il est "
+"préférable de modifier le ou les emplacement(s), plutôt que de supprimer."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:513
+#: 9edb741e118544319515299d4111cac7
+msgid "**Supprimer un document revient à :**"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:515
+#: 5e660de59fda4246b45a2dbc44bc0965
+msgid "le supprimer de tous les emplacements (Espaces où il se trouve)."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:516
+#: 45bb4e87fd8448339dd4431a0f47acdb
+msgid "Supprimer la page du document, avec tous ses commentaires et ses versions."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:517
+#: 3969cb6b45164825bca731f5fa393349
+msgid ""
+"Supprimer les liens pointant vers ce document depuis les autres documents"
+" (cf. notion de liens entre contenus)."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:518
+#: 00cbfacea4644ee287967c9d648f3759
+msgid ""
+"Supprimer le document des favoris (pour tous les utilisateurs qui "
+"auraient épinglé ce document comme favoris)"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:523
+#: 2c39ae978a46441bb25656ebb719a3ff
+msgid "**Restaurer un document supprimé :**"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:525
+#: 4e17f47ff9924b0d9416e2f53a549150
+msgid ""
+"A la suppression d’un document, celui-ci n’est pas supprimé "
+"définitivement et il sera possible de le restaurer dans un délai de 90 "
+"jours. Seul le créateur du document ou les administrateurs de l’espace où"
+" se trouvait le document pourront le restaurer en cas d’erreur. Dans le "
+"cas où on se rend sur la page d’un document supprimé, à la place de la "
+"prévisualisation on verra un message indiquant cette suppression, avec "
+"comme seule action possible « Restaurer le document » (via le menu « "
+"Burger »)."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:532
+#: f164336da8c74c31a0dd7d038e9b31a0
+msgid "Pour restaurer un document il faut :"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:530
+#: d1bc2a671c3148b1814b7f8f66f8b65e
+msgid ""
+"Retrouver le document via la recherche avec l’option « Rechercher dans la"
+" corbeille » : possible uniquement pour les utilisateurs qui avaient "
+"accès au document avant sa suppression."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:531
+#: 54f68ccec7ff403ab5b0772fb0a31cf9
+msgid ""
+"Retrouver le document via la piste d’audit : possible uniquement pour les"
+" utilisateurs ayant le « Profil Support-Utilisateurs » (les autres "
+"n’ayant pas accès à ces pistes d’audit)."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:532
+#: 8b6846e7d3fc4552a4cf7a67467d2787
+msgid ""
+"Une fois sur la page du document, allez dans le menu « Burger » et "
+"cliquez sur « Restaurer le document ». La page va alors se recharger, en "
+"affichant la prévisualisation, les métadonnées et tous les commentaires "
+"associés au document. Le document sera restauré dans tous les "
+"emplacements où il se trouvait avant la suppression."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:535
+#: 282a3ea24fa141dc9fe90b70f583e666
+msgid ""
+"Une fois le délai de 90 jours passé, il ne sera plus possible de "
+"restaurer le document."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:540
+#: 5eb389cc6f8546a9ad96fabb522e5353
+msgid ""
+"Si un document existe en **plusieurs langues**, vous pouvez **lier entre "
+"eux** les divers fichiers considérés comme étant des traductions. Vous "
+"pourrez ainsi passer d’une traduction à l’autre en un clic, peu importe "
+"dans quels dossiers ces documents se trouvent. La langue d’un document "
+"est affichée sous la forme d’un drapeau dans l’onglet « Informations », "
+"du bloc qui se trouve à droite de la prévisualisation d’un document (tout"
+" en bas de la liste des métadonnées)."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:543
+#: 8dd05ba93bc84a658cac43f8eced9862
+msgid "**Comment gérer les traductions :**"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:548
+#: b8eb04f2bea545ffbe7be470a52f9b44
+msgid ""
+"Sur la page d’un document, via le menu « Burger » (les actions "
+"contextuelles) :"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:546
+#: 31d7ae8f7d4c47d3a82e845df3228851
+msgid "allez dans « voir plus »,"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:547
+#: 4ba7ac426d724b4eae6db42a8a95f6c8
+msgid "cliquez sur « Gérer les traductions »."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:548
+#: d18d6b91b0694ba6a77905ad300f8ecb
+msgid ""
+"une fenêtre avec plusieurs champs s’ouvre, ceux-ci correspondent aux "
+"traductions possibles."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:554
+#: 3506a10309cf4b91ace4b7cf3fbd43d5
+msgid ""
+"La même action est possible via un clic droit sur un document depuis "
+"l’explorateur de fichiers."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:556
+#: f41e651d52a4408e971409f135461381
+msgid ""
+"**Lier plusieurs documents existants sur la plateforme, comme étant des "
+"traductions :**"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:562
+#: 971de85499074f4ba0443695f1470b88
+msgid ""
+"Dans la fenêtre de gestion des traductions, allez dans le champ qui "
+"correspond à la langue du document cible. Les langues sont indiquées par "
+"un drapeau."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:559
+#: 7396d199f6a74060938452590fd6ba18
+msgid ""
+"Il faut saisir au moins les 3 premières lettres du titre du document "
+"cible (ici le document en anglais)."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:560
+#: 87f815ebcec1484a85af0c8517b87f11
+msgid ""
+"Une liste affichera des suggestions basées sur le titre (il faut "
+"commencer par le début du titre du document cible pur avoir des "
+"suggestions pertinentes ou copier-coller le titre dans le champ)."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:561
+#: aa121a149b3849ebb38408491c2b533b
+msgid "Sélectionnez votre document cible dans la liste des suggestions."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:562
+#: 64e7029ca242429a83481d3022820abc
+msgid ""
+"Cliquez sur « Mettre à jour les traductions » pour sauvegarder vos liens "
+"de traductions."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:567
+#: 307d8d19f83e4dd5a3f12e7b17bd3251
+msgid ""
+"**Lier un document existant à un document de traduction à charger depuis "
+"votre PC :**"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:569
+#: dda0a8a518bb4e4d87d18210f0b56b12
+msgid ""
+"Dans la fenêtre de gestion des traductions, cliquez sur le bouton « + » "
+"au niveau du drapeau qui correspond à la langue du document cible."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:570
+#: 68d77e74a22140c2992d9e89cb34319b
+msgid "Vous serez alors redirigé vers le formulaire de création de document."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:571
+#: 98aa4dcc92e94b2d847bd5d2832b5e3b
+msgid ""
+"Le titre de votre document sera prérempli, avec à la fin du titre les "
+"lettres qui correspondent à la langue ciblée (ex . /_EN)"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:572
+#: cc57fe23aa9b45feb152c4567d3cb9fe
+msgid ""
+"Selon sur la langue cible choisie, la langue du document cible sera "
+"pré-renseignée."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:573
+#: 38bd7160c3f848e784f6de0205b1f392
+msgid ""
+"Cliquez sur « Choisissez un fichier » et votre explorateur de fichiers "
+"local s’ouvre (celui de votre PC)."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:574
+#: 6ca8b267af85495cb4c3f950d077e606
+msgid ""
+"Allez chercher votre document cible dans votre arborescence et cliquez "
+"sur « ouvrir » (ou faites un double-clic sur le document)."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:575
+#: 0f4f435ff0604877af6a1a598b49cba7
+msgid "Sélectionnez les emplacements souhaités dans l’arborescence documentaire."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:576
+#: a0d951f040e6456dadca3b8c25605f06
+msgid ""
+"Cliquez sur « Enregistrer » pour à la fois charger le nouveau document et"
+" sauvegarder votre lien de traduction."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:578
+#: 94e83f85423a49dda89f50f872f3b26d
+msgid ""
+"Dans le bloc d’informations (les métadonnées), les différentes "
+"traductions disponibles pour votre document seront liées et indiquées "
+"sous la forme d’un drapeau :"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:580
+#: 1d1903eebb664dd29d5eb6cda6a01907
+msgid ""
+"Le 1\\ :sup:`er` drapeau affiché est le document sur lequel vous vous "
+"trouvez."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:581
+#: 465a11bbc534475484c48e4882c357e1
+msgid "Les drapeaux suivants sont les traductions liées."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:582
+#: 3c9da1f81937478ba9a2f04441682e9e
+msgid ""
+"Il suffit de cliquer sur l’un des drapeaux pour aller sur l’une des "
+"traductions liées."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:588
+#: 4e8e6346937f446f9c5559a71e51c2ad
+msgid ""
+"GoFAST ne permet pas de traduire le contenu des documents "
+"automatiquement. Il s’agit ici de documents qui existent déjà en "
+"différentes langues et qu’on veut lier pour pouvoir passer d’une à "
+"l’autre en un clic. Toutefois, lors du chargement d’un nouveau document "
+"sur la plateforme, la langue est automatiquement détectée (détection "
+"basée sur l‘extraction du contenu, faite automatiquement après le dépôt "
+"du nouveau document sur GoFAST). Pour modifier la langue d’un document, "
+"il suffit de cliquer sur le drapeau désignant la langue du document sur "
+"lequel on se trouve. Une liste va alors s’afficher, où il sera possible "
+"de sélectionner la langue souhaitée."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:593
+#: ad29947ed484471390a3df9acf03d103
+msgid "Charger une nouvelle version"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:597
+#: 659f473fc94541e59b04f591dc8fd4ba
+msgid ""
+"Avant de mettre à jour un document sur GoFAST en chargeant un fichier qui"
+" se trouve sur votre PC, il est impératif de vérifier la date de mise à "
+"jour du document (sur la page du document dans le Bloc d’informations, ou"
+" dans l’explorateur de fichier, colonne « Modifié »)."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:596
+#: f545a9bc6ebc49208a3375d8dbad9af6
+msgid ""
+"Si la date « Modifié le » est postérieure à la version sur votre PC, il "
+"est préférable de ne pas écraser la version sur GoFAST."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:597
+#: ab92791875f8450089f5590552b87014
+msgid ""
+"Dans ce cas, il est conseillé de contacter l’utilisateur à l’origine de "
+"la dernière version (ex. via le Tchat ou « Partager le document par email"
+" » possible dans le menu « Burger »). Le dernier contributeur est indiqué"
+" dans le champ « Modifié par » dans le Bloc d’informations (sur la page "
+"du document)."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:602
+#: b16970a4ed2c4cb8ac74e19809e2f0a1
+msgid ""
+"**Charger un fichier depuis son PC pour mettre à jour un document sur "
+"GoFAST :**"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:604
+#: 5c9efb3e51554e84a3b5137076a54df7
+msgid "Aller sur la page du document."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:605
+#: a7e7a140c2b34ff1b60fc4df20df0896
+msgid ""
+"Glissez-déposez votre fichier depuis votre PC vers la zone de « glisser-"
+"déposer » qui se trouve au-dessus de la prévisualisation."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:607
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:1064
+#: 324953b5ef4344b7b173872a4c778a1d b85b0e30ee604a4b9733fb26a8e4e884
+msgid "OU"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:607
+#: f42730a2d2d84b1d9e00f7ac4744a0a1
+msgid ""
+"Passez par le menu « Burger », puis dans « Voir plus », cliquez sur « "
+"Charger nouvelle version »."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:610
+#: 7fe52c95c945408d82800a374016c60c
+msgid ""
+"Une fois votre fichier déposé, une fenêtre s’ouvre pour pouvoir laisser "
+"un commentaire lié à votre nouvelle version. Vous pouvez également cocher"
+" la case « Version majeure » (conseillé dans le cas où vous considérez "
+"que les modifications faites sont importantes)."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:612
+#: 2cc10af4363a412695863dd0891d5c63
+msgid ""
+"La version du document sur GoFAST sera écrasée par celle que vous venez "
+"de charger :"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:614
+#: 27e3c3463c6a4b9398cb4246819c5879
+msgid ""
+"Dans le cas où vous avez laissé un commentaire, celui-ci sera consultable"
+" via l’onglet « Commentaires » du bloc d’information."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:615
+#: 666db65f013249ef9fbbca3645277cbc
+msgid ""
+"Si vous avez coché « Version majeure », le numéro de version passera en "
+"version majeure (ex. depuis 1.4, vous passerez en 2.0)."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:625
+#: f5563b4c95244991a0333c5b0ff1b8b0
+msgid ""
+"Dès que vous faites une modification sur un document via la "
+"fonctionnalité « Coéditer avec OnlyOffice » ou « Editer depuis PC » et "
+"que vous sauvegardez, une nouvelle version mineure du document est "
+"générée (1.0=>1.1, 1.2, 1.3, etc.). Si besoin, vous pouvez transformer la"
+" version en cours du document en une version majeure, c’est-à-dire une "
+"nouvelle base de travail (ex. la version 1.11 devient la version 2.0)."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:628
+#: 45d4202cb66e47ca89caac16a81cf5db
+msgid "**Passer en version majeure un document à tout moment :**"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:630
+#: 88fec889e6994bc4a88f8f6e96faf73c
+msgid ""
+"Sur la page du document, allez dans le menu « Burger » (actions "
+"contextuelles)"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:631
+#: 85d9a06174634f618aee774453810f1d
+msgid "Allez dans « Voir plus »"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:632
+#: 9818cd6854f24ee2b04ec5ef01db92a9
+msgid "Cliquer sur « Définir comme version majeure »."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:637
+#: 5f1797f62d8f44b6bd9c389bac1f2eb5
+msgid "**Passer un document source en version majeure lors d’une Publication :**"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:639
+#: b96c3858cd214ee596d4c20ecb0050b3
+msgid ""
+"Sur la page du document, allez dans le menu « Burger » (les actions "
+"contextuelles)."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:640
+#: 65053b24cead48e18a01f7a883238790
+msgid ""
+"Cliquez sur « Créer une publication » (ou sur « Publier à nouveau ce "
+"document » si une publication existe déjà et que vous souhaitez la mettre"
+" à jour)."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:641
+#: 87e374ce6dea4db6a94f7453272f3b84
+msgid "Cocher la case « Définir comme version majeure le document d’origine »,"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:643
+#: 51c32b51a4534d14a36e26034f1deaa2
+msgid "Cliquez sur le bouton « Valider » pour sauvegarder."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:648
+#: 5de852d12c1f4274bcd91a869d0ad610
+msgid "**Importance des versions majeures :**"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:650
+#: e29d7c1c34ea439e97e06e5843389e9c
+msgid ""
+"Si vous pré-archivez un document (cf. champs « état » d’un document), ses"
+" versions mineures seront supprimées et donc, seules les versions "
+"majeures (ex. 1.0, 2.0, 3.0…) et la dernière version en cours avant le "
+"préarchivage, seront conservées."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:654
+#: 4b65de272ef745898b5d7fc6dd9a851b
+msgid "**Commenter votre version majeure :**"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:656
+#: 7e22079d3b0a4b88960c6ee61ae97192
+msgid ""
+"Vous pouvez ajouter un commentaire à cette nouvelle version majeure à "
+"l’occasion de cette mise à jour. Celui-ci sera visible dans l’onglet « "
+"Commentaires » à droite de la prévisualisation du document, par tous les "
+"utilisateurs ayant accès au document."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:659
+#: 1d364718abbb4b10a534d51aa23ad9a1
+msgid "Terminer en cliquant sur « Valider »."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:665
+#: f9785de7043845068d602f9686a3acbf
+msgid ""
+"Dans les métadonnées, vous verrez le changement du numéro de version (ex."
+" version 1.2 est passée en 2.0). Quand le 1\\ :sup:`er` chiffre change, "
+"c’est une version majeure, autrement il s’agit d’une version mineure."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:667
+#: 1fbd9a26d5dd4fa695e001e529230924
+msgid "Voir aussi \"Glisser et déposer une nouvelle version\""
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:671
+#: 1afe0fbfe9244b9fb122f045cac70fe4
+msgid ""
+"Le principal objectif de la suppression des versions mineures est de "
+"libérer de l’espace de stockage sur la plateforme. Dans le cas où un "
+"document a énormément de versions mineures, cela permet aussi de réduire "
+"la liste dans l’onglet « Versions »."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:673
+#: f2111ab1b1484f92bde216c33c9f7bfa
+msgid ""
+"**Avant de supprimer les versions mineures, il est conseillé de vérifier "
+"si le document comporte des versions majeures :**"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:675
+#: a0713bd77511492dae1c4484c6410f00
+msgid ""
+"Si c’est le cas, les versions majeures seront conservées et vous pourrez "
+"les télécharger en cas de besoins."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:676
+#: f045e641013d4c888ddf44f3d069aad9
+msgid ""
+"Si le document ne comporte aucune version majeure en dehors de la toute "
+"première (1.0), seule cette première version et la dernière version en "
+"cours seront conservées."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:678
+#: 86ddda15da2f45d38d48ecd43878a1e0
+msgid "**Pour supprimer les versions mineures :**"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:680
+#: 67e5330ef2f9461abba19e8932c1cc83
+msgid ""
+"Sur la page d’un document, allez dans le menu « Burger » (actions "
+"contextuelles) ou depuis l’explorateur de fichier faites un clic-droit."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:681
+#: baebc7ff02484537874fc86967b27a70
+msgid "Dans « Voir plus », cliquez sur « Supprimer versions mineures »."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:686
+#: de23f4ddb98f49acb09705e3d6270869
+msgid ""
+"Un message vous avertit de la suppression définitive et irréversible des "
+"versions mineures. Si vous êtes d’accord, cliquez sur « Supprimer »."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:691
+#: 52b69d50e8e84264b35b0cff2f8cbc01
+msgid ""
+"La version en cours du document passe alors en version majeure. Dans le "
+"bloc des métadonnées, onglet « versions », vous ne verrez désormais plus "
+"que les versions majeures du document."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:698
+#: 09b5bb17fff74b2dabf92bbc869d2bd6
+msgid ""
+"Pour une bonne gestion des versions, il est conseillé de régulièrement « "
+"transformer en version majeure » la dernière version disponible du "
+"document. Ainsi, en cas de suppression des versions mineures, on conserve"
+" quelques versions traçant l’historique du document."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:702
+#: 2d4bf36f2927485da7a7afe5b3e6dca8
+msgid ""
+"Pour afficher les écarts entre deux versions d’un même document, vous "
+"avez la possibilité de lancer un comparatif :"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:704
+#: 3680d49cc78640cabf7007d118909f47
+msgid ""
+"Depuis la page du document, allez dans le menu « Burger » (les actions "
+"contextuelles)."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:705
+#: 25c4703794bd4f8b84e3ecb71d084538
+msgid "Allez dans « Voir plus »."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:706
+#: 5b13ced694d34a5ea7861ae18dae1f34
+msgid "Cliquez sur « Comparer les versions »"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:711
+#: b2a68bcfae204b1db2e8b632cd5115e0
+msgid ""
+"Sélectionnez dans les deux champs les deux versions que vous souhaitez "
+"comparer :"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:718
+#: ef665ebcd5374646b4e4a51a24b5fabd
+msgid "Ajouter aux favoris"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:720
+#: 93f033fd601b424bac79b027d64ab783
+msgid ""
+"**Ajouter un document aux favoris** permet d’y accéder très rapidement "
+"par la suite, depuis la barre des accès rapides icône « étoile » (menu du"
+" haut) ou depuis son tableau de bord (page d’accueil, si on dispose du "
+"bloc « Contenus favoris »."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:722
+#: cc53d1983f314517a27eff11125a8406
+msgid "Ajouter un document/contenu à ses favoris personnels est possible depuis :"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:724
+#: afb4ae7f3b2248359f3a830da86f31d6
+msgid "la page du document, via le menu « Burger » (les actions contextuelles)"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:725
+#: d7ac00ca7a3e4e20981eb579893a1257
+msgid ""
+"l’explorateur de fichiers en faisant un clic-droit sur le document pour "
+"ouvrir le menu"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:726
+#: c26c2f9b96044063a59197137e90396d
+msgid ""
+"partout où vous avez le menu « Burger » d’un document (ex. fil "
+"d’activité, résultat d’une recherche…)"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:728
+#: e69f0edef96442128b7cdc7ce4634398
+msgid ""
+"Lorsque vous cliquez sur « Ajouter aux favoris » un message apparaît, en "
+"haut à droite de l’écran pour confirmer que le contenu a bien été ajouté "
+"aux favoris."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:733
+#: 4d1fb9fd7de7459393ea042dfb41603e
+msgid ""
+"La prochaine fois que vous voulez accéder à ce document, il suffira "
+"d’aller sur l’icône « étoile » dans la barre des accès rapides (menu "
+"principal du haut) et cliquer sur le document dans la liste de vos "
+"favoris."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:737
+#: 82e9f13c1dda4995bb67355083363296
+msgid "Vous pouvez enlever le document/contenu favoris :"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:736
+#: e26c99d770ee4040abdc60aef690f2bc
+msgid ""
+"de la même manière que pour l’ajout (via le menu des actions "
+"contextuelles)"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:737
+#: 8a20a117b0694a04bfcbd01b8fba561b
+msgid ""
+"depuis la liste des contenus favoris, en cliquez sur la corbeille à "
+"droite du titre du document."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:742
+#: 707d83d06412422db8f715b344f37075
+msgid ""
+"Un message en haut à droite de l’écran vous confirmera la bonne "
+"suppression du document de votre liste des favoris."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:749
+#: 4a56177a7a1e47fe98d850fd377604f0
+msgid "Ajouter au panier documentaire"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:750
+#: a30b5668b92742afbf093b7f7d77c12d
+msgid ""
+"**Objectif du panier documentaire :** Rassemble plusieurs documents, "
+"pouvant se trouver dans des dossiers divers de l’arborescence, pour "
+"pouvoir effectuer des actions sur l’ensemble de ces documents."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:754
+#: 7e1e3988cc024d85b2c1f05c9b1b41bc
+msgid "**Pour ajouter des documents dans son panier :**"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:754
+#: f8ee8b1e90e94670b0eb3f9672ac500a
+msgid ""
+"Sur la page d’un document, via le menu « Burger » (menu des actions "
+"contextuelles), allez dans « Voir plus » et cliquez sur « Ajouter au "
+"panier »."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:767
+#: 5a8c2dcf78844d47852eb3397b57dc87
+msgid "**Il est possible de retirer les documents de son panier documentaire :**"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:769
+#: 63213b8673934857b44857047cd05a91
+msgid "Unitairement, en cliquant sur l’icône à droite du document dans le panier."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:770
+#: c8a9aa81227e4a40a36a1d52aa2afe1b
+msgid ""
+"Tous les documents en une fois, en cliquant sur \"retirer tous les "
+"documents\" en bas de la fenêtre du panier."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:775
+#: ee02dc16c78a4cd6b920730d30348c86
+msgid ""
+"Pour en savoir plus sur les actions possibles depuis un panier "
+"documentaire, merci de vous référer à la rubrique : « Panier Documentaire"
+" »"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:778
+#: b1b738be23fc450aab84cf605adde266
+msgid "Epingler un contenu"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:779
+#: 7622cb82498a404eaf6147dbbdd46fe9
+msgid ""
+"**Objectif de « épingler un contenu » :** afficher tout en haut du fil "
+"d’activité, un document spécifique. Ainsi peu importe l’activité sur la "
+"plateforme, tous les utilisateurs ayant accès à ce document, le verront "
+"épinglé en haut du fil. Seul le « Profil de Support-Utilisateurs » ou « "
+"Super-Administrateur » permet d’épingler un document sur le fil "
+"d’activité."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:782
+#: 765f7acf234742f8b0ba5fd9488ea41d
+msgid "**Pour épingler un document/contenu en haut du fil d’activité :**"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:784
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:797
+#: 46ae0ff248314ba6ae2c9b9e565e31cb de5318da99b541c6b0fd5ab3ada64657
+msgid ""
+"Sur la page d’un document, via le menu « Burger » (menu des actions "
+"contextuelles), allez dans « Voir plus » et cliquez sur « Epingler »."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:785
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:798
+#: 574f36b1e5e94c7d93c97658b9352969 b3670373ceaa4c1f8ed263ff8c893878
+msgid ""
+"Partout où vous voyez le menu « Burger » d’un document, vous pouvez "
+"réaliser la même action."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:786
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:799
+#: 456053b00b5e4fd087eec3f6c3a434a8 bfabf177297f4622a7fdfa5c1e4484ed
+msgid ""
+"Depuis l’explorateur de fichiers, faites un clic-droit sur un document "
+"pour ouvrir le même menu « Burger »."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:788
+#: 8d0b57ccd7a547f8bdffe4cdf13ee3a7
+msgid ""
+"Pour en savoir plus sur les profils ayant des permissions avancées, merci"
+" de vous référer aux rubriques : « Profil Support-Utilisateur » et « "
+"Profil Super-Administrateur ». Vous pouvez également consulter la "
+"rubrique « Fil d’Activité » ;"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:792
+#: 40bd5718c3ef4f85b3f4a6c1c910d471
+msgid "S’abonner"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:793
+#: b7e2f576472a40588e99b4f4aee85966
+msgid ""
+"**Objectif de s’abonner :** permet de gérer la fréquence des "
+"notifications liées à l’activité d’un document spécifique. Ainsi, vous "
+"pouvez par exemple avoir un rapport d’activité sur tous les contenus des "
+"espaces où vous êtres membres 2 fois par jour, mais être notifié "
+"immédiatement dès lors que ce document spécifique est modifié ou "
+"commenté."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:795
+#: cce3e49fc9284bcab6cdd8c01e869c04
+msgid "**Pour s’aboner à un contenu/document :**"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:804
+#: 5d1ff64228ab430d92a00023c1970c24
+msgid ""
+"Un message, en haut à droite de votre écran, vous confirme que "
+"l’abonnement à ce contenu a bien été pris en compte."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:809
+#: f15918f3e62e48e5b599a7663615f6bf
+msgid ""
+"Pous voir vos abonnements et gérer leurs intervalles, cliquez sur la "
+"flèche à côté de votre nom de profil puis sur « Abonnements »"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:814
+#: 50d19a2c76db4db4b4cc1ddeafb2c028
+msgid ""
+"Vous retrouvez toute la liste de vos abonnements en passant par le menu "
+"du profil utilisateur (barre des accès rapides / menu principal du haut),"
+" dans le sous-menu « Abonnements »."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:816
+#: 4610d7338762430b8edd5a8741c00396
+msgid ""
+"Pour en savoir plus sur les abonnements à l’activité documentaire, merci "
+"de vous référer à la rubrique : « Gérer ses abonnements »."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:819
+#: d0dc588c13644efabec6efc158a4a74b
+msgid "Autres actions possibles"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:820
+#: e1ee20a4fef143ecae530f30f4012ecf
+msgid ""
+"En plus du menu \"Burger\" (actions contextuelles), sur la page du "
+"document il est possible d’effectuer d’autres actions, dont :"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:822
+#: a2d6fd95db4647c69386180f7bbb6abb
+msgid ""
+"Modifier les informations (=métadonnées), voir : Ajouter/Modifier les "
+"informations d’un document (métadonnées)"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:823
+#: 15e53b726be44b3fb6f270ce7525248e
+msgid ""
+"Pré-archiver un document (via la modification de la métadonnée \"Etat\"),"
+" voir : Pré-archiver des documents et DUA"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:824
+#: e001354e74ed4464a940c3dfa09754d0
+msgid ""
+"Modifier les emplacements/visibilité (dans les Espaces Collaboratifs), "
+"voir : « Modifier les Emplacements/Visibilité »"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:825
+#: db4567dbf3a24c628dfcd6dc36f808e3
+msgid ""
+"Mettre à jour le document en chargeant un fichier depuis son PC, voir : «"
+" Glisser-déposer un document »"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:826
+#: 441d5b99e3494b58ab9e58baaab78ebe
+msgid ""
+"Partager des commentaires (onglet \"Commentaires\"), voir : « Onglet "
+"Commentaires »"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:827
+#: 421e05ba281c4915a03409ef1571c152
+msgid ""
+"Assigner des tâches de processus (onglet \"Tâches\"), voir : « Onglet "
+"Tâches »"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:830
+#: e107d2397d1842769a217c6c6586a4e3
+msgid "Modifier les Emplacements/Visibilité"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:832
+#: a2510df1f20d423db0c20246f86cf5f3
+msgid ""
+"L’emplacement correspond aux Espaces et dossiers où se trouve votre "
+"document sur GoFAST (ex: dans un groupe ou une organisation ou votre "
+"espace privé et/ou un répertoire). Un même et unique fichier peut être "
+"classé dans plusieurs emplacements grâce au *Multi-emplacement*. Vous "
+"évitez ainsi d’avoir des doublons de fichiers et donc, ne plus faire "
+"d'erreurs de versions."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:838
+#: 077f93129c924e3fae4ad34295853baa
+msgid ""
+"L’ajout ou la suppression des emplacements dépend des rôles que vous avez"
+" dans les divers Espaces Collaboratifs. Pour plus d’information, merci de"
+" vous référer à la rubrique : « Espaces Collaboratifs »"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:841
+#: ff5f3c49ac8b4ca1a75edfc41edf6c89
+msgid "Ajouter/Modifier les informations d’un document (métadonnées)"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:842
+#: 1f7c9e3505d8410b929ed8faffa1fa3e
+msgid ""
+"Pour modifier les informations liées à un document, il faut se rendre sur"
+" la page du document ou passer par l’explorateur de fichiers, puis bouton"
+" gérer un fois que l’on sélectionnés les documents que l’ont souhaite "
+"qualifier. Sur la page du document dans le champ « "
+"Emplacements/Visibilité » cliquez sur le bouton « Modifier », une fenêtre"
+" s’ouvre et affiche l’arborescence où vous pouvez partager le document. "
+"Vous pouvez alors cocher ou décocher les emplacements, puis cliquez sur "
+"le bouton « Enregistrer ». Le document est partagé dans les emplacements "
+"choisis, sans aucun doublon. Vous pouvez consulter toute la liste des "
+"utilisateurs ayant accès au document via l’icône juste à droite de « "
+"Emplacements/Visibilité » (icône représentant un ensemble "
+"d’utilisateurs)."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:848
+#: 976015a3d4694375b80995b11bcbbf45
+msgid "Catégories et Etats"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:853
+#: 8fe8a6cdd654480fae3c54dce608a9b7
+msgid ""
+"Les **catégories** correspondent à la nature du document : facture, "
+"courrier, contrat, rapport compte-rendu, article… Les catégories peuvent "
+"être gérés par les utilisateurs ayant le profil « Support-Utilisateurs » "
+"(pour en savoir plus, merci de vous référer à la rubrique « Profil "
+"Support-Utilisateurs »)."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:855
+#: 2d3c455a4ec74ca7bccb25e9b2e2a6fd
+msgid ""
+"L’\\ **état** correspond aux « stades de vie » du document : brouillon, "
+"en cours, en attente de validation, validé, en attente de signature, "
+"obsolète, pré-archivé…"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:857
+#: 8e679aa9372b439599ea86ab4ed2a83b
+msgid ""
+"Pour les modifier, allez sur le champ « catégorie » ou « Etat ». Ce champ"
+" peut être renseigné ou non et dans ce cas il est affiché « Aucun ». "
+"Cliquez sur cette case et choisissez la proposition adéquate dans la "
+"liste déroulante. Vous pouvez également commencer à saisir quelques "
+"lettres pour filtrer cette liste déroulante. Sortez du champ pour valider"
+" (clic ailleurs sur la page)."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:861
+#: cb340cf0a4b14cd8b452b2f069d6941e
+msgid "**Exemples de catégories et états :**"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:869
+#: 248e1d4e01b34918b4675bfc5c3f4f75
+msgid "Donner une note"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:870
+#: 24ff0ecdd4eb4ae08ce7aeb20dd443b8
+msgid ""
+"Vous pouvez partage rune appréciation sur le document en cliquant sur les"
+" points (1 à 5). Vous ne pouvez noter le document qu’une seule fois, mais"
+" vous pouvez modifier votre note à tout moment en recliquant dessus."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:875
+#: 857ac1999adf4d2b95c086bd2c37e35c
+msgid ""
+"Il s’agit d’un champ libre, qui permet de renseigner un code ou un numéro"
+" désigné comme étant la référence du document. Sortez du champ pour "
+"valider (clic ailleurs sur la page). Il est envisageable de mettre un "
+"système automatique basé sur un modèle de nommage, mais cela implique un "
+"accompagnement pour la mise en place. N’hésitez pas à poser vos questions"
+" sur les forums de la communauté d’utilisateurs."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:880
+#: 2440ecb53a60405db874e867da02709e
+msgid "Echéance"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:881
+#: 48640a4e93024a438f5fce5c106d4285
+msgid ""
+"Consiste à appliquer une date d’échéance au document, afin qu’un rappel "
+"soit envoyé 24h avant. Il s’agira de retrouver ce document dans la "
+"synthèse des échéances envoyées par email, listant tous les contenus dont"
+" l’échéance arrive à sa fin. Cela peut servir pour un contrat avec une "
+"date limite, un document qui doit être finalisé à une date précise…"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:884
+#: ddba07c801ae40ceb9ebe932c325b44e
+msgid ""
+"Pour ajouter une échéance, cliquez sur « Aucun » face à « Echéance » et "
+"choisissez la date. Sortez du champ pour valider (clic ailleurs sur la "
+"page)."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:892
+#: b3439954a26445e4bc4a8b9a1324f536
+msgid "Auteur"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:893
+#: a3851930f79648e893b0065554b44fe2
+msgid ""
+"L’auteur d’un document (champs libre) est une notion différente du "
+"créateur de document (métadonnée automatique et non modifiable à la "
+"main). Il peut donc y avoir deux personnes différentes entre ces deux "
+"champs. Le fait d’indiquer **l’auteur** du document permet de savoir qui "
+"a créé le fichier initial (ex. si créé sur un PC avant le dépôt sur "
+"GoFAST). Cela permet par exemple, de savoir à qui s’adresser en cas de "
+"questions, mais surtout de l’utiliser comme filtre lors de la recherche."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:896
+#: 51b337e390a841cdbfa4b9984575726e
+msgid ""
+"Si le fichier déposé sur GoFAST contient une métadonnée \"auteur\" (ex: "
+"un fichier Word indique dans les informations du document que l'auteur "
+"est \"Christopher\"), ça sera automatiquement récupéré depuis le fichier "
+"par GoFAST et affiché sur la page du document."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:898
+#: 9c32709b7fec49ffb82d2c72c988a9cb
+msgid ""
+"Pour modifier ce champ, cliquez dessus et saisissez un nom et/ou prénom, "
+"ou tapez les premières lettres du nom et le système vous proposera une "
+"liste des auteurs déjà saisis par vous, sélectionnez le nom souhaité."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:900
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:939
+#: 636689ba50a94148ade0b8ee7196d24f 8b093bd9f7ec4bc3a5cadf99d77b22f0
+msgid "Sortez du champ pour valider (clic ailleurs sur la page)."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:907
+#: 62a59d45d9ac4d5f95de7eaa5be8226e
+msgid "Importance"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:908
+#: dd4107e6c92a4d29b5d2dd47c8d199ae
+msgid ""
+"Vous pouvez signaler l’importance d’un document dans les métadonnées et "
+"son niveau : critique, haute, normale, basse et autres niveaux de "
+"confidentialités. Certains niveaux permettent de restreindre le partage "
+"et le téléchargement d’un document afin de garantir un niveau de sécurité"
+" de la donnée plus élevée."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:910
+#: 5d9c86c123444e14b87cf5589469b05d
+msgid ""
+"Niveau « Donnée confidentielle », le document associé à ce type "
+"d’importance ne peut pas être ni téléchargé ni partagé."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:911
+#: 913ced7aaed041c6aee56a9fcbbe6afc
+msgid ""
+"Niveau « Diffusion Interne » le document ne peut pas être partagé ou "
+"téléchargé dans un Espace Extranet."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:913
+#: d0fd9fdc63e94e368535a3f5e65c4335
+msgid ""
+"Allez au niveau « Importance » dans les métadonnées du document, cliquez "
+"sur le champ puis choisissez le niveau d’importance. Sortez du champ pour"
+" valider (clic ailleurs sur la page)."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:919
+#: e802d53540284b38a6527d8b3224065d
+msgid ""
+"Cette métadonnée peut être aussi utilisée comme filtre d’un résultat de "
+"recherche."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:923
+#: 3b2fe0ea0a1b4f2aadb44a01baa82226
+msgid "Etiquettes (mots-clefs)"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:925
+#: d076fa89f3ee46988a05ad5dac2f761c
+msgid ""
+"Les \"Etiquettes\" sont des mots-clés que les utilisateurs peuvent à tout"
+" moment ajouter aux documents."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:927
+#: e6eed2f87ea04f55bdf3641ee85340c9
+msgid "**Ces étiquettes sont utiles dans les cas suivants :**"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:929
+#: 7c120cb0884a4026b8dba1073fea3ab4
+msgid ""
+"Informer les autres utilisateurs qui consultent le document sur la "
+"thématique ou une spécificité liée au document,"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:930
+#: ee450c9754804b709b211e67694045d5
+msgid ""
+"Retrouver plus facilement certains contenus car les étiquettes sont "
+"indexées par le moteur de recherche et donnent un poids supplémentaire "
+"qui remonte ces contenus dans le résultat,"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:931
+#: 4918204e87a44fd58bb640c290c3ef37
+msgid ""
+"Pouvoir filtrer un résultat de recherche par \"étiquette\" (ex : on "
+"recherche \"documentation\" et on filtre avec l'étiquette \"GoFAST\"),"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:932
+#: cf917b0b7a3749c8858cfd2e22c0ce6a
+msgid ""
+"Pouvoir s'abonner à ces étiquettes pour être notifié de l'activité des "
+"documents ayant cette étiquette (chaque abonnement à une \"étiquette\" "
+"peut être paramétré par l'utilisateur pour sa fréquence)."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:933
+#: 8225be2110204effa392252fdc91874f
+msgid ""
+"Pouvoir retrouver des fichiers qui sont dans des formats autres que texte"
+" (ex : les images, les vidéo, PDF images, etc.)"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:935
+#: cb4ed9de0dcc46bf8a2159da4a53549c
+msgid "**Pour ajouter ou enlever une \"étiquette\" :**"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:937
+#: 902826e4b1174878a48c57d012eaca8a
+msgid ""
+"Allez au niveau de \"Etiquettes\" et cliquez dans la zone grise (non sur "
+"une étiquette déjà mise, mais à côté),"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:938
+#: faa215640aa0420794271b8eb29988c8
+msgid ""
+"Pour ajouter une étiquette, il faut commencer à taper le mot souhaité et "
+"des suggestions vous seront proposées. Cliquez sur une des suggestions. "
+"Si aucune suggestion ne vous convient, saisissez le mot ou les mots "
+"souhaité(s)."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:940
+#: 3aa437079a3242108663adac5cb2c8f3
+msgid ""
+"Pour enlever une étiquette existante, il suffit de re-rentrer dans le "
+"champ et cliquer sur la petite croix au niveau de l'étiquette."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:948
+#: cd7a1150068a49c0992bbfc5c5c38d76
+msgid "**S'abonner ou se désabonner des \"Etiquettes\" :**"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:950
+#: 847884e6783b4f2fb8abd464e4b09df9
+msgid ""
+"L'abonnement à des étiquettes permet d'être notifié sur l'activité des "
+"contenus selon une thématique ou un sujet spécifique (ex. on est membre "
+"d'un espace de travail, mais plutôt que d'être notifié sur toute "
+"l'activité de cet espace, on fait le choix d'être notifié sur les "
+"documents ayant une étiquette précise). Sur la page d'un document, pour "
+"vous abonner ou vous désabonner d'une étiquette : il faut cliquer sur la "
+"petite icône d'abonnement au niveau de l’étiquette. Ensuite, il est "
+"possible de paramétrer la fréquence de ses notifications par étiquette ou"
+" se désabonner (dans le menu du profil utilisateur, entrée "
+"\"Abonnements\")."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:960
+#: 34efe6214341473aad5dae4ab37791f4
+msgid ""
+"Un message apparaît dans le coin droit supérieur, pour vous confirmer la "
+"prise en compte de l'abonnement ou du désabonnement."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:965
+#: ecf989604e3740ddb724fe63da377f60
+msgid ""
+"L'icône d'abonnement apparaîtra en rouge dans l'étiquette si vous êtes "
+"abonné à ce terme, et en bleu si vous n’y êtes pas abonné."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:974
+#: 3278e51f10cc4aa8a5c48722f5e31bf0
+msgid ""
+"Si des documents ont **un lien vers/depuis**, il est possible de passer "
+"de l’un à l’autre en un clic, peu importe où se trouvent ces documents, "
+"mais selon ses droits d’accès (si vous n’avez pas accès à un des "
+"documents liés, vous aurez une page accès refusé)."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:976
+#: 8e87e619e290454e8514e85ad7affd50
+msgid ""
+"C’est un peu une autre manière de voir les hyperliens dans un document. "
+"Ici vous n’êtes pas obligés d’ouvrir le document où il y a les "
+"hyperliens, vous pouvez directement cliquer sur le document lié dans les "
+"métadonnées."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:978
+#: d1f0a60cdf1f4eb5abeb2f1b8a525ace
+msgid "**Liens vers / Liens depuis**"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:980
+#: 597b2268b3204a60b876c6124b6d0871
+msgid ""
+"Un « lien vers » signifie : un lien ajouté depuis le document où on se "
+"trouve vers d’autres contenus. * Un « lien en provenance » signifie : un "
+"lien ajouté depuis d’autres contenus vers le document où on se trouve."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:982
+#: d3a899fe853f4872b36938c883d7a220
+msgid ""
+"Le lien vers un document a la possibilité d’être modifié depuis celui-ci,"
+" néanmoins un lien en provenance d’un autre document ne peut être modifié"
+" que depuis ce dernier."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:984
+#: a2c9ddef9c114a76a2383a61c84f1227
+msgid ""
+"Pour ajouter des documents/contenus liés, cliquez sur le champ, puis "
+"tapez les premières lettres du nom du document que vous voulez lier (au "
+"moins 3 caractères). Le système va vous le proposer automatiquement "
+"(liste de suggestions). Puis, cliquez sur le document souhaité dans la "
+"liste suggérée pour le sélectionner. Sortez du champ pour valider (clic "
+"ailleurs sur la page)."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:990
+#: da4dea6cb01a4e508fdd1af352ed6596
+msgid ""
+"Ainsi, les documents auront un lien entre eux et vous pourrez cliquer sur"
+" ces liens pour passer d’un document à l’autre en un clic pour gagner un "
+"temps précieux."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:992
+#: a18b02e8a057472d96a1357ab85594fe
+msgid "**Liens externes**"
+msgstr ""
+
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:994
+#: 6b8071f5c19148b8a203b890dd30b6a8
+msgid ""
+"Permet d’ajouter un **lien vers une page web externe** en y mettant **une"
+" URL.**"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:996
+#: 851e93cbbe404261a3844388299fcf8b
+msgid ""
+"Ainsi vous pourrez en un clic ouvrir cette page web externe dans un "
+"nouvel onglet de votre navigateur."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:998
+#: dd809d5a2079451b93ec0b7ffc95edb1
+msgid ""
+"C’est le même principe que pour les autres métadonnées : cliquez dans le "
+"champ « Liens externes », et coller l’URL souhaité. Sortez du champ pour "
+"valider (clic ailleurs sur la page)."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:1006
+#: 0f62858dfcd64f0381038052d34cc6c1
+msgid "Historique et versions du Document"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:1008
+#: bd9f62db93cd42a899ff1d6fc355c5e7
+msgid ""
+"L’\\ **historique** indique les actions qui ont été faites sur le "
+"document, par qui et quand : création, modification, …"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:1013
+#: 5a5591f5a5f14285a675ee07a026db31
+msgid ""
+"Juste en dessous de l’historique, vous pouvez voir aussi les **versions**"
+" du documents, c’est-à-dire le numéro des versions actuelles et combien "
+"il y en a eu avant. Sachant que chaque sauvegarde du document est "
+"considérée comme une nouvelle version mineure (1.0 => 1.1, 1.2, 1.3,….) ."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:1014
+#: 88690d67f4954ebb927dfabe350551bb
+msgid ""
+"Par contre, si vous écrasez la dernière version mineure par une nouvelle "
+"version du document (avec le glisser/coller par exemple), le système vous"
+" demandera si vous voulez qu’elle devienne une version majeure (1.3 => "
+"2.0) et donc une nouvelle base de travail."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:1015
+#: c069a4a9f238493b8b7c31dcbe2601d4
+msgid "La 1ere version que vous créez ou migrez sur GoFAST commence à 1.0."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:1017
+#: a437daf0784a4adab4f36fc7ec433142
+msgid ""
+"Cliquez sur « Show versions list » pour voir les versions antérieures, "
+"vous pouvez même choisir le type de versions (actuelle, majeure ou "
+"toutes), puis cliquez sur le numéro de la version que vous voulez ouvrir."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:1019
+#: 458e49db4f4d4a74bbb1367d7b627401
+msgid "Voir également la rubrique : “Gestion des versions »."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:1023
+#: bda3f05bc7484355a03b604f018b15fb
+msgid "Les langues"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:1025
+#: c54db4b8f91c4f89a673925c2d82d8db
+msgid ""
+"Vous pouvez mettre la **langue du document** dans les métadonnées, ainsi "
+"plus besoin d’indiquer la langue dans le nom du fichier ou de rajouter un"
+" « EN » ou « FR » etc. Cela donne également un niveau de **filtre** "
+"supplémentaire dans la recherche de documents."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:1028
+#: 50e175248f76426db9d9c02f499cd2b2
+msgid ""
+"Si le document existe en différentes langues, vous pouvez lier entre "
+"elles les traductions de ce document : il suffira ensuite d’appuyer sur "
+"le drapeau correspondant à la langue souhaitée pour aller sur la page du "
+"document considéré comme étant la traduction."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:1033
+#: b10af9c27d9d4781a339164fee5863b1
+msgid ""
+"Le premier drapeau correspond à la langue du document où vous trouvez, "
+"les autres sont les traductions disponibles. Donc dans l’exemple ci-"
+"dessus le document est en français (on voit le drapeau) et il existe une "
+"traduction en anglais (on voit l’autre drapeau)."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:1036
+#: 912d9d6a7eb3498ab6de9daf6e139924
+msgid ""
+"Pour **lier 2 documents de langues différentes** il faut passer par le "
+"menu « Burger » (menu des actions contextuelles), dans « voir plus » "
+"cliquer sur « gérer les traductions »."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:1041
+#: 5f3ad1b0f98441ae884a9b54b3eb9851
+msgid "Voir aussi la rubrique : Actions contextuelles sur un document"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:1043
+#: 80641f5537d94206b5da636b2fb3d59e
+msgid ""
+"Vous arrivez sur un formulaire où vous pouvez taper les premières lettres"
+" du document (au moins 3) que vous voulez lier, dans le champ de la "
+"langue souhaitée. Terminez en appuyant sur le bouton « Mettre à jour les "
+"traductions »"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:1049
+#: b2bbb38d48b94c49a835771b05c579f5
+msgid ""
+"Vous pouvez ainsi lier les documents qui existe en plusieurs langues et "
+"les drapeaux correspondant à ces langues se retrouveront dans les "
+"métadonnées du document."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:1053
+#: 03c036b77ad14398b393fb042b809a01
+msgid "Commenter/Annoter les Documents/Contenus"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:1056
+#: 1486da1b89e44b159ab1a8dd73e34ea2
+msgid "Commenter un document"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:1057
+#: 812cacfa64f64f8f829cedfe08bd0852
+msgid ""
+"**Objectif des commentaires et annotations :** Centraliser tous les "
+"échanges liés à un document, sur la page de ce document afin de garantir "
+"que tous ceux qui doivent travailler ou consulter ce document, soient au "
+"courant des questions, réponses et autres remarques faites sur le "
+"document. Cela permet de réduire drastiquement le nombre d’emails entre "
+"collègues, mais aussi de ne plus jamais envoyer de pièce-jointe. Enfin, "
+"cela évite de perdre les échanges et de pérenniser l’information. Les "
+"commentaires sont affichés à droite de la prévisualisation et visible par"
+" ceux qui ont accès au document. Il n’y a donc pas besoin d'ouvrir le "
+"fichier pour les lire. A ne pas confondre avec les commentaires faits "
+"directement dans le fichier lors de l’édition (ex. dan fichier Office), "
+"qui se retrouvent dans le contenu même du document."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:1061
+#: 268eee51effa4bb0ba449f573ab58c69
+msgid "**Pour ajouter un commentaire :**"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:1062
+#: be65dd9fec074d819f65a53edc5e90d9
+msgid ""
+"Allez dans l’onglet « Commentaires » et cliquez sur « Ajouter ici un "
+"nouveau commentaire »"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:1064
+#: c173b988829c44a8ab5ef9ed8f6f6acc
+msgid ""
+"Allez dans le menu « Burger » (les actions contextuelles), puis cliquez "
+"sur « Nouveau commentaire »."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:1069
+#: cf2c70d421084d99bd370401ef75f3f2
 msgid ""
 "Une fenêtre s’ouvre où vous pouvez écrire le titre de votre commentaire "
-"et son contenu, puis « Enregistrez »."
+"et son contenu, puis cliquez sur « Enregistrez »."
 msgstr ""
 
-# 8a6907a6ac0441319e729f381653661f
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:999
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:1074
+#: 40127acebd884649b5caccd03782b7d0
 msgid ""
-"Le commentaire se retrouve sous la prévisualisation du document et vous "
-"pouvez le modifier ou le supprimer à tout moment. De la même manière, "
-"vous pouvez répondre à un autre commentaire existant."
+"Le commentaire se retrouve dans le bloc à droite de la prévisualisation, "
+"dans l’onglet « Commentaire ». Vous pouvez modifier ou supprimer votre "
+"commentaire à tout moment, via les icônes sous le commentaire. De la même"
+" manière, vous pouvez répondre à un autre commentaire en cliquant sur "
+"l’icône « flèche vers la gauche »."
 msgstr ""
 
-# 020802b1f7024f84849350936c281017
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:1001
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:1082
+#: a1bebd8a54214a01943d8ebcf8bf02b5
 msgid ""
-"Vous retrouverez également le titre des commentaires dans l'index (bloc "
-"sur la droite sous les métadonnées). Cela permet de naviguer plus "
-"facilement entre les divers commentaires."
+"Dans le cas d'une réponse à un commentaire, le titre est prérempli depuis"
+" le titre du commentaire d’origine préfixé de \"Re:\" (pour réponse). Il "
+"est toutefois possible de le modifier."
 msgstr ""
 
-# 07d14675b38f433683739a3a54b51d62
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:1006
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:1084
+#: 520c5a35572b487d849ee5f74109b0dd
 msgid ""
-"Dans le cas d'une réponse à un commentaire existant, le titre est "
-"pré-rempli avec le titre de celui-ci préfixé de \"Re:\"(pour réponse). Il"
-" est toutefois possible de le modifier, si l'utilisateur le souhaite."
+"Les utilisateurs qui ont accès au document, verront une alerte (bulle "
+"rouge) dans l’onglet « Commentaire » (dans le bloc d’informations) avec "
+"le nombre de commentaires non lus."
 msgstr ""
 
-# 33b73a4dff6c4c80bb70c37be6aa7060
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:1008
-msgid ""
-"Les utilisateurs qui ont accès à ce document verrons un numéro dans "
-"l’icône commentaire (en haut de la prévisualisation, à droite du titre du"
-" document) indiquant qu’il y a des nouveaux commentaires. L’icône est "
-"alors de couleur rouge."
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:1086
+#: 4cf8fedff0f249b99790f84d2ff3ddc7
+msgid "**Commentaires partagés ou privés**"
 msgstr ""
 
-# 2abeadf98e5a42c7a647b12f95269248
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:1014
-msgid "Commentaires partagés ou privés"
-msgstr ""
-
-# a09b8a895b5841aab4bd60b1d67f1aa4
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:1016
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:1088
+#: 9e10b870c9a84fa19e26c2ddabc0dbdc
 msgid ""
 "Au moment où on fait un commentaire, on a le choix entre \"privé\" ou "
 "\"partagé\". Attention : par défaut, le commentaire est partagé."
 msgstr ""
 
-# a2ca3d0231d047bf83c015bab948dc28
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:1024
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:1097
+#: f3d46b4fd149480fba296ea2f5b24102
 msgid ""
 "Le commentaire privé est visible uniquement par l'utilisateur qui l'a "
-"rédigé. Le commentaire partagé est visible par les utilisateurs ayant "
-"accès au document."
+"rédigé. Le commentaire partagé est visible par tous les utilisateurs "
+"ayant accès au document."
 msgstr ""
 
-# ac9e43e2049348a99c968e52fb0be2e4
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:1026
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:1100
+#: 1e608024ff2241c788834a8bdf042fda
 msgid ""
-"Il est possible de modifier la visibilité du commentaire en l'éditant, "
-"puis en décochant \"privé\"."
+"Il est possible de modifier la visibilité de votre commentaire à tout "
+"moment, en cliquant sur l’icône pour modifier le commentaire."
 msgstr ""
 
-# 05176f4945f249b68deb358685028615
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:1028
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:1102
+#: 9e03a5dcd2774b7389a5e60c168b65b0
 msgid ""
-"Si jamais le commentaire est \"partagé\" et qu'on veut changer pour "
-"\"privé\" : le commentaire et les éventuelles réponses au commentaire "
-"laissées par les autres utilisateurs deviennent privés."
+"Si le commentaire est \"partagé\" et qu'on veut le rendre \"privé\" : le "
+"commentaire et les éventuelles réponses au commentaire laissées par les "
+"autres utilisateurs deviennent privés."
 msgstr ""
 
-# 5c48eb2f256348fdaf9c48a03c4bde2c
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:1030
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:1103
+#: 9d87bf2e5c214820bf694d8a39dd60e4
 msgid ""
-"Si le commentaire est supprimé, les réponses à ce commentaire le sont "
+"Si le commentaire est supprimé, les réponses à ce commentaire les sont "
 "également."
 msgstr ""
 
-# 937429f516334f75991b5e467ae5671d
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:1032
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:1105
+#: e6efac559724466eac6cf44f088d42e6
 msgid ""
-"Le super administrateur a la possibilité de cocher/décocher une case sur "
-"le profil d'un utilisateur pour lui interdire/autoriser les commentaires "
-"partagés. Dans ce cas, l'utilisateur ne pourra faire que des commentaires"
-" privés."
+"Le profil super administrateur a la possibilité de cocher/décocher une "
+"case sur le profil d'un utilisateur pour lui interdire/autoriser les "
+"commentaires partagés. Dans ce cas, l'utilisateur ne pourra faire que des"
+" commentaires privés."
 msgstr ""
 
-# cd0f0dd017a44d44ae0084756e042f7d
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:1034
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:1107
+#: 1666b7a4e43f4ff78556f1241757ec12
 msgid ""
-"Il n'y a pas de notification email, ni dans le fil d'activité pour les "
-"commentaires privés."
+"Il n'y a pas de notification email, ni dans le fil d'activité dès l’ors "
+"qu’il s’agit de commentaires privés."
 msgstr ""
 
-# c2772d549eb64e5d812f52b723425e4b
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:1038
-msgid "Annotations contextuelles sur la prévisualisation"
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:1111
+#: 9a9a932eaa4345578f479a83454b45e1
+msgid "Annotations contextuelles (partagées ou privées)"
 msgstr ""
 
-# 687efede548241e0b0c116a6bf15e4ac
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:1040
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:1113
+#: c2b611d94b904cf796c81173dc123662
 msgid ""
 "Les annotations permettent de commenter une **partie du texte** sur la "
 "prévisualisation, plutôt que de faire un commentaire général. Très "
-"pratiques dans le cadre d'une relécture/correction des documents de "
+"pratiques dans le cadre d'une relecture/correction des documents de "
 "travail."
 msgstr ""
 
-# daaaf2dfe3f4491cb3b79fd2ba57b67d
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:1042
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:1115
+#: 97cd4d17ce7146488d163e2ec5a6deb7
 msgid ""
-"Pour **annoter un mot ou un paragraphe** il suffit de séléctionner le "
+"Pour **annoter un mot ou un paragraphe** il suffit de sélectionner le "
 "texte souhaité : une icône avec un crayon apparaît, cliquez dessus pour "
 "ouvrir la fenêtre d'annotation, rédigez votre annotation, puis "
 "enregistrez."
 msgstr ""
 
-# 7e43767505d24649b8ed35660551b6eb
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:1050
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:1123
+#: b13133d8ba414ba0a4d59e400be6dc59
 msgid ""
-"Vous verrez l’endroit que vous avez annoté surligné en jaune dans la "
+"Vous verrez l’endroit que vous avez annoté surligner en jaune dans la "
 "prévisualisation et en cliquant dessus, vous verrez le contenu de "
 "l’annotation."
 msgstr ""
 
-# d4213b83cea64da1a563c41185999c42
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:1053
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:1126
+#: b18591576ca14bf89888c03b12e10e85
 msgid ""
 "Les annotations ne sont que sur une version donnée du document, si la "
 "version est mise à jour, vous ne verrez plus l'annotation dans la "
-"prévisualisation, mais celle-ci reste dans les commentaires en dessous du"
-" document."
+"prévisualisation, mais celle-ci reste dans les commentaires dans le bloc "
+"des metadonnées."
 msgstr ""
 
-# 43130b426bfc42eb843ac0e7a106d0a5
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:1059
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:1131
+#: 875138ac68e140e6b82aeab164539f36
 msgid ""
 "Vous pourrez également retrouver votre annotation sous la "
 "prévisualisation, comme les commentaires, avec la précision de quelle "
 "version a été annotée."
 msgstr ""
 
-# f3f85b7f1f4d49fca336465a7c9bc7db
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:1064
-msgid "Annotations partagées ou privées"
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:1134
+#: b7f4ddbfd7b849389a14f56b7db0d3f3
+msgid "**Annotations partagées ou privées**"
 msgstr ""
 
-# 3eb4ab7d36f54b3cb4eda770e98291bc
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:1066
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:1136
+#: 58da67a47dfb4fa2b35debdd2c91bc6a
 msgid ""
 "Au moment où on fait une annotation, on a le choix entre \"privé\" ou "
 "\"partagé\". Attention : par défaut, l'annotation est partagée."
 msgstr ""
 
-# c9813356b4924ee0b7f8786f89b75a8a
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:1074
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:1141
+#: 9f2a2b131c5047baa09377a8fb14e032
 msgid ""
 "L'annotation privée est visible uniquement par l'utilisateur qui l'a "
 "rédigée. L'annotation partagée est visible par les utilisateurs ayant "
 "accès au document."
 msgstr ""
 
-# 8639b8e681ca449b9097d8f041a6cf21
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:1076
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:1143
+#: 0f7fbf62d9704d9e8dca3dd8c8e13aaa
 msgid ""
 "Dans le cas d'une annotation privée, cela génère un commentaire qui est "
 "lui aussi privé."
 msgstr ""
 
-# 9e78e9077bc6414a8b7c1d7c8721df19
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:1078
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:1145
+#: 64a071cd0f52499e9a6ecc5fa4adf698
 msgid ""
 "Il est possible de modifier la visibilité de l'annotation en retournant "
 "dessus et en décochant \"privé\". Il en est de même pour le commentaire "
 "associé."
 msgstr ""
 
-# 38497e1886714eea8e833cff2c89c12b
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:1080
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:1147
+#: e4ac5c56282349c3be7dc9919bab6944
 msgid ""
 "Si jamais l'annotation est \"partagée\" et qu'on veut changer pour "
 "\"privée\" : l'annotation et le commentaire associé deviennent privés, y "
 "compris les éventuelles réponses au commentaire laissées par les autres "
-"utilisateur."
+"utilisateurs."
 msgstr ""
 
-# ccdd013239c8469995457829e5628706
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:1082
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:1149
+#: 379f80feefb7473e9a1cb52953ee2419
 msgid ""
 "Si l'annotation de départ est supprimée, le commentaire associé et les "
 "réponses à ce commentaire le sont également."
 msgstr ""
 
-# b4622b6d41f14b4caedcea8a5428336c
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:1084
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:1151
+#: c6dab5863f524a1f9b6195feba7ae62b
 msgid ""
 "Le super administrateur a la possibilité de cocher/décocher une case sur "
 "le profil d'un utilisateur pour lui interdire/autoriser les annotations "
@@ -1675,10 +3091,274 @@ msgid ""
 " privées."
 msgstr ""
 
-# 2de3c22af9ca4d9f83951eb9b1a4bc8e
-#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:1086
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:1153
+#: 65f5ef0dc989420aae79a3637e9ad092
 msgid ""
 "Il n'y a pas de notification email, ni dans le fil d'activité pour les "
 "annotations privées."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:1157
+#: b2242f73b9b846b1b70797759e585203
+msgid "Pré-archiver des documents et DUA"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:1160
+#: b086da7373ca4b7aafc1bae783097d30
+msgid "Etat \"Pré-archivé\""
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:1162
+#: 5bd792762b524be89b4cec9bd54f7017
+msgid ""
+"**Pré-archiver un document** permet de le rendre invisible dans la "
+"recherche, à moins de spécifier l’option « inclure les contenus "
+"pré-archivés », sans qu’il soit complètement supprimé de GoFAST. Et de ce"
+" fait, vous ne pouvez plus travailler dessus."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:1167
+#: 2911bb31f6694f62be21c9b1f8c0a004
+msgid ""
+"Le document aura désormais le statut « archivé » et toutes ses versions "
+"mineures seront effacées."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:1169
+#: 5037a5f0f7554de69b386c0f92f24ea9
+msgid ""
+"Un message vous redemande donc si vous êtes certain de vouloir archiver, "
+"si oui, appuyez sur « Archive »"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:1174
+#: 8bf4acd8efa84720ab60511dc980c31c
+msgid ""
+"Une fois le **document archivé**, il apparaîtra dans les métadonnées que "
+"vous pouvez juste le lire => « en lecture seule », et son état est « "
+"archivé ». Plus aucune modification n’est donc possible sur un document «"
+" archivé »."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:1176
+#: b534657d1a814816b0e64401d58d2e8a
+msgid ""
+"Il se peut aussi, lorsque vous voulez visualiser un document, que vous "
+"voyez un message orange vous signalant qu’il est en statut « archivé » et"
+" que si vous voulez retravailler dessus, il faut demander à "
+"l’administrateur du groupe de le désarchiver."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:1181
+#: 4dc82386254747fe9b7a2a11e233ff2c
+msgid ""
+"Vous pouvez inverser le processus et désarchiver le document pour le "
+"rendre actif à nouveau."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:1186
+#: f7e68088de3d4c2095d50d440aa32540
+msgid "Cliquez sur « Désarchive »"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:1188
+#: cccf0c8fbf124a419c22e6909aa48678
+msgid ""
+"Il n’y à présent plus de message dans les métadonnées et l’état est "
+"redevenu normal ou comme à l’origine."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:1193
+#: 860ba60ce0fb44aebe340924769fbf85
+msgid ""
+"Vous pouvez aussi voir l’état de vos documents dans l’onglet « Activité »"
+" du groupe, dans l’encadré « Contenus avec Etat », à condition que son "
+"état ait bien été enregistré dans les métadonnées (voir § sur les "
+"métadonnées d’un document p.106)"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:1196
+#: cab0029f621b4032a1e204ddef8eaf17
+msgid "Appliquer une DUA"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:1197
+#: ebb29b00224f422b87e0aeb7a219f0e7
+msgid ""
+"La DUA ou la durée d’utilité administrative, est la durée pendant "
+"laquelle un document est conservé afin d’être consulté ou utilisé pendant"
+" la gestion d’un dossier ou à des fins juridiques. Une fois ce temps "
+"écoulé, il sera archivé de façon définitive ou détruit. Ce processus est "
+"indispensable dans la continuité des actions administratives. Il est donc"
+" fondamental dans une entreprise de bien maîtriser le cycle de vie de "
+"chaque document et d’optimiser leur archivage. GoFAST propose cette "
+"fonctionnalité importante et offre la possibilité de personnaliser une "
+"DUA selon la catégorie du document, la durée du processus de traitement "
+"et le sort final.  Il est également possible de définir une liste "
+"d’utilisateurs qui souhaitent être notifiés quand la DUA sera atteinte. "
+"Le déclenchement de la DUA se fera lors de l'application du statut "
+"\"Pré-archivé\" sur un document, à condition que celui-ci possède une "
+"catégorie associée à une DUA. Une DUA peut être appliquée sur un document"
+" ou plusieurs documents d’un ou plusieurs espace(s)."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:1203
+#: 74b68d970e47438caf1569458103c03c
+msgid ""
+"Pour déclencher une DUA sur un document, dans le bloc métadonnées de ce "
+"dernier, aller dans le champ « Catégorie » puis cliquer sur modifier."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:1208
+#: 554a333e7ac04386a2128bd5396898a5
+msgid ""
+"Choisissez la catégorie qui correspond au type de votre dossier puis "
+"appuyer sur « Appliquer »."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:1213
+#: aa0f19a6c0cb4274b7925513926c5d2c
+msgid ""
+"Ensuite, aller dans le champ « État », appuyer sur « Modifier », "
+"sélectionner « Pré-archivé » puis cliquer sur le bouton « Appliquer » "
+"pour sauvegarder."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:1215
+#: 13898451e13f4c249c0863b40c5a723a
+msgid ""
+"Une fois ce document est en état pré-archivé, son contenu et sa catégorie"
+" ne seront plus modifiables et la DUA est déclenchée à partir de la "
+"dernière date de modification de ce document."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:1217
+#: c4cab324037a47c99ba116707b57b09d
+msgid ""
+"Quand la DUA est atteinte, les différents utilisateurs associés à cette "
+"dernière seront notifiés."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:1220
+#: 804bddd0f2b04511b8c145c5833c7d1c
+msgid ""
+"Il est important de renseigner le couple (Catégorie, État : Pré-archivé),"
+" si l’un des deux est vide, la DUA ne se déclenchera pas."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:1224
+#: e23d96cf9706448c9b4a9ef77d7ba650
+msgid ""
+"Pour configurer une DUA, seuls les administrateurs de plateforme sont "
+"habilités, merci de vous référer à la documentation : https://gofast-"
+"docs.readthedocs.io/fr/3.8.0/docs-gofast-users/doc-gofast-administration-"
+"plateforme.html#configurer-une-dua-duree-de-l-utilite-administrative"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:1228
+#: 41bdabef120c4933ac631f326bcbb7bd
+msgid "Panier Documentaire"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:1229
+#: 3bfa9115ec294d49bee1a231745f8bc8
+msgid "**Objectif du panier documentaire :**"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:1231
+#: ada709ce4c594736aa53ff2156ae23e0
+msgid ""
+"Rassemble plusieurs documents, pouvant se trouver dans des dossiers "
+"divers de l’arborescence, pour pouvoir effectuer des actions sur "
+"l’ensemble de ces documents."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:1233
+#: acf3efd264bb4bada224bface042b963
+msgid ""
+"Le panier est accessible depuis la barre des accès rapides (menu "
+"principal du haut), à droite de la barre de recherche, dans l’icône « "
+"Panier »."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:1237
+#: e1ea88e7dece43faa7bf52ea6e0465ff
+msgid "Ajouter/retirer des documents dans son panier documentaire"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:1238
+#: a5dcfecc1e5f4f68806cf6b4ef242b24
+msgid ""
+"Pour savoir comment ajouter des documents dans votre panier, merci de "
+"vous référer à la rubrique : « Ajouter/retirer des documents dans son "
+"panier documentaire »."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:1241
+#: 863fb49b3ce344e69827dbdbc6aa80c0
+msgid "Actions possibles depuis le panier documentaire"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:1242
+#: 2283d6b9503e48f89cc6e08949f42451
+msgid "**Gérer en masse les documents du panier :**"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:1244
+#: a7eed4cc39b34e48af36ab6be2f9a981
+msgid "Télécharger"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:1245
+#: 150a08f3b6f8499fa5fbede514e8a8eb
+msgid "Gérer les métadonnées (catégorie, étiquettes, état, langue, etc.)"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:1246
+#: d8db440ba8d643fc81fd6e6627e28504
+msgid "Partager / Ajouter des emplacements"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:1247
+#: 4208b424a998471485004dbdade04bba
+msgid "Créer des publications"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:1248
+#: 7cb6b9183c4c4c51ad0427226195704a
+msgid "Partager par email"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:1249
+#: 59f0967cd1a54029b5ef3b265301d328
+msgid "Pré-archiver"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:1252
+#: 038b682bfc9944e28ea17b31f2e5b23c
+msgid "**Démarrer un processus de tâches depuis le panier (Enterprise only) :**"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:1254
+#: dd8001199ea04861bff4bb240ff8caec
+msgid ""
+"Les documents du panier sont proposés lors du démarrage d’un nouveau "
+"workflow, via le menu principal."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:1256
+#: 33bbd895bc6b448982b5ea9c4dbc04c0
+msgid ""
+"Cela permet d’associés au processus tous les documents en une fois, que "
+"l’on peut ensuite retirer unitairement dans le formulaire du processus."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:1261
+#: 0334a30c849b4874b45b1fa543f66902
+msgid ""
+"Pour savoir comment démarrer un nouveau processus de tâches, merci de "
+"vous référer à la documentation : https://gofast-"
+"docs.readthedocs.io/fr/latest/docs-gofast-users/doc-gofast-guide-"
+"utilisateurs.html#workflows-processus-de-taches-enterprise-only"
 msgstr ""
 

@@ -1,5 +1,5 @@
-Documentation GoFAST 3.0
-########################
+Documentation GoFAST 4.0
+####################
 
 .. _technical-docs:
 
@@ -30,6 +30,7 @@ Documentation GoFAST 3.0
    :maxdepth: 1
    :caption: GoFAST : Releases
    
+   docs-gofast-technical/release-notes-4.0.0
    docs-gofast-technical/release-notes-3.10.0
    docs-gofast-technical/release-notes-3.9.1
    docs-gofast-technical/release-notes-3.9.0

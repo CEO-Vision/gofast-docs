@@ -18,7 +18,7 @@ Composants et configurations optionnels
 
 - Montage "Lecteur Réseau" (voir http://gofast-docs.readthedocs.io/fr/latest/docs-gofast-users/doc-gofast-guide-utilisateurs.html#ajouter-un-ou-plusiers-documents-par-le-lecteur-reseau)
 - ITHitDocumentOpener (pour l'édition en ligne de contenus non-Office/LibreOffice)
-- Synchronisation hors-ligne (voir http://gofast-docs.readthedocs.io/fr/latest/docs-gofast-users/doc-gofast-utilisation-avancee.html#installation-cmissync)
+- Synchronisation hors-ligne (voir https://gofast-docs.readthedocs.io/fr/latest/docs-gofast-users/doc-gofast-utilisation-avancee.html#synchronisation-locale-gofast-hors-ligne)
 
 Pré-requis et installation Serveur
 ==================================
@@ -31,7 +31,7 @@ Architecture
 
 
 +--------------------------------------+--------------------------------------+
-|GoFAST3                                                                      |
+|GoFAST 4                                                                     |
 +======================================+======================================+
 |OS                                    | CentOS 7 64bits                      |
 +--------------------------------------+--------------------------------------+
@@ -43,15 +43,13 @@ Architecture
 +--------------------------------------+--------------------------------------+
 |Annuaire                              | OpenLDAP 2.4                         |
 +--------------------------------------+--------------------------------------+
-|GED                                   | Alfresco 5.2 Community               |
+|GED                                   | Alfresco 6.2 Community               |
 +--------------------------------------+--------------------------------------+
-|Recherche                             | Apache Solr 5                        |
+|Recherche                             | Apache Solr 8                        |
 +--------------------------------------+--------------------------------------+
 |Serveur API                           | Apache Tomcat 7                      |
 +--------------------------------------+--------------------------------------+
-|Workflow (GoFAST 3.6+)                | Bonitasoft Community 7               |
-+--------------------------------------+--------------------------------------+
-|Workflow (<GoFAST 3.6+)               | Bonitasoft Community 6               |
+|Workflow (GoFAST 3.6+)                | Bonitasoft Community 7.13+           |
 +--------------------------------------+--------------------------------------+
 
 .. image:: media/Tag-Enterprise.png
@@ -60,19 +58,17 @@ Architecture
    :align: right
    :scale: 10%
    
-+--------------------------------------+--------------------------------------+
-|GoFAST  Comm-Serveur                                                         |
-+======================================+======================================+
-|Edition collaborative                 | OnlyOffice 5                         |
-+--------------------------------------+--------------------------------------+
-|Messagerie instantannée (<GoFAST 3.8) | eJabberd 16                          |
-+--------------------------------------+--------------------------------------+
-|Messagerie instantannée (>GoFAST 3.8) | Matrix-Synapse v1.12                 |
-+--------------------------------------+--------------------------------------+
-|Webconference                         | Jitsi Meet 1.0 et Prosody 0.11       |
-+--------------------------------------+--------------------------------------+
-|Reverse Proxy                         | nginx 1.12                           |
-+--------------------------------------+--------------------------------------+
++--------------------------------------+--------------------------------------------------+
+|GoFAST  Comm-Serveur                                                                     |
++======================================+==================================================+
+|Edition collaborative                 | OnlyOffice 7                                     |
++--------------------------------------+--------------------------------------------------+
+|Messagerie instantannée (>GoFAST 3.8) | Matrix-Synapse v1.12                             |
++--------------------------------------+--------------------------------------------------+
+|Webconference                         | Jitsi (Web 1.0.x server 2.1 / Prosody 0.11       |
++--------------------------------------+--------------------------------------------------+
+|Reverse Proxy                         | nginx 1.20                                       |
++--------------------------------------+--------------------------------------------------+
 
 Pré-requis « serveur »
 ----------------------
@@ -96,15 +92,13 @@ Pré-requis Machine Virtuelle
 La plate-forme GoFAST est prévue pour fonctionner sur les Hyperviseurs (n'ayant pas atteint leur EOL)
 64 bits suivant :
 
--  VMWare ESX
+-  VMWare ESX 6+
 
 -  HyperV 
 
 -  KVM
 
 -  HVM (Amazon Web Services)
-
-et sans retour d'expérience en exploitation, XEN 6+
 
 .. NOTE:: 
    Pas possible d'import actuellement par images dans un HyperV (ou sous Azure). Une installation par script est effectuée
@@ -222,9 +216,6 @@ et en sortie.
 | import de page Web, supervision                                |          |          |                      |               |
 +----------------------------------------------------------------+----------+----------+----------------------+---------------+
 | Accès à la plate-forme en HTTPS et WebDav                      | x        | X        | 443                  |               |
-+----------------------------------------------------------------+----------+----------+----------------------+---------------+
-| Accès à l'annuaire LDAP GoFAST par le S.I de l'entreprise      | x        |          | 636                  |               |
-| et par VM2                                                     |          |          |                      |               |
 +----------------------------------------------------------------+----------+----------+----------------------+---------------+
 | Envoi des mails de notification ou autres services internes    | x        |          |                      | 25, 465, 636..|
 +----------------------------------------------------------------+----------+----------+----------------------+---------------+
