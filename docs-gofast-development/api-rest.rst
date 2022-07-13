@@ -1441,20 +1441,39 @@ __________
 Cette méthode permet d'effectuer une recherche documentaire.
 
 .. NOTE:: Les valeurs de *filters* disponibles sont les suivantes :
-        ds_created (date de création) => [YYYY-MM-DDTHH:MM:SSZ TO YYYY-MM-DDTHH:MM:SSZ] date au format ISO 8601
-        ds_changed (date de modification) => [YYYY-MM-DDTHH:MM:SSZ TO YYYY-MM-DDTHH:MM:SSZ] date au format ISO 8601
-        sm_unr_document_reference (référence du document) => valeur
-        im_field_format (format du document) => Identifiant du terme de la taxonomy *format* (cf. API taxonomy)
-        im_field_tags (tags du document) => Identifiant du terme de la taxonomy *tags* (cf. API taxonomy)
-        im_field_category (catégorie du document) => Identifiant du terme de la taxonomy *category* (cf. API taxonomy)
-        sm_og_group_content_ref (Espace dans lequel rechercher) => node:xx Identifiant de l'espace dans lequel rechercher
-        is_uid (utilisateur créateur) => Identifiant de l'utilisateur
-        is_mod_uid (utilisateur modificateur) => Identifiant de l'utilisateur
-        sm_unr_author (auteur du document) => valeur
-        im_field_state (état du document) => Identifiant du terme de la taxonomy *state* (cf. API taxonomy)
-        im_field_criticity (importance du document) => Identifiant du terme de la taxonomy *criticity* (cf. API taxonomy)
-        ss_language (langue du document) => valeur (fr, en, ...)
-        ds_field_date (échéance du document) => [YYYY-MM-DDTHH:MM:SSZ TO YYYY-MM-DDTHH:MM:SSZ] date au format ISO 8601
+
++---------------------------+-------------------------------+--------------------------------------------------------------------------------------+
+|  Filtre                   |   Description                 | Valeur                                                                               |
++===========================+======================================================================================================================+
+|ds_created                 | date de création              |  [YYYY-MM-DDTHH:MM:SSZ TO YYYY-MM-DDTHH:MM:SSZ] date au format ISO 8601              +
++---------------------------+-------------------------------+--------------------------------------------------------------------------------------+
+|ds_changed                 | date de modification          |  [YYYY-MM-DDTHH:MM:SSZ TO YYYY-MM-DDTHH:MM:SSZ] date au format ISO 8601              +
++---------------------------+-------------------------------+--------------------------------------------------------------------------------------+
+|sm_unr_document_reference  | référence du document         | valeur                                                                               +
++---------------------------+-------------------------------+--------------------------------------------------------------------------------------+
+|im_field_format            | format du document            | Identifiant du terme de la taxonomy *format* (cf. API taxonomy)                      +
++---------------------------+-------------------------------+--------------------------------------------------------------------------------------+
+|im_field_tags              | tags du document              | Identifiant du terme de la taxonomy *tags* (cf. API taxonomy)                        +
++---------------------------+-------------------------------+--------------------------------------------------------------------------------------+
+|im_field_category          | catégorie du document         | Identifiant du terme de la taxonomy *category* (cf. API taxonomy)                    +
++---------------------------+-------------------------------+--------------------------------------------------------------------------------------+
+|sm_og_group_content_ref    | Espace dans lequel rechercher | node:xx Identifiant de l'espace dans lequel rechercher                               +
++---------------------------+-------------------------------+--------------------------------------------------------------------------------------+
+|is_uid                     | utilisateur créateur          | Identifiant de l'utilisateur                                                         +
++---------------------------+-------------------------------+--------------------------------------------------------------------------------------+
+|is_mod_uid                 | utilisateur modificateur      | Identifiant de l'utilisateur                                                         +
++---------------------------+-------------------------------+--------------------------------------------------------------------------------------+
+|sm_unr_author              | auteur du document            | valeur                                                                               +
++---------------------------+-------------------------------+--------------------------------------------------------------------------------------+
+|im_field_state             | état du document              | Identifiant du terme de la taxonomy *state* (cf. API taxonomy)                       +
++---------------------------+-------------------------------+--------------------------------------------------------------------------------------+
+|im_field_criticity         | importance du document        | Identifiant du terme de la taxonomy *criticity* (cf. API taxonomy)                   +
++---------------------------+-------------------------------+--------------------------------------------------------------------------------------+
+|ss_language                | langue du document            | valeur (fr, en, ...)                                                                 +
++---------------------------+-------------------------------+--------------------------------------------------------------------------------------+
+|ds_field_date              | échéance du document          | [YYYY-MM-DDTHH:MM:SSZ TO YYYY-MM-DDTHH:MM:SSZ] date au format ISO 8601               +
++---------------------------+-------------------------------+--------------------------------------------------------------------------------------+
+
 
 *POST: /api/search/search*
 
