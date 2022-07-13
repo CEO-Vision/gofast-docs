@@ -1395,12 +1395,12 @@ Cette ressource permet d'intéragir avec les tâches d'un utilisateur.
 Action : user_task
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Cette action permet de récupérer les tâches d'un utilisateur
+Cette ressource permet d'intéragir avec les tâches d'un utilisateur.
 
 GET
 __________
 
-Cette méthode permet de récupérer les tâches d'un utilisateur.
+Cette méthode permet de récupérer les tâches de l'utilisateur.
 
 *GET: /api/kanban/user_task*
 
@@ -1410,11 +1410,6 @@ Cette méthode permet de récupérer les tâches d'un utilisateur.
 |Content-Type       | application/json         |
 +-------------------+--------------------------+
 
-+-------------------+----------------------------------------------+
-|  Clé              |   Valeur                                     |
-+===================+==============================================+
-| uid               |N° de l'utilisateur                           |
-+-------------------+----------------------------------------------+
 
 *Retour:*
 
@@ -1427,9 +1422,7 @@ Cette méthode permet de récupérer les tâches d'un utilisateur.
 +-----------------------+----------------------------------------------------------------------+
 |   Clé                 |   Valeur                                                             |
 +=======================+======================================================================+
-|userTasks              |Nom des tâches de l'utilisateur                                       |
-+-----------------------+----------------------------------------------------------------------+
-|tasks                  |Nombre de tâche de l'utilisateur                                      |
+|tasks                  |Tableau contenant la liste des tâches                                      |
 +-----------------------+----------------------------------------------------------------------+
 
 Ressource : search
@@ -1447,7 +1440,21 @@ __________
 
 Cette méthode permet d'effectuer une recherche documentaire.
 
-.. NOTE:: Les valeurs de *filters* disponibles peuvent être récupérés depuis la ressource taxonomy et l'action terms (*/api/taxonomy/terms*).
+.. NOTE:: Les valeurs de *filters* disponibles sont les suivantes :
+        ds_created (date de création) => [YYYY-MM-DDTHH:MM:SSZ TO YYYY-MM-DDTHH:MM:SSZ] date au format ISO 8601
+        ds_changed (date de modification) => [YYYY-MM-DDTHH:MM:SSZ TO YYYY-MM-DDTHH:MM:SSZ] date au format ISO 8601
+        sm_unr_document_reference (référence du document) => valeur
+        im_field_format (format du document) => Identifiant du terme de la taxonomy *format* (cf. API taxonomy)
+        im_field_tags (tags du document) => Identifiant du terme de la taxonomy *tags* (cf. API taxonomy)
+        im_field_category (catégorie du document) => Identifiant du terme de la taxonomy *category* (cf. API taxonomy)
+        sm_og_group_content_ref (Espace dans lequel rechercher) => node:xx Identifiant de l'espace dans lequel rechercher
+        is_uid (utilisateur créateur) => Identifiant de l'utilisateur
+        is_mod_uid (utilisateur modificateur) => Identifiant de l'utilisateur
+        sm_unr_author (auteur du document) => valeur
+        im_field_state (état du document) => Identifiant du terme de la taxonomy *state* (cf. API taxonomy)
+        im_field_criticity (importance du document) => Identifiant du terme de la taxonomy *criticity* (cf. API taxonomy)
+        ss_language (langue du document) => valeur (fr, en, ...)
+        ds_field_date (échéance du document) => [YYYY-MM-DDTHH:MM:SSZ TO YYYY-MM-DDTHH:MM:SSZ] date au format ISO 8601
 
 *POST: /api/search/search*
 
@@ -1460,9 +1467,9 @@ Cette méthode permet d'effectuer une recherche documentaire.
 +-------------------+-----------------------------------------------------------+
 |  Clé              |   Valeur                                                  |
 +===================+===========================================================+
-|        query      |                                                           |
+|        query      |Texte à rechercher                                         |
 +-------------------+-----------------------------------------------------------+
-|      filters      |ID du terme de recherche                                   |
+|      filters      |Tableau de filtres de recherche                            |
 +-------------------+-----------------------------------------------------------+
 
 *Retour:*
@@ -1476,25 +1483,9 @@ Cette méthode permet d'effectuer une recherche documentaire.
 +-----------------------+----------------------------------------------------------------------+
 |   Clé                 |   Valeur                                                             |
 +=======================+======================================================================+
-|links                  |Lien du document rechercher                                           |
+|[Tableau de résultats] |Tableau contenant les 10 premiers résultats                           |
 +-----------------------+----------------------------------------------------------------------+
-|title                  |Nom du document rechercher                                            |
-+-----------------------+----------------------------------------------------------------------+
-|fields                 |Informations sur l'emplacement du document rechercher                 |
-+-----------------------+----------------------------------------------------------------------+
-|entiry_type            |Type de l'entité                                                      |
-+-----------------------+----------------------------------------------------------------------+
-|bundle                 |Nom du paquet du document rechercher                                  |
-+-----------------------+----------------------------------------------------------------------+
-|type                   |Type du document rechercher                                           |
-+-----------------------+----------------------------------------------------------------------+
-|user                   |Nom de l'utilisateur                                                  |
-+-----------------------+----------------------------------------------------------------------+
-|node                   |N° du noeud                                                           |
-+-----------------------+----------------------------------------------------------------------+
-|uid                    |N° de l'utilisateur                                                   |
-+-----------------------+----------------------------------------------------------------------+
-|popularity             |Popularité du document                                                |
+|results                |Nombre total de résultats                                             |
 +-----------------------+----------------------------------------------------------------------+
 
 Ressource : userlist
@@ -1539,9 +1530,9 @@ Cette méthode permet de récupérer les informations d’une liste d'utilisateu
 +=======================+======================================================================+
 |title                  |Nom de l'userlist                                                     |
 +-----------------------+----------------------------------------------------------------------+
-|users                  |Nombre d'utilisateurs                                                 |
+|users                  |Liste des membres                                                     |
 +-----------------------+----------------------------------------------------------------------+
-|admin                  |Nombre d'administrateur                                               |
+|admin                  |Liste des administrateur                                              |
 +-----------------------+----------------------------------------------------------------------+
 
 PUT
@@ -1605,7 +1596,7 @@ Cette méthode permet de mettre à jour une liste d'utilisateurs.
 +===================+==============================================+
 |nulid              |N° de noeud de la liste d'utilisateurs        |
 +-------------------+----------------------------------------------+
-|title              |Titre du document                             |
+|title              |Nouveau titre de la liste d'utilisateurs      |
 +-------------------+----------------------------------------------+
 
 *Retour:*
@@ -1647,7 +1638,7 @@ Cette méthode permet d'ajouter un administrateur la liste d'utilisateurs.
 +===================+==============================================+
 |nulid              |N° de noeud de la liste d'utilisateurs        |
 +-------------------+----------------------------------------------+
-|uid                |N° du créateur de la liste d'utilisateurs     |
+|uid                |Identifiant de l'utilisateur                  |
 +-------------------+----------------------------------------------+
 
 *Retour:*
@@ -1725,7 +1716,7 @@ Cette méthode permet d'ajouter un membre à la liste d'utilisateurs.
 +===================+==============================================+
 |nulid              |N° de noeud de la liste d'utilisateurs        |
 +-------------------+----------------------------------------------+
-|uid                |N° du créateur de la liste d'utilisateurs     |
+|uid                |Identifiant de l'utilisateur                  |
 +-------------------+----------------------------------------------+
 
 *Retour:*
@@ -1741,183 +1732,3 @@ Cette méthode permet d'ajouter un membre à la liste d'utilisateurs.
 +=======================+======================================================================+
 |status                 |Statut de l'ajout                                                     |
 +-----------------------+----------------------------------------------------------------------+
-
-Ressource : workflow
-**********************
-
-Cette ressource permet d'intéragir avec les modèles de processus.
-
-Action : profil
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Cette action permet de d'intéragir avec les modèles de profil.
-
-GET
-__________
-
-Cette méthode permet de récupérer les modèles de profil.
-
-*GET: /api/workflow/profil*
-
-+-------------------+--------------------------+
-|  Header           |   Valeur                 |
-+===================+==========================+
-|Content-Type       | application/json         |
-+-------------------+--------------------------+
-
-+-------------------+----------------------------------------------+
-|  Clé              |   Valeur                                     |
-+===================+==============================================+
-|id                 |N° du workflow                                |
-+-------------------+----------------------------------------------+
-
-*Retour:*
-
-+-------------------+----------------------------------------+
-|   Header          |   Valeur                               |
-+===================+========================================+
-|Content-Type       | application/json                       |
-+-------------------+----------------------------------------+
-
-+-----------------------+----------------------------------------------------------------------+
-|   Clé                 |   Valeur                                                             |
-+=======================+======================================================================+
-|id                     |N° du workflow                                                        |
-+-----------------------+----------------------------------------------------------------------+
-|name                   |Nom du workflow                                                       |
-+-----------------------+----------------------------------------------------------------------+
-|value                  |Contenu du workflow                                                   |
-+-----------------------+----------------------------------------------------------------------+
-|type_wf                |type du workflow                                                      |
-+-----------------------+----------------------------------------------------------------------+
-|version_wf             |version du workflow                                                   |
-+-----------------------+----------------------------------------------------------------------+
-|uid                    |N° du workflow                                                        |
-+-----------------------+----------------------------------------------------------------------+
-
-PUT
-__________
-
-Cette méthode permet de créer un modèle de profil.
-
-*PUT: /api/workflow/profil*
-
-+-------------------+--------------------------+
-|  Header           |   Valeur                 |
-+===================+==========================+
-|Content-Type       | application/json         |
-+-------------------+--------------------------+
-
-+-------------------+----------------------------------------------+
-|  Clé              |   Valeur                                     |
-+===================+==============================================+
-|name               |Nom du workflow                               |
-+-------------------+----------------------------------------------+
-|value              |Valeur du workflow                            |
-+-------------------+----------------------------------------------+
-|type_wf            |Type du workflow                              |
-+-------------------+----------------------------------------------+
-|version_wf         |Version du workflow                           |
-+-------------------+----------------------------------------------+
-
-*Retour:*
-
-+-------------------+----------------------------------------+
-|   Header          |   Valeur                               |
-+===================+========================================+
-|Content-Type       | application/json                       |
-+-------------------+----------------------------------------+
-
-+-----------------------+----------------------------------------------------------------------+
-|   Clé                 |   Valeur                                                             |
-+=======================+======================================================================+
-|id                     |N° du workflow                                                        |
-+-----------------------+----------------------------------------------------------------------+
-|name                   |Nom du workflow                                                       |
-+-----------------------+----------------------------------------------------------------------+
-|value                  |Contenu du workflow                                                   |
-+-----------------------+----------------------------------------------------------------------+
-|type_wf                |type du workflow                                                      |
-+-----------------------+----------------------------------------------------------------------+
-|version_wf             |version du workflow                                                   |
-+-----------------------+----------------------------------------------------------------------+
-|uid                    |N° du créateur du workflow                                            |
-+-----------------------+----------------------------------------------------------------------+
-
-PATCH
-__________
-
-Cette méthode permet de mettre à jour un modèle de profil.
-
-*PATCH: /api/workflow/profil*
-
-+-------------------+--------------------------+
-|  Header           |   Valeur                 |
-+===================+==========================+
-|Content-Type       | application/json         |
-+-------------------+--------------------------+
-
-+-------------------+----------------------------------------------+
-|  Clé              |   Valeur                                     |
-+===================+==============================================+
-|id                 |N° du workflow                                |
-+-------------------+----------------------------------------------+
-|name               |Nom du workflow                               |
-+-------------------+----------------------------------------------+
-|value              |Valeur du workflow                            |
-+-------------------+----------------------------------------------+
-|type_wf            |Type du workflow                              |
-+-------------------+----------------------------------------------+
-|version_wf         |Version du workflow                           |
-+-------------------+----------------------------------------------+
-
-*Retour:*
-
-+-------------------+----------------------------------------+
-|   Header          |   Valeur                               |
-+===================+========================================+
-|Content-Type       | application/json                       |
-+-------------------+----------------------------------------+
-
-+-----------------------+----------------------------------------------------------------------+
-|   Clé                 |   Valeur                                                             |
-+=======================+======================================================================+
-|id                     |N° du workflow                                                        |
-+-----------------------+----------------------------------------------------------------------+
-|name                   |Nom du workflow                                                       |
-+-----------------------+----------------------------------------------------------------------+
-|value                  |Contenu du workflow                                                   |
-+-----------------------+----------------------------------------------------------------------+
-|type_wf                |type du workflow                                                      |
-+-----------------------+----------------------------------------------------------------------+
-|version_wf             |version du workflow                                                   |
-+-----------------------+----------------------------------------------------------------------+
-|uid                    |N° du créateur du workflow                                            |
-+-----------------------+----------------------------------------------------------------------+
-
-DELETE
-__________
-
-Cette méthode permet de supprimer un modèle de profil.
-
-*DELETE: /api/workflow/profil*
-
-+-------------------+--------------------------+
-|  Header           |   Valeur                 |
-+===================+==========================+
-|Content-Type       | application/json         |
-+-------------------+--------------------------+
-
-+-------------------+----------------------------------------------+
-|  Clé              |   Valeur                                     |
-+===================+==============================================+
-|id                 |N° du workflow                                |
-+-------------------+----------------------------------------------+
-
-*Retour:*
-
-+-------------------+----------------------------------------+
-|   Header          |   Valeur                               |
-+===================+========================================+
-|Content-Type       | application/json                       |
-+-------------------+----------------------------------------+
