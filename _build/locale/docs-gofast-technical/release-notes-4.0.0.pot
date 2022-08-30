@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gofast-docs latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-05-20 15:20+0200\n"
+"POT-Creation-Date: 2022-08-30 14:33+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -35,10 +35,12 @@ msgstr ""
 #: ../../docs-gofast-technical/release-notes-4.0.0.rst:1
 #: ../../docs-gofast-technical/release-notes-4.0.0.rst:1
 #: ../../docs-gofast-technical/release-notes-4.0.0.rst:1
+#: ../../docs-gofast-technical/release-notes-4.0.0.rst:1
 #: b971fd4928c743c9b33021fd0e909b7c
 #: 74e6b88b00874ed6b162634b84fd269f
-#: e80e77194a344caa8585a6cf1905d0a1
-#: 3ffb0b3a99e5469e8510a7e57bb69f8c
+#: 74e6b88b00874ed6b162634b84fd269f
+#: 74e6b88b00874ed6b162634b84fd269f
+#: 74e6b88b00874ed6b162634b84fd269f
 msgid "Ref."
 msgstr ""
 
@@ -46,10 +48,12 @@ msgstr ""
 #: ../../docs-gofast-technical/release-notes-4.0.0.rst:1
 #: ../../docs-gofast-technical/release-notes-4.0.0.rst:1
 #: ../../docs-gofast-technical/release-notes-4.0.0.rst:1
+#: ../../docs-gofast-technical/release-notes-4.0.0.rst:1
 #: 84b44b36a3b24d749a30548f1829af25
 #: fb69dabcccdd4bd68a117de153477f0c
-#: 83f04a5a3e9b43a1b4a44b76eacaa848
-#: 58a7f0049bd54171a98da6ea7cbf2607
+#: fb69dabcccdd4bd68a117de153477f0c
+#: fb69dabcccdd4bd68a117de153477f0c
+#: fb69dabcccdd4bd68a117de153477f0c
 msgid "Description"
 msgstr ""
 
@@ -270,7 +274,7 @@ msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-4.0.0.rst:1
 #: a2426a031fe6469a9d241a7a8bfedf0a
-msgid "Gérer les étiquettes : Possibilité de fusionner, modifier et supprimer"
+msgid "(bêta) Gérer les étiquettes : Possibilité de fusionner, modifier et supprimer"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-4.0.0.rst:1
@@ -330,7 +334,7 @@ msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-4.0.0.rst:1
 #: 1ec86e58c7964d47b88227708bdaa1f5
-msgid "Multi-emplacement automatique des dossiers (ou 'Dossier miroirs')"
+msgid "(bêta) Multi-emplacement automatique des dossiers (ou 'Dossier miroirs')"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-4.0.0.rst:1
@@ -443,9 +447,14 @@ msgstr ""
 msgid "Web-conférence : Possible de séparer une réunion en plusieurs"
 msgstr ""
 
-#: ../../docs-gofast-technical/release-notes-4.0.0.rst:56
+#: ../../docs-gofast-technical/release-notes-4.0.0.rst:57
 #: 176304871c7140008d134872f7302add
 msgid "Améliorations"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.0.0.rst:59
+#: a71668cd2e8043c4b0c701493f38be3a
+msgid "**Améliorations Fonctionnelles**"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-4.0.0.rst:1
@@ -729,16 +738,6 @@ msgid "Ergonomie : Nouvelle page de connexion"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-4.0.0.rst:1
-#: c40e70e05c6f46d9abd75451a31ec9b5
-msgid "[GOFAST-8275]"
-msgstr ""
-
-#: ../../docs-gofast-technical/release-notes-4.0.0.rst:1
-#: 1f220c6679b44fd8b5b8e4f15e73bb5c
-msgid "Ergonomie : Regroupement des fonctionnalités de signature dans le menu burger"
-msgstr ""
-
-#: ../../docs-gofast-technical/release-notes-4.0.0.rst:1
 #: 66d71fb9759f424196838f9858558b9f
 msgid "[GOFAST-6114]"
 msgstr ""
@@ -776,6 +775,231 @@ msgstr ""
 #: ../../docs-gofast-technical/release-notes-4.0.0.rst:1
 #: fbc1a311ddda435cb5551d8dc231d7e2
 msgid "Explorateur de fichiers : Ajout du texte 'Déposer ici' et clic pour charger des documents"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.0.0.rst:1
+#: 086378bb10a54276ae37fa4bb556923f
+msgid "[GOFAST-5946]"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.0.0.rst:1
+#: 4ad208f667e34ef6824bef86d46e9615
+msgid "Explorateur de fichiers : Case à cocher pour sélectionner/désélectionner tous les documents en une fois dans un dossier"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.0.0.rst:1
+#: 66d71fb9759f424196838f9858558b9f
+msgid "[GOFAST-6564]"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.0.0.rst:1
+#: 519c8ab402434aba90dedae9d27dd852
+msgid "Forums : Index et navigation des forums dans le volet de gauche"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.0.0.rst:1
+#: ac5792e922764daeb47e48a114180864
+msgid "[GOFAST-7453]"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.0.0.rst:1
+#: 9ee978d3bf104605bdd8cb22bee5abc2
+msgid "Gérer les métadonnées : ajouter/modifier en masse l'importance et de l'échéance (depuis Explorateur de fichiers et Panier)"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.0.0.rst:1
+#: c40e70e05c6f46d9abd75451a31ec9b5
+msgid "[GOFAST-8274]"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.0.0.rst:1
+#: a61c9559c8e84329b235527410f4dff3
+msgid "GoFAST Essential : pouvoir créer une publication depuis un document de travail"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.0.0.rst:1
+#: 180d7d96e68e4df2bff8d0a554d6b1e8
+msgid "[GOFAST-5927]"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.0.0.rst:1
+#: 02ff8e6911314c89b043530c8cac5e34
+msgid "Kanban Tâches Collaboratives : Titres des colonnes par défaut adaptés à la langue de l'interface"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.0.0.rst:1
+#: 08026adf0aed48b88614e3bcd48dfb33
+msgid "[GOFAST-7217]"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.0.0.rst:1
+#: f163e07ba46443578bffc22a71942cbf
+msgid "Liens entre Contenus : Pouvoir entrer un permalien (URL d'un contenu) dans 'Liens vers'"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.0.0.rst:1
+#: 4925703bc2654daf8532a3c8683dd08a
+msgid "[GOFAST-7627]"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.0.0.rst:1
+#: fb7ad698c93d4c479b810368324ae71c
+msgid "Notifications : Nouveau design des emails (Synthèses Activité, Processus, Échéances, etc.)"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.0.0.rst:1
+#: 031eca0c3a924e5dbd3e25ce00e1b779
+msgid "[GOFAST-7349]"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.0.0.rst:1
+#: 729c7e0b95504ebca9264d5c1487d932
+msgid "Notifications : Nouvelle notification des demandes d'ajout de membres dans un Espace par le profil 'Support-Utilisateurs'"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.0.0.rst:1
+#: 91a3cb2242714e79b96385290d6ac061
+msgid "[GOFAST-7360]"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.0.0.rst:1
+#: 21fb28f450494dd5b1ca3e7a05a415bd
+msgid "Notifications : Regroupement des rappels des échéances (sur documents et taches) dans une seule notification"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.0.0.rst:1
+#: 5fc6ecd85f5b4f4c99d08c013f6f27f4
+msgid "[GOFAST-7273]"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.0.0.rst:1
+#: b03ca79c30e44d52b9c56751d53d2c82
+msgid "Notifications : Regrouper les notifications 'immédiates' des tâches collaboratives 'Kanban'"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.0.0.rst:1
+#: c20df896143d4ffea24fc79e05805ba3
+msgid "[GOFAST-8255]"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.0.0.rst:1
+#: 835f060b755a4e2091fbac5bb92a31b1
+msgid "Office Coédition : Griser le bouton 'Co-éditer via OnlyOffice' pour les formats doc, ppt, xls"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.0.0.rst:1
+#: ddb441faaa2548e183caa9011e0618b7
+msgid "[GOFAST-6804]"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.0.0.rst:1
+#: 73f1d105f8a64ab0a2c573d1be396f89
+msgid "Partage de documents par email : Editeur riche disponible dans la zone commentaire"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.0.0.rst:1
+#: 9cb05b497e3d42a1b826914d06fff617
+msgid "[GOFAST-7372]"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.0.0.rst:1
+#: 0d63d6a5770348989e1bc4c14edc764f
+msgid "Partager une nouvelle (sur fil d'activité) : fonctionnalité autorisée uniquement au profil 'Support-Utilisateurs'"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.0.0.rst:1
+#: 99a3b8768a74490eb3b51a7f686c42ec
+msgid "[GOFAST-8496]"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.0.0.rst:1
+#: b129da9d60394b2a99218a7502222e74
+msgid "Performance : Changement du système de prévisualisation PDF"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.0.0.rst:1
+#: d30be9ba590f4c7aaaaec9c2242600b2
+msgid "[GOFAST-8085]"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.0.0.rst:1
+#: c40fd57bf32e484b887a2e0850b7e794
+msgid "Performances : Optimisation du Tchat (refactoring implémentation)"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.0.0.rst:1
+#: 260119588bad448c8188559f667f5f7e
+msgid "[GOFAST-5006]"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.0.0.rst:1
+#: de4560dbf9144e11b0cbb7a87726658f
+msgid "Réunion Web-conférence : Possibilité d'ajouter les Liste d'utilisateurs comme participants"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.0.0.rst:1
+#: 72d281dae218450f9df960b9d18b76a3
+msgid "[GOFAST-8278]"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.0.0.rst:1
+#: 7bb9682c71ac48e69a0bf2f658810bcb
+msgid "Sélecteur de langue : Remplacer les drapeaux par la langue sur 2 lettres (FR/EN)"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.0.0.rst:1
+#: b32030cd8f854b3a84919bee1e912c75
+msgid "[GOFAST-6159]"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.0.0.rst:1
+#: 1dde6690829b49b28ccfa4e372ca5093
+msgid "Suppression de la fonction 'messages privés' : Désormais les messages privés passent par le Tchat"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.0.0.rst:1
+#: e8d2175a74534023b4e7014701aadfe9
+msgid "[GOFAST-6612]"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.0.0.rst:1
+#: 4c870fa129be4742b9e74965fbd8818d
+msgid "Notifications : Amélioration des emails des réunions Web-conférence"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.0.0.rst:1
+#: 79d9e3e5063a4c229e4a55f80767652e
+msgid "[GOFAST-5502]"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.0.0.rst:1
+#: bd752b4beb2e4663ae89731f80b56287
+msgid "Ergomonie : Agrandir la taille de police"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.0.0.rst:1
+#: 06e61418f574449c8f112f37c44755d4
+msgid "[GOFAST-6057]"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.0.0.rst:1
+#: cf6d8ba5f7804175ae0f48a5ac6309fb
+msgid "Page Document : Accès à l'empacement du document depuis la zone 'Emplacements / Visibilités' dans le bloc d'informations"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.0.0.rst:124
+#: 36404ceb0df045c4a5eb65156fc96f56
+msgid "**Améliorations Techniques**"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.0.0.rst:1
+#: cb95650a56154ccab09dfb928f0fdc23
+msgid "[GOFAST-7971 ]"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.0.0.rst:1
+#: aade404ef98646ffac9a0ec7eae9707c
+msgid "Mécanisme de contrôle de la disponibilité du serveur d'authentification client (SASL, délégation d'authentification)"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-4.0.0.rst:1
@@ -839,106 +1063,6 @@ msgid "Mise à jour Tomcat 9.0.56"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-4.0.0.rst:1
-#: 4925703bc2654daf8532a3c8683dd08a
-msgid "[GOFAST-7627]"
-msgstr ""
-
-#: ../../docs-gofast-technical/release-notes-4.0.0.rst:1
-#: fb7ad698c93d4c479b810368324ae71c
-msgid "Notifications : Nouveau design des emails (Synthèses Activité, Processus, Échéances, etc.)"
-msgstr ""
-
-#: ../../docs-gofast-technical/release-notes-4.0.0.rst:1
-#: 031eca0c3a924e5dbd3e25ce00e1b779
-msgid "[GOFAST-7349]"
-msgstr ""
-
-#: ../../docs-gofast-technical/release-notes-4.0.0.rst:1
-#: 729c7e0b95504ebca9264d5c1487d932
-msgid "Notifications : Nouvelle notification des demandes d'ajout de membres dans un Espace par le profil 'Support-Utilisateurs'"
-msgstr ""
-
-#: ../../docs-gofast-technical/release-notes-4.0.0.rst:1
-#: 91a3cb2242714e79b96385290d6ac061
-msgid "[GOFAST-7360]"
-msgstr ""
-
-#: ../../docs-gofast-technical/release-notes-4.0.0.rst:1
-#: 21fb28f450494dd5b1ca3e7a05a415bd
-msgid "Notifications : Regroupement des rappels des échéances (sur documents et taches) dans une seule notification"
-msgstr ""
-
-#: ../../docs-gofast-technical/release-notes-4.0.0.rst:1
-#: 5fc6ecd85f5b4f4c99d08c013f6f27f4
-msgid "[GOFAST-7273]"
-msgstr ""
-
-#: ../../docs-gofast-technical/release-notes-4.0.0.rst:1
-#: b03ca79c30e44d52b9c56751d53d2c82
-msgid "Notifications : regrouper les notifications 'immédiates' des tâches collaboratives 'Kanban'"
-msgstr ""
-
-#: ../../docs-gofast-technical/release-notes-4.0.0.rst:1
-#: c20df896143d4ffea24fc79e05805ba3
-msgid "[GOFAST-8255]"
-msgstr ""
-
-#: ../../docs-gofast-technical/release-notes-4.0.0.rst:1
-#: 835f060b755a4e2091fbac5bb92a31b1
-msgid "Office Coédition : Griser le bouton 'Co-éditer via OnlyOffice' pour les formats doc, ppt, xls"
-msgstr ""
-
-#: ../../docs-gofast-technical/release-notes-4.0.0.rst:1
-#: ddb441faaa2548e183caa9011e0618b7
-msgid "[GOFAST-6804]"
-msgstr ""
-
-#: ../../docs-gofast-technical/release-notes-4.0.0.rst:1
-#: 73f1d105f8a64ab0a2c573d1be396f89
-msgid "Partage de documents par email : Editeur riche disponible dans la zone commentaire"
-msgstr ""
-
-#: ../../docs-gofast-technical/release-notes-4.0.0.rst:1
-#: 9cb05b497e3d42a1b826914d06fff617
-msgid "[GOFAST-7372]"
-msgstr ""
-
-#: ../../docs-gofast-technical/release-notes-4.0.0.rst:1
-#: 0d63d6a5770348989e1bc4c14edc764f
-msgid "Partager une nouvelle (sur fil d'activité) : fonctionnalité autorisée uniquement au profil 'Support-Utilisateurs'"
-msgstr ""
-
-#: ../../docs-gofast-technical/release-notes-4.0.0.rst:1
-#: 99a3b8768a74490eb3b51a7f686c42ec
-msgid "[GOFAST-8496]"
-msgstr ""
-
-#: ../../docs-gofast-technical/release-notes-4.0.0.rst:1
-#: b129da9d60394b2a99218a7502222e74
-msgid "Performance : Changement du système de prévisualisation PDF"
-msgstr ""
-
-#: ../../docs-gofast-technical/release-notes-4.0.0.rst:1
-#: d30be9ba590f4c7aaaaec9c2242600b2
-msgid "[GOFAST-8085]"
-msgstr ""
-
-#: ../../docs-gofast-technical/release-notes-4.0.0.rst:1
-#: c40fd57bf32e484b887a2e0850b7e794
-msgid "Performances : Optimisation du Tchat (refactoring implémentation)"
-msgstr ""
-
-#: ../../docs-gofast-technical/release-notes-4.0.0.rst:1
-#: 260119588bad448c8188559f667f5f7e
-msgid "[GOFAST-5006]"
-msgstr ""
-
-#: ../../docs-gofast-technical/release-notes-4.0.0.rst:1
-#: de4560dbf9144e11b0cbb7a87726658f
-msgid "Réunion Web-conférence : possibilité d'ajouter les Liste d'utilisateurs comme participants"
-msgstr ""
-
-#: ../../docs-gofast-technical/release-notes-4.0.0.rst:1
 #: a802bde7c2e1410ca689625fd87e7018
 msgid "[GOFAST-4177]"
 msgstr ""
@@ -946,36 +1070,6 @@ msgstr ""
 #: ../../docs-gofast-technical/release-notes-4.0.0.rst:1
 #: f46a6a648440407daa14f01f91ed7c94
 msgid "Réunion Web-conférence : Utilisation du port 443/TCP"
-msgstr ""
-
-#: ../../docs-gofast-technical/release-notes-4.0.0.rst:1
-#: 72d281dae218450f9df960b9d18b76a3
-msgid "[GOFAST-8278]"
-msgstr ""
-
-#: ../../docs-gofast-technical/release-notes-4.0.0.rst:1
-#: 7bb9682c71ac48e69a0bf2f658810bcb
-msgid "Sélecteur de langue : remplacer les drapeaux par la langue sur 2 lettres (FR/EN)"
-msgstr ""
-
-#: ../../docs-gofast-technical/release-notes-4.0.0.rst:1
-#: b32030cd8f854b3a84919bee1e912c75
-msgid "[GOFAST-6159]"
-msgstr ""
-
-#: ../../docs-gofast-technical/release-notes-4.0.0.rst:1
-#: 1dde6690829b49b28ccfa4e372ca5093
-msgid "Suppression de la fonction 'messages privés' : désormais les messages privés passent par le Tchat"
-msgstr ""
-
-#: ../../docs-gofast-technical/release-notes-4.0.0.rst:1
-#: e8d2175a74534023b4e7014701aadfe9
-msgid "[GOFAST-6612]"
-msgstr ""
-
-#: ../../docs-gofast-technical/release-notes-4.0.0.rst:1
-#: 4c870fa129be4742b9e74965fbd8818d
-msgid "Notifications : Amélioration des emails des réunions Web-conférence"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-4.0.0.rst:1
@@ -988,27 +1082,7 @@ msgstr ""
 msgid "Performance : Utilisation du protocole http/2"
 msgstr ""
 
-#: ../../docs-gofast-technical/release-notes-4.0.0.rst:1
-#: 79d9e3e5063a4c229e4a55f80767652e
-msgid "[GOFAST-5502]"
-msgstr ""
-
-#: ../../docs-gofast-technical/release-notes-4.0.0.rst:1
-#: bd752b4beb2e4663ae89731f80b56287
-msgid "Ergomonie : Agrandir la taille de police"
-msgstr ""
-
-#: ../../docs-gofast-technical/release-notes-4.0.0.rst:1
-#: 06e61418f574449c8f112f37c44755d4
-msgid "[GOFAST-6057]"
-msgstr ""
-
-#: ../../docs-gofast-technical/release-notes-4.0.0.rst:1
-#: cf6d8ba5f7804175ae0f48a5ac6309fb
-msgid "Page Document : Accès à l'empacement du document depuis la zone 'Emplacements / Visibilités' dans le bloc d'informations"
-msgstr ""
-
-#: ../../docs-gofast-technical/release-notes-4.0.0.rst:123
+#: ../../docs-gofast-technical/release-notes-4.0.0.rst:145
 #: 4e4dd85b9fdb4a56801c7297d4dbe8c7
 msgid "Sécurité"
 msgstr ""
@@ -1061,16 +1135,6 @@ msgstr ""
 #: ../../docs-gofast-technical/release-notes-4.0.0.rst:1
 #: c0d5b2d2ceca499d8d4c8686c9034080
 msgid "Correctifs 'Hotfix' : Faille log4j CVE-2021-44228"
-msgstr ""
-
-#: ../../docs-gofast-technical/release-notes-4.0.0.rst:1
-#: 8d4ebd4fd5fe4409be1203f8df70b1d9
-msgid "[GOFAST-8190]"
-msgstr ""
-
-#: ../../docs-gofast-technical/release-notes-4.0.0.rst:1
-#: b49c8321228847b8b852abc26a5ed99c
-msgid "Injection SQL"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-4.0.0.rst:1
@@ -1133,7 +1197,7 @@ msgstr ""
 msgid "Statistiques : restreindre l'export de la liste des utilisateurs au seul profil support-utilisateurs"
 msgstr ""
 
-#: ../../docs-gofast-technical/release-notes-4.0.0.rst:145
+#: ../../docs-gofast-technical/release-notes-4.0.0.rst:166
 #: 95895bb3eaf04a278d245bf1cc819f3c
 msgid "Bugs"
 msgstr ""
