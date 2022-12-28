@@ -77,11 +77,11 @@ Bugs
    
    
    [GOFAST-xxxx],"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
-   [GOFAST-6215],"[MOUNTAINDUCK][CRITICAL] Version locale "remplace" la version serveur celle-ci étant renommée"
+   [GOFAST-6215],"[MOUNTAINDUCK][CRITICAL] Version locale remplace la version serveur celle-ci étant renommée"
    [GOFAST-7886],"[MOUNTAINDUCK] Impossible d'ouvrir les fichiers bureautiques hors ligne"
    [GOFAST-8834],"[ONLYOFFICE] Problème mise en page OnlyOffice ODP (perte retour à la ligne)"
    [GOFAST-8736],"Redimensionnement edition contenu Wiki"
-   [GOFAST-7198],"Quand une carte (kanban) est mise en état 'terminée' il faut que les tâches de la todoliste soient enlevées de 'l'accès rapide aux tâches' du menu principal"        
+   [GOFAST-7198],"Quand une carte (kanban) est mise en état terminée il faut que les tâches de la todoliste soient enlevées de l'accès rapide aux tâches du menu principal"        
    [GOFAST-8160],"Mieux gérer l'erreur Yousign quand l'upload du document ne fonctionne pas"
    [GOFAST-8873],"Menu contextuel non présent Userlist"
    [GOFAST-8622],"Changement intempestif de la photo de profil dans le chat"
