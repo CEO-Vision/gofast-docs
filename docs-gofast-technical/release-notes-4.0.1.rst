@@ -97,7 +97,6 @@ Bugs
    [GOFAST-9334],"Prévisualisation excel (onlyoffice) ne fonctionne pas sur iPad"
    [GOFAST-8796],"Prévisualisation ne fonctionne pas sur les .svg"
   
- 
 
 
 
