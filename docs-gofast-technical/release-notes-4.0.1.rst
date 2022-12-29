@@ -42,6 +42,33 @@ Améliorations
 
   
    [GOFAST-xxxx],"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+   [	GOFAST-9190	]	"	,	"	Zabbix Slow-query MySQL per second	"
+   [	GOFAST-8872	]	"	,	"	Annuaire Espaces : avoir des filtres pour les colonnes Total Membres , Administrateurs , Membres en Attente 	"
+   [	GOFAST-8620	]	"	,	"	Amélioration affichage titre contenu et fil d'ariane 	"
+   [	GOFAST-9103	]	"	,	"	Refonte de la page d'accueil d'espace	"
+   [	GOFAST-8538	]	"	,	"	Amélioration Page de téléchargement / Partage par email	"
+   [	GOFAST-7810	]	"	,	"	Les modèles de dossier doivent pouvoir être supprimés par d'autre user que le créateur de ceux-ci	"
+   [	GOFAST-8814	]	"	,	"	Manque d'explications sur le retrait de membres alors qu'il est aussi dans une userlist dans un espace	"
+   [	GOFAST-8903	]	"	,	"	MàJ JITSI Meet v1.0.6644	"
+   [	GOFAST-8995	]	"	,	"	MàJ Onlyoffice 7.2.1 was 7.2.0	"
+   [	GOFAST-9319	]	"	,	"	Mise à jour Onlyoffice 7.2.2	"
+   [	GOFAST-9196	]	"	,	"	Zabbix graph MySQL temp objects	"
+   [	GOFAST-9055	]	"	,	"	Adapter les statistiques de processus pour le workflow standard	"
+   [	GOFAST-9254	]	"	,	"	Annuaire users: avatars aplatis	"
+   [	GOFAST-9249	]	"	,	"	Divers petits correctifs ergo menu gauche	"
+   [	GOFAST-9233	]	"	,	"	Trigger sur nb thread MySQL	"
+   [	GOFAST-9195	]	"	,	"	Rajout d'action supprimer et télécharger dans la liste des actions en masse de l'explorateur	"
+   [	GOFAST-9193	]	"	,	"	Manque de versions dans la modale de versions GoFAST	"
+   [	GOFAST-9141	]	"	,	"	[SECURITY] MàJ Expat	"
+   [	GOFAST-9071	]	"	,	"	Afficher un message Pas de prévisulisation disponible ou icone	"
+   [	GOFAST-9051	]	"	,	"	Inversion champs SASL dans création formulaire utilisateur	"
+   [	GOFAST-9049	]	"	,	"	Workflow light dashboard : mauvaise infobulle sur les tâches sans échéance	"
+   [	GOFAST-9014	]	"	,	"	[CONF ALFRESCO] Warning sur l'augmentation de la taille du cache dans Alfresco	"
+   [	GOFAST-8924	]	"	,	"	Ajouter message pour indiquer qu'on ne peut pas déposer de fichiers dans un type d'espace à la racine et qu'il faut créer un sous-espace avant	"
+   [	GOFAST-8845	]	"	,	"	Admin tabs : utiliser l'attribut class pour enclencher des classes et non des ids	"
+   [	GOFAST-8422	]	"	,	"	Déplacer la croix pour fermer un document prévisualisé à l’extrême droite	"
+   [	GOFAST-8138	]	"	,	"	Modification de l'API de recherche pour renvoyer les facet filtres  sous forme JSON dans la réponse	"
+   [	GOFAST-7868	]	"	,	"	Notifications à refaire : ajout d'un membre à un espace, rapport des adhésions	"
    
 
 **Améliorations Techniques**
