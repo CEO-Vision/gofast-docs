@@ -49,7 +49,7 @@ Améliorations
    [	GOFAST-8995	]	"	,	"	Mise à jour Onlyoffice (notamment pour correctifs format odf)	"
    [	GOFAST-9319	]	"	,	"	Mise à jour Onlyoffice v7.2.2 (ligature, tableau OLE, performance des polices, ajout du portugais ... et correctifs dont format odf et sécurité)	"
    [	GOFAST-9196	]	"	,	"	Supervision de la création des objets temporaires dans la base de données (Zabbix)	"
-   [	GOFAST-9055	]	"	,	"	XXXXX	"
+   [	GOFAST-9055	]	"	,	"	Adapter les statistiques de processus pour le workflow standard	"
   
 
 
