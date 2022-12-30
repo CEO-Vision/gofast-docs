@@ -61,8 +61,10 @@ Sécurité
    :header: "Ref.", "Description"
    :widths: 1000, 60000
   
-   [GOFAST-xxxx],"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
-
+   [	GOFAST-7661	]	"	,	"	Correction de la vulnérabilité potentielle CVE-2021-45105 (DDOS log4j)	"
+   [	GOFAST-9225	]	"	,	"	Mise à jour de l'agent Zabbix (v2)	"
+   [	GOFAST-9090	]	"	,	"	Mise à jour sécurité de Tomcat en version 9.0.68	"
+   [	GOFAST-8434	]	"	,	"	Remplacement dans la mesure du possible des requete exec et shell_exec	"
   
    
    
