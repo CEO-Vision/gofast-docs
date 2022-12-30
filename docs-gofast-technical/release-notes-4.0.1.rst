@@ -12,8 +12,7 @@ Nouvelles fonctionnalités
    :header: "Ref.", "Description"
    :widths: 1000, 60000
    
-   [GOFAST-xxxx],"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx" 
-   [	GOFAST-8010	]	"	,	"	Ajout d'alerte de supervision en cas de "sealert" dans les logs	"
+   [	GOFAST-8010	]	"	,	"	Ajout d'alerte de supervision en cas de sealert dans les logs	"
    [	GOFAST-7216	]	"	,	"	Amélioration grace à l'affichage de la description d'un espace lors de son survol	"
    [	GOFAST-4833	]	"	,	"	Nouvelle fonctionnalité : Outil de gestion des étiquettes (fusion, correction, ...)	"
    [	GOFAST-8999	]	"	,	"	Nouvelle fonctionnalité permettant de disposer d'une API d'auto-complétion par liste d'utilisateur	"
