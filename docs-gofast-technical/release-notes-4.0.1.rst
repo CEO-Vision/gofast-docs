@@ -34,7 +34,7 @@ Améliorations
   
 
   
-   [GOFAST-xxxx],"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+
    [	GOFAST-9190	]	"	,	"	Ajout d'une supervision Zabbix des requêtes lentes de la base de données MySQL 	"
    [	GOFAST-8872	]	"	,	"	Amélioration : pouvoir filtrer par utilisateur dans certaines colonnes de l'annuaire des espaces	"
    [	GOFAST-8620	]	"	,	"	Amélioration de l'affichage du Titre avec le fil d'ariane en dessous permettant de voir les titres longs et une meilleure lisbilité	"
@@ -76,7 +76,7 @@ Bugs
    :widths: 1000, 60000
    
    
-   [GOFAST-xxxx],"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+   
    [	GOFAST-6215	]	"	,	"	[MOUNTAINDUCK] Correction d'un bug critique renommant la version serveur plutot que de versionner avec la version locale modifiée hors-ligne	"
    [	GOFAST-7886	]	"	,	"	[MOUNTAINDUCK] Impossible d'ouvrir les fichiers bureautiques hors ligne	"
    [	GOFAST-8834	]	"	,	"	[ONLYOFFICE] Correction par Onlyoffice d'une perte de retour à la ligne sur les formts ODP (OpenDocument)	"
