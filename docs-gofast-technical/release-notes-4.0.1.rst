@@ -46,7 +46,6 @@ Améliorations
    "[GOFAST-9055]","Adapter les statistiques de processus pour le workflow standard	"
    "[GOFAST-8814]","Message d'alerte lors qu'on retire un membre d'un espace alors qu'il en reste membre car aussi dans une liste de cet espace	"
    "[GOFAST-8903]","Mise à jour de Jitsi Meet v1.0.6644	"
-   "[GOFAST-8995]","Mise à jour Onlyoffice (notamment pour correctifs format odf)	"
    "[GOFAST-9319]","Mise à jour Onlyoffice v7.2.2 (ligature, tableau OLE, performance des polices, ajout du portugais ... et correctifs dont format odf et sécurité)	"
    "[GOFAST-9196]","Supervision de la création des objets temporaires dans la base de données (Zabbix)	"
    "[GOFAST-8773]","Mise à jour VM2 (Comm) Java 11	"
