@@ -12,11 +12,11 @@ Nouvelles fonctionnalités
    :header: "Ref.", "Description"
    :widths: 1000, 60000
    
-   "[GOFAST-8010]","Ajout d'alerte de supervision en cas de sealert dans les logs"
-   "[GOFAST-7216]","Amélioration grace à l'affichage de la description d'un espace lors de son survol"
    "[GOFAST-4833]","Nouvelle fonctionnalité : Outil de gestion des étiquettes (fusion, correction, ...)"
    "[GOFAST-8999]","Nouvelle fonctionnalité permettant de disposer d'une API d'auto-complétion par liste d'utilisateur"
    "[GOFAST-8757]","Permettre de charger un document sur mobile"
+   "[GOFAST-7216]","Amélioration grace à l'affichage de la description d'un espace lors de son survol"
+   "[GOFAST-8010]","Ajout d'alerte de supervision en cas de sealert dans les logs"
    
  
    
@@ -35,7 +35,6 @@ Améliorations
 
   
 
-   "[GOFAST-9190]","Ajout d'une supervision Zabbix des requêtes lentes de la base de données MySQL 	"
    "[GOFAST-8872]","Amélioration : pouvoir filtrer par utilisateur dans certaines colonnes de l'annuaire des espaces	"
    "[GOFAST-8620]","Amélioration de l'affichage du Titre avec le fil d'ariane en dessous permettant de voir les titres longs et une meilleure lisbilité	"
    "[GOFAST-9103]","Amélioration de la page d'accueil d'espace évitant de repousser les blocs (favoris,...) vers le bas si la page wiki de l'espace est longue	"
@@ -44,13 +43,16 @@ Améliorations
    "[GOFAST-8818]","Amélioration du temps de réponse d'affichage des modèles si très nombreux	"
    "[GOFAST-8739]","Amélioration performance du fil d'activité si beaucoup d'espaces	"
    "[GOFAST-7810]","Amélioration permettant aux autres utilisateurs que le créateur de supprimer les modèles de dossier	"
+   "[GOFAST-9055]","Adapter les statistiques de processus pour le workflow standard	"
    "[GOFAST-8814]","Message d'alerte lors qu'on retire un membre d'un espace alors qu'il en reste membre car aussi dans une liste de cet espace	"
    "[GOFAST-8903]","Mise à jour de Jitsi Meet v1.0.6644	"
    "[GOFAST-8995]","Mise à jour Onlyoffice (notamment pour correctifs format odf)	"
    "[GOFAST-9319]","Mise à jour Onlyoffice v7.2.2 (ligature, tableau OLE, performance des polices, ajout du portugais ... et correctifs dont format odf et sécurité)	"
    "[GOFAST-9196]","Supervision de la création des objets temporaires dans la base de données (Zabbix)	"
-   "[GOFAST-9055]","Adapter les statistiques de processus pour le workflow standard	"
-  
+   "[GOFAST-8773]","Mise à jour VM2 (Comm) Java 11	"
+   "[GOFAST-9225]","Mise à jour de l'agent Zabbix (v2)"
+   "[GOFAST-9190]","Ajout d'une supervision Zabbix des requêtes lentes de la base de données MySQL 	"
+
 
 
    
@@ -62,7 +64,6 @@ Sécurité
    :widths: 1000, 60000
   
    "[GOFAST-7661]","Correction de la vulnérabilité potentielle CVE-2021-45105 (DDOS log4j)"
-   "[GOFAST-9225]","Mise à jour de l'agent Zabbix (v2)"
    "[GOFAST-9090]","Mise à jour sécurité de Tomcat en version 9.0.68"
    "[GOFAST-8434]","Remplacement dans la mesure du possible des requete exec et shell_exec"
   
@@ -77,8 +78,8 @@ Bugs
    
    
    
-   "[GOFAST-6215]","[MOUNTAINDUCK] Correction d'un bug critique renommant la version serveur plutot que de versionner avec la version locale modifiée hors-ligne"
-   "[GOFAST-7886]","[MOUNTAINDUCK] Impossible d'ouvrir les fichiers bureautiques hors ligne	"
+   "[GOFAST-6215]","[MOUNTAINDUCK] Correction par l'éditeur d'un bug critique renommant la version serveur plutot que de versionner avec la version locale modifiée hors-ligne"
+   "[GOFAST-7886]","[MOUNTAINDUCK] Correction par l'éditeur d'un bug empêchant d'ouvrir les fichiers bureautiques hors ligne	"
    "[GOFAST-8834]","[ONLYOFFICE] Correction par Onlyoffice d'une perte de retour à la ligne sur les formts ODP (OpenDocument)	"
    "[GOFAST-8736]","Amélioration de la zone vertical d'édition de texte pour les wikis	"
    "[GOFAST-7198]","Amélioration des notifications d'adhésion à un espace (thème GoFAST v4)	"
@@ -134,13 +135,11 @@ Bugs
    "[GOFAST-8936]","Correction en Onlyoffice 7.1.2 d'une perte de cellule dans les formats ODS (opendocument)	"
    "[GOFAST-6813]","Correction par JITSI d'un bug empechant de sélectionner la source pour le micro	"
    "[GOFAST-8568]","DUA : impossible de mettre l'état Pré-archivé sur un document dont la catégorie a une DUA qui dépasse l'an 2038	"
-   "[GOFAST-7178]","Manque l'audit de suppression de commentaires	"
-   "[GOFAST-8861]","Mauvaise traduction dans une chaine de notification de webconference	"
-   "[GOFAST-8773]","Mise à jour VM2 (Comm) Java 11	"
+   "[GOFAST-7178]","Correction d'un bug où la suppression de commentaires n'était pas l'audit	"
    "[GOFAST-8966]","Parfois mauvais menu d'action contextuel sur un document de l'explorateur de fichier	"
    "[GOFAST-8696]","Parfois, non enregistrement des liens vers documents depuis une carte Kanban	"
    "[GOFAST-7628]","Perte de formatage HTML des tableaux dans les wiki	"
-   "[GOFAST-9325]","Perte de pertinence dans l'autocompletion quand un seul mot clé	"
-   "[GOFAST-7883]","Restreindre la visibilité des listes d'utilisateurs en mode cloisonnée 	"
-   "[GOFAST-8846]","Suppression intempestive de document dans certains cas de multi-filling	"
+   "[GOFAST-7883]","Correction d'un bug ne restreignant pas la visibilité des listes d'utilisateurs en mode cloisonnée	"
+   "[GOFAST-8846]","Correction d'un bug de suppression intempestive de document dans certains cas de multi-emplacement	"
+   "[GOFAST-8861]","Correction d'un bug faisant qu'on recevait les invitations de réunion en Français alors que l'utilisateur avait une autre langue par défaut "
      
