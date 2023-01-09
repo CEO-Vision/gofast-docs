@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2022
+# Copyright (C) 2023
 # This file is distributed under the same license as the gofast-docs package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gofast-docs latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-30 14:33+0200\n"
+"POT-Creation-Date: 2023-01-09 19:48+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1362,11 +1362,11 @@ msgstr ""
 #: ../../docs-gofast-development/api-rest.rst:1674
 #: ../../docs-gofast-development/api-rest.rst:1752
 #: bdf940d3674e44b4a33b4baa63019e5d
-#: 52339c8e484d4161ab5e4e67f2dc7949
-#: 96e166a4b43b4248a9dca49fcdfa4dad
-#: 256a38f8d8d242d9afffa2e981575c46
-#: 70d675cfcc6c4bc59ef2043895a8fb22
-#: 1e8011eeb0c64bf0abf918c74332f02f
+#: 1c40be63ce744228815a6314cc626798
+#: db748af4015e4b5e920717364b80128c
+#: c88789d680ab44ed89cbf34f327cca2c
+#: 4fbcd8f6d6c24c38a85ffe64d4c4cd41
+#: 12dd6d64d7fe473096f86ec238839c1d
 msgid "status"
 msgstr ""
 
@@ -1431,8 +1431,8 @@ msgstr ""
 #: ../../docs-gofast-development/api-rest.rst:1595
 #: ed6b2c03aefb4cdf823101758458b0f6
 #: ca50afaa6b4e40939b79d73fcc3b7e79
-#: a2e4f55ca9e94b50bcfec970e6de726f
-#: 4013ba42fc964686afaf5bec9341301f
+#: a98ffd9b0cd24af1950e5eb890c99bc1
+#: 2ac02bbad4744e21a0e209a1acca59c7
 msgid "created"
 msgstr ""
 
@@ -1823,8 +1823,8 @@ msgstr ""
 #: ../../docs-gofast-development/api-rest.rst:1117
 #: ../../docs-gofast-development/api-rest.rst:1601
 #: ab6eaf0c11b44d04b71779b536637a81
-#: b977250677ac43a78c9de0d28533f8af
-#: 53fdf68b66a3433294881f208fd92153
+#: 2a9dd6d61d9441e19153e3773f97eb44
+#: 58983ec2ab8547bb9260500226099c2b
 msgid "PATCH"
 msgstr ""
 
@@ -2166,7 +2166,7 @@ msgstr ""
 #: ../../docs-gofast-development/api-rest.rst:678
 #: ../../docs-gofast-development/api-rest.rst:724
 #: 0b821f89790746558226e562a2e2aa79
-#: 448929fe7cdb4fbda5d05eddc36ba8c1
+#: 722ba48cfacc43719959c6dd34447201
 msgid "creator"
 msgstr ""
 
@@ -2178,7 +2178,7 @@ msgstr ""
 #: ../../docs-gofast-development/api-rest.rst:680
 #: ../../docs-gofast-development/api-rest.rst:726
 #: d0a55b28f2e2405c8a8d5d1dfaed623c
-#: 224d8666d6ff449f86d3f6f1bcc3fc6a
+#: e5854eec63b54f2a985d134858102399
 msgid "MINOR : Version mineure, MAJOR : Version majeure"
 msgstr ""
 
@@ -2190,7 +2190,7 @@ msgstr ""
 #: ../../docs-gofast-development/api-rest.rst:684
 #: ../../docs-gofast-development/api-rest.rst:730
 #: 7c90057cdc744754a929607f89200607
-#: 2db174758bb94a02b1ac61eec271c63d
+#: a7637e773f2345c597ec051f9aaf81dc
 msgid "version"
 msgstr ""
 
@@ -2220,22 +2220,22 @@ msgid "*GET: /api/node/versions*"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:724
-#: 41e8e603228949dd8f3d5fb8cc428434
+#: 2bc3e6644bb54b8baeb5d3679e733668
 msgid "Identifiant des créateur des versions"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:728
-#: 426258dd1d394f059e409bace7b17a27
+#: 067529ddc9cf4b65a34d5e7c50ae12d4
 msgid "Timestamp de la création des versions"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:730
-#: cdf061415f204447880db329fb34cd9a
+#: e0e7e84bf6954fc187d458699f0bcf16
 msgid "N° des versions"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:732
-#: 91047dc997244afb90f21c7e5f313a17
+#: 49f7aa1cfd39430b8489112d7864993e
 msgid "Commentaire associé aux versions"
 msgstr ""
 
@@ -2260,12 +2260,12 @@ msgid "*POST: /api/node/archive*"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:758
-#: 4bd3ea37dae04429adc2283d29a062be
+#: eb85681dd9f34b709c69fae697806b4c
 msgid "unarchive*"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:758
-#: c0a61b21ff7b4353997d9eda4c192309
+#: 1da9f7887a484919b0edd549572dc58c
 msgid "Si la valeur est \"true\", le document sera désarchivé"
 msgstr ""
 
@@ -2295,7 +2295,7 @@ msgid "restore*"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:798
-#: 218a140f6a0c4de59205004971edeb21
+#: 1b6a1fb937424d9c83cb26b0bde78da9
 msgid "Si la valeur est \"true\", le document sera restauré"
 msgstr ""
 
@@ -2320,7 +2320,7 @@ msgid "*GET: /api/node/publication*"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:852
-#: f67c4ed037054d57bfe5f672e319596d
+#: bd83609dc151410292a6f7d1c2e68d78
 msgid "1: Publié, 0: Dépublié"
 msgstr ""
 
@@ -2330,7 +2330,7 @@ msgid "Cette méthode permet de créer une publication à partir d’un document
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:860
-#: ed8f7cfb7b08487eaeaf7fe41be59d66
+#: 89ec12e760a14317911026ee32c2e1f2
 msgid "La documentation de cette API n'est pas encore complète."
 msgstr ""
 
@@ -2340,7 +2340,7 @@ msgid "*POST: /api/node/publication*"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:875
-#: f5f29300f2d449d5a40af9b25291b8bc
+#: c20384d6078b42bea73cd6c2601ce56a
 msgid "Tableau indexé contenant les emplacements sous la forme \"/Sites/_xxx\""
 msgstr ""
 
@@ -2636,18 +2636,18 @@ msgstr ""
 #: ../../docs-gofast-development/api-rest.rst:1099
 #: ../../docs-gofast-development/api-rest.rst:1136
 #: ../../docs-gofast-development/api-rest.rst:1171
-#: 88fd7d6b217f4f1c9305a47dccd5cd08
-#: 4508e39a6ffe4680ba1756fe831d65b4
-#: 06bb9de7fd7c4517b4873a1afbcfe2aa
+#: 9eb47d49ced4480bb42973908b678637
+#: ce5bc4f9f73a4be3a3c0bbf44047db29
+#: 6946d42b88fc48a198aeeb93ee912e2e
 msgid "uid OU ul_node_id*"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:1099
 #: ../../docs-gofast-development/api-rest.rst:1136
 #: ../../docs-gofast-development/api-rest.rst:1171
-#: 0b916259acbf4fce83b781df9b059aed
-#: 75fc5a7c6c4844a0a8a834df9f0bca78
-#: 5de05736a74940c7a1eeb06fcca1f160
+#: 1dc7a1ad41704fe6a247ab4af8ca8e36
+#: 94eedd73261d4257847074469581de73
+#: dd2b15498bd743a59d7f2bee6011d5e2
 msgid "Identifiant de l'utilisateur OU de la liste d'utilisateurs"
 msgstr ""
 
@@ -2661,7 +2661,7 @@ msgid "N° de l’utilisateur"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:1119
-#: 90711d2f8ad24f7bbbeb90511aa2584f
+#: 5ff72429646b4efc81b4801129d469bc
 msgid "Permet de mettre à jour le rôle d’un membre (utilisateur ou liste d'utilisateurs) d’un espace."
 msgstr ""
 
@@ -2671,7 +2671,7 @@ msgid "*PATCH: /api/space/member*"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:1134
-#: 45d4055401a44d12b4a2ff38d99f7c86
+#: 42f5a18887be4c4e8c004e91fac0b55d
 msgid "new_role*"
 msgstr ""
 
@@ -2681,7 +2681,7 @@ msgid "Nouveaux rôles des utilisateurs"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:1154
-#: 1e837308e9684f9c8c47ffa4e2feb427
+#: 71ddaf766a154480a812c8f1ade4327b
 msgid "DELETE"
 msgstr ""
 
@@ -2696,7 +2696,7 @@ msgid "*DELETE: /api/space/member*"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:1187
-#: 2ff49bf3d92e4ab2a3be4e08db25203d
+#: c7fcd13819ce49ebb0e53fd3bcf98c0b
 msgid "OK si tout s'est bien passé"
 msgstr ""
 
@@ -2940,17 +2940,17 @@ msgid "Cette méthode permet d'effectuer une recherche documentaire."
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:1443
-#: e40ca9ad69fb4e32865a0c35ced8abcf
+#: a8f11bfa57164f62836cd10f4d489d24
 msgid "Les valeurs de *filters* disponibles sont les suivantes :"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:1446
-#: 7a5bd7cd2fec495298d9abd8801754dc
+#: 0f79d8f6c50a41fc9ca6732ae7c9b3fa
 msgid "Filtre"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:1446
-#: 9df6dc8354c94f77890e798963512d14
+#: 50ef24db0b21428cacbae757670b28ce
 msgid "Description                 | Valeur"
 msgstr ""
 
@@ -2960,29 +2960,29 @@ msgid "ds_created"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:1448
-#: 1733175ca5c44b938c9527dba20e36af
+#: d5651539148541b98dcf27e29fba5fbc
 msgid "date de création              |  [YYYY-MM-DDTHH:MM:SSZ TO YYYY-MM-DDTHH:MM:SSZ] date au format ISO 8601"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:1450
-#: 172d8d80c28c4541b12f23f40fc7b6ad
+#: 741f772035b346239adb5ce1a014df4e
 msgid "ds_changed"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:1450
-#: 76ca8252fe81478d8c37bb221a68deb3
+#: dc75206365b04ad59644657d8b77441c
 msgid "date de modification"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:1450
 #: ../../docs-gofast-development/api-rest.rst:1474
-#: df7687c623ff49a88b6b22c0da68316e
-#: e9075ebb9c9c413bbb040de1cb508398
+#: 2d17c9cd743f45ec98d17906922eb8ff
+#: a01b992d4a22416a8fe644724c4cb17d
 msgid "[YYYY-MM-DDTHH:MM:SSZ TO YYYY-MM-DDTHH:MM:SSZ] date au format ISO 8601"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:1452
-#: dd4e7d05852a4a2caa0b4a69724ba0fb
+#: 7ae5447d59a6441a83e58f8bd566584f
 msgid "sm_unr_document_reference"
 msgstr ""
 
@@ -2999,7 +2999,7 @@ msgid "valeur"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:1454
-#: 9bd05220fc5442a68cc1a3e5b7f6bbcb
+#: 458d404e02f143f3aad2dc8cb35acae3
 msgid "im_field_format"
 msgstr ""
 
@@ -3009,12 +3009,12 @@ msgid "format du document"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:1454
-#: 14679b26147f401b96069ee434c90557
+#: 6805f2f8ba87472c822870d0ec87dfc4
 msgid "Identifiant du terme de la taxonomy *format* (cf. API taxonomy)"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:1456
-#: ed542d57de5e49f199ec49164d10ae3f
+#: 71436a1367d040918bb7fc9998bee546
 msgid "im_field_tags"
 msgstr ""
 
@@ -3024,12 +3024,12 @@ msgid "tags du document"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:1456
-#: c2a093a3e1364450863c0c8a5e177dab
+#: be08abebae0040d9b3c1e3ae87cfd6cc
 msgid "Identifiant du terme de la taxonomy *tags* (cf. API taxonomy)"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:1458
-#: be0b0ec2b63e4a54ab28b5b095ab08b3
+#: f54e9a345ffe48c39e750222521a6258
 msgid "im_field_category"
 msgstr ""
 
@@ -3039,22 +3039,22 @@ msgid "catégorie du document"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:1458
-#: 3378125738d5484289b14efcc8fb0bd4
+#: 1873e291ac0a491b9759371ee8c55ff1
 msgid "Identifiant du terme de la taxonomy *category* (cf. API taxonomy)"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:1460
-#: 477bdc7c01b74117b0525f85bfe344bc
+#: 5c749442c35f4c88b4205e442fe0a0dc
 msgid "sm_og_group_content_ref"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:1460
-#: 93cb35d1e590412a83dc88410a9483dc
+#: 10ebebac36d34de181375084fb986072
 msgid "Espace dans lequel rechercher"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:1460
-#: 2a876aeabf74487fb5a7be1467cc76c5
+#: 147bd5297f2940a7895a3b423f3af6e7
 msgid "node:xx Identifiant de l'espace dans lequel rechercher"
 msgstr ""
 
@@ -3080,7 +3080,7 @@ msgid "Identifiant de l'utilisateur"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:1464
-#: 87524cbb7073473183ad25580f18127a
+#: 011fa910dade49209067a892e22ef765
 msgid "is_mod_uid"
 msgstr ""
 
@@ -3090,7 +3090,7 @@ msgid "utilisateur modificateur"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:1466
-#: 44376a61fde94b0e9a109d8979dcd015
+#: 5d505e4840744b59b53d4d211e00293e
 msgid "sm_unr_author"
 msgstr ""
 
@@ -3100,7 +3100,7 @@ msgid "auteur du document"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:1468
-#: c34e2c9dae004abab9fc7266a7926bb1
+#: 466ec332d4e543f4bb51edee54f66bb8
 msgid "im_field_state"
 msgstr ""
 
@@ -3110,12 +3110,12 @@ msgid "état du document"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:1468
-#: d62df0d4024e41e4b4d3981bff1f5e3a
+#: 50f0e1d9bd3848ae9a91e63275194d26
 msgid "Identifiant du terme de la taxonomy *state* (cf. API taxonomy)"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:1470
-#: 31eebdc263dd4e1db9be530a2762bd47
+#: fe4e8a45ce83413a88a091a8c867b520
 msgid "im_field_criticity"
 msgstr ""
 
@@ -3125,12 +3125,12 @@ msgid "importance du document"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:1470
-#: e5ee9378d36d4fdfb4b6b97e2e44bfde
+#: c7c7906f36234fe78b782320791c1851
 msgid "Identifiant du terme de la taxonomy *criticity* (cf. API taxonomy)"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:1472
-#: 10013eb7a97c479496ef158c3c3be00f
+#: c858dc6aae5a483093b8fa76ced63d06
 msgid "ss_language"
 msgstr ""
 
@@ -3140,12 +3140,12 @@ msgid "langue du document"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:1472
-#: a003822c35e341009e777521b0104b58
+#: cc9da441efc34529ac519a21e01c1019
 msgid "valeur (fr, en, ...)"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:1474
-#: ab9f76a30d2646e2a0449924f4789dd3
+#: 6c5149832abd47a485d8e6a2bf802a8d
 msgid "ds_field_date"
 msgstr ""
 
@@ -3160,12 +3160,12 @@ msgid "*POST: /api/search/search*"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:1489
-#: 1a65875793cc4216b3a2a172383b91e7
+#: 32f58c6b03704dbf9db6495a81b1968d
 msgid "query"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:1489
-#: d10a4db6ed994c3f9905d956a79ba63f
+#: c728c6037c174a6eb09454c65df94050
 msgid "Texte à rechercher"
 msgstr ""
 
@@ -3175,12 +3175,12 @@ msgid "filters"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:1491
-#: 3ceb0ca2c91a4c09934546714a3ff464
+#: 0f851d42ce904a4aa5454460fe997cd9
 msgid "Tableau de filtres de recherche"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:1505
-#: 3d33b04075e24beb9affa3a3e7403e29
+#: 9be1cb8a905a4fad9b880b2166b704c6
 msgid "[Tableau de résultats]"
 msgstr ""
 
@@ -3190,12 +3190,12 @@ msgid "Tableau contenant les 10 premiers résultats"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:1507
-#: fa73868f95264726ab32a6a83b348b6d
+#: 8c37b81b06e44551a5bbed076264902c
 msgid "results"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:1507
-#: 681f7ac61b4a42eab87fda2d8511b051
+#: 918c4dde5b34452482665683eacccfb4
 msgid "Nombre total de résultats"
 msgstr ""
 
@@ -3234,11 +3234,11 @@ msgstr ""
 #: ../../docs-gofast-development/api-rest.rst:1658
 #: ../../docs-gofast-development/api-rest.rst:1699
 #: ../../docs-gofast-development/api-rest.rst:1736
-#: b32492696b224e3c948f5b22824211c4
-#: 0374a05eb18944478fce56f479a5fbe6
-#: 9fdc881a645149d5bb6a0427785d48a9
-#: 0ddc701cbc2c4ed7a9d547a126a2936e
-#: 38819b7488e5440db9a7486af06327cb
+#: b2a3b56dcb9f4709a80d55810ead05d1
+#: 06c9bc7dee9544458681272ba1f1a479
+#: cc6f117bc34e435286023c9f6ff219a7
+#: 976f9f91d7ba44e1965e943840bcdf26
+#: ba470a2961344d83b4efa2d4913191fe
 msgid "nulid"
 msgstr ""
 
@@ -3255,22 +3255,22 @@ msgid "Nom de l'userlist"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:1552
-#: ea9d0ac08fe04fa3a34cb039a587126a
+#: 50e147ab951143069278a76c151ed973
 msgid "users"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:1552
-#: 161bb26b956b42b48c61241905513710
+#: f42af6e6c43a46cca8bd8e5b7da05697
 msgid "Liste des membres"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:1554
-#: ad2d9780133048769d39718e1673c046
+#: 66d138420af249a48141870008f470e5
 msgid "admin"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:1554
-#: a359ba2fdc3045c9a51497f2e01d65dc
+#: 4ecce2905a5240e4a816a803df8b62f5
 msgid "Liste des administrateur"
 msgstr ""
 
@@ -3290,7 +3290,7 @@ msgid "Titre de la liste d'utilisateurs"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:1575
-#: 0b47869f1f2c4d2e91186e448837ca0b
+#: ed8061844231472e9df058f6f04d86ed
 msgid "description"
 msgstr ""
 
@@ -3326,7 +3326,7 @@ msgid "Date de création de la liste d'utilisateurs"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:1597
-#: 52411166c9ae41d8b0453d2e227dc563
+#: 77de9b5a87754949a8dcd9d44117ffb5
 msgid "creator_id"
 msgstr ""
 
@@ -3353,7 +3353,7 @@ msgid "Nouveau titre de la liste d'utilisateurs"
 msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:1632
-#: 9264c838e2ec4514b368d28cf6f94704
+#: a282d18d2d43486f8a3c89e51b28a8d3
 msgid "new_title"
 msgstr ""
 
@@ -3384,8 +3384,8 @@ msgstr ""
 
 #: ../../docs-gofast-development/api-rest.rst:1674
 #: ../../docs-gofast-development/api-rest.rst:1752
-#: eae96e332b3d4824a2059bedba958829
-#: 934a0d4e83424a49b119bce3aff3dbdd
+#: 790207b063404fefacf62345c508f7cf
+#: 3e48ac15b92f4f2da486280a557981a3
 msgid "Statut de l'ajout"
 msgstr ""
 
