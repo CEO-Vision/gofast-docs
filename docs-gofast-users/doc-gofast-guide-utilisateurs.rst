@@ -61,28 +61,27 @@ Prérequis à l’utilisation de GoFAST
   - Navigateurs préférentiels Windows : **Firefox (dernière version ESR ou dernière version classique'), Edge-Chromium, Chrome.**
 
 .. NOTE::
-    A titre d'illustration, au 23/12/2020 nous supportons Firefox 84 et Firefox ESR 78.6 
-.. NOTE::
-    Le support IE11 est optionnel en 2020 et certaines nouvelles fonctionnalités sont incompatible (tâches kanban, chat,webconference), CEO-Vision recommande une migration au plus vite de IE11 et Edge vers Edge-Chromium ou Firefox ESR. CEO-Vision n'assurera plus aucun support pour IE11 en 2021 
-    
+    A titre d'illustration, au 01/04/2022 nous supportons Firefox 111 et Firefox ESR 111 (et ESR 91.10 en option) 
+   
      - Edge-Chromium https://www.microsoftedgeinsider.com/fr-fr/enterprise
     
      - Firefox ESR en Français https://www.mozilla.org/fr/firefox/organizations/all/
 
-      - Navigateur MacOS : Safari (dernière version supportée), Firefox (dernière version supportée), Chrome (dernière version supportée)
+     - Navigateur MacOS : Safari (dernière version supportée), Firefox (dernière version supportée), Chrome (dernière version supportée)
 
-      - Navigateur Linux : Firefox (dernière version ESR)
+     - Navigateur Linux : Firefox (dernière version ESR)
    
-      - Système d'exploitation Windows7 et plus, MacOS 10.11+ et Linux (Ubuntu 16+), ChromeOS
-
+     - Système d'exploitation Windows 10 Pro et supérieur, MacOS 12 et supérieur, Linux (Ubuntu 20+), ChromeOS
+     
 .. NOTE::
-    Le support de Windows 7 étant terminé par Microsoft depuis le 14 Janvier 2020, CEO-Vision ne supporte plus officiellement cette version
+    GoFAST est connu pour fonctionner en Remote Desktop (Citrix, ...) même si certaines fonctionnalités comme la webconference peuvent perdre en performance 
 
   - En mobilité Android ou iOS 13+ 
 
   - Bureautique : Office 365 et Office Pro 2016+ pour Windows, MS-Office Pro 2016 pour Mac, LibreOffice 6+, OnlyOffice Desktop (à venir)
 .. NOTE::
-    Le support d'Office 2010 étant terminé par Microsoft depuis le 13 Octobre 2020, CEO-Vision ne supportera bientôt plus cette version. Nous encourageons une migration vers l'utilisation d'OnlyOffice inclut dans GoFAST
+    Le support d'Office 2010 étant terminé par Microsoft depuis le 13 Octobre 2020, CEO-Vision ne supportera  plus cette version. Nous encourageons une migration vers l'utilisation d'OnlyOffice inclut dans GoFAST ou LibreOffice 7+
+    Le support de Windows 7 étant terminé par Microsoft depuis le 14 Janvier 2020, CEO-Vision ne supporte plus cette version
 
   - Messagerie : Outlook 2013+ (Outlook 2010 sans garantie), Thunderbird 78+, Client léger Bluemind  
 
@@ -91,6 +90,8 @@ Prérequis à l’utilisation de GoFAST
   - Une très bonne connexion pour la webconference en HD : jusqu'à 6MB/s peuvent être nécessaire. Certains filtrages réseaux peuvent empecher le fonctionnement de la webconference. Si https://gofast-docs.readthedocs.io/fr/latest/docs-gofast-users/doc-gofast-problemes-connus.html#webconference ne vous aide pas, contacter votre administrateur réseau en cas de problème.    
 
   - Résolution écran 1366x768 minimum (format 16:9)
+  
+  - Ordinateur avec 8GB RAM
 
  - En mobilité : Tablette ou smartphone récent (iOS ou Android)
 
@@ -186,8 +187,8 @@ Il suffit d’entrer votre **identifiant** et votre **mot de passe** ou vous con
 .. NOTE::
    Si la délégation d'authentification a été activée sur votre site, il s'agit de votre mot de passe habituel (celui de l’annuaire de votre Organisation/Entreprise). Si le SSO a été configuré, vous n’avez pas besoin de saisir votre identifiant, ni votre mot de passe, mais juste cliquer sur le bouton de connexion automatique. 
 
-Vous pouvez choisir entre deux interfaces : **GoFAST plus** ou **GoFAST Essentielle**  
-L’interface GoFAST Essentielle est la version "restreinte" de GoFAST Plus (interface complète). Elle propose les fonctionnalités principales et masque certaines fonctionnalités plus avancées (ex. Gestion d’un Espace) avec une page d’accueil et une navigation plus adaptée à un utilisateur occasionnel. Pour toute question, n’hésitez pas à allez sur les forums de la communauté des utilisateurs. 
+Vous pouvez choisir entre deux interfaces : **GoFAST plus** ou **GoFAST Essential**  
+L’interface GoFAST Essential est la version "restreinte" de GoFAST Plus (interface complète). Elle propose les fonctionnalités principales et masque certaines fonctionnalités plus avancées (ex. Gestion d’un Espace) avec une page d’accueil et une navigation plus adaptée à un utilisateur occasionnel. Pour toute question, n’hésitez pas à allez sur les forums de la communauté des utilisateurs. 
 
 
 Se repérer sur GoFAST (menus, icônes…)
@@ -229,7 +230,7 @@ Menu d’accès rapides
  - La photo (son avatar utilisateur) permet l’accès aux : 
      - Mon profil : vous donnez accès à votre profil, voir partie : Mon Profil
      - Abonnements : vous permet d’accéder à votre page d’abonnement, voir la partie : Gestion des abonnements 
-     - Le choix entre GoFAST Essentiel ou GoFAST Plus. 
+     - Le choix entre GoFAST Essential ou GoFAST Plus. 
      - Déconnexion pour vous déconnecter de la plateforme. A noter que la durée de session de GoFAST est dans tous les cas, limitée dans le temps et vous serez donc déconnecté au bout d’un délais (10h). 
      
 
