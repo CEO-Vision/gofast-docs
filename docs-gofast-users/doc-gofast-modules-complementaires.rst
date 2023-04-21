@@ -5,6 +5,9 @@ Introduction
 ------------
 Ce document a pour but de vous fournir une documentation sur l'utilisation des modules complémentaires que propose CEO-Vision.
 
+Couplage Module Gestion des Courriers (signature)
+-----------------------------------
+
 Couplage GoFAST-Pastell (signature)
 -----------------------------------
 
