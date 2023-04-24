@@ -100,15 +100,20 @@ Pour sélectionner un processus de traitement des courriers et démarrer depuis 
 - Cliquez sur l’icône « Processus et Tâches » qui se trouve tout en haut de la page, 
 - Dans la fenêtre « Processus et Tâches » cliquez sur l’onglet « Nouveau »
 
-.. image:: media-guide/processus_accès_rapide.png
+.. image:: media-guide/processus_accès_rapide_1.png
 
 **Démarrer un processus depuis la page d’un document**
 
 Pour sélectionner un processus de traitement des courriers et démarrer depuis la page d’un document : 
 
-- Allez dans l’onglet « Tâches » Cliquez sur l’icône « Processus et Tâches » qui se trouve tout en haut de la page.
+- Allez dans l’onglet « Tâches » Cliquez sur l’icône « Processus et Tâches » qui se trouve tout en haut de la page. Puis cliquez sur "Nouveau"
 
-.. image:: media-guide/processus_document.png
+.. image:: media-guide/processus_document_1.png
+
+Un nouvel onglet s’affiche, sélectionnez « Courrier entrant » comme ci-dessous :
+
+.. image:: media-guide/processus_document_2.png
+
 
 **Démarrer un processus depuis le panier**
 
@@ -122,7 +127,7 @@ Dans le cas où vous avez plusieurs courriers pour un service, vous pouvez lance
 
 **Renseigner le formulaire de transmission d’un courrier entrant**
 
-.. image:: media-guide/renseigner_formulaire.png
+.. image:: media-guide/formulaire_courier.png
 
 Une fois le processus « courrier entrant » sélectionné, le formulaire de transmission s’ouvre et vous permet de renseigner les divers champs et assignez à vos collaborateurs les différentes étapes du processus. 
 
@@ -159,13 +164,13 @@ Dans le cas où le processus courrier sortant n’est pas attaché au courrier s
 
 *Exemple d’une des 4 façons*
 
-.. image:: media-guide/exemple_façon.png
+.. image:: media-guide/courrier_sortant.png
 
 **Renseigner le formulaire de transmission d’un courrier sortant**
 
 Une fois le processus lancé, le formulaire du courrier sortant s’ouvre et vous pouvez renseigner les divers champs. 
 
-.. image:: media-guide/formulaire_courrier_sortant.png
+.. image:: media-guide/formulaire_courier_sortant_1.png
 
 .. NOTE:: Vous pouvez choisir la manière de charger votre courrier sortant soit à partir de GoFAST soit via votre PC.
 
