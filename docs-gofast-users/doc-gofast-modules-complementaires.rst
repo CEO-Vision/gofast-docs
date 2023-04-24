@@ -190,7 +190,7 @@ Une fois sélectionner, vous remarquerez que les champs nécessaires sont automa
 
 **Liste des tâches à traiter et assignées aux autres**
 
-Si vous souhaitez en savoir plus sur les tâches, suivez le lien suivant : https://gofast-docs.readthedocs.io/fr/4.0/docs-gofast-users/doc-gofast-guide-utilisateurs.html#liste-des-taches-a-traiter-et-assignees-aux-autres
+Si vous souhaitez en savoir plus sur les tâches, suivez ce `lien <https://gofast-docs.readthedocs.io/fr/4.0/docs-gofast-users/doc-gofast-guide-utilisateurs.html#liste-des-taches-a-traiter-et-assignees-aux-autres>`_
 
 **Traiter ses tâches**
 
