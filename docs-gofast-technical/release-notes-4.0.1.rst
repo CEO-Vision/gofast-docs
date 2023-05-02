@@ -46,10 +46,10 @@ Améliorations
    "[GOFAST-8814]","Message d'alerte lors qu'on retire un membre d'un espace alors qu'il en reste membre car aussi dans une liste de cet espace	"
    "[GOFAST-8903]","Mise à jour de Jitsi Meet v1.0.6644	"
    "[GOFAST-9319]","Mise à jour Onlyoffice v7.2.2 (ligature, tableau OLE, performance des polices, ajout du portugais ... et correctifs dont format odf et sécurité)	"
-   "[GOFAST-9196]","Supervision de la création des objets temporaires dans la base de données (Zabbix)	"
+   "[GOFAST-9196]","Supervision de la création des objets temporaires dans la base de données (Zabbix)"
    "[GOFAST-8773]","Mise à jour VM2 (Comm) Java 11	"
    "[GOFAST-9225]","Mise à jour de l'agent Zabbix (v2)"
-   "[GOFAST-9190]","Ajout d'une supervision Zabbix des requêtes lentes de la base de données MySQL 	"
+   "[GOFAST-9190]","Ajout d'une supervision Zabbix des requêtes lentes de la base de données MySQL"
 
 
 
@@ -78,10 +78,10 @@ Bugs
    
    
    "[GOFAST-6215]","[MOUNTAINDUCK] Correction par l'éditeur d'un bug critique renommant la version serveur plutot que de versionner avec la version locale modifiée hors-ligne"
-   "[GOFAST-7886]","[MOUNTAINDUCK] Correction par l'éditeur d'un bug empêchant d'ouvrir les fichiers bureautiques hors ligne	"
-   "[GOFAST-8834]","[ONLYOFFICE] Correction par Onlyoffice d'une perte de retour à la ligne sur les formts ODP (OpenDocument)	"
-   "[GOFAST-8736]","Amélioration de la zone vertical d'édition de texte pour les wikis	"
-   "[GOFAST-7198]","Amélioration des notifications d'adhésion à un espace (thème GoFAST v4)	"
+   "[GOFAST-7886]","[MOUNTAINDUCK] Correction par l'éditeur d'un bug empêchant d'ouvrir les fichiers bureautiques hors ligne"
+   "[GOFAST-8834]","[ONLYOFFICE] Correction par Onlyoffice d'une perte de retour à la ligne sur les formats ODP (OpenDocument)"
+   "[GOFAST-8736]","Amélioration de la zone vertical d'édition de texte pour les wikis"
+   "[GOFAST-7198]","Amélioration des notifications d'adhésion à un espace (thème GoFAST v4)"
    "[GOFAST-8160]","Amélioration du message d'erreur lors de l'echec de l'envoi à Yousign pour signature	"
    "[GOFAST-8873]","Correction d'un bug faisant que dans certains cas le menu contextuel des listes d'utilisateur ne s'affichait pas	"
    "[GOFAST-8622]","Correction d'un bug occasionnel affichant un profil erroné dans le chat	"
