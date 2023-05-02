@@ -39,7 +39,6 @@ Améliorations
    "[GOFAST-8620]","Amélioration de l'affichage du Titre avec le fil d'ariane en dessous permettant de voir les titres longs et une meilleure lisbilité	"
    "[GOFAST-9103]","Amélioration de la page d'accueil d'espace évitant de repousser les blocs (favoris,...) vers le bas si la page wiki de l'espace est longue	"
    "[GOFAST-8538]","Amélioration de la page de téléchargement lors d'un partage par email	"
-   "[GOFAST-7413]","Amélioration de la sécurisation de certains cookies	"
    "[GOFAST-8818]","Amélioration du temps de réponse d'affichage des modèles si très nombreux	"
    "[GOFAST-8739]","Amélioration performance du fil d'activité si beaucoup d'espaces	"
    "[GOFAST-7810]","Amélioration permettant aux autres utilisateurs que le créateur de supprimer les modèles de dossier	"
@@ -65,7 +64,8 @@ Sécurité
    "[GOFAST-7661]","Correction de la vulnérabilité potentielle CVE-2021-45105 (DDOS log4j)"
    "[GOFAST-9090]","Mise à jour sécurité de Tomcat en version 9.0.68"
    "[GOFAST-8434]","Remplacement dans la mesure du possible des requete exec et shell_exec"
-  
+   "[GOFAST-7413]","Amélioration de la sécurisation de certains cookies	"
+
    
    
 
