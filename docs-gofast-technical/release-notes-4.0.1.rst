@@ -13,7 +13,7 @@ Nouvelles fonctionnalités
    :widths: 1000, 60000
    
    "[GOFAST-4833]","Nouvelle fonctionnalité : Outil de gestion des étiquettes (fusion, correction, ...)"
-   "[GOFAST-8999]","Nouvelle fonctionnalité permettant de disposer d'une API d'auto-complétion par liste d'utilisateur"
+   "[GOFAST-8999]","Nouvelle fonctionnalité : API pour assigner des taches de workflow à des listes d'utilisateur"
    "[GOFAST-8757]","Permettre de charger un document sur mobile"
    "[GOFAST-7216]","Amélioration grace à l'affichage de la description d'un espace lors de son survol"
    "[GOFAST-8010]","Ajout d'alerte de supervision en cas de sealert dans les logs"
