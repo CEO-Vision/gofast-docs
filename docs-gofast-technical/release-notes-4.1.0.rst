@@ -29,6 +29,9 @@ Nouvelles fonctionnalités
    "GOFAST-7345","Partage par email d'un répertoire automatiquement compressé en zip"
    "GOFAST-9812","Nouvelle fonctionnalité permettant d'enregistrer une webconference en local"
    "GOFAST-2374","Refonte de la gestion des catégories et des DUA (profil support utilisateurs)"
+   "GOFAST-9951","Webhook création de document"
+   "GOFAST-9989","Webhook suppression de document"
+   "GOFAST-10025","Webhook modification des métadonnées ou du contenu"
   
 Améliorations 
 ******************************
