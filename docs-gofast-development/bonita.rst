@@ -2,7 +2,7 @@
 GoFAST :  Bonita 
 ********************************************
 
-Cette documentation donne accès aux ressources permettant de modéliser des workflows dans Bonita studio implémentables dans la plateforme GoFAST.
+Cette documentation donne accès aux ressources permettant de modéliser des workflows dans Bonita studio implémentables dans la plateforme GoFAST..
 
 Connecteurs
 ############################################
