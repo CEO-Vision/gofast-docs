@@ -762,7 +762,7 @@ Il est possible de prés-archiver une sélection de documents en une fois.
 Après avoir sélectionné les documents souhaités, il suffit de cliquer sur *Gérer* puis sur *Gérer les métadonnées*, une fênetre s'ouvre et vous selectionnez *Pré-Archivé* sur le champs *Etat* puis cliquez sur « Enregistrer »
 
 .. figure:: media-guide/Ecran-GoFAST_GoFASTFileBrowser_Archiver-en-masse.png
-:alt
+
 
 Partager / Ajouter des emplacements (Multi-emplacement = zéro doublon de fichier)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
