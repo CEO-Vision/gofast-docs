@@ -417,7 +417,7 @@ Ajouter une photo à son profil
 
 Allez sur la page de votre profil, cliquez sur l’icône « crayon » qui apparait au survol de l’image (dans l’angle haut à gauche).
 
-.. figure:: media-guide/image020.png
+.. figure:: media-guide/image020.corrigée.png
    :alt: 
 
 Vous arriverez sur la page d’ajout/modification de la photo de profil. Appuyez sur « Charger un fichier » pour aller chercher votre photo depuis votre ordinateur, double-cliquez dessus ou cliquez sur OUVRIR. Une fois chargée, vous pourrez adapter le cadre, puis « Enregistrez ».
