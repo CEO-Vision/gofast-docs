@@ -559,7 +559,7 @@ Modifier la manière dont sont affichés les contenus
    Le mode d’affichage de l’explorateur choisi s’applique instantanément partout.
 
 
-Créer un nouveau contenu dans le dossier sectionné
+Créer un nouveau contenu dans le dossier sélectionné
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Si vous appuyez sur le bouton Nouveau, vous avez le choix de créer à l’emplacement en cours : 
