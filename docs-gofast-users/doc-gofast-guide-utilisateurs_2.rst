@@ -693,7 +693,8 @@ Pour sélectionner plusieurs documents dans l’explorateur de fichiers vous dev
 Via un clic-droit sur une sélection de plusieurs fichiers, les actions proposées sont restreintes par rapport à l’action sur un fichier unique : 
 
  - Supprimer 
- - Télécharger 
+ - Télécharger
+ - Compresser
  - Gérer les métadonnées
  - Partager / Ajouter des emplacements 
  - Créer des Publications 
@@ -701,8 +702,15 @@ Via un clic-droit sur une sélection de plusieurs fichiers, les actions proposé
  - Pré-Archiver
  - Ajouter au panier 
 
-.. figure:: media-guide/FBrowser-14.png
+.. figure:: media-guide/FBrowser-14-modifié.png
    :alt:
+
+Télécharger en masse les documents
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Vous pouvez télécharger en masse des documents depuis l’explorateur de fichiers.
+
+Après avoir sélectionné les documents voulus, cliquez sur « Télécharger ». Cela téléchargera un fichier ZIP sur votre ordinateur.
 
 
 Partager par email en masse les documents
