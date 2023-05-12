@@ -705,6 +705,8 @@ Via un clic-droit sur une sélection de plusieurs fichiers, les actions proposé
 .. figure:: media-guide/FBrowser-14-modifié.png
    :alt:
 
+.. Note:: Lors de la multi-sélection, si un dossier est sélectionné, seules deux actions sont disponibles "Supprimer" et "Compresser"
+
 Télécharger en masse les documents
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -712,7 +714,38 @@ Vous pouvez télécharger en masse des documents depuis l’explorateur de fichi
 
 Après avoir sélectionné les documents voulus, cliquez sur « Télécharger ». Cela téléchargera un fichier ZIP sur votre ordinateur.
 
+Gestion des ZIP depuis l’explorateur de fichiers
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+Il est possible de compresser et décompresser des fichiers depuis l’explorateur de fichiers de GoFAST.
+
+**Compression de fichiers et dossiers**
+
+Après avoir sélectionné les éléments voulus, il suffit de faire un clic droit sur l’un d’eux et de faire un clic gauche sur « Compresser ».
+
+.. figure:: media-guide/Compresser-Zip.png
+   :alt:
+
+La fenêtre de compression s’ouvre :
+ - Les fichiers sélectionnés sont affichés
+ - Cliquez sur « Compresser » pour finaliser la création du fichier ZIP
+ 
+Une fois celui-ci créé, il est possible d’interagir avec le fichier ZIP comme n’importe quel fichier.
+
+**Extraction de fichiers et dossiers**
+
+Via un clic droit sur un fichier ZIP ouvrant les actions proposées, cliquez sur « Plus », puis sur « Extraire ».
+
+.. figure:: media-guide/Extraire-Zip.png
+   :alt:
+
+La fenêtre d’extraction s’ouvre :
+ - Le fichier ZIP sélectionné est affiché
+ - Cliquez sur « Extraire » 
+ 
+.. Note:: Si les fichiers de ce fichier ZIP existent déjà dans cet espace, un nouveau dossier sera créé avec le nom du fichier ZIP et les fichiers y seront extraits.
+
+ 
 Partager par email en masse les documents
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
