@@ -197,14 +197,15 @@ Où gérer les DUA :
 
  - À partir du menu principal de gauche, aller dans « Configuration ».   
 .. figure:: media-guide/DUA_image_1.jpg
-   :alt: 
+   
 
  - Cliquez sur « DUA (Durée d’Utilité Administrative) ».  
 
 **Deux sections sont disponibles :**
 - Liste des destinataires du mail de notification : dans cette section vous pouvez ajouter des utilisateurs qui souhaitent être notifiés à la fin de la DUA.
+
 .. figure:: media-guide/DUA_image_2.jpg
-   :alt: 
+ 
 
 - Liste des DUA existantes : dans cette partie, vous trouvez le tableau des Catégories de documents ayant une DUA, avec la durée définie et le sort prévue pour les documents à échéance. 
 .. figure:: media-guide/DUA_image_3.jpg
@@ -224,16 +225,18 @@ Créer ou modifier une DUA
  - Action (Le sort final) :  Archiver, Trier, Détruire à sélectionner dans la liste déroulante.
 
 Cliquez sur « Enregistrer » pour valider.
+
 .. figure:: media-guide/DUA_image_4.jpg
-   :alt: 
+ 
 
 **Vous pouvez également modifier une DUA existante :**
  - Dans la liste des DUA, choisissez celle que vous souhaitez modifier 
  - Cliquez sur l’icône éditer.
  - Vous pouvez alors modifier les champs :  DUA, Unité et Action. 
 Cliquez sur « Enregistrer » pour valider.
+
 .. figure:: media-guide/DUA_image_5.jpg
-   :alt: 
+
 
 
 .. NOTE:: Pour supprimer une DUA, il suffit de laisser le champs DUA (Durée d’Utilité Administrative) vide puis Enregistrer.
@@ -261,16 +264,19 @@ Accès aux Statistiques
 
 **Trois sous-onglets sont disponibles :**
 1. Onglet « **Statistique utilisateurs** » permet de visualiser le nombre d’utilisateurs, les informations relatives aux membres actifs et inactifs, les nouveaux membres et membres connectés.
+
 .. figure:: media-guide/statistics-users.jpg
-   :alt: 
+
 
 2. Onglet « **Statistique documentaires** », permet de visualiser le nombre de documents et les informations relatives aux documents par sa catégorie, son état et son importance.
+
 .. figure:: media-guide/statistics-docs.jpg
-   :alt: 
+
 
 3. Onglet « **Statistiques d’espaces** », permet de visualiser le nombre d’espaces et les informations relatives aux espaces, leurs évolutions par période, les plus actifs, les plus remplis et les plus peuplés.
+
 .. figure:: media-guide/statistics-spaces.jpg
-   :alt: 
+
 
 
 Exporter les données
