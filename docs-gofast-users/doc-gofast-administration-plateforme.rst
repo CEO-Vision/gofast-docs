@@ -363,7 +363,7 @@ Audit
 Supprimer un utilisateur (s’il ne s’est jamais connecté) 
  - etc.
 
-**Aller sur l’audit :**
+**Aller sur l’Audit :**
 
 .. NOTE:: Cette fonctionnalité est accessible uniquement aux utilisateurs ayant le profil « support-utilisateur ». 
 
@@ -429,7 +429,10 @@ Modifier les informations d’un utilisateur
 Afin de modifier les informations liées à un utilisateur, il faut se rendre sur : 
  - La page de profil de l’utilisateur (depuis la recherche ou l’annuaire)
  - La page de l’annuaire des utilisateurs
-
+ 
+ Configuration Validation création utilisateurs
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Pour l’option Validation création utilisateurs, Merci de vous référez à la rubrique « GoFAST Administration / Super-administrateur/Configuration Validation création utilisateurs»
 
 Créer / Gérer les Listes d’utilisateurs
 -------------------------------------------
@@ -652,3 +655,11 @@ Sur la page de login, l'utilisateur pourra maintenant se connecter en cliquant s
    :alt: 
 
 
+Configuration Validation création utilisateurs
+-------------------------------
+
+Il est possible d’activer une option dans « Configuration » puis « Utilisateurs ». Cette option permet lorsqu’un administrateur métier/d’espace crée un nouvel utilisateur, de le soumettre à validation par un profil support-utilisateur avant d’être crée. 
+
+Une fois que l’administrateur métier/d’espace a crée le nouvel utilisateur, le profil support-utilisateur reçoit une notification et peut valider ou refuser l’activation d’un profil utilisateur depuis la page de profil ou depuis l’annuaire (cette action peut se faire en masse).
+
+Un utilisateur en attente de validation apparaît « En attente » dans l’annuaire.
