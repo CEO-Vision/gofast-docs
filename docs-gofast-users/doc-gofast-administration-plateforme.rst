@@ -34,6 +34,8 @@ Autres profils disponibles
 
 .. NOTE::  Le profil externe est cumulable avec certains des autres profils. Il est donc possible d’être soit « externe » et « standard », ou bien « externe » et « support-utilisateur », dans le cas par exemple, où l’on souhaite confier le support niveau 1 et l’accompagnement des responsables métiers (qui sont souvent les administrateurs des espaces) à un prestataire. Un utilisateur externe ne peut pas être « super-administrateur ». 
 
+Pour les accès d'un utilisateur externe, merci de vous référez à la rubrique "GoFAST Administration / Super-administrateur / Configuration Accès utilisateurs externes".
+
 - **Broadcaster** : permet de partager des documents dans des espaces collaboratifs sans en être membre, ou les espaces personnels des autres utilisateurs. Attention : ce profil ne permet pas de voir les contenus (ni dossiers, ni fichiers) dans ces espaces, mais uniquement d’en déposer.
 
 .. NOTE::  Ce profil peut être cumulé avec les autres profils. 
@@ -663,3 +665,22 @@ Il est possible d’activer une option dans « Configuration » puis « Utili
 Une fois que l’administrateur métier/d’espace a crée le nouvel utilisateur, le profil support-utilisateur reçoit une notification et peut valider ou refuser l’activation d’un profil utilisateur depuis la page de profil ou depuis l’annuaire (cette action peut se faire en masse).
 
 Un utilisateur en attente de validation apparaît « En attente » dans l’annuaire.
+
+Configuration Accès utilisateurs externes
+-------------------------------
+
+Dans « Configuration GoFAST » puis « Espace », vous trouverez la possibilité de limiter l’ajout d’utilisateurs externes dans certains espaces.
+
+**Désactiver l'ajout des utilisateurs externes dans les groupes**
+- Lorsque cette option est activée, un utilisateur externe ne peut pas être ajouté au type d’espace « Groupes ».
+- Lorsque cette option est désactivée, un message d’avertissement s’affiche lorsque vous allez ajouté un utilisateur externe au type d’espace « Groupes ».
+
+**Désactiver l'ajout des utilisateurs externes dans les organisations**
+- Lorsque cette option est activée, un utilisateur externe ne peut pas être ajouté au type d’espace « Organisations ».
+- Lorsque cette option est désactivée, un message d’avertissement s’affiche lorsque vous allez ajouté un utilisateur externe au type d’espace « Organisations ».
+
+
+
+
+- 
+
