@@ -186,6 +186,13 @@ Il suffit d’entrer votre **identifiant** et votre **mot de passe** ou vous con
 
 .. NOTE::
    Si la délégation d'authentification a été activée sur votre site, il s'agit de votre mot de passe habituel (celui de l’annuaire de votre Organisation/Entreprise). Si le SSO a été configuré, vous n’avez pas besoin de saisir votre identifiant, ni votre mot de passe, mais juste cliquer sur le bouton de connexion automatique. 
+   
+.. NOTE::
+   Lorsqu’un compte est bloqué au bout de 5 tentatives, vous pouvez cliquer sur « Mot de passe oublié ? ». 
+- Si le compte GoFAST est couplé à l’AD, vous recevrez un e-mail, vous disant qu’il n’est pas possible de changer votre mot de passe, car il est couplé à celui de l’AD, il faut alors contacter un super administrateur ou le service informatique de votre organisation. 
+- Si le compte GoFAST n’est pas couplé à l’AD, un e-mail permettant de réinitialiser son nom d’utilisateur et/ou son mot de passe sera envoyé. Attention, il faut une adresse mail valide renseignée pour que cela fonctionne. Une fois la réinitialisation effectuée, le statut de l’utilisateur passe automatiquement de « Bloqué » à « Actif » dans l’annuaire de GoFAST.
+
+
 
 Vous pouvez choisir entre deux interfaces : **GoFAST plus** ou **GoFAST Essential**  
 L’interface GoFAST Essential est la version "restreinte" de GoFAST Plus (interface complète). Elle propose les fonctionnalités principales et masque certaines fonctionnalités plus avancées (ex. Gestion d’un Espace) avec une page d’accueil et une navigation plus adaptée à un utilisateur occasionnel. Pour toute question, n’hésitez pas à allez sur les forums de la communauté des utilisateurs. 
