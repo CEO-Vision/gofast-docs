@@ -56,7 +56,29 @@ Profil « Support-utilisateurs »
 ========================
 Le profil de "support-utilisateurs" a vocation d’accompagner les utilisateurs, en particulier ceux ayant le rôle administrateur d’espaces, dans la gestion des membres et veiller à la cohérence de l’arborescence des espaces. 
 
-.. NOTE::  En aucun cas le profil de "support-utilisateurs" se substitue aux administrateurs des espaces collaboratifs, qui doivent être des responsables métiers (ex. chefs de services/directions, des responsables d’équipe/projets, etc.). Toutefois, il peut lui-même être un administrateur dans des Espaces dont il est membre. 
+.. NOTE::  En aucun cas le profil de "support-utilisateurs" se substitue aux administrateurs des espaces collaboratifs, qui doivent être des responsables métiers (ex. chefs de services/directions, des responsables d’équipe/projets, etc.). Toutefois, il peut lui-même être un administrateur dans des Espaces dont il est membre.
+
+Configuration Validation création utilisateurs
+-------------------------------
+
+Il est possible d’activer une option dans « Configuration » puis « Utilisateurs ». Cette option permet lorsqu’un administrateur métier/d’espace crée un nouvel utilisateur, de le soumettre à validation par un profil support-utilisateur avant d’être crée. 
+
+Une fois que l’administrateur métier/d’espace a crée le nouvel utilisateur, le profil support-utilisateur reçoit une notification et peut valider ou refuser l’activation d’un profil utilisateur depuis la page de profil ou depuis l’annuaire (cette action peut se faire en masse).
+
+Un utilisateur en attente de validation apparaît « En attente » dans l’annuaire.
+
+Configuration Accès utilisateurs externes
+-------------------------------
+
+Dans « Configuration GoFAST » puis « Espace », vous trouverez la possibilité de limiter l’ajout d’utilisateurs externes dans certains espaces.
+
+**Désactiver l'ajout des utilisateurs externes dans les groupes**
+- Lorsque cette option est activée, un utilisateur externe ne peut pas être ajouté au type d’espace « Groupes ».
+- Lorsque cette option est désactivée, un message d’avertissement s’affiche lorsque vous allez ajouté un utilisateur externe au type d’espace « Groupes ».
+
+**Désactiver l'ajout des utilisateurs externes dans les organisations**
+- Lorsque cette option est activée, un utilisateur externe ne peut pas être ajouté au type d’espace « Organisations ».
+- Lorsque cette option est désactivée, un message d’avertissement s’affiche lorsque vous allez ajouté un utilisateur externe au type d’espace « Organisations ».
 
 Visibilité sur les Espaces
 --------------------------------
@@ -323,7 +345,7 @@ Dans l’onglet **Statistiques documentaires** il est possible de réaliser un e
 .. figure:: media-guide/Export-members.jpg
    :alt:
 
-**Export le la liste des espaces :**
+**Export de la liste des espaces :**
 
 Dans l’onglet **Statistiques d’espaces** il est possible de réaliser un export de tous les espaces existants, avec leur :
  - « ID » (le numéro de référence automatique, attribué à la création de l’espace et présent dans l’url de la page de l’espace).
@@ -432,10 +454,6 @@ Afin de modifier les informations liées à un utilisateur, il faut se rendre su
  - La page de profil de l’utilisateur (depuis la recherche ou l’annuaire)
  - La page de l’annuaire des utilisateurs
  
- Configuration Validation création utilisateurs
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Pour l’option Validation création utilisateurs, Merci de vous référez à la rubrique « GoFAST Administration / Super-administrateur/Configuration Validation création utilisateurs»
-
 Créer / Gérer les Listes d’utilisateurs
 -------------------------------------------
 **Visibilité des listes :**
@@ -657,30 +675,4 @@ Sur la page de login, l'utilisateur pourra maintenant se connecter en cliquant s
    :alt: 
 
 
-Configuration Validation création utilisateurs
--------------------------------
-
-Il est possible d’activer une option dans « Configuration » puis « Utilisateurs ». Cette option permet lorsqu’un administrateur métier/d’espace crée un nouvel utilisateur, de le soumettre à validation par un profil support-utilisateur avant d’être crée. 
-
-Une fois que l’administrateur métier/d’espace a crée le nouvel utilisateur, le profil support-utilisateur reçoit une notification et peut valider ou refuser l’activation d’un profil utilisateur depuis la page de profil ou depuis l’annuaire (cette action peut se faire en masse).
-
-Un utilisateur en attente de validation apparaît « En attente » dans l’annuaire.
-
-Configuration Accès utilisateurs externes
--------------------------------
-
-Dans « Configuration GoFAST » puis « Espace », vous trouverez la possibilité de limiter l’ajout d’utilisateurs externes dans certains espaces.
-
-**Désactiver l'ajout des utilisateurs externes dans les groupes**
-- Lorsque cette option est activée, un utilisateur externe ne peut pas être ajouté au type d’espace « Groupes ».
-- Lorsque cette option est désactivée, un message d’avertissement s’affiche lorsque vous allez ajouté un utilisateur externe au type d’espace « Groupes ».
-
-**Désactiver l'ajout des utilisateurs externes dans les organisations**
-- Lorsque cette option est activée, un utilisateur externe ne peut pas être ajouté au type d’espace « Organisations ».
-- Lorsque cette option est désactivée, un message d’avertissement s’affiche lorsque vous allez ajouté un utilisateur externe au type d’espace « Organisations ».
-
-
-
-
-- 
 
