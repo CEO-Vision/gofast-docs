@@ -179,10 +179,10 @@ Connexion/Login
 Vous pouvez vous identifier à GoFAST via l’adresse URL sur le modèle suivant :
 https://gofast.monorganisation.com
 
-.. figure:: media-guide/image001.png
+.. figure:: media-guide/login.png
    :alt: 
 
-Il suffit d’entrer votre **identifiant** et votre **mot de passe** ou vous connecter via le SSO (Authentification automatique si celle-ci a été configurée sur votre plateforme).
+Il suffit d’entrer votre **identifiant** (Attention l'adresse e-mail ne fonctionne pas) et votre **mot de passe** ou vous connecter via le SSO (Authentification automatique si celle-ci a été configurée sur votre plateforme).
 
 .. NOTE::
    Si la délégation d'authentification a été activée sur votre site, il s'agit de votre mot de passe habituel (celui de l’annuaire de votre Organisation/Entreprise). Si le SSO a été configuré, vous n’avez pas besoin de saisir votre identifiant, ni votre mot de passe, mais juste cliquer sur le bouton de connexion automatique. 
@@ -194,7 +194,8 @@ Il suffit d’entrer votre **identifiant** et votre **mot de passe** ou vous con
 
 
 
-Vous pouvez choisir entre deux interfaces : **GoFAST plus** ou **GoFAST Essential**  
+Lors de votre première connexion, vous pouvez choisir entre deux interfaces : **GoFAST plus** ou **GoFAST Essential** 
+Via votre photo de profil, vous pouvez modifier ce choix à tout moment.
 L’interface GoFAST Essential est la version "restreinte" de GoFAST Plus (interface complète). Elle propose les fonctionnalités principales et masque certaines fonctionnalités plus avancées (ex. Gestion d’un Espace) avec une page d’accueil et une navigation plus adaptée à un utilisateur occasionnel. Pour toute question, n’hésitez pas à allez sur les forums de la communauté des utilisateurs. 
 
 
