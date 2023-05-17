@@ -676,7 +676,7 @@ Ajoutez les participants utilisateurs et/ou listes d’utilisateurs (écrivez le
 
 Il est possible de joindre des liens vers des documents (lien d’accès ou de téléchargement selon si on est utilisateur ou non sur GoFAST) à l'invitation qui sera envoyée par email (ex.: Ordre du jour) et des liens vers des dossiers (nécessaire d’être membre de l’Espace où se trouve ces dossiers).
 
-Une fois les informations entrées et après avoir appuyé sur « Enregistrer », une autre fenêtre s’ouvre avec les éléments que vous avez saisi.
+Une fois les informations entrées et après avoir appuyé sur « Enregistrer », une autre fenêtre s’ouvre avec les éléments que vous avez saisis.
 
 On y voit donc la liste des participants, le nom de l'organisateur, la date et l’heure, etc. 
 Un message en rouge peut s’afficher si vous ne disposez pas des prérequis nécessaires (micro, caméra, réseau…). 
