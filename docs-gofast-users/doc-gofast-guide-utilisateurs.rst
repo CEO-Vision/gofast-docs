@@ -667,18 +667,15 @@ Programmer une réunion/Webconférence
 
 Via le menu des accès rapides (menu principal du haut), allez sur l’onglet « + », puis sur « Réunion ».
 
-.. figure:: media-guide/image084.png
-   :alt: 
+.. figure:: media-guide/webconference_exemple.png
+    
+Donnez un titre à la webconférence, écrivez un résumé dans la zone de texte, choisissez une date et heure de début et de fin.
 
-Donnez un titre à la webconférence, écrivez un résumé dans la zone de texte, choisissez une date et heure de début et fin
 Ajoutez les participants utilisateurs et/ou listes d’utilisateurs (écrivez les 3 premières lettres du nom, d'un espace ou d'une liste pour inviter tous les membres).
 
-.. figure:: media-guide/Visio-conference.png
-   :alt: 
-   
-Il est possible de joindre des liens vers des documents (lien d’accès ou de téléchargement selon si on est utilisateur où non sur GoFAST) à l'invitation qui sera envoyée par email (ex.: Ordre du jour) et des lien vers des dossiers (nécessaire d’être membre de l’Espace où se trouve ces dossiers).
+Il est possible de joindre des liens vers des documents (lien d’accès ou de téléchargement selon si on est utilisateur ou non sur GoFAST) à l'invitation qui sera envoyée par email (ex.: Ordre du jour) et des liens vers des dossiers (nécessaire d’être membre de l’Espace où se trouve ces dossiers).
 
-Une fois les informations entrées et après avoir appuyé sur « Enregistrer », une autre fenêtre s’ouvre avec les éléments que vous avez saisis.
+Une fois les informations entrées et après avoir appuyé sur « Enregistrer », une autre fenêtre s’ouvre avec les éléments que vous avez saisi.
 
 On y voit donc la liste des participants, le nom de l'organisateur, la date et l’heure, etc. 
 Un message en rouge peut s’afficher si vous ne disposez pas des prérequis nécessaires (micro, caméra, réseau…). 
