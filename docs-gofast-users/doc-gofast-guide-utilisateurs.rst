@@ -924,7 +924,7 @@ Chaque administrateur d’espace peut **créer un nouvel utilisateur** qu’il r
    
 Voir “Créer un utilisateur dans un espace/groupe”
 
-Pour l’option Validation création utilisateurs, Merci de vous référez à la rubrique « GoFAST Administration / Super-administrateur/Configuration Validation création utilisateurs»
+Pour l’option Validation création utilisateurs, Merci de vous référez à la rubrique « GoFAST Administration / Support-utilisateurs/Configuration Validation création utilisateurs»
 
 
 Importer des Utilisateurs depuis AD/LDAP
