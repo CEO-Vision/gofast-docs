@@ -671,7 +671,7 @@ Via le menu des accès rapides (menu principal du haut), allez sur l’onglet «
    :alt: 
 
 Donnez un titre à la webconférence, écrivez un résumé dans la zone de texte, choisissez une date et heure de début et fin
-Ajoutez les participants (écrivez les 3 premières lettres du nom ou d'un espace pour inviter tous les membres de l'espace).
+Ajoutez les participants utilisateurs et/ou listes d’utilisateurs (écrivez les 3 premières lettres du nom, d'un espace ou d'une liste pour inviter tous les membres).
 
 .. figure:: media-guide/Visio-conference.png
    :alt: 
