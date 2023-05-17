@@ -32,9 +32,9 @@ Autres profils disponibles
 -----------------------------------
 - **Externe** : destiné à identifier les utilisateurs externes à l’entité (entreprise/organisation), tels que les partenaires, prestataires, clients, fournisseurs, etc. Les externes n’ont pas accès aux espaces "Publics" qui sont réservés uniquement aux salariés/agents internes. 
 
-.. NOTE::  Le profil externe est cumulable avec certains des autres profils. Il est donc possible d’être soit « externe » et « standard », ou bien « externe » et « support-utilisateur », dans le cas par exemple, où l’on souhaite confier le support niveau 1 et l’accompagnement des responsables métiers (qui sont souvent les administrateurs des espaces) à un prestataire. Un utilisateur externe ne peut pas être « super-administrateur ». 
+.. NOTE::  Le profil externe ne peut pas être Support-Utilisateurs ou Super-Administrateur.
 
-Pour les accès d'un utilisateur externe, merci de vous référez à la rubrique "GoFAST Administration / Super-administrateur / Configuration Accès utilisateurs externes".
+Pour les accès d'un utilisateur externe, merci de vous référez à la rubrique "GoFAST Administration / Support-utilisateurs / Configuration Accès utilisateurs externes".
 
 - **Broadcaster** : permet de partager des documents dans des espaces collaboratifs sans en être membre, ou les espaces personnels des autres utilisateurs. Attention : ce profil ne permet pas de voir les contenus (ni dossiers, ni fichiers) dans ces espaces, mais uniquement d’en déposer.
 
