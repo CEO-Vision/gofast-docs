@@ -198,6 +198,12 @@ Lors de votre première connexion, vous pouvez choisir entre deux interfaces : *
 Via votre photo de profil, vous pouvez modifier ce choix à tout moment.
 L’interface GoFAST Essential est la version "restreinte" de GoFAST Plus (interface complète). Elle propose les fonctionnalités principales et masque certaines fonctionnalités plus avancées (ex. Gestion d’un Espace) avec une page d’accueil et une navigation plus adaptée à un utilisateur occasionnel. Pour toute question, n’hésitez pas à allez sur les forums de la communauté des utilisateurs. 
 
+Si vous voulez en savoir plus sur l'interface **GoFAST Essential** , merci de regarder cette vidéo :
+
+.. raw:: html
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/7699ESVTOyM" frameborder="0" allowfullscreen></iframe>
+
 
 Se repérer sur GoFAST (menus, icônes…)
 --------------------------------------------------------
