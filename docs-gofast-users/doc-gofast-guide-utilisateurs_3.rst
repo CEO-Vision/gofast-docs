@@ -722,13 +722,15 @@ Traiter ses tâches
 
 **Vous pouvez traiter vos tâches :**
 
- - Soit depuis la page d’un document : dans le bloc d’informations, onglet « Tâche », vous retrouverez le formulaire pour effectuer votre tâche (en arrivant sur le document, vous serez automatiquement positionné sur cet onglet si vous avez une tâche à traiter). 
+ - Soit depuis la page d’un document : dans le bloc d’informations, onglet « Tâches », vous retrouverez le formulaire pour effectuer votre tâche (en arrivant sur le document, vous serez automatiquement positionné sur cet onglet si vous avez une tâche à traiter). 
 [IMAGE]
 
- - Soit depuis toute liste des tâches de processus : cliquez sur l'icône ">" pour ouvrir le formulaire et indiquer que vous avez effectué votre tâche, en laissant un commentaire. 
+ - Soit depuis la liste des tâches et processus : cliquez sur l'icône ">" pour ouvrir le formulaire et indiquer que vous avez effectué votre tâche, en laissant un commentaire.  
 
 .. figure:: media-guide/Ecran-GoFAST_Workflows_formulaire-traiter-sa-tache.png	
    :alt:
+
+- Soit depuis le Calendrier GoFast si la tâche à une date d'échéance. Vous trouverez la tâche dans le calendrier au jour de son échéance, en cliquant dessus, cela vous redirigera soit vers la carte Kanban soit vers le processus en cours. 
 
 Cliquez sur "Envoyer" (ou autre selon la tâche qui vous a été assignée) pour enregistrer le traitement de la tâche. 
 
@@ -924,7 +926,7 @@ Les champs disponibles dans une carte
    :alt:
 
 .. NOTE::
-   Dans la section Todolist, les membres de l’Espace peuvent indiquer la fin de la réalisation des tâches en cochant les cases adjacentes aux titres. 
+   Dans la section Todolist, les membres de l’Espace peuvent indiquer la fin de la réalisation des tâches en cochant les cases adjacentes aux titres. Cela les feront apparaître dans le Calendrier GoFAST.
    Les membres contributeurs de l’Espace peuvent également modifier les informations d’une Carte.
 
 Cliquez sur « Fermer » pour sortir de la carte. 
@@ -961,7 +963,7 @@ Les cartes sont visibles aux utilisateurs membres de l’Espace où elles se tro
 .. figure:: media-guide/kanban-card-display-calendar.jpg.png
 
 .. NOTE::
-   La carte apparaîtra dans le calendrier à la date d'échéance de la carte et non à la date d'échéance de la checklist.
+   La carte et ses sous-tâches apparaîtront dans le calendrier à leurs dates d'échéances.
 
  - Depuis l’icône « processus et tâches » dans la barre des accès rapides (menu principal du haut), où il n’y a que les tâches où vous avez été assigné. Pour aller sur une tâche, cliquez sur l’icône « i » en bas à droite de cette tâche.
 
