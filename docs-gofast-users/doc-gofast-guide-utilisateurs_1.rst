@@ -1248,6 +1248,11 @@ Actions possibles depuis le panier documentaire
     - Partager par email 
     - Pré-archiver 
 
+**Télécharger en masse depuis le panier documentaire**
+
+Vous pouvez télécharger en masse des documents depuis le panier documentaire.
+   
+Après avoir ajouté au panier documentaire les documents souhaités, cliquez sur « Télécharger » dans les actions disponibles. Cela téléchargera un fichier ZIP sur votre ordinateur.
 
 **Démarrer un processus de tâches depuis le panier (Enterprise only) :**
 
