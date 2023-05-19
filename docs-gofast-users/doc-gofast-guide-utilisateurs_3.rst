@@ -887,15 +887,15 @@ en haut à droite de la colonne, puis choisir l’action souhaitée.
 
 Créer une nouvelle carte 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
- - Cliquez sur le bouton « + » en haut à droite de l’une des colonnes disponibles 
-   
+
+Cliquez sur le bouton « + » en haut à droite de l’une des colonnes disponibles 
+
 .. figure:: media-guide/creer-colonne-tache-kanban.jpg.png
 
- - Renseignez un titre pour votre carte dans le champ qui apparait.
- - Clique sur l’icône « v » et votre nouvelle carte est créée. 
- - Cliquez sur la nouvelle carte que vous venez de créer pour ouvrir le formulaire associé. 
+Renseignez un titre pour votre carte dans le champ qui apparait, cliquez ensuite sur l’icône « v » et votre nouvelle carte est créée. 
+Puis cliquez sur la nouvelle carte que vous venez de créer pour ouvrir le formulaire associé. 
 
-.. figure:: media-guide/creer-une-carte.jpg.png	
+.. figure:: media-guide/créer-une-carte-kanban-maj.png
    :alt:
 
 - Renseigner le titre, la description, les documents liés, la date d’échéance, le responsable puis les participants. Ces informations sont enregistrées automatiquement.
@@ -907,7 +907,8 @@ Créer une nouvelle carte
 Les champs disponibles dans une carte
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
- - Le titre de la carte : champ modifiable en un clic dessus 
+ - Le titre de la carte : champ modifiable en un clic dessus
+ - Le Permalien
  - Créé le : date non modifiable 
  - Etat : modifiable en un clic dessus, puis un clic pour sélectionner l’état. La carte peut avoir trois états (A traiter en priorité, En cours, Terminé).
  - Responsable : champ modifiable en un clic, puis saisi du nom d’un utilisateur (au moins 3 caractères à saisir pour avoir des suggestions). Un seul responsable est possible. 
