@@ -200,9 +200,7 @@ L’interface GoFAST Essential est la version "restreinte" de GoFAST Plus (inter
 
 Si vous voulez en savoir plus sur l'interface **GoFAST Essential** , merci de regarder cette vidéo :
 
-.. image:: html
-
-    <iframe width="704" height="396" src="https://www.youtube.com/embed/7699ESVTOyM" frameborder="0" allowfullscreen></iframe>
+.. youtube:: 7699ESVTOyM
 
 
 
