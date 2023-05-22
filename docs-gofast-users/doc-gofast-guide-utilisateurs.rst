@@ -182,7 +182,9 @@ https://gofast.monorganisation.com
 .. figure:: media-guide/login.png
    :alt: 
 
-Il suffit d’entrer votre **identifiant** (Attention l'adresse e-mail ne fonctionne pas) et votre **mot de passe** ou vous connecter via le SSO (Authentification automatique si celle-ci a été configurée sur votre plateforme).
+Il suffit d’entrer votre **identifiant** et votre **mot de passe** ou vous connecter via le SSO (Authentification automatique si celle-ci a été configurée sur votre plateforme).
+
+.. CAUTION:: L'adresse e-mail n'est pas l'identifiant
 
 .. NOTE::
    Si la délégation d'authentification a été activée sur votre site, il s'agit de votre mot de passe habituel (celui de l’annuaire de votre Organisation/Entreprise). Si le SSO a été configuré, vous n’avez pas besoin de saisir votre identifiant, ni votre mot de passe, mais juste cliquer sur le bouton de connexion automatique. 
