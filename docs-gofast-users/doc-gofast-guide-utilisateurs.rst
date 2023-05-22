@@ -205,6 +205,7 @@ Si vous voulez en savoir plus sur l'interface **GoFAST Essential** , merci de re
     <iframe width="704" height="396" src="https://www.youtube.com/embed/7699ESVTOyM" frameborder="0" allowfullscreen></iframe>
 
 
+
 Se repérer sur GoFAST (menus, icônes…)
 --------------------------------------------------------
 
