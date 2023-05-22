@@ -559,7 +559,7 @@ Modifier la manière dont sont affichés les contenus
    Le mode d’affichage de l’explorateur choisi s’applique instantanément partout.
 
 
-Créer un nouveau contenu dans le dossier sectionné
+Créer un nouveau contenu dans le dossier sélectionné
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Si vous appuyez sur le bouton Nouveau, vous avez le choix de créer à l’emplacement en cours : 
@@ -803,7 +803,7 @@ Il est possible de prés-archiver une sélection de documents en une fois.
 Après avoir sélectionné les documents souhaités, il suffit de cliquer sur *Gérer* puis sur *Gérer les métadonnées*, une fênetre s'ouvre et vous selectionnez *Pré-Archivé* sur le champs *Etat* puis cliquez sur « Enregistrer »
 
 .. figure:: media-guide/Ecran-GoFAST_GoFASTFileBrowser_Archiver-en-masse.png
-:alt
+
 
 Partager / Ajouter des emplacements (Multi-emplacement = zéro doublon de fichier)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
