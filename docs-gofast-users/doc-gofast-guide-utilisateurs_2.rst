@@ -532,6 +532,9 @@ Les fichiers ainsi déposés sont chargés et la progression est affichée dans 
 .. NOTE:: 
 
    Le chargement se fera uniquement si vous avez les droits pour déposer des contenus dans l'espace concerné (dont non autorisé pour les membres ayant le rôle « Lecture Seule » dans l’Espace).  
+   
+.. NOTE::
+  Lorsque vous effectuez un glisser-déposer d'un document portant le même nom depuis votre PC vers GoFAST, une fenêtre s'ouvrira vous demandant si vous souhaitez écraser le fichier existant.
 
 .. WARNING:: 
 

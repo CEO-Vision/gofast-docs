@@ -240,12 +240,16 @@ Cette fonctionnalité permet à la fois de créer un nouvel utilisateur et l’a
 
 - Depuis le formulaire de création d’un utilisateur, vous pouvez soit renseigner les divers champs disponibles, soit « recherche dans LDAP » pour préremplir les données (il s’agit de l’annuaire interne de votre organisation/entreprise : AD ou LDAP). 
 - Terminez la création du nouvel utilisateur en cliquant sur « Enregistrer »
+
 .. figure:: media-guide/image099.png
 
-Il est indispensable de consulter la rubrique « créer un utilisateur » 
+Vous pouvez consulter cette `section <https://gofast-docs.readthedocs.io/fr/latest/docs-gofast-users/doc-gofast-guide-utilisateurs.html#creer-des-utilisateurs-listes-dutilisateurs-contacts>`_ pour découvrir d'autres méthodes de création d'un utilisateur.
 
 .. NOTE :: 
-   Lorsque vous créer un utilisateur, vous indiquez son rôle par défaut dans les Espaces. Une fois l’utilisateur créé, vous pouvez modifier son rôle dans l’espace à tout moment. 
+   Lorsque vous créez un utilisateur, vous indiquez son rôle par défaut dans les Espaces. Une fois l’utilisateur créé, vous pouvez modifier son rôle dans l’espace à tout moment. 
+   
+.. NOTE::
+  Si vous saisissez une adresse e-mail qui est déjà associée à un utilisateur, un avertissement s'affichera indiquant qu'un utilisateur existe déjà avec cette adresse e-mail.
 
 Modifier le nom et l’accueil d’un Espace Collaboratif 
 --------------------------------------------------------------------
