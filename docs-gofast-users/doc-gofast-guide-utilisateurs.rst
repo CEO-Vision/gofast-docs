@@ -723,8 +723,8 @@ Donnez un titre à votre article, créez son contenu (vous disposez d’un menu 
 
 Voici un exemple d’aperçu d’un article Wiki, avec les métadonnées relatives sur la droite :
 
-.. figure:: media-guide/image061.png
-   :alt: 
+.. figure:: media-guide/métadonnées wiki.png
+ 
 
 Créer une page Web externe (URL)
 ----------------------------------------------
