@@ -712,16 +712,16 @@ Cliquez sur le bouton « Rejoindre ». Les membres du salon de discussion peuven
 Pour connaître les fonctionnalités de la webconférence, merci de vous référer à la rubrique : « Réunions / Webconference (Enterprise only) » (et la documentation Jitsi Meet). 
 
 
-Créer une page Wiki 
+Créer un article Wiki 
 ----------------------------
 
-Il est possible de **créer une page Wiki** qui sont des pages web interne à la plateforme, partagés au sein d’un Espace Collaboratif.
+Il est possible de **créer un article Wiki** qui sont des pages web interne à la plateforme, partagés au sein d’un Espace Collaboratif.
 
-Allez sur l’onglet « + » puis « Contenu », « Page Wiki ».
+Allez sur l’onglet « + » puis « Contenu », « Article Wiki ».
 
-Donnez un titre à votre page, créez son contenu (vous disposez d’un menu avec diverses actions de mise à page possible, comme lors d’un partage de commentaire), choisissez son emplacement dans l’arborescence des Espaces.
+Donnez un titre à votre article, créez son contenu (vous disposez d’un menu avec diverses actions de mise en page possible, comme lors d’un partage de commentaire), choisissez son emplacement dans l'emplacement "Wikis" dans l’arborescence des Espaces.
 
-Voici un exemple d’aperçu d’une page web, avec les métadonnées relatives sur la droite :
+Voici un exemple d’aperçu d’un article Wiki, avec les métadonnées relatives sur la droite :
 
 .. figure:: media-guide/image061.png
    :alt: 
