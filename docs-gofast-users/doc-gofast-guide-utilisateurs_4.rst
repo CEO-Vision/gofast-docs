@@ -1,4 +1,4 @@
-Forums et Pages Wiki
+Forums et Wikis
 =====================
 
 Les Forums 
@@ -35,7 +35,7 @@ Un message en haut à droite apparaîtra signalant la publication de votre nouve
 Seuls les membres administrateurs ou contributeurs des Espaces peuvent créer un forum. Les membres Lecture Seule peuvent toutefois poster des commentaires dans les forums existants. 
 Merci de vous référer également à la rubrique : « Créer un Forum ». 
 
-Les Wiki 
+Les Wikis 
 ----------------
 
 **Objectif des Wikis :**
@@ -57,7 +57,7 @@ Participer dans un Wiki
 Tous les utilisateurs ayant accès, peuvent partager des commentaires sur le Wiki.
 
 **Pour partager un commentaire dans un Wiki :**
- - Allez sur la page du Wiki (voir rubrique précédente).
+ - Allez sur l'article Wiki (voir rubrique précédente).
  - Via le menu « Burger », clic sur « Nouveau commentaire ». 
  - Via l’onglet « Commentaires » dans le bloc d’information du Wiki : clic sur « Nouveau commentaire » OU clic sur l’icône « flèche » sous un commentaire pour répondre à un commentaire existant.
 
@@ -68,9 +68,9 @@ Merci de vous référer également à la rubrique : « Créer une page Wiki »
 
 Notion de Livre Wiki 
 ~~~~~~~~~~~~~~~~~
-Un **Livre Wiki** est un regroupement de pages Wikis. 
-Tous les Wiki créés dans un Espace sont listés comme pages du Livre Wiki de cet Espace. 
-Vous pouvez naviguer facilement d'un Wiki à l'autre via le volet de gauche, onglet « Wiki ».
+Un **Livre Wiki** est un regroupement d'articles Wiki. 
+Tous les Wikis créés dans un Espace sont listés comme pages du Livre Wiki de cet Espace. 
+Vous pouvez naviguer facilement d'un Wiki à l'autre via le volet de gauche, onglet « Wikis ».
 
 Merci de vous référer également à la rubrique : « Créer une page Wiki »
 
