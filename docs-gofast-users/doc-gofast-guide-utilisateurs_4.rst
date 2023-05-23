@@ -38,7 +38,7 @@ Merci de vous référer également à la rubrique : « Créer un Forum ».
 Les Wiki 
 ----------------
 
-**Objectif des Wiki :**
+**Objectif des Wikis :**
 Partager des bases de conférences, bonnes pratiques et conseils avec les membres d’un Espace Collaboratif, sur une ou plusieurs thématiques. Cela permet de gagner un temps précieux lors que l’on a besoin d’informations, plutôt que reposer sans cesse les mêmes questions.
 
 Aller sur un Wiki
@@ -46,8 +46,8 @@ Aller sur un Wiki
 Les Wikis sont accessibles à tous les membres de l’Espace où sont partagés ces Wikis, peu importe leur rôle dans cet Espace. 
 
 **Pour trouver un Wiki :** 
- - Via le volet de gauche : clic sur la « > » pour déplier le volet, puis sur l’onglet « Wiki » en bas de ce volet. Vous verrez tous les Wikis existants où vous avez accès. Vous pouvez filtrer l’arborescence (le sommaire) des Wikis via le champ « Filtrer », en saisissant les premières lettres du nom du Wiki. 
- - Via l’explorateur de fichier, onglet « Documents » sur la page d’un Espace, dans le dossier « Wiki »
+ - Via le volet de gauche : clic sur la « > » pour déplier le volet, puis sur l’onglet « Wikis » en bas de ce volet. Vous verrez tous les Wikis existants où vous avez accès. Vous pouvez filtrer l’arborescence (le sommaire) des Wikis via le champ « Filtrer », en saisissant les premières lettres du nom du Wiki. 
+ - Via l’explorateur de fichier, onglet « Documents » sur la page d’un Espace, dans le dossier « Wikis »
  - Via le moteur de recherche, en saisissant des mots-clefs ou en faisant une recherche à blanc, puis en filtrant part type de contenu « Wikis ». 
 
 Il faut cliquer sur le nom du Wiki pour aller dessus ou faire un double-clic si c’est depuis l’explorateur de fichiers.
@@ -68,8 +68,8 @@ Merci de vous référer également à la rubrique : « Créer une page Wiki »
 
 Notion de Livre Wiki 
 ~~~~~~~~~~~~~~~~~
-Un **Livre Wiki** est un regroupement de pages Wiki. 
-Toutes les Wiki créés dans un Espace sont listés comme pages du Livre Wiki de cet Espace. 
+Un **Livre Wiki** est un regroupement de pages Wikis. 
+Tous les Wiki créés dans un Espace sont listés comme pages du Livre Wiki de cet Espace. 
 Vous pouvez naviguer facilement d'un Wiki à l'autre via le volet de gauche, onglet « Wiki ».
 
 Merci de vous référer également à la rubrique : « Créer une page Wiki »
