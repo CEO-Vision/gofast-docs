@@ -369,7 +369,7 @@ Lorsque vous sélectionnez un ou plusieurs espaces, un menu burger apparaît en 
 - Pré-ajouter des membres/liste d'utilisateurs : une demande est alors envoyée aux administrateurs métiers de l'Espace.
 
 .. NOTE::
-   Selon les paramétrages de la plateforme et vos droits d’accès, vous pourrez visualiser tous ou une partie des espaces existants.
+   En fonction de la configuration de la plateforme et de vos droits d'accès, vous pourrez accéder à la totalité ou à une partie des espaces existants.
 
 Annuaire des Contacts
 -------------------------------------------
