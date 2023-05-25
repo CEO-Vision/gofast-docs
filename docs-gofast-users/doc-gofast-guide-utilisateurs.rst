@@ -946,12 +946,12 @@ Pour créer une liste, via la barre des accès rapides (menu principal du haut) 
 
 .. figure:: media-guide/Ecran-GoFAST_Liste-Utilisateurs_creer-liste.png
 
-Vous êtes redirigé vers le formulaire et il suffit de renseigner les 3 champs affichés :
+Vous êtes redirigé vers le formulaire et il suffit de renseigner les 4 champs affichés :
 
     - Nom de la liste,
     - Membres de la liste (rentrez au moins 3 caractères du nom/prénom d'un utilisateur pour avoir des suggestions),
     - Administrateurs de la liste 
-    - Description,
+    - Description
 
 
 
@@ -960,8 +960,17 @@ Vous êtes redirigé vers le formulaire et il suffit de renseigner les 3 champs 
 
 Créer un contact (non-utilisateur)
 -------------------------------------------------------
-Actuellement, la création de nouveaux contacts est possible uniquement via le processus de tâches, lors de l’assignation d’une e-signature et dans le cas où un module optionnel est activé (couplage avec un parapheur tiers qui permet la demande de e-signatures à des non-utilisateurs).
-N’hésitez pas à poser vos questions sur les possibilités liés aux contacts et à la signature électronique sur nos forums. 
+La création d'un contact vous permet d'enregistrer des informations professionnelles de collaborateurs exterieurs. Cela vous permet de l'ajouter aux réunions GoFAST, de faciliter la signature de documents et le partage par e-mail même s'il n'est pas utilisateur de GoFAST. 
+
+.. image:: media-guide/creer_contact.png
+
+Vous êtes redirigé vers un formulaire vous demandant de renseigner les données suivantes :
+
+- Nom de famille
+- Prénom
+- Email
+- Mobile
+- Entité
 
 .. include:: doc-gofast-guide-utilisateurs_1.rst
 .. include:: doc-gofast-guide-utilisateurs_2.rst
