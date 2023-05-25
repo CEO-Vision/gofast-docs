@@ -329,15 +329,14 @@ Annuaires
 
 Annuaire des Utilisateurs
 ----------------------------------
-[EN COURS DE MISE A JOUR POUR V4.0]
 
 **Pour rechercher un utilisateur vous avez le choix entre :**
  - Saisir son nom dans la recherche, 
- - Passer par l’ "Annuaire" / "Utilisateurs". Vous verrez toute la liste des utilisateurs dans un tableau.
+ - Passer par "Annuaires" / "Utilisateurs". Vous trouverez un tableau listant les utilisateurs existants.
 
 
 **Sur la page de l’annuaire :**
-Dans le bloc de droite, vous pouvez filtrer votre recherche selon le prénom, le nom, la période de connexion ou de création de l’utilisateur et l’état du compte utilisateur (actif ou pas actif).
+Dans le bloc en haut, vous pouvez filtrer votre recherche selon le nom, le prénom, l'entité, le type de profil, la période de connexion ou de création de l’utilisateur et l’état du compte utilisateur (activé ou non).
 
 
 Vous pouvez directement envoyer un mail ou appeler l’utilisateur via son profil. De même que lui envoyer une demande de « relation », ce qui permet de contacter/voir le raccourci de cette personne même si elle ne fait pas partie de vos espaces collaboratifs.
@@ -353,19 +352,24 @@ Vous pouvez ensuite utiliser les filtres dans le bloc à droite de l’écran po
 
 Annuaire des Espaces Collaboratifs
 -------------------------------------------
-[EN COURS DE MISE A JOUR POUR V4.0]
 
 **Pour rechercher un Espace via l’annuaire :**
  - Allez dans le menu principal de gauche.
- - Cliquer sur Annuaire puis Espaces.
+ - Cliquez sur Annuaires puis Espaces.
 Vous trouverez un tableau listant les espaces existants. 
 
-Vous pouvez utiliser les filtres dans le bloc à droite de l’écran pour préciser le type d’espace recherché : Organisation, Groupe, Public ou Extranet.
-Vous pouvez demander à rejoindre un Espace via le menu « Burger » (une demande est alors envoyée aux administrateurs métier de l'Espace). 
+Vous pouvez utiliser les filtres dans le bloc en haut de l’écran pour préciser le nom, le type d'espace, le nombre de membres, le nombre d'administrateurs et le nombre d'utilisateurs en attente.
+ 
+Lorsque vous sélectionnez un ou plusieurs espaces, un menu burger apparaît en haut à gauche
 
+.. image:: media-guide/selection_espace.png
+
+- Ajouter membres/Liste d'utilisateurs : Cette fonctionnalité est accessible uniquement aux administrateurs de l'espace sélectionné.
+- Demander à rejoindre ces espaces : une demande est alors envoyée aux administrateurs métiers de l'Espace.
+- Pré-ajouter des membres/liste d'utilisateurs : une demande est alors envoyée aux administrateurs métiers de l'Espace.
 
 .. NOTE::
-   Selon les paramétrages de la plateforme et vos droits d’accès, vous pourrez visualiser tous ou une partie des espaces existants.
+   En fonction de la configuration de la plateforme et de vos droits d'accès, vous pourrez accéder à la totalité ou à une partie des espaces existants.
 
 Annuaire des Contacts
 -------------------------------------------
