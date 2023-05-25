@@ -360,11 +360,11 @@ Vous trouverez un tableau listant les espaces existants.
 
 Vous pouvez utiliser les filtres dans le bloc en haut de l’écran pour préciser le nom, le type d'espace, le nombre de membres, le nombre d'administrateurs et le nombre d'utilisateurs en attente.
  
-Lorsque vous séléctionnez un ou plusieurs espaces, un menu burger apparaît en haut à gauche
+Lorsque vous sélectionnez un ou plusieurs espaces, un menu burger apparaît en haut à gauche
 
 .. image:: media-guide/selection_espace.png
 
-- Ajouter membres/Liste d'utilisateurs : Cette fonctionnalité est accessible uniquement aux administrateurs de l'espace séléctionné.
+- Ajouter membres/Liste d'utilisateurs : Cette fonctionnalité est accessible uniquement aux administrateurs de l'espace sélectionné.
 - Demander à rejoindre ces espaces : une demande est alors envoyée aux administrateurs métiers de l'Espace.
 - Pré-ajouter des membres/liste d'utilisateurs : une demande est alors envoyée aux administrateurs métiers de l'Espace.
 
