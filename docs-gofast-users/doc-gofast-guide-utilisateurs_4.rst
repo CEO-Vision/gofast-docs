@@ -351,7 +351,7 @@ Pour rechercher des Listes d’utilisateurs via l’annuaire, allez sur Annuaire
 
 Vous pouvez ensuite utiliser les filtres dans le bloc à droite de l’écran pour préciser le nom de la liste, de son créateur ou la période de création (au format JJ/MM/AAAA  ou JJ/MM/AA)
 
-Annuaire des Espace Collaboratif
+Annuaire des Espaces Collaboratifs
 -------------------------------------------
 [EN COURS DE MISE A JOUR POUR V4.0]
 
@@ -369,7 +369,7 @@ Vous pouvez demander à rejoindre un Espace via le menu « Burger » (une demand
 
 Annuaire des Contacts
 -------------------------------------------
-EN COURS DE REDACTION – SERA PUBLIE FIN AVRIL 2022 
+EN COURS DE REDACTION
 
 
 Statistiques 
@@ -381,10 +381,14 @@ Dans l'onglet **Statistiques**, vous pouvez choisir les informations que vous so
 Allez sur la page d’un espace, onglet « Statistiques ». 
 Deux sous-onglets sont disponibles :
 
-1. Sous-onglet « **Statistique des membres** » permet de visualiser les informations relatives aux membres actifs et inactifs, les nouveaux membres et membres connectés.
+1. Sous-onglet « **Statistiques des membres** » permet de visualiser les informations relatives aux membres actifs et inactifs, les nouveaux membres et membres connectés.
 
 
-2. Sous-onglet « **Statistique documentaires** », permet de visualiser toutes les informations relatives aux documents par sa catégorie, son état et son importance.
+2. Sous-onglet « **Statistiques documentaires** », permet de visualiser toutes les informations relatives aux documents par sa catégorie, son état et son importance.
+
+.. NOTE::
+  - Membres actifs : Activité recencée sur les 3 derniers mois (hors consultation)
+  - Membres inactifs : Aucune activité lors des 3 derniers mois
 
 
 Statistiques de la plateforme
