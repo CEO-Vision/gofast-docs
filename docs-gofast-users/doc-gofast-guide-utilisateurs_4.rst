@@ -353,16 +353,21 @@ Vous pouvez ensuite utiliser les filtres dans le bloc à droite de l’écran po
 
 Annuaire des Espaces Collaboratifs
 -------------------------------------------
-[EN COURS DE MISE A JOUR POUR V4.0]
 
 **Pour rechercher un Espace via l’annuaire :**
  - Allez dans le menu principal de gauche.
- - Cliquer sur Annuaire puis Espaces.
+ - Cliquez sur Annuaires puis Espaces.
 Vous trouverez un tableau listant les espaces existants. 
 
-Vous pouvez utiliser les filtres dans le bloc à droite de l’écran pour préciser le type d’espace recherché : Organisation, Groupe, Public ou Extranet.
-Vous pouvez demander à rejoindre un Espace via le menu « Burger » (une demande est alors envoyée aux administrateurs métier de l'Espace). 
+Vous pouvez utiliser les filtres dans le bloc en haut de l’écran pour préciser le nom, le type d'espace, le nombre de membres, le nombre d'administrateurs et le nombre d'utilisateurs en attente.
+ 
+Lorsque vous séléctionnez un ou plusieurs espaces, un menu burger apparaît en haut à gauche
 
+.. image:: media-guide/selection_espace.png
+
+- Ajouter membres/Liste d'utilisateurs : Cette fonctionnalité est accessible uniquement aux administrateurs de l'espace séléctionné.
+- Demander à rejoindre ces espaces : une demande est alors envoyée aux administrateurs métiers de l'Espace.
+- Pré-ajouter des membres/liste d'utilisateurs : une demande est alors envoyée aux administrateurs métiers de l'Espace.
 
 .. NOTE::
    Selon les paramétrages de la plateforme et vos droits d’accès, vous pourrez visualiser tous ou une partie des espaces existants.
