@@ -329,15 +329,14 @@ Annuaires
 
 Annuaire des Utilisateurs
 ----------------------------------
-[EN COURS DE MISE A JOUR POUR V4.0]
 
 **Pour rechercher un utilisateur vous avez le choix entre :**
  - Saisir son nom dans la recherche, 
- - Passer par l’ "Annuaire" / "Utilisateurs". Vous verrez toute la liste des utilisateurs dans un tableau.
+ - Passer par "Annuaires" / "Utilisateurs". Vous trouverez un tableau listant les utilisateurs existants.
 
 
 **Sur la page de l’annuaire :**
-Dans le bloc de droite, vous pouvez filtrer votre recherche selon le prénom, le nom, la période de connexion ou de création de l’utilisateur et l’état du compte utilisateur (actif ou pas actif).
+Dans le bloc en haut, vous pouvez filtrer votre recherche selon le nom, le prénom, l'entité, le type de profil, la période de connexion ou de création de l’utilisateur et l’état du compte utilisateur (activé ou non).
 
 
 Vous pouvez directement envoyer un mail ou appeler l’utilisateur via son profil. De même que lui envoyer une demande de « relation », ce qui permet de contacter/voir le raccourci de cette personne même si elle ne fait pas partie de vos espaces collaboratifs.
