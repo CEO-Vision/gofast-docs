@@ -342,10 +342,10 @@ Dans le bloc en haut, vous pouvez filtrer votre recherche selon le nom, le prén
 Vous pouvez directement envoyer un mail ou appeler l’utilisateur via son profil. De même que lui envoyer une demande de « relation », ce qui permet de contacter/voir le raccourci de cette personne même si elle ne fait pas partie de vos espaces collaboratifs.
 
 Il est également possible une fois un ou plusieurs utilisateurs sélectionnés, de cliquer sur le menu burger. Ce qui permet, selon vos droits de :
-- Modifier les permissions et profils
-- Débloquer/Activer un profil
-- Désactiver un profil
-- Supprimer un profil si il n'y a jamais eu de connexion
+ - Modifier les permissions et profils
+ - Débloquer/Activer un profil
+ - Désactiver un profil
+ - Supprimer un profil si il n'y a jamais eu de connexion
  
 
 Annuaire des Liste d’utilisateurs 
