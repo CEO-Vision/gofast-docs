@@ -340,15 +340,22 @@ Dans le bloc en haut, vous pouvez filtrer votre recherche selon le nom, le prén
 
 
 Vous pouvez directement envoyer un mail ou appeler l’utilisateur via son profil. De même que lui envoyer une demande de « relation », ce qui permet de contacter/voir le raccourci de cette personne même si elle ne fait pas partie de vos espaces collaboratifs.
+
+Il est également possible une fois un ou plusieurs utilisateurs sélectionnés, de cliquer sur le menu burger. Ce qui permet, selon vos droits de :
+- Modifier les permissions et profils
+- Débloquer/Activer un profil
+- Désactiver un profil
+- Supprimer un profil si il n'y a jamais eu de connexion
  
 
 Annuaire des Liste d’utilisateurs 
 --------------------------------------------
-[EN COURS DE MISE A JOUR POUR V4.0]
-Pour rechercher des Listes d’utilisateurs via l’annuaire, allez sur Annuaire dans le menu de gauche, puis sur Listes d’utilisateurs.
 
+Pour rechercher des Listes d’utilisateurs via l’annuaire, allez sur Annuaires dans le menu de gauche, puis sur Listes d’utilisateurs.
 
-Vous pouvez ensuite utiliser les filtres dans le bloc à droite de l’écran pour préciser le nom de la liste, de son créateur ou la période de création (au format JJ/MM/AAAA  ou JJ/MM/AA)
+Vous pouvez ensuite utiliser les filtres dans le bloc en haut de l’écran pour préciser le nom de la liste, de son créateur ou la période de création (au format JJ/MM/AAAA  ou JJ/MM/AA)
+
+Il est possible également de lancer une syncronisation avec l'AD, d'éditer la liste ou de la supprimer. 
 
 Annuaire des Espaces Collaboratifs
 -------------------------------------------
@@ -373,8 +380,15 @@ Lorsque vous sélectionnez un ou plusieurs espaces, un menu burger apparaît en 
 
 Annuaire des Contacts
 -------------------------------------------
-EN COURS DE REDACTION
 
+**Pour accéder via l’annuaire :**
+ - Allez dans le menu principal de gauche.
+ - Cliquez sur Annuaires puis Contacts.
+ 
+ Les Contacts regroupent tout les contacts crées avec leurs informations: Nom, Prénom, Entité, E-mail et Mobile
+ 
+ .. NOTE::
+   Selon vos droits, il est possible de modifier ou supprimer le contact
 
 Statistiques 
 ==========
