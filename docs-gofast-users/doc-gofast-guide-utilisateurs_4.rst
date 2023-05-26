@@ -331,7 +331,7 @@ Annuaire des Utilisateurs
 ----------------------------------
 
 **Pour rechercher un utilisateur vous avez le choix entre :**
- - Saisir son nom dans la recherche 
+ - Saisir son nom dans la recherche. 
  - Passer par "Annuaires" / "Utilisateurs". Vous trouverez un tableau listant les utilisateurs existants.
 
 
@@ -385,7 +385,7 @@ Annuaire des Contacts
  - Allez dans le menu principal de gauche.
  - Cliquez sur Annuaires puis Contacts.
  
- Les Contacts regroupent tout les contacts crées avec leurs informations: Nom, Prénom, Entité, E-mail et Mobile
+ Les Contacts regroupent tout les contacts crées avec leurs informations: Nom, Prénom, Entité, E-mail et Mobile.
  
  .. NOTE::
    Selon vos droits, il est possible de modifier ou supprimer le contact.
