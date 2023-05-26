@@ -331,7 +331,7 @@ Annuaire des Utilisateurs
 ----------------------------------
 
 **Pour rechercher un utilisateur vous avez le choix entre :**
- - Saisir son nom dans la recherche, 
+ - Saisir son nom dans la recherche 
  - Passer par "Annuaires" / "Utilisateurs". Vous trouverez un tableau listant les utilisateurs existants.
 
 
@@ -353,7 +353,7 @@ Annuaire des Liste d’utilisateurs
 
 Pour rechercher des Listes d’utilisateurs via l’annuaire, allez sur Annuaires dans le menu de gauche, puis sur Listes d’utilisateurs.
 
-Vous pouvez ensuite utiliser les filtres dans le bloc en haut de l’écran pour préciser le nom de la liste, de son créateur ou la période de création (au format JJ/MM/AAAA  ou JJ/MM/AA)
+Vous pouvez ensuite utiliser les filtres dans le bloc en haut de l’écran pour préciser le nom de la liste, de son créateur ou la période de création (au format JJ/MM/AAAA  ou JJ/MM/AA).
 
 Il est possible également de lancer une syncronisation avec l'AD, d'éditer la liste ou de la supprimer. 
 
@@ -367,7 +367,7 @@ Vous trouverez un tableau listant les espaces existants.
 
 Vous pouvez utiliser les filtres dans le bloc en haut de l’écran pour préciser le nom, le type d'espace, le nombre de membres, le nombre d'administrateurs et le nombre d'utilisateurs en attente.
  
-Lorsque vous sélectionnez un ou plusieurs espaces, un menu burger apparaît en haut à gauche
+Lorsque vous sélectionnez un ou plusieurs espaces, un menu burger apparaît en haut à gauche.
 
 .. image:: media-guide/selection_espace.png
 
@@ -388,7 +388,7 @@ Annuaire des Contacts
  Les Contacts regroupent tout les contacts crées avec leurs informations: Nom, Prénom, Entité, E-mail et Mobile
  
  .. NOTE::
-   Selon vos droits, il est possible de modifier ou supprimer le contact
+   Selon vos droits, il est possible de modifier ou supprimer le contact.
 
 Statistiques 
 ==========
