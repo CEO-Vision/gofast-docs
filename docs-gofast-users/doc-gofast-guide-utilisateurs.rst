@@ -7,7 +7,7 @@ GoFAST : Guide Utilisateurs
 Introduction
 ============
 
-Ce guide vous apprend à utiliser GoFAST de la manière la plus efficace possible, avec de nombreuses copies d'écran de la plateforme, qui vous guident pas à pas. Il vous explique tous les "trucs et astuces", les raccourcis et les différentes manières de faire une même action sur les documents, contenus, Espaces Collaboratifs, utilisateurs, etc.
+Ce guide vous apprend à utiliser GoFAST de la manière la plus efficace possible. Il comprend de nombreuses captures d'écran de la plateforme qui vous guident pas à pas. Vous trouverez tous les "trucs et astuces", les raccourcis et les différentes manières de faire une même action sur les documents, contenus, Espaces Collaboratifs, utilisateurs, etc.
 
 .. NOTE:: Nous vous recommandons de lire la rubrique "Les bonnes pratiques avec GoFAST" et visionner la vidéo de démonstration :  https://mautic.ceo-vision.com/asset/81:fr-videodecouvrir-gofast-digital-workplace-et-ged-collaborative-open-source 
 
@@ -20,9 +20,9 @@ Concept GoFAST Digital Workplace GED
 GoFAST en 2 mots
 ~~~~~~~~~~~~~~~~
 
-GoFAST, fruit de plusieurs années de développement, est une puissante plateforme collaborative et de gestion documentaire. GoFAST est basée sur les technologies Open Source les plus reconnues et éprouvées, dont Alfresco, Drupal, Bonitasoft, OnlyOffice, Element et bien d'autres. 
+GoFAST, fruit de plusieurs années de développement, est une puissante plateforme collaborative et de gestion documentaire. GoFAST est basée sur les technologies Open Source les plus reconnues et aprouvées, dont Alfresco, Drupal, Bonitasoft, OnlyOffice, Element et bien d'autres. 
 Pour une plateforme aussi riche fonctionnellement, GoFAST est connue pour être très intuitive et permet de rapidement prendre en main les principales fonctionnalités.
-Enfin, GoFAST est hébergé dans votre organisation (OnPremise) ou en SaaS souverain dédié, garantissant le *meilleur niveau de confidentialité* et de sécurité.
+Enfin, GoFAST est hébergée dans votre organisation (OnPremise) ou en SaaS souverain dédié, garantissant le *meilleur niveau de confidentialité* et de sécurité.
 
 
 A qui est destinée la plateforme GoFAST ?
@@ -35,7 +35,7 @@ Tous les membres de votre organisation peuvent travailler ensemble de manière c
 A quoi sert la plateforme GoFAST ?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-C’est une plateforme d’échanges d’information qui permettra à tous les collègues, aussi bien siège et terrain (et même des externes), de pouvoir gérer/modifier et commenter des documents, partager des informations, chatter en direct, traiter les processus, gérer des tâches collaboratives, et. Bref, c’est un outil de collaboration moderne et interactif qui fonctionne partout où il y a une connexion internet, et même hors ligne avec synchronisation lorsque vous vous reconnectez.
+C’est une plateforme d’échanges d’informations qui permettra à tous les collègues, aussi bien siège et terrain (et même des externes), de pouvoir gérer/modifier et commenter des documents, partager des informations, communication en direct, traiter les processus, gérer des tâches collaboratives, et. Bref, c’est un outil de collaboration moderne et interactif qui fonctionne partout où il y a une connexion internet, et même hors ligne avec synchronisation lorsque vous vous reconnectez.
 Améliorer la collaboration est la principale problématique à laquelle répond GoFAST : elle permet de centraliser les documents et les échanges à propos de ces documents en un seul endroit, accessible partout et à tout moment ; de limiter les doublons ; de diffuser des notifications automatiques qui optimisent non seulement la collaboration mais aussi la gestion documentaire.
 
 Objectifs et avantages de GoFAST
@@ -56,7 +56,7 @@ Pour plus d’information sur les objectifs atteints avec GoFAST, merci de vous 
 Prérequis à l’utilisation de GoFAST
 ----------------------------------------------
 
-.. CAUTION:: Nous ne supportons que les navigateurs supportés par les éditeurs et ceci pour des raisons de sécurité. L’homologation de versions non supportées peut dans certains cas être envisagé avec des décharges de responsabilité et coûts additionnels 
+.. CAUTION:: Nous ne supportons que les navigateurs supportés par les éditeurs et ceci pour des raisons de sécurité. L’homologation de versions non supportées peut, dans certains cas, être envisagée avec des décharges de responsabilité et coûts additionnels.
 
   - Navigateurs préférentiels Windows : **Firefox (dernière version ESR ou dernière version classique'), Edge-Chromium, Chrome.**
 
@@ -108,21 +108,22 @@ Objectif 1: Diminuer le nombre de mails entre collègues et partenaires
 
   - Je n'envoie plus de mails avec pièce jointe, mais je mets un commentaire sur le document sur GoFAST, toutes les personnes recevront une notification.
 
-     - dans de nombreux cas la pièce jointe n'est déjà plus à jour quand votre destinataire la reçoit de plus les pièces jointes encombres les messageries.
+  - Dans de nombreux cas, la pièce jointe n'est déjà plus à jour quand votre destinataire la reçoit. De plus, les pièces jointes encombrent les messageries.
 
-  - Je n'envoie plus de mails avec pièce jointe à mes contacts n'ayant pas de compte GoFAST mais j'utilise la fonction "Partager par email"
+  - Pour mes contacts qui n'ont pas de compte GoFAST, je n'envoie plus de mails avec pièce jointe ; j'utilise plutôt la fonction "Partager par email".
 
-  - Je n'élabore plus un document 'chacun son tour' mais utilise la coédition OnlyOffice
+  - Plutôt que d'élaborer un document en passant chacun son tour, j'utilise maintenant la coédition OnlyOffice.
 
-    - Ceci permet de gagner du temps et limite les erreurs, évite d'avoir à fusionner les sections rédigées par chacun
+  - Cela permet non seulement de gagner du temps, mais aussi de limiter les erreurs, en évitant la nécessité de fusionner des sections rédigées individuellement par chacun.
 
-  - Je n’envoie plus de demandes de tâche ou validation par mail, mais j’utilise les ‘’workflows’’ (processus de tâches) pour relecture, validation, signature, etc. Tout le monde est notifié, chacun connaît sa tâche et les délais sont respectés.
-  - J’utilise les forums pour mes questions/réponses au lieu des mails. Tout le monde partage ses connaissances.
+  - Plutôt que d'envoyer des demandes de tâches ou de validation par e-mail, j'utilise désormais les 'workflows' (processus de tâches) pour la relecture, la validation, la signature, etc. Tout le monde reçoit une notification, chaque personne connaît son rôle, et les échéances sont respectées.
+  
+  - Pour mes questions et mes réponses, je privilégie désormais les forums plutôt que les e-mails. De cette façon, chacun peut partager ses connaissances.
 
-Objectif 2: Gagner du temps dans la recherche d’information et contenus
+Objectif 2: Gagner du temps dans la recherche d’informations et contenus
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-  - La totalité des contenus (même cellules d'un tableur...) est indexé (indexation "plein-texte") et le moteur de recherche est considéré comme un des plus puissants
+  - La totalité des contenus (même cellules d'un tableur...) est indexée (indexation "plein-texte") et le moteur de recherche est considéré comme un des plus puissants.
   - je gagne jusqu'à 30% de mon temps *(source IDC : 30% des cadres passent leur temps à rechercher des contenus dispersés et dupliquer)*
 
 Objectif 3 : Mettre fin aux doublons de fichiers et erreurs de versions
@@ -136,7 +137,7 @@ Objectif 3 : Mettre fin aux doublons de fichiers et erreurs de versions
      - GoFAST versionne automatiquement et toutes les versions sont accessibles à tout moment.
 
   - J’accède à mes documents de travail en mobilité et je n’ai pas besoin de copie locale ou de version papier (accès Online sur Tablettes et Online/Offline sur PC).
-  - Je partager les informations avec mes clients et fournisseurs dans l’Extranet GoFAST et ainsi, ils ont accès aux mêmes documents et non plus des doublons, qui sont rapidement obsolètes.
+  - Je partage les informations avec mes clients et fournisseurs dans l’Extranet GoFAST et ainsi, ils ont accès aux mêmes documents et non plus des doublons, qui sont rapidement obsolètes.
   - Je ne stocke plus mes documents dans la messagerie car un simple glisser-déposer suffit pour les transférer sur GoFAST.
 
 
@@ -154,7 +155,7 @@ Objectif 5 : Diminuer le volume papier
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
   - Je numérise les documents papiers (contrats, factures, courriers, etc.) et les envoie directement vers la plateforme GoFAST, où ils seront indexés plein texte à la volée.
-  - Je transforme les formulaires papier en documents électroniques et les diffuse avec efficacité (cibler un groupe, rappels automatiques et relance, suivi des actions, etc.) et j’exporte les données dans un tableur.
+  - Je transforme les formulaires papiers en documents électroniques et les diffuse avec efficacité (cibler un groupe, rappels automatiques et relance, suivi des actions, etc.) et j’exporte les données dans un tableur.
   - Je signe électroniquement les PDF avec certificat sécurisé plutôt que de les imprimer pour les signer et les re-scanner. 
 
 
@@ -243,9 +244,9 @@ Menu d’accès rapides
      - Nouvelles fonctionnalités : affiche le carrousel des nouvelles fonctionnalités apportées selon la version que vous utilisez. 
      - Documentation : renvoie à cette documentation en ligne. 
      - A propos : Sur cette partie, vous pouvez consulter les différents composants installés dans la plateforme ainsi que leurs versions.
-     - Enfin si vous avez configurez un lien personnalisé (voir la partie Administrateur …). Vous pouvez le retrouver le lien ici (un sous onglet après A propos).
- - La photo (son avatar utilisateur) permet l’accès aux : 
-     - Mon profil : vous donnez accès à votre profil, voir partie : Mon Profil
+     - Enfin si vous avez configurez un lien personnalisé (voir la partie Administrateur …). Vous pouvez retrouver le lien ici (un sous onglet après A propos).
+ - La photo (son avatar utilisateur) permet l’accès à : 
+     - Mon profil : vous donne accès à votre profil, voir partie : Mon Profil
      - Abonnements : vous permet d’accéder à votre page d’abonnement, voir la partie : Gestion des abonnements 
      - Le choix entre GoFAST Essential ou GoFAST Plus. 
      - Déconnexion pour vous déconnecter de la plateforme. A noter que la durée de session de GoFAST est dans tous les cas, limitée dans le temps et vous serez donc déconnecté au bout d’un délais (10h). 
@@ -258,7 +259,7 @@ Menu d’accès rapides
 Menu latéral 
 ~~~~~~~~~~~~~~~~~~~
 
-Ce menu est donne accès aux principales pages de GoFAST. Selon votre profil utilisateur (Standard, Support-Utilisateurs ou Super-Administrateur) vous aurez des accès standards ou supplémentaires. 
+Ce menu donne accès aux principales pages de GoFAST. Selon votre profil utilisateur (Standard, Support-Utilisateurs ou Super-Administrateur) vous aurez des accès standards ou supplémentaires. 
 Vous pouvez plier et déplier ce menu avec l’icône burger en haut à gauche.
 
 **Accès pour tous les niveaux de "Profil Utilisateur" (dont "Standard") :**
@@ -273,7 +274,7 @@ Vous pouvez plier et déplier ce menu avec l’icône burger en haut à gauche.
      - Utilisateurs : tous les utilisateurs que vous avez le droit de voir, avec le nom, prénom, entité, dernière connexion, date de création, statut et les points que l’utilisateur a gagné. 
      - Listes Utilisateurs : toutes les listes d’utilisateurs que vous avez le droit de voir, avec le nom, le créateur, le nombre d’administrateurs dans la liste, le nombre de membres et la date de création.
      - Espaces : tous les espaces que vous avez le droit de voir, avec le nom, le type d’espace, le nombre des documents, le nombre des administrateurs, etc. 
-     - Contact : liste des contacts (non-utilisateurs) avec le nom, le prénom, l’entité, l’email et le mobile. 
+     - Contacts : liste des contacts (non-utilisateurs) avec le nom, le prénom, l’entité, l’email et le mobile. 
      
 **Accès limités aux Profil Support-Utilisateurs :**
 
@@ -290,7 +291,7 @@ Les accès supplémentaires autorisés pour ce profil :
 Ce profil ne donne en aucun cas un accès par défaut à des Espaces et leurs contenus (pour voir les contenus d’un espace, l’utilisateur doit forcément en être membre). Pour plus d’informations, merci de vous référer à la rubrique : « Profils Utilisateurs »
 
 .. NOTE::
-    Depuis les annuaires « Utilisateurs » et « Espace », différentes actions sont possibles, selon le profil (standard, support utilisateur, super administrateur). 
+    Depuis les annuaires, différentes actions sont possibles, selon le profil (standard, support utilisateur, super administrateur). 
 
 
 Page d’Accueil
