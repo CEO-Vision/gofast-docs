@@ -5,12 +5,13 @@ GoFAST Community :  Installation
 .. note:: En cas de problème vous pouvez poser vos questions sur les forums : https://community.ceo-vision.com
 
 Instructions (par conteneurs)
--------------------------
+=============================
 
-–Étape 1: mettre lien
+Étape 1 : Rendez-vous sur https://gofast-ng.ceo-vision.com/
+------------------------------
 
 Téléchargement de la configuration
-Vague ?
+------------------------------
 
 Lorsque vous vous rendez sur l'interface de téléchargement, une page de configuration fait son apparition, elle est constituée de 4 étapes:
 
@@ -23,26 +24,25 @@ Lorsque vous vous rendez sur l'interface de téléchargement, une page de config
 –La configuration du compte administrateur de la plateforme
 
 
-
-Etape 1 : Configuration du nom de domaine
-````````````````````````````````````````````
+Étape 2 : Configuration du nom de domaine
+------------------------------
 Sur cet écran vous configurez chaque partie du FQDN de GoFAST, ex. ``gofast.ceo-vision.com`` :
 
-   1. **Nom du site** : C'est le nom affiché dans les onglets
-   2. **Nom de domaine complet** : Le domaine habituel de votre organisation ex. ``gofast-ceovision.com`` 
+   1. **Nom du site** : C'est le nom qui apparaîtra dans les onglets par exemple
+   2. **Nom de domaine complet** : C'est le nom du domaine habituel de votre organisation ex. ``gofast-ceovision.com`` 
   
 
-Etape 2 : Configuration du Certificat SSL  
-``````````````````````````````````````````
+Étape 3 : Configuration du Certificat SSL  
+------------------------------
 Vous devez chargez des certificats correspondant au nom de domaine chargé précédemment.
 
 Vous devez fournir :
-   1. **la clef publique de votre certificat**
-   2. **la clef privée**
+   1. **la clé publique de votre certificat**
+   2. **la clé privée**
 
-Etape 3 : Configuration Serveur SMTP  
-```````````````````````````````````````
-Cette 3ème étape permet de configurer le serveur SMTP utilisé par GoFAST pour envoyer des emails. Les champs nécessaires sont:
+Étape 4 : Configuration Serveur SMTP  
+------------------------------
+Cette 4ème étape permet de configurer le serveur SMTP utilisé par GoFAST pour envoyer des emails. Les champs nécessaires sont:
 
    1. **SMTP Server** :  
    2. **Username** : 
@@ -51,15 +51,25 @@ Cette 3ème étape permet de configurer le serveur SMTP utilisé par GoFAST pour
    5. **SMTP Port** : 
  
    
-Etape 4 : Creation de l'utilisateur administrateur
-````````````````````````````````````````````````````
+Étape 5 : Création de l'utilisateur administrateur
+------------------------------
+
+Configuration Administrateur Fonctionnel
+````````````````````````````````````````
+
+La partie **Configuration compte Administrateur** est réservée au compte administrateur fonctionnel de la plateforme.
+
 Cette étape définit le compte administrateur qui a accès à plusieurs configurations supplémentaires une fois l'instance GoFAST démarrée. Vous devez choisir l'identifiant, le mot de passe et l'adresse email de ce compte administrateur.
 
+.. WARNING:: Il n'est pas possible de choisier 'admin' pour l'identifiant qui est un compte réservé pour le compte administrateur fonctionnel
+
+Configuration Administrateur Technique
+``````````````````````````````````````
+
+La partie **Mot de passe Technique** est réservée au compte administrateur technique de la plateforme et est liée à l'architecture de celle-ci. Il est possible de paramétrer chaque mot de passe en décochant **Utiliser le mot de passe technique pour tout les services**.
 
 
-Créer partie administrateur technique et administrateur fonctionnel
 
-.. WARNING:: Il n'est pas possible de choisier 'admin' qui est un compte réservé
 
 Etape 5 : Confirmation de la configuration 
 ````````````````````````````````````````````
