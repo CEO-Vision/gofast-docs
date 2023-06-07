@@ -15,18 +15,18 @@ Téléchargement de la configuration
 
 Lorsque vous vous rendez sur l'interface de téléchargement, une page de configuration fait son apparition, elle est constituée de 4 étapes:
 
-–La configuration du nom de domaine
+– La configuration du nom de domaine
 
-–La configuration du certificat SSL
+– La configuration du certificat SSL
 
-–La configuration du serveur SMTP 
+– La configuration du serveur SMTP 
 
-–La configuration du compte administrateur de la plateforme
+– La configuration du compte administrateur de la plateforme
 
 
 Étape 2 : Configuration du nom de domaine
 ------------------------------
-Sur cet écran vous configurez chaque partie du FQDN de GoFAST, ex. ``gofast.ceo-vision.com`` :
+Sur cet écran vous configurez chaque partie du FQDN de GoFAST :
 
    1. **Nom du site** : C'est le nom qui apparaîtra dans les onglets par exemple
    2. **Nom de domaine complet** : C'est le nom du domaine habituel de votre organisation ex. ``gofast-ceovision.com`` 
@@ -61,17 +61,14 @@ La partie **Configuration compte Administrateur** est réservée au compte admin
 
 Cette étape définit le compte administrateur qui a accès à plusieurs configurations supplémentaires une fois l'instance GoFAST démarrée. Vous devez choisir l'identifiant, le mot de passe et l'adresse email de ce compte administrateur.
 
-.. WARNING:: Il n'est pas possible de choisier 'admin' pour l'identifiant qui est un compte réservé pour le compte administrateur fonctionnel
+.. WARNING:: Il n'est pas possible de choisier 'admin' pour l'identifiant qui est un compte réservé pour le compte administrateur technique (voir ci-dessous).
 
 Configuration Administrateur Technique
 ``````````````````````````````````````
 
 La partie **Mot de passe Technique** est réservée au compte administrateur technique de la plateforme et est liée à l'architecture de celle-ci. Il est possible de paramétrer chaque mot de passe en décochant **Utiliser le mot de passe technique pour tout les services**.
 
-
-
-
-Etape 5 : Confirmation de la configuration 
+Etape 6 : Confirmation de la configuration 
 ````````````````````````````````````````````
 Vérifiez attentivement tous les champs et validez.
 
@@ -79,14 +76,14 @@ Vérifiez attentivement tous les champs et validez.
    Avant de cliquer sur "Obtenir le Compose", bien vérifier tous les champs avant de passer au téléchargement.
    
 
-Une fois ces 4 étapes effectuées, une page apparait avec un récapitulatif. Si tout est correct, validez la configuration.
+Une fois ces étapes effectuées, une page apparait avec un récapitulatif. Si tout est correct, validez la configuration.
 
-Si tout est correct blabla telecharge deux fichiers 
-
-Un .env contient toutes les variables renseignées et un fichier compose.yaml contient la description de l'application en conteneurs
+Après avoir validé le téléchargement, cela téléchargera deux fichiers :
+- Un .env contient toutes les variables renseignées
+- un fichier compose.yaml contenant la description de l'application en conteneurs
 
 Démarrage de la plateforme
-Vague ?
+``````````````````````````````````````
 
 .. CAUTION:: GoFAST est une application d'entreprise et nécessite un serveur (mini 4vcpu,12GB RAM,SSD recommandé). L'utilisation sur un simple PC sous Docker Desktop est donc déconseillée.
 
@@ -99,17 +96,17 @@ TODO donner les commandes à executer et la procédure
 Instructions (pour AWS)
 ------------------------
 
-A faire
+Cette fonctionnalité reviendra bientôt.
 
 Instructions (par image)
 ------------------------
 
-A faire
+Cette fonctionnalité reviendra bientôt.
 
 Démarrons ! 
 -------------
 
-–Étape 4: Se rendre sur ``https://votre_nomdedomaine``
+Rendez-vous sur ``https://votre_nomdedomaine``.
 
 Vous devez créer quelques utilisateurs et des espaces collaboratifs (et sous-espaces).
 
