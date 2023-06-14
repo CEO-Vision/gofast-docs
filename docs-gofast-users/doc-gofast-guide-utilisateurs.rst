@@ -957,6 +957,9 @@ Vous êtes redirigé vers le formulaire et il suffit de renseigner les 4 champs 
 
 .. NOTE:: 
    Le créateur d’une liste d’utilisateur devient administrateur de celle-ci. Pour en savoir plus sur les listes d’utilisateurs, merci de vous référer à la rubrique : Gérer des Listes d’Utilisateurs.
+ 
+.. CAUTION::
+  L'administrateur d'une liste n'a pas accès aux espaces associés à cette liste. Son rôle consiste à gérer les membres de la liste. Cependant, il est possible d'être à la fois administrateur et membre d'une liste, ces deux rôles étant décorrélés l'un de l'autre.
 
 Créer un contact (non-utilisateur)
 -------------------------------------------------------
