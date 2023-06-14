@@ -8,17 +8,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gofast-docs latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-04-28 17:42+0200\n"
+"POT-Creation-Date: 2023-06-14 15:26+0200\n"
 "PO-Revision-Date: 2023-06-14 13:19+0000\n"
 "Last-Translator: Arthur Abbe <arthur.abbe@ceo-vision.com>\n"
-"Language-Team: English <https://translate.ceo-vision.com/projects/"
-"gofast-translations/gofast-release-notes-4-1-0/en/>\n"
 "Language: en\n"
+"Language-Team: English <https://translate.ceo-vision.com/projects/gofast-"
+"translations/gofast-release-notes-4-1-0/en/>\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.16.4\n"
 "Generated-By: Babel 2.11.0\n"
 
 #: ../../docs-gofast-technical/release-notes-4.1.0.rst:3
@@ -41,14 +40,12 @@ msgid "Nouvelles fonctionnalités"
 msgstr "New features"
 
 #: ../../docs-gofast-technical/release-notes-4.1.0.rst:1
-#: 261d86b80aea41fdadd9eb931e699807 60d482539f3546f582340a1d9580336d
-#: 739d17ee1afd4925baf6bcba25b77d5c e3ff02040a854e8e8ae9de0a4a40da97
+#: 261d86b80aea41fdadd9eb931e699807 e3ff02040a854e8e8ae9de0a4a40da97
 msgid "Ref."
 msgstr "Ref."
 
 #: ../../docs-gofast-technical/release-notes-4.1.0.rst:1
 #: 31af3d5658b64cbf964edc56433b14fd a4812d9f26454b2799f9fcedc9768105
-#: da3cd07c949147eb859cce9f49805a5a ff543c1048b44bf4b5617c36ead039b0
 msgid "Description"
 msgstr "Description"
 
@@ -93,8 +90,8 @@ msgid ""
 "[ESSENTIAL] Sur IPAD bénéficie maintenant de l'interface 'Essential' en "
 "remplacement de l'interface 'Mobile'"
 msgstr ""
-"[ESSENTIAL] IPAD now benefits from the 'Essential' interface replacing the "
-"'Mobile' interface"
+"[ESSENTIAL] IPAD now benefits from the 'Essential' interface replacing "
+"the 'Mobile' interface"
 
 #: ../../docs-gofast-technical/release-notes-4.1.0.rst:1
 #: 662f6bc567654f11b331084317f26c65
@@ -105,7 +102,8 @@ msgstr "GOFAST-5912"
 #: a68029f7a29c4477a1117f8982546ab5
 msgid "Modèles dans Public accessible à toute l'Organisation"
 msgstr ""
-"Templates can be placed in Public Space accessible to the whole Organization"
+"Templates can be placed in Public Space accessible to the whole "
+"Organization"
 
 #: ../../docs-gofast-technical/release-notes-4.1.0.rst:1
 #: 1d3b9ec9e7e94d528d9f9eabb4267889
@@ -138,8 +136,8 @@ msgid ""
 "Amélioration permettant de simplifier la page d'authentification (choix "
 "de l'offre sur écran séparé)"
 msgstr ""
-"Improvement to simplify the authentication page (Plus/Essential selection on "
-"separate screen)"
+"Improvement to simplify the authentication page (Plus/Essential selection"
+" on separate screen)"
 
 #: ../../docs-gofast-technical/release-notes-4.1.0.rst:1
 #: 9bf362ea0682443bbf8b0d2618182dff
@@ -151,8 +149,7 @@ msgstr "GOFAST-8933"
 msgid ""
 "Téléchargement de plusieurs fichiers (explorateur ou panier) sont "
 "maintenant dans une archive (zip)"
-msgstr ""
-"Downloading several files (explorer or basket) are now in an archive (zip)"
+msgstr "Downloading several files (explorer or basket) are now in an archive (zip)"
 
 #: ../../docs-gofast-technical/release-notes-4.1.0.rst:1
 #: 4996a14e8ccb451a88d11d8df3133911
@@ -165,8 +162,8 @@ msgid ""
 "Option création de compte utilisateur après validation du profil support "
 "utilisateur"
 msgstr ""
-"2 step user account creation option after validation of the user 'support' "
-"profile"
+"2 step user account creation option after validation of the user "
+"'support' profile"
 
 #: ../../docs-gofast-technical/release-notes-4.1.0.rst:1
 #: 551ad91dd2e443e3ae1bf09c489096f3
@@ -179,8 +176,8 @@ msgid ""
 "Pouvoir interdire l'ajout d'utilisateur 'Externe' en dehors des espaces "
 "'Extranet'"
 msgstr ""
-"Be able to prohibit the addition of 'External' users outside the 'Extranet' "
-"spaces"
+"Be able to prohibit the addition of 'External' users outside the "
+"'Extranet' spaces"
 
 #: ../../docs-gofast-technical/release-notes-4.1.0.rst:1
 #: b5378771bd3b4655bd5908824be49503
@@ -249,15 +246,45 @@ msgid ""
 "Refonte de la gestion des catégories et des DUA (profil support "
 "utilisateurs)"
 msgstr ""
-"Redesign of the categories and retention schedules management screen (need "
-"user 'support' profile)"
+"Redesign of the categories and retention schedules management screen "
+"(need user 'support' profile)"
 
-#: ../../docs-gofast-technical/release-notes-4.1.0.rst:34
+#: ../../docs-gofast-technical/release-notes-4.1.0.rst:1
+#: 9788362660a54ba3aa57d036941b28cb
+msgid "GOFAST-9951"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.1.0.rst:1
+#: 63abd8cb0a45431e82ce3c4441a89a87
+msgid "Webhook création de document"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.1.0.rst:1
+#: e9acbde9daf943a68e3148fadc5e3a9c
+msgid "GOFAST-9989"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.1.0.rst:1
+#: 7fcfc9934ad04386ad7bc1f7d8429b98
+msgid "Webhook suppression de document"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.1.0.rst:1
+#: 0e2db87e4d744522b189deac659d6879
+msgid "GOFAST-10025"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.1.0.rst:1
+#: a45385f698c2407ba22a5e29083277e3
+msgid "Webhook modification des métadonnées ou du contenu"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.1.0.rst:37
 #: 447e763ccb3e4c808947ebfaa7aa42fd
 msgid "Améliorations"
 msgstr "Improvements"
 
-#: ../../docs-gofast-technical/release-notes-4.1.0.rst:36
+#: ../../docs-gofast-technical/release-notes-4.1.0.rst:39
 #: 18a83cfd165f46f8befb46167e8d5fcf
 msgid "**Améliorations Fonctionnelles & Techniques**"
 msgstr "**Functional & Technical Improvements**"
@@ -345,7 +372,8 @@ msgid ""
 "Vérification de l'email saisie par rapport à l'Annuaire lors de la "
 "création utilisaeur"
 msgstr ""
-"Verification of the email entered against the Directory during user creation"
+"Verification of the email entered against the Directory during user "
+"creation"
 
 #: ../../docs-gofast-technical/release-notes-4.1.0.rst:1
 #: 7a7e1a040d37403fb5f0be9c230c4cd2
@@ -358,8 +386,8 @@ msgid ""
 "Amélioration de notification de tache arrivant à échéance (dont ajout "
 "personne responsable)"
 msgstr ""
-"Improved notification of expiring tasks (including adding the responsible "
-"person)"
+"Improved notification of expiring tasks (including adding the responsible"
+" person)"
 
 #: ../../docs-gofast-technical/release-notes-4.1.0.rst:1
 #: 7e002290431d4729945208318b6c3da7
@@ -452,8 +480,8 @@ msgid ""
 "Améioration affichant une confirmation si on téléverse un fichier avec le"
 " même nom"
 msgstr ""
-"Displaying a confirmation (update or create) if you upload a file with the "
-"same name"
+"Displaying a confirmation (update or create) if you upload a file with "
+"the same name"
 
 #: ../../docs-gofast-technical/release-notes-4.1.0.rst:1
 #: 01bc01cc6cd44f5890bfe8ff78923759
@@ -466,8 +494,8 @@ msgid ""
 "Amélioration permettant sur Essential de ne plus avoir un sous domaine "
 "-mobile"
 msgstr ""
-"Improvement allowing 'Essential' user interface to no longer have a \"-"
-"mobile\" subdomain"
+"Improvement allowing 'Essential' user interface to no longer have a "
+"\"-mobile\" subdomain"
 
 #: ../../docs-gofast-technical/release-notes-4.1.0.rst:1
 #: 1fad9ea9efc2441aba6b4c4770963648
@@ -479,8 +507,7 @@ msgstr "GOFAST-9092"
 msgid ""
 "Amélioration par affichage d'une explication lorsque l'on ne peut pas "
 "retirer un emplacement"
-msgstr ""
-"Improvement by displaying an explanation when a location cannot be removed"
+msgstr "Improvement by displaying an explanation when a location cannot be removed"
 
 #: ../../docs-gofast-technical/release-notes-4.1.0.rst:1
 #: d15047c3a9974b82a3c00d963e2306db
@@ -544,7 +571,7 @@ msgstr "GOFAST-8776"
 msgid "Mise à jour plugin Alfresco-Onlyoffice de v4.x à v6.x"
 msgstr "Alfresco-Onlyoffice plugin update from v4.x to v6.x"
 
-#: ../../docs-gofast-technical/release-notes-4.1.0.rst:69
+#: ../../docs-gofast-technical/release-notes-4.1.0.rst:72
 #: 86b801c70c4040fbaefe5c3c26647602
 msgid "Sécurité"
 msgstr "Security"
@@ -559,7 +586,7 @@ msgstr "GOFAST-9110"
 msgid "Renforcement sécurité du composant Fail2Ban"
 msgstr "Security reinforcement of the Fail2Ban component"
 
-#: ../../docs-gofast-technical/release-notes-4.1.0.rst:77
+#: ../../docs-gofast-technical/release-notes-4.1.0.rst:80
 #: 0a9cf5fee7d24710a47c0140b1283dec
 msgid "Bugs"
 msgstr "Bugs"
@@ -598,8 +625,7 @@ msgstr "GOFAST-8398"
 msgid ""
 "Correction d'un bug empechant de citer quelqu'un dans un commentaire avec"
 " des majuscules"
-msgstr ""
-"Fixed a bug preventing to quote someone in a comment with capital letters"
+msgstr "Fixed a bug preventing to quote someone in a comment with capital letters"
 
 #: ../../docs-gofast-technical/release-notes-4.1.0.rst:1
 #: a3769c801cd54650bcfd2bfe396f14fe
@@ -622,8 +648,8 @@ msgid ""
 "Correction d’un bug indiquant qu’on ne fait plus parti d’un espace alors "
 "qu’on est toujours dans une autre liste de cet espace"
 msgstr ""
-"Fixed a bug sending an email that you are no longer part of a space while "
-"you are still in another userlist of this space"
+"Fixed a bug sending an email that you are no longer part of a space while"
+" you are still in another userlist of this space"
 
 #: ../../docs-gofast-technical/release-notes-4.1.0.rst:1
 #: a4c1429937354da7a7a1b27c94b8a380
@@ -648,7 +674,8 @@ msgid ""
 "Correction d'un bug aléatoire qui empeche d'afficher le titre au dessus "
 "d'un document"
 msgstr ""
-"Fixed a random bug that prevented to display the title on top of a document"
+"Fixed a random bug that prevented to display the title on top of a "
+"document"
 
 #: ../../docs-gofast-technical/release-notes-4.1.0.rst:1
 #: 2487e4b8e83d411da68fa2a86648af3e
@@ -661,8 +688,8 @@ msgid ""
 "Modèles de dossier modifiables par le profil support utilisateurs et non "
 "super administrateur"
 msgstr ""
-"Folder templates can be modified by the user 'support' profile and not by "
-"the 'super administrator' profile"
+"Folder templates can be modified by the user 'support' profile and not by"
+" the 'super administrator' profile"
 
 #: ../../docs-gofast-technical/release-notes-4.1.0.rst:1
 #: db12bec472d2443cb9872a5ce2f028c4
@@ -675,8 +702,8 @@ msgid ""
 "Correction d'un bug causant un téléchargement de la prévisualisation dans"
 " le format d'origine au lieu de PDF"
 msgstr ""
-"Fixed a bug causing the preview to download in the original format instead "
-"of PDF"
+"Fixed a bug causing the preview to download in the original format "
+"instead of PDF"
 
 #: ../../docs-gofast-technical/release-notes-4.1.0.rst:1
 #: d9f58f7d54c948a5aa00108d50c3b807
@@ -689,8 +716,8 @@ msgid ""
 "Correction d'un message d'erreur 'Cet élément ne peut pas être supprimé' "
 "alors que le répertoire a bien été supprimé"
 msgstr ""
-"Fixed error message 'This item cannot be deleted' despite the directory has "
-"been effectively deleted"
+"Fixed error message 'This item cannot be deleted' despite the directory "
+"has been effectively deleted"
 
 #: ../../docs-gofast-technical/release-notes-4.1.0.rst:1
 #: 940f80d6dd2d4ba8827ac61f9b7ce53b
@@ -717,5 +744,6 @@ msgid ""
 "Correction d'un bug causant que l'éditeur de texte riche de la fenêtre de"
 " commentaire avait une largeure incorrecte"
 msgstr ""
-"Fixed a bug that caused the rich text editor of the comment window to have "
-"an incorrect width"
+"Fixed a bug that caused the rich text editor of the comment window to "
+"have an incorrect width"
+
