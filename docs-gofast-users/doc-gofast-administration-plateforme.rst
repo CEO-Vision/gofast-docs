@@ -32,7 +32,9 @@ Autres profils disponibles
 -----------------------------------
 - **Externe** : destiné à identifier les utilisateurs externes à l’entité (entreprise/organisation), tels que les partenaires, prestataires, clients, fournisseurs, etc. Les externes n’ont pas accès aux espaces "Publics" qui sont réservés uniquement aux salariés/agents internes. 
 
-.. NOTE::  Le profil externe est cumulable avec certains des autres profils. Il est donc possible d’être soit « externe » et « standard », ou bien « externe » et « support-utilisateur », dans le cas par exemple, où l’on souhaite confier le support niveau 1 et l’accompagnement des responsables métiers (qui sont souvent les administrateurs des espaces) à un prestataire. Un utilisateur externe ne peut pas être « super-administrateur ». 
+.. NOTE::  Le profil externe ne peut pas être Support-Utilisateurs ou Super-Administrateur.
+
+Pour les accès d'un utilisateur externe, merci de vous référez à la rubrique "GoFAST Administration / Support-utilisateurs / Configuration Accès utilisateurs externes".
 
 - **Broadcaster** : permet de partager des documents dans des espaces collaboratifs sans en être membre, ou les espaces personnels des autres utilisateurs. Attention : ce profil ne permet pas de voir les contenus (ni dossiers, ni fichiers) dans ces espaces, mais uniquement d’en déposer.
 
@@ -54,7 +56,29 @@ Profil « Support-utilisateurs »
 ========================
 Le profil de "support-utilisateurs" a vocation d’accompagner les utilisateurs, en particulier ceux ayant le rôle administrateur d’espaces, dans la gestion des membres et veiller à la cohérence de l’arborescence des espaces. 
 
-.. NOTE::  En aucun cas le profil de "support-utilisateurs" se substitue aux administrateurs des espaces collaboratifs, qui doivent être des responsables métiers (ex. chefs de services/directions, des responsables d’équipe/projets, etc.). Toutefois, il peut lui-même être un administrateur dans des Espaces dont il est membre. 
+.. NOTE::  En aucun cas le profil de "support-utilisateurs" se substitue aux administrateurs des espaces collaboratifs, qui doivent être des responsables métiers (ex. chefs de services/directions, des responsables d’équipe/projets, etc.). Toutefois, il peut lui-même être un administrateur dans des Espaces dont il est membre.
+
+Configuration Validation création utilisateurs
+-------------------------------
+
+Il est possible d’activer une option dans « Configuration » puis « Utilisateurs ». Cette option permet lorsqu’un administrateur métier/d’espace crée un nouvel utilisateur, de le soumettre à validation par un profil support-utilisateur avant d’être crée. 
+
+Une fois que l’administrateur métier/d’espace a crée le nouvel utilisateur, le profil support-utilisateur reçoit une notification et peut valider ou refuser l’activation d’un profil utilisateur depuis la page de profil ou depuis l’annuaire (cette action peut se faire en masse).
+
+Un utilisateur en attente de validation apparaît « En attente » dans l’annuaire.
+
+Configuration Accès utilisateurs externes
+-------------------------------
+
+Dans « Configuration GoFAST » puis « Espace », vous trouverez la possibilité de limiter l’ajout d’utilisateurs externes dans certains espaces.
+
+**Désactiver l'ajout des utilisateurs externes dans les groupes**
+- Lorsque cette option est activée, un utilisateur externe ne peut pas être ajouté au type d’espace « Groupes ».
+- Lorsque cette option est désactivée, un message d’avertissement s’affiche lorsque vous allez ajouté un utilisateur externe au type d’espace « Groupes ».
+
+**Désactiver l'ajout des utilisateurs externes dans les organisations**
+- Lorsque cette option est activée, un utilisateur externe ne peut pas être ajouté au type d’espace « Organisations ».
+- Lorsque cette option est désactivée, un message d’avertissement s’affiche lorsque vous allez ajouté un utilisateur externe au type d’espace « Organisations ».
 
 Visibilité sur les Espaces
 --------------------------------
@@ -197,14 +221,15 @@ Où gérer les DUA :
 
  - À partir du menu principal de gauche, aller dans « Configuration ».   
 .. figure:: media-guide/DUA_image_1.jpg
-   :alt: 
+   
 
  - Cliquez sur « DUA (Durée d’Utilité Administrative) ».  
 
 **Deux sections sont disponibles :**
 - Liste des destinataires du mail de notification : dans cette section vous pouvez ajouter des utilisateurs qui souhaitent être notifiés à la fin de la DUA.
+
 .. figure:: media-guide/DUA_image_2.jpg
-   :alt: 
+ 
 
 - Liste des DUA existantes : dans cette partie, vous trouvez le tableau des Catégories de documents ayant une DUA, avec la durée définie et le sort prévue pour les documents à échéance. 
 .. figure:: media-guide/DUA_image_3.jpg
@@ -224,16 +249,18 @@ Créer ou modifier une DUA
  - Action (Le sort final) :  Archiver, Trier, Détruire à sélectionner dans la liste déroulante.
 
 Cliquez sur « Enregistrer » pour valider.
+
 .. figure:: media-guide/DUA_image_4.jpg
-   :alt: 
+ 
 
 **Vous pouvez également modifier une DUA existante :**
  - Dans la liste des DUA, choisissez celle que vous souhaitez modifier 
  - Cliquez sur l’icône éditer.
  - Vous pouvez alors modifier les champs :  DUA, Unité et Action. 
 Cliquez sur « Enregistrer » pour valider.
+
 .. figure:: media-guide/DUA_image_5.jpg
-   :alt: 
+
 
 
 .. NOTE:: Pour supprimer une DUA, il suffit de laisser le champs DUA (Durée d’Utilité Administrative) vide puis Enregistrer.
@@ -261,16 +288,19 @@ Accès aux Statistiques
 
 **Trois sous-onglets sont disponibles :**
 1. Onglet « **Statistique utilisateurs** » permet de visualiser le nombre d’utilisateurs, les informations relatives aux membres actifs et inactifs, les nouveaux membres et membres connectés.
+
 .. figure:: media-guide/statistics-users.jpg
-   :alt: 
+
 
 2. Onglet « **Statistique documentaires** », permet de visualiser le nombre de documents et les informations relatives aux documents par sa catégorie, son état et son importance.
+
 .. figure:: media-guide/statistics-docs.jpg
-   :alt: 
+
 
 3. Onglet « **Statistiques d’espaces** », permet de visualiser le nombre d’espaces et les informations relatives aux espaces, leurs évolutions par période, les plus actifs, les plus remplis et les plus peuplés.
+
 .. figure:: media-guide/statistics-spaces.jpg
-   :alt: 
+
 
 
 Exporter les données
@@ -315,7 +345,7 @@ Dans l’onglet **Statistiques documentaires** il est possible de réaliser un e
 .. figure:: media-guide/Export-members.jpg
    :alt:
 
-**Export le la liste des espaces :**
+**Export de la liste des espaces :**
 
 Dans l’onglet **Statistiques d’espaces** il est possible de réaliser un export de tous les espaces existants, avec leur :
  - « ID » (le numéro de référence automatique, attribué à la création de l’espace et présent dans l’url de la page de l’espace).
@@ -357,7 +387,7 @@ Audit
 Supprimer un utilisateur (s’il ne s’est jamais connecté) 
  - etc.
 
-**Aller sur l’audit :**
+**Aller sur l’Audit :**
 
 .. NOTE:: Cette fonctionnalité est accessible uniquement aux utilisateurs ayant le profil « support-utilisateur ». 
 
@@ -423,8 +453,7 @@ Modifier les informations d’un utilisateur
 Afin de modifier les informations liées à un utilisateur, il faut se rendre sur : 
  - La page de profil de l’utilisateur (depuis la recherche ou l’annuaire)
  - La page de l’annuaire des utilisateurs
-
-
+ 
 Créer / Gérer les Listes d’utilisateurs
 -------------------------------------------
 **Visibilité des listes :**
@@ -644,5 +673,6 @@ Sur la page de login, l'utilisateur pourra maintenant se connecter en cliquant s
 
 .. figure:: media-guide/sso_login.png
    :alt: 
+
 
 

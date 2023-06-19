@@ -1,4 +1,4 @@
-Forums et Pages Wiki
+Forums et Wikis
 =====================
 
 Les Forums 
@@ -35,10 +35,10 @@ Un message en haut à droite apparaîtra signalant la publication de votre nouve
 Seuls les membres administrateurs ou contributeurs des Espaces peuvent créer un forum. Les membres Lecture Seule peuvent toutefois poster des commentaires dans les forums existants. 
 Merci de vous référer également à la rubrique : « Créer un Forum ». 
 
-Les Wiki 
+Les Wikis 
 ----------------
 
-**Objectif des Wiki :**
+**Objectif des Wikis :**
 Partager des bases de conférences, bonnes pratiques et conseils avec les membres d’un Espace Collaboratif, sur une ou plusieurs thématiques. Cela permet de gagner un temps précieux lors que l’on a besoin d’informations, plutôt que reposer sans cesse les mêmes questions.
 
 Aller sur un Wiki
@@ -46,8 +46,8 @@ Aller sur un Wiki
 Les Wikis sont accessibles à tous les membres de l’Espace où sont partagés ces Wikis, peu importe leur rôle dans cet Espace. 
 
 **Pour trouver un Wiki :** 
- - Via le volet de gauche : clic sur la « > » pour déplier le volet, puis sur l’onglet « Wiki » en bas de ce volet. Vous verrez tous les Wikis existants où vous avez accès. Vous pouvez filtrer l’arborescence (le sommaire) des Wikis via le champ « Filtrer », en saisissant les premières lettres du nom du Wiki. 
- - Via l’explorateur de fichier, onglet « Documents » sur la page d’un Espace, dans le dossier « Wiki »
+ - Via le volet de gauche : clic sur la « > » pour déplier le volet, puis sur l’onglet « Wikis » en bas de ce volet. Vous verrez tous les Wikis existants où vous avez accès. Vous pouvez filtrer l’arborescence (le sommaire) des Wikis via le champ « Filtrer », en saisissant les premières lettres du nom du Wiki. 
+ - Via l’explorateur de fichier, onglet « Documents » sur la page d’un Espace, dans le dossier « Wikis »
  - Via le moteur de recherche, en saisissant des mots-clefs ou en faisant une recherche à blanc, puis en filtrant part type de contenu « Wikis ». 
 
 Il faut cliquer sur le nom du Wiki pour aller dessus ou faire un double-clic si c’est depuis l’explorateur de fichiers.
@@ -57,7 +57,7 @@ Participer dans un Wiki
 Tous les utilisateurs ayant accès, peuvent partager des commentaires sur le Wiki.
 
 **Pour partager un commentaire dans un Wiki :**
- - Allez sur la page du Wiki (voir rubrique précédente).
+ - Allez sur l'article Wiki (voir rubrique précédente).
  - Via le menu « Burger », clic sur « Nouveau commentaire ». 
  - Via l’onglet « Commentaires » dans le bloc d’information du Wiki : clic sur « Nouveau commentaire » OU clic sur l’icône « flèche » sous un commentaire pour répondre à un commentaire existant.
 
@@ -68,9 +68,9 @@ Merci de vous référer également à la rubrique : « Créer une page Wiki »
 
 Notion de Livre Wiki 
 ~~~~~~~~~~~~~~~~~
-Un **Livre Wiki** est un regroupement de pages Wiki. 
-Toutes les Wiki créés dans un Espace sont listés comme pages du Livre Wiki de cet Espace. 
-Vous pouvez naviguer facilement d'un Wiki à l'autre via le volet de gauche, onglet « Wiki ».
+Un **Livre Wiki** est un regroupement d'articles Wiki. 
+Tous les Wikis créés dans un Espace sont listés comme pages du Livre Wiki de cet Espace. 
+Vous pouvez naviguer facilement d'un Wiki à l'autre via le volet de gauche, onglet « Wikis ».
 
 Merci de vous référer également à la rubrique : « Créer une page Wiki »
 
@@ -329,48 +329,66 @@ Annuaires
 
 Annuaire des Utilisateurs
 ----------------------------------
-[EN COURS DE MISE A JOUR POUR V4.0]
 
 **Pour rechercher un utilisateur vous avez le choix entre :**
- - Saisir son nom dans la recherche, 
- - Passer par l’ "Annuaire" / "Utilisateurs". Vous verrez toute la liste des utilisateurs dans un tableau.
+ - Saisir son nom dans la recherche. 
+ - Passer par "Annuaires" / "Utilisateurs". Vous trouverez un tableau listant les utilisateurs existants.
 
 
 **Sur la page de l’annuaire :**
-Dans le bloc de droite, vous pouvez filtrer votre recherche selon le prénom, le nom, la période de connexion ou de création de l’utilisateur et l’état du compte utilisateur (actif ou pas actif).
+Dans le bloc en haut, vous pouvez filtrer votre recherche selon le nom, le prénom, l'entité, le type de profil, la période de connexion ou de création de l’utilisateur et l’état du compte utilisateur (activé ou non).
 
 
 Vous pouvez directement envoyer un mail ou appeler l’utilisateur via son profil. De même que lui envoyer une demande de « relation », ce qui permet de contacter/voir le raccourci de cette personne même si elle ne fait pas partie de vos espaces collaboratifs.
+
+Il est également possible une fois un ou plusieurs utilisateurs sélectionnés, de cliquer sur le menu burger. Ce qui permet, selon vos droits de :
+ - Modifier les permissions et profils
+ - Débloquer/Activer un profil
+ - Désactiver un profil
+ - Supprimer un profil si il n'y a jamais eu de connexion
  
 
 Annuaire des Liste d’utilisateurs 
 --------------------------------------------
-[EN COURS DE MISE A JOUR POUR V4.0]
-Pour rechercher des Listes d’utilisateurs via l’annuaire, allez sur Annuaire dans le menu de gauche, puis sur Listes d’utilisateurs.
 
+Pour rechercher des Listes d’utilisateurs via l’annuaire, allez sur Annuaires dans le menu de gauche, puis sur Listes d’utilisateurs.
 
-Vous pouvez ensuite utiliser les filtres dans le bloc à droite de l’écran pour préciser le nom de la liste, de son créateur ou la période de création (au format JJ/MM/AAAA  ou JJ/MM/AA)
+Vous pouvez ensuite utiliser les filtres dans le bloc en haut de l’écran pour préciser le nom de la liste, de son créateur ou la période de création (au format JJ/MM/AAAA  ou JJ/MM/AA).
 
-Annuaire des Espace Collaboratif
+Il est possible également de lancer une syncronisation avec l'AD, d'éditer la liste ou de la supprimer. 
+
+Annuaire des Espaces Collaboratifs
 -------------------------------------------
-[EN COURS DE MISE A JOUR POUR V4.0]
 
 **Pour rechercher un Espace via l’annuaire :**
  - Allez dans le menu principal de gauche.
- - Cliquer sur Annuaire puis Espaces.
+ - Cliquez sur Annuaires puis Espaces.
 Vous trouverez un tableau listant les espaces existants. 
 
-Vous pouvez utiliser les filtres dans le bloc à droite de l’écran pour préciser le type d’espace recherché : Organisation, Groupe, Public ou Extranet.
-Vous pouvez demander à rejoindre un Espace via le menu « Burger » (une demande est alors envoyée aux administrateurs métier de l'Espace). 
+Vous pouvez utiliser les filtres dans le bloc en haut de l’écran pour préciser le nom, le type d'espace, le nombre de membres, le nombre d'administrateurs et le nombre d'utilisateurs en attente.
+ 
+Lorsque vous sélectionnez un ou plusieurs espaces, un menu burger apparaît en haut à gauche.
 
+.. image:: media-guide/selection_espace.png
+
+- Ajouter membres/Liste d'utilisateurs : Cette fonctionnalité est accessible uniquement aux administrateurs de l'espace sélectionné.
+- Demander à rejoindre ces espaces : une demande est alors envoyée aux administrateurs métiers de l'Espace.
+- Pré-ajouter des membres/liste d'utilisateurs : une demande est alors envoyée aux administrateurs métiers de l'Espace.
 
 .. NOTE::
-   Selon les paramétrages de la plateforme et vos droits d’accès, vous pourrez visualiser tous ou une partie des espaces existants.
+   En fonction de la configuration de la plateforme et de vos droits d'accès, vous pourrez accéder à la totalité ou à une partie des espaces existants.
 
 Annuaire des Contacts
 -------------------------------------------
-EN COURS DE REDACTION – SERA PUBLIE FIN AVRIL 2022 
 
+**Pour accéder via l’annuaire :**
+ - Allez dans le menu principal de gauche.
+ - Cliquez sur Annuaires puis Contacts.
+ 
+ Les Contacts regroupent tout les contacts crées avec leurs informations: Nom, Prénom, Entité, E-mail et Mobile.
+ 
+ .. NOTE::
+   Selon vos droits, il est possible de modifier ou supprimer le contact.
 
 Statistiques 
 ==========
@@ -381,10 +399,14 @@ Dans l'onglet **Statistiques**, vous pouvez choisir les informations que vous so
 Allez sur la page d’un espace, onglet « Statistiques ». 
 Deux sous-onglets sont disponibles :
 
-1. Sous-onglet « **Statistique des membres** » permet de visualiser les informations relatives aux membres actifs et inactifs, les nouveaux membres et membres connectés.
+1. Sous-onglet « **Statistiques des membres** » permet de visualiser les informations relatives aux membres actifs et inactifs, les nouveaux membres et membres connectés.
 
 
-2. Sous-onglet « **Statistique documentaires** », permet de visualiser toutes les informations relatives aux documents par sa catégorie, son état et son importance.
+2. Sous-onglet « **Statistiques documentaires** », permet de visualiser toutes les informations relatives aux documents par sa catégorie, son état et son importance.
+
+.. NOTE::
+  - Membres actifs : Activité recencée sur les 3 derniers mois (hors consultation)
+  - Membres inactifs : Aucune activité lors des 3 derniers mois
 
 
 Statistiques de la plateforme

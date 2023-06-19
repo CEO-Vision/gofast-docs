@@ -532,6 +532,9 @@ Les fichiers ainsi déposés sont chargés et la progression est affichée dans 
 .. NOTE:: 
 
    Le chargement se fera uniquement si vous avez les droits pour déposer des contenus dans l'espace concerné (dont non autorisé pour les membres ayant le rôle « Lecture Seule » dans l’Espace).  
+   
+.. NOTE::
+  Lorsque vous effectuez un glisser-déposer d'un document portant le même nom depuis votre PC vers GoFAST, une fenêtre s'ouvrira vous demandant si vous souhaitez écraser le fichier existant.
 
 .. WARNING:: 
 
@@ -559,7 +562,7 @@ Modifier la manière dont sont affichés les contenus
    Le mode d’affichage de l’explorateur choisi s’applique instantanément partout.
 
 
-Créer un nouveau contenu dans le dossier sectionné
+Créer un nouveau contenu dans le dossier sélectionné
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Si vous appuyez sur le bouton Nouveau, vous avez le choix de créer à l’emplacement en cours : 
@@ -693,7 +696,8 @@ Pour sélectionner plusieurs documents dans l’explorateur de fichiers vous dev
 Via un clic-droit sur une sélection de plusieurs fichiers, les actions proposées sont restreintes par rapport à l’action sur un fichier unique : 
 
  - Supprimer 
- - Télécharger 
+ - Télécharger
+ - Compresser
  - Gérer les métadonnées
  - Partager / Ajouter des emplacements 
  - Créer des Publications 
@@ -701,10 +705,50 @@ Via un clic-droit sur une sélection de plusieurs fichiers, les actions proposé
  - Pré-Archiver
  - Ajouter au panier 
 
-.. figure:: media-guide/FBrowser-14.png
+.. figure:: media-guide/FBrowser-14-modifié.png
    :alt:
 
+.. Note:: Lors de la multi-sélection, si un dossier est sélectionné, seules deux actions sont disponibles "Supprimer" et "Compresser"
 
+Télécharger en masse les documents
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Vous pouvez télécharger en masse des documents depuis l’explorateur de fichiers.
+
+Après avoir sélectionné les documents voulus, cliquez sur « Télécharger ». Cela téléchargera un fichier ZIP sur votre ordinateur.
+
+Gestion des ZIP depuis l’explorateur de fichiers
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Il est possible de compresser et décompresser des fichiers depuis l’explorateur de fichiers de GoFAST.
+
+**Compression de fichiers et dossiers**
+
+Après avoir sélectionné les éléments voulus, il suffit de faire un clic droit sur l’un d’eux et de faire un clic gauche sur « Compresser ».
+
+.. figure:: media-guide/Compresser-Zip.png
+   :alt:
+
+La fenêtre de compression s’ouvre :
+ - Les fichiers sélectionnés sont affichés
+ - Cliquez sur « Compresser » pour finaliser la création du fichier ZIP
+ 
+Une fois celui-ci créé, il est possible d’interagir avec le fichier ZIP comme n’importe quel fichier.
+
+**Extraction de fichiers et dossiers**
+
+Via un clic droit sur un fichier ZIP ouvrant les actions proposées, cliquez sur « Plus », puis sur « Extraire ».
+
+.. figure:: media-guide/Extraire-Zip.png
+   :alt:
+
+La fenêtre d’extraction s’ouvre :
+ - Le fichier ZIP sélectionné est affiché
+ - Cliquez sur « Extraire » 
+ 
+.. Note:: Si les fichiers de ce fichier ZIP existent déjà dans cet espace, un nouveau dossier sera créé avec le nom du fichier ZIP et les fichiers y seront extraits.
+
+ 
 Partager par email en masse les documents
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -762,7 +806,7 @@ Il est possible de prés-archiver une sélection de documents en une fois.
 Après avoir sélectionné les documents souhaités, il suffit de cliquer sur *Gérer* puis sur *Gérer les métadonnées*, une fênetre s'ouvre et vous selectionnez *Pré-Archivé* sur le champs *Etat* puis cliquez sur « Enregistrer »
 
 .. figure:: media-guide/Ecran-GoFAST_GoFASTFileBrowser_Archiver-en-masse.png
-:alt
+
 
 Partager / Ajouter des emplacements (Multi-emplacement = zéro doublon de fichier)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -789,6 +833,8 @@ Lisez bien la remarque dans l’encadré :
 
 Vous pouvez aller plus loin dans l’arborescence en cliquant sur les petits « + » devant les noms d’espaces :
 
+.. NOTE::
+  Si vous n'avez pas les droits d'administration de l'espace ou si vous n'êtes pas le propriétaire du document, la case d'emplacement sera grisée. Vous pourrez partager le document dans plusieurs emplacements, mais vous ne pourrez pas le retirer de son emplacement initial.
 
 Lorsque des documents ont plusieurs emplacements, une icône « partagé » est affichée dans la colonne « info » dans la zone principale de l’explorateur de fichiers.
 

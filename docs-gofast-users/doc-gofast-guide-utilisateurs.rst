@@ -179,16 +179,33 @@ Connexion/Login
 Vous pouvez vous identifier à GoFAST via l’adresse URL sur le modèle suivant :
 https://gofast.monorganisation.com
 
-.. figure:: media-guide/image001.png
+.. figure:: media-guide/login.png
    :alt: 
 
 Il suffit d’entrer votre **identifiant** et votre **mot de passe** ou vous connecter via le SSO (Authentification automatique si celle-ci a été configurée sur votre plateforme).
 
+.. CAUTION:: L'adresse e-mail n'est pas l'identifiant
+
 .. NOTE::
    Si la délégation d'authentification a été activée sur votre site, il s'agit de votre mot de passe habituel (celui de l’annuaire de votre Organisation/Entreprise). Si le SSO a été configuré, vous n’avez pas besoin de saisir votre identifiant, ni votre mot de passe, mais juste cliquer sur le bouton de connexion automatique. 
+   
+.. NOTE::
+   Lorsqu’un compte est bloqué au bout de 5 tentatives, vous pouvez cliquer sur « Mot de passe oublié ? ». 
+- Si le compte GoFAST est couplé à l’AD, vous recevrez un e-mail, vous disant qu’il n’est pas possible de changer votre mot de passe, car il est couplé à celui de l’AD, il faut alors contacter un super administrateur ou le service informatique de votre organisation. 
+- Si le compte GoFAST n’est pas couplé à l’AD, un e-mail permettant de réinitialiser son nom d’utilisateur et/ou son mot de passe sera envoyé. Attention, il faut une adresse mail valide renseignée pour que cela fonctionne. Une fois la réinitialisation effectuée, le statut de l’utilisateur passe automatiquement de « Bloqué » à « Actif » dans l’annuaire de GoFAST.
 
-Vous pouvez choisir entre deux interfaces : **GoFAST plus** ou **GoFAST Essential**  
+
+
+Lors de votre première connexion, vous pouvez choisir entre deux interfaces : **GoFAST plus** ou **GoFAST Essential** 
+Via votre photo de profil, vous pouvez modifier ce choix à tout moment.
 L’interface GoFAST Essential est la version "restreinte" de GoFAST Plus (interface complète). Elle propose les fonctionnalités principales et masque certaines fonctionnalités plus avancées (ex. Gestion d’un Espace) avec une page d’accueil et une navigation plus adaptée à un utilisateur occasionnel. Pour toute question, n’hésitez pas à allez sur les forums de la communauté des utilisateurs. 
+
+Si vous voulez en savoir plus sur l'interface **GoFAST Essential** , merci de regarder cette vidéo :
+
+.. raw:: html
+
+    <iframe width="704" height="396" src="https://www.youtube.com/embed/7699ESVTOyM" frameborder="0" allowfullscreen></iframe>
+
 
 
 Se repérer sur GoFAST (menus, icônes…)
@@ -417,7 +434,7 @@ Ajouter une photo à son profil
 
 Allez sur la page de votre profil, cliquez sur l’icône « crayon » qui apparait au survol de l’image (dans l’angle haut à gauche).
 
-.. figure:: media-guide/image020.png
+.. figure:: media-guide/image020.corrigée.png
    :alt: 
 
 Vous arriverez sur la page d’ajout/modification de la photo de profil. Appuyez sur « Charger un fichier » pour aller chercher votre photo depuis votre ordinateur, double-cliquez dessus ou cliquez sur OUVRIR. Une fois chargée, vous pourrez adapter le cadre, puis « Enregistrez ».
@@ -533,6 +550,8 @@ A l’inverse des autres Espaces, **l’Espace Public** n’a pas de notion de g
 **Que trouve-t-on dans cet espace Public ?**
 
 Dédiés aux contenus totalement transversaux et publics à l'Organisation. On peut également y mettre des forums de support et autres bases de connaissances. A noter que les documents de travail restent dans les autres Espaces Collaboratifs, où ils sont créés et gérés, puis seuls les publications PDF créées depuis les documents de travail sont partagés dans les Espaces Publics (question de bonnes pratiques).
+
+Vous trouverez à la racine de l’espace Public, la possibilité de mettre à disposition à toute l’organisation les modèles crées dans le Dossier racine « Template ». Ainsi il est possible de donner au plus grand nombre (hors utilisateurs extranet), l’utilisation de certains modèles.
 
 **Gestion des Espaces Publics :**
 Ces Espaces Publics internes sont gérés par tous les utilisateurs membres de la "Liste Public" (permet de créer des sous-espaces, déposer les documents, etc..). 
@@ -658,16 +677,13 @@ Programmer une réunion/Webconférence
 
 Via le menu des accès rapides (menu principal du haut), allez sur l’onglet « + », puis sur « Réunion ».
 
-.. figure:: media-guide/image084.png
-   :alt: 
+.. figure:: media-guide/webconference_exemple.png
+    
+Donnez un titre à la webconférence, écrivez un résumé dans la zone de texte, choisissez une date et heure de début et de fin.
 
-Donnez un titre à la webconférence, écrivez un résumé dans la zone de texte, choisissez une date et heure de début et fin
-Ajoutez les participants (écrivez les 3 premières lettres du nom ou d'un espace pour inviter tous les membres de l'espace).
+Ajoutez les participants utilisateurs et/ou listes d’utilisateurs (écrivez les 3 premières lettres du nom, d'un espace ou d'une liste pour inviter tous les membres).
 
-.. figure:: media-guide/Visio-conference.png
-   :alt: 
-   
-Il est possible de joindre des liens vers des documents (lien d’accès ou de téléchargement selon si on est utilisateur où non sur GoFAST) à l'invitation qui sera envoyée par email (ex.: Ordre du jour) et des lien vers des dossiers (nécessaire d’être membre de l’Espace où se trouve ces dossiers).
+Il est possible de joindre des liens vers des documents (lien d’accès ou de téléchargement selon si on est utilisateur ou non sur GoFAST) à l'invitation qui sera envoyée par email (ex.: Ordre du jour) et des liens vers des dossiers (nécessaire d’être membre de l’Espace où se trouve ces dossiers).
 
 Une fois les informations entrées et après avoir appuyé sur « Enregistrer », une autre fenêtre s’ouvre avec les éléments que vous avez saisis.
 
@@ -696,19 +712,19 @@ Cliquez sur le bouton « Rejoindre ». Les membres du salon de discussion peuven
 Pour connaître les fonctionnalités de la webconférence, merci de vous référer à la rubrique : « Réunions / Webconference (Enterprise only) » (et la documentation Jitsi Meet). 
 
 
-Créer une page Wiki 
+Créer un article Wiki 
 ----------------------------
 
-Il est possible de **créer une page Wiki** qui sont des pages web interne à la plateforme, partagés au sein d’un Espace Collaboratif.
+Il est possible de **créer un article Wiki** qui sont des pages web interne à la plateforme, partagés au sein d’un Espace Collaboratif.
 
-Allez sur l’onglet « + » puis « Contenu », « Page Wiki ».
+Allez sur l’onglet « + » puis « Contenu », « Article Wiki ».
 
-Donnez un titre à votre page, créez son contenu (vous disposez d’un menu avec diverses actions de mise à page possible, comme lors d’un partage de commentaire), choisissez son emplacement dans l’arborescence des Espaces.
+Donnez un titre à votre article, créez son contenu (vous disposez d’un menu avec diverses actions de mise en page possible, comme lors d’un partage de commentaire), choisissez son emplacement dans l'emplacement "Wikis" dans l’arborescence des Espaces.
 
-Voici un exemple d’aperçu d’une page web, avec les métadonnées relatives sur la droite :
+Voici un exemple d’aperçu d’un article Wiki, avec les métadonnées relatives sur la droite :
 
-.. figure:: media-guide/image061.png
-   :alt: 
+.. figure:: media-guide/metadonnees_wiki.png
+ 
 
 Créer une page Web externe (URL)
 ----------------------------------------------
@@ -915,6 +931,9 @@ Chaque administrateur d’espace peut **créer un nouvel utilisateur** qu’il r
    
 Voir “Créer un utilisateur dans un espace/groupe”
 
+Pour l’option Validation création utilisateurs, Merci de vous référez à la rubrique « GoFAST Administration / Support-utilisateurs/Configuration Validation création utilisateurs»
+
+
 Importer des Utilisateurs depuis AD/LDAP
 -------------------------------------------------------
 Pour savoir comment créer des utilisateurs en masse via un import depuis l’annuaire interne de votre Organisation/Entreprise, merci de vous référer à la rubrique : « Profil support-utilisateur ») 
@@ -927,22 +946,34 @@ Pour créer une liste, via la barre des accès rapides (menu principal du haut) 
 
 .. figure:: media-guide/Ecran-GoFAST_Liste-Utilisateurs_creer-liste.png
 
-Vous êtes redirigé vers le formulaire et il suffit de renseigner les 3 champs affichés :
+Vous êtes redirigé vers le formulaire et il suffit de renseigner les 4 champs affichés :
 
     - Nom de la liste,
     - Membres de la liste (rentrez au moins 3 caractères du nom/prénom d'un utilisateur pour avoir des suggestions),
     - Administrateurs de la liste 
-    - Description,
+    - Description
 
 
 
 .. NOTE:: 
    Le créateur d’une liste d’utilisateur devient administrateur de celle-ci. Pour en savoir plus sur les listes d’utilisateurs, merci de vous référer à la rubrique : Gérer des Listes d’Utilisateurs.
+ 
+.. CAUTION::
+  L'administrateur d'une liste n'a pas accès aux espaces associés à cette liste. Son rôle consiste à gérer les membres de la liste. Cependant, il est possible d'être à la fois administrateur et membre d'une liste, ces deux rôles étant décorrélés l'un de l'autre.
 
 Créer un contact (non-utilisateur)
 -------------------------------------------------------
-Actuellement, la création de nouveaux contacts est possible uniquement via le processus de tâches, lors de l’assignation d’une e-signature et dans le cas où un module optionnel est activé (couplage avec un parapheur tiers qui permet la demande de e-signatures à des non-utilisateurs).
-N’hésitez pas à poser vos questions sur les possibilités liés aux contacts et à la signature électronique sur nos forums. 
+La création d'un contact vous permet d'enregistrer des informations professionnelles de collaborateurs exterieurs. Cela vous permet de l'ajouter aux réunions GoFAST, de faciliter la signature de documents et le partage par e-mail même s'il n'est pas utilisateur de GoFAST. 
+
+.. image:: media-guide/creer_contact.png
+
+Vous êtes redirigé vers un formulaire vous demandant de renseigner les données suivantes :
+
+- Nom de famille
+- Prénom
+- Email
+- Mobile
+- Entité
 
 .. include:: doc-gofast-guide-utilisateurs_1.rst
 .. include:: doc-gofast-guide-utilisateurs_2.rst
