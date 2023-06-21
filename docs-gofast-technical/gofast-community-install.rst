@@ -50,7 +50,8 @@ Cette 4ème étape permet de configurer le serveur SMTP utilisé par GoFAST pour
    3. **Password** : Si une authentification est nécessaire, le mot de passe
    4. **Security** : A renseigner selon le protocole de sécurité utilisé
    5. **SMTP Port** : Le port de votre serveur SMTP
- 
+   
+.. NOTE:: Si vous ne possedez pas de serveur SMTP, vous pouvez renseigner un serveur SMTP qui n'existe pas (Exemple : smtp.example.org)
    
 Étape 5 : Création de l'utilisateur administrateur
 --------------------------------------------------------
@@ -81,6 +82,7 @@ Etape 6 : Confirmation de la configuration
 Une fois ces étapes effectuées, une page apparait avec un récapitulatif. Si tout est correct, validez la configuration.
 
 Après avoir validé le téléchargement, cela téléchargera deux fichiers dans une archive au format .zip :
+
 - Un .env qui contient toutes les variables renseignées
 - Un fichier compose.yaml contenant la description de l'application GoFAST en conteneurs
 
