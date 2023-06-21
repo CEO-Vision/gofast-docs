@@ -91,7 +91,7 @@ Après avoir validé le téléchargement, cela téléchargera deux fichiers dans
 Etape 7 : Instancier votre plateforme
 ----------------------------------------
 
-.. CAUTION:: GoFAST est une application d'entreprise et nécessite un serveur (mini 4vcpu,12GB RAM,SSD recommandé). L'utilisation sur un simple PC sous Docker Desktop est donc déconseillée.
+.. CAUTION:: GoFAST est une application d'entreprise et nécessite un serveur (mini 4vcpu,12GB RAM,SSD recommandé). L'utilisation sur un simple PC sous Podman Desktop ou Docker Desktop est donc déconseillée.
 
 .. NOTE:: Pour pouvoir accéder à l'application, déclarez son nom de domaine (renseigné lors de l'étape 2) avec son adresse IP dans le fichier ``hosts`` de votre ordinateur (https://www.digdeo.fr/articles/sys-admin/modifier-fichier-etc-hosts-windows-mac-linux) ou dans le DNS de l'entreprise
    
@@ -131,9 +131,37 @@ Sur une machine Linux - RedHat (Recommandé : AlmaLinux ou CentOS)
 
 .. NOTE:: Une fois que la commande "podman logs -f gofast-ng-drupal" vous rends la main, cela signifie que l'installation est terminée.
 
-Sur Windows avec Docker Desktop
-``````````````````````````````````
-Documentation en cours de rédaction
+Sur Windows avec Docker Desktop et Portainer
+````````````````````````````````````````````````
+- Créer un dossier sur le PC et déziper gofast-community.zip à l'intérieur
+
+- Installer l'application Docker Desktop : https://www.docker.com/products/docker-desktop/
+
+.. NOTE:: Lors de l'installation garder les paramètres par défaut, notamment l'utilisation de WSL 2. Un redémarrage de Windows sera nécessaire.
+
+.. CAUTION:: Après le redémarrage de Windows à l'ouverture de Docker Desktop, si un message "Docker Desktop requires a newer WSL kernel version" s'affiche, suivez la procédure "Mise à jour du Kernel WSL" dans la rubrique "Problèmes connus".
+
+- Dans Docker Desktop cliquez sur "Add Extensions" dans le menu de gauche et installez l'extension "Portainer". Cette extension vous permettra d'initialiser GoFAST Community de manière simple.
+
+- Ouvrez l'extension "Portainer" dans le menu de gauche et cliquez sur "Get started"
+
+- Dans Portainer séléctionner l'environnement "local" en cliquant ci-dessus 
+
+- Dans Portainer cliquez sur le menu "Stacks" (Dans le petit menu vertical entre le menu de gauche et la fenetre principale)
+
+- Ajouter un nouveau stack à l'aide du bouton "+ Add Stack"
+
+- Donnez lui un nom, par exemple "gofast-community"
+
+- Séléctionnez la méthode "Upload"
+
+- Dans "Upload", chargez votre compose.yaml
+
+- Dans "Environment variables" cliquez sur "Load variables from .env file"
+
+- Pour finaliser l'instanciation, cliquez tout en bas sur "Deploy the stack"
+
+.. CAUTION:: Ce processus une fois lancé va télécharger toutes les images des applications de GoFAST, ce processus peut prendre du temps. Ne pas quitter ou changer de menu tant que vous voyez "Deployment in progress..."
 
 Instructions (pour AWS)
 ==================================
@@ -158,3 +186,13 @@ Ajoutez du contenu en utilisant le glisser-déposer dans le "GoFAST File Browser
 
 Vous êtes prêt pour démarrer !
 
+Problèmes connus
+===================
+
+Mise à jour du Kernel WSL
+-----------------------------
+Si une mise à jour du kernel WSK est requise, rendez vous sur https://docs.microsoft.com/windows/wsl/wsl2-kernel
+
+Téléchargez le "Package de mise à jour du noyeau Linux WSL2" proposé  et executez le.
+
+Vous pouvez ensuite relancer Docker Desktop.
