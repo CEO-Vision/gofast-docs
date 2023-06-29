@@ -7,8 +7,9 @@ GoFAST Community :  Installation
 Instructions (par conteneurs)
 ===============================
 
-Étape 1 : Rendez-vous sur https://gofast-ng.ceo-vision.com/
+Étape 1 : Rendez-vous sur https://www.ceo-vision.com/fr/content/telecharger-gofast-community-edition
 ---------------------------------------------------------------
+Une fois que vous avez complété le formulaire du lien ci-dessus et cliqué sur le lien qui vous a été envoyé par e-mail, veuillez procéder comme suit :
 
 Lorsque vous vous rendez sur l'interface de téléchargement, une page de configuration fait son apparition, elle est constituée de 4 étapes:
 
