@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: gofast-docs latest\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-04-28 17:42+0200\n"
-"PO-Revision-Date: 2023-07-04 09:03+0000\n"
+"PO-Revision-Date: 2023-07-04 09:04+0000\n"
 "Last-Translator: Arthur Abbe <arthur.abbe@ceo-vision.com>\n"
 "Language-Team: English <https://translate.ceo-vision.com/projects/"
 "gofast-translations/gofast-pre-requis-et-installation/en/>\n"
@@ -773,11 +773,15 @@ msgid ""
 " au siège où se trouve le serveur GoFAST. A noter qu'il est rare que ce "
 "problème se retrouve sur les réseaux 4G."
 msgstr ""
+"If the subscriber is not on the LAN, *the subscriber's Internet access must "
+"pass through the 10000/udp port*. This may cause problems on some "
+"InternetPro networks, e.g. remote sites connected to the GoFAST server "
+"headquarters. Note that this problem is rarely found on 4G networks."
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:246
 #: b230aceb7ed14a2093d3f3536add5330
 msgid "Ressources WebRTC (Enterprise only)"
-msgstr ""
+msgstr "WebRTC Resources (Enterprise only)"
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:251
 #: 4b20c48f63de43729b5b603b4c1a1929
@@ -785,6 +789,8 @@ msgid ""
 "Le fonctionnement Webrtc est décrit ici : "
 "https://developer.mozilla.org/fr/docs/Web/Guide/API/WebRTC/WebRTC_architecture"
 msgstr ""
+"How Webrtc works is described here: https://developer.mozilla.org/fr/docs/"
+"Web/Guide/API/WebRTC/WebRTC_architecture"
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:253
 #: 8f495d711ed94406b9fe1c5a83cc4889
@@ -793,21 +799,24 @@ msgid ""
 " sur \"Scan my Network\", le diagnostic est stocké sous forme d'une URL "
 "https://www.netscan.co/r/ayiIL )"
 msgstr ""
+"A network diagnostic is possible here: https://www.netscan.co/  (click on "
+"\"Scan my Network\", the diagnostic is stored as a URL https://www.netscan."
+"co/r/ayiIL )"
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:256
 #: dbaa69eacb714197b6eb954ddb9fee3b
 msgid "Contrairement au videochat, jitsi-meet ne nécessite pas de serveur STUN."
-msgstr ""
+msgstr "Unlike video chat, jitsi-meet does not require a STUN server."
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:262
 #: 231a2feb0450429db3ae180ab39cc5d2
 msgid "Installation"
-msgstr ""
+msgstr "Installation"
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:265
 #: e1985b266137433792dc971448dd7df2
 msgid "Installation par import de VM"
-msgstr ""
+msgstr "Installation by import of VM"
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:267
 #: 766e33c8c3d04037a3ce12ce6ab18d6f
@@ -815,6 +824,8 @@ msgid ""
 "CEO-Vision peut fournir une image de la VM sous forme OVA (format "
 "universel). Pour les autres formats nous contacter."
 msgstr ""
+"CEO-Vision can provide an image of the VM in OVA format (universal format). "
+"For other formats please contact us."
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:270
 #: ef1816d5874e4b3a9771a66909963b64
@@ -822,11 +833,13 @@ msgid ""
 "Dans le cas du format OVA, une machine virtuelle avec des prérequis "
 "standards est fournie."
 msgstr ""
+"In the case of the OVA format, a virtual machine with standard prerequisites "
+"is provided."
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:274
 #: 3e36576723bf49c98ae06764a058cd95
 msgid "Pour VMWare, vérifier que le \"PVSCSI adapter\" est bien utilisé"
-msgstr ""
+msgstr "For VMWare, check that the \"PVSCSI adapter\" is used correctly"
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:276
 #: c3d43ec9888c4473be16509be9bce69e
@@ -835,6 +848,8 @@ msgid ""
 " supérieur au partitionnement de la VM. Dans ce cas les opérations "
 "suivantes sont à effectuer: ::"
 msgstr ""
+"In some cases the VM may have more disk space allocated than the VM "
+"partitioning. In this case, the following operations must be carried out:"
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:317
 #: 6f3bb442be3e486386522fad5e40b313
@@ -842,11 +857,12 @@ msgid ""
 "la dernière opération peut prendre entre 30min et 1h30 pour une "
 "augmentation de 1To"
 msgstr ""
+"the last operation can take between 30min and 1h30 for an increase of 1TB"
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:322
 #: 6bb8132d01cf42239662914f57144834
 msgid "Installation par script (Enterprise only)"
-msgstr ""
+msgstr "Script installation (Enterprise only)"
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:327
 #: b98b1998fd5e4484b49eb8cc6ceeb936
@@ -854,6 +870,7 @@ msgid ""
 "A noter que ce type d’installation engendre un coût supplémentaire "
 "(facturation en régie)."
 msgstr ""
+"Note that this type of installation generates an additional cost (invoicing)."
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:330
 #: e2186d5203b947a58d73e8a4f1b8e2e3
@@ -861,6 +878,8 @@ msgid ""
 "Dans ce cas, une VM avec Centos 7 x64 Minimal est mise à disposition de "
 "CEO-Vision qui fait ensuite une installation par script."
 msgstr ""
+"In this case, a VM with Centos 7 x64 Minimal is made available to CEO-Vision "
+"who then installs it by script."
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:334
 #: 0b939dfad9264469a559a98ceea99993
