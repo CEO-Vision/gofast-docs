@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: gofast-docs latest\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-04-28 17:42+0200\n"
-"PO-Revision-Date: 2023-06-27 14:22+0000\n"
+"PO-Revision-Date: 2023-07-04 08:28+0000\n"
 "Last-Translator: Arthur Abbe <arthur.abbe@ceo-vision.com>\n"
 "Language-Team: English <https://translate.ceo-vision.com/projects/"
 "gofast-translations/gofast-pre-requis-et-installation/en/>\n"
@@ -210,33 +210,33 @@ msgstr "Instant messaging (>GoFAST 3. 8)"
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:66
 #: 9734b485b8464a96954495538aed3a9f
 msgid "Matrix-Synapse v1.12"
-msgstr ""
+msgstr "Matrix-Synapse v1.12"
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:68
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:229
 #: 7033224ef040481d91040ce5a0a526c0 73012b8d26d348bea8e3c15dc8d85160
 msgid "Webconference"
-msgstr ""
+msgstr "Meeting"
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:68
 #: d570eaef9eaf4821bd2fa284e6ddd87e
 msgid "Jitsi (Web 1.0.x server 2.1 / Prosody 0.11"
-msgstr ""
+msgstr "Jitsi (Web 1.0.x server 2.1 / Prosody 0.11"
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:70
 #: 79fb07bf6a9743468fadc3b693fb41c1
 msgid "Reverse Proxy"
-msgstr ""
+msgstr "Reverse Proxy"
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:70
 #: 98ae245bacaf4741863bb67c4abcb79b
 msgid "nginx 1.20"
-msgstr ""
+msgstr "nginx 1.20"
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:74
 #: 646aac6d36dd4490b0b1e21816f6a4f3
 msgid "Pré-requis « serveur »"
-msgstr ""
+msgstr "Prerequisites \"server\""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:76
 #: e642a32740bf4b46baf2e7c1c536e2dd
@@ -245,13 +245,16 @@ msgid ""
 "architecture haute performance afin de délivrer une bonne montée en "
 "charge et des temps de réponse."
 msgstr ""
+"The GoFAST platform is an enterprise application that requires a high-"
+"performance architecture in order to deliver a good load ramp and response "
+"times."
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:81
 #: b922a576a1e04309a49f31fc02568919
 msgid ""
 "GoFAST est notamment très sensible à la performance des entrées/sorties "
 "(I/O) et au bon dimensionnement de mémoire vive (RAM)"
-msgstr ""
+msgstr "GoFAST is particularly sensitive to I/O performance and RAM sizing."
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:84
 #: d13e305d8e0b44bc9efdba839c032914
@@ -260,16 +263,18 @@ msgid ""
 "être portée au stockage distant. Celui-ci doit privilégier le  type SAN. "
 "Eviter tout stockage distant WAN et de type NFS."
 msgstr ""
+"Due to I/O sensitivity, special attention must be paid to remote storage. "
+"The latter should prefer the SAN type. Avoid any remote WAN and NFS storage."
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:87
 #: 9752ef76dd6a406b94125c877e30e72b
 msgid "GoFAST v3 nécessite par défaut 2 VM."
-msgstr ""
+msgstr "GoFAST v3 requires 2 VMs by default."
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:90
 #: b26392a2b18d4f4c8d3e75b521f816c5
 msgid "Pré-requis Machine Virtuelle"
-msgstr ""
+msgstr "Prerequisites Virtual Machine"
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:92
 #: 13697f8e0c1a4d1f855d090607cdda7c
@@ -277,26 +282,29 @@ msgid ""
 "La plate-forme GoFAST est prévue pour fonctionner sur les Hyperviseurs "
 "(n'ayant pas atteint leur EOL) 64 bits suivant :"
 msgstr ""
+"The GoFAST platform is intended to run on the following 64-bit Hypervisors ("
+"which have not reached their EOL):"
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:95
 #: 3d608af541af49f7bd2a0d07b80acc2e
 msgid "VMWare ESX 6+"
-msgstr ""
+msgstr "VMWare ESX 6+"
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:97
 #: 524cabb1e97c4e2fb8ab892ab43609a6
+#, fuzzy
 msgid "HyperV"
-msgstr ""
+msgstr "HyperV"
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:99
 #: 74247bb2e4cb4f25b46b3e9cc3ffa545
 msgid "KVM"
-msgstr ""
+msgstr "KVM"
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:101
 #: a5c234258d424f6aba82c9314dbdbedc
 msgid "HVM (Amazon Web Services)"
-msgstr ""
+msgstr "HVM (Amazon Web Services)"
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:104
 #: 815605398bde4e90b147425979575ad5
@@ -304,11 +312,13 @@ msgid ""
 "Pas possible d'import actuellement par images dans un HyperV (ou sous "
 "Azure). Une installation par script est effectuée"
 msgstr ""
+"Imaging into HyperV (or Azure) is currently not possible. A script "
+"installation is performed"
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:107
 #: 5d853953ccc54c119fa0b2634c09b88c
 msgid "La VM GoFAST doit posséder un datastore dédié (LUN)."
-msgstr ""
+msgstr "The GoFAST VM must have a dedicated datastore (LUN)."
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:108
 #: e3a575716aaa4642bffe6a440b67473f
@@ -316,86 +326,88 @@ msgid ""
 "Sous VMWARE, choisir \"RedHat Enterprise\" et \"paravirtualized SCSI "
 "adapter\" à partir de CentOS 7.4 / GoFAST v3.1.1"
 msgstr ""
+"Under VMWARE, choose \"RedHat Enterprise\" and \"paravirtualized SCSI "
+"adapter\" starting with CentOS 7.4 / GoFAST v3.1.1"
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:110
 #: d042aee35486400f8c0e9f73074acb0e
 msgid "VM 2 (GF-COMM) n'est compris uniquement dans l'offre Enterprise"
-msgstr ""
+msgstr "VM 2 (GF-COMM) is only included in the Enterprise offer"
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:113
 #: d4db65bf8def4f8b9460dd1b1230f76f
 msgid "VM 1 (GF)"
-msgstr ""
+msgstr "VM 1 (GF)"
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:113
 #: ff9e5665c5f9417387fec940a3df1721
 msgid "VM 2 (GF-COMM)*"
-msgstr ""
+msgstr "VM 2 (GF-COMM)*"
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:115
 #: 6611dcaae23d4f238f0a0719622c64c5
 msgid "Coeurs"
-msgstr ""
+msgstr "Hearts"
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:115
 #: 7462be90299a4504b23bfb76ed30cb8b
 msgid "6+"
-msgstr ""
+msgstr "6+"
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:115
 #: e8490c2a0e6048818fc3c881bc8d2d41
 msgid "4+"
-msgstr ""
+msgstr "4+"
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:117
 #: 33e0eb7d7f004921af37366fb55fc604
 msgid "RAM"
-msgstr ""
+msgstr "RAM"
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:117
 #: becba197055b45628cdde283a216c771
 msgid "16GB+"
-msgstr ""
+msgstr "16GB+"
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:117
 #: aa751fd5cc174d559cd7f2f1aa6b0d58
 msgid "6GB"
-msgstr ""
+msgstr "6GB"
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:119
 #: be23dfc2c62542a4a6b7a47d18d154c5
 msgid "Stockage"
-msgstr ""
+msgstr "Storage"
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:119
 #: c84b2facd78948f5a3d3d6a6f2d1eff3
 msgid "200GB+"
-msgstr ""
+msgstr "200GB+"
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:119
 #: 7cd397f8a2c64f1bb6d79fe654fbebcb
 msgid "50GB"
-msgstr ""
+msgstr "50GB"
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:121
 #: a01a5bdbc5a24cfbbd8532bc32a515ce
 msgid "IOPS(FIO)"
-msgstr ""
+msgstr "IOPS(FIO)"
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:121
 #: 67afe14c92814e3b9e5a706936124f24
 msgid "800+"
-msgstr ""
+msgstr "800+"
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:123
 #: ab321c3b4eb44d74a8c69a8080f7531d
 msgid "Réseau"
-msgstr ""
+msgstr "Network"
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:123
 #: d7f3696eaefd4b6bb9dc343a0fb9d96a f2e0752d79a54cab9d093aaabad5ca83
 msgid "100Mpbs"
-msgstr ""
+msgstr "100Mpbs"
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:127
 #: a8ea282868164e31a14cd67ba03028f1
@@ -404,43 +416,45 @@ msgid ""
 "Une webconference avec 6 utilisateurs (dont 5 avec de la video) consomme "
 "12Mbps (sortant), 3Mbps (entrant), 50% de CPU"
 msgstr ""
+"A webconference with 6 users (5 with video) consumes 12Mbps (outgoing), "
+"3Mbps (incoming), 50% CPU"
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:131
 #: e88e5cfc05b14416a8959a7c580f9d92
 msgid "Évaluation des besoins de stockage"
-msgstr ""
+msgstr "Assessment of storage needs"
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:133
 #: f2a3d6463ed64b629b2c6a2d7beb66b3
 msgid "15 GB d'espace disque pour l'application et le système (partition ``/``)"
-msgstr ""
+msgstr "15 GB of disk space for application and system (partition ``/``)"
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:136
 #: 7aa70007d7554f63b2b4c268fcb1621b
 msgid "Espace de stockage de données (partition ``/var``)"
-msgstr ""
+msgstr "Data Storage Space (partition ``/var``)"
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:138
 #: 82d70d5cac024f2d9bdd481175a551d6
 msgid "*Utilisation normale*"
-msgstr ""
+msgstr "*Normal use*"
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:140
 #: 26d59e7c66c14feabb7129d6dad882f8
 msgid ""
 "2 à 3 GB d'espace disque par utilisateurs 'débutants' pour leurs contenus"
 " personnels"
-msgstr ""
+msgstr "2 to 3 GB of disk space per 'beginner' users for their personal content"
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:143
 #: 9fd5ac7054f24094a716de1d0d5f73b8
 msgid "4 à 6 GB par Groupes et Organisations prévus"
-msgstr ""
+msgstr "4 to 6 GB per Groups and Organisations planned"
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:145
 #: 43f8509557bc40cd913b2636638f45d4
 msgid "*Utilisation intensive*"
-msgstr ""
+msgstr "*Intensive use*"
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:147
 #: 419fe3adbc664e91bf4019d39f9e6603
@@ -448,11 +462,12 @@ msgid ""
 "5 à 10 GB d'espace disque par utilisateurs 'débutants' pour leurs "
 "contenus personnels"
 msgstr ""
+"5 to 10 GB of disk space per 'beginner' users for their personal content"
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:150
 #: 18300c1af1454f46947c1e103da733bc
 msgid "10 à 20 GB par Groupes et Organisations prévus"
-msgstr ""
+msgstr "10 to 20 GB per Groups and Organisations planned"
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:152
 #: 8f657b89d83f497fa5250b454bc67fab
@@ -460,11 +475,13 @@ msgid ""
 "Simulation d'espace disque pour 100 utilisateurs (x5GB), 10 "
 "organisations(x10GB), 15 groupes (x10GB) soit un total de 765 GB"
 msgstr ""
+"Disk space simulation for 100 users (x5GB), 10 organizations (x10GB), 15 "
+"groups (x10GB) for a total of 765GB"
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:156
 #: efe7a027bce441978817375768e646a8
 msgid "Partitionnement optionnel"
-msgstr ""
+msgstr "Optional Partitioning"
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:158
 #: 840fa8e5e9664bbea29d961875d105c2
@@ -474,6 +491,9 @@ msgid ""
 "possède pas un partitionnement suffisant nous vous recommandons de le "
 "réaliser."
 msgstr ""
+"Most of the data is stored in ``/var``. A daily backup is performed in ``/"
+"var/backup```. If the image used does not have sufficient partitioning, we "
+"recommend that you do it."
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:161
 #: ef55999be9c54092a7ebf8e54de60917
@@ -481,6 +501,7 @@ msgid ""
 "Il est très recommandé mais non obligatoire de créer une partition pour "
 "``/var``"
 msgstr ""
+"It is highly recommended but not mandatory to create a partition for ``/var``"
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:163
 #: 8d7dd91eb9324edf9defc857759ea457
@@ -489,6 +510,9 @@ msgid ""
 "ne doit pas entrainer une forte dégradations des performances (IOPS) par "
 "rapport à un stockage local. Tout stockage WAN doit être évité"
 msgstr ""
+"If the ``/var`` partition is on remote storage (NAS/NFS ...) this should not "
+"lead to high performance degradation (IOPS) compared to local storage. Any "
+"WAN storage should be avoided"
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:166
 #: f71aab24671a4a259cfdda9481be018e
@@ -497,6 +521,8 @@ msgid ""
 "``/var/backup`` pour la sauvegarde des données applicatives et ce point "
 "de montage devant être déporté"
 msgstr ""
+"It's recommended but not mandatory to create a partition for ``/var/backup```"
+" for backup of application data and this mount point should be moved"
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:171
 #: 1d30880d522b4711bd8b4cc2dd58cfcc
@@ -504,17 +530,17 @@ msgstr ""
 msgid ""
 "La partition ``swap`` doit être au moins égale à 50% de la mémoire "
 "physique de la machine"
-msgstr ""
+msgstr "Swap partition must be at least 50% of the machine's physical memory"
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:174
 #: 939dfb7748d2436892efdec5febb4b66
 msgid "Réseaux et Sécurité"
-msgstr ""
+msgstr "Networks and Security"
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:177
 #: 74dd2a45b0cf4dd68fb431ba09c7859f
 msgid "Certificat"
-msgstr ""
+msgstr "Certificate"
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:179
 #: 29f22f33b2cd40e78a2480010e88c979
@@ -523,11 +549,14 @@ msgid ""
 "délivré par une autorité de certification.** Le certificat doit être au "
 "format ``.pem``, ou\\ ``.crt`` et ``.key``"
 msgstr ""
+"The **GoFAST platform only works with a \"server\" certificate issued by a "
+"certificate authority.** The certificate must be in the format ``.pem``, or "
+"``.crt`` and ``.key``"
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:184
 #: e98c1e14cfaa46569dff2240ad6b3b1b
 msgid "Le certificat doit être de type « wildcard »"
-msgstr ""
+msgstr "The certificate must be \"wildcard\""
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:187
 #: 9601f7aee47342cc991702292e6bca4f
@@ -535,16 +564,18 @@ msgid ""
 "Si GoFAST n’est accessible qu'en Intranet, le certificat peut être généré"
 " par les « Certificate Services » d' Active Directory."
 msgstr ""
+"If GoFAST is only available on the Intranet, the certificate can be "
+"generated by Active Directory Certificate Services."
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:191
 #: 1dda3e5227f14e0396dc9fb240af96fc
 msgid "Architecture Réseau"
-msgstr ""
+msgstr "Network Architecture"
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:193
 #: 7d543a9e8f8449bfb16814b62a835545
 msgid "La plate-forme GoFAST peut s'installer :"
-msgstr ""
+msgstr "The GoFAST platform can be installed :"
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:195
 #: d674f3b378094b64ae769873d4f9a564
@@ -552,11 +583,13 @@ msgid ""
 "préférablement sur une DMZ pour que la plate-forme soit accessible de "
 "l'extérieur (extranet, utilisation en mobilité, ...)"
 msgstr ""
+"preferably on a DMZ so that the platform can be accessed from the outside ("
+"extranet, mobile use, ...)"
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:198
 #: 8953e9cfda7146f2b1193766ef1b8bf8
 msgid "soit sur le réseau (LAN) de l'entreprise"
-msgstr ""
+msgstr "or on the company's network (LAN)"
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:200
 #: 780afa873ec2459bad4c82bc135e5c93
@@ -564,6 +597,8 @@ msgid ""
 "soit sur un autre réseau accessible par Internet (attention dans ce cas "
 "aux performances, débit, routage, ...)"
 msgstr ""
+"or on another network accessible via the Internet (pay attention in this "
+"case to performance, throughput, routing, ...)"
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:204
 #: ba47e9d7daaf4c44868d4d5562c9318b
@@ -573,38 +608,41 @@ msgid ""
 "des problèmes sans rapport avec GoFAST et lié à des problèmes de "
 "configuration de proxy peuvent survenir"
 msgstr ""
+"If the organization uses a Proxy to access the Internet or on the LAN, "
+"special configurations must be made. Experienced problems unrelated to "
+"GoFAST and related to proxy configuration issues may occur"
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:207
 #: 6544f552106641009834898d045ff717
 msgid "Liste des ports"
-msgstr ""
+msgstr "List of ports"
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:209
 #: 424d8a2be87841ad8f1855f0da96dd15
 msgid ""
 "Voici la liste des ports qui doivent pouvoir être accessibles en entrée "
 "et en sortie."
-msgstr ""
+msgstr "Here is a list of ports that must be accessible for input and output."
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:213
 #: 3f32f300d2d44ba28ad1f3ac7dc54cee
 msgid "VM1"
-msgstr ""
+msgstr "VM1"
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:213
 #: 3c1c33277b9c4a72b3371c2d5812dfd8
 msgid "VM2"
-msgstr ""
+msgstr "VM2"
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:213
 #: 8d252a3825644501819bff6fa411daa3
 msgid "Ports entrants"
-msgstr ""
+msgstr "Incoming ports"
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:213
 #: e949512a62b648018f964e7431c97307
 msgid "Ports sortants"
-msgstr ""
+msgstr "Outgoing Ports"
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:215
 #: 18130aeb98a64f7585ffd8362b38fa19
@@ -612,6 +650,8 @@ msgid ""
 "Installation de la plate-forme, mise à jour, flux RSS externes, import de"
 " page Web, supervision"
 msgstr ""
+"Platform installation, updating, external RSS feeds, web page import, "
+"supervision"
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:215
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:218
@@ -631,18 +671,18 @@ msgstr ""
 #: b557f062f7ae4be7a98874ee01a3796b bd3a2838288d414e96d04e1e910ed156
 #: beb2e756e3a3464aa367d3886fb2c775 d684cb26a3d24fbf84dfb994d10dec3a
 msgid "x"
-msgstr ""
+msgstr "x"
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:215
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:218
 #: 851d72a6e5f24c718e13af851e1aa6fb d64859d6986848c2afc785cd564d0633
 msgid "443"
-msgstr ""
+msgstr "443"
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:218
 #: 1d8c8cbd6e8b4c1b914b1154e4e313b0
 msgid "Accès à la plate-forme en HTTPS et WebDav"
-msgstr ""
+msgstr "Access to the platform in HTTPS and WebDav"
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:218
 #: 731476e30fc24718b4fd13303fc8567c
@@ -652,72 +692,72 @@ msgstr "X"
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:220
 #: 1b3a678f104442158c4535ed3ab40e4d
 msgid "Envoi des mails de notification ou autres services internes"
-msgstr ""
+msgstr "Sending notification emails or other internal services"
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:220
 #: 106101d9e94f4a328fb1b426a17a3c3c
 msgid "25, 465, 636.."
-msgstr ""
+msgstr "25, 465, 636.."
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:222
 #: 294c51a611cb42a1b1fc75c42324195f
 msgid "Télé-administration (SSH)"
-msgstr ""
+msgstr "Remote Administration (SSH)"
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:222
 #: 371c6306197a4a979fab4b138b91f653
 msgid "Politique à définir"
-msgstr ""
+msgstr "Policy to be defined"
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:224
 #: 3b4aacdf5c514b8bb66351c35507fa23
 msgid "Supervision Zabbix"
-msgstr ""
+msgstr "Zabbix Supervision"
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:224
 #: 3ed02a5477754836a305bce7324432aa
 msgid "10051"
-msgstr ""
+msgstr "10051"
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:226
 #: 097b81d2ee034c82aa6d4c82628b58c9
 msgid "Centralisation des logs (Graylog)"
-msgstr ""
+msgstr "Centralization of logs (Graylog)"
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:226
 #: 1166446c61a54bdda605bec83d343b5a
 msgid "443(UDP)"
-msgstr ""
+msgstr "443(UDP)"
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:228
 #: cb6f9998b47b469a9840030a79a01933
 msgid "10000/UDP"
-msgstr ""
+msgstr "10000/UDP"
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:230
 #: bcbe1754acc54f419717c33a4484feeb
 msgid "443/TCP*"
-msgstr ""
+msgstr "443/TCP*"
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:232
 #: 0402c324a08d4b6eae5b61f401648c64
 msgid "Accès à la plate-forme en IMAPS (FACULTATIF)"
-msgstr ""
+msgstr "Access to the platform in IMAPS (OPTIONAL)"
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:232
 #: e0c0c0cb435e48889000722bf1006c35
 msgid "993"
-msgstr ""
+msgstr "993"
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:234
 #: a2d05c0b731a47eca2125031415e1f4d
 msgid "Import d'emails extrérieures (FACULTATIF)"
-msgstr ""
+msgstr "Import of external emails (OPTIONAL)"
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:234
 #: cd793f980c4e4d13aa65712f810d7f88
 msgid "25"
-msgstr ""
+msgstr "25"
 
 #: ../../docs-gofast-technical/gofast-docs-prerequis-installation-serveur.rst:237
 #: 552e6355dad24f279c1e30bfe56807bf
