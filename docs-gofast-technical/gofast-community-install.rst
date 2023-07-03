@@ -87,7 +87,7 @@ Après avoir validé le téléchargement, cela téléchargera deux fichiers dans
 - Un .env qui contient toutes les variables renseignées
 - Un fichier compose.yaml contenant la description de l'application GoFAST en conteneurs
 
-.. NOTE:: Il sera possible prochainnement de re charger ces fichiers pour obtenir les mises à jour de votre plateforme GoFAST Community
+.. NOTE:: Il sera possible prochainement de re charger ces fichiers pour obtenir les mises à jour de votre plateforme GoFAST Community
 
 Etape 7 : Instancier votre plateforme
 ----------------------------------------
