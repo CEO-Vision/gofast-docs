@@ -181,7 +181,7 @@ Vous devez créer quelques utilisateurs et des espaces collaboratifs (et sous-es
 
 Les espaces peuvent être de différents types, "Organisation" (départements, ...), "Groupes" (projets, ...), "Extranet" (partenaires, clients, ...). Voir la documentation en ligne ici : https://gofast-docs.readthedocs.io/fr/latest/docs-gofast-users/doc-gofast-guide-utilisateurs.html#gerer-un-espace-collaboratif-groupe
 
-Dans les sous-espaces créés, ajouter des membres qui pourront avoir accès au contenu de cet espace. Ajoutez des sous-espaces si nécessaire.
+Dans les sous-espaces créés, ajoutez des membres qui pourront avoir accès au contenu de cet espace. Ajoutez des sous-espaces si nécessaire.
 
 Ajoutez du contenu en utilisant le glisser-déposer dans le "GoFAST File Browser" (explorateur de fichiers)
 
