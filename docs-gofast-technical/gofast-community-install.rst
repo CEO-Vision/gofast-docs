@@ -146,7 +146,7 @@ Sur Windows avec Docker Desktop et Portainer
 
 - Ouvrez l'extension "Portainer" dans le menu de gauche et cliquez sur "Get started"
 
-- Dans Portainer séléctionner l'environnement "local" en cliquant ci-dessus 
+- Dans Portainer sélectionner l'environnement "local" en cliquant ci-dessus 
 
 - Dans Portainer cliquez sur le menu "Stacks" (Dans le petit menu vertical entre le menu de gauche et la fenetre principale)
 
@@ -154,7 +154,7 @@ Sur Windows avec Docker Desktop et Portainer
 
 - Donnez lui un nom, par exemple "gofast-community"
 
-- Séléctionnez la méthode "Upload"
+- Sélectionnez la méthode "Upload"
 
 - Dans "Upload", chargez votre compose.yaml
 
