@@ -10,15 +10,16 @@ msgstr ""
 "Project-Id-Version: gofast-docs latest\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-06-14 15:26+0200\n"
-"PO-Revision-Date: 2023-06-14 13:19+0000\n"
+"PO-Revision-Date: 2023-06-20 14:22+0000\n"
 "Last-Translator: Arthur Abbe <arthur.abbe@ceo-vision.com>\n"
+"Language-Team: English <https://translate.ceo-vision.com/projects/"
+"gofast-translations/gofast-user-guides/en/>\n"
 "Language: en\n"
-"Language-Team: English <https://translate.ceo-vision.com/projects/gofast-"
-"translations/gofast-user-guides/en/>\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.16.4\n"
 "Generated-By: Babel 2.11.0\n"
 
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:3
@@ -685,7 +686,7 @@ msgstr ""
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:187
 #: 2df235dc86cf4a7e9a495260ec89f2ce
 msgid "L'adresse e-mail n'est pas l'identifiant"
-msgstr ""
+msgstr "The e-mail address is not the ID"
 
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:190
 #: 46ec551697e44251adda0b06568f7e0d
@@ -707,6 +708,8 @@ msgid ""
 "Lorsqu’un compte est bloqué au bout de 5 tentatives, vous pouvez cliquer "
 "sur « Mot de passe oublié ? »."
 msgstr ""
+"When an account is blocked after 5 attempts, you can click on “Forgot your "
+"password? »."
 
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:194
 #: 9512e84762a34044ae31253ca04497a4
@@ -716,6 +719,10 @@ msgid ""
 " couplé à celui de l’AD, il faut alors contacter un super administrateur "
 "ou le service informatique de votre organisation."
 msgstr ""
+"If the GoFAST account is linked to the AD, you will receive an e-mail "
+"telling you that it is not possible to change your password, because it is "
+"linked to the AD, then you need to contact a super administrator or the IT "
+"department of your organization."
 
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:195
 #: d070b76c7a32447c93c73c78026c2ad5
@@ -727,10 +734,13 @@ msgid ""
 "l’utilisateur passe automatiquement de « Bloqué » à « Actif » dans "
 "l’annuaire de GoFAST."
 msgstr ""
+"If the GoFAST account is not linked to the AD, an email will be sent to "
+"reset its username and/or password. Attention, a valid e-mail address is "
+"required for this to work. Once the reset is completed, the user’s status "
+"will automatically change from “Blocked” to “Active” in the GoFAST directory."
 
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:199
 #: ebcc292f6a8041448e5b33e08e508220
-#, fuzzy
 msgid ""
 "Lors de votre première connexion, vous pouvez choisir entre deux "
 "interfaces : **GoFAST plus** ou **GoFAST Essential** Via votre photo de "
@@ -742,12 +752,13 @@ msgid ""
 "occasionnel. Pour toute question, n’hésitez pas à allez sur les forums de"
 " la communauté des utilisateurs."
 msgstr ""
-"You can choose between two interfaces: **GoFAST plus** or **GoFAST "
-"Essential** The GoFAST Essential interface is the \"restricted\" version "
-"of GoFAST Plus (full interface). It offers the main features and hides "
-"some more advanced features (e.g. Space Management) with a homepage and "
-"navigation more suitable for an occasional user. If you have any "
-"questions, please go to the user community forums."
+"When you first connect, you can choose between two interfaces: **GoFAST "
+"plus** or **GoFAST Essential** From your profile picture, you can change "
+"this choice at any time. The GoFAST Essential interface is the \"restricted\""
+" version of GoFAST Plus (full interface). It offers the main features and "
+"hides some more advanced features (e. g. Space Management) with a home page "
+"and navigation more suited to a casual user. If you have any questions, feel "
+"free to go to the user community forums."
 
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:203
 #: 291475c1df3c423095afe7cabfbd32bb
@@ -755,6 +766,8 @@ msgid ""
 "Si vous voulez en savoir plus sur l'interface **GoFAST Essential** , "
 "merci de regarder cette vidéo :"
 msgstr ""
+"If you want to know more about the **GoFAST Essential** interface, please "
+"watch this video :"
 
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:212
 #: 79ac26d58a2341ad9f0fd677b50760fc
@@ -2073,6 +2086,10 @@ msgid ""
 "racine « Template ». Ainsi il est possible de donner au plus grand nombre"
 " (hors utilisateurs extranet), l’utilisation de certains modèles."
 msgstr ""
+"At the root of the Public space, you will find the possibility to make "
+"available to the whole organization the templates created in the “Template” "
+"root folder. Thus, it is possible to give to the greatest number (except "
+"extranet users), the use of certain templates."
 
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:556
 #: 50353071af614cde934621d9a63973aa
@@ -2500,14 +2517,12 @@ msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:682
 #: 0c6ef417427442e2b8233fb7f271c7a7
-#, fuzzy
 msgid ""
 "Donnez un titre à la webconférence, écrivez un résumé dans la zone de "
 "texte, choisissez une date et heure de début et de fin."
 msgstr ""
-"Give the name to the web conference, write a summary in the text field, "
-"select the date, end date and time. Add members (write the first 3 "
-"letters of the name or a space to invite all members of the space)."
+"Give the meeting a title, write a summary in the text box, choose a start "
+"and end date and time."
 
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:684
 #: 0c6ef417427442e2b8233fb7f271c7a7
@@ -2516,10 +2531,11 @@ msgid ""
 "(écrivez les 3 premières lettres du nom, d'un espace ou d'une liste pour "
 "inviter tous les membres)."
 msgstr ""
+"Add user attendees and/or user lists (write the first 3 letters of the name, "
+"a space or a list to invite all members)."
 
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:686
 #: b9d1c279b09248fdbf05a1d3988190b2
-#, fuzzy
 msgid ""
 "Il est possible de joindre des liens vers des documents (lien d’accès ou "
 "de téléchargement selon si on est utilisateur ou non sur GoFAST) à "
@@ -2527,10 +2543,10 @@ msgid ""
 " vers des dossiers (nécessaire d’être membre de l’Espace où se trouve ces"
 " dossiers)."
 msgstr ""
-"You can attach links to documents (access or download link depending on "
-"whether you are a user or not on GoFAST) to the invitation that will be "
-"sent by email (e.g. Agenda) and links to folders (necessary to be a "
-"member of the Space where these folders are located)."
+"It's possible to attach links to documents (access or download link "
+"depending on whether you are a user on GoFAST or not) to the invitation that "
+"will be sent by email (e. g. Agenda) and links to files (required to be a "
+"member of the Space where these files are located)."
 
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:688
 #: 3a9e18cb493f41b29ba205ca48bc3506
@@ -2623,13 +2639,11 @@ msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:716
 #: 1f0b930a0b0946cfb8b2dcf0b4650663
-#, fuzzy
 msgid "Créer un article Wiki"
-msgstr "An article (Wiki page)"
+msgstr "Create a Wiki Article"
 
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:718
 #: 10e66e66e85a4d5785bb78ea8d8b7e35
-#, fuzzy
 msgid ""
 "Il est possible de **créer un article Wiki** qui sont des pages web "
 "interne à la plateforme, partagés au sein d’un Espace Collaboratif."
@@ -2639,32 +2653,29 @@ msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:720
 #: 55d27388c4d746ebaeb6a0ddf90d03b4
-#, fuzzy
 msgid "Allez sur l’onglet « + » puis « Contenu », « Article Wiki »."
 msgstr "Go to the “+” tab then “Content”, “Wiki article”."
 
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:722
 #: 0980c796268444c0806a5ad590b1fc79
-#, fuzzy
 msgid ""
 "Donnez un titre à votre article, créez son contenu (vous disposez d’un "
 "menu avec diverses actions de mise en page possible, comme lors d’un "
 "partage de commentaire), choisissez son emplacement dans l'emplacement "
 "\"Wikis\" dans l’arborescence des Espaces."
 msgstr ""
-"Give a title to your article, create its content (you have a menu with "
-"various possible layout actions, such as posting a comment), choose its "
-"location in the Spaces tree."
+"Give your article a title, create its content (you have a menu with various "
+"possible layout actions, such as when sharing a comment), choose its "
+"location in the \"Wikis\" location in the Spaces tree."
 
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:724
 #: a0c298ffcddb48a8b701ca9c34d68b04
-#, fuzzy
 msgid ""
 "Voici un exemple d’aperçu d’un article Wiki, avec les métadonnées "
 "relatives sur la droite :"
 msgstr ""
-"Here is an example of a web page preview with the corresponding metadata "
-"on the right:"
+"Here is an example of a web page preview with the corresponding metadata on "
+"the right :"
 
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:730
 #: 7da73c5efd754f428fbfa1e816603c56
@@ -3332,6 +3343,8 @@ msgid ""
 "la rubrique « GoFAST Administration / Support-utilisateurs/Configuration "
 "Validation création utilisateurs»"
 msgstr ""
+"For the User Creation Validation option, please refer to the section “GoFAST "
+"Administration / User Support/Configuration User Creation Validation”"
 
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:938
 #: ea4aa81a380246b598364baa9e18442c
@@ -3372,11 +3385,11 @@ msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:949
 #: e1c79856883e423aa277074bec6b8f85
-#, fuzzy
 msgid ""
 "Vous êtes redirigé vers le formulaire et il suffit de renseigner les 4 "
 "champs affichés :"
-msgstr "You are redirected to the form and just fill in the 3 displayed fields :"
+msgstr ""
+"You are redirected to the form and just fill in the 4 displayed fields :"
 
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:951
 #: 669b6124647c46869e9c2fe705dae97e
@@ -3399,9 +3412,8 @@ msgstr "Administrator list"
 
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:954
 #: 65685926638e4a5ead187ae648c156ad
-#, fuzzy
 msgid "Description"
-msgstr "Description,"
+msgstr "Description"
 
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:959
 #: e4f58cfe538440989828d3b1972c5870
@@ -3421,6 +3433,10 @@ msgid ""
 "est possible d'être à la fois administrateur et membre d'une liste, ces "
 "deux rôles étant décorrélés l'un de l'autre."
 msgstr ""
+"The administrator of a list does not have access to the spaces associated "
+"with that list. Its role is to manage the members of the roster. However, it "
+"is possible to be both an administrator and a member of a list, the two "
+"roles being decorated from each other."
 
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:965
 #: 54098b8e5b0542b18a193e97b4b250d8
@@ -3435,43 +3451,43 @@ msgid ""
 "l'ajouter aux réunions GoFAST, de faciliter la signature de documents et "
 "le partage par e-mail même s'il n'est pas utilisateur de GoFAST."
 msgstr ""
+"Creating a contact allows you to save professional information of external "
+"employees. This allows you to add him to GoFAST meetings, make it easy to "
+"sign documents and share by email even if he is not a GoFAST user."
 
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:970
 #: e1c79856883e423aa277074bec6b8f85
-#, fuzzy
 msgid ""
 "Vous êtes redirigé vers un formulaire vous demandant de renseigner les "
 "données suivantes :"
-msgstr "You are redirected to the form and just fill in the 3 displayed fields :"
+msgstr ""
+"You will be redirected to a form asking you to fill in the following "
+"information :"
 
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:972
 #: 669b6124647c46869e9c2fe705dae97e
-#, fuzzy
 msgid "Nom de famille"
-msgstr "Name of the list,"
+msgstr "Family name"
 
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:973
 #: 79965af8233f4d00841becde6d919ecc
-#, fuzzy
 msgid "Prénom"
-msgstr "first name"
+msgstr "First name"
 
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:974
 #: d9594a5c0aed4e9591ecb3d13887ea6f
-#, fuzzy
 msgid "Email"
-msgstr "eml"
+msgstr "Email"
 
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:975
 #: 7743f5d5293e4013b376781d5cea888b
-#, fuzzy
 msgid "Mobile"
-msgstr "Mobile version"
+msgstr "Mobile"
 
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs.rst:976
 #: d9594a5c0aed4e9591ecb3d13887ea6f
 msgid "Entité"
-msgstr ""
+msgstr "Entity"
 
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:2
 #: 370f26b955114b3495fed0ab0fb4e561
@@ -7571,7 +7587,7 @@ msgstr "Possible actions from the cart"
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:1242
 #: 670199a859164d7aabff89ee8cf9bb6c
 msgid "**Gérer en masse les documents du panier :**"
-msgstr "**Mass management of the cart:**"
+msgstr "**Bulk management of the cart:**"
 
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:1244
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:699
@@ -7611,17 +7627,15 @@ msgstr "Pre-archiving"
 
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:1251
 #: f20937dd6c1f4800bd292c745b50d14a
-#, fuzzy
 msgid "**Télécharger en masse depuis le panier documentaire**"
-msgstr "Possible actions from the cart"
+msgstr "**Bulk Download from the documentary cart**"
 
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:1253
 #: 14cd16f0d6a047dfac36696f5bd63806
-#, fuzzy
 msgid ""
 "Vous pouvez télécharger en masse des documents depuis le panier "
 "documentaire."
-msgstr "Adding/Removing Documents to/from your cart"
+msgstr "You can bulk download documents from the documentary cart."
 
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:1255
 #: e2fb2776dd634b3a89186852131725e8
@@ -7630,6 +7644,9 @@ msgid ""
 "cliquez sur « Télécharger » dans les actions disponibles. Cela "
 "téléchargera un fichier ZIP sur votre ordinateur."
 msgstr ""
+"After adding the desired documents to the documentary cart, click on "
+"\"Download\" in the available actions. This will upload a ZIP file to your "
+"computer."
 
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_1.rst:1257
 #: 5db27e77c3d940db84d97824a0065292
@@ -9468,6 +9485,8 @@ msgid ""
 "nom depuis votre PC vers GoFAST, une fenêtre s'ouvrira vous demandant si "
 "vous souhaitez écraser le fichier existant."
 msgstr ""
+"When you drag and drop a document with the same name from your PC to GoFAST, "
+"a window will pop up asking if you want to overwrite the existing file."
 
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:541
 #: 9ed181185cdb40c687483bb11e107240
@@ -9520,9 +9539,8 @@ msgstr "The selected explorer view mode is applied instantly everywhere."
 
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:566
 #: daa51ef796d44d2a9612305d4973ddc4
-#, fuzzy
 msgid "Créer un nouveau contenu dans le dossier sélectionné"
-msgstr "Creating new content in the sectioned folder"
+msgstr "Create new content in the selected folder"
 
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:572
 #: 8490fac9c6784f06904051b3a28c86b7
@@ -9910,7 +9928,7 @@ msgstr ""
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:700
 #: 4be34a9176984ca8912e166922d32841
 msgid "Compresser"
-msgstr ""
+msgstr "Compress"
 
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:703
 #: a46e1311d2d24508855f7f82a5f72aba
@@ -9923,16 +9941,16 @@ msgid ""
 "Lors de la multi-sélection, si un dossier est sélectionné, seules deux "
 "actions sont disponibles \"Supprimer\" et \"Compresser\""
 msgstr ""
+"When multi-selecting, if a folder is selected, only two actions are "
+"available \"Delete\" and \"Compress\""
 
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:714
 #: 259734d9c9094b198cef7cf75231e0a2
-#, fuzzy
 msgid "Télécharger en masse les documents"
-msgstr "Bulk Pre-Archive Documents"
+msgstr "Bulk documents download"
 
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:716
 #: 3d1686b82966423587c246f3b602db0b
-#, fuzzy
 msgid ""
 "Vous pouvez télécharger en masse des documents depuis l’explorateur de "
 "fichiers."
@@ -9944,10 +9962,11 @@ msgid ""
 "Après avoir sélectionné les documents voulus, cliquez sur « Télécharger "
 "». Cela téléchargera un fichier ZIP sur votre ordinateur."
 msgstr ""
+"After selecting the desired documents, click \"Download\". This will upload "
+"a ZIP file to your computer."
 
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:721
 #: f4c6d55cc39b4d0fafe7048c33e3841e
-#, fuzzy
 msgid "Gestion des ZIP depuis l’explorateur de fichiers"
 msgstr "**From File Explorer:**"
 
@@ -9957,38 +9976,36 @@ msgid ""
 "Il est possible de compresser et décompresser des fichiers depuis "
 "l’explorateur de fichiers de GoFAST."
 msgstr ""
+"It's possible to compress and decompress files from GoFAST’s File Explorer."
 
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:725
 #: f351e80471754df7a03e16c9b2ed1fe5
-#, fuzzy
 msgid "**Compression de fichiers et dossiers**"
-msgstr "Types of concerned files"
+msgstr "**Compression of files and folders**"
 
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:727
 #: c5f1615f5d184c12b66df2685987dd20
-#, fuzzy
 msgid ""
 "Après avoir sélectionné les éléments voulus, il suffit de faire un clic "
 "droit sur l’un d’eux et de faire un clic gauche sur « Compresser »."
 msgstr ""
-"After selecting the desired documents, simply click on *Manage* or right-"
-"click on your choice, then on *Create publications*."
+"After selecting the desired items, just right click on one of them and left "
+"click on “Compress”."
 
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:734
 #: 59524064c328484883e3b463b1f732f2
-#, fuzzy
 msgid "La fenêtre de compression s’ouvre :"
-msgstr "A confirmation window opens."
+msgstr "The compression window opens:"
 
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:733
 #: b221a4cfc8cf421fbbbbb6f271c9f351
 msgid "Les fichiers sélectionnés sont affichés"
-msgstr ""
+msgstr "Selected files are displayed"
 
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:734
 #: b07987a1d93f4182b563d7c483b1dae4
 msgid "Cliquez sur « Compresser » pour finaliser la création du fichier ZIP"
-msgstr ""
+msgstr "Click on “Compress” to finalize the creation of the ZIP file"
 
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:736
 #: 8a3eb73745ac42888f9240656fadd10c
@@ -9996,12 +10013,13 @@ msgid ""
 "Une fois celui-ci créé, il est possible d’interagir avec le fichier ZIP "
 "comme n’importe quel fichier."
 msgstr ""
+"Once it is created, it's possible to interact with the ZIP file like any "
+"other file."
 
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:738
 #: f351e80471754df7a03e16c9b2ed1fe5
-#, fuzzy
 msgid "**Extraction de fichiers et dossiers**"
-msgstr "**Other type of files:**"
+msgstr "**Extraction of files and folders**"
 
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:740
 #: a2fbee8a292348ebb5bb7e86d4657f10
@@ -10009,23 +10027,23 @@ msgid ""
 "Via un clic droit sur un fichier ZIP ouvrant les actions proposées, "
 "cliquez sur « Plus », puis sur « Extraire »."
 msgstr ""
+"Right-click on a ZIP file that opens the suggested actions, click on \"More\""
+", then on \"Extract\"."
 
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:747
 #: 59524064c328484883e3b463b1f732f2
-#, fuzzy
 msgid "La fenêtre d’extraction s’ouvre :"
-msgstr "A confirmation window opens."
+msgstr "The extraction window opens:"
 
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:746
 #: ffff0d24224043e19cc686e431c3c1ea
 msgid "Le fichier ZIP sélectionné est affiché"
-msgstr ""
+msgstr "The selected ZIP file is displayed"
 
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:747
 #: f067811a4d7b466a8f42b218e6d699dd
-#, fuzzy
 msgid "Cliquez sur « Extraire »"
-msgstr "Click on “Send”."
+msgstr "Click on \"Extract\""
 
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:749
 #: f17abf2d03f245f0b957aea87757aeef
@@ -10034,6 +10052,9 @@ msgid ""
 "nouveau dossier sera créé avec le nom du fichier ZIP et les fichiers y "
 "seront extraits."
 msgstr ""
+"If the files of this ZIP file already exist in this space, a new folder will "
+"be created with the name of the ZIP file and the files will be extracted "
+"from it."
 
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:753
 #: 10865d0b10ba422aa440509d4ea881c2
@@ -10254,6 +10275,10 @@ msgid ""
 "grisée. Vous pourrez partager le document dans plusieurs emplacements, "
 "mais vous ne pourrez pas le retirer de son emplacement initial."
 msgstr ""
+"If you do not have administrative rights for the space, or if you do not own "
+"the document, the location box will be grayed out. You will be able to share "
+"the document in multiple locations, but you will not be able to remove it "
+"from its original location."
 
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_2.rst:839
 #: b76380ae327a4f699bf5dc68ce39d466
@@ -11222,17 +11247,20 @@ msgid ""
 "utilisateurs.html#creer-des-utilisateurs-listes-dutilisateurs-contacts>`_"
 " pour découvrir d'autres méthodes de création d'un utilisateur."
 msgstr ""
+"You can consult this `section <https://gofast-docs. readthedocs. io/fr/"
+"latest/docs-gofast-users/doc-gofast-guide-utilisateurs.html#creer-des-"
+"utilisateurs-listes-dutilisateurs-contacts>`_ to discover other methods of "
+"creating a user."
 
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_3.rst:249
 #: d2e73282032b41a5b4c65f1f897fe442
-#, fuzzy
 msgid ""
 "Lorsque vous créez un utilisateur, vous indiquez son rôle par défaut dans"
 " les Espaces. Une fois l’utilisateur créé, vous pouvez modifier son rôle "
 "dans l’espace à tout moment."
 msgstr ""
-"When you create a user, you specify their default role in Spaces. Once a "
-"user has been created, you can change their role in a space at any time."
+"When you create a user, you specify its default role in Spaces. Once the "
+"user is created, you can change its role in the space at any time."
 
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_3.rst:252
 #: 827aa4cdad3641f387b22b1cd2be42b8
@@ -11241,6 +11269,8 @@ msgid ""
 "utilisateur, un avertissement s'affichera indiquant qu'un utilisateur "
 "existe déjà avec cette adresse e-mail."
 msgstr ""
+"If you enter an email address that is already associated with a user, a "
+"warning will appear that a user already exists with that email address."
 
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_3.rst:255
 #: f3d5e601858343cca8e6f3624c5efe32
@@ -12183,7 +12213,7 @@ msgstr "From the page of a document, via the \"Workflows and Tasks\" button"
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_3.rst:536
 #: a0f7006cd9cf46118c223e5edb960e68
 msgid "Depuis le panier documentaire."
-msgstr "From the cart."
+msgstr "From the documentary cart."
 
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_3.rst:538
 #: fe5f43de57834777ba3a47a1cf37cc5e
@@ -12823,17 +12853,16 @@ msgstr "**You can process your tasks:**"
 
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_3.rst:729
 #: 29a2de617f004b4b9553585f1de7b0c2
-#, fuzzy
 msgid ""
 "Soit depuis la page d’un document : dans le bloc d’informations, onglet «"
 " Tâches », vous retrouverez le formulaire pour effectuer votre tâche (en "
 "arrivant sur le document, vous serez automatiquement positionné sur cet "
 "onglet si vous avez une tâche à traiter)."
 msgstr ""
-"Either from the page of a document: in the information block, \"Task\" "
-"tab, you will find the form to perform your task (when you arrive on the "
+"Either from the page of a document: in the information block, tab “Tasks”, "
+"you will find the form to complete your task (when you arrive at the "
 "document, you will be automatically positioned on this tab if you have a "
-"task to process )."
+"task to process)."
 
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_3.rst:730
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:441
@@ -12843,15 +12872,13 @@ msgstr "[IMAGE]"
 
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_3.rst:732
 #: ffee7250423e4fb0b44c2cdb1cba1bd4
-#, fuzzy
 msgid ""
 "Soit depuis la liste des tâches et processus : cliquez sur l'icône \">\" "
 "pour ouvrir le formulaire et indiquer que vous avez effectué votre tâche,"
 " en laissant un commentaire."
 msgstr ""
-"Or from any list of process tasks: click on the \">\" icon to open the "
-"form and indicate that you have carried out your task, by leaving a "
-"comment."
+"Either from the list of tasks and processes: click on the \">\" icon to open "
+"the form and indicate that you have completed your task, leaving a comment."
 
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_3.rst:737
 #: 6c7a76f2e98a40d6a914e57a30a4a271
@@ -12861,6 +12888,9 @@ msgid ""
 "cliquant dessus, cela vous redirigera soit vers la carte Kanban soit vers"
 " le processus en cours."
 msgstr ""
+"Either from the GoFast Calendar if the task has a due date. You will find "
+"the task in the calendar on its due date, clicking on it will redirect you "
+"either to the Kanban card or to the current process."
 
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_3.rst:739
 #: 31eb60b2afd844b486c3567a6a9ce61c
@@ -13305,6 +13335,9 @@ msgid ""
 " sur la nouvelle carte que vous venez de créer pour ouvrir le formulaire "
 "associé."
 msgstr ""
+"Enter a title for your card in the field that appears, then click on the “v” "
+"icon and your new card is created. Then click on the new card you just "
+"created to open the associated form."
 
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_3.rst:905
 #: 0a9952642adc4c6dbcf4980ce64d0cc4
@@ -13338,7 +13371,6 @@ msgstr "The title of the card: editable field with one click on it"
 
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_3.rst:915
 #: 516145b3a22446bab7963db5035d167f
-#, fuzzy
 msgid "Le Permalien"
 msgstr "Permalink"
 
@@ -13437,7 +13469,6 @@ msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_3.rst:934
 #: 6f9b162a40784c32b70dc2218066be5e
-#, fuzzy
 msgid ""
 "Dans la section Todolist, les membres de l’Espace peuvent indiquer la fin"
 " de la réalisation des tâches en cochant les cases adjacentes aux titres."
@@ -13445,9 +13476,10 @@ msgid ""
 "contributeurs de l’Espace peuvent également modifier les informations "
 "d’une Carte."
 msgstr ""
-"In the Todolist section, Space members can indicate the end of the task "
-"completion by ticking the boxes next to the titles. Contributors-members "
-"of the Space can also edit the information of a Card."
+"In the Todolist section, Space members can indicate the completion of tasks "
+"by checking the boxes adjacent to the titles. This will make them appear in "
+"the GoFAST Calendar. Contributing members of the Space can also change the "
+"information on a Card."
 
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_3.rst:937
 #: 331a586a64874727b349994c8824d735
@@ -13528,6 +13560,7 @@ msgid ""
 "La carte et ses sous-tâches apparaîtront dans le calendrier à leurs dates"
 " d'échéances."
 msgstr ""
+"The card and its sub-tasks will appear in the calendar on their due dates."
 
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_3.rst:973
 #: c05518ab4079458b9faef5c0885f1bad
@@ -13666,7 +13699,6 @@ msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:2
 #: a593a61ed32f4557aec054c00cef8ac8
-#, fuzzy
 msgid "Forums et Wikis"
 msgstr "Forums and Wiki Pages"
 
@@ -13812,13 +13844,11 @@ msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:39
 #: 2cd9afefdbda4fbf990f9fdf71a3dd5f
-#, fuzzy
 msgid "Les Wikis"
 msgstr "Wikis"
 
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:41
 #: dd547347ec084548a5c8248702f86129
-#, fuzzy
 msgid ""
 "**Objectif des Wikis :** Partager des bases de conférences, bonnes "
 "pratiques et conseils avec les membres d’un Espace Collaboratif, sur une "
@@ -13827,9 +13857,9 @@ msgid ""
 " questions."
 msgstr ""
 "**Wiki objective:** To share conference bases, good practices and advice "
-"with the members of a Collaborative Space, on one or more themes. This "
-"saves valuable time when you need information, rather than asking the "
-"same questions over and over again."
+"with the members of a Collaborative Space, on one or more themes. This saves "
+"valuable time when you need information, rather than asking the same "
+"questions over and over again."
 
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:45
 #: 58b2edd8a2a147c7ac4fe95ddf77f4d8
@@ -13852,7 +13882,6 @@ msgstr "**In order to find a Wiki:**"
 
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:49
 #: ff3d9802574949978a74d273eeed7505
-#, fuzzy
 msgid ""
 "Via le volet de gauche : clic sur la « > » pour déplier le volet, puis "
 "sur l’onglet « Wikis » en bas de ce volet. Vous verrez tous les Wikis "
@@ -13860,20 +13889,18 @@ msgid ""
 "sommaire) des Wikis via le champ « Filtrer », en saisissant les premières"
 " lettres du nom du Wiki."
 msgstr ""
-"Via the left pane: click on the “>” to unfold the pane, then on the "
-"“Wiki” tab at the bottom of this pane. You will see all existing Wikis "
-"where you have access. You can filter the tree structure (summary) of "
-"Wikis via the “Filter” field, by entering the first letters of the name "
-"of the Wiki."
+"Through the left pane: click on the “ >” to expand the pane, then on the "
+"“Wiki” tab at the bottom of the pane. You will see all the existing Wikis "
+"you have access to. You can filter the tree (the summary) of Wikis via the "
+"Filter field, by entering the first letters of the name of the Wiki."
 
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:50
 #: 436455e3e70141f49067f56777ccb964
-#, fuzzy
 msgid ""
 "Via l’explorateur de fichier, onglet « Documents » sur la page d’un "
 "Espace, dans le dossier « Wikis »"
 msgstr ""
-"Via the file explorer, “Documents” tab on the Space page, in the “Wiki” "
+"Through the file explorer, “Documents” tab on the Space page, in the “Wiki” "
 "folder"
 
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:51
@@ -13913,7 +13940,6 @@ msgstr "**In order to share a comment in a Wiki:**"
 
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:60
 #: 7e8d477483fb4d4e875427f4d81f9ca7
-#, fuzzy
 msgid "Allez sur l'article Wiki (voir rubrique précédente)."
 msgstr "Go to the Wiki page (see previous section)."
 
@@ -13955,16 +13981,15 @@ msgstr "Notion of Wiki Book"
 
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:71
 #: 0d62af9422d1485e96a05e40a6576688
-#, fuzzy
 msgid ""
 "Un **Livre Wiki** est un regroupement d'articles Wiki. Tous les Wikis "
 "créés dans un Espace sont listés comme pages du Livre Wiki de cet Espace."
 " Vous pouvez naviguer facilement d'un Wiki à l'autre via le volet de "
 "gauche, onglet « Wikis »."
 msgstr ""
-"**Wikibook** is a set of wiki pages. All wikis created in a space are "
-"listed as pages in that space's wiki. You can easily navigate from one "
-"wiki to another through the left pane, the \"Wiki\" tab."
+"A **Wiki Book** is a collection of Wiki articles. All Wikis created in a "
+"Space are listed as pages in the Wiki Book of that Space. You can easily "
+"navigate from one Wiki to another via the left pane, \"Wikis\" tab."
 
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:79
 #: 0505e94fec724081a15a6f927fa5cf63
@@ -14961,33 +14986,29 @@ msgstr "**To search for a user you have the choice between:**"
 
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:334
 #: 88c86eed428140bb9bab165eea3dd8f4
-#, fuzzy
 msgid "Saisir son nom dans la recherche."
-msgstr "Enter his name in the search,"
+msgstr "Enter the name in the search."
 
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:335
 #: ab4b3309b05d403e8898b38624cd634b
-#, fuzzy
 msgid ""
 "Passer par \"Annuaires\" / \"Utilisateurs\". Vous trouverez un tableau "
 "listant les utilisateurs existants."
 msgstr ""
-"Go through the \"Directory\" / \"Users\". You will see the whole list of "
-"users in a table."
+"Go to \"Directories\" / \"Users\". You will find a table listing existing "
+"users."
 
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:338
 #: 71a622d91f3d49099a166e3afa7c3d84
-#, fuzzy
 msgid ""
 "**Sur la page de l’annuaire :** Dans le bloc en haut, vous pouvez filtrer"
 " votre recherche selon le nom, le prénom, l'entité, le type de profil, la"
 " période de connexion ou de création de l’utilisateur et l’état du compte"
 " utilisateur (activé ou non)."
 msgstr ""
-"**On the directory page:** In the right block, you can filter your search"
-" according to the first name, the last name, the period of connection or "
-"creation of the user and the status of the user account (active or not "
-"active)."
+"**On the directory page:** In the block at the top, you can filter your "
+"search by last name, first name, entity, type of profile, time the user was "
+"logged in or created, and the status of the user account (enabled or not)."
 
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:342
 #: 838b0c4e28f84c5e82801f0f56cab468
@@ -15009,27 +15030,28 @@ msgid ""
 "sélectionnés, de cliquer sur le menu burger. Ce qui permet, selon vos "
 "droits de :"
 msgstr ""
+"It is also possible, once one or more users have been selected, to click on "
+"the burger menu. This allows, according to your rights :"
 
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:345
 #: 020d533e31c04486858a18666b91891e
-#, fuzzy
 msgid "Modifier les permissions et profils"
 msgstr "Dashboard of permissions by profile"
 
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:346
 #: 020d533e31c04486858a18666b91891e
 msgid "Débloquer/Activer un profil"
-msgstr ""
+msgstr "Unblock/Activate a profile"
 
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:347
 #: d9b925ddd43a43acb46043d84898816c
 msgid "Désactiver un profil"
-msgstr ""
+msgstr "Disable a profile"
 
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:348
 #: 100780d735984258b557f4aa0cc22280
 msgid "Supprimer un profil si il n'y a jamais eu de connexion"
-msgstr ""
+msgstr "Delete a profile if there has never been a connection"
 
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:352
 #: 3363f8cab90c4173a2662cb14b00b8a7
@@ -15038,25 +15060,23 @@ msgstr "User List Directory"
 
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:354
 #: 88537f7cd0334a869d7317127a46444c
-#, fuzzy
 msgid ""
 "Pour rechercher des Listes d’utilisateurs via l’annuaire, allez sur "
 "Annuaires dans le menu de gauche, puis sur Listes d’utilisateurs."
 msgstr ""
-"[BEING UPDATED FOR V4.0] To search for User Lists via the Directory, go "
-"to Directory in the left menu, then User Lists."
+"To search for User Lists through the directory, go to Directories in the "
+"left menu, then to User Lists."
 
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:356
 #: 3d53afa7c9b24fb4ab31b02b1a4b3a54
-#, fuzzy
 msgid ""
 "Vous pouvez ensuite utiliser les filtres dans le bloc en haut de l’écran "
 "pour préciser le nom de la liste, de son créateur ou la période de "
 "création (au format JJ/MM/AAAA  ou JJ/MM/AA)."
 msgstr ""
 "You can then use the filters in the block on the right of the screen to "
-"specify the name of the list, its creator or the period of creation (in "
-"DD/MM/YYYY or DD/MM/YY format)"
+"specify the name of the list, its creator or the period of creation (in DD/"
+"MM/YYYY or DD/MM/YY format)."
 
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:358
 #: 2b3e81a5793a4ad8b76bd3ed387794ab
@@ -15064,10 +15084,11 @@ msgid ""
 "Il est possible également de lancer une syncronisation avec l'AD, "
 "d'éditer la liste ou de la supprimer."
 msgstr ""
+"It is also possible to start synchronization with the AD, edit the list or "
+"delete it."
 
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:361
 #: 0e84946b611141c38bd07747c92e31c6
-#, fuzzy
 msgid "Annuaire des Espaces Collaboratifs"
 msgstr "Directory of Collaborative Spaces"
 
@@ -15084,7 +15105,6 @@ msgstr "Go to the main menu on the left."
 
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:365
 #: 30f0ff192a1b46c1bfdef80e791e1611
-#, fuzzy
 msgid "Cliquez sur Annuaires puis Espaces."
 msgstr "Click on Directory then Spaces."
 
@@ -15100,6 +15120,9 @@ msgid ""
 "préciser le nom, le type d'espace, le nombre de membres, le nombre "
 "d'administrateurs et le nombre d'utilisateurs en attente."
 msgstr ""
+"You can use the filters in the block at the top of the screen to specify the "
+"name, the type of space, the number of members, the number of admins, and "
+"the number of users waiting."
 
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:370
 #: eb57603a57014d96b9921bdfab4e3434
@@ -15107,16 +15130,16 @@ msgid ""
 "Lorsque vous sélectionnez un ou plusieurs espaces, un menu burger "
 "apparaît en haut à gauche."
 msgstr ""
+"When you select one or more spaces, a burger menu appears at the top left."
 
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:374
 #: 21581ba968094c1181c79fad86b0ae62
-#, fuzzy
 msgid ""
 "Ajouter membres/Liste d'utilisateurs : Cette fonctionnalité est "
 "accessible uniquement aux administrateurs de l'espace sélectionné."
 msgstr ""
-"To add a user list as a member of a Space, you must be a Space "
-"administrator."
+"Add Members/User List: This feature is available only to administrators of "
+"the selected space."
 
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:375
 #: 21581ba968094c1181c79fad86b0ae62
@@ -15124,27 +15147,27 @@ msgid ""
 "Demander à rejoindre ces espaces : une demande est alors envoyée aux "
 "administrateurs métiers de l'Espace."
 msgstr ""
+"Ask to join these spaces : a request is then sent to the business "
+"administrators of the Space."
 
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:376
 #: 21581ba968094c1181c79fad86b0ae62
-#, fuzzy
 msgid ""
 "Pré-ajouter des membres/liste d'utilisateurs : une demande est alors "
 "envoyée aux administrateurs métiers de l'Espace."
 msgstr ""
-"To add a user list as a member of a Space, you must be a Space "
-"administrator."
+"Pre-add members/user list: a request is then sent to the Space's business "
+"administrators."
 
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:379
 #: 81ab48ecac5c4d789e5c16737866ee96
-#, fuzzy
 msgid ""
 "En fonction de la configuration de la plateforme et de vos droits "
 "d'accès, vous pourrez accéder à la totalité ou à une partie des espaces "
 "existants."
 msgstr ""
-"Depending on the platform settings and your access rights, you will be "
-"able to view all or some of the existing spaces."
+"Depending on the configuration of the platform and your access rights, you "
+"will be able to access all or part of the existing spaces."
 
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:382
 #: 70e2063162764d3b93d9e36b335898fb
@@ -15153,31 +15176,27 @@ msgstr "Contact Directory"
 
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:391
 #: e810192ee3b54bc79e7597e2d1bdacd2
-#, fuzzy
 msgid "**Pour accéder via l’annuaire :**"
-msgstr "**To search for a Space via the directory:**"
+msgstr "**To access through the directory:**"
 
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:386
 #: 30f0ff192a1b46c1bfdef80e791e1611
-#, fuzzy
 msgid "Cliquez sur Annuaires puis Contacts."
-msgstr "Click on Directory then Spaces."
+msgstr "Click on Directories and then Contacts."
 
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:388
 #: 5c07f604976a46c4a3153de02857e69d
-#, fuzzy
 msgid ""
 "Les Contacts regroupent tout les contacts crées avec leurs informations: "
 "Nom, Prénom, Entité, E-mail et Mobile."
 msgstr ""
-"Contacts listing: A list of contacts (not users) with last name, first "
-"name, entity, email address, and mobile phone."
+"Contacts group all contacts created with their information: Last Name, First "
+"Name, Entity, E-mail and Mobile."
 
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:391
 #: 5d48b6e260be4736bae3e76460b7aafc
-#, fuzzy
 msgid "Selon vos droits, il est possible de modifier ou supprimer le contact."
-msgstr "\"Manage\" where you have the possibility to create, modify, delete fields"
+msgstr "Depending on your rights, it is possible to edit or delete the contact."
 
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:394
 #: 83dd6afc991049fd9bc7444c189bb921
@@ -15203,25 +15222,23 @@ msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:402
 #: e4cca6b1c1984d569e1d9b431b28919d
-#, fuzzy
 msgid ""
 "Sous-onglet « **Statistiques des membres** » permet de visualiser les "
 "informations relatives aux membres actifs et inactifs, les nouveaux "
 "membres et membres connectés."
 msgstr ""
-"The **Member Statistics** subtab allows you to view information regarding"
-" active and inactive members, new members, and connected members."
+"Sub-tab \"**Member Statistics**\" allows you to view information about "
+"active and inactive members, new members and connected members."
 
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:405
 #: 469bb6052a8942499ac0f0701449335e
-#, fuzzy
 msgid ""
 "Sous-onglet « **Statistiques documentaires** », permet de visualiser "
 "toutes les informations relatives aux documents par sa catégorie, son "
 "état et son importance."
 msgstr ""
-"\"**Documentary statistics**\" sub-tab, allows you to view all "
-"information relating to documents by category, status and importance."
+"Sub-tab \"**Documentary statistics**\", allows you to view all information "
+"related to documents by category, status and importance."
 
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:408
 #: da4a597a2cae4eb598612321049d85d4
@@ -15229,11 +15246,13 @@ msgid ""
 "Membres actifs : Activité recencée sur les 3 derniers mois (hors "
 "consultation)"
 msgstr ""
+"Active Members : Activity recorded in the last 3 months (without "
+"consultation)"
 
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:409
 #: b3f05cb1e4824c2fadf6e74c31d65d5e
 msgid "Membres inactifs : Aucune activité lors des 3 derniers mois"
-msgstr ""
+msgstr "Inactive members: No activity in the last 3 months"
 
 #: ../../docs-gofast-users/doc-gofast-guide-utilisateurs_4.rst:413
 #: be145b20f1b14fc7b62d71c89a0515ab
@@ -15564,4 +15583,3 @@ msgstr ""
 
 #~ msgid "EN COURS DE REDACTION – SERA PUBLIE FIN AVRIL 2022"
 #~ msgstr "IN PROGRESS – WILL BE PUBLISHED AT THE END OF APRIL 2022"
-

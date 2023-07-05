@@ -1,119 +1,199 @@
 ********************************************
 GoFAST Community :  Installation
 ********************************************
-.. note:: For english instruction please follow this link: https://ceo-vision.readthedocs.io/en/latest/docs/en/doc-gofast-community-install.html
 
 .. note:: En cas de problème vous pouvez poser vos questions sur les forums : https://community.ceo-vision.com
 
-.. CAUTION:: Après l'installation, ne pas oublier de vérifier qu'il existe des mises à jour dans le menu (votre environnement doit avoir accès à internet) ou directement https://votre_adresse_ip/admin/config/gofast/update
+Instructions (par conteneurs)
+===============================
+
+Étape 1 : Rendez-vous sur https://www.ceo-vision.com/fr/content/telecharger-gofast-community-edition
+---------------------------------------------------------------
+Une fois que vous avez complété le formulaire du lien ci-dessus et cliqué sur le lien qui vous a été envoyé par e-mail, veuillez procéder comme suit :
+
+Lorsque vous vous rendez sur l'interface de téléchargement, une page de configuration fait son apparition, elle est constituée de 4 étapes:
+
+– La configuration du nom de domaine
+
+– La configuration du certificat SSL
+
+– La configuration du serveur SMTP 
+
+– La configuration du compte administrateur de la plateforme
 
 
-Instructions (pour AWS)
-------------------------
-https://aws.amazon.com/marketplace/pp/B07NPZHPG3
+Étape 2 : Configuration du nom de domaine
+-------------------------------------------
+Sur cet écran vous configurez le nom et le domaine de votre GoFAST Community :
 
-Instancier GoFAST et aller au paragraphe `La Configuration`_
+   1. **Nom du site** : C'est le nom qui apparaîtra dans les onglets par exemple
+   2. **Nom de domaine complet** : C'est le nom du domaine habituel de votre organisation ex. ``gofast.entreprise-xyz.com`` 
+  
 
-.. CAUTION:: Ne pas oublier de choisir ``default`` pour "Security Group" pour permettre le traffic entrant 22 (ssh) et 443 (https) 
+Étape 3 : Configuration du Certificat SSL  
+----------------------------------------------
+Vous devez charger des certificats au format x509 encodé en base64 correspondant au nom de domaine renseigné précédemment.
 
-Instructions (par image)
--------------------------
-
-–Étape 1: Télécharger l’image sur le site https://www.ceo-vision.com/fr/content/gofast-community-ged-plateforme-collaborative-opensource (.ova, ...)
-
-–Étape 2: Instancier l'image dans votre logiciel de virtualisation (VMWare, ...)
-
-.. CAUTION:: GoFAST est une application d'entreprise et nécessite un serveur (mini 2vcpu,6GB RAM,SSD recommandé). L'utilisation sur un simple PC sous VirtualBox est donc déconseillée et il est possible de subir des timeouts au premier accès et ensuite à la fin de la configuration. Un simple rafraichissement de la page suffit.
-
--Étape 3: Se connecter à la machine virtuelle en mode console et lancer ``nmtui`` pour configurer le réseau (adresse IP fixe, passerelle ...). Voir https://gofast-docs.readthedocs.io/fr/latest/docs-gofast-technical/gofast-docs-prerequis-installation-serveur.html#configuration-du-reseau-par-lexploitant
-
-.. NOTE:: Pour vous connecter à votre VM : Le login utilisateur est ``root`` et le mot de passe ``@C0mmunity!`` (avec un ``0`` et non ``O``). 
-.. WARNING:: Le clavier est initialement en mode FR ce qui peut poser problème lorsque vous entrez le mot de passe si vous utilisez un clavier QWERTY. 
-.. WARNING:: Le mot de passe root sera changé par celui défini lors du processus de configuration (voir ci-dessous)
-
-–Étape 4: Se rendre sur ``https://votre_adresse_ip`` ce qui lance la configuration de la plate-forme.
-
-.. NOTE:: Pour pouvoir utiliser l'adresse complète (FQDN), déclarer la avec son adresse IP dans le fichier ``hosts`` ou dans le DNS
-
-
-La configuration
-------------------
-
-Lorsque vous vous rendez sur l'adresse IP , une page de configuration fait son apparition, elle est constituée de 4 étapes:
-
-–La configuration du nouveau nom de domaine
-
-–La configuration du certificat SSL
-
-–La configuration du serveur SMTP 
-
-–La configuration du compte administrateur de la plateforme
-
-Une fois ces 4 étapes effectuées, une page apparait avec un récapitulatif. Si tout est correct, validez la configuration.
-
-Etape 1 : Configuration du nom de domaine
-````````````````````````````````````````````
-Sur cet écran vous configurez chaque partie du FQDN de GoFAST, ex. ``gofast.ceo-vision.com`` :
-
-   1. **Nouveau sous-domaine** : C'est le sous-domaine GoFAST, ex. ``gofast``
-   2. **Nouveau domaine** : Le domaine habituel de votre organisation ex. ``ceo-vision`` 
-   3. **Extension** : Ceci est le TLD, la dernière partie de l'URL ex. ``com``
-
-Etape 2 : Configuration du Certificat SSL  
-``````````````````````````````````````````
-2 possibilités à ce stade, utiliser vos certificats (recommandé) ou en créer des auto-signés.
-
-Pour la 1ère option vous devez fournir :
-   1. **la clef publique de votre certificat**
-   2. **la clef privée**
-
-Pour la 2ème option vous devez fournir : 
-   1. **Country**
-   2. **State or Province**
-   3. **City**
-   4. **Company** 
-   5. **Organization unit** 
-   6. **Web site name**
-   7. **E-mail address** 
-
-Etape 3 : Configuration Serveur SMTP  
-```````````````````````````````````````
-Cette 3ème étape permet de configurer le serveur SMTP utilisé par GoFAST pour envoyer des emails. Les champs nécessaires sont:
-
-   1. **SMTP Server** :  
-   2. **Username** : 
-   3. **Password** : 
-   4. **Security** : None (without security), TLS (....), SSL (....)
-   5. **SMTP Port** : 
-   6. **Recipient address** : 
+Vous devez fournir :
+   1. **la clé publique de votre certificat** (.pem ou .crt)
+   2. **la clé privée correspondant au certificat** (.key)
    
-Etape 4 : Creation de l'utilisateur administrateur
-````````````````````````````````````````````````````
-Cette étape définit le compte administrateur qui a accès à plusieurs configurations supplémentaires une fois l'instance GoFAST démarrée. Vous devez choisir l'identifiant, le mot de passe et l'adresse email de ce compte administrateur.
+.. NOTE:: Si vous ne savez pas de quoi il s'agit, ces certificats prennent la forme de deux fichiers à demander à votre département IT
 
-.. WARNING:: Il n'est pas possible de choisier 'admin' qui est un compte réservé
+.. WARNING:: Pour le moment cette interface ne permet pas de générer des certificats autosignés, si vous souhaitez en générer un **pour un usage de test uniquement**, vous pouvez utiliser un outil en ligne comme https://regery.com/en/security/ssl-tools/self-signed-certificate-generator
 
-Etape 5 : Confirmation de la configuration 
+Étape 4 : Configuration Serveur SMTP  
+------------------------------------------
+Cette 4ème étape permet de configurer le serveur SMTP utilisé par GoFAST pour envoyer des emails. Les champs nécessaires sont:
+
+   1. **SMTP Server** :  Le nom de domaine ou l'IP de votre serveur SMTP
+   2. **Username** : Si une authentification est nécessaire, le nom d'utilisateur
+   3. **Password** : Si une authentification est nécessaire, le mot de passe
+   4. **Security** : A renseigner selon le protocole de sécurité utilisé
+   5. **SMTP Port** : Le port de votre serveur SMTP
+   
+.. NOTE:: Si vous ne possedez pas de serveur SMTP, vous pouvez renseigner un serveur SMTP qui n'existe pas (Exemple : smtp.example.org)
+   
+Étape 5 : Création de l'utilisateur administrateur
+--------------------------------------------------------
+
+Configuration Administrateur Fonctionnel
+``````````````````````````````````````````````
+
+La partie **Configuration compte Administrateur** permets de renseigner les identifiants du premier compte crée sur GoFAST que vous utiliserez pour vous connecter.
+
+Vous devez choisir l'identifiant, le mot de passe et l'adresse email de ce compte.
+
+.. WARNING:: Il n'est pas possible de choisier 'admin' pour l'identifiant qui est un compte réservé pour le compte administrateur technique (voir ci-dessous).
+
+Configuration Administrateur Technique
 ````````````````````````````````````````````
-Vérifiez attentivement tous les champs et validez.
+
+La partie **Mot de passe Technique** est réservée au compte administrateur technique de la plateforme. Il est possible de paramétrer chaque mot de passe en décochant **Utiliser le mot de passe technique pour tout les services**.
+
+En tant qu'utilisateur vous n'aurez normalement pas à utiliser ce compte technique.
+
+Etape 6 : Confirmation de la configuration 
+---------------------------------------------
 
 .. WARNING::
-   Après avoir cliqué sur "Terminer la configuration" vous ne pouvez plus revenir aux étapes précédantes, bien vérifier tous les champs avant de passer à l'étape suivante
+   Avant de cliquer sur "Obtenir le Compose", bien vérifier tous les champs avant de passer au téléchargement.
    
-.. NOTE:: De nombreuses opérations techniques vont être effectuées ainsi que des démarrages de service, ceci pouvant être plus ou moins long suivant les capacités du serveur
 
-.. caution:: Si vous avez généré un certificat SSL auto-signé, il vous faudra ouvrir une autre page avec la meme adresse IP pour de nouveau ajouter l'exception au navigateur. Après avoir ajouté cette exception, fermer immédiatement cette nouvelle page et retourner sur la page de chargement de votre GoFAST.
+Une fois ces étapes effectuées, une page apparait avec un récapitulatif. Si tout est correct, validez la configuration.
+
+Après avoir validé le téléchargement, cela téléchargera deux fichiers dans une archive au format .zip :
+
+- Un .env qui contient toutes les variables renseignées
+- Un fichier compose.yaml contenant la description de l'application GoFAST en conteneurs
+
+.. NOTE:: Il sera possible prochainement de re charger ces fichiers pour obtenir les mises à jour de votre plateforme GoFAST Community
+
+Etape 7 : Instancier votre plateforme
+----------------------------------------
+
+.. CAUTION:: GoFAST est une application d'entreprise et nécessite un serveur (mini 4vcpu,12GB RAM,SSD recommandé). L'utilisation sur un simple PC sous Podman Desktop ou Docker Desktop est donc déconseillée.
+
+.. NOTE:: Pour pouvoir accéder à l'application, déclarez son nom de domaine (renseigné lors de l'étape 2) avec son adresse IP dans le fichier ``hosts`` de votre ordinateur (https://www.digdeo.fr/articles/sys-admin/modifier-fichier-etc-hosts-windows-mac-linux) ou dans le DNS de l'entreprise
+   
+.. NOTE:: De nombreuses opérations techniques vont être effectuées ainsi que des démarrages de service, ceci pouvant être plus ou moins long suivant les capacités du serveur. Le temps estimé du premier démarrage se situe entre 10 et 30 min.
+
+Sur une machine Linux - RedHat (Recommandé : AlmaLinux ou CentOS)
+`````````````````````````````````````````````````````````````````````
+- Installer les paquets podman, podman-compose et unzip en utilisant le gestionnaire de paquets approprié (yum ou dnf selon votre version)
+
+.. code-block:: bash
+
+   dnf install podman-compose podman unzip
+   yum install podman-compose podman unzip
+
+- Déziper et copier les fichiers .env et compose.yaml dans le dossier de votre choix
+
+.. code-block:: bash
+
+   mkdir /opt/gofast
+   cd /opt/gofast
+   unzip gofast-community.zip
+
+- Instanciez votre GoFAST Community
+
+.. code-block:: bash
+
+   podman-compose up -d
+
+- Suivez le déroulement de votre installation
+
+.. code-block:: bash
+
+   podman logs -f gofast-ng-drupal
+   podman logs -f gofast-ng-alfresco
+   podman logs -f gofast-ng-mysql
+   podman logs -f gofast-ng-....
+
+.. NOTE:: Une fois que la commande "podman logs -f gofast-ng-drupal" vous rends la main, cela signifie que l'installation est terminée.
+
+Sur Windows avec Docker Desktop et Portainer
+````````````````````````````````````````````````
+- Créer un dossier sur le PC et déziper gofast-community.zip à l'intérieur
+
+- Installer l'application Docker Desktop : https://www.docker.com/products/docker-desktop/
+
+.. NOTE:: Lors de l'installation garder les paramètres par défaut, notamment l'utilisation de WSL 2. Un redémarrage de Windows sera nécessaire.
+
+.. CAUTION:: Après le redémarrage de Windows à l'ouverture de Docker Desktop, si un message "Docker Desktop requires a newer WSL kernel version" s'affiche, suivez la procédure "Mise à jour du Kernel WSL" dans la rubrique "Problèmes connus".
+
+- Dans Docker Desktop cliquez sur "Add Extensions" dans le menu de gauche et installez l'extension "Portainer". Cette extension vous permettra d'initialiser GoFAST Community de manière simple.
+
+- Ouvrez l'extension "Portainer" dans le menu de gauche et cliquez sur "Get started"
+
+- Dans Portainer sélectionner l'environnement "local" en cliquant ci-dessus 
+
+- Dans Portainer cliquez sur le menu "Stacks" (Dans le petit menu vertical entre le menu de gauche et la fenetre principale)
+
+- Ajouter un nouveau stack à l'aide du bouton "+ Add Stack"
+
+- Donnez lui un nom, par exemple "gofast-community"
+
+- Sélectionnez la méthode "Upload"
+
+- Dans "Upload", chargez votre compose.yaml
+
+- Dans "Environment variables" cliquez sur "Load variables from .env file"
+
+- Pour finaliser l'instanciation, cliquez tout en bas sur "Deploy the stack"
+
+.. CAUTION:: Ce processus une fois lancé va télécharger toutes les images des applications de GoFAST, ce processus peut prendre du temps. Ne pas quitter ou changer de menu tant que vous voyez "Deployment in progress..."
+
+Instructions (pour AWS)
+==================================
+Cette méthode d'installation reviendra bientôt.
+
+Instructions (par image)
+==================================
+Cette méthode d'installation reviendra bientôt.
 
 Démarrons ! 
--------------
+==============
+
+Rendez-vous sur le nom de domaine que vous avez choisi ``https://gofast.entreprise-xyz.com``.
 
 Vous devez créer quelques utilisateurs et des espaces collaboratifs (et sous-espaces).
 
 Les espaces peuvent être de différents types, "Organisation" (départements, ...), "Groupes" (projets, ...), "Extranet" (partenaires, clients, ...). Voir la documentation en ligne ici : https://gofast-docs.readthedocs.io/fr/latest/docs-gofast-users/doc-gofast-guide-utilisateurs.html#gerer-un-espace-collaboratif-groupe
 
-Dans les sous-espaces créés, ajouter des membres qui pourront avoir accès au contenu de cet espace. Ajoutez des sous-espaces si nécessaire.
+Dans les sous-espaces créés, ajoutez des membres qui pourront avoir accès au contenu de cet espace. Ajoutez des sous-espaces si nécessaire.
 
 Ajoutez du contenu en utilisant le glisser-déposer dans le "GoFAST File Browser" (explorateur de fichiers)
 
 Vous êtes prêt pour démarrer !
 
+Problèmes connus
+===================
+
+Mise à jour du Kernel WSL
+-----------------------------
+Si une mise à jour du kernel WSK est requise, rendez vous sur https://docs.microsoft.com/windows/wsl/wsl2-kernel
+
+Téléchargez le "Package de mise à jour du noyeau Linux WSL2" proposé  et executez le.
+
+Vous pouvez ensuite relancer Docker Desktop.
