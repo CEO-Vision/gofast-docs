@@ -87,7 +87,7 @@ Après avoir validé le téléchargement, cela téléchargera deux fichiers dans
 - Un .env qui contient toutes les variables renseignées
 - Un fichier compose.yaml contenant la description de l'application GoFAST en conteneurs
 
-.. NOTE:: Il sera possible prochainnement de re charger ces fichiers pour obtenir les mises à jour de votre plateforme GoFAST Community
+.. NOTE:: Il sera possible prochainement de re charger ces fichiers pour obtenir les mises à jour de votre plateforme GoFAST Community
 
 Etape 7 : Instancier votre plateforme
 ----------------------------------------
@@ -146,7 +146,7 @@ Sur Windows avec Docker Desktop et Portainer
 
 - Ouvrez l'extension "Portainer" dans le menu de gauche et cliquez sur "Get started"
 
-- Dans Portainer séléctionner l'environnement "local" en cliquant ci-dessus 
+- Dans Portainer sélectionner l'environnement "local" en cliquant ci-dessus 
 
 - Dans Portainer cliquez sur le menu "Stacks" (Dans le petit menu vertical entre le menu de gauche et la fenetre principale)
 
@@ -154,7 +154,7 @@ Sur Windows avec Docker Desktop et Portainer
 
 - Donnez lui un nom, par exemple "gofast-community"
 
-- Séléctionnez la méthode "Upload"
+- Sélectionnez la méthode "Upload"
 
 - Dans "Upload", chargez votre compose.yaml
 
@@ -181,7 +181,7 @@ Vous devez créer quelques utilisateurs et des espaces collaboratifs (et sous-es
 
 Les espaces peuvent être de différents types, "Organisation" (départements, ...), "Groupes" (projets, ...), "Extranet" (partenaires, clients, ...). Voir la documentation en ligne ici : https://gofast-docs.readthedocs.io/fr/latest/docs-gofast-users/doc-gofast-guide-utilisateurs.html#gerer-un-espace-collaboratif-groupe
 
-Dans les sous-espaces créés, ajouter des membres qui pourront avoir accès au contenu de cet espace. Ajoutez des sous-espaces si nécessaire.
+Dans les sous-espaces créés, ajoutez des membres qui pourront avoir accès au contenu de cet espace. Ajoutez des sous-espaces si nécessaire.
 
 Ajoutez du contenu en utilisant le glisser-déposer dans le "GoFAST File Browser" (explorateur de fichiers)
 
