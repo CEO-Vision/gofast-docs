@@ -258,7 +258,7 @@ Menu d’accès rapides
 Menu latéral 
 ~~~~~~~~~~~~~~~~~~~
 
-Ce menu est donne accès aux principales pages de GoFAST. Selon votre profil utilisateur (Standard, Support-Utilisateurs ou Super-Administrateur) vous aurez des accès standards ou supplémentaires. 
+Ce menu donne accès aux principales pages de GoFAST. Selon votre profil utilisateur (Standard, Support-Utilisateurs ou Super-Administrateur) vous aurez des accès standards ou supplémentaires. 
 Vous pouvez plier et déplier ce menu avec l’icône burger en haut à gauche.
 
 **Accès pour tous les niveaux de "Profil Utilisateur" (dont "Standard") :**
