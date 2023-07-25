@@ -280,8 +280,8 @@ Il est également possible d’exporter les données.
 Accès aux Statistiques
 ~~~~~~~~~~~~~~~~~~
  À partir du menu principal de gauche, aller dans « Statistiques ».   
-.. figure:: media-guide/statistics-access.jpg
-   :alt: 
+
+.. figure:: media-guide/statistiques_1.png 
 
 
 .. NOTE:: Seuls les utilisateurs ayant le profil « support-utilisateurs » sont habilités à accéder aux statistiques globales de la plateforme. Toutefois, les divers administrateurs des espaces peuvent également y accéder, mais les statistiques affichées seront limitées aux espaces qu’administrent ces utilisateurs.  
@@ -289,17 +289,16 @@ Accès aux Statistiques
 **Trois sous-onglets sont disponibles :**
 1. Onglet « **Statistique utilisateurs** » permet de visualiser le nombre d’utilisateurs, les informations relatives aux membres actifs et inactifs, les nouveaux membres et membres connectés.
 
-.. figure:: media-guide/statistics-users.jpg
-
+.. figure:: media-guide/statistiques_2.png
 
 2. Onglet « **Statistique documentaires** », permet de visualiser le nombre de documents et les informations relatives aux documents par sa catégorie, son état et son importance.
 
-.. figure:: media-guide/statistics-docs.jpg
+.. figure:: media-guide/statistiques_3.png
 
 
 3. Onglet « **Statistiques d’espaces** », permet de visualiser le nombre d’espaces et les informations relatives aux espaces, leurs évolutions par période, les plus actifs, les plus remplis et les plus peuplés.
 
-.. figure:: media-guide/statistics-spaces.jpg
+.. figure:: media-guide/statistiques_4.png
 
 
 
