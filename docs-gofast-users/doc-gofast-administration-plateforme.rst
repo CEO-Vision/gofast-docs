@@ -391,10 +391,10 @@ Supprimer un utilisateur (s’il ne s’est jamais connecté)
 
 .. NOTE:: Cette fonctionnalité est accessible uniquement aux utilisateurs ayant le profil « support-utilisateur ». 
 
-L’audit complet est accessible via le menu principal de gauche, clic sur « Audit ». 
+L’audit complet est accessible via le menu principal de gauche, en cliquant sur « Audit ». 
 À partir de cette page **Audit** vous pouvez :
 * Utiliser les filtres mis à disposition pour retrouver une action en particulier ou un contenu.
-* Exporter l’audit dans la limite de 5 000 résultats
+* Exporter l’audit dans la limite de 50 000 résultats
 
 .. figure:: media-guide/Audit-detail.jpg
    :alt:
@@ -404,8 +404,8 @@ L’audit complet est accessible via le menu principal de gauche, clic sur « Au
 L’audit spécifique sur un document est accessible sur la page du document :
 Vous pouvez voir les derniers événements effectués sur ce document, la date et l’heure des actions ainsi que les utilisateurs ayant effectué l’action.
 
-.. figure:: media-guide/Audit-aperçu.jpg
-   :alt:
+.. figure:: media-guide/audit_document.png
+   
 
 
 Configuration : Lien Personnalisé
