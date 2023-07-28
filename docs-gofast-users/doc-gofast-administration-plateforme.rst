@@ -259,7 +259,7 @@ Cliquez sur « Enregistrer » pour valider.
  - Vous pouvez alors modifier les champs :  DUA, Unité et Action. 
 Cliquez sur « Enregistrer » pour valider.
 
-.. figure:: media-guide/DUA_image_5.jpg
+.. figure:: media-guide/DUA_image_6.png
 
 
 
