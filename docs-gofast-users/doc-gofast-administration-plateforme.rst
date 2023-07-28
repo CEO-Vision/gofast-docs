@@ -322,8 +322,10 @@ Dans l’onglet **Statistiques utilisateurs** il est possible de réaliser un ex
  - Colone « Broadcaster » (indiquant « VRAI » si a se profil OU « FAUX » si n’a pas ce profil)
  - Colone « Externe » (indiquant « VRAI » si a se profil OU « FAUX » si n’a pas ce profil)
 
+.. figure:: media-guide/export_utilisateurs.png
+
 **Export d’une liste de documents :**
-Dans l’onglet **Statistiques documentaires** il est possible de réaliser un export de tous les fichiers existants dans un ou plisseurs espaces, avec leur :
+Dans l’onglet **Statistiques documentaires** il est possible de réaliser un export de tous les fichiers existants dans un ou plusieurs espaces, avec leur :
  - « nid » (le numéro de référence automatique, attribué à la création du document et présent dans l’url de la page du document). 
  - Titre (du document)
  - Lien (vers la page du document)
@@ -341,8 +343,7 @@ Dans l’onglet **Statistiques documentaires** il est possible de réaliser un e
 
 .. NOTE:: Il est possible de sélectionner les informations de votre choix pour la liste des documents, en sélectionnant une ou plusieurs données parmi celles disponibles (cochez la case).  
 
-.. figure:: media-guide/Export-members.jpg
-   :alt:
+
 
 **Export de la liste des espaces :**
 
@@ -357,13 +358,12 @@ Dans l’onglet **Statistiques d’espaces** il est possible de réaliser un exp
 
 Dans l’onglet **Statistiques des espaces**, cliquez sur le bouton avec l’icône Excel. 
 
-.. figure:: media-guide/Export-all-spaces-access.jpg
+.. figure:: media-guide/export_espaces.png
    :alt:
 
 Une petite fenêtre s’ouvre et vous informe que votre export est en cours de génération. Dès que le téléchargement est lancé cette dernière se fermera automatiquement.
 
-.. figure:: media-guide/Export-all-spaces-download.jpg
-   :alt:
+.. figure:: media-guide/fenêtre_export_espaces.png
 
 
 Audit 
