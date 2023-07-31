@@ -162,12 +162,8 @@ Pour désactiver ou réactiver un utilisateur et donc, bloquer ou autoriser son 
  - OU Allez sur son profil et cliquez sur le menu « Burger ». 
 - Via le menu « Burger », cliquez sur « Désactiver » ou sur « Réactiver » puis sur « Confirmer ». 
 
-.. figure:: media-guide/User-disable.jpg
-   :alt: 
-
-.. figure:: media-guide/User-enable.jpg
-   :alt: 
-
+.. figure:: media-guide/désactiver_utilisateurs.png
+   
 .. NOTE::
    Il y a une différence entre les utilisateurs « Inactifs » et les utilisateurs « Désactivés ». Les utilisateurs inactifs ne sont pas bloqués, ce sont des utilisateurs qui se connectent rarement sur la plate-forme.
 Configuration : Catégories 
