@@ -141,14 +141,14 @@ Activation du module Gofast Webhook
 
 Si le module n'est pas déjà installé et activé, vous pouvez le faire en suivant les étapes ci-dessous :
 
-- **Enable the module:**
+- **Activer le module:**
    Activez le module en exécutant la commande Drush suivante :
 
    .. code-block:: console
 
       drush @d7 en gofast_webhook -y
 
-- **Clear the cache:**
+- **Vider le cache:**
     Effacez le cache en exécutant la commande Drush suivante :
   
     .. code-block:: console
@@ -158,7 +158,7 @@ Si le module n'est pas déjà installé et activé, vous pouvez le faire en suiv
 Vous pouvez également le faire via l'interface d'administration de Drupal en naviguant vers le chemin suivant :
 ``Admin > Modules``. 
 
-Having done the above the Gofast Webhook module will be installed and enabled on your Gofast instance and will begin sending events to the configured services above.
+Le module Gofast Webhook sera installé et activé sur votre instance Gofast et commencera à envoyer des événements aux services configurés ci-dessus.
 
 ###################################
 Demandes envoyées aux services
