@@ -162,12 +162,8 @@ Pour désactiver ou réactiver un utilisateur et donc, bloquer ou autoriser son 
  - OU Allez sur son profil et cliquez sur le menu « Burger ». 
 - Via le menu « Burger », cliquez sur « Désactiver » ou sur « Réactiver » puis sur « Confirmer ». 
 
-.. figure:: media-guide/User-disable.jpg
-   :alt: 
-
-.. figure:: media-guide/User-enable.jpg
-   :alt: 
-
+.. figure:: media-guide/désactiver_utilisateurs.png
+   
 .. NOTE::
    Il y a une différence entre les utilisateurs « Inactifs » et les utilisateurs « Désactivés ». Les utilisateurs inactifs ne sont pas bloqués, ce sont des utilisateurs qui se connectent rarement sur la plate-forme.
 Configuration : Catégories 
@@ -259,7 +255,7 @@ Cliquez sur « Enregistrer » pour valider.
  - Vous pouvez alors modifier les champs :  DUA, Unité et Action. 
 Cliquez sur « Enregistrer » pour valider.
 
-.. figure:: media-guide/DUA_image_5.jpg
+.. figure:: media-guide/DUA_image_6.png
 
 
 
@@ -280,8 +276,8 @@ Il est également possible d’exporter les données.
 Accès aux Statistiques
 ~~~~~~~~~~~~~~~~~~
  À partir du menu principal de gauche, aller dans « Statistiques ».   
-.. figure:: media-guide/statistics-access.jpg
-   :alt: 
+
+.. figure:: media-guide/statistiques_1.png 
 
 
 .. NOTE:: Seuls les utilisateurs ayant le profil « support-utilisateurs » sont habilités à accéder aux statistiques globales de la plateforme. Toutefois, les divers administrateurs des espaces peuvent également y accéder, mais les statistiques affichées seront limitées aux espaces qu’administrent ces utilisateurs.  
@@ -289,17 +285,16 @@ Accès aux Statistiques
 **Trois sous-onglets sont disponibles :**
 1. Onglet « **Statistique utilisateurs** » permet de visualiser le nombre d’utilisateurs, les informations relatives aux membres actifs et inactifs, les nouveaux membres et membres connectés.
 
-.. figure:: media-guide/statistics-users.jpg
-
+.. figure:: media-guide/statistiques_2.png
 
 2. Onglet « **Statistique documentaires** », permet de visualiser le nombre de documents et les informations relatives aux documents par sa catégorie, son état et son importance.
 
-.. figure:: media-guide/statistics-docs.jpg
+.. figure:: media-guide/statistiques_3.png
 
 
 3. Onglet « **Statistiques d’espaces** », permet de visualiser le nombre d’espaces et les informations relatives aux espaces, leurs évolutions par période, les plus actifs, les plus remplis et les plus peuplés.
 
-.. figure:: media-guide/statistics-spaces.jpg
+.. figure:: media-guide/statistiques_4.png
 
 
 
@@ -323,8 +318,10 @@ Dans l’onglet **Statistiques utilisateurs** il est possible de réaliser un ex
  - Colone « Broadcaster » (indiquant « VRAI » si a se profil OU « FAUX » si n’a pas ce profil)
  - Colone « Externe » (indiquant « VRAI » si a se profil OU « FAUX » si n’a pas ce profil)
 
+.. figure:: media-guide/export_utilisateurs.png
+
 **Export d’une liste de documents :**
-Dans l’onglet **Statistiques documentaires** il est possible de réaliser un export de tous les fichiers existants dans un ou plisseurs espaces, avec leur :
+Dans l’onglet **Statistiques documentaires** il est possible de réaliser un export de tous les fichiers existants dans un ou plusieurs espaces, avec leur :
  - « nid » (le numéro de référence automatique, attribué à la création du document et présent dans l’url de la page du document). 
  - Titre (du document)
  - Lien (vers la page du document)
@@ -342,8 +339,7 @@ Dans l’onglet **Statistiques documentaires** il est possible de réaliser un e
 
 .. NOTE:: Il est possible de sélectionner les informations de votre choix pour la liste des documents, en sélectionnant une ou plusieurs données parmi celles disponibles (cochez la case).  
 
-.. figure:: media-guide/Export-members.jpg
-   :alt:
+
 
 **Export de la liste des espaces :**
 
@@ -358,13 +354,12 @@ Dans l’onglet **Statistiques d’espaces** il est possible de réaliser un exp
 
 Dans l’onglet **Statistiques des espaces**, cliquez sur le bouton avec l’icône Excel. 
 
-.. figure:: media-guide/Export-all-spaces-access.jpg
+.. figure:: media-guide/export_espaces.png
    :alt:
 
 Une petite fenêtre s’ouvre et vous informe que votre export est en cours de génération. Dès que le téléchargement est lancé cette dernière se fermera automatiquement.
 
-.. figure:: media-guide/Export-all-spaces-download.jpg
-   :alt:
+.. figure:: media-guide/fenêtre_export_espaces.png
 
 
 Audit 
@@ -391,10 +386,10 @@ Supprimer un utilisateur (s’il ne s’est jamais connecté)
 
 .. NOTE:: Cette fonctionnalité est accessible uniquement aux utilisateurs ayant le profil « support-utilisateur ». 
 
-L’audit complet est accessible via le menu principal de gauche, clic sur « Audit ». 
+L’audit complet est accessible via le menu principal de gauche, en cliquant sur « Audit ». 
 À partir de cette page **Audit** vous pouvez :
 * Utiliser les filtres mis à disposition pour retrouver une action en particulier ou un contenu.
-* Exporter l’audit dans la limite de 5 000 résultats
+* Exporter l’audit dans la limite de 50 000 résultats
 
 .. figure:: media-guide/Audit-detail.jpg
    :alt:
@@ -404,8 +399,8 @@ L’audit complet est accessible via le menu principal de gauche, clic sur « Au
 L’audit spécifique sur un document est accessible sur la page du document :
 Vous pouvez voir les derniers événements effectués sur ce document, la date et l’heure des actions ainsi que les utilisateurs ayant effectué l’action.
 
-.. figure:: media-guide/Audit-aperçu.jpg
-   :alt:
+.. figure:: media-guide/audit_document.png
+   
 
 
 Configuration : Lien Personnalisé
