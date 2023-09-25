@@ -28,7 +28,8 @@ Documentation GoFAST 4.0
 .. toctree::
    :maxdepth: 1
    :caption: GoFAST : Releases
-   
+
+   docs-gofast-technical/release-notes-4.1.1
    docs-gofast-technical/release-notes-4.1.0
    docs-gofast-technical/release-notes-4.0.1
    docs-gofast-technical/release-notes-4.0.0
