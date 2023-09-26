@@ -26,28 +26,34 @@ Les événements qui peuvent être notifiés sont les suivants :
 Vous trouverez ci-dessous un exemple de configuration au format json :
 
 .. code-block:: json
-  
-    [
-      {
-        "api_services": {
-          "service_name": "GoFast creation webhook",
-          "api_endpoint": "{service_url}",
-          "events": [
-            "CREATE"
-          ],
-          "method": "POST",
-          "api_auth": {
-            "type": "Bearer",
-            "value": "{bearer_token_here}",
-            "in_header": true,
-          }
-        }
-      }
-    ]
+
+    {
+        "config_title": "GoFast Webhook Configuration",
+        "config_description": "Configure the GoFast Webhook service",
+        "api_services": [
+            {
+                "service_id": 1,
+                "service_name": "EXAMPLE API SERVICE",
+                "api_endpoint": "https://example.com/api/endpoint",
+                "is_secure": true,
+                "service_status": "DEFAULT",
+                "events": ["CREATE", "UPDATE", "DELETE"],
+                "method": "POST",
+                "api_auth": {
+                    "type": "Bearer",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTUsInVzZXJ....",
+                    "in_header": true
+                }
+            }
+            // Subsequent default services here ...
+        ]
+    }
 
 Comme vous pouvez le voir dans l'exemple ci-dessus, la configuration est un tableau de services. 
 Chaque service possède les propriétés suivantes :
 
+- ``service_id``: Il s'agit de l'ID du service. Il s'agit d'un entier qui est utilisé pour identifier le service.
+- ``service_name``: Il s'agit du nom du service. Il s'agit d'une chaîne qui est utilisée pour identifier le service.
 - ``api_services``: Il s'agit du nom du service. Il est utilisé pour identifier le service auquel l'événement sera envoyé.
 - ``api_endpoint``: Il s'agit de l'adresse URL du service auquel l'événement sera envoyé.
 - ``events``: Il s'agit d'un tableau d'événements qui seront envoyés au service. Les valeurs possibles sont les suivantes : ``CREATE``, ``UPDATE``, ``DELETE``.
@@ -108,23 +114,35 @@ Pour configurer la même commande en utilisant le module PHP Devel dans Drupal, 
 3. **Entrez le code PHP:**
    Dans la page "Exécuter le code PHP", saisissez le code PHP ci-dessous dans la zone de texte prévue à cet effet :
 
-   .. code-block:: php
+.. code-block:: php
 
-      $config = [
-        'api_services' => [
-          'service_name' => 'GoFast creation webhook',
-          'api_endpoint' => '{service_url}',
-          'events' => ['CREATE'],
-          'method' => 'POST',
-          'api_auth' => [
-            'type' => 'Bearer',
-            'value' => '{bearer_token_here}',
-            'in_header' => true,
-          ]
+    $config = [
+        "config_title" => "GoFast Webhook Configuration",
+        "config_description" => "Configure the GoFast Webhook service",
+        "api_services" => [
+            // Example service api.
+            [
+                'service_id' => 1,
+                'service_name' => 'EXAMPLE API SERVICE ',
+                'api_endpoint' => 'https://example.com/api/endpoint',
+                'is_secure' => TRUE,
+                'service_status' => t('DEFAULT', [], ['context' => 'gofast:gofast_webhook']), // DEFAULT, ACTIVE, INACTIVE
+                'events' => ['CREATE', 'UPDATE', 'DELETE'],
+                'method' => 'POST',
+                'api_auth' => [
+                    'type' => 'Bearer', // Bearer, API_KEY, X-API-KEY etc
+                    'value' => 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTUsInVzZXJ....',
+                    'in_header' => TRUE,
+                ],
+            ],
+            // Subsequent default services here ...
         ]
-      ];
+    ];
 
-      variable_set('gofast_webhook_config', json_encode($config));
+.. code-block:: php
+
+    variable_set('gofast_webhook_config', json_encode($config));
+
 
 4. **Exécuter le code PHP:**
    Cliquez sur le bouton "Exécuter" de la page pour exécuter le code PHP.
