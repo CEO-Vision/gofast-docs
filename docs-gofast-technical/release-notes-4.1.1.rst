@@ -46,6 +46,7 @@ Améliorations
    "GOFAST-8831","Ajout d'un bouton ""annuler"" dans la fenêtre de création de contenu (doc, réunion ...)"
    "GOFAST-7744","Amélioration : Sur la refonte du bloc de métadonnées spécifiques"
    "GOFAST-10279","Remplacement de COTURN par Pion TURN"
+   "GOFAST-10338","Mise à jour Alfresco 7.4"
 
 
 
