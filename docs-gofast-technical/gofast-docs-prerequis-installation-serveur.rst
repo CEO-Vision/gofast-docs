@@ -33,23 +33,23 @@ Architecture
 +--------------------------------------+--------------------------------------+
 |GoFAST 4                                                                     |
 +======================================+======================================+
-|OS                                    | CentOS 7 64bits                      |
+|OS                                    | CentOS 7  64bits                     |
 +--------------------------------------+--------------------------------------+
 |CMS                                   | Drupal 7                             |
 +--------------------------------------+--------------------------------------+
-|Serveur Web & Reverse Proxy           | Apache 2.4 (php-fpm)                 |
+|Serveur Web & Reverse Proxy           | Apache 2.4   (php-fpm)               |
 +--------------------------------------+--------------------------------------+
-|Base de données                       | MySQL 5.7                            |
+|Base de données                       | MySQL 8.x                            |
 +--------------------------------------+--------------------------------------+
 |Annuaire                              | OpenLDAP 2.4                         |
 +--------------------------------------+--------------------------------------+
-|GED                                   | Alfresco 6.2 Community               |
+|GED                                   | Alfresco 7.4 Community               |
 +--------------------------------------+--------------------------------------+
 |Recherche                             | Apache Solr 8                        |
 +--------------------------------------+--------------------------------------+
-|Serveur API                           | Apache Tomcat 7                      |
+|Serveur API                           | Apache Tomcat 9                      |
 +--------------------------------------+--------------------------------------+
-|Workflow (GoFAST 3.6+)                | Bonitasoft Community 7.13+           |
+|Workflow (GoFAST 3.6+)                | Bonitasoft Community 2021            |
 +--------------------------------------+--------------------------------------+
 
 .. image:: media/Tag-Enterprise.png
@@ -63,9 +63,9 @@ Architecture
 +======================================+==================================================+
 |Edition collaborative                 | OnlyOffice 7                                     |
 +--------------------------------------+--------------------------------------------------+
-|Messagerie instantannée (>GoFAST 3.8) | Matrix-Synapse v1.12                             |
+|Messagerie instantannée (>GoFAST 3.8) | Matrix-Synapse v1.x                              |
 +--------------------------------------+--------------------------------------------------+
-|Webconference                         | Jitsi (Web 1.0.x server 2.1 / Prosody 0.11       |
+|Webconference                         | Jitsi Meet web 1.0.7322                          |
 +--------------------------------------+--------------------------------------------------+
 |Reverse Proxy                         | nginx 1.20                                       |
 +--------------------------------------+--------------------------------------------------+
@@ -92,7 +92,7 @@ Pré-requis Machine Virtuelle
 La plate-forme GoFAST est prévue pour fonctionner sur les Hyperviseurs (n'ayant pas atteint leur EOL)
 64 bits suivant :
 
--  VMWare ESX 6+
+-  VMWare ESX 7
 
 -  HyperV 
 
