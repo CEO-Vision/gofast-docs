@@ -1205,10 +1205,6 @@ Pour déclencher une DUA sur un document, dans le bloc métadonnées de ce derni
 .. figure:: media-guide/DUA_image_6.jpg.png
    :alt: 
 
-Choisissez la catégorie qui correspond au type de votre dossier puis appuyer sur « Appliquer ». 
-
-.. figure:: media-guide/DUA_image_7.jpg
-   :alt: 
 
 Ensuite, aller dans le champ « État », appuyer sur « Modifier », sélectionner « Pré-archivé » puis cliquer sur le bouton « Appliquer » pour sauvegarder.
 
