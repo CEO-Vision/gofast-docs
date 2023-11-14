@@ -658,7 +658,7 @@ Celui-ci sera visible dans l’onglet « Commentaires » à droite de la prévis
 
 Terminer en cliquant sur « Valider ». 
 
-.. figure:: media-guide/image203.png
+.. figure:: media-guide/commentaireversionmaj.png
    :alt: 
 
 
@@ -942,7 +942,7 @@ Les "Etiquettes" sont des mots-clés que les utilisateurs peuvent à tout moment
 .. figure:: media-guide/image221.png
    :alt: 
 
-.. figure:: media-guide/image222.png
+.. figure:: media-guide/abonnementtag.png
    :alt: 
 
 **S'abonner ou se désabonner des "Etiquettes" :**
@@ -962,11 +962,6 @@ Un message apparaît dans le coin droit supérieur, pour vous confirmer la prise
 .. figure:: media-guide/image226.png
    :alt: 
 
-L'icône d'abonnement apparaîtra en rouge dans l'étiquette si vous êtes abonné à ce terme, et en bleu si vous n’y êtes pas abonné.
-
-.. figure:: media-guide/image227.png
-   :alt: 
-
 
 Contenus liés (liens vers/en prévenance de, liens externes)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -984,7 +979,7 @@ Le lien vers un document a la possibilité d’être modifié depuis celui-ci, n
 Pour ajouter des documents/contenus liés, cliquez sur le champ, puis tapez les premières lettres du nom du document que vous voulez lier (au moins 3 caractères). Le système va vous le proposer automatiquement (liste de suggestions). 
 Puis, cliquez sur le document souhaité dans la liste suggérée pour le sélectionner. Sortez du champ pour valider (clic ailleurs sur la page).
 
-.. figure:: media-guide/image215.png
+.. figure:: media-guide/lienvers.png
    :alt: 
 
 Ainsi, les documents auront un lien entre eux et vous pourrez cliquer sur ces liens pour passer d’un document à l’autre en un clic pour gagner un temps précieux.
@@ -1164,16 +1159,11 @@ Etat "Pré-archivé"
 .. figure:: media-guide/image178.png
    :alt: 
 
-Le document aura désormais le statut « archivé » et toutes ses versions mineures seront effacées.
+Le document aura désormais le statut « pré-archivé » et toutes ses versions mineures seront effacées. 
 
-Un message vous redemande donc si vous êtes certain de vouloir archiver, si oui, appuyez sur « Archive »
+Une fois le **document pré-archivé**, il apparaîtra dans les métadonnées que vous pouvez juste le lire => « en lecture seule », et son état est « pré-archivé ». Plus aucune modification n’est donc possible sur un document « pré-archivé ».
 
-.. figure:: media-guide/image179.png
-   :alt: 
-
-Une fois le **document archivé**, il apparaîtra dans les métadonnées que vous pouvez juste le lire => « en lecture seule », et son état est « archivé ». Plus aucune modification n’est donc possible sur un document « archivé ».
-
-Il se peut aussi, lorsque vous voulez visualiser un document, que vous voyez un message orange vous signalant qu’il est en statut « archivé » et que si vous voulez retravailler dessus, il faut demander à l’administrateur du groupe de le désarchiver.
+Il se peut aussi, lorsque vous voulez visualiser un document, que vous voyez un message orange vous signalant qu’il est en statut « pré-archivé » et que si vous voulez retravailler dessus, il faut demander à l’administrateur du groupe de le désarchiver.
 
 .. figure:: media-guide/image180.png
    :alt: 
