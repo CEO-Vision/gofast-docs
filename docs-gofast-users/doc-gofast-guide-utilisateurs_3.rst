@@ -19,12 +19,15 @@ Onglets disponibles sur la page d’un Espace Collaboratif
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 - **Accueil :** page personnalisable par les Administrateurs de l’Espace.
 
-.. figure:: media-guide/image106.png
+.. figure:: media-guide/accueil.png
    :alt: 
 
 - **Statistiques :** avec les statistiques de l’activité des membres de l’espace, ainsi que les statistiques documentaires.
 
-.. figure:: media-guide/Statistiques.png
+.. figure:: media-guide/statistique1.png
+   :alt: 
+
+.. figure:: media-guide/statistique2.png
    :alt: 
 
 Merci de consulter également la rubrique : « Onglet Statistiques dans un Espace » (dans « Statistiques ») 
