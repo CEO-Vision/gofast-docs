@@ -474,13 +474,13 @@ Dans la zone principale, les dossiers et fichiers sont présentés sous forme de
 .. Note:: 
    Pour plus de lisibilité, vous pouvez redimensionner les blocs 2, 3 et 4 ainsi que les en-têtes des colonnes de l’explorateur.
 
-.. figure:: media-guide/FBrowser-17.png
+.. figure:: media-guide/filebro.png
    :alt:
 
 .. Note:: 
    Dans la zone principale à la première ligne, vous disposez d'un bouton qui permet de revenir à l’emplacement précédent. 
 
-.. figure:: media-guide/FBrowser-05.png
+.. figure:: media-guide/filebro.png
    :alt:
 
 
@@ -489,7 +489,7 @@ Comprendre les icônes (Multi-emplacement et permissions)
 
 Dans l’explorateur de fichiers, il existe plusieurs icônes communes dans la colonne « Info » de la zone principale. Ces icônes donnent des informations concernant le multi-emplacement et vos permissions sur les documents, les répertoires et les espaces. L’objectif de cet affichage est de simplifier le travail de l’utilisateur et d'éviter la duplication inutile des éléments.
 
-.. figure:: media-guide/Display-multifiling-icons.jpg
+.. figure:: media-guide/filebro3.jpg
    :alt:
 
 
@@ -660,7 +660,7 @@ Ce panier documentaire d'exécuter des actions sur une sélection de documents, 
 
 Pour plus de détails voire le paragraphe consacré aux Processus de Tâches (Workflows) » et au « Panier Documentaire ».
 
-.. figure:: media-guide/FBrowser-11.png
+.. figure:: media-guide/ajoutpanier.png
    :alt: 
 
 
