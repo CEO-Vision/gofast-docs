@@ -261,25 +261,19 @@ Exploiter les réponses d’un formulaire
 ---------------------------------------------------
 L’onglet "Résultats" est accessible par le créateur du formulaire et les administrateurs des espaces où se trouve le formulaire. 
 
-.. figure:: media-guide/form07.png
+.. figure:: media-guide/form1.png
    :alt: 
 
 Zone "Statistiques" : permet d’avoir la synthèse quantifiée des réponses pour chaque champ du formulaire.
 
-.. figure:: media-guide/form09.png
-   :alt: 
-
 Zone "Soumissions" : permet de visualiser unitairement toutes les soumissions de chaque utilisateur.
 
-.. figure:: media-guide/form08.png
+.. figure:: media-guide/form2.png
    :alt: 
 
 Zone "Export" permet d’exporter les données au format CSV. Il suffit de choisir les champs souhaités et de cliquer sur "Télécharger".
 
-.. figure:: media-guide/form10.png
-   :alt:
-
-.. figure:: media-guide/form11.png
+.. figure:: media-guide/form3.png
    :alt:
 
 
