@@ -22,6 +22,9 @@ Sera ouvert avec l’application définie par défaut sur votre poste (exemple O
 
 Pour les fichiers de type PDF, Images, etc. un module nommé « ITHIT » doit être installée au préalable sur le poste et activé dans votre navigateur. Vous pouvez ensuite ouvrir le fichier en édition (ex. un PDF avec Adobe ou Foxit) pour le modifier ou le signer, puis le sauvegarder directement sur GoFAST (clic sur le buton « enregistrer » de votre application).
 
+  .. figure:: media-guide/ithit.png
+       :alt:
+
 Comment « Editer depuis PC » :  
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
