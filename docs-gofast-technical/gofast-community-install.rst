@@ -9,7 +9,7 @@ Instructions (par conteneurs)
 
 .. Note:: Si vous accédez à cette page via le formulaire de GoFAST Community, vous pouvez passer directement à l'étape 2
 
-Étape 1 : Rendez-vous sur https://www.ceo-vision.com/fr/content/telecharger-gofast-community-edition
+Étape 1 : Rendez-vous sur: https://gofast-ng.ceo-vision.com/
 ---------------------------------------------------------------
 Une fois que vous avez complété le formulaire du lien ci-dessus et cliqué sur le lien qui vous a été envoyé par e-mail, veuillez procéder comme suit :
 
