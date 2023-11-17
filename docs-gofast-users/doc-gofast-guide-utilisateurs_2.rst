@@ -475,14 +475,7 @@ Dans la zone principale, les dossiers et fichiers sont présentés sous forme de
    Pour plus de lisibilité, vous pouvez redimensionner les blocs 2, 3 et 4 ainsi que les en-têtes des colonnes de l’explorateur.
 
 .. figure:: media-guide/filebro.png
-   :alt:
-
-.. Note:: 
-   Dans la zone principale à la première ligne, vous disposez d'un bouton qui permet de revenir à l’emplacement précédent. 
-
-.. figure:: media-guide/filebro.png
-   :alt:
-
+   :alt: 
 
 Comprendre les icônes (Multi-emplacement et permissions)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
