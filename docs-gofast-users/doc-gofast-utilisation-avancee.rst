@@ -49,9 +49,7 @@ GoFAST. Si les documents ont été modifiés, ils sont copiés localement (sur l
 
 .. NOTE:: si vous faites des modifications en mode
           déconnecté (offline), lors de la reconnexion sur le serveur GoFAST,
-          votre version sera téléchargée et versionnée sauf si un utilisateur a
-          fait des modifications entre-temps sur la GoFAST. Dans ce cas une «
-          gestion des conflits » se déclenche (voir ci dessous)
+          votre version sera téléchargée et versionnée
 
 .. Danger:: si vous effacez un répertoire en local dans
             l'arborescence synchronisée, les répertoires distants seront supprimés.
