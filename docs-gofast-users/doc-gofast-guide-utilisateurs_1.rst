@@ -54,7 +54,7 @@ La prévisualisation d'un fichier sert à consulter le fichier (document, image,
    :widths: 10, 40
    
    "doc,dot,xls,ppt", "transformé en PDF" 
-   "docx,dotx,xlsx,pptx","transformé en PDF"
+   "docx,dotx,xlsx,pptx","directement affiché onlyoffice"
    "odt,ott,ods,odp","transformé en PDF"
    "txt,rtf","transformé en PDF"
    "eps","transformé en PDF"
@@ -67,8 +67,7 @@ La prévisualisation d'un fichier sert à consulter le fichier (document, image,
 
 
 .. NOTE::
-   Il se peut que la prévisualisation ne s’ouvre pas directement.
-Il faudra juste actualiser la page (cela arrive si la connexion internet est de mauvaise qualité/instable). 
+   d'autres formats peuvent être prévisualisés
 
 Au-dessus de la **prévisualisation** du document, vous voyez une **barre
 d’outils**. 
