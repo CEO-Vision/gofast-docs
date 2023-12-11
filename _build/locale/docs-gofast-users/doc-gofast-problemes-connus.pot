@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gofast-docs latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-28 18:44+0100\n"
+"POT-Creation-Date: 2023-12-11 18:10+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,461 +17,461 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../../docs-gofast-users/doc-gofast-problemes-connus.rst:3
-#: baab7a3936194f77a974ae2f9a88caaa
+#: 1b7af53f4d2f4de08742917feeac7bac
 msgid "GoFAST : Problèmes connus"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-problemes-connus.rst:6
-#: 61113d27a94b43bb9e47d17e54f8503f
+#: a656b5d226334fe89da1cc1c59b3a974
 msgid "Si vous ne trouvez pas de réponse à vos questions ci-dessous et que vous disposez d'un abonnement GoFAST Entreprise il est important (après avoir vérifier que vous suivez les pré-requis) que vous fournissiez au support CEO-Vision le type (Windows, Mac, Linux) et la version de système d'exploitation, type et version de navigateur, le cas échéant version de la suite bureautique (MS-Office, LibreOffice,...). Vous pouvez aussi consulter les forums: https://community.ceo-vision.com"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-problemes-connus.rst:8
-#: d0b2bd61b3f54b038631030ebfd7219c
+#: 6f8cfe3fd76f47bf9c3fed651027c844
 msgid "GoFAST interdit l'utilisation de protocoles non sécurisés comme SSL, TLS1.0 et TLS1.1. Ceci peut être la cause du rejet de connexion dans MS-Office et du Lecteur réseau sur Windows 7 (plus supporté par CEO-Vision) sur lesquels les correctifs sécurités n'auraient pas été appliqués (voir https://community.ceo-vision.com/topic/83/erreur-interne-du-chargement-des-biblioth%C3%A8ques-ssl-office2010-windows7-utilise-des-protocoles-non-s%C3%A9curis%C3%A9s)."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-problemes-connus.rst:11
-#: 7d5ba094dcde4845b9ed8f786d701bda
+#: a03e2e3dc0fa4c019ab9e0d0a6102bf4
 msgid "Problèmes Microsoft Office"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-problemes-connus.rst:14
-#: 62c82dde50184a7381128edad19e1c97
+#: 8210726517564876a9c4252bb45e6441
 msgid "Trouver sa version d'Office"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-problemes-connus.rst:15
-#: b68ff447a1384878ad75f249b38d2250
+#: 4d8f32c6968b42ef8a3019513254869f
 msgid "Dans le cas où le problème concerne une application de la suite MS-Office il est important de connaitre sa version et si les mises à jour sont automatiquement installées. La version peut être trouvé à \"A propos de Excel\", ici version 1801"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-problemes-connus.rst:20
-#: 801102b609d74b51b382419280046bd9
+#: 5d2b69a31a014f0ab10267c6393a6bc1
 msgid "Message \"Impossible de se connecter à : ....  Merci de vérifier que l'adresse web que vous utilisez est correcte\""
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-problemes-connus.rst:21
-#: 83117178315c4f4da24955535949da18
+#: 467fc794f30246e2a191170a925ff2ed
 msgid "MS- Office ne gère pas les chemins de plus de 240 caractères. Veuillez par exemple"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-problemes-connus.rst:23
-#: bfebc9aeb03a42318007e07912f7ae46
+#: f12785af88b14b72bf8dc702b7218614
 msgid "réduire le nom du fichier"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-problemes-connus.rst:24
-#: 7506810f4a274a40927a7799feea5600
+#: a8f6131dee564a34b76d0da51da979aa
 msgid "ou utiliser LibreOffice ou OnlyOffice"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-problemes-connus.rst:26
-#: 7d9d3188b77d4f90a8213bd68d00ee95
+#: fe5730b979424b3480f79d641130e7bf
 msgid "Si le problème persiste, essayez de vider le cache de votre centre de téléchargement Microsoft Office"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-problemes-connus.rst:31
-#: 3f76024dc08b4252af0357749b9cb993
+#: 481032cc671842b196652649d505739b
 msgid "Message \"Échec du téléchargement\" : Impossible d'enregistrer sous Microsoft Office le fichier suite à une édition en ligne"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-problemes-connus.rst:33
-#: 1df7d381485b4f589e6ad756af98fbd2
+#: 42ff5e32b12e46edabd7197334c7b0a5
 msgid "Lors d'une édition en ligne d'un fichier Office, il peut arriver qu'au moment de l'enregistrement, un message indique que le fichier est en lecture seule et ne peut pas être enregistré."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-problemes-connus.rst:35
-#: 9950636b8cbc47fe8f0a85035971aee7
+#: 03000f95fe514867bae0643aadd5da48
 msgid "Ce problème est souvent la conséquence d'un dysfonctionnement du \"Centre de Téléchargement Office\". Ce centre est fait pour éviter de perdre son travail dans le cas d'une déconnexion avec le serveur distant (ici : GoFAST). Toutefois, il arrive que celui-ci bloque l'envoi des fichiers. Ces fichiers bloqués sont listés dans le centre de téléchargement."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-problemes-connus.rst:37
-#: d79f9912ea624807981a9ed7f97ae43a
+#: 3fbc0ff4150b44b48dbd3681f79067d1
 msgid "Deux solutions solutions sont ici proposées pour corriger le probléme:"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-problemes-connus.rst:39
-#: 3e0081b1ce9342ebaa49c3e89caf1850
+#: e943a1c33522438b8ee45f0ae8395bda
 msgid "1/ Plutôt que \"Enregistrer\", allez dans \"Enregistrer sous\", puis cliquez sur \"Récents\" et enfin sélectionnez le dossier où se trouve votre fichier. Enregistrez votre version en écrasant le fichier qui est sur le serveur."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-problemes-connus.rst:44
-#: 29bec563d26f4d0784272c730aa8d681
+#: cca93b08373347f7b05bb08ed0e1b761
 msgid "Si Office vous indique que l'enregistrement n'a pas pu être fait, suivez la procédure ci-dessous."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-problemes-connus.rst:46
-#: c1e58d433f7e4f6aac5b5d1ac51d7048
+#: 6c00efa59a9546ca9b32719e5da413dd
 msgid "2/ Le Centre de Téléchargement Microsoft Office bloque parfois le téléchargement d'un fichier et cela bloque tous les fichiers suivants. Il faut dans ce cas, ouvrir le Centre de Téléchargement Office (icône orange dans la barre des tâches) et vider la liste (voir les copies écran) :"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-problemes-connus.rst:57
-#: ce384999cd504a4fa427df3626e3a544
+#: 7cdb4a5489d748d290fb3d6f5dd001a2
 msgid "1/ Si vous envoyez (téléchargez) les versions bloquées dans la liste, vous écrasez la version qui est sur GoFAST avec une version qui est peut être obsolète. Attention donc aux dates de mise-à-jour sur GoFAST (historique/versions des documents)."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-problemes-connus.rst:59
-#: 658c65657b5c4b68bfe2426372c8c59d
+#: ea8bdc224ac341a88647ca8b2e1daa3c
 msgid "Écraser un fichier avec une nouvelle version est réversible car tout est versionné automatiquement avec GoFAST et on peut récupérer en un clic les anciennes versions."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-problemes-connus.rst:61
-#: d38305083ae240549f030be9bc065b79
+#: ac46f6f32a744073bc4453ea43dee17d
 msgid "2/ Si vous supprimez/videz la liste des documents dans ce centre de téléchargement Office, il est conseillé de vérifier que vous avez bien la version finale du fichier sur votre PC. Si vous n'avez jamais enregistré votre fichier sur votre PC, il faut cliquer sur \"Enregistrer une copie\" sur la version la plus récente dans le centre de téléchargement Office."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-problemes-connus.rst:63
-#: 79714fab4631405e88d2fc46046f8f70
+#: 6941d2b8042c424ea283a73bdc0bc776
 msgid "Une fois que les fichiers bloqués ont été supprimés :"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-problemes-connus.rst:65
-#: be42081e399a4b38b881ada0786eacf2
+#: 5e8bd71c9c0a42f9acdb7bef33451ff5
 msgid "1/ Votre fichier est ouvert en édition à partir de GoFAST et vous pouvez retourner sur le document dans Office (Word, Excel...) et re-cliquer sur \"Enregistrer\". Le fichier est alors téléchargé vers GoFAST."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-problemes-connus.rst:67
-#: 69ae575052084f249173540e6bdbbb06
+#: f549d8e399cb41e999428730b594a3f3
 msgid "2/ Le fichier est sur votre PC (ex: Bureau) et vous pouvez le glisser-déposer du PC vers GoFAST, sur la page du document (angle en haut à droite, zone en pointillés)."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-problemes-connus.rst:70
-#: e99206408bb247228bec4b91b8ef5510
+#: 7188ac2d31b04ab29c5745dc7372678b
 msgid "\"Mode protégé\" de MS Office avec le message \"Attention aux fichiers provenant d’un emplacement Internet\""
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-problemes-connus.rst:71
-#: 7c467bc063764a2ab580832922f5b14e
+#: e3ccb42cf0b045a6826534cfce60c072
 msgid "Lorsqu’un fichier est ouvert avec l’application MS Office depuis un emplacement sur GoFAST, une configuration d’Office fait que celui-ci est parfois ouvert en \"lecture seule\" pour des questions de sécurité."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-problemes-connus.rst:73
-#: a7c9259cdd9841a6979461d97fad9c20
+#: af7df4fb46684a22b126ae34a77d2329
 msgid "Si la configuration d'Office est dans ce \"Mode protégé\", à l'ouverture d'un document le message suivant s'affichera : \"Attention aux fichiers provenant d’un emplacement Internet, car ils peuvent contenir des virus\"."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-problemes-connus.rst:75
-#: 1531bba9682d4926a0032be3fee3710f
+#: 909081094f6d48ac93479cd9c352389e
 msgid "Ce comportement standard de MS Office est vu non pas comme un élément de sécurité, mais une contrainte dans l’utilisation de GoFAST."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-problemes-connus.rst:78
-#: 40d27d2eb0b8404f9c4c72084c4f747a
+#: ea143c2d332d4dbf855417ac01e69966
 msgid "Pour éviter ce message et ouvrir directement en mode \"édition\" :"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-problemes-connus.rst:79
-#: 223b92879c3f407aba36bc1b4a57259e
+#: 8745fc9262ec4e709b5f1172bbb14b59
 msgid "1/ Aller dasn la configuration concernée :"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-problemes-connus.rst:81
-#: a0ee2c0c73d24154bffb281d2c466ffa
+#: fca353850dc44c74b3967e2810976806
 msgid "Passer par les \"Options\" : Fichier / Option / Centre de gestion de la confidentialité / Paramétre du Centre de gestion de la confidentialité / Emplacements approuvés"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-problemes-connus.rst:85
-#: d2124bad0ab148bea660e988e4cea1a5
+#: 78589ed3035c4db69fa66cc0d65e1cb9
 msgid "OU alors, cliquer sur \"Paramétres du mode protégé\" dans : Fichier / Informations"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-problemes-connus.rst:89
-#: 52f0d10787914701b909f126f8a81a09
+#: b50a1e8dad7c4be3bb3122847578f6ea
 msgid "2/ Une fois dans les paramétres du \"Centre de gestion de la confidentialité\", onglet \"Emplacements approuvés\" :"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-problemes-connus.rst:91
-#: 0e4b1237113447c6aeb690f9f586169f
+#: f3295cc359554e678e3c9c1c4719fad4
 msgid "Attention à bien cocher \"Autoriser les emplacements approuvés sur mon réseau\""
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-problemes-connus.rst:93
-#: 7bfcbb6a34e0468fb0cc86ca61c494c4
+#: dda6306c81384de88b2671c37d9f6f6d
 msgid "Cliquer sur \"Ajouter un nouvel emplacement\" et coller l'URL de votre GoFAST avec à la fin de l'URL \"/alfresco/webdav\" (ex: https://gofast.ceo-vision.com/alfresco/webdav/)"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-problemes-connus.rst:95
-#: ca2918e442f14f1baa8fc3fe8bc083c3
+#: 72d4de3783f94a548ead78c9d89c111e
 msgid "Attention à bien cocher \"Les sous-dossiers de cet emplacement sont également approuvés\" pour que MS Office autorise tous les emplacements accessibles à l'utilisateur sur GoFAST."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-problemes-connus.rst:101
-#: 1035b05b726248b692f13ac42db89392
+#: 8e9002d95be2492eb6cbb8e621453265
 msgid "Problème Explorateur de fichiers Microsoft"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-problemes-connus.rst:103
-#: bd5f1c63881643f2ab95b40f094b3bef
+#: 40a9f8c2f7b84b05bbc7f64ffb9cb9b7
 msgid "L'explorateur de fichiers Microsoft fonctionne plus ou moins bien suivant les versions de Windows. Si vous rencontrez des problèmes persistants nous vous conseillons d'installer un logiciel tier comme Cyberduck https://cyberduck.io . Néanmoins il n'est pas possible dans ce cas à partir des applications Windows de faire 'Ouvrir à partir' ou 'Sauvegarder sous' en spécifiant un emplacement GoFAST."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-problemes-connus.rst:106
-#: acac6dbb418b4a328e10dc7331a9f0c4
+#: 8fc1803a8c544ea9af1424ce4f349ccd
 msgid "Message \"Impossible d'enregistrer le fichier car sa taille dépasse la taille autorisée\" (0x800700DF)"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-problemes-connus.rst:108
-#: 38ae35f710b34150bb2ea0a7383c2f6d
+#: 4c19bd378b0a407c84cb3ad7cf2b182c
 msgid "Le message Windows provient d'une limitation imposée par le système Windows, qui empêche le transfert de gros fichiers par Webdav. Voir le correctif sur le site de Microsoft : https://support.microsoft.com/fr-fr/help/900900/folder-copy-error-message-when-downloading-a-file-that-is-larger-than"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-problemes-connus.rst:111
-#: 75de9a1e920e473db0a72c80c1a2c1f4
+#: de4c7f1498034219a0d02e4cf108e6a6
 msgid "Message \"Erreur réseau\" avec Explorateur Windows (0x80070035)"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-problemes-connus.rst:116
-#: 78a60d0d3f004bd69111564c59d4fe5f
+#: d3e84c190a644ce7aba414f5111bc391
 msgid "Dans le cas de ``\"Windows ne peut accéder à ...\"``, vérifier que le service ``webclient`` est démarré."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-problemes-connus.rst:118
-#: 3ada860178b14f998a71cc81b4d5e219
+#: 761261c2c2164c458589059b47277b11
 msgid "Le détail de l'erreur 0x80070035 : ``\"Le chemin réseau n'a pas été trouvé\"``"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-problemes-connus.rst:121
-#: 89d77f3e599e4446add312289329192e
+#: 47ee5667ab02439fa401ec471d17a5e0
 msgid "Message \"La taille du fichier dépasse la limite autorisée ...\" (0x800700DF)"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-problemes-connus.rst:123
-#: cb1be23bc21649c5b23aa55367ec18a8
+#: 094ff288093d4f35a5ae8381c5f95644
 msgid "Si le fichier copié dépasse les 50MB, Microsoft affiche un message d'erreur de type \"Erreur 0x800700DF : La taille du fichier dépasse la limite autorisée et ne peut pas être enregistrée.\"."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-problemes-connus.rst:125
-#: 2b4ea71f13054d90a5055e6f4ca0be5e
+#: 486f1e6ea5f7453b9af635e3fac80169
 msgid "Afin d'éviter ce message:"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-problemes-connus.rst:127
-#: 3ad878eb9deb44cbb89ffd372c78f578
+#: da4c033d78a6499cbdf06d08b6947446
 msgid "demander une modification de la base de registre tel que proposé par Microsoft : https://support.microsoft.com/fr-fr/help/900900/folder-copy-error-message-when-downloading-a-file-that-is-larger-than"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-problemes-connus.rst:128
-#: cc61fc73a47641a3a00b9dd05c09eb8e
+#: 31be35efb83a42b49ed96a0afabb00f9
 msgid "utiliser GoFAST File Browser"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-problemes-connus.rst:129
-#: 47353bbec2c1407fb69f76d01e3ba7af
+#: 53de559415eb4c04b16f9207240dfcc6
 msgid "utiliser un explorateur de fichier autre que celui de Microsoft (ex. CyberDuck)"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-problemes-connus.rst:131
-#: 927ddfafe5984c7a8bf08335076e7606
+#: b1207f9508504466981802a41db484f0
 msgid "A noter que le même problème existe si on essaie de lire un fichier de plus de 50MB. Dans ce cas le message est : \"Lecture impossible Réessayez. Si le problème persiste, rendez-vous sur https://support.microsoft.com pour demander de l'aide.\" (0x80004005)"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-problemes-connus.rst:135
-#: b828478e78ba4ea9b3e35d6ffe03b16a
+#: bac61e95c82547dda4d92a70918d57bd
 msgid "Espace disque insuffisant vers un lecteur Webdav sous Windows"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-problemes-connus.rst:140
-#: d294d03c3d9b47229182fee49450329a
+#: 7e5af1f2526e4959aba35f0e68a3dbb1
 msgid "Lorsque Windows affiche que vous manquez d'espace disque, il n'y a en réalité, aucune inquiétude à avoir."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-problemes-connus.rst:142
-#: cc2f2c72c4ce4d3ea94e4e3dee320e0d
+#: 77a9c4d3ef3e4c16979fdd7ada75f6b5
 msgid "C'est un bug Windows. En effet, comme Windows n'est pas capable de récupérer l'espace disponible par Webdav, il se base sur l'espace disque de l'ordinateur."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-problemes-connus.rst:144
-#: 3b5cab101a3e4536b513373745514fbe
+#: 6ae9de1301ad411292fb3eb050512c92
 msgid "Donc si vous n'avez pas assez d'espace disque sur votre ordinateur, Windows va indiquer qu'il n'y a pas assez d'espace disque sur le serveur, alors que si."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-problemes-connus.rst:146
-#: 8253b13d915e46ed847af0614fd403cb
+#: 6ea55732b4cf4690aaaccc99f0c78a28
 msgid "Ainsi, si vous avez besoin d'ajouter des documents sur votre serveur, vous devez faire de la place sur votre disque local, il n'y a pas d'autre choix pour contourner ce bug Windows (ou utiliser un autre moyen que le lecteur Webdav Windows : par exemple, l'explorateur de fichiers intégré à la plateforme)"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-problemes-connus.rst:148
-#: 27b05fdab79544829699034997e5993c
+#: 608a365cf6b64e09a14ecd7a53fd2c01
 msgid "Concrètement, si vous souhaitez déposer un fichier de 2 Go sur GoFAST en Webdav, il faut vous assurer d'avoir au moins 2 Go de libre sur votre PC pour contourner ce bug Windows."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-problemes-connus.rst:152
-#: e2886e9f6050408f8e4c0206c52f8896
+#: 0de5597d9fc5439795383e4b2ee07b35
 msgid "Impossible d'éditer en ligne des contenus PDF avec Acrobat Reader (v18)"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-problemes-connus.rst:153
-#: 163faf1859a24011a0ee1523747567b8
+#: 3f52c2d7bbed4567a1a0833a231443ef
 msgid "Il faut vérifier que l'application Acrobat Reader soit déjà fermée avant le lancer l'édition en ligne. Ce problème n'existe pas avec FoxitReader"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-problemes-connus.rst:156
-#: 3133a8d505b94bce8ae192bc628d86ad
+#: 423e6b8f6e1c4df1839f74fa7a8004da
 msgid "Problèmes Webconference"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-problemes-connus.rst:158
-#: bd6b695c067e4c96bea5811768cbd04a
+#: 4a0c4de7e64543bfaff29d18e4d91d04
 msgid "La webconference nécessite du matériel (PC et infrastructure réseau local et internet) récent et fonctionnel. Des configurations réseaux spécifiques sont nécessaires. Vérifier ceci avec votre administrateur."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-problemes-connus.rst:160
-#: fb9694f662fa4666a8bcb8306fca5f1f
+#: 065a075ef65a492bbff46423c368273c
 msgid "L'utilisation de 4G permet d'avoir des débits meilleurs et moins de filtrage de ports que l'utilisation d'un simple ADSL. Nous avons constaté que l'utilisation d'une même navigateur pour tous les participants pouvait augmenter notablement la qualité, notamment avec FIREFOX v60+"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-problemes-connus.rst:163
-#: a6b7953fc1f647eb9d5789856cdd795c
+#: 00a0c375d263402c8e9eaa16ab26a136
 msgid "\"Pas audio/video pour les autres participants\""
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-problemes-connus.rst:164
-#: af53e9d1145147ea8eeed3c5791699de
+#: 59116247c72847218c306604f36de8c5
 msgid "Vérifier avec votre administrateur réseau que les règles de filtrage ont été correctement appliquées. Il est possible de contourner temporairement ce type de problème en utilisant une connexion 4G."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-problemes-connus.rst:167
-#: 15984ea3e2764af0ac046906029f2110
+#: 5461085913614d32aba7155afa907d56
 msgid "\"Unfortunately, something went wrong\" / \"Un problème est survenu\""
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-problemes-connus.rst:168
-#: 6a7f1b56852745c7911c9c29205cc440
+#: 4f37ef08e8e740dab6b57eb6e6eaa229
 msgid "Vérifier que les ressources de votre PC ne sont pas saturées (Processeur, Réseau), en faisant un CTRL+ALT+SUP puis \"Gestionnaire des taches\" et que votre PC est suffisament puissant."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-problemes-connus.rst:170
-#: c24dd7d11358450084c1f60b08987026
+#: d9a447d25aaf4477b1c3208abe4c0965
 msgid "Si cela arrive au tout début de la webconference, rafraichir la page ou clic sur F5"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-problemes-connus.rst:173
-#: aa726ac4a6ac4f7881584a55e6e0af1a
+#: 2f12bc72047c4efc8cd268182f4e3831
 msgid "Pas de Webconférence sous Safari"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-problemes-connus.rst:175
-#: 9cc1e10476a74d6ebfe0a1675ba46fb7
+#: 9fabd49e4c2f4110aca981912f7e1ddd
 msgid "Le support de Safari du protocole WebRTC utilisé par le composant de webconference Jitsi-Meet est assez récent et ne fonctionne pas totalement. Nous vous recommandons d'utiliser Chrome pour Mac éventuellement le plugin Temasys  (non supporté)"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-problemes-connus.rst:178
-#: 82ebcc222f824a1dbb9d39b6a4f3ddea
+#: c1a3a14f9f9b46a3b7f7355b3838e082
 msgid "IE11: \"Vous utilisez une version non compatible d’IE\""
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-problemes-connus.rst:180
-#: 532c88ba5e8545ef985efa05820ef26e
+#: bbae9d805c1f43349ffd400cf764f3ca
 msgid "Ce cas indique que IE11 est en mode de compatibilité (et fonctionne donc comme IE7/8/9/10 suivant ce qui a été choisi, voir copie d'écran)."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-problemes-connus.rst:182
-#: 2ca15b5aa70c4851810a900a38f60c53
+#: 8bb9a8cabebc4aa2936ebba06a62dfab
 msgid "Nb: Souvent il s'agit de décision pour garder la compatibilité avec des anciennes applications qui ne fonctionne pas avec une version récente d'IE (pourtant les seules recevant des correctifs sécurité puisque Microsoft a abandonné IE au profit de Edge)"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-problemes-connus.rst:184
-#: 0a2581338dd548d2ab742426c0f64423
+#: f03ae2a5581842159d20f63b0e09ca51
 msgid "Pour changer ce mode, cliquer sur la roue crantée, \"Outils de développement\" et changer \"Chaîne de l'agent utilisateur\" par IE11 au lieu de IE10 (ici sur la copie d'écran)"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-problemes-connus.rst:188
-#: 34221ddce0e746238acd4c4a565c8e64
+#: 86cc27a5205c451caeede148e121a85e
 msgid "Problème de Chat Collaboratif - Messagerie live"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-problemes-connus.rst:191
-#: d544fe6cd7e244a782a6ee4220f31b14
+#: 4e8c3aa2b8504d8184b6d8f4c9ce4774
 msgid "Volet du Chat vide et hors connexion"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-problemes-connus.rst:193
-#: 9049d667c4204ae0904180552772a1d6
+#: 3e34543e504f4dc4879ef66c68f1f863
 msgid "Dans certains cas, il peut arriver que le bloc latéral de droite dédié au Chat collaboratif, reste vide. Comme ci-dessous :"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-problemes-connus.rst:201
-#: de607bd9e280405a912e23c45e4ea760
+#: 9bd9869f6aac409b8178ed2c135b052c
 msgid "Cela arrive lorsque le navigateur web ne parvient pas à connecter l’utilisateur au serveur de Chat à cause de la présence de plusieurs onglets pointant vers GoFAST. Par exemple, si vous avez 3 onglets ouvert vers la plateforme dans votre navigateur Firefox."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-problemes-connus.rst:208
-#: 0ef2036ae89c4c7783725788c94e726f
+#: 9474c7ea37e24549badbacf1a8b7af53
 msgid "**Comment résoudre le problème :**"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-problemes-connus.rst:205
-#: 87a5bbcca8c5485992a1b9e264291432
+#: 00c2b5cf8d294b6d85856da513316501
 msgid "Fermez tous les onglets ouverts sur GoFAST, sauf 1"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-problemes-connus.rst:206
-#: fbcc801539fe420bb10a177ef8296552
+#: fd9ec86aa57b48ff81cdb9fa2e40b7f5
 msgid "Recharger la page, de préférence en faisant un ‘Ctrl+F5’ ou ‘Fn+F5’ (dépend de votre PC)"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-problemes-connus.rst:207
-#: 1c19c3a1c81342d488e94e82d01c6097
+#: cfcfc6918e3949d9bdbe6ee34fb2245c
 msgid "Le volet du Chat va se reconnecter, puis vous pouvez rouvrir vos autres onglets GoFAST (ceux fermé précédemment)."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-problemes-connus.rst:211
-#: 017d9358968d4970a5b28f39aab72f5e
+#: 866212950dfb4ea9ab7d5fd2482baf71
 msgid "Problème de prévisualisation"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-problemes-connus.rst:213
-#: 4f8015bc3aa140af96d595e09df56dc4
+#: 6643e097ecd64f3f84fd98fb16b727af
 msgid "Pas de streaming Video"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-problemes-connus.rst:215
-#: 0d2d0701ae8543e79331a7a1c4ec7ec9
+#: 081379d357244a5581cea99150c1d7e8
 msgid "L'avantage du streaming video est de regarder directement une séquence video dans le navigateur (GoFAST) sans avoir à la télécharger. Sans plugin, ceci est dépendant du navigateur et du format video."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-problemes-connus.rst:218
-#: 45e0e8d361d94f75a665379a43939cee
+#: 7d8c02346e864be3ae18cef848ea02dd
 msgid "Format"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-problemes-connus.rst:218
-#: df720b1097e648f2bfde3fd740801467
+#: e14818407a2b47208e7d2cc79b9ba9e4
 msgid "MP4"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-problemes-connus.rst:218
-#: efa1bfdc8f304f87b72954ee8ef04384
+#: 095f7ca6a2b5441fb76715b969a2648c
 msgid "WMV"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-problemes-connus.rst:218
-#: ed21d6cfd9304e9e81a32db65308bf9a
+#: 37a93f6b9a304c4a95f7cd62347ebb84
 msgid "FLV"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-problemes-connus.rst:218
-#: ab5e7c7799fa45ad8d85e8c5a3c1f71f
+#: 539b05e21ab4403fb7861032b20cd6eb
 msgid "AVI"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-problemes-connus.rst:218
-#: 0ec69a89c014432f94b160ec43dbbba6
+#: d32459201cf0497192bb096236412740
 msgid "OGV"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-problemes-connus.rst:220
-#: 6ba87cfc72f7423db9a69484e8ed2ded
+#: d6cb2d139b7c445ab51d60fb17e5fdb4
 msgid "Firefox"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-problemes-connus.rst:220
 #: ../../docs-gofast-users/doc-gofast-problemes-connus.rst:222
 #: ../../docs-gofast-users/doc-gofast-problemes-connus.rst:226
-#: 67483e365a0c49b498827f73601f63b4
-#: 09a993cee0994a50934de4c61cebf6be
-#: 2603df4e49bb45b68875ca44b5cfa5b9
+#: 6a8d09fa1f164e6c85fbf57942d7ff97
+#: f27af5eb1b84495f814120c7ef1349ab
+#: f921fa3f0d004601ab435abda7bd19b9
 msgid "OUI"
 msgstr ""
 
@@ -479,42 +479,42 @@ msgstr ""
 #: ../../docs-gofast-users/doc-gofast-problemes-connus.rst:222
 #: ../../docs-gofast-users/doc-gofast-problemes-connus.rst:224
 #: ../../docs-gofast-users/doc-gofast-problemes-connus.rst:226
-#: 3c8140459af14fb38dbfc88797dacfcb
-#: e1a0353918394638a833f2fe2d2b2155
-#: 523aec895d4c419197463f3a0cca0a45
-#: 8a12af928d34445aaf16255ce04a2cd5
-#: 47c416cb2d1f477996f27a4bc3da758f
-#: f0fde0b790064181b35a0aee16a2c360
-#: 3c0cd0a18e6d488e9cd3a662a5c71ea0
-#: 96964e9a56114fe7aac56300125c887c
-#: 219eceaed8114bdb8850bcb4b6d2c32c
-#: 0fcc7867a2ff4768a41cc142496b0359
-#: 2308752624f248e18657a379d07e5795
-#: f12e72a4fc194bd79fcf58f5d0611d2b
-#: 01d14074500d428f972972f0115e1b7f
-#: 182804331b1c4079899bee8cdb2c7cdd
-#: 806d1ddeb82041c6b5f3431c31cbf802
-#: f1504ce1303740dbadf48764c1c5ada9
-#: 38df0d58f5ae44b6a9fc667586e7e889
+#: acca8bf47d9a47f5bf98fde5d8a70c98
+#: 5779aae2fe2c4957b88612668f66bc62
+#: bed2e0f332904fd697bbda783946db6b
+#: 8b97f0e11a364fd9a14446de525d5034
+#: 94e47c88beac44a5b9f6a0d2d9edc36c
+#: 096921a08dc84b67b86bb614adba7bd7
+#: 09c562326b4c40f68d24bf4827271073
+#: 7b97f688862545e0b4bf5c74d42a4f98
+#: 38df85329a7c44c09d9b3eacd0179e9a
+#: bc7354df04d9439c977d5e67ac4f977c
+#: e4c34436dbd24c1fbdd8127171331c31
+#: c02f94fd8ab448a6ac4f774f5a77a9a2
+#: 60eb241699b3459e9f46d91cfeeff682
+#: e8e7f4d39e244d9ab25275e0d7c1b044
+#: 3047443577e84c9d90ed4b7800cdef65
+#: e365ea000dcb442eac72b3db9367ca4b
+#: fe79163cf1ef4d2abd7a48c07e5883c2
 msgid "NON"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-problemes-connus.rst:222
-#: 3f4d14194a734e2fb329ade29f2344ee
+#: 326ef202b70d4568bcfb42d561238134
 msgid "Chrome"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-problemes-connus.rst:224
-#: e374d87024ec4c6eb6c372e1d6fb0aca
+#: a088d284d17a4f43a49a1c26bd4cdd11
 msgid "IE11"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-problemes-connus.rst:226
-#: e34528a357e941e9ab0846547becb7c6
+#: 7f80305521d44bcd8b3a50a1a7b90734
 msgid "Safari"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-problemes-connus.rst:228
-#: c26796758c754261b7e469d767a0ac29
+#: 9b82ed6d7aa44dd68f82f736474c85a8
 msgid "Edge     |    OUI     |   NON     |    NON    |    NON    |   NON"
 msgstr ""

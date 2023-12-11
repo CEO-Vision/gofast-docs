@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gofast-docs latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-28 18:44+0100\n"
+"POT-Creation-Date: 2023-12-11 18:10+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,134 +17,134 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../../docs-gofast-technical/gofast-deploiement-certificats.rst:3
-#: c39cf1b73c4241adbfa6586a6cad5f74
+#: d6f2295291f34cceb012b9140a8756d9
 msgid "Deploiement Certificats GoFAST :"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-deploiement-certificats.rst:6
-#: f53e0b3d59084e619ddf6c641edb39ad
+#: bc14fc6d83f0487dbe3bd4aa56ad288f
 msgid "Wildcards :"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-deploiement-certificats.rst:8
 #: ../../docs-gofast-technical/gofast-deploiement-certificats.rst:33
-#: 8ac3fd085053497db720ac43985bf06e
-#: 28da2f7bf32343f58690618a17f184b5
+#: 8cbaa7fbeebc4b3389bb4100dcb51d6d
+#: e5167412c2164219804a841bac4bf564
 msgid "MAIN :"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-deploiement-certificats.rst:10
-#: 840b2746b58942d6bbfc68e8f972558c
+#: 55ac0e295a164b23b94aa0e91f8f7b53
 msgid "déposez le dossier contenant les certificats dans /opt"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-deploiement-certificats.rst:12
 #: ../../docs-gofast-technical/gofast-deploiement-certificats.rst:20
-#: d29dcef9f62942aeb6a1ad1922dbd120
-#: 2ee3b8325834434da1ddbdb94731d49c
+#: ca3fee434bb3433aa73567540eefdb06
+#: cd272cafc1ce47bf81c287b6bbefd4e5
 msgid "copiez le certificat vers /etc/pki/tls/certs/localhost.crt"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-deploiement-certificats.rst:13
 #: ../../docs-gofast-technical/gofast-deploiement-certificats.rst:21
-#: a9a3d98da73c4d489cb0df151fbc15bb
-#: f7a3caaeb4fc481fb67abdcf38d492b4
+#: 87334b51ba2b4089ac15a50608748276
+#: 6f886105ff4c4ebaba6bf0565cef1503
 msgid "copiez la clef vers /etc/pki/tls/private/localhost.key"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-deploiement-certificats.rst:14
-#: 5fe543e0c4ac469688c0e0fabc832e0a
+#: 47279141eb5745bbba9de9cce10223d7
 msgid "copiez le server-chain vers /etc/pki/tls/certs/server-chain.crt"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-deploiement-certificats.rst:18
 #: ../../docs-gofast-technical/gofast-deploiement-certificats.rst:37
-#: e4874c694d40478186eee1ce45552d96
-#: a31e4413657d414a97801130af88af25
+#: 5c94e17594cc4385aaa9036fc1bf9d59
+#: 397ecd20c9a745208f3dbdb8cd49bcf8
 msgid "COMM :"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-deploiement-certificats.rst:28
-#: 403b54d814d84a7ba003b65ca937e53f
+#: 4d923fe8af6e4670b2f2a8f3bd26eda3
 msgid "Cela fait, redémarrez le service \"nginx\" sur la comm et le service \"httpd\" sur la main."
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-deploiement-certificats.rst:41
-#: d5ea393c563d47a79b27d3fe7f915723
+#: ad3fc1f859ea44fbaf1ce5a1eb492d98
 msgid "Testez les services (coo-édition, cadena coo-édition, visio, chat), corriger si ceux-ci ne fonctionnent plus."
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-deploiement-certificats.rst:45
-#: 7d84b72fab0f486f8e24d3f49d888566
+#: f6f342faed7344e0af9a76969317ce07
 msgid "Correctifs à faire (si mauvais fonctionnement des services) :"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-deploiement-certificats.rst:48
-#: b5535697f44543ffb7990c485e6c5107
+#: 092443fc4ed84a69a54e19123416f78b
 msgid "Problème connexion non automatique au chat Element (COMM):"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-deploiement-certificats.rst:50
-#: c298570d2e274ed1af946bb781f6d4c1
+#: e6081ef3cf554f1a837805b64e31db96
 msgid "Commandes à exécuter sur la plateforme COMM (en ssh) pour corriger le problème de connexion non automatique au chat."
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-deploiement-certificats.rst:62
-#: d9f2d41fccf640a9af1d649e5dd767f2
+#: 42c051f7b41f458f9f75498d16cb8fdd
 msgid "Problème Cadenas OnlyOffice et non sauvegarde du document (MAIN):"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-deploiement-certificats.rst:64
-#: faaa3724569b4913ad2ad90109190c12
+#: 58e007b789ca41d489256957fc54ad8e
 msgid "Commandes à exécuter sur la plateforme MAIN (en ssh) pour corriger le problème de cadenas qui reste fermé à la sortie d'une coédition OnlyOffice (attention ce problème provoque que toute édition sur le document ne sera pas sauvegardé)"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-deploiement-certificats.rst:78
-#: 60305e8264d24784ba2eb782c6cf2d5f
+#: f9f2ada46b8c4fde88636eb21bdbe4ee
 msgid "Problème Certificats Visio (COMM):"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-deploiement-certificats.rst:80
-#: 9846888260e5425cab68fadd1092ee97
+#: 26623e85d2794ce49a87a47bec516880
 msgid "Commandes à exécuter sur la plateforme COMM (en ssh) pour corriger le problème de visio-conférence à trois minimum impossible. (avec flux vidéo):"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-deploiement-certificats.rst:84
-#: 78ce605007ff4a2aa50c538904adafaf
+#: 982fc9514b06407190510738328ea36e
 msgid "La GED va redémarrer suite à ces commandes, faites en sorte de vous assurer que personne ne travaille dessus."
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-deploiement-certificats.rst:109
-#: d252a0b1bf4b4b528c48a2ec59748b88
+#: 80c0b952176d467b97bb117b98ef81ac
 msgid "Entrez les informations suivantes pour la commande \"prosodyctl cert generate auth.${server_name}\" :"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-deploiement-certificats.rst:111
-#: 4b5a70eae793418fb32c1f5160f77608
+#: c0df78d70bf4416ab4ef21617123f2aa
 msgid "4096"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-deploiement-certificats.rst:113
-#: e4732113fd1f4c7183253e532fdfacd6
+#: 350a0cea82394fd995e46ebacf951eca
 msgid "FR COMM"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-deploiement-certificats.rst:116
-#: c2eacbed06e548ae9cdadcac0349d296
+#: 7b3184578d314c978b16287094c47f31
 msgid "GOFAST"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-deploiement-certificats.rst:118
-#: 3fd44d1d5a914aa79061dfa7e31b2a92
+#: fcd85000b0194aa2b54e2797c924e307
 msgid "XMPP"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-deploiement-certificats.rst:120
-#: 3fe61093b2b44505ae51636c60ec8d06
+#: 94ae290321824b6398523d75b6463c89
 msgid "auth.${server_name}"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-deploiement-certificats.rst:122
-#: 69bb5200f99345a7b9627b640b86a1a5
+#: 9409b364c8d84f4ba0a3aa985ebddc14
 msgid "xmpp@auth.${server_name}"
 msgstr ""
