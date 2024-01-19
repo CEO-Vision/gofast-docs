@@ -17,7 +17,7 @@ Ce guide vous apprend à utiliser GoFAST de la manière la plus efficace possibl
 Concept GoFAST Digital Workplace GED
 -----------------------------------------------------
 
-GoFAST en 2 mots
+GoFAST en 3 mots
 ~~~~~~~~~~~~~~~~
 
 GoFAST, fruit de plusieurs années de développement, est une puissante plateforme collaborative et de gestion documentaire. GoFAST est basée sur les technologies Open Source les plus reconnues et éprouvées, dont Alfresco, Drupal, Bonitasoft, OnlyOffice, Element et bien d'autres. 
