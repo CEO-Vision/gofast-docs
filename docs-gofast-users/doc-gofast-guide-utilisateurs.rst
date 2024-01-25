@@ -807,8 +807,6 @@ Vous allez être redirigé vers la page de gestion du formulaire où seront affi
 
  - Dans ses contenus favoris (si on y a ajouté le formulaire au préalable)
 
-.. figure:: media-guide/[IMAGE]
-   :alt: 
 
 .. NOTE::
    Une fois que votre formulaire est créé, vous arriverez sur la page du formulaire. C'est sur cette page qu'arriveront les utilisateurs qui rempliront votre formulaire. Pour l'instant, elle est vide et tant que vous n'aurez pas publié votre formulaire, personne ne pourra le remplir. 
