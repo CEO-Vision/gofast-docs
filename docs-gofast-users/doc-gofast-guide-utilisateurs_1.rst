@@ -953,9 +953,6 @@ Ensuite, il est possible de paramétrer la fréquence de ses notifications par �
 .. figure:: media-guide/image224.png
    :alt:
    
-.. figure:: media-guide/image225.png
-   :alt:
-
 Un message apparaît dans le coin droit supérieur, pour vous confirmer la prise en compte de l'abonnement ou du désabonnement.
 
 .. figure:: media-guide/image226.png
