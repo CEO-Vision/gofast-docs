@@ -15,7 +15,7 @@ Nouvelles fonctionnalités
    "GOFAST-11260","Nouvelle fonctionnalité : Ajout de la capacité d'inviter des participants internes et externes à rejoindre des réunions JITSI"
    "GOFAST-10466","Nouvelle fonctionnalité  : ajout des actions de masse à l'annuaire des contacts" 
    "GOFAST-10468","Nouvelle fonctionnalité  : activation de l'audit Alfresco"
-   "GOFAST-10484","Nouvelle fonctionnalité : le champs de métadonné "Titre" est désormais éditable côté GoFast"
+   "GOFAST-10484","Nouvelle fonctionnalité : le champs de métadonné 'Titre' est désormais éditable côté GoFast"
    "GOFAST-10531","Nouvelle fonctionnalité : Sauvegarde et version intermédiaire du document dans la GED à la sauvegarde dans Onlyoffice"
    "GOFAST-10596","Nouvelle fonctionnalité : Avoir le nombre d'utilisateurs actifs interne/externe dans les statistiques"
    "GOFAST-10658","Nouvelle fonctionnalité : possibilité de modifier graphiquement la configuration du module GoFast Webhook depuis l'interface utilisateur"
@@ -34,7 +34,7 @@ Nouvelles fonctionnalités
    "GOFAST-8549","Nouvelle fonctionnalité d'audit orienté utilisateur"
    "GOFAST-8603","Nouvelle fonctionnalité  : Règle de nommage optionnel des fichiers basée sur les métadonnées (catégorie, date)"
    "GOFAST-8792","Nouvelle fonctionnalité  :  recherche multicritère et avancée"
-   "GOFAST-8800","Nouvelle fonctionnalité  :  ajout de métadonnées "Date Custom" dans les métadonnées standards"
+   "GOFAST-8800","Nouvelle fonctionnalité  :  ajout de métadonnées 'Date Custom' dans les métadonnées standards"
    "GOFAST-9029","Nouvelle fonctionnalité : introduction d'une fonctionnalité de délégation et de réassignation d'une tâche de processus en cas d'absence de l'utilisateur assigné"
    "GOFAST-9118","Nouvelle fonctionnalité  :  possibilité d'ajouter une échéance sur chaque tâche du processus standard"
    "GOFAST-9221","Nouvelle fonctionnalité  : Ajout d'un connecteur eIDAS Signature Qualifiée (DigitalSign)"
@@ -52,11 +52,10 @@ Améliorations
    :header: "Ref.", "Description"
    :widths: 1000, 60000
 
-
    "GOFAST-10157","Amélioration : Ajout de filtrages pour l'annuaire de contact"
-   "GOFAST-10281","Amélioration : ajout d'une option de signature de documents via "utilisateur" ou "contact" pour pouvoir signer dans un espace non accessible"
+   "GOFAST-10281","Amélioration : ajout d'une option de signature de documents via 'utilisateur' ou 'contact' pour pouvoir signer dans un espace non accessible"
    "GOFAST-10436","Amélioration : Les changements apportés par PN-6 (branche PN-4) ont été backportés à la modale de suppression pour améliorer la fonctionnalité de suppression"
-   "GOFAST-10453",Amélioration : homogénéisation de l'éditeur riche des commentaires"
+   "GOFAST-10453","Amélioration : homogénéisation de l'éditeur riche des commentaires"
    "GOFAST-10467","Amélioration : Mise à jour Onlyoffice 7.5"
    "GOFAST-10470","Amélioration : Modification du nom par défaut des fichiers compressés pour remplacer l'ID aléatoire actuel par un nom plus significatif et facilement identifiable"
    "GOFAST-10599","Amélioration : optimisation du chargement des statistiques des espaces"
@@ -121,7 +120,6 @@ Bugs
 .. csv-table::
    :header: "Ref.", "Description"
    :widths: 1000, 60000
-
 
    "GOFAST-10020","[CHROME OS] Correction d'un bug, l'onglet tâche workflow était vide et mal positionné"
    "GOFAST-10041","Correction d'un bug sur le menu "Plus" d'un répertoire, le fichier disparaissait"
