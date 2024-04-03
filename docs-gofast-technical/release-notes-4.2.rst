@@ -252,7 +252,7 @@ Bugs
    "GOFAST-9296","Correction d'un bug de filtres de recherche qui ne se replient pas"
    "GOFAST-9307","Correction d'un bug de supervision du nombre de participants sur Zabbix"
    "GOFAST-9496","Correction d'un bug de lenteurs sur la page de création lorsque l'utilisateur possède beaucoup d'espaces"
-   "GOFAST-9560","Correction d'un bug où il était impossible de faire des recherches contenant un %'
+   "GOFAST-9560","Correction d'un bug où il était impossible de faire des recherches contenant un %"
    "GOFAST-9684","[ESSENTIAL] Correction d'un bug où une erreur survenait lorsqu'une modification externe était apporté dans l'explorateur de fichiers"
    "GOFAST-9703","Correction d'un bug d'optimisation d'appel"
    "GOFAST-9768","Correction d'un bug où l'écran de connexion présentait des dysfonctionnements après une mise à jour de GoFast"
