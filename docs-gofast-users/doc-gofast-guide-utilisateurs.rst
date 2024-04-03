@@ -807,6 +807,8 @@ Vous allez être redirigé vers la page de gestion du formulaire où seront affi
 
  - Dans ses contenus favoris (si on y a ajouté le formulaire au préalable)
 
+ - Il est aussi possible d'ajouter un formulaire aux favoris d'un espace.
+
 .. figure:: media-guide/[IMAGE]
    :alt: 
 
