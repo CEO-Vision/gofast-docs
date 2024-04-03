@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gofast-docs latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-04-03 12:40+0200\n"
+"POT-Creation-Date: 2024-04-03 17:24+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,52 +16,2401 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../../docs-gofast-technical/release-notes-4.2.rst:5
-#: a0397d60b4cf420695cc22b86755ba7c
+#: ../../docs-gofast-technical/release-notes-4.2.rst:3
+#: 3416819d2c8542d195528611cf9f1169
 msgid "GoFAST :  Version 4.2"
 msgstr ""
 
-#: ../../docs-gofast-technical/release-notes-4.2.rst:8
-#: 9d111ec227974f34ac1d7c8f3806ae0d
+#: ../../docs-gofast-technical/release-notes-4.2.rst:5
+#: bc196c1d728d4568974d584cc6319f0e
 msgid "**[GoFAST Enterprise]** N’hésitez pas à solliciter notre support pour planifier la mise à jour."
 msgstr ""
 
-#: ../../docs-gofast-technical/release-notes-4.2.rst:12
-#: 12d91cf75f6a454d8adaa6e0ed50e0ae
+#: ../../docs-gofast-technical/release-notes-4.2.rst:9
+#: 2e3390d9205049949a9a8b6cefc87c5c
 msgid "Nouvelles fonctionnalités"
 msgstr ""
 
-#: ../../docs-gofast-technical/release-notes-4.2.rst:18
-#: 1f5ea95d3772489dadcdb774919010ff
-msgid "\"GOFAST-11260\",\"Nouvelle fonctionnalité : Ajout de la capacité d'inviter des participants internes et externes à rejoindre des réunions JITSI\" \"GOFAST-10466\",\"Nouvelle fonctionnalité  : ajout des actions de masse à l'annuaire des contacts\" \"GOFAST-10468\",\"Nouvelle fonctionnalité  : activation de l'audit Alfresco\" \"GOFAST-10484\",\"Nouvelle fonctionnalité : le champs de métadonné \"Titre\" est désormait éditable côté GoFast\" \"GOFAST-10531\",\"Nouvelle fonctionnalité : Sauvegarde et version intermédiaire du document dans la GED à la sauvegarde dans Onlyoffice\" \"GOFAST-10596\",\"Nouvelle fonctionnalité : Avoir le nombre d'utilisateurs actifs interne/externe dans les statistiques\" \"GOFAST-10658\",\"Nouvelle fonctionnalité : possibilité de modifier graphiquement la configuration du module GoFast Webhook depuis l'interface utilisateur\" \"GOFAST-5102\",\"Nouvelle fonctionnalité : Only Office est désormait compatible avec la langue Arabe.\" \"GOFAST-5839\",\"Nouvelle fonctionnalité : possibilité de pouvoir prévisualiser les fichiers au format Autocad (DWG)\" \"GOFAST-6056\",\"Nouvelle fonctionnalité : Pouvoir organiser les favoris dans des dossiers personnalisables et hiérarchisés\" \"GOFAST-6887\",\"Nouvelle fonctionnalité : les métadonnées de GoFast sont copiés dans les propriétés Word\" \"GOFAST-6928\",\"Nouvelle fonctionnalité : ajout d'un compte utilisateur extranet à durée limitée\" \"GOFAST-7079\",\"Nouvelle fonctionnalité : nouveau plugin permettant la création de webconférences Jitsi directement depuis Outlook\" \"GOFAST-7359\",\"Nouvelle fonctionnalité : audits accessible aux administrateurs d'espaces\" \"GOFAST-7373\",\"Nouvelle fonctionnalité :  Intégration de la fonctionnalité permettant de pré-ajouter des utilisateurs en tant que membres en attente dans les listes d'utilisateurs\" \"GOFAST-7401\",\"Nouvelle fonctionnalité  : affichage  des échéances de workflow dans le calendrier des espaces où se trouvent les documents\" \"GOFAST-7691\",\"Nouvelle fonctionnalité  : création d'un nouveau niveau de classification, le champ \"Diffusion\"\"\" \"GOFAST-8194\",\"Nouvelle fonctionnalité : l'audit des commentaires\" \"GOFAST-8397\",\"Nouvelle fonctionnalité : possibilité d'importer un .ics dans l'agenda\" \"GOFAST-8549\",\"Nouvelle fonctionnalité d'audit orienté utilisateur\" \"GOFAST-8603\",\"Nouvelle fonctionnalité  : Règle de nommage optionnel des fichiers basée sur les métadonnées (catégorie, date)\" \"GOFAST-8792\",\"Nouvelle fonctionnalité  :  recherche multicritère et avancée\" \"GOFAST-8800\",\"Nouvelle fonctionnalité  :  ajout de métadonnées \"Date Custom\" dans les métadonnées standards\" \"GOFAST-9029\",\"Nouvelle fonctionnalité : introduction d'une fonctionnalité de délégation et de réassignation d'une tâche de processus en cas d'absence de l'utilisateur assigné\" \"GOFAST-9118\",\"Nouvelle fonctionnalité  :  possibilité d'ajouter une échéance sur chaque tâche du processus standard\" \"GOFAST-9221\",\"Nouvelle fonctionnalité  : Ajout d'un connecteur eIDAS Signature Qualifiée (DigitalSign)\" \"GOFAST-9579\",\"Nouvelle fonctionnalité : Synchronisation Calendrier GoFAST et BlueMind\" \"GOFAST-9741\",\"Nouvelle fonctionnalité : il est désormais possible de taguer/mentionner un utilisateur sur les commentaires Kanban\" \"GOFAST-11386\",\"Nouvelle fonctionnalité : édition avec OnlyOffice des formats docxf (formulaires PDF)\" \"GOFAST-9870\",\"Nouvelle fonctionnalité : il est maintenant possible de changer les identifiants des utilisateurs\""
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: b8bbebf69c534b5fa2cb087664db7e7f
+#: cbbf89032dc34d6bbc337806e6faf10d
+#: 109311a8f26e427bb040aca608c73710
+msgid "Ref."
 msgstr ""
 
-#: ../../docs-gofast-technical/release-notes-4.2.rst:51
-#: d3d217304cfe47f6820eb066c731a434
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 6464e2ded2cb41da8b143493c9cf9d2a
+#: 8f2144c70f66457c8708e6d7160bf0e2
+#: e452f5fe1bec4dcfb61e2f8b53238553
+msgid "Description"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 615af356267a47e6a064e6b6b55c474a
+msgid "GOFAST-11260"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 6c8e4d6d573b4e61b2c57b963b0b4b0b
+msgid "Nouvelle fonctionnalité : Ajout de la capacité d'inviter des participants internes et externes à rejoindre des réunions JITSI"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: a4c2eab0b2fe44449b882ea5a809da13
+msgid "GOFAST-10466"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: f2081b00d44745ee837d6eabc95abb53
+msgid "Nouvelle fonctionnalité  : ajout des actions de masse à l'annuaire des contacts"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 2f0c895e095f4d06a7e6306018f6ecf9
+msgid "GOFAST-10468"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 2b5f65e3ff9d463da4d092fccb38a70d
+msgid "Nouvelle fonctionnalité  : activation de l'audit Alfresco"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 91dc44ca001c42aaaf437bfa7313378a
+msgid "GOFAST-10484"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: fad637cc48ac48a3ac9ba5c4fcaf5ce0
+msgid "Nouvelle fonctionnalité : le champs de métadonné 'Titre' est désormais éditable côté GoFast"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 8fb9d0e8272b418ba960c87eae0f8e0d
+msgid "GOFAST-10531"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 334f1f7c43164abb83985f0c65aa815f
+msgid "Nouvelle fonctionnalité : Sauvegarde et version intermédiaire du document dans la GED à la sauvegarde dans Onlyoffice"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: de0e57dc7bba496fa41cdf62f109c53d
+msgid "GOFAST-10596"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 8316d64f410645248cdc9beeaa04ae0d
+msgid "Nouvelle fonctionnalité : Avoir le nombre d'utilisateurs actifs interne/externe dans les statistiques"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 1209cace7d084937b97f051d1757e18a
+msgid "GOFAST-10658"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 7219065886e14110a94c92de8d03a722
+msgid "Nouvelle fonctionnalité : possibilité de modifier graphiquement la configuration du module GoFast Webhook depuis l'interface utilisateur"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 179e26f0645b4d7689baf9c10230dc23
+msgid "GOFAST-5102"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 654d022f477a477cb7483cd551d12987
+msgid "Nouvelle fonctionnalité : Only Office est désormais compatible avec la langue Arabe."
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 7bce7dd833234caf942b74b86aa4c1b8
+msgid "GOFAST-5839"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 2ccc710ecba444998b620977e49ebd69
+msgid "Nouvelle fonctionnalité : possibilité de pouvoir prévisualiser les fichiers au format Autocad (DWG)"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 2489b9013a7c43e39da35e67da79a712
+msgid "GOFAST-6056"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 7189318425f74944906aff556c2ef129
+msgid "Nouvelle fonctionnalité : Pouvoir organiser les favoris dans des dossiers personnalisables et hiérarchisés"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: eec1dcd2916640fd85376a85a27b02be
+msgid "GOFAST-6887"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: c564a58e506046d9879fb44079b26053
+msgid "Nouvelle fonctionnalité : les métadonnées de GoFast sont copiés dans les propriétés Word"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: daf57e68cea34466b623f0106950888f
+msgid "GOFAST-6928"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: a424f4d686a442dcaad6cea401a459f8
+msgid "Nouvelle fonctionnalité : ajout d'un compte utilisateur extranet à durée limitée"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 9d0b3c44b8ba4601bf03e2d3959aa4d9
+msgid "GOFAST-7079"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 31d6962de0504163a38ef056327ddb2d
+msgid "Nouvelle fonctionnalité : nouveau plugin permettant la création de webconférences Jitsi directement depuis Outlook"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: f58c52bf67654019af71f2b3e6af1372
+msgid "GOFAST-7359"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: fea83c2e2fc341c79ff0fed6745960ee
+msgid "Nouvelle fonctionnalité : audits accessible aux administrateurs d'espaces"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 6d45c4edadf0496eb7419f4d63337366
+msgid "GOFAST-7373"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: c624104d58de47f2aa221549b4675a2a
+msgid "Nouvelle fonctionnalité :  Intégration de la fonctionnalité permettant de pré-ajouter des utilisateurs en tant que membres en attente dans les listes d'utilisateurs"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: e05d3feb85f74e3aa5fb8f058f51e036
+msgid "GOFAST-7401"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 4c69dbc99fd7460cb2c366e944691713
+msgid "Nouvelle fonctionnalité  : affichage  des échéances de workflow dans le calendrier des espaces où se trouvent les documents"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: f8f8f64b70af4fde964dd60c09374025
+msgid "GOFAST-7691"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 7ab73a3bf8dd467490684fa1836f4e84
+msgid "Nouvelle fonctionnalité  : création d'un nouveau niveau de classification, le champ 'Diffusion'"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 743f9b2904ee442f841b3628b562bade
+msgid "GOFAST-8194"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 9c818f2e8eab446e992711f9245ad073
+msgid "Nouvelle fonctionnalité : l'audit des commentaires"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 9acd35f4057e435f99d8b2f358424f96
+msgid "GOFAST-8397"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 442f7c50b7c04116bcbd0f51106ca02e
+msgid "Nouvelle fonctionnalité : possibilité d'importer un .ics dans l'agenda"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 22e0210231564f15819ae744fccee4a6
+msgid "GOFAST-8549"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: df97952568f041c2b1f51e4c82314287
+msgid "Nouvelle fonctionnalité d'audit orienté utilisateur"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 80a4d8de542e4158ac5282ba9a98c645
+msgid "GOFAST-8603"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 7111b643a65049459f427f24cc59a604
+msgid "Nouvelle fonctionnalité  : Règle de nommage optionnel des fichiers basée sur les métadonnées (catégorie, date)"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: fb08b98973a948648ec5a82a9a98e2c0
+msgid "GOFAST-8792"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: a454a56cd5784bcf8549a920ae7b4c78
+msgid "Nouvelle fonctionnalité  :  recherche multicritère et avancée"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: a563277e582943ffab28be45135a8806
+msgid "GOFAST-8800"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 14169596d437452f80b13140293dfa0e
+msgid "Nouvelle fonctionnalité  :  ajout de métadonnées 'Date Custom' dans les métadonnées standards"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: cea5ff6131f84b3aa4d65feec33b965b
+msgid "GOFAST-9029"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 546fd4eca0ea4668afa16bd11c7ce825
+msgid "Nouvelle fonctionnalité : introduction d'une fonctionnalité de délégation et de réassignation d'une tâche de processus en cas d'absence de l'utilisateur assigné"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 49bfbd3097eb4cfc8b0b27686ac9f502
+msgid "GOFAST-9118"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: d825ee06339242a1b20aefac2ac781c2
+msgid "Nouvelle fonctionnalité  :  possibilité d'ajouter une échéance sur chaque tâche du processus standard"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 6ff4147d526341ffaa6403cd7005e3cc
+msgid "GOFAST-9221"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: d28452f087ca48b3ac3a17ed32ce7917
+msgid "Nouvelle fonctionnalité  : Ajout d'un connecteur eIDAS Signature Qualifiée (DigitalSign)"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 375d4ed849fa4164a62cf8adb72c2fc1
+msgid "GOFAST-9579"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 87b0fe62f6f443418be31926576800dc
+msgid "Nouvelle fonctionnalité : Synchronisation Calendrier GoFAST et BlueMind"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 9cd2957bbf87483f9a8b51382f71478d
+msgid "GOFAST-9741"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 3fec3ed3b070413ea72c9f7dba2f6299
+msgid "Nouvelle fonctionnalité : il est désormais possible de taguer/mentionner un utilisateur sur les commentaires Kanban"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 2d6766f57b254d5099c93400b4cb8d27
+msgid "GOFAST-11386"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 4f2123964f714fd885cf0690ee068ccd
+msgid "Nouvelle fonctionnalité : édition avec OnlyOffice des formats docxf (formulaires PDF)"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 2881f9da099f4a8288c02a7ff7f67354
+msgid "GOFAST-9870"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 7e67aaa259c845e997539904ca10cf05
+msgid "Nouvelle fonctionnalité : il est maintenant possible de changer les identifiants des utilisateurs"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:49
+#: e776b74d881e4ab3acf2ef7541d330ff
 msgid "Améliorations"
 msgstr ""
 
-#: ../../docs-gofast-technical/release-notes-4.2.rst:58
-#: 9f231f1a8fde4ad885ef388bbf75864c
-msgid "\"GOFAST-10157\",\"Amélioration : Ajout de filtrages pour l'annuaire de contact\" \"GOFAST-10281\",\"Amélioration : ajout d'une option de signature de documents via \"utilisateur\" ou \"contact\" pour pouvoir signer dans un espace non accessible\" \"GOFAST-10436\",\"Amélioration : Les changements apportés par PN-6 (branche PN-4) ont été backportés à la modale de suppression pour améliorer la fonctionnalité de suppression\" \"GOFAST-10453\",Amélioration : homogénéisation de l'éditeur riche des commentaires\" \"GOFAST-10467\",\"Amélioration : Mise à jour Onlyoffice 7.5\" \"GOFAST-10470\",\"Amélioration : Modification du nom par défaut des fichiers compressés pour remplacer l'ID aléatoire actuel par un nom plus significatif et facilement identifiable\" \"GOFAST-10599\",\"Amélioration : optimisation du chargement des statistiques des espaces\" \"GOFAST-10669\",\"Amélioration : possibilité de filtrer les documents par date d'expiration de DUA\" \"GOFAST-10678\",\"[ESSENTIAL] Amélioration :  une page d'espace définie est visible sous forme d'une entrée similaire à un livre\" \"GOFAST-10699\",\"Amélioration : possibilité d'activer une salle d'attente pour les webconférences jitsi\" \"GOFAST-10777\",\"Amélioration :  Inclure des informations telles que la \"volumétrie documentaire\" et le \"nombre de membres\" dans l'export des données des espaces sur la page de statistiques\" \"GOFAST-10818\",\"Amélioration de la page de statistique documentaire\" \"GOFAST-10834\",\"[ESSENTIAL] Amélioration : Ajout de la fonctionnalité de création de forums\" \"GOFAST-10859\",\"Amélioration permettant d'ajouter un webform aux favoris d'un espace, désormais visible depuis la page d'accueil d'un espace\" \"GOFAST-10861\",\"Amélioration : Ajout piste d'audit dans les logs pour suivre la création, consultation, édition et autres interactions avec les documents\" \"GOFAST-10896\",\"Amélioration du visuel de la page statistique des utilisateurs pour les statistiques globales et les statistiques d'espace\" \"GOFAST-10972\",\"Amélioration : mise à jour Only Office\" \"GOFAST-11059\",\"Amélioration : création de la documentation d'administration de Gofast Webhook\" \"GOFAST-11071\",\"Amélioration : réorganisation du bloc métadonnées\" \"GOFAST-11072\",\"Amélioration : les onglet de configuration conservent désormais leur contenu en mémoire, évitant les rechargements répétés\" \"GOFAST-11074\",\"Amélioration : mauvaise traduction en anglais des mails associés aux workflows\" \"GOFAST-11075\",\"Amélioration : erreur de traduction dans le choix de la position des signatures lors de la création d'un processus de diffusion de documents\" \"GOFAST-11082\",\"Amélioration des détails de la page d'audit\" \"GOFAST-11104\",\"Amélioration : dans le fil d'activité, l'affichage du chemin complet des documents se fait via un survol mouse over\" \"GOFAST-11113\",\"Amélioration : Correction d'un problème de déformation des boutons de fenêtre qui se produit lors de l'utilisation du menu burger avec des actions associées\" \"GOFAST-11121\",\"Amélioration : Suppression de l'étiquette [BETA] des menus \"Catégories\" et \"Étiquettes\" dans la configuration GoFAST\" \"GOFAST-11235\",\"Amélioration : Mise à jour PostgreeSQL v15\" \"GOFAST-11254\",\"Amélioration : Intégration de l'onglet \"Conversation\" dans les pages d'espace Essential\" \"GOFAST-11255\",\"Ajout de la fonctionnalité permettant de détacher la visioconférence Jitsi dans un nouvel onglet au lieu de la déclencher dans l'iframe du widget\" \"GOFAST-11256\",\"Amélioration : Ajout de la possibilité de masquer le bandeau de gauche dans l'onglet \"Conversation\" d'un espace\" \"GOFAST-11285\",\"Amélioration : Mise à jour d'Only Office en version 8\" \"GOFAST-11305\",\"Amélioration : ajout de la supervision dans Zabbix pour vérifier l'intégrité des droits des documents sur Alfresco\" \"GOFAST-11315\",\"Amélioration des favoris sur le tableau de bord\" \"GOFAST-11317\",\"Amélioration : les commentaires qui sont partagés avec des utilisateurs externes sont indiqués\" \"GOFAST-11334\",\"Changement comparateur de versions pour docx (OnlyOffice)\" \"GOFAST-4910\",\"Amélioration : redimensionnement possible des PDF depuis la prévisualisation de la recherche ou du fil d'actualité\" \"GOFAST-5347\",\"Amélioration : les workflows standards sont désormais compatibles avec les listes d'utilisateur\" \"GOFAST-5782\",\"Amélioration du statut de priorité sur l'onglet de tâche, désormais la priorité est plus visible\" \"GOFAST-7135\",\"Amélioration : Obligation d'Ajouter au Minimum 2 Administrateurs lors de la Création d'un Espace\" \"GOFAST-7218\",\"Amélioration : Ajout d'un titre aux liens externes\" \"GOFAST-7534\",\"Amélioration de l'audit, les événements seront enregistrés avec l'identifiant de l'utilisateur plutôt que son nom et prénom\" \"GOFAST-7636\",\"Amélioration de la  page d'un document lors d'une signature Yousign\" \"GOFAST-7796\",\"[IPAD] Amélioration de la création de workflow\" \"GOFAST-7826\",\"Amélioration de la vue de l'annuaire des membres d'un espace\" \"GOFAST-8048\",\"Amélioration : Mise en place d'un cloisonnement efficace des modèles de workflow\" \"GOFAST-8071\",\"Amélioration : dans le calendrier d'un espace, le calendrier est directement positionné sur 8h, et non minuit\" \"GOFAST-8076\",\"Amélioration : Finalisation du système de notifications pour les échéances dans le Kanban\" \"GOFAST-8248\",\"Amélioration des libellés de la piste d'audit\" \"GOFAST-8562\",\"Amélioration : possibilité de pouvoir changer les logos dans la page de connexion GoFast\" \"GOFAST-8634\",\"Amélioration : les documents de type dotx sont désormais co éditables\" \"GOFAST-8830\",\"Amélioration : Ajout des actions en masse manquantes dans l'Annuaire Espaces\" \"GOFAST-9066\",\"Amélioration : regroupement des notifications de modification de cartes kanban\" \"GOFAST-9127\",\"Amélioration : Vue de l'audit avec la même interface que les annuaires\" \"GOFAST-9283\",\"Amélioration : mise à jour Element Web v1.11\" \"GOFAST-9737\",\"Amélioration : formulaire wiki plus intuitif et facile à utiliser\" \"GOFAST-9867\",\"Améliorations ergonomiques de la DUA\" \"GOFAST-11424\",\"MàJ JITSI (voir si on peut lister de nouvelles fonctionnalités)\"\" \"GOFAST-7650\",\"Mise à jour du connecteur Java MySQL\" \"GOFAST-9282\",\"Mise à jour IT HIT Document Opener v5.21\""
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: dd5edc67a9d8400c9e31376cabc2026e
+msgid "GOFAST-10157"
 msgstr ""
 
-#: ../../docs-gofast-technical/release-notes-4.2.rst:120
-#: 9cbfdc1050eb4ccba202512d1444b203
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 8f4123f9a9e240d0b5f2bba0ddea399f
+msgid "Amélioration : Ajout de filtrages pour l'annuaire de contact"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: b82a8afd74b5475e90a345e0d3c36a1e
+msgid "GOFAST-10281"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 50f2af8b13fc4adb919f49ab8125bdcb
+msgid "Amélioration : ajout d'une option de signature de documents via 'utilisateur' ou 'contact' pour pouvoir signer dans un espace non accessible"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 8c7e897ce13f4f36a82fa0277c727d43
+msgid "GOFAST-10436"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: ee83a2f03aa8428ba9e3ee3bb24d80c4
+msgid "Amélioration : Les changements apportés par PN-6 (branche PN-4) ont été backportés à la modale de suppression pour améliorer la fonctionnalité de suppression"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 3da8317a12d1453a9fb932d3ee0e0da6
+msgid "GOFAST-10453"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 1991f14bddce453fb9eaf081603167a5
+msgid "Amélioration : homogénéisation de l'éditeur riche des commentaires"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 2d3c49494006494280db1bd26ca31d4a
+msgid "GOFAST-10467"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: abfe5899aaab444e8a2b33e7f1c66a49
+msgid "Amélioration : Mise à jour Onlyoffice 7.5"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: b99214a993f041869fa88a7461e1a5e9
+msgid "GOFAST-10470"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: f515074acf534bbf93576691a6250b96
+msgid "Amélioration : Modification du nom par défaut des fichiers compressés pour remplacer l'ID aléatoire actuel par un nom plus significatif et facilement identifiable"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 1c57f2047e094636b13e642c09fc40da
+msgid "GOFAST-10599"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 8c320b34a85f4d778f2002cd2579ab94
+msgid "Amélioration : optimisation du chargement des statistiques des espaces"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: aa39fa8f2c5c44c7b91a0160dd430cbf
+msgid "GOFAST-10669"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: d4c66210da7d46268d83052338b558e5
+msgid "Amélioration : possibilité de filtrer les documents par date d'expiration de DUA"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: bf83929332b84adcb81d5173f6a35b75
+msgid "GOFAST-10678"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: f262ac9ef7584c849463493d07cbb95b
+msgid "[ESSENTIAL] Amélioration :  une page d'espace définie est visible sous forme d'une entrée similaire à un livre"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 31eca61c958144ea83ab8d52e13ba6dc
+msgid "GOFAST-10699"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 23f4eb578e144b21a04fd86fb095f3d7
+msgid "Amélioration : possibilité d'activer une salle d'attente pour les webconférences jitsi"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 4d75daa237ea4ead91c7c24f11f1d13e
+msgid "GOFAST-10777"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 6a1972dd95864176be31c13d26f8d8cc
+msgid "Amélioration :  Inclure des informations telles que la 'volumétrie documentaire' et le 'nombre de membres' dans l'export des données des espaces sur la page de statistiques"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: a07f08fc3d434da4aaa655b631824a33
+msgid "GOFAST-10818"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 4196ceca90114e2f94a05012f20669ba
+msgid "Amélioration de la page de statistique documentaire"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 7dc35024163849c287c44c9b5a682c7c
+msgid "GOFAST-10834"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 7ec0a7365cd04e35956a911323c9bc9b
+msgid "[ESSENTIAL] Amélioration : Ajout de la fonctionnalité de création de forums"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: abd272481f6642ba98aeb58d271e6ae6
+msgid "GOFAST-10859"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: cdc4a6f390af4c579df10c2bd6562abc
+msgid "Amélioration permettant d'ajouter un webform aux favoris d'un espace, désormais visible depuis la page d'accueil d'un espace"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 90e6ee861578474697f6914090f3d017
+msgid "GOFAST-10861"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: fcd7a79500e54ee081c2235e547079fc
+msgid "Amélioration : Ajout piste d'audit dans les logs pour suivre la création, consultation, édition et autres interactions avec les documents"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: efa0ba7439f5416f8e63bd125d235062
+msgid "GOFAST-10896"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: c91b1c5dd8d946d3af6499792cdbd6da
+msgid "Amélioration du visuel de la page statistique des utilisateurs pour les statistiques globales et les statistiques d'espace"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: a0cb31e15b144e2e8f155c0fb547ac96
+msgid "GOFAST-10972"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: bd87133072b14bf39b6edefb049c4f09
+msgid "Amélioration : mise à jour Only Office"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 4017f84274e84929907f6a1b84de57cc
+msgid "GOFAST-11059"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: e23a444e323d4b718c1899ee171878df
+msgid "Amélioration : création de la documentation d'administration de Gofast Webhook"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: d1e5cf6cebbf4da194c21762df40f439
+msgid "GOFAST-11071"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 2325e94aa2114232a0fcaf1ff94a0cec
+msgid "Amélioration : réorganisation du bloc métadonnées"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: b39b22167db44548a6add83a8333671b
+msgid "GOFAST-11072"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 1ce9216081d44ec2869ef0d84e1fbf65
+msgid "Amélioration : les onglet de configuration conservent désormais leur contenu en mémoire, évitant les rechargements répétés"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 2c6aaae0664845df93769112c9b648b2
+msgid "GOFAST-11074"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 85d1f934a8f24c029a284b434c4f5168
+msgid "Amélioration : mauvaise traduction en anglais des mails associés aux workflows"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: cf13fce4d45c4c5db4a62770c34dc2fc
+msgid "GOFAST-11075"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 631ad2a4d35a41caac2c8ec67105d1c8
+msgid "Amélioration : erreur de traduction dans le choix de la position des signatures lors de la création d'un processus de diffusion de documents"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 024be4e9275d45f39749103899c5936a
+msgid "GOFAST-11082"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 57d23305677245e0aba95b6ea3ab5c67
+msgid "Amélioration des détails de la page d'audit"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: cc4775ebcc4c40da8c69f5d2bf990f2c
+msgid "GOFAST-11104"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 6b577aa07b0b4a1889fe973b4e367beb
+msgid "Amélioration : dans le fil d'activité, l'affichage du chemin complet des documents se fait via un survol mouse over"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 6bdd1abdebe34b2687292b545b50865b
+msgid "GOFAST-11113"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: fc6839ae9fc6454aac668925c1708911
+msgid "Amélioration : Correction d'un problème de déformation des boutons de fenêtre qui se produit lors de l'utilisation du menu burger avec des actions associées"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 3fdf7bd8dae84ce98d251ed99f488de1
+msgid "GOFAST-11121"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: b63f0488e33e4785acf6878be0460f1f
+msgid "Amélioration : Suppression de l'étiquette [BETA] des menus 'Catégories' et 'Étiquettes' dans la configuration GoFAST"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: de19c012898d4b5b854c5dc5227897b8
+msgid "GOFAST-11235"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 4fced045f1ea4204bd5a0f8386ab0963
+msgid "Amélioration : Mise à jour PostgreeSQL v15"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: bf109061396e46b4b6b3ed1d6e694bdf
+msgid "GOFAST-11254"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 11e08ad676c44f969d316dcb092c6a68
+msgid "Amélioration : Intégration de l'onglet 'Conversation' dans les pages d'espace Essential"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: b7aa54e0ba2a41c5b4fb3211eb9533b4
+msgid "GOFAST-11255"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 371834de419845adbe4693c213b97afe
+msgid "Ajout de la fonctionnalité permettant de détacher la visioconférence Jitsi dans un nouvel onglet au lieu de la déclencher dans l'iframe du widget"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 5b53de05fad741f9930a53835d3ec83f
+msgid "GOFAST-11256"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 68c388fe42994af0a6e6cb230fe80d4d
+msgid "Amélioration : Ajout de la possibilité de masquer le bandeau de gauche dans l'onglet 'Conversation' d'un espace"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: d59bb80e35324728bf5c5b878ec44b5a
+msgid "GOFAST-11285"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 7efb481f6a3245b4bd710b4e06768447
+msgid "Amélioration : Mise à jour d'Only Office en version 8"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: c87d693bfdfc4f059970358e748ce013
+msgid "GOFAST-11305"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: c565041a70f34fedbd1386d796ea153f
+msgid "Amélioration : ajout de la supervision dans Zabbix pour vérifier l'intégrité des droits des documents sur Alfresco"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: b4d9c04b2ef846489b4373a2e2859ad3
+msgid "GOFAST-11315"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 0a620a86e6de4bd49c70c727ca84fb7c
+msgid "Amélioration des favoris sur le tableau de bord"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 70c340560cb34e55bd16bde23d9624e4
+msgid "GOFAST-11317"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 4b3d450241a64e5c9f8dd23d41cb693a
+msgid "Amélioration : les commentaires qui sont partagés avec des utilisateurs externes sont indiqués"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: ba99c4559b5f423d844a97371848e3b9
+msgid "GOFAST-11334"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 9eb046b043a4421dbb439213984e2be7
+msgid "Changement comparateur de versions pour docx (OnlyOffice)"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: d28b600dbba646138a94840275af144c
+msgid "GOFAST-4910"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 7c6cc73abcbd4dbda12b8f04d6f4d11c
+msgid "Amélioration : redimensionnement possible des PDF depuis la prévisualisation de la recherche ou du fil d'actualité"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: a37ff4f387b14902b7cae8d912a68919
+msgid "GOFAST-5347"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 384d88db01ae46589897a05801214ceb
+msgid "Amélioration : les workflows standards sont désormais compatibles avec les listes d'utilisateur"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 94b4a7d8f9c24c16892ccbf1fbdb2d77
+msgid "GOFAST-5782"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 435d44c744194a588230fce8d4dc8c3c
+msgid "Amélioration du statut de priorité sur l'onglet de tâche, désormais la priorité est plus visible"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: ee8d7e6e4cc74a18adb63a618eee5fbd
+msgid "GOFAST-7135"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 1ec416526d9e4a0ba9e091009a2dad22
+msgid "Amélioration : Obligation d'Ajouter au Minimum 2 Administrateurs lors de la Création d'un Espace"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 9bcbb0668a854b3991e248a02995eb9c
+msgid "GOFAST-7218"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: f7fb36c5db5f4ba8a11b17259f981318
+msgid "Amélioration : Ajout d'un titre aux liens externes"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 5f0b1df8ca304080b0c26861c7490193
+msgid "GOFAST-7534"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 87203676e6424b9381690e5e8feff4b1
+msgid "Amélioration de l'audit, les événements seront enregistrés avec l'identifiant de l'utilisateur plutôt que son nom et prénom"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 878a3b6f3ca6406796cb8aa52ce15611
+msgid "GOFAST-7636"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: df8363baa0a84a17a5d8709489a17e8e
+msgid "Amélioration de la  page d'un document lors d'une signature Yousign"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: e3d52f8d632d4acdaedc7fa9a6959cd6
+msgid "GOFAST-7796"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 047361f0cc944e61a3203d73072aa5a8
+msgid "[IPAD] Amélioration de la création de workflow"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 5ae246eee85e43feb212c5928f5521a7
+msgid "GOFAST-7826"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 436495c20bc04d6cbd640104039bb9f9
+msgid "Amélioration de la vue de l'annuaire des membres d'un espace"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: e041117ab01c4873a13f2ed174bd231b
+msgid "GOFAST-8048"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: e53a36f0438f485f842b81d05cd01377
+msgid "Amélioration : Mise en place d'un cloisonnement efficace des modèles de workflow"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 391c1f52cba84989980bc627a0fcbe8b
+msgid "GOFAST-8071"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: d2d9665ed57f4cf0ac1ec660389c182a
+msgid "Amélioration : dans le calendrier d'un espace, le calendrier est directement positionné sur 8h, et non minuit"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 2793f403f60e4a7f9e5b6d19f132857e
+msgid "GOFAST-8076"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 07479081fc284b008900483d735db5e9
+msgid "Amélioration : Finalisation du système de notifications pour les échéances dans le Kanban"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: e6d5123a37434bfda290d3cfe71325f3
+msgid "GOFAST-8248"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 25ff3835260e4d0da93456fa1500e98e
+msgid "Amélioration des libellés de la piste d'audit"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 71872dbe446f4a75bc7388c8e57ff082
+msgid "GOFAST-8562"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: b73349c802204c9e8ae4cf133a3910a8
+msgid "Amélioration : possibilité de pouvoir changer les logos dans la page de connexion GoFast"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 6e515855c4284c75ac7c4025980cfd6d
+msgid "GOFAST-8634"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 7c8dfb5ba7e84aa7afbe9271286f0c02
+msgid "Amélioration : les documents de type dotx sont désormais co éditables"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: c42506b0235e4d4a893d618cd3cdcebf
+msgid "GOFAST-8830"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 6b9b3690d36c49d099b16b111cf27ee8
+msgid "Amélioration : Ajout des actions en masse manquantes dans l'Annuaire Espaces"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 053f65745a6041a3be3a77b87f49f774
+msgid "GOFAST-9066"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 96150708ff93474993f17f4059ac4a0b
+msgid "Amélioration : regroupement des notifications de modification de cartes kanban"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: ba9476f098cc4321b4258002fa7baa05
+msgid "GOFAST-9127"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: f685f7bed3bd4d599406a93f40a3feed
+msgid "Amélioration : Vue de l'audit avec la même interface que les annuaires"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: d69dbc761e5a4e23aed0275b767afdc4
+msgid "GOFAST-9283"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: aab58811fe0a49a79256e9b383aa9a2d
+msgid "Amélioration : mise à jour Element Web v1.11"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 32c15dd77a684ce6b4f823b051809be8
+msgid "GOFAST-9737"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: d08dfbf9cc4a48498317571668d9d304
+msgid "Amélioration : formulaire wiki plus intuitif et facile à utiliser"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: cbeb551d26844667872fc9b5c903cbf4
+msgid "GOFAST-9867"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: ba23a823fff640b28bc39d6eb354b449
+msgid "Améliorations ergonomiques de la DUA"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: b40704efdbd244d3b7c35ad33268cb53
+msgid "GOFAST-11424"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: b3d2ed8505854510be5b67f83bacb3c4
+msgid "MàJ JITSI (voir si on peut lister de nouvelles fonctionnalités)"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 95ecbb4a862e42e1aec4441d9030cc1e
+msgid "GOFAST-7650"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 7ecec5517eec4d3883c5e90de9073b25
+msgid "Mise à jour du connecteur Java MySQL"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: ce575dfe757048329be316217de0b244
+msgid "GOFAST-9282"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: e1a02685d91243c0b9569acc188b2f09
+msgid "Mise à jour IT HIT Document Opener v5.21"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:118
+#: fb18ba3592814c4aa7ca5b712914e665
 msgid "Bugs"
 msgstr ""
 
-#: ../../docs-gofast-technical/release-notes-4.2.rst:127
-#: 621b8c752b874ca89c3b16d1926d46fa
-msgid "\"GOFAST-10020\",\"[CHROME OS] Correction d'un bug, l'onglet tâche workflow était vide et mal positionné\" \"GOFAST-10041\",\"Correction d'un bug sur le menu \"Plus\" d'un répertoire, le fichier disparaissait\" \"GOFAST-10098\",\"Correction d'un bug d'icônes non visibles dans l'édition des wikis\" \"GOFAST-10151\",\"Correction d'un bug de caractères qui étaient acceptés dans GoFast, mais interdit dans Alfresco\" \"GOFAST-10153\",\"Correction d'un bug qui interdisait l'accès à un document\" \"GOFAST-10171\",\"Correction d'un bug de l'explorateur de fichiers multi sélection avec la touche SHIFT\" \"GOFAST-10213\",\"[ESSENTIAL] Correction d'un bug de roue d'attente du bloc métadonnées bloqué\" \"GOFAST-10307\",\"Correction d'un bug où l'on ne reçoit pas de notification lorsqu'on est ajouté à un espace via une liste d'utilisateurs\" \"GOFAST-10342\",\"[ESSENTIAL] Correction d'un bug : Alignement de la navigation avec les flèches sur le mode de tri actuellement sélectionné par l'utilisateur dans l'explorateur de fichiers\" \"GOFAST-10344\",\"Correction d'un bug : Amélioration de l'interface utilisateur lors de l'édition d'une page d'accueil depuis l'arborescence\" \"GOFAST-10440\",\"Correction d'un bug où certains champs étaient absents lors de la mise à jour des profils utilisateurs\" \"GOFAST-10446\",\"Correction d'un bug d'erreur JS lors de la validation des annotations\" \"GOFAST-10477\",\"Correction d'un bug, si une modale est ouverte dans Element, le focus est impossible sur les champs dans GoFast\" \"GOFAST-10608\",\"Correction d'un bug de mauvais positionnement du menu contextuel de l'explorateur\" \"GOFAST-10619\",\"[IPAD] Correction d'un bug , l'onglet membres n'affiche pas les membres\" \"GOFAST-10668\",\"Correction d'un bug de notification de DUA\" \"GOFAST-10690\",\"Correction d'un bug d'impossibilité de faire une publication si le document était broadcasté\" \"GOFAST-10697\",\"Correction d'un bug où la conversion en PDF lors de la publication en masse ne fonctionnait pas correctement pour plusieurs documents sélectionnés\" \"GOFAST-10701\",\"Correction d'un bug d' implémentation de la fonctionnalité d'écriture de droite à gauche dans CKEDITOR 5\" \"GOFAST-10772\",\"Correction d'un bug : Résolution du problème survenant lors d'un clic rapide sur un lien ouvrant une modale (comme l'ajout d'un commentaire) immédiatement après une navigation\" \"GOFAST-10776\",\"Correction d'un bug de membre extranet n'ayant pas accès à l'espace personnel\" \"GOFAST-10789\",\"Correction d'un bug de signature Yousign non alignés en haut\" \"GOFAST-10800\",\"Correction d'un bug, impossibilité de supprimer un \"manager\" depuis le profil utilisateur une fois ajouté, sans recharger la page\" \"GOFAST-10805\",\"Correction d'un bug de comptage du nombre total de membres\" \"GOFAST-10806\",\"Correction d'un bug de comptage de documents dans l'annuaire des espaces\" \"GOFAST-10819\",\"Correction d'un bug d'affichage du menu inférieur dans la page des abonnements\" \"GOFAST-10825\",\"Correction d'un bug de caractères qui apparaissent encodés lorsqu'on saisit un champ dans une ToDoList kanban\" \"GOFAST-10837\",\"Correction d'un bug de marges et d'espacements sur le tableau de bord\" \"GOFAST-10838\",\"Correction d'un bug qui exportait les espaces publiques lors d'un export depuis les statistiques\" \"GOFAST-10845\",\"Correction d'un bug du bouton \"recharger\" qui envoie des centaines de requêtes de connexion\" \"GOFAST-10846\",\"Correction d'un bug  d'audit timeout pour l'INSA\" \"GOFAST-10847\",\"[ESSENTIAL]  Correction d'un bug d'annotations non apparentes après avoir été créées\" \"GOFAST-10849\",\"[ESSENTIAL] Correction d'un bug où après une prévisualisation, puis un retour sur l'explorateur le fichier n'était plus en surbrillance\" \"GOFAST-10851\",\"Correction d'un bug de mauvaise configuration d'OnlyOffice si elle est en version entreprise\" \"GOFAST-10863\",\"Correction d'un bug où certains filtres n'étaient pas récapitulés correctement\" \"GOFAST-10871\",\"Correction d'un bug, après un freeze d'onglet, il y avait un message en boucle d'Only Office\" \"GOFAST-10873\",\"Correction d'un bug où le comptage des documents dans l'annuaire des étiquettes incluait également des documents dépubliés\" \"GOFAST-10878\",\"Correction d'un bug d'implémentation d'un suivi d'audit pour les téléchargements de dossiers partagés\" \"GOFAST-10879\",\"Correction d'un bug de mise à jour des favoris d'espace\" \"GOFAST-10883\",\"Correction d'un bug de d'autocomplétion qui ne se lance pas au contrôle + V\" \"GOFAST-10891\",\"Correction d'un bug d'installation inutile d'un dépôt postgres\" \"GOFAST-10898\",\"Correction d'un bug empêchant la sélection de plusieurs fichiers dans le drag and drop\" \"GOFAST-10901\",\"Correction d'un bug de correction d'item Zabbix\" \"GOFAST-10914\",\"Correction d'un bug de mauvais tri des salons\" \"GOFAST-10922\",Correction d'un bug d'affichage du nom des espaces dans le menu\" \"GOFAST-10927\",\"Correction d'un bug rendant possible le fait de télécharger un document confidentiel dans un dossier\" \"GOFAST-10928\",\"Correction d'un bug : Modification de l'affichage de la page de lien personnalisé pour qu'elle s'ouvre sur le même onglet que la plateforme\" \"GOFAST-10930\",\"[ESSENTIAL] Correction d'un bug survenant lors de la sauvegarde après l'édition d'un commentaire dans un forum\" \"GOFAST-10945\",\"[ESSENTIAL] Correction d'un bug de mauvais focus lors de la réponse à une notification pour un forum\" \"GOFAST-10948\",\"Correction d'un bug d'interface de l'onglet soumission dans les formulaires web\" \"GOFAST-10968\",\"Correction d'un bug de partage de fichier possible sur un document appartenant à un dossier multifilé\" \"GOFAST-10971\",\"Correction d'un bug de décalage dans une carte Kanban si trop de caractères dans une ToDoList\" \"GOFAST-10978\",\"Correction d'un bug de document dans les favoris d'un répertoire\" \"GOFAST-10983\",\"Correction d'un bug de mise en forme de notifications si elle contenait un tableau\" \"GOFAST-10984\",\"Correction d'un bug, si une publication était en cours d'édition, un autre utilisateur pouvait republier sans message d'erreur, mais cette publication était jamais réalisée\" \"GOFAST-10991\",\"Correction d'un bug de l'accès au sous menu \"Plus\" impossible si la résolution de l'écran était trop faible\" \"GOFAST-10994\",\"Correction d'un bug de performance multifilling / mirroiring rendant impossible le fonctionnement\" \"GOFAST-10996\",\"Correction d'un bug d'affichage des noms des documents en dehors de la rubrique \"Mes tâches\" du tableau de bord\" \"GOFAST-10998\",\"Correction d'un écart potentiel entre le nombre d'éléments dans Alfresco et le nombre de nœuds côté GoFAST\" \"GOFAST-10999\",\"Correction d'un bug d'OnlyOffice rendant impossible de supprimer un texte dans une présentation\" \"GOFAST-11001\",\"Correction d'un bug d'affichage de la langue lors d'un partage de documents par mail vers une personne  extérieure à l'organisation\" \"GOFAST-11005\",\"Correction d'un bug, lors de la création et de la modification d'un modèle de processus, aucun message d'erreur apparait alors que le titre n'est pas renseigné\" \"GOFAST-11007\",\"Correction d'un bug, après la création d'un modèle, il n'était pas visible sans rechargement de la page\" \"GOFAST-11008\",\"Correction d'un bug de fermeture de l'onglet des workflows après sélection d'un modèle de processus\" \"GOFAST-11009\",\"Correction d'un bug où il était possible de supprimer le nom d'un modèle de processus et de l'enregistrer lors de la modification\" \"GOFAST-11023\",\"Correction d'un problème de gestion des droits dans un espace avec une liste d'utilisateurs\" \"GOFAST-11042\",\"Correction d'un bug d'impossibilité de drag and drop un document avec une apostrophe dans le titre\" \"GOFAST-11051\",\"Correction d'un bug qui empêchait le téléchargement en masse de fichiers lorsque les métadonnées des fichiers ne se chargeaient pas correctement\" \"GOFAST-11060\",\"Correction d'un bug où un participant ajouté lors de la modification d'une réunion ne recevait pas de notification\" \"GOFAST-11061\",\"Correction d'un bug d'affichage incorrect des participants dans une Checklist de Carte Kanban\" \"GOFAST-11065\",\"Correction d'un bug de réplication lors d'un drag and drop\" \"GOFAST-11073\",\"Correction d'une erreur de traduction en anglais dans l'intitulé \"Télécharger un fichier\" lors de la création d'un fichier\" \"GOFAST-11077\",\"Correction d'un bug d'amélioration ergonomique de la création à partir d'un modèle\" \"GOFAST-11093\",\"Correction d'un bug de traduction des DUA anglaises non prise en compte dans les propriétés de la catégorie\" \"GOFAST-11094\",\"Correction d'un bug de recherche Element trop longue lorsqu'il y a beaucoup d'utilisateurs\" \"GOFAST-11099\",\"[ESSENTIAL] Correction d'un bug de renommage sur l'explorateur de fichier en renommant un document\" \"GOFAST-11107\",\"Correction d'un bug de wildcard ne fonctionnant pas en début de mot dans le moteur de recherche\" \"GOFAST-11110\",\"Correction d'un bug où le portrait d'un utilisateur manquait dans la liste des utilisateurs\" \"GOFAST-11142\"\"Correction d'un bug de gestion des membres qui se produisait en cas de présence d'un caractère \"&\" dans le nom de l'espace\" \"GOFAST-11149\",\"Correction d'un bug de redirection à la connexion\" \"GOFAST-11150\",\"Correction d'un bug affichant une erreur lorsqu'on tente de supprimer une relation \"GOFAST-11152\",\"Correction d'un bug de problème de mise en page d'une notification\" \"GOFAST-11157\",\"Correction d'un bug où l'édition en parallèle d'une même version entraînait la perte de contenus\" \"GOFAST-11166\",Correction d'un bug de lenteur d'affichage des espace dans la page de profil\" \"GOFAST-11176\",\"Correction d'un bug de recherche Element depuis le client lourd, qui diffère du client web GoFAST\" \"GOFAST-11189\",\"Correction d'un bug de l'API d'envoi de mail où les mails de processus n'étaient pas reçus lorsque le message contenait des tabulations\" \"GOFAST-11199\",\"[ONLYOFFICE] Correction d'un problème de perte de contenu qui se produisait lors de l'édition en parallèle de la même version\" \"GOFAST-11202\",\"Correction d'un bug lié au nombre d'entrées dans les requêtes LDAP externes, qui entraînait des problèmes de performance\" \"GOFAST-11204\",\"Correction d'un bug d'impossibilité de sauvegarder la description d'un espace\" \"GOFAST-11206\",\"[ESSENTIAL] Correction d'un bug où une recherche contenant uniquement des chiffres renvoyait tous les résultats\" \"GOFAST-11207\",\"Correction d'un bug, dans la recherche stricte, le champ \"référence documentaire\" ne remonte pas dans les résultats de recherche\" \"GOFAST-11209\",\"Correction d'un bug de documents .odg non prévisualisés\" \"GOFAST-11218\",\"Correction d'un bug d'un problème d'accès à la GED si l'utilisateur à un accent dans son identifiant\" \"GOFAST-11219\",\"Correction d'un bug de l'état d'une publication qui ne change pas dans un wokflow standard\" \"GOFAST-11220\",\"Correction d'un bug d'amélioration du thème de notification de signature\" \"GOFAST-11222\",\"Correction d'un bug de perte de hauteur de pied de page en .odt\" \"GOFAST-11223\",\"Correction d'un bug de prévisualisations supprimées \"GOFAST-11226\",\"Correction d'un bug du contenu d'un fichier tableau qui ne remonte pas\" \"GOFAST-11228\",\"Correction d'un bug de saut de ligne parasite sur le champ \"Preuve de signature\" sur le panneau métadonnées\" \"GOFAST-11230\",\"Correction d'un bug de PostgreeSQL repositoty plus disponible\" \"GOFAST-11231\",\"Correction d'un bug où la vérification de l'historique des mots de passe ne fonctionnait plus en PHP8 lorsque ppolicy était activé\" \"GOFAST-11242\",\"Correction d'un bug de cron bloqué à cause d'un LDAP créé avec des informations manquantes\" \"GOFAST-11244\",\"[ESSENTIAL] Correction d'un bug de problème de login SSO\" \"GOFAST-11246\",\"Correction d'un bug de Kanban où le renommage d'une colonne entraînait la duplication de la colonne\" \"GOFAST-11248\",\"Correction d'un bug où le lien Jitsi n'était pas correctement inclus dans les invitations après la création d'une réunion synchronisée de Bluemind  (ou autre) à GoFast. )\" \"GOFAST-11250\",\"Correction d'un bug où l'édition d'une adresse mail existante sur un compte désactivé affichait incorrectement une modal indiquant que l'utilisateur était bloqué, alors qu'il était désactivé\" \"GOFAST-11253\",\"Correction d'un bug de problème avec l'encodage de certains certificats SSO.    Fixed a bug with the encoding of certain SSO certificates. \"GOFAST-11270\",\"Correction d'un bug de sauvegarde de node déclenchée lors que la détection d'un problème de version\" \"GOFAST-11282\",\"Correction d'un bug d'affichage des barres de défilement avec une version récente de chrome\" \"GOFAST-11300\",\"Correction d'un bug pour permettre par défaut l'ajout d'utilisateurs externes dans les organisations et groupes\" \"GOFAST-11312\",\"[ESSENTIAL] Correction d'un bug sur les boutons d'édition de la page d'accueil d'un espace\" \"GOFAST-11319\",\"Correction d'un bug des lignes d'audit parasites\" \"GOFAST-11329\",\"Correction d'un bug où les catégories n'étaient pas affichées si la variable d'environnement GOFAST_RETENTION_PERIOD_MATRICE_VAR était nulle\" \"GOFAST-11332\",\"Correction d'un bug de \"Contrôle +A\" qui fonctionnait pas correctement\" \"GOFAST-11348\",\"Correction d'un bug de message erroné sur la création d'un dossier avec des \"/\" \"GOFAST-11384\",\"Correction d'un bug où il était impossible d'écrire dans un dossier mirroré si l'utilisateur n'avait pas de droits dans l'espace d'origine de ce dossier\" \"GOFAST-11387\",\"Correction d'un bug de résolution des problèmes de performance lors de la connexion\" \"GOFAST-11394\",\"Correction d'un bug de où il était impossible de publier un document dans un répertoire mirroré\" \"GOFAST-11396\",\"Correction d'un bug de chargement incomplet de la modale de déplacement d'espace\" \"GOFAST-3043\",\"Correction d'un bug, le bouton \"Restaurer\" ne s'affichera plus pour les fichiers purgés de la corbeille d'Alfresco après la période de rétention\" \"GOFAST-7709\",\"Correction d'un bug où l'ajout d'un caractère spécial dans le titre lors de la création d'un dossier provoquait une pop-up, empêchant la création du dossier\" \"GOFAST-7729\",\"[MOBILE] Correction d'un bug du flux  du fil d'activité.         [MOBILE] Fixed a bug in the activity feed. \"GOFAST-7751\",\"Amélioration et correction des problèmes identifiés dans les volets de filtre de recherche et d'activité\" \"GOFAST-7753\",\"Correction d'un bug d'amélioration du choix lien entre les fichiers\" \"GOFAST-8148\",\"Correction d'un bug d'impossibilité d'aller sur un lien relatif à partir d'Only Office\" \"GOFAST-8752\",\"Correction d'un bug de comportement illogique de notifications suite à une action sur les To Do List dans les cartes Kanban\" \"GOFAST-9026\",\"Correction d'un bug d'optimisation  de diffusion de document en améliorant et grisant les boutons de traitement d'une tâche lorsque lorsque l'action n'est pas applicable\" \"GOFAST-9129\",\"Correction d'un bug  des incohérences dans les noms et la navigation de l'espace personnel\" \"GOFAST-9296\",\"Correction d'un bug de filtres de recherche qui ne se replient pas\" \"GOFAST-9307\",\"Correction d'un bug de supervision du nombre de participants sur Zabbix\" \"GOFAST-9496\",\"Correction d'un bug de lenteurs sur la page de création lorsque l'utilisateur possède beaucoup d'espaces\" \"GOFAST-9560\",\"Correction d'un bug où il était impossible de faire des recherches contenant un \"%\" \"GOFAST-9684\",\"[ESSENTIAL] Correction d'un bug où une erreur survenait lorsqu'une modification externe était apporté dans l'explorateur de fichiers\" \"GOFAST-9703\",\"Correction d'un bug d'optimisation d'appel.      Correction of a call optimization bug. \"GOFAST-9768\",\"Correction d'un bug où l'écran de connexion présentait des dysfonctionnements après une mise à jour de GoFast\" \"GOFAST-9944\",\"Correction d'un bug de message d'erreur sur le changement de métadonnées en masse\" \"GOFAST-9986\",\"Correction d'un bug de lien de carte kanban mal affiché\" \"GOFAST-10670\",\"[ENSSENTIAL] Problème : le volet filtre était replié, il était impossible de voir les filtres appliqués\" \"GOFAST-11039\",\"Correction d'un bug de Drupal\" \"GOFAST-11066\",\"Correction d'un bug où les résultats de l'auto-complétion diffèrent des résultats réels\" \"GOFAST-11259\",\"Correction d'un bug : Les caractères spéciaux dans les noms de dossiers importés sur GoFAST sont remplacés par \"%code_ascii_du_caractère\"\" \"GOFAST-11337\",\"Correction d'un bug de téléchargement de dossiers impossible\" \"GOFAST-7688\",\"Correction d'un bug d'emoji non accessible dans la zone d'entrée du texte\" \"GOFAST-9401\",\"Bug : amélioration du chargement des statistiques\" \"GOFAST-9652\",\"Bug : performance améliorable 4.1\" \"GOFAST-11213\",\"Correction d'un bug grâce à la mise à jour de Synapse 1.98\""
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 344d371dc44d45f6ba89d80f7315fc84
+msgid "GOFAST-10020"
 msgstr ""
 
-#: ../../docs-gofast-technical/release-notes-4.2.rst:276
-#: 18e4f049aa1f4508bc37d0081a745198
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 7bc584eab1204ee6a7b06f009c6666b1
+msgid "[CHROME OS] Correction d'un bug, l'onglet tâche workflow était vide et mal positionné"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 391e27cf1d9b4f5488acb79e4f2969d4
+msgid "GOFAST-10041"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: a1a5d3ea942246bfb7e996184e7d7523
+msgid "Correction d'un bug sur le menu 'Plus' d'un répertoire, le fichier disparaissait"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: b75265b0c33c48ba9a376afeb6d96a4b
+msgid "GOFAST-10098"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 074e101abb0f493caebc9c66f80c046f
+msgid "Correction d'un bug d'icônes non visibles dans l'édition des wikis"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: ea49d39e5f414309a8dd3a0d84a18db5
+msgid "GOFAST-10151"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 668879a73d1e49e28645a0d6bba2f0ae
+msgid "Correction d'un bug de caractères qui étaient acceptés dans GoFast, mais interdit dans Alfresco"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 1df20cedabe54f3f8f901a1085cb76f3
+msgid "GOFAST-10153"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 9f758d8050b54ea386a081a41c37737f
+msgid "Correction d'un bug qui interdisait l'accès à un document"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 786316b3a0d34558af64dbaa30047abb
+msgid "GOFAST-10171"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 5e5f813d21bb4668b49908bb25dfe015
+msgid "Correction d'un bug de l'explorateur de fichiers multi sélection avec la touche SHIFT"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 86472e5a4830435083d93f278d88227a
+msgid "GOFAST-10213"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 9b5ed6853b414c35af98f7258f13af38
+msgid "[ESSENTIAL] Correction d'un bug de roue d'attente du bloc métadonnées bloqué"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 78ad31d4960c447587483419155e970d
+msgid "GOFAST-10307"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: a77613243fd94416a3884b510c140dd2
+msgid "Correction d'un bug où l'on ne reçoit pas de notification lorsqu'on est ajouté à un espace via une liste d'utilisateurs"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 5bf05dd400e6488eab5242c84434d179
+msgid "GOFAST-10342"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 019fa2fc78aa4afc922abe0bbe3b7d1e
+msgid "[ESSENTIAL] Correction d'un bug : Alignement de la navigation avec les flèches sur le mode de tri actuellement sélectionné par l'utilisateur dans l'explorateur de fichiers"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: b80304b549b84cc2a804039b25ff4cae
+msgid "GOFAST-10344"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: f70391b527ee42de867eae57bfae7d6e
+msgid "Correction d'un bug : Amélioration de l'interface utilisateur lors de l'édition d'une page d'accueil depuis l'arborescence"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 9cefd49bceba42d887021ca34bb6d20a
+msgid "GOFAST-10440"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: a11a5f957fa9498e93362b5c4dc33f6a
+msgid "Correction d'un bug où certains champs étaient absents lors de la mise à jour des profils utilisateurs"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 5abb1a02002847daad37eb4ff828afc1
+msgid "GOFAST-10446"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 1ea5d441f626491b9d07f4040cbd95a7
+msgid "Correction d'un bug d'erreur JS lors de la validation des annotations"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 234a9e081eb94639accfb2679297bba0
+msgid "GOFAST-10477"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: c795cb6d9d2c4844aceb14f08beaba86
+msgid "Correction d'un bug, si une modale est ouverte dans Element, le focus est impossible sur les champs dans GoFast"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 203fec278814485cb870d6d9bc92b3d5
+msgid "GOFAST-10608"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 1f5de549753a45fd941442f23f2c69aa
+msgid "Correction d'un bug de mauvais positionnement du menu contextuel de l'explorateur"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: beccdb696baa42e38546c10e7d489da0
+msgid "GOFAST-10619"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: c7446c40632f46cdb7ed33b3199950f1
+msgid "[IPAD] Correction d'un bug , l'onglet membres n'affiche pas les membres"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 0b82488184cb4214a8e1f52866f5217b
+msgid "GOFAST-10668"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 640188223014446199419a03f530395d
+msgid "Correction d'un bug de notification de DUA"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 9cb73a5132d14914b84c14781f433da7
+msgid "GOFAST-10690"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 458323af689e492b91b01bec20ca1716
+msgid "Correction d'un bug d'impossibilité de faire une publication si le document était broadcasté"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 27bfaa6833e94080aac3a7910b383e27
+msgid "GOFAST-10697"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 5f748e363ac046f59da2f8820f1e92db
+msgid "Correction d'un bug où la conversion en PDF lors de la publication en masse ne fonctionnait pas correctement pour plusieurs documents sélectionnés"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: bad18c1bfc45466499b4bec92a308ad4
+msgid "GOFAST-10701"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: cded65ce5dfd4b3d8b01983a3e94f444
+msgid "Correction d'un bug d' implémentation de la fonctionnalité d'écriture de droite à gauche dans CKEDITOR 5"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 069e7d02ecfe4537ae177fd6f148121b
+msgid "GOFAST-10772"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: c52156655c9749f4b8579cdde25a26b2
+msgid "Correction d'un bug : Résolution du problème survenant lors d'un clic rapide sur un lien ouvrant une modale (comme l'ajout d'un commentaire) immédiatement après une navigation"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 96d73eae23ea4cbe8c848aae16a8c0fe
+msgid "GOFAST-10776"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: f11c2cf8555b46e4aefbd0c16a088b3b
+msgid "Correction d'un bug de membre extranet n'ayant pas accès à l'espace personnel"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 9ed15e23f0fe40fb98f929bcaaa8379d
+msgid "GOFAST-10789"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: adfa1d9d35e34e0a9d3036d0b82566b5
+msgid "Correction d'un bug de signature Yousign non alignés en haut"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: cce4547821b74a7699962b24345212ad
+msgid "GOFAST-10800"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 686439b30f5d433a99427c71ecc55b20
+msgid "Correction d'un bug, impossibilité de supprimer un 'manager' depuis le profil utilisateur une fois ajouté, sans recharger la page"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 4a08fbfd3a9a4bc3b3da57804092fc28
+msgid "GOFAST-10805"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: c0e91eb2d0074fea9c3f023a0faef5c0
+msgid "Correction d'un bug de comptage du nombre total de membres"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 6a1d4ca1b6004cedab308917d4c5b732
+msgid "GOFAST-10806"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 047c91a58d5c43e68901bb543b8f54ee
+msgid "Correction d'un bug de comptage de documents dans l'annuaire des espaces"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 03b2b178c5d9475baf921642b134358f
+msgid "GOFAST-10819"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 74508c5dfa6145acaeb9b90f6d5860d2
+msgid "Correction d'un bug d'affichage du menu inférieur dans la page des abonnements"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 6e408c616cfa40ad902dba693f9f4c88
+msgid "GOFAST-10825"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 6c3fee42da6d41308222159ff2bc6d58
+msgid "Correction d'un bug de caractères qui apparaissent encodés lorsqu'on saisit un champ dans une ToDoList kanban"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 843bd96bd6f24f04b47c35bdc2417fa5
+msgid "GOFAST-10837"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: f1ecbd43395a4394948070c2c025e823
+msgid "Correction d'un bug de marges et d'espacements sur le tableau de bord"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 13c7ae54136b49ffac868cb278b96576
+msgid "GOFAST-10838"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 34bcf855a1b5411db18afa0c9f184228
+msgid "Correction d'un bug qui exportait les espaces publiques lors d'un export depuis les statistiques"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: b462cf55009540c0affaeadac4177fe5
+msgid "GOFAST-10845"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 1e6b68a0238b418ca81e51f18d25a9a2
+msgid "Correction d'un bug du bouton 'recharger' qui envoie des centaines de requêtes de connexion"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 27f83a022b0a4c6ab699340ae2cdc0aa
+msgid "GOFAST-10846"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: d968717e06dd4371b938a3c5fe462b7b
+msgid "Correction d'un bug  d'audit timeout pour l'INSA"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: aeb7e453df6645a7ab6c020abe6ae9da
+msgid "GOFAST-10847"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: d9526b8d89144ff6b6b6c9c1853f8b5f
+msgid "[ESSENTIAL]  Correction d'un bug d'annotations non apparentes après avoir été créées"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: d63eaeeebde841a784aef135dd76a565
+msgid "GOFAST-10849"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 53e27acb50d946d6a6dd2d01f8231d61
+msgid "[ESSENTIAL] Correction d'un bug où après une prévisualisation, puis un retour sur l'explorateur le fichier n'était plus en surbrillance"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: c9407f39da1c40a9ab16298db8cce785
+msgid "GOFAST-10851"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 997b1a3185704402959e0120cace101e
+msgid "Correction d'un bug de mauvaise configuration d'OnlyOffice si elle est en version entreprise"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: b591447d277d426098bf36eb56aeb380
+msgid "GOFAST-10863"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 74a2594d355846d680e85df44a1f033e
+msgid "Correction d'un bug où certains filtres n'étaient pas récapitulés correctement"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 136d1e2290674e53bc6babe185bbf589
+msgid "GOFAST-10871"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 3a62c25daef442af9d10bfddaf11273d
+msgid "Correction d'un bug, après un freeze d'onglet, il y avait un message en boucle d'Only Office"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: ee0d70dfd0bc4785b658fac9e15e30f0
+msgid "GOFAST-10873"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 0d27018ef16a43dda48a4f6df5f85b41
+msgid "Correction d'un bug où le comptage des documents dans l'annuaire des étiquettes incluait également des documents dépubliés"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 1975e7184f0a4594a166b5c7c3ddc34b
+msgid "GOFAST-10878"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: f077ae612259474fa25ccfb1e889a2a7
+msgid "Correction d'un bug d'implémentation d'un suivi d'audit pour les téléchargements de dossiers partagés"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: b412ece0bf2c4641a70a1790312a4ad6
+msgid "GOFAST-10879"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 65c7775627fb4c65ac1cad6c7719b79f
+msgid "Correction d'un bug de mise à jour des favoris d'espace"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 82a2a1fad7984d12abde6515118a925d
+msgid "GOFAST-10883"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 9923209e59194c55a15ec5a48cadbfc1
+msgid "Correction d'un bug de d'autocomplétion qui ne se lance pas au contrôle + V"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: be52e6c96a654d3daf902bbd0556b39a
+msgid "GOFAST-10891"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 5a9e299ff2da4735b086c5472b98163b
+msgid "Correction d'un bug d'installation inutile d'un dépôt postgres"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: edd2bc268d674276bb12a8d6d169103e
+msgid "GOFAST-10898"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: d15fb88303f54a3d8a99601acae79d12
+msgid "Correction d'un bug empêchant la sélection de plusieurs fichiers dans le drag and drop"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 6fe83b0a58af4790af0bea2c452f380e
+msgid "GOFAST-10901"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 45155163cc194417a7f2a727fe677550
+msgid "Correction d'un bug de correction d'item Zabbix"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 473c2fc92ab64a3393e0ddeee6035df4
+msgid "GOFAST-10914"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 451538b663164181832c219c907c8a8d
+msgid "Correction d'un bug de mauvais tri des salons"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: c637072ca3af4db485222c06234dd1de
+msgid "GOFAST-10922"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 6175ddcfd334446d83d1e14e23a3871c
+msgid "Correction d'un bug d'affichage du nom des espaces dans le menu"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 7b87ab12a0884e9fa0f1a194e05772ca
+msgid "GOFAST-10927"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: ad7fd0013e234bfc83a00b58cd789c84
+msgid "Correction d'un bug rendant possible le fait de télécharger un document confidentiel dans un dossier"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: ff5535ff96e046379f72d934f9196874
+msgid "GOFAST-10928"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: d4cbb1e466724352b9c83162715bd7a0
+msgid "Correction d'un bug : Modification de l'affichage de la page de lien personnalisé pour qu'elle s'ouvre sur le même onglet que la plateforme"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 7120d421004f4cef808c85c0eea21edd
+msgid "GOFAST-10930"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: a46bc0be7cba4d77874b82b526f4e012
+msgid "[ESSENTIAL] Correction d'un bug survenant lors de la sauvegarde après l'édition d'un commentaire dans un forum"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 350df6cde807407d93f3782078b6f991
+msgid "GOFAST-10945"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 111842419d1b4ba6804784e1c78d75fb
+msgid "[ESSENTIAL] Correction d'un bug de mauvais focus lors de la réponse à une notification pour un forum"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 687ec07c807b415ba63293a5d0d6aa94
+msgid "GOFAST-10948"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 336be3f86b9e44619690b7b5adac471a
+msgid "Correction d'un bug d'interface de l'onglet soumission dans les formulaires web"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 32ac4bd82b294fff986a3940c77f1cb2
+msgid "GOFAST-10968"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 20e23f97727f486e921cd7dca0e585cd
+msgid "Correction d'un bug de partage de fichier possible sur un document appartenant à un dossier multifilé"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: b7eb713493b1405189cc6a7ab8fe8d66
+msgid "GOFAST-10971"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: abddbf6a7df746cbaa60de5309dc05f5
+msgid "Correction d'un bug de décalage dans une carte Kanban si trop de caractères dans une ToDoList"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: e7991d38e76f4c01a654fc8795d53ef2
+msgid "GOFAST-10978"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: b026f6e0f67f46858e5dcf484282fa6c
+msgid "Correction d'un bug de document dans les favoris d'un répertoire"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 12e6bd005eaf4740af8708fb3292743e
+msgid "GOFAST-10983"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: b7d6ca99fac54751bb4bd90e16c91412
+msgid "Correction d'un bug de mise en forme de notifications si elle contenait un tableau"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 328e1ce0337341038b3f698ef0a80812
+msgid "GOFAST-10984"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 736cb8c1f2964a89a7fcd4cfaee64717
+msgid "Correction d'un bug, si une publication était en cours d'édition, un autre utilisateur pouvait republier sans message d'erreur, mais cette publication était jamais réalisée"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: f621b9cb32e5454a96091934e358f1e4
+msgid "GOFAST-10991"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: e1d9dbf71c874bd88d405ebdfe45ab02
+msgid "Correction d'un bug de l'accès au sous menu 'Plus' impossible si la résolution de l'écran était trop faible"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 81b08e9d82fc488cbade49d5b2f8fe02
+msgid "GOFAST-10994"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 6644036ffb5442408510430f258ff3e9
+msgid "Correction d'un bug de performance multifilling / mirroiring rendant impossible le fonctionnement"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: a909eb73e0044aa5878d1e5fb29a3c5b
+msgid "GOFAST-10996"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: e384b7da2a544370838bf1a44a381c2e
+msgid "Correction d'un bug d'affichage des noms des documents en dehors de la rubrique 'Mes tâches' du tableau de bord"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: ac68aa4620ce4265ae191288058f178c
+msgid "GOFAST-10998"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: f8ab2ab8651d43169c3076d22c016e29
+msgid "Correction d'un écart potentiel entre le nombre d'éléments dans Alfresco et le nombre de nœuds côté GoFAST"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 08d4035293b949deb206dce648f62877
+msgid "GOFAST-10999"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 7032adb0b5ce48e494c7679e9a7d8823
+msgid "Correction d'un bug d'OnlyOffice rendant impossible de supprimer un texte dans une présentation"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: a5a7b7c294b54dcdbd67b20fd31559b3
+msgid "GOFAST-11001"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 5236613d1e61422ea5974c4918ac73e7
+msgid "Correction d'un bug d'affichage de la langue lors d'un partage de documents par mail vers une personne  extérieure à l'organisation"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: f0f5bf4e939c4f0a96650cefdcc37fe1
+msgid "GOFAST-11005"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 1ca11fcbd8e34fbb83ed28e62662d205
+msgid "Correction d'un bug, lors de la création et de la modification d'un modèle de processus, aucun message d'erreur apparait alors que le titre n'est pas renseigné"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: c58df05460204fef80af95b04dee7fbf
+msgid "GOFAST-11007"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 164e59449b174ff4b981657edf785cf3
+msgid "Correction d'un bug, après la création d'un modèle, il n'était pas visible sans rechargement de la page"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 8f9ee509c500485f9e4124143289eecf
+msgid "GOFAST-11008"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: a9998b6774504663b4581d3bfa919dcb
+msgid "Correction d'un bug de fermeture de l'onglet des workflows après sélection d'un modèle de processus"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: e0d2b1f6f5f4497a982369866b8f37c9
+msgid "GOFAST-11009"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 35859cf67d0c451db6d02f17fede0561
+msgid "Correction d'un bug où il était possible de supprimer le nom d'un modèle de processus et de l'enregistrer lors de la modification"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 6aec26cebcc7496b89a59a57400aadaa
+msgid "GOFAST-11023"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 58bf4ca6f22b467ba86ddbed6e7ee64c
+msgid "Correction d'un problème de gestion des droits dans un espace avec une liste d'utilisateurs"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 71db435aa4eb4210af18bf101bbc31c9
+msgid "GOFAST-11042"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 7a5bec918d384d0697b787709902132f
+msgid "Correction d'un bug d'impossibilité de drag and drop un document avec une apostrophe dans le titre"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 29ecdb44ee6c431f84f018852d35713e
+msgid "GOFAST-11051"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 880ac959a1914ffe992e7c63fa334605
+msgid "Correction d'un bug qui empêchait le téléchargement en masse de fichiers lorsque les métadonnées des fichiers ne se chargeaient pas correctement"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 6fe681fdc91147feaa613ae95556a3c3
+msgid "GOFAST-11060"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 0ce1d3c1f489463399ba9a6b2df81dce
+msgid "Correction d'un bug où un participant ajouté lors de la modification d'une réunion ne recevait pas de notification"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 15aaa746aa1043caac7312d77c804806
+msgid "GOFAST-11061"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 0345d6731fa14fadb7e08f7c561aae03
+msgid "Correction d'un bug d'affichage incorrect des participants dans une Checklist de Carte Kanban"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: ebfddcabcfc742279f07918236a9d174
+msgid "GOFAST-11065"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 97d3eb8dfe9a457381f87e56580dd022
+msgid "Correction d'un bug de réplication lors d'un drag and drop"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 5c4915b8e9294cc0a5bb8e4e2e54d7ae
+msgid "GOFAST-11073"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: f14de05499684f1e877247195d2b2079
+msgid "Correction d'une erreur de traduction en anglais dans l'intitulé 'Télécharger un fichier' lors de la création d'un fichier"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: acc3409d34ee494bb73058ff4505bd94
+msgid "GOFAST-11077"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 09428240ec45447c8cc4708cf76254c1
+msgid "Correction d'un bug d'amélioration ergonomique de la création à partir d'un modèle"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: b7633e32a2bc483eb860dae39ace570e
+msgid "GOFAST-11093"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 1fa4100d282a4a4ea8736ae582b76b36
+msgid "Correction d'un bug de traduction des DUA anglaises non prise en compte dans les propriétés de la catégorie"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: f60ea238367d420b8a084dbd9b103a95
+msgid "GOFAST-11094"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 18b3123f76d14edfb3bdffc50509f139
+msgid "Correction d'un bug de recherche Element trop longue lorsqu'il y a beaucoup d'utilisateurs"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 35bec4cdcace427a9e6c38d8fad37637
+msgid "GOFAST-11099"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 86e15319c0fa4ee198ed42019c4d6980
+msgid "[ESSENTIAL] Correction d'un bug de renommage sur l'explorateur de fichier en renommant un document"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 87ebf79fd99f4a408437655f7ff5008a
+msgid "GOFAST-11107"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 6b59106c46a84cd4a4ee718b6e6c0cf6
+msgid "Correction d'un bug de wildcard ne fonctionnant pas en début de mot dans le moteur de recherche"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 09b58a62634349a8bdc73cece6048c42
+msgid "GOFAST-11110"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: a3d7b38a2fcd4bc58c650d37db03b2a3
+msgid "Correction d'un bug où le portrait d'un utilisateur manquait dans la liste des utilisateurs"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 9e88fb4783cb4f498919066d2815751f
+msgid "GOFAST-11142"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 01b2eae969ee4da0a2a2060e08029aef
+msgid "Correction d'un bug de gestion des membres qui se produisait en cas de présence d'un caractère '&' dans le nom de l'espace"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: ca27342e96684b009850e1bdc72cf58b
+msgid "GOFAST-11149"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: d6835af7964f405ca75610f0f6c5f13b
+msgid "Correction d'un bug de redirection à la connexion"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 45ea922a71f54276a39a7c63c7bb9087
+msgid "GOFAST-11150"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 75436aec6ba245b19e05f447f8b2d6bd
+msgid "Correction d'un bug affichant une erreur lorsqu'on tente de supprimer une relation"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 4741086ed0b040b1a72acd987250541f
+msgid "GOFAST-11152"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 9d9b5af2552445e288421b5ae138f8a6
+msgid "Correction d'un bug de problème de mise en page d'une notification"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 600721a210e245358fc1c71c3d581243
+msgid "GOFAST-11157"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 7b8a9bbcc05e490c8506e42094434334
+msgid "Correction d'un bug où l'édition en parallèle d'une même version entraînait la perte de contenus"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: fbc3f1618cd34816af67d466868ae450
+msgid "GOFAST-11166"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: b6bf3ad9051545d992caa3a4df2b964e
+msgid "Correction d'un bug de lenteur d'affichage des espace dans la page de profil"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: f82e9d489f35450da5393657c962d8a7
+msgid "GOFAST-11176"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: be05fbd53d9147bd99335b3adc47b47d
+msgid "Correction d'un bug de recherche Element depuis le client lourd, qui diffère du client web GoFAST"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 205d05b859ba4aef8c8cf3f46016a22b
+msgid "GOFAST-11189"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 023336597c0d4bd2b8e9190a2625f674
+msgid "Correction d'un bug de l'API d'envoi de mail où les mails de processus n'étaient pas reçus lorsque le message contenait des tabulations"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 6820995470654830acae71dee04c321a
+msgid "GOFAST-11199"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: a79ca7ab38ed4a0aa177e4bf0b89aceb
+msgid "[ONLYOFFICE] Correction d'un problème de perte de contenu qui se produisait lors de l'édition en parallèle de la même version"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: e10cbb4c503341cdace1ae1922aa479d
+msgid "GOFAST-11202"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 46533e81e0cf4135bf74239556a6b021
+msgid "Correction d'un bug lié au nombre d'entrées dans les requêtes LDAP externes, qui entraînait des problèmes de performance"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: c3a04313ee7b40ab85a9bdd0fd0a8bbe
+msgid "GOFAST-11204"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: ca5255f4e03b49329b59344ba78bdf7f
+msgid "Correction d'un bug d'impossibilité de sauvegarder la description d'un espace"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: ba7b5597f58541b08ebcbfdb6a95c2dd
+msgid "GOFAST-11206"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 650ad43c219743d59ef3ce781a967c8c
+msgid "[ESSENTIAL] Correction d'un bug où une recherche contenant uniquement des chiffres renvoyait tous les résultats"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 21de3e4da23a46f1ae12f0c5af69e4e0
+msgid "GOFAST-11207"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 380d939e4f56453c8ff86be89caeab74
+msgid "Correction d'un bug, dans la recherche stricte, le champ 'référence documentaire' ne remonte pas dans les résultats de recherche"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 08965ebb431d416281b2fff566c46699
+msgid "GOFAST-11209"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 161d1be0a1304cf4a8d65ae62b79d033
+msgid "Correction d'un bug de documents .odg non prévisualisés"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 5f552035a3844d9bbe56251bdf902df1
+msgid "GOFAST-11218"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 1ee342bccab448c6a8558b3375c579de
+msgid "Correction d'un bug d'un problème d'accès à la GED si l'utilisateur à un accent dans son identifiant"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 973caeea8bd44b819e3ccb9163efa121
+msgid "GOFAST-11219"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: e779e125a2e34ad599a7859a9114d7f7
+msgid "Correction d'un bug de l'état d'une publication qui ne change pas dans un wokflow standard"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: ab5f2f306eb2415dbc159dde5b4318df
+msgid "GOFAST-11220"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 83f8f457df594b78817b54b832153115
+msgid "Correction d'un bug d'amélioration du thème de notification de signature"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 0ab98e0969f74802866c1afa8501005b
+msgid "GOFAST-11222"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 826067413db04eef8b8e75413e5ec576
+msgid "Correction d'un bug de perte de hauteur de pied de page en .odt"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 219c8e818b9f4e36a4b61f0fdb993535
+msgid "GOFAST-11223"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 72aff9babce2416ebd73aa6842b301a3
+msgid "Correction d'un bug de prévisualisations supprimées"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 845fd36abb3548b19f39bd6940ad5c9b
+msgid "GOFAST-11226"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: e7fdddea47864eec9493e0629700b260
+msgid "Correction d'un bug du contenu d'un fichier tableau qui ne remonte pas"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 30aa4164d6904eda8c968732fcde380c
+msgid "GOFAST-11228"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: c8e0c59252f34196a646e280a31f543d
+msgid "Correction d'un bug de saut de ligne parasite sur le champ 'Preuve de signature' sur le panneau métadonnées"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: fef9148f3ea04d55a4ad5c6ff78ea703
+msgid "GOFAST-11230"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 5173e71988a74c48aa43e2e9c497e4d0
+msgid "Correction d'un bug de PostgreeSQL repositoty plus disponible"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 257931787c85449c993e7cb6464ff335
+msgid "GOFAST-11231"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: ba5efe06b07544f18478163e776e86a4
+msgid "Correction d'un bug où la vérification de l'historique des mots de passe ne fonctionnait plus en PHP8 lorsque ppolicy était activé"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 0d99b032d8ef45f79be5fc0b23e16ed2
+msgid "GOFAST-11242"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 1ecf19e7c5554d639c2ff5fa393651fb
+msgid "Correction d'un bug de cron bloqué à cause d'un LDAP créé avec des informations manquantes"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: bd1bdd1f913346b59868232c47e8bc37
+msgid "GOFAST-11244"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 601ca6db5b994ff3af07ff0f23ec850e
+msgid "[ESSENTIAL] Correction d'un bug de problème de login SSO"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 9f67dc2e427845c2bebdc243d2fcbe91
+msgid "GOFAST-11246"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 081fdc2b389a4ebcaa04d178e67e0966
+msgid "Correction d'un bug de Kanban où le renommage d'une colonne entraînait la duplication de la colonne"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: e61dedba090c413ba2f3798f28905d89
+msgid "GOFAST-11248"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: c50143947daf4812bb21c2c3c9584db2
+msgid "Correction d'un bug où le lien Jitsi n'était pas correctement inclus dans les invitations après la création d'une réunion synchronisée de Bluemind  (ou autre) à GoFast. )"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: c82e57e04e4641ce9f2660d4c80c0d13
+msgid "GOFAST-11250"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: dc08f1bee3a644f89a38ddf1562a45c4
+msgid "Correction d'un bug où l'édition d'une adresse mail existante sur un compte désactivé affichait incorrectement une modal indiquant que l'utilisateur était bloqué, alors qu'il était désactivé"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: d27e7041045047c28fa1da282ff42c40
+msgid "GOFAST-11253"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 83ad46589f0a4f29a16c9c573bade031
+msgid "Correction d'un bug de problème avec l'encodage de certains certificats SSO"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: c58221bafaca48d2b0ac32fd3ef144c6
+msgid "GOFAST-11270"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: dd8bdb544fce4345b06971a78a62b8e7
+msgid "Correction d'un bug de sauvegarde de node déclenchée lors que la détection d'un problème de version"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 6fbf76135a4c428abd746d7f4f6ef967
+msgid "GOFAST-11282"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: cab2c67c380a4368a5cf5d1c1bac1dba
+msgid "Correction d'un bug d'affichage des barres de défilement avec une version récente de chrome"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 6b6c2d09da7544d192591c15745be6b2
+msgid "GOFAST-11300"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: dd55436c517c40a18526e1693942b3a4
+msgid "Correction d'un bug pour permettre par défaut l'ajout d'utilisateurs externes dans les organisations et groupes"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 90f2ba047821475094330242a96b000d
+msgid "GOFAST-11312"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: ac617d99b3fe4a84a2c290f63d929875
+msgid "[ESSENTIAL] Correction d'un bug sur les boutons d'édition de la page d'accueil d'un espace"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 1261be942b014399a5707807bded1216
+msgid "GOFAST-11319"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 4f329e4ae1ce4d1baec8e250f4d0a3bc
+msgid "Correction d'un bug des lignes d'audit parasites"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: afe3f94238eb44c8abc62f53faa8ae8f
+msgid "GOFAST-11329"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: b26a829b1a484350bffb81af7dc2812b
+msgid "Correction d'un bug où les catégories n'étaient pas affichées si la variable d'environnement GOFAST_RETENTION_PERIOD_MATRICE_VAR était nulle"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: da578ef965ae482c868d3a25950bfb52
+msgid "GOFAST-11332"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 99fe4d49d63145109919008413d6a47b
+msgid "Correction d'un bug de 'Contrôle +A' qui fonctionnait pas correctement"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: ebdb8304d65d4e5494c483a8b748a767
+msgid "GOFAST-11348"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 1cff897e786e43489b01de079f36716d
+msgid "Correction d'un bug de message erroné sur la création d'un dossier avec des /"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: f84e8e6cdd344f1783e301893565a810
+msgid "GOFAST-11384"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 8d6e3456ce14437abfb1e801968d7767
+msgid "Correction d'un bug où il était impossible d'écrire dans un dossier mirroré si l'utilisateur n'avait pas de droits dans l'espace d'origine de ce dossier"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: e8223c6b2cf045c4a3640142676c4489
+msgid "GOFAST-11387"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 7dc4a483708a4a309304db64987d8cf6
+msgid "Correction d'un bug de résolution des problèmes de performance lors de la connexion"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 0f9844889c1a4b8fa517632d3b8ec849
+msgid "GOFAST-11394"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: aa6999780cc94699b6e62c26ef773815
+msgid "Correction d'un bug de où il était impossible de publier un document dans un répertoire mirroré"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 773d718880e649e4bac01dc911be2f01
+msgid "GOFAST-11396"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 1213c410c2ca4464a741d03d1f9e83d5
+msgid "Correction d'un bug de chargement incomplet de la modale de déplacement d'espace"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 79e3445045bf43e89c62dabf409f32fb
+msgid "GOFAST-3043"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 096f4f7d64084422ba91e5252f193281
+msgid "Correction d'un bug, le bouton 'Restaurer' ne s'affichera plus pour les fichiers purgés de la corbeille d'Alfresco après la période de rétention"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 0a478181b1364e01b491f81a57f060bd
+msgid "GOFAST-7709"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: a56e50641240412d9499dd32802f5356
+msgid "Correction d'un bug où l'ajout d'un caractère spécial dans le titre lors de la création d'un dossier provoquait une pop-up, empêchant la création du dossier"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: f22ed20c01724bf2ab442e85f3214f50
+msgid "GOFAST-7729"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: d53f3a652d34400689d82b8d8219258c
+msgid "[MOBILE] Correction d'un bug du flux  du fil d'activité"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 9126dd68638446a9bdd98b9c06da8ab2
+msgid "GOFAST-7751"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 0e5e750e6ac04c7d9dd9dac91450f248
+msgid "Amélioration et correction des problèmes identifiés dans les volets de filtre de recherche et d'activité"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 1e1f19019b7149a3a22cefe4a28848e0
+msgid "GOFAST-7753"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 938d9a8869024e80a0250a2d1275800b
+msgid "Correction d'un bug d'amélioration du choix lien entre les fichiers"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 54fc975420324590a86972f8b9e572b5
+msgid "GOFAST-8148"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 942e8a9a42cb4542843f5c291ae24841
+msgid "Correction d'un bug d'impossibilité d'aller sur un lien relatif à partir d'Only Office"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 744f3bec3ac141dd8a877fc6aec48070
+msgid "GOFAST-8752"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: eb175f03a58b4788a64d0e3ee3a4c955
+msgid "Correction d'un bug de comportement illogique de notifications suite à une action sur les To Do List dans les cartes Kanban"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: cb7ed60bbcce4742b1b01f2507178b7d
+msgid "GOFAST-9026"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 7941928e6caf4571a91a33839d0f7fbc
+msgid "Correction d'un bug d'optimisation  de diffusion de document en améliorant et grisant les boutons de traitement d'une tâche lorsque lorsque l'action n'est pas applicable"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 1d8c543b92e24839a67c4aac56c811b5
+msgid "GOFAST-9129"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 07fdac3c2b1046d4b33647536f04c7c9
+msgid "Correction d'un bug  des incohérences dans les noms et la navigation de l'espace personnel"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 7b806e86b7974583846273872604285a
+msgid "GOFAST-9296"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 105933c3e7054dd5b85a1298e03b329b
+msgid "Correction d'un bug de filtres de recherche qui ne se replient pas"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 663c148e30074baf868d8ad9d1624b7f
+msgid "GOFAST-9307"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: a0da79f4525f4089b82e915c66a8b988
+msgid "Correction d'un bug de supervision du nombre de participants sur Zabbix"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 1c9bdb687ce34ee2934453907f7f5c2c
+msgid "GOFAST-9496"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 71179e1963984df3bd48674019278849
+msgid "Correction d'un bug de lenteurs sur la page de création lorsque l'utilisateur possède beaucoup d'espaces"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 2510a7421c854f6b9fb5afe7fc9765c9
+msgid "GOFAST-9560"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 202356880d7a4886813733189fe32f11
+msgid "Correction d'un bug où il était impossible de faire des recherches contenant un %"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 967f4fab0e2d451e82b93ee04f0a2827
+msgid "GOFAST-9684"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 96bcd6d9ab3b4671b7e4742d00b61b61
+msgid "[ESSENTIAL] Correction d'un bug où une erreur survenait lorsqu'une modification externe était apporté dans l'explorateur de fichiers"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: e76421798fb74137827f191b7c56453e
+msgid "GOFAST-9703"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 7ac96a31785b40898b57286c8ed3ff24
+msgid "Correction d'un bug d'optimisation d'appel"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: c8d6853e07204dd9a92328a494c54a29
+msgid "GOFAST-9768"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: ddf6859097cc4c38acf90a1e0d790b8e
+msgid "Correction d'un bug où l'écran de connexion présentait des dysfonctionnements après une mise à jour de GoFast"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 2d520be9ea0343dcb1bfdad531fd5d22
+msgid "GOFAST-9944"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 911e00125468479da90a82cb04bdd74a
+msgid "Correction d'un bug de message d'erreur sur le changement de métadonnées en masse"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: d9b2f9dabff3469b950112a5406445fb
+msgid "GOFAST-9986"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 73eab59c021d421387c2c394200d8985
+msgid "Correction d'un bug de lien de carte kanban mal affiché"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 3970c8ce26c44fdf98ae445af6e5be67
+msgid "GOFAST-10670"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 18fafecf68b845f5b812879cfe104546
+msgid "[ENSSENTIAL] Problème : le volet filtre était replié, il était impossible de voir les filtres appliqués"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: ed4d6ca3c54249b8a99d34fd1a468e7e
+msgid "GOFAST-11039"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: e81870bc86c74027ab0f95c674e63ee2
+msgid "Correction d'un bug de Drupal"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 824c63492af34aedba3b8626a6084d0c
+msgid "GOFAST-11066"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: b4dcc4f2525447d5a4ad00b355c9660a
+msgid "Correction d'un bug où les résultats de l'auto-complétion diffèrent des résultats réels"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 1eebaefd435a4a4fa1b93a663cac5cbe
+msgid "GOFAST-11259"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: ccdd9ece4453412dbabe2c85cbe6bc76
+msgid "Correction d'un bug : Les caractères spéciaux dans les noms de dossiers importés sur GoFAST sont remplacés par '%code_ascii_du_caractère'"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 55f388370328450fba4f03a1bf163b1a
+msgid "GOFAST-11337"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: c9376119d25545dfa3b8f2f00321dcdf
+msgid "Correction d'un bug de téléchargement de dossiers impossible"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: f1e1fb07dde9492993825e97c73fb421
+msgid "GOFAST-7688"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 151c5cd8cc064d82b420cfc1fc9eaf5d
+msgid "Correction d'un bug d'emoji non accessible dans la zone d'entrée du texte"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 23dc3e267a234bb99e67cc11f379b24d
+msgid "GOFAST-9401"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: c39e330390cc4ed2863faac79f3bc28f
+msgid "Bug : amélioration du chargement des statistiques"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 532b8fcbca1e4cd48bca59e8f3029515
+msgid "GOFAST-9652"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: a2a522f6b1dd428394a836eb4e0929c1
+msgid "Bug : performance améliorable 4.1"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 14ecfdef341f40d3a13005555403284b
+msgid "GOFAST-11213"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:1
+#: 8a2db8459ba942d085f65b22b594cb78
+msgid "Correction d'un bug grâce à la mise à jour de Synapse 1.98"
+msgstr ""
+
+#: ../../docs-gofast-technical/release-notes-4.2.rst:272
+#: a39e2fedc5ba4fc2a6e7ce6bf7b8c9b1
 msgid "Sécurité"
 msgstr ""
 
-#: ../../docs-gofast-technical/release-notes-4.2.rst:277
-#: b0a3d02d5e93485aa8e1eb204dd944cf
+#: ../../docs-gofast-technical/release-notes-4.2.rst:273
+#: e6bb3b6b7e8346b092d06e6c6aef4b2b
 msgid "**[GoFAST Enterprise]** Contactez-nous pour obtenir la liste des correctifs sécurité"
 msgstr ""
