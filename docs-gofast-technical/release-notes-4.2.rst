@@ -1,9 +1,6 @@
-
-
 ********************************************
 GoFAST :  Version 4.2
 ********************************************
-
 
 **[GoFAST Enterprise]** N’hésitez pas à solliciter notre support pour planifier la mise à jour.
 
@@ -45,7 +42,8 @@ Nouvelles fonctionnalités
    "GOFAST-9741","Nouvelle fonctionnalité : il est désormais possible de taguer/mentionner un utilisateur sur les commentaires Kanban"
    "GOFAST-11386","Nouvelle fonctionnalité : édition avec OnlyOffice des formats docxf (formulaires PDF)"
    "GOFAST-9870","Nouvelle fonctionnalité : il est maintenant possible de changer les identifiants des utilisateurs"
-                                                                                                
+
+
 
 Améliorations 
 ******************************
@@ -114,7 +112,8 @@ Améliorations
    "GOFAST-11424","MàJ JITSI (voir si on peut lister de nouvelles fonctionnalités)""
    "GOFAST-7650","Mise à jour du connecteur Java MySQL"
    "GOFAST-9282","Mise à jour IT HIT Document Opener v5.21"
-                                                                                                                                                |
+
+
 
 Bugs 
 ******************************
@@ -270,7 +269,6 @@ Bugs
    "GOFAST-9401","Bug : amélioration du chargement des statistiques"
    "GOFAST-9652","Bug : performance améliorable 4.1" 
    "GOFAST-11213","Correction d'un bug grâce à la mise à jour de Synapse 1.98"
-                                                                                                                              |
 
 Sécurité 
 ******************************
