@@ -391,7 +391,7 @@ L’audit complet est accessible via le menu principal de gauche, en cliquant su
 * Utiliser les filtres mis à disposition pour retrouver une action en particulier ou un contenu.
 * Exporter l’audit dans la limite de 50 000 résultats
 
-.. figure:: media-guide/Audit-detail.jpg
+.. figure:: media-guide/auditdetails.jpg
    :alt:
 
 .. NOTE:: Par exemple, pour pourvoir restaurer un document : filtrez par type d’événement « suppression de nœud », puis indiquez une période pour restreindre d’avantage la liste. Une fois votre action retrouvée, cliquez sur le document/contenu concerné pour aller sur sa page et pouvoir le restaurer.
