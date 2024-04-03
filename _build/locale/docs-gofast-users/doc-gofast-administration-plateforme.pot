@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2023
+# Copyright (C) 2024
 # This file is distributed under the same license as the gofast-docs package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gofast-docs latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-11 18:10+0100\n"
+"POT-Creation-Date: 2024-04-03 12:29+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,1552 +17,1552 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:3
-#: fea544ffefa242d1a74f8a8495cb020a
+#: 495a3cf3ea3c472c89f76f3ef8a1dfad
 msgid "GoFAST : Administration"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:7
-#: 262cf096c3bf46f49c44a687812c3f5e
+#: 4090e836e24444d398c291adfce3d347
 msgid "Introduction"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:11
-#: d57871183d394f4dbb43f63efc314592
+#: bfca87a7aceb4475b6f3e5d72a5f0858
 msgid "Cette partie de la documentation est destinée aux utilisateurs disposant d’au moins un des profils suivants :"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:10
-#: f937ecee12434f7b8a83156c99a96b89
+#: f9ab3351e8ca4cf5bd202c834a5d5bdc
 msgid "Super-administrateur"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:11
-#: c5315dd04fd7446c9dc5d90c349c1294
+#: 46c6188c1a7743cb9734ad938e2aa723
 msgid "Support-utilisateurs"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:15
-#: 5878340912294dbdbd96ec043cf24b70
+#: 1c27b7513fa74cb0ba073179de3c0c3b
 msgid "GoFAST permet de distinguer la notion de \"Profils\" qui donnent diverses permissions sur la plateforme, de la notion de \"Rôles\" dans les Espaces Collaboratifs. Attention donc à distinguer ces 2 notions différentes :"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:14
-#: af972a81fe604615b60ac92b81d823f7
+#: a6e01bade990473d82e5288a29b861c2
 msgid "les **Profils** donnent diverses permissions d’administration sur la plateforme. Ces profils sont décorrélés des rôles qu’un utilisateur peut avoir au sein des Espaces Collaboratifs. Merci de vous référer à la rubrique \"Profils disponibles\" de cette documentation."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:15
-#: 4b5cce9c4f67453eaebf5491d2a9ef57
+#: f34dc7e99dac493aa71709aa5d2af19e
 msgid "les **Rôles dans les Espaces Collaboratifs** : Administrateur, Contributeur, Lecture Seule. Un utilisateur peut avoir un de ces 3 rôles dans chaque Espace où il est membre. Il peut très bien avoir le rôle d’administrateur dans un espace, tout comme être en lecture seule ou contributeur dans d’autres Espaces. Pour les rôles liés aux Espaces Collaboratifs et leur administration, merci de vous référer à la rubrique \"Gestion des Espaces Collaboratifs\"."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:18
-#: 5dbcff3d49ba464f88c445e5d5cb1b76
+#: 461ed153b3de4f2ba8329c3b0e2c7259
 msgid "Profils disponibles"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:19
-#: 9cf4a120fb684d7fa5aa1a58705d29bb
+#: 2d1970e19ee24fdf8c96af36e5fe84f1
 msgid "Pour connaitre les profils qui vous sont attribués ou les rôles que vous avez dans les Espaces où vous êtes membres, vous pouvez aller sur votre page de profil-utilisateur, via votre photo en haut à droite, dans la barre des accès rapides."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:22
-#: fecc90cfaa9041da97cae533476dcfa5
+#: bd9792ad7b234808b4595e3a9ea49d67
 msgid "Les 3 profils principaux"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:23
-#: bdb873b59f0b49ed8e7be10eff2cce80
+#: b9df1994c7e44ce084d16c0b4f7540b7
 msgid "**Standard** : aucune permission d’administration de la plateforme (c’est le profil le plus répondu parmi les utilisateurs)."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:24
-#: c2b822272fa64c5e914af9724b47ce61
+#: 560fca6b6be14b86a9d874a939f5f20e
 msgid "**Support-utilisateurs** : permet d’avoir une vue globale de l’arborescence des Espaces même s’il n’est pas membres de ces espaces (sans avoir accès aux contenus de ces espaces) et des comptes utilisateurs existants. Ce profil permet d’accompagner les autres utilisateurs dans la gestion des espaces (ex. pré-ajouter des membres), d’aider dans la prise en main et à la promotion des bonnes pratiques."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:25
-#: 2e3c798a3a034c2e9fcbd787b2ce80ea
+#: 3b3d819e574c4bb08866873e13de4820
 msgid "**Super-administrateur** : il s’agit d’un profil technique qui permet de réaliser les diverses configurations de la plateforme (ex. coupler avec son annuaire interne, avec son serveur de messagerie…). Ce profil ne permet pas de voir l’arborescence des Espaces, ni des comptes existants (sauf pour les Espaces où cet utilisateur super-administrateur est membre)."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:27
-#: 8aa2ad4bee2640778dc2552da8f7e484
+#: 97847de2ed6b424684ee95b06ed054ba
 msgid "Aucun \"Profil\" ne donne accès par défaut aux Espaces Collaboratifs, ni leurs contenus. Ces derniers sont gérés indépendamment, via la notion de membre et de rôle dans un espace. Il s’agit ici de garantir la confidentialité en évitant qu’un utilisateur technique ou de support n’ait accès à toutes données gérées sur la plateforme, sans qu’un responsable métier ne l’ait expressément ajouté comme membre d’un espace."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:29
-#: ca5600de880741f8a3e0df770e1aef5e
+#: 2163e7a2532c449f9d59aa489b867077
 msgid "Un utilisateur ayant le profil \"standard\" ne peut pas être \"Support-utilisateurs\", ni \"Super-administrateur\". Il est possible de cumuler le profil \"Support-utilisateurs\" et \"Super-administrateur\" (pratique dans les petites structures/entreprises)."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:32
-#: 1e790d59075f4113afcc48f5a54f9fe7
+#: 112abb8cd5274c5e9fff06ce36b094f1
 msgid "Autres profils disponibles"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:33
-#: 8ca5c6fb42534fc782dc5ecfd321e211
+#: 2e0ab429e7e74d72ae937d73310ac41e
 msgid "**Externe** : destiné à identifier les utilisateurs externes à l’entité (entreprise/organisation), tels que les partenaires, prestataires, clients, fournisseurs, etc. Les externes n’ont pas accès aux espaces \"Publics\" qui sont réservés uniquement aux salariés/agents internes."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:35
-#: 355bdd08a92940db827f4409ad331259
+#: afb45ecf81e04a8b8f378b926b80dbd9
 msgid "Le profil externe ne peut pas être Support-Utilisateurs ou Super-Administrateur."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:37
-#: d21e2192271d4c4e854f64f1529cdb89
+#: 50bc1e07d160419bac1f179aca8afbe2
 msgid "Pour les accès d'un utilisateur externe, merci de vous référez à la rubrique \"GoFAST Administration / Support-utilisateurs / Configuration Accès utilisateurs externes\"."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:39
-#: 90deba32473d4e3893a1ce686afc7f79
+#: 2d49067f4ce448da8a87734f19c22f6e
 msgid "**Broadcaster** : permet de partager des documents dans des espaces collaboratifs sans en être membre, ou les espaces personnels des autres utilisateurs. Attention : ce profil ne permet pas de voir les contenus (ni dossiers, ni fichiers) dans ces espaces, mais uniquement d’en déposer."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:41
-#: 8cea97a21d004286939d2b347fbde0d2
+#: 2c559e7a9b8945e194eeaa9c8cd16afe
 msgid "Ce profil peut être cumulé avec les autres profils."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:43
-#: 4d14c530a2fc47069afd2b23a887aa28
+#: 9e2b0f77bdd5476a87f7e574d784e166
 msgid "**Restrictions des commentaires et annotations** : un utilisateur ayant ce profil ne peut faire que des commentaires et annotations privées. Il sera alors le seul à pouvoir les consulter et ne pourra pas les partager avec les autres utilisateurs (il s’agit des commentaires et annotations faits sur des documents/contenus)."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:45
-#: 16423dff9d61429c9b0eaa2cf0d722ea
+#: 2c6d6d06a9134daaa77f8db65ec0e4f0
 msgid "Ce profil peut être cumulé avec le profil standard."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:49
-#: 737a05e3bc9943bb97b5ca277cc3ebb9
+#: 7ae1da81a0154d3a93d0e118aa0a1428
 msgid "Tableau des permissions par profil"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:51
-#: a71a9c5b48d44d5e901ef17a91afed77
+#: 0ef45c656c2c47298b7eaa46853562fb
 msgid "En cours de mise-à-jour"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:53
-#: 3066d9362b25435f964f7b43800877c7
+#: fa9b13d22ce74d9c8e371da9161bbb7d
 msgid "Pour les rôles liés aux Espaces Collaboratifs et leur administration, merci de vous référer à la rubrique \"Gestion des Espaces Collaboratifs\"."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:56
-#: 8c96853d15e04c55a4945d52ed9f806b
+#: 826dd1f26d1147d2adcacfc159bbb8a0
 msgid "Profil « Support-utilisateurs »"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:57
-#: 2383501a15f1489fb4968362718d6a1a
+#: 18d29fecaa9a422d8522b5d586d5deea
 msgid "Le profil de \"support-utilisateurs\" a vocation d’accompagner les utilisateurs, en particulier ceux ayant le rôle administrateur d’espaces, dans la gestion des membres et veiller à la cohérence de l’arborescence des espaces."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:59
-#: cb023e0c44e4460b944585dcdfff7d8b
+#: eee304630a8240778339f372831dd5de
 msgid "En aucun cas le profil de \"support-utilisateurs\" se substitue aux administrateurs des espaces collaboratifs, qui doivent être des responsables métiers (ex. chefs de services/directions, des responsables d’équipe/projets, etc.). Toutefois, il peut lui-même être un administrateur dans des Espaces dont il est membre."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:62
-#: 71a0fe5cc0454012acdad78bc3acd448
+#: f01f901eaf11486b8c6ea81994444d5c
 msgid "Configuration Validation création utilisateurs"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:64
-#: 28d1c4a5195446f98462dc3572b0002c
+#: fb9eded67b0c424898ea5887c4875c11
 msgid "Il est possible d’activer une option dans « Configuration » puis « Utilisateurs ». Cette option permet lorsqu’un administrateur métier/d’espace crée un nouvel utilisateur, de le soumettre à validation par un profil support-utilisateur avant d’être crée."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:66
-#: cc072e6f63764fbca18ae32ea48102eb
+#: 3db4474b28404f44aa77ac280aa20dee
 msgid "Une fois que l’administrateur métier/d’espace a crée le nouvel utilisateur, le profil support-utilisateur reçoit une notification et peut valider ou refuser l’activation d’un profil utilisateur depuis la page de profil ou depuis l’annuaire (cette action peut se faire en masse)."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:68
-#: 06240ec3dc064f25963d4e4bf2148854
+#: 61d5262dba9d4d06966731d28826e4bc
 msgid "Un utilisateur en attente de validation apparaît « En attente » dans l’annuaire."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:71
-#: 3edcba4ffbdc4fe480e6b16415768a0e
+#: 6326780aff3a4dca82aabf009af8b8c2
 msgid "Configuration Accès utilisateurs externes"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:73
-#: a94714262264413fab7192dea3eab3ec
+#: bc56ac6fe12d432eba8b5e2b1b68d2fe
 msgid "Dans « Configuration GoFAST » puis « Espace », vous trouverez la possibilité de limiter l’ajout d’utilisateurs externes dans certains espaces."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:75
-#: 259c059e32c64d51aab2b20ea181604a
+#: e3db406d05a545728311f9143ba0d3fa
 msgid "**Désactiver l'ajout des utilisateurs externes dans les groupes** - Lorsque cette option est activée, un utilisateur externe ne peut pas être ajouté au type d’espace « Groupes ». - Lorsque cette option est désactivée, un message d’avertissement s’affiche lorsque vous allez ajouté un utilisateur externe au type d’espace « Groupes »."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:79
-#: 08ae1f7b83574db0bc541827fa67113e
+#: 0c797a193e9c44d4bf97f179221b34f9
 msgid "**Désactiver l'ajout des utilisateurs externes dans les organisations** - Lorsque cette option est activée, un utilisateur externe ne peut pas être ajouté au type d’espace « Organisations ». - Lorsque cette option est désactivée, un message d’avertissement s’affiche lorsque vous allez ajouté un utilisateur externe au type d’espace « Organisations »."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:84
-#: cc69ad7d7b3b4afa88bf28cb0598edf1
+#: 12154f778ca74c6592e4033f06cfdd6c
 msgid "Visibilité sur les Espaces"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:87
-#: 86950eb133b146589778b0ad673a5387
+#: 0e793b6297c74325a70d4dcc65fcc47b
 msgid "Le support-utilisateur a la visibilité de tous les Espaces Collaboratifs existants via l’annuaire des espaces et le moteur de recherche :"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:86
-#: 9dad91c5120c4570a93fcde2e094e117
+#: 064782d263684bca9f2aea436859d056
 msgid "Dans le cas où il n’est pas membre, il ne pourra pas accéder aux contenus des Espace (ni fichiers, ni dossiers)."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:87
-#: 2866383e2df94efaac3442ccb0b63c19
+#: 35fffe2a258c430088542a2ca6d0968e
 msgid "Dans le cas où il est membre d’un espace, il peut y accéder et ces permissions dépondent alors du \"rôle\" qu’il a dans cet Espace."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:89
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:97
-#: 6e6c901f9be8403788839ea8990bc74d
-#: 96e35938100645a884c41b7a0fa2b426
+#: 2e59c71f5af84b5e9240f40581c37f90
+#: a04480815665443bafbd7dbb81b04bc9
 msgid "Pour plus d’informations, merci de vous référer à la rubrique : « tableau des permissions par profil »."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:92
-#: 510af4ed404648d6927507f80927c412
+#: 9684b45b10c742eda210138b23c2de9d
 msgid "Visibilité sur les Utilisateurs"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:95
-#: 21bf25d36964432bba190f22ff05c34d
+#: 1f8eedb504324343b3ed0a435772b969
 msgid "Le support-utilisateur a la visibilité de tous les utilisateurs existants via l’annuaire des listes et des utilisateurs, ainsi que le moteur de recherche :"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:94
-#: 36af6958877e4c67b49458978e37ae87
+#: 23b95b30d052420684e868b116bada8f
 msgid "Le support-utilisateur peut voir les comptes utilisateurs unitaires et dans une certaine mesure les gérer."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:95
-#: 2ea314067fbb44faaa6d4fcd551f8f7e
+#: e6eab7a7f96144fabdbc3d9a868ff814
 msgid "Le support-utilisateur peut voir toutes les Listes d’utilisateurs, mais n’a pas la possibilité de les gérer s’il n’est ni créateur, ni administrateur désigné de ces listes."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:100
-#: 6783828103cf40eda864ef251c32c8b1
+#: 5fa0436d7d5647b1b6fdc2885bfe35c3
 msgid "Autres visibilités / permissions"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:109
-#: e2bb4a756767469886d3aad55f788768
+#: 81ca6cfbef6d4124b815a3dd7861f7e8
 msgid "Les autres éléments que le profil \"support-utilisateur\" permet de voir et gérer, sont :"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:102
-#: e85183a5ac93430f8fcc3b6b3a9541a1
+#: cc77880a88f142edb090a2f1f6cde748
 msgid "Configuration de la visibilité des espaces et entre les utilisateurs"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:103
-#: 7f2e378868544195814c67a2f575b9ac
+#: 03ff26009a5a400a98237da82a463870
 msgid "Configuration des catégories de documents"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:104
-#: a4844be79f12426a89f1c5912da22d0a
+#: b2e863742f0447ca89c2de1ba7eb93f0
 msgid "Configuration des DUA par catégorie de document"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:105
-#: 6203f4f2ccf145b6aaf67b68191e9092
+#: 84116923f37f453caaaf7d4f0a70371d
 msgid "Configuration du Lien Personnalisé"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:106
-#: 55427e7e725d4bee88beb1026f6ef21c
+#: 660ef149164b4c12ad67b67d4ab859e4
 msgid "La base de \"Contacts\" non-utilisateurs (via le menu \"Annuaires / Contacts\")"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:107
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:366
-#: 9834fa7a31734f1aafdc43dc46a087ff
-#: b4bdcfd2b4b0489494eef67db287c90e
+#: be544b0ce71e46ef868718743f566d29
+#: ad9f8f19ebdf41b3a7edcdd3a71ee0bb
 msgid "Audit"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:108
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:266
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:469
-#: baf26ba0a404480786dcdbc35d4796ee
-#: cc1f4004f7b14d05a471bf0a8aa91c7b
-#: 7653d4f5861e4e548d307d4a7dad0fae
+#: d29f4a18b50748efa45770cb4e36a021
+#: f0efa826e0cd4c4aa73cc43d26709d88
+#: 3f821af26ee643ae8b59c860f4816026
 msgid "Statistiques"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:112
-#: 5dfa0d65f1b445f6b50cf6104d502a1d
+#: 3b1f4bfdc70f4396a003ce94cfaf5228
 msgid "Configuration : cloisonnement des Utilisateurs et des Espaces"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:113
-#: 9d5116af1f704500bc1c479086e39f3f
+#: c463470181784723955e3b513267d6f2
 msgid "Cette configuration permet de définir le niveau de visibilité ou de cloisonnement des utilisateurs entre eux et celle sur les espaces. **Deux options disponibles :** - Visibilité des Espaces Collaboratifs : Il s’agit ici d’ouvrir ou de restreindre le fait qu’un utilisateur puisse voir les espaces dont il n’est pas membre."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:116
-#: 601e6154ddc8456e86cc7cfd8ef88546
+#: 285c36cd2b6c4b39979d608992b9aff3
 msgid "Visibilité entre les utilisateurs : Il s’agit ici d’ouvrir ou de restreindre le fait qu’un utilisateur puisse voir les autres utilisateurs avec qui il ne partage aucun espace."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:119
-#: 44783672fe2847fcb14f5a1249e30730
+#: df27ced3eb074d7582768a57f6b05d8e
 msgid "Seul le profil « support-utilisateurs » peut gérer le Cloisonnement de visibilité."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:121
-#: 900d397c646f45c3a04c6f83f7331b2a
+#: ad2fa9fea8f24799a85bf3b9a460fc51
 msgid "Le cloisonnement s'applique uniquement pour les utilisateurs n'ayant aucun Espace Collaboratif en commun. Si deux utilisateurs sont membres d'un même espace, ils pourront dans tous les cas se voir entre eux."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:124
-#: 080573106a5e413abd771a3d029185a9
+#: cd2b848b7913451298380b7ca4df169b
 msgid "Visibilité entre les utilisateurs"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:125
-#: ba81f38406e94c73a21846be170f8b45
+#: 5b307a7e23d34348a75e057d798fc4ff
 msgid "Il s'agit de permettre aux utilisateurs de se voir entre eux dans l’annuaire des utilisateurs ou via le moteur de recherche, et de consulter leur profil."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:129
-#: b38eeff4eccf452aaf0459fa1d3c3dd1
+#: 4d7a7bf73e2d4038a79b8a8855be588b
 msgid "Il est possible de définir la visibilité ou le cloisonnement selon le « profil » des utilisateurs :"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:128
-#: 892ecb5b3ddd4d7b922570da839b4d73
+#: 535472d7557c4d9abc0a2216c0222b3a
 msgid "Les utilisateurs ayant le profil « Externe » peuvent se voir ou pas entre eux."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:129
-#: 11ec235702f345d491ee31ca9bf6e7fb
+#: 0ff2f597a0a84e2c9998962d100f2264
 msgid "Tous les utilisateurs indépendamment de leur « profil » peuvent se voir ou pas entre eux."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:131
-#: ffaecb453dd349b28f7a6868d90a2542
+#: 296ab9d7808b4a638980fc72c3c1c1cf
 msgid "Le cloisonnement entre les utilisateurs externes permet d'éviter que des partenaires et prestataires ne se voient entre eux, sauf s’ils sont membres d’un même espace (à partir du niveau 2 de l’arborescence des espaces extranets)."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:135
-#: 7dd9ee58cc6547fa8a9faeca6ab97d3e
+#: 81df5363accd434b9e481c20dd0dffbe
 msgid "Visibilité des Espaces Collaboratifs"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:136
-#: f316a41e4f4d4d4aa70a45a672c86cb8
+#: 57212f5595bb4319a9fda7d4b1f8495d
 msgid "Il s'agit de permettre aux utilisateurs de voir ou pas les différents Espaces Collaboratifs dont ils ne sont pas membres."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:140
-#: 7eeaac5fc3514b0184bff549c13b6e99
+#: 2c744decbdb040928aab418cce480c51
 msgid "**Il est possible de définir la visibilité ou le cloisonnement selon le « profil » des utilisateurs :**"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:139
-#: 795fea0f4b4a4577ab09e0d26136428b
+#: 3d9b826101924cb18ae0098c875077ba
 msgid "Les utilisateurs ayant le profil « Externe » peuvent ou non, voir l'ensemble des Espaces Collaboratifs (dans l’annuaire des Espaces ou via le moteur de recherche)."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:140
-#: 90615e4cedef4e888cf1031593921197
+#: 2789df63c6f847059cd5851d7641ef7c
 msgid "Tous les utilisateurs indépendamment de leur profil peuvent ou non, voir l'ensemble des Espaces Collaboratifs (dans l’annuaire des Espaces ou via le moteur de recherche)."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:142
-#: 9db3fded036e451a85df3210011e6f6a
+#: 0758f7d466314d9fb76f1d3e6df7175e
 msgid "Ce cloisonnement permet d'éviter que les utilisateurs ne voient l’existence des Espaces dont ils ne sont pas membres. Toutefois, même s’il n’y a aucun cloisonnement de visibilité, dans l’explorateur de fichiers ou le menu d’accès rapide aux Espaces (barre du haut), on ne voit que les Espaces dont on est membre."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:144
-#: b7f2acb9bd314a8d937f25924ace414b
+#: d71c107fdb3747acb4b2b4e8cb4e5df0
 msgid "Pour les utilisateurs ayant le profil « Externe », cela permet d'éviter que des partenaires et prestataires ne puissent consulter l'arborescence des Espaces internes (ex : Organisations et Groupes), ainsi que les Espaces destinés à d'autres partenaires ou prestataires. C'est important dans le cas où il y a des Espaces Extranets dédiés à des prestataires ou partenaires concurrents."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:147
-#: 0bfd1459df3a4b86b0a41a998b433087
+#: 033572c7d6bc4ea787c69398d4483e2d
 msgid "Visibilité des utilisateurs Désactivés"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:148
-#: b05c0cf29a2346e99c0057529bfac35b
+#: c9a4ebafe7904fa9a13c2af4de5f4f1a
 msgid "Pour des raisons de traçabilité (audit et sécurité), les utilisateurs ayant quitté l’entité (entreprise/organisation) seront désactivés sur la plate-forme et non supprimés définitivement."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:150
-#: 7c6f5f12e29148c2b5992b7bdd694c59
+#: b60b28f999ec45c3a08a8652a7ad4dc2
 msgid "Attention à distinguer les utilisateurs « Désactivé » (volontairement), des utilisateurs « bloqués » (ceux ayant tenté de se connecter avec un mauvais mot de passe plus de 5 fois, et qui doivent être débloqués par un « support-utilisateurs » ou un « super-administrateur »)."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:152
-#: ec1db1246bab4bbcb397e445461d651d
+#: 4ac9d21a2f624ca4a213f9ef817a7fe9
 msgid "Les profils des utilisateurs désactivés sont inaccessibles et anonymisés aux yeux des utilisateurs standards. Seuls les administrateurs de la plate-forme (profil « support-utilisateurs ») peuvent les retrouver et les réactiver si besoin."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:154
-#: b6580f76e786495ea126ac7bb3e43b21
+#: 5c604677ec194305b15276d283cb583e
 msgid "Les utilisateurs désactivés sont visibles par les utilisateurs « support-utilisateurs » dans l’annuaire des utilisateurs, dans tous les espaces où ils étaient membres, ainsi que via le moteur de recherche."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:156
-#: b652dc46c26c4dd4b3607078488dc831
+#: 0ccac5786be042af915aa83ab551d2c6
 msgid "**Désactiver/Réactiver un utilisateur :** Pour désactiver ou réactiver un utilisateur et donc, bloquer ou autoriser son accès à la plateforme :"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:158
-#: fdd6215334d74968a2cebea6ce06603a
+#: 449fe5c30d094e6b9eec5fabcaa63fbb
 msgid "Allez dans l’Annuaire des Utilisateurs et retrouvez-le grâce au tri et aux filtres disponibles."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:159
-#: f837fd5e5d7a41d69582d8da39ede1e3
+#: c60ddf5a0f8b4f489d73a87418cb3a52
 msgid "OU Recherchez l’utilisateur via le moteur de recherche (recherchez par nom, prénom ou identifiant)."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:160
-#: f4327580e92f4da98f1ee97e6894b4d1
+#: 9caae8c2d9a9425e839f8705d3eec228
 msgid "Puis… - Cliquez sur le menu « Burger » (les actions contextuelles) depuis l’annuaire ou la recherche. - OU Allez sur son profil et cliquez sur le menu « Burger »."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:163
-#: 7642eab6cb594f728c6a30fe92280604
+#: 408aa61013a94f278b75984332e83d7c
 msgid "Via le menu « Burger », cliquez sur « Désactiver » ou sur « Réactiver » puis sur « Confirmer »."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:168
-#: 04934615dba145d384a10ee61db03086
+#: 6d7908e647714caab340fbb02532323a
 msgid "Il y a une différence entre les utilisateurs « Inactifs » et les utilisateurs « Désactivés ». Les utilisateurs inactifs ne sont pas bloqués, ce sont des utilisateurs qui se connectent rarement sur la plate-forme."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:170
-#: 32aa3e61164546e1a0a93053d4f6685b
+#: e828b35817524c29a53bfd8c4e46f614
 msgid "Configuration : Catégories"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:171
-#: e08cd58377ca4b598e07b925275dd24c
+#: c702ce73aa2646beae9a8ebb59f2fb4c
 msgid "Les « Catégories » sont des métadonnées qu’un utilisateur peut appliquer sur les documents auxquels il a accès. Il s’agit du type de document, par exemple : courrier, facture, rapport, contrat, etc."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:174
-#: 9b3880942f8148b2a4799bfc58f1bf0f
+#: 936011da67664b91b76aeaca92fc6f47
 msgid "Seul le profil « support-utilisateurs » peut gérer les catégories."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:177
-#: 0f5a17ab53bd4287a50917587c5555e9
+#: f1010cd4f5314eed92d29b876cc123a1
 msgid "Créer/Modifier une catégorie"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:178
-#: 2088bd74695149a2a56f394a47554e2e
+#: 18caa870d4fd4cd5a7006cec4144f493
 msgid "GoFAST propose une liste standard des « Catégories » applicables sur les documents. Toutefois, il est possible d’ajouter des catégorises personnalisées, avec les traductions associées. **Pour ajouter de nouvelles catégories de documents :**"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:180
-#: 6f419088519d463887fa623982eafe5c
+#: 5a80a166eb0049d08a4331f5c22a701d
 msgid "Via le menu principal de gauche, allez dans « Configuration »"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:181
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:193
-#: 7c1c69469b73455385daa43e1e5d410a
-#: 7a5f2321f58f48d2ba068928719a1e43
+#: 059d69d8c05d439b99ad71ca4fdebff2
+#: 080585cab00041b0bfeef8f10e752a7f
 msgid "Sur la page de configuration, allez dans le menu « Catégories »"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:182
-#: 08feb36aa4474fad8569ca67291a654b
+#: ddc9d76819724636a4c963ca2b22ac79
 msgid "Cliquez sur « Ajouter une nouvelle catégorie » ou sur une des catégories existantes dans la liste déroulante."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:183
-#: 8af4b9687760430ca77d5ffb2abc6e0e
+#: ff7ff7e4212246bb9822ff3fbb3b4f6a
 msgid "Si vous souhaitez créer une nouvelle catégorie, renseignez les champs dans « Ajouter une nouvelle catégorie » en y saisissant le nom de votre catégorie (ex. Devis) dans les langues disponibles."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:184
-#: ba91997954044128beb4fd1a305d3f8c
+#: 5f50346685f94506b21cf1ea4efd93b5
 msgid "Si vous souhaitez modifier une catégorie, changez le texte qui se trouve dans les champs « Editer XXXX » (à la place des XXXX vous aurez le nom de la catégorie que vous souhaitez modifier) dans les langues disponibles."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:185
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:196
-#: a09c129cd26748c3a40c25f2efab5b78
-#: 31250c614df94aa29f4e38a08f44b90f
+#: 174cdd7c4bd6454fb4409fa7ba081718
+#: 8a5a9c1a272a41aea7fcf9da85c3b269
 msgid "Cliquez sur « Enregistrer » tout en bas de la page pour valider."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:189
-#: 4eb228f746414d8e8ce51f5714f3e5c7
+#: 33813a31fe574f239a91fb77c68a5b36
 msgid "Filtrer les catégories par Espaces Collaboratifs"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:190
-#: 67fe469ed6594658bf3888487d0eb95f
+#: 6dc9ea66e47f4d08ac2ee5749094ed85
 msgid "Filtrer les catégories par Espace permet de limiter la liste de ces catégories disponibles sur les documents. Ainsi, selon où est partagé un document, certaines catégories pourront être proposées et d’autres non. Par exemple, la catégorie « CV » pourrait n’être proposée que pour les documents classés dans l’Espace DRH. **Pour filtrer les catégories de documents par Espace :** - Via le menu principal de gauche, allez dans « Configuration »"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:194
-#: 4aa388ad48f34d758f131af7fff4f9be
+#: 4e053281f1bb41f2b97bacf10e9979e3
 msgid "Dans la zone « Filtrer les catégories par Espace(s) Collaboratif(s) », cliquez pour déplier soit « Catégories standards », soit « Catégories personnalisées »."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:195
-#: 2751fe806d694c6cb06c459f9bdee5df
+#: d32d14448a294d03881c04eebf590820
 msgid "Dans le champ de la catégorie souhaitée, commencez à saisir le nom de l’espace où vous souhaitez autoriser cette catégorie et vous aurez des suggestions, cliquez dessus pour sélectionner."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:203
-#: 6a99eaa26bec4efeb6d67ebff2a7de4a
+#: ef30fb244abd45d2b16f59ef87ffae5d
 msgid "Laissez vide pour autoriser la catégorie dans tous les espaces."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:207
-#: eb31e381152b4d6987b5b6ec5f556faa
+#: 14fcef2fb9d94b17901722d18590f673
 msgid "Configuration : DUA (Durée de l'Utilité Administrative)"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:208
-#: be5b34e466f94380889da20ac144f32a
+#: aa56bf58325a4a2e97ad6c004c485f93
 msgid "Une « Durée de l'Utilité Administrative » permet de préparer les documents à l’archivage. Il s’agit de définir un chrono (en jours, mois, années) qui se déclenchera à partir du moment où le document est mis en état « pré-archivé » et dépendra de la durée définie pour la catégorie associée au document. A l’issue de cette durée, une alerte est envoyée aux utilisateurs identifiés comme « Archivistes » pour soit « Archiver », soit « Trier » ou « Détruire » le document."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:213
-#: 3d0ce37cd8e142c88392237362c30f14
+#: 44d4e97bf5a74035997e9d77275a0a12
 msgid "Seul le profil « support-utilisateurs » peut gérer les DUA."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:216
-#: f712cdc58dc8475a92fa177926102714
+#: b6881bb07b1e4c50b577c38f8836d8ce
 msgid "Où gérer les DUA :"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:218
-#: 1b878d46f93a48b19d746a35df9fdcd1
+#: 6b8f726e3db248719454d1b471afbf26
 msgid "À partir du menu principal de gauche, aller dans « Configuration »."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:224
-#: b59e1e5127bf4dd79a70688581f2e3f4
+#: 18c6ba5b8fed4797bdcf3791392bfbaa
 msgid "**Deux sections sont disponibles :** - Liste des destinataires du mail de notification : dans cette section vous pouvez ajouter des utilisateurs qui souhaitent être notifiés à la fin de la DUA."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:230
-#: b53546f25f2c410aaad937ff2ed4e60b
+#: 0603ad5a7fa2457abb70727d8306c116
 msgid "Liste des DUA existantes : dans cette partie, vous trouvez le tableau des Catégories de documents ayant une DUA, avec la durée définie et le sort prévue pour les documents à échéance."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:235
-#: cd603e9bb0d44965890e435af306c81d
+#: 9750d7520078486e862a32cf3703c3f3
 msgid "Créer ou modifier une DUA"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:239
-#: c02b36dae61a4267b1ecf77c9c3ce96c
+#: 21574fd7340f42198d6bab0ae1196442
 msgid "**Pour créer une nouvelle DUA :**"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:237
-#: f044794bf5d84fd280367961de93dcf2
+#: d813ea1aba8c44d8897b27975cccfb4a
 msgid "Cliquez sur le bouton « + Créer »."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:238
-#: fa2ffa55d43a4cc2aea5717035ca6821
+#: bea01ce1eabf4c68accf9c9098e1ecc8
 msgid "Une nouvelle section s’affiche « Ajouter / Editer des DUA existantes »."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:239
-#: 45955ee187554ff5855720ebf9b5c6e1
+#: 72d12af19ad6464b9a1822ec828c3727
 msgid "Renseigner les champs du formulaire disponibles."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:245
-#: 5efc00f48c0d4125a9d785132dc9364c
+#: 256ff3c159424639bac778c2dafe651d
 msgid "**Les champs à renseigner pour créer une DUA :**"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:242
-#: 67e4dcaf0f204ecbb4cbe6a7526c3f0c
+#: 75fcb8b4cb234fd398948e18e7806ca4
 msgid "Catégorie : à sélectionner dans la liste déroulante."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:243
-#: decab56d3fec448691ef64b0624ae0d2
+#: 81c79721b5d7443ebeb13822a150f208
 msgid "DUA : une unité (chiffre) à saisir."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:244
-#: a3dbf55ffb824b149c23362aaa1ec77c
+#: ad418ed31084460888ae894c08f02de2
 msgid "Unité : à saisir s’il s’agit de Jour, Mois, Année."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:245
-#: a7e773d7e513496594748e7bc1db986d
+#: 3e1fad23ae9a470c83e703fe35512a36
 msgid "Action (Le sort final) :  Archiver, Trier, Détruire à sélectionner dans la liste déroulante."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:247
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:256
-#: f27ea7db1545495aaa922ea3a55babca
-#: a9b25cc140d74096bb93e5fe3d50afea
+#: 5c02d8f53a5247be9fe51249a7d6ce73
+#: b38b11569a35481ca34c636b574627c4
 msgid "Cliquez sur « Enregistrer » pour valider."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:254
-#: 3ac4b2316b464d908a411b08f6aad342
+#: 34e2652249474e7c9ccfc19b59f8b5c3
 msgid "**Vous pouvez également modifier une DUA existante :**"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:253
-#: 82cf65badc874126b6f46e0b5cb8d891
+#: 4b9b719ee0ed4b9bae752a176ec2976f
 msgid "Dans la liste des DUA, choisissez celle que vous souhaitez modifier"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:254
-#: e4d75680e36949459bbe6e8e884d4887
+#: a6237da60b414ba99049ca6e64efd27d
 msgid "Cliquez sur l’icône éditer."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:255
-#: 24c34a8129f247cc891a212af5bd08fc
+#: 9b238bb75ae34e17922102f77662d8f3
 msgid "Vous pouvez alors modifier les champs :  DUA, Unité et Action."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:262
-#: 2a2e34585c874a87948203a0b97b7916
+#: 4c7e8556ae764b9383ce144bbd4060d9
 msgid "Pour supprimer une DUA, il suffit de laisser le champs DUA (Durée d’Utilité Administrative) vide puis Enregistrer."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:267
-#: 04d9d030cf234e5cb79be8dd45e88bd0
+#: 856d3693535147b3bbcc32aa79cfa749
 msgid "La vue des **Statistiques** permet de consulter diverses informations quant à l’activité sur la plateforme. Les informations sont restituées graphiquement, sur une période sélectionnée. **La vue des Statistiques est découpée en 3 parties :**"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:269
-#: 968090454b3741feb7f6dbccb0f38a47
+#: 6c6615ee0d4c4eb7a0363b0f64ad57a4
 msgid "Statistiques utilisateurs"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:270
-#: 0c0c6aa0e21c4bacbeea62fa30471ee9
+#: e54857e503d7476695b471e862803328
 msgid "Statistiques documentaires"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:271
-#: 0f6b882af43346e9a4b8da2f20eb15f7
+#: aba6dc31382440e4afef4f724ed0c097
 msgid "Statistiques d’espaces"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:273
-#: a0fa7af01f51423890a9cb949c1bad63
+#: b30457698cdd4b8b9260127acd8fc212
 msgid "Il est également possible d’exporter les données."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:277
-#: 6afbedb18f974158b47b91dafaa249a1
+#: 56c23ff36c2746d9820983907c9ffaee
 msgid "Accès aux Statistiques"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:278
-#: db2f087a428e4caba76ef585a2e48be7
+#: 03a0dce3e11748548d38ae9114398a90
 msgid "À partir du menu principal de gauche, aller dans « Statistiques »."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:283
-#: 960630b13cb344e0bba5db17c9e3b4f9
+#: 2bf8174800ef4b318efef7663f796e2d
 msgid "Seuls les utilisateurs ayant le profil « support-utilisateurs » sont habilités à accéder aux statistiques globales de la plateforme. Toutefois, les divers administrateurs des espaces peuvent également y accéder, mais les statistiques affichées seront limitées aux espaces qu’administrent ces utilisateurs."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:285
-#: e6041c501ef2481fb7aa4c0363ffe846
+#: 6ab9dbedb9534545b64d8c922d17a2ad
 msgid "**Trois sous-onglets sont disponibles :** 1. Onglet « **Statistique utilisateurs** » permet de visualiser le nombre d’utilisateurs, les informations relatives aux membres actifs et inactifs, les nouveaux membres et membres connectés."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:290
-#: 78684d4d78094b79ac7a5eae4eb1e2f2
+#: 94ef11921c894089b53a962a0a8b3d80
 msgid "Onglet « **Statistique documentaires** », permet de visualiser le nombre de documents et les informations relatives aux documents par sa catégorie, son état et son importance."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:295
-#: b37c4edfc659415c8fdae76e3b67b60e
+#: 0554a4d608e740aaa9bcf274145c2951
 msgid "Onglet « **Statistiques d’espaces** », permet de visualiser le nombre d’espaces et les informations relatives aux espaces, leurs évolutions par période, les plus actifs, les plus remplis et les plus peuplés."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:302
-#: ee7648a2c2ba487ebd1e59aea57cf198
+#: 096d31b298e348fbb1552d1cfddcde64
 msgid "Exporter les données"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:303
-#: 3e8506fc2fd24eb394de6990715d357e
+#: 615982c3e1714e20bfeb13440e92567e
 msgid "L’export sera au format tableur (XLSX)."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:305
-#: 1b8c755b1f424de194574107fc5ec68b
+#: 5590ea9c941845b5882267a27070b781
 msgid "**Export des utilisateurs :** Dans l’onglet **Statistiques utilisateurs** il est possible de réaliser un export de tous les utilisateurs existants, avec leur :"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:307
-#: 95d67f7ef9b545e2b6437def99159d90
+#: 8ab1bb41537b4bdf81014fd050b8ef59
 msgid "numéro unique d’enregistrement (ID donné automatiquement à la création d’un utilisateur)"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:308
-#: 7bf35ce3ab5a4523b3d03442c6daf8f1
+#: 83205f3b7ee04e558adca6b122548b93
 msgid "leur identifiant utilisateur (utilisé pour se connecter)"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:309
-#: 9b387c15065c4572a1e19a5284b1b9db
+#: c46074d427994f58beba16067869d6d6
 msgid "l’email"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:310
-#: 7a7d91d1544e4402a36ea692e61d2ec4
+#: 57fd5ba7a6b843fb8513417b890bd3aa
 msgid "Prénom"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:311
-#: 2e7bf55ed8b14895a9c2f6c7cfae95a0
+#: b055499decb04550a207cdfb5021fcfe
 msgid "Nom"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:312
-#: 4cca2603a8f24569a23f8f39f59d2862
+#: 2f7301539fc141438993b2cfc154a065
 msgid "Date d’enregistrement (date de création du compte)"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:313
-#: e300b0d4cdf94682bf23adef6654cd76
+#: 3bdfffc41fa5406181553cea165fd675
 msgid "Date de dernière connexion"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:314
-#: b4bb6c1e67c34c318dbe78af523a9ce6
+#: 452fa00cd002483bbd839a8fdc021c40
 msgid "Statu (1 si actif = déjà connecté et 0 si non actif)"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:315
-#: ddf6bf90f68140499f8266d69958cb56
+#: 1269cf61f19a41408da55118590ce246
 msgid "Colone « super-administrateur » (indiquant « VRAI » si a se profil OU « FAUX » si n’a pas ce profil)"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:316
-#: 16697969200d4160bd25dbdc4aab82ad
+#: e2ce71ac85f1451e89bcb9040f42827d
 msgid "Colone « support-administrateur » (indiquant « VRAI » si a se profil OU « FAUX » si n’a pas ce profil)"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:317
-#: 7dcbe508863a44f79938aa9b0b803238
+#: a92e0ea577ef470fa0ccd5d18ed81207
 msgid "Colone « Admin d’espace » (indiquant « VRAI » si est administrateur d’au moins un espace collaboratif OU « FAUX » si n’administre aucun espace)"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:318
-#: 28fb7cf26a464a97920727ea1117e6d4
+#: 5cd7d20f431e4665a5cdf3fe3a358543
 msgid "Colone « Broadcaster » (indiquant « VRAI » si a se profil OU « FAUX » si n’a pas ce profil)"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:319
-#: a60c7bde32be4facb8eef89e3000698e
+#: 1699bc1a88734571bd258f3eca4a47f6
 msgid "Colone « Externe » (indiquant « VRAI » si a se profil OU « FAUX » si n’a pas ce profil)"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:323
-#: 34c1a518769741acbf72e5decc11fd01
+#: edc972b9c4264011861960e557957b16
 msgid "**Export d’une liste de documents :** Dans l’onglet **Statistiques documentaires** il est possible de réaliser un export de tous les fichiers existants dans un ou plusieurs espaces, avec leur :"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:325
-#: d5d14603809249199593f2d5a7f159e7
+#: 739a3bd884454ecca7ad3f2d9c80a090
 msgid "« nid » (le numéro de référence automatique, attribué à la création du document et présent dans l’url de la page du document)."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:326
-#: 0b23f9dca94f4e8aa00d1a5139a26427
+#: 3adb4f948b624823b14f0c6b2dcf0e0a
 msgid "Titre (du document)"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:327
-#: 8fe6c4139d214ea6b6fc92b244224026
+#: 3b0a7a71a55e43e6abe1d93a17604080
 msgid "Lien (vers la page du document)"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:328
-#: 88cdb0f770fb411b916df768e9994e42
+#: 69a10c35405f460687d1398bdc48163e
 msgid "Chemin (l’emplacement du document)"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:329
-#: 745daaffa47440b7adf3ca0c758e7370
+#: 8107cc516304474c9c76b0a4148fefc8
 msgid "Version courante (le numéro de version actuelle du document)"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:330
-#: db269d64b30d4c33ac6f3e79421c998b
+#: e3b1f04931114014b9b455744c5c6be5
 msgid "Popularité (calculée automatiquement selon l’activité sur le document)"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:331
-#: ee7325e2ed1d4e448f5530850d2d0d81
+#: d38053659c424b9789c74f9b15d42822
 msgid "Compteur de vues (nombre de fois où le document a été consulté dans une période donnée)"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:332
-#: 1747aad14f3444369cb91a7e9483b867
+#: 6cc1e56681d94f52aea87671f52432ba
 msgid "Catégorie (du document)"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:333
-#: e9e3f91eea9041c194369b262c2d7b3d
+#: 92e61ee20c354d19817c8ce6867e0ded
 msgid "Date de création (du document)"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:334
-#: a0a9e0d4acc24b3082235ef7bad71df6
+#: f50f082def14454da081673227beeb2c
 msgid "Créé par (utilisateur ayant déposé/créé le document sur la plateforme)"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:335
-#: ed6f9ce7edb74552a84d331778d1c25d
+#: 55fe2fa16e0b4a4080bd44fd0f60b8d0
 msgid "Date de modification (dernière date où le document a été modifié/édité)"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:338
-#: 5d354997fa52487e9d0604bf938a62c2
+#: 5c072891475f41c9abe1201fc5f5fa02
 msgid "Pour effectuer l’export d’une liste de documents, il est nécessaire de sélectionner au moins un espace."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:340
-#: b9c21997b08c44a4bb62575d2acebef5
+#: f07adc2db78d4f3284a41ee6e77e4dab
 msgid "Il est possible de sélectionner les informations de votre choix pour la liste des documents, en sélectionnant une ou plusieurs données parmi celles disponibles (cochez la case)."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:344
-#: 25e0be5e16a64b7cbfd51b2175bf4bc1
+#: d74563459fbb439e8fe52b86485f56ff
 msgid "**Export de la liste des espaces :**"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:353
-#: 051ef7fdd71e4e66b4ea8931b527cdcc
+#: aabf4d42ce494731926f8eec51878fb4
 msgid "Dans l’onglet **Statistiques d’espaces** il est possible de réaliser un export de tous les espaces existants, avec leur :"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:347
-#: 0ad682bf1b3b4204ba811293648efc0c
+#: fdd025aff7c2485cb18d9820537ec9a7
 msgid "« ID » (le numéro de référence automatique, attribué à la création de l’espace et présent dans l’url de la page de l’espace)."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:348
-#: f56f22766e6f404dbc9c4c61ceabfbac
+#: 9b4bd956bbb94d0fa6ccea6c0ac3869b
 msgid "Titre (de l’espace)"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:349
-#: 259e2e2d1e6445d6937d6f2f930f8e27
+#: 370cdbae6e404f10a3d3ae9742c32972
 msgid "Type (Organisation, Groupe, Public, Extranet)"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:350
-#: 86f19282a5914411acd701c327dda019
+#: 5eeeec6b0f8e447384b9a9900f44f7ee
 msgid "Chemin (l’emplacement de l’espace)"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:351
-#: a57e4bc5e3e94596bcf3ec1727bdeb73
+#: 4068da61101c402f83c0033dffd10abf
 msgid "Administrateurs (les utilisateurs ayant le rôle d’administrateur dans l’espace)"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:352
-#: b10f2fbfdc1a4844815860ff00e44dc6
+#: 9db456cdde1249b7838b0e7d223d33b8
 msgid "Contributeurs (les utilisateurs ayant le rôle contributeur dans l’espace)"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:353
-#: fbd7c2ec64424421aee5033a70817500
+#: 5be5e8e184ac4955a5480978bcfa0f20
 msgid "Lecture seule (les utilisateurs ayant le rôle lecture-seule dans l’espace)"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:355
-#: 5420f35f1e664a77a32ac71c78d02478
+#: 7e944cbd0cfe4723979b8b6c47ffc598
 msgid "Dans l’onglet **Statistiques des espaces**, cliquez sur le bouton avec l’icône Excel."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:360
-#: ac618923dabf426ab6a07bc564f778a7
+#: 8ff4fc1b6a1f4ab98aa80b67cf845700
 msgid "Une petite fenêtre s’ouvre et vous informe que votre export est en cours de génération. Dès que le téléchargement est lancé cette dernière se fermera automatiquement."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:380
-#: e427697f438f4bca88d91ed0cc7aa6df
+#: 991ae022c44a44fd8d0a7fc6e8cf7bc6
 msgid "**La vue « Audit » liste et horodate les « événements » (les actions) effectués, dont :**"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:368
-#: e918893fa9384ad3bedd473171be9a03
+#: d5adf26433c24548aa3533fc719220a0
 msgid "Création de nœud (création d’un document/contenus ou d’un espace)"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:369
-#: 0663c420b3c64e2fb5725b6a091aef3a
+#: ca6752f536f747baba242a52f97ddd39
 msgid "Connexions (d’un utilisateur)"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:370
-#: 3cf2d82f53404ad6b217e1843bc0d900
+#: 100aca40d8eb4a4fadc93875ce80e031
 msgid "Consultations du document"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:371
-#: b09c66d7311344f69447f9cfee579167
+#: 0b7f60909fb64e89a04b1264020cd261
 msgid "Consultation de documents/contenus"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:372
-#: 8d2f96133ced400184574cebc0b0dafa
+#: c9a8fed689e84547a9da0f5d57f0301c
 msgid "Mise à jour des documents/contenus"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:373
-#: 57eea7a60d6f4487a16d1623c36ac9f9
+#: 0ff1ab4ee64242748f3d02b4e07b0bf4
 msgid "Mise à jour des emplacements"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:374
-#: 6b75845ddaa449aabbc00f1510d4c3d6
+#: ee599761c0dc47238bd2fd6f6da8522c
 msgid "Suppression d’espace"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:375
-#: ead856f02cea47bab3c4a23ac922905f
+#: e5354ced17b04860afcfe8004bddbb98
 msgid "Espace archivé"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:376
-#: dd9c669a361344c3b5f68fd091b70003
+#: 9ad6f65d1475461189abd3a21fa8f011
 msgid "Espace d’désarchivé"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:377
-#: b459fb3a351c49978015f77d69e33d17
+#: 108d73a5804947de91b22fdbc7ca7911
 msgid "Partage par email (d’un lien de téléchargement)"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:378
-#: ccce9fc3c010481abd08df0df34d0c6a
+#: 10530efa18a34279893684ea073f2fca
 msgid "Partage de lien téléchargé"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:379
-#: 1f52c92e925946358b56a3b19825271c
+#: 2cb624767c55417c950df8638c41a7b8
 msgid "Ajout d’un membre (dans un espace)"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:380
-#: df2c96df75854decbdd41d7fc0136e22
+#: 9a41511ad146448ebd4363e22cfc697d
 msgid "Suppression de membre (d’un espace)"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:381
-#: 2aff6c9a3aa047d0b115d2b2d897a44d
+#: 1c87f6cb380344b0a2e1f97848b413d0
 msgid "Créer utilisateur"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:383
-#: a1bfb25a258346a595fe6dc5e4b4df9a
+#: 41e0d19569764ada83f2740a449ef553
 msgid "Supprimer un utilisateur (s’il ne s’est jamais connecté)"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:383
-#: 3379ec55256f43d0a14d1e27ff05a8ab
+#: dbc3a11e66f44f4aa3c4cd7ea7f77eb2
 msgid "etc."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:385
-#: ed4af247a37947cf9be98384cc81365f
+#: 24ba82a09fcf4e5ba97d72f63d78f6e7
 msgid "**Aller sur l’Audit :**"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:387
-#: b8d70574bba64bb48c476111fc285780
+#: 4c1cfebe59a54e449120b6bcd8337bc7
 msgid "Cette fonctionnalité est accessible uniquement aux utilisateurs ayant le profil « support-utilisateur »."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:389
-#: 4ea38cddb20543d09924d70563716a11
+#: 97ace501f0e0473387580c17a8f763bc
 msgid "L’audit complet est accessible via le menu principal de gauche, en cliquant sur « Audit ». À partir de cette page **Audit** vous pouvez : * Utiliser les filtres mis à disposition pour retrouver une action en particulier ou un contenu. * Exporter l’audit dans la limite de 50 000 résultats"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:397
-#: b1a9cd7ec4594ee8b63df68ebdac528f
+#: edb2926c9db24305b5d01790beaf13ac
 msgid "Par exemple, pour pourvoir restaurer un document : filtrez par type d’événement « suppression de nœud », puis indiquez une période pour restreindre d’avantage la liste. Une fois votre action retrouvée, cliquez sur le document/contenu concerné pour aller sur sa page et pouvoir le restaurer."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:399
-#: dc7542738b974506b6c54bb15d6d98ed
+#: 082dcf323ce841ab9bdab31fa844580b
 msgid "L’audit spécifique sur un document est accessible sur la page du document : Vous pouvez voir les derniers événements effectués sur ce document, la date et l’heure des actions ainsi que les utilisateurs ayant effectué l’action."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:407
-#: 99221c498048453e8c11a7e05f26c124
+#: 3fcbd666cc5241f5b6902bcd1761ac23
 msgid "Configuration : Lien Personnalisé"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:408
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:414
-#: 6f8090fdd82a4bd3bf00982b1b0d9fd4
-#: 54b570c5159d4a8c811d7a8e87cce163
+#: cd86add3280b47f9ba8faff8e93b234b
+#: 490ef3f4f1ef4f32be68236a1cd6413c
 msgid "En cours de mise à jour"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:413
-#: 8d523e7383754e61a4b269f61a5316e0
+#: 3b9516060d084a9089ebb8350e2a37d7
 msgid "Configuration : Import utilisateurs depuis LDAP/AD"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:419
-#: b71f07fbd31145a4afad679dd5eb4048
+#: 9f61e931541e487688456b778800eb69
 msgid "Créer / Gérer les utilisateur(s)"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:421
-#: efe3952643d6407c9b48917d38f62952
+#: 91971f02adb8440ba0dd85f33b6c82b7
 msgid "Le profil \"support-utilisateur\" peut créer des comptes-utilisateurs. Toutefois, il ne peut que les pré-ajouter dans les Espaces Collaboratifs car les administrateurs de ces Espaces devront valider l’accès pour ces nouveaux membres."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:424
-#: d154674e198d4ecc8afa08c53e583ad1
+#: 26d8b2b42f214c7ead3c766a1ce83494
 msgid "Créer un utilisateur et lui donner des accès aux Espaces Collaboratifs"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:425
-#: 781f1ca81cbf4793ad52179b4dc33217
+#: d67f0e48cb5e468bbb58b0b7826a8e8c
 msgid "Pour savoir comment créer un utilisateur, merci de vous référer à la rubrique \"Créer un utilisateur\". Pour savoir comment ajouter un utilisateur ou une liste d’utilisateurs comme membre d’un espace, merci de vous référer à la rubrique \"Ajouter un membre à un espace\"."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:429
-#: 2d7ed4d46c784423880927ff9297e917
+#: 5e0d0d36fb4c42d89b92a784468ab029
 msgid "Désactiver / activer (débloquer) un utilisateur"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:433
-#: 74d73eec80f147e8b9bc02cc854d48aa
+#: 07d9f1b830b74d4995186d140a6f0183
 msgid "**Les 3 statuts possibles pour un utilisateur :**"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:431
-#: 33149022c7fb44ca987f8b8917faed44
+#: 2830726a64fb46cb976950952eac58e3
 msgid "\"Désactivé\" désigne un utilisateur qu’on a volontairement désactivé, par exemple s’il a quitté l’organisation/l’entreprise."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:432
-#: fa978cfb166942a4a76e5a0cba3b3d6c
+#: dde48b698b774c1e8edb7ae3a87d41b8
 msgid "\"Bloqué\" désigne un utilisateur qui a fait trop de tentatives échouées de connexion et pour des mesures de sécurité, son compte a été automatiquement bloqué."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:433
-#: 2d26503094fa4c91a4cf1a1c82112606
+#: f254a11a118b40a5bf0a88a366fcacf3
 msgid "\"Actif\" désigne un utilisateur qui a un compte et qui peut accéder à la plateforme sous condition de se connecter avec son identifiant et mot de passe."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:435
-#: 98933a1db9d2445ba1e619dbb27ea3d5
+#: 55ec43f961304281a43ce87a016ceb59
 msgid "**Modifier le statut d’un utilisateur :**"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:436
-#: 146d50b827094100bce3235ec260ce3e
+#: c8f2d33d71ab46178b32080b11f76136
 msgid "Depuis la page de profil d’un utilisateur :"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:437
-#: e2aaa82c6d7847ea85c11f4f33cfc90c
+#: 09c1b415a1ad47d9998107750fb0f6c7
 msgid "Rendez-vous sur la page d’un utilisateur, soit via une recherche par mot clef (ex. saisir le nom d’un utilisateur et cliquer sur le résultat de recherche de type \"profil\"), soit en passant par le menu des annuaires d’utilisateurs. Une fois sur la page de profil d’un utilisateur, cliquer sur le menu \"burger\" (= \"menu des actions contextuelles\"), puis sur \"Réactiver l’utilisateur\" ou \"Désactiver cet utilisateur\" ou \"Débloquer cet utilisateur\". Le texte affiché dans ce bouton dépond du statut de l’utilisateur."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:440
-#: bdc4de71fd91440cb4fd2ebc210bd4df
+#: 5148c4afa2b64154ba6478914e69e1cd
 msgid "Depuis la page de l’annuaire des utilisateurs (modifier unitairement ou en masse) :"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:441
-#: 79245b90157a462bbd84a09d087d80d7
+#: c98b443fd7ad4596a4ebf1123cd2770e
 msgid "Rendez-vous sur la page de l’annuaire des utilisateurs depuis le menu principal de gauche \"Annuaires/Utilisateurs\". Une fois sur l’annuaire, vous avez la possibilité de trier et de filtrer les utilisateurs (pour plus d’informations sur le filtrage et le tri, merci de vous référer à la rubrique \"Annuaire Utilisateurs\"). Vous pouvez modifier le statut d’un utilisateur unique : cliquez sur le menu \"burger\", puis sur \"Réactiver l’utilisateur\" ou \"Désactiver cet utilisateur\" ou \"Débloquer cet utilisateur\". Le texte affiché dans ce bouton dépond du statut de l’utilisateur. Vous pouvez modifier le statut de plusieurs utilisateurs en une fois : dans la colonne de gauche vous disposez de cases à cocher. Sélectionnez les utilisateurs que vous souhaitez modifier, puis cliquez sur le menu \"burger\" qui se trouve tout en haut (ligne d’entête de l’annuaire, les autres menus étant grisés) et cliquez sur \"Réactiver ces utilisateurs\" ou \"Désactiver ces utilisateurs\" ou \"Débloquer ces utilisateurs\"."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:447
-#: 0f71d797e0854df295a8b3942354df93
+#: 5fe78ccb89024594b3e34e789b5f3ce7
 msgid "Modifier les informations d’un utilisateur"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:450
-#: 6f16b650986d4077a657217d59d501d4
+#: 061f1e270b48426cb478189f9ff027e3
 msgid "Afin de modifier les informations liées à un utilisateur, il faut se rendre sur :"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:449
-#: 8818ccc51b3546aaa4f82d916f5c867f
+#: 0c818a454ed04a2ba54b0e28eb33da8c
 msgid "La page de profil de l’utilisateur (depuis la recherche ou l’annuaire)"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:450
-#: 3d0ac8e4be7546168057cd9fd43159fb
+#: 98f9152f5edf449eaae4c0b0e0f63610
 msgid "La page de l’annuaire des utilisateurs"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:453
-#: 4fcef284b5a345d3b39240cf47cd5849
+#: 3c25a21b83d44ed28e65c59e1563d737
 msgid "Créer / Gérer les Listes d’utilisateurs"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:454
-#: c36cf3d30080413f899c034f686c1621
+#: 0487eabb267640b8bcddc01ec8e62115
 msgid "**Visibilité des listes :** Les utilisateurs ayant le profil « support-utilisateurs » peuvent voir toutes les listes existantes (même si non membre), soit via l’Annuaire des Listes, soit via le moteur de recherche. Ils peuvent alors voir les membres des listes et leurs administrateurs. **Actions depuis les listes :** Les utilisateurs ayant le profil « support-utilisateurs » peuvent uniquement pré-ajouter une liste comme membre d’un espace. Ils n’ont pas la possibilité de gérer la liste elle-même, sauf s’il sont explicitement administrateur de cette liste (ou créateur). Pour pouvoir réaliser les actions autorisées sur les listes, il faut allez dans l’Annuaire des Listes ou sur la page d’une liste (ex. depuis le moteur de recherche)."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:462
-#: 2097e074c3af4494bb785bc2b3523a14
+#: 0812033ce7d14dc2a055ba892f59d11c
 msgid "Créer / Gérer les espaces"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:463
-#: e8710064b66c400bafb263d4fa066d66
+#: 488d589b1763458b96e11ddc6d4760ea
 msgid "Les utilisateurs ayant le profil de « support-utilisateurs » ont la possibilité de réaliser diverses actions sur les espaces collaboratifs. Toutefois, la gestion des espaces et de leurs membres dépend de la validation des administrateurs de ces Espaces."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:465
-#: 0e59786bff1f40c889a523eb71a31d36
+#: 559d5c0ecc7843bba32892af35c362b6
 msgid "merci de consulter l’introduction afin de comprendre les objectifs de ce profil dans la gestion de l’arborescence des Espaces Collaboratifs et des utilisateurs."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:469
-#: 2162591d03d84a51a072faba0aa11fb4
+#: 1165333b7d0c454a852ba23653db53f7
 msgid "**Sur la page d’un espace, le « support-utilisateurs » peut consulter les onglets suivants :**"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:468
-#: 04dbe4ccbd604504b4c9a7fb55d02677
+#: 91f69e7efbb442588eef621da473dd36
 msgid "Accueil"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:470
-#: e0a06970e0d544af8ef0ac5586af8260
+#: 1deec88e3ced4e0782b0a4502dbcb39a
 msgid "Membre"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:471
-#: 3a6d56f74fdc4bdba78002070b7bb6f0
+#: e3c54f272dfc40ecbda8a7fdf2e5c2d4
 msgid "Les autres onglets lui seront verrouillé, à moins qu’il ne devienne membre de l’espace."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:474
-#: c93eba7ca38c4063834b9c82ade09929
+#: 9d2580bd39a6470bbf7f98c59b3eb3ae
 msgid "Créer des Espaces à la \"Racine\""
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:475
-#: c710afeedea6498da624ea7ea5d6501a
+#: 5cade45318014abf964e1bf8510bba66
 msgid "Via la barre des accès rapides (menu du haut), cliquez sur \"+\" , puis sur espace, pus le type d’espace souhaité (Organisation, Groupe…)"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:476
-#: 133227b051d645d2a342f0e11c8ec152
+#: cd563e5337a74396a059fdeda6ee2a28
 msgid "Espace à la racine = 1er niveau dans Organisations, Groupes, Extranet, Public"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:477
-#: 318fc01b23f24c23a98efbedc1d1d3e8
+#: e9f8402c32fc4ba4aaa43f53a7673424
 msgid "L’utilisateur ayant créé un espace devient automatiquement administrateur de cet espace. Il faut alors ajouter des administrateurs supplémentaires et les autres membres."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:479
-#: a83cb9f12aad4ed0a3dde2d1abb36999
+#: d6fd3d13c2974c15b95831a350755b56
 msgid "Le profil « support-utilisateurs » est le seul à pouvoir créer un espace « à la racine »."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:481
-#: c4b16561430d4e4e9f48e660820d8932
+#: e0be0d04bb524772859f5d5f9275f777
 msgid "Pour plus d’informations, merci de vous référer à la rubrique : « Créer un Espace Collaboratif »."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:484
-#: fccdf87fdbd84d60a98e5e55094b6a65
+#: 9b17b4338d75440c9f4345a2765adc0a
 msgid "Pré-ajouter des membres dans des Espaces Collaboratifs"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:485
-#: cb48a53a8efb434583ee7e465ebe9bfe
+#: aafd5f9ba58045b9b031d518a1f87044
 msgid "Pré-ajouter des membres signifie que l’accès aux espaces collaboratifs sera effectif uniquement après la validation de ce pré-ajout par au moins l’un des administrateurs de l’espace. Il est possible de pré-ajouter des membres :"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:487
-#: bda29448f9c944318a4288a1b2cb20be
+#: 2d377cc6bf8141ec9f2e4876ea3cad6b
 msgid "Via le menu « Burger » d’un espace (sur la page de l’espace, depuis l’annuaire des espaces ou depuis le résultat de recherche)."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:488
-#: bec6fd485db04dad85c3b1235205dc6d
+#: 77c05728e3404a129a7af5e9b9452d23
 msgid "Dans le menu « Burger » de l’espace, allez dans « voir plus »"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:489
-#: 3325614c1b5a47ec93939fdc93c76349
+#: c05f48d541a04320bfcfca71908cd655
 msgid "Cliquez sur « pré-ajouter un membre / liste d’utilisateurs »"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:490
-#: 90bb1b701a9e4e4e9278d312d9e7effe
+#: 0c6ce82c755e4cba9457aadd854c8c10
 msgid "Renseignez les champs selon la procédure de la rubrique « Ajouter des membres »"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:491
-#: 7d3c1cd1a01d43b7bfdc912dfd24bb45
+#: 15920e1f2ca54f93a816b1fc51a33821
 msgid "Une demande sera envoyée aux administrateurs de l’espace pour valider ou rejeter la demande d’ajout des utilisateurs."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:492
-#: 9b86e1884d92483cb9137e2ff8bc3966
+#: e4f1ef8981974e85af730d9dab9ac0e7
 msgid "Sur l’onglet « Membres » de l’espace, ces utilisateurs seront marqués « en attente »."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:495
-#: f08e1f32768d40c0bbc350f6e0c1a528
+#: bc3b7f808ea44e25b00bca1f672909ee
 msgid "Gérer l’onglet \"Accueil\" d’un Espace Collaboratif"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:496
-#: c04009c6a5cb4d34a28e42cd8ec45377
+#: 49f3a122a7ca43e09d45125d46ab6073
 msgid "Le profil « support-utilisateur » a la possibilité de personnaliser l’onglet accueil d’un espace collaboratif. Pour éditer l’accueil de l’espace, il faut aller dans le menu « Burger » de l’espace, puis sur « Modifier l’accueil »."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:500
-#: 4bcda91a2d204f25b47297fad97e9c02
+#: 4e3f46128abe4de68010ec9d37529570
 msgid "Contacter Administrateurs d’Espaces"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:501
-#: 8aff5825235b411895f232d26f1e6692
+#: 1b6998b386f24d8d80c9bf1698c3b5d1
 msgid "Afin de correctement assister les utilisateurs, il est dans certains cas, nécessaire de demander à des administrateurs d’espaces d’effectuer certaines actions ou de leur demander l’accès aux espaces pour les effectuer soi-même. Par exemple, vous pouvez demander à un administrateur d’espace de modifier le rôle d’un autre membre ou tout simplement partager des bonnes pratiques. Pour contacter les administrateurs d’un espace :"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:504
-#: 0ecc8b4344da4287b7ce6e033a7f8efb
+#: caf5f14f0dc44a90aa5b28feef5c38ee
 msgid "Allez sur la page d’un Espace OU sur la page Annuaire des espaces."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:505
-#: c9afca68ac524efaac61fd69849ddefb
+#: caf3bc2c8af047fbba2b2633191884b8
 msgid "Cliquez sur le menu « Burger », puis sur « Contacter administrateurs »."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:506
-#: 8bdc21ae06684a79bb0609b2819f90b1
+#: f749913f1c494f37874d4746393f5c65
 msgid "Une fenêtre s’ouvre pour rédiger le message et valider l’envoi."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:508
-#: 0356a0801e47414da224c12f4bbfb934
+#: 40e516a78a7f4dd99e5a78e6a40b99f3
 msgid "Cette action est possible avec le profil \"Support-utilisateurs\" ou \"Super-administrateur\". A la différence que seul le profil \"Support-utilisateur\" peut voir toute l’arborescence des Espaces Collaboratifs (via les annuaires et la recherche)."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:511
-#: 9ee7a283212c47e68d53e47dd615ede0
+#: eda55ad1af6a4e1c8d225063eb329c59
 msgid "Restaurer un document"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:512
-#: 90864e1c30d44194aaeeea7f412c26c6
+#: 5453586727914a5fa25af8b4394e8a66
 msgid "En cours de mise à jour Merci de vous référer à la rubrique : « Gérer les Documents / Contenus »."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:518
-#: cd417efae64145918cf73082c53ecd9a
+#: 6f77aaa627f546b2829903b72c851d6b
 msgid "Profil \"Super-administrateur\""
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:521
-#: 2576672bb88648229110c7d5880052a9
+#: f0b659d537bb4919b7e917cecaf3e79f
 msgid "Synchronisation automatique des comptes GOFAST avec AD/LDAP"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:523
-#: 850350185d7a4ee69dbafb1d3c75f625
+#: 8e10c271f7674422957c976e3ec75478
 msgid "GoFAST offre une nouvelle fonctionnalité qui permet de synchroniser automatiquement les utilisateurs depuis l’Annuaire de l’entreprise vers votre plate-forme collaborative. La synchronisation se fait uniquement avec des comptes qui possèdent des délégations d’authentification activées. Les utilisateurs qui n’existent pas dans GoFAST mais qui sont présents sur l’Annuaire, au moment de la synchronisation ils seront créés et activés sur la plate-forme. Dans le cas de suppression d’un utilisateur synchronisé coté Annuaire, ce dernier sera « Bloqué » sur GoFAST. Ce mécanisme permet de conserver la traçabilité des actions de cet utilisateur et de lui réaffecter ces informations dans certaines circonstances."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:528
-#: 20475775d2a046299b12237a995b5be1
+#: 70b1629a6bc44871a0c2cd658f82457c
 msgid "Veuillez noter que les comptes ne disposant pas de délégations d’authentification seront hors cycle de synchronisation. Ils ne seront pas automatiquement bloqués ou débloqués de la plate-forme."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:531
-#: ec285180cc6b4376a16757bff111b152
+#: cd314079f81a4b29907fc1c32b023acb
 msgid "Connexion au Serveur LDAP / AD"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:532
-#: 7f9b7b464be04aa38c802ac1316d9580
+#: d968114f239b4281be1d555d588181d7
 msgid "Pour établir la connexion avec votre Serveur LDAP, vous devez vous connecter à GoFAST en tant Administrateur technique. Cliquer sur l’icône Burger qui se trouve à gauche du menu principal, ensuite aller dans « Administration » puis appuyer sur « GoFAST Configuration »."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:538
-#: b9c2701c2f5e44e0bad855b1a687b1f1
+#: c2c95f3095804773bdfa251a952eaad2
 msgid "Une fois la page affichée, dans la barre latérale gauche appuyer sur la rubrique « Serveur LDAP /AD ». Renseigner les paramètres de votre Serveur en respectant les préconisations indiquées ci-dessous :"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:543
-#: b02712acccbd417097e7dd10f97ad505
+#: 66ac0a8d18034573bea9854e2887f067
 msgid "**Name**:  Choisissez un nom unique pour cette configuration serveur."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:545
-#: d5fbf781e2234586903a75c482cf394a
+#: 053e178fd3764a66b8f34aa663e31cc4
 msgid "**Type de serveur LDAP** :  Quatre types sont disponible, Active Directory, Open LDAP, Apple Open Directory, Novell. Ce champ est informatif. Son but est d'aider les valeurs par défaut et de donner des alertes de validation."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:547
-#: 50c666011bdc4c8880d6431d7b121561
+#: 8f6e0a72b1bc4949b448c3de0bf8cd84
 msgid "**Serveur LDAP** : Le nom de domaine ou l'adresse IP de votre serveur LDAP tel que « ad.unm.edu ». Pour SSL utilisez le format ldaps://DOMAIN tel que « ldaps://ad.unm.edu »."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:549
-#: d080b369ddd643469e8414ead0e9000b
+#: df0f4e281b5e445fa74b6cb1ec14e6eb
 msgid "**Port LDAP** : Le port TCP/IP sur le serveur ci-dessus qui accepte les connexions LDAP. Ceci doit être un entier."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:551
-#: ed7bba83737d44039fde3e12bb2a9efa
+#: 79fd73280d1b4e1facc5947147133ecc
 msgid "**Utiliser Start-TLS** :  Cette option permet de sécuriser la communication entre les serveurs Drupal et LDAP à l’aide de TLS ( Pour utliser Start-TLS vous devez définir le port LDAP à 389 )."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:553
-#: c081669928a044a684cb157a799d7414
+#: 5256d09a37084211b66a7d1f1c71413a
 msgid "**Suivre les références LDAP** : Le client LDAP suit les références (dans les réponses du serveur LDAP) vers d'autres serveurs LDAP. Cela nécessite que les paramètres de liaison indiqués sont également valides sur ces autres serveurs."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:555
-#: 213fe3232318429981d2894dfc4d77ac
+#: 852253f7751d4b9ea48696af84d87ca0
 msgid "**Compte Service** : Certaines configurations LDAP interdisent ou restreignent les résultats des recherches anonymes. Ces LDAP requièrent une paire \"DN/mot de passe\" pour faire la liaison. Pour des raisons de sécurité, cette paire doit appartenir à un compte LDAP avec des permissions désactivées. Ceci est également nécessaire pour l'approvisionnement des comptes Drupal."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:557
-#: 3d4a84fa65334531bf48b01e9970958d
+#: b44adae1c058449481ad1e5e2a38ca0a
 msgid "**DN pour les recherches non anonymes**."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:559
-#: 32d1a73e5a524791965b75a6a348568e
+#: 37a9535d86d74e71b441994b9694c3c9
 msgid "**Mot de passe pour les recherches non anonymes**."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:561
-#: 5b256d678bda48f6b038bb879bd3a0a8
+#: c944396697214c12a9012871e81f2ba5
 msgid "**Base DNs pour les utilisateurs LDAP, les groupes et autres entrées** : Quels DNs ont des entrées appropriées pour cette configuration ? ex: ou=campus accounts,dc=ad,dc=uiuc,dc=edu. Gardez à l'esprit que chaque base supplémentaire double probablement le nombre de requêtes. Placez le plus utilisé en première position et préférez utiliser un DN de base élevée plutôt que deux DN de base faible. Entrez un DN par ligne dans le cas où plusieurs sont nécessaires."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:563
-#: 87c57f0b408f4967abf70c2a4ac34eb8
+#: f7756c119de64597bb9a40a63af9468f
 msgid "Une fois toutes les informations correctement renseignées, un bouton est mis à disposition à la fin du formulaire « Test de connexion », celui-ci permet de tester la connexion entre GoFAST et le serveur LDAP. Un message d’information sera affiché à droite du bouton indiquant le succès ou l’échec de cette connexion. En cas d’échec, il est impératif de vérifier les paramètres et recommencer le test. Si le test est réussi, appuyer sur le bouton «Enregistrer» pour sauvegarder cette configuration."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:565
-#: 7eb2ce89d7bb45a2b41be00125235423
+#: 2e1b5fc9069a4fd0a02b94f1002ebf90
 msgid "Il est possible d’effectuer des modifications ou mettre en place une nouvelle configuration, seulement n’oubliez pas de tester la connexion ensuite enregistrer les changements uniquement en cas de réussite."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:568
-#: cddf89ad1b7441e6bd7969b4d3cadf57
+#: 4c57173d1a8a4c46a7670ff0ad96e6a1
 msgid "Activation de l'authentification déléguée SASL"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:569
-#: 83724dfc9d694dc59bfca13f4a1d6bbb
+#: 064ce17229454e979207b0b9bf96d96c
 msgid "Une fois la connexion établie avec le Serveur LDAP, aller dans la section «Authentification SASL» qui se trouve en bas du formulaire de paramètres,  cocher la case «Déléguer l’authentification au serveur LDAP». N’oubliez d’enregistrer pour lancer l’opération de délégation. Cette opération peut prendre quelques minutes selon le nombre d’utilisateurs actifs sur GoFAST. L'activation de l'authentification déléguée SASL permet aux utilisateurs de se connecter à GoFAST en utilisant les informations d'identification de l'entreprise (Active Directory, OpenLDAP...). .. figure:: media-guide/Synchro-ldap-delegation.jpg"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:0
-#: 31e08904e9934aa0a456968bce64a959
+#: a6a5246525cf46129c966634c0152871
 msgid "alt"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:574
-#: 73677b6851544d8ea7621acc30bb2c5c
+#: b191eebae88843b1aefb798575fdef25
 msgid "L’authentification SASL ne fonctionne qu'avec les utilisateurs qui sont enregistrés dans l'annuaire de l'entreprise. En tant qu'administrateur, vous pouvez également activer/désactiver l'authentification déléguée pour un utilisateur spécifique directement à partir du formulaire de modification de compte. Assurez-vous que les paramètres LDAP sont appropriés pour que cette fonctionnalité puisse être activée."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:577
-#: 0862126caa434c7fb2d57691d9e08ce1
+#: 19f108eea1c142a6af3cc3c2f99d1f72
 msgid "Configuration de la synchronisation"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:578
-#: 7cd425305eae4ae496183ad750c9e5f9
+#: de6d3666689743cdbe11533379eb3259
 msgid "Après avoir activé la délégation, une nouvelle section « Synchronisation d’annuaires » est visible en bas de la page, celle-ci est dédiée à la configuration de la synchronisation des comptes de la plate-forme avec l’annuaire distant paramétré plus haut. Pour configurer la synchronisation, commencer par cocher la case « Synchroniser GoFAST avec l'annuaire configuré ». Ensuite aller dans la sous-section « Configuration » et choisissez la fréquence de synchronisation."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:584
-#: 20630147557d48b58917f3cdef900695
+#: 13c12c56f0234370a095d7b0c843bdaa
 msgid "Deux autres sous-sections importantes sont à renseigner :"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:586
-#: bb30c46f064e42ca85fed2faf6882255
+#: 8e92dcce4f3f490d9a2066bb447131b3
 msgid "Association de champs (Obligatoire) :  Vous devez au moins renseigner les champs «Nom utilisateur» et «Adresse mail» par leurs attributs respectifs dans l’annuaire ( Exemple :  Nom utilisateur -> uid, Adresse mail -> mail ). Les autres champs sont facultatifs."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:588
-#: 5cf3985cb2e34b1bb3132eed98724f73
+#: d561aa6b7ba248a6b379a28b8711f820
 msgid "L'identifiant unique de l'utilisateur, généralement associé au samAccountName pour un Active Directory."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:593
-#: 2e1387df7c9848d8b52363bbe3b725b1
+#: 92ff7cb626f64032aefa47dbe9d4b899
 msgid "Filtres (Facultatif) : Ici vous pouvez effectuer des filtres spécifiques pour votre requête de synchronisation. Il est recommandé de séparer chaque liste de filtres par des retours à la ligne."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:598
-#: 0c8aba3f7565485f867dc47f821c7a2b
+#: cf0bcd1ca9ca4c4a8dc7287a60599503
 msgid "Une fois la configuration de synchronisation est terminée, cliquer sur le bouton « Enregistrer » pour exécuter l’opération."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:603
-#: 31777d4e275447afa8e9fe107a96e1dc
+#: bfaf059f71e1420a947c063f8b902586
 msgid "Si toutefois, vous souhaitez effectuer une synchronisation avant la prochaine date définie, il suffit de cliquer sur le bouton « Synchronisation »."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:607
-#: bbb667ed2694473ab6e9caa7b1c5c7c4
+#: 8aa5a3cd29b94009920c2faca58f8922
 msgid "Single Sign-On (SSO)"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:610
-#: 20688118fa334631af746b05badda3e0
+#: 8d34acc410dd4156a8d289e0e901860b
 msgid "Protocole utilisé par l'application"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:611
-#: d483dba3755e49db8fad5d28f6c0ef4a
+#: 94f2c50d2e2743c190e103094887af15
 msgid "GoFAST exploite le protocole Security Assertion Markup Language Version 2.0 (SAML 2.0). Ce standard s'appuie sur la structuration de données au format XML."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:613
-#: cace0c581ae642cab8ad5974560cc908
+#: a5cba50f29e34296abd312448f80b6e6
 msgid "Son fonctionnement fait intervenir un *fournisseur d'identité (Identity Provider ou IdP)* qui correspond à l'application fournissant l'identification d'une personne ainsi qu'un *fournisseur de service (Service Provider ou SP)* qui correspond à l'application sur laquelle on souhaite s'identifier. Dans notre cas, GoFAST est le *fournisseur de service (SP)*."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:619
-#: a586831640e842a9b5e5e1cb3226c18c
+#: b0f43ef0d2de49029e72ed6ed6c03f2c
 msgid "Configuration du fournisseur d'identité"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:620
-#: fb093063ea4741ec83780f3856b1ee28
+#: f24e6f9e449d4a73885ac519551bf1d0
 msgid "Le paramétrage du fournisseur d'identité va permettre de dire à GoFAST comment et ou demander la vérification d'une identité. Cette configuration permet également de sécuriser l'échange au moyen de certificat(s)."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:622
-#: 619b5644143c436a9289c904e95a2d6f
+#: 661ec74134c84e3b8708367712d488b9
 msgid "**Les paramètres à remplir sont :** * *Nom* : Le nom du fournisseur d'identité. C'est ce nom qui sera affiché aux utilisateurs sur le formulaire de connexion. * *Identifiant (ID) de l'entité* : Le champ 'entityID' qui permets d'identifier le fournisseur d'identité. Il s'agit généralement d'une URL. * *Nom de l'application* : Le nom de l'application passé au fournisseur d'identité pour identifier l'origine de la requête. * *URL de connexion de l'IDP* : L'URL de connexion du fournisseur d'identité. * *URL de déconnexion de l'IDP* : L'URL de déconnexion du fournisseur d'identité."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:629
-#: eef1a52df1c74ba3aed0c2da8e4ff8ea
+#: 49754e6dc7654aa3b5d68b3e440bff49
 msgid "Un certificat doit être fourni par le fournisseur d'identité. Ce certificat servira a identifier avec certitude le bon fournisseur d'identité."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:635
-#: 9a4090f7eb80418c8506571f6d390241
+#: 9143778902f44867be7b3499f7c8ca16
 msgid "Configuration du fournisseur de service"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:636
-#: 5d0f172cfe224470a3e5cdbad35d210b
+#: 10d7071ee0cd4ba3882d2877d454e8eb
 msgid "Le paramétrage du fournisseur de service permet à l'application de transmettre les bonnes informations au fournisseur d'identité dans le bon format et avec le bon niveau de sécurité."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:638
-#: cc997c4904cb46d9b8c588fe329ada47
+#: 188be029af0f4e13b1f8ae0df80cde34
 msgid "Il est possible de définir des contacts techniques et support à transmettre à notre fournisseur d'identité :"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:643
-#: 0beb9986bb9948ce8b1143d47f7d3411
+#: 803c030cfd004462b6124965f4bcbddb
 msgid "On peut également transmettre au fournisseur d'identité des informations sur l'organisation du fournisseur de service"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:648
-#: 11f70ea181724d9b942c45fdcb8aec70
+#: 85b215c57bc144088a208fe1041551b8
 msgid "Et enfin, nous accédons aux paramètres de sécurité qui vont permettre de s'adapter à notre fournisseur d'identité et de pouvoir communiquer avec lui. Les paramètres disponibles sont :"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:650
-#: b611ac4718984b80b86e130cb5b6460c
+#: 9cd56aa81e5a498784be1964a6b218c1
 msgid "*Attention*: Les 3 paramètres suivants nécessitent à GoFAST de connaitre la clé privée qui permettra de déchiffrer les informations côté IdP. Se renseigner auprès du support."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:652
-#: 76146cfde3824d10b57f3db0c74d713c
+#: e04cd835c5bf4f33ade7aedd10738509
 msgid "*Champ 'NameID' chiffré* : Permets de chiffrer dans un format particulier l'information d'identité qui est transmise entre les applications"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:653
-#: 1f37e176904044e490b0007e3e38b791
+#: 348757db87044f13b8f5bd8a442667cc
 msgid "*Requêtes 'Authn' signés* : Demande au SP (GoFAST) de signer ses requêtes vers l'IdP"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:654
-#: 174d93b0a8f4421bbf6f96ca4a603983
+#: 32c5d9a26c8b4b87bd96ffb58c55bb04
 msgid "*Requêtes de déconnexion chiffrés* : Permets de chiffrer les demandes de connection vers l'IdP"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:655
-#: 39c861cfb34a408ab9de0f7ca6939bb5
+#: 52c5d35277944e318c25eb2e1648b288
 msgid "*Réponses de déconnexion chiffrés* : Permets de chiffrer les demandes de déconnection vers l'IdP"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:657
-#: ecf8460c0b654e7a8277937f17fb05dd
+#: 892f9919f0e24c9ab5cdba4ee62e08d1
 msgid "*Messages signés requis* : Permets de demander à l'IdP de signer ses messages"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:658
-#: 9bd93a84547b417999d37ef0c1d4c949
+#: 42867c96b0e94e8b90c6003efaac131d
 msgid "*Assertions signés requis* : Permets de demander à l'IdP de signer ses validations d'authentification"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:659
-#: a5a1df1c1de2447e9392548f7c978fba
+#: 09927a18160d477b871f87c2bbba5cf2
 msgid "*Champ 'NameID' chiffré* : Permets de demander à l'IdP de chiffrer le champ NameID dans le retour de la requête"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:660
-#: 240b43281678433a97784eabe3835b72
+#: 072d11947c91453db19123a9130c99cd
 msgid "*Signature des métadonnées* : Applique notre signature et demande à l'IdP d'appliquer sa signature sur les métadonnées"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:662
-#: 5b5e52c8c81c42f49baaab26d0535de3
+#: ec24ca640b2547b4bbd4c82f01814e5f
 msgid "Une fois la configuration terminée, un onglet métadonnées sera généré et contiendra les métadonnées à renseigner dans l'IdP pour enregistrer l'application SP (GoFAST) comme étant valide."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:667
-#: 179cf25b358f45919791839963906e0b
+#: cfb9509bbbb444dcb2031aa85c33f804
 msgid "Sur la page de login, l'utilisateur pourra maintenant se connecter en cliquant sur le bouton \"Se connecter avec XXX\"."
 msgstr ""
