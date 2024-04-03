@@ -217,7 +217,7 @@ Bugs
    "GOFAST-11219","Correction d'un bug de l'état d'une publication qui ne change pas dans un wokflow standard"
    "GOFAST-11220","Correction d'un bug d'amélioration du thème de notification de signature"
    "GOFAST-11222","Correction d'un bug de perte de hauteur de pied de page en .odt"
-   "GOFAST-11223","Correction d'un bug de prévisualisations supprimées
+   "GOFAST-11223","Correction d'un bug de prévisualisations supprimées"
    "GOFAST-11226","Correction d'un bug du contenu d'un fichier tableau qui ne remonte pas"
    "GOFAST-11228","Correction d'un bug de saut de ligne parasite sur le champ 'Preuve de signature' sur le panneau métadonnées"
    "GOFAST-11230","Correction d'un bug de PostgreeSQL repositoty plus disponible"
