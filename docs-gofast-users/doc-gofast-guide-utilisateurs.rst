@@ -163,12 +163,54 @@ Quoi de neuf dans la dernière version de GoFAST
 Merci de consulter les "Release-Notes" de la dernière version disponible.  
 
 
+Guide d'Acceptation des Cookies pour Optimiser Votre Expérience sur GoFAST 
+---------------------------------------------------------------------------
+
+Pour optimiser les performances et analyser d'éventuels problèmes sur notre plateforme, l'acceptation des cookies est nécessaire. Par défaut, les navigateurs peuvent bloquer les cookies, ce qui requiert une configuration manuelle pour notre site. Voici comment procéder :
+
+**Chrome** 
+
+1.	Aller sur Google Chrome puis paramètres, 
+
+.. figure:: media-guide/chrome1.png
+   :alt: 
+
+2.	Cliquer sur « confidentialité et sécurité, puis « Cookies tiers » 
+3.	Allez tout en bas dans « Comportements personnalisés » puis « Ajouter »
+
+.. figure:: media-guide/chrome2.png
+   :alt: 
+
+4.	Ajoutez l’adresse de votre plateforme et cliquez sur « Ajouter ». 
+
+.. figure:: media-guide/chrome3.png
+   :alt: 
+
+**FireFox** 
+1.	Cliquez sur le bouclier à gauche de l’url, sur le site de votre plateforme, 
+
+
+.. figure:: media-guide/firefox1.png
+   :alt: 
+
+
+2.	Puis, il faut désactiver la « Protection renforcée contre le pistage ». 
 
 
 
+**Microsoft Edge** 
+1.	Lancez Edge et allez dans paramètres 
+2.	Allez dans « Confidentialité, recherche et service »
+3.	Puis dans « protection contre le suivi » et cliquez sur « Exceptions ».
 
+.. figure:: media-guide/edge1.png
+   :alt: 
 
+4.	Et « Ajouter un site » 
+5.	Vous pouvez ensuite ajouter un site
 
+.. figure:: media-guide/edge2.png
+   :alt: 
 
 Les Bases
 =========
@@ -806,6 +848,8 @@ Vous allez être redirigé vers la page de gestion du formulaire où seront affi
  - Via la recherche par mots clefs, une recherche "à blanc" (= sans mot-clef) et les filtres de recherche, en particulier par type de contenu "formulaire"
 
  - Dans ses contenus favoris (si on y a ajouté le formulaire au préalable)
+
+ - Il est aussi possible d'ajouter un formulaire aux favoris d'un espace.
 
 .. figure:: media-guide/[IMAGE]
    :alt: 

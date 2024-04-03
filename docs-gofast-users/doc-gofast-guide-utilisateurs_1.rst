@@ -716,7 +716,7 @@ Sélectionnez dans les deux champs les deux versions que vous souhaitez comparer
 Ajouter aux favoris
 ~~~~~~~~~~~~~~~~
 
-**Ajouter un document aux favoris** permet d’y accéder très rapidement par la suite, depuis la barre des accès rapides icône « étoile » (menu du haut) ou depuis son tableau de bord (page d’accueil, si on dispose du bloc « Contenus favoris ». 
+**Ajouter un document aux favoris** permet d’y accéder très rapidement par la suite, depuis la barre des accès rapides icône « étoile » (menu du haut) ou depuis son tableau de bord (page d’accueil, si on dispose du bloc « Contenus favoris ». Mais il est aussi possible d'ajouter un formulaire aux favoris. 
 
 Ajouter un document/contenu à ses favoris personnels est possible depuis :
 
@@ -726,7 +726,7 @@ Ajouter un document/contenu à ses favoris personnels est possible depuis :
 
 Lorsque vous cliquez sur « Ajouter aux favoris » un message apparaît, en haut à droite de l’écran pour confirmer que le contenu a bien été ajouté aux favoris.
 
-.. figure:: media-guide/image187.png
+.. figure:: media-guide/favorisnotif.png
    :alt: 
 
 La prochaine fois que vous voulez accéder à ce document, il suffira d’aller sur l’icône « étoile » dans la barre des accès rapides (menu principal du haut) et cliquer sur le document dans la liste de vos favoris.
@@ -740,7 +740,7 @@ Vous pouvez enlever le document/contenu favoris :
 
 Un message en haut à droite de l’écran vous confirmera la bonne suppression du document de votre liste des favoris.
 
-.. figure:: media-guide/image189.png
+.. figure:: media-guide/favorissup.png
    :alt: 
 
 
@@ -768,10 +768,35 @@ Rassemble plusieurs documents, pouvant se trouver dans des dossiers divers de l�
     - Unitairement, en cliquant sur l’icône à droite du document dans le panier.
     - Tous les documents en une fois, en cliquant sur "retirer tous les documents" en bas de la fenêtre du panier. 
 
-.. figure:: media-guide/Ecran-GoFAST_Panier-Documentaire_retirer-du-panier.png	
+.. figure:: media-guide/Ecran-GoFAST_Panier-Documentaire_retirer-du-panier.png  
    :alt:
 
 Pour en savoir plus sur les actions possibles depuis un panier documentaire, merci de vous référer à la rubrique : « Panier Documentaire » 
+
+
+Il est maintetant possible de **créer des dossiers dans les favoris**, pour cela, il y a deux possibilités : 
+
+
+-Dans "Mes favoris", appuyez sur "+ Nouveau" en haut à droite.  
+
+.. figure:: media-guide/favori2.png  
+
+
+-Dans "Mes favoris" faites un clic droit, puis appuyez sur "Ajouter une collection de favoris ici"  
+
+
+
+.. figure:: media-guide/favoris3.png
+
+
+
+
+Ensuite, pour pouvoir ajouter des favoris aux dossiers, cliquez sur "Ajouter aux favoris" et choississez le dossier auquel vous voulez l'ajouter.  
+
+
+
+.. figure:: media-guide/favoris1.png  
+
 
 Epingler un contenu 
 ~~~~~~~~~~~~~~~~
@@ -953,9 +978,6 @@ Ensuite, il est possible de paramétrer la fréquence de ses notifications par �
 .. figure:: media-guide/image224.png
    :alt:
    
-.. figure:: media-guide/image225.png
-   :alt:
-
 Un message apparaît dans le coin droit supérieur, pour vous confirmer la prise en compte de l'abonnement ou du désabonnement.
 
 .. figure:: media-guide/image226.png

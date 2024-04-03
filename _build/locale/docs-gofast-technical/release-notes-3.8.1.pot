@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2023
+# Copyright (C) 2024
 # This file is distributed under the same license as the gofast-docs package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gofast-docs latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-11 18:10+0100\n"
+"POT-Creation-Date: 2024-04-03 12:31+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,1309 +17,1309 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:3
-#: 1a6c3fcc26b74b8ea3f8c5eb6ac52b0d
+#: 295418d37e4d48e89dd5c41aff4c5a13
 msgid "GoFAST :  Version 3.8.1"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:5
-#: 0ed3577c2f2b469bbbb85431959ac428
+#: 503027c3a9fa427fae377a1fb2e4f1cc
 msgid "**[GoFAST Enterprise]** N’hésitez pas à solliciter notre support pour planifier la mise à jour (https://srv01.ceo-vision.com/osticket/index.php)."
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:10
-#: 3229d538189a44c281b0b3ff7373057b
+#: 53c48f50b8554fdcae7ad9a0c77b7f83
 msgid "Améliorations fonctionnelles"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 38b48abf7ddd431f8305a754056d09a6
-#: 52a7886206cb43a58f71a7dcace8dce3
-#: 1d48f094bc364cfc974a91c879de0468
-#: 732c650ded814149856531b2175423ee
-#: 3a91adfad66649f4960cc4f2752d4a89
+#: 587a3dfe28a348ddb6c3d5554b4fc969
+#: 973f380352c141ed9ead4ef678c0a1ea
+#: 926f14c543e84e6b992ad921975ad51d
+#: 9417509fc54d4a64851a9c3fa16c77e5
+#: 4762a2f1046c4e0ab32fa891ed87e238
 msgid "Ref."
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: eb491d74d22248f2add4b286a3da4de4
-#: b613c581cfd842fb8e75362d2e3c685d
-#: 4ce91b5fc62643739899ef7ba58a0494
-#: a2410bd60b1543edbd019a56bfa61bdd
-#: d70dd9cbbcf0413f9b24c07d77f91d53
+#: 2a4794ebaed446b1b6b923e7b7a5ffa8
+#: 2ca5d6c1f37b4d218319fdad23179d00
+#: aad8272027ea43b98e8836fedc4ef47c
+#: 4896a95528f14fe783c873035e9155cd
+#: 86432120dbcf4b46bab6bfc91bf03f16
 msgid "Description"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: e71a408c130041c795641ce44d2134b3
+#: 1520cdf08989496a9ffb40799d3bfba9
 msgid "[GOFAST-5996]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 18e983e340134ca5be9060ef31b8c3a4
+#: f8530d2d09504fcea05b9040b05878c3
 msgid "Amélioration graphique de la page 'Accès refusé' et 'Page non trouvée'"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 6f63272b258f4899b0065136547bfbe1
+#: 1738c54ec20647e89b69977fe710c649
 msgid "[GOFAST-6482]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 44bcf238fa21428389075bd091bbcca7
+#: a98ab57d7428435b9648c85bdc6e6ab5
 msgid "Indicateur de présence des utilisateurs dans le Chat [Element]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: afbc9a6b967f4146b0aaccff5d5a8d89
+#: 78cad8a8b3dc4826818b285f92ee0f00
 msgid "[GOFAST-5625]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 324a2a3df22d45febc610eb465eb98d3
+#: dae146db500e4a6fa9ea70effd7cd3ff
 msgid "Liste utilisateurs 'Public' : remplacement du créateur 'admin' par un message (car liste créée automatiquement)"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: b9e6d91e0ea644bdba8dd10eb5970377
+#: a67f67b2be2d4dd9bff4bb1a646cf586
 msgid "[GOFAST-6087]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 0b8a4a8bbe684a19a6a8c0101903640f
+#: 9c9cfd157dd349819ffcb914a2288f66
 msgid "Interdiction de refuser de rejoindre ou de quitter un salon de Chat associé à un Espace dont on est membre [Element]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 8000afb579e848889d0340ca0bfd9753
+#: f84a97a5872d4004a896f87fe213d066
 msgid "[GOFAST-6245]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 86de6e8f677d451d8150053bfaf5c78c
+#: 4bb7e7b7ebe246faa5976bb9e61025e1
 msgid "Dans le Chat : afficher en premier les salons avec des messages non lus (ou récents) [Element]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 5cfd3a6ce17f40b5a977008c2e8021d4
+#: 6e6c8c3702ae4713905ed8f485f26ed7
 msgid "[GOFAST-6384]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 564b94963677447a86baf822d9790887
+#: 5c71ef80dfda439397731509d1d4a6b2
 msgid "Profil utilisateur : ajout de la mention Extranet pour les utlisateurs ayant ce rôle"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 74aa1311c2b24965bfc981e7e0e6854d
+#: 3136bd1d84bb4c148fe38547a58b13ee
 msgid "[GOFAST-6191]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 8ebd933f4b0542c482aa3cb0af75ec49
+#: d36afb3f00cd449c85c0d2a644d4735c
 msgid "Améliorer l'aperçu des documents affiché à partir des actions contextuelles (menu burger, ex : depuis résultat de recherche)"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: dbf8d1fe0503441a9062f277ba6769e0
+#: dbf5afba005d42df8ef8f3b92ad675e2
 msgid "[GOFAST-6427]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 1ce7f6337ea1440ca9fbbf4109ba75bb
+#: 3837190aa5d8451290d89856e4952f6d
 msgid "Affichage du message 'vous êtes en lecture seule' sur un document si l'état est 'Pré-Archivé'"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: eddd542b91b94b29a0011b4117c966ef
+#: 38f7ee3e090d45bf993600a768d056cb
 msgid "[GOFAST-6527]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 27fbe8f076c945868877cc0d9635e95f
+#: e9372219e4ff44c49b59fa4f9fb050b2
 msgid "Masquer le menu 'conversation' sur le client Mobile [Element]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 14098123709c4ff5a764aa551cee19ce
+#: 5b5ce2c75eab4fda9c0c0ebbd2d43e61
 msgid "[GOFAST-6305]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 712afbd7153940aebaad6c9fe7c487d6
+#: 16525e21fdcc45a1a6b3ada60ae524d6
 msgid "Enlever la fonctionnalité de partage de message [Element]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 2289856dede84cb2a88f6ebf0d589687
+#: 49f49097ab9b4ed0af2a264856d4181e
 msgid "[GOFAST-6323]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: e67831874f204b50a70cfa87e739249c
+#: 77a2630d54d84d7498390bb3ef41029f
 msgid "Améliorer l'affichage du bloc des options de recherche (largeur fixe trop petite)"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: adf250a936634d50a0cf7777a8dfd442
+#: 3609a24e2d8444588b5b0853015fee93
 msgid "[GOFAST-6353]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 97d32fa6f88541d0ad70afb29329b1e3
+#: aadf3c2c63a041f6bf93489a6eb88164
 msgid "Arriver sur le bon salon de discutions après un clic sur une notification navigateur du Chat [Element]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: d72fba7e76714e688ce39899f5dd5291
+#: f4ce3c8b6f6a45059a0a8071b5982c42
 msgid "[GOFAST-6402]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 4f7ece59415249c289ec78875859519a
+#: d0af1fea29c149f58032fc7454f4a2ab
 msgid "Permettre de partager des images dans le Chat (avec un copier-coller)"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 5faf38d2ca364c4b9e0611e9ce7808db
+#: d61d0dc43c5b419ebb1efcb8637295b3
 msgid "[GOFAST-6170]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 30fb27174f644b5d8738acdfc24b8057
+#: 8368dc68d1074bcab9841f29825b1aab
 msgid "Masquer les listes non accessibles plutôt qu'afficher 'vous n'avez pas le droit de voir la liste' ou 'liste cachée'"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: b4d01dc4904541da83dd0cd2fcb1bafd
+#: 2b74c552c7544759aff86c2dae3b720d
 msgid "[GOFAST-6211]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: c556b39c8e7f407b8c7efebcca781cb7
+#: 2e7bb14b2d8d4f1fa4791c961e296ebd
 msgid "Correction d'un problème de paramétrage par défaut lors de la création d'un salon de discussion"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: c2efacd515e3444d8815c5e55eb9f9c8
+#: 8ace77fdff09494fbd4f85c464ddb9ad
 msgid "[GOFAST-5522]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 39c5a1e8b1ee457fbce854335d3c6ebd
+#: bb8e1853288c472781e600add16430d1
 msgid "Vérifier et corriger la configuration du serveur de date/temps en prenant en compte les fuseaux horaires"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: e9223789c9714832a76b16adef7de28b
+#: 256112c505294a44a022836ad64ac4ab
 msgid "[GOFAST-6205]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 4f7c9d0d94724d7aa0c2557d3f1b47bc
+#: 9ad5fa3d0b304224891854adcbdc28f4
 msgid "Mise à jour d'OnlyOffice 5.6.4 (5.5.5 en ancienne numérotation)"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: a809881bc81f4ef6869af6657fcbdfca
+#: d28d9e7a4bfc4dc2b5894802ca11a2d7
 msgid "[GOFAST-6097]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: b5e1d774e0184a2db19f48b85905c98c
+#: 19d8743c32384e7b9cbf955448f127ef
 msgid "Afficher l'espace de stockage dans les status en GB plutôt qu'en Octets"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 673d3a0fbf924a7f8fab6d5dc2ba7d30
+#: e931a9495ffb4aff81d3c1cd7bdabd79
 msgid "[GOFAST-6450]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: e4ee9331db1a4625b70f3da083d1e676
+#: 705576c6ddd54c8ea57fd099dafc4f71
 msgid "Amélioration de l'affichage de la popup de gestion des emplacements d'un document"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: c569936e2fd34b61ae547e91202b8725
+#: 7d855c147a63405d96fc7717b51754ed
 msgid "[GOFAST-6290]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: cf70b455f3274259a2580dc51847e866
+#: db418e749b254514b1aecc4670e427c3
 msgid "Pouvoir utiliser l'opérateur 'OU' dans la requête de synchronisation LDAP/AD"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 8d67aa34a24649edbfca40bec1eb07bc
+#: 991fd4f9d35d4fdaae446d9a7708bb2b
 msgid "[GOFAST-4682]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 58db7003363a4af8bce8e3683ad3a0f6
+#: 04a9f45a52d64e9c8c5e074be6ac9bb1
 msgid "Afficher 'Supprimer' dans la notification email de 'Synthèse d'activité'"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 574ed27c08e24deea3c0c4d34136bcd5
+#: 913489fcfa104a0d8b7db6f024769f0b
 msgid "[GOFAST-6561]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: f897f075958d4298b55fc5cd6360e65b
+#: 22e78dc03d7c46c68681169a83fd6507
 msgid "Conserver le style du texte dans le commentaire lors de la création d'un version majeure"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 5d3fae0675334ed282f85e9356f928d8
+#: 7666eb02a06f45bdab506bf2f113f2c1
 msgid "[GOFAST-5753]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 4568be7ed45a46a6aba75a279adb75b7
+#: fa55789b0ee44f818bb928bc6513bd3d
 msgid "Publication en masse : ne pas transformer les images en PDF"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: adafca5b7c4f46668e77f6cba4d01fb1
+#: 287477b6c54f45e79019821b344a499f
 msgid "[GOFAST-6174]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 496be7cafd524bcba37ed47ef1e95dad
+#: 2775875d9fa94fe88aab22be68d2bb30
 msgid "Permettre l'ajout d'un lien dans le descriptif d'une tâche 'card kanban'"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 488a7458626c488cb9bbac01fcdb4403
+#: 4372635ac385449d9d0cc286268e9181
 msgid "[GOFAST-6175]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 2de75534f66844d796a98b95a59dd762
+#: 1faf0e42051e4499825bbd41353527aa
 msgid "Afficher l'emplacement dans le paramétrage des notifications et l'email"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 9194591a949a427eb81353e3bff18cbb
+#: f2e3dc5918834aac882ff0ad61efcf63
 msgid "[GOFAST-6293]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 39dc2f0ddaa34695aea68b350a6b3e7e
+#: 478b5f38ed184e7eaee191801368e8af
 msgid "Permettre la création d'Etiquette commencant par un chiffre"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 079f2da71884467b91e8755fc9744d3b
+#: 169d2e6487ee46aa97e7a0fd2c039441
 msgid "[GOFAST-6418]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: d02733e04819465296cc0b839d10bfd9
+#: 7d08c9f8d7a94881b95d6e13600e1c9f
 msgid "Masquer les utilisateurs qu'on n'a pas le droit de voir, plutôt que d'afficher 'vous n'avez pas les droits pour voir ce profile'"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: cd71a9b742724d15a4e3254907f7123e
+#: b0fef40d2c7245388a32386d4d5a33a5
 msgid "[GOFAST-6297]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 96ea40470a904c279098bb52a38e318d
+#: 3bbd85e35f4448819010a58641626125
 msgid "Modifier les messages d'information et d'erreur de conexion et de récupération de mot de passe"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: d72123f42d1f492888c5e79687300cd5
+#: 68de1f0fe9e04b268e29cee38d1bba56
 msgid "[GOFAST-6501]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: a7b0d787f7964143bae1b48996607e04
+#: e752bf1633d94e05a8a7f97aaae32e4e
 msgid "Voir les étiquettes des salons et messages privés quand le chat est replié"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 9c4276e712ef428d8a71784964611cd4
+#: ea8c5b026f09452dbad7d24db2ac6531
 msgid "[GOFAST-6426]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 82d29841da8647ada73c7a967cb3205d
+#: 9ba34d2353b24ba5ab42f82280bb3cc3
 msgid "Enlever le message 'Mise a jour Element' dans le volet du Chat [Element]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 8b7a1b4247d24140a62079682001e765
+#: 48a7c16f2ee74eccae801f40f799e682
 msgid "[GOFAST-6573]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 5bb40b86675546868b21ddf66eb9ae2d
+#: 7bcfc25c7d0a4f3caad0055dda9ea067
 msgid "Masquer certains messages 'toasters' lors de la modification de la page d'un Espace"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:50
-#: 1c920a9884d24878b6eef81ee36f1aea
+#: d316ec437c7b4453a636f649f3387727
 msgid "Améliorations techniques"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: f7b29eb3fa8a4420a3d6f9af594f3218
+#: 53843bd5252a4afe89567aca3b1e2223
 msgid "[GOFAST-6451]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 93b5f6db61a24e51b4a852090fb7216e
+#: 61778b0e905a4c5881a2eb4b556f8a43
 msgid "Ajout du résultat du contrôle d'intégrité dans les logs remontés par Graylog"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 21b9a7cf9766413180e6ac49c06f3527
+#: 187d05f853f14b61a1f3217306af0171
 msgid "[GOFAST-6481]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 4325de817581461aa342f520041a3053
+#: 45a0fd8b450c4c41ba3ac00da9176e42
 msgid "Extension du contrôle d'intégrité LDAP effectué lors du login aux listes d'utilisateurs"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 2ae2fa9ce84f469e990267f0b9cb6dbe
+#: d40d4863655b423b95ee89b538e615e8
 msgid "[GOFAST-3453]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: bfa3e284bbbb45c69a9874382996032a
+#: 5a3249579ac04e4f886fb9e5695d300b
 msgid "Centralisation des logs (outil utilisé 'Graylog')"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 4c5ad997c9a246fb9a4c5202cab44ba3
+#: 95f71bafd51c48f6be1977d732417f66
 msgid "[GOFAST-5532]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: b1db82beae5b4b928f4dd8916f694c5b
+#: 43c816ac348249e1a3f4b628adfe816a
 msgid "Mise à jour PDF.js 2.6.347"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 028d19dfead54844a4cfbb840ad37c99
+#: 8776a0842d0f4e07a544804c0b1ee2d0
 msgid "[GOFAST-5987]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: a94d95d2779a4d9dbae7158e2fac1bfe
+#: 91fb7e1f38d84338a7353a069ee6ecde
 msgid "La touche 'Suppr' du clavier peut désormais supprimer d'autres types de contenus sélectionnés dans l'explorateur de fichiers (dossiers, espaces)"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 4adcd04c8a7943d2aaffe47554092ac9
+#: b38002e5f077460c8d6de5f3342eea86
 msgid "[GOFAST-6343]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 543127d64bfa401186e52cc7a7aa9f7f
+#: b1ae98a884c74cb48e61c2219d733f0f
 msgid "Mise à jour du Chat 1.7.5 [Element]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 1658e724bbbf4ce78b025b6bb996b7ee
+#: fcb2273d0bed437a8cdc55431cb90fb9
 msgid "[GOFAST-6442]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: db339c0e4f304099a07a8a83dab96c3c
+#: 23ef824a93b1423ca58a561c50277d88
 msgid "Rendre altérable par des modules clients le système de permissions du tableau de bord des processus"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 85691deee61147c2abdc1995d2124ae9
+#: 8fb4972ce2284f0f96fe280bdcb93ff5
 msgid "[GOFAST-6549]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: afddbbab0e2a475aae53f5fdfa65a954
+#: 82a4311be8034921bcabdf6e65f3c108
 msgid "Reprendre automatiquement la configuration d'Atatus lors des mise-à-jours"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 98da16c2820d4c26977a19b73e715cda
+#: ce4aef5f62b94fec94d9cbf968b55e46
 msgid "[GOFAST-4176]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 2313658ac8434096a915528ad091477a
+#: 67d54065840d41a7b4c465a785be3975
 msgid "Amélioration de la stabilité de la Webconference Jitsi.meet"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: c75936dec35b46fbb7913c6cbcb62bb9
+#: 816edcbb4efa479eaf88bc58d94118d5
 msgid "[GOFAST-6015]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: db6ec41ec3bd4ffeb36a0fd586c6515b
+#: 1532d7b18e7e45b3a690ed2745b805a4
 msgid "Amélioration des performances lors de l'ajout d'un membre dans un Espace pour les cas où la 'table gofast_mail_queue' est trop pleine"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: d220ee050fb44525b2751fd42d268545
+#: 9c444888e2124672a33073d6385d59b6
 msgid "[GOFAST-6063]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 2417206cae414ca3b836167078cfb877
+#: c18cb5b290d842778501d2ebe888c1f2
 msgid "Amélioration des performances à l'ouverture de l'édition d'un profile utilisateur (ne pas charger tous les rôles dans les Espaces)"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: ad1f99255b7b4f66bbed047ae4c9442b
+#: daa7a1b4b6ce4aac95acebefbdf7148b
 msgid "[GOFAST-6214]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 1b8ca47095954dbbba4bb5b7b1eea2a5
+#: 99f48fb746e04173a8af731b717c2feb
 msgid "Récupérer la session du Chat après rechargement 'Fn+F5' d'une page GoFAST [Element]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: f9330770ac8045ea840d22637d68ec68
+#: f5d849260a9e491cb5d63f8d2a8feb37
 msgid "[GOFAST-5882]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 28b8cd8ada7e4e6e890d5269be11a244
+#: 88018c94b379411abe2980600f398dbe
 msgid "Afficher dans Zabbix les cas où les machines de backups internes ne tournent pas"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: a8f64d539782408b9593af99440dc976
+#: 741ecb752e0747c592d1d268b6fcf20d
 msgid "[GOFAST-6187]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 38e43fa4622247b8915ea9c832a80960
+#: dc9a66fa565f49fc8d18e76391cf4051
 msgid "Amélioration du temps de réponse du nouvel 'Annuaire utilisateurs' pour atteindre les critères qualité (lorsque le cloisonnement est actif)"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 961074ec67744e1195a7e3db585c95b7
+#: 55929b3d04394cb2b02169db8c18515e
 msgid "[GOFAST-6562]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: cd02285340304efe828052188168f95b
+#: 4f522962b4ab43f18c54f24aa7d17ef2
 msgid "Annotator' PDF.js version 2.6.347"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: cd5e77130a044343a9fa059f2ab7834d
+#: ba2b71e73a60498896eaefde0596026b
 msgid "[GOFAST-6050]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 2ff572a4e6c24a569ce29614e3936097
+#: c9051114594444f3b5c4c6b8ec603199
 msgid "Amélioration de la supervision du moteur de recherche Solr"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: e7c1011a122a4687af4db4ac7ba353a3
+#: 2b28b263f5654ddd80d508b2742a431a
 msgid "[GOFAST-6486]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 4abbc87711004e878b0a9cbb8d97c6ce
+#: a54f370d127f48aca511bac55b186262
 msgid "Se déconnecter de GoFAST doit détruire la session SSO"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:76
-#: 4d9c5926ffba4cf99a9e780c9a5b43ff
+#: 00808f82661c4d4ab3e4eae1d9915c97
 msgid "Sécurité"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 8e72dd204f984db391d14c20b053cfcc
+#: ef6957222c4145c299970b30c8db17c6
 msgid "[GOFAST-6283]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 5bf00aaae5594a52ad7b0552d55d2066
+#: c6a90c2fb5ac45689965ad9126fae4f5
 msgid "Mise à jour tomcat-7.0.76-12.el7_8"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 692d6e6785294eb78dd68dc31c4cb9ea
+#: 910327bf6a3a428bb65d548aa622584e
 msgid "[GOFAST-6287]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: fe20781915d64daeb5b822b3fe7fcf5b
+#: 2f8ae044f8b346a291dfcef23c8fd95d
 msgid "[HOTFIX] Masquer certaines informations techniques"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 6398c0ea0f8f434ea5d58a4303681985
+#: e986e4a910cc440798e93da287ee19ae
 msgid "[GOFAST-6280]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: bba4fd81eb5043cda2997fd546cddddb
+#: 127dcade5c74468c83b3119716098037
 msgid "Mise à jour I18N en V 7.x-1.27"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: ec4a0d7b45184c2dbc9e685e1dbe0ec4
+#: 1549f6e93a524300a8406b89ab7b3b50
 msgid "[GOFAST-6107]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 6e921cda11264bb0913d50fcc07cb2d4
+#: ad43a7b80515452d9ea7e90d4f51da90
 msgid "Mise à jour sécurité java-1.8.0-openjdk-1.8.0.252.b09-2.el7_8"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 19e2acaef7f342f18983805cc4165f47
+#: 4127e1bd717f4838a1f8ecffb58c345e
 msgid "[GOFAST-6108]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 812fa618720848dd8bbe0a5e0cb63839
+#: c993086ec00e4068afad01139d57c812
 msgid "Mise à jour git-1.8.3.1-23.el7_8"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 1f983968e9ff424d938716888bcd0f27
+#: 821ca2f8cd6c41618920d9f706d58045
 msgid "[GOFAST-6109]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 7372f08af41f466b8c9a3440b46e22a9
+#: b539c4df7728411fbbc5c2a595a0b642
 msgid "Mise à jour ckeditor-7.x-1.19"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 619fff507a614508a4c310d8785e46b3
+#: cd22f49295054cdeb2bbeb4963cca506
 msgid "[GOFAST-6362]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 07c8be3aa06d45d294700f857d0a639a
+#: 0531fa21a47143bba28530b5c194fb9b
 msgid "Mise à jour kernel-3.10.0-1127.18.2"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: b567a716aae6495387edb0c1cb56f491
+#: 6abc1c2bc148442aaece9252bc2d1a06
 msgid "[GOFAST-6363]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 585cf616f0b84972a30d944fdd0541fa
+#: 1132778f17ac42598f27c10bdae36b21
 msgid "Mise à jour ntp-4.2.6p5-29"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 9d9fce7d90dd43cc8d20de6ece576b7b
+#: 3423e51c06514f7f9982c7721885d10a
 msgid "[GOFAST-6208]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 8a4cc6f9e70641c198045430c85be0d4
+#: 59345583657f43baadba5f1dcf2822ed
 msgid "Mise à jour Drupal Core 7.72"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: f62d1c0d675344bbaf82964a8ac227ac
+#: 47e6d30b8fea4e8193e179949ce457c9
 msgid "[GOFAST-6464]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 7d4ec035b0b84b7ba6caa11848ecd375
+#: 4b1a2158786240b897a6b39983a71301
 msgid "Mise à jour Grub 2-2.02-0.86"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: d6b6d512e07d4280957ef39e66b8d378
+#: 67c065d885314206b2665a34c07bf8e4
 msgid "[GOFAST-6465]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 0a5edc2dc88a4ebe92a4791ac2540bf1
+#: aa2c58cb8a264cd6af7c3c834bccf2a3
 msgid "Mise à jour PHP 7.2.33-1"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: f43c8ec2e10d4462b3ff34b47de997aa
+#: 42c31424efe74f7e952c04e0bd684fa9
 msgid "[GOFAST-6393]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: f958f912bd7847a5a11fe180e2959a72
+#: da7f41c31ccf4e0292f27d04e5c47fb3
 msgid "Mise à jour dbus-1.10.24-14.el7_8"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:99
-#: a33b6f8880734ef18c383af75704d1c1
+#: 45a2d1fced164c68a8a32a60dfa9dea5
 msgid "Bugs"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 74c578e41e844b71b90bd21a03a84d0b
+#: c0a12aa9dec94bc587660aa99ca5d7ed
 msgid "[GOFAST-6289]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: bb163621a5ca4f269534a92dbb532d33
+#: fd6bcd77075644ba92177013955302e4
 msgid "Correction de la récupération des flux RSS qui était non fontionnelle dans certains cas"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 9c95311829e344548706bbdcb56b3722
+#: 4f8672e1f03243f39d61d7083d7bb696
 msgid "[GOFAST-6485]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 450cb901ee024b329cf8ea74c313c07c
+#: fe6ddab7aa3448038d49b92ee2f1bcd9
 msgid "[HOTFIX] Afficher le champs de configuration de 'timezone' dans l'edition du profil d'un utilisateur"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 59360835e8834b319487c2d9c69c46f9
+#: 6c78e88f59964bb5bd690a68e0422bbe
 msgid "[GOFAST-6604]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: f672f74eda824e2db0ad8491e9aa08f3
+#: 222e077d8d5547af8275b5e39ff21716
 msgid "Mettre un document à l'état archivé génère des versions mineures"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: a966f4134bcc44e1b5ecb8a16c27961c
+#: 71f97b5e2bd340238e517925a73d6f4f
 msgid "[GOFAST-6169]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 367c9516da0b41ac82766b144d1a83cf
+#: 3d1bde5c7f5345ccb5ef9c1c6c9df7a0
 msgid "Mise à jour d'Ajax library v5.16.5450.0 (correctif problème sur Mac et Linux/Firefox)"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: eb4187bc7d9242d4a0fdc24ef40feeab
+#: 231bbf989b5c4fb395312d665769a3e2
 msgid "[GOFAST-6539]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 0f85195fdbdf4d228fa2e5d47cb5cd05
+#: fce11bdddfc94d709840d62cb344fc9a
 msgid "Correction d'un problème d'affichage des articles sur la version Mobile"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: f0ee0d78f7c24ddcb664da0650cac246
+#: 5cf13c3b97a64d449a6a9492da0a31f7
 msgid "[GOFAST-5958]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 245fb7bc81bc4a9e8ae75d61662a8c06
+#: 548704f5b72848d7adf3d37b0e52a9c6
 msgid "Intérdir le '_' (Underscore) lors du renommage des dossiers dans le bloc latéral gauche de l'Explorer"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: f1fb27466fa24061865a986ad3789dcf
+#: 3d05dc4af22b4eebb924d4daecf5219a
 msgid "[GOFAST-6096]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: e53c297f378f4786a93924d035616f04
+#: 7cd2c2e3fa2a4821b50dd6e0acac1d13
 msgid "A la connexion, masquer les salons dont ont n'est pas membre (expulsé) de la zone dédiée aux salons acceptés"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: eb347c916c184222837093f41c65edc8
+#: d0463e15d0a342488bcf14b2d2b8cb7b
 msgid "[GOFAST-6210]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 4cf8dd11f1994b749bf4cc4cf6050b69
+#: 42a2638ac1f74693836fb4dccffc75d2
 msgid "Correction de la création d'un document de traduction depuis un document existant"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 15f69d05b5b54921ae08720a501a1522
+#: 5e5306983b504ec2809f9df2c7f013be
 msgid "[GOFAST-6263]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 8410deac34084d09a952e515a6d9f943
+#: ce4126e288e640de92f0fc4ab259fba1
 msgid "Correction des actions en masses depuis GoFAST Explorer sur la version Mobile"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 30de0cb80b81447ea604158d648dba71
+#: 71e1c04a22be44079207534693c9e4d9
 msgid "[GOFAST-6326]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 8c3fb9b73baa4e629370a2f0c0ceb8f4
+#: bd7acd097f43412fae27f5c11131afb6
 msgid "Au renommage d'un Espace ne pas faire remonter à l'Espace parent"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: cdd4de1fc8194fc7ad29e6f1c9501d88
+#: 0143132f83614af0930ff56a12086c36
 msgid "[GOFAST-6346]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 7b42ee64b43d4ea59e8d143a8b1e2d4d
+#: f91dfbb817124f0ebc9611ff71e99ff1
 msgid "[HOTFIX] Permettre le bon fontionnement des web-conférences dans des environnements avec du NAT depuis JVB2"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 414ab857d9874f6281772bc2698f65b3
+#: cde1cc81e9ad491baf81428e95003303
 msgid "[GOFAST-6370]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 96af47d6a1e742e5b10d246e91fd737a
+#: 187e78869dc64d52b53f0a5e7b4aa0ae
 msgid "HOTFIX] Permettre de se connecter au Chat si il y a un @ dans le login de l'utilisateur [Element]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 4a838f30c14348b19f19e9825f62ec12
+#: 6d6c444d015c4332b23bca750decdbb4
 msgid "[GOFAST-6506]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: f03e8bb8a6be4e4aa34d0d58be94890c
+#: 6ac42909592445db8992b441d78abee1
 msgid "[HOTFIX] Ne pas perdre la version en cours lors de la suppression de versions mineures dans certains cas"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 93233030973d4c319e254adc91bfccc1
+#: cf9c0dcb6e984856bf1ee3aacddf61be
 msgid "[GOFAST-6520]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 0784d4fc480e420f83ffd6532376c18a
+#: 74c6a4fa941f4e7b96dcad61a0a13e11
 msgid "Actualiser automatiquement certaines informations après le renommage d'un document (bloc droite, menu contextuel)e"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 44e11b5dc77148db9c1c520577286811
+#: 07d44c7c271f437e8c90c10152f73376
 msgid "[GOFAST-6521]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: ed8e1a0fe381449eb4dd99b3caa13e43
+#: 908d52591f514676bc8cef03107b5436
 msgid "Correction de l'ajout de mots-clés en masse"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 06a63bb7e17f4d7fab891bd2080519ea
+#: 0a48402402804dda90418a208577a989
 msgid "[GOFAST-6524]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: e29a0ed8c98b4fbb87f8e0b1ef3b2f50
+#: 159766b86dfc463a8cb79531b908dc77
 msgid "Récupération de certaines actions dans les pistes d'audit"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 9e781689f5334bb6b1cbb591620fc9b4
+#: 73c9668ab7214cedbbea0b613fdc565b
 msgid "[GOFAST-6530]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: d0e2e4d3204f4d74bab9838c509522b2
+#: f22ad36ec2404e7894a856a253a8a5ce
 msgid "Enlever les suggestions du moteur de recherche 'Solr' dans l'autocmplétion de la recherche"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 8938541174b14cdea912e1a1ae13a90b
+#: 3d5c01c12fda45ffa8c2b2924a2d8f50
 msgid "[GOFAST-6536]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: a9f37581a97b49fe8d11f7adbf5c31d6
+#: 19b91005c9bb445583cf9622a31bb49f
 msgid "Ajouter la suppression d'un membre d'un espace dans les pistes d'audit"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 892be7e0d1cf4e16ad53e45452a71a6a
+#: 5b83bfc48bda4d27992796b7a5f48d04
 msgid "[GOFAST-6551]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 4a4a191510b6442f9adeab446dab4c45
+#: 49ab845b12ff44ea9484501bd121a09b
 msgid "Les étiquettes de l'éditeur riche dans la description d'une tâche Kanban ne sont pas conservés"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 192dfebb82d64a73a077658b4e4629f1
+#: ca68868736874fe69a68056a05a852da
 msgid "[GOFAST-6555]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 17933cd4eb724ee1bed9b93359f3c896
+#: 3e197cb4c0e7478cb4e289107b5a262c
 msgid "Correction d'un bug lors de l'édition en ligne lorsqu'on fait parti d'une liste d'utilisateurs"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 029a446b10ed4edba21a0d1c8ac60842
+#: 2ebc1a1219f14e079c8bec918f03a1ae
 msgid "[GOFAST-6557]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 92244a0a2d3b45aea2f952dfc08eb2f2
+#: 0fa11d6f4f2f4b4c917a9ac565a42a24
 msgid "Pouvoir mettre un salon de Chat en salon favori [Element]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 5d57fe1416b74c328bc6f02373344ba6
+#: 29f47e7a0b2a4a5e96cec10f26148158
 msgid "[GOFAST-6558]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: e0011a0c6a914731b5eed5e58cbd6803
+#: cae7a6d330574a21b7dca4da960db15c
 msgid "Correction d'une erreur à la connexion vers la brique de workflows"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 907a142c09be4468aa5c1fb1cd39c443
+#: 45852ad2626f4689a27164931f2076f4
 msgid "[GOFAST-6563]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 869fa7b77031446291181b25a8d62788
+#: 4eaddd1f145a4a71bde890cfd13e32ec
 msgid "Correction d'une erreur JS sur version Mobile"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: ed6d6014cd064318ba61a1fb185918df
+#: 9a232020d6754e1186c9de901bb24535
 msgid "[GOFAST-6574]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: cade3fdc84c840ea9bbd47efed03bae5
+#: dc886ec796cd48db97be880d068b1bb2
 msgid "Lorsqu'un message est affiché dans le Chat (ex : mise à jour), impossible d'avoir le focus dans les champs de formulaire du reste de la page"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 85f07f856c234c969d1a19ef53df0e75
+#: 9d0699592a6e41d598bb5fdfc88213e0
 msgid "[GOFAST-6575]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 741eecd36efb4f24bf6533692389fdee
+#: 62030bfecd42400d8e5485b2dcaafa4b
 msgid "Correction de l'affichage des signatures dans PDF.js v2"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 15b274612cf348819c9d28b0d355262a
+#: 4fc54200a75541e1a7df87cd72c48781
 msgid "[GOFAST-6592]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: d01daf6827934494a59ad1e5049cd3a0
+#: 21e51b2d912a4032ad34af564bd0cf20
 msgid "Entrer du texte dans la recherche GoFAST fait disparaître le Chat"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 6564e4df2a4b4f16b06d2df999cdb3e6
+#: 673a4de0f31e424fa0e9340227850ffd
 msgid "[GOFAST-4548]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 14416c2766094c0d9c00183c9f6d0d6a
+#: df5125bb2c534cb18f6a0dc6a8a0ba34
 msgid "Masquer les Espace à la suite de leur suppression dans GoFAST Explorer (volet latéral de gauche) [GF Explorer]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 57a9121efce448779532ed53fd8beb29
+#: fd9398da1b374224a24ffa6a45ebe185
 msgid "[GOFAST-4662]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 614e65b88d8a4bcabc402a70b5a983ab
+#: 4f9cebcdffc24e9ba30f8f1e28bb1779
 msgid "Correction de l'affichage de l'icone du format du document pour les extension avec majuscule [GF Explorer]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 2679daee57074036a05763cbee1cd8a6
+#: 0967bf94c4dd4d67a95887f7da477c07
 msgid "[GOFAST-5362]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: db78ec91e0e14ea18e6e4c4afa6dd6cd
+#: b1202e23520742bbaaeed00d386a3994
 msgid "[HOTFIX] Correction du fonctionnement de l'application Jitsi.meet client lour sur iOS, Android [Jitsi]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: a22290016b5e4ce7810139a15dcd5ae2
+#: 5f6fb3d9e7774d4a9c796fdec89a74ac
 msgid "[GOFAST-5736]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 8568693a8c294e57ae5dc49d173d6fb6
+#: 6a41cee69c93434bac0dd44368b0d9a6
 msgid "Empêcher la création d'un doublon dans le cas d'un 'timeout' à la création d'une 'Liste d'utilisateurs'"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 1aeefb215508460a93c9dc787a6cfb2d
+#: 73d0378f4d7c45ac865b6212296681bf
 msgid "[GOFAST-5944]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 6ed07fedbb404bf39b3d385bb7471b25
+#: b0dbf9182b384041b1ebc48001cecaa1
 msgid "Correction de l'autosuggestion dans le champs 'mots-clefs' dans la fenêtre de 'Gestion en masse de la taxonomie'"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: a22f078df14c44da82eb5a273464ab97
+#: 6ac9f0a8815848989bf3c5d4ac2e52cb
 msgid "[GOFAST-6025]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 46a07e8c8cb74e40aa63d44742a7f8b8
+#: 04347d05808045c482ded38962a3b90f
 msgid "Correction de l'affichage des contenus épinglés sur le fil d'activité pour les comptes ayant accès a énormément de contenus"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: ae5978af14704f62bc63493106564de4
+#: aca398f4177c4b51b1c122796f550a9d
 msgid "[GOFAST-6162]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: c13a93bdaf7d4aab8dba295fa057746c
+#: 063dfd72d99d410999bb39e3c6fe7d49
 msgid "Gestion et correction globale d'erreurs Javascript de GoFAST"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 972920d53471449d91943bf5adfe6c9b
+#: a9fe4155b96f4e07b3bc73663446af03
 msgid "[GOFAST-6192]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 48794ca2465d4083980e35bdda2f708f
+#: 727c3cc133584c97b3e69fbbd3764668
 msgid "Correction de la navigation dans les onglets d'un Espace après le renommage de celui-ci (correction 'page non trouvée')"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: e7529bce45a14cceb024a1fffbc2a123
+#: 3bba67e53ba449c1b793a63a3bd3ab9f
 msgid "[GOFAST-6252]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: c004763356c14a029cd131006c0693bd
+#: f8022319f36b4ab289d353e47208523b
 msgid "Correction de l'arborescence des dossiers affichée lors de la modification d'une réunion quand un dossier est déjà sélectionné"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 7a4a84857de6430991a050a659ba3a7f
+#: d0579f51ac5b4d22bfc87051e92ddea4
 msgid "[GOFAST-6255]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: a130b4181b734055b352910ab29a8276
+#: cf947f7ccb7f42c797312a14b68ab28b
 msgid "Correction de l'affichage du titre d'une réunion dans le fil d'ariane (de cette réunion)"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 079e03ba10aa49e09ab8615b2dbf1480
+#: 1a8cd531f1bb4cb98235a98943a81308
 msgid "[GOFAST-6344]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 49860b5c4c304fa993570fb82b8eefe1
+#: 14934e665acf499eb40540e6cc938935
 msgid "Lors d'un copier-coller dans l'auto complétion, impossible de valider la saisie"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 37874c85b1dc4789b7e873ca17045066
+#: ed0c039aa3754bffad02a06826b87196
 msgid "[GOFAST-6351]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 909f71808dee4da68684dde07b4d8b9d
+#: eaac7655b0004f5683ab0e5d2cea657a
 msgid "Correction de la redirection vers la page d'une tâche 'card kanban'"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 89563ed51c7343058423665ebf8c1529
+#: 79376b0deb0a4334893102219e9163ea
 msgid "[GOFAST-6372]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: a31c9723ec2d4c0ebaeb8f3cd9ac2d0f
+#: 8a932814f912467da9e4433d22e0c6da
 msgid "Correction de l'action de déplacer un sous-Espace"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 323882841130469b82ae7550958908d6
+#: 0e64f036161543cc923e7418a782d474
 msgid "[GOFAST-6493]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 25622671f86c4c36baaca995032fb6de
+#: fcd7bc6873854398bdb5bcd44ee74946
 msgid "Correction de la récupération de la session du Chat en multi-onglets après une nouvelle authentication [Element]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 209d8592f6bd43208ea397e685710cc1
+#: ed16948d646840a08fecdd673ea3f84c
 msgid "[GOFAST-6507]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 83507ad175f4459683ee9f67de843ba3
+#: bdcae8db7f9544fe92fe76dc48b19072
 msgid "Correction du faux message d'erreur : 'Désolé, Riot n'est pas supporté par votre navigateur'"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 04ab9afab9e7457e8b0e6c47d90b603d
+#: 1c69d34286c544ad87568957527c14b6
 msgid "[GOFAST-6586]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 890ed3060cca4c1fbc86f21bd74e0328
+#: 0c00aba35979443d96f20d23cbe20a24
 msgid "La bande du Chat casse la mise en page sur certaines pages sur la version Mobile [Element]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 4f37b812a46649058b610994c75ce686
+#: 9fb0cabc023b45a6b1cc62cae1fa3d71
 msgid "[GOFAST-5237]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: d832d44350a54e2cb1310be3688bc881
+#: 4c0c1556b905429e9cd03077fb9c1979
 msgid "Correction de l'édition en ligne des fichiers non Office malgré le module ITHIT installé sous Chome [ITHIT]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 393d125fec8b4b67b635a1c696400ec8
+#: 1fa3bd4a22f3422cb9b125263736283f
 msgid "[GOFAST-5299]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 657225cf7e45443b87d4dfdbdfc16134
+#: 33527ef71b1b4b30aca31cd3ce697ee1
 msgid "Correction des actions en masses ne fonctionnent pas sur le GoFAST File Browser en version mobile"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: ab337f1df4c8420cbd0fb65b930126a6
+#: 3dd8a7a0c24a40669cfc5f971d1712b3
 msgid "[GOFAST-5597]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: da64b73ac86f4ce3820e845b5de63f31
+#: d9e6ec4a8d4048e490d76b2f3df685a3
 msgid "Correction du bouton 'Répondre' dans les notifications des messages privés"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: a75df3aa7f2941938869a3f9c554abea
+#: ac0127c8e44e461089e8be8494ea489c
 msgid "[GOFAST-5825]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: df1f075fc498489d926e2f12547a6f90
+#: 7347cbaa77e447ba8b3008f186e717e2
 msgid "Correction d'un defauts d'affichage du tableau 'Kanban' sous Safari"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 0b0a2fe4a916442bb1fa2f57ff853fb5
+#: 53f06ba2da5e4b3f82de1f0c396975ca
 msgid "[GOFAST-6004]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 98369c47b7514553800c63e92e8a3231
+#: 9ea85da9d9df43a29f5c8a79a4e5d5db
 msgid "Correction de la redirection après la création d'un document vierge (vers a page du nouveau document créé)"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 488d1dbb648e45d58e464e8322a66d20
+#: 2e8d5f4ef61a454e882b00808be9e2dc
 msgid "[GOFAST-6132]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: c1c153ab7c014e348c3c14ad5f6f8bfe
+#: 822eaa91c4564719b9f6863bff6b044f
 msgid "Correction des filtres dans les annuaires"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: c3df0205ee15400caee56cf1cb369804
+#: fdbd385b195a44cdae200b933b09449d
 msgid "[GOFAST-6354]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: a73fa70d1b324778bc3639abf0de41a6
+#: e6df17f8d29248b79001f96c1b42a555
 msgid "Problème d'actualisation d'icone et de nom lors du renommage des dossiers dans le bloc latéral gauche de l'explorer"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 27ab1cf1c32d4e07b5f06692dd37cf6a
+#: 65f77d422e6a499c8407b778b88b0123
 msgid "[GOFAST-6355]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 50a3709d81134b1ab7dc1183fc00c2c6
+#: 9118ea243eb44f70a2aacc24bb4f7a7f
 msgid "Correction d'un bug lors d'un clique droit dans le vide dans le bloc latéral gauche de l'explorateur GoFAST"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: d855c76543124a28844afbf9992dd751
+#: caef8da6338b429aa70750e81141bd80
 msgid "[GOFAST-6382]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 42200a54d7b243ac963d0d083db150c3
+#: 99afb4defd1042f4b802adc5727de8a2
 msgid "Correction d'un bug visuel du chat lorsqu'on reçoit une notification"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: e705578118d84e79b347554d63032191
+#: 0f9a8be997c04661b2616cb7684219be
 msgid "[GOFAST-6483]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 7c98b90c97d642cc92570224324b734e
+#: acd9a28eff12464aba9caaddfb8951e7
 msgid "Correction de l'édition d'un document sous Linux-Fierfox via le module d'édition avec client lourd [ITHIT]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 747b4447dfdd488bafc479ad84fcb6ff
+#: a5fba6bc284f455aa45c0cadc3cf3552
 msgid "[GOFAST-6538]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 9822ffe911c44670abdbd91ad445300d
+#: 858a67e197864988a930f8872b7b6aef
 msgid "Amélioration de la gestion de la déconnexion du chat en multi onglet"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 64c60cb5501841e999f43a18a907be7b
+#: 5775f9c576ad422eaa9f13bb1c590050
 msgid "[GOFAST-6542]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 14c4de482f9f4d7285776c1dc667c05e
+#: b9c1845a2a31427dba1732d429633b04
 msgid "Amélioration de l'affichage de la fonctionnalité 'répondre' et de l'autocomplétion du chat"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 8b15be5432ba4e38b628d980b6c99150
+#: 9d9a04bd97264c4c97df9c94aa308872
 msgid "[GOFAST-6576]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 5497978fb29b4c9e960c4aacd1f14ef7
+#: 913742466aba481cb7da614120c588a1
 msgid "Correction du dfilement des pages en 'mode présentation PDF.js v2'"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: a5ec11ee9f314884862a3c3e67637269
+#: fa2308b2ff82492ebcfd0aee49446d86
 msgid "[GOFAST-6584]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: b37e970d828f4ca29b46bb64f45b9d45
+#: 83188964851243719653dc58615b743f
 msgid "Correction de la recherche contextuelle dans l'aperçu PDF (après clic sur un mot-clef depuis un résultat de recherche)"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 2b4bc87a31004315806bcc4468bd8779
+#: 1f8ab4323e68441b861e57b5c452e0b9
 msgid "[GOFAST-6186]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: cdef0053e867406286823c1f5238bb92
+#: 9036b67db99b48f2945d731478be8069
 msgid "[HOTFIX] Correction de l'affichage des citations dans Chat [Element]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 18080db9419743869abec7c92a7351da
+#: 152105bae1804099849c3190044f9d08
 msgid "[GOFAST-6529]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: cf8ac15386f54c8192421a2ac1cd4614
+#: 1b02eae30ff64e2a9972d34d0f6d4bf2
 msgid "Correction de 'affichage de doublons du nom de l'Espace dans le GoFAST Explorer (dans certains cas)"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 3f0f9e3b5b2849528a4dd2eea65eced5
+#: c51599b9475c453fa5c76d9b51a0e5dc
 msgid "[GOFAST-6535]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: ebf00b93f6bf490689e9ea6023452cac
+#: d8ce81099615492ca5ffaf804040dca7
 msgid "Correction du lien vers la web-conférence dans l'invitation agenda dans certains cas (.ics)"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: c94896c6f11246c387342d92790ade80
+#: 35a8756c0014411dafded63f8169e32c
 msgid "[GOFAST-6537]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: f9ad191859e2437cbdedf4ce4350b403
+#: c80f099070094839a3ee4b59efda109d
 msgid "Permettre la création d'un fichier zip pour le téléchargement de plusieurs documents"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:169
-#: c79aebb51e394214bcfce7bad39951ad
+#: d2fa70e29f134f1f87529df3a3f139f3
 msgid "Bugs mineurs"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 16fa0d4358b244d0a8be6839a6f690e4
+#: d6f5f689b0384f3394cd73f78a4b233f
 msgid "[GOFAST-6397]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: aa8b2222b69f43c990c771e7c10b5282
+#: e8cd485911a44b8a874574b594cba476
 msgid "Armoniser la photo de profil de l'utilisateur dans la vue du nouveau Chat GoFAST [Element]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 961a0b32fc0a49d1a489f0f426569394
+#: 01532615c5d3443e83da7c137b3f4508
 msgid "[GOFAST-6201]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 034437dacb2d43f7a1973b71c4a697c0
+#: 7c65bfae0ceb4e8293fd31f4c72e1406
 msgid "Réparer et améliorer le retour des versions de la GoFAST Comm dans la modal des version des composants"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 6fcef4c34f124a2f83b106dae7089013
+#: 0d587fe8b8d84b1d9b7314df10925052
 msgid "[GOFAST-6593]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 1a10a58a856c4c958ad04aa70c3b5a75
+#: 78c51e1882cf433294e8336735bdbba4
 msgid "Masquer le message d'erreur après le faire de vider le champ de la recherche"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 5aa3dbbcb3a245899c3cbaf2226241ec
+#: e33f5b7de5f24be9a4345bb7640a526c
 msgid "[GOFAST-6069]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 7d02fc44de554746a633837857c6941e
+#: 0687fca740384096a4c40c0993659119
 msgid "Masquer le bloc 'mes relations' sur la page de login"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 0e944de2b9d94db597cd3807d9a43919
+#: eab9cdc5f0954ad6ae39c025533818de
 msgid "[GOFAST-5850]"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:1
-#: 6c1120e6d3654cb6aacc5455fcab532c
+#: 139f25fb6bfb420689ae4b09e96a7587
 msgid "Correction du drapeau pour la langue arabe"
 msgstr ""
 
 #: ../../docs-gofast-technical/release-notes-3.8.1.rst:184
-#: 8a9bb67f652f45768739ff6b1ee79799
+#: a1a07081e2ac4519b86be1f135a62b29
 msgid "**Bonne utilisation de GoFAST !**"
 msgstr ""
