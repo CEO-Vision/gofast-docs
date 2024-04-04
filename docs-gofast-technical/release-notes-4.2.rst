@@ -108,7 +108,7 @@ Améliorations
    "GOFAST-9283","Amélioration : mise à jour Element Web v1.11"
    "GOFAST-9737","Amélioration : formulaire wiki plus intuitif et facile à utiliser" 
    "GOFAST-9867","Améliorations ergonomiques de la DUA"
-   "GOFAST-11424","MàJ JITSI (voir si on peut lister de nouvelles fonctionnalités)"
+   "GOFAST-11424","Mise à jour JITSI"
    "GOFAST-7650","Mise à jour du connecteur Java MySQL"
    "GOFAST-9282","Mise à jour IT HIT Document Opener v5.21"
 
