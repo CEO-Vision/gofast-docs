@@ -28,7 +28,7 @@ Nouvelles fonctionnalités
    "GOFAST-7359","Nouvelle fonctionnalité : audits des espaces accessibles aux administrateurs"
    "GOFAST-7373","Nouvelle fonctionnalité : intégration de la fonctionnalité permettant de pré-ajouter des utilisateurs dans des listes utilisateurs en tant que membres en attente de validation"
    "GOFAST-7401","Nouvelle fonctionnalité  : affichage  des échéances de workflow dans le calendrier des espaces où se trouvent les documents associés"
-   "GOFAST-7691","Nouvelle fonctionnalité  : création d'une nouvelle métadonnée "classification"
+   "GOFAST-7691","Nouvelle fonctionnalité  : création d'une nouvelle métadonnée 'classification'"
    "GOFAST-8194","Nouvelle fonctionnalité : ajout d'audit sur les commentaires"
    "GOFAST-8397","Nouvelle fonctionnalité : possibilité d'importer un .ics dans l'agenda"
    "GOFAST-8549","Nouvelle fonctionnalité : audit des événements orientés utilisateur"
