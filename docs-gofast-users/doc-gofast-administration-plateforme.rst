@@ -173,34 +173,19 @@ Les « Catégories » sont des métadonnées qu’un utilisateur peut appliquer 
 .. NOTE::
    Seul le profil « support-utilisateurs » peut gérer les catégories. 
 
-Créer/Modifier une catégorie
+Créer/Modifier une catégorie et son emplacement
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 GoFAST propose une liste standard des « Catégories » applicables sur les documents. Toutefois, il est possible d’ajouter des catégorises personnalisées, avec les traductions associées. 
 **Pour ajouter de nouvelles catégories de documents :** 
- - Via le menu principal de gauche, allez dans « Configuration »
+ - Via le menu principal de gauche, allez dans « GoFAST Configuration »
  - Sur la page de configuration, allez dans le menu « Catégories »
- - Cliquez sur « Ajouter une nouvelle catégorie » ou sur une des catégories existantes dans la liste déroulante. 
- - Si vous souhaitez créer une nouvelle catégorie, renseignez les champs dans « Ajouter une nouvelle catégorie » en y saisissant le nom de votre catégorie (ex. Devis) dans les langues disponibles. 
- - Si vous souhaitez modifier une catégorie, changez le texte qui se trouve dans les champs « Editer XXXX » (à la place des XXXX vous aurez le nom de la catégorie que vous souhaitez modifier) dans les langues disponibles. 
- - Cliquez sur « Enregistrer » tout en bas de la page pour valider.
-
-
-Filtrer les catégories par Espaces Collaboratifs
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Filtrer les catégories par Espace permet de limiter la liste de ces catégories disponibles sur les documents. Ainsi, selon où est partagé un document, certaines catégories pourront être proposées et d’autres non. Par exemple, la catégorie « CV » pourrait n’être proposée que pour les documents classés dans l’Espace DRH. 
-**Pour filtrer les catégories de documents par Espace :** 
-- Via le menu principal de gauche, allez dans « Configuration »
- - Sur la page de configuration, allez dans le menu « Catégories »
- - Dans la zone « Filtrer les catégories par Espace(s) Collaboratif(s) », cliquez pour déplier soit « Catégories standards », soit « Catégories personnalisées ». 
- - Dans le champ de la catégorie souhaitée, commencez à saisir le nom de l’espace où vous souhaitez autoriser cette catégorie et vous aurez des suggestions, cliquez dessus pour sélectionner. 
- - Cliquez sur « Enregistrer » tout en bas de la page pour valider.
-
-.. figure:: media-guide/DUA_image_8.jpg
-   :alt:
-
+ - Cliquez dans le menu burger sur « + Ajouter » ou en sélectionnant une des catégories existantes dans la liste. 
+ - Si vous souhaitez créer une nouvelle catégorie, renseignez les champs dans « + Ajouter » en y saisissant le nom de votre catégorie (ex. Devis) dans les langues disponibles. 
+ - Si vous souhaitez modifier une catégorie, selectionnez la catégorie non standard que vous souhaitez modifier, puis dans le menu burger selectionnez "Gérer les espaces". 
+ - Cliquez sur « Enregistrer » pour valider.
 
 .. NOTE::
-   Laissez vide pour autoriser la catégorie dans tous les espaces.
+   Seules les catégories non-standard peuvent être édités 
 
 
 Configuration : DUA (Durée de l'Utilité Administrative)
@@ -215,51 +200,43 @@ A l’issue de cette durée, une alerte est envoyée aux utilisateurs identifié
 Où gérer les DUA :
 ~~~~~~~~~~~~~~~
 
- - À partir du menu principal de gauche, aller dans « Configuration ».   
-.. figure:: media-guide/DUA_image_1.jpg
+ - À partir du menu principal de gauche, aller dans « GoFAST Configuration ».
    
-
- - Cliquez sur « DUA (Durée d’Utilité Administrative) ».  
-
-**Deux sections sont disponibles :**
-- Liste des destinataires du mail de notification : dans cette section vous pouvez ajouter des utilisateurs qui souhaitent être notifiés à la fin de la DUA.
-
-.. figure:: media-guide/DUA_image_2.jpg
- 
-
-- Liste des DUA existantes : dans cette partie, vous trouvez le tableau des Catégories de documents ayant une DUA, avec la durée définie et le sort prévue pour les documents à échéance. 
-.. figure:: media-guide/DUA_image_3.jpg
-   :alt: 
+ - Cliquez sur Catégories.
 
 Créer ou modifier une DUA 
 ~~~~~~~~~~~~~~~~~~~~~~~
 **Pour créer une nouvelle DUA :**
- - Cliquez sur le bouton « + Créer ».
- - Une nouvelle section s’affiche « Ajouter / Editer des DUA existantes ». 
- - Renseigner les champs du formulaire disponibles.
+- A partir d'une catégorie déjà existante, 
+- Dans la colonne DUA, sur la catégorie choisit, appuyez sur "+ Définir" 
+- Choisissez le temps que vous voulez, 
 
-**Les champs à renseigner pour créer une DUA :**
- - Catégorie : à sélectionner dans la liste déroulante. 
- - DUA : une unité (chiffre) à saisir. 
- - Unité : à saisir s’il s’agit de Jour, Mois, Année.
- - Action (Le sort final) :  Archiver, Trier, Détruire à sélectionner dans la liste déroulante.
+.. figure:: media-guide/DUA_image_7.jpg
 
-Cliquez sur « Enregistrer » pour valider.
+- Puis validez. 
 
-.. figure:: media-guide/DUA_image_4.jpg
- 
+Appliquer une DUA 
+~~~~~~~~~~~~~~~~~~~~~~
+Pour appliquer une DUA, selectionnez la catégorie que vous voulez appliquer. Puis dans le menu burger selectionnez " Appliquer la DUA". 
 
-**Vous pouvez également modifier une DUA existante :**
- - Dans la liste des DUA, choisissez celle que vous souhaitez modifier 
- - Cliquez sur l’icône éditer.
- - Vous pouvez alors modifier les champs :  DUA, Unité et Action. 
-Cliquez sur « Enregistrer » pour valider.
+.. figure:: media-guide/DUA_image_8.png
 
-.. figure:: media-guide/DUA_image_6.png
+Configuration : Règles de nommage 
+--------------------------------------
+Une règle de nommage permet de structurer et d'organiser les fichiers. Elle est appliquée lors de la selection d'une catégorie sur un document. 
 
 
+Appliquer une règle de nommage 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. NOTE:: Pour supprimer une DUA, il suffit de laisser le champs DUA (Durée d’Utilité Administrative) vide puis Enregistrer.
+- 
+
+
+Saisir une règle de nommage 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
 
 
 Statistiques 
