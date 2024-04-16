@@ -281,12 +281,6 @@ Rôle des utilisateurs : Répartition des utilisateurs selon leurs rôles au sei
 
 Mais vous pouvez aussi choisir de trier les statistiques des utilisateurs par espace, en haut de la page. 
 
-Exporter les statistiques utilisateurs :
-
-En haut de la page, vous pouvez exporter les statistiques : 
-
-.. figure:: media-guide/stat3.png
-
 
 2. Onglet « **Statistique documentaires** », permet de visualiser le nombre de documents et les informations relatives aux documents par sa catégorie, son état et son importance.
 
@@ -295,37 +289,26 @@ Nombre de documents au cours du temps : Affiche l'évolution ou la distribution 
 .. figure:: media-guide/stat4.png
 
 
-Stockage : Montre l'espace de stockage utilisé par rapport à l'espace libre.
-Indexation : Présente l'état d'indexation des documents.
+Stockage : Montre l'espace de stockage utilisé par rapport à l'espace libre. 
+Indexation : Présente l'état d'indexation des documents. 
 
 .. figure:: media-guide/stat5.png
 
 
-Métadonnées des documents : Visualisez la répartition des documents selon diverses métadonnées telles que la catégorie, l'état et l'importance.
+Métadonnées des documents : Visualisez la répartition des documents selon diverses métadonnées telles que la catégorie, l'état et l'importance. 
 
 .. figure:: media-guide/stat6.png
-
-Export d'une liste de documents : 
-
-Il est également possible d'exporter une liste de documents en fonction de l'espace, des champs sélectionnés et de la date de dernière modification.
-
-.. figure:: media-guide/stat7.png
 
 
 3. Onglet « **Statistiques d’espaces** », permet de visualiser le nombre d’espaces et les informations relatives aux espaces, leurs évolutions par période, les plus actifs, les plus remplis et les plus peuplés.
 
-Nombre d'espaces au cours du temps : Suivez la croissance ou la distribution périodique des espaces.
-Activité : Identifiez les espaces les plus actifs, les plus remplis et les plus peuplés.
+Nombre d'espaces au cours du temps : Suivez la croissance ou la distribution périodique des espaces. 
+Activité : Identifiez les espaces les plus actifs, les plus remplis et les plus peuplés. 
 
 
 .. figure:: media-guide/stat8.png
 
-Export de données d’activité :
 
-Il est possible d’exporter les données d’activité, comme encadré sur la capture d’écran ci-dessus.
-On peut aussi exporter la liste des espaces avec leurs administrateurs et emplacements : 
-
-.. figure:: media-guide/stat9.png
 
 
 Exporter les données
@@ -384,12 +367,13 @@ Dans l’onglet **Statistiques d’espaces** il est possible de réaliser un exp
 
 Dans l’onglet **Statistiques des espaces**, cliquez sur le bouton avec l’icône Excel. 
 
-.. figure:: media-guide/export_espaces.png
+.. figure:: media-guide/stat9.png
    :alt:
 
 Une petite fenêtre s’ouvre et vous informe que votre export est en cours de génération. Dès que le téléchargement est lancé cette dernière se fermera automatiquement.
 
 .. figure:: media-guide/fenêtre_export_espaces.png
+
 
 
 Audit 
@@ -409,7 +393,7 @@ Audit
  - Ajout d’un membre (dans un espace)
  - Suppression de membre (d’un espace) 
  - Créer utilisateur
-Supprimer un utilisateur (s’il ne s’est jamais connecté) 
+ - Supprimer un utilisateur (s’il ne s’est jamais connecté) 
  - etc.
 
 **Aller sur l’Audit :**
@@ -429,14 +413,72 @@ L’audit complet est accessible via le menu principal de gauche, en cliquant su
 L’audit spécifique sur un document est accessible sur la page du document :
 Vous pouvez voir les derniers événements effectués sur ce document, la date et l’heure des actions ainsi que les utilisateurs ayant effectué l’action.
 
-.. figure:: media-guide/audit_document.png
+.. figure:: media-guide/audit1.png
    
 
 
 Configuration : Lien Personnalisé
 ------------------------------------------
-En cours de mise à jour
+Le lien personnalisé permet d’ajouter un raccourci directement dans la barre du menu supérieur. 
+Naviguez vers « GoFast Configuration », puis « Lien personnalisé ». 
 
+Activation : 
+1.	Cochez la case « Afficher un lien personnalisé » pour activer le fonctionnalité 
+2.	Dans le champs « Étiquette du lien personnalisé », saisissez le nom qui aparaîtra dans la barre de menu. Ce texte sera le libellé visible par les utilisateurs. 
+3.	Dans le champs « Lien du lien personnalisé » insérez l’URL complète vers laquelle le lien doit diriger. 
+4.	Après avoir remplit les champs nécéssaires , cliquez sur le bouton « Enregistrer » pour appliquer les modifications. 
+
+
+.. figure:: media-guide/lienpers1.png
+   
+
+Une fois enregistré, le lien personnalisé apparaîtra dans la barre de menu supérieure. Les utilisateurs pourront cliquer sur ce lien pour être redirigés vers l’adresse définie.
+
+.. figure:: media-guide/lienpers2.png
+
+Logo personnalisable de la page de connexion 
+--------------------------------------------
+
+GoFast permet aux administrateurs de personnaliser l’apparence de la page de connexion en y ajoutant un logo d’entreprise ou une image. 
+1.	Accédez à « GoFast Configuration »  depuis le menu latéral gauche, et sélectionnez l’onglet « Général » 
+2.	Activez l’option « Activer le logo » . 
+3.	Chargez l’image de votre logo en cliquant sur « Charger le fichier image du logo » 
+
+.. figure:: media-guide/logo2.png
+
+
+4.	Sélectionnez l’emplacement de votre logo sur la page de connexion. Trois emplacements sont disponibles pour l’affichage du logo : 
+a.	Pos.1 : Au-dessus du formulaire de connexion. 
+b.	Pos.2 Dans le coin en haut à droite 
+c.	Pos.3 Au centre du bloc gauche
+5.	Après avoir choisi l’emplacement souhaité, cliquez sur « Enregistrer » pour appliquer les changements. 
+
+.. figure:: media-guide/logo1.png
+
+Politique de mots de passe 
+----------------------------
+
+Dans le panneau GoFast Configuration sélectionnez utilisateurs. Faites défiler vers le bas jusqu’à la sélection « politique de mots de passe ». 
+Dans la section Politique de mot de passe, vous pourrez définir les éléments suivants : 
+- **Nombre de mots de passes stockés dans l’historique** : Ce champ détermine combien de vos anciens mots de passe seront mémorisés par le système pour empêcher leur réutilisation. 
+- **Longueur minimal du mot de passe** : vous pouvez imposer la longueur minimale que doit avoir un mot de passe. 
+- **Durée de vie minimum du mot de passe** : spécifiez la durée minimale pendant laquelle un mot de passe doit être conservé avant que l’utilisateur puisse le changer. 
+- **Durée de vie maximum du mot de passe** : indiquez la durée maximale d’utilisation d’un mot de passe avant que l’utilisateur ne soit obligé de le modifier. 
+
+.. figure:: media-guide/polmdp1.png
+
+Paramètrage de GoFAST BlueMind 
+---------------------------------------
+Pour les administrateurs, le paramétrage du module GoFast BlueMind est nécessaire pour activer la synchronisation des calendriers pour tous les utilisateurs.
+
+1.	Dans le panneau GoFast Configuration, sélectionnez « GoFast BlueMind".
+2.	Entrez l'URL de votre serveur BlueMind.
+3.	Cochez « Activer la synchronisation du calendrier » pour permettre la synchronisation.
+4.	Cliquez sur « Enregistrer » pour confirmer la configuration.
+
+En suivant cette procédure, vous assurez que les événements créés dans BlueMind seront synchronisés avec les calendriers GoFast des utilisateurs, leur permettant de bénéficier d'une expérience intégrée pour la gestion de leurs conférences et réunions.
+
+.. figure:: media-guide/couplageadmin1.png
 
 
 Configuration : Import utilisateurs depuis LDAP/AD
