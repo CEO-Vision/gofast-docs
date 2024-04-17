@@ -173,34 +173,19 @@ Les « Catégories » sont des métadonnées qu’un utilisateur peut appliquer 
 .. NOTE::
    Seul le profil « support-utilisateurs » peut gérer les catégories. 
 
-Créer/Modifier une catégorie
+Créer/Modifier une catégorie et son emplacement
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 GoFAST propose une liste standard des « Catégories » applicables sur les documents. Toutefois, il est possible d’ajouter des catégorises personnalisées, avec les traductions associées. 
 **Pour ajouter de nouvelles catégories de documents :** 
- - Via le menu principal de gauche, allez dans « Configuration »
+ - Via le menu principal de gauche, allez dans « GoFAST Configuration »
  - Sur la page de configuration, allez dans le menu « Catégories »
- - Cliquez sur « Ajouter une nouvelle catégorie » ou sur une des catégories existantes dans la liste déroulante. 
- - Si vous souhaitez créer une nouvelle catégorie, renseignez les champs dans « Ajouter une nouvelle catégorie » en y saisissant le nom de votre catégorie (ex. Devis) dans les langues disponibles. 
- - Si vous souhaitez modifier une catégorie, changez le texte qui se trouve dans les champs « Editer XXXX » (à la place des XXXX vous aurez le nom de la catégorie que vous souhaitez modifier) dans les langues disponibles. 
- - Cliquez sur « Enregistrer » tout en bas de la page pour valider.
-
-
-Filtrer les catégories par Espaces Collaboratifs
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Filtrer les catégories par Espace permet de limiter la liste de ces catégories disponibles sur les documents. Ainsi, selon où est partagé un document, certaines catégories pourront être proposées et d’autres non. Par exemple, la catégorie « CV » pourrait n’être proposée que pour les documents classés dans l’Espace DRH. 
-**Pour filtrer les catégories de documents par Espace :** 
-- Via le menu principal de gauche, allez dans « Configuration »
- - Sur la page de configuration, allez dans le menu « Catégories »
- - Dans la zone « Filtrer les catégories par Espace(s) Collaboratif(s) », cliquez pour déplier soit « Catégories standards », soit « Catégories personnalisées ». 
- - Dans le champ de la catégorie souhaitée, commencez à saisir le nom de l’espace où vous souhaitez autoriser cette catégorie et vous aurez des suggestions, cliquez dessus pour sélectionner. 
- - Cliquez sur « Enregistrer » tout en bas de la page pour valider.
-
-.. figure:: media-guide/DUA_image_8.jpg
-   :alt:
-
+ - Cliquez dans le menu burger sur « + Ajouter » ou en sélectionnant une des catégories existantes dans la liste. 
+ - Si vous souhaitez créer une nouvelle catégorie, renseignez les champs dans « + Ajouter » en y saisissant le nom de votre catégorie (ex. Devis) dans les langues disponibles. 
+ - Si vous souhaitez modifier une catégorie, selectionnez la catégorie non standard que vous souhaitez modifier, puis dans le menu burger selectionnez "Gérer les espaces". 
+ - Cliquez sur « Enregistrer » pour valider.
 
 .. NOTE::
-   Laissez vide pour autoriser la catégorie dans tous les espaces.
+   Seules les catégories non-standard peuvent être édités 
 
 
 Configuration : DUA (Durée de l'Utilité Administrative)
@@ -215,51 +200,52 @@ A l’issue de cette durée, une alerte est envoyée aux utilisateurs identifié
 Où gérer les DUA :
 ~~~~~~~~~~~~~~~
 
- - À partir du menu principal de gauche, aller dans « Configuration ».   
-.. figure:: media-guide/DUA_image_1.jpg
+ - À partir du menu principal de gauche, aller dans « GoFAST Configuration ».
    
-
- - Cliquez sur « DUA (Durée d’Utilité Administrative) ».  
-
-**Deux sections sont disponibles :**
-- Liste des destinataires du mail de notification : dans cette section vous pouvez ajouter des utilisateurs qui souhaitent être notifiés à la fin de la DUA.
-
-.. figure:: media-guide/DUA_image_2.jpg
- 
-
-- Liste des DUA existantes : dans cette partie, vous trouvez le tableau des Catégories de documents ayant une DUA, avec la durée définie et le sort prévue pour les documents à échéance. 
-.. figure:: media-guide/DUA_image_3.jpg
-   :alt: 
+ - Cliquez sur Catégories.
 
 Créer ou modifier une DUA 
 ~~~~~~~~~~~~~~~~~~~~~~~
 **Pour créer une nouvelle DUA :**
- - Cliquez sur le bouton « + Créer ».
- - Une nouvelle section s’affiche « Ajouter / Editer des DUA existantes ». 
- - Renseigner les champs du formulaire disponibles.
+ - A partir d'une catégorie déjà existante, 
+ - Dans la colonne DUA, sur la catégorie choisit, appuyez sur "+ Définir" 
+ - Choisissez le temps que vous voulez, 
+ - Puis validez. 
 
-**Les champs à renseigner pour créer une DUA :**
- - Catégorie : à sélectionner dans la liste déroulante. 
- - DUA : une unité (chiffre) à saisir. 
- - Unité : à saisir s’il s’agit de Jour, Mois, Année.
- - Action (Le sort final) :  Archiver, Trier, Détruire à sélectionner dans la liste déroulante.
+Appliquer une DUA 
+~~~~~~~~~~~~~~~~~~~~~~
+Pour appliquer une DUA, selectionnez la catégorie que vous voulez appliquer. Puis dans le menu burger selectionnez " Appliquer la DUA". 
 
-Cliquez sur « Enregistrer » pour valider.
+.. figure:: media-guide/DUA_image_8.png
 
-.. figure:: media-guide/DUA_image_4.jpg
- 
-
-**Vous pouvez également modifier une DUA existante :**
- - Dans la liste des DUA, choisissez celle que vous souhaitez modifier 
- - Cliquez sur l’icône éditer.
- - Vous pouvez alors modifier les champs :  DUA, Unité et Action. 
-Cliquez sur « Enregistrer » pour valider.
-
-.. figure:: media-guide/DUA_image_6.png
+Configuration : Règles de nommage 
+--------------------------------------
+Une règle de nommage permet de structurer et d'organiser les fichiers. Elle est appliquée lors de la selection d'une catégorie sur un document. 
 
 
+Appliquer une règle de nommage 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ - Via le menu principal de gauche, allez dans « GoFAST Configuration »
+ - Sur la page de configuration, allez dans le menu « Catégories »
+ - Dans la colonne "Règles de nommage", dans la  catégorie que vous souhaitez, cliquez sur "+ Définir" 
+ - Glissez et déposez les métadonnées dans l'ordre voulu pour créer la structure de nommage. Les options disponibles incluent Référence, Date de création, Catégorie, Auteur, Titre, Date, etc.
 
-.. NOTE:: Pour supprimer une DUA, il suffit de laisser le champs DUA (Durée d’Utilité Administrative) vide puis Enregistrer.
+.. figure:: media-guide/filtres1.png
+
+
+
+Appliquer une règle de nommage 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Pour appliquer la règle, rendez-vous sur le document voulu et sélectionnez la catégorie configurée dans l'onglet Catégorie. Un message s'affichera pour confirmer le changement de nom du document.
+
+.. figure:: media-guide/filtre2.png
+
+Supprimer une règle de nommage 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Accédez à Gofast Configuration puis à la section Catégorie.
+Trouvez la règle de nommage à supprimer. Dans la colonne Règles de nommage, cliquez sur la croix à droite de l'étiquette pour retirer une métadonnée spécifique, ou sur l'icône de la poubelle pour supprimer l'ensemble de la règle.
 
 
 Statistiques 
@@ -275,26 +261,53 @@ Il est également possible d’exporter les données.
 
 Accès aux Statistiques
 ~~~~~~~~~~~~~~~~~~
- À partir du menu principal de gauche, aller dans « Statistiques ».   
+Pour accéder aux statistiques, sélectionnez Statistiques dans le panneau de navigation de gauche. Cette section offre une vue d'ensemble des différentes métriques relatives aux utilisateurs, documents et espaces.
+  
 
 .. figure:: media-guide/statistiques_1.png 
 
 
 .. NOTE:: Seuls les utilisateurs ayant le profil « support-utilisateurs » sont habilités à accéder aux statistiques globales de la plateforme. Toutefois, les divers administrateurs des espaces peuvent également y accéder, mais les statistiques affichées seront limitées aux espaces qu’administrent ces utilisateurs.  
 
-**Trois sous-onglets sont disponibles :**
-1. Onglet « **Statistique utilisateurs** » permet de visualiser le nombre d’utilisateurs, les informations relatives aux membres actifs et inactifs, les nouveaux membres et membres connectés.
+**Trois sous-onglets sont disponibles :** 
+1. Onglet « **Statistique utilisateurs** »  
+Indique la proportion d'utilisateurs bloqués, autorisés ou désactivés. Mais aussi les utilisateurs créés et les différentes connexions.
+Activité des utilisateurs : Distingue les utilisateurs actifs des inactifs.
+Rôle des utilisateurs : Répartition des utilisateurs selon leurs rôles au sein du système.
 
-.. figure:: media-guide/statistiques_2.png
+.. figure:: media-guide/stat12.png
+
+.. figure:: media-guide/stat11.png
+
+Mais vous pouvez aussi choisir de trier les statistiques des utilisateurs par espace, en haut de la page. 
+
 
 2. Onglet « **Statistique documentaires** », permet de visualiser le nombre de documents et les informations relatives aux documents par sa catégorie, son état et son importance.
 
-.. figure:: media-guide/statistiques_3.png
+Nombre de documents au cours du temps : Affiche l'évolution ou la distribution périodique des documents.
+
+.. figure:: media-guide/stat4.png
+
+
+Stockage : Montre l'espace de stockage utilisé par rapport à l'espace libre. 
+Indexation : Présente l'état d'indexation des documents. 
+
+.. figure:: media-guide/stat5.png
+
+
+Métadonnées des documents : Visualisez la répartition des documents selon diverses métadonnées telles que la catégorie, l'état et l'importance. 
+
+.. figure:: media-guide/stat6.png
 
 
 3. Onglet « **Statistiques d’espaces** », permet de visualiser le nombre d’espaces et les informations relatives aux espaces, leurs évolutions par période, les plus actifs, les plus remplis et les plus peuplés.
 
-.. figure:: media-guide/statistiques_4.png
+Nombre d'espaces au cours du temps : Suivez la croissance ou la distribution périodique des espaces. 
+Activité : Identifiez les espaces les plus actifs, les plus remplis et les plus peuplés. 
+
+
+.. figure:: media-guide/stat8.png
+
 
 
 
@@ -354,12 +367,13 @@ Dans l’onglet **Statistiques d’espaces** il est possible de réaliser un exp
 
 Dans l’onglet **Statistiques des espaces**, cliquez sur le bouton avec l’icône Excel. 
 
-.. figure:: media-guide/export_espaces.png
+.. figure:: media-guide/stat9.png
    :alt:
 
 Une petite fenêtre s’ouvre et vous informe que votre export est en cours de génération. Dès que le téléchargement est lancé cette dernière se fermera automatiquement.
 
 .. figure:: media-guide/fenêtre_export_espaces.png
+
 
 
 Audit 
@@ -379,7 +393,7 @@ Audit
  - Ajout d’un membre (dans un espace)
  - Suppression de membre (d’un espace) 
  - Créer utilisateur
-Supprimer un utilisateur (s’il ne s’est jamais connecté) 
+ - Supprimer un utilisateur (s’il ne s’est jamais connecté) 
  - etc.
 
 **Aller sur l’Audit :**
@@ -399,14 +413,72 @@ L’audit complet est accessible via le menu principal de gauche, en cliquant su
 L’audit spécifique sur un document est accessible sur la page du document :
 Vous pouvez voir les derniers événements effectués sur ce document, la date et l’heure des actions ainsi que les utilisateurs ayant effectué l’action.
 
-.. figure:: media-guide/audit_document.png
+.. figure:: media-guide/audit1.png
    
 
 
 Configuration : Lien Personnalisé
 ------------------------------------------
-En cours de mise à jour
+Le lien personnalisé permet d’ajouter un raccourci directement dans la barre du menu supérieur. 
+Naviguez vers « GoFast Configuration », puis « Lien personnalisé ». 
 
+Activation : 
+1.	Cochez la case « Afficher un lien personnalisé » pour activer le fonctionnalité 
+2.	Dans le champs « Étiquette du lien personnalisé », saisissez le nom qui aparaîtra dans la barre de menu. Ce texte sera le libellé visible par les utilisateurs. 
+3.	Dans le champs « Lien du lien personnalisé » insérez l’URL complète vers laquelle le lien doit diriger. 
+4.	Après avoir remplit les champs nécéssaires , cliquez sur le bouton « Enregistrer » pour appliquer les modifications. 
+
+
+.. figure:: media-guide/lienpers1.png
+   
+
+Une fois enregistré, le lien personnalisé apparaîtra dans la barre de menu supérieure. Les utilisateurs pourront cliquer sur ce lien pour être redirigés vers l’adresse définie.
+
+.. figure:: media-guide/lienpers2.png
+
+Logo personnalisable de la page de connexion 
+--------------------------------------------
+
+GoFast permet aux administrateurs de personnaliser l’apparence de la page de connexion en y ajoutant un logo d’entreprise ou une image. 
+1.	Accédez à « GoFast Configuration »  depuis le menu latéral gauche, et sélectionnez l’onglet « Général » 
+2.	Activez l’option « Activer le logo » . 
+3.	Chargez l’image de votre logo en cliquant sur « Charger le fichier image du logo » 
+
+.. figure:: media-guide/logo2.png
+
+
+4.	Sélectionnez l’emplacement de votre logo sur la page de connexion. Trois emplacements sont disponibles pour l’affichage du logo : 
+a.	Pos.1 : Au-dessus du formulaire de connexion. 
+b.	Pos.2 Dans le coin en haut à droite 
+c.	Pos.3 Au centre du bloc gauche
+5.	Après avoir choisi l’emplacement souhaité, cliquez sur « Enregistrer » pour appliquer les changements. 
+
+.. figure:: media-guide/logo1.png
+
+Politique de mots de passe 
+----------------------------
+
+Dans le panneau GoFast Configuration sélectionnez utilisateurs. Faites défiler vers le bas jusqu’à la sélection « politique de mots de passe ». 
+Dans la section Politique de mot de passe, vous pourrez définir les éléments suivants : 
+- **Nombre de mots de passes stockés dans l’historique** : Ce champ détermine combien de vos anciens mots de passe seront mémorisés par le système pour empêcher leur réutilisation. 
+- **Longueur minimal du mot de passe** : vous pouvez imposer la longueur minimale que doit avoir un mot de passe. 
+- **Durée de vie minimum du mot de passe** : spécifiez la durée minimale pendant laquelle un mot de passe doit être conservé avant que l’utilisateur puisse le changer. 
+- **Durée de vie maximum du mot de passe** : indiquez la durée maximale d’utilisation d’un mot de passe avant que l’utilisateur ne soit obligé de le modifier. 
+
+.. figure:: media-guide/polmdp1.png
+
+Paramètrage de GoFAST BlueMind 
+---------------------------------------
+Pour les administrateurs, le paramétrage du module GoFast BlueMind est nécessaire pour activer la synchronisation des calendriers pour tous les utilisateurs.
+
+1.	Dans le panneau GoFast Configuration, sélectionnez « GoFast BlueMind".
+2.	Entrez l'URL de votre serveur BlueMind.
+3.	Cochez « Activer la synchronisation du calendrier » pour permettre la synchronisation.
+4.	Cliquez sur « Enregistrer » pour confirmer la configuration.
+
+En suivant cette procédure, vous assurez que les événements créés dans BlueMind seront synchronisés avec les calendriers GoFast des utilisateurs, leur permettant de bénéficier d'une expérience intégrée pour la gestion de leurs conférences et réunions.
+
+.. figure:: media-guide/couplageadmin1.png
 
 
 Configuration : Import utilisateurs depuis LDAP/AD
