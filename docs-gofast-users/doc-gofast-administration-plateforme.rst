@@ -405,9 +405,6 @@ L’audit complet est accessible via le menu principal de gauche, en cliquant su
 * Utiliser les filtres mis à disposition pour retrouver une action en particulier ou un contenu.
 * Exporter l’audit dans la limite de 50 000 résultats
 
-.. figure:: media-guide/auditdetails.jpg
-   :alt:
-
 .. NOTE:: Par exemple, pour pourvoir restaurer un document : filtrez par type d’événement « suppression de nœud », puis indiquez une période pour restreindre d’avantage la liste. Une fois votre action retrouvée, cliquez sur le document/contenu concerné pour aller sur sa page et pouvoir le restaurer.
 
 L’audit spécifique sur un document est accessible sur la page du document :
@@ -423,10 +420,11 @@ Le lien personnalisé permet d’ajouter un raccourci directement dans la barre 
 Naviguez vers « GoFast Configuration », puis « Lien personnalisé ». 
 
 Activation : 
-1.	Cochez la case « Afficher un lien personnalisé » pour activer le fonctionnalité 
-2.	Dans le champs « Étiquette du lien personnalisé », saisissez le nom qui aparaîtra dans la barre de menu. Ce texte sera le libellé visible par les utilisateurs. 
-3.	Dans le champs « Lien du lien personnalisé » insérez l’URL complète vers laquelle le lien doit diriger. 
-4.	Après avoir remplit les champs nécéssaires , cliquez sur le bouton « Enregistrer » pour appliquer les modifications. 
+
+1. Cochez la case « Afficher un lien personnalisé » pour activer le fonctionnalité. 
+2. Dans le champs « Étiquette du lien personnalisé », saisissez le nom qui aparaîtra dans la barre de menu. Ce texte sera le libellé visible par les utilisateurs. 
+3. Dans le champs « Lien du lien personnalisé » insérez l’URL complète vers laquelle le lien doit diriger. 
+4. Après avoir remplit les champs nécéssaires , cliquez sur le bouton « Enregistrer » pour appliquer les modifications. 
 
 
 .. figure:: media-guide/lienpers1.png
