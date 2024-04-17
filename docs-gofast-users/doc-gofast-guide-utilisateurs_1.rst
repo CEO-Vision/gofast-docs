@@ -773,8 +773,10 @@ Rassemble plusieurs documents, pouvant se trouver dans des dossiers divers de l�
 
 Pour en savoir plus sur les actions possibles depuis un panier documentaire, merci de vous référer à la rubrique : « Panier Documentaire » 
 
+Gestion des favoris 
+-------------------
 
-Il est maintetant possible de **créer des dossiers dans les favoris**, pour cela, il y a deux possibilités : 
+Il est maintenant possible de **créer des dossiers dans les favoris**, pour cela, il y a deux possibilités : 
 
 
 -Dans "Mes favoris", appuyez sur "+ Nouveau" en haut à droite.  
@@ -789,13 +791,12 @@ Il est maintetant possible de **créer des dossiers dans les favoris**, pour cel
 .. figure:: media-guide/favoris3.png
 
 
-
-
-Ensuite, pour pouvoir ajouter des favoris aux dossiers, cliquez sur "Ajouter aux favoris" et choississez le dossier auquel vous voulez l'ajouter.  
-
+Ensuite, pour ajouter des **favoris**, rendez-vous dans l’explorateur de fichiers , puis cliquez sur un document, allez dans « Plus », et cliquez sur « Ajouter aux favoris ». 
 
 
 .. figure:: media-guide/favoris1.png  
+.. figure:: media-guide/favoris1bis.png  
+
 
 
 Epingler un contenu 
