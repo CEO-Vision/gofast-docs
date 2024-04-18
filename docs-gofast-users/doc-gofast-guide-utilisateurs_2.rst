@@ -421,6 +421,47 @@ Une fois votre recherche au point (avec ou sans mots-clefs, avec vos filtres), i
  	- Remplacer « écraser » la recherche sauvegardée par la recherche courante en cliquant sur la « Disquette », Supprimer cette recherche en allant sur le bouton « Corbeille »,
  	- Supprimer une recherche sauvegardée en cliquant sur « Corbeille ».
 
+Recherche avancée 
+------------------
+La recherche avancée offre la possibilité de combiner différents critères pour une recherche ciblée et précise.
+
+Dans le panneau de navigation de gauche, cliquez sur Recherche avancée pour ouvrir les options de recherche.
+
+.. figure:: media-guide/recherchemulti1.png
+   :alt: 
+
+Dans la section **Recherche avancée**, spécifiez vos critères :
+-**Espace(s)** : Entrez et sélectionnez le ou les espaces dans lesquels vous souhaitez rechercher des documents.
+-**Rechercher** : Tapez le nom du document ou des mots-clés pertinents.
+-**Zone de Recherche**: Déployez cette section pour accéder à des critères plus spécifiques tels que :
+-Catégories de contenu : Sélectionnez des catégories spécifiques pour affiner votre recherche.
+-État : Filtrez les documents selon leur état (brouillon, publié, archivé, etc.).
+-Criticité : Précisez la priorité ou l'importance des documents.
+-Date de création : Recherchez des documents créés à une date précise.
+-Échéance : Cherchez des documents selon leur date d'échéance.
+-Langue : Filtrez les documents par langue.
+-**Selectionner la ou les catégories de contenu** : Selectionnez la ou les catégories choisies.
+
+.. figure:: media-guide/recherchemulti2.png
+   :alt: 
+
+Nommer et Enregistrer la Recherche
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+**Nom de la recherche** : Donnez un nom à votre recherche pour l'enregistrer dans l'historique, permettant ainsi un accès rapide pour des recherches futures.
+
+Options de Recherche
+~~~~~~~~~~~~~~~~~~~~~
+Choisissez entre **Satisfaire à toutes les conditions** ou **Satisfaire à au moins une condition** pour ajuster la rigueur de votre recherche.
+
+Lancement de la Recherche
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+Cliquez sur le bouton **Rechercher**. Les résultats apparaîtront dans la partie inférieure de la page.
+Vous pouvez ajuster le nombre de résultats affichés et naviguer à travers eux à l'aide des contrôles de pagination.
+
+
+Gestion de l'Historique de Recherche
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+L'historique de vos recherches est accessible dans le panneau de droite. Pour effacer un historique spécifique, cliquez sur l'icône de la corbeille à côté de l'entrée correspondante.
 
 
 Explorateur de fichiers GoFAST File Browser
