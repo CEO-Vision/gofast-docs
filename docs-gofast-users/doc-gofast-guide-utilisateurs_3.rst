@@ -714,9 +714,15 @@ Vous avez alors un onglet distinct pour les tâches à traiter et un autre pour 
 **Les actions possibles depuis cette liste des tâches :** 
  - Aller sur la page de(s) document(s) du processus en cliquant sur le titre du document,
  - Consulter l’historique du processus du processus en cours en cliquant sur l’icône "i",
- - Effectuer sa tâche et consulter l’historique du processus en cours en cliquant sur l’icône ">"
+ - Déléguer la tâche à une autre personne en cliquant sur l'icône orange,
+ - Effectuer sa tâche et consulter l’historique du processus en cours en cliquant sur l’icône ">".
 
-.. figure:: media-guide/Ecran-GoFAST_Workflows_details-tache-dans-menu-principal-acces-rapide.png
+.. figure:: media-guide/tache1.png
+   :alt:
+
+Lorsque vous déléguer une tâche, une pop up s'ouvre afin de vous demander de réassigner la tâche.
+
+.. figure:: media-guide/tache2.png
    :alt:
 
 Dans la liste des tâches, l’icône « Horloge » peut apparaitre sous 3 couleurs :

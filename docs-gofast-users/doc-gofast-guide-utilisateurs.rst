@@ -601,7 +601,7 @@ Les autres utilisateurs sont en Lecture Seule.
 
 Vous pouvez **vous abonner** à cet espace en cliquant sur « s’abonner ». Vous recevrez ainsi des notifications liées au contenus de cet espace (dans votre rapport de synthèse d’activité). Vous pourrez d’ailleurs faire cela pour tous les espaces.
 
-Toutefois, les administrateurs de la plateforme (profil Support-Utilisateur) peuvent également configurer l'espace public de telle sorte que tous les utilisateurs interne (non Externes) puissent contribuer aussi à cet espace public (choix de configuration : soit la lecture, soit l'écriture).
+[Prochainement] Toutefois, les administrateurs de la plateforme (profil Support-Utilisateur) peuvent également configurer l'espace public de telle sorte que tous les utilisateurs interne (non Externes) puissent contribuer aussi à cet espace public (choix de configuration : soit la lecture, soit l'écriture).
 
 .. figure:: media-guide/image032.png
    :alt: 

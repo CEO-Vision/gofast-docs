@@ -405,9 +405,6 @@ L’audit complet est accessible via le menu principal de gauche, en cliquant su
 * Utiliser les filtres mis à disposition pour retrouver une action en particulier ou un contenu.
 * Exporter l’audit dans la limite de 50 000 résultats
 
-.. figure:: media-guide/auditdetails.jpg
-   :alt:
-
 .. NOTE:: Par exemple, pour pourvoir restaurer un document : filtrez par type d’événement « suppression de nœud », puis indiquez une période pour restreindre d’avantage la liste. Une fois votre action retrouvée, cliquez sur le document/contenu concerné pour aller sur sa page et pouvoir le restaurer.
 
 L’audit spécifique sur un document est accessible sur la page du document :
@@ -423,10 +420,11 @@ Le lien personnalisé permet d’ajouter un raccourci directement dans la barre 
 Naviguez vers « GoFast Configuration », puis « Lien personnalisé ». 
 
 Activation : 
-1.	Cochez la case « Afficher un lien personnalisé » pour activer le fonctionnalité 
-2.	Dans le champs « Étiquette du lien personnalisé », saisissez le nom qui aparaîtra dans la barre de menu. Ce texte sera le libellé visible par les utilisateurs. 
-3.	Dans le champs « Lien du lien personnalisé » insérez l’URL complète vers laquelle le lien doit diriger. 
-4.	Après avoir remplit les champs nécéssaires , cliquez sur le bouton « Enregistrer » pour appliquer les modifications. 
+
+1. Cochez la case « Afficher un lien personnalisé » pour activer le fonctionnalité. 
+2. Dans le champs « Étiquette du lien personnalisé », saisissez le nom qui aparaîtra dans la barre de menu. Ce texte sera le libellé visible par les utilisateurs. 
+3. Dans le champs « Lien du lien personnalisé » insérez l’URL complète vers laquelle le lien doit diriger. 
+4. Après avoir remplit les champs nécéssaires , cliquez sur le bouton « Enregistrer » pour appliquer les modifications. 
 
 
 .. figure:: media-guide/lienpers1.png
@@ -602,14 +600,11 @@ Dans le cas de suppression d’un utilisateur synchronisé coté Annuaire, ce de
 Connexion au Serveur LDAP / AD
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Pour établir la connexion avec votre Serveur LDAP, vous devez vous connecter à GoFAST en tant Administrateur technique.
-Cliquer sur l’icône Burger qui se trouve à gauche du menu principal, ensuite aller dans « Administration » puis appuyer sur « GoFAST Configuration ».
-
-.. figure:: media-guide/Synchro-ldap-access-menu.jpg
-   :alt: 
+Rendez-vous dans le panneau de configuration, puis cliquez sur « Serveur LDAP/AD » . 
 
 Une fois la page affichée, dans la barre latérale gauche appuyer sur la rubrique « Serveur LDAP /AD ». Renseigner les paramètres de votre Serveur en respectant les préconisations indiquées ci-dessous :
 
-.. figure:: media-guide/Synchro-ldap-params.jpg
+.. figure:: media-guide/syncro_ldap1.png
    :alt: 
 
 **Name**:  Choisissez un nom unique pour cette configuration serveur.
@@ -638,10 +633,9 @@ Une fois toutes les informations correctement renseignées, un bouton est mis à
 
 Activation de l'authentification déléguée SASL
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Une fois la connexion établie avec le Serveur LDAP, aller dans la section «Authentification SASL» qui se trouve en bas du formulaire de paramètres,  cocher la case «Déléguer l’authentification au serveur LDAP». N’oubliez d’enregistrer pour lancer l’opération de délégation. Cette opération peut prendre quelques minutes selon le nombre d’utilisateurs actifs sur GoFAST.
-L'activation de l'authentification déléguée SASL permet aux utilisateurs de se connecter à GoFAST en utilisant les informations d'identification de l'entreprise (Active Directory, OpenLDAP...).
-.. figure:: media-guide/Synchro-ldap-delegation.jpg
-   :alt: 
+Une fois la connexion établie avec le Serveur LDAP, aller dans la section «Authentification SASL» qui se trouve en bas du formulaire de paramètres,  cocher la case «Déléguer l’authentification au serveur LDAP». N’oubliez d’enregistrer pour lancer l’opération de délégation. Cette opération peut prendre quelques minutes selon le nombre d’utilisateurs actifs sur GoFAST. 
+
+L'activation de l'authentification déléguée SASL permet aux utilisateurs de se connecter à GoFAST en utilisant les informations d'identification de l'entreprise (Active Directory, OpenLDAP...). 
 
 .. NOTE:: L’authentification SASL ne fonctionne qu'avec les utilisateurs qui sont enregistrés dans l'annuaire de l'entreprise. En tant qu'administrateur, vous pouvez également activer/désactiver l'authentification déléguée pour un utilisateur spécifique directement à partir du formulaire de modification de compte. Assurez-vous que les paramètres LDAP sont appropriés pour que cette fonctionnalité puisse être activée.
 
@@ -650,7 +644,9 @@ Configuration de la synchronisation
 Après avoir activé la délégation, une nouvelle section « Synchronisation d’annuaires » est visible en bas de la page, celle-ci est dédiée à la configuration de la synchronisation des comptes de la plate-forme avec l’annuaire distant paramétré plus haut.
 Pour configurer la synchronisation, commencer par cocher la case « Synchroniser GoFAST avec l'annuaire configuré ». Ensuite aller dans la sous-section « Configuration » et choisissez la fréquence de synchronisation.
 
-.. figure:: media-guide/Synchro-active-frequence.jpg
+Vous pouvez aussi choisir de "Déléguer l'authentification au servur LDAP", l'activation de l'authentification déléguée SASL permet aux utilisateurs de se connecter à GoFAST en utilisant les informations d'identification de l'entreprise (Active Directory, OpenLDAP...). Notez que l'authentification SASL ne fonctionne qu'avec les utilisateurs qui sont enregistrés dans l'annuaire de l'entreprise. En tant qu'administrateur, vous pouvez également activer/désactiver l'authentification déléguée pour un utilisateur spécifique directement à partir du formulaire de modification de compte. Assurez-vous que les paramètres LDAP sont appropriés pour que cette fonctionnalité puisse être activée.
+
+.. figure:: media-guide/syncro_ldap2.png
    :alt: 
 
 Deux autres sous-sections importantes sont à renseigner : 
@@ -659,18 +655,16 @@ Deux autres sous-sections importantes sont à renseigner :
 
 .. NOTE:: L'identifiant unique de l'utilisateur, généralement associé au samAccountName pour un Active Directory.
 
-.. figure:: media-guide/Synchro-associated-fields.jpg
+.. figure:: media-guide/syncro_ldap3.png
    :alt: 
 
 * Filtres (Facultatif) : Ici vous pouvez effectuer des filtres spécifiques pour votre requête de synchronisation. Il est recommandé de séparer chaque liste de filtres par des retours à la ligne.
 
-.. figure:: media-guide/Synchro-ldap-synchro-filter.jpg
+.. figure:: media-guide/syncro_ldap4.png
    :alt: 
 
-Une fois la configuration de synchronisation est terminée, cliquer sur le bouton « Enregistrer » pour exécuter l’opération.
+Une fois la configuration de synchronisation est terminée, cliquer sur le bouton « Enregistrer » pour exécuter l’opération. 
 
-.. figure:: media-guide/Synchro-terminee.jpg
-   :alt:
 
 Si toutefois, vous souhaitez effectuer une synchronisation avant la prochaine date définie, il suffit de cliquer sur le bouton « Synchronisation ».
 
@@ -692,15 +686,15 @@ Configuration du fournisseur d'identité
 Le paramétrage du fournisseur d'identité va permettre de dire à GoFAST comment et ou demander la vérification d'une identité. Cette configuration permet également de sécuriser l'échange au moyen de certificat(s).
 
 **Les paramètres à remplir sont :** 
-* *Nom* : Le nom du fournisseur d'identité. C'est ce nom qui sera affiché aux utilisateurs sur le formulaire de connexion.
-* *Identifiant (ID) de l'entité* : Le champ 'entityID' qui permets d'identifier le fournisseur d'identité. Il s'agit généralement d'une URL.
-* *Nom de l'application* : Le nom de l'application passé au fournisseur d'identité pour identifier l'origine de la requête.
-* *URL de connexion de l'IDP* : L'URL de connexion du fournisseur d'identité.
-* *URL de déconnexion de l'IDP* : L'URL de déconnexion du fournisseur d'identité.
+- *Nom* : Le nom du fournisseur d'identité. C'est ce nom qui sera affiché aux utilisateurs sur le formulaire de connexion.
+- *Identifiant (ID) de l'entité* : Le champ 'entityID' qui permets d'identifier le fournisseur d'identité. Il s'agit généralement d'une URL.
+- *Nom de l'application* : Le nom de l'application passé au fournisseur d'identité pour identifier l'origine de la requête.
+- *URL de connexion de l'IDP* : L'URL de connexion du fournisseur d'identité.
+- *URL de déconnexion de l'IDP* : L'URL de déconnexion du fournisseur d'identité.
 
 Un certificat doit être fourni par le fournisseur d'identité. Ce certificat servira a identifier avec certitude le bon fournisseur d'identité.
 
-.. figure:: media-guide/sso_idp_cert.png
+.. figure:: media-guide/syncro_ldap5.png
    :alt: 
 
 Configuration du fournisseur de service
@@ -709,12 +703,12 @@ Le paramétrage du fournisseur de service permet à l'application de transmettre
 
 Il est possible de définir des contacts techniques et support à transmettre à notre fournisseur d'identité : 
 
-.. figure:: media-guide/sso_sp_tech.png
+.. figure:: media-guide/syncro_ldap6.png
    :alt: 
 
 On peut également transmettre au fournisseur d'identité des informations sur l'organisation du fournisseur de service
 
-.. figure:: media-guide/sso_sp_org.png
+.. figure:: media-guide/syncro_ldap7.png
    :alt: 
 
 Et enfin, nous accédons aux paramètres de sécurité qui vont permettre de s'adapter à notre fournisseur d'identité et de pouvoir communiquer avec lui. Les paramètres disponibles sont : 
@@ -733,12 +727,10 @@ Et enfin, nous accédons aux paramètres de sécurité qui vont permettre de s'a
 
 Une fois la configuration terminée, un onglet métadonnées sera généré et contiendra les métadonnées à renseigner dans l'IdP pour enregistrer l'application SP (GoFAST) comme étant valide.
 
-.. figure:: media-guide/sso_sp_metadata.png
-   :alt: 
 
 Sur la page de login, l'utilisateur pourra maintenant se connecter en cliquant sur le bouton "Se connecter avec XXX".
 
-.. figure:: media-guide/sso_login.png
+.. figure:: media-guide/syncro_ldap8.png
    :alt: 
 
 

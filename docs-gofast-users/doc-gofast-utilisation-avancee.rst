@@ -21,6 +21,49 @@ Ces outils complémentaires permettent :
 
 .. IMPORTANT:: CEO-Vision ne peut pas garantir le bon fonctionnement de ces logiciels tiers même si nous avons testé à un moment donné  (et pas forcément de façon exhaustive) leur fonctionnement
 
+Couplage messagerie BlueMind et GoFAST
+--------------------------------------
+Il est désormais possible de synchroniser vos conférences et réunions créées dans BlueMind avec votre calendrier GoFast. Cette fonctionnalité vous permet également de générer des liens de conférence Jitsi.
+
+Pour lier votre compte BlueMind à GoFast, suivez ces étapes :
+1.	Rendez-vous sur la page de votre profil GoFast. 
+2.	Cliquez sur la roue dentée à côté de votre nom pour accéder aux paramètres. 
+3.	Faites défiler jusqu'en bas et sélectionnez l'option GoFast BlueMind. 
+4.	Saisissez votre adresse e-mail et votre mot de passe BlueMind. 
+5.	Activez la synchronisation en cochant l'option correspondante. 
+6.	Cliquez sur Enregistrer pour appliquer les modifications. 
+
+.. figure:: media-guide/couplage2.png  
+
+
+Création d'un événement dans BlueMind
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Après avoir activé la synchronisation, vous pouvez créer un nouvel événement dans l'agenda BlueMind :
+1.	Ajoutez tous les participants nécessaires à l'événement.
+2.	Rendez-vous dans le calendrier de votre espace personnel GoFast.
+3.	Cliquez sur l'icône représentant un carré avec une flèche et sélectionnez Synchroniser le calendrier BlueMind.
+Les événements ajoutés dans BlueMind apparaîtront désormais dans votre calendrier GoFast avec un lien de conférence Jitsi intégré, visible également dans BlueMind. 
+
+
+.. figure:: media-guide/couplage1.png  
+
+
+Vous allez voir apparaître le/les élément(s) ajoutés à Bluemind, avec un lien de conférence Jitsi. 
+Ce lien va être présent dans GoFast, mais aussi dans BlueMind.
+
+
+Importation de Calendriers Externes
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+GoFast permet également d'importer des calendriers au format .ics provenant d'autres services tels qu'Outlook, Google, Yahoo et Apple Calendar :
+
+Dans l'interface du calendrier GoFast, cliquez sur Importer un calendrier à partir d'un fichier ics.
+
+.. figure:: media-guide/couplage1.png  
+
+
+
+
 Synchronisation locale (GoFAST hors-ligne)
 ------------------------------------------
 
