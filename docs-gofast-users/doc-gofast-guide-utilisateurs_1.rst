@@ -29,6 +29,11 @@ A droite, se trouvent toutes les informations (métadonnées) liées au document
 
 Vous pouvez déplier le bloc caché de gauche (accès rapide à l’explorateur de fichiers sans quitter la page du document), pour voir les autres documents qui se trouvent dans ce même emplacement.
 
+Mais il est aussi possible de modifier la métadonnée du titre. Pour cela, dépliez le titre à l'aide du chevron situé à la fin de celui-ci. Ensuite, saisissez le titre souhaité dans le champ "titre". Ce titre sera également répliqué dans les documents.
+
+.. figure:: media-guide/meta_titre1.png
+   :alt: 
+
 Vous pouvez accéder aux fonctionnalités liées au document via le menu « Burger » (menu des actions contextuelles : 3 barres horizontales, dans le coin droit au-dessus de la prévisualisation).
 
 .. figure:: media-guide/image375.png
@@ -56,6 +61,7 @@ La prévisualisation d'un fichier sert à consulter le fichier (document, image,
    "doc,dot,xls,ppt", "transformé en PDF" 
    "docx,dotx,xlsx,pptx","directement affiché onlyoffice"
    "odt,ott,ods,odp","transformé en PDF"
+   "dwg","transformé en svg"
    "txt,rtf","transformé en PDF"
    "eps","transformé en PDF"
    "msg","transformé text brut puis PDF"
@@ -172,7 +178,7 @@ Sur la page du document, vous disposez de diverses informations relatives au doc
 
 Ces informations sont très utiles lors de la recherche automatique car elles vous permettront de filtrer davantage vos résultats.
 
-.. figure:: media-guide/image209.png
+.. figure:: media-guide/info_meta1.png
    :alt: 
 
 Liste des métadonnées standards GoFAST : 
@@ -185,6 +191,8 @@ Liste des métadonnées standards GoFAST :
  - Popularité (dépende des consultations et actions récentes sur le document) 
  - Référence documentaire  
  - Échéance
+ - Classification (permet de classer le documennt selon différentes catégories)
+ - Date (date personnalisé, le champ peut-être modifié dans les paramètres)
  - Auteur (différent du créateur : donnée libre ou récupérée depuis le fichier) 
  - Importance (dont classification selon niveau de confidentialité). 
  - Date de création du document (piste d’audit)
