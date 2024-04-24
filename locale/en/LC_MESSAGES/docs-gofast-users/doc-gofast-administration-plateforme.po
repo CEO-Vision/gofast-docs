@@ -9,15 +9,16 @@ msgstr ""
 "Project-Id-Version: gofast-docs latest\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-04-23 17:35+0200\n"
-"PO-Revision-Date: 2023-06-23 09:22+0000\n"
-"Last-Translator: Arthur Abbe <arthur.abbe@ceo-vision.com>\n"
+"PO-Revision-Date: 2024-04-25 08:18+0000\n"
+"Last-Translator: Léa Angelloz <lea.angelloz@ceo-vision.com>\n"
+"Language-Team: English <https://translate.ceo-vision.com/projects/"
+"gofast-translations/gofast-administration/en/>\n"
 "Language: en\n"
-"Language-Team: English <https://translate.ceo-vision.com/projects/gofast-"
-"translations/gofast-administration/en/>\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.16.4\n"
 "Generated-By: Babel 2.11.0\n"
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:3
@@ -834,9 +835,8 @@ msgstr "Only the \"user-support\" profile can manage categories."
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:177
 #: 912bce56e5944832a28521f51c57e170
-#, fuzzy
 msgid "Créer/Modifier une catégorie et son emplacement"
-msgstr "Create/Modify a Category"
+msgstr "Create/Modify a Category and its location"
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:178
 #: 8f1513000bd0499fa20f964d68afeba5
@@ -853,9 +853,8 @@ msgstr ""
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:180
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:228
 #: 44e88077b5b8482392a2517e322db846 8fe0f46efff8468a91069391d733c3ca
-#, fuzzy
 msgid "Via le menu principal de gauche, allez dans « GoFAST Configuration »"
-msgstr "Through the main menu on the left, go to \"Settings\""
+msgstr "Through the main menu on the left, go to \"GoFAST Configuration\""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:181
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:229
@@ -865,25 +864,23 @@ msgstr "On the configuration page, go to the \"Categories\" menu"
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:182
 #: 18329d2d4ddd43fbafeb1a730d2fa9ca
-#, fuzzy
 msgid ""
 "Cliquez dans le menu burger sur « + Ajouter » ou en sélectionnant une des"
 " catégories existantes dans la liste."
 msgstr ""
-"Click \"Add new category\" or one of the existing categories from the "
-"drop-down list."
+"Click on ‘+ Add’ in the burger menu or select one of the existing categories "
+"from the list."
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:183
 #: ecdfc31d1972472b8f20e71581bb265d
-#, fuzzy
 msgid ""
 "Si vous souhaitez créer une nouvelle catégorie, renseignez les champs "
 "dans « + Ajouter » en y saisissant le nom de votre catégorie (ex. Devis) "
 "dans les langues disponibles."
 msgstr ""
-"If you want to create a new category, fill in the fields in \"Add New "
-"Category\" by entering the name of your category (e. g. Quotation) in the"
-" available languages."
+"If you want to create a new category, fill in the fields in \"+ Add\" by "
+"entering the name of your category (e. g. Quotation) in the available "
+"languages."
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:184
 #: a274f8fe5a244fcdbbbadbd15617a7e4
@@ -892,6 +889,8 @@ msgid ""
 "standard que vous souhaitez modifier, puis dans le menu burger "
 "selectionnez \"Gérer les espaces\"."
 msgstr ""
+"If you wish to modify a category, select the non-standard category you wish "
+"to modify, then in the burger menu select ‘Manage spaces’."
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:185
 #: ec5e9fadcf3849d59cd628fd4a47983c
@@ -901,7 +900,7 @@ msgstr "Click \"Save\" to validate."
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:188
 #: 8357e3f20fb54434b638891b96e59d56
 msgid "Seules les catégories non-standard peuvent être édités"
-msgstr ""
+msgstr "Only non-standard categories can be edited"
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:192
 #: 1cf6ea399c9048bf9f3aa286b5dbb183
@@ -939,14 +938,13 @@ msgstr "Where to manage DUAs:"
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:203
 #: 1b9aae4d23f543169bd84fd3c0868627
-#, fuzzy
 msgid "À partir du menu principal de gauche, aller dans « GoFAST Configuration »."
-msgstr "From the main menu on the left, go to \"Configuration\"."
+msgstr "From the main menu on the left, go to \"GoFAST Configuration\"."
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:205
 #: 1d58a4b380c14a8dad74d6a1b278ff8c
 msgid "Cliquez sur Catégories."
-msgstr ""
+msgstr "Click on Categories."
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:208
 #: da8392e9b086461fa03d854fb3acae6e
@@ -961,27 +959,27 @@ msgstr "**To create a new DUA:**"
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:210
 #: f6e8f8e16b3245b59f9c9210ed324ab1
 msgid "A partir d'une catégorie déjà existante,"
-msgstr ""
+msgstr "From an existing category,"
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:211
 #: ae3e22fc3d154436bdca2850c0e6955a
 msgid "Dans la colonne DUA, sur la catégorie choisit, appuyez sur \"+ Définir\""
-msgstr ""
+msgstr "In the 'Retention' column, on the chosen category, press ‘+ Define’"
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:212
 #: 05bf2844839b4dd4b8c30f07917c6702
 msgid "Choisissez le temps que vous voulez,"
-msgstr ""
+msgstr "Choose the time you want,"
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:213
 #: 1732884dbddc4fe0a835c1b4809f639b
 msgid "Puis validez."
-msgstr ""
+msgstr "Then confirm."
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:216
 #: 30e15f25264c41a9a318b81fb7788307
 msgid "Appliquer une DUA"
-msgstr ""
+msgstr "Applying retention"
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:217
 #: 7e1e1c0d44a341a3974ae8a6b324bd44
@@ -989,12 +987,13 @@ msgid ""
 "Pour appliquer une DUA, selectionnez la catégorie que vous voulez "
 "appliquer. Puis dans le menu burger selectionnez \" Appliquer la DUA\"."
 msgstr ""
+"To apply retention, select the category you want to apply. Then select ‘"
+"Apply retention’ from the burger menu."
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:222
 #: 70efce54d3a6486d8f05689df6e4bdd9
-#, fuzzy
 msgid "Configuration : Règles de nommage"
-msgstr "Configuring Document Categories"
+msgstr "Configuration : Naming rules"
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:223
 #: b8cd749f35e0476a9a7da8351ef3e577
@@ -1002,12 +1001,14 @@ msgid ""
 "Une règle de nommage permet de structurer et d'organiser les fichiers. "
 "Elle est appliquée lors de la selection d'une catégorie sur un document."
 msgstr ""
+"A naming rule is used to structure and organise files. It is applied when a "
+"category is selected on a document."
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:227
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:238
 #: 8b7d958a01d64dd5a8e1511781f9a20b b907b56d33f6498487c186642bddbc50
 msgid "Appliquer une règle de nommage"
-msgstr ""
+msgstr "Apply a naming rule"
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:230
 #: aaeac2bb42db4176ab3351d4f082826d
@@ -1015,6 +1016,7 @@ msgid ""
 "Dans la colonne \"Règles de nommage\", dans la  catégorie que vous "
 "souhaitez, cliquez sur \"+ Définir\""
 msgstr ""
+"In the ‘Naming rules’ column, in the category you want, click on ‘+ Define’"
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:231
 #: 3daa5488435a404b866dd134f423aa91
@@ -1023,6 +1025,9 @@ msgid ""
 "structure de nommage. Les options disponibles incluent Référence, Date de"
 " création, Catégorie, Auteur, Titre, Date, etc."
 msgstr ""
+"Drag and drop the metadata in the desired order to create the naming "
+"structure. Available options include Reference, Date Created, Category, "
+"Author, Title, Date, etc."
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:240
 #: cd2de7096161408b85e5747003334e77
@@ -1031,11 +1036,14 @@ msgid ""
 "sélectionnez la catégorie configurée dans l'onglet Catégorie. Un message "
 "s'affichera pour confirmer le changement de nom du document."
 msgstr ""
+"To apply the rule, go to the desired document and select the category "
+"configured in the Category tab. A message will be displayed to confirm that "
+"the document name has been changed."
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:245
 #: 925f88783a174a6e8429a7135f9b6ece
 msgid "Supprimer une règle de nommage"
-msgstr ""
+msgstr "Delete a naming rule"
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:247
 #: 19771464abf04f9bbbbb1f4efa05a13a
@@ -1046,6 +1054,10 @@ msgid ""
 "spécifique, ou sur l'icône de la poubelle pour supprimer l'ensemble de la"
 " règle."
 msgstr ""
+"Go to GoFAST Configuration and then to the Category section. Find the naming "
+"rule you want to remove. In the Naming Rules column, click on the cross to "
+"the right of the label to remove a specific piece of metadata, or on the bin "
+"icon to remove the entire rule."
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:253
 #: bb34cae555184abea0c36cc76080a2b1
@@ -1092,6 +1104,9 @@ msgid ""
 "de navigation de gauche. Cette section offre une vue d'ensemble des "
 "différentes métriques relatives aux utilisateurs, documents et espaces."
 msgstr ""
+"To access the statistics, select Statistics in the left-hand navigation "
+"panel. This section provides an overview of the various metrics relating to "
+"users, documents and rooms."
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:270
 #: 6c0d9896e14d40c4b7f0e0bbdffcdc97
@@ -1117,6 +1132,11 @@ msgid ""
 " des inactifs. Rôle des utilisateurs : Répartition des utilisateurs selon"
 " leurs rôles au sein du système."
 msgstr ""
+"Three sub-tabs are available: 1. User statistics tab Shows the proportion of "
+"users blocked, authorised or deactivated. It also shows the users created "
+"and the various connections. User activity: Distinguishes between active and "
+"inactive users. User roles: Distributes users according to their roles "
+"within the system."
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:282
 #: ced161e3b69145a3a6b514b6452008fd
@@ -1124,6 +1144,8 @@ msgid ""
 "Mais vous pouvez aussi choisir de trier les statistiques des utilisateurs"
 " par espace, en haut de la page."
 msgstr ""
+"But you can also choose to sort user statistics by space, at the top of the "
+"page."
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:285
 #: 0209d5dc7c6a4885bd3be62e865ebffe
@@ -1142,6 +1164,8 @@ msgid ""
 "Nombre de documents au cours du temps : Affiche l'évolution ou la "
 "distribution périodique des documents."
 msgstr ""
+"Number of documents over time: Displays the evolution or periodic "
+"distribution of documents."
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:292
 #: 5c13f462381641b49494c41c466dff89
@@ -1149,6 +1173,8 @@ msgid ""
 "Stockage : Montre l'espace de stockage utilisé par rapport à l'espace "
 "libre. Indexation : Présente l'état d'indexation des documents."
 msgstr ""
+"Storage: Shows the amount of storage space used compared to the amount of "
+"free space. Indexing: Shows the indexing status of documents."
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:298
 #: 1426018d110c4e1488e3e74a70830166
@@ -1156,6 +1182,8 @@ msgid ""
 "Métadonnées des documents : Visualisez la répartition des documents selon"
 " diverses métadonnées telles que la catégorie, l'état et l'importance."
 msgstr ""
+"Document metadata: View the distribution of documents according to various "
+"metadata such as category, status and importance."
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:303
 #: 46eef59a60c94618af2bcfb454f2c0e4
@@ -1175,6 +1203,9 @@ msgid ""
 "distribution périodique des espaces. Activité : Identifiez les espaces "
 "les plus actifs, les plus remplis et les plus peuplés."
 msgstr ""
+"Number of spaces over time: Track the growth or periodic distribution of "
+"spaces. Activity: Identify the most active, fullest and most populated "
+"spaces."
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:315
 #: 8046ac9fcc6d4f62bfc05d2263a0765c
@@ -1283,15 +1314,13 @@ msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:336
 #: 702cb4a6450841bbba0c21607334228c
-#, fuzzy
 msgid ""
 "**Export d’une liste de documents :** Dans l’onglet **Statistiques "
 "documentaires** il est possible de réaliser un export de tous les "
 "fichiers existants dans un ou plusieurs espaces, avec leur :"
 msgstr ""
-"**Export of a list of documents:** In the tab **Document statistics** it "
-"is possible to export all existing files in one or more spaces, with "
-"their:"
+"**Export a list of documents:** In the **Document statistics** tab, you can "
+"export all existing files in one or more areas, along with their :"
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:338
 #: 8675aaa2a9a74910bb57f96458de37d1
@@ -1550,7 +1579,6 @@ msgstr "This feature is only available to users with the \"User-support\" profil
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:403
 #: 67d602811ea4424b903a7e1d0d697e96
-#, fuzzy
 msgid ""
 "L’audit complet est accessible via le menu principal de gauche, en "
 "cliquant sur « Audit ». À partir de cette page **Audit** vous pouvez : * "
@@ -1558,10 +1586,10 @@ msgid ""
 "particulier ou un contenu. * Exporter l’audit dans la limite de 50 000 "
 "résultats"
 msgstr ""
-"The complete audit is accessible via the main menu on the left, click on "
-"“Audit”. From this page **Audit** you can: * Use the filters provided to "
-"find a particular action or content. * Export the audit within the limit "
-"of 5,000 results"
+"The full audit can be accessed via the main menu on the left, by clicking on "
+"'Audit'. From this Audit page you can :  Use the filters provided to find a "
+"particular action or content. Export the audit up to a limit of 50,000 "
+"results"
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:408
 #: 00d4876084b444b3906ceaf13966f946
@@ -1601,18 +1629,20 @@ msgid ""
 "barre du menu supérieur. Naviguez vers « GoFast Configuration », puis « "
 "Lien personnalisé »."
 msgstr ""
+"The custom link lets you add a shortcut directly to the top menu bar. "
+"Navigate to ‘GoFast Configuration’, then ‘Custom Link’."
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:422
 #: 6c9d0f5f031c4075a608120e8e12fe60
 msgid "Activation :"
-msgstr ""
+msgstr "Activation :"
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:424
 #: 23826233ccd44429a6acbc65235b1c4f
 msgid ""
 "Cochez la case « Afficher un lien personnalisé » pour activer le "
 "fonctionnalité."
-msgstr ""
+msgstr "Tick the ‘Display a custom link’ box to activate the feature."
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:425
 #: 48cbe45794f443709899f79973949912
@@ -1621,6 +1651,8 @@ msgid ""
 "aparaîtra dans la barre de menu. Ce texte sera le libellé visible par les"
 " utilisateurs."
 msgstr ""
+"In the ‘Custom link label’ field, enter the name that will appear in the "
+"menu bar. This text will be the label visible to users."
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:426
 #: 47f920513b0441d68297f4821c281ae3
@@ -1628,6 +1660,8 @@ msgid ""
 "Dans le champs « Lien du lien personnalisé » insérez l’URL complète vers "
 "laquelle le lien doit diriger."
 msgstr ""
+"In the ‘Custom link’ field, insert the full URL to which the link should "
+"point."
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:427
 #: 4645efd63e634f4792e0e9e39ead7460
@@ -1635,6 +1669,8 @@ msgid ""
 "Après avoir remplit les champs nécéssaires , cliquez sur le bouton « "
 "Enregistrer » pour appliquer les modifications."
 msgstr ""
+"Once you have filled in the required fields, click on the ‘Save’ button to "
+"apply the changes."
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:433
 #: a9944e13b214488f8efd65b961a6da2b
@@ -1643,11 +1679,13 @@ msgid ""
 "menu supérieure. Les utilisateurs pourront cliquer sur ce lien pour être "
 "redirigés vers l’adresse définie."
 msgstr ""
+"Once saved, the customised link will appear in the top menu bar. Users can "
+"click on this link to be redirected to the defined address."
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:438
 #: 96c695d6e12c44048f1278dde17f21fb
 msgid "Logo personnalisable de la page de connexion"
-msgstr ""
+msgstr "Customisable logo on the login page"
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:440
 #: 57f7fe36b7194b8db9ab365193209e88
@@ -1659,6 +1697,11 @@ msgid ""
 "logo » . 3.      Chargez l’image de votre logo en cliquant sur « Charger "
 "le fichier image du logo »"
 msgstr ""
+"GoFast allows administrators to customise the appearance of the login page "
+"by adding a company logo or image. 1.      Go to ‘GoFast Configuration’ from "
+"the left-hand side menu, and select the ‘General’ tab 2.      Activate the ‘"
+"Enable logo’ option. 3.      Upload your logo image by clicking on ‘Upload "
+"logo image file’"
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:448
 #: 6d2c91850db04ec291c02237f0fdc738
@@ -1670,11 +1713,16 @@ msgid ""
 "Après avoir choisi l’emplacement souhaité, cliquez sur « Enregistrer » "
 "pour appliquer les changements."
 msgstr ""
+"4.      Select the location for your logo on the login page. There are three "
+"locations available for displaying the logo: a. Pos.1: Above the login form. "
+"b.      Pos.2 In the top right-hand corner c. Pos.3 In the centre of the "
+"left-hand block 5. Once you have chosen the desired location, click ‘Save’ "
+"to apply the changes."
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:457
 #: 37c40b44730648799ff8c3203a0c6cf7
 msgid "Politique de mots de passe"
-msgstr ""
+msgstr "Password policy"
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:459
 #: 5ba226ffbb794c6d9caf78d203678419
@@ -1693,11 +1741,20 @@ msgid ""
 "d’utilisation d’un mot de passe avant que l’utilisateur ne soit obligé de"
 " le modifier."
 msgstr ""
+"In the GoFast Configuration panel select users. Scroll down to the ‘password "
+"policy’ selection. In the Password Policy section you will be able to set "
+"the following: - Number of passwords stored in history: This field "
+"determines how many of your old passwords will be stored by the system to "
+"prevent them from being used again. - Minimum password length: You can "
+"specify the minimum length a password must be. - Minimum password lifetime: "
+"specify the minimum length of time a password must be retained before the "
+"user can change it. - Maximum password lifetime: specify the maximum length "
+"of time a password must be used before the user is obliged to change it."
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:469
 #: 082e133ef9334befb932588b0d048fa7
 msgid "Paramètrage de GoFAST BlueMind"
-msgstr ""
+msgstr "Setting up GoFAST BlueMind"
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:470
 #: 89e5ebb548664db6933007a80b3b2f30
@@ -1706,29 +1763,30 @@ msgid ""
 "nécessaire pour activer la synchronisation des calendriers pour tous les "
 "utilisateurs."
 msgstr ""
+"Administrators need to set up the GoFast BlueMind module to enable calendar "
+"synchronisation for all users."
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:472
 #: 15c6cfbfe3bb4940a23df803bbcbbac5
 msgid "Dans le panneau GoFast Configuration, sélectionnez « GoFast BlueMind\"."
-msgstr ""
+msgstr "In the GoFast Configuration panel, select ‘GoFast BlueMind’."
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:473
 #: c8bd61054d174898bccc4eb170f8709e
 msgid "Entrez l'URL de votre serveur BlueMind."
-msgstr ""
+msgstr "Enter the URL of your BlueMind server."
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:474
 #: 5a0c7f8aa3bf41af9a330f7f2ed9ee5c
 msgid ""
 "Cochez « Activer la synchronisation du calendrier » pour permettre la "
 "synchronisation."
-msgstr ""
+msgstr "Tick ‘Enable calendar synchronisation’ to enable synchronisation."
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:475
 #: 203f35b6fdfc4a04b699bfc280a6fbe1
-#, fuzzy
 msgid "Cliquez sur « Enregistrer » pour confirmer la configuration."
-msgstr "Click \"Save\" to validate."
+msgstr "Click ‘Save’ to confirm the configuration."
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:477
 #: d70f355a4fab44e0ac915bedeb5434bf
@@ -1738,6 +1796,9 @@ msgid ""
 "utilisateurs, leur permettant de bénéficier d'une expérience intégrée "
 "pour la gestion de leurs conférences et réunions."
 msgstr ""
+"By following this procedure, you ensure that events created in BlueMind are "
+"synchronised with users' GoFAST calendars, giving them an integrated "
+"experience for managing their conferences and meetings."
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:483
 #: fce16899edf4407282bf10e74dad173d
@@ -2247,6 +2308,9 @@ msgid ""
 "connecter à GoFAST en tant Administrateur technique. Rendez-vous dans le "
 "panneau de configuration, puis cliquez sur « Serveur LDAP/AD » ."
 msgstr ""
+"To establish a connection with your LDAP server, you must connect to GoFAST "
+"as a Technical Administrator. Go to the control panel and click on ‘LDAP/AD "
+"server’."
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:605
 #: 8ec299a349fc41049a99a4fe75789675
@@ -2399,7 +2463,6 @@ msgstr "Enabling SASL Delegated Authentication"
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:636
 #: b3b53f7ac1cb411a9f91fc12a9fe32fe
-#, fuzzy
 msgid ""
 "Une fois la connexion établie avec le Serveur LDAP, aller dans la section"
 " «Authentification SASL» qui se trouve en bas du formulaire de "
@@ -2408,14 +2471,11 @@ msgid ""
 "Cette opération peut prendre quelques minutes selon le nombre "
 "d’utilisateurs actifs sur GoFAST."
 msgstr ""
-"Once the connection is established with the LDAP Server, go to the \"SASL"
-" Authentication\" section at the bottom of the settings form, and check "
-"the \"Delegate Authentication to LDAP Server\" box. Remember to register "
-"to start the delegation operation. This may take a few minutes depending "
-"on the number of users active on GoFAST. Enabling SASL Delegated "
-"Authentication allows users to connect to GoFAST using company "
-"credentials (Active Directory, OpenLDAP. . . ).\n"
-".. figure:: media-guide/Synchro-ldap-delegation.jpg"
+"Once the connection has been established with the LDAP server, go to the ‘"
+"SASL authentication’ section at the bottom of the settings form and tick the "
+"‘Delegate authentication to LDAP server’ box. Don't forget to save to launch "
+"the delegation operation. This operation may take a few minutes depending on "
+"the number of active users on GoFAST."
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:638
 #: d1716a1a322843fb800e86ee65e52a93
@@ -2424,6 +2484,8 @@ msgid ""
 "de se connecter à GoFAST en utilisant les informations d'identification "
 "de l'entreprise (Active Directory, OpenLDAP...)."
 msgstr ""
+"SASL delegated authentication enables users to connect to GoFAST using the "
+"company's credentials (Active Directory, OpenLDAP, etc.)."
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:640
 #: 501d09de7b09447e8a5cd1dc18e26b26
@@ -2467,7 +2529,6 @@ msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:647
 #: 6800249d2ad3400fb0dd280ee48e03f3
-#, fuzzy
 msgid ""
 "Vous pouvez aussi choisir de \"Déléguer l'authentification au servur "
 "LDAP\", l'activation de l'authentification déléguée SASL permet aux "
@@ -2481,11 +2542,14 @@ msgid ""
 "paramètres LDAP sont appropriés pour que cette fonctionnalité puisse être"
 " activée."
 msgstr ""
-"SASL authentication only works with users who are registered in the "
-"company directory. As an administrator, you can also enable/disable "
-"delegated authentication for a specific user directly from the account "
-"change form. Make sure the LDAP settings are appropriate for this feature"
-" to be enabled."
+"You can also choose to ‘Delegate authentication to the LDAP server’, "
+"enabling SASL delegated authentication allows users to connect to GoFAST "
+"using the company's credentials (Active Directory, OpenLDAP...). Note that "
+"SASL authentication only works with users who are registered in the company "
+"directory. As an administrator, you can also enable/disable delegated "
+"authentication for a specific user directly from the account modification "
+"form. Ensure that the LDAP settings are appropriate for this feature to be "
+"enabled."
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:652
 #: 405b1ab75824492e8ff3b219f65fbc13
@@ -2598,7 +2662,6 @@ msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:688
 #: 5207fa6fde9c451ebee7f2b29f39aad9
-#, fuzzy
 msgid ""
 "**Les paramètres à remplir sont :** - *Nom* : Le nom du fournisseur "
 "d'identité. C'est ce nom qui sera affiché aux utilisateurs sur le "
@@ -2610,13 +2673,13 @@ msgid ""
 "fournisseur d'identité. - *URL de déconnexion de l'IDP* : L'URL de "
 "déconnexion du fournisseur d'identité."
 msgstr ""
-"**The parameters to be completed are:** * *Name*: The name of the "
-"identity provider. This name will be displayed to users on the login "
-"form. * *Entity ID*: The 'entityID' field that identifies the identity "
-"provider. This is usually a URL. * *App name*: The name of the "
-"application passed to the identity provider to identify the origin of the"
-" request. * *IDP login URL*: The IDP login URL. * *IDP logout URL*: The "
-"IDP logout URL."
+"The parameters to be filled in are : - Name: The name of the identity "
+"provider. This is the name that will be displayed to users on the connection "
+"form. - Entity ID: The 'entityID' field which identifies the identity "
+"provider. This is usually a URL. - Application Name: The name of the "
+"application passed to the Identity Provider to identify the origin of the "
+"request. - IDP Login URL : The login URL of the Identity Provider. - IDP "
+"Logout URL : The Identity Provider Logout URL."
 
 #: ../../docs-gofast-users/doc-gofast-administration-plateforme.rst:695
 #: 4b443522d52e4b1e94d1afa90f050d8b
@@ -3046,4 +3109,3 @@ msgstr ""
 
 #~ msgid "alt"
 #~ msgstr "alt"
-
