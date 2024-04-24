@@ -9,15 +9,16 @@ msgstr ""
 "Project-Id-Version: gofast-docs latest\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-04-23 17:35+0200\n"
-"PO-Revision-Date: 2023-12-12 17:59+0000\n"
-"Last-Translator: Weblate Admin <support@ceo-vision.com>\n"
+"PO-Revision-Date: 2024-04-25 08:18+0000\n"
+"Last-Translator: Léa Angelloz <lea.angelloz@ceo-vision.com>\n"
+"Language-Team: English <https://translate.ceo-vision.com/projects/"
+"gofast-translations/gofast-utilisation-avancee/en/>\n"
 "Language: en\n"
-"Language-Team: English <https://translate.ceo-vision.com/projects/gofast-"
-"translations/gofast-utilisation-avancee/en/>\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.16.4\n"
 "Generated-By: Babel 2.11.0\n"
 
 #: ../../docs-gofast-users/doc-gofast-utilisation-avancee.rst:2
@@ -100,7 +101,7 @@ msgstr ""
 #: ../../docs-gofast-users/doc-gofast-utilisation-avancee.rst:25
 #: 8e754597a6eb463f847c3eab50bf5336
 msgid "Couplage messagerie BlueMind et GoFAST"
-msgstr ""
+msgstr "Linking BlueMind and GoFAST messaging systems"
 
 #: ../../docs-gofast-users/doc-gofast-utilisation-avancee.rst:26
 #: b78f524370544ba880b4db9d04a6813f
@@ -109,6 +110,9 @@ msgid ""
 "créées dans BlueMind avec votre calendrier GoFast. Cette fonctionnalité "
 "vous permet également de générer des liens de conférence Jitsi."
 msgstr ""
+"It is now possible to synchronise your conferences and meetings created in "
+"BlueMind with your GoFast calendar. This feature also allows you to generate "
+"Jitsi conference links."
 
 #: ../../docs-gofast-users/doc-gofast-utilisation-avancee.rst:28
 #: 796392c3555949929a660b90916c24dd
@@ -121,11 +125,17 @@ msgid ""
 "      Activez la synchronisation en cochant l'option correspondante. 6."
 "      Cliquez sur Enregistrer pour appliquer les modifications."
 msgstr ""
+"To link your BlueMind account to GoFast, follow these steps: 1. Go to your "
+"GoFast profile page. 2. Click on the cogwheel next to your name to access "
+"the settings. 3.      Scroll to the bottom and select the GoFast BlueMind "
+"option. 4.      Enter your BlueMind email address and password. 5.      "
+"Activate synchronisation by ticking the corresponding option. 6. Click Save "
+"to apply the changes."
 
 #: ../../docs-gofast-users/doc-gofast-utilisation-avancee.rst:40
 #: e1fe792be9d94305954fcb15623cff01
 msgid "Création d'un événement dans BlueMind"
-msgstr ""
+msgstr "Creating an event in BlueMind"
 
 #: ../../docs-gofast-users/doc-gofast-utilisation-avancee.rst:42
 #: bad4bcfb5813433285ff09eb509f4363
@@ -139,6 +149,12 @@ msgid ""
 "dans votre calendrier GoFast avec un lien de conférence Jitsi intégré, "
 "visible également dans BlueMind."
 msgstr ""
+"Once you have activated synchronisation, you can create a new event in the "
+"BlueMind calendar: 1. Add all the participants required for the event. "
+"2.      Go to the calendar in your personal GoFast space. 3.      Click on "
+"the square icon with an arrow and select Synchronise BlueMind calendar. "
+"Events added in BlueMind will now appear in your GoFast calendar with an "
+"integrated Jitsi conference link, also visible in BlueMind."
 
 #: ../../docs-gofast-users/doc-gofast-utilisation-avancee.rst:52
 #: 5b07177570044272a7a581698dd09b2f
@@ -147,11 +163,13 @@ msgid ""
 "lien de conférence Jitsi. Ce lien va être présent dans GoFast, mais aussi"
 " dans BlueMind."
 msgstr ""
+"The item(s) added to Bluemind will appear, with a Jitsi conference link. "
+"This link will be present in GoFast, but also in BlueMind."
 
 #: ../../docs-gofast-users/doc-gofast-utilisation-avancee.rst:57
 #: 038b6afc7bd74c81a3fa766a53cc90d8
 msgid "Importation de Calendriers Externes"
-msgstr ""
+msgstr "Importing external calendars"
 
 #: ../../docs-gofast-users/doc-gofast-utilisation-avancee.rst:58
 #: fcc62046e10647a5b42e67fddfcbba24
@@ -160,6 +178,8 @@ msgid ""
 "provenant d'autres services tels qu'Outlook, Google, Yahoo et Apple "
 "Calendar :"
 msgstr ""
+"GoFAST can also import calendars in .ics format from other services such as "
+"Outlook, Google, Yahoo and Apple Calendar :"
 
 #: ../../docs-gofast-users/doc-gofast-utilisation-avancee.rst:60
 #: e8d8bf9b20a94638a0a5c24feef3eb91
@@ -167,6 +187,8 @@ msgid ""
 "Dans l'interface du calendrier GoFast, cliquez sur Importer un calendrier"
 " à partir d'un fichier ics."
 msgstr ""
+"In the GoFast calendar interface, click on Import a calendar from an ics "
+"file."
 
 #: ../../docs-gofast-users/doc-gofast-utilisation-avancee.rst:68
 #: b20715d1ec4f42179e4429c7571898e9
@@ -255,6 +277,8 @@ msgid ""
 " reconnexion sur le serveur GoFAST, votre version sera téléchargée et "
 "versionnée"
 msgstr ""
+"if you make changes in offline mode, when you reconnect to the GoFAST "
+"server, your version will be downloaded and versioned"
 
 #: ../../docs-gofast-users/doc-gofast-utilisation-avancee.rst:97
 #: f1b99e4ae0ce4172802df273c6824b7a
@@ -821,4 +845,3 @@ msgstr "You can't operate on the Spaces. (starting with _)"
 
 #~ msgid "Reprise des contenus GoogleDocs/Drive"
 #~ msgstr "Retrieving Google Docs/Drive content"
-
