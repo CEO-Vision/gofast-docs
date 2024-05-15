@@ -62,7 +62,22 @@ Dans l'interface du calendrier GoFast, cliquez sur Importer un calendrier à par
 .. figure:: media-guide/couplage1.png  
 
 
+Plugin pour la création de webconférence Jitsi depuis Outlook
+-------------------------------------------------------------------
 
+Ce plugin permets de créer un évènement calendrier dans Outlook et de générer automatiquement un lien de vidéo conférence, sur votre instance dédiée Jitsi Meet.
+
+Lien pour télécharger le plugin : https://repo-gofast.ceo-vision.com/gofast_outlook.msi
+
+Pour installer le plugin en le configurant par défaut pour votre instance de GoFAST, les administrateurs système pourront le faire via leur AD ou en ligne de commande avec les paramètres suivants :
+
+.. figure:: media-guide/couplage_outlook1.png  
+
+.. figure:: media-guide/couplage_outlook2.png
+
+.. figure:: media-guide/couplage_outlook3.png
+
+.. figure:: media-guide/couplage_outlook4.png  
 
 Synchronisation locale (GoFAST hors-ligne)
 ------------------------------------------
