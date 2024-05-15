@@ -975,7 +975,19 @@ Chaque administrateur d’espace peut **créer un nouvel utilisateur** qu’il r
    
 Voir “Créer un utilisateur dans un espace/groupe”
 
+Appliquer une date d'expiration à un compte externe 
+-------------------------------------------------------
+
 Pour l’option Validation création utilisateurs, Merci de vous référez à la rubrique « GoFAST Administration / Support-utilisateurs/Configuration Validation création utilisateurs»
+
+.. Important::
+Pour pouvoir affecter une date d’expiration à un compte, il faut que le compte soit « externe ». 
+
+
+Afin d’affecter une date d’expiration à un nouveau compte, dans la configuration du profil, dans « Permissions et profils » il faut cocher « Date d’expiration », puis renseigner la date d’expiration voulue. 
+
+.. figure:: media-guide/date_exp.png
+   :alt: 
 
 
 Importer des Utilisateurs depuis AD/LDAP
