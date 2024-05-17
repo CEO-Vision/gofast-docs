@@ -32,6 +32,13 @@ Onglets disponibles sur la page d’un Espace Collaboratif
 
 Merci de consulter également la rubrique : « Onglet Statistiques dans un Espace » (dans « Statistiques ») 
 
+Mais en cliquant sur l'onglet statistique, il est aussi possible de d'accéder à **l'audit** de l'espace. 
+
+.. NOTE:: L'audit de l'espace est uniquement disponible pour les administrateurs d'espace. 
+
+.. figure:: media-guide/audit_espace.png
+
+
 **Documents :** explorateur de fichiers positionné au niveau de l’arborescence de l’Espace. 
 
 .. figure:: media-guide/Image-Document-6.png
@@ -371,7 +378,8 @@ Vous pouvez voir les membres d’une Liste d’Utilisateurs en allant sur cette 
  - Vous pouvez modifier la description de la liste dans le champ « Description »
  - Cliquer sur « Enregistrer » pour sauvegarder vos modifications. 
 
-.. figure:: media-guide/Ecran-GoFAST_Liste-Utilisateurs_modifier-les-membres-de-la-liste.png
+.. figure:: media-guide/liste_utilisateur1.png
+.. figure:: media-guide/liste_utilisateur2.png
 
 .. NOTE:: 
    Les membre d’une Liste vont avoir accès à tous les Espaces où cette Liste est elle-même membre. Les Administrateurs de la Liste n’ont pas accès aux Espaces, mais peuvent gérer la Liste. 
@@ -564,6 +572,27 @@ Pour sélectionner un processus et le démarrer depuis la barre d’accès rapid
     
 .. NOTE::
    En lançant un processus depuis le menu principal sur les documents du "panier documentaire", ces derniers sont automatiquement associés au processus. Vous avez ensuite la possibilité d'enlever/ajouter les documents dans le formulaire du workflow.
+
+.. NOTE::
+   L'affichage des échéances de Workflow se fait dans le calendrier des espaces où se trouvent les documents ainsi que dans l’espace personnel.
+
+Lorsque vous démarrez un modèle, une fenêtre s'affiche pour renseigner le workflow : 
+ - Titre de votre processus
+ - Date de l'échéance
+ - Commentaire
+ - Document(s) : rechercher les documents par leur nom ou leur numéro de node
+ - Possibilité de générer une publication PDF avant la validation.
+
+.. figure:: media-guide/workflow_creation1.png
+
+
+Puis, on peut choisir : étapes de travail et étapes de validation. Il est possible de choisir pour chaque tâche une date d'expiration. 
+
+.. figure:: media-guide/workflow_creation2.png
+
+
+Les champs avec des étoiles sont à remplir obligatoirement
+
 
 Démarrer un processus depuis la page d'un document
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -933,7 +962,7 @@ Les champs disponibles dans une carte
 .. figure:: media-guide/kanban-todolist-management.jpg.png	
    :alt:
 
-- Commentaire (s) : champ modifiable, où vous pouvez partager des remarques et des suggestions avec les participants de la carte.
+- Commentaire (s) : champ modifiable, où vous pouvez partager des remarques et des suggestions avec les participants de la carte. Il est aussi possible de taguer des utilisateurs. 
 -  Historique : champ non modifiable, qui affiche l’audit des actions faites sur la carte.
 
 .. figure:: media-guide/kanban-card-fields-edit.jpg.png	
