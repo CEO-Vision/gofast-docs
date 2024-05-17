@@ -167,6 +167,17 @@ Pour désactiver ou réactiver un utilisateur et donc, bloquer ou autoriser son 
 .. NOTE::
    Il y a une différence entre les utilisateurs « Inactifs » et les utilisateurs « Désactivés ». Les utilisateurs inactifs ne sont pas bloqués, ce sont des utilisateurs qui se connectent rarement sur la plate-forme.
 Configuration : Catégories 
+
+Pré-ajouter des membres dans une liste d'utilisateur
+------------------------------------------------------
+
+Il est possible de pré-ajouter des membres dans une liste d'utilisateur. Pour cela il faut cliquer sur le menu burger, puis sur "Pré-ajouter des membres". Il vous faudra alors renseigner le ou les membre(s) à ajouter.
+
+.. figure:: media-guide/pre_ajouter_membre.png 
+
+.. NOTE:: 
+  Seul le rôle administrateur peut pré-ajouter des membres à une liste d'utilisateur dont il n'est pas administrateur
+
 --------------------------------------
 Les « Catégories » sont des métadonnées qu’un utilisateur peut appliquer sur les documents auxquels il a accès. Il s’agit du type de document, par exemple : courrier, facture, rapport, contrat, etc. 
 
