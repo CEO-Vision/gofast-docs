@@ -59,7 +59,7 @@ La prévisualisation d'un fichier sert à consulter le fichier (document, image,
    :widths: 10, 40
    
    "doc,dot,xls,ppt", "transformé en PDF" 
-   "docx,dotx,xlsx,pptx","directement affiché onlyoffice"
+   "docx,dotx,docxf,xlsx,pptx","directement affiché onlyoffice"
    "odt,ott,ods,odp","transformé en PDF"
    "dwg","transformé en svg"
    "txt,rtf","transformé en PDF"
