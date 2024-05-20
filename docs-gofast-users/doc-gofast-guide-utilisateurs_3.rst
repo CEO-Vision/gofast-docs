@@ -659,6 +659,9 @@ Dans le cas où un parapheur est couplé à GoFAST via le module de signature (Y
     Dans le cas d’un couplage avec un Parapheur électronique, les documents seront automatiquement transmis au dit Parapheur à l’étape de signature. Une fois que toutes les demandes de signature prévues par le Parapheur seront traitées, le document sera automatiquement mis à jour sur GoFAST, avec l’historique des actions dans les commentaires des documents. 
 N'hésitez pas à poser vos questions sur les modules de signatures disponibles, sur les forums. 
 
+.. NOTE:: 
+Depuis la version 4.2, il est possible d’assigner un utilisateur pour signature sur un document qui lui est non accessible 
+
 Modèle de processus
 -------------------------------------------
 
