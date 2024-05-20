@@ -166,6 +166,20 @@ Pour désactiver ou réactiver un utilisateur et donc, bloquer ou autoriser son 
    
 .. NOTE::
    Il y a une différence entre les utilisateurs « Inactifs » et les utilisateurs « Désactivés ». Les utilisateurs inactifs ne sont pas bloqués, ce sont des utilisateurs qui se connectent rarement sur la plate-forme.
+
+Changer les identifiants des utilisateurs
+-------------------------------------------
+
+Il est possible de changer les identifiants, pour cela rendez-vous sur le profil dont vous souhaitez changer l’identifiant, cliquez sur la roue cranté, puis changez l’identifiant. 
+
+.. figure:: media-guide/changement_id1.png
+
+.. figure:: media-guide/changement_id2.png
+
+.. NOTE:: 
+Pour changer l’identifiant, vous devez avoir le rôle de support administrateur
+
+
 Configuration : Catégories 
 
 Pré-ajouter des membres dans une liste d'utilisateur
