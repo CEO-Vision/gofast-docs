@@ -330,7 +330,7 @@ Pour savoir comment coéditer un document, merci de vous référer à la rubriqu
 Nouveau Commentaire
 ~~~~~~~~~~~~~~~~~~~
 Le bouton « Nouveau commentaire » permet d’ajouter un commentaire sur le document où on se trouve. Ce commentaire sera visible dans l’onglet « Commentaires » du bloc de droite et partagé avec tous les utilisateurs qui ont accès à ce document. Cela évite l’envoi d’un grand nombre d’emails et évité par la même d’envoyer des pièces-jointes d’emails. 
-Pour savoir comment les commentaires d’un document, merci de vous référer à la rubrique : « Commennter un document ». 
+Pour savoir comment les commentaires d’un document, merci de vous référer à la rubrique : « Commenter un document ». 
 
 Partager/ Modifier les emplacements
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -1130,6 +1130,12 @@ Il est possible de modifier la visibilité de votre commentaire à tout moment, 
 .. NOTE:: Le profil super administrateur a la possibilité de cocher/décocher une case sur le profil d'un utilisateur pour lui interdire/autoriser les commentaires partagés. Dans ce cas, l'utilisateur ne pourra faire que des commentaires privés. 
 
 .. NOTE:: Il n'y a pas de notification email, ni dans le fil d'activité dès l’ors qu’il s’agit de commentaires privés. 
+
+Depuis la version 4.2, un pictogramme est affiché lorsque les commentaires sont partagés avec des utilisateurs externes : 
+
+.. figure:: media-guide/pictogramme_commentaire.png
+   :alt: 
+
 
    
 Annotations contextuelles (partagées ou privées)
