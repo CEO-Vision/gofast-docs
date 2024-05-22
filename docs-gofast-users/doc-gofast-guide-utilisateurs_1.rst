@@ -720,6 +720,8 @@ Sélectionnez dans les deux champs les deux versions que vous souhaitez comparer
 .. figure:: media-guide/Ecran-GoFAST_Comparatif-Versions_lancer-le-comparatif-choix-versions.png	
    :alt: 
    
+.. NOTE::
+Tout ce qui est barré à été supprimé et ce qui est souligné à été rajouté. Mais en cliquant sur une modification vous pouvez voir les détails, ce qui a été rajouté et la personne qui a fait la modification. 
 
 Ajouter aux favoris
 ~~~~~~~~~~~~~~~~
