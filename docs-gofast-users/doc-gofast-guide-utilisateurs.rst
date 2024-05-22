@@ -892,6 +892,7 @@ Une page s’ouvre où vous pouvez ajouter :
 
  - un titre de l’espace (obligatoire)
  - une brève description (obligatoire)
+ - choisir un administrateur secondaire (obligatoire)
  - créer une page d’accueil (facultatif)
  - choisir l’emplacement (obligatoire) : vous verrez toute l’arborescence des espaces dans lesquels vous pouvez créer un nouveau sous-espace. 
  - Ajouter une identité visuelle (facultatif : image qui sera utilisée pour le salon de discussion / Tchat dédié à cet Espace si vous décider d’en créer un par la suite). 
