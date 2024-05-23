@@ -140,6 +140,8 @@ Réunions / Webconférence (Enterprise only)
 ==========================================
 GoFAST inclut la technologie de Webconférence Open Source Jitsi, alternative à MS-Teams et Zoom. Toutefois avec Jitsi, vos données restent sur votre GoFAST dans votre datacenter ou en SaaS souverain. Il est possible de faire des webconférences à des dizaines de participants sans problème de qualité. Jitsi fonctionne aussi via l'application Element pour Android et iOS.
 
+Lors de la création d'une réunion, vous pouvez choisir d'activer la salle d'attente. 
+
 Retrouver une Réunion/Webconférence 
 ------------------------------------------------------
 Pour retrouver une réunion / webconférence, plusieurs possibilités : 
@@ -161,7 +163,7 @@ Depuis la page de la réunion ou l’email de notification, vous pouvez cliquer 
  - Personnaliser votre nom/identifiant, 
  - Cliquer sur « Rejoindre la réunion ». 
 
-.. NOTE:: Sur la page de la webconférence, vous avez en haut le nom de la réunion, le nombre de participants présents et les paramètres de performance. 
+.. NOTE:: Sur la page de la webconférence, vous avez en haut le nom de la réunion, le nombre de participants présents et les paramètres de performance.
 
 **Dans la webconférence, vous pouvez notamment :**
  - A gauche, vous avez les vignettes de tous les participants de la réunion, vous pouvez choisir la vignette de la personne que vous souhaitez voir en plein écran (surtout si ce participant fait un partage d’écran). 

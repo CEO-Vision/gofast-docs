@@ -892,6 +892,7 @@ Une page s’ouvre où vous pouvez ajouter :
 
  - un titre de l’espace (obligatoire)
  - une brève description (obligatoire)
+ - choisir un administrateur secondaire (obligatoire)
  - créer une page d’accueil (facultatif)
  - choisir l’emplacement (obligatoire) : vous verrez toute l’arborescence des espaces dans lesquels vous pouvez créer un nouveau sous-espace. 
  - Ajouter une identité visuelle (facultatif : image qui sera utilisée pour le salon de discussion / Tchat dédié à cet Espace si vous décider d’en créer un par la suite). 
@@ -975,7 +976,19 @@ Chaque administrateur d’espace peut **créer un nouvel utilisateur** qu’il r
    
 Voir “Créer un utilisateur dans un espace/groupe”
 
+Appliquer une date d'expiration à un compte externe 
+-------------------------------------------------------
+
 Pour l’option Validation création utilisateurs, Merci de vous référez à la rubrique « GoFAST Administration / Support-utilisateurs/Configuration Validation création utilisateurs»
+
+.. Important::
+Pour pouvoir affecter une date d’expiration à un compte, il faut que le compte soit « externe ». 
+
+
+Afin d’affecter une date d’expiration à un nouveau compte, dans la configuration du profil, dans « Permissions et profils » il faut cocher « Date d’expiration », puis renseigner la date d’expiration voulue. 
+
+.. figure:: media-guide/date_exp.png
+   :alt: 
 
 
 Importer des Utilisateurs depuis AD/LDAP
