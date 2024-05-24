@@ -284,10 +284,9 @@ Il est possible de changer les identifiants, pour cela rendez-vous sur le profil
 .. figure:: media-guide/changement_id2.png
 
 .. NOTE:: 
-Pour changer l’identifiant, vous devez avoir le rôle de support administrateur
+Pour changer l’identifiant, vous devez avoir le rôle de support administrateur et il ne faut pas que l'utilisateur ait l'authentification SASL de coché
 
 
-Configuration : Catégories 
 
 Pré-ajouter des membres dans une liste d'utilisateur
 ------------------------------------------------------
