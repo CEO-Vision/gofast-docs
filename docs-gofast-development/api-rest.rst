@@ -145,6 +145,108 @@ Cette méthode permet de récupérer des informations génériques d'une entité
 |alfresco_reference     | Référence du contenu Alfresco associé au noeud     |
 +-----------------------+----------------------------------------------------+
 
+implémentation 
+
+=====================================================
+**python**
+
+import requests
+from requests.auth import HTTPBasicAuth
+
+# Define the API endpoint
+url = 'https://gofast-dev.ceo-vision.com/api/node/node?nid=4'
+
+# Define the Basic Authentication credentials
+username = 'allan_muzeya_1234567777687857ljljh'
+password = '%@56^ntMa4dti4rS7W7E'
+
+# Make the GET request to the API with Basic Authentication
+try:
+    headers = {
+        'Content-Type': 'application/json',
+        'Accept': 'application/json'
+    }
+    response = requests.get(url, headers=headers, auth=HTTPBasicAuth(username, password))
+
+    # Check if the request was successful
+    if response.status_code == 200:
+        # Parse the JSON response
+        data = response.json()
+        print(data)
+    else:
+        print(f"Failed to retrieve data. HTTP Status code: {response.status_code}")
+        print(response.text)  # Imprimez le texte de la réponse pour plus de détails
+
+except requests.exceptions.RequestException as e:
+    # Handle any exceptions (e.g., network issues)
+    print(f"An error occurred: {e}")
+
+**javascript**
+
+// Define the API endpoint
+const apiEndpoint = 'https://gofast-dev.ceo-vision.com/api/node/node?nid=4';
+
+// Basic authorization token
+const authToken = 'Basic YWxsYW5fbXV6ZXlhXzEyMzQ1Njc3Nzc2ODc4NTdsamxqaDpKb2VtYXpvaWxsaWVyMDctCg==';
+
+// Set up the fetch request
+fetch(apiEndpoint, {
+  method: 'GET',
+  headers: {
+    'Authorization': authToken
+  }
+})
+.then(response => {
+  if (!response.ok) {
+    throw new Error('Network response was not ok ' + response.statusText);
+  }
+  return response.json();
+})
+.then(data => {
+  console.log(data);
+})
+.catch(error => {
+  console.error('There has been a problem with your fetch operation:', error);
+});
+
+**PHP**
+
+<?php
+// Définir le point de terminaison de l'API
+$apiEndpoint = 'https://gofast-dev.ceo-vision.com/api/node/node?nid=4';
+
+// Jeton d'autorisation
+$authToken = 'Basic YWxsYW5fbXV6ZXlhXzEyMzQ1Njc3Nzc2ODc4NTdsamxqaDpKb2VtYXpvaWxsaWVyMDctCg==';
+
+// Initialiser une session cURL
+$ch = curl_init();
+
+// Configurer les options de cURL
+curl_setopt($ch, CURLOPT_URL, $apiEndpoint);
+curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+curl_setopt($ch, CURLOPT_HTTPHEADER, [
+    'Authorization: ' . $authToken
+]);
+
+// Exécuter la requête cURL
+$response = curl_exec($ch);
+
+// Vérifier si des erreurs se sont produites lors de la requête
+if(curl_errno($ch)) {
+    echo 'Erreur cURL : ' . curl_error($ch);
+} else {
+    // Convertir la réponse JSON en tableau associatif PHP
+    $data = json_decode($response, true);
+
+    // Afficher les données
+    print_r($data);
+}
+
+// Fermer la session cURL
+curl_close($ch);
+?>
+
+
 POST
 __________
 
@@ -204,6 +306,90 @@ Les types de noeud disponibles sont :
 +===================+========================================+
 |nid                | N° du noeud                            |
 +-------------------+----------------------------------------+
+implementation 
+
+==================================================
+
+**python**
+
+import requests
+
+url = "https://gofast-dev.ceo-vision.com/api/node/node?title=teste API"
+
+files = {
+    'locations': (None, '["/Sites/_Groups/_test API"]'),
+    'title': (None, 'teste API2'),
+    'type': (None, 'alfresco_item'),
+    'body': (None, 'Content of the body file here'),
+    'file': ('file.txt', open('file.txt', 'rb'))  # Remplacez 'file.txt' par le chemin de votre fichier
+}
+
+headers = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",
+    "Accept": "application/json",
+}
+
+auth = ("allan_muzeya_1234567777687857ljljh", "%@56^ntMa4dti4rS7W7E")
+
+try:
+    response = requests.post(url, files=files, headers=headers, auth=auth)
+    response.raise_for_status()
+
+    data = response.json()
+    print(data)
+except requests.exceptions.HTTPError as http_err:
+    print(f"Erreur HTTP: {http_err}")
+    print(f"Contenu de la réponse: {response.text}")
+except requests.exceptions.ConnectionError as conn_err:
+    print(f"Erreur de connexion: {conn_err}")
+except requests.exceptions.Timeout as timeout_err:
+    print(f"Délai d'attente dépassé: {timeout_err}")
+except requests.exceptions.RequestException as req_err:
+    print(f"Erreur de requête: {req_err}")
+    print(f"Contenu de la réponse: {response.text}")
+
+**javascript**
+
+const url = "https://gofast-dev.ceo-vision.com/api/node/node?title=teste API";
+
+const formData = new FormData();
+formData.append('gids', '["/Sites/_Groups/_test API"]');
+formData.append('title', 'teste API2');
+formData.append('type', 'alfresco_item');
+formData.append('body', 'Content of the body file here');
+
+fetch(url, {
+    method: 'POST',
+    body: formData
+})
+.then(response => response.json())
+.then(data => console.log(data))
+.catch(error => console.error('Error:', error));
+
+**PHP**
+<?php
+
+$url = "https://gofast-dev.ceo-vision.com/api/node/node?title=teste API";
+
+$data = array(
+    'gids' => '["/Sites/_Groups/_test API"]',
+    'title' => 'teste API2',
+    'type' => 'alfresco_item',
+    'body' => 'Content of the body file here'
+);
+
+$ch = curl_init();
+curl_setopt($ch, CURLOPT_URL, $url);
+curl_setopt($ch, CURLOPT_POST, 1);
+curl_setopt($ch, CURLOPT_POSTFIELDS, http_build_query($data));
+curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+
+$response = curl_exec($ch);
+curl_close($ch);
+
+$responseData = json_decode($response, true);
+print_r($responseData);
+?>
 
 Action : metadata
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -246,6 +432,56 @@ Cette méthode permet de récupérer les métadonnées associés aux entités de
 +-----------------------+----------------------------------------------------+
 |field_YYY              | Tableau contenant les valeurs du champ             |
 +-----------------------+----------------------------------------------------+
+
+implémentation 
+
+=====================================
+
+**python**
+import requests
+import json
+
+url = "https://gofast-dev.ceo-vision.com/api/node/metadata?nid=4"
+headers = {
+    "Authorization": "Basic YWxsYW5fbXV6ZXlhXzEyMzQ1Njc3Nzc2ODc4NTdsamxqaDpKb2VtYXpvaWxsaWVyMDctCg=="
+}
+
+auth = ("allan_muzeya_1234567777687857ljljh", "%@56^ntMa4dti4rS7W7E")
+
+response = requests.get(url, headers=headers, auth=auth)
+data = response.json()
+
+print(json.dumps(data, indent=4))
+
+**javascript**
+const url = 'https://gofast-dev.ceo-vision.com/api/node/metadata?nid=4';
+const headers = new Headers({
+    'Authorization': 'Basic YWxsYW5fbXV6ZXlhXzEyMzQ1Njc3Nzc2ODc4NTdsamxqaDpKb2VtYXpvaWxsaWVyMDctCg=='
+});
+
+fetch(url, { headers: headers })
+    .then(response => response.json())
+    .then(data => console.log(JSON.stringify(data, null, 4)))
+    .catch(error => console.error('Error:', error));
+
+**PHP**
+<?php
+$url = 'https://gofast-dev.ceo-vision.com/api/node/metadata?nid=4';
+$options = [
+    'http' => [
+        'header'  => "Authorization: Basic YWxsYW5fbXV6ZXlhXzEyMzQ1Njc3Nzc2ODc4NTdsamxqaDpKb2VtYXpvaWxsaWVyMDctCg==\r\n",
+        'method'  => 'GET',
+    ]
+];
+$context  = stream_context_create($options);
+$response = file_get_contents($url, false, $context);
+if ($response === FALSE) {
+    die('Error occurred');
+}
+
+$data = json_decode($response, true);
+echo '<pre>' . print_r($data, true) . '</pre>';
+?>
 
 POST
 __________
@@ -299,6 +535,83 @@ Cette méthode permet de mettre à jour les métadonnées associés aux entités
 +-----------------------+----------------------------------------------------+
 |Field_YYY              | Tableau contenant le retour de la fonction         |
 +-----------------------+----------------------------------------------------+
+
+implementation
+
+==============================================
+
+**python**
+import requests
+
+url = "https://gofast-dev.ceo-vision.com/api/node/metadata"
+data = {
+    "nid": 8675,
+    "uid": 4,
+    "title": "teste API",
+    "nulid": 9033,
+    "description": "",
+    "field_category": "oui"
+}
+
+headers = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",
+    "Accept": "application/json",
+    "Content-Type": "application/json"
+}
+
+auth = ("allan_muzeya_1234567777687857ljljh", "%@56^ntMa4dti4rS7W7E")
+
+try:
+    response = requests.post(url, json=data, headers=headers, auth=auth)
+    response.raise_for_status()
+
+    data = response.json()
+    print(data)
+except requests.exceptions.HTTPError as http_err:
+    print(f"Erreur HTTP: {http_err}")
+    print(f"Contenu de la réponse: {response.text}")
+except requests.exceptions.ConnectionError as conn_err:
+    print(f"Erreur de connexion: {conn_err}")
+except requests.exceptions.Timeout as timeout_err:
+    print(f"Délai d'attente dépassé: {timeout_err}")
+except requests.exceptions.RequestException as req_err:
+    print(f"Erreur de requête: {req_err}")
+    print(f"Contenu de la réponse: {response.text}")
+
+**javascript**
+const url = "https://gofast-dev.ceo-vision.com/api/node/metadata";
+const params = new URLSearchParams({
+    nid: 8675,
+    uid: 4,
+    title: "teste API",
+    nulid: 9033,
+    description: "",
+    field_category: "oui"
+});
+
+fetch(`${url}?${params}`)
+    .then(response => response.json())
+    .then(data => console.log(data))
+    .catch(error => console.error('Error:', error));
+
+**PHP** 
+<?php
+
+$url = "https://gofast-dev.ceo-vision.com/api/node/metadata";
+$params = array(
+    "nid" => 8675,
+    "uid" => 4,
+    "title" => "teste API",
+    "nulid" => 9033,
+    "description" => "",
+    "field_category" => "oui"
+);
+
+$fullUrl = $url . '?' . http_build_query($params);
+$response = file_get_contents($fullUrl);
+$data = json_decode($response, true);
+
+print_r($data);
 
 PATCH
 __________
