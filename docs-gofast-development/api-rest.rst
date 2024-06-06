@@ -480,9 +480,9 @@ Cette méthode permet de récupérer les métadonnées associés aux entités de
 
 .. code-block:: javascript
 
-    const url = 'https://gofast-dev.ceo-vision.com/api/node/metadata?nid=4';
+    const url = 'https://DOMAINE.TLD/api/node/metadata?nid=X';
     const headers = new Headers({
-        'Authorization': 'Basic YWxsYW5fbXV6ZXlhXzEyMzQ1Njc3Nzc2ODc4NTdsamxqaDpKb2VtYXpvaWxsaWVyMDctCg=='
+        'Authorization': 'Basic XXX'
     });
     
     fetch(url, { headers: headers })
@@ -495,10 +495,10 @@ Cette méthode permet de récupérer les métadonnées associés aux entités de
 .. code-block:: PHP
 
     <?php
-    $url = 'https://gofast-dev.ceo-vision.com/api/node/metadata?nid=4';
+    $url = 'https://DOMAINE.TLD/api/node/metadata?nid=X';
     $options = [
         'http' => [
-            'header'  => "Authorization: Basic YWxsYW5fbXV6ZXlhXzEyMzQ1Njc3Nzc2ODc4NTdsamxqaDpKb2VtYXpvaWxsaWVyMDctCg==\r\n",
+            'header'  => "Authorization: "Basic XXX",
             'method'  => 'GET',
         ]
     ];
@@ -565,6 +565,90 @@ Cette méthode permet de mettre à jour les métadonnées associés aux entités
 |Field_YYY              | Tableau contenant le retour de la fonction         |
 +-----------------------+----------------------------------------------------+
 
+*Implémentation:*
+
+**python**
+    
+    .. code-block:: python
+    import requests
+    
+    url = "https://DOMAINE.TLD/api/node/metadata"
+    data = {
+        "nid": XXX,
+        "uid": XXX,
+        "title": "teste API",
+        "nulid": XXX,
+        "description": "",
+        "field_category": "XX"
+    }
+    
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",
+        "Accept": "application/json",
+        "Content-Type": "application/json"
+    }
+    
+    auth = ("USERNAME", "PASSWORD")
+    
+    try:
+        response = requests.post(url, json=data, headers=headers, auth=auth)
+        response.raise_for_status()
+    
+        data = response.json()
+        print(data)
+    except requests.exceptions.HTTPError as http_err:
+        print(f"Erreur HTTP: {http_err}")
+        print(f"Contenu de la réponse: {response.text}")
+    except requests.exceptions.ConnectionError as conn_err:
+        print(f"Erreur de connexion: {conn_err}")
+    except requests.exceptions.Timeout as timeout_err:
+        print(f"Délai d'attente dépassé: {timeout_err}")
+    except requests.exceptions.RequestException as req_err:
+        print(f"Erreur de requête: {req_err}")
+        print(f"Contenu de la réponse: {response.text}")
+
+**javascript**
+
+.. code-block:: javascript
+
+    const url = "https://DOMAINE.TLD/api/node/metadata";
+    const params = new URLSearchParams({
+        nid: "xxx"
+        uid: "xxx"
+        title: "xxx"
+        nulid: "xxx"
+        description: "xxx",
+        field_category: "xxx"
+    });
+    
+    fetch(`${url}?${params}`)
+        .then(response => response.json())
+        .then(data => console.log(data))
+        .catch(error => console.error('Error:', error));
+
+**PHP**
+
+.. code-block:: PHP
+
+    <?php
+    
+    $url = "https://DOMAINE.TLD/api/node/metadata";
+    $params = array(
+        "nid" => xxx,
+        "uid" => xxx,
+        "title" => "xxx",
+        "nulid" => xxx,
+        "description" => "xxx",
+        "field_category" => "xxx"
+    );
+    
+    $fullUrl = $url . '?' . http_build_query($params);
+    $response = file_get_contents($fullUrl);
+    $data = json_decode($response, true);
+    
+    print_r($data);
+
+
 PATCH
 __________
 
@@ -617,6 +701,8 @@ Cette méthode permet d'ajouter une valeur à certaines métadonnées associés 
 +-----------------------+----------------------------------------------------+
 |Field_YYY              | Tableau contenant le retour de la fonction         |
 +-----------------------+----------------------------------------------------+
+
+
 
 Action : locations
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
