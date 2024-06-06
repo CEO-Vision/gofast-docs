@@ -895,6 +895,9 @@ Cette méthode permet d'ajouter ou de supprimer des emplacements des contenus as
 |delete                 | Boolean 1 = suppression; 0 = ajout.                              |
 +-----------------------+------------------------------------------------------------------+
 
+
+
+
 Action : content
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -934,6 +937,89 @@ Cette méthode permet de récupérer le contenu Alfresco associé à un noeud.
 +-------------------+----------------------------------------+
 
 Le contenu du retour de la requête est le contenu du document.
+
+*Implémentation:*
+
+**python**
+
+.. code-block:: python
+
+    import requests
+    
+    url = 'https://gofast.DOMAINE.TLD/api/node/content'
+    
+    headers = {
+        'Authorization': 'Basic XXXX',
+        'Content-Type': 'application/octet-stream',
+        'Content-Disposition': 'attachment'
+    }
+    
+    data = {
+        'nid': 'XXX',
+        'username': 'USERNAME',
+        'password': 'PASSWORD'
+    }
+    
+    response = requests.post(url, headers=headers, json=data)
+    print(response.status_code)
+    print(response.text)
+
+
+**javascript**
+
+.. code-block:: javascript
+
+    const url = 'https://gofast.DOMAINE.TLD/api/node/content';
+    
+    const headers = new Headers();
+    headers.append('Authorization', 'Basic XXX');
+    headers.append('Content-Type', 'application/octet-stream');
+    headers.append('Content-Disposition', 'attachment');
+    
+    const data = {
+        nid: '8675',
+        username: 'USERNAME',
+        password: 'PASSWORD'
+    };
+    
+    fetch(url, {
+        method: 'POST',
+        headers: headers,
+        body: JSON.stringify(data)
+    })
+    .then(response => response.text())
+    .then(result => console.log(result))
+    .catch(error => console.log('error', error));
+
+**PHP**
+
+.. code-block:: PHP
+
+    $url = 'https://gofast.DOMAINE.TLD/api/node/content';
+    
+    $headers = [
+        'Authorization: Basic JUA1Nl5udE1hNGR0aTRyUzdXN0U',
+        'Content-Type: application/octet-stream',
+        'Content-Disposition: attachment'
+    ];
+    
+    $data = [
+        'nid' => '8675',
+        'username' => 'allan_muzeya_1234567777687857ljljh',
+        'password' => '%@56^ntMa4dti4rS7W7E'
+    ];
+    
+    $ch = curl_init($url);
+    curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
+    curl_setopt($ch, CURLOPT_POST, 1);
+    curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($data));
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+    
+    $response = curl_exec($ch);
+    curl_close($ch);
+    
+    echo $response;
+
 
 
 POST
