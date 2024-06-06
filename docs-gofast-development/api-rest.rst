@@ -145,6 +145,10 @@ Cette méthode permet de récupérer des informations génériques d'une entité
 |alfresco_reference     | Référence du contenu Alfresco associé au noeud     |
 +-----------------------+----------------------------------------------------+
 
+.. tabs::
+
+    .. tab:: implementation
+
 *Implémentation:*
 
 **python**
