@@ -569,44 +569,45 @@ Cette méthode permet de mettre à jour les métadonnées associés aux entités
 
 **python**
     
-    .. code-block:: python
-    
+.. code-block:: python
+
     import requests
-        
-        url = "https://DOMAINE.TLD/api/node/metadata"
-        data = {
-            "nid": XXX,
-            "uid": XXX,
-            "title": "teste API",
-            "nulid": XXX,
-            "description": "",
-            "field_category": "XX"
-        }
-        
-        headers = {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",
-            "Accept": "application/json",
-            "Content-Type": "application/json"
-        }
-        
-        auth = ("USERNAME", "PASSWORD")
-        
-        try:
-            response = requests.post(url, json=data, headers=headers, auth=auth)
-            response.raise_for_status()
-        
-            data = response.json()
-            print(data)
-        except requests.exceptions.HTTPError as http_err:
-            print(f"Erreur HTTP: {http_err}")
-            print(f"Contenu de la réponse: {response.text}")
-        except requests.exceptions.ConnectionError as conn_err:
-            print(f"Erreur de connexion: {conn_err}")
-        except requests.exceptions.Timeout as timeout_err:
-            print(f"Délai d'attente dépassé: {timeout_err}")
-        except requests.exceptions.RequestException as req_err:
-            print(f"Erreur de requête: {req_err}")
-            print(f"Contenu de la réponse: {response.text}")
+    
+    url = "https://DOMAINE.TLD/api/node/metadata"
+    data = {
+        "nid": XXX,
+        "uid": XXX,
+        "title": "teste API",
+        "nulid": XXX,
+        "description": "",
+        "field_category": "XX"
+    }
+    
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",
+        "Accept": "application/json",
+        "Content-Type": "application/json"
+    }
+    
+    auth = ("USERNAME", "PASSWORD")
+    
+    try:
+        response = requests.post(url, json=data, headers=headers, auth=auth)
+        response.raise_for_status()
+    
+        data = response.json()
+        print(data)
+    except requests.exceptions.HTTPError as http_err:
+        print(f"Erreur HTTP: {http_err}")
+        print(f"Contenu de la réponse: {response.text}")
+    except requests.exceptions.ConnectionError as conn_err:
+        print(f"Erreur de connexion: {conn_err}")
+    except requests.exceptions.Timeout as timeout_err:
+        print(f"Délai d'attente dépassé: {timeout_err}")
+    except requests.exceptions.RequestException as req_err:
+        print(f"Erreur de requête: {req_err}")
+        print(f"Contenu de la réponse: {response.text}")
+
 
 **javascript**
 
