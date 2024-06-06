@@ -145,6 +145,112 @@ Cette méthode permet de récupérer des informations génériques d'une entité
 |alfresco_reference     | Référence du contenu Alfresco associé au noeud     |
 +-----------------------+----------------------------------------------------+
 
+*Implémentation:*
+
+**python**
+
+.. code-block:: python
+
+    import requests
+    from requests.auth import HTTPBasicAuth
+    
+    # Define the API endpoint
+    url = 'https://gofast.DOMAIN.TLD/api/node/node?nid=X'
+    
+    # Define the Basic Authentication credentials
+    username = 'USERNAME'
+    password = 'PASSWORD'
+    
+    # Make the GET request to the API with Basic Authentication
+    try:
+        headers = {
+            'Content-Type': 'application/json',
+            'Accept': 'application/json'
+        }
+        response = requests.get(url, headers=headers, auth=HTTPBasicAuth(username, password))
+    
+        # Check if the request was successful
+        if response.status_code == 200:
+            # Parse the JSON response
+            data = response.json()
+            print(data)
+        else:
+            print(f"Failed to retrieve data. HTTP Status code: {response.status_code}")
+            print(response.text)  # Imprimez le texte de la réponse pour plus de détails
+    
+    except requests.exceptions.RequestException as e:
+        # Handle any exceptions (e.g., network issues)
+        print(f"An error occurred: {e}")
+
+**javascript**
+
+.. code-block:: javascript
+
+    // Define the API endpoint
+    const apiEndpoint = 'https://gofast.DOMAIN.TLD/api/node/node?nid=X';
+    
+    // Basic authorization token
+    const authToken = 'Basic XXX';
+    
+    // Set up the fetch request
+    fetch(apiEndpoint, {
+    method: 'GET',
+    headers: {
+        'Authorization': authToken
+    }
+    })
+    .then(response => {
+    if (!response.ok) {
+        throw new Error('Network response was not ok ' + response.statusText);
+    }
+    return response.json();
+    })
+    .then(data => {
+    console.log(data);
+    })
+    .catch(error => {
+    console.error('There has been a problem with your fetch operation:', error);
+    });
+
+**PHP**
+
+.. code-block:: php
+
+    <?php
+    // Définir le point de terminaison de l'API
+    $apiEndpoint = 'https://gofast.DOMAIN.TLD/api/node/node?nid=X';
+    
+    // Jeton d'autorisation
+    $authToken = 'Basic XXXX';
+    
+    // Initialiser une session cURL
+    $ch = curl_init();
+    
+    // Configurer les options de cURL
+    curl_setopt($ch, CURLOPT_URL, $apiEndpoint);
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+    curl_setopt($ch, CURLOPT_HTTPHEADER, [
+        'Authorization: ' . $authToken
+    ]);
+    
+    // Exécuter la requête cURL
+    $response = curl_exec($ch);
+    
+    // Vérifier si des erreurs se sont produites lors de la requête
+    if(curl_errno($ch)) {
+        echo 'Erreur cURL : ' . curl_error($ch);
+    } else {
+        // Convertir la réponse JSON en tableau associatif PHP
+        $data = json_decode($response, true);
+    
+        // Afficher les données
+        print_r($data);
+    }
+    
+    // Fermer la session cURL
+    curl_close($ch);
+    ?>
+
 POST
 __________
 
@@ -205,6 +311,7 @@ Les types de noeud disponibles sont :
 |nid                | N° du noeud                            |
 +-------------------+----------------------------------------+
 
+
 Action : metadata
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -246,6 +353,56 @@ Cette méthode permet de récupérer les métadonnées associés aux entités de
 +-----------------------+----------------------------------------------------+
 |field_YYY              | Tableau contenant les valeurs du champ             |
 +-----------------------+----------------------------------------------------+
+
+implémentation 
+
+=====================================
+
+**python**
+import requests
+import json
+
+url = "https://gofast.DOMAIN.TLD/api/node/metadata?nid=X"
+headers = {
+    "Authorization": "Basic XXX"
+}
+
+auth = ("USERNAME", "PASSWORD")
+
+response = requests.get(url, headers=headers, auth=auth)
+data = response.json()
+
+print(json.dumps(data, indent=4))
+
+**javascript**
+const url = 'https://gofast-dev.ceo-vision.com/api/node/metadata?nid=4';
+const headers = new Headers({
+    'Authorization': 'Basic YWxsYW5fbXV6ZXlhXzEyMzQ1Njc3Nzc2ODc4NTdsamxqaDpKb2VtYXpvaWxsaWVyMDctCg=='
+});
+
+fetch(url, { headers: headers })
+    .then(response => response.json())
+    .then(data => console.log(JSON.stringify(data, null, 4)))
+    .catch(error => console.error('Error:', error));
+
+**PHP**
+<?php
+$url = 'https://gofast-dev.ceo-vision.com/api/node/metadata?nid=4';
+$options = [
+    'http' => [
+        'header'  => "Authorization: Basic YWxsYW5fbXV6ZXlhXzEyMzQ1Njc3Nzc2ODc4NTdsamxqaDpKb2VtYXpvaWxsaWVyMDctCg==\r\n",
+        'method'  => 'GET',
+    ]
+];
+$context  = stream_context_create($options);
+$response = file_get_contents($url, false, $context);
+if ($response === FALSE) {
+    die('Error occurred');
+}
+
+$data = json_decode($response, true);
+echo '<pre>' . print_r($data, true) . '</pre>';
+?>
 
 POST
 __________
