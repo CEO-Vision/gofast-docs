@@ -38,6 +38,10 @@ gettext_uuid = True
 #make gettext
 #sphinx-intl update -p _build/locale fr
 
-'sphinx_togglebutton',
+
+extensions = [
+    'sphinx_togglebutton',
+]
+
 
 
