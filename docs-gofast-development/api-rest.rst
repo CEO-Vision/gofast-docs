@@ -746,6 +746,78 @@ Cette méthode permet de récupérer les emplacements des contenus associés aux
 |locations              | Tableau indexé contenant les emplacements.         |
 +-----------------------+----------------------------------------------------+
 
+*Implémentation:*
+
+**python**
+
+.. code-block:: python
+
+    import requests
+    
+    url = "https://DOMAINE.TLD/api/node/locations?nid=XXX"
+    headers = {
+    	"Content-Type": "application/json"
+    }
+    auth = ("USERNAME", "PASSWORD")
+    
+    response = requests.get(url, headers=headers, auth=auth)
+    
+    if response.status_code == 200:
+        print(response.json())
+    else:
+        print(f"Error: {response.status_code}")
+
+
+**javascript**
+
+.. code-block:: javascript
+
+    const url = "https://DOMAINE.TLD/api/node/locations?nid=XXX";
+    const headers = new Headers({
+        "Authorization": "Basic XXX"
+    });
+    
+    fetch(url, { headers: headers })
+        .then(response => {
+            if (!response.ok) {
+                throw new Error(`Error: ${response.status}`);
+            }
+            return response.json();
+        })
+        .then(data => console.log(data))
+        .catch(error => console.error('Error:', error));
+
+**PHP**
+
+.. code-block:: PHP
+    
+    $curl = curl_init();
+    
+    curl_setopt_array($curl, array(
+        CURLOPT_URL => "https://gofast-dev.ceo-vision.com/api/node/locations?nid=8675",
+        CURLOPT_RETURNTRANSFER => true,
+        CURLOPT_HTTPHEADER => array(
+            "Authorization: Basic JUA1Nl5udE1hNGR0aTRyUzdXN0U"
+        ),
+    ));
+    
+    $response = curl_exec($curl);
+    
+    if (curl_errno($curl)) {
+        echo 'Error:' . curl_error($curl);
+    } else {
+        $httpcode = curl_getinfo($curl, CURLINFO_HTTP_CODE);
+        if ($httpcode == 200) {
+            $data = json_decode($response, true);
+            print_r($data);
+        } else {
+            echo "Error: HTTP Status " . $httpcode;
+        }
+    }
+    
+    curl_close($curl);
+
+
 PUT
 __________
 
