@@ -148,6 +148,123 @@ Cette méthode permet de récupérer des informations génériques d'une entité
 Implémentations
 ===============
 
+.. toggle:: Cliquez ici pour voir l'implémentation Python
+
+    **Python**
+
+    .. code-block:: python
+
+        import requests
+        from requests.auth import HTTPBasicAuth
+
+        # Define the API endpoint
+        url = 'https://gofast.DOMAIN.TLD/api/node/node?nid=X'
+
+        # Define the Basic Authentication credentials
+        username = 'USERNAME'
+        password = 'PASSWORD'
+
+        # Make the GET request to the API with Basic Authentication
+        try:
+            headers = {
+                'Content-Type': 'application/json',
+                'Accept': 'application/json'
+            }
+            response = requests.get(url, headers=headers, auth=HTTPBasicAuth(username, password))
+
+            # Check if the request was successful
+            if response.status_code == 200:
+                # Parse the JSON response
+                data = response.json()
+                print(data)
+            else:
+                print(f"Failed to retrieve data. HTTP Status code: {response.status_code}")
+                print(response.text)  # Print the response text for more details
+
+        except requests.exceptions.RequestException as e:
+            # Handle any exceptions (e.g., network issues)
+            print(f"An error occurred: {e}")
+
+.. toggle:: Cliquez ici pour voir l'implémentation JavaScript
+
+    **JavaScript**
+
+    .. code-block:: javascript
+
+        // Define the API endpoint
+        const apiEndpoint = 'https://gofast.DOMAIN.TLD/api/node/node?nid=X';
+
+        // Basic authorization token
+        const authToken = 'Basic XXX';
+
+        // Set up the fetch request
+        fetch(apiEndpoint, {
+            method: 'GET',
+            headers: {
+                'Authorization': authToken
+            }
+        })
+        .then(response => {
+            if (!response.ok) {
+                throw new Error('Network response was not ok ' + response.statusText);
+            }
+            return response.json();
+        })
+        .then(data => {
+            console.log(data);
+        })
+        .catch(error => {
+            console.error('There has been a problem with your fetch operation:', error);
+        });
+
+.. toggle:: Cliquez ici pour voir l'implémentation PHP
+
+    **PHP**
+
+    .. code-block:: php
+
+        <?php
+        // Define the API endpoint
+        $apiEndpoint = 'https://gofast.DOMAIN.TLD/api/node/node?nid=X';
+
+        // Basic authorization token
+        $authToken = 'Basic XXXX';
+
+        // Initialize a cURL session
+        $ch = curl_init();
+
+        // Set cURL options
+        curl_setopt($ch, CURLOPT_URL, $apiEndpoint);
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+        curl_setopt($ch, CURLOPT_HTTPHEADER, [
+            'Authorization: ' . $authToken
+        ]);
+
+        // Execute the cURL request
+        $response = curl_exec($ch);
+
+        // Check for errors
+        if(curl_errno($ch)) {
+            echo 'cURL error: ' . curl_error($ch);
+        } else {
+            // Convert the JSON response to a PHP array
+            $data = json_decode($response, true);
+
+            // Print the data
+            print_r($data);
+        }
+
+        // Close the cURL session
+        curl_close($ch);
+        ?>
+
+
+
+
+
+Implémentations
+===============
+
 .. tabs::
 
     .. tab:: Python
