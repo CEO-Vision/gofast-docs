@@ -445,55 +445,63 @@ Cette méthode permet de récupérer les métadonnées associés aux entités de
 |field_YYY              | Tableau contenant les valeurs du champ             |
 +-----------------------+----------------------------------------------------+
 
-implémentation 
-
-=====================================
+*Implémentation:*
 
 **python**
-import requests
-import json
 
-url = "https://gofast.DOMAIN.TLD/api/node/metadata?nid=X"
-headers = {
-    "Authorization": "Basic XXX"
-}
+.. code-block:: python
 
-auth = ("USERNAME", "PASSWORD")
 
-response = requests.get(url, headers=headers, auth=auth)
-data = response.json()
-
-print(json.dumps(data, indent=4))
+    import requests
+    import json
+    
+    url = "https://gofast.DOMAIN.TLD/api/node/metadata?nid=X"
+    headers = {
+        "Authorization": "Basic XXX"
+    }
+    
+    auth = ("USERNAME", "PASSWORD")
+    
+    response = requests.get(url, headers=headers, auth=auth)
+    data = response.json()
+    
+    print(json.dumps(data, indent=4))
 
 **javascript**
-const url = 'https://gofast-dev.ceo-vision.com/api/node/metadata?nid=4';
-const headers = new Headers({
-    'Authorization': 'Basic YWxsYW5fbXV6ZXlhXzEyMzQ1Njc3Nzc2ODc4NTdsamxqaDpKb2VtYXpvaWxsaWVyMDctCg=='
-});
 
-fetch(url, { headers: headers })
-    .then(response => response.json())
-    .then(data => console.log(JSON.stringify(data, null, 4)))
-    .catch(error => console.error('Error:', error));
+.. code-block:: javascript
 
-**PHP**
-<?php
-$url = 'https://gofast-dev.ceo-vision.com/api/node/metadata?nid=4';
-$options = [
-    'http' => [
-        'header'  => "Authorization: Basic YWxsYW5fbXV6ZXlhXzEyMzQ1Njc3Nzc2ODc4NTdsamxqaDpKb2VtYXpvaWxsaWVyMDctCg==\r\n",
-        'method'  => 'GET',
-    ]
-];
-$context  = stream_context_create($options);
-$response = file_get_contents($url, false, $context);
-if ($response === FALSE) {
-    die('Error occurred');
-}
+    const url = 'https://gofast-dev.ceo-vision.com/api/node/metadata?nid=4';
+    const headers = new Headers({
+        'Authorization': 'Basic YWxsYW5fbXV6ZXlhXzEyMzQ1Njc3Nzc2ODc4NTdsamxqaDpKb2VtYXpvaWxsaWVyMDctCg=='
+    });
+    
+    fetch(url, { headers: headers })
+        .then(response => response.json())
+        .then(data => console.log(JSON.stringify(data, null, 4)))
+        .catch(error => console.error('Error:', error));
 
-$data = json_decode($response, true);
-echo '<pre>' . print_r($data, true) . '</pre>';
-?>
+***PHP**
+
+.. code-block:: PHP
+
+    <?php
+    $url = 'https://gofast-dev.ceo-vision.com/api/node/metadata?nid=4';
+    $options = [
+        'http' => [
+            'header'  => "Authorization: Basic YWxsYW5fbXV6ZXlhXzEyMzQ1Njc3Nzc2ODc4NTdsamxqaDpKb2VtYXpvaWxsaWVyMDctCg==\r\n",
+            'method'  => 'GET',
+        ]
+    ];
+    $context  = stream_context_create($options);
+    $response = file_get_contents($url, false, $context);
+    if ($response === FALSE) {
+        die('Error occurred');
+    }
+    
+    $data = json_decode($response, true);
+    echo '<pre>' . print_r($data, true) . '</pre>';
+    ?>
 
 POST
 __________
