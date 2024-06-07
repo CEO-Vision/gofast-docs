@@ -1443,6 +1443,14 @@ Cette méthode permet de récupérer la prévisualisation PDF d'un contenu Alfre
 
 Le contenu du retour de la requête est le contenu de la prévisualisation PDF du document.
 
+**Iplementation**
+
+
+
+
+
+
+
 Action : preview_link
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
