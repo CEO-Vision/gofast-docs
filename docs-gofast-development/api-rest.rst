@@ -152,6 +152,9 @@ Implémentations
         **Python**
 
         .. code-block:: python
+.. tabs::
+
+    .. tab:: Python
 
             import requests
             from requests.auth import HTTPBasicAuth
