@@ -146,6 +146,9 @@ Cette méthode permet de récupérer des informations génériques d'une entité
 +-----------------------+----------------------------------------------------+
 Implémentations
 ===============
+.. class:: details
+   
+   test
 
     **Python**
 
