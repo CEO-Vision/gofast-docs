@@ -146,9 +146,9 @@ Cette méthode permet de récupérer des informations génériques d'une entité
 +-----------------------+----------------------------------------------------+
 Implémentations
 ===============
-.. class:: details
-   
-   test
+
+.. dropdown:: Cliquez ici pour voir l'implémentation JavaScript
+    :animate: fade-in-slide-down
 
     **Python**
 
@@ -184,6 +184,7 @@ Implémentations
         except requests.exceptions.RequestException as e:
             # Handle any exceptions (e.g., network issues)
             print(f"An error occurred: {e}")
+
 
 .. dropdown:: Cliquez ici pour voir l'implémentation JavaScript
     :animate: fade-in-slide-down
