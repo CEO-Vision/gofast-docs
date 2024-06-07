@@ -1154,10 +1154,6 @@ Le contenu du retour de la requête est le contenu du document.
     **python**
     
     .. code-block:: python
-
-    **python**
-    
-    .. code-block:: python
     
         import requests
         
@@ -1181,10 +1177,6 @@ Le contenu du retour de la requête est le contenu du document.
 
 .. dropdown:: Cliquez ici pour voir l'implémentation javscript
     :animate: fade-in-slide-down
-
-    **javascript**
-    
-    .. code-block:: javascript
 
     **javascript**
     
