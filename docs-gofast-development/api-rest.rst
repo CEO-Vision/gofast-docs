@@ -334,7 +334,7 @@ Implémentations
 
         import requests
 
-        url = "https://gofast.DOMAINE.TLD/api/node/node?title=teste API"
+        url = "https://gofast.DOMAIN.TLD/api/node/node?title=teste API"
 
         files = {
             'locations': (None, '["/Sites/_Groups/_test API"]'),
@@ -375,7 +375,7 @@ Implémentations
 
     .. code-block:: javascript
 
-        const url = "https://gofast.DOMAINE.TLD/api/node/node?title=teste API";
+        const url = "https://gofast.DOMAIN.TLD/api/node/node?title=teste API";
 
         const formData = new FormData();
         formData.append('gids', '["/Sites/_Groups/_test API"]');
@@ -400,7 +400,7 @@ Implémentations
 
         <?php
 
-        $url = "https://gofast.DOMAINE.TLD/api/node/node?title=teste API";
+        $url = "https://gofast.DOMAIN.TLD/api/node/node?title=teste API";
 
         $data = array(
             'gids' => '["/Sites/_Groups/_test API"]',
@@ -497,7 +497,7 @@ Cette méthode permet de récupérer les métadonnées associés aux entités de
     
     .. code-block:: javascript
     
-        const url = 'https://DOMAINE.TLD/api/node/metadata?nid=X';
+        const url = 'https://gofastDOMAIN.TLD/api/node/metadata?nid=X';
         const headers = new Headers({
             'Authorization': 'Basic XXX'
         });
@@ -515,7 +515,7 @@ Cette méthode permet de récupérer les métadonnées associés aux entités de
     .. code-block:: PHP
     
         <?php
-        $url = 'https://DOMAINE.TLD/api/node/metadata?nid=X';
+        $url = 'https://gofast.DOMAIN.TLD/api/node/metadata?nid=X';
         $options = [
             'http' => [
                 'header'  => "Authorization: "Basic XXX",
@@ -596,7 +596,7 @@ Cette méthode permet de mettre à jour les métadonnées associés aux entités
     
         import requests
         
-        url = "https://DOMAINE.TLD/api/node/metadata"
+        url = "https://gofast.DOMAIN.TLD/api/node/metadata"
         data = {
             "nid": XXX,
             "uid": XXX,
@@ -638,7 +638,7 @@ Cette méthode permet de mettre à jour les métadonnées associés aux entités
     
     .. code-block:: javascript
     
-        const url = "https://DOMAINE.TLD/api/node/metadata";
+        const url = "https://gofast.DOMAIN.TLD/api/node/metadata";
         const params = new URLSearchParams({
             nid: "xxx"
             uid: "xxx"
@@ -662,7 +662,7 @@ Cette méthode permet de mettre à jour les métadonnées associés aux entités
     
         <?php
         
-        $url = "https://DOMAINE.TLD/api/node/metadata";
+        $url = "https://gofast.DOMAIN.TLD/api/node/metadata";
         $params = array(
             "nid" => xxx,
             "uid" => xxx,
@@ -785,7 +785,7 @@ Cette méthode permet de récupérer les emplacements des contenus associés aux
     
         import requests
         
-        url = "https://DOMAINE.TLD/api/node/locations?nid=XXX"
+        url = "https://gofast.DOMAIN.TLD/api/node/locations?nid=XXX"
         headers = {
         	"Content-Type": "application/json"
         }
@@ -805,7 +805,7 @@ Cette méthode permet de récupérer les emplacements des contenus associés aux
     
     .. code-block:: javascript
     
-        const url = "https://DOMAINE.TLD/api/node/locations?nid=XXX";
+        const url = "https://gofast.DOMAIN.TLD/api/node/locations?nid=XXX";
         const headers = new Headers({
             "Authorization": "Basic XXX"
         });
@@ -830,10 +830,10 @@ Cette méthode permet de récupérer les emplacements des contenus associés aux
         $curl = curl_init();
         
         curl_setopt_array($curl, array(
-            CURLOPT_URL => "https://gofast-dev.ceo-vision.com/api/node/locations?nid=8675",
+            CURLOPT_URL => "https://gofast.DOMAIN.TLD/api/node/locations?nid=XXX",
             CURLOPT_RETURNTRANSFER => true,
             CURLOPT_HTTPHEADER => array(
-                "Authorization: Basic JUA1Nl5udE1hNGR0aTRyUzdXN0U"
+                "Authorization: Basic XXX"
             ),
         ));
         
@@ -891,6 +891,95 @@ Cette méthode permet de modifier les emplacements des contenus associés aux en
 |locations              | Tableau indexé contenant les emplacements après vidage du cache. |
 +-----------------------+------------------------------------------------------------------+
 
+**implementation**
+
+.. dropdown:: Cliquez ici pour voir l'implémentation python
+    :animate: fade-in-slide-down
+
+    **python**
+    
+    .. code-block:: python
+
+    import requests
+    
+    url = "https://gofast.DOMAINE.TLD/api/node/locations"
+    data = {
+        "location[]": "/Sites/_Groups/_test APi",
+        "nid": "xx"
+    }
+    
+    response = requests.put(url, data=data)
+    
+    print(response.status_code)
+    print(response.json())
+
+
+
+.. dropdown:: Cliquez ici pour voir l'implémentation javascript
+    :animate: fade-in-slide-down
+
+    **javascript**
+    
+    .. code-block:: javascript
+
+    const url = "https://gofast.DOMAINE.TLD/api/node/locations";
+    const data = new URLSearchParams({
+        "location[]": "/Sites/_Groups/_test APi",
+        "nid": "xx"
+    });
+    
+    fetch(url, {
+        method: 'PUT',
+        headers: {
+            'Content-Type': 'application/x-www-form-urlencoded'
+        },
+        body: data
+    })
+    .then(response => response.json())
+    .then(data => console.log(data))
+    .catch(error => console.error('Error:', error));
+
+
+.. dropdown:: Cliquez ici pour voir l'implémentation PHP
+    :animate: fade-in-slide-down
+
+    **PHP**
+    
+    .. code-block:: PHP
+
+    <?php
+    
+    $url = "https://gofast.DOMAINE.TLD/api/node/locations";
+    $data = [
+        "location[]" => "/Sites/_Groups/_test APi",
+        "nid" => "xx"
+    ];
+    
+    $options = [
+        CURLOPT_URL => $url,
+        CURLOPT_CUSTOMREQUEST => "PUT",
+        CURLOPT_POSTFIELDS => http_build_query($data),
+        CURLOPT_RETURNTRANSFER => true,
+        CURLOPT_HTTPHEADER => [
+            'Content-Type: application/x-www-form-urlencoded'
+        ]
+    ];
+    
+    $ch = curl_init();
+    curl_setopt_array($ch, $options);
+    $response = curl_exec($ch);
+    curl_close($ch);
+    
+    echo $response;
+    ?>
+
+
+
+
+    
+
+
+
 POST
 __________
 
@@ -942,7 +1031,7 @@ Cette méthode permet d'ajouter ou de supprimer des emplacements des contenus as
     
     import requests
     
-    url = "https://gofast-dev.ceo-vision.com/api/node/locations"
+    url = "https://GOFAST.DOMAIN.TLD/api/node/locations"
     data = {
         "location[]": "/Sites/_Groups/_test APi",
         "nid": "xx"
@@ -961,7 +1050,7 @@ Cette méthode permet d'ajouter ou de supprimer des emplacements des contenus as
     
     .. code-block:: javascript
     
-    const url = "https://gofast-dev.ceo-vision.com/api/node/locations";
+    const url = "https://gofast.DOMAIN.TLD/api/node/locations";
     const data = new URLSearchParams({
         "location[]": "/Sites/_Groups/_test APi",
         "nid": "xx"
@@ -989,7 +1078,7 @@ Cette méthode permet d'ajouter ou de supprimer des emplacements des contenus as
     
     <?php
     
-    $url = "https://gofast-dev.ceo-vision.com/api/node/locations";
+    $url = "https://gofast.DOMAIN.TLD/api/node/locations";
     $data = [
         "location[]" => "/Sites/_Groups/_test APi",
         "nid" => "xx"
@@ -1065,7 +1154,7 @@ Le contenu du retour de la requête est le contenu du document.
 
     import requests
     
-    url = 'https://gofast.DOMAINE.TLD/api/node/content'
+    url = 'https://gofast.DOMAIN.TLD/api/node/content'
     
     headers = {
         'Authorization': 'Basic XXXX',
@@ -1088,7 +1177,7 @@ Le contenu du retour de la requête est le contenu du document.
 
 .. code-block:: javascript
 
-    const url = 'https://gofast.DOMAINE.TLD/api/node/content';
+    const url = 'https://gofast.DOMAIN.TLD/api/node/content';
     
     const headers = new Headers();
     headers.append('Authorization', 'Basic XXX');
@@ -1114,7 +1203,7 @@ Le contenu du retour de la requête est le contenu du document.
 
 .. code-block:: PHP
 
-    $url = 'https://gofast.DOMAINE.TLD/api/node/content';
+    $url = 'https://gofast.DOMAIN.TLD/api/node/content';
     
     $headers = [
         'Authorization: Basic JUA1Nl5udE1hNGR0aTRyUzdXN0U',
