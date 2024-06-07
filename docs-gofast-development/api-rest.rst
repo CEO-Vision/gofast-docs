@@ -188,7 +188,6 @@ Implémentations
                 print(f"An error occurred: {e}")
 
 
-    .. tab:: JavaScript
 
         **JavaScript**
 
@@ -221,7 +220,6 @@ Implémentations
             });
 
 
-    .. tab:: PHP
 
         **PHP**
 
