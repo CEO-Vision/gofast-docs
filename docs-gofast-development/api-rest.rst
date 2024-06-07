@@ -1175,11 +1175,12 @@ Le contenu du retour de la requête est le contenu du document.
         print(response.status_code)
         print(response.text)
 
-.. dropdown:: Cliquez ici pour voir l'implémentation javscript
+
+.. dropdown:: Cliquez ici pour voir l'implémentation JavaScript
     :animate: fade-in-slide-down
 
-    **javascript**
-    
+    **JavaScript**
+
     .. code-block:: javascript
     
         const url = 'https://gofast.DOMAIN.TLD/api/node/content';
@@ -1203,7 +1204,6 @@ Le contenu du retour de la requête est le contenu du document.
         .then(response => response.text())
         .then(result => console.log(result))
         .catch(error => console.log('error', error));
-
 
 .. dropdown:: Cliquez ici pour voir l'implémentation PHP
     :animate: fade-in-slide-down
