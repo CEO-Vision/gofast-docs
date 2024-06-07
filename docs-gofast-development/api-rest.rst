@@ -146,9 +146,6 @@ Cette méthode permet de récupérer des informations génériques d'une entité
 +-----------------------+----------------------------------------------------+
 Implémentations
 ===============
-.. tabs::
-
-    .. tab:: Python
 
     **Python**
 
