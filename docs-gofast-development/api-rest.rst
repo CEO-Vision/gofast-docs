@@ -1212,6 +1212,7 @@ Le contenu du retour de la requête est le contenu du document.
         .then(result => console.log(result))
         .catch(error => console.log('error', error));
 
+
 .. dropdown:: Cliquez ici pour voir l'implémentation PHP
     :animate: fade-in-slide-down
 
@@ -1222,31 +1223,31 @@ Le contenu du retour de la requête est le contenu du document.
     **PHP**
     
     .. code-block:: PHP
-    
-        $url = 'https://gofast.DOMAIN.TLD/api/node/content';
-        
-        $headers = [
-            'Authorization: Basic XXX',
-            'Content-Type: application/octet-stream',
-            'Content-Disposition: attachment'
-        ];
-        
-        $data = [
-            'nid' => 'XXX',
-            'username' => 'USERNAME',
-            'password' => 'PASSWORD'
-        ];
-        
-        $ch = curl_init($url);
-        curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
-        curl_setopt($ch, CURLOPT_POST, 1);
-        curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($data));
-        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-        
-        $response = curl_exec($ch);
-        curl_close($ch);
-        
-        echo $response;
+
+     $url = 'https://gofast.DOMAIN.TLD/api/node/content';
+            
+            $headers = [
+                'Authorization: Basic XXX',
+                'Content-Type: application/octet-stream',
+                'Content-Disposition: attachment'
+            ];
+            
+            $data = [
+                'nid' => 'XXX',
+                'username' => 'USERNAME',
+                'password' => 'PASSWORD'
+            ];
+            
+            $ch = curl_init($url);
+            curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
+            curl_setopt($ch, CURLOPT_POST, 1);
+            curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($data));
+            curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+            
+            $response = curl_exec($ch);
+            curl_close($ch);
+            
+            echo $response;
 
 
 POST
