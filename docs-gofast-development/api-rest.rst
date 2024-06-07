@@ -187,6 +187,7 @@ Implémentations
                 # Handle any exceptions (e.g., network issues)
                 print(f"An error occurred: {e}")
 
+
     .. tab:: JavaScript
 
         **JavaScript**
@@ -218,6 +219,7 @@ Implémentations
             .catch(error => {
                 console.error('There has been a problem with your fetch operation:', error);
             });
+
 
     .. tab:: PHP
 
