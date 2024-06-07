@@ -1845,6 +1845,8 @@ Cette méthode permet d'archiver un document associé à une entité de type noe
 |     nid           |N° du noeud                                                         |
 +-------------------+--------------------------------------------------------------------+
 
+
+
 Action : status
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -1925,6 +1927,82 @@ Cette méthode permet de récupérer la publication d’un document si elle exis
 |  status           |1: Publié, 0: Dépublié                                              |
 +-------------------+--------------------------------------------------------------------+
 
+**implementation**
+
+.. dropdown:: Cliquez ici pour voir l'implémentation python
+    :animate: fade-in-slide-down
+
+    **python**
+    
+    .. code-block:: python
+
+    import requests
+    
+    url = 'https://gofast.DOMAIN.TLD/api/node/publication?nid=XX'
+    
+    response = requests.post(url)
+    if response.status_code == 200:
+        result = response.json()
+        if result.get('publication_nid') is not None:
+            print("Publication successful")
+        else:
+            print("Publication failed")
+    else:
+        print("Failed to publish:", response.text)
+
+
+.. dropdown:: Cliquez ici pour voir l'implémentation javscript
+    :animate: fade-in-slide-down
+
+    **javascript**
+    
+    .. code-block:: javascript
+
+    const url = 'https://gofast.DOMAIN.TLD/api/node/publication?nid=XXX';
+    
+    fetch(url, {
+        method: 'POST'
+    })
+    .then(response => response.json())
+    .then(result => {
+        if (result.publication_nid !== null) {
+            console.log("Publication successful");
+        } else {
+            console.log("Publication failed");
+        }
+    })
+    .catch(error => console.log('Failed to publish:', error));
+
+
+.. dropdown:: Cliquez ici pour voir l'implémentation PHP
+    :animate: fade-in-slide-down
+
+    **PHP**
+    
+    .. code-block:: PHP
+
+    <?PHP
+    $url = 'https://gofast.DOMAIN.TLD/api/node/publication?nid=XXX';
+    
+    $ch = curl_init($url);
+    curl_setopt($ch, CURLOPT_POST, true);
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+    
+    $response = curl_exec($ch);
+    if ($response === false) {
+        echo "Failed to publish:", curl_error($ch);
+    } else {
+        $result = json_decode($response, true);
+        if ($result['publication_nid'] !== null) {
+            echo "Publication successful";
+        } else {
+            echo "Publication failed";
+        }
+    }
+    
+    curl_close($ch);
+
+
 POST
 __________
 
@@ -1961,6 +2039,110 @@ Cette méthode permet de créer une publication à partir d’un document Alfres
 +===================+====================================================================+
 |publication_nid    |N° du noeud de la publication                                       |
 +-------------------+--------------------------------------------------------------------+
+
+**Implementaton** 
+
+.. dropdown:: Cliquez ici pour voir l'implémentation python
+    :animate: fade-in-slide-down
+
+    **python**
+    
+    .. code-block:: python
+
+    import requests
+    
+    url = "https://gofast.DOMAIN.TLD/api/node/publication"
+    params = {
+        "nid": "XXX",
+        "locations[]": "/Sites/_Groups/_test API",
+        "publication_nid": "XXX"
+    }
+    data = {
+        "publication_nid": "XXX"
+    }
+    
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",
+        "Accept": "application/json",
+    }
+    
+    auth = ("USERNAME", "PASSWORD")
+    
+    try:
+        response = requests.post(url, params=params, json=data, headers=headers, auth=auth)
+        response.raise_for_status()
+    
+        print(response.status_code)
+        print(response.json())
+    except requests.exceptions.HTTPError as http_err:
+        print(f"Erreur HTTP: {http_err}")
+        print(f"Contenu de la réponse: {response.text}")
+    except requests.exceptions.ConnectionError as conn_err:
+        print(f"Erreur de connexion: {conn_err}")
+    except requests.exceptions.Timeout as timeout_err:
+        print(f"Délai d'attente dépassé: {timeout_err}")
+    except requests.exceptions.RequestException as req_err:
+        print(f"Erreur de requête: {req_err}")
+        print(f"Contenu de la réponse: {response.text}")
+    
+.. dropdown:: Cliquez ici pour voir l'implémentation javscript
+    :animate: fade-in-slide-down
+
+    **javascript**
+    
+    .. code-block:: javascript
+
+    const url = "https://gofast.DOAMIN.TLD/api/node/publication";
+    const params = new URLSearchParams({
+        nid: "XXX",
+        "locations[]": "/Sites/_Groups/_test API",
+        publication_nid: "XXX"
+    });
+    const body = {
+        publication_nid: "XXX"
+    };
+    
+    fetch(`${url}?${params.toString()}`, {
+        method: "POST",
+        headers: {
+            "Content-Type": "application/json"
+        },
+        body: JSON.stringify(body)
+    })
+    .then(response => response.json())
+    .then(data => {
+        console.log(data);
+    })
+    .catch(error => {
+        console.error("Error:", error);
+    });
+
+
+.. dropdown:: Cliquez ici pour voir l'implémentation PHP
+    :animate: fade-in-slide-down
+
+    **PHP**
+    
+    .. code-block:: PHP
+    
+    <?php
+    $url = "https://gofast.DOMAIN.TLD/api/node/publication?nid=XXX&locations[]=/Sites/_Groups/_test API&publication_nid=XXX";
+    $data = json_encode(array("publication_nid" => "XXX"));
+    
+    $ch = curl_init($url);
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+    curl_setopt($ch, CURLOPT_POST, true);
+    curl_setopt($ch, CURLOPT_HTTPHEADER, array(
+        'Content-Type: application/json',
+        'Content-Length: ' . strlen($data))
+    );
+    curl_setopt($ch, CURLOPT_POSTFIELDS, $data);
+    
+    $response = curl_exec($ch);
+    curl_close($ch);
+    
+    echo $response;
+
 
 
 Action : autocomplete
@@ -2003,6 +2185,115 @@ Cette méthode permet de récupérer une liste de noeuds en fonction de la chain
 +=======================+===========================================================+
 |uid                    | Quelques informations de base sur l'utilisateur           |
 +-----------------------+-----------------------------------------------------------+
+
+**Implementation**
+
+.. dropdown:: Cliquez ici pour voir l'implémentation python
+    :animate: fade-in-slide-down
+
+    **python**
+    
+    .. code-block:: python
+
+    import requests
+    import json
+    
+    def autocompleteAPIRequest(inputText, bundles="alfresco_item"):
+        url = "https://gofast.DOMAIN.TLD/api/node/autocomplete"
+        headers = {
+            "Authorization": "Basic XXX",
+            "Content-Type": "application/json"
+        }
+        auth = ("USERNAME", "PASSWORD")
+    
+        params = {
+            "nid": "str",
+            "bundles": bundles
+        }
+        data = json.dumps({"input": inputText})
+    
+        response = requests.post(url, headers=headers, params=params, data=data, auth=auth)
+        return response.json()
+    
+    # Utilisation de la fonction
+    inputText = "8875"
+    response = autocompleteAPIRequest(inputText)
+    print(response)
+
+
+.. dropdown:: Cliquez ici pour voir l'implémentation javscript
+    :animate: fade-in-slide-down
+
+    **javascript**
+    
+    .. code-block:: javascript
+
+    async function autocompleteAPIRequest(inputText, bundles = "alfresco_item") {
+        const url = "https://gofast.DOMAIN.TLD/api/node/autocomplete";
+        const headers = {
+            "Authorization": "Basic XXX",
+            "Content-Type": "application/json"
+        };
+        const params = new URLSearchParams({
+            "nid": "str",
+            "bundles": bundles
+        });
+        const data = JSON.stringify({ "input": inputText });
+    
+        const response = await fetch(`${url}?${params.toString()}`, {
+            method: 'POST',
+            headers: headers,
+            body: data
+        });
+    
+        return response.json();
+    }
+    
+    // Utilisation de la fonction
+    const inputText = "XXX";
+    autocompleteAPIRequest(inputText)
+        .then(response => console.log(response))
+        .catch(error => console.error(error));
+
+
+.. dropdown:: Cliquez ici pour voir l'implémentation PHP
+    :animate: fade-in-slide-down
+
+    **PHP**
+    
+    .. code-block:: PHP
+
+    <?PHP
+    function autocompleteAPIRequest($inputText, $bundles = "alfresco_item") {
+        $url = "https://gofast.DOMAIN.TLD/api/node/autocomplete";
+        $headers = array(
+            "Authorization: Basic XXX",
+            "Content-Type: application/json"
+        );
+        $params = array(
+            "nid" => "str",
+            "bundles" => $bundles
+        );
+        $data = json_encode(array("input" => $inputText));
+    
+        $options = array(
+            'http' => array(
+                'header'  => implode("\r\n", $headers),
+                'method'  => 'POST',
+                'content' => $data
+            )
+        );
+        $context  = stream_context_create($options);
+        $response = file_get_contents("$url?" . http_build_query($params), false, $context);
+    
+        return json_decode($response, true);
+    }
+    
+    // Utilisation de la fonction
+    $inputText = "XXX";
+    $response = autocompleteAPIRequest($inputText);
+    print_r($response);
+    
 
 Ressource : comment
 **********************
