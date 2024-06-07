@@ -776,74 +776,82 @@ Cette méthode permet de récupérer les emplacements des contenus associés aux
 
 *Implémentation:*
 
-**python**
+.. dropdown:: Cliquez ici pour voir l'implémentation Python
+    :animate: fade-in-slide-down
 
-.. code-block:: python
-
-    import requests
+    **python**
     
-    url = "https://DOMAINE.TLD/api/node/locations?nid=XXX"
-    headers = {
-    	"Content-Type": "application/json"
-    }
-    auth = ("USERNAME", "PASSWORD")
+    .. code-block:: python
     
-    response = requests.get(url, headers=headers, auth=auth)
-    
-    if response.status_code == 200:
-        print(response.json())
-    else:
-        print(f"Error: {response.status_code}")
-
-
-**javascript**
-
-.. code-block:: javascript
-
-    const url = "https://DOMAINE.TLD/api/node/locations?nid=XXX";
-    const headers = new Headers({
-        "Authorization": "Basic XXX"
-    });
-    
-    fetch(url, { headers: headers })
-        .then(response => {
-            if (!response.ok) {
-                throw new Error(`Error: ${response.status}`);
-            }
-            return response.json();
-        })
-        .then(data => console.log(data))
-        .catch(error => console.error('Error:', error));
-
-**PHP**
-
-.. code-block:: PHP
-    
-    $curl = curl_init();
-    
-    curl_setopt_array($curl, array(
-        CURLOPT_URL => "https://gofast-dev.ceo-vision.com/api/node/locations?nid=8675",
-        CURLOPT_RETURNTRANSFER => true,
-        CURLOPT_HTTPHEADER => array(
-            "Authorization: Basic JUA1Nl5udE1hNGR0aTRyUzdXN0U"
-        ),
-    ));
-    
-    $response = curl_exec($curl);
-    
-    if (curl_errno($curl)) {
-        echo 'Error:' . curl_error($curl);
-    } else {
-        $httpcode = curl_getinfo($curl, CURLINFO_HTTP_CODE);
-        if ($httpcode == 200) {
-            $data = json_decode($response, true);
-            print_r($data);
-        } else {
-            echo "Error: HTTP Status " . $httpcode;
+        import requests
+        
+        url = "https://DOMAINE.TLD/api/node/locations?nid=XXX"
+        headers = {
+        	"Content-Type": "application/json"
         }
-    }
+        auth = ("USERNAME", "PASSWORD")
+        
+        response = requests.get(url, headers=headers, auth=auth)
+        
+        if response.status_code == 200:
+            print(response.json())
+        else:
+            print(f"Error: {response.status_code}")
+
+.. dropdown:: Cliquez ici pour voir l'implémentation javascript
+    :animate: fade-in-slide-down
+
+    **javascript**
     
-    curl_close($curl);
+    .. code-block:: javascript
+    
+        const url = "https://DOMAINE.TLD/api/node/locations?nid=XXX";
+        const headers = new Headers({
+            "Authorization": "Basic XXX"
+        });
+        
+        fetch(url, { headers: headers })
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error(`Error: ${response.status}`);
+                }
+                return response.json();
+            })
+            .then(data => console.log(data))
+            .catch(error => console.error('Error:', error));
+
+.. dropdown:: Cliquez ici pour voir l'implémentation PHP
+    :animate: fade-in-slide-down
+
+    **PHP**
+    
+    .. code-block:: PHP
+        
+        $curl = curl_init();
+        
+        curl_setopt_array($curl, array(
+            CURLOPT_URL => "https://gofast-dev.ceo-vision.com/api/node/locations?nid=8675",
+            CURLOPT_RETURNTRANSFER => true,
+            CURLOPT_HTTPHEADER => array(
+                "Authorization: Basic JUA1Nl5udE1hNGR0aTRyUzdXN0U"
+            ),
+        ));
+        
+        $response = curl_exec($curl);
+        
+        if (curl_errno($curl)) {
+            echo 'Error:' . curl_error($curl);
+        } else {
+            $httpcode = curl_getinfo($curl, CURLINFO_HTTP_CODE);
+            if ($httpcode == 200) {
+                $data = json_decode($response, true);
+                print_r($data);
+            } else {
+                echo "Error: HTTP Status " . $httpcode;
+            }
+        }
+        
+        curl_close($curl);
 
 
 PUT
@@ -921,6 +929,90 @@ Cette méthode permet d'ajouter ou de supprimer des emplacements des contenus as
 +-----------------------+------------------------------------------------------------------+
 |delete                 | Boolean 1 = suppression; 0 = ajout.                              |
 +-----------------------+------------------------------------------------------------------+
+
+**implementation**
+=============================
+
+.. dropdown:: Cliquez ici pour voir l'implémentation python
+    :animate: fade-in-slide-down
+
+    **python**
+    
+    .. code-block:: PHP
+    
+    import requests
+    
+    url = "https://gofast-dev.ceo-vision.com/api/node/locations"
+    data = {
+        "location[]": "/Sites/_Groups/_test APi",
+        "nid": "xx"
+    }
+    
+    response = requests.post(url, data=data)
+    
+    print(response.status_code)
+    print(response.json())
+
+
+.. dropdown:: Cliquez ici pour voir l'implémentation javscript
+    :animate: fade-in-slide-down
+
+    **javascript**
+    
+    .. code-block:: javascript
+    
+    const url = "https://gofast-dev.ceo-vision.com/api/node/locations";
+    const data = new URLSearchParams({
+        "location[]": "/Sites/_Groups/_test APi",
+        "nid": "xx"
+    });
+    
+    fetch(url, {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/x-www-form-urlencoded'
+        },
+        body: data
+    })
+    .then(response => response.json())
+    .then(data => console.log(data))
+    .catch(error => console.error('Error:', error));
+
+
+
+.. dropdown:: Cliquez ici pour voir l'implémentation javscript
+    :animate: fade-in-slide-down
+
+    **PHP**
+    
+    .. code-block:: PHP
+    
+    <?php
+    
+    $url = "https://gofast-dev.ceo-vision.com/api/node/locations";
+    $data = [
+        "location[]" => "/Sites/_Groups/_test APi",
+        "nid" => "xx"
+    ];
+    
+    $options = [
+        CURLOPT_URL => $url,
+        CURLOPT_POST => true,
+        CURLOPT_POSTFIELDS => http_build_query($data),
+        CURLOPT_RETURNTRANSFER => true,
+        CURLOPT_HTTPHEADER => [
+            'Content-Type: application/x-www-form-urlencoded'
+        ]
+    ];
+    
+    $ch = curl_init();
+    curl_setopt_array($ch, $options);
+    $response = curl_exec($ch);
+    curl_close($ch);
+    
+    echo $response;
+    ?>
+
 
 
 
