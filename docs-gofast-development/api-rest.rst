@@ -147,6 +147,10 @@ Cette méthode permet de récupérer des informations génériques d'une entité
 Implémentations
 ===============
 
+.. tabs::
+
+    .. tab:: Python
+
 .. dropdown:: Cliquez ici pour voir l'implémentation Python
     :animate: fade-in-slide-down
 
