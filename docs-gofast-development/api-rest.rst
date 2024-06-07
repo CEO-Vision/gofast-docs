@@ -467,7 +467,7 @@ Cette méthode permet de récupérer les métadonnées associés aux entités de
 
 *Implémentation:*
 
-.. dropdown:: Cliquez ici pour voir l'implémentation PHP
+.. dropdown:: Cliquez ici pour voir l'implémentation python
     :animate: fade-in-slide-down
     
     **python**
@@ -490,7 +490,7 @@ Cette méthode permet de récupérer les métadonnées associés aux entités de
         
         print(json.dumps(data, indent=4))
 
-.. dropdown:: Cliquez ici pour voir l'implémentation PHP
+.. dropdown:: Cliquez ici pour voir l'implémentation javascript
     :animate: fade-in-slide-down
 
     **javascript**
@@ -587,88 +587,96 @@ Cette méthode permet de mettre à jour les métadonnées associés aux entités
 
 *Implémentation:*
 
-**python**
-    
-.. code-block:: python
+.. dropdown:: Cliquez ici pour voir l'implémentation python
+    :animate: fade-in-slide-down
 
-    import requests
+    **python**
+        
+    .. code-block:: python
     
-    url = "https://DOMAINE.TLD/api/node/metadata"
-    data = {
-        "nid": XXX,
-        "uid": XXX,
-        "title": "teste API",
-        "nulid": XXX,
-        "description": "",
-        "field_category": "XX"
-    }
-    
-    headers = {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",
-        "Accept": "application/json",
-        "Content-Type": "application/json"
-    }
-    
-    auth = ("USERNAME", "PASSWORD")
-    
-    try:
-        response = requests.post(url, json=data, headers=headers, auth=auth)
-        response.raise_for_status()
-    
-        data = response.json()
-        print(data)
-    except requests.exceptions.HTTPError as http_err:
-        print(f"Erreur HTTP: {http_err}")
-        print(f"Contenu de la réponse: {response.text}")
-    except requests.exceptions.ConnectionError as conn_err:
-        print(f"Erreur de connexion: {conn_err}")
-    except requests.exceptions.Timeout as timeout_err:
-        print(f"Délai d'attente dépassé: {timeout_err}")
-    except requests.exceptions.RequestException as req_err:
-        print(f"Erreur de requête: {req_err}")
-        print(f"Contenu de la réponse: {response.text}")
+        import requests
+        
+        url = "https://DOMAINE.TLD/api/node/metadata"
+        data = {
+            "nid": XXX,
+            "uid": XXX,
+            "title": "teste API",
+            "nulid": XXX,
+            "description": "",
+            "field_category": "XX"
+        }
+        
+        headers = {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",
+            "Accept": "application/json",
+            "Content-Type": "application/json"
+        }
+        
+        auth = ("USERNAME", "PASSWORD")
+        
+        try:
+            response = requests.post(url, json=data, headers=headers, auth=auth)
+            response.raise_for_status()
+        
+            data = response.json()
+            print(data)
+        except requests.exceptions.HTTPError as http_err:
+            print(f"Erreur HTTP: {http_err}")
+            print(f"Contenu de la réponse: {response.text}")
+        except requests.exceptions.ConnectionError as conn_err:
+            print(f"Erreur de connexion: {conn_err}")
+        except requests.exceptions.Timeout as timeout_err:
+            print(f"Délai d'attente dépassé: {timeout_err}")
+        except requests.exceptions.RequestException as req_err:
+            print(f"Erreur de requête: {req_err}")
+            print(f"Contenu de la réponse: {response.text}")
 
+.. dropdown:: Cliquez ici pour voir l'implémentation javascript
+    :animate: fade-in-slide-down
 
-**javascript**
-
-.. code-block:: javascript
-
-    const url = "https://DOMAINE.TLD/api/node/metadata";
-    const params = new URLSearchParams({
-        nid: "xxx"
-        uid: "xxx"
-        title: "xxx"
-        nulid: "xxx"
-        description: "xxx",
-        field_category: "xxx"
-    });
+    **javascript**
     
-    fetch(`${url}?${params}`)
-        .then(response => response.json())
-        .then(data => console.log(data))
-        .catch(error => console.error('Error:', error));
-
-**PHP**
-
-.. code-block:: PHP
-
-    <?php
+    .. code-block:: javascript
     
-    $url = "https://DOMAINE.TLD/api/node/metadata";
-    $params = array(
-        "nid" => xxx,
-        "uid" => xxx,
-        "title" => "xxx",
-        "nulid" => xxx,
-        "description" => "xxx",
-        "field_category" => "xxx"
-    );
+        const url = "https://DOMAINE.TLD/api/node/metadata";
+        const params = new URLSearchParams({
+            nid: "xxx"
+            uid: "xxx"
+            title: "xxx"
+            nulid: "xxx"
+            description: "xxx",
+            field_category: "xxx"
+        });
+        
+        fetch(`${url}?${params}`)
+            .then(response => response.json())
+            .then(data => console.log(data))
+            .catch(error => console.error('Error:', error));
+
+.. dropdown:: Cliquez ici pour voir l'implémentation PHP
+    :animate: fade-in-slide-down
+
+    **PHP**
     
-    $fullUrl = $url . '?' . http_build_query($params);
-    $response = file_get_contents($fullUrl);
-    $data = json_decode($response, true);
+    .. code-block:: PHP
     
-    print_r($data);
+        <?php
+        
+        $url = "https://DOMAINE.TLD/api/node/metadata";
+        $params = array(
+            "nid" => xxx,
+            "uid" => xxx,
+            "title" => "xxx",
+            "nulid" => xxx,
+            "description" => "xxx",
+            "field_category" => "xxx"
+        );
+        
+        $fullUrl = $url . '?' . http_build_query($params);
+        $response = file_get_contents($fullUrl);
+        $data = json_decode($response, true);
+        
+        print_r($data);
 
 
 PATCH
