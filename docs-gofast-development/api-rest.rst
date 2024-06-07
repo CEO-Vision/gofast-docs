@@ -150,7 +150,7 @@ Implémentations
 
 .. tabs::
 
-    .. tab:: 
+    .. tab:: python
 
         **Python**
 
