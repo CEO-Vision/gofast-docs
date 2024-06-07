@@ -394,34 +394,34 @@ Les types de noeud disponibles sont :
     
     .. dropdown:: Cliquez ici pour voir l'implémentation JavaScript
         :animate: fade-in-slide-down
-
-**PHP**
-
-.. code-block:: PHP
-
-    <?php
-    
-    $url = "https://gofast.DOMAINE.TLD/api/node/node?title=teste API";
-    
-    $data = array(
-        'gids' => '["/Sites/_Groups/_test API"]',
-        'title' => 'teste API2',
-        'type' => 'alfresco_item',
-        'body' => 'Content of the body file here'
-    );
-    
-    $ch = curl_init();
-    curl_setopt($ch, CURLOPT_URL, $url);
-    curl_setopt($ch, CURLOPT_POST, 1);
-    curl_setopt($ch, CURLOPT_POSTFIELDS, http_build_query($data));
-    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-    
-    $response = curl_exec($ch);
-    curl_close($ch);
-    
-    $responseData = json_decode($response, true);
-    print_r($responseData);
-    ?>
+        
+        **PHP**
+        
+        .. code-block:: PHP
+        
+            <?php
+            
+            $url = "https://gofast.DOMAINE.TLD/api/node/node?title=teste API";
+            
+            $data = array(
+                'gids' => '["/Sites/_Groups/_test API"]',
+                'title' => 'teste API2',
+                'type' => 'alfresco_item',
+                'body' => 'Content of the body file here'
+            );
+            
+            $ch = curl_init();
+            curl_setopt($ch, CURLOPT_URL, $url);
+            curl_setopt($ch, CURLOPT_POST, 1);
+            curl_setopt($ch, CURLOPT_POSTFIELDS, http_build_query($data));
+            curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+            
+            $response = curl_exec($ch);
+            curl_close($ch);
+            
+            $responseData = json_decode($response, true);
+            print_r($responseData);
+            ?>
 
 
 Action : metadata
