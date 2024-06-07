@@ -1146,88 +1146,107 @@ Cette méthode permet de récupérer le contenu Alfresco associé à un noeud.
 
 Le contenu du retour de la requête est le contenu du document.
 
-*Implémentation:*
+**Implémentation:**
 
-**python**
+.. dropdown:: Cliquez ici pour voir l'implémentation python
+    :animate: fade-in-slide-down
 
-.. code-block:: python
+    **python**
+    
+    .. code-block:: python
 
-    import requests
+    **python**
     
-    url = 'https://gofast.DOMAIN.TLD/api/node/content'
+    .. code-block:: python
     
-    headers = {
-        'Authorization': 'Basic XXXX',
-        'Content-Type': 'application/octet-stream',
-        'Content-Disposition': 'attachment'
-    }
-    
-    data = {
-        'nid': 'XXX',
-        'username': 'USERNAME',
-        'password': 'PASSWORD'
-    }
-    
-    response = requests.post(url, headers=headers, json=data)
-    print(response.status_code)
-    print(response.text)
+        import requests
+        
+        url = 'https://gofast.DOMAIN.TLD/api/node/content'
+        
+        headers = {
+            'Authorization': 'Basic XXXX',
+            'Content-Type': 'application/octet-stream',
+            'Content-Disposition': 'attachment'
+        }
+        
+        data = {
+            'nid': 'XXX',
+            'username': 'USERNAME',
+            'password': 'PASSWORD'
+        }
+        
+        response = requests.post(url, headers=headers, json=data)
+        print(response.status_code)
+        print(response.text)
 
+.. dropdown:: Cliquez ici pour voir l'implémentation javscript
+    :animate: fade-in-slide-down
 
-**javascript**
+    **javascript**
+    
+    .. code-block:: javascript
 
-.. code-block:: javascript
+    **javascript**
+    
+    .. code-block:: javascript
+    
+        const url = 'https://gofast.DOMAIN.TLD/api/node/content';
+        
+        const headers = new Headers();
+        headers.append('Authorization', 'Basic XXX');
+        headers.append('Content-Type', 'application/octet-stream');
+        headers.append('Content-Disposition', 'attachment');
+        
+        const data = {
+            nid: '8675',
+            username: 'USERNAME',
+            password: 'PASSWORD'
+        };
+        
+        fetch(url, {
+            method: 'POST',
+            headers: headers,
+            body: JSON.stringify(data)
+        })
+        .then(response => response.text())
+        .then(result => console.log(result))
+        .catch(error => console.log('error', error));
 
-    const url = 'https://gofast.DOMAIN.TLD/api/node/content';
-    
-    const headers = new Headers();
-    headers.append('Authorization', 'Basic XXX');
-    headers.append('Content-Type', 'application/octet-stream');
-    headers.append('Content-Disposition', 'attachment');
-    
-    const data = {
-        nid: '8675',
-        username: 'USERNAME',
-        password: 'PASSWORD'
-    };
-    
-    fetch(url, {
-        method: 'POST',
-        headers: headers,
-        body: JSON.stringify(data)
-    })
-    .then(response => response.text())
-    .then(result => console.log(result))
-    .catch(error => console.log('error', error));
+.. dropdown:: Cliquez ici pour voir l'implémentation PHP
+    :animate: fade-in-slide-down
 
-**PHP**
+    **PHP**
+    
+    .. code-block:: PHP
 
-.. code-block:: PHP
-
-    $url = 'https://gofast.DOMAIN.TLD/api/node/content';
+    **PHP**
     
-    $headers = [
-        'Authorization: Basic JUA1Nl5udE1hNGR0aTRyUzdXN0U',
-        'Content-Type: application/octet-stream',
-        'Content-Disposition: attachment'
-    ];
+    .. code-block:: PHP
     
-    $data = [
-        'nid' => '8675',
-        'username' => 'allan_muzeya_1234567777687857ljljh',
-        'password' => '%@56^ntMa4dti4rS7W7E'
-    ];
-    
-    $ch = curl_init($url);
-    curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
-    curl_setopt($ch, CURLOPT_POST, 1);
-    curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($data));
-    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-    
-    $response = curl_exec($ch);
-    curl_close($ch);
-    
-    echo $response;
-
+        $url = 'https://gofast.DOMAIN.TLD/api/node/content';
+        
+        $headers = [
+            'Authorization: Basic XXX',
+            'Content-Type: application/octet-stream',
+            'Content-Disposition: attachment'
+        ];
+        
+        $data = [
+            'nid' => 'XXX',
+            'username' => 'USERNAME',
+            'password' => 'PASSWORD'
+        ];
+        
+        $ch = curl_init($url);
+        curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
+        curl_setopt($ch, CURLOPT_POST, 1);
+        curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($data));
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+        
+        $response = curl_exec($ch);
+        curl_close($ch);
+        
+        echo $response;
 
 
 POST
@@ -1279,6 +1298,117 @@ Cette méthode permet de remplacer le contenu Alfresco associé à un noeud en c
 +===================+========================================+
 |success            | 1: OK, 0: Erreur                       |
 +-------------------+----------------------------------------+
+
+**Implementation**
+
+.. dropdown:: Cliquez ici pour voir l'implémentation python
+    :animate: fade-in-slide-down
+
+    **python**
+    
+    .. code-block:: python
+
+    import requests
+    
+    url = "https://gofast.domain.tld/api/node/content"
+    data = "location[]=/Sites/_Groups/_test API&title=teste API"
+    
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",
+        "Accept": "application/json",
+        "Content-Type": "application/x-www-form-urlencoded"
+    }
+    
+    auth = ("username", "password")
+    
+    try:
+        response = requests.post(url, data=data, headers=headers, auth=auth)
+        response.raise_for_status()
+    
+        data = response.json()
+        print(data)
+    except requests.exceptions.HTTPError as http_err:
+        print(f"Erreur HTTP: {http_err}")
+        print(f"Contenu de la réponse: {response.text}")
+    except requests.exceptions.ConnectionError as conn_err:
+        print(f"Erreur de connexion: {conn_err}")
+    except requests.exceptions.Timeout as timeout_err:
+        print(f"Délai d'attente dépassé: {timeout_err}")
+    except requests.exceptions.RequestException as req_err:
+        print(f"Erreur de requête: {req_err}")
+        print(f"Contenu de la réponse: {response.text}")
+
+
+.. dropdown:: Cliquez ici pour voir l'implémentation javscript
+    :animate: fade-in-slide-down
+
+    **javascript**
+    
+    .. code-block:: javascript
+
+    const url = "https://gofast.DOMAINE.TLD/api/node/content";
+    const params = new URLSearchParams({
+        "location[]": "/Sites/_Groups/_test API",
+        "title": "teste API"
+    });
+    
+    fetch(`${url}?${params.toString()}`)
+        .then(response => {
+            if (!response.ok) {
+                throw new Error('Network response was not ok ' + response.statusText);
+            }
+            return response.json();
+        })
+        .then(data => console.log(data))
+        .catch(error => console.error('There was a problem with your fetch operation:', error));
+    
+    .. dropdown:: Cliquez ici pour voir l'implémentation PHP
+        :animate: fade-in-slide-down
+
+    **PHP**
+    
+    .. code-block:: PHP
+
+    <?php
+    
+    $url = "https://gofast.DOMAINE.TLD/api/node/content";
+    $params = [
+        "location[]" => "/Sites/_Groups/_test API",
+        "title" => "teste API"
+    ];
+    
+    $queryString = http_build_query($params);
+    $fullUrl = "{$url}?{$queryString}";
+    
+    $options = [
+        CURLOPT_URL => $fullUrl,
+        CURLOPT_RETURNTRANSFER => true,
+        CURLOPT_HTTPHEADER => [
+            'Content-Type: application/x-www-form-urlencoded'
+        ]
+    ];
+    
+    $ch = curl_init();
+    curl_setopt_array($ch, $options);
+    $response = curl_exec($ch);
+    
+    if (curl_errno($ch)) {
+        echo 'Error:' . curl_error($ch);
+    } else {
+        $httpStatus = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+        if ($httpStatus >= 200 && $httpStatus < 300) {
+            $data = json_decode($response, true);
+            print_r($data);
+        } else {
+            echo "Request failed with status: $httpStatus\n";
+            echo "Response: $response\n";
+        }
+    }
+    
+    curl_close($ch);
+    ?>
+    
+
 
 Action : preview
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
