@@ -321,7 +321,13 @@ Les types de noeud disponibles sont :
 |nid                | N° du noeud                            |
 +-------------------+----------------------------------------+
 
+.. dropdown:: Cliquez ici pour voir l'implémentation JavaScript
+    :animate: fade-in-slide-down
+
 *Implémentation:*
+
+.. dropdown:: Cliquez ici pour voir l'implémentation JavaScript
+    :animate: fade-in-slide-down
 
 **python**
 
@@ -363,6 +369,9 @@ Les types de noeud disponibles sont :
         print(f"Erreur de requête: {req_err}")
         print(f"Contenu de la réponse: {response.text}")
 
+.. dropdown:: Cliquez ici pour voir l'implémentation JavaScript
+    :animate: fade-in-slide-down
+
 **javascript**
 
 
@@ -383,6 +392,9 @@ Les types de noeud disponibles sont :
     .then(response => response.json())
     .then(data => console.log(data))
     .catch(error => console.error('Error:', error));
+
+.. dropdown:: Cliquez ici pour voir l'implémentation JavaScript
+    :animate: fade-in-slide-down
 
 **PHP**
 
