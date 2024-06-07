@@ -467,61 +467,70 @@ Cette méthode permet de récupérer les métadonnées associés aux entités de
 
 *Implémentation:*
 
-**python**
-
-.. code-block:: python
-
-
-    import requests
-    import json
+.. dropdown:: Cliquez ici pour voir l'implémentation PHP
+    :animate: fade-in-slide-down
     
-    url = "https://gofast.DOMAIN.TLD/api/node/metadata?nid=X"
-    headers = {
-        "Authorization": "Basic XXX"
-    }
+    **python**
     
-    auth = ("USERNAME", "PASSWORD")
+    .. code-block:: python
     
-    response = requests.get(url, headers=headers, auth=auth)
-    data = response.json()
     
-    print(json.dumps(data, indent=4))
+        import requests
+        import json
+        
+        url = "https://gofast.DOMAIN.TLD/api/node/metadata?nid=X"
+        headers = {
+            "Authorization": "Basic XXX"
+        }
+        
+        auth = ("USERNAME", "PASSWORD")
+        
+        response = requests.get(url, headers=headers, auth=auth)
+        data = response.json()
+        
+        print(json.dumps(data, indent=4))
 
-**javascript**
+.. dropdown:: Cliquez ici pour voir l'implémentation PHP
+    :animate: fade-in-slide-down
 
-.. code-block:: javascript
-
-    const url = 'https://DOMAINE.TLD/api/node/metadata?nid=X';
-    const headers = new Headers({
-        'Authorization': 'Basic XXX'
-    });
+    **javascript**
     
-    fetch(url, { headers: headers })
-        .then(response => response.json())
-        .then(data => console.log(JSON.stringify(data, null, 4)))
-        .catch(error => console.error('Error:', error));
-
-***PHP**
-
-.. code-block:: PHP
-
-    <?php
-    $url = 'https://DOMAINE.TLD/api/node/metadata?nid=X';
-    $options = [
-        'http' => [
-            'header'  => "Authorization: "Basic XXX",
-            'method'  => 'GET',
-        ]
-    ];
-    $context  = stream_context_create($options);
-    $response = file_get_contents($url, false, $context);
-    if ($response === FALSE) {
-        die('Error occurred');
-    }
+    .. code-block:: javascript
     
-    $data = json_decode($response, true);
-    echo '<pre>' . print_r($data, true) . '</pre>';
-    ?>
+        const url = 'https://DOMAINE.TLD/api/node/metadata?nid=X';
+        const headers = new Headers({
+            'Authorization': 'Basic XXX'
+        });
+        
+        fetch(url, { headers: headers })
+            .then(response => response.json())
+            .then(data => console.log(JSON.stringify(data, null, 4)))
+            .catch(error => console.error('Error:', error));
+
+.. dropdown:: Cliquez ici pour voir l'implémentation PHP
+    :animate: fade-in-slide-down
+
+    ***PHP**
+    
+    .. code-block:: PHP
+    
+        <?php
+        $url = 'https://DOMAINE.TLD/api/node/metadata?nid=X';
+        $options = [
+            'http' => [
+                'header'  => "Authorization: "Basic XXX",
+                'method'  => 'GET',
+            ]
+        ];
+        $context  = stream_context_create($options);
+        $response = file_get_contents($url, false, $context);
+        if ($response === FALSE) {
+            die('Error occurred');
+        }
+        
+        $data = json_decode($response, true);
+        echo '<pre>' . print_r($data, true) . '</pre>';
+        ?>
 
 POST
 __________
