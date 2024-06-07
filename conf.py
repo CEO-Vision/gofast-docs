@@ -38,8 +38,10 @@ gettext_uuid = True
 #make gettext
 #sphinx-intl update -p _build/locale fr
 
+# conf.py
 extensions = [
-    'sphinx_design',
+    'sphinx_design', 
+    'sphinx_togglebutton', 
 ]
 
 
