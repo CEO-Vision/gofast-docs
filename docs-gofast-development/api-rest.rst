@@ -1445,6 +1445,96 @@ Le contenu du retour de la requête est le contenu de la prévisualisation PDF d
 
 **Iplementation**
 
+.. dropdown:: Cliquez ici pour voir l'implémentation python
+    :animate: fade-in-slide-down
+
+    **python**
+    
+    .. code-block:: python
+
+    import requests
+    from requests.auth import HTTPBasicAuth
+    
+    url = 'https://gofast.DOMAIN.TLD/api/node/preview?nid=8675'
+    
+    # En-têtes de la requête
+    headers = {
+        'Content-Type': 'application/pdf',
+        'Content-Disposition': 'attachment'
+    }
+    
+    # Informations d'authentification
+    username = 'USERNAME'
+    password = 'PASSWORD'
+    
+    # Faire la requête GET avec authentification de base
+    response = requests.get(url, headers=headers, auth=HTTPBasicAuth(username, password))
+    
+    # Afficher le statut et la réponse
+    print(response.status_code)
+    print(response.text)
+
+
+.. dropdown:: Cliquez ici pour voir l'implémentation javscript
+    :animate: fade-in-slide-down
+
+    **javascript**
+    
+    .. code-block:: javascript
+
+    const url = 'https://gofast.DOMAIN.TLD/api/node/preview?nid=8675';
+    
+    const headers = new Headers();
+    headers.append('Authorization', 'Basic JUA1Nl5udE1hNGR0aTRyUzdXN0U');
+    headers.append('Content-Type', 'application/pdf');
+    headers.append('Content-Disposition', 'attachment');
+    
+    const data = {
+        username: 'USERNAME',
+        password: 'PASSWORD'
+    };
+    
+    fetch(url, {
+        method: 'POST',
+        headers: headers,
+        body: JSON.stringify(data)
+    })
+    .then(response => response.text())
+    .then(result => console.log(result))
+    .catch(error => console.log('error', error));
+
+
+.. dropdown:: Cliquez ici pour voir l'implémentation PHP
+    :animate: fade-in-slide-down
+
+    **PHP**
+    
+    .. code-block:: PHP
+    
+    <?php
+    $url = 'https://gofast-dev.ceo-vision.com/api/node/preview?nid=8675';
+    
+    $headers = [
+        'Authorization: Basic JUA1Nl5udE1hNGR0aTRyUzdXN0U',
+        'Content-Type: application/pdf',
+        'Content-Disposition: attachment'
+    ];
+    
+    $data = [
+        'username' => 'USERNAME',
+        'password' => 'PASSWORD'
+    ];
+    
+    $ch = curl_init($url);
+    curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
+    curl_setopt($ch, CURLOPT_POST, 1);
+    curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($data));
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+    
+    $response = curl_exec($ch);
+    curl_close($ch);
+    
+    echo $response;
 
 
 
@@ -1490,6 +1580,104 @@ Cette méthode permet de récupérer un lien vers une prévisualisations PDF ass
 +=======================+====================================================+
 |link                   |  Lien vers la prévisualisation                     |
 +-----------------------+----------------------------------------------------+
+
+**Implementation**
+
+.. dropdown:: Cliquez ici pour voir l'implémentation python
+    :animate: fade-in-slide-down
+
+    **python**
+    
+    .. code-block:: python
+    
+    import requests
+    
+    url = 'https://gofast.DOMAIN.TLD/api/node/preview_link?nid=8675'
+    
+    headers = {
+        'Authorization': 'Basic XXX',
+        'Content-Type': 'application/json'
+    }
+    
+    data = {
+        'username': 'username',
+        'password': 'PASSWORD'
+    }
+    
+    response = requests.post(url, headers=headers, json=data)
+    if response.status_code == 200:
+        result = response.json()
+        print("Preview link:", result.get('link', ''))
+    else:
+        print("print to get preview link:", response.text)
+
+
+.. dropdown:: Cliquez ici pour voir l'implémentation javscript
+    :animate: fade-in-slide-down
+
+    **javascript**
+    
+    .. code-block:: javascript
+
+    const url = 'https://gofast.DOMAIN.TLD/api/node/preview_link?nid=8675';
+    
+    const headers = new Headers();
+    headers.append('Authorization', 'Basic XXX');
+    headers.append('Content-Type', 'application/json');
+    
+    const data = {
+        username: 'USERNAME',
+        password: 'PASSWORD'
+    };
+    
+    fetch(url, {
+        method: 'POST',
+        headers: headers,
+        body: JSON.stringify(data)
+    })
+    .then(response => response.json())
+    .then(result => {
+        console.log("Preview link:", result.link);
+    })
+    .catch(error => console.log('Failed to get preview link:', error));
+
+
+.. dropdown:: Cliquez ici pour voir l'implémentation PHP
+    :animate: fade-in-slide-down
+
+    **PHP**
+    
+    .. code-block:: PHP
+ 
+    <?php
+    $url = 'https://gofast.DOMAIN.TLD/api/node/preview_link?nid=8675';
+    
+    $headers = [
+        'Authorization: Basic XXX',
+        'Content-Type: application/json'
+    ];
+    
+    $data = [
+        'username' => 'USERNAME',
+        'password' => 'PASSWORD'
+    ];
+    
+    $ch = curl_init($url);
+    curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
+    curl_setopt($ch, CURLOPT_POST, 1);
+    curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($data));
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+    
+    $response = curl_exec($ch);
+    if ($response === false) {
+        echo "Failed to get preview link:", curl_error($ch);
+    } else {
+        $result = json_decode($response, true);
+        echo "Preview link:", $result['link'];
+    }
+    
+    curl_close($ch);
+
 
 Action : version
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -1537,51 +1725,85 @@ Cette méthode permet de récupérer les versions d'un contenu Alfresco associé
 |comment                | Commentaire associé à la version                   |
 +-----------------------+----------------------------------------------------+
 
-Action : versions
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+**Implementation**
 
-Cette action permet d'intéragir avec les versions des contenus Alfresco associés aux entités de type noeud
+.. dropdown:: Cliquez ici pour voir l'implémentation python
+    :animate: fade-in-slide-down
 
-GET
-__________
+    **python**
+    
+    .. code-block:: python
 
-Cette méthode permet de récupérer les versions des contenus Alfresco associés à une entité de type noeud
+    import requests
+    
+    url = 'https://gofast.DOMAIN.TLD/api/node/versions?nid=XXX'
+    
+    response = requests.get(url)
+    if response.status_code == 200:
+        result = response.json()
+        versions = result.get('list', [])
+        html = result.get('html', '')
+        print("Versions:")
+        for version in versions:
+            print(f"Version: {version['version']}, Type: {version['type']}, Creator: {version['creator']}")
+        print("HTML:", html)
+    else:
+        print("Failed to get versions:", response.text)
 
-*GET: /api/node/versions*
 
-+-------------------+--------------------------+
-|  Header           |   Valeur                 |
-+===================+==========================+
-|Content-Type       | application/json         |
-+-------------------+--------------------------+
+.. dropdown:: Cliquez ici pour voir l'implémentation javscript
+    :animate: fade-in-slide-down
 
-+-------------------+--------------------------+
-|  GET Parameter    |   Valeur                 |
-+===================+==========================+
-|    nid*           |N° du noeud               |
-+-------------------+--------------------------+
+    **javascript**
+    
+    .. code-block:: javascript
 
-*Retour:*
+    const url = 'https://gofast.DOMAIN.TLD/api/node/versions?nid=XXX';
+    
+    fetch(url)
+    .then(response => response.json())
+    .then(result => {
+        const versions = result.list || [];
+        const html = result.html || '';
+        console.log("Versions:");
+        versions.forEach(version => {
+            console.log(`Version: ${version.version}, Type: ${version.type}, Creator: ${version.creator}`);
+        });
+        console.log("HTML:", html);
+    })
+    .catch(error => console.log('Failed to get versions:', error));
 
-+-------------------+----------------------------------------+
-|   Header          |   Valeur                               |
-+===================+========================================+
-|Content-Type       | application/json                       |
-+-------------------+----------------------------------------+
 
-+-----------------------+----------------------------------------------------+
-|   Clé                 |   Valeur                                           |
-+=======================+====================================================+
-|creator                | Identifiant des créateur des versions              |
-+-----------------------+----------------------------------------------------+
-|type                   | MINOR : Version mineure, MAJOR : Version majeure   |
-+-----------------------+----------------------------------------------------+
-|created                | Timestamp de la création des versions              |
-+-----------------------+----------------------------------------------------+
-|version                | N° des versions                                    |
-+-----------------------+----------------------------------------------------+
-|comment                | Commentaire associé aux versions                   |
-+-----------------------+----------------------------------------------------+
+.. dropdown:: Cliquez ici pour voir l'implémentation PHP
+    :animate: fade-in-slide-down
+
+    **PHP**
+    
+    .. code-block:: PHP
+
+    <?php
+    $url = 'https://gofast.DOMAIN.TLD/api/node/versions?nid=XX';
+    
+    $ch = curl_init($url);
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+    
+    $response = curl_exec($ch);
+    if ($response === false) {
+        echo "Failed to get versions:", curl_error($ch);
+    } else {
+        $result = json_decode($response, true);
+        $versions = $result['list'] ?? [];
+        $html = $result['html'] ?? '';
+        echo "Versions:\n";
+        foreach ($versions as $version) {
+            echo "Version: {$version['version']}, Type: {$version['type']}, Creator: {$version['creator']}\n";
+        }
+        echo "HTML: $html\n";
+    }
+    
+    curl_close($ch);
+
+
 
 Action : archive
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
