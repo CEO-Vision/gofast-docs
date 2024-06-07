@@ -321,80 +321,79 @@ Les types de noeud disponibles sont :
 |nid                | N° du noeud                            |
 +-------------------+----------------------------------------+
 
-.. dropdown:: Cliquez ici pour voir l'implémentation JavaScript
-    :animate: fade-in-slide-down
 
 *Implémentation:*
+====================================
 
 .. dropdown:: Cliquez ici pour voir l'implémentation JavaScript
     :animate: fade-in-slide-down
 
-**python**
-
-.. code-block:: python
-
-    import requests
+    **python**
     
-    url = "https://gofast.DOMAINE.TLD/api/node/node?title=teste API"
+    .. code-block:: python
     
-    files = {
-        'locations': (None, '["/Sites/_Groups/_test API"]'),
-        'title': (None, 'teste API2'),
-        'type': (None, 'alfresco_item'),
-        'body': (None, 'Content of the body file here'),
-        'file': ('file.txt', open('file.txt', 'rb'))  # Remplacez 'file.txt' par le chemin de votre fichier
-    }
-    
-    headers = {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",
-        "Accept": "application/json",
-    }
-    
-    auth = ("USERNAME", "PASSWORD")
-    
-    try:
-        response = requests.post(url, files=files, headers=headers, auth=auth)
-        response.raise_for_status()
-    
-        data = response.json()
-        print(data)
-    except requests.exceptions.HTTPError as http_err:
-        print(f"Erreur HTTP: {http_err}")
-        print(f"Contenu de la réponse: {response.text}")
-    except requests.exceptions.ConnectionError as conn_err:
-        print(f"Erreur de connexion: {conn_err}")
-    except requests.exceptions.Timeout as timeout_err:
-        print(f"Délai d'attente dépassé: {timeout_err}")
-    except requests.exceptions.RequestException as req_err:
-        print(f"Erreur de requête: {req_err}")
-        print(f"Contenu de la réponse: {response.text}")
-
-.. dropdown:: Cliquez ici pour voir l'implémentation JavaScript
-    :animate: fade-in-slide-down
-
-**javascript**
-
-
-.. code-block:: javascript
-
-    const url = "https://gofast.DOMAINE.TLD/api/node/node?title=teste API";
-    
-    const formData = new FormData();
-    formData.append('gids', '["/Sites/_Groups/_test API"]');
-    formData.append('title', 'teste API2');
-    formData.append('type', 'alfresco_item');
-    formData.append('body', 'Content of the body file here');
-    
-    fetch(url, {
-        method: 'POST',
-        body: formData
-    })
-    .then(response => response.json())
-    .then(data => console.log(data))
-    .catch(error => console.error('Error:', error));
+        import requests
+        
+        url = "https://gofast.DOMAINE.TLD/api/node/node?title=teste API"
+        
+        files = {
+            'locations': (None, '["/Sites/_Groups/_test API"]'),
+            'title': (None, 'teste API2'),
+            'type': (None, 'alfresco_item'),
+            'body': (None, 'Content of the body file here'),
+            'file': ('file.txt', open('file.txt', 'rb'))  # Remplacez 'file.txt' par le chemin de votre fichier
+        }
+        
+        headers = {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",
+            "Accept": "application/json",
+        }
+        
+        auth = ("USERNAME", "PASSWORD")
+        
+        try:
+            response = requests.post(url, files=files, headers=headers, auth=auth)
+            response.raise_for_status()
+        
+            data = response.json()
+            print(data)
+        except requests.exceptions.HTTPError as http_err:
+            print(f"Erreur HTTP: {http_err}")
+            print(f"Contenu de la réponse: {response.text}")
+        except requests.exceptions.ConnectionError as conn_err:
+            print(f"Erreur de connexion: {conn_err}")
+        except requests.exceptions.Timeout as timeout_err:
+            print(f"Délai d'attente dépassé: {timeout_err}")
+        except requests.exceptions.RequestException as req_err:
+            print(f"Erreur de requête: {req_err}")
+            print(f"Contenu de la réponse: {response.text}")
 
 .. dropdown:: Cliquez ici pour voir l'implémentation JavaScript
     :animate: fade-in-slide-down
+
+    **javascript**
+
+
+    .. code-block:: javascript
+    
+        const url = "https://gofast.DOMAINE.TLD/api/node/node?title=teste API";
+        
+        const formData = new FormData();
+        formData.append('gids', '["/Sites/_Groups/_test API"]');
+        formData.append('title', 'teste API2');
+        formData.append('type', 'alfresco_item');
+        formData.append('body', 'Content of the body file here');
+        
+        fetch(url, {
+            method: 'POST',
+            body: formData
+        })
+        .then(response => response.json())
+        .then(data => console.log(data))
+        .catch(error => console.error('Error:', error));
+    
+    .. dropdown:: Cliquez ici pour voir l'implémentation JavaScript
+        :animate: fade-in-slide-down
 
 **PHP**
 
