@@ -145,12 +145,13 @@ Cette méthode permet de récupérer des informations génériques d'une entité
 |alfresco_reference     | Référence du contenu Alfresco associé au noeud     |
 +-----------------------+----------------------------------------------------+
 
+
 Implémentations
 ===============
 
 .. tabs::
 
-    .. tab:: python
+    .. tab:: Python
 
         **Python**
 
@@ -259,6 +260,7 @@ Implémentations
             // Close the cURL session
             curl_close($ch);
             ?>
+
 
 POST
 __________
