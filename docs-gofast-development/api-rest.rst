@@ -322,20 +322,20 @@ Les types de noeud disponibles sont :
 +-------------------+----------------------------------------+
 
 
-*Implémentation:*
-====================================
+Implémentations
+===============
 
-.. dropdown:: Cliquez ici pour voir l'implémentation JavaScript
+.. dropdown:: Cliquez ici pour voir l'implémentation Python
     :animate: fade-in-slide-down
 
-    **python**
-    
+    **Python**
+
     .. code-block:: python
-    
+
         import requests
-        
+
         url = "https://gofast.DOMAINE.TLD/api/node/node?title=teste API"
-        
+
         files = {
             'locations': (None, '["/Sites/_Groups/_test API"]'),
             'title': (None, 'teste API2'),
@@ -343,18 +343,18 @@ Les types de noeud disponibles sont :
             'body': (None, 'Content of the body file here'),
             'file': ('file.txt', open('file.txt', 'rb'))  # Remplacez 'file.txt' par le chemin de votre fichier
         }
-        
+
         headers = {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",
             "Accept": "application/json",
         }
-        
+
         auth = ("USERNAME", "PASSWORD")
-        
+
         try:
             response = requests.post(url, files=files, headers=headers, auth=auth)
             response.raise_for_status()
-        
+
             data = response.json()
             print(data)
         except requests.exceptions.HTTPError as http_err:
@@ -371,19 +371,18 @@ Les types de noeud disponibles sont :
 .. dropdown:: Cliquez ici pour voir l'implémentation JavaScript
     :animate: fade-in-slide-down
 
-    **javascript**
-
+    **JavaScript**
 
     .. code-block:: javascript
-    
+
         const url = "https://gofast.DOMAINE.TLD/api/node/node?title=teste API";
-        
+
         const formData = new FormData();
         formData.append('gids', '["/Sites/_Groups/_test API"]');
         formData.append('title', 'teste API2');
         formData.append('type', 'alfresco_item');
         formData.append('body', 'Content of the body file here');
-        
+
         fetch(url, {
             method: 'POST',
             body: formData
@@ -391,37 +390,37 @@ Les types de noeud disponibles sont :
         .then(response => response.json())
         .then(data => console.log(data))
         .catch(error => console.error('Error:', error));
-    
-    .. dropdown:: Cliquez ici pour voir l'implémentation JavaScript
-        :animate: fade-in-slide-down
-        
-        **PHP**
-        
-        .. code-block:: PHP
-        
-            <?php
-            
-            $url = "https://gofast.DOMAINE.TLD/api/node/node?title=teste API";
-            
-            $data = array(
-                'gids' => '["/Sites/_Groups/_test API"]',
-                'title' => 'teste API2',
-                'type' => 'alfresco_item',
-                'body' => 'Content of the body file here'
-            );
-            
-            $ch = curl_init();
-            curl_setopt($ch, CURLOPT_URL, $url);
-            curl_setopt($ch, CURLOPT_POST, 1);
-            curl_setopt($ch, CURLOPT_POSTFIELDS, http_build_query($data));
-            curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-            
-            $response = curl_exec($ch);
-            curl_close($ch);
-            
-            $responseData = json_decode($response, true);
-            print_r($responseData);
-            ?>
+
+.. dropdown:: Cliquez ici pour voir l'implémentation PHP
+    :animate: fade-in-slide-down
+
+    **PHP**
+
+    .. code-block:: php
+
+        <?php
+
+        $url = "https://gofast.DOMAINE.TLD/api/node/node?title=teste API";
+
+        $data = array(
+            'gids' => '["/Sites/_Groups/_test API"]',
+            'title' => 'teste API2',
+            'type' => 'alfresco_item',
+            'body' => 'Content of the body file here'
+        );
+
+        $ch = curl_init();
+        curl_setopt($ch, CURLOPT_URL, $url);
+        curl_setopt($ch, CURLOPT_POST, 1);
+        curl_setopt($ch, CURLOPT_POSTFIELDS, http_build_query($data));
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+
+        $response = curl_exec($ch);
+        curl_close($ch);
+
+        $responseData = json_decode($response, true);
+        print_r($responseData);
+        ?>
 
 
 Action : metadata
