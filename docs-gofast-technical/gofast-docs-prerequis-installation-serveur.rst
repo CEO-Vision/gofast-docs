@@ -26,7 +26,7 @@ Pré-requis et installation Serveur
 Architecture
 ------------
 
-.. figure:: media/image7.png
+.. figure:: media/schema-architecture1.png
    :alt: 
 
 
