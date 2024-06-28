@@ -1,13 +1,11 @@
-
+********************************************
+GoFAST :  API REST 
+********************************************
 
 
 Menu
 ====
 
-
-********************************************
-GoFAST :  API REST 
-********************************************
 
 L'API REST de GoFAST permet aux développeurs d'intéragir avec l'application de manière programmative. Vous trouverez sur cette page toutes les informations nécessaires à l'exploitation de cette API.
 
