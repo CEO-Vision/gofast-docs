@@ -188,7 +188,6 @@ Liste des métadonnées standards GoFAST :
  - Catégories de document (ex. Facture, Rapport, Contrat, Documentation…) 
  - Etat (ex : brouillon, en cours, en attente de validation, terminé…) 
  - Note (de 1 à 5 avec un unique vote par utilisateur) 
- - Popularité (dépende des consultations et actions récentes sur le document) 
  - Référence documentaire  
  - Échéance
  - Classification (permet de classer le documennt selon différentes catégories)
