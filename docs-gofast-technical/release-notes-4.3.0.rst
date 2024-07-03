@@ -91,7 +91,7 @@ Bugs
 
     "GOFAST-11426","Bug","Edition / gestion des fichiers CSV"
     "GOFAST-11629","Bug","[FIREFOX][LINUX] Edition en ligne impossible"
-    "GOFAST-11773","Bug","[ONLYOFFICE][RETEST] Copié collé d'image reste bloqué sur 'Chargement d'une image'"
+    "GOFAST-11773","Bug","[ONLYOFFICE] Copié collé d'image reste bloqué sur 'Chargement d'une image'"
     "GOFAST-11783","Bug","Erreur de synchronisation annuaire LDAP"
     "GOFAST-11803","Bug","Connexion SASL non fonctionnelle"
     "GOFAST-11827","Bug","Les forums et les wikis ne se filtrent pas en fonction de l'espace dans lequel on navigue"
