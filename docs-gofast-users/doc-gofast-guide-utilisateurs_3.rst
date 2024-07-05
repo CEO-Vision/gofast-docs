@@ -576,24 +576,6 @@ Pour sélectionner un processus et le démarrer depuis la barre d’accès rapid
 .. NOTE::
    L'affichage des échéances de Workflow se fait dans le calendrier des espaces où se trouvent les documents ainsi que dans l’espace personnel.
 
-Lorsque vous démarrez un modèle, une fenêtre s'affiche pour renseigner le workflow : 
- - Titre de votre processus
- - Date de l'échéance
- - Commentaire
- - Document(s) : rechercher les documents par leur nom ou leur numéro de node
- - Possibilité de générer une publication PDF avant la validation.
-
-.. figure:: media-guide/workflow_creation1.png
-
-
-Puis, on peut choisir : étapes de travail et étapes de validation. Il est possible de choisir pour chaque tâche une date d'expiration. 
-
-.. figure:: media-guide/workflow_creation2.png
-
-
-Les champs avec des étoiles sont à remplir obligatoirement
-
-
 Démarrer un processus depuis la page d'un document
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Pour sélectionner un processus et le démarrer depuis la page d’un document :
@@ -626,15 +608,17 @@ Renseigner le formulaire du processus de tâches
 Une fois que le processus souhaité est sélectionné, le formulaire associé s’ouvre et vous permet de renseigner les diverses informations nécessaires. 
 Le formulaire proposé et donc les champs à renseigner, sont totalement dépendants du processus choisi. 
 
-.. figure:: media-guide/Ecran-GoFAST_Workflows_formulaire-processus-standard.png
+.. figure:: media-guide/workflow_creation1.png
    :alt:
 
 **Focus sur les champs "Document(s)" et "Assignation(s)" du formulaire :** 
 Dans le cas du processus standard, parmi les champs proposés il y a les documents associés et les personnes à assigner. 
 
-Pour correctement renseigner ces champs, il est nécessaire de commencer à saisir le nom du document ou d’un utilisateur (minimum 3 caractères), puis cliquer sur la suggestion pour valider son choix. 
+Pour correctement renseigner ces champs, il est nécessaire de commencer à saisir le nom du document, d’un utilisateur (minimum 3 caractères),ou encore le nom d'une liste d'utilisateur, puis de cliquer sur la suggestion pour valider son choix. 
 
-Que ce soit pour les documents ou les assignations, vous avez la possibilité de cliquer sur "+" pour ajouter des champs supplémentaires, ou sur la corbeille pour en enlever. 
+Que ce soit pour les documents ou les assignations, vous avez la possibilité de cliquer sur "+" pour ajouter des champs supplémentaires, ou sur la corbeille pour en enlever. Il est possible de choisir pour chaque tâche une date d'expiration. 
+
+.. figure:: media-guide/workflow_creation2.png
 
 Enfin, pour lancer le processus, il suffit de cliquer sur "Envoyer" (en bas du formulaire).
 
