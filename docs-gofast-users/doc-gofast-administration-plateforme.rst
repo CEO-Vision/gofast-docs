@@ -318,6 +318,15 @@ GoFAST propose une liste standard des « Catégories » applicables sur les docu
 .. NOTE::
    Seules les catégories non-standard peuvent être édités 
 
+Date personnalisée 
+----------------------
+Il est possible de configurer un champ date, dans les métadonnés : 
+
+.. figure:: media-guide/date_custom1.png
+
+Rendez-vous dans **GoFAST Configuration**, puis dans **Documents** ensuite, dans **Date personnalisée** vous pouvez donner un nom au champ optionnel de la date. 
+
+.. figure:: media-guide/date_custom2.png
 
 Configuration : DUA (Durée de l'Utilité Administrative)
 ------------------------------------------------------------------------

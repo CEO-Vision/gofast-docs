@@ -9,7 +9,7 @@ Introduction
 
 Ce guide vous apprend à utiliser GoFAST de la manière la plus efficace possible, avec de nombreuses copies d'écran de la plateforme, qui vous guident pas à pas. Il vous explique tous les "trucs et astuces", les raccourcis et les différentes manières de faire une même action sur les documents, contenus, Espaces Collaboratifs, utilisateurs, etc.
 
-.. NOTE:: Nous vous recommandons de lire la rubrique "Les bonnes pratiques avec GoFAST" et visionner la vidéo de démonstration :  https://mautic.ceo-vision.com/asset/81:fr-videodecouvrir-gofast-digital-workplace-et-ged-collaborative-open-source 
+.. NOTE:: Nous vous recommandons de visionner la vidéo de démonstration: https://mautic.ceo-vision.com/asset/109:demo-gofast-standard
 
 .. NOTE:: Des forums de la communauté d’utilisateurs est disponible pour échanger avec les équipes de l’éditeur CEO-Vision, n'hésitez pas à vous créer un compte : https://community.ceo-vision.com
    
