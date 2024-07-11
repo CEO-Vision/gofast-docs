@@ -22,7 +22,7 @@ Ces outils complémentaires permettent :
 .. IMPORTANT:: CEO-Vision ne peut pas garantir le bon fonctionnement de ces logiciels tiers même si nous avons testé à un moment donné  (et pas forcément de façon exhaustive) leur fonctionnement
 
 Couplage messagerie BlueMind et GoFAST
---------------------------------------
+-------------------------------------- 
 Il est désormais possible de synchroniser vos conférences et réunions créées dans BlueMind avec votre calendrier GoFast. Cette fonctionnalité vous permet également de générer des liens de conférence Jitsi.
 
 Pour lier votre compte BlueMind à GoFast, suivez ces étapes :
