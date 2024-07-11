@@ -174,7 +174,7 @@ Vous pouvez donc utiliser l'application pour votre téléphone suivant :
 
 Pour configurer ces clients il suffit d’entrer l'adresse de votre serveur GoFAST (avec -comm) :
 
-L'indentifiant et le mot de passe à renseigner sont ceux que vous utilisez pour vous connecter à votre plateforme GoFAST.
+L'identifiant et le mot de passe à renseigner sont ceux que vous utilisez pour vous connecter à votre plateforme GoFAST.
 
 |image22|
 
