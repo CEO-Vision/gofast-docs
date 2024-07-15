@@ -3,8 +3,7 @@ GoFAST :  Version 4.3.0
 
 **[GoFAST Enterprise]** N’hésitez pas à solliciter notre support pour planifier la mise à jour.
 
-Release 1 
----------
+**Release 1**
 
 Nouvelles fonctionnalités 
 *****************************
@@ -60,8 +59,7 @@ Bugs
     "GOFAST-11559","Bug","Rétablissement de l'icône 'Cloche' dans le chat pour les citations temps réelles"
     "GOFAST-10982","Bug","Mise en conformité de l'emplacement des logs de Synapse (chat)"
 
-Release 2
------------
+**Release 2**
 
 Nouvelles fonctionnalités 
 *****************************
