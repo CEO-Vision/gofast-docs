@@ -363,7 +363,7 @@ Configuration : Règles de nommage
 Une règle de nommage permet de structurer et d'organiser les fichiers. Elle est appliquée lors de la selection d'une catégorie sur un document. 
 
 
-Appliquer une règle de nommage 
+Créer une règle de nommage 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  - Via le menu principal de gauche, allez dans « GoFAST Configuration »
  - Sur la page de configuration, allez dans le menu « Catégories »
@@ -380,6 +380,14 @@ Appliquer une règle de nommage
 Pour appliquer la règle, rendez-vous sur le document voulu et sélectionnez la catégorie configurée dans l'onglet Catégorie. Un message s'affichera pour confirmer le changement de nom du document.
 
 .. figure:: media-guide/filtre2.png
+
+Vous pouvez aussi appliquer la règle de nommage à tout les documents ayant déjà une catégorie :
+- Rendez-vous dans « GoFAST Configuration », puis "Catégorie" 
+- Vous pouvez cocher le ou les règles de nommage que vous voulez appliquer, puis cliquer sur le menu burger et sur "Appliquer les règles de nommage".  
+
+.. figure:: media-guide/règlesdenommage1.png
+
+
 
 Supprimer une règle de nommage 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
