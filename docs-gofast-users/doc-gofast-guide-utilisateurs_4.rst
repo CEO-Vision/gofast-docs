@@ -429,24 +429,20 @@ Accueil : Tableau de bord
 Affiche les divers blocs de votre tableau de bord. 
 
 
-
-Accueil : Documents
-------------------------------
-Pour descendre dans l’arborescence des espaces, ouvrir des dossiers, prévisualiser des fichiers il faut faire un double clic sur les noms d’espaces. 
-
-[IMAGE]
-
+.. figure:: media-guide/mobile7.png
+   :alt:
 
 Le tableau de bord : Fil d'actualité 
 ----------------------------------
 
-.. figure:: media-guide/Mobile-Fil-Actualite-Menu.png
+.. figure:: media-guide/mobile1.png
    :alt:
    
 L'explorateur de fichiers / GoFAST File Browser
 --------------------------------------------------------------
+Pour descendre dans l’arborescence des espaces, ouvrir des dossiers, prévisualiser des fichiers il faut faire un double clic sur les noms d’espaces. 
 
-.. figure:: media-guide/Mobile-Explorateur-GFBrowser.png
+.. figure:: media-guide/mobile2.png
    :alt:
    
 
@@ -459,19 +455,23 @@ Les métadonnées sont visibles en cliquant sur le bouton « < ».
 
 Identiques à la version « GoFAST Plus » elles reprennent les informations du document (et informations spécifiques le cas échéant), ainsi qu’au travers de « Voir Plus » les tâches, commentaires et historiques de versions.
 
-.. figure:: media-guide/Mobile-Menu-Preview.png
+.. figure:: media-guide/mobile3.png
    :alt:
 
 Moteur de Recherche 
 -----------------------------
 Le moteur de recherche fonctionne à l’identique en mode GoFAST Essentiel ou GoFAST Plus.
 
-.. figure:: media-guide/Mobile-Recherche-Menu-Modified.png
+.. figure:: media-guide/mobile4.png
+   :alt:
+.. figure:: media-guide/mobile5.png
    :alt:
 
 
 Le calendrier 
 ------------------
+.. figure:: media-guide/mobile6.png
+   :alt:
 
 
    
