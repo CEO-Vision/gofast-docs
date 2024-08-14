@@ -67,9 +67,7 @@ Nouvelles fonctionnalités
    :header: "Ref.","Type", "Description"
    :widths: 1000, 2000, 60000
 
-    "GOFAST-7548","Nouvelle fonctionnalité","Rôle gestionnaire d'espace"
-    "GOFAST-11708","Nouvelle fonctionnalité","Formulaire : pouvoir partager un formulaire avec des personnes sans compte (email)"
-    "GOFAST-5571","Amélioration ","Nouveaux formulaires GoFAST"
+    "GOFAST-9870","Nouvelle fonctionnalité","Ajout de la la possibilité de changer les identifiants des utilisateurs "
 
 Améliorations 
 ******************************
@@ -77,8 +75,12 @@ Améliorations
    :header: "Ref.","Type", "Description"
    :widths: 1000, 2000, 60000
 
-    "GOFAST-10069","Amélioration ","Améliorer la visibilité des formulaires"
-    "GOFAST-11650","Amélioration ","MàJ Onlyoffice 8.1"
+   "GOFAST-11987","Amélioration","Activation de la configuration SSRC rewriting de Jitsi "
+   "GOFAST-11914","Amélioration","Script de benchmark VM GoFAST "
+   "GOFAST-11797","Amélioration","Amélioration de l'UX pour la recherche avancée - multi-critères. "
+   "GOFAST-11650","Amélioration","Mise à jour Onlyoffice 8.1.1. "
+   "GOFAST-10069","Amélioration","Amélioration de la visibilité des formulaires "
+
 
 Bugs 
 ******************************
@@ -87,12 +89,28 @@ Bugs
    :header: "Ref.","Type", "Description"
    :widths: 1000, 2000, 60000
 
-    "GOFAST-11426","Bug","Edition / gestion des fichiers CSV"
-    "GOFAST-11629","Bug","[FIREFOX][LINUX] Edition en ligne impossible"
-    "GOFAST-11773","Bug","[ONLYOFFICE] Copié collé d'image reste bloqué sur 'Chargement d'une image'"
-    "GOFAST-11783","Bug","Erreur de synchronisation annuaire LDAP"
-    "GOFAST-11803","Bug","Connexion SASL non fonctionnelle"
-    "GOFAST-11827","Bug","Les forums et les wikis ne se filtrent pas en fonction de l'espace dans lequel on navigue"
+   "GOFAST-11997","Bug","[Only Office] Documents protégés par mot de passe : déverrouillage impossible avec une ancienne clé d'édition. "
+   "GOFAST-11985","Bug","Règles de nommage : renommage en échec après retrait d'une règle "
+   "GOFAST-11984","Bug","Le membre n'est pas visible dans la liste des membres d'un espace. "
+   "GOFAST-11982","Bug","Webform en lecture seule malgré un rôle de contributeur dans l'espace. "   
+   "GOFAST-11959","Bug","Date de modification fausse  "
+   "GOFAST-11916","Bug","Notification de partage de documents : photo de profil ne correspondant pas au nom. "
+   "GOFAST-11911","Bug","Notifications de workflow : si un utilisateur n'a pas accès à un document, le lien vers le document doit être grisé. "
+   "GOFAST-11817","Bug","Commentaires : l'édition d'un ancien commentaire avec une personne mentionnée échoue lors de la sauvegarde. "
+   "GOFAST-11816","Bug","Si une étape personnalisée est assignée à une userlist, la bannette ne s'affiche plus. "
+   "GOFAST-11801","Bug","Compression/Décompression : la fonctionnalité fonctionne mal. "
+   "GOFAST-11783","Bug","Erreur de synchronisation avec l'annuaire LDAP. "
+   "GOFAST-11773","Bug","Le copié-collé d'une image reste bloqué sur 'Chargement d'une image'. "
+   "GOFAST-11771","Bug","Le 'lien vers cet emplacement' ne fonctionne pas dans un espace dont le titre contient un apostrophe (' ) "
+   "GOFAST-11756","Bug","Gestion des erreurs liées à un mauvais nom de domaine pour une conférence démarrée via Element Web. "
+   "GOFAST-11657","Bug","Déconnexions en boucle sur Firefox "
+   "GOFAST-11629","Bug","Edition en ligne impossible sur Firefox "
+   "GOFAST-11592","Bug","Dans l'audit, lors de l'utilisation d'un filtre sur un résultat, on ne revient pas à la page 1 "
+   "GOFAST-11349","Bug","Il est possible d'éditer les listes d'utilisateurs même si elles sont synchronisées, ce qui entraîne la perte des modifications après sauvegarde. "
+   "GOFAST-11266","Bug","Redirection clic du lien de la fonction 'Partager par email' "
+   "GOFAST-9984","Bug","Dépôt de fichiers .eml (Thunderbird macOS) impossible depuis un Mac. "
+   "GOFAST-11229","Bug","[Only Office] Le format des dates changeait lors de la publication en PDF d'un document Excel édité depuis Office365. "   
+   "GOFAST-11095","Bug","Traduction des DUA non prises en compte dans les catégories du document "
 
 
 
