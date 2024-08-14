@@ -104,7 +104,6 @@ Bugs
    "GOFAST-11771","Bug","Le 'lien vers cet emplacement' ne fonctionne pas dans un espace dont le titre contient un apostrophe (' ) "
    "GOFAST-11756","Bug","Gestion des erreurs liées à un mauvais nom de domaine pour une conférence démarrée via Element Web. "
    "GOFAST-11657","Bug","Déconnexions en boucle sur Firefox "
-   "GOFAST-11629","Bug","Edition en ligne impossible sur Firefox "
    "GOFAST-11592","Bug","Dans l'audit, lors de l'utilisation d'un filtre sur un résultat, on ne revient pas à la page 1 "
    "GOFAST-11349","Bug","Il est possible d'éditer les listes d'utilisateurs même si elles sont synchronisées, ce qui entraîne la perte des modifications après sauvegarde. "
    "GOFAST-11266","Bug","Redirection clic du lien de la fonction 'Partager par email' "
@@ -113,4 +112,35 @@ Bugs
    "GOFAST-11095","Bug","Traduction des DUA non prises en compte dans les catégories du document "
 
 
+**Release 3**
 
+Nouvelles fonctionnalités 
+*****************************
+.. csv-table::
+   :header: "Ref.","Type", "Description"
+   :widths: 1000, 2000, 60000
+   "GOFAST-11981","Nouvelle fonctionnalité","Possibilité de pouvoir prévisualiser les fichiers au format Autocad (DWG). "
+   "GOFAST-11708","Nouvelle fonctionnalité","Formulaire : permettre le partage d'un formulaire avec des personnes sans compte, via email. "
+   "GOFAST-5571","Nouvelle fonctionnalité","Refonte majeure des formulaires "
+   
+
+Améliorations 
+******************************
+.. csv-table::
+   :header: "Ref.","Type", "Description"
+      :widths: 1000, 2000, 60000
+   "GOFAST-11882","Amélioration","Pré implémentation et préparatifs pour le futur Framework technique VueJS "
+   "GOFAST-11706","Amélioration","Formulaire : Widget de grille de questions "
+   "GOFAST-11705","Amélioration","Formulaire : Widget de notation "
+   "GOFAST-10990","Amélioration","Pré implémentation et préparatifs pour le futur Framework technique Drupal 10 "
+   "GOFAST-11707","Amélioration","Formulaire : widget de classement "
+
+
+Bugs 
+******************************
+
+.. csv-table::
+   :header: "Ref.","Type", "Description"
+   :widths: 1000, 2000, 60000
+
+   "GOFAST-11629","Bug","Edition en ligne impossible sur Firefox "
