@@ -116,9 +116,11 @@ Bugs
 
 Nouvelles fonctionnalités 
 *****************************
+
 .. csv-table::
    :header: "Ref.","Type", "Description"
    :widths: 1000, 2000, 60000
+
    "GOFAST-11981","Nouvelle fonctionnalité","Possibilité de pouvoir prévisualiser les fichiers au format Autocad (DWG). "
    "GOFAST-11708","Nouvelle fonctionnalité","Formulaire : permettre le partage d'un formulaire avec des personnes sans compte, via email. "
    "GOFAST-5571","Nouvelle fonctionnalité","Refonte majeure des formulaires "
@@ -126,9 +128,11 @@ Nouvelles fonctionnalités
 
 Améliorations 
 ******************************
+
 .. csv-table::
    :header: "Ref.","Type", "Description"
-      :widths: 1000, 2000, 60000
+   :widths: 1000, 2000, 60000
+
    "GOFAST-11882","Amélioration","Pré implémentation et préparatifs pour le futur Framework technique VueJS "
    "GOFAST-11706","Amélioration","Formulaire : Widget de grille de questions "
    "GOFAST-11705","Amélioration","Formulaire : Widget de notation "
