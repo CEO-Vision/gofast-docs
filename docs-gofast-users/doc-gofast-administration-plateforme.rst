@@ -48,7 +48,114 @@ Pour les accès d'un utilisateur externe, merci de vous référez à la rubrique
 Tableau des permissions par profil
 ==================================
 
-En cours de mise-à-jour
++--------------------------------------------------------------------------------------------------------+----------------------+--------------------+
+| Pages                                                                                                  | SUPER ADMINISTRATEUR | SUPPORT UTILISATEUR| 
++========================================================================================================+======================+====================+
+| Contacter les administrateurs de l’Espace (via page espace/annuaire)                                   | OK                   | OK                 |  
++--------------------------------------------------------------------------------------------------------+----------------------+--------------------+
+| Configuration de GoFAST / Général                                                                      | OK                   | X                  | 
++--------------------------------------------------------------------------------------------------------+----------------------+--------------------+
+| Configuration de GoFAST / SMTP                                                                         | OK                   | X                  |
++--------------------------------------------------------------------------------------------------------+----------------------+--------------------+
+| Configuration de GoFAST / RSS                                                                          | OK                   | X                  |
++--------------------------------------------------------------------------------------------------------+----------------------+--------------------+
+| Configuration de GoFAST / LDAP-AD                                                                      | OK                   | X                  | 
++--------------------------------------------------------------------------------------------------------+----------------------+--------------------+
+| Configuration de GoFAST / Utilisateurs                                                                 | OK                   | X                  |  
++--------------------------------------------------------------------------------------------------------+----------------------+--------------------+
+| Configuration de GoFAST / Documents                                                                    | OK                   | X                  |
++--------------------------------------------------------------------------------------------------------+----------------------+--------------------+
+| Configuration de GoFAST / Espaces                                                                      | OK                   | X                  | 
++--------------------------------------------------------------------------------------------------------+----------------------+--------------------+
+| Configuration de GoFAST / SSO                                                                          | OK                   | X                  |  
++--------------------------------------------------------------------------------------------------------+----------------------+--------------------+
+| Configuration de GoFAST / Visibilité                                                                   | X                    | OK                 | 
++--------------------------------------------------------------------------------------------------------+----------------------+--------------------+
+| Configuration de GoFAST / Recherche                                                                    | OK                   | X                  | 
++--------------------------------------------------------------------------------------------------------+----------------------+--------------------+
+| Configuration de GoFAST / Intégrité                                                                    | OK                   | X                  | 
++--------------------------------------------------------------------------------------------------------+----------------------+--------------------+
+| Configuration de GoFAST / Catégorie                                                                    | X                    | OK                 | 
++--------------------------------------------------------------------------------------------------------+----------------------+--------------------+
+| Configuration de GoFAST / Signature                                                                    | OK                   | X                  |
++--------------------------------------------------------------------------------------------------------+----------------------+--------------------+
+| Configuration de GoFAST / Pastell                                                                      | OK                   | X                  |  
++--------------------------------------------------------------------------------------------------------+----------------------+--------------------+
+| Configuration de GoFAST / DUA                                                                          | X                    | OK                 | 
++--------------------------------------------------------------------------------------------------------+----------------------+--------------------+
+| Import utilisateurs depuis LDAP/AD                                                                     | X                    | OK                 |
++--------------------------------------------------------------------------------------------------------+----------------------+--------------------+
+| Audit (accès aux pistes d'audit)                                                                       | X                    | OK                 |  
++--------------------------------------------------------------------------------------------------------+----------------------+--------------------+
+| Statistiques (accès à toutes les statistiques)                                                         | X                    | OK                 |
++--------------------------------------------------------------------------------------------------------+----------------------+--------------------+
+| Profil utilisateurs / Paramètre du compte                                                              | X                    | OK                 |
++--------------------------------------------------------------------------------------------------------+----------------------+--------------------+
+| Profil utilisateurs / Désactiver l’ utilisateur                                                        | X                    | OK                 |
++--------------------------------------------------------------------------------------------------------+----------------------+--------------------+
+| Profil utilisateurs / Activer l’utilisateur (si bloqué ou désactivé)                                   | X                    | OK                 | 
++--------------------------------------------------------------------------------------------------------+----------------------+--------------------+
+| Profil utilisateurs / Changer image profil                                                             | X                    | OK                 |
++--------------------------------------------------------------------------------------------------------+----------------------+--------------------+
+| Espace / Ajouter un sous-espace                                                                        | X                    | X                  | 
++--------------------------------------------------------------------------------------------------------+----------------------+--------------------+
+| Espace / Créer un utilisateur et le pré-ajouter dans un espace                                         | X                    | OK                 | 
++--------------------------------------------------------------------------------------------------------+----------------------+--------------------+
+| Espace / Ajouter des membres (utilisateurs ou liste d'utilisateurs)                                    | X                    | X                  |
++--------------------------------------------------------------------------------------------------------+----------------------+--------------------+
+| Espace / Pré-ajouter des membres (utilisateurs ou liste d'utilisateurs)                                | X                    | OK                 |
++--------------------------------------------------------------------------------------------------------+----------------------+--------------------+
+| Espace / Supprimer un salon de discussion                                                              | X                    | X                  |  
++--------------------------------------------------------------------------------------------------------+----------------------+--------------------+
+| Espace / Renommer un Espace                                                                            | X                    | X                  |  
++--------------------------------------------------------------------------------------------------------+----------------------+--------------------+
+| Espace / Modifier la page d’accueil d'un Espace                                                        | X                    | X                  |
++--------------------------------------------------------------------------------------------------------+----------------------+--------------------+
+| Espace / Déplacer un Espace                                                                            | X                    | X                  |
++--------------------------------------------------------------------------------------------------------+----------------------+--------------------+
+| Espace / Supprimer un Espace                                                                           | X                    | X                  | 
++--------------------------------------------------------------------------------------------------------+----------------------+--------------------+
+| Espace / Gérer les Espaces publics (via liste des administrateurs Publics)                             | X                    | OK                 |
++--------------------------------------------------------------------------------------------------------+----------------------+--------------------+
+| Page Espace / Onglet Accueil                                                                           | X                    | OK                 |  
++--------------------------------------------------------------------------------------------------------+----------------------+--------------------+
+| Page Espace / Onglet Statistiques                                                                      | X                    | OK                 | 
++--------------------------------------------------------------------------------------------------------+----------------------+--------------------+
+| Page Espace / Onglet Documents                                                                         | X                    | X                  |  
++--------------------------------------------------------------------------------------------------------+----------------------+--------------------+
+| Page Espace / Onglet Tâches                                                                            | X                    | X                  |
++--------------------------------------------------------------------------------------------------------+----------------------+--------------------+
+| Page Espace / Onglet Calendrier                                                                        | X                    | X                  |
++--------------------------------------------------------------------------------------------------------+----------------------+--------------------+
+| Page Espace / Onglet Membre                                                                            | X                    | OK                 | 
++--------------------------------------------------------------------------------------------------------+----------------------+--------------------+
+| Page Espace / Onglet Discussion                                                                        | X                    | X                  |  
++--------------------------------------------------------------------------------------------------------+----------------------+--------------------+
+| Créer contenu / Espace à la racine (1er niveau dans Organisations, Groupes, Extranet, Public)          | X                    | OK                 |  
++--------------------------------------------------------------------------------------------------------+----------------------+--------------------+
+| Créer contenu / Espace dans un espace (c’est-à-dire créer un sous-espace)                              | X                    | X                  | 
++--------------------------------------------------------------------------------------------------------+----------------------+--------------------+
+| Annuaires / Listes (voir toutes les listes, même si non membre)                                        | X                    | OK                 |
++--------------------------------------------------------------------------------------------------------+----------------------+--------------------+
+| Annuaires / Listes (action de coupler avec des groupes AD/LDAP)                                        | OK                   | OK                 | 
++--------------------------------------------------------------------------------------------------------+----------------------+--------------------+
+| Annuaires / Espaces (voir tous les espaces, même si non membre)                                        | X                    | OK                 | 
++--------------------------------------------------------------------------------------------------------+----------------------+--------------------+
+| Annuaires / Utilisateurs (voir tous les utilisateurs, même si aucun espaces en commun)                 | X                    | OK                 |
++--------------------------------------------------------------------------------------------------------+----------------------+--------------------+
+| Annuaires / Contacts (voir tous les contacts non-utilisateurs)                                         | X                    | OK                 | 
++--------------------------------------------------------------------------------------------------------+----------------------+--------------------+
+| Recherche / Visibilité des espaces (voir tous les espaces, même si non membre)                         | X                    | OK                 | 
++--------------------------------------------------------------------------------------------------------+----------------------+--------------------+
+| Recherche / Visibilité des utilisateurs  (voir tous les utilisateurs, même si aucun espaces en commun) | X                    | OK                 |  
++--------------------------------------------------------------------------------------------------------+----------------------+--------------------+
+| Recherche / Visibilité des listes (voir toutes les listes, même si non membre)                         | X                    | OK                 |  
++--------------------------------------------------------------------------------------------------------+----------------------+--------------------+
+| Contenu / Restaurer un document (depuis la page des pistes d'audit)                                    | X                    | OK                 |  
++--------------------------------------------------------------------------------------------------------+----------------------+--------------------+
+
+
+
 
 .. NOTE::  Pour les rôles liés aux Espaces Collaboratifs et leur administration, merci de vous référer à la rubrique "Gestion des Espaces Collaboratifs".
 
@@ -166,7 +273,31 @@ Pour désactiver ou réactiver un utilisateur et donc, bloquer ou autoriser son 
    
 .. NOTE::
    Il y a une différence entre les utilisateurs « Inactifs » et les utilisateurs « Désactivés ». Les utilisateurs inactifs ne sont pas bloqués, ce sont des utilisateurs qui se connectent rarement sur la plate-forme.
-Configuration : Catégories 
+
+Changer les identifiants des utilisateurs
+-------------------------------------------
+
+Il est possible de changer les identifiants, pour cela rendez-vous sur le profil dont vous souhaitez changer l’identifiant, cliquez sur la roue cranté, puis changez l’identifiant. 
+
+.. figure:: media-guide/changement_id1.png
+
+.. figure:: media-guide/changement_id2.png
+
+.. NOTE:: 
+Pour changer l’identifiant, vous devez avoir le rôle de support administrateur et il ne faut pas que l'utilisateur ait l'authentification SASL de coché
+
+
+
+Pré-ajouter des membres dans une liste d'utilisateur
+------------------------------------------------------
+
+Il est possible de pré-ajouter des membres dans une liste d'utilisateur. Pour cela il faut cliquer sur le menu burger, puis sur "Pré-ajouter des membres". Il vous faudra alors renseigner le ou les membre(s) à ajouter.
+
+.. figure:: media-guide/pre_ajouter_membre.png 
+
+.. NOTE:: 
+  Seul le rôle administrateur peut pré-ajouter des membres à une liste d'utilisateur dont il n'est pas administrateur
+
 --------------------------------------
 Les « Catégories » sont des métadonnées qu’un utilisateur peut appliquer sur les documents auxquels il a accès. Il s’agit du type de document, par exemple : courrier, facture, rapport, contrat, etc. 
 
@@ -187,6 +318,15 @@ GoFAST propose une liste standard des « Catégories » applicables sur les docu
 .. NOTE::
    Seules les catégories non-standard peuvent être édités 
 
+Date personnalisée 
+----------------------
+Il est possible de configurer un champ date, dans les métadonnés : 
+
+.. figure:: media-guide/date_custom1.png
+
+Rendez-vous dans **GoFAST Configuration**, puis dans **Documents** ensuite, dans **Date personnalisée** vous pouvez donner un nom au champ optionnel de la date. 
+
+.. figure:: media-guide/date_custom2.png
 
 Configuration : DUA (Durée de l'Utilité Administrative)
 ------------------------------------------------------------------------
@@ -223,7 +363,7 @@ Configuration : Règles de nommage
 Une règle de nommage permet de structurer et d'organiser les fichiers. Elle est appliquée lors de la selection d'une catégorie sur un document. 
 
 
-Appliquer une règle de nommage 
+Créer une règle de nommage 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  - Via le menu principal de gauche, allez dans « GoFAST Configuration »
  - Sur la page de configuration, allez dans le menu « Catégories »
@@ -240,6 +380,14 @@ Appliquer une règle de nommage
 Pour appliquer la règle, rendez-vous sur le document voulu et sélectionnez la catégorie configurée dans l'onglet Catégorie. Un message s'affichera pour confirmer le changement de nom du document.
 
 .. figure:: media-guide/filtre2.png
+
+Vous pouvez aussi appliquer la règle de nommage à tout les documents ayant déjà une catégorie :
+- Rendez-vous dans « GoFAST Configuration », puis "Catégorie" 
+- Vous pouvez cocher le ou les règles de nommage que vous voulez appliquer, puis cliquer sur le menu burger et sur "Appliquer les règles de nommage".  
+
+.. figure:: media-guide/règlesdenommage1.png
+
+
 
 Supprimer une règle de nommage 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

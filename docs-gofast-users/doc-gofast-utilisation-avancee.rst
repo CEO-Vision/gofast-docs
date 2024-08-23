@@ -62,7 +62,22 @@ Dans l'interface du calendrier GoFast, cliquez sur Importer un calendrier à par
 .. figure:: media-guide/couplage1.png  
 
 
+Plugin pour la création de webconférence Jitsi depuis Outlook
+-------------------------------------------------------------------
 
+Ce plugin permets de créer un évènement calendrier dans Outlook et de générer automatiquement un lien de vidéo conférence, sur votre instance dédiée Jitsi Meet.
+
+Lien pour télécharger le plugin : https://repo-gofast.ceo-vision.com/gofast_outlook.msi
+
+Pour installer le plugin en le configurant par défaut pour votre instance de GoFAST, les administrateurs système pourront le faire via leur AD ou en ligne de commande avec les paramètres suivants :
+
+.. figure:: media-guide/couplage_outlook1.png  
+
+.. figure:: media-guide/couplage_outlook2.png
+
+.. figure:: media-guide/couplage_outlook3.png
+
+.. figure:: media-guide/couplage_outlook4.png  
 
 Synchronisation locale (GoFAST hors-ligne)
 ------------------------------------------
@@ -154,10 +169,12 @@ Vous pouvez donc utiliser l'application pour votre téléphone suivant :
 
 -  Android : https://play.google.com/store/apps/details?id=im.vector.app&hl=fr_FR
 
--  iOS/iPAD : https://apps.apple.com/fr/app/riot-im/id1083446067
+-  iOS/iPAD : https://apps.apple.com/fr/app/element-messenger/id1083446067
 
 
 Pour configurer ces clients il suffit d’entrer l'adresse de votre serveur GoFAST (avec -comm) :
+
+L'identifiant et le mot de passe à renseigner sont ceux que vous utilisez pour vous connecter à votre plateforme GoFAST.
 
 |image22|
 
@@ -255,7 +272,7 @@ Vous pouvez à présent décompresser l'archive directement dans l'arborescence 
 .. |image18| image:: img/scanbot_envoi_GoFAST.png
 .. |image19| image:: img/abbyy_hot_folder.png
 .. |image20| image:: img/abbyy_hot_folder_config-0.png
-.. |image22| image:: media-guide/riot-gofast-login-ipad-FR.png
+.. |image22| image:: media-guide/riot-gofast-login-ipad-FR.PNG
 .. |image23| image:: img/mountainduck-gofast-config_FR.PNG
 
 Configurations/Installations optionnelles

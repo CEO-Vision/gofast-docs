@@ -12,8 +12,8 @@ Nouvelles fonctionnalités
    :header: "Ref.", "Description"
    :widths: 1000, 60000
    
-   "GOFAST-11260","Nouvelle fonctionnalité : ajout de la possibilité d'inviter des participants internes et externes à rejoindre une réunion JITSI"
-   "GOFAST-10466","Nouvelle fonctionnalité  : ajout des actions de masse à l'annuaire des contacts" 
+   "GOFAST-11260","Nouvelle fonctionnalité : ajout de la possibilité d'inviter des participants internes et externes à rejoindre une réunion au sein de JITSI"
+   "GOFAST-10466","Nouvelle fonctionnalité  : ajout de l'action de suppression en masse à l'annuaire des contacts" 
    "GOFAST-10468","Nouvelle fonctionnalité  : activation de l'audit Alfresco"
    "GOFAST-10484","Nouvelle fonctionnalité : le champ de métadonnée 'Titre' est désormais éditable côté GoFAST"
    "GOFAST-10531","Nouvelle fonctionnalité : vertionning intermédiaire à l'enregistrement d'un document lors de l'édition sur Onlyoffice"
@@ -54,7 +54,6 @@ Améliorations
 
    "GOFAST-10157","Amélioration : ajout de filtrages pour l'annuaire de contact"
    "GOFAST-10281","Amélioration : possibilité de signer des documents se trouvant dans des espaces non accessibles au signataire"
-   "GOFAST-10436","Amélioration : ajout d'une modale de suppression pour améliorer la fonctionnalité de suppression"
    "GOFAST-10453","Amélioration : homogénéisation de l'éditeur riche des commentaires"
    "GOFAST-10470","Amélioration : modification du nom par défaut des fichiers compressés, pour remplacer l'ID aléatoire actuel par un nom plus significatif et facilement identifiable"
    "GOFAST-10599","Amélioration : optimisation du chargement des statistiques des espaces"
@@ -69,9 +68,7 @@ Améliorations
    "GOFAST-10896","Amélioration : mise à jour du visuel de la page statistique des utilisateurs"
    "GOFAST-11059","Amélioration : création de la documentation d'administration de GoFAST Webhook"
    "GOFAST-11071","Amélioration : réorganisation du bloc de métadonnées"
-   "GOFAST-11072","Amélioration : les onglets de configuration conservent désormais leur contenu en mémoire, évitant les rechargements répétés"
    "GOFAST-11074","Amélioration de la traduction anglaise des mails associés aux workflows"
-   "GOFAST-11075","Amélioration de la traduction dans le choix de la position des signatures, lors de la création d'un processus de diffusion de documents"
    "GOFAST-11082","Amélioration des détails de la page d'audit"
    "GOFAST-11104","Amélioration : l'affichage du chemin complet des documents se fait via un survol mouse over dans le fil d'activité"
    "GOFAST-11113","Amélioration : Correction d'un problème d'affichage du bouton burger lors d'une modification sur le bloc métadonnées"
@@ -94,7 +91,7 @@ Améliorations
    "GOFAST-7636","Amélioration de la  page d'un document lors d'une signature Yousign"
    "GOFAST-7796","[IPAD] Amélioration de la création de workflows"
    "GOFAST-7826","Amélioration de la vue de l'annuaire des membres d'un espace"
-   "GOFAST-8048","Amélioration : mise en place d'un cloisonnement efficace des modèles de workflow"
+   "GOFAST-8048","Amélioration : mise en place d'un cloisonnement des modèles de workflow"
    "GOFAST-8071","Amélioration : le calendrier d'un espace est directement positionné sur 8h, et non minuit"
    "GOFAST-8076","Amélioration : finalisation du système de notifications pour les échéances des cartes Kanban"
    "GOFAST-8248","Amélioration des libellés de la piste d'audit" 

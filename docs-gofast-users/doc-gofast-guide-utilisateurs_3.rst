@@ -32,6 +32,13 @@ Onglets disponibles sur la page d’un Espace Collaboratif
 
 Merci de consulter également la rubrique : « Onglet Statistiques dans un Espace » (dans « Statistiques ») 
 
+Mais en cliquant sur l'onglet statistique, il est aussi possible de d'accéder à **l'audit** de l'espace. 
+
+.. NOTE:: L'audit de l'espace est uniquement disponible pour les administrateurs d'espace. 
+
+.. figure:: media-guide/audit_espace.png
+
+
 **Documents :** explorateur de fichiers positionné au niveau de l’arborescence de l’Espace. 
 
 .. figure:: media-guide/Image-Document-6.png
@@ -371,7 +378,8 @@ Vous pouvez voir les membres d’une Liste d’Utilisateurs en allant sur cette 
  - Vous pouvez modifier la description de la liste dans le champ « Description »
  - Cliquer sur « Enregistrer » pour sauvegarder vos modifications. 
 
-.. figure:: media-guide/Ecran-GoFAST_Liste-Utilisateurs_modifier-les-membres-de-la-liste.png
+.. figure:: media-guide/liste_utilisateur1.png
+.. figure:: media-guide/liste_utilisateur2.png
 
 .. NOTE:: 
    Les membre d’une Liste vont avoir accès à tous les Espaces où cette Liste est elle-même membre. Les Administrateurs de la Liste n’ont pas accès aux Espaces, mais peuvent gérer la Liste. 
@@ -565,6 +573,9 @@ Pour sélectionner un processus et le démarrer depuis la barre d’accès rapid
 .. NOTE::
    En lançant un processus depuis le menu principal sur les documents du "panier documentaire", ces derniers sont automatiquement associés au processus. Vous avez ensuite la possibilité d'enlever/ajouter les documents dans le formulaire du workflow.
 
+.. NOTE::
+   L'affichage des échéances de Workflow se fait dans le calendrier des espaces où se trouvent les documents ainsi que dans l’espace personnel.
+
 Démarrer un processus depuis la page d'un document
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Pour sélectionner un processus et le démarrer depuis la page d’un document :
@@ -597,15 +608,17 @@ Renseigner le formulaire du processus de tâches
 Une fois que le processus souhaité est sélectionné, le formulaire associé s’ouvre et vous permet de renseigner les diverses informations nécessaires. 
 Le formulaire proposé et donc les champs à renseigner, sont totalement dépendants du processus choisi. 
 
-.. figure:: media-guide/Ecran-GoFAST_Workflows_formulaire-processus-standard.png
+.. figure:: media-guide/workflow_creation1.png
    :alt:
 
 **Focus sur les champs "Document(s)" et "Assignation(s)" du formulaire :** 
 Dans le cas du processus standard, parmi les champs proposés il y a les documents associés et les personnes à assigner. 
 
-Pour correctement renseigner ces champs, il est nécessaire de commencer à saisir le nom du document ou d’un utilisateur (minimum 3 caractères), puis cliquer sur la suggestion pour valider son choix. 
+Pour correctement renseigner ces champs, il est nécessaire de commencer à saisir le nom du document, d’un utilisateur (minimum 3 caractères),ou encore le nom d'une liste d'utilisateur, puis de cliquer sur la suggestion pour valider son choix. 
 
-Que ce soit pour les documents ou les assignations, vous avez la possibilité de cliquer sur "+" pour ajouter des champs supplémentaires, ou sur la corbeille pour en enlever. 
+Que ce soit pour les documents ou les assignations, vous avez la possibilité de cliquer sur "+" pour ajouter des champs supplémentaires, ou sur la corbeille pour en enlever. Il est possible de choisir pour chaque tâche une date d'expiration. 
+
+.. figure:: media-guide/workflow_creation2.png
 
 Enfin, pour lancer le processus, il suffit de cliquer sur "Envoyer" (en bas du formulaire).
 
@@ -629,6 +642,9 @@ Dans le cas où un parapheur est couplé à GoFAST via le module de signature (Y
 .. NOTE::
     Dans le cas d’un couplage avec un Parapheur électronique, les documents seront automatiquement transmis au dit Parapheur à l’étape de signature. Une fois que toutes les demandes de signature prévues par le Parapheur seront traitées, le document sera automatiquement mis à jour sur GoFAST, avec l’historique des actions dans les commentaires des documents. 
 N'hésitez pas à poser vos questions sur les modules de signatures disponibles, sur les forums. 
+
+.. NOTE:: 
+Depuis la version 4.2, il est possible d’assigner un utilisateur pour signature sur un document qui lui est non accessible 
 
 Modèle de processus
 -------------------------------------------
@@ -933,7 +949,7 @@ Les champs disponibles dans une carte
 .. figure:: media-guide/kanban-todolist-management.jpg.png	
    :alt:
 
-- Commentaire (s) : champ modifiable, où vous pouvez partager des remarques et des suggestions avec les participants de la carte.
+- Commentaire (s) : champ modifiable, où vous pouvez partager des remarques et des suggestions avec les participants de la carte. Il est aussi possible de taguer des utilisateurs. 
 -  Historique : champ non modifiable, qui affiche l’audit des actions faites sur la carte.
 
 .. figure:: media-guide/kanban-card-fields-edit.jpg.png	
