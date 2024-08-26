@@ -13,14 +13,15 @@ Nouvelles fonctionnalités
    :header: "Ref.","Type", "Description"
    :widths: 1000, 2000, 60000
 
-
-    "GOFAST-4439","Nouvelle fonctionnalité","Conformité Profil sécurité ANSSI BP 28 Enhanced"
-    "GOFAST-3903","Nouvelle fonctionnalité","Possibilité d'ajouter un tampon sur un PDF à l'étape de signature"
     "GOFAST-6807","Nouvelle fonctionnalité","Rajouter l'option de réunions récurrentes en web-conférence "
     "GOFAST-7248","Nouvelle fonctionnalité","Créer un écran de test des filtres AD pour faciliter la configuration de synchronisation "
-    "GOFAST-7469","Nouvelle fonctionnalité","Remplacement du système d'exploitation CentOS7 par Almalinux"
-    "GOFAST-11208","Nouvelle fonctionnalité","Possibilité de tamponer à l'étape de validation (workflow standard)"
     "GOFAST-11536","Nouvelle fonctionnalité","API Activation / Désactivation des Utilisateurs"
+    "GOFAST-3903","Nouvelle fonctionnalité","[OPTION] Possibilité de tamponer un PDF avec identifiant/date à l'étape de signature"
+    "GOFAST-11208","Nouvelle fonctionnalité","[OPTION] Possibilité de tamponer un PDF avec identifiant/date à l'étape de validation"
+    "GOFAST-4439","Nouvelle fonctionnalité","Conformité Profil sécurité ANSSI BP 28 Enhanced"
+    "GOFAST-7469","Nouvelle fonctionnalité","Remplacement du système d'exploitation CentOS7 par Almalinux"
+
+Note : Si indiqué [OPTION], il s'agit d'un module supplémentaire
 
 Améliorations 
 ******************************
@@ -29,24 +30,25 @@ Améliorations
    :header: "Ref.","Type", "Description"
    :widths: 1000, 2000, 60000
 
-    "GOFAST-9696","Amélioration","Optimisations lors création en masse de documents"
-    "GOFAST-11092","Amélioration","Optimisation de la base de données en Alfresco 7"
-    "GOFAST-11711","Amélioration","Maj Ckeditor 5"
+
     "GOFAST-7328","Amélioration","Ajout des polices Marianne, Arial Narrow, Montserrat, Century Gothic pour Onlyoffice et prévisualisation"
     "GOFAST-7892","Amélioration","Création des entités par liste administrable (remplacement du champ texte libre)"
+    "GOFAST-8585","Amélioration","Annuaire Espaces : Possibilité de filtrer par nom les administrateurs des espaces"
     "GOFAST-9410","Amélioration","Possibilité d'augmenter la taille possible pour l'ouverture des documents OnlyOffice"
     "GOFAST-10637","Amélioration","Pouvoir trier / filtrer par emplacement dans annuaire espace"
-    "GOFAST-11002","Amélioration","Champ date 'custom' : afficher la valeur dans les résultats de recherche"
-    "GOFAST-11033","Amélioration","Item Zabbix pour identifier les processus tika ouverts depuis plus de X secondes / minutes"
+    "GOFAST-11002","Amélioration","Champ date 'personnalisé' : afficher la valeur dans les résultats de recherche"
     "GOFAST-11054","Amélioration","Pouvoir appliquer la règle de nommage sur tous les documents d'une même catégorie"
     "GOFAST-11158","Amélioration","Optimisation du temps de traitement lors de la suppression d'utilisateurs"
     "GOFAST-11430","Amélioration","Possibilité d'utiliser l'authentification à double facteur (2FA) pour les externes et SSO pour les internes"
-    "GOFAST-11495","Amélioration","Eclusion des fichiers 7z de l'indexation"
+    "GOFAST-11495","Amélioration","Exclusion des fichiers 7z de l'indexation"
     "GOFAST-11596","Amélioration","Passage de la date au format anglais Européen à selectionner dans la configuration"
     "GOFAST-11699","Amélioration","Ouverture du panneau latéral du chat lors d'un appel entrant"
     "GOFAST-11755","Amélioration","Mise en conformité d'Alfresco avec logrotate"
     "GOFAST-11842","Amélioration","Amélioration de performance "
-    "GOFAST-8585","Amélioration","Annuaire Espaces : Possibilité de filtrer par nom les administrateurs des espaces"
+    "GOFAST-9696","Amélioration","Optimisations lors création en masse de documents"
+    "GOFAST-11092","Amélioration","Optimisation de la base de données en Alfresco 7"
+    "GOFAST-11711","Amélioration","Maj Ckeditor 5 (éditeur riche)"
+    "GOFAST-11033","Amélioration","Item Zabbix pour identifier les processus tika ouverts depuis plus de X secondes / minutes"
 
 Bugs 
 ******************************
@@ -90,16 +92,16 @@ Bugs
    :header: "Ref.","Type", "Description"
    :widths: 1000, 2000, 60000
 
-   "GOFAST-11997","Bug","[Only Office] Documents protégés par mot de passe : déverrouillage impossible avec une ancienne clé d'édition. "
+   "GOFAST-11997","Bug","[ONLYOFFICE] Documents protégés par mot de passe : déverrouillage impossible avec une ancienne clé d'édition. "
    "GOFAST-11985","Bug","Règles de nommage : renommage en échec après retrait d'une règle "
    "GOFAST-11984","Bug","Le membre n'est pas visible dans la liste des membres d'un espace. "
    "GOFAST-11982","Bug","Webform en lecture seule malgré un rôle de contributeur dans l'espace. "   
-   "GOFAST-11959","Bug","Date de modification fausse  "
-   "GOFAST-11916","Bug","Notification de partage de documents : photo de profil ne correspondant pas au nom. "
+   "GOFAST-11959","Bug","Date de modification affichée erronée dans certains cas "
+   "GOFAST-11916","Bug","Notification de partage de documents : dans certains cas photo de profil erronée "
    "GOFAST-11911","Bug","Notifications de workflow : si un utilisateur n'a pas accès à un document, le lien vers le document doit être grisé. "
    "GOFAST-11817","Bug","Commentaires : l'édition d'un ancien commentaire avec une personne mentionnée échoue lors de la sauvegarde. "
    "GOFAST-11816","Bug","Si une étape personnalisée est assignée à une userlist, la bannette ne s'affiche plus. "
-   "GOFAST-11801","Bug","Compression/Décompression : la fonctionnalité fonctionne mal. "
+   "GOFAST-11801","Bug","Compression/Décompression : correction de divers problèmes. "
    "GOFAST-11783","Bug","Erreur de synchronisation avec l'annuaire LDAP. "
    "GOFAST-11773","Bug","Le copié-collé d'une image reste bloqué sur 'Chargement d'une image'. "
    "GOFAST-11771","Bug","Le 'lien vers cet emplacement' ne fonctionne pas dans un espace dont le titre contient un apostrophe (' ) "
@@ -109,7 +111,7 @@ Bugs
    "GOFAST-11349","Bug","Il est possible d'éditer les listes d'utilisateurs même si elles sont synchronisées, ce qui entraîne la perte des modifications après sauvegarde. "
    "GOFAST-11266","Bug","Redirection clic du lien de la fonction 'Partager par email' "
    "GOFAST-9984","Bug","Dépôt de fichiers .eml (Thunderbird macOS) impossible depuis un Mac. "
-   "GOFAST-11229","Bug","[Only Office] Le format des dates changeait lors de la publication en PDF d'un document Excel édité depuis Office365. "   
+   "GOFAST-11229","Bug","[ONLYOFFICE] Format des dates change lors de la publication en PDF d'un document Excel édité depuis Office365. "   
    "GOFAST-11095","Bug","Traduction des DUA non prises en compte dans les catégories du document "
 
 
