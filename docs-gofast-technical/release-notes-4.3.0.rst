@@ -15,7 +15,7 @@ Nouvelles fonctionnalités
     "GOFAST-7248","Nouvelle fonctionnalité","Créer un écran de test des filtres AD pour faciliter la configuration de synchronisation "
     "GOFAST-11536","Nouvelle fonctionnalité","API Activation / Désactivation des Utilisateurs"
     "GOFAST-9870","Nouvelle fonctionnalité","Ajout de la la possibilité de changer les identifiants des utilisateurs "
-   "GOFAST-12011","Nouvelle fonctionnalité","Publication d'un fichier DWG en PDF en plus de SVG "
+   "GOFAST-12011","Nouvelle fonctionnalité","Publication d'un fichier AutoCAD DWG en PDF en plus de SVG "
     "GOFAST-3903","Nouvelle fonctionnalité","[OPTION] Possibilité de tamponer un PDF avec identifiant/date à l'étape de signature"
     "GOFAST-11208","Nouvelle fonctionnalité","[OPTION] Possibilité de tamponer un PDF avec identifiant/date à l'étape de validation"
     "GOFAST-4439","Nouvelle fonctionnalité","[TECHNIQUE] Conformité Profil sécurité ANSSI BP 28 Enhanced"
