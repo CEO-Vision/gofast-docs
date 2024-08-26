@@ -38,7 +38,6 @@ Améliorations
    "GOFAST-11797","Amélioration","Amélioration de l'UX pour la recherche avancée - multi-critères"
    "GOFAST-11650","Amélioration","Mise à jour Onlyoffice 8.1.1"
    "GOFAST-11948","Amélioration","Mise à jour Webconference JITSI Meet 2.0.9584"
-
    "GOFAST-10069","Amélioration","Amélioration de la visibilité des formulaires "
     "GOFAST-10637","Amélioration","Pouvoir trier / filtrer par emplacement dans annuaire espace"
     "GOFAST-11002","Amélioration","Champ date 'personnalisé' : afficher la valeur dans les résultats de recherche"
