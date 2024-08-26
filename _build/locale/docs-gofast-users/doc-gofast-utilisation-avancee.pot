@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gofast-docs latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-23 10:45+0200\n"
+"POT-Creation-Date: 2024-08-26 18:35+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,616 +17,616 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../../docs-gofast-users/doc-gofast-utilisation-avancee.rst:2
-#: f64b83ca4f3a4e5d954235fc94640c0f
+#: 382b41801c804d7eaa97a9ad0a916799
 msgid "GoFAST : Utilisation Avancée"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-utilisation-avancee.rst:5
-#: e68f3ba6885748188cf4fdf5fa2477a9
+#: 7043f05a94c84e8798ca625ba28ba043
 msgid "Introduction"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-utilisation-avancee.rst:6
-#: 4645129385784df9a819708fb2cdc09a
+#: 5f6fd4d6ee1c4cfa9e8c4107b1abecb1
 msgid "Ce document a pour but de donner les instructions de configuration de logiciels tiers fonctionnant avec la plate-forme GoFAST."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-utilisation-avancee.rst:9
-#: 34cf35dd17824d88b95c5f7053f36e1a
+#: 31ba871184b34294ab4755f3c5cf977b
 msgid "Ces outils complémentaires permettent :"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-utilisation-avancee.rst:11
-#: 9677d749eb1140bc906d08147a49c3b6
+#: f8f8152f226e40f4a5105214d97fa097
 msgid "Travailler en mobilité"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-utilisation-avancee.rst:13
-#: 99da8b5459884c138c927fa6f03c1a4f
+#: da2f8c784dad484aad3cb20ef5bfdcff
 msgid "Travailler sans réseau (en mode « déconnecté » type DropBox)"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-utilisation-avancee.rst:14
-#: dcc0d51cae3e4b8689f810a18d24653c
+#: 28452b8a45ad4af98d0520c1e4f13b5c
 msgid "L'accès à GoFAST sur les terminaux mobiles (tablettes,…) par explorateur de fichiers"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-utilisation-avancee.rst:15
-#: 85f136a06e414013b13cdbebf001ec8e
+#: 43f3d47e944e4d358c0d34dd1ef49928
 msgid "La visualisation et/ou l'édition en ligne de documents Office sur tablette"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-utilisation-avancee.rst:16
-#: 8ec92402e7dd4432a78479c97440d815
+#: 15174db40ef64b00823736f85b782f70
 msgid "La messagerie instantanée (« chat ») sur mobile"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-utilisation-avancee.rst:17
-#: 60a7ce992a5644a0a6031551d27b1d48
+#: 0a4e6739b92d4fbd8618f79179c4818d
 msgid "La vidéoconférence sur mobile (dans navigateur)"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-utilisation-avancee.rst:19
-#: ccb1224012784393ad6e7085ec420a5b
+#: b81b9dc45c174ba5b261f84092c56c08
 msgid "Des outils de dématérialisation (smartphone, copieur, ...)"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-utilisation-avancee.rst:20
-#: 59e5bc4526614dcfbcc7753afa6c9949
+#: ff60a73d48c541e1a9361ba69c027814
 msgid "Des outils de signature"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-utilisation-avancee.rst:22
-#: 6275659b20bc4cf984d4089f7cda8c16
+#: 8731b23ef1fb467b84229bce44c2d631
 msgid "CEO-Vision ne peut pas garantir le bon fonctionnement de ces logiciels tiers même si nous avons testé à un moment donné  (et pas forcément de façon exhaustive) leur fonctionnement"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-utilisation-avancee.rst:25
-#: 32ff8c9765574a618343a7932e3875c9
+#: 8dfa1f3ec5224092af4d7ee0dbebb0ce
 msgid "Couplage messagerie BlueMind et GoFAST"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-utilisation-avancee.rst:26
-#: b4671dc2ab5146d2bdfd454704cfebe3
+#: 7d756087f3ef44c7b33ee6dd4083e81b
 msgid "Il est désormais possible de synchroniser vos conférences et réunions créées dans BlueMind avec votre calendrier GoFast. Cette fonctionnalité vous permet également de générer des liens de conférence Jitsi."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-utilisation-avancee.rst:28
-#: 80ee6ce4a57d42e6b87221cab6b0872d
+#: 5d44630f4d434e5c87f8c44c2705c67f
 msgid "Pour lier votre compte BlueMind à GoFast, suivez ces étapes : 1.      Rendez-vous sur la page de votre profil GoFast. 2.      Cliquez sur la roue dentée à côté de votre nom pour accéder aux paramètres. 3.      Faites défiler jusqu'en bas et sélectionnez l'option GoFast BlueMind. 4.      Saisissez votre adresse e-mail et votre mot de passe BlueMind. 5.      Activez la synchronisation en cochant l'option correspondante. 6.      Cliquez sur Enregistrer pour appliquer les modifications."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-utilisation-avancee.rst:40
-#: 5c9283088ec04ab99de0dbed2811ef8a
+#: ba68aae061de40cbb50367482f00067e
 msgid "Création d'un événement dans BlueMind"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-utilisation-avancee.rst:42
-#: 906393b1bddf45babd86cd740853fb51
+#: 90c4d7c968dc4dbc8a93c1c802d462db
 msgid "Après avoir activé la synchronisation, vous pouvez créer un nouvel événement dans l'agenda BlueMind : 1.      Ajoutez tous les participants nécessaires à l'événement. 2.      Rendez-vous dans le calendrier de votre espace personnel GoFast. 3.      Cliquez sur l'icône représentant un carré avec une flèche et sélectionnez Synchroniser le calendrier BlueMind. Les événements ajoutés dans BlueMind apparaîtront désormais dans votre calendrier GoFast avec un lien de conférence Jitsi intégré, visible également dans BlueMind."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-utilisation-avancee.rst:52
-#: 56f580e828f64f3f8be5504cbaa849dc
+#: 53f47f0b3ff14d00bbd62d96d084fd33
 msgid "Vous allez voir apparaître le/les élément(s) ajoutés à Bluemind, avec un lien de conférence Jitsi. Ce lien va être présent dans GoFast, mais aussi dans BlueMind."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-utilisation-avancee.rst:57
-#: 2e7e1a342a66419d80f22b5f183d2c54
+#: 8d4d5910c9334874a55d56d6bc15a5d5
 msgid "Importation de Calendriers Externes"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-utilisation-avancee.rst:58
-#: 542f6576fa4d44c18acc290d81584197
+#: 60ea1a548e3d44c58038b6b66877e640
 msgid "GoFast permet également d'importer des calendriers au format .ics provenant d'autres services tels qu'Outlook, Google, Yahoo et Apple Calendar :"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-utilisation-avancee.rst:60
-#: cddb3fcb875c4ff4ad166cb0a7c31ffa
+#: 2eb7bdaea46d46f0b617a07d87654646
 msgid "Dans l'interface du calendrier GoFast, cliquez sur Importer un calendrier à partir d'un fichier ics."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-utilisation-avancee.rst:66
-#: 045f3cea451f4772a998e242abfa2e31
+#: 5b70fe281be544f7991c365a8b2d20f7
 msgid "Plugin pour la création de webconférence Jitsi depuis Outlook"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-utilisation-avancee.rst:68
-#: 7f00a5fe9fbb41f2b2a9dd8975e60cbc
+#: d59cd172145848b9a8d4f12c435a8f62
 msgid "Ce plugin permets de créer un évènement calendrier dans Outlook et de générer automatiquement un lien de vidéo conférence, sur votre instance dédiée Jitsi Meet."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-utilisation-avancee.rst:70
-#: 9e73b49054e54a2f8555f222d44dcb7d
+#: 119679f081734d7295989dcd6e1b9d7a
 msgid "Lien pour télécharger le plugin : https://repo-gofast.ceo-vision.com/gofast_outlook.msi"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-utilisation-avancee.rst:72
-#: ce4729ade0f94cb8a9614b76ba235ae0
+#: 70c462b27b23487d9a357396cbe1c10c
 msgid "Pour installer le plugin en le configurant par défaut pour votre instance de GoFAST, les administrateurs système pourront le faire via leur AD ou en ligne de commande avec les paramètres suivants :"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-utilisation-avancee.rst:83
-#: 8149b8cba83f4716bbe1144aae3a123b
+#: 741fad32ac614d3ab176a4a6a0571728
 msgid "Synchronisation locale (GoFAST hors-ligne)"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-utilisation-avancee.rst:85
-#: 67dad301db284b9caf9dc1cb095620ac
+#: 8b2d151b910a4ec0a6608a0d4ec59f0a
 msgid "Il s'agit d'utilitaires qui font une copie locale des fichiers GoFAST (en totalité ou limité à des espaces) pour pouvoir les accéder lorsque l'on n'a plus de réseau (par exemple dans l'avion)."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-utilisation-avancee.rst:87
-#: 3098a3ab1540412eacd162f91ef4332d
+#: d79dd3d15e944a3fb65e99100c949ca7
 msgid "Certains utilitaires sont mono-directionel (si l'on modifie la copie locale, il faut penser à la sauvegarder sur GoFAST dès qu'on a du réseau, et dans certains cas fusionner ses modifications) ou bi-directionnel (si l'on modifie la copie locale elle sera directement synchronisé une fois le réseau disponible, avec éventuellement une gestion des conflits)."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-utilisation-avancee.rst:89
-#: 4e90faf12da241b9b7ccbb4f2275e661
+#: c9b1cd6ffedb4d81957021e5dd69607e
 msgid "Historiquement nous utilisons CMISSync mais plus récemment nous sommes en phase de tests avancés de Mountainduck (payant)."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-utilisation-avancee.rst:93
-#: 1934d46a9a564a669a37b0cec68f865c
+#: 74459c7364c545069613f730dcbfef30
 msgid "L'outil est disponible pour Windows et Mac téléchargeable ici : https://mountainduck.io/"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-utilisation-avancee.rst:95
-#: 65b5abdc8bbd4f0fb07be30f8cbd6566
+#: a08cea4e43004d33b63aa69a45185e41
 msgid "Voici comment configurer l'outil (**gofast.ceo-vision.com** est à remplacer par le nom de votre GoFAST, **cpotter** par votre identifiant)"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-utilisation-avancee.rst:98
-#: 549b8723e00441dab466c0a6e0c71797
+#: db716c8251db4f1b9a629daedc11e9c1
 msgid "|image23|"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-utilisation-avancee.rst:276
-#: 6476faf4f7fa455fa9f29245a005360e
-#: 4c896957285c4d6e840673fc12453dfd
+#: b65503c6a4574fde8cab38bbda6619e5
+#: d03ed77bb7f047d995d5dc45db7e04c6
 msgid "image23"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-utilisation-avancee.rst:103
-#: 383183e880e8467f8dfb6c999bd21dc2
+#: 7e4bbeb01d3d46aa95ffa962b06cf7b5
 msgid "Lorsque l'ordinateur est connecté au réseau, MountainDuck vérifie périodiquement si des documents ont été changés sur la plateforme GoFAST. Si les documents ont été modifiés, ils sont copiés localement (sur le PC)."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-utilisation-avancee.rst:108
-#: 4247e0002201456bbb1e44aa69aadd11
+#: 87822d0b1fc241e18992cdab76fc0de9
 msgid "si vous faites des modifications en mode déconnecté (offline), lors de la reconnexion sur le serveur GoFAST, votre version sera téléchargée et versionnée"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-utilisation-avancee.rst:112
-#: 4f1f08d2bf1642f1836b321f4bc6d5b0
+#: 54947b20c3b442c5bb5b6deb9f42e155
 msgid "si vous effacez un répertoire en local dans l'arborescence synchronisée, les répertoires distants seront supprimés. Par mesure de précaution, il est préférable d'éviter de supprimer un répertoire en local dans l'arborescence synchronisée. GoFAST ne supprime pas définitivement les documents mais une procédure de « republication » doit être faite"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-utilisation-avancee.rst:121
-#: 66213582a6e34934ba911e15832358f0
+#: 8faa7dae299143a48301a98c820bf419
 msgid "Accès aux fichiers GoFAST sur Tablette et Smartphone"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-utilisation-avancee.rst:122
-#: 6e2c9672e314491686ee0e1b5a1fb082
+#: 2388e59a3ccc4d5bbe96dfb7b232d817
 msgid "Il est possible d'accéder à la plateforme GoFAST à partir de tablettes Android (ex. GalaxyTab), iOS (iPAD) et smartphones (Android, iOS, Blackberry)."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-utilisation-avancee.rst:125
-#: 30e54ba9b8a54b5d96437ff881c5ea41
+#: 627f3c6194d140cf8da42edd2d9916ac
 msgid "Pour cela vous devez installer le logiciel gratuit **« Webdav Navigator Lite »** sur iTunes, GooglePlay ou Blackberry AppWorld. A noter qu'une version payante incluant la synchronisation locale est disponible sous le nom **« Webdav Navigator »**"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-utilisation-avancee.rst:130
-#: 3371aa7414714d69b5a34adee5144eaa
+#: fec954df8fe44d8283a1c8592d624639
 msgid "|image9|"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-utilisation-avancee.rst:262
-#: 18a201fc385f4c4a84025d7529bd67f9
-#: b9ec84068de64a3890ada6bd7ad7e3fa
+#: 088318800b8f45e69b1b7cc55ee170ee
+#: ae2f258932ad47e4b40ccadc3311a8bd
 msgid "image9"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-utilisation-avancee.rst:132
-#: cc2c6192b7b347e38d4dd41c5c1161c5
+#: 22991e581e834803ba8d858983a4f3bc
 msgid "Vous aurez ensuite la possibilité d'accéder à vos fichiers GoFAST sur votre smartphone :"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-utilisation-avancee.rst:134
-#: 970f409591e24850babd5e0c0cff7297
+#: a59dcbbd6b8b4aa69bfd719fe4b9f89b
 msgid "|image10|"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-utilisation-avancee.rst:263
-#: af48975baf5d469484ba16447269cd2f
-#: cc75a1f2c2aa4d6881d61fcc203c024b
+#: ab3b07847174418ea46f45948aed5d81
+#: 19ac4d9e8c6e4d18a25070a9f26b89a2
 msgid "image10"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-utilisation-avancee.rst:136
-#: ff7bff3d74724fe4b8f6db35d706fac9
+#: 07ad16d651174baca8a27235bd393280
 msgid "Le site de l'éditeur se trouve à l'adresse suivante : http://seanashton.net/webdav/"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-utilisation-avancee.rst:142
-#: a4f640207c4541e1b716d23906b13d93
+#: e372b0cfb4504bd4ad75175f21ceec29
 msgid "Éditer des fichiers MS-Office sur Tablette"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-utilisation-avancee.rst:143
-#: 0625ea31b2624fbf847bb77bf85b19a6
+#: 03dcd20c75794ffa903f7c919a422125
 msgid "Nous recommandons l'application OnlyOffice sur Googleplay (au 02/10/2019 la version n'est pas totalement fonctionnelle) et Applestore."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-utilisation-avancee.rst:145
-#: 5fd1c3380f854e9bbeafa6d54deff9fc
+#: de8cb4a6e2384389917e33315d4a1244
 msgid "Vous pourrez configurer un espace de stockage directement sur la GoFAST par « Connecter les clouds » puis choisir « Autre cloud » puis « Webdav » et entrer l'adresse « https://gofast.mycomp.com/alfresco/webdav » où vous devez remplacer mycomp.com par le domaine de votre organisation."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-utilisation-avancee.rst:150
-#: 5d67be52db91416abcff5efa1e62b67a
+#: 3b46caa5b047401ca80b5b2aa2882748
 msgid "|image14| |image15|"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-utilisation-avancee.rst:267
-#: 27ff3ab1908143cabb39f358a85c5cb0
-#: e3c851df14604498aba110a6cd61d978
+#: b65b7d94e1bd4bd29a8f808e96dfa6ea
+#: bd5f11fa28bc4f898870026dd8df7247
 msgid "image14"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-utilisation-avancee.rst:268
-#: a4ebb8b52a074d3180ca39dc6efef15c
-#: a99ab529c247485b96b45a8f20fad6d5
+#: 70ea923a244f43d8969e04f15cd917f2
+#: 4adcb16d5fb440b18f89a645888f3c81
 msgid "image15"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-utilisation-avancee.rst:153
-#: 330565969f494f189871950caaeb39c3
+#: 49664860034941fa958155bacaada10c
 msgid "Vous pouvez ensuite naviguer dans votre arborescence et choisir le document que vous voulez éditer :"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-utilisation-avancee.rst:155
-#: e2621598123446828df777dbe7b91c05
+#: 29b9db25a73f4d2099300e6136f17e1e
 msgid "|image16|"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-utilisation-avancee.rst:269
-#: 42047ef677b848dd9f278967990a8b8b
-#: 177c83ba54444273ac34fd9181cb45ed
+#: 69054dfdad8a4a4c8356e0e0ab69889d
+#: 3c95c4ff0e634025b28934b58f8f9584
 msgid "image16"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-utilisation-avancee.rst:157
-#: cb80cc3133b2421dbb75958462046b14
+#: 4367511e505c46118ef184d54f5efc7d
 msgid "Puis l'éditer :"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-utilisation-avancee.rst:159
-#: d28f848212b24ec28d82aecc8619c634
+#: 2e70b94729cc43caa53199fc65838b73
 msgid "|image21|"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-utilisation-avancee.rst:270
-#: eaff27b8b16040989465ae10e59755a2
-#: 3c9acf953d0045d499214b07a4cfbebf
+#: 786d192ca7414c709c9374c3f22ab928
+#: ca3c96e21dfb416abc975acbbd28492a
 msgid "image21"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-utilisation-avancee.rst:163
-#: 85afdb991e1345e4a649ed630ddcc630
+#: dcd43f4a52754d5da2393ec507810a27
 msgid "Messagerie instantanée (« chat / conversation ») sur mobiles"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-utilisation-avancee.rst:165
-#: 9356309098684cc08e95d8fc1e084c9f
+#: 0649bf02d3de48109d948ec8d1b95b49
 msgid "Avec GoFAST vous avez une messagerie instantanée privée et sécurisée, équivalent de « WhatsApp » ou « MS-Teams » pour votre Organisation, fonctionnant avec Element(Riot)/Matrix (GoFAST > v3.8)"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-utilisation-avancee.rst:168
-#: 755ed5b3cc2f4231b27fba6c6b6089e8
+#: 8e0667378b814dfc9aaee139db3fe919
 msgid "Vous pouvez donc utiliser l'application pour votre téléphone suivant :"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-utilisation-avancee.rst:170
-#: df37a200078c46e08824c9fed5ccf837
+#: ff33e7a74575429793daa0452dd98573
 msgid "Android : https://play.google.com/store/apps/details?id=im.vector.app&hl=fr_FR"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-utilisation-avancee.rst:172
-#: 7091e427092340dc955c5787ce311860
+#: b3e2c18e20824176bfaf650b24d205fb
 msgid "iOS/iPAD : https://apps.apple.com/fr/app/element-messenger/id1083446067"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-utilisation-avancee.rst:175
-#: 7a071a79df894239aba894289fe0c2f7
+#: a5f49b0d2873440f960f82ca86d472bc
 msgid "Pour configurer ces clients il suffit d’entrer l'adresse de votre serveur GoFAST (avec -comm) :"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-utilisation-avancee.rst:177
-#: 15370f313f8449a6806bf0622527e089
+#: dcce2ad7ee354bebb9175112174839d2
 msgid "L'identifiant et le mot de passe à renseigner sont ceux que vous utilisez pour vous connecter à votre plateforme GoFAST."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-utilisation-avancee.rst:179
-#: 5e0ba5e0b52f4970ae2b08576fe17096
+#: 5f61d95f83dc45a3bff28af9d262f659
 msgid "|image22|"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-utilisation-avancee.rst:275
-#: 1f8d2642f9ba4eedaf73a283ae3c9fa9
-#: 239f61d1ede147d8b45837313bb54f6d
+#: 74594f5ab24341859c7f2320ceb9e3f3
+#: 38539f8bfaed42029ed64c397a6c9156
 msgid "image22"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-utilisation-avancee.rst:182
-#: 98aa9b07bfa848aa8c0c4768a6c133bf
+#: 4e4f0f31815b458c8587143d02936ba1
 msgid "Signature électronique unitaire des PDF"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-utilisation-avancee.rst:184
-#: c28e4af6756d48fc8fa9dfee051e0688
+#: 12dc37cdcb784c829999e072135689f8
 msgid "GoFAST permet d'ouvrir un PDF avec Foxit Reader (ou Acrobat), d'y apposer une signature et de sauvegarder le PDF signé directement sur la plateforme GoFAST."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-utilisation-avancee.rst:187
-#: ea5245accc694568ace9617fd20b7925
+#: e69a31a8d1454080acd5a271ad2ecf5c
 msgid "Vous devez avoir installé \"ITHitEditDocumentOpener\""
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-utilisation-avancee.rst:189
-#: f9b44e1e01e04f1cb8c385c65f5bf2c3
+#: dbf45bac674b43eb8c693e2667df6409
 msgid "Vous pouvez alors choisir dans le menu 'Editer en ligne'. Ceci ouvrira l'application installée sur votre poste (Acrobat Reader, Foxit, ...). Vous pouvez alors signer avec une signature manuscrite ou un certificat électronique puis sauvegarder directement sur GoFAST avec versionning."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-utilisation-avancee.rst:191
-#: 5af7239311c04fcdbfd26e75c9565645
+#: 13b9c6da05e54594a35cba1b7804a8db
 msgid "|image17|"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-utilisation-avancee.rst:271
-#: 548281bbb1b84aa0983afc47e7fe33e4
-#: 84506b68ac0b43909f0a96b3180fbe48
+#: ae1ed88e330c4dbfadd1fbe213cecd1d
+#: 339759015a04472ba15786567e3fc229
 msgid "image17"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-utilisation-avancee.rst:193
-#: d81536075f3a49ddb1cf5c94eda71754
+#: d0d16268d28f4d58b6ae8da950c13100
 msgid "Si vous utilisez Acrobat Reader, l'application doit être déjà fermée avant de lancer l'édition en ligne"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-utilisation-avancee.rst:196
-#: 70df202473f14465a765cec5ee143283
+#: ddfa403f8a424d53b06252dec3bfb710
 msgid "Signature électronique en masse RGS 2* des PDF"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-utilisation-avancee.rst:198
-#: 834ce57433694e1281de629dc34c47c1
+#: fed33b255d2e4ea6aa4442c8e44e7f32
 msgid "Nous testons actuellement Xolidosign (site en Anglais mais application traduite en Francais)."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-utilisation-avancee.rst:201
-#: 1af307c9976640da99e935e97f910987
+#: c1f7bded0e264375a931ca960f55ed11
 msgid "Dématérialiser vers GoFAST"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-utilisation-avancee.rst:203
-#: 210127383e0e44979fdc5acce31bb655
+#: 0c55546c6337420baa6ef8ccad98e7ec
 msgid "Il est possible de créer un dossier permettant de déposer des PDF \"Images\" et que ceux-ci soient transformés en PDF \"Interrogeables\" grace à un logiciel commercial de reconnaissance de caractères (OCR) installé sur le PC, \"ABBYY Hot Folder\" (ABBYY FineReader). Vous pouvez ainsi numériser des factures et qu'elles soient transformées en PDF Intérrogeable pour qu'elles soient facilement retrouvables sur GoFAST."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-utilisation-avancee.rst:208
-#: ba1d5b7bc0c24e93b0b88d1a7c1de824
+#: 96795e14d675496ea72d90502c9af7fd
 msgid "|image19|"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-utilisation-avancee.rst:273
-#: 7c44863297444eac92ad986e99391b57
-#: c9a6dc4a3f9048019b917c0fe1c7664a
+#: fdfaa8116dcd478d87514dcbb9946e13
+#: 09d9652c0e174f9290ec5e8080507843
 msgid "image19"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-utilisation-avancee.rst:210
-#: 2e5f086fc6174e06acdac1c4c6ce119c
+#: 80b7ec15bf724c6db0273ebb09bb7398
 msgid "|image20|"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-utilisation-avancee.rst:274
-#: 61d40537a1584b88a9446c253940cdbd
-#: ddd08aec496e466284be5a973b8276c0
+#: a1912bbb5ea2474097926343ba4e02a6
+#: 816e92b918454895b77466d67b291046
 msgid "image20"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-utilisation-avancee.rst:214
-#: 1c21db437dc6441e8c2577e8717e2bc6
+#: 679e3dabd87b47ae8f83cecb15d7272f
 msgid "Dématérialiser à partir d’un smartphone"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-utilisation-avancee.rst:216
-#: b30f3bb520a54e1cac21c759b9b39343
+#: 5dc944f775f6418b8621ec0121e9ee11
 msgid "Il est possible de dématérialiser par exemple des notes de frais directement à partir d’un smartphone et de les envoyer directement dans GoFAST."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-utilisation-avancee.rst:219
-#: bd13646d43904ce082f93a50b6980fc5
+#: 9905907c3b4f4c1cab34acd5aef88dd2
 msgid "|image18|"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-utilisation-avancee.rst:272
-#: 6a6f23119f964259b1f40b15772da176
-#: 17c8f34132d343ab99b848408be7e5ab
+#: c02c43c0541249efa9779693cb8fb332
+#: 72fde2ab13b744aab8019de8a50fe6ec
 msgid "image18"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-utilisation-avancee.rst:221
-#: f80af369737345d8ae507f0886a339e7
+#: d6d301901fad4b97aaecfc3f21376c14
 msgid "Pour cela vous devez avoir installé :"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-utilisation-avancee.rst:223
-#: b49901ee8cff46fa954d569d4fec7abb
+#: 98ab158d928d44a6be1f72856bf43c32
 msgid "CamScanner et \"Webdav Navigator\" ou"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-utilisation-avancee.rst:224
-#: a6379d8bd15748d3abf37150c54e5460
+#: ab882ffa394647e39428044855ee9676
 msgid "Scanbot"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-utilisation-avancee.rst:226
-#: 6684e4b441834a38827d925c081b31dc
+#: d0a4c65d8b9d4fa2807d845c14cc2f18
 msgid "Nous parlerons ici de la configuration de Scanbot dont l'utilisation est simplifiée."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-utilisation-avancee.rst:228
-#: 72bfd86137574f9b977fd508aa693434
+#: 54f40d0de5814693989d102474edf31a
 msgid "|image11|"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-utilisation-avancee.rst:264
-#: 5c500a52e4c14ce989210a3c514fd2ad
-#: 543c6cfd846b406b93cd5f4d98587724
+#: b76e18890a9d466eb9e09d3fab38589d
+#: 0077eb60fa9e4d0ab63c3fca09cfaca3
 msgid "image11"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-utilisation-avancee.rst:230
-#: 3134c1737df447eabdb5fdf25fece503
+#: 45b9731cf704457aa23fc8d7391b8431
 msgid "|image12|"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-utilisation-avancee.rst:265
-#: 4aec39e7bcd3424e90208e80b05e93bf
-#: ec3c6f1c93df4d0b8a1322e6a08966a0
+#: 24a4d9b40dc641d5a326c1a6e32d4738
+#: d812a8b93f494b13b2aa0253b598e8b8
 msgid "image12"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-utilisation-avancee.rst:232
-#: f31e1ff301f64ce78f5fe769f631919a
+#: 21cabd74afd94977a345a835f7add4ec
 msgid "|image13|"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-utilisation-avancee.rst:266
-#: bf8a4eb5ecaf403796ab9458a183cb73
-#: 9733d89767c24307be9acf608abc941d
+#: 365d80387bee43d48aa363b983739886
+#: d176170b953340158f7dcb82d71260d1
 msgid "image13"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-utilisation-avancee.rst:235
-#: abc5e41128bd46b4a56aeb7c34c44fb6
+#: eeeb81b73f9a49efbd46c33efa4b7145
 msgid "Dématérialiser à partir d'un copieur multi-fonction"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-utilisation-avancee.rst:237
-#: 206800fbecca4760a9c69716a214849b
+#: ef52f5e5d5c849b182c84334c2adf9d6
 msgid "Pour ceci votre copieur doit posséder un connecteur webdavs. Nous contacter pour plus de précisions"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-utilisation-avancee.rst:241
-#: 1834f4c6d69b453fb331faed2a5cf946
+#: a8087094e6154d63917d94b913fb2f17
 msgid "Reprise de contenus vers GoFAST"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-utilisation-avancee.rst:245
-#: 23c516dde10945e0967e9fda2f4228cc
+#: 6905e3fdbf2f40f8828de354b43fcdb1
 msgid "Dans le cas de migration d'un entrepot Google vers GoFAST, suivre la procédure suivante:"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-utilisation-avancee.rst:249
-#: 8c88d628ad5e412283e930af76084dcc
+#: a0406a9e164349d1b387c8c264fb83ed
 msgid "Google vous propose de télécharger une archive au format \"zip\" avec les contenus convertis au format MS-Office."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-utilisation-avancee.rst:253
-#: aefb05049c33453e967a0bf55db148fe
+#: 5f2e91baa2e6458da04175c302da1b89
 msgid "Vous pouvez à présent décompresser l'archive directement dans l'arborescence dans GoFAST"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-utilisation-avancee.rst:258
-#: 93178782f43d48308dae354698002ba4
+#: c449384b71a24401b23d334f98a5272e
 msgid "image3"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-utilisation-avancee.rst:259
-#: e82a8fc0dab34bfaad8d45baa3eb116f
+#: 7d4ffe567f31437484cec2aff5d21b98
 msgid "image4"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-utilisation-avancee.rst:260
-#: e02e6293dabb4be9bb315a958384f15c
+#: a0b8f23a6b8c43d984601fd785781e30
 msgid "image5"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-utilisation-avancee.rst:261
-#: e4a70aba3f064f74a075e2b36e65eadc
+#: 0a795ba3000d43019a1134018bacc817
 msgid "image8"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-utilisation-avancee.rst:279
-#: 8d26a48952b64bf19b52c2de1af931fd
+#: 61edd508bb254470b13be8b84fcb8aca
 msgid "Configurations/Installations optionnelles"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-utilisation-avancee.rst:280
-#: 4fc9097d63fa4cdea73ca14faf425602
+#: 3afbbe0becd74d9f9ccb92ba793f3c1a
 msgid "**Des configurations et/ou installations supplémentaires sont nécessaires pour :**"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-utilisation-avancee.rst:282
-#: 59ad7c0896754895828196c351f5418b
+#: 3e8bade567ef45c490a7ee925feafbe6
 msgid "Editer en ligne les contenus non-Office (exemple signature de PDF) ou via LibreOffice"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-utilisation-avancee.rst:283
-#: 0ef2d0617fd2465db467ec801627940a
+#: d0456d0be7fc400fb3bc79ba57c7066b
 msgid "Synchronisation hors-ligne"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-utilisation-avancee.rst:284
-#: cbf8ee9a18b442dc8a6e20471648c67f
+#: e598df2405074802820c829c3d344d20
 msgid "Accès à l’arborescence de GoFAST via votre l'explorateur de fichiers du PC (Windows ou MacOS)"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-utilisation-avancee.rst:286
-#: 06799f214c7742fa85eb8ec67988d25b
+#: 20b436a843174dc1a7040bfd335270c7
 msgid "Dans la plupart des cas, il est nécessaire de contacter votre support informatique (qui gèrent votre PC)."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-utilisation-avancee.rst:290
-#: 83f52f5ae16a43ff9db5bb9f8a13e79c
+#: 9ca87bd8112141c0b7c9a8fc7c182bfc
 msgid "**Configurer le Lecteur Réseau :**"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-utilisation-avancee.rst:292
-#: 94c096c7eccd4608b03e2bad995d08b1
+#: 28a88710f3664683a3dfbc8a0d6fd216
 msgid "Faire un clic-droit sur \"Ce PC\" et choisir \"Connecter un lecteur réseau\""
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-utilisation-avancee.rst:297
-#: bdbe6a4ff98d4d8097bb32ac656b8dff
+#: fbf2e2b4366041c99deec962177f56c4
 msgid "Entrer l'adresse pointant vers votre GoFAST, ex. ``\\\\gofast.ceo-vision.com@SSL\\alfresco\\webdav\\``"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-utilisation-avancee.rst:302
-#: ef919b92ef044443b7bc4c7dc39d2708
+#: b327777cacc844348f5c281b8eb6e775
 msgid "Une boite de dialogue s'ouvrira ensuite dans laquelle vous devrez entrer vos identifiants / mot de passe GoFAST"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-utilisation-avancee.rst:304
-#: 80512c2018874d91b78fad8e3041f2c7
+#: 231eb0cb46b04cf1afaa0ff2ec7f0588
 msgid "En cas d'erreur voir http://gofast-docs.readthedocs.io/fr/latest/docs-gofast-users/doc-gofast-problemes-connus.html#gofast-problemes-connus"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-utilisation-avancee.rst:306
-#: e72510c5671f41d6852da9ac350d46b1
+#: 1a42004cb5564b8e91f22a7369f468e2
 msgid "Une fois cette opération faite, vous pouvez voir GoFAST comme un \"Lecteur Réseau\", alors la même arborescence"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-utilisation-avancee.rst:311
-#: f01bc8836147471db0cdeb79afdbf38c
+#: 662b535289bb42b6af198f9c453ce42c
 msgid "Vous pouvez faire toute opération, comme des copier-coller de documents ou de répertoires entiers."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-utilisation-avancee.rst:313
-#: 84c99c37fce44cb2b41031e645037bf0
+#: b4786b7f5b7743ae910e4c9a1e090992
 msgid "Vous ne pouvez pas faire d'opérations sur les Espaces (commençant par un _)"
 msgstr ""
