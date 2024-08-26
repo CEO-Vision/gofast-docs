@@ -83,7 +83,7 @@ Bugs
    "GOFAST-11657","Bug","[JITSI] Webconférence : Déconnexions en boucle sur Firefox "
    "GOFAST-11592","Bug","Dans l'audit, lors de l'utilisation d'un filtre sur un résultat, on ne revient pas à la page 1 "
    "GOFAST-11349","Bug","Suppression de la possibilité d'éditer les listes d'utilisateurs si elles sont synchronisées avec l'annuaire "
-   "GOFAST-11266","Bug","Redirection clic du lien de la fonction 'Partager par email' "
+   "GOFAST-11266","Bug","Redirection erronée (vers le tableau de bord) lors clic du lien 'Partager par email' "
    "GOFAST-9984","Bug","Dépôt de fichiers .eml (Thunderbird macOS) impossible depuis un Mac "
    "GOFAST-11229","Bug","[ONLYOFFICE] Format des dates change lors de la publication en PDF d'un document Excel édité depuis Office365 "   
    "GOFAST-11095","Bug","Traduction des DUA non prises en compte dans les catégories du document "
