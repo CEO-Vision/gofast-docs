@@ -12,14 +12,14 @@ Nouvelles fonctionnalités
    :widths: 1000, 2000, 60000
 
     "GOFAST-6807","Nouvelle fonctionnalité","Rajouter l'option de réunions récurrentes en web-conférence "
-    "GOFAST-7248","Nouvelle fonctionnalité","Créer un écran de test des filtres AD pour faciliter la configuration de synchronisation "
+    "GOFAST-7248","Nouvelle fonctionnalité","Nouvel écran de test des filtres AD pour faciliter la configuration de synchronisation "
     "GOFAST-11536","Nouvelle fonctionnalité","API Activation / Désactivation des Utilisateurs"
     "GOFAST-9870","Nouvelle fonctionnalité","Ajout de la la possibilité de changer les identifiants des utilisateurs "
    "GOFAST-12011","Nouvelle fonctionnalité","Publication d'un fichier AutoCAD DWG en PDF en plus de SVG "
     "GOFAST-3903","Nouvelle fonctionnalité","[OPTION] Possibilité de tamponer un PDF avec identifiant/date à l'étape de signature"
     "GOFAST-11208","Nouvelle fonctionnalité","[OPTION] Possibilité de tamponer un PDF avec identifiant/date à l'étape de validation"
     "GOFAST-4439","Nouvelle fonctionnalité","[TECHNIQUE] Conformité Profil sécurité ANSSI BP 28 Enhanced"
-    "GOFAST-7469","Nouvelle fonctionnalité","[TECHNIQUE] Remplacement du système d'exploitation CentOS7 par Almalinux"
+    "GOFAST-7469","Nouvelle fonctionnalité","[TECHNIQUE] Remplacement du système d'exploitation CentOS 7 par Almalinux 9"
 
 Note : Si indiqué [OPTION], il s'agit d'un module supplémentaire
 
