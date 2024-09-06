@@ -166,11 +166,16 @@ Ce rôle est donné à tous les Membres d’un Espace qui doivent pouvoir consul
 
 Permissions principales liées au rôle Lecture Seule : consulter les documents, les commenter, télécharger sur son PC, partager par email (lien d’accès/téléchargement sécurisé).
 
+Rôle de gestionnaire d'espaces 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Le gestionnaire d’espaces est un contributeur qui est également capable de supprimer et déplacer un contenu sans en être le créateur. 
+
+
 Tableau des permissions par Rôle
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Ce tableau récence les permissions données aux 3 rôles disponibles dans un Espace Collaboratif, sur les documents/contenus/dossiers, ainsi que l’Espace lui-même.
 
-[Tableau en cours de construction et sera disponible d’ici quelques jours.]
+.. figure:: media-guide/role_gestionnaire_espace.png
+   :alt: 
 
 
 Gérer les membres d’un Espace 
@@ -662,6 +667,25 @@ Vous retrouverez votre nouveau modèle dans la liste des modèles proposés au l
     Si vous créez votre modèle à partir de la page d’un document ou du panier, le(s) document(s) sont pris en compte sur la création du modèle.
 
 Voir aussi la rubrique : « Renseigner le formulaire du processus de tâches »
+
+Tampon à l’étape de signature 
+-----------------------------------
+
+Pour démarrer un processus de tamponnage, il faut débuter un processus de diffusion de document, remplir le processus normalement, et dans « Etapes de signature », « Type d’attribution » il faut choisir « Pour tamponnage ». Vous pouvez ensuite remplir le processus avec le nom de l’utilisateur concerné, la date d’échéance et la position du tampon. Et enfin envoyer le processus.  
+.. figure:: media-guide/tamponnage1.png
+   :alt: 
+
+Ce processus est disponible dans « Processus et tâches » de l’utilisateur que vous avez assigné. Vous pouvez comme toujours, retrouver le processus que vous avez assigné à l’utilisateur dans « Autres tâches » de l’onglet « Processus et tâches ». 
+.. figure:: media-guide/tamponnage2.png
+   :alt: 
+
+Vous pouvez ensuite choisir les options, et si vous choisissez valider, un tampon sera apposé avec la date de signature ainsi que l’heure. 
+.. figure:: media-guide/tamponnage4.png
+   :alt: 
+
+.. figure:: media-guide/tamponnage3.png
+   :alt: 
+
 
 
 Suivre ses tâches à traiter et/ou assignées aux autres
