@@ -84,10 +84,11 @@ Bugs
    "GOFAST-11349","Bug","Suppression de la possibilité d'éditer les listes d'utilisateurs si elles sont synchronisées avec l'annuaire "
    "GOFAST-11266","Bug","Redirection erronée (vers le tableau de bord) lors clic du lien 'Partager par email' "
    "GOFAST-9984","Bug","Dépôt de fichiers .eml (Thunderbird macOS) impossible depuis un Mac "
+   "GOFAST-11958","Bug","Problème de prévisualisation de certains DWG en SVG"
    "GOFAST-11229","Bug","[ONLYOFFICE] Format des dates change lors de la publication en PDF d'un document Excel édité depuis Office365 "   
    "GOFAST-11095","Bug","Traduction des DUA non prises en compte dans les catégories du document "
-    "GOFAST-10965","Bug","[TECHNIQUE] Mise en conformité de l'emplacement des logs d'Alfresco"
-    "GOFAST-10982","Bug","[TECHNIQUE] Mise en conformité de l'emplacement des logs de Synapse (chat)"
+   "GOFAST-10965","Bug","[TECHNIQUE] Mise en conformité de l'emplacement des logs d'Alfresco"
+   "GOFAST-10982","Bug","[TECHNIQUE] Mise en conformité de l'emplacement des logs de Synapse (chat)"
 
 
 Nouvelles fonctionnalités (R3)
