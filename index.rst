@@ -21,6 +21,7 @@ Documentation GoFAST 4.0
    docs-gofast-users/doc-gofast-guide-utilisateurs
    docs-gofast-users/doc-gofast-utilisation-avancee
    docs-gofast-users/doc-gofast-administration-plateforme
+   docs-gofast-customstyle/docs-gofast-customstyle.rst
    docs-gofast-users/doc-gofast-modules-complementaires
 
 .. _release-docs:
