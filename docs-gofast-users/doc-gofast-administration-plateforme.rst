@@ -582,6 +582,24 @@ Une fois enregistré, le lien personnalisé apparaîtra dans la barre de menu su
 
 .. figure:: media-guide/lienpers2.png
 
+Personnalisation
+-----------------
+
+GoFast propose diverses options de personnalisation permettant d'ajuster l'apparence de l'interface selon vos préférences.
+
+**1. Titre de l'onglet:**  Il est possible de définir le titre qui apparaîtra lors du survol de l'onglet dans le navigateur. 
+.. figure:: media-guide/titregofast.png
+
+**2. Le message de bienvenue par défaut:** Il est possible de personnaliser le message de bienvenue qui s'affiche par défaut à la connexion.
+.. figure:: media-guide/messagebienvenue.png
+
+**3. Logo en haut de la page:** Il est possible de choisir un logo qui apparaîtra en haut de la page, à gauche, sur toutes les pages après connexion.
+.. figure:: media-guide/logoimage.png
+
+Ces trois options de personnalisation peuvent être modifiées directement depuis 'GoFast Configuration' puis 'Général'.
+
+.. figure:: media-guide/personnalisationmenu.png
+
 Logo personnalisable de la page de connexion 
 --------------------------------------------
 
