@@ -554,6 +554,9 @@ Dans l’explorateur de fichiers, il existe plusieurs icônes communes dans la c
 | .. figure:: media-guide/icon-cat-specefic.png         | Catégorie spéciale  | Vous pouvez seulement consulter ce contenu et le commenter car il a des permissions spéciales (archivé, DUA...).                                                |
 |    :alt:                                              |                     |                                                                                                                                                                 |
 +-------------------------------------------------------+---------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| .. figure:: media-guide/icone_dossier_mirroir.png     | Dossier miroré      | Cette icône indique que le dossier est miroré                                                                                                                   |
+|    :alt:                                              |                     |                                                                                                                                                                 |
++-------------------------------------------------------+---------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 
 Déposer des fichiers sur GoFAST via l'explorateur 
@@ -875,6 +878,20 @@ Vous pouvez aller plus loin dans l’arborescence en cliquant sur les petits « 
   Si vous n'avez pas les droits d'administration de l'espace ou si vous n'êtes pas le propriétaire du document, la case d'emplacement sera grisée. Vous pourrez partager le document dans plusieurs emplacements, mais vous ne pourrez pas le retirer de son emplacement initial.
 
 Lorsque des documents ont plusieurs emplacements, une icône « partagé » est affichée dans la colonne « info » dans la zone principale de l’explorateur de fichiers.
+
+Dossier miroir (multi partager un dossier)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Le principe d’un dossiers miroir est de partager un dossier entre 2 espaces, n’importe le type (groupe, extranet, organisation, public). Le contenu du dossier sera visible pour tout les membres de l’espace où le dossier est multifilé. Les personnes ayant des droits dans l’espace où est le dossier (espace initial ou miroré) pourront modifier les fichiers à l’intérieur du dossier.
+Pour créer un dossier miroir : 
+Sélectionnez un dossier, faites un clique droit, puis cliquez sur « Partager / Modifier les emplacements », vous pourrez ensuite choisir l’espace où vous voulez mirorer le document.
+
+
+Une fenêtre va s’afficher avec la confirmation que le dossier est bien miroré.
+.. figure:: media-guide/dossier_miroir.png
+   :alt: 
+Votre dossier est maintenant miroré ! 
+.. NOTE::  Il est impossible de miroirer un document contenant un document multi-filé
+
 
 Modèle d’arborescence de répertoires (dossiers)
 ------------------------------------
