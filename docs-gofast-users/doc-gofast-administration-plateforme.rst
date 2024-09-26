@@ -165,58 +165,19 @@ Le profil de "support-utilisateurs" a vocation d’accompagner les utilisateurs,
 
 .. NOTE::  En aucun cas le profil de "support-utilisateurs" se substitue aux administrateurs des espaces collaboratifs, qui doivent être des responsables métiers (ex. chefs de services/directions, des responsables d’équipe/projets, etc.). Toutefois, il peut lui-même être un administrateur dans des Espaces dont il est membre.
 
-Configuration Validation création utilisateurs
--------------------------------
-
-Il est possible d’activer une option dans « Configuration » puis « Utilisateurs ». Cette option permet lorsqu’un administrateur métier/d’espace crée un nouvel utilisateur, de le soumettre à validation par un profil support-utilisateur avant d’être crée. 
-
-Une fois que l’administrateur métier/d’espace a crée le nouvel utilisateur, le profil support-utilisateur reçoit une notification et peut valider ou refuser l’activation d’un profil utilisateur depuis la page de profil ou depuis l’annuaire (cette action peut se faire en masse).
-
-Un utilisateur en attente de validation apparaît « En attente » dans l’annuaire.
-
-Configuration Accès utilisateurs externes
--------------------------------
-
-Dans « Configuration GoFAST » puis « Espace », vous trouverez la possibilité de limiter l’ajout d’utilisateurs externes dans certains espaces.
-
-**Désactiver l'ajout des utilisateurs externes dans les groupes**
-- Lorsque cette option est activée, un utilisateur externe ne peut pas être ajouté au type d’espace « Groupes ».
-- Lorsque cette option est désactivée, un message d’avertissement s’affiche lorsque vous allez ajouté un utilisateur externe au type d’espace « Groupes ».
-
-**Désactiver l'ajout des utilisateurs externes dans les organisations**
-- Lorsque cette option est activée, un utilisateur externe ne peut pas être ajouté au type d’espace « Organisations ».
-- Lorsque cette option est désactivée, un message d’avertissement s’affiche lorsque vous allez ajouté un utilisateur externe au type d’espace « Organisations ».
-
-Visibilité sur les Espaces
---------------------------------
-Le support-utilisateur a la visibilité de tous les Espaces Collaboratifs existants via l’annuaire des espaces et le moteur de recherche :
- - Dans le cas où il n’est pas membre, il ne pourra pas accéder aux contenus des Espace (ni fichiers, ni dossiers). 
- - Dans le cas où il est membre d’un espace, il peut y accéder et ces permissions dépondent alors du "rôle" qu’il a dans cet Espace.
-
-.. NOTE::  Pour plus d’informations, merci de vous référer à la rubrique : « tableau des permissions par profil ».
-
-Visibilité sur les Utilisateurs 
--------------------------------------
-Le support-utilisateur a la visibilité de tous les utilisateurs existants via l’annuaire des listes et des utilisateurs, ainsi que le moteur de recherche :
- - Le support-utilisateur peut voir les comptes utilisateurs unitaires et dans une certaine mesure les gérer. 
- - Le support-utilisateur peut voir toutes les Listes d’utilisateurs, mais n’a pas la possibilité de les gérer s’il n’est ni créateur, ni administrateur désigné de ces listes. 
-
-.. NOTE::  Pour plus d’informations, merci de vous référer à la rubrique : « tableau des permissions par profil ».
-
-Autres visibilités / permissions
----------------------------------------------
-Les autres éléments que le profil "support-utilisateur" permet de voir et gérer, sont : 
- - Configuration de la visibilité des espaces et entre les utilisateurs
- - Configuration des catégories de documents
- - Configuration des DUA par catégorie de document
- - Configuration du Lien Personnalisé
- - La base de "Contacts" non-utilisateurs (via le menu "Annuaires / Contacts")
- - Audit
- - Statistiques
+**Configuration dans GoFAST Configuration** : 
 
 
-Configuration : cloisonnement des Utilisateurs et des Espaces
---------------------------------------------------------------------------------
+Etiquettes
+-------------------
+Cette catégorie est en cours de rédaction et sera disponible prochainement.
+
+
+Visibilité 
+-----------------
+
+Cloisonnement des Utilisateurs et des Espaces
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Cette configuration permet de définir le niveau de visibilité ou de cloisonnement des utilisateurs entre eux et celle sur les espaces. 
 **Deux options disponibles :**
 - Visibilité des Espaces Collaboratifs : Il s’agit ici d’ouvrir ou de restreindre le fait qu’un utilisateur puisse voir les espaces dont il n’est pas membre.
@@ -260,45 +221,15 @@ Les profils des utilisateurs désactivés sont inaccessibles et anonymisés aux 
 
 .. NOTE::  Les utilisateurs désactivés sont visibles par les utilisateurs « support-utilisateurs » dans l’annuaire des utilisateurs, dans tous les espaces où ils étaient membres, ainsi que via le moteur de recherche. 
 
-**Désactiver/Réactiver un utilisateur :**
-Pour désactiver ou réactiver un utilisateur et donc, bloquer ou autoriser son accès à la plateforme : 
- - Allez dans l’Annuaire des Utilisateurs et retrouvez-le grâce au tri et aux filtres disponibles. 
- - OU Recherchez l’utilisateur via le moteur de recherche (recherchez par nom, prénom ou identifiant).
- Puis…
- - Cliquez sur le menu « Burger » (les actions contextuelles) depuis l’annuaire ou la recherche. 
- - OU Allez sur son profil et cliquez sur le menu « Burger ». 
-- Via le menu « Burger », cliquez sur « Désactiver » ou sur « Réactiver » puis sur « Confirmer ». 
+Entités 
+-----------------
 
-.. figure:: media-guide/désactiver_utilisateurs.png
-   
-.. NOTE::
-   Il y a une différence entre les utilisateurs « Inactifs » et les utilisateurs « Désactivés ». Les utilisateurs inactifs ne sont pas bloqués, ce sont des utilisateurs qui se connectent rarement sur la plate-forme.
-
-Changer les identifiants des utilisateurs
--------------------------------------------
-
-Il est possible de changer les identifiants, pour cela rendez-vous sur le profil dont vous souhaitez changer l’identifiant, cliquez sur la roue cranté, puis changez l’identifiant. 
-
-.. figure:: media-guide/changement_id1.png
-
-.. figure:: media-guide/changement_id2.png
-
-.. NOTE:: 
-Pour changer l’identifiant, vous devez avoir le rôle de support administrateur et il ne faut pas que l'utilisateur ait l'authentification SASL de coché
+Cette catégorie est en cours de rédaction et sera disponible prochainement.
 
 
+Catégorie
+----------------
 
-Pré-ajouter des membres dans une liste d'utilisateur
-------------------------------------------------------
-
-Il est possible de pré-ajouter des membres dans une liste d'utilisateur. Pour cela il faut cliquer sur le menu burger, puis sur "Pré-ajouter des membres". Il vous faudra alors renseigner le ou les membre(s) à ajouter.
-
-.. figure:: media-guide/pre_ajouter_membre.png 
-
-.. NOTE:: 
-  Seul le rôle administrateur peut pré-ajouter des membres à une liste d'utilisateur dont il n'est pas administrateur
-
---------------------------------------
 Les « Catégories » sont des métadonnées qu’un utilisateur peut appliquer sur les documents auxquels il a accès. Il s’agit du type de document, par exemple : courrier, facture, rapport, contrat, etc. 
 
 .. NOTE::
@@ -318,18 +249,8 @@ GoFAST propose une liste standard des « Catégories » applicables sur les docu
 .. NOTE::
    Seules les catégories non-standard peuvent être édités 
 
-Date personnalisée 
-----------------------
-Il est possible de configurer un champ date, dans les métadonnés : 
-
-.. figure:: media-guide/date_custom1.png
-
-Rendez-vous dans **GoFAST Configuration**, puis dans **Documents** ensuite, dans **Date personnalisée** vous pouvez donner un nom au champ optionnel de la date. 
-
-.. figure:: media-guide/date_custom2.png
-
 Configuration : DUA (Durée de l'Utilité Administrative)
-------------------------------------------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Une « Durée de l'Utilité Administrative » permet de préparer les documents à l’archivage. 
 Il s’agit de définir un chrono (en jours, mois, années) qui se déclenchera à partir du moment où le document est mis en état « pré-archivé » et dépendra de la durée définie pour la catégorie associée au document. 
 A l’issue de cette durée, une alerte est envoyée aux utilisateurs identifiés comme « Archivistes » pour soit « Archiver », soit « Trier » ou « Détruire » le document.
@@ -359,7 +280,7 @@ Pour appliquer une DUA, selectionnez la catégorie que vous voulez appliquer. Pu
 .. figure:: media-guide/DUA_image_8.png
 
 Configuration : Règles de nommage 
---------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Une règle de nommage permet de structurer et d'organiser les fichiers. Elle est appliquée lors de la selection d'une catégorie sur un document. 
 
 
@@ -394,6 +315,83 @@ Supprimer une règle de nommage
 
 Accédez à Gofast Configuration puis à la section Catégorie.
 Trouvez la règle de nommage à supprimer. Dans la colonne Règles de nommage, cliquez sur la croix à droite de l'étiquette pour retirer une métadonnée spécifique, ou sur l'icône de la poubelle pour supprimer l'ensemble de la règle.
+
+
+Lien personnalisé 
+-----------------------
+Configuration : Lien Personnalisé
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Le lien personnalisé permet d’ajouter un raccourci directement dans la barre du menu supérieur. 
+Naviguez vers « GoFast Configuration », puis « Lien personnalisé ». 
+
+Activation : 
+
+1. Cochez la case « Afficher un lien personnalisé » pour activer le fonctionnalité. 
+2. Dans le champs « Étiquette du lien personnalisé », saisissez le nom qui aparaîtra dans la barre de menu. Ce texte sera le libellé visible par les utilisateurs. 
+3. Dans le champs « Lien du lien personnalisé » insérez l’URL complète vers laquelle le lien doit diriger. 
+4. Après avoir remplit les champs nécéssaires , cliquez sur le bouton « Enregistrer » pour appliquer les modifications. 
+
+
+.. figure:: media-guide/lienpers1.png
+   
+
+Une fois enregistré, le lien personnalisé apparaîtra dans la barre de menu supérieure. Les utilisateurs pourront cliquer sur ce lien pour être redirigés vers l’adresse définie.
+
+.. figure:: media-guide/lienpers2.png
+
+
+
+
+**Autres utilisations du support utilisateur**
+
+Visibilité sur les Utilisateurs 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Le support-utilisateur a la visibilité de tous les utilisateurs existants via l’annuaire des listes et des utilisateurs, ainsi que le moteur de recherche :
+ - Le support-utilisateur peut voir les comptes utilisateurs unitaires et dans une certaine mesure les gérer. 
+ - Le support-utilisateur peut voir toutes les Listes d’utilisateurs, mais n’a pas la possibilité de les gérer s’il n’est ni créateur, ni administrateur désigné de ces listes. 
+
+.. NOTE::  Pour plus d’informations, merci de vous référer à la rubrique : « tableau des permissions par profil ».
+
+
+**Désactiver/Réactiver un utilisateur :**
+Pour désactiver ou réactiver un utilisateur et donc, bloquer ou autoriser son accès à la plateforme : 
+ - Allez dans l’Annuaire des Utilisateurs et retrouvez-le grâce au tri et aux filtres disponibles. 
+ - OU Recherchez l’utilisateur via le moteur de recherche (recherchez par nom, prénom ou identifiant).
+ Puis…
+ - Cliquez sur le menu « Burger » (les actions contextuelles) depuis l’annuaire ou la recherche. 
+ - OU Allez sur son profil et cliquez sur le menu « Burger ». 
+- Via le menu « Burger », cliquez sur « Désactiver » ou sur « Réactiver » puis sur « Confirmer ». 
+
+.. figure:: media-guide/désactiver_utilisateurs.png
+   
+.. NOTE::
+   Il y a une différence entre les utilisateurs « Inactifs » et les utilisateurs « Désactivés ». Les utilisateurs inactifs ne sont pas bloqués, ce sont des utilisateurs qui se connectent rarement sur la plate-forme.
+
+
+Changer les identifiants des utilisateurs
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Il est possible de changer les identifiants, pour cela rendez-vous sur le profil dont vous souhaitez changer l’identifiant, cliquez sur la roue cranté, puis changez l’identifiant. 
+
+.. figure:: media-guide/changement_id1.png
+
+.. figure:: media-guide/changement_id2.png
+
+.. NOTE:: 
+Pour changer l’identifiant, vous devez avoir le rôle de support administrateur et il ne faut pas que l'utilisateur ait l'authentification SASL de coché
+
+
+
+Pré-ajouter des membres dans une liste d'utilisateur
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Il est possible de pré-ajouter des membres dans une liste d'utilisateur. Pour cela il faut cliquer sur le menu burger, puis sur "Pré-ajouter des membres". Il vous faudra alors renseigner le ou les membre(s) à ajouter.
+
+.. figure:: media-guide/pre_ajouter_membre.png 
+
+.. NOTE:: 
+  Seul le rôle administrateur peut pré-ajouter des membres à une liste d'utilisateur dont il n'est pas administrateur
+
 
 
 Statistiques 
@@ -559,82 +557,12 @@ L’audit spécifique sur un document est accessible sur la page du document :
 Vous pouvez voir les derniers événements effectués sur ce document, la date et l’heure des actions ainsi que les utilisateurs ayant effectué l’action.
 
 .. figure:: media-guide/audit1.png
-   
 
-
-Configuration : Lien Personnalisé
-------------------------------------------
-Le lien personnalisé permet d’ajouter un raccourci directement dans la barre du menu supérieur. 
-Naviguez vers « GoFast Configuration », puis « Lien personnalisé ». 
-
-Activation : 
-
-1. Cochez la case « Afficher un lien personnalisé » pour activer le fonctionnalité. 
-2. Dans le champs « Étiquette du lien personnalisé », saisissez le nom qui aparaîtra dans la barre de menu. Ce texte sera le libellé visible par les utilisateurs. 
-3. Dans le champs « Lien du lien personnalisé » insérez l’URL complète vers laquelle le lien doit diriger. 
-4. Après avoir remplit les champs nécéssaires , cliquez sur le bouton « Enregistrer » pour appliquer les modifications. 
-
-
-.. figure:: media-guide/lienpers1.png
-   
-
-Une fois enregistré, le lien personnalisé apparaîtra dans la barre de menu supérieure. Les utilisateurs pourront cliquer sur ce lien pour être redirigés vers l’adresse définie.
-
-.. figure:: media-guide/lienpers2.png
-
-Logo personnalisable de la page de connexion 
---------------------------------------------
-
-GoFast permet aux administrateurs de personnaliser l’apparence de la page de connexion en y ajoutant un logo d’entreprise ou une image. 
-1.	Accédez à « GoFast Configuration »  depuis le menu latéral gauche, et sélectionnez l’onglet « Général » 
-2.	Activez l’option « Activer le logo » . 
-3.	Chargez l’image de votre logo en cliquant sur « Charger le fichier image du logo » 
-
-.. figure:: media-guide/logo2.png
-
-
-4.	Sélectionnez l’emplacement de votre logo sur la page de connexion. Trois emplacements sont disponibles pour l’affichage du logo : 
-a.	Pos.1 : Au-dessus du formulaire de connexion. 
-b.	Pos.2 Dans le coin en haut à droite 
-c.	Pos.3 Au centre du bloc gauche
-5.	Après avoir choisi l’emplacement souhaité, cliquez sur « Enregistrer » pour appliquer les changements. 
-
-.. figure:: media-guide/logo1.png
-
-Politique de mots de passe 
-----------------------------
-
-Dans le panneau GoFast Configuration sélectionnez utilisateurs. Faites défiler vers le bas jusqu’à la sélection « politique de mots de passe ». 
-Dans la section Politique de mot de passe, vous pourrez définir les éléments suivants : 
-- **Nombre de mots de passes stockés dans l’historique** : Ce champ détermine combien de vos anciens mots de passe seront mémorisés par le système pour empêcher leur réutilisation. 
-- **Longueur minimal du mot de passe** : vous pouvez imposer la longueur minimale que doit avoir un mot de passe. 
-- **Durée de vie minimum du mot de passe** : spécifiez la durée minimale pendant laquelle un mot de passe doit être conservé avant que l’utilisateur puisse le changer. 
-- **Durée de vie maximum du mot de passe** : indiquez la durée maximale d’utilisation d’un mot de passe avant que l’utilisateur ne soit obligé de le modifier. 
-
-.. figure:: media-guide/polmdp1.png
-
-Paramètrage de GoFAST BlueMind 
----------------------------------------
-Pour les administrateurs, le paramétrage du module GoFast BlueMind est nécessaire pour activer la synchronisation des calendriers pour tous les utilisateurs.
-
-1.	Dans le panneau GoFast Configuration, sélectionnez « GoFast BlueMind".
-2.	Entrez l'URL de votre serveur BlueMind.
-3.	Cochez « Activer la synchronisation du calendrier » pour permettre la synchronisation.
-4.	Cliquez sur « Enregistrer » pour confirmer la configuration.
-
-En suivant cette procédure, vous assurez que les événements créés dans BlueMind seront synchronisés avec les calendriers GoFast des utilisateurs, leur permettant de bénéficier d'une expérience intégrée pour la gestion de leurs conférences et réunions.
-
-.. figure:: media-guide/couplageadmin1.png
-
-
-Configuration : Import utilisateurs depuis LDAP/AD
------------------------------------------------
-En cours de mise à jour
-
-
+Utilisateur et espaces
+--------------------
 
 Créer / Gérer les utilisateur(s)
--------------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. NOTE::  Le profil "support-utilisateur" peut créer des comptes-utilisateurs. Toutefois, il ne peut que les pré-ajouter dans les Espaces Collaboratifs car les administrateurs de ces Espaces devront valider l’accès pour ces nouveaux membres.  
 
@@ -668,7 +596,7 @@ Afin de modifier les informations liées à un utilisateur, il faut se rendre su
  - La page de l’annuaire des utilisateurs
  
 Créer / Gérer les Listes d’utilisateurs
--------------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 **Visibilité des listes :**
 Les utilisateurs ayant le profil « support-utilisateurs » peuvent voir toutes les listes existantes (même si non membre), soit via l’Annuaire des Listes, soit via le moteur de recherche. Ils peuvent alors voir les membres des listes et leurs administrateurs. 
 **Actions depuis les listes :**
@@ -677,7 +605,7 @@ Ils n’ont pas la possibilité de gérer la liste elle-même, sauf s’il sont 
 Pour pouvoir réaliser les actions autorisées sur les listes, il faut allez dans l’Annuaire des Listes ou sur la page d’une liste (ex. depuis le moteur de recherche).
 
 Créer / Gérer les espaces
-----------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Les utilisateurs ayant le profil de « support-utilisateurs » ont la possibilité de réaliser diverses actions sur les espaces collaboratifs. Toutefois, la gestion des espaces et de leurs membres dépend de la validation des administrateurs de ces Espaces. 
 
 .. NOTE::  merci de consulter l’introduction afin de comprendre les objectifs de ce profil dans la gestion de l’arborescence des Espaces Collaboratifs et des utilisateurs.
@@ -715,7 +643,8 @@ Le profil « support-utilisateur » a la possibilité de personnaliser l’ongle
 Pour éditer l’accueil de l’espace, il faut aller dans le menu « Burger » de l’espace, puis sur « Modifier l’accueil ».
 
 Contacter Administrateurs d’Espaces
--------------------------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 Afin de correctement assister les utilisateurs, il est dans certains cas, nécessaire de demander à des administrateurs d’espaces d’effectuer certaines actions ou de leur demander l’accès aux espaces pour les effectuer soi-même. 
 Par exemple, vous pouvez demander à un administrateur d’espace de modifier le rôle d’un autre membre ou tout simplement partager des bonnes pratiques.
 Pour contacter les administrateurs d’un espace : 
@@ -726,7 +655,7 @@ Pour contacter les administrateurs d’un espace :
 .. NOTE::  Cette action est possible avec le profil "Support-utilisateurs" ou "Super-administrateur". A la différence que seul le profil "Support-utilisateur" peut voir toute l’arborescence des Espaces Collaboratifs (via les annuaires et la recherche).
 
 Restaurer un document
------------------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 En cours de mise à jour
 Merci de vous référer à la rubrique : « Gérer les Documents / Contenus ». 
 
@@ -735,8 +664,77 @@ Merci de vous référer à la rubrique : « Gérer les Documents / Contenus ».
 Profil "Super-administrateur"
 ========================
 
+Général 
+----------------------
+
+Logo personnalisable de la page de connexion 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+GoFast permet aux administrateurs de personnaliser l’apparence de la page de connexion en y ajoutant un logo d’entreprise ou une image. 
+1.	Accédez à « GoFast Configuration »  depuis le menu latéral gauche, et sélectionnez l’onglet « Général » 
+2.	Activez l’option « Activer le logo » . 
+3.	Chargez l’image de votre logo en cliquant sur « Charger le fichier image du logo » 
+
+.. figure:: media-guide/logo2.png
+
+
+4.	Sélectionnez l’emplacement de votre logo sur la page de connexion. Trois emplacements sont disponibles pour l’affichage du logo : 
+a.	Pos.1 : Au-dessus du formulaire de connexion. 
+b.	Pos.2 Dans le coin en haut à droite 
+c.	Pos.3 Au centre du bloc gauche
+5.	Après avoir choisi l’emplacement souhaité, cliquez sur « Enregistrer » pour appliquer les changements. 
+
+.. figure:: media-guide/logo1.png
+
+
+
+Serveur SMTP
+-----------------------
+
+Cette catégorie est en cours de rédaction et sera disponible prochainement.
+
+
+Flux RSS
+------------------------
+
+Les flux RSS (Really Simple Syndication) permettent de récupérer automatiquement les mises à jour de contenu d'un site web sans avoir à le consulter directement.
+
+Ajouter un flux RSS
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Cliquez sur le bouton **+ Ajouter un flux.**
+
+Dans la fenêtre qui apparaît, vous devrez entrer un titre pour le flux ainsi que l'URL du flux RSS. L'URL doit être le lien direct vers le flux RSS du site que vous voulez suivre.
+Cliquez sur **Ajouter un flux RSS** pour valider et enregistrer le flux.
+
+
+.. figure:: media-guide/fluxRSS1.png
+
+
+Modifier un flux RSS existant
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+À côté de chaque flux ajouté, vous avez une icône en forme de crayon (comme on le voit sur l'image). Cliquez dessus pour modifier les détails du flux.
+
+Vous pouvez modifier l'URL ou le titre du flux.
+
+Supprimer un flux RSS
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+À côté de chaque flux, il y a également une icône en forme de croix (X). Cliquez dessus pour supprimer un flux que vous ne souhaitez plus suivre.
+
+
+Les flux RSS sont visibles sur le bar de menus en haut : 
+
+
+.. figure:: media-guide/fluxRSS2.png
+
+
+
+Serveur LDAP/ AD
+--------------------------
+
 Synchronisation automatique des comptes GOFAST avec AD/LDAP
-------------------------------------------------------------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 GoFAST offre une nouvelle fonctionnalité qui permet de synchroniser automatiquement les utilisateurs depuis l’Annuaire de l’entreprise vers votre plate-forme collaborative. 
 La synchronisation se fait uniquement avec des comptes qui possèdent des délégations d’authentification activées.
@@ -817,8 +815,81 @@ Une fois la configuration de synchronisation est terminée, cliquer sur le bouto
 Si toutefois, vous souhaitez effectuer une synchronisation avant la prochaine date définie, il suffit de cliquer sur le bouton « Synchronisation ».
 
 
+
+
+Utilisateurs
+-------------------------
+
+Configuration Validation création utilisateurs
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Il est possible d’activer une option dans « Configuration » puis « Utilisateurs ». Cette option permet lorsqu’un administrateur métier/d’espace crée un nouvel utilisateur, de le soumettre à validation par un profil support-utilisateur avant d’être crée. 
+
+Une fois que l’administrateur métier/d’espace a crée le nouvel utilisateur, le profil support-utilisateur reçoit une notification et peut valider ou refuser l’activation d’un profil utilisateur depuis la page de profil ou depuis l’annuaire (cette action peut se faire en masse).
+
+Un utilisateur en attente de validation apparaît « En attente » dans l’annuaire.
+
+Configuration Accès utilisateurs externes
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Dans « Configuration GoFAST » puis « Espace », vous trouverez la possibilité de limiter l’ajout d’utilisateurs externes dans certains espaces.
+
+**Désactiver l'ajout des utilisateurs externes dans les groupes**
+- Lorsque cette option est activée, un utilisateur externe ne peut pas être ajouté au type d’espace « Groupes ».
+- Lorsque cette option est désactivée, un message d’avertissement s’affiche lorsque vous allez ajouté un utilisateur externe au type d’espace « Groupes ».
+
+**Désactiver l'ajout des utilisateurs externes dans les organisations**
+- Lorsque cette option est activée, un utilisateur externe ne peut pas être ajouté au type d’espace « Organisations ».
+- Lorsque cette option est désactivée, un message d’avertissement s’affiche lorsque vous allez ajouté un utilisateur externe au type d’espace « Organisations ».
+
+Visibilité sur les Espaces
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Le support-utilisateur a la visibilité de tous les Espaces Collaboratifs existants via l’annuaire des espaces et le moteur de recherche :
+ - Dans le cas où il n’est pas membre, il ne pourra pas accéder aux contenus des Espace (ni fichiers, ni dossiers). 
+ - Dans le cas où il est membre d’un espace, il peut y accéder et ces permissions dépondent alors du "rôle" qu’il a dans cet Espace.
+
+.. NOTE::  Pour plus d’informations, merci de vous référer à la rubrique : « tableau des permissions par profil ».
+
+
+
+Politique de mots de passe 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Dans le panneau GoFast Configuration sélectionnez utilisateurs. Faites défiler vers le bas jusqu’à la sélection « politique de mots de passe ». 
+Dans la section Politique de mot de passe, vous pourrez définir les éléments suivants : 
+- **Nombre de mots de passes stockés dans l’historique** : Ce champ détermine combien de vos anciens mots de passe seront mémorisés par le système pour empêcher leur réutilisation. 
+- **Longueur minimal du mot de passe** : vous pouvez imposer la longueur minimale que doit avoir un mot de passe. 
+- **Durée de vie minimum du mot de passe** : spécifiez la durée minimale pendant laquelle un mot de passe doit être conservé avant que l’utilisateur puisse le changer. 
+- **Durée de vie maximum du mot de passe** : indiquez la durée maximale d’utilisation d’un mot de passe avant que l’utilisateur ne soit obligé de le modifier. 
+
+.. figure:: media-guide/polmdp1.png
+
+
+Documents 
+---------------------
+
+
+
+Date personnalisée 
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+Il est possible de configurer un champ date, dans les métadonnés : 
+
+.. figure:: media-guide/date_custom1.png
+
+Rendez-vous dans **GoFAST Configuration**, puis dans **Documents** ensuite, dans **Date personnalisée** vous pouvez donner un nom au champ optionnel de la date. 
+
+.. figure:: media-guide/date_custom2.png
+
+Espaces 
+-----------------
+Cette catégorie est en cours de rédaction et sera disponible prochainement.
+
+
+SSO
+-------------
+
 Single Sign-On (SSO)
--------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Protocole utilisé par l'application
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -880,6 +951,39 @@ Sur la page de login, l'utilisateur pourra maintenant se connecter en cliquant s
 
 .. figure:: media-guide/syncro_ldap8.png
    :alt: 
+
+Recherche 
+-------------------
+
+Cette catégorie est en cours de rédaction et sera disponible prochainement.
+
+
+Signatures
+----------------------
+
+Cette catégorie est en cours de rédaction et sera disponible prochainement.
+
+
+GoFAST Bluemind
+-----------------
+
+Paramètrage de GoFAST BlueMind 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Pour les administrateurs, le paramétrage du module GoFast BlueMind est nécessaire pour activer la synchronisation des calendriers pour tous les utilisateurs.
+
+1.	Dans le panneau GoFast Configuration, sélectionnez « GoFast BlueMind".
+2.	Entrez l'URL de votre serveur BlueMind.
+3.	Cochez « Activer la synchronisation du calendrier » pour permettre la synchronisation.
+4.	Cliquez sur « Enregistrer » pour confirmer la configuration.
+
+En suivant cette procédure, vous assurez que les événements créés dans BlueMind seront synchronisés avec les calendriers GoFast des utilisateurs, leur permettant de bénéficier d'une expérience intégrée pour la gestion de leurs conférences et réunions.
+
+.. figure:: media-guide/couplageadmin1.png 
+
+
+
+
+
 
 
 
