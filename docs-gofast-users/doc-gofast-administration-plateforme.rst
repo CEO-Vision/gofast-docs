@@ -831,5 +831,75 @@ Sur la page de login, l'utilisateur pourra maintenant se connecter en cliquant s
 .. figure:: media-guide/syncro_ldap8.png
    :alt: 
 
+Gofast Webhook
+============
 
+Introduction
+----------------
+
+Cette partie de la documentation présente l'utilisation de l'API Webhook GoFAST. L'API Webhook GoFAST vous permet 
+de souscrire des Services aux événements qui se produisent dans votre instance GoFAST. 
+Lorsqu'un de ces événements est déclenché, nous enverrons une charge utile POST HTTP à l'URL du service de webhook configuré. 
+Ce module peut être utilisé pour mettre à jour une application externe ou un CRM lorsqu'un document est créé, mis à jour, supprimé, etc.
+ 
+Ajout d'un service
+-------------------
+Vous pouvez ajouter des services qui peuvent s'abonner aux événements suivants qui se produisent sur les nœuds de votre instance GoFAST :
+ - Nœud créé
+ - Nœud mis à jour
+ - Nœud supprimé / non publié
+
+.. NOTE::  Les services de webhook sont des applications externes qui s'abonnent aux événements qui se produisent dans votre instance GoFAST.
+
+- Pour créer un service webhook, rendez-vous sur la page de configuration Gofast et cliquez sur "Gofast Webhook" dans le menu latéral.
+
+.. figure:: media-guide/gw_sidebar.png
+   :alt: image de la sidebar sûr Gofast Webhook
+
+- Ensuite, cliquez sur et une page de configuration apparaîtra. Elle ressemblera à ceci :
+
+.. figure:: media-guide/gw_config.png
+   :alt: image de la configuration de Gofast Webhook
+
+- Vous pouvez ajouter un service webhook en cliquant sur le bouton "Ajouter un service".
+
+.. NOTE::  Vous pouvez ajouter plusieurs services webhook, et ils peuvent tous s'abonner aux mêmes / different événements.
+
+Une fenêtre modale apparaîtra. Vous pouvez remplir le formulaire et cliquer sur "Enregistrer" pour ajouter un service de webhook.
+
+.. figure:: media-guide/gw_add_service.png
+   :alt: image de la configuration de Gofast Webhook
+
+Remplissez le nom du service, l'URL du webhook et les événements auxquels vous souhaitez vous abonner. Vous pouvez cocher plusieurs événements.
+
+- Sélectionnez la méthode que vous souhaitez utiliser pour envoyer la charge utile. Vous pouvez choisir entre POST et GET. 
+Si vous choisissez GET, la charge utile sera envoyée sous forme de paramètres de requête. Si vous choisissez POST, 
+la charge utile sera envoyée sous forme d'objet JSON dans le corps de la requête.
+
+.. ATTENTION :: Pour le moment, seul la méthode **POST** est prise en charge, cependant d'autres méthodes seront prises en charge dans un proche avenir.
+
+- Ensuite, sélectionnez le type d'authentification que vous souhaitez utiliser parmi les options proposées, vérifiez que votre service prend en charge la méthode d'authentification que vous choisissez.
+Si la méthode d'authentification dont vous avez besoin n'est pas prise en charge, veuillez nous contacter et nous l'ajouterons pour vous.
+
+- Ensuite, ajoutez le jeton d'authentification si votre service en nécessite un. Si vous utilisez l'authentification de base, vous devrez ajouter le jeton correspondant à votre nom d'utilisateur et à votre mot de passe.
+
+- Cochez la case "Inclure le jeton dans l'en-tête ?" si vous souhaitez inclure le jeton dans l'en-tête de la requête.
+
+- La prochaine étape consiste à activer le service, vous pouvez le faire en cliquant sur le bouton "Activer".
+
+Modification d'un service
+------------------------
+Pour modifier un service webhook, cliquez sur l'icône du crayon sur un service dans la liste des services. 
+Une fenêtre modale apparaîtra avec la configuration du service. Vous pouvez modifier la configuration du service et cliquer sur "Enregistrer" pour sauvegarder vos modifications.
+
+.. figure:: media-guide/gw_modify.png
+   :alt: image de la configuration de Gofast Webhook
+
+En utilisant le bouton de suppression rouge, vous pouvez supprimer le service.
+Sinon, vous pouvez cliquer sur le bouton "Modifier le service" en bleu pour enregistrer vos modifications.
+
+Maintenant, cliquez simplement sur le bouton "Modifier le service" en bleu pour sauvegarder vos modifications.
+
+.. figure:: media-guide/gw_service_edited_successfully.png
+   :alt: image de la configuration de Gofast Webhook
 
