@@ -493,99 +493,6 @@ Vous pouvez voir les derniers événements effectués sur ce document, la date e
 Utilisateur et espaces
 --------------------
 
-Configuration : Lien Personnalisé
-------------------------------------------
-Le lien personnalisé permet d’ajouter un raccourci directement dans la barre du menu supérieur. 
-Naviguez vers « GoFast Configuration », puis « Lien personnalisé ». 
-
-Activation : 
-
-1. Cochez la case « Afficher un lien personnalisé » pour activer le fonctionnalité. 
-2. Dans le champs « Étiquette du lien personnalisé », saisissez le nom qui aparaîtra dans la barre de menu. Ce texte sera le libellé visible par les utilisateurs. 
-3. Dans le champs « Lien du lien personnalisé » insérez l’URL complète vers laquelle le lien doit diriger. 
-4. Après avoir remplit les champs nécéssaires , cliquez sur le bouton « Enregistrer » pour appliquer les modifications. 
-
-
-.. figure:: media-guide/lienpers1.png
-   
-
-Une fois enregistré, le lien personnalisé apparaîtra dans la barre de menu supérieure. Les utilisateurs pourront cliquer sur ce lien pour être redirigés vers l’adresse définie.
-
-.. figure:: media-guide/lienpers2.png
-
-Personnalisation
------------------
-
-GoFast propose diverses options de personnalisation permettant d'ajuster l'apparence de l'interface selon vos préférences.
-
-**1. Titre de l'onglet:**  Il est possible de définir le titre qui apparaîtra lors du survol de l'onglet dans le navigateur. 
-.. figure:: media-guide/titregofast.png
-
-**2. Le message de bienvenue par défaut:** Il est possible de personnaliser le message de bienvenue qui s'affiche par défaut à la connexion.
-.. figure:: media-guide/messagebienvenue.png
-
-**3. Logo en haut de la page:** Il est possible de choisir un logo qui apparaîtra en haut de la page, à gauche, sur toutes les pages après connexion.
-.. figure:: media-guide/logoimage.png
-
-Ces trois options de personnalisation peuvent être modifiées directement depuis 'GoFast Configuration' puis 'Général'.
-
-.. figure:: media-guide/personnalisationmenu.png
-
-Logo personnalisable de la page de connexion 
---------------------------------------------
-
-GoFast permet aux administrateurs de personnaliser l’apparence de la page de connexion en y ajoutant un logo d’entreprise ou une image. 
-1.	Accédez à « GoFast Configuration »  depuis le menu latéral gauche, et sélectionnez l’onglet « Général » 
-2.	Activez l’option « Activer le logo » . 
-3.	Chargez l’image de votre logo en cliquant sur « Charger le fichier image du logo » 
-
-.. figure:: media-guide/logo2.png
-
-
-4.	Sélectionnez l’emplacement de votre logo sur la page de connexion. Trois emplacements sont disponibles pour l’affichage du logo : 
-a.	Pos.1 : Au-dessus du formulaire de connexion. 
-b.	Pos.2 Dans le coin en haut à droite 
-c.	Pos.3 Au centre du bloc gauche
-5.	Après avoir choisi l’emplacement souhaité, cliquez sur « Enregistrer » pour appliquer les changements. 
-
-.. figure:: media-guide/logo1.png
-
-Vous avez également la possibilité de personnaliser votre interface !
-
-`Cliquez ici <https://gofast-docs.readthedocs.io/fr/4.0/docs-gofast-users/doc-gofast-custom-style.html>`_
-
-Politique de mots de passe 
-----------------------------
-
-Dans le panneau GoFast Configuration sélectionnez utilisateurs. Faites défiler vers le bas jusqu’à la sélection « politique de mots de passe ». 
-Dans la section Politique de mot de passe, vous pourrez définir les éléments suivants : 
-- **Nombre de mots de passes stockés dans l’historique** : Ce champ détermine combien de vos anciens mots de passe seront mémorisés par le système pour empêcher leur réutilisation. 
-- **Longueur minimal du mot de passe** : vous pouvez imposer la longueur minimale que doit avoir un mot de passe. 
-- **Durée de vie minimum du mot de passe** : spécifiez la durée minimale pendant laquelle un mot de passe doit être conservé avant que l’utilisateur puisse le changer. 
-- **Durée de vie maximum du mot de passe** : indiquez la durée maximale d’utilisation d’un mot de passe avant que l’utilisateur ne soit obligé de le modifier. 
-
-.. figure:: media-guide/polmdp1.png
-
-Paramètrage de GoFAST BlueMind 
----------------------------------------
-Pour les administrateurs, le paramétrage du module GoFast BlueMind est nécessaire pour activer la synchronisation des calendriers pour tous les utilisateurs.
-
-1.	Dans le panneau GoFast Configuration, sélectionnez « GoFast BlueMind".
-2.	Entrez l'URL de votre serveur BlueMind.
-3.	Cochez « Activer la synchronisation du calendrier » pour permettre la synchronisation.
-4.	Cliquez sur « Enregistrer » pour confirmer la configuration.
-
-En suivant cette procédure, vous assurez que les événements créés dans BlueMind seront synchronisés avec les calendriers GoFast des utilisateurs, leur permettant de bénéficier d'une expérience intégrée pour la gestion de leurs conférences et réunions.
-
-.. figure:: media-guide/couplageadmin1.png
-
-
-Configuration : Import utilisateurs depuis LDAP/AD
------------------------------------------------
-En cours de mise à jour
-
-
-
 Créer / Gérer les utilisateur(s)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -692,6 +599,27 @@ Profil "Super-administrateur"
 Général 
 ----------------------
 
+Personnalisation
+~~~~~~~~~~~~~~~~~~~~
+
+GoFast propose diverses options de personnalisation permettant d'ajuster l'apparence de l'interface selon vos préférences.
+
+Ces trois options de personnalisation peuvent être modifiées directement depuis 'GoFast Configuration' puis 'Général'.
+
+.. figure:: media-guide/personnalisationmenu.png
+
+
+**1. Titre de l'onglet:**  Il est possible de définir le titre qui apparaîtra lors du survol de l'onglet dans le navigateur. 
+.. figure:: media-guide/titregofast.png
+
+**2. Le message de bienvenue par défaut:** Il est possible de personnaliser le message de bienvenue qui s'affiche par défaut à la connexion.
+.. figure:: media-guide/messagebienvenue.png
+
+**3. Logo en haut de la page:** Il est possible de choisir un logo qui apparaîtra en haut de la page, à gauche, sur toutes les pages après connexion.
+.. figure:: media-guide/logoimage.png
+
+
+
 Logo personnalisable de la page de connexion 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -711,7 +639,7 @@ c.	Pos.3 Au centre du bloc gauche
 
 .. figure:: media-guide/logo1.png
 
-
+Vous pouvez aussi retrouver d'autres options de personnalisation `ici <https://gofast-docs.readthedocs.io/fr/latest/docs-gofast-users/doc-gofast-custom-style.html#gofast-personnalisation>`_
 
 Serveur SMTP
 -----------------------
