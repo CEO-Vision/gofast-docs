@@ -551,6 +551,10 @@ c.	Pos.3 Au centre du bloc gauche
 
 .. figure:: media-guide/logo1.png
 
+Vous avez également la possibilité de personnaliser votre interface !
+
+`Cliquez ici <https://gofast-docs.readthedocs.io/fr/4.0/docs-gofast-users/doc-gofast-custom-style.html>`_
+
 Politique de mots de passe 
 ----------------------------
 

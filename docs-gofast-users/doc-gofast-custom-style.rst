@@ -1,16 +1,19 @@
 =======
-Personnalisation du CSS sur GoFAST
+GoFAST : Personnalisation 
 =======
+*Personnalisation du CSS sur GoFAST*
+----------
 
-La personnalisation du CSS sur GoFAST permet de modifier l'apparence de la plateforme.
+Cette fonctionnalité permet de modifier l'apparence de la plateforme.
 
-Vous avez la possibilité de modifier des paramètres :
+Vous avez la possibilité de modifier les paramètres suivant :
 
 Modifier l'image de l'arrière plan
 ----------------
 Avec **{{BACKGROUND_IMAGE}}**
 
 Il est possible de modifier l'arrière plan comme l'image ci-dessous:
+
 .. figure:: media-guide/css1.png
 
 Modifier la couleur des liens, boutons et icônes
@@ -30,6 +33,7 @@ Modifier la couleur de fond derrière certains éléments
 Avec **{{PRIMARY_COLOR_BACKGROUND}}**
 
 Il est possible de modifier la couleur de fond derrière certains éléments comme l'image ci-dessous:
+
 .. figure:: media-guide/css2.png
 
 Modifier la couleur de la barre supérieure dans la version GoFAST Essential
@@ -37,6 +41,7 @@ Modifier la couleur de la barre supérieure dans la version GoFAST Essential
 Avec **{{ESSENTIAL_HEADER_COLOR}}**
 
 Il est possible de modifier la couleur de la barre supérieure dans la version GoFAST Essential comme l'image ci-dessous:
+
 .. figure:: media-guide/image.png
 
 Si vous êtes intéressés par ces modifications, vous pouvez nous contacter en ouvrant un ticket en précisant les données pour les différents paramètres que vous souhaitez modifier.
