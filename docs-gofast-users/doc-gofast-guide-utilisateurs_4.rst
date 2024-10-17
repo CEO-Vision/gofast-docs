@@ -361,7 +361,7 @@ Annuaire des Espaces Collaboratifs
  - Cliquez sur Annuaires puis Espaces.
 Vous trouverez un tableau listant les espaces existants. 
 
-Vous pouvez utiliser les filtres dans le bloc en haut de l’écran pour préciser le nom, le type d'espace, le nombre de membres, le nombre d'administrateurs et le nombre d'utilisateurs en attente.
+Vous pouvez utiliser les filtres dans le bloc en haut de l’écran pour préciser le nom, le type d'espace, le nombre de membres, le nombre d'administrateurs, le nombre d'utilisateurs en attente et le chemin de l'espace.
  
 Lorsque vous sélectionnez un ou plusieurs espaces, un menu burger apparaît en haut à gauche.
 
