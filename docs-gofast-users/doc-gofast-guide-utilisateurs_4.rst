@@ -395,10 +395,10 @@ Dans l'onglet **Statistiques**, vous pouvez choisir les informations que vous so
 Allez sur la page d’un espace, onglet « Statistiques ». 
 Deux sous-onglets sont disponibles :
 
-1. Sous-onglet « **Statistiques des membres** » permet de visualiser les informations relatives aux membres actifs et inactifs, les nouveaux membres et membres connectés.
+1. Le sous-onglet « **Statistiques des membres** » permet de visualiser les informations relatives aux membres actifs et inactifs, les nouveaux membres et membres connectés.
 
 
-2. Sous-onglet « **Statistiques documentaires** », permet de visualiser toutes les informations relatives aux documents par sa catégorie, son état et son importance.
+2. Le sous-onglet « **Statistiques documentaires** », permet de visualiser toutes les informations relatives aux documents par sa catégorie, son état et son importance.
 
 .. NOTE::
   - Membres actifs : Activité recencée sur les 3 derniers mois (hors consultation)
