@@ -99,6 +99,106 @@ Le profil de "support-utilisateurs" a vocation d’accompagner les utilisateurs,
 
 **Configuration dans GoFAST Configuration** : 
 
+Utilisateur et espaces
+--------------------
+
+Créer / Gérer les utilisateur(s)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. NOTE::  Le profil "support-utilisateur" peut créer des comptes-utilisateurs. Toutefois, il ne peut que les pré-ajouter dans les Espaces Collaboratifs car les administrateurs de ces Espaces devront valider l’accès pour ces nouveaux membres.  
+
+Créer un utilisateur et lui donner des accès aux Espaces Collaboratifs
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Pour savoir comment créer un utilisateur, merci de vous référer à la rubrique "Créer un utilisateur".  
+Pour savoir comment ajouter un utilisateur ou une liste d’utilisateurs comme membre d’un espace, merci de vous référer à la rubrique "Ajouter un membre à un espace". 
+
+Désactiver / activer (débloquer) un utilisateur
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+**Les 3 statuts possibles pour un utilisateur :** 
+ - "Désactivé" désigne un utilisateur qu’on a volontairement désactivé, par exemple s’il a quitté l’organisation/l’entreprise. 
+ - "Bloqué" désigne un utilisateur qui a fait trop de tentatives échouées de connexion et pour des mesures de sécurité, son compte a été automatiquement bloqué. 
+ - "Actif" désigne un utilisateur qui a un compte et qui peut accéder à la plateforme sous condition de se connecter avec son identifiant et mot de passe. 
+
+**Modifier le statut d’un utilisateur :**
+ - Depuis la page de profil d’un utilisateur : 
+Rendez-vous sur la page d’un utilisateur, soit via une recherche par mot clef (ex. saisir le nom d’un utilisateur et cliquer sur le résultat de recherche de type "profil"), soit en passant par le menu des annuaires d’utilisateurs. 
+Une fois sur la page de profil d’un utilisateur, cliquer sur le menu "burger" (= "menu des actions contextuelles"), puis sur "Réactiver l’utilisateur" ou "Désactiver cet utilisateur" ou "Débloquer cet utilisateur". Le texte affiché dans ce bouton dépond du statut de l’utilisateur. 
+
+ - Depuis la page de l’annuaire des utilisateurs (modifier unitairement ou en masse) : 
+Rendez-vous sur la page de l’annuaire des utilisateurs depuis le menu principal de gauche "Annuaires/Utilisateurs". 
+Une fois sur l’annuaire, vous avez la possibilité de trier et de filtrer les utilisateurs (pour plus d’informations sur le filtrage et le tri, merci de vous référer à la rubrique "Annuaire Utilisateurs"). 
+Vous pouvez modifier le statut d’un utilisateur unique : cliquez sur le menu "burger", puis sur "Réactiver l’utilisateur" ou "Désactiver cet utilisateur" ou "Débloquer cet utilisateur". Le texte affiché dans ce bouton dépond du statut de l’utilisateur.
+Vous pouvez modifier le statut de plusieurs utilisateurs en une fois : dans la colonne de gauche vous disposez de cases à cocher. Sélectionnez les utilisateurs que vous souhaitez modifier, puis cliquez sur le menu "burger" qui se trouve tout en haut (ligne d’entête de l’annuaire, les autres menus étant grisés) et cliquez sur "Réactiver ces utilisateurs" ou "Désactiver ces utilisateurs" ou "Débloquer ces utilisateurs".
+
+Modifier les informations d’un utilisateur
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Afin de modifier les informations liées à un utilisateur, il faut se rendre sur : 
+ - La page de profil de l’utilisateur (depuis la recherche ou l’annuaire)
+ - La page de l’annuaire des utilisateurs
+ 
+Créer / Gérer les Listes d’utilisateurs
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+**Visibilité des listes :**
+Les utilisateurs ayant le profil « support-utilisateurs » peuvent voir toutes les listes existantes (même si non membre), soit via l’Annuaire des Listes, soit via le moteur de recherche. Ils peuvent alors voir les membres des listes et leurs administrateurs. 
+**Actions depuis les listes :**
+Les utilisateurs ayant le profil « support-utilisateurs » peuvent uniquement pré-ajouter une liste comme membre d’un espace. 
+Ils n’ont pas la possibilité de gérer la liste elle-même, sauf s’il sont explicitement administrateur de cette liste (ou créateur).
+Pour pouvoir réaliser les actions autorisées sur les listes, il faut allez dans l’Annuaire des Listes ou sur la page d’une liste (ex. depuis le moteur de recherche).
+
+Créer / Gérer les espaces
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Les utilisateurs ayant le profil de « support-utilisateurs » ont la possibilité de réaliser diverses actions sur les espaces collaboratifs. Toutefois, la gestion des espaces et de leurs membres dépend de la validation des administrateurs de ces Espaces. 
+
+.. NOTE::  merci de consulter l’introduction afin de comprendre les objectifs de ce profil dans la gestion de l’arborescence des Espaces Collaboratifs et des utilisateurs.
+
+**Sur la page d’un espace, le « support-utilisateurs » peut consulter les onglets suivants :** 
+ - Accueil
+ - Statistiques
+ - Membre
+Les autres onglets lui seront verrouillé, à moins qu’il ne devienne membre de l’espace. 
+
+Créer des Espaces à la "Racine"
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ - Via la barre des accès rapides (menu du haut), cliquez sur "+" , puis sur espace, pus le type d’espace souhaité (Organisation, Groupe…)  
+ - Espace à la racine = 1er niveau dans Organisations, Groupes, Extranet, Public
+ - L’utilisateur ayant créé un espace devient automatiquement administrateur de cet espace. Il faut alors ajouter des administrateurs supplémentaires et les autres membres. 
+
+.. NOTE::  Le profil « support-utilisateurs » est le seul à pouvoir créer un espace « à la racine ». 
+
+Pour plus d’informations, merci de vous référer à la rubrique : « Créer un Espace Collaboratif ». 
+
+Pré-ajouter des membres dans des Espaces Collaboratifs
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Pré-ajouter des membres signifie que l’accès aux espaces collaboratifs sera effectif uniquement après la validation de ce pré-ajout par au moins l’un des administrateurs de l’espace. 
+Il est possible de pré-ajouter des membres : 
+ - Via le menu « Burger » d’un espace (sur la page de l’espace, depuis l’annuaire des espaces ou depuis le résultat de recherche). 
+ - Dans le menu « Burger » de l’espace, allez dans « voir plus »
+ - Cliquez sur « pré-ajouter un membre / liste d’utilisateurs »
+ - Renseignez les champs selon la procédure de la rubrique « Ajouter des membres »
+ - Une demande sera envoyée aux administrateurs de l’espace pour valider ou rejeter la demande d’ajout des utilisateurs. 
+ - Sur l’onglet « Membres » de l’espace, ces utilisateurs seront marqués « en attente ». 
+
+Gérer l’onglet "Accueil" d’un Espace Collaboratif 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Le profil « support-utilisateur » a la possibilité de personnaliser l’onglet accueil d’un espace collaboratif. 
+Pour éditer l’accueil de l’espace, il faut aller dans le menu « Burger » de l’espace, puis sur « Modifier l’accueil ».
+
+Contacter Administrateurs d’Espaces
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Afin de correctement assister les utilisateurs, il est dans certains cas, nécessaire de demander à des administrateurs d’espaces d’effectuer certaines actions ou de leur demander l’accès aux espaces pour les effectuer soi-même. 
+Par exemple, vous pouvez demander à un administrateur d’espace de modifier le rôle d’un autre membre ou tout simplement partager des bonnes pratiques.
+Pour contacter les administrateurs d’un espace : 
+ - Allez sur la page d’un Espace OU sur la page Annuaire des espaces.
+ - Cliquez sur le menu « Burger », puis sur « Contacter administrateurs ». 
+ - Une fenêtre s’ouvre pour rédiger le message et valider l’envoi. 
+
+.. NOTE::  Cette action est possible avec le profil "Support-utilisateurs" ou "Super-administrateur". A la différence que seul le profil "Support-utilisateur" peut voir toute l’arborescence des Espaces Collaboratifs (via les annuaires et la recherche).
+
+Restaurer un document
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+En cours de mise à jour
+Merci de vous référer à la rubrique : « Gérer les Documents / Contenus ». 
 
 Etiquettes
 -------------------
@@ -489,108 +589,6 @@ L’audit spécifique sur un document est accessible sur la page du document :
 Vous pouvez voir les derniers événements effectués sur ce document, la date et l’heure des actions ainsi que les utilisateurs ayant effectué l’action.
 
 .. figure:: media-guide/audit1.png
-
-Utilisateur et espaces
---------------------
-
-Créer / Gérer les utilisateur(s)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-.. NOTE::  Le profil "support-utilisateur" peut créer des comptes-utilisateurs. Toutefois, il ne peut que les pré-ajouter dans les Espaces Collaboratifs car les administrateurs de ces Espaces devront valider l’accès pour ces nouveaux membres.  
-
-Créer un utilisateur et lui donner des accès aux Espaces Collaboratifs
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Pour savoir comment créer un utilisateur, merci de vous référer à la rubrique "Créer un utilisateur".  
-Pour savoir comment ajouter un utilisateur ou une liste d’utilisateurs comme membre d’un espace, merci de vous référer à la rubrique "Ajouter un membre à un espace". 
-
-Désactiver / activer (débloquer) un utilisateur
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-**Les 3 statuts possibles pour un utilisateur :** 
- - "Désactivé" désigne un utilisateur qu’on a volontairement désactivé, par exemple s’il a quitté l’organisation/l’entreprise. 
- - "Bloqué" désigne un utilisateur qui a fait trop de tentatives échouées de connexion et pour des mesures de sécurité, son compte a été automatiquement bloqué. 
- - "Actif" désigne un utilisateur qui a un compte et qui peut accéder à la plateforme sous condition de se connecter avec son identifiant et mot de passe. 
-
-**Modifier le statut d’un utilisateur :**
- - Depuis la page de profil d’un utilisateur : 
-Rendez-vous sur la page d’un utilisateur, soit via une recherche par mot clef (ex. saisir le nom d’un utilisateur et cliquer sur le résultat de recherche de type "profil"), soit en passant par le menu des annuaires d’utilisateurs. 
-Une fois sur la page de profil d’un utilisateur, cliquer sur le menu "burger" (= "menu des actions contextuelles"), puis sur "Réactiver l’utilisateur" ou "Désactiver cet utilisateur" ou "Débloquer cet utilisateur". Le texte affiché dans ce bouton dépond du statut de l’utilisateur. 
-
- - Depuis la page de l’annuaire des utilisateurs (modifier unitairement ou en masse) : 
-Rendez-vous sur la page de l’annuaire des utilisateurs depuis le menu principal de gauche "Annuaires/Utilisateurs". 
-Une fois sur l’annuaire, vous avez la possibilité de trier et de filtrer les utilisateurs (pour plus d’informations sur le filtrage et le tri, merci de vous référer à la rubrique "Annuaire Utilisateurs"). 
-Vous pouvez modifier le statut d’un utilisateur unique : cliquez sur le menu "burger", puis sur "Réactiver l’utilisateur" ou "Désactiver cet utilisateur" ou "Débloquer cet utilisateur". Le texte affiché dans ce bouton dépond du statut de l’utilisateur.
-Vous pouvez modifier le statut de plusieurs utilisateurs en une fois : dans la colonne de gauche vous disposez de cases à cocher. Sélectionnez les utilisateurs que vous souhaitez modifier, puis cliquez sur le menu "burger" qui se trouve tout en haut (ligne d’entête de l’annuaire, les autres menus étant grisés) et cliquez sur "Réactiver ces utilisateurs" ou "Désactiver ces utilisateurs" ou "Débloquer ces utilisateurs".
-
-Modifier les informations d’un utilisateur
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Afin de modifier les informations liées à un utilisateur, il faut se rendre sur : 
- - La page de profil de l’utilisateur (depuis la recherche ou l’annuaire)
- - La page de l’annuaire des utilisateurs
- 
-Créer / Gérer les Listes d’utilisateurs
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-**Visibilité des listes :**
-Les utilisateurs ayant le profil « support-utilisateurs » peuvent voir toutes les listes existantes (même si non membre), soit via l’Annuaire des Listes, soit via le moteur de recherche. Ils peuvent alors voir les membres des listes et leurs administrateurs. 
-**Actions depuis les listes :**
-Les utilisateurs ayant le profil « support-utilisateurs » peuvent uniquement pré-ajouter une liste comme membre d’un espace. 
-Ils n’ont pas la possibilité de gérer la liste elle-même, sauf s’il sont explicitement administrateur de cette liste (ou créateur).
-Pour pouvoir réaliser les actions autorisées sur les listes, il faut allez dans l’Annuaire des Listes ou sur la page d’une liste (ex. depuis le moteur de recherche).
-
-Créer / Gérer les espaces
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Les utilisateurs ayant le profil de « support-utilisateurs » ont la possibilité de réaliser diverses actions sur les espaces collaboratifs. Toutefois, la gestion des espaces et de leurs membres dépend de la validation des administrateurs de ces Espaces. 
-
-.. NOTE::  merci de consulter l’introduction afin de comprendre les objectifs de ce profil dans la gestion de l’arborescence des Espaces Collaboratifs et des utilisateurs.
-
-**Sur la page d’un espace, le « support-utilisateurs » peut consulter les onglets suivants :** 
- - Accueil
- - Statistiques
- - Membre
-Les autres onglets lui seront verrouillé, à moins qu’il ne devienne membre de l’espace. 
-
-Créer des Espaces à la "Racine"
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
- - Via la barre des accès rapides (menu du haut), cliquez sur "+" , puis sur espace, pus le type d’espace souhaité (Organisation, Groupe…)  
- - Espace à la racine = 1er niveau dans Organisations, Groupes, Extranet, Public
- - L’utilisateur ayant créé un espace devient automatiquement administrateur de cet espace. Il faut alors ajouter des administrateurs supplémentaires et les autres membres. 
-
-.. NOTE::  Le profil « support-utilisateurs » est le seul à pouvoir créer un espace « à la racine ». 
-
-Pour plus d’informations, merci de vous référer à la rubrique : « Créer un Espace Collaboratif ». 
-
-Pré-ajouter des membres dans des Espaces Collaboratifs
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Pré-ajouter des membres signifie que l’accès aux espaces collaboratifs sera effectif uniquement après la validation de ce pré-ajout par au moins l’un des administrateurs de l’espace. 
-Il est possible de pré-ajouter des membres : 
- - Via le menu « Burger » d’un espace (sur la page de l’espace, depuis l’annuaire des espaces ou depuis le résultat de recherche). 
- - Dans le menu « Burger » de l’espace, allez dans « voir plus »
- - Cliquez sur « pré-ajouter un membre / liste d’utilisateurs »
- - Renseignez les champs selon la procédure de la rubrique « Ajouter des membres »
- - Une demande sera envoyée aux administrateurs de l’espace pour valider ou rejeter la demande d’ajout des utilisateurs. 
- - Sur l’onglet « Membres » de l’espace, ces utilisateurs seront marqués « en attente ». 
-
-Gérer l’onglet "Accueil" d’un Espace Collaboratif 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Le profil « support-utilisateur » a la possibilité de personnaliser l’onglet accueil d’un espace collaboratif. 
-Pour éditer l’accueil de l’espace, il faut aller dans le menu « Burger » de l’espace, puis sur « Modifier l’accueil ».
-
-Contacter Administrateurs d’Espaces
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Afin de correctement assister les utilisateurs, il est dans certains cas, nécessaire de demander à des administrateurs d’espaces d’effectuer certaines actions ou de leur demander l’accès aux espaces pour les effectuer soi-même. 
-Par exemple, vous pouvez demander à un administrateur d’espace de modifier le rôle d’un autre membre ou tout simplement partager des bonnes pratiques.
-Pour contacter les administrateurs d’un espace : 
- - Allez sur la page d’un Espace OU sur la page Annuaire des espaces.
- - Cliquez sur le menu « Burger », puis sur « Contacter administrateurs ». 
- - Une fenêtre s’ouvre pour rédiger le message et valider l’envoi. 
-
-.. NOTE::  Cette action est possible avec le profil "Support-utilisateurs" ou "Super-administrateur". A la différence que seul le profil "Support-utilisateur" peut voir toute l’arborescence des Espaces Collaboratifs (via les annuaires et la recherche).
-
-Restaurer un document
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-En cours de mise à jour
-Merci de vous référer à la rubrique : « Gérer les Documents / Contenus ». 
-
 
 
 Profil "Super-administrateur"
