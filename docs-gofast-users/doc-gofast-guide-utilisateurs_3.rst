@@ -672,14 +672,17 @@ Tampon à l’étape de signature
 -----------------------------------
 
 Pour démarrer un processus de tamponnage, il faut débuter un processus de diffusion de document, remplir le processus normalement, et dans « Etapes de signature », « Type d’attribution » il faut choisir « Pour tamponnage ». Vous pouvez ensuite remplir le processus avec le nom de l’utilisateur concerné, la date d’échéance et la position du tampon. Et enfin envoyer le processus.  
+
 .. figure:: media-guide/tamponnage1.png
    :alt: 
 
 Ce processus est disponible dans « Processus et tâches » de l’utilisateur que vous avez assigné. Vous pouvez comme toujours, retrouver le processus que vous avez assigné à l’utilisateur dans « Autres tâches » de l’onglet « Processus et tâches ». 
+
 .. figure:: media-guide/tamponnage2.png
    :alt: 
-
+   
 Vous pouvez ensuite choisir les options, et si vous choisissez valider, un tampon sera apposé avec la date de signature ainsi que l’heure. 
+
 .. figure:: media-guide/tamponnage4.png
    :alt: 
 
