@@ -209,74 +209,61 @@ Retrouver/Consulter un formulaire
 
 .. NOTE::
    Une fois que votre formulaire est créé, vous arriverez sur la page du formulaire. C'est sur cette page qu'arriveront les utilisateurs qui rempliront votre formulaire. Pour l'instant, elle est vide et tant que vous n'aurez pas publié votre formulaire, personne ne pourra le remplir. 
-   En tant que créateur du formulaire, vous avez la possibilité d'accéder aux onglets "Gérer" et "Résultats". Les administrateurs de l'espace dans lequel est ce formulaire y ont également accès.
+   En tant que créateur du formulaire, vous avez la possibilité d'accéder aux onglets "Gérer, "Dashboard" et "Tableau". Les administrateurs de l'espace dans lequel est ce formulaire y ont également accès.
 
+Vous arrivez alors sur la page du "Formulaire" :
 
-.. figure:: media-guide/form01.png
+.. figure:: media-guide/image_etape_1.png
    :alt: 
 
+Le formulaire créé dispose de l'état "Non publié", c'est à dire que les utilisateurs ne peuvent pas encore soumettre le formulaire.
+Intéressons nous maintenant à l'onglet "Gérer" qui va permettre d'ouvrir l'outil de "Création" de formulaire :
 
-**La page d’un formulaire affiche les onglets suivants :** 
-
-1. "Remplir" avec l’introduction et les champs à remplir par les utilisateurs
-2. "Gérer" où vous avez la possibilité de créer, modifier, supprimer les champs
-3. "Résultats" où seront présentées les résultats quantifiés, les soumissions et les valeurs saisies par les utilisateurs 
-4. "Vos soumissions" où chaque utilisateur pourra voir les éléments qu’il a lui-même soumis  
-
-
-**L’accès à ces onglets dépend de vos droits sur le formulaire :**
-
-1. Tous les membres des Espaces où est partagé le formulaire pourront accéder aux onglets "Remplir" et "Vos soumissions". Attention, dans ce dernier onglet chaque utilisateur ne voit que les soumissions qu’il a lui-même réalisées. 
-2. Seul le créateur du formulaire et les administrateurs des Espaces où se trouve le formulaire pourront accéder aux onglets "Gérer" et "Résultats".
-
-Gérer un formulaire : ajouter, déplacer, supprimer les champs 
-
-1. Pour ajouter des champs au formulaire, allez sur l’onglet "Gérer"
-2. Une fois sur l’onglet "Gérer", allez dans la zone "Edition"
-3. Glissez-déposez les champs souhaités depuis la liste des champs disponibles (à droite), vers la zone de construction du formulaire (à gauche)
-4. Vous pouvez glisser-déplacer les champs pour en changer l’ordre
-5. Pour supprimer un champ, cliquez sur la (x) qui s’affiche en haut à droite au survol de la sourie sur le champ. 
-
-Gérer un formulaire : modifier les champs
--------------------------------------------------------
-
-1. Pour modifier un champ, cliquez sur l’icône "crayon" [ajouter icone] qui s’affiche en haut à droite au survol de la sourie sur le champ. 
-2. Vous allez alors rentrer dans la configuration du champ. Selon le type de champs, diverses possibilités seront proposées. 
-3. Pour modifier le nom d’un champ, saisissez le texte souhaité dans la propriété "Titre"
-4. La propriété "valeur par défaut" permet d’afficher un exemple pour faciliter la compréhension de ce qui est attendu comme information dans le champ.
-5. Vous pouvez choisir de "Désactiver" un champ pour qu’il soit affiché dans le formulaire, mais uniquement en consultation (il ne sera pas possible d’y saisir d’information".
-6. Vous pouvez rendre un champs "privé" pour qu’il ne soit affiché que pour les utilisateurs autorisés à consulter les résultats (créateur et administrateurs des espaces où se trouve le formulaire).
-7. Si vous souhaitez obliger les utilisateurs à renseigner un champ, vous pouvez cocher la case "Requis(e)"
-
-
-Gérer un formulaire : configurer 
----------------------------------------------
-La partie "Configurer" dans l’onglet "Gérer" vous permet de modifier des conditions telles que : 
-
-1. Le nombre maximal de soumissions autorisées (au total)
-2. Le nombre maximal de soumissions autorisées par utilisateur et sur une période donnée (ex. par jour, par heure…) 
-3. Modifier le statut du formulaire "Ouvert" pour permettre aux utilisateurs de renseigner le formulaire ou "Fermé" pour empêcher toute saisie. 
-Pensez à cliquer sur "Enregistrer la configuration" si vous avez apporté des modifications. 
-
-
-Exploiter les réponses d’un formulaire
----------------------------------------------------
-L’onglet "Résultats" est accessible par le créateur du formulaire et les administrateurs des espaces où se trouve le formulaire. 
-
-.. figure:: media-guide/form1.png
+.. figure:: media-guide/image_etape_2.png
    :alt: 
 
-Zone "Statistiques" : permet d’avoir la synthèse quantifiée des réponses pour chaque champ du formulaire.
+Sur la gauche nous avons la totalité des outils pour créer un formulaire :
 
-Zone "Soumissions" : permet de visualiser unitairement toutes les soumissions de chaque utilisateur.
-
-.. figure:: media-guide/form2.png
+.. figure:: media-guide/image_etape_3.png
    :alt: 
 
-Zone "Export" permet d’exporter les données au format CSV. Il suffit de choisir les champs souhaités et de cliquer sur "Télécharger".
+En haut , nous avons 4 onglets : "Editeur de sondage", "Test le sondage", "Themes" et "Editeur JSON":
 
-.. figure:: media-guide/form3.png
+.. figure:: media-guide/image_etape_4.png
    :alt:
+
+.. figure:: media-guide/image_etape_5.png
+   :alt: 
+
+.. figure:: media-guide/image_etape_6.png
+   :alt: 
+
+.. figure:: media-guide/image_etape_7.png
+   :alt: 
+
+.. figure:: media-guide/image_etape_8.png
+   :alt: 
+
+.. figure:: media-guide/image_etape_9.png
+   :alt: 
+
+.. figure:: media-guide/image_etape_10.png
+   :alt: 
+
+.. figure:: media-guide/image_etape_11.png
+   :alt: 
+
+.. figure:: media-guide/image_etape_12.png
+   :alt: 
+
+.. figure:: media-guide/image_etape_13.png
+   :alt: 
+
+.. figure:: media-guide/image_etape_14.png
+   :alt: 
+
+
+   
 
 
 Favoris, Derniers contenus vus et Flux RSS
