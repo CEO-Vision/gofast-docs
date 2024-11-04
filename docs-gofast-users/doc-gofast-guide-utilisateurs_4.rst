@@ -232,39 +232,81 @@ En haut , nous avons 4 onglets : "Editeur de sondage", "Test le sondage", "Theme
 .. figure:: media-guide/image_etape_4.png
    :alt:
 
+- Le premier est l'onglet de création du formulaire
+- Le deuxieme permet d'avoir un visuel sur le sondage en cours de création pour pouvoir faire des ajustements necessaires avant la publication
+- Le 3eme permet de créer un thème entièrement personnalisé qui surchargera le thème par défaut du formulaire
+- Le 4ème onglet sert à importer ou exporter les formulaires au format JSON.
+
+A droite nous avons toutes les options des differents outils du formulaire (lorsqu'on clique dessus) ainsi que les paramètres globaux du formulaire:
+
+*Paramètre globaux: *
+
 .. figure:: media-guide/image_etape_5.png
    :alt: 
+
+Paramètre d'un widget:
 
 .. figure:: media-guide/image_etape_6.png
    :alt: 
 
+Publication d'un formulaire
+------------------------------------------------
+Pour publier un formulaire il suffit de cliquer sur le menu contextuel en haut à droite et de cliquer sur "Publier ce formulaire" :
+
 .. figure:: media-guide/image_etape_7.png
    :alt: 
+
+Cliquer ensuite sur Valider dans la modale pour valider la publication
+
+Remplir un formulaire
+------------------------------------------------
+Pour remplir un formulaire, il faut que celui-ci soit publier, si il l'est vous pouvez vous rendre sur l'onglet "Remplir" du formulaire.
+Vous pouvoir voir le formulaire :
 
 .. figure:: media-guide/image_etape_8.png
    :alt: 
 
+Soumettre un formulaire
+------------------------------------------------
+Pour soumettre un formulaire il suffit simplement d'appuyer sur le bouton "Terminer" à la fin du formulaire :
+
 .. figure:: media-guide/image_etape_9.png
    :alt: 
+
+Export d'un formulaire au format PDF
+------------------------------------------------
+Lorsqu'un formulaire est remplit,, avant de le soumettre vous pouvez l'exporter au format PDF en cliquant sur le bouton "Sauvegarder en PDF"
 
 .. figure:: media-guide/image_etape_10.png
    :alt: 
 
+Analyse des resultats
+------------------------------------------------
+Sous forme de Dashboard
+~~~~~~~~~~~~~~~~~~~~~~~
+Sous l'onglet "Dashboard" vous aurez accès aux resultats du formulaire sous forme de statistiques avec des graphes :
+
 .. figure:: media-guide/image_etape_11.png
    :alt: 
+
+Le type de graphe choisit est personnalisable :
 
 .. figure:: media-guide/image_etape_12.png
    :alt: 
 
+Vous pouvez exporter chaque résultats unitairement en exportant au format PNG les graphes :
+
 .. figure:: media-guide/image_etape_13.png
    :alt: 
+
+Sous forme de tableau
+~~~~~~~~~~~~~~~~~~~~~~~
+Sous l'onglet "Tableau" vous aurez accès aux résultats du formulaire sous forme de tableau :
 
 .. figure:: media-guide/image_etape_14.png
    :alt: 
 
-
-   
-
+Vous pouvez exporter les résultats sous différentes formes (PDF, Excel ou CSV)
 
 Favoris, Derniers contenus vus et Flux RSS
 ===================================
