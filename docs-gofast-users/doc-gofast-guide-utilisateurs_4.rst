@@ -260,8 +260,7 @@ Cliquer ensuite sur Valider dans la modale pour valider la publication
 
 Remplir un formulaire
 ------------------------------------------------
-Pour remplir un formulaire, il faut que celui-ci soit publier, si il l'est vous pouvez vous rendre sur l'onglet "Remplir" du formulaire.
-Vous pouvoir voir le formulaire :
+Pour remplir un formulaire, il faut que celui-ci soit publié, si il l'est vous pouvez vous rendre sur l'onglet "Remplir" du formulaire.
 
 .. figure:: media-guide/image_etape_8.png
    :alt: 
@@ -275,26 +274,26 @@ Pour soumettre un formulaire il suffit simplement d'appuyer sur le bouton "Termi
 
 Export d'un formulaire au format PDF
 ------------------------------------------------
-Lorsqu'un formulaire est remplit,, avant de le soumettre vous pouvez l'exporter au format PDF en cliquant sur le bouton "Sauvegarder en PDF"
+Lorsqu'un formulaire est remplit, avant de le soumettre vous pouvez l'exporter au format PDF en cliquant sur le bouton "Sauvegarder en PDF"
 
 .. figure:: media-guide/image_etape_10.png
    :alt: 
 
 Analyse des resultats
 ------------------------------------------------
-Sous forme de Dashboard
-~~~~~~~~~~~~~~~~~~~~~~~
-Sous l'onglet "Dashboard" vous aurez accès aux resultats du formulaire sous forme de statistiques avec des graphes :
+Sous forme de tableau de bord
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Sous l'onglet "Dashboard" vous aurez accès aux resultats du formulaire sous forme de statistiques avec des graphiques :
 
 .. figure:: media-guide/image_etape_11.png
    :alt: 
 
-Le type de graphe choisit est personnalisable :
+Le type de graphique choisit est personnalisable :
 
 .. figure:: media-guide/image_etape_12.png
    :alt: 
 
-Vous pouvez exporter chaque résultats unitairement en exportant au format PNG les graphes :
+Vous pouvez exporter chaque résultats unitairement en exportant au format PNG les graphiques :
 
 .. figure:: media-guide/image_etape_13.png
    :alt: 
