@@ -297,7 +297,7 @@ Attribuer/Créer une Entité
 La création d’une entité se fait au niveau du formulaire de création d’un utilisateur :
 
 -	Accédez à la page de création d’un utilisateur.
--	Dans la section 'Informations sur l'utilisateur' puis 'Entité', commencez à saisir les premières lettres de l’entité. Une liste d’entités déjà créées s’affichera.Si cette entité n'existe pas encore, elle sera automatiquement créée.
+-	Dans la section 'Informations sur l'utilisateur' puis 'Entité', commencez à saisir les premières lettres de l’entité. Une liste d’entités déjà créées s’affichera. Si cette entité n'existe pas encore, elle sera automatiquement créée.
 -	Enregistrez la fiche du profil. La nouvelle entité est désormais disponible et peut être attribuée à d’autres utilisateurs.
 
 Gestion Avancée des Entités
