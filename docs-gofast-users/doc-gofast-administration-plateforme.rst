@@ -294,7 +294,7 @@ Les entités permettent de structurer et organiser les données et les utilisate
 
 Attribuer/Créer une Entité
 ~~~~~~~~~~~~~~~~~~~~~~~~
-La création d’une entité dans se fait au niveau du formulaire de création d’un utilisateur :
+La création d’une entité se fait au niveau du formulaire de création d’un utilisateur :
 
 -	Accédez à la page de création d’un utilisateur.
 -	Dans la section entité, commencez à saisir les premières lettres de l’entité. Une liste d’entités déjà créées s’affichera.Si cette entité n'existe pas encore, elle sera automatiquement créée.
