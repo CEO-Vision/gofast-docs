@@ -202,8 +202,42 @@ Merci de vous référer à la rubrique : « Gérer les Documents / Contenus ».
 
 Etiquettes
 -------------------
-Cette catégorie est en cours de rédaction et sera disponible prochainement.
+Les étiquettes permettent de catégoriser et de retrouver rapidement des documents en leur associant des mots-clés pertinents. Elles facilitent la recherche et l’organisation des contenus au sein de la plateforme et contribuent à une navigation efficace, notamment dans des projets ou des dossiers volumineux.
 
+.. NOTE::  Seul le profil « support-utilisateurs » peut gérer les étiquettes.
+
+Créer une Nouvelle Étiquette
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Pour créer une étiquette, il est nécessaire de passer par un document existant :
+- Accédez à la prévisualisation d'un document sur lequel vous souhaitez ajouter une étiquette.
+- Dans la section Étiquettes, saisissez le nom de la nouvelle étiquette que vous souhaitez créer. Si cette étiquette n'existe pas encore, elle sera automatiquement ajoutée lors de l'enregistrement. La nouvelle étiquette est maintenant créée et peut être utilisée sur d’autres documents.
+
+Une fois l’étiquette créée, elle devient accessible dans la section des Étiquettes de GoFAST Configuration pour toute modification ou gestion ultérieure.
+
+.. figure:: media-guide/etiquette-config.png
+
+Associer des Étiquettes à d'autres Documents
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Pour associer des étiquettes déjà existantes :
+
+- Dans le bloc des métadonnées du document, cherchez la section Étiquettes.
+- Tapez les premières lettres de l’étiquette souhaitée pour afficher les suggestions ou parcourez la liste des étiquettes existantes.
+- Sélectionnez l’étiquette et les modifications seront enregistrées automatiquement.
+
+Rechercher des Éléments par Étiquettes
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Les étiquettes facilitent la recherche et la navigation :
+
+- Dans les filtres avancés, sélectionnez une ou plusieurs étiquettes pour affiner les résultats de recherche. Cela est particulièrement utile pour trier les documents par thématique, projet ou autre critère spécifique.
+
+Gestion Avancée des Étiquettes
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Les utilisateurs ayant les droits du support utilisateurs peuvent gérer les étiquettes dans la section des Étiquettes de GoFAST Configuration :
+
+- Renommer une Étiquette : Les étiquettes peuvent être renommées si le besoin de précision ou de changement de libellé se présente.
+-	Mettre en Majuscules : Pour uniformiser la présentation, il est possible de transformer le texte d’une étiquette en majuscules.
+-	Fusionner des Étiquettes : Pour regrouper des étiquettes similaires et garder une liste simplifiée.
+-	Supprimer des Étiquettes : Pour retirer des étiquettes obsolètes ou inutilisées et maintenir une structure cohérente.
 
 Visibilité 
 -----------------
@@ -256,8 +290,26 @@ Les profils des utilisateurs désactivés sont inaccessibles et anonymisés aux 
 Entités 
 -----------------
 
-Cette catégorie est en cours de rédaction et sera disponible prochainement.
+Les entités permettent de structurer et organiser les données et les utilisateurs de manière à refléter la hiérarchie ou les besoins spécifiques de votre organisation.
 
+Attribuer/Créer une Entité
+~~~~~~~~~~~~~~~~~~~~~~~~
+La création d’une entité se fait au niveau du formulaire de création d’un utilisateur :
+
+-	Accédez à la page de création d’un utilisateur.
+-	Dans la section 'Informations sur l'utilisateur' puis 'Entité', commencez à saisir les premières lettres de l’entité. Une liste d’entités déjà créées s’affichera. Si cette entité n'existe pas encore, elle sera automatiquement créée.
+-	Enregistrez la fiche du profil. La nouvelle entité est désormais disponible et peut être attribuée à d’autres utilisateurs.
+
+Gestion Avancée des Entités
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+Les administrateurs peuvent gérer les entités pour maintenir une organisation optimale :
+
+-	Fusionner des Entités : Regrouper des entités similaires si nécessaire pour simplifier la structure.
+-	Supprimer une Entité : Retirer les entités qui ne sont plus nécessaires pour maintenir une liste propre et actuelle.
+
+DES CORRECTIFS SONT EN COURS POUR LA PARTIE ENTITE.
+
+.. figure:: media-guide/entite-config.png
 
 Catégorie
 ----------------
@@ -642,8 +694,25 @@ Vous pouvez aussi retrouver d'autres options de personnalisation `ici <https://g
 Serveur SMTP
 -----------------------
 
-Cette catégorie est en cours de rédaction et sera disponible prochainement.
+Le serveur SMTP (Simple Mail Transfer Protocol) est essentiel pour permettre d'envoyer des emails(des notifications, des alertes). Une configuration correcte est indispensable pour assurer l’envoi et la réception efficaces des emails.
 
+Configurer le Serveur SMTP
+~~~~~~~~~~~~~~~~~~~~~~
+Pour configurer le serveur SMTP, suivez ces étapes :
+
+-	Accédez à GoFAST Configuration : Allez dans le menu de configuration à gauche et sélectionnez l’option Serveur SMTP.
+-	Renseignez les Informations du Serveur SMTP : Dans cette section, vous devrez fournir les informations suivantes : 
+ *	Serveur SMTP : Indiquez l'adresse de votre serveur SMTP (ex : smtp.votreorganisation.com).
+-	Authentification SMTP : Passez ensuite au bloc Authentification SMTP où vous devrez fournir les informations suivantes :
+ *	Nom d'utilisateur : Entrez le nom d’utilisateur du compte SMTP ( information transmise par le client ).
+ * Mot de passe : Saisissez le mot de passe correspondant du compte SMTP.
+ *	Sécurité : Sélectionnez le type de sécurité à utiliser ( Aucune, TLS, SSL )
+ *	Port SMTP : Indiquez le port utilisé pour la connexion SMTP (par exemple, 25, 465 ou 587).
+-	Enregistrer les Modifications : Une fois que vous avez rempli tous les champs requis, cliquez sur le bouton Enregistrer pour appliquer la configuration.
+
+.. figure:: media-guide/smtp-config.png
+
+.. NOTE:: Cette fonctionnalité est accessible uniquement aux utilisateurs ayant le profil « Super-administrateur ».
 
 Flux RSS
 ------------------------
@@ -819,22 +888,55 @@ Dans la section Politique de mot de passe, vous pourrez définir les éléments 
 Documents 
 ---------------------
 
+La section Documents dans la configuration de GoFAST permet de gérer divers paramètres liés à l’édition, la prévisualisation, la sécurité, et l'affichage des documents sur la plateforme. Ces options permettent d'ajuster le comportement de la gestion documentaire pour mieux répondre aux besoins de l’organisation
 
+Édition de document
+~~~~~~~~~~~~~~~~~~
+-	Utiliser le ticket de session GoFAST : En activant cette option, les utilisateurs n'ont pas besoin de saisir leurs identifiants pour éditer un document depuis leur poste. 
+
+–	Longueur maximum du chemin pour l'utilisation du ticket de session : Définit une limite en nombre de caractères pour le chemin d'accès lors de l'utilisation du ticket de session.
+
+–	Utiliser le protocole de LibreOffice pour ouvrir les documents : Si activé, LibreOffice est utilisé pour ouvrir les documents, utile pour les utilisateurs n'ayant pas accès à Microsoft Office. Ce protocole remplace alors celui de Microsoft Office pour l'édition de documents.
+
+Prévisualisation des documents
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+–	Prévisualiser les documents en utilisant OnlyOffice en mode lecture seule : Permet de prévisualiser les documents directement dans OnlyOffice sans possibilité de modification, ce qui est utile pour des consultations rapides sans risquer des changements accidentels.
 
 Date personnalisée 
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~
 Il est possible de configurer un champ date, dans les métadonnés : 
 
-.. figure:: media-guide/date_custom1.png
+.. figure:: media-guide/document-configg.png
 
-Rendez-vous dans **GoFAST Configuration**, puis dans **Documents** ensuite, dans **Date personnalisée** vous pouvez donner un nom au champ optionnel de la date. 
+Dans ce champs, vous pouvez donner un nom au champ optionnel de la date. 
 
-.. figure:: media-guide/date_custom2.png
+.. figure:: media-guide/document-configg2.png
+
+Sécurité des documents
+~~~~~~~~~~~~~~~~~~~~~
+–	Liste blanche pour le filtrage XSS : Une liste d’articles ou de page d ‘accueil d’espaces qui serait non soumise au filtrage XSS ( filtrage de sécurité qui interdit l’utilisation de certaines balises HTML)
+
+DUA
+~~~~
+Liste actuelle des archivistes de la plateforme : Les utilisateurs qui seront notifiés une fois la DUA sera atteinte.
+
+Liens externes
+~~~~~~~~~~~~~~~~
+–	Activer le renommage automatique : Active la récupération automatique du titre des pages pour les liens HTTP, permettant de simplifier la gestion des liens en obtenant un titre descriptif au lieu de l'URL brute.
+
+–	Autoriser les liens externes à rediriger vers des URLs HTTP : Autorise ou bloque les redirections vers des liens externes non sécurisés (HTTP).
 
 Espaces 
 -----------------
-Cette catégorie est en cours de rédaction et sera disponible prochainement.
+Cette section permet de gérer les autorisations relatives à la création et à l'accès des espaces de collaboration. Ces options influencent la manière dont les utilisateurs peuvent contribuer aux espaces, notamment en ce qui concerne les utilisateurs externes et les sous-espaces.
 
+-	Contribuer au contenu public : Cette fonctionnalité, actuellement désactivée, permettra bientôt aux utilisateurs de contribuer au contenu public directement.
+-	Autoriser les membres non administrateurs à créer des sous-espaces de second niveau : Lorsque cette option est activée, les utilisateurs non administrateurs peuvent créer leurs propres sous-espaces sous les espaces de premier niveau. Cela permet une organisation hiérarchique flexible.
+-	Désactiver l'ajout des utilisateurs externes dans les groupes : Si cette option est activée, les administrateurs ne pourront pas ajouter d'utilisateurs externes dans les groupes, limitant ainsi l'accès aux membres internes uniquement.
+-	Désactiver l'ajout des utilisateurs externes dans les organisations : En activant cette option, l'ajout d'utilisateurs externes aux organisations sera également restreint, assurant ainsi que seuls les utilisateurs internes ont accès aux informations et documents partagés dans ces espaces organisationnels.
+
+.. figure:: media-guide/espaces-config.png
 
 SSO
 -------------
@@ -906,8 +1008,9 @@ Sur la page de login, l'utilisateur pourra maintenant se connecter en cliquant s
 Recherche 
 -------------------
 
-Cette catégorie est en cours de rédaction et sera disponible prochainement.
+La section Recherche dans la configuration de GoFAST permet de voir l’état global de l’indexation et résoudre les problèmes de documents indexés.
 
+.. NOTE:: C'est un écran très technique souvent utilisé par les équipes de support de la plateforme.
 
 Signatures
 ----------------------
