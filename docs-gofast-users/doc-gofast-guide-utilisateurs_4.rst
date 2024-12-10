@@ -239,7 +239,7 @@ En haut , nous avons 4 onglets : "Editeur de sondage", "Test le sondage", "Theme
 
 A droite nous avons toutes les options des differents outils du formulaire (lorsqu'on clique dessus) ainsi que les paramètres globaux du formulaire:
 
-* Paramètre globaux: *
+*Paramètre globaux:*
 
 .. figure:: media-guide/param_form.png
    :alt: 
@@ -277,14 +277,14 @@ Ce lien peut être partagé avec l'utilisateur externe pour qu'il puisse accéde
 Cela permet de collecter des informations auprès de tiers sans nécessiter qu'ils aient un accès direct à la plateforme.
 
 Soumettre un formulaire
-------------------------------------------------
+--------------------------
 Pour soumettre un formulaire il suffit simplement d'appuyer sur le bouton "Terminer" à la fin du formulaire :
 
 .. figure:: media-guide/terminer_form.png
    :alt: 
 
 Ajout des fichiers dans un formulaire
-------------------------------------------------
+--------------------------------------
 Pour ajouter un fichier/une image, vous pouvez :
 
 - Le glisser-déposer directement.
@@ -300,8 +300,8 @@ Lorsqu'un formulaire est remplit, avant de le soumettre vous pouvez l'exporter a
 .. figure:: media-guide/sauvegarder_pdf_form.png
    :alt: 
 
-Fonctionnement d’un formulaire en mode questionnire
-------------------------------------------------
+Fonctionnement d’un formulaire en mode questionnaire
+-----------------------------------------------------
 Pour configurer un formulaire en mode Questionnaire, il est nécessaire de définir les réponses correctes pour chaque question.
 Cette configuration se fait individuellement pour chaque question. Voici les étapes à suivre :
 
