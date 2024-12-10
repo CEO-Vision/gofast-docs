@@ -224,47 +224,146 @@ Intéressons nous maintenant à l'onglet "Gérer" qui va permettre d'ouvrir l'ou
 
 Sur la gauche nous avons la totalité des outils pour créer un formulaire :
 
-.. figure:: media-guide/image_etape_3.png
+.. figure:: media-guide/outils_form.png
    :alt: 
 
 En haut , nous avons 4 onglets : "Editeur de sondage", "Test le sondage", "Themes" et "Editeur JSON":
 
-.. figure:: media-guide/image_etape_4.png
+.. figure:: media-guide/onglets_form.png
    :alt:
 
-.. figure:: media-guide/image_etape_5.png
+- Le premier est l'onglet de création du formulaire
+- Le deuxieme permet d'avoir un visuel sur le sondage en cours de création pour pouvoir faire des ajustements necessaires avant la publication
+- Le 3eme permet de créer un thème entièrement personnalisé qui surchargera le thème par défaut du formulaire
+- Le 4ème onglet sert à importer ou exporter les formulaires au format JSON.
+
+A droite nous avons toutes les options des differents outils du formulaire (lorsqu'on clique dessus) ainsi que les paramètres globaux du formulaire:
+
+*Paramètre globaux:*
+
+.. figure:: media-guide/param_form.png
    :alt: 
+
+Paramètre d'un widget:
 
 .. figure:: media-guide/image_etape_6.png
    :alt: 
 
-.. figure:: media-guide/image_etape_7.png
+Publication d'un formulaire
+------------------------------------------------
+Pour publier un formulaire il suffit de cliquer sur le menu contextuel en haut à droite et de cliquer sur "Publier ce formulaire" :
+
+.. figure:: media-guide/publier_form.png
    :alt: 
+
+Cliquer ensuite sur Valider dans la modale pour valider la publication
+
+Remplir un formulaire
+------------------------------------------------
+Pour remplir un formulaire, il faut que celui-ci soit publié, si il l'est vous pouvez vous rendre sur l'onglet "Remplir" du formulaire.
 
 .. figure:: media-guide/image_etape_8.png
    :alt: 
 
-.. figure:: media-guide/image_etape_9.png
+Partager un formulaire avec des utilisateurs externes
+------------------------------------------------
+Pour permettre à une personne externe (ne disposant pas de compte GoFAST) de remplir un formulaire, vous pouvez utiliser l'option "Share Webform".
+En cliquant sur ce bouton, un lien public sera copié.
+Ce lien peut être partagé avec l'utilisateur externe pour qu'il puisse accéder et remplir le formulaire.
+
+.. figure:: media-guide/partager_form.png
    :alt: 
 
-.. figure:: media-guide/image_etape_10.png
+Cela permet de collecter des informations auprès de tiers sans nécessiter qu'ils aient un accès direct à la plateforme.
+
+Soumettre un formulaire
+--------------------------
+Pour soumettre un formulaire il suffit simplement d'appuyer sur le bouton "Terminer" à la fin du formulaire :
+
+.. figure:: media-guide/terminer_form.png
    :alt: 
 
-.. figure:: media-guide/image_etape_11.png
+Ajout des fichiers dans un formulaire
+--------------------------------------
+Pour ajouter un fichier/une image, vous pouvez :
+
+- Le glisser-déposer directement.
+- Cliquer sur 'Ajouter un fichier' et sélectionner le fichier depuis votre ordinateur.
+
+.. figure:: media-guide/fichier_form.png
    :alt: 
+
+Export d'un formulaire au format PDF
+------------------------------------------------
+Lorsqu'un formulaire est remplit, avant de le soumettre vous pouvez l'exporter au format PDF en cliquant sur le bouton "Sauvegarder en PDF"
+
+.. figure:: media-guide/sauvegarder_pdf_form.png
+   :alt: 
+
+Fonctionnement d'un formulaire en mode questionnaire
+-----------------------------------------------------
+Pour configurer un formulaire en mode Questionnaire, il est nécessaire de définir les réponses correctes pour chaque question.
+Cette configuration se fait individuellement pour chaque question. Voici les étapes à suivre :
+
+1.	Accéder aux paramètres de la question
+
+–	Allez  sur la question que vous souhaitez paramétrer.
+
+–	Cliquez sur "Ouvrir Paramètres" pour accéder aux options de configuration spécifiques à cette question.
+
+.. figure:: media-guide/config_form.png
+   :alt: 
+
+2. Accéder à l’onglet Données
+
+–	Une fois dans les paramètres, allez dans l’onglet Données. C’est à cet endroit que vous pouvez gérer les informations liées aux réponses.
+
+.. figure:: media-guide/donnees_form.png
+   :alt:
+
+3. Définir la réponse correcte
+
+–	Dans la section "Définir Réponse correcte", cliquez pour ouvrir la fenêtre de sélection des réponses.
+
+.. figure:: media-guide/rep_correcte_form.png
+   :alt:
+
+–	Sélectionnez la ou les réponses correctes parmi les options proposées.
+
+–	Une fois vos choix faits, cliquez sur Appliquer pour enregistrer la configuration.
+
+.. figure:: media-guide/appliquer_form.png
+   :alt:
+
+Répétez ce processus pour chaque question du formulaire. Cette étape est indispensable pour s'assurer que le formulaire évalue correctement les réponses des utilisateurs en fonction des critères définis.
+
+Analyse des resultats
+------------------------------------------------
+Sous forme de tableau de bord
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Sous l'onglet "Dashboard" vous aurez accès aux resultats du formulaire sous forme de statistiques avec des graphiques :
+
+.. figure:: media-guide/dashboard_form.png
+   :alt: 
+
+Le type de graphique choisit est personnalisable :
 
 .. figure:: media-guide/image_etape_12.png
    :alt: 
 
+Vous pouvez exporter chaque résultats unitairement en exportant au format PNG les graphiques :
+
 .. figure:: media-guide/image_etape_13.png
    :alt: 
 
-.. figure:: media-guide/image_etape_14.png
+Sous forme de tableau
+~~~~~~~~~~~~~~~~~~~~~~~
+Sous l'onglet "Tableau" vous aurez accès aux résultats du formulaire sous forme de tableau :
+
+.. figure:: media-guide/tableau_form.png
    :alt: 
 
-
-   
-
+Vous pouvez exporter les résultats sous différentes formes (PDF, Excel ou CSV)
 
 Favoris, Derniers contenus vus et Flux RSS
 ===================================
