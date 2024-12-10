@@ -283,7 +283,7 @@ Pour soumettre un formulaire il suffit simplement d'appuyer sur le bouton "Termi
 .. figure:: media-guide/terminer_form.png
    :alt: 
 
-Ajout des fichiers dans un formulaire
+Ajout des fichiers dans un formulaire
 --------------------------------------
 Pour ajouter un fichier/une image, vous pouvez :
 
@@ -300,31 +300,36 @@ Lorsqu'un formulaire est remplit, avant de le soumettre vous pouvez l'exporter a
 .. figure:: media-guide/sauvegarder_pdf_form.png
    :alt: 
 
-Fonctionnement d’un formulaire en mode questionnaire
+Fonctionnement d'un formulaire en mode questionnaire
 -----------------------------------------------------
 Pour configurer un formulaire en mode Questionnaire, il est nécessaire de définir les réponses correctes pour chaque question.
 Cette configuration se fait individuellement pour chaque question. Voici les étapes à suivre :
 
 1.	Accéder aux paramètres de la question
+
 –	Allez  sur la question que vous souhaitez paramétrer.
+
 –	Cliquez sur "Ouvrir Paramètres" pour accéder aux options de configuration spécifiques à cette question.
 
 .. figure:: media-guide/config_form.png
    :alt: 
 
 2. Accéder à l’onglet Données
+
 –	Une fois dans les paramètres, allez dans l’onglet Données. C’est à cet endroit que vous pouvez gérer les informations liées aux réponses.
 
 .. figure:: media-guide/donnees_form.png
    :alt:
 
 3. Définir la réponse correcte
+
 –	Dans la section "Définir Réponse correcte", cliquez pour ouvrir la fenêtre de sélection des réponses.
 
 .. figure:: media-guide/rep_correcte_form.png
    :alt:
 
 –	Sélectionnez la ou les réponses correctes parmi les options proposées.
+
 –	Une fois vos choix faits, cliquez sur Appliquer pour enregistrer la configuration.
 
 .. figure:: media-guide/appliquer_form.png
