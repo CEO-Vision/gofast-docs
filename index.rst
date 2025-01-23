@@ -1,5 +1,5 @@
 Documentation GoFAST 4.0
-####################
+###########################
 
 .. _technical-docs:
 
