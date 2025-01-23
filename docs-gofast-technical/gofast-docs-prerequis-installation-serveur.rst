@@ -318,17 +318,13 @@ suivantes sont à effectuer: ::
 
 
 
-Installation par script (Enterprise only)
+Installation par container (Enterprise only)
 ----------------------------------------------
 
 .. class::
    Enterprise only
 
-A noter que ce type d’installation engendre un coût supplémentaire
-(facturation en régie).
-
-Dans ce cas, une VM avec Centos 7 x64 Minimal est mise à disposition de CEO-Vision
-qui fait ensuite une installation par script.
+Disponible courant 2025
 
 Post-installation de la VM (Enterprise only) 
 =============================================

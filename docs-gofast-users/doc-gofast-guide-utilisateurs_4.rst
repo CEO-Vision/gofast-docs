@@ -300,6 +300,11 @@ Lorsqu'un formulaire est remplit, avant de le soumettre vous pouvez l'exporter a
 .. figure:: media-guide/sauvegarder_pdf_form.png
    :alt: 
 
+De plus, lors de la soumission, un PDF est automatiquement généré et ajouté au répertoire de la soumission de la personne.
+
+.. figure:: media-guide/soumission_savepdf.png
+   :alt: 
+
 Fonctionnement d'un formulaire en mode questionnaire
 -----------------------------------------------------
 Pour configurer un formulaire en mode Questionnaire, il est nécessaire de définir les réponses correctes pour chaque question.
@@ -361,6 +366,11 @@ Sous forme de tableau
 Sous l'onglet "Tableau" vous aurez accès aux résultats du formulaire sous forme de tableau :
 
 .. figure:: media-guide/tableau_form.png
+   :alt: 
+
+Si le formulaire est un quiz, vous verrez apparaître le score, le pourcentage et le temps passé pour y répondre.
+
+.. figure:: media-guide/quizz_score.png
    :alt: 
 
 Vous pouvez exporter les résultats sous différentes formes (PDF, Excel ou CSV)
