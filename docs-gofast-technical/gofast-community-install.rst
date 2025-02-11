@@ -275,15 +275,15 @@ Téléchargez le "Package de mise à jour du noyeau Linux WSL2" proposé  et exe
 
 Vous pouvez ensuite relancer Docker Desktop.
 
-Changement de nommage et migration en GoFAST 4.4.0
+Changement de nommage et migration en GoFAST 4.3.0
 -----------------------------------------------------
-La version 4.4.0 de GoFAST NG a introduit un changement de nommage des conteneurs dans le cadre du début d'exploitation en GoFAST Enterprise.
+La version 4.3.0 de GoFAST NG a introduit un changement de nommage des conteneurs dans le cadre du début d'exploitation en GoFAST Enterprise.
 
 Ce changement de nommage crée de nouveaux volumes, si vous souhaitez ne pas repartir d'une instance vierge, vous pouvez suivre la procédure suivante
 
-.. CAUTION:: Avant de suivre cette procédure, vous devez avoir mis à jour votre instance en 4.4.0 ou supérieur.
+.. CAUTION:: Avant de suivre cette procédure, vous devez avoir mis à jour votre instance en 4.3.0 ou supérieur.
 
-.. CAUTION:: Cette procédure est à suivre uniquement si vous mettez à jour une instance existante de GoFAST Community < 4.4.0 vers GoFAST Community >= 4.4.0
+.. CAUTION:: Cette procédure est à suivre uniquement si vous mettez à jour une instance existante de GoFAST Community < 4.3.0 vers GoFAST Community >= 4.3.0
 
 .. NOTE:: Cette procédure s'applique pour les installations par conteneurs sur une machine Linux type RedHat, pour les autres type d'installation, vous pouvez faire une demande sur les forums : https://community.ceo-vision.com
 
