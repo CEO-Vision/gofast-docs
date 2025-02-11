@@ -1,15 +1,15 @@
 ********************************************
-GoFAST Community :  Installation
+GoFAST Community :  Installation et Mise à Jour
 ********************************************
 
 .. note:: En cas de problème vous pouvez poser vos questions sur les forums : https://community.ceo-vision.com
 
-Instructions (par conteneurs)
+Installation (par conteneurs)
 ===============================
 
 .. Note:: Si vous accédez à cette page via le formulaire de GoFAST Community, vous pouvez passer directement à l'étape 2
 
-Étape 1 : Rendez-vous sur: https://gofast-ng.ceo-vision.com/
+Étape 1 : Rendez-vous sur: https://gofast-ng.ceo-vision.com/ (Option "Installation")
 ---------------------------------------------------------------
 Une fois que vous avez complété le formulaire du lien ci-dessus et cliqué sur le lien qui vous a été envoyé par e-mail, veuillez procéder comme suit :
 
@@ -38,7 +38,8 @@ Vous devez charger des certificats au format x509 encodé en base64 correspondan
 
 Vous devez fournir :
    1. **la clé publique de votre certificat** (.pem ou .crt)
-   2. **la clé privée correspondant au certificat** (.key)
+   2. **Le certificat de l'autorité intermédiaire (CA)** (.pem ou .crt)
+   3. **la clé privée correspondant au certificat** (.key)
    
 .. NOTE:: Si vous ne savez pas de quoi il s'agit, ces certificats prennent la forme de deux fichiers à demander à votre département IT
 
@@ -88,8 +89,6 @@ Après avoir validé le téléchargement, cela téléchargera deux fichiers dans
 
 - Un .env qui contient toutes les variables renseignées
 - Un fichier compose.yaml contenant la description de l'application GoFAST en conteneurs
-
-.. NOTE:: Il sera possible prochainement de re charger ces fichiers pour obtenir les mises à jour de votre plateforme GoFAST Community
 
 Etape 7 : Instancier votre plateforme
 ----------------------------------------
@@ -166,11 +165,87 @@ Sur Windows avec Docker Desktop et Portainer
 
 .. CAUTION:: Ce processus une fois lancé va télécharger toutes les images des applications de GoFAST, ce processus peut prendre du temps. Ne pas quitter ou changer de menu tant que vous voyez "Deployment in progress..."
 
-Instructions (pour AWS)
+Mise à jour (par conteneurs)
+===============================
+
+Étape 1 : Rendez-vous sur: https://gofast-ng.ceo-vision.com/ (Option 'Mise à jour')
+---------------------------------------------------------------
+Récupérez votre fichier .env généré lors de l'installation de GoFAST Community, puis chargez le dans l'interface.
+
+
+Étape 2 : Valider les paramètres récupérés
+-------------------------------------------
+Sur les prochains écrans de configuration, vous pourrez confirmer les paramètres récupérés depuis votre fichier d'environnement .env
+
+Certains paramètres sont modificables, comme : 
+
+   1. **Nom du site** : C'est le nom qui apparaîtra dans les onglets par exemple
+   2. **la clé publique de votre certificat** (.pem ou .crt)
+   3. **Le certificat de l'autorité intermédiaire (CA)** (.pem ou .crt)
+   4. **la clé privée correspondant au certificat** (.key)
+   
+.. NOTE:: Si vous ne savez pas de quoi il s'agit, ces certificats prennent la forme de deux fichiers à demander à votre département IT
+
+.. WARNING:: Pour le moment cette interface ne permet pas de générer des certificats autosignés, si vous souhaitez en générer un **pour un usage de test uniquement**, vous pouvez utiliser un outil en ligne comme https://regery.com/en/security/ssl-tools/self-signed-certificate-generator
+
+Une fois ces étapes effectuées, une page apparait avec un récapitulatif. Si tout est correct, validez la configuration.
+
+Après avoir validé le téléchargement, cela téléchargera deux fichiers dans une archive au format .zip :
+
+- Un .env qui contient toutes les variables renseignées
+- Un fichier compose.yaml contenant la description de l'application GoFAST en conteneurs
+
+Etape 3 : Mettre à jour votre plateforme
+----------------------------------------
+
+.. CAUTION:: GoFAST est une application d'entreprise et nécessite un serveur (mini 4vcpu,12GB RAM,SSD recommandé). L'utilisation sur un simple PC sous Podman Desktop ou Docker Desktop est donc déconseillée.
+
+.. NOTE:: Pour pouvoir accéder à l'application, déclarez son nom de domaine (renseigné lors de l'étape 2) avec son adresse IP dans le fichier ``hosts`` de votre ordinateur (https://www.digdeo.fr/articles/sys-admin/modifier-fichier-etc-hosts-windows-mac-linux) ou dans le DNS de l'entreprise
+   
+.. NOTE:: De nombreuses opérations techniques vont être effectuées ainsi que des démarrages de service, ceci pouvant être plus ou moins long suivant les capacités du serveur. Le temps estimé du premier démarrage se situe entre 10 et 30 min.
+
+Sur une machine Linux - RedHat (Recommandé : AlmaLinux ou CentOS)
+`````````````````````````````````````````````````````````````````````
+- Arrêter votre GoFAST Community
+
+.. code-block:: bash
+
+   cd /opt/gofast #(Ou votre dossier d'installation)
+   podman-compose down
+
+- Déziper et remplacer les fichiers .env et compose.yaml dans le même dossier que votre installation précédente
+
+.. code-block:: bash
+
+   cd /opt/gofast #(Ou votre dossier d'installation)
+   unzip gofast-community.zip
+
+- Redémarrer votre GoFAST Community
+
+.. code-block:: bash
+
+   podman-compose up -d
+
+- Suivez le déroulement de votre installation
+
+.. code-block:: bash
+
+   podman logs -f gofast-ng-drupal
+   podman logs -f gofast-ng-alfresco
+   podman logs -f gofast-ng-mysql
+   podman logs -f gofast-ng-....
+
+.. NOTE:: Une fois que la commande "podman logs -f gofast-ng-drupal" vous rends la main, cela signifie que l'installation est terminée.
+
+Sur Windows avec Docker Desktop et Portainer
+````````````````````````````````````````````````
+Documentation en cours de rédaction
+
+Installation (pour AWS)
 ==================================
 Cette méthode d'installation reviendra bientôt.
 
-Instructions (par image)
+Mise à jour (pour AWS)
 ==================================
 Cette méthode d'installation reviendra bientôt.
 
@@ -199,3 +274,99 @@ Si une mise à jour du kernel WSK est requise, rendez vous sur https://docs.micr
 Téléchargez le "Package de mise à jour du noyeau Linux WSL2" proposé  et executez le.
 
 Vous pouvez ensuite relancer Docker Desktop.
+
+Changement de nommage et migration en GoFAST 4.4.0
+-----------------------------------------------------
+La version 4.4.0 de GoFAST NG a introduit un changement de nommage des conteneurs dans le cadre du début d'exploitation en GoFAST Enterprise.
+
+Ce changement de nommage crée de nouveaux volumes, si vous souhaitez ne pas repartir d'une instance vierge, vous pouvez suivre la procédure suivante
+
+.. CAUTION:: Avant de suivre cette procédure, vous devez avoir mis à jour votre instance en 4.4.0 ou supérieur.
+
+.. CAUTION:: Cette procédure est à suivre uniquement si vous mettez à jour une instance existante de GoFAST Community < 4.4.0 vers GoFAST Community >= 4.4.0
+
+.. NOTE:: Cette procédure s'applique pour les installations par conteneurs sur une machine Linux type RedHat, pour les autres type d'installation, vous pouvez faire une demande sur les forums : https://community.ceo-vision.com
+
+Sur une machine Linux - RedHat (Recommandé : AlmaLinux ou CentOS)
+`````````````````````````````````````````````````````````````````````
+- Vérifier que les volumes existent avec l'ancien et le nouveau nommage
+
+.. code-block:: bash
+
+   podman volume ls
+
+Vous devriez observer une liste de volumes en 'gofast-ng-community' et 'gofast-ng-main-community' : 
+
+.. code-block:: bash
+
+   DRIVER      VOLUME NAME
+   local       gofast-ng-community_gofast-ng-mysql_data
+   local       gofast-ng-community_gofast-ng-share_data
+   local       gofast-ng-community_gofast-ng-www_data
+   local       gofast-ng-community_gofast-ng-drupal_data
+   local       gofast-ng-community_gofast-ng-ldap_data
+   local       gofast-ng-community_gofast-ng-alfresco_data
+   local       gofast-ng-community_gofast-ng-solr_data
+   local       gofast-ng-community_gofast-ng-clamav_data
+   local       gofast-ng-main-community_gofast-ng-mysql_data
+   local       gofast-ng-main-community_gofast-ng-share_data
+   local       gofast-ng-main-community_gofast-ng-www_data
+   local       gofast-ng-main-community_gofast-ng-ldap_data
+   local       gofast-ng-main-community_gofast-ng-alfresco_data
+   local       gofast-ng-main-community_gofast-ng-solr_data
+   local       gofast-ng-main-community_gofast-ng-keycloak_data
+   local       gofast-ng-main-community_gofast-ng-saslauthd_sock
+
+Nous allons donc migrer les données des anciens volumes vers les nouveaux volumes.
+
+Avant de procéder au changement, vérifiez que l'initialisation de votre GoFAST Community est bien terminée. La commande suivante doit vous rendre la main : 
+
+.. code-block:: bash
+
+   podman logs -f gofast-ng-drupal
+
+Vous pouvez également vérifier que le container gofast-ng-drupal a bien terminé son initialisation (Il doit être en état Exited) : 
+
+.. code-block:: bash
+
+   podman ps -a | grep gofast-ng-drupal
+
+- Arrêter votre GoFAST Community
+
+.. code-block:: bash
+
+   podman-compose down
+
+- Migrer les volumes
+
+.. code-block:: bash
+
+   podman run --rm -it -v gofast-ng-community_gofast-ng-mysql_data:/from:z -v gofast-ng-main-community_gofast-ng-mysql_data:/to:z alpine ash -c 'cd /from ; rm -Rf /to/* ; cp -aRf ./* /to/'
+   podman run --rm -it -v gofast-ng-community_gofast-ng-www_data:/from:z -v gofast-ng-main-community_gofast-ng-www_data:/to:z alpine ash -c 'cd /from ; rm -Rf /to/* ; cp -aRf ./* /to/'
+   podman run --rm -it -v gofast-ng-community_gofast-ng-ldap_data:/from:z -v gofast-ng-main-community_gofast-ng-ldap_data:/to:z alpine ash -c 'cd /from ; rm -Rf /to/* ; cp -aRf ./* /to/'
+   podman run --rm -it -v gofast-ng-community_gofast-ng-alfresco_data:/from:z -v gofast-ng-main-community_gofast-ng-alfresco_data:/to:z alpine ash -c 'cd /from ; rm -Rf /to/* ; cp -aRf ./* /to/'
+   podman run --rm -it -v gofast-ng-community_gofast-ng-solr_data:/from:z -v gofast-ng-main-community_gofast-ng-solr_data:/to:z alpine ash -c 'cd /from ; rm -Rf /to/* ; cp -aRf ./* /to/'
+
+- Redémarrer votre GoFAST Community
+
+.. code-block:: bash
+
+   podman-compose up -d
+
+- Une fois votre instance démarrée, vous pouvez vous y connecter et vérifier que l'installation a bien été réinitialisée à l'état souhaité. Si tout est conforme, vous pouvez procéder à la suppression des anciens volumes : 
+
+.. code-block:: bash
+
+   podman volume rm gofast-ng-community_gofast-ng-mysql_data
+   podman volume rm gofast-ng-community_gofast-ng-share_data
+   podman volume rm gofast-ng-community_gofast-ng-www_data
+   podman volume rm gofast-ng-community_gofast-ng-drupal_data
+   podman volume rm gofast-ng-community_gofast-ng-ldap_data
+   podman volume rm gofast-ng-community_gofast-ng-alfresco_data
+   podman volume rm gofast-ng-community_gofast-ng-solr_data
+   podman volume rm gofast-ng-community_gofast-ng-clamav_data
+
+
+Sur Windows avec Docker Desktop et Portainer
+````````````````````````````````````````````````
+Faire une demande sur les forums : https://community.ceo-vision.com
