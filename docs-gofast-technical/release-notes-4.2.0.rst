@@ -1,5 +1,5 @@
 ********************************************
-GoFAST :  Version 4.2
+GoFAST :  Version 4.2.0
 ********************************************
 
 **[GoFAST Enterprise]** N’hésitez pas à solliciter notre support pour planifier la mise à jour.
