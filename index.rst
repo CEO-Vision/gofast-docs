@@ -30,6 +30,7 @@ Documentation GoFAST 4.0
    :maxdepth: 1
    :caption: GoFAST : Releases
 
+   docs-gofast-technical/release-notes-4.4
    docs-gofast-technical/release-notes-4.3.0
    docs-gofast-technical/release-notes-4.2
    docs-gofast-technical/release-notes-4.1.1
