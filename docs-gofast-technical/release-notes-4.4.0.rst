@@ -40,7 +40,6 @@ Améliorations
 ******************************
 
 .. csv-table::
-
    :header: "Ref.","Description"
    :widths: 1000, 60000
 
