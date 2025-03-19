@@ -968,6 +968,7 @@ Les champs disponibles dans une carte
  - Créé le : date non modifiable 
  - Etat : modifiable en un clic dessus, puis un clic pour sélectionner l’état. La carte peut avoir trois états (A traiter en priorité, En cours, Terminé).
  - Responsable : champ modifiable en un clic, puis saisi du nom d’un utilisateur (au moins 3 caractères à saisir pour avoir des suggestions). Un seul responsable est possible. 
+ - Étiquettes :  champ modifiable en un clic, puis saisi du nom de l'étiquette, ce qui facilite la recherche et le tri des cartes des cartes par mot-clé.
  - Participants : champ modifiable en un clic, puis saisi du nom d’un utilisateur (au moins 3 caractères à saisir pour avoir des suggestions). Plusieurs participants peuvent être ajutés. 
  - Description : champ modifiable, faites un clic dessus pour rentrer en édition, puis sur « enregistrer » ou « annuler » pour sortir du champ. 
  - Documents : champ modifiable, vous pouvez lier des documents à cette carte en saisissant le titre (au moins 3 caractères à saisir pour avoir des suggestions) ou en collant le titre d’un document. Cliquez sur une des suggestions pour lier le document ou sur « x » pour un document déjà lié. 
@@ -987,6 +988,38 @@ Les champs disponibles dans une carte
    Les membres contributeurs de l’Espace peuvent également modifier les informations d’une Carte.
 
 Cliquez sur « Fermer » pour sortir de la carte. 
+
+Personnaliser les couleurs des cartes Kanban
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Pour personnaliser vos cartes Kanban, il vous suffit de cliquer sur le carré de couleur situé à côté du
+titre de votre carte.
+
+
+.. figure:: media-guide/Kanban-personnalisation-couleur.png
+
+Une fois la palette de couleurs ouverte, sélectionnez la couleur de votre choix, pour l’appliquer à
+votre carte. Un liseré de couleur sera appliqué sur la carte .
+
+
+.. figure:: media-guide/Kanban-Personnalisation-carte-choix-couleur.png
+
+Ajouter une image de couverture aux cartes Kanban
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Pour ajouter une couverture à vos cartes Kanban, cliquez sur l'icône stylo en haut à droite de l’image par défaut, puis cliquez sur « Charger un fichier  » (image). Enfin, cliquez sur  « Enregistrer  » pour l’appliquer la couverture.
+
+.. figure:: media-guide/Kanban-ajout-image-couverture.png
+
+
+Dupliquer des cartes Kanban
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Pour dupliquer une carte Kanban, cliquer sur « Copier cette carte », puis cliquer sur « Confirmer »
+
+.. figure:: media-guide/Kanban-dupliquer-une-carte.png
+
+.. figure:: media-guide/Kanban-confirmation-duplication.png
 
 
 Supprimer la carte
