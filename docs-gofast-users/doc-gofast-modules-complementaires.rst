@@ -245,3 +245,51 @@ L'état du document coté Pastell est écrit sous forme de "Message" quand nous 
 Une fois le processus de signature terminé (approuvé ou refusé), un commentaire est créé avec les différentes étapes et leurs informations :
 
 .. image:: media-guide/Pastell_commentaires.png
+
+
+
+Module IA (Mistral)
+-----------------------------------
+
+Introduction
+------------
+
+Le module IA de GoFAST est disponible en mode On-Premise et SaaS. Il permet d'automatiser des tâches documentaires telles que la classification des fichiers, la génération de résumés et l’anonymisation des données sensibles.
+Conçu pour fonctionner de manière sécurisée, sans dépendance à des services cloud externes, il assure la maîtrise des données et la conformité aux exigences réglementaires tout en facilitant la gestion documentaire.
+
+**Catégorisation automatique**
+
+GoFAST IA propose automatiquement une catégorie lors de la création ou lors du dépôt d’un document. Cette suggestion doit être validée manuellement. 
+Lorsque la catégorie apparait en italique, cela signifie qu'elles n'ont pas encore été validées. Pour les valider, il suffit de cocher le "check vert". 
+Après validation, la métadonnée reste modifiable manuellement. 
+Il est possible de relancer la catégorisation en cliquant sur l’icône "baguette magique". 
+
+.. image:: media-guide/IA-categorisation.png
+
+**Anonymiser un document**
+
+Dans un document, ouvrez le menu burger et sélectionnez « créer une publication ». Ensuite, utilisez le sélecteur pour choisir « créer une publication PDF anonyme ».
+Ou si la publication est bloquée, choisir directement « Anonymiser ce document »
+Vous pouvez choisir de conserver certaines données personnelles en les désélectionnant, puis mettre à jour les informations en utilisant le bouton de rafraîchissement. Vous pouvez masquer les modifications en utilisant l’icône œil pour mieux visualiser les changements effectués.
+
+
+.. image:: media-guide/IA-anonymiser-document.png
+
+.. image:: media-guide/IA-anonymiser-directement.png
+
+Pour publier les modifications, sélectionnez « Créer une publication anonymisée ». Vous pourrez ensuite choisir les lieux où vous souhaitez déposer votre publication.
+Pluggin « GoFAST AI » dans OnlyOffice
+Dans un document OnlyOffice, après avoir sélectionné un texte, avec un clic droit et « GoFAST AI » :
+
+-	Générer du contenu à partir d’idées de base.
+-	Réduire ou allonger un texte selon les besoins.
+- Traduire instantanément un texte en plusieurs langues.
+- Corriger automatiquement l’orthographe et la grammaire.
+- etc.
+Il est également possible de créer un texte sur mesure à partir de zéro avec « Demande personnalisée ».
+
+
+.. image:: media-guide/IA-pluggin-GoFAST.png
+
+
+
