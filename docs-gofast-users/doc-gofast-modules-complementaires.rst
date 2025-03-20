@@ -251,8 +251,8 @@ Une fois le processus de signature terminé (approuvé ou refusé), un commentai
 Module IA (Mistral)
 -------------------
 
-Introduction
-------------
+**Introduction**
+
 
 Le module IA de GoFAST est disponible en mode On-Premise et SaaS. Il permet d'automatiser des tâches documentaires telles que la classification des fichiers, la génération de résumés et l’anonymisation des données sensibles.
 Conçu pour fonctionner de manière sécurisée, sans dépendance à des services cloud externes, il assure la maîtrise des données et la conformité aux exigences réglementaires tout en facilitant la gestion documentaire.
@@ -280,9 +280,9 @@ Vous pouvez choisir de conserver certaines données personnelles en les déséle
 Pour publier les modifications, sélectionnez « Créer une publication anonymisée ». Vous pourrez ensuite choisir les lieux où vous souhaitez déposer votre publication.
 
 
-Pluggin GoFAST AI  dans OnlyOffice
-----------------------------------
-Dans un document OnlyOffice, après avoir sélectionné un texte, avec un clic droit et « GoFAST AI » :
+**Pluggin GoFAST AI  dans OnlyOffice**
+
+Dans un document OnlyOffice, après avoir sélectionné un texte, avec un clic droit et «GoFAST AI» :
 
 - Générer du contenu à partir d’idées de base.
 - Réduire ou allonger un texte selon les besoins.
