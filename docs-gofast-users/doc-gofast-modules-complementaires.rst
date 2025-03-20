@@ -249,7 +249,7 @@ Une fois le processus de signature terminé (approuvé ou refusé), un commentai
 
 
 Module IA (Mistral)
------------------------------------
+-------------------
 
 Introduction
 ------------
@@ -278,11 +278,14 @@ Vous pouvez choisir de conserver certaines données personnelles en les déséle
 .. image:: media-guide/IA-anonymiser-directement.png
 
 Pour publier les modifications, sélectionnez « Créer une publication anonymisée ». Vous pourrez ensuite choisir les lieux où vous souhaitez déposer votre publication.
-Pluggin « GoFAST AI » dans OnlyOffice
+
+
+Pluggin GoFAST AI  dans OnlyOffice
+----------------------------------
 Dans un document OnlyOffice, après avoir sélectionné un texte, avec un clic droit et « GoFAST AI » :
 
--	Générer du contenu à partir d’idées de base.
--	Réduire ou allonger un texte selon les besoins.
+- Générer du contenu à partir d’idées de base.
+- Réduire ou allonger un texte selon les besoins.
 - Traduire instantanément un texte en plusieurs langues.
 - Corriger automatiquement l’orthographe et la grammaire.
 - etc.
