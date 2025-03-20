@@ -144,6 +144,14 @@ Voici l’exemple d’un document texte ouvert avec OnlyOffice, pour coédition.
 .. figure:: media-guide/image396.png
    :alt: 
 
+Annoter directement les PDF en ligne via OnlyOffice
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Vous avez la possibilité d’annoter, modifier et commenter vos PDF
+
+.. figure:: media-guide/Annotation_pdf.png
+
+
 Verrou d’édition
 ~~~~~~~~~~~~~~~~~~~~~~~~
 

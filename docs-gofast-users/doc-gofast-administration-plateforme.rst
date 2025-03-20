@@ -1017,6 +1017,22 @@ Signatures
 
 Cette catégorie est en cours de rédaction et sera disponible prochainement.
 
+Configuration du message de consentement
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Pour activer l’option de message de consentement, accédez à l’interface de configuration, puis rendez-vous dans l’onglet Signature. 
+Remplissez le champ Message de consentement, cliquez sur "Enregistrer".
+Une fois la configuration effectuée, lors du lancement d’un workflow de diffusion de document, l’éventuelle mention et la case à cocher « J’ai pris connaissance de ces informations » apparaîtront.
+
+
+.. figure:: media-guide/Config-message-consentement1.png
+   :alt: 
+
+
+ .. figure:: media-guide/Config-message-consentement2.png
+   :alt: 
+
+
 
 GoFAST Bluemind
 -----------------
