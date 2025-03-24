@@ -108,6 +108,16 @@ L’édition et la coédition via OnlyOffice n’est possible que pour les fichi
 
    Contrairement à GoogleDocs/Drive, **vous conservez vos formats Office** et vous pouvez ensuite ouvrir le fichier avec la Suite Microsoft Office ou LibreOffice, sans avoir à changer de format.
    La Suite Collaborative OnlyOffice est totalement intégrée à GoFAST et donc, hébergée soit en SaaS souverain, soit dans votre datacenter et dans ce cas cela limite les besoins de bande passante et garantie une confidentialité totale.
+    
+
+Convertir des fichiers en d’autres formats
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Pour convertir un fichier dans un autre format, cliquez sur le menu burger de GoFAST, puis sur « Convertir ». Sélectionnez ensuite le format souhaité (DOC, PDF, XLSX ou PPTX).
+
+.. figure:: media-guide/OnlyOffice-conversion-fichiers-01.png
+
+.. figure:: media-guide/OnlyOffice-conversion-fichiers-02.png
+
 
 Comment « Coéditer via OnlyOffice » :  
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -150,6 +160,50 @@ Annoter directement les PDF en ligne via OnlyOffice
 Vous avez la possibilité d’annoter, modifier et commenter vos PDF
 
 .. figure:: media-guide/Annotation_pdf.png
+
+
+Personnalisation de l’interface OnlyOffice
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Pour changer le thème d’interface OnlyOffice, allez dans « Affichage » puis « Thèmes d’interface » ou dans « Fichier » puis « Paramètres avancés »
+
+.. figure:: media-guide/OO-personnalisation-theme01.png
+
+.. figure:: media-guide/OO-personnalisation-theme02.png
+
+
+ Prévisualiser un fichier CSV dans un tableur
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Pour prévisualiser un fichier CSV local directement dans un tableur, accédez à l’onglet "Données", puis cliquez sur "Obtenir les données" et sélectionnez la source de données 
+
+.. figure:: media-guide/OO-previsualiser-csv.png
+
+
+Prévisualiser un fichier csv local directement dans un tableur
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. figure:: media-guide/OO-nouveaute.png
+
+
+Ajouter des liaisons de données externes dans Onlyoffice Tableur
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Pour ajouter des liaisons des données externes, ouvrez un document en coédition, copiez une cellule depuis ce document, 
+puis effectuez un "Collage avec liaison". Ensuite, accédez à l'onglet "Données", cliquez sur "Liens externes", puis sélectionnez "Mettre à jour les valeurs". 
+Enfin, cliquez sur "Open source" : le document s'ouvrira alors dans un nouvel onglet sur GoFAST.
+
+.. figure:: media-guide/Onlyoffice-lisaison-donnees01.png
+
+.. figure:: media-guide/Onlyoffice-liaison-donnees02.png
+
+.. figure:: media-guide/Onlyoffice-liaison-donnees03.png
+
+.. figure:: media-guide/Onlyoffice-liaison-donnees04.png
+
+.. figure:: media-guide/Onlyoffice-liaison-donnees05.png
+
+
 
 
 Verrou d’édition
