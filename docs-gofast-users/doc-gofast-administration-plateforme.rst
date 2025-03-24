@@ -1026,13 +1026,10 @@ Une fois la configuration effectuée, lors du lancement d’un workflow de diffu
 
 
 .. figure:: media-guide/Config-message-consentement1.png
-   :alt: 
 
+.. figure:: media-guide/Config-message-consentement2.png
 
- .. figure:: media-guide/Config-message-consentement2.png
-   :alt: 
-
-
+.. figure:: media-guide/Config-consentement3.png
 
 GoFAST Bluemind
 -----------------
