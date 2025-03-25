@@ -154,13 +154,24 @@ Voici l’exemple d’un document texte ouvert avec OnlyOffice, pour coédition.
 .. figure:: media-guide/image396.png
    :alt: 
 
-Annoter directement les PDF en ligne via OnlyOffice
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Ajouter un tampon ou une signature image sans utiliser Adobe Reader
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Vous avez la possibilité d’annoter, modifier et commenter vos PDF
+Pour ajouter une signature sous forme d’image dans un fichier PDF, ouvrez-le en mode édition, cliquez sur "Modifier PDF", puis insérez votre image depuis l'onglet "Image" à l’emplacement souhaité.
 
-.. figure:: media-guide/Annotation_pdf.png
 
+.. figure:: media-guide/OO-signature.png
+
+
+Ajouter un tampon sans utiliser Adobe Reader
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Pour ajouter un tampon, accédez à "Commentaire", puis "Tampon" et choisissez le tampon souhaité, cliquez dessus, puis effectuez un glisser-déposer à l’emplacement de votre choix
+
+.. figure:: media-guide/OO-tampon.PNG
+
+.. figure:: media-guide/OO-Tampon-Signature.png 
+   
 
 Personnalisation de l’interface OnlyOffice
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
