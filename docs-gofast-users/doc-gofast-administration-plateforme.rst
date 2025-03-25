@@ -1025,11 +1025,11 @@ Remplissez le champ Message de consentement, cliquez sur "Enregistrer".
 Une fois la configuration effectuée, lors du lancement d’un workflow de diffusion de document, l’éventuelle mention et la case à cocher « J’ai pris connaissance de ces informations » apparaîtront.
 
 
-.. figure:: media-guide/Config-message-consentement1.png
+.. figure:: media-guide/admin-consentement01.png
 
-.. figure:: media-guide/Config-message-consentement2.png
+.. figure:: media-guide/admin-constement02.png
 
-.. figure:: media-guide/Config-consentement3.png
+.. figure:: media-guide/admin-consentement03.png
 
 GoFAST Bluemind
 -----------------

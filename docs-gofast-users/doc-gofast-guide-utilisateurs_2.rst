@@ -114,9 +114,9 @@ Convertir des fichiers en d’autres formats
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Pour convertir un fichier dans un autre format, cliquez sur le menu burger de GoFAST, puis sur « Convertir ». Sélectionnez ensuite le format souhaité (DOC, PDF, XLSX ou PPTX).
 
-.. figure:: media-guide/OnlyOffice-conversion-fichiers-01.png
+.. figure:: media-guide/OO-conversion01.png
 
-.. figure:: media-guide/OnlyOffice-conversion-fichiers-02.png
+.. figure:: media-guide/OO-conversion02.png
 
 
 Comment « Coéditer via OnlyOffice » :  
@@ -167,23 +167,23 @@ Personnalisation de l’interface OnlyOffice
 
 Pour changer le thème d’interface OnlyOffice, allez dans « Affichage » puis « Thèmes d’interface » ou dans « Fichier » puis « Paramètres avancés »
 
-.. figure:: media-guide/OO-personnalisation-theme01.png
+.. figure:: media-guide/OO-modif-theme01.png
 
-.. figure:: media-guide/OO-personnalisation-theme02.png
+.. figure:: media-guide/OO-modif-theme02.png
 
 
- Prévisualiser un fichier CSV dans un tableur
+Prévisualiser un fichier CSV dans un tableur
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Pour prévisualiser un fichier CSV local directement dans un tableur, accédez à l’onglet "Données", puis cliquez sur "Obtenir les données" et sélectionnez la source de données 
 
-.. figure:: media-guide/OO-previsualiser-csv.png
+.. figure:: media-guide/OO-preview.png
 
 
 Prévisualiser un fichier csv local directement dans un tableur
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. figure:: media-guide/OO-nouveaute.png
+.. figure:: media-guide/OO-preview02.png
 
 
 Ajouter des liaisons de données externes dans Onlyoffice Tableur
@@ -193,15 +193,15 @@ Pour ajouter des liaisons des données externes, ouvrez un document en coéditio
 puis effectuez un "Collage avec liaison". Ensuite, accédez à l'onglet "Données", cliquez sur "Liens externes", puis sélectionnez "Mettre à jour les valeurs". 
 Enfin, cliquez sur "Open source" : le document s'ouvrira alors dans un nouvel onglet sur GoFAST.
 
-.. figure:: media-guide/Onlyoffice-lisaison-donnees01.png
+.. figure:: media-guide/OO-Liaison01.png
 
-.. figure:: media-guide/Onlyoffice-liaison-donnees02.png
+.. figure:: media-guide/OO-Liaison02.png
 
-.. figure:: media-guide/Onlyoffice-liaison-donnees03.png
+.. figure:: media-guide/OO-Liaison03.png
 
-.. figure:: media-guide/Onlyoffice-liaison-donnees04.png
+.. figure:: media-guide/OO-Liaison04.png
 
-.. figure:: media-guide/Onlyoffice-liaison-donnees05.png
+
 
 
 
