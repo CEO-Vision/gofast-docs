@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2024
+# Copyright (C) 2025
 # This file is distributed under the same license as the gofast-docs package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gofast-docs latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-26 18:35+0200\n"
+"POT-Creation-Date: 2025-03-28 16:44+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,433 +17,600 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../../docs-gofast-technical/gofast-community-install.rst:3
-#: fe2a37b39bfc426a88406dd0f9f98327
-msgid "GoFAST Community :  Installation"
+#: de049a2414d2487ba02c57b0377620d5
+msgid "GoFAST Community :  Installation et Mise à Jour"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-community-install.rst:5
-#: 33e5e30ccdeb4572b176a9a29d29b6eb
+#: 19442ab93bc0441cb55f762e2c70aae1
 msgid "En cas de problème vous pouvez poser vos questions sur les forums : https://community.ceo-vision.com"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-community-install.rst:8
-#: cafaab00cc8948e0ac2a570cf304915b
-msgid "Instructions (par conteneurs)"
+#: 629c824d964642d18cf96b0c6ab2734b
+msgid "Installation (par conteneurs)"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-community-install.rst:10
-#: 8881ff50904c443b8e03b4851f8f185a
+#: 031e45e29e5e4ae88c26c6dbea6e5518
 msgid "Si vous accédez à cette page via le formulaire de GoFAST Community, vous pouvez passer directement à l'étape 2"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-community-install.rst:13
-#: 5b6c7d0661a64b718d489698ae9a5ff2
-msgid "Étape 1 : Rendez-vous sur: https://gofast-ng.ceo-vision.com/"
+#: b1db1942af4f43ed993af3da169107bb
+msgid "Étape 1 : Rendez-vous sur: https://gofast-ng.ceo-vision.com/ (Option \"Installation\")"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-community-install.rst:14
-#: 6a3db0207f214c5788cb376d0cce2851
+#: 260585b19a8840d28c42f717e3acd876
 msgid "Une fois que vous avez complété le formulaire du lien ci-dessus et cliqué sur le lien qui vous a été envoyé par e-mail, veuillez procéder comme suit :"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-community-install.rst:16
-#: 05167dccde5b4c89b5ddabee491f1114
+#: bb6c039f7d65477293f6e32721ff5570
 msgid "Lorsque vous vous rendez sur l'interface de téléchargement, une page de configuration fait son apparition, elle est constituée de 4 étapes:"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-community-install.rst:18
-#: 13ae6ad8e78d46fe8137b92f3d6237f5
+#: 5762db0b791840fb94bfc3e23343bd8c
 msgid "– La configuration du nom de domaine"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-community-install.rst:20
-#: 8e24e912a8de4bbdb5c7f5f4b4fe6f90
+#: d8c17d449b0a49ca93a037652c9eec03
 msgid "– La configuration du certificat SSL"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-community-install.rst:22
-#: cb8fef3949a04646a6825f4ac5b519f2
+#: 61601ee804c840f9a192fee3b4ae9228
 msgid "– La configuration du serveur SMTP"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-community-install.rst:24
-#: 6699340f7d8248e099c0c7bff0b4331e
+#: ca7429750c554622b346a79500810e5b
 msgid "– La configuration du compte administrateur de la plateforme"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-community-install.rst:28
-#: 039a192e675b4bbab301d364e4b79389
+#: ee5e2118ed794a67915c219551917cdb
 msgid "Étape 2 : Configuration du nom de domaine"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-community-install.rst:29
-#: 4c8a8427c3e944cf97c2eb0eed40e09d
+#: 4e79296bb142464fa40bd0d4a5394583
 msgid "Sur cet écran vous configurez le nom et le domaine de votre GoFAST Community :"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-community-install.rst:31
-#: ecaddbf4364d4006add5dcea5c4919fb
+#: ../../docs-gofast-technical/gofast-community-install.rst:182
+#: d3154f388c73443d80435909c1671560
+#: 9b2f45466b2c4c80b8af0f9cf791e2fe
 msgid "**Nom du site** : C'est le nom qui apparaîtra dans les onglets par exemple"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-community-install.rst:32
-#: a50d75226da440faad04901a88643b41
+#: 6cd559a2b3424349bac22f8572aaeef0
 msgid "**Nom de domaine complet** : C'est le nom du domaine habituel de votre organisation ex. ``gofast.entreprise-xyz.com``"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-community-install.rst:36
-#: a1ab680814214aef982514bbf0ae3fe9
+#: 2de48d59f53d43f6a1c040e457ca8e6d
 msgid "Étape 3 : Configuration du Certificat SSL"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-community-install.rst:37
-#: 176325a419444d8da9b03553fe90109f
+#: c0c1912be48c4355bf6641c99f40f92c
 msgid "Vous devez charger des certificats au format x509 encodé en base64 correspondant au nom de domaine renseigné précédemment."
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:41
-#: f2f969f0c8f9406a834e0330f409c0fa
+#: ../../docs-gofast-technical/gofast-community-install.rst:42
+#: 7e42e49b49d546edac1605a91f5cb641
 msgid "Vous devez fournir :"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-community-install.rst:40
-#: 782d9b0068674fb1a5da40beb24f35c1
+#: ../../docs-gofast-technical/gofast-community-install.rst:183
+#: 83db5d0b7e214a32a48c2abedc75faec
+#: ed76475d30424336afda1d880b223ec9
 msgid "**la clé publique de votre certificat** (.pem ou .crt)"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-community-install.rst:41
-#: 79ea2c7624104d2d9c02fd2396ae09bd
+#: ../../docs-gofast-technical/gofast-community-install.rst:184
+#: a7e5f2addf6749168f8cb03f18ea6fd6
+#: 5ee6dabb8dcf45fa8c4c235b6883e022
+msgid "**Le certificat de l'autorité intermédiaire (CA)** (.pem ou .crt)"
+msgstr ""
+
+#: ../../docs-gofast-technical/gofast-community-install.rst:42
+#: ../../docs-gofast-technical/gofast-community-install.rst:185
+#: d9bab021db6c4725a1a90d09f658c29e
+#: 44e4c587b4424f92a58feb8ec544bb9e
 msgid "**la clé privée correspondant au certificat** (.key)"
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:43
-#: e3ed9926e9f644acad77d9dfc9aca200
+#: ../../docs-gofast-technical/gofast-community-install.rst:44
+#: ../../docs-gofast-technical/gofast-community-install.rst:187
+#: 36e17a8843274c53b60208afd0275ddc
+#: 32760cec07af40b79f9e1d22554b54f0
 msgid "Si vous ne savez pas de quoi il s'agit, ces certificats prennent la forme de deux fichiers à demander à votre département IT"
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:45
-#: 4052a95fb38940379bd9052d7771ea5e
+#: ../../docs-gofast-technical/gofast-community-install.rst:46
+#: ../../docs-gofast-technical/gofast-community-install.rst:189
+#: 518f1eacf568455fabbab37703066d19
+#: 8cc1bf05f7f548e5a5807b2996317372
 msgid "Pour le moment cette interface ne permet pas de générer des certificats autosignés, si vous souhaitez en générer un **pour un usage de test uniquement**, vous pouvez utiliser un outil en ligne comme https://regery.com/en/security/ssl-tools/self-signed-certificate-generator"
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:48
-#: 8049358cb74f438484e5b8f42aed64cc
+#: ../../docs-gofast-technical/gofast-community-install.rst:49
+#: b6287c67fd6a4459887630876160e7a4
 msgid "Étape 4 : Configuration Serveur SMTP"
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:49
-#: 8a90921eba0c4198b0bedbce3d6c1187
+#: ../../docs-gofast-technical/gofast-community-install.rst:50
+#: 70a8608987634b54b089e42a70dc9097
 msgid "Cette 4ème étape permet de configurer le serveur SMTP utilisé par GoFAST pour envoyer des emails. Les champs nécessaires sont:"
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:51
-#: a9bbbf03857c46ee9f8426e6c58b7909
+#: ../../docs-gofast-technical/gofast-community-install.rst:52
+#: 5ba16c551a2e4f28867132efdd6171aa
 msgid "**SMTP Server** :  Le nom de domaine ou l'IP de votre serveur SMTP"
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:52
-#: c26c3e968a2649318096320366cb1cb9
+#: ../../docs-gofast-technical/gofast-community-install.rst:53
+#: 59d9eeb04c57419aab4c4137b85187bb
 msgid "**Username** : Si une authentification est nécessaire, le nom d'utilisateur"
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:53
-#: 8a69a3fa120147218cbdfe56bd76bbc2
+#: ../../docs-gofast-technical/gofast-community-install.rst:54
+#: 723ac822d9b24530ba4cd4fc106de723
 msgid "**Password** : Si une authentification est nécessaire, le mot de passe"
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:54
-#: 6eed8dee9a404f04b80298dd20468b89
+#: ../../docs-gofast-technical/gofast-community-install.rst:55
+#: 53d5b37b59a2466390db41b6ce8b3210
 msgid "**Security** : A renseigner selon le protocole de sécurité utilisé"
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:55
-#: 1a38f4b47f3c40ebaeac60ff0baefe0a
+#: ../../docs-gofast-technical/gofast-community-install.rst:56
+#: 611840beefb9425eb92891766c3a21f2
 msgid "**SMTP Port** : Le port de votre serveur SMTP"
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:57
-#: 52b36c527100424780d0035be368a461
+#: ../../docs-gofast-technical/gofast-community-install.rst:58
+#: dd4a18abe03f43409442a4d3dec3ae9b
 msgid "Si vous ne possedez pas de serveur SMTP, vous pouvez renseigner un serveur SMTP qui n'existe pas (Exemple : smtp.example.org)"
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:60
-#: 10c744e9a7f54172b2d848597e64a42c
+#: ../../docs-gofast-technical/gofast-community-install.rst:61
+#: a5f68bab8b5244f7992964af8fe6785c
 msgid "Étape 5 : Création de l'utilisateur administrateur"
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:63
-#: 2d3b0bdd14024ecca4b779ad5457184d
+#: ../../docs-gofast-technical/gofast-community-install.rst:64
+#: 46589e002cc34290a0f0dc488d707ab1
 msgid "Configuration Administrateur Fonctionnel"
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:65
-#: e9d7d505a3be490aa01eac6a3cfa50fd
+#: ../../docs-gofast-technical/gofast-community-install.rst:66
+#: 337631dfb05b41a9ab484a40ac5a2324
 msgid "La partie **Configuration compte Administrateur** permets de renseigner les identifiants du premier compte crée sur GoFAST que vous utiliserez pour vous connecter."
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:67
-#: bc120a69f74942548f4ed0d50fb489dc
+#: ../../docs-gofast-technical/gofast-community-install.rst:68
+#: 84ce2e3cdd4140638eb65b465d1b137e
 msgid "Vous devez choisir l'identifiant, le mot de passe et l'adresse email de ce compte."
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:69
-#: 2681c0d897be429383c8562a699955c3
+#: ../../docs-gofast-technical/gofast-community-install.rst:70
+#: 1946f0f00e734c51935be159ad028867
 msgid "Il n'est pas possible de choisier 'admin' pour l'identifiant qui est un compte réservé pour le compte administrateur technique (voir ci-dessous)."
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:72
-#: 17e47f3e3014415fa08e1bc7939b8e90
+#: ../../docs-gofast-technical/gofast-community-install.rst:73
+#: 19c1a598fff84410b04633800893f2ca
 msgid "Configuration Administrateur Technique"
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:74
-#: b3f7401b48dc4e308ecbfcd1c4db12cd
+#: ../../docs-gofast-technical/gofast-community-install.rst:75
+#: aeabd03d83084fafaff7cd2c7907b037
 msgid "La partie **Mot de passe Technique** est réservée au compte administrateur technique de la plateforme. Il est possible de paramétrer chaque mot de passe en décochant **Utiliser le mot de passe technique pour tout les services**."
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:76
-#: 57a672acd2a9412fbcc02c5922564487
+#: ../../docs-gofast-technical/gofast-community-install.rst:77
+#: 684e3bd0799e48e88813e9e7fe054ca8
 msgid "En tant qu'utilisateur vous n'aurez normalement pas à utiliser ce compte technique."
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:79
-#: b7a69854fed94ed58dbe491fe12cedd9
+#: ../../docs-gofast-technical/gofast-community-install.rst:80
+#: 7dd0d4904bb84b26b59999cb9674bc9f
 msgid "Etape 6 : Confirmation de la configuration"
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:82
-#: 5885389d34d444d795b9c8d8fe09d9f1
+#: ../../docs-gofast-technical/gofast-community-install.rst:83
+#: 674777800229438db5d9e808014e0c6c
 msgid "Avant de cliquer sur \"Obtenir le Compose\", bien vérifier tous les champs avant de passer au téléchargement."
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:85
-#: 649e4d0714af456a9792b790d2649a5d
+#: ../../docs-gofast-technical/gofast-community-install.rst:86
+#: ../../docs-gofast-technical/gofast-community-install.rst:191
+#: ced60bc705164c439edf413f4b3bca30
+#: 9d850ef85bac4a16be0b9f90cc6a024d
 msgid "Une fois ces étapes effectuées, une page apparait avec un récapitulatif. Si tout est correct, validez la configuration."
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:87
-#: 2cd496d5f17b427594ddd574b6ee1514
+#: ../../docs-gofast-technical/gofast-community-install.rst:88
+#: ../../docs-gofast-technical/gofast-community-install.rst:193
+#: f53fd0eb181f47d99c51ce9681835e39
+#: b700996bcfd347ccbdc278addb87d3db
 msgid "Après avoir validé le téléchargement, cela téléchargera deux fichiers dans une archive au format .zip :"
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:89
-#: 1b0c61e042de47e4a0cf4b743e4a4423
+#: ../../docs-gofast-technical/gofast-community-install.rst:90
+#: ../../docs-gofast-technical/gofast-community-install.rst:195
+#: 115d8ac6ccb544a7aae1c4f8b2ca7dad
+#: 8d5733b1d1074d87835c14dcea194bf9
 msgid "Un .env qui contient toutes les variables renseignées"
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:90
-#: 9c512d4ae8be49eb98063e0ece0636cb
+#: ../../docs-gofast-technical/gofast-community-install.rst:91
+#: ../../docs-gofast-technical/gofast-community-install.rst:196
+#: a4cabb66a16f46889f59720c801481a0
+#: f538ba36f2ed478480650fad196ff149
 msgid "Un fichier compose.yaml contenant la description de l'application GoFAST en conteneurs"
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:92
-#: 0cb91a159ce24f42bd71a65e98518c2f
-msgid "Il sera possible prochainement de re charger ces fichiers pour obtenir les mises à jour de votre plateforme GoFAST Community"
-msgstr ""
-
-#: ../../docs-gofast-technical/gofast-community-install.rst:95
-#: 42ccd4bbcaad48cfa4d416e82beb4437
+#: ../../docs-gofast-technical/gofast-community-install.rst:94
+#: aae828579a6e45f4aa194d7bdaa32863
 msgid "Etape 7 : Instancier votre plateforme"
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:97
-#: 588a519a5194483aaf56a23c56d31d8d
+#: ../../docs-gofast-technical/gofast-community-install.rst:96
+#: ../../docs-gofast-technical/gofast-community-install.rst:201
+#: 125c9f763e0a4065a422f2ab290cf6da
+#: 4d36721319864a659496164c86088e6d
 msgid "GoFAST est une application d'entreprise et nécessite un serveur (mini 4vcpu,12GB RAM,SSD recommandé). L'utilisation sur un simple PC sous Podman Desktop ou Docker Desktop est donc déconseillée."
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:99
-#: f92bdcebe3b748d782a38a044886ba56
+#: ../../docs-gofast-technical/gofast-community-install.rst:98
+#: ../../docs-gofast-technical/gofast-community-install.rst:203
+#: bddcd277368b4a05baa32ea5566151d3
+#: e087fd7342ce40fcaaa14c9a154a4b26
 msgid "Pour pouvoir accéder à l'application, déclarez son nom de domaine (renseigné lors de l'étape 2) avec son adresse IP dans le fichier ``hosts`` de votre ordinateur (https://www.digdeo.fr/articles/sys-admin/modifier-fichier-etc-hosts-windows-mac-linux) ou dans le DNS de l'entreprise"
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:101
-#: cce3b37894bc4b7cb765a6aa03c4bf67
+#: ../../docs-gofast-technical/gofast-community-install.rst:100
+#: ../../docs-gofast-technical/gofast-community-install.rst:205
+#: 1cbfe4e77bf6429db2a5a027ae152df5
+#: 552f7e3058d742f09144e10ec9461c7f
 msgid "De nombreuses opérations techniques vont être effectuées ainsi que des démarrages de service, ceci pouvant être plus ou moins long suivant les capacités du serveur. Le temps estimé du premier démarrage se situe entre 10 et 30 min."
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:104
-#: 1c73d25926c04ca0a1db8a3175b42428
+#: ../../docs-gofast-technical/gofast-community-install.rst:103
+#: ../../docs-gofast-technical/gofast-community-install.rst:208
+#: ../../docs-gofast-technical/gofast-community-install.rst:291
+#: 9db12344c8fb4b7eb4efc4edbe1abbca
+#: 29076c304ada4e0fb5a7a3249306c3c9
+#: d3e57e583a984b61920136d78d9fcc6b
 msgid "Sur une machine Linux - RedHat (Recommandé : AlmaLinux ou CentOS)"
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:105
-#: b5d9e63579894e9ebf7706a9e490458e
+#: ../../docs-gofast-technical/gofast-community-install.rst:104
+#: ad9d083c671c4e37a76e9a34fb7d608a
 msgid "Installer les paquets podman, podman-compose et unzip en utilisant le gestionnaire de paquets approprié (yum ou dnf selon votre version)"
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:112
-#: 7b2101fbe3b54618b62f87e4e1fcb5b5
+#: ../../docs-gofast-technical/gofast-community-install.rst:111
+#: de6bb8834274477d81e6d949653fb1ff
 msgid "Déziper et copier les fichiers .env et compose.yaml dans le dossier de votre choix"
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:120
-#: f8cdc078455642e5bc31bd8d3a479a99
+#: ../../docs-gofast-technical/gofast-community-install.rst:119
+#: 2e32655402e14ab4b37db95868f5d5b2
 msgid "Instanciez votre GoFAST Community"
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:126
-#: 9843a4e55b054554bc2971ff5b3d3afb
+#: ../../docs-gofast-technical/gofast-community-install.rst:125
+#: ../../docs-gofast-technical/gofast-community-install.rst:229
+#: c66a0423552e488cb40ead9f1062d2ac
+#: e3d4c72972674bc18ff5a535af40512c
 msgid "Suivez le déroulement de votre installation"
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:135
-#: 9d533ebb469242c78952b4700cbe3cdf
+#: ../../docs-gofast-technical/gofast-community-install.rst:134
+#: ../../docs-gofast-technical/gofast-community-install.rst:238
+#: ffe9745d513f4885ae6602dd8496dfa3
+#: dbf00c2d163b4a7a9a5c109145437df3
 msgid "Une fois que la commande \"podman logs -f gofast-ng-drupal\" vous rends la main, cela signifie que l'installation est terminée."
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:138
-#: d2a8e877890d40cb8a8d21e5340914be
+#: ../../docs-gofast-technical/gofast-community-install.rst:137
+#: ../../docs-gofast-technical/gofast-community-install.rst:241
+#: ../../docs-gofast-technical/gofast-community-install.rst:371
+#: 55ecd5c5f79c4e7a9682455a4e5a0ab7
+#: 2542724839b74b55bac2f7e975dfad00
+#: e0174e1e1e504d669e627b81888cb131
 msgid "Sur Windows avec Docker Desktop et Portainer"
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:139
-#: f2e41a9f434649febd6f1cf8c794247e
+#: ../../docs-gofast-technical/gofast-community-install.rst:138
+#: 45656d87001c43f4acf8b31c5c97b0bc
 msgid "Créer un dossier sur le PC et déziper gofast-community.zip à l'intérieur"
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:141
-#: f374694e881c4f2da4f54ce4c15b15e0
+#: ../../docs-gofast-technical/gofast-community-install.rst:140
+#: dccbc906e7404799aa1760c834355e15
 msgid "Installer l'application Docker Desktop : https://www.docker.com/products/docker-desktop/"
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:143
-#: 678c206c374c4240a3d60d72bb1da333
+#: ../../docs-gofast-technical/gofast-community-install.rst:142
+#: f971efbcec1748e5b01011faf5994895
 msgid "Lors de l'installation garder les paramètres par défaut, notamment l'utilisation de WSL 2. Un redémarrage de Windows sera nécessaire."
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:145
-#: 0ecae6648fa84ff69945ecaaf7dad06f
+#: ../../docs-gofast-technical/gofast-community-install.rst:144
+#: f5fab30d55684b2583cb0ba676c96ec8
 msgid "Après le redémarrage de Windows à l'ouverture de Docker Desktop, si un message \"Docker Desktop requires a newer WSL kernel version\" s'affiche, suivez la procédure \"Mise à jour du Kernel WSL\" dans la rubrique \"Problèmes connus\"."
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:147
-#: d72c077b9ff74797b49e035ad62b672a
+#: ../../docs-gofast-technical/gofast-community-install.rst:146
+#: 941d8193c2f246b1ad23079bb2e98c44
 msgid "Dans Docker Desktop cliquez sur \"Add Extensions\" dans le menu de gauche et installez l'extension \"Portainer\". Cette extension vous permettra d'initialiser GoFAST Community de manière simple."
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:149
-#: b562ffe5aeec42f2922dec3bd1c971bf
+#: ../../docs-gofast-technical/gofast-community-install.rst:148
+#: 6569599580244942af1bf93e2a90704e
 msgid "Ouvrez l'extension \"Portainer\" dans le menu de gauche et cliquez sur \"Get started\""
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:151
-#: 23f546b3433c47a98d29f8b0d17e9fa7
+#: ../../docs-gofast-technical/gofast-community-install.rst:150
+#: 710b151de038440c81eb55d3decd1ff1
 msgid "Dans Portainer sélectionner l'environnement \"local\" en cliquant ci-dessus"
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:153
-#: c3ada4d9b3f2440cb67c438f130f973b
+#: ../../docs-gofast-technical/gofast-community-install.rst:152
+#: 6db17ac6beba4093937ae8affb3e5e84
 msgid "Dans Portainer cliquez sur le menu \"Stacks\" (Dans le petit menu vertical entre le menu de gauche et la fenetre principale)"
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:155
-#: cce116b80b72458f99072c60701e1e62
+#: ../../docs-gofast-technical/gofast-community-install.rst:154
+#: 82a1ea336dd94fbdae3850d07b263f40
 msgid "Ajouter un nouveau stack à l'aide du bouton \"+ Add Stack\""
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:157
-#: 014ff53907ee49a2bf34c03a43d92edc
+#: ../../docs-gofast-technical/gofast-community-install.rst:156
+#: a7bd59819b99467e89c96c9466297edc
 msgid "Donnez lui un nom, par exemple \"gofast-community\""
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:159
-#: 1e3e99c2f159466ea362fc52efffed03
+#: ../../docs-gofast-technical/gofast-community-install.rst:158
+#: c5b085c8dda5428ba51797233cebf7c9
 msgid "Sélectionnez la méthode \"Upload\""
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:161
-#: 08abecd812da48989b0027f17fa9e140
+#: ../../docs-gofast-technical/gofast-community-install.rst:160
+#: aca0367a76ab498fb5fe7772f77907f3
 msgid "Dans \"Upload\", chargez votre compose.yaml"
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:163
-#: e5ea466b7da44d4fb9c18406a0795b62
+#: ../../docs-gofast-technical/gofast-community-install.rst:162
+#: e9652b4764da4be7914e50d1e743e975
 msgid "Dans \"Environment variables\" cliquez sur \"Load variables from .env file\""
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:165
-#: 5dd154ea271840a399686d98531bc825
+#: ../../docs-gofast-technical/gofast-community-install.rst:164
+#: d086cf1a338a4e399c81600825d7f8be
 msgid "Pour finaliser l'instanciation, cliquez tout en bas sur \"Deploy the stack\""
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:167
-#: 8ff0f7be85ba4846a0caa92f6b4eaf17
+#: ../../docs-gofast-technical/gofast-community-install.rst:166
+#: 97e1a06cb4244e759c246f4ca5522742
 msgid "Ce processus une fois lancé va télécharger toutes les images des applications de GoFAST, ce processus peut prendre du temps. Ne pas quitter ou changer de menu tant que vous voyez \"Deployment in progress...\""
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:170
-#: 5b9fa4257d324099897b04554d05540a
-msgid "Instructions (pour AWS)"
+#: ../../docs-gofast-technical/gofast-community-install.rst:169
+#: 55cc84422f4f4b0faa9d526c1f1fd904
+msgid "Mise à jour (par conteneurs)"
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:171
-#: ../../docs-gofast-technical/gofast-community-install.rst:175
-#: 85661ac08cda4336be55becf6bcf07bb
-#: c15b5ff3b37a4d5881665bdb5d3a04ca
-msgid "Cette méthode d'installation reviendra bientôt."
+#: ../../docs-gofast-technical/gofast-community-install.rst:172
+#: 1a80062380d64ab5815bdfd4691176bd
+msgid "Étape 1 : Rendez-vous sur: https://gofast-ng.ceo-vision.com/ (Option 'Mise à jour')"
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:174
-#: 2a7e171b9a0a4b6ab4faafa49c4e1bf5
-msgid "Instructions (par image)"
+#: ../../docs-gofast-technical/gofast-community-install.rst:173
+#: 40bb1f440ca042ccb742b5bde378efa1
+msgid "Récupérez votre fichier .env généré lors de l'installation de GoFAST Community, puis chargez le dans l'interface."
+msgstr ""
+
+#: ../../docs-gofast-technical/gofast-community-install.rst:177
+#: 2fe3e42108474586846a204665535c1b
+msgid "Étape 2 : Valider les paramètres récupérés"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-community-install.rst:178
-#: 070da1c7b6484f6baae793283303b583
-msgid "Démarrons !"
+#: 0b82be6eaef04acaab975fe07cf5e3b4
+msgid "Sur les prochains écrans de configuration, vous pourrez confirmer les paramètres récupérés depuis votre fichier d'environnement .env"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-community-install.rst:180
-#: 204f27dc59c64ca294bba41c4c17843c
-msgid "Rendez-vous sur le nom de domaine que vous avez choisi ``https://gofast.entreprise-xyz.com``."
-msgstr ""
-
-#: ../../docs-gofast-technical/gofast-community-install.rst:182
-#: 956c3580e3cc4de5a6200386f3fc5bed
-msgid "Vous devez créer quelques utilisateurs et des espaces collaboratifs (et sous-espaces)."
-msgstr ""
-
-#: ../../docs-gofast-technical/gofast-community-install.rst:184
-#: ad520709457d449b9a2e48858ffbdb36
-msgid "Les espaces peuvent être de différents types, \"Organisation\" (départements, ...), \"Groupes\" (projets, ...), \"Extranet\" (partenaires, clients, ...). Voir la documentation en ligne ici : https://gofast-docs.readthedocs.io/fr/latest/docs-gofast-users/doc-gofast-guide-utilisateurs.html#gerer-un-espace-collaboratif-groupe"
-msgstr ""
-
-#: ../../docs-gofast-technical/gofast-community-install.rst:186
-#: f008ef55e8f7470ab4d9645ee7197ef8
-msgid "Dans les sous-espaces créés, ajoutez des membres qui pourront avoir accès au contenu de cet espace. Ajoutez des sous-espaces si nécessaire."
-msgstr ""
-
-#: ../../docs-gofast-technical/gofast-community-install.rst:188
-#: ce33a11a82f7475b96fdb89b1d91627f
-msgid "Ajoutez du contenu en utilisant le glisser-déposer dans le \"GoFAST File Browser\" (explorateur de fichiers)"
-msgstr ""
-
-#: ../../docs-gofast-technical/gofast-community-install.rst:190
-#: 96aa4aa01d1b404ab59972665ba8f980
-msgid "Vous êtes prêt pour démarrer !"
-msgstr ""
-
-#: ../../docs-gofast-technical/gofast-community-install.rst:193
-#: ca7df9f493854de19eec45f555354206
-msgid "Problèmes connus"
-msgstr ""
-
-#: ../../docs-gofast-technical/gofast-community-install.rst:196
-#: ffe470b19df04b398ed77205145a2907
-msgid "Mise à jour du Kernel WSL"
-msgstr ""
-
-#: ../../docs-gofast-technical/gofast-community-install.rst:197
-#: 28f76ad2adb64414bbd4d76d2f029317
-msgid "Si une mise à jour du kernel WSK est requise, rendez vous sur https://docs.microsoft.com/windows/wsl/wsl2-kernel"
+#: 6c291c6e0fc64d86b220e08e19091f25
+msgid "Certains paramètres sont modificables, comme :"
 msgstr ""
 
 #: ../../docs-gofast-technical/gofast-community-install.rst:199
-#: 7c3d008c164a46e6a87915f1bbe754ce
+#: 5995f5f53d39435bb4819f3bd0e338c6
+msgid "Etape 3 : Mettre à jour votre plateforme"
+msgstr ""
+
+#: ../../docs-gofast-technical/gofast-community-install.rst:209
+#: ../../docs-gofast-technical/gofast-community-install.rst:334
+#: 43c246161d884504988dc81232b71966
+#: 22a7295e52704e84b7897d4dfef3e122
+msgid "Arrêter votre GoFAST Community"
+msgstr ""
+
+#: ../../docs-gofast-technical/gofast-community-install.rst:216
+#: 7e243fb382964629b2bf1e671cd74f43
+msgid "Déziper et remplacer les fichiers .env et compose.yaml dans le même dossier que votre installation précédente"
+msgstr ""
+
+#: ../../docs-gofast-technical/gofast-community-install.rst:223
+#: ../../docs-gofast-technical/gofast-community-install.rst:350
+#: 6f909456abbc4f6d8343723f2ba2c74b
+#: 3995af33a57a479ebd2040476abeb186
+msgid "Redémarrer votre GoFAST Community"
+msgstr ""
+
+#: ../../docs-gofast-technical/gofast-community-install.rst:242
+#: 1b8e130f0e9b423cb8e9c65ac402d38c
+msgid "Documentation en cours de rédaction"
+msgstr ""
+
+#: ../../docs-gofast-technical/gofast-community-install.rst:245
+#: 7d9b6f4a241649999cb5561d47596745
+msgid "Installation (pour AWS)"
+msgstr ""
+
+#: ../../docs-gofast-technical/gofast-community-install.rst:246
+#: ../../docs-gofast-technical/gofast-community-install.rst:250
+#: 75628afc53824012b30a0238458b1b31
+#: db3bd03ac6b24154807c7f75bd9d3ea0
+msgid "Cette méthode d'installation reviendra bientôt."
+msgstr ""
+
+#: ../../docs-gofast-technical/gofast-community-install.rst:249
+#: 912fef7aaf6d4cd39c71cc42cb0d6089
+msgid "Mise à jour (pour AWS)"
+msgstr ""
+
+#: ../../docs-gofast-technical/gofast-community-install.rst:253
+#: ee9905a695964d98b88c62253d8e7e9e
+msgid "Démarrons !"
+msgstr ""
+
+#: ../../docs-gofast-technical/gofast-community-install.rst:255
+#: 824a80f46f5e4e8594ac4cec23c59095
+msgid "Rendez-vous sur le nom de domaine que vous avez choisi ``https://gofast.entreprise-xyz.com``."
+msgstr ""
+
+#: ../../docs-gofast-technical/gofast-community-install.rst:257
+#: 027fde923bd94f21aadc006db7523fed
+msgid "Vous devez créer quelques utilisateurs et des espaces collaboratifs (et sous-espaces)."
+msgstr ""
+
+#: ../../docs-gofast-technical/gofast-community-install.rst:259
+#: bf34b27381254492964d30f73fb62596
+msgid "Les espaces peuvent être de différents types, \"Organisation\" (départements, ...), \"Groupes\" (projets, ...), \"Extranet\" (partenaires, clients, ...). Voir la documentation en ligne ici : https://gofast-docs.readthedocs.io/fr/latest/docs-gofast-users/doc-gofast-guide-utilisateurs.html#gerer-un-espace-collaboratif-groupe"
+msgstr ""
+
+#: ../../docs-gofast-technical/gofast-community-install.rst:261
+#: a01c2db177464ce3a9f1777efa83b6d6
+msgid "Dans les sous-espaces créés, ajoutez des membres qui pourront avoir accès au contenu de cet espace. Ajoutez des sous-espaces si nécessaire."
+msgstr ""
+
+#: ../../docs-gofast-technical/gofast-community-install.rst:263
+#: 3c46f10682a140da86f57450b1347908
+msgid "Ajoutez du contenu en utilisant le glisser-déposer dans le \"GoFAST File Browser\" (explorateur de fichiers)"
+msgstr ""
+
+#: ../../docs-gofast-technical/gofast-community-install.rst:265
+#: 7862721fa02f4a988941a07bfc72f48a
+msgid "Vous êtes prêt pour démarrer !"
+msgstr ""
+
+#: ../../docs-gofast-technical/gofast-community-install.rst:268
+#: 657f26b485ab4af481047e2a32effe44
+msgid "Problèmes connus"
+msgstr ""
+
+#: ../../docs-gofast-technical/gofast-community-install.rst:271
+#: d720ab49a9d74d588a69e0bc24ef53fd
+msgid "Mise à jour du Kernel WSL"
+msgstr ""
+
+#: ../../docs-gofast-technical/gofast-community-install.rst:272
+#: 4a59230728ab450ebbe2141ac6eb8675
+msgid "Si une mise à jour du kernel WSK est requise, rendez vous sur https://docs.microsoft.com/windows/wsl/wsl2-kernel"
+msgstr ""
+
+#: ../../docs-gofast-technical/gofast-community-install.rst:274
+#: ead7930973d647e387367cb93af10e45
 msgid "Téléchargez le \"Package de mise à jour du noyeau Linux WSL2\" proposé  et executez le."
 msgstr ""
 
-#: ../../docs-gofast-technical/gofast-community-install.rst:201
-#: 8267a2cc34814f5888f1b56e5bc83e8d
+#: ../../docs-gofast-technical/gofast-community-install.rst:276
+#: c95b55e1df2e4105b6ee6445e9a6e271
 msgid "Vous pouvez ensuite relancer Docker Desktop."
+msgstr ""
+
+#: ../../docs-gofast-technical/gofast-community-install.rst:279
+#: 44eb74f1810a4f00962061bf0330aa21
+msgid "Changement de nommage et migration en GoFAST 4.3.0"
+msgstr ""
+
+#: ../../docs-gofast-technical/gofast-community-install.rst:280
+#: 185d99e4c8574d6795a1df0d39a170d0
+msgid "La version 4.3.0 de GoFAST NG a introduit un changement de nommage des conteneurs dans le cadre du début d'exploitation en GoFAST Enterprise."
+msgstr ""
+
+#: ../../docs-gofast-technical/gofast-community-install.rst:282
+#: 86dfdf8a08354978a30e9dc79db1bd54
+msgid "Ce changement de nommage crée de nouveaux volumes, si vous souhaitez ne pas repartir d'une instance vierge, vous pouvez suivre la procédure suivante"
+msgstr ""
+
+#: ../../docs-gofast-technical/gofast-community-install.rst:284
+#: 428cdc883c4b43c7b3d8681db0bfdc2d
+msgid "Avant de suivre cette procédure, vous devez avoir mis à jour votre instance en 4.3.0 ou supérieur."
+msgstr ""
+
+#: ../../docs-gofast-technical/gofast-community-install.rst:286
+#: 415aa75b308f4bde843c58d51a398355
+msgid "Cette procédure est à suivre uniquement si vous mettez à jour une instance existante de GoFAST Community < 4.3.0 vers GoFAST Community >= 4.3.0"
+msgstr ""
+
+#: ../../docs-gofast-technical/gofast-community-install.rst:288
+#: 7fa434b875614ed5a24ad04c6b2e3937
+msgid "Cette procédure s'applique pour les installations par conteneurs sur une machine Linux type RedHat, pour les autres type d'installation, vous pouvez faire une demande sur les forums : https://community.ceo-vision.com"
+msgstr ""
+
+#: ../../docs-gofast-technical/gofast-community-install.rst:292
+#: d6716feb0299412abc00397e185caf98
+msgid "Vérifier que les volumes existent avec l'ancien et le nouveau nommage"
+msgstr ""
+
+#: ../../docs-gofast-technical/gofast-community-install.rst:298
+#: 46d921b83c1d468190c0f4be587ffe3a
+msgid "Vous devriez observer une liste de volumes en 'gofast-ng-community' et 'gofast-ng-main-community' :"
+msgstr ""
+
+#: ../../docs-gofast-technical/gofast-community-install.rst:320
+#: d469742fe6dd4dc598b1948e86f79969
+msgid "Nous allons donc migrer les données des anciens volumes vers les nouveaux volumes."
+msgstr ""
+
+#: ../../docs-gofast-technical/gofast-community-install.rst:322
+#: 97374a9053bd46db890631daa53e790f
+msgid "Avant de procéder au changement, vérifiez que l'initialisation de votre GoFAST Community est bien terminée. La commande suivante doit vous rendre la main :"
+msgstr ""
+
+#: ../../docs-gofast-technical/gofast-community-install.rst:328
+#: 3015f8b4a126457fa6d23f265415087b
+msgid "Vous pouvez également vérifier que le container gofast-ng-drupal a bien terminé son initialisation (Il doit être en état Exited) :"
+msgstr ""
+
+#: ../../docs-gofast-technical/gofast-community-install.rst:340
+#: 20b15cc99d244e25bf382f3778a0b8ed
+msgid "Migrer les volumes"
+msgstr ""
+
+#: ../../docs-gofast-technical/gofast-community-install.rst:356
+#: 34f7743f9bdf403ebda6c1e2299a40a7
+msgid "Une fois votre instance démarrée, vous pouvez vous y connecter et vérifier que l'installation a bien été réinitialisée à l'état souhaité. Si tout est conforme, vous pouvez procéder à la suppression des anciens volumes :"
+msgstr ""
+
+#: ../../docs-gofast-technical/gofast-community-install.rst:372
+#: 31585149d04443d79b1223ea940d31ce
+msgid "Faire une demande sur les forums : https://community.ceo-vision.com"
 msgstr ""

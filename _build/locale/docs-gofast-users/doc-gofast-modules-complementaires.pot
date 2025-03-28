@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2024
+# Copyright (C) 2025
 # This file is distributed under the same license as the gofast-docs package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gofast-docs latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-26 18:35+0200\n"
+"POT-Creation-Date: 2025-03-28 16:44+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,525 +17,602 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../../docs-gofast-users/doc-gofast-modules-complementaires.rst:2
-#: d89c160e6fe54187b6d418546b572bc9
+#: c68b595c6b1045afa09a4ece2f2245c5
 msgid "GoFAST : Modules complémentaires"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-modules-complementaires.rst:5
-#: cdda6c131bc0428fa097fe1db910354c
+#: 604089838a7b4fa384e310f046bcee41
 msgid "Introduction"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-modules-complementaires.rst:6
 #: ../../docs-gofast-users/doc-gofast-modules-complementaires.rst:13
-#: 76caea5f10fe49fbacac593340b60505
-#: 85c588d3012c48c3b106423611af1e3d
+#: 9100a92b84b649629fe481f52342e53e
+#: c44b46ea0bb54f3da411e9c93241941b
 msgid "Ce document a pour but de vous fournir une documentation sur l'utilisation des modules complémentaires que propose CEO-Vision."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-modules-complementaires.rst:9
-#: f3a12fd3dab8494b81cfb0c2080bba6d
+#: 32a3bf2b5e444a2494c1c57778b26fdd
 msgid "Couplage Module Gestion des Courriers"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-modules-complementaires.rst:11
-#: fb2d7465d34c43668b8e90e549e17a46
+#: ../../docs-gofast-users/doc-gofast-modules-complementaires.rst:254
+#: ef055991c2034352b77d5cd35d03ae29
+#: 474c1a0af19948b6a996753d2fccccbc
 msgid "**Introduction**"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-modules-complementaires.rst:15
-#: 93b75e6c7b8a400381df6884a4224026
+#: a597df9d37ff4b7b9ed8e461066bac60
 msgid "Le module Courrier est une nouvelle fonctionnalité de la GED Collaborative GoFAST conçue pour simplifier la gestion des courriers en centralisant les documents (PDF, documents scannés, e-mails/pièces jointes...) dans des espaces collaboratifs dédiés. Ce module permet d'améliorer la visibilité et la traçabilité des courriers et facilite le traitement en équipe grâce à des fonctionnalités avancées."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-modules-complementaires.rst:17
-#: 496aa88f59eb4b0083fb74304e01b05b
+#: 544cf46514d44dfa88a31575ad0708bf
 msgid "Le module Courrier offre une gestion complète de la vie du courrier, de l'enregistrement à la distribution, en passant par la réception et l'envoi. Les utilisateurs peuvent gérer les courriers de manière efficace grâce à des fonctionnalités de collaboration telles que la gestion de modèles de documents, la gestion des versions et l'historique, ainsi que les commentaires au document. Ils peuvent également éditer et coéditer en temps réel des fichiers Office directement sur la plateforme GoFAST."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-modules-complementaires.rst:19
-#: b1cc3de96bf3475a97383669e3d43286
+#: e740ff9a5bc94c6daff9d46cb19faf2d
 msgid "Le module Courrier offre également des fonctionnalités avancées pour améliorer la communication et la visibilité des tâches en cours. Les utilisateurs peuvent suivre l'état des courriers, les délais de traitement et les actions en cours grâce à des notifications de synthèse d'activité et des vues liées aux workflows, tels que l'accès rapide aux tâches, le tableau de bord des processus et les notifications."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-modules-complementaires.rst:21
-#: eee024b1568142358409bea3d08e1c03
+#: 9f9dd7884b9445e98f356327cc4fcb62
 msgid "En somme, le module Courrier de GoFAST simplifie la gestion des courriers et améliore la collaboration en équipe en offrant un accès centralisé aux documents et des fonctionnalités de suivi et de notifications avancées. Pour en savoir plus sur les fonctionnalités disponibles dans le module Courrier de GoFAST."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-modules-complementaires.rst:23
-#: d087588b61814afab5ac85077f7d9ff4
+#: dd9a8fad0e1c4ef4a255dfdcc0ff45f2
 msgid "**Module « Gestion des courriers »**"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-modules-complementaires.rst:25
-#: 79a497bb6c604748bf2585e94303a835
+#: 878ddce659f543999d251d8c94bb93f3
 msgid "Le module courrier a pour objectif de centraliser les courriers (PDF, documents scannés, emails/pièces-jointes...) dans des espaces collaboratifs dédiés aux courriers et améliorer sa gestion de traitement."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-modules-complementaires.rst:27
-#: 40df6e0ff69e492e9a4fc96a36a899fa
+#: 37fd21e6630a45da9869dfdca1046c78
 msgid "Grâce au multi-emplacement, les courriers sont partagés à la fois dans l’Espace Collaboratif transversal et les Espaces des Directions avec zéro doublon. La visibilité peut également être partagée dans des espaces privés si nécessaire."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-modules-complementaires.rst:29
-#: 6ec30f9bfb214869864fa2f4145f8541
+#: 7c821ea9202d4b5e9094457b06e0e40c
 msgid "**Parmi les objectives du Module de Gestion des courriers :**"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-modules-complementaires.rst:31
-#: 841b028b20ff46af86a8813afedefd74
+#: 5a71de4eea9f4ebeb0345a2aacc8fb70
 msgid "Centraliser et automatiser la gestion des courriers et les réponses associées, dans le respect des droits d’accès"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-modules-complementaires.rst:32
-#: c892e09901044edfaa586d67090bba7c
+#: 2dec21cfa94145b6b7047282a1e50094
 msgid "Assurer la bonne conformité des étapes de tri et diffusion, lecture, rédaction des réponses et leur validation à un workflow"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-modules-complementaires.rst:33
-#: 699809a8fc1249188423c731bd805414
+#: 8647195d24244c2ea8ed437a1970a3cb
 msgid "Disposer des alertes nécessaires afin de veiller à la bonne prise en compte et au respect des délais"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-modules-complementaires.rst:34
-#: dd4d3178b7464013822f649a8c9afdd3
+#: 45f610b6c4904b6f9d8e21b980b0c0af
 msgid "Retrouver n’importe quel courrier avec un ou deux mots clefs (ex. sujet, expéditeur/destinataire, date, etc.)"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-modules-complementaires.rst:36
-#: e5b9dd4e209e4222bac494fa77e040a6
+#: 25438cec8bed4601999f1e916b988768
 msgid "**Espaces Collaboratifs dédiés à la gestion des courriers**"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-modules-complementaires.rst:38
-#: ee1f108c556a4a9499b86b5cb8c5221d
+#: 920b60a101a543b68ed209da8b971aeb
 msgid "Même principe sur la gestion des contenus dans GoFAST, la gestion du courrier est dédiée aux Espaces collaboratifs :"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-modules-complementaires.rst:40
-#: cd10f92c13e248c283d6d3d20c01871e
+#: 2fbade095524474eb79aa7e4606e19fd
 msgid "Un espace de type groupe transversal \"Traitement des Courriers\", avec deux sous-groupes : un pour classer les \"courriers entrants\" et un pour les \"courriers sortants\". Les accès à ces espaces transversaux sont gérés par les responsables métiers en charge de la gestion des courriers."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-modules-complementaires.rst:41
-#: 515dca7039ad48e8bb171b30ce5a478e
+#: f3fddbf090e74d59aaf3e791bd3bf3fc
 msgid "Pour chaque Espace Collaboratif réservé à une Direction/un Service, un sous-espace sera dédié à la gestion des courriers (entrants et sortants)."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-modules-complementaires.rst:43
-#: 4de62259e31041ed8ff3dff91dc12350
+#: 21eaf76df2f248509ed828173c5cd399
 msgid "Selon le destinataire ou l’émetteur d’un courrier (Directions/Service), les documents pourront être partagés entre l’espace transversal dédié au traitement des courriers et les espaces réservés aux Directions/Services : le même document courrier sera donc visible aux bons Espaces Collaboratifs, sans doublon et avec toutes les informations, les commentaires échangés et l’historique des versions."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-modules-complementaires.rst:45
-#: b1d49fe5a2e649688aba1177d47003a9
+#: b677607be0ed4954a416003c0019fd0a
 msgid "**Métadonnées du courrier**"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-modules-complementaires.rst:47
-#: 536a9b7a51a743c38a3e1948f0ad297f
+#: 5780ee2b73bc41c194c3e41a453c25a2
 msgid "Une fois le document traité en courrier celui-ci acquiert des métadonnées supplémentaires en allant dans l’onglet « Informations du courrier »"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-modules-complementaires.rst:51
-#: eeb1a53128324ad4b24f81dd261af375
+#: f2898d38b1744ecab0a780217f30ec92
 msgid "Ces métadonnées recensent les différentes informations importantes liées au courrier comme l’affiche l’image ci-dessous :"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-modules-complementaires.rst:55
-#: b1f3064da9714e0abcecd6a2e592a7a4
+#: 737423a258bc43aabcfbc169038978aa
 msgid "**Comment créer un espace dédié à la gestion des courriers ?**"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-modules-complementaires.rst:57
-#: 72fdee7dc2a74fe7aa6a8773fbf2d795
+#: c16e2404d080493b8636aa12b9ab45f7
 msgid "Pas besoin de créer un nouvel espace dans GoFAST pour le traitement des courriers."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-modules-complementaires.rst:59
-#: 2804104d6ede4a1da67673e6455c0134
+#: ccb710cc0a0a488981c5e4de18453609
 msgid "Selon l’arborescence de votre organisation, vous pouvez marquer les espaces qui seront amenées à traiter les courriers comme Espace « Traitement des Courriers »."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-modules-complementaires.rst:61
-#: 87b381afba7c41be9d5344b9153d4c6c
+#: 1478799575354b08a5d7b007f1869c13
 msgid "**Comment faire ?**"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-modules-complementaires.rst:63
 #: ../../docs-gofast-users/doc-gofast-modules-complementaires.rst:64
-#: 82afb98090c642ceb5347783fffd2d20
-#: a8dcb205c79d416da671962007002c58
+#: 1668b7e1986042958358aa242fd77470
+#: e2c9c5bc98d44a2a97115a9b27816d39
 msgid "Ouvrez l’espace auquel vous souhaitez marquer comme espace traitant du courrier"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-modules-complementaires.rst:65
-#: 3e456c8e088840f69ba7b14638afb337
+#: dfcea82c76a047c9bdf11b93e85000ed
 msgid "Validez l’action"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-modules-complementaires.rst:69
-#: 6be5ff1f41fc437facdc6bd2448f1a79
+#: a7ff8643396e4c169ea943522056cba6
 msgid "A la validation, un sous-espace « Traitement des courriers » est créé avec deux dossiers « Courrier entrant » et « Courrier sortant » pour classer les courriers respectivement."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-modules-complementaires.rst:71
-#: c0b1e16589a845f6bee419013a6f904f
+#: 6dcef0d0041f454885351e270492537a
 msgid "Une liste Utilisateurs « Traitement courrier ‘nom de l’espace’ » est créée dans l’onglet « Membres » en prenant comme membres les membres de l’espace."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-modules-complementaires.rst:75
-#: b00ecc1cec914e5aaa6bebb0a7d348dc
+#: e592203e14bd460782722dea7fb7417b
 msgid "**Qui peut traiter un courrier ?**"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-modules-complementaires.rst:77
-#: a1b648bccfd74c30a468cd3dd3ddf70e
+#: 655a2480d7f541e0b912fc766b269fc5
 msgid "Les personnes habilitées à traiter des courriers sont les membres de la liste « Traitement courrier » créée automatiquement dans chaque espace traitant du courrier."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-modules-complementaires.rst:79
-#: 7dfa5420cf6947148fa8edda4c8c035b
+#: c99607896f2a45cfbc217220be3967f2
 msgid "**Comment traiter un courrier entrant ?**"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-modules-complementaires.rst:81
-#: 81317e1f79ce4199a737a6488532cf54
+#: 967877ffc03945b7bf340a817b847570
 msgid "Stocker les courriers entrant dans GoFAST"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-modules-complementaires.rst:83
-#: b0cb96b42142432c8a1d87c658a2cba6
+#: a22bbf409c194dc7ad95bd7615fc589f
 msgid "A la réception du courrier qui peut être soit en papier ou numérique, le responsable du service courrier doit stocker celui-ci dans GoFAST afin de lancer le processus de traitement."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-modules-complementaires.rst:85
-#: da53d17d8baa4c49b6f5b67d966238b1
+#: e49d2b10905b4980bc51daf4040005e8
 msgid "Si GoFAST est couplée avec un outil de numérisation, les courriers scannés peuvent être directement classés dans le sous-répertoire « A traiter » du répertoire « Courrier entrant »."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-modules-complementaires.rst:86
-#: e23f6e25113842409d08ac60ccc05a2e
+#: b8a2d71722c84bf2b5fad45c453388b1
 msgid "Déposer dans le répertoire dédié depuis la messagerie (email) via le glisser-déposer."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-modules-complementaires.rst:87
-#: 8f299c0d4a4a42c28f7b66de17c4d734
+#: 9df781d47204471f9a9490a35397f77c
 msgid "Fichiers ajoutés via le glisser-déposer depuis le PC (lecteur réseau)"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-modules-complementaires.rst:89
-#: 09c0e0c266634ac3a29aaa1d45e525fd
+#: 99d025395a1549028d2180e05f6579d9
 msgid "**GoFAST propose 4 façons de lancer un processus comme le workflow standard :**"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-modules-complementaires.rst:91
-#: 16494351a0184f9592a551637406bf89
+#: 883b6a612c1b42ef9334ce63303812c8
 msgid "Depuis la barre principale du haut, via l’accès rapide aux « Processus et Tâches »"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-modules-complementaires.rst:92
-#: dbee675619bf41f58c2796d281ded92b
+#: 1dde5d8cd7a54310bcae361d5743c94b
 msgid "Depuis la page d’un document, via le bouton « Processus et Tâches »"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-modules-complementaires.rst:93
-#: 0949fb59f625421cbcccee8b5df6e534
+#: c705a8631d5b403cb797ce175040ba51
 msgid "Depuis le panier documentaire."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-modules-complementaires.rst:94
-#: f4bad63b020442a29fe39a44d0377b48
+#: b23ad3ff42d44ead94f86b5af8d4cb9b
 msgid "Depuis l’espace courrier entrant qui déclenche le workflow automatiquement"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-modules-complementaires.rst:96
-#: 127c7dc553a44e91b903d170699d8d4f
+#: 615267bd53754ebcaecedcc6416b3cca
 msgid "**Démarrer un processus via la barre des accès rapides**"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-modules-complementaires.rst:98
-#: 90354d5f238642cbb0a79231380a2b3f
+#: 15ed89ee8ba44138b092a97bfab4b39a
 msgid "Pour sélectionner un processus de traitement des courriers et démarrer depuis la barre d’accès rapide (menu du haut) :"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-modules-complementaires.rst:100
-#: 3905c97f89154515a778a75eaf6b2cd1
+#: 20a86ca885f144f08ef8a775d28dea25
 msgid "Cliquez sur l’icône « Processus et Tâches » qui se trouve tout en haut de la page,"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-modules-complementaires.rst:101
-#: b3ab5eae50e9413895981cd8516fd66b
+#: d555677a20b54f89ac07a91934e901ca
 msgid "Dans la fenêtre « Processus et Tâches » cliquez sur l’onglet « Nouveau »"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-modules-complementaires.rst:105
-#: 73ca194504954575a99aa2398e32405f
+#: 34eb0d0444674eca977393f2e3c9cc5d
 msgid "**Démarrer un processus depuis la page d’un document**"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-modules-complementaires.rst:107
-#: 96297391d1694d2eaa18be26698e8598
+#: 2a27605b01d342af87d2fc0d16ca3b6e
 msgid "Pour sélectionner un processus de traitement des courriers et démarrer depuis la page d’un document :"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-modules-complementaires.rst:109
-#: 2b1d86cf14fd447c9f5b7be41f5db493
+#: 01b66fc9b8d74e399a91abfbfc8d5924
 msgid "Allez dans l’onglet « Tâches » Cliquez sur l’icône « Processus et Tâches » qui se trouve tout en haut de la page. Puis cliquez sur \"Nouveau\""
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-modules-complementaires.rst:113
-#: 9f1861def38649ecadff16959559d6b6
+#: 32c918ed25ac4bc59a170bd5c817a3f8
 msgid "Un nouvel onglet s’affiche, sélectionnez « Courrier entrant » comme ci-dessous :"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-modules-complementaires.rst:118
-#: a7efb1a27e424869bda7e08b32b9c0a3
+#: e7f107bbe0d84e03a5e9b39b1eff9119
 msgid "**Démarrer un processus depuis le panier**"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-modules-complementaires.rst:120
-#: 762b9308a8944b469b23239f258aba90
+#: f49571a97ac644b0953d251496687a40
 msgid "Dans le cas où vous avez plusieurs courriers pour un service, vous pouvez lancer votre processus via le panier."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-modules-complementaires.rst:122
-#: 0d7f85256cc1434593c406417c975536
+#: 651e020c655f41af85324f8c0fb7f854
 msgid "Mettez vos courriers dans le panier"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-modules-complementaires.rst:124
-#: 1d34fac2ba16400aab3a82f8487b8549
+#: 9bbadd0543d04e06917040e99893f254
 msgid "Cliquez sur l’icône « panier » dans la barre des accès rapides (menu principal du haut)"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-modules-complementaires.rst:125
-#: b352b4ac123a4a39985a87b79587ef71
+#: 5e1582cebc7d4ffdbbb7eb54bcdc3945
 msgid "Sous la liste des documents de votre panier, cliquez sur « Nouveau processus »."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-modules-complementaires.rst:126
-#: 3931c14784f541108077bb17e696a9a7
+#: cfad5b3395a04792a0709c2fd5363066
 msgid "La liste des processus disponible s’affiche : sélectionner le processus « courrier entrant »"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-modules-complementaires.rst:128
-#: 59463a22721349ed889d251fd4cd372b
+#: d570b19bb7b448b9bc01c51822ec7a9a
 msgid "**Renseigner le formulaire de transmission d’un courrier entrant**"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-modules-complementaires.rst:132
-#: 0c89cc0d3a9846788f3e6f3af29c7348
+#: 1212474211384040884da729b9587d75
 msgid "Une fois le processus « courrier entrant » sélectionné, le formulaire de transmission s’ouvre et vous permet de renseigner les divers champs et assignez à vos collaborateurs les différentes étapes du processus."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-modules-complementaires.rst:134
-#: 8e71e2b69e9a47fcb4c25515269e4007
+#: 942cc624bfc84d7688ffa8f6ef9bc3a8
 msgid "Si le courrier entrant nécessite une réponse, il vous suffit de cocher le champ OUI du champ « Nécessite une réponse »."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-modules-complementaires.rst:136
-#: 6d9c70b59e6a4a8c9e5fa26dee19a1a3
+#: 861d692151da498aac5c733e5aad9b81
 msgid "Dans ce cas là, le processus de traitement de courrier entrant fini, le traitement de courrier sortant se déclenche automatiquement."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-modules-complementaires.rst:139
-#: a576e2bcff964179a9a34e17d6ef994a
+#: ab4bf118d6134392b85a4c4410887d6d
 msgid "Le numéro d’enregistrement s’incrémente à chaque enregistrement."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-modules-complementaires.rst:141
-#: 611feb5c1095434db5bbb322103c5ddd
+#: a82aa6c1b7cd4564b9650091499c43b6
 msgid "Dès que la fiche de transmission est lancée, la catégorie du document passe en « courrier entrant » et l’état « en cours de transmission »."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-modules-complementaires.rst:143
-#: 98129a55c6524fcaaa5c44ecbb963ea8
+#: 352137b9b00a42a6b13aedb4fca42abc
 msgid "Tout au long du traitement du courrier, l’état, l’emplacement du document change selon les étapes."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-modules-complementaires.rst:145
-#: 54f5333b242b4ecf9dd461c170c5a2a5
+#: 71ad49d59f77485e8ccb3d5f0a45a675
 msgid "**Démarrer un processus depuis l’espace courrier entrant**"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-modules-complementaires.rst:147
-#: 9e628852ba32422b871e4cd571b43e76
+#: 17352249913a4b8b9e92e3624330d055
 msgid "Vous pouvez également faire simplement un glissé-déposé dans le sous-espace « A traiter ». Cela lancera automatiquement le processus de traitement de courrier."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-modules-complementaires.rst:151
-#: 8b9dc99f62504850b811f58d63780e7f
+#: 7c8339c4d0ba425aba9b05654d1e76b8
 msgid "Vous retrouverez ensuite le traitement de ce courrier dans « Processus et tâches » et dans « Mes tâches en cours » :"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-modules-complementaires.rst:155
-#: 017a992b9d7e4ffcb2ed0853c5c9dd19
+#: d8e23b80a97143a39f5f5985ebb25cb3
 msgid "**Comment démarrer un courrier sortant ?**"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-modules-complementaires.rst:157
-#: 4c7e1efd933f452eb47b61882230fd7f
+#: a20d40168fad46f78863b86657994808
 msgid "Le processus courrier sortant peut-être attaché à un courrier entrant, dans ce cas inutile de lancer le processus. Il est déjà dans la bannette de processus, vous pouvez consulter et traiter votre processus via l’icône « Processus et Tâches »"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-modules-complementaires.rst:159
-#: 73c51e4f4110434fab55ddc3cbf9768b
+#: afbdb5016b3646ddaa8b931b8dbc520a
 msgid "Les deux courriers sont liés."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-modules-complementaires.rst:161
-#: a4e5c7af3b034d73a837f235a0367ee6
+#: e77910d9a2c54d01843f15c0347a872b
 msgid "Le courrier entrant est rattaché au formulaire pour le traitement du courrier sortant."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-modules-complementaires.rst:163
-#: c7cdbbc2d3ed4ceaa9a2628d840553e1
+#: 6188bafb96924bbf85ab9f2ca80693bf
 msgid "Dans le cas où le processus courrier sortant n’est pas attaché au courrier sortant, vous pouvez lancer le processus via une des 4 façons vue au-dessus. Cependant, vous devez sélectionner « courrier sortant »."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-modules-complementaires.rst:165
-#: e2984d1b06514401b437170e0ef56732
+#: 4e9d65079ee442dbb1dcda6e7eab26bb
 msgid "*Exemple d’une des 4 façons*"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-modules-complementaires.rst:169
-#: 824d7bfed3a1484daf13276de4b6ffeb
+#: 230417ba6e874709807a2d7589eb1b0e
 msgid "**Renseigner le formulaire de transmission d’un courrier sortant**"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-modules-complementaires.rst:171
-#: 3c585fcbcead4beba649a17b413ab724
+#: 2508a4b5d5974a2e9f927c778ff6e0c0
 msgid "Une fois le processus lancé, le formulaire du courrier sortant s’ouvre et vous pouvez renseigner les divers champs."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-modules-complementaires.rst:175
-#: ced7ea967bf347169dd06e3c711198ee
+#: 19701df8c2704311822d4ab2b2b34c03
 msgid "Vous pouvez choisir la manière de charger votre courrier sortant soit à partir de GoFAST soit via votre PC."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-modules-complementaires.rst:177
-#: 69f39be69b5b4b07b61ab670eb7307f7
+#: db180c2816864888a2265434d8a0e0f2
 msgid "Si le courrier est déjà rédigé, vous pouvez cocher le champs « Le courrier est déjà rédigé » et l’étape de rédaction est masquée."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-modules-complementaires.rst:179
-#: de9da143957746b4850467e3d4c14435
+#: 00bb54be441e40979a4541b80fb1111d
 msgid "**Traiter un courrier sortant via un template**"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-modules-complementaires.rst:181
-#: 94886d813d80495bbb7ae0fa334dd9af
+#: 82421301fe7e40b9ad4952589e2b6757
 msgid "Vous pouvez également créer un template pour le processus de traitement de courrier. Cela permet d’accélérer le processus et de compléter automatiquement la chaîne de traitement courrier. Pour cela, allez dans « Processus et tâches » et « Nouveau »."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-modules-complementaires.rst:185
-#: d876e7ca97f6452382cd28715cece161
+#: 090dedf475ff47ea9b172c9a5fee27a0
 msgid "Une fois celle-ci remplie, il suffit de sélectionner le template crée dans « Courrier Sortant »."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-modules-complementaires.rst:189
-#: 974b8d77838c48d2bcb564f414a5d229
+#: ee76d8fd01334bccb7e972e57daa690e
 msgid "Une fois sélectionner, vous remarquerez que les champs nécessaires sont automatiquement complétés."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-modules-complementaires.rst:191
-#: 81d05791d11b4e8eb759665b7c453bfd
+#: d76cca89406a4311811b5d91808496cf
 msgid "**Liste des tâches à traiter et assignées aux autres**"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-modules-complementaires.rst:193
-#: 441ec8b0f826448aa853feb073303657
+#: 7487039870534f04ae3550fa8c9b42b0
 msgid "Si vous souhaitez en savoir plus sur les tâches, suivez ce `lien <https://gofast-docs.readthedocs.io/fr/4.0/docs-gofast-users/doc-gofast-guide-utilisateurs.html#liste-des-taches-a-traiter-et-assignees-aux-autres>`_"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-modules-complementaires.rst:195
-#: 803f7da1a02c439485a6bbddba6e4382
+#: cfc5ec21187c4750b60e13df2f7bc0f7
 msgid "**Traiter ses tâches**"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-modules-complementaires.rst:197
-#: d02c9ad82d794477a85f124b5733252e
+#: 10f74017c9ca4705b40ec4e3112bb7be
 msgid "**Vous pouvez traiter vos tâches :**"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-modules-complementaires.rst:199
-#: aba0d44e2caa4d99a8d503f97561ce0d
+#: fd32e150fec14bdaac6b1962c398dbbe
 msgid "Soit depuis la page d’un document : dans le bloc d’informations, onglet « Tâches », vous retrouverez le formulaire pour effectuer votre tâche (en arrivant sur le document, vous serez automatiquement positionné sur cet onglet si vous avez une tâche à traiter)"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-modules-complementaires.rst:203
-#: baa7d3b994a64208a1db4b71999996b3
+#: e33c673cc18441d396d6d00b132372b0
 msgid "Soit depuis la bannette des tâches de processus : cliquez sur l’icône « > » pour ouvrir le formulaire et traiter la tâche."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-modules-complementaires.rst:205
-#: f93442ad03b6451b86b9663cbd268851
+#: 581c6be44c394501882ddc6dd464a1df
 msgid "Le processus de traitement du module courrier « entrant » et « sortant » comporte plusieurs étapes."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-modules-complementaires.rst:211
-#: d8676754bfec4c8ca6d40ca48a0a1c01
+#: 4a96c579c35049dfae41809959b7f02d
 msgid "Couplage GoFAST-Pastell (signature)"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-modules-complementaires.rst:213
-#: 37094894d09c422d8de06df4089d5252
+#: bdbc66593f524a378f0f0f7cc76dffb4
 msgid "À la demande générale, nous avons créer un couplage Pastell GoFAST pour la gestion de la signature électronique. Voici comment l'utiliser :"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-modules-complementaires.rst:216
-#: 1a8d26fcb6e9493fa4f2c65c72ed82b3
+#: d8ba9c35ba8c4596b7f98c3d818455f4
 msgid "**Configuration**"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-modules-complementaires.rst:218
-#: ee531af40523417daf2f2a73a5f2a102
+#: f6ac7d56a6134b4da8b527d1804b8ebe
 msgid "Dans l'image ci-dessous, vous pouvez voir la configuration de votre Pastell dans GoFAST (il nécessite un identifiant, un mot de passe, et enfin l'URL de votre Pastell)"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-modules-complementaires.rst:222
-#: 7ba7750710084e8fa60e99793c9731e0
+#: ce7b85a034bd4d7aad2f485af7c3757e
 msgid "**Utilisation**"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-modules-complementaires.rst:224
-#: 7c87df98571e42d884f8e133a808cb98
+#: a7c6897427dc404b91c54fa697809250
 msgid "Lorsque vous arrivez sur un document PDF, il est possible d'envoyer le document à Pastell pour signature via le menu contextuel du document :"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-modules-complementaires.rst:228
-#: b4502553dd424a60a648fe92955b2b35
+#: 04565508de5b4d57ac9df52d78754ea0
 msgid "Vous arrivez alors sur cette modale là :"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-modules-complementaires.rst:232
-#: 0665e13b16184d6196f551653791c836
+#: ed9bd1d479314cd6aa790bc5e409887a
 msgid "Vous devez alors choisir l'entité à laquelle vous appartenez :"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-modules-complementaires.rst:234
-#: 7952f559214742099c959478d8869624
+#: b75b7b4d95dc4e24a25caea074eb2793
 msgid "Puis le processus que vous décidez d'utiliser (cela dépend de la configuration de votre Pastell):"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-modules-complementaires.rst:237
-#: 2a4ccdae462b47d29f588c4d115b1dc9
+#: 51fd36f47813479e9cf8625107afd9d1
 msgid "vous pouvez maintenant envoyer à Pastell le document pour signature en cliquant sur le bouton envoyer."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-modules-complementaires.rst:239
-#: bb4a1009792a4b7fa82046a6150d30db
+#: f8a469afd6104329b19c47a5a5fdc2fa
 msgid "Le document est alors \"verrouillé\" (métadonnées non-modifiable)."
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-modules-complementaires.rst:241
-#: cf186df761204513bc007a674d42f061
+#: f33cdef71e584cc7a6c1198d1e32043d
 msgid "L'état du document coté Pastell est écrit sous forme de \"Message\" quand nous allons sur le document :"
 msgstr ""
 
 #: ../../docs-gofast-users/doc-gofast-modules-complementaires.rst:245
-#: 1c1340ea364943a4b610f6eb2340ba33
+#: aedf3935f5b94c1f87b12a07bd45f171
 msgid "Une fois le processus de signature terminé (approuvé ou refusé), un commentaire est créé avec les différentes étapes et leurs informations :"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-modules-complementaires.rst:252
+#: 39ca07606e5043c6b93c1920f389bb7e
+msgid "Module IA (Mistral)"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-modules-complementaires.rst:257
+#: ddaf97fa58bd44d3bd327287723d2e58
+msgid "Le module IA de GoFAST est disponible en mode On-Premise et SaaS. Il permet d'automatiser des tâches documentaires telles que la classification des fichiers, la génération de résumés et l’anonymisation des données sensibles. Conçu pour fonctionner de manière sécurisée, sans dépendance à des services cloud externes, il assure la maîtrise des données et la conformité aux exigences réglementaires tout en facilitant la gestion documentaire."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-modules-complementaires.rst:260
+#: a519bae146af417c9209e5b594155140
+msgid "**Catégorisation automatique**"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-modules-complementaires.rst:262
+#: 3bbc26ba8e2c44ea8a99a0cae77aa44d
+msgid "GoFAST IA propose automatiquement une catégorie lors de la création ou lors du dépôt d’un document. Cette suggestion doit être validée manuellement. Lorsque la catégorie apparait en italique, cela signifie qu'elles n'ont pas encore été validées. Pour les valider, il suffit de cocher le \"check vert\". Après validation, la métadonnée reste modifiable manuellement. Il est possible de relancer la catégorisation en cliquant sur l’icône \"baguette magique\"."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-modules-complementaires.rst:269
+#: 2209600723184e0cb6dabe53d9503626
+msgid "**Anonymiser un document**"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-modules-complementaires.rst:271
+#: e562618470c041b8a923bfde9318185c
+msgid "Dans un document, ouvrez le menu burger et sélectionnez « créer une publication ». Ensuite, utilisez le sélecteur pour choisir « créer une publication PDF anonyme ». Ou si la publication est bloquée, choisir directement « Anonymiser ce document » Vous pouvez choisir de conserver certaines données personnelles en les désélectionnant, puis mettre à jour les informations en utilisant le bouton de rafraîchissement. Vous pouvez masquer les modifications en utilisant l’icône œil pour mieux visualiser les changements effectués."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-modules-complementaires.rst:280
+#: 9d0dbf65ff8f49af85d1a684052272f4
+msgid "Pour publier les modifications, sélectionnez « Créer une publication anonymisée ». Vous pourrez ensuite choisir les lieux où vous souhaitez déposer votre publication."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-modules-complementaires.rst:283
+#: 7eb94b8dde7b4510bf3d74a67a2fa806
+msgid "**Pluggin GoFAST AI  dans OnlyOffice**"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-modules-complementaires.rst:285
+#: bd981f2a08ef48678f9414cf3d9394ad
+msgid "Dans un document OnlyOffice, après avoir sélectionné un texte, avec un clic droit et «GoFAST AI» :"
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-modules-complementaires.rst:287
+#: 8e5373c0827f428399b09d48180fe5d0
+msgid "Générer du contenu à partir d’idées de base."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-modules-complementaires.rst:288
+#: 7c8c1bbf35594d14a5e26beb58f2a9d1
+msgid "Réduire ou allonger un texte selon les besoins."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-modules-complementaires.rst:289
+#: 0d91055d75be4b00a1e3213cec1fc8f5
+msgid "Traduire instantanément un texte en plusieurs langues."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-modules-complementaires.rst:290
+#: 89e0ed08459c4e9c85a28cd3edb2f53d
+msgid "Corriger automatiquement l’orthographe et la grammaire."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-modules-complementaires.rst:291
+#: a1569a45aeaa4ca2b1a14a5b86f6162a
+msgid "etc."
+msgstr ""
+
+#: ../../docs-gofast-users/doc-gofast-modules-complementaires.rst:292
+#: 6205def5c8834533ac04845073db2b35
+msgid "Il est également possible de créer un texte sur mesure à partir de zéro avec « Demande personnalisée »."
 msgstr ""
