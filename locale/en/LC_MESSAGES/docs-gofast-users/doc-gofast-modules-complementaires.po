@@ -9,15 +9,16 @@ msgstr ""
 "Project-Id-Version: gofast-docs latest\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-03-28 16:44+0100\n"
-"PO-Revision-Date: 2023-07-05 12:42+0000\n"
-"Last-Translator: Weblate Admin <support@ceo-vision.com>\n"
+"PO-Revision-Date: 2025-04-17 08:07+0000\n"
+"Last-Translator: Mouctar Diallo <mouctar.diallo@ceo-vision.com>\n"
+"Language-Team: English <https://translate.ceo-vision.com/projects/"
+"gofast-translations/gofast-modules-complementaires/en/>\n"
 "Language: en\n"
-"Language-Team: English <https://translate.ceo-vision.com/projects/gofast-"
-"translations/gofast-modules-complementaires/en/>\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.10.4\n"
 "Generated-By: Babel 2.11.0\n"
 
 #: ../../docs-gofast-users/doc-gofast-modules-complementaires.rst:2
@@ -857,7 +858,7 @@ msgstr ""
 #: ../../docs-gofast-users/doc-gofast-modules-complementaires.rst:252
 #: 39ca07606e5043c6b93c1920f389bb7e
 msgid "Module IA (Mistral)"
-msgstr ""
+msgstr "IA module (Mistral)"
 
 #: ../../docs-gofast-users/doc-gofast-modules-complementaires.rst:257
 #: ddaf97fa58bd44d3bd327287723d2e58
@@ -870,11 +871,17 @@ msgid ""
 "données et la conformité aux exigences réglementaires tout en facilitant "
 "la gestion documentaire."
 msgstr ""
+"GoFAST's AI module is available in On-Premise and SaaS modes. It automates "
+"document tasks such as file classification, summary generation and the "
+"anonymization of sensitive data. Designed to operate securely, without "
+"dependence on external cloud services, it ensures data control and "
+"compliance with regulatory requirements, while facilitating document "
+"management."
 
 #: ../../docs-gofast-users/doc-gofast-modules-complementaires.rst:260
 #: a519bae146af417c9209e5b594155140
 msgid "**Catégorisation automatique**"
-msgstr ""
+msgstr "**Automatic categorization**"
 
 #: ../../docs-gofast-users/doc-gofast-modules-complementaires.rst:262
 #: 3bbc26ba8e2c44ea8a99a0cae77aa44d
@@ -887,11 +894,17 @@ msgid ""
 "modifiable manuellement. Il est possible de relancer la catégorisation en"
 " cliquant sur l’icône \"baguette magique\"."
 msgstr ""
+"GoFAST IA automatically suggests a category when a document is created or "
+"submitted. This suggestion must be validated manually. When the category "
+"appears in italics, this means that it has not yet been validated. To "
+"validate them, simply tick the “green check”. After validation, the metadata "
+"can still be modified manually. You can restart the categorization process "
+"by clicking on the “magic wand” icon."
 
 #: ../../docs-gofast-users/doc-gofast-modules-complementaires.rst:269
 #: 2209600723184e0cb6dabe53d9503626
 msgid "**Anonymiser un document**"
-msgstr ""
+msgstr "**Anonymize a document**"
 
 #: ../../docs-gofast-users/doc-gofast-modules-complementaires.rst:271
 #: e562618470c041b8a923bfde9318185c
@@ -905,6 +918,12 @@ msgid ""
 " masquer les modifications en utilisant l’icône œil pour mieux visualiser"
 " les changements effectués."
 msgstr ""
+"In a document, open the burger menu and select “create publication”. Then "
+"use the selector to choose “create an anonymous PDF publication”. Or, if the "
+"publication is blocked, choose “Anonymize this document” directly. You can "
+"choose to keep certain personal data by deselecting them, then update the "
+"information using the refresh button. You can hide changes by using the eye "
+"icon to better visualize the changes made."
 
 #: ../../docs-gofast-users/doc-gofast-modules-complementaires.rst:280
 #: 9d0dbf65ff8f49af85d1a684052272f4
@@ -913,11 +932,13 @@ msgid ""
 "anonymisée ». Vous pourrez ensuite choisir les lieux où vous souhaitez "
 "déposer votre publication."
 msgstr ""
+"To publish your changes, select “Create an anonymized publication”. You can "
+"then choose where you'd like to post your publication."
 
 #: ../../docs-gofast-users/doc-gofast-modules-complementaires.rst:283
 #: 7eb94b8dde7b4510bf3d74a67a2fa806
 msgid "**Pluggin GoFAST AI  dans OnlyOffice**"
-msgstr ""
+msgstr "**OnlyOffice GoFAST AI plugin**"
 
 #: ../../docs-gofast-users/doc-gofast-modules-complementaires.rst:285
 #: bd981f2a08ef48678f9414cf3d9394ad
@@ -925,31 +946,33 @@ msgid ""
 "Dans un document OnlyOffice, après avoir sélectionné un texte, avec un "
 "clic droit et «GoFAST AI» :"
 msgstr ""
+"In an OnlyOffice document, after selecting a text, right-click and select “"
+"GoFAST AI” :"
 
 #: ../../docs-gofast-users/doc-gofast-modules-complementaires.rst:287
 #: 8e5373c0827f428399b09d48180fe5d0
 msgid "Générer du contenu à partir d’idées de base."
-msgstr ""
+msgstr "Generate content from basic ideas."
 
 #: ../../docs-gofast-users/doc-gofast-modules-complementaires.rst:288
 #: 7c8c1bbf35594d14a5e26beb58f2a9d1
 msgid "Réduire ou allonger un texte selon les besoins."
-msgstr ""
+msgstr "Reduce or extend text as required."
 
 #: ../../docs-gofast-users/doc-gofast-modules-complementaires.rst:289
 #: 0d91055d75be4b00a1e3213cec1fc8f5
 msgid "Traduire instantanément un texte en plusieurs langues."
-msgstr ""
+msgstr "Instantly translate text into multiple languages."
 
 #: ../../docs-gofast-users/doc-gofast-modules-complementaires.rst:290
 #: 89e0ed08459c4e9c85a28cd3edb2f53d
 msgid "Corriger automatiquement l’orthographe et la grammaire."
-msgstr ""
+msgstr "Automatically correct spelling and grammar."
 
 #: ../../docs-gofast-users/doc-gofast-modules-complementaires.rst:291
 #: a1569a45aeaa4ca2b1a14a5b86f6162a
 msgid "etc."
-msgstr ""
+msgstr "etc."
 
 #: ../../docs-gofast-users/doc-gofast-modules-complementaires.rst:292
 #: 6205def5c8834533ac04845073db2b35
@@ -957,4 +980,5 @@ msgid ""
 "Il est également possible de créer un texte sur mesure à partir de zéro "
 "avec « Demande personnalisée »."
 msgstr ""
-
+"It's also possible to create a customized text from scratch with “Custom "
+"Request”."
