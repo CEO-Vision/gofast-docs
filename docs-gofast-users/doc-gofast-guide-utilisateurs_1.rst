@@ -112,7 +112,7 @@ Et enfin, la dernière icône avec les 2 flèches vers la droite ouvre d’autre
    :alt: 
 
 Afficher le contenu en pleine page
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Permet de **masquer** toutes les données autour de la prévisualisation et n’avoir plus que la page du document en plein écran.
 
