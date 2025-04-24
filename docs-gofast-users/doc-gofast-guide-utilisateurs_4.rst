@@ -235,7 +235,7 @@ En haut , nous avons 6 onglets : "Editeur de sondage", "Tester le sondage", "Th�
 - Le premier est l'onglet de création du formulaire
 - Le deuxieme permet d'avoir un visuel sur le sondage en cours de création pour pouvoir faire des ajustements necessaires avant la publication
 - Le 3eme permet de créer un thème entièrement personnalisé qui surchargera le thème par défaut du formulaire
-- Le 4ème onglet sert à définir des règles dans le formulaire.
+- Le 4ème onglet sert à définir des règles dans le formulaire
 - Le 5ème onglet sert à importer ou exporter les formulaires au format JSON
 - Le 6ème onglet permet d’effectuer la traduction.
 
