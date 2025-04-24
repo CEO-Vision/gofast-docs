@@ -209,44 +209,46 @@ Retrouver/Consulter un formulaire
 
 .. NOTE::
    Une fois que votre formulaire est créé, vous arriverez sur la page du formulaire. C'est sur cette page qu'arriveront les utilisateurs qui rempliront votre formulaire. Pour l'instant, elle est vide et tant que vous n'aurez pas publié votre formulaire, personne ne pourra le remplir. 
-   En tant que créateur du formulaire, vous avez la possibilité d'accéder aux onglets "Gérer, "Dashboard" et "Tableau". Les administrateurs de l'espace dans lequel est ce formulaire y ont également accès.
+   En tant que créateur du formulaire, vous avez la possibilité d'accéder aux onglets "Modifier, "Dashboard" et "Résultats". Les administrateurs de l'espace dans lequel est ce formulaire y ont également accès.
 
 Vous arrivez alors sur la page du "Formulaire" :
 
-.. figure:: media-guide/image_etape_1.png
+.. figure:: media-guide/form_01.png
    :alt: 
 
 Le formulaire créé dispose de l'état "Non publié", c'est à dire que les utilisateurs ne peuvent pas encore soumettre le formulaire.
-Intéressons nous maintenant à l'onglet "Gérer" qui va permettre d'ouvrir l'outil de "Création" de formulaire :
+Intéressons nous maintenant à l'onglet "Modifier" qui va permettre d'ouvrir l'outil de "Création" de formulaire :
 
-.. figure:: media-guide/image_etape_2.png
+.. figure:: media-guide/form_0_2.png
    :alt: 
 
 Sur la gauche nous avons la totalité des outils pour créer un formulaire :
 
-.. figure:: media-guide/outils_form.png
+.. figure:: media-guide/form_02.png
    :alt: 
 
-En haut , nous avons 4 onglets : "Editeur de sondage", "Test le sondage", "Themes" et "Editeur JSON":
+En haut , nous avons 6 onglets : "Editeur de sondage", "Tester le sondage", "Thèmes", "Condition", "Editeur JSON" et "Traduction":
 
-.. figure:: media-guide/onglets_form.png
+.. figure:: media-guide/form_03.png
    :alt:
 
 - Le premier est l'onglet de création du formulaire
 - Le deuxieme permet d'avoir un visuel sur le sondage en cours de création pour pouvoir faire des ajustements necessaires avant la publication
 - Le 3eme permet de créer un thème entièrement personnalisé qui surchargera le thème par défaut du formulaire
-- Le 4ème onglet sert à importer ou exporter les formulaires au format JSON.
+- Le 4ème onglet sert à définir des règles dans le formulaire
+- Le 5ème onglet sert à importer ou exporter les formulaires au format JSON
+- Le 6ème onglet permet d’effectuer la traduction.
 
 A droite nous avons toutes les options des differents outils du formulaire (lorsqu'on clique dessus) ainsi que les paramètres globaux du formulaire:
 
 *Paramètre globaux:*
 
-.. figure:: media-guide/param_form.png
+.. figure:: media-guide/form_04.png
    :alt: 
 
 Paramètre d'un widget:
 
-.. figure:: media-guide/image_etape_6.png
+.. figure:: media-guide/form_05.png
    :alt: 
 
 Publication d'un formulaire

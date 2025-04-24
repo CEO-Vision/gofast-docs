@@ -58,18 +58,16 @@ La prévisualisation d'un fichier sert à consulter le fichier (document, image,
    :header: "Formats", "Commentaires"
    :widths: 10, 40
    
-   "doc,dot,xls,ppt", "transformé en PDF" 
-   "docx,dotx,docxf,xlsx,pptx","directement affiché onlyoffice"
-   "odt,ott,ods,odp","transformé en PDF"
-   "dwg","transformé en svg"
-   "txt,rtf","transformé en PDF"
-   "eps","transformé en PDF"
-   "msg","transformé text brut puis PDF"
-   "eml","transformé en PDF"
-   "jpg,png,gif","directement affiché par le navigateur"
-   "svg","directement affiché par le navigateur"
-   "mp4","directement lu dans le navigateur (streaming video)"
-   "pdf","directement lu dans le navigateur"
+  "doc, dot, ppt, pps, xls, eml, vsd, odg, msg", "transformé en PDF"
+   "xlsx", "xlsm", "xls", "ods", "directement affiché onlyoffice"
+   "ods", "transformé en PDF"
+   "DWG, IFC", "prévisualisable"
+   "jpg, jpeg, png, gif, bmp, webp", "directement affiché par le navigateur"
+   "svg", "directement affiché par le navigateur"
+   "mp3", "directement lu dans le navigateur (streaming audio)"
+   "mp4, webm", "directement lu dans le navigateur (streaming vidéo)"
+   "pdf", "directement lu dans le navigateur"
+   "html", "directement affiché par le navigateur"
 
 
 .. NOTE::
@@ -115,7 +113,7 @@ Et enfin, la dernière icône avec les 2 flèches vers la droite ouvre d’autre
    :alt: 
 
 Afficher le contenu en pleine page
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Permet de **masquer** toutes les données autour de la prévisualisation et n’avoir plus que la page du document en plein écran.
 
