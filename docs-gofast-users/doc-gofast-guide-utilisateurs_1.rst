@@ -58,9 +58,10 @@ La prévisualisation d'un fichier sert à consulter le fichier (document, image,
    :header: "Formats", "Commentaires"
    :widths: 10, 40
    
-  "doc, dot, ppt, pps, xls, eml, vsd, odg, msg, dwg, ifc", "transformé en PDF"
-   "docx, dotx, pptx, ppsx, docm, xlsx, xlsm", "directement affiché onlyoffice"
+  "doc, dot, ppt, pps, xls, eml, vsd, odg, msg", "transformé en PDF"
+   "xlsx", "xlsm", "xls", "ods", "directement affiché onlyoffice"
    "ods", "transformé en PDF"
+   "DWG, IFC", "prévisualisable"
    "jpg, jpeg, png, gif, bmp, webp", "directement affiché par le navigateur"
    "svg", "directement affiché par le navigateur"
    "mp3", "directement lu dans le navigateur (streaming audio)"
