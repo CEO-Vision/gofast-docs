@@ -202,20 +202,22 @@ Rechercher un membre d’un espace
 .. NOTE:: 
    Il est possible de connaître tous les Espaces dont est membre un utilisateur en allant sur sa page de profil. 
 
-Modifier le membre d’un Espace 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Gérer le rôle ou la suppression d'un membre d'un Espace 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Pour modifier le rôle ou enlever un membre d’un espace : 
- - Allez sur la page de l’Espace que vous souhaitez gérer. 
- - Retrouver l’utilisateur membre que vous souhaitez gérer. 
- - Cliquez sur le menu des actions contextuelles de ce membre (bouton à droite dans la dernière colonne du tableau des membres)
+Cette procédure permet de modifier le rôle d’un membre dans un Espace ou de le supprimer complètement de l’Espace.
 
-La fenêtre pour changer le rôle s’ouvre : 
- - Vous voyez les 3 rôles possibles et celui qui est attribué actuellement au membre. 
- - Cochez le nouveau rôle souhaité et cliquez sur « Mettre à jour ». 
- - Pour enlever le membre de l’Espace : cliquez sur « Retirer ».
+Étapes à suivre pour modifier un rôle ou supprimer un membre :
 
-.. figure:: media-guide/image097.png
+    - Allez dans l’onglet "Membres" de l’Espace concerné.
+    - Cochez le profil de l’utilisateur dont vous souhaitez modifier le rôle ou que vous souhaitez retirer.
+    - Cliquez sur le menu burger (icône avec trois petits points verticaux).
+    - Sélectionnez soit :
+        - Le nouveau rôle à attribuer ;
+        - L’option pour supprimer le membre de l’Espace.
+    - Une fenêtre de confirmation s’ouvre : validez pour confirmer l’action choisie.
+
+.. figure:: media-guide/modif_role.png
 
 Merci de consulter également la rubrique : « Rôles/droits des membres d’un Espace ».  
 
