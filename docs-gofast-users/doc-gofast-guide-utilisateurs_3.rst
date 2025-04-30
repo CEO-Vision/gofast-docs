@@ -359,6 +359,33 @@ Si vous êtes administrateur de l'espace, vous pouvez **Créer un salon de discu
 
 Pour en savoir plus sur le fonctionnement du Tchat, merci de vous référer à la rubrique : « Tchat/Messagerie instantanée ».
 
+Métadonnées d'espaces
+======================
+
+Espaces confidentiels
+---------------------
+
+Via la métadonnée « Classification » d’un espace , vous pouvez en restreindre les accès aux membres ayant l’habilitation confidentielle. 
+
+**Conditions requises pour classifier un Espace en confidentiel :**
+ - Être « Administrateur » de l’Espace.
+ - Disposer du  profil « Habilitation confidentielle ».
+
+**Étapes pour classifier un Espace comme confidentiel :**
+  1. Accédez aux métadonnées** de l’Espace concerné.
+  2. Cliquez sur l’onglet **Classification**.
+  3. Sélectionnez le niveau de confidentialité souhaité.
+
+.. note::
+
+   Les membres de l’Espace qui ne disposent pas du profil « Habilitation confidentielle » 
+   seront automatiquement exclus de l’Espace dès qu’il est classé comme confidentiel.
+
+.. figure:: media-guide/espace_conf_01.png
+
+.. figure:: media-guide/espace_conf_02.png
+
+
 
 Gérer des Listes d’Utilisateurs
 ===========================
