@@ -399,7 +399,7 @@ Via la métadonnée « Classification » d’un espace , vous pouvez en restrei
 .. note::
 
    Les membres de l’Espace qui ne disposent pas du profil « Habilitation confidentielle » 
-   seront automatiquement exclus de l’Espace dès qu’il est classé comme confidentiel.
+   seront automatiquement exclus de l’Espace dès qu’il sera classé comme confidentiel.
 
 .. figure:: media-guide/espace_conf_01.png
 
