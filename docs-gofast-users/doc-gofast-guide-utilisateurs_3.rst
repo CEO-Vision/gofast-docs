@@ -364,6 +364,26 @@ Pour en savoir plus sur le fonctionnement du Tchat, merci de vous référer à l
 Métadonnées d'espaces
 ======================
 
+Dans la vue d’un espace collaboratif, à droite de l’interface, vous pouvez afficher les métadonnées en déroulant 
+le bloc dédié.
+
+**Certaines métadonnées sont modifiables par l'administrateur de l’espace :**
+ 
+ - État
+ - Référence documentaire ( le libellé est personnalisable)
+ - Échéance
+ - Classification 
+ - Date ( le libellé est personnalisable)
+ - Responsable : cette métadonnée et non seulement modifiable par les administrateurs de l’espace, mais aussi par le responsable actuellement désigné. 
+ Par défaut, elle est initialement attribuée au créateur de l’espace
+
+ **D’autres métadonnées sont générées automatiquement par le système et ne peuvent pas être modifiées :** 
+  - Type
+  - Créé le 
+  - Créé par 
+  - Modif. le
+
+
 Espaces confidentiels
 ---------------------
 
@@ -381,7 +401,7 @@ Via la métadonnée « Classification » d’un espace , vous pouvez en restrei
 .. note::
 
    Les membres de l’Espace qui ne disposent pas du profil « Habilitation confidentielle » 
-   seront automatiquement exclus de l’Espace dès qu’il est classé comme confidentiel.
+   seront automatiquement exclus de l’Espace dès qu’il sera classé comme confidentiel.
 
 .. figure:: media-guide/espace_conf_01.png
 
