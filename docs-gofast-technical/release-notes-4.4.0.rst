@@ -125,6 +125,76 @@ Bugs
     "GOFAST-10024","[MS-OFFICE] L'édition en ligne avec Office ne fonctionne plus (Désactivation de l'authentification de base par Microsoft)"
     "GOFAST-12569 ","Correction d'un bug empechant le scroll dans l'onglet ""Versions"""
 
+Nouvelles fonctionnalités (R2)
+*****************************
+
+.. csv-table::
+   :header: "Ref.", "Description"
+   :widths: 1000, 60000
+
+   "GOFAST-12441","Profil “Qualification habilité Confidentiel” pour accès aux espaces confidentiels"
+   "GOFAST-12447","Pouvoir afficher systématiquement le formulaire de métadonnées lors de la création d’un document"
+   "GOFAST-12449","Dans le tableau de bord, ajout de la vue ""Espaces à ma charge"" basée sur la métadonnée ""Responsable"" associée à l’utilisateur"
+   "GOFAST-12461","Duplication des métadonnées de l'espace parent à l'espace enfant"
+   "GOFAST-12462","Pouvoir exporter au format Excel ou CSV l’audit d’un espace depuis l’onglet dédié"
+   "GOFAST-12523","Paramétrage pour désactiver l’accès au chat sur GoFAST"
+   "GOFAST-5316","Restauration d'espaces supprimés"
+
+Améliorations (R2)
+******************************
+
+.. csv-table::
+   :header: "Ref.", "Description"
+   :widths: 1000, 60000
+
+   "GOFAST-11605","Réorganisation des valeurs des métadonnées ""Classification"" et ""Importance"" pour les documents"
+   "GOFAST-11710","Dans le calendrier d’un espace, pouvoir afficher les événements des calendriers des espaces enfants"
+   "GOFAST-12037","[TECHNIQUE] MàJ Jitsi 2.0.10184"
+   "GOFAST-12274","Pouvoir modifier le contenu d'un PDF en ligne (nécessite OnlyOffice Enterprise)"
+   "GOFAST-12338","Ajout des documents HTML au comparateur de versions"
+   "GOFAST-12460","Depot des documents broadcasté dans un repertoire dedié"
+   "GOFAST-12463","Paramétrage des droits d’accès selon le niveau de confidentialité d’un espace"
+   "GOFAST-12527","Amélioration de la sélection des emplacements de signature lors de la création d'un workflow (Digitalsign)"
+   "GOFAST-12591","Ajout de la métadonnée ""Responsable"" sur les espaces et documents"
+   "GOFAST-12616","Ajout de l'option de partage par email pour les formulaires"
+   "GOFAST-12790","Ajout de la classification de confidentialité dans les métadonnées d’espace"
+   "GOFAST-6706","Tableau de bord Taches (Workflow et Kanban) : vue pilotage "
+   "GOFAST-7280","Ajout de restrictions supplémentaires sur les contenus confidentiels (édition et impression)"
+   "GOFAST-7643","Refus explicite de la signature dans une notification de refus de signature Yousign"
+   "GOFAST-12952","Mise à jour OnlyOffice 8.3.3 : Correction de différents bugs d'édition, de conversion..."
+   "GOFAST-12878","La valeur ""En cours"" peut être automatiquement attribuée à la métadonnée ""État"" lors de la création d’un espace."
+   "GOFAST-12715","Reporting annuel des utilisateurs et gestion des licences"
+   "GOFAST-12567","Analyse et amélioration des chargements des workflows"
+
+Bugs (R2)
+******************************
+
+.. csv-table::
+   :header: "Ref.","Description"
+   :widths: 1000, 60000
+
+   "GOFAST-13008","Correction d’un bug de visibilité incohérente des utilisateurs dans l'annuaire"
+   "GOFAST-12987","Correction d'un bug empêchant d'intégrer Element dans une iframe depuis un autre nom de domaine"
+   "GOFAST-12906","Correction d'un bug sur le connecteur Pastell"
+   "GOFAST-12809","Correction d’un bug lié au message d’erreur ""Impossible de restaurer la session"" dans Element"
+   "GOFAST-10024","[MS-OFFICE] Correction d'un bug d'édition en ligne avec Office (Désactivation de l'authentification de base)"
+   "GOFAST-12590","Correction d'un bug sur l’activation des comptes ""en attente"" après synchronisation des annuaires"
+   "GOFAST-12662","Correction d'un bug de chargement infini sur les documents sans workflow actif"
+   "GOFAST-12701","Correction d'un bug dans l'URL de réunion dans l'invitation, affichant des informations erronées sur les participants"
+   "GOFAST-12767","Correction d'un bug entrainant une erreur lors de la création de document sans type, modèle ou fichier sélectionné"
+   "GOFAST-12802","Correction d'un bug dans l'éditeur riche dans le Kanban : la mise en forme ferme l'éditeur et enregistre les modifications"
+   "GOFAST-12807","Correction de l’affichage des échéances Kanban dans le calendrier pour les lundis"
+   "GOFAST-12816","Correction d’un bug provoquant l’incohérence du label ""Réf. documentaire"" après sa modification dans l’interface admin"
+   "GOFAST-12826","Correction d'un bug qui rendait non fonctionnelle la connexion LDAP en cas de liaison sans identifiant (Bind Anonymous)"
+   "GOFAST-12827","Correction d'un bug affichant l’audit sur tous les commentaires lors de l’édition d’un seul"
+   "GOFAST-12838","Correction d'un bug bloquant l’indexation des documents DOCX créés depuis la plateforme"
+   "GOFAST-12861","Correction d’une erreur empêchant la création de contenu via l’interface d’administration"
+   "GOFAST-12929","Correction d'un bug sur le mot de passe du compte ‘admin’ Alfresco qui expire si une politique d’expiration LDAP est activée"
+   "GOFAST-12936","Correction d'un bug rendant impossible de créer un utilisateur avec SASL activé (depuis la synchronisation LDAP ou l'interface)"
+   "GOFAST-12940","Correction d'un bug rendant les filtres non fonctionnels dans la recherche avancée (espaces, catégories...)"
+   "GOFAST-12977","Correction d'un bug entrainant l'échec de l’ajout LDAP lors de la création d’un utilisateur avec l’option SASL activée"
+   "GOFAST-12983","Blocage temporaire d’Element X côté serveur pour éviter les conflits avec Element Legacy"
+
 Sécurité 
 ******************************
 **[GoFAST Enterprise]** Contactez-nous pour obtenir la liste des correctifs sécurité  
