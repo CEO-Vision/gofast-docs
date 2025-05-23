@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gofast-docs latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-28 16:44+0100\n"
+"POT-Creation-Date: 2025-05-23 12:03+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,230 +17,230 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../../docs-gofast-development/bonita.rst:3
-#: d124c1b6969e49b1ba609a79b2e1da88
+#: 22212c46de494b4e86ccee689d5d2acf
 msgid "GoFAST :  Bonita"
 msgstr ""
 
 #: ../../docs-gofast-development/bonita.rst:5
-#: 5d747ce3e57f4acf96da6365efc0fb68
+#: 5f74711b01c94f59bc511dbab8b20a62
 msgid "Cette documentation donne accès aux ressources permettant de modéliser des workflows dans Bonita Studio implémentables dans la plateforme GoFAST."
 msgstr ""
 
 #: ../../docs-gofast-development/bonita.rst:8
-#: aaebe43e864941589aa0b699b4193cc9
+#: e0bf210891e24e4b84669e0cd90ef541
 msgid "Principes généraux"
 msgstr ""
 
 #: ../../docs-gofast-development/bonita.rst:11
-#: e311389c16a34e4c8aa8ac6d044ebdad
+#: f097b1a61563497b9976adcf65f19d70
 msgid "Formulaire d'instanciation"
 msgstr ""
 
 #: ../../docs-gofast-development/bonita.rst:13
-#: d8f0be8064e844eeabdcc2d24ce1dcc0
+#: 2b7cbda1fd1e4b439fff4b56e0d14f17
 msgid "Un processus commence par un formulaire d'instanciation, qui doit retourner un certain nombre de valeurs attendues et définies dans un contrat. Si le contrat est vide :"
 msgstr ""
 
 #: ../../docs-gofast-development/bonita.rst:17
-#: 0e198cfbee4942baafe48ef764e60680
+#: 70c7cbe657f94b5a89c8f4d3c5e2eea5
 msgid "alors le formulaire l'instanciation ne doit retourner aucune valeur, sous peine d'erreur."
 msgstr ""
 
 #: ../../docs-gofast-development/bonita.rst:19
-#: 75cb83fe68b24bd4b4872a6931b80073
+#: adb2bc2b9b844531a3cb53b23b80e585
 msgid "Déroulons un exemple (très) simple de création de formulaire d'instanciation, étape par étape. Le formulaire comprend une entrée pour remplir qui serait le rapporteur et une entrée pour remplir le document de travail. Ainsi, pour la première entrée, on aurait quelque chose comme ça :"
 msgstr ""
 
 #: ../../docs-gofast-development/bonita.rst:23
-#: c4d91590068948dd92277f399d7bc6ff
+#: 5c6c66158d144d549a9aae745cef02f9
 msgid "Nous mettons \"user,userlist\" dans Bundles pour qu'il prenne également les listes d'utilisateurs."
 msgstr ""
 
 #: ../../docs-gofast-development/bonita.rst:25
-#: d661f189d235416990076ba40b23624d
+#: 1947be78debb4859b47e655306c67e4b
 msgid "Notons également que j'ai ajouté une variable \"reporter\" afin de faire correspondre la valeur du widget à cette variable."
 msgstr ""
 
 #: ../../docs-gofast-development/bonita.rst:27
-#: f885c5b43ba1464193b22543f553f75f
+#: 223d24a8f2a74814acd5cf338eff4200
 msgid "Pour le document on réalise quelque chose de similaire :"
 msgstr ""
 
 #: ../../docs-gofast-development/bonita.rst:31
-#: 1bb48815925d4f41ba276fa7f8fa78e8
+#: dc8f705e2ab8430d8f51f6489eaaa5d3
 msgid "Vous pouvez adapter le formulaire à vos besoins, par exemple en mettant en place une URL de redirection après l'envoi du formulaire :"
 msgstr ""
 
 #: ../../docs-gofast-development/bonita.rst:35
-#: 886d1f1727e54e4c8ebebb1dd53dd56f
+#: b2e4f2de099a46478966a0aaa4f10c76
 msgid "ou encore en mettant en place une logique de validation."
 msgstr ""
 
 #: ../../docs-gofast-development/bonita.rst:37
-#: 302485867bca46679598c46edafaa79a
+#: 046750e552b04dc38c933c08cd2ec65d
 msgid "Modifiez la variable formOutput pour que le formulaire retourne réellement quelque chose :"
 msgstr ""
 
 #: ../../docs-gofast-development/bonita.rst:41
-#: 9b1dcc65a09d43da99c623384b3eaf01
+#: dadf732712ef4715bfabfb12a9fc24fd
 msgid "formInput doit également indiquer la structure de sortie :"
 msgstr ""
 
 #: ../../docs-gofast-development/bonita.rst:45
-#: 7901b4299c724c9381ed607f95bafc41
+#: 7ab96a8679c04bf38ec29b86f3c154e2
 msgid "Ajoutez au contrat :"
 msgstr ""
 
 #: ../../docs-gofast-development/bonita.rst:49
-#: 80b07c02292242bc8842f54cfffa2420
+#: 4066b928855d453592beb3fe5ebc4185
 msgid "Enfin, faites persister les valeurs dans une variable de processus :"
 msgstr ""
 
 #: ../../docs-gofast-development/bonita.rst:54
-#: 69627b6132234d9dbafb9ab6f8051dae
+#: 9f69d79f01ee473c9647f46f9390d20d
 msgid "Assignation de tâche"
 msgstr ""
 
 #: ../../docs-gofast-development/bonita.rst:56
-#: ac22b7abffcf47699ca52a651ab1e43f
+#: c68c0eeb41f247d08300f641000271c1
 msgid "L'acteur devrait par défaut être associé à tous les utilisateurs de la plateforme (c'est le groupe \"Utilisateurs\" dans GoFAST). Ensuite, nous ajoutons un filtre d'acteur pour que l'assigné de la tâche soit filtré pour être un utilisateur parmi tous ceux qui sont mappés à l'acteur."
 msgstr ""
 
 #: ../../docs-gofast-development/bonita.rst:60
-#: 56fea0b4d6cf47098001faf604166106
+#: 422cdaea6e94418b977236a871b2e57d
 msgid "On lui indique la variable contenant le nom de l'assigné quand il demande le nom d'utilisateur :"
 msgstr ""
 
 #: ../../docs-gofast-development/bonita.rst:64
-#: a84a40242a3b4cefb86f61098957828e
+#: 9af72d5d308f408e938003c73eb67c10
 msgid "Et finalement on demande à Bonita d'utiliser le filtre d'acteur (\"Use the actor below\") :"
 msgstr ""
 
 #: ../../docs-gofast-development/bonita.rst:68
-#: 2becf0a19dc244f0b328266f45230ff4
+#: e5ad1dc20a37456db9ca811386a9de6c
 msgid "Il est également possible de réassigner de force une tâche via notre extension d'API Rest updateActorsOfUserTask"
 msgstr ""
 
 #: ../../docs-gofast-development/bonita.rst:71
-#: 3769d2bca4814949a572e8f3596c32bf
+#: cddc72840cbf48c48c46edee340833c1
 msgid "Sous-processus"
 msgstr ""
 
 #: ../../docs-gofast-development/bonita.rst:73
-#: 6985a1f9b00d4bdca1e3456c45521299
+#: 383f15ae6ecf4d3f8483995cfdfb1767
 msgid "Le sous-processus est utile lorsque nous avons la même logique (par exemple tâche humaine, puis mise à jour de l'historique, puis mailing) à déclencher avec des valeurs initiales différentes."
 msgstr ""
 
 #: ../../docs-gofast-development/bonita.rst:75
-#: 9c4af229608042949aee87da38c1b48f
+#: 25e11bca795549b89d0545c936237002
 msgid "Regardons cet exemple :"
 msgstr ""
 
 #: ../../docs-gofast-development/bonita.rst:79
-#: c15da726f1304d868b10e7f5e88615e2
+#: 3927e2c2b0c348509c8fc266b6a96843
 msgid "dans le sous-onglet \"Itération\" :"
 msgstr ""
 
 #: ../../docs-gofast-development/bonita.rst:83
-#: a2c574a20fbc4570a40022daf58bafb2
+#: a3f6f108530e4a31b0b0392c6a53e59b
 msgid "nous lui demandons d'exécuter tous les sous-processus en parallèle (mais nous aurions pu demander une séquence). Et pour chaque élément de la variable pool \"rich_list_info\", 1 sous-processus sera créé :"
 msgstr ""
 
 #: ../../docs-gofast-development/bonita.rst:87
-#: 363266fc28c942bb976882019fc56aac
+#: 428eeccf939147b8b3fd146c30b9276f
 msgid "les données à envoyer au sous-processus sont définies dans l'onglet exécution :"
 msgstr ""
 
 #: ../../docs-gofast-development/bonita.rst:91
-#: 660b5047c1f448ec81b0b01170558016
+#: 89a060d43337458db14809483d5ded14
 msgid "de sorte que toutes les variables correspondantes du sous-processus soient définies :"
 msgstr ""
 
 #: ../../docs-gofast-development/bonita.rst:95
-#: fe8ad08de0724b538e3fb1706d3af260
+#: 89cfb318344e43eca8dfbb995e4d9a86
 msgid "Dans le sous-processus, un filtre d'acteur est utilisé pour définir l'assigné d'après le login injecté :"
 msgstr ""
 
 #: ../../docs-gofast-development/bonita.rst:100
-#: 4a99d8ee53c54ddbbd0959deabf51032
+#: b169edd2355f4a4689ff0e9fa904ec58
 msgid "Connecteurs"
 msgstr ""
 
 #: ../../docs-gofast-development/bonita.rst:103
-#: 285222c93d704c6d9e6d639f312f8bc4
+#: 2b30df847ea847b1a3996d34a82ae215
 msgid "Modifier métadonnée d'un document"
 msgstr ""
 
 #: ../../docs-gofast-development/bonita.rst:104
 #: ../../docs-gofast-development/bonita.rst:108
 #: ../../docs-gofast-development/bonita.rst:148
-#: 93eab487fe994eefb4a5f45e6cb74fff
-#: e001d352b2bf4db3b6846c5b066680fb
-#: cfa4f2d19085463892b4d3c9160dbcd1
+#: 2c894aa2a27a494f8e6f7de4b79070a3
+#: 5a06dd86363844bb8fa8c4f8929bb3bd
+#: 1f643a34e849491b8aeb33c7a7623d82
 msgid "Coming soon"
 msgstr ""
 
 #: ../../docs-gofast-development/bonita.rst:107
-#: 7423544aadda42a487c0b64af5d3f0e9
+#: bb6f38b94534463f9786194ae7ad7fd6
 msgid "Envoyer email de notification"
 msgstr ""
 
 #: ../../docs-gofast-development/bonita.rst:112
-#: 46311e98fcfa42698680ffbca606eb9a
+#: ed714210087c40cab073645e89959b76
 msgid "Widgets"
 msgstr ""
 
 #: ../../docs-gofast-development/bonita.rst:115
-#: 96b0e260095048b28e82396165ceb8ac
+#: 5f28ababd9b04f43a8d9c8afb6e01241
 msgid "Widget : autocomplete"
 msgstr ""
 
 #: ../../docs-gofast-development/bonita.rst:117
-#: 18c4add0467947c88e49d246fa5013f5
+#: 2cdc3d9b40d94ba4994fa9d7f38980a1
 msgid "Types possibles : node, user."
 msgstr ""
 
 #: ../../docs-gofast-development/bonita.rst:119
-#: 42016b4162024468a7bc98c47099c039
+#: a11de06bd658497f982d3980e441d849
 msgid "Bundles possiblies : alfresco_item (node), user et userlist (user). Les bundles doivent être séparés par des virgules."
 msgstr ""
 
 #: ../../docs-gofast-development/bonita.rst:122
-#: c4795f3e6253463cb42539660c44cbe8
+#: dfb82658f1654595afa5a961c1701c67
 msgid "Widget: preview PDF"
 msgstr ""
 
 #: ../../docs-gofast-development/bonita.rst:124
-#: 630015d6b652478f8859f02efc8c422a
+#: 38f0d4b14c39449ca9e42f9157b57539
 msgid "Souvent utilisé conjointement avec le widget standard des onglets :"
 msgstr ""
 
 #: ../../docs-gofast-development/bonita.rst:128
-#: a1fe0e8ffcdc4da0bb91aab4bedaf543
+#: 494e7204384646779e5669e936e73508
 msgid "le widget chargé de la preview PDF s'appelle gofastPdfViewer :"
 msgstr ""
 
 #: ../../docs-gofast-development/bonita.rst:132
-#: 09c9e41cdc0b4299ae494f0d0bf26634
+#: ea2346409ec847288ad175ed26242f68
 msgid "et il suffit de lui renseigner le node ID (l'ID du document sur GoFAST) pour qu'il fasse son travail."
 msgstr ""
 
 #: ../../docs-gofast-development/bonita.rst:134
-#: 6614da5c88a84cf7a87bb1d491685bc9
+#: a02dd3cb70ed47b194b67975d8fbe9f4
 msgid "Le node ID peut par exemple être récupéré à partir des variables du processus, en définissant dans le formulaire une variable de type \"External API\", qui appelerait l'API Bonita dédiée à la récupération des variables de processus."
 msgstr ""
 
 #: ../../docs-gofast-development/bonita.rst:138
-#: 89d45ce20ee2424899d8ef1e1500398e
+#: 0d112c970a7a4ed28057635eebfcb979
 msgid "ensuite la valeur peut-être traitée dans une variable de type \"Javascript Expression\" :"
 msgstr ""
 
 #: ../../docs-gofast-development/bonita.rst:142
-#: a6a749d968844783ab9dc13efd178b36
+#: efa518a3e6b04176bba12ae689a7a056
 msgid "dans laquelle la variable utilisée par le widget est affectée :"
 msgstr ""
 
 #: ../../docs-gofast-development/bonita.rst:147
-#: 03f4efab2b4c4281bec01dda0ca16d03
+#: 9a87e90cc2754e5f8d98173b59082b97
 msgid "Extensions d'API REST"
 msgstr ""
