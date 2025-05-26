@@ -9,15 +9,16 @@ msgstr ""
 "Project-Id-Version: gofast-docs latest\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-03-28 16:44+0100\n"
-"PO-Revision-Date: 2023-11-20 16:53+0000\n"
-"Last-Translator: Weblate Admin <support@ceo-vision.com>\n"
+"PO-Revision-Date: 2025-05-27 08:38+0000\n"
+"Last-Translator: Mouctar Diallo <mouctar.diallo@ceo-vision.com>\n"
+"Language-Team: English <https://translate.ceo-vision.com/projects/"
+"gofast-translations/gofast-community/en/>\n"
 "Language: en\n"
-"Language-Team: English <https://translate.ceo-vision.com/projects/gofast-"
-"translations/gofast-community/en/>\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.11.4\n"
 "Generated-By: Babel 2.11.0\n"
 
 #: ../../docs-gofast-technical/gofast-community-install.rst:3
@@ -155,7 +156,7 @@ msgstr "**the public key of your certificate** (.pem or .crt)"
 #: ../../docs-gofast-technical/gofast-community-install.rst:184
 #: 5ee6dabb8dcf45fa8c4c235b6883e022 a7e5f2addf6749168f8cb03f18ea6fd6
 msgid "**Le certificat de l'autorité intermédiaire (CA)** (.pem ou .crt)"
-msgstr ""
+msgstr "**Intermediate authority (CA) certificate ** (.pem or .crt)"
 
 #: ../../docs-gofast-technical/gofast-community-install.rst:42
 #: ../../docs-gofast-technical/gofast-community-install.rst:185
@@ -587,11 +588,13 @@ msgid ""
 "Récupérez votre fichier .env généré lors de l'installation de GoFAST "
 "Community, puis chargez le dans l'interface."
 msgstr ""
+"Retrieve the .env file generated during installation of GoFAST Community, "
+"then load it into the interface."
 
 #: ../../docs-gofast-technical/gofast-community-install.rst:177
 #: 2fe3e42108474586846a204665535c1b
 msgid "Étape 2 : Valider les paramètres récupérés"
-msgstr ""
+msgstr "Validate recovered parameters"
 
 #: ../../docs-gofast-technical/gofast-community-install.rst:178
 #: 0b82be6eaef04acaab975fe07cf5e3b4
@@ -599,11 +602,13 @@ msgid ""
 "Sur les prochains écrans de configuration, vous pourrez confirmer les "
 "paramètres récupérés depuis votre fichier d'environnement .env"
 msgstr ""
+"On subsequent configuration screens, you can confirm the parameters "
+"retrieved from your .env environment file."
 
 #: ../../docs-gofast-technical/gofast-community-install.rst:180
 #: 6c291c6e0fc64d86b220e08e19091f25
 msgid "Certains paramètres sont modificables, comme :"
-msgstr ""
+msgstr "Some parameters can be modified, such as :"
 
 #: ../../docs-gofast-technical/gofast-community-install.rst:199
 #: 5995f5f53d39435bb4819f3bd0e338c6
@@ -632,12 +637,12 @@ msgstr ""
 #: ../../docs-gofast-technical/gofast-community-install.rst:350
 #: 3995af33a57a479ebd2040476abeb186 6f909456abbc4f6d8343723f2ba2c74b
 msgid "Redémarrer votre GoFAST Community"
-msgstr ""
+msgstr "Restarting your GoFAST Community"
 
 #: ../../docs-gofast-technical/gofast-community-install.rst:242
 #: 1b8e130f0e9b423cb8e9c65ac402d38c
 msgid "Documentation en cours de rédaction"
-msgstr ""
+msgstr "Documentation in preparation"
 
 #: ../../docs-gofast-technical/gofast-community-install.rst:245
 #: 7d9b6f4a241649999cb5561d47596745
@@ -654,7 +659,7 @@ msgstr "This installation method will be back soon."
 #: ../../docs-gofast-technical/gofast-community-install.rst:249
 #: 912fef7aaf6d4cd39c71cc42cb0d6089
 msgid "Mise à jour (pour AWS)"
-msgstr ""
+msgstr "Update (for AWS)"
 
 #: ../../docs-gofast-technical/gofast-community-install.rst:253
 #: ee9905a695964d98b88c62253d8e7e9e
@@ -748,7 +753,7 @@ msgstr "You can then restart Docker Desktop."
 #: ../../docs-gofast-technical/gofast-community-install.rst:279
 #: 44eb74f1810a4f00962061bf0330aa21
 msgid "Changement de nommage et migration en GoFAST 4.3.0"
-msgstr ""
+msgstr "Renaming and migration to GoFAST 4.3.0"
 
 #: ../../docs-gofast-technical/gofast-community-install.rst:280
 #: 185d99e4c8574d6795a1df0d39a170d0
@@ -756,6 +761,8 @@ msgid ""
 "La version 4.3.0 de GoFAST NG a introduit un changement de nommage des "
 "conteneurs dans le cadre du début d'exploitation en GoFAST Enterprise."
 msgstr ""
+"Version 4.3.0 of GoFAST NG has introduced a change in container naming as "
+"part of the move to GoFAST Enterprise."
 
 #: ../../docs-gofast-technical/gofast-community-install.rst:282
 #: 86dfdf8a08354978a30e9dc79db1bd54
@@ -764,6 +771,8 @@ msgid ""
 "pas repartir d'une instance vierge, vous pouvez suivre la procédure "
 "suivante"
 msgstr ""
+"This renaming creates new volumes, so if you don't want to start from "
+"scratch, you can use the following procedure."
 
 #: ../../docs-gofast-technical/gofast-community-install.rst:284
 #: 428cdc883c4b43c7b3d8681db0bfdc2d
@@ -771,6 +780,8 @@ msgid ""
 "Avant de suivre cette procédure, vous devez avoir mis à jour votre "
 "instance en 4.3.0 ou supérieur."
 msgstr ""
+"Before following this procedure, you must have updated your instance to "
+"4.3.0 or higher."
 
 #: ../../docs-gofast-technical/gofast-community-install.rst:286
 #: 415aa75b308f4bde843c58d51a398355
@@ -779,6 +790,8 @@ msgid ""
 "instance existante de GoFAST Community < 4.3.0 vers GoFAST Community >= "
 "4.3.0"
 msgstr ""
+"This procedure should only be followed if you are updating an existing "
+"instance of GoFAST Community < 4.3.0 to GoFAST Community >= 4.3.0."
 
 #: ../../docs-gofast-technical/gofast-community-install.rst:288
 #: 7fa434b875614ed5a24ad04c6b2e3937
@@ -788,11 +801,14 @@ msgid ""
 "pouvez faire une demande sur les forums : https://community.ceo-"
 "vision.com"
 msgstr ""
+"This procedure applies to container installations on a Linux machine such as "
+"RedHat. For other types of installation, you can make a request on the "
+"forums: https://community.ceo-vision.com"
 
 #: ../../docs-gofast-technical/gofast-community-install.rst:292
 #: d6716feb0299412abc00397e185caf98
 msgid "Vérifier que les volumes existent avec l'ancien et le nouveau nommage"
-msgstr ""
+msgstr "Check that volumes exist with both old and new names"
 
 #: ../../docs-gofast-technical/gofast-community-install.rst:298
 #: 46d921b83c1d468190c0f4be587ffe3a
@@ -800,6 +816,8 @@ msgid ""
 "Vous devriez observer une liste de volumes en 'gofast-ng-community' et "
 "'gofast-ng-main-community' :"
 msgstr ""
+"You should see a list of ‘gofast-ng-community’ and ‘gofast-ng-main-community’"
+" volumes:"
 
 #: ../../docs-gofast-technical/gofast-community-install.rst:320
 #: d469742fe6dd4dc598b1948e86f79969
@@ -807,6 +825,7 @@ msgid ""
 "Nous allons donc migrer les données des anciens volumes vers les nouveaux"
 " volumes."
 msgstr ""
+"So we're going to migrate the data from the old volumes to the new ones."
 
 #: ../../docs-gofast-technical/gofast-community-install.rst:322
 #: 97374a9053bd46db890631daa53e790f
@@ -815,6 +834,8 @@ msgid ""
 "GoFAST Community est bien terminée. La commande suivante doit vous rendre"
 " la main :"
 msgstr ""
+"Before making the change, check that the initialization of your GoFAST "
+"Community has been completed. The following command should return your hand:"
 
 #: ../../docs-gofast-technical/gofast-community-install.rst:328
 #: 3015f8b4a126457fa6d23f265415087b
@@ -822,11 +843,13 @@ msgid ""
 "Vous pouvez également vérifier que le container gofast-ng-drupal a bien "
 "terminé son initialisation (Il doit être en état Exited) :"
 msgstr ""
+"You can also check that the gofast-ng-drupal container has completed its "
+"initialization (it should be in the Exited state):"
 
 #: ../../docs-gofast-technical/gofast-community-install.rst:340
 #: 20b15cc99d244e25bf382f3778a0b8ed
 msgid "Migrer les volumes"
-msgstr ""
+msgstr "Migrate volumes"
 
 #: ../../docs-gofast-technical/gofast-community-install.rst:356
 #: 34f7743f9bdf403ebda6c1e2299a40a7
@@ -836,6 +859,9 @@ msgid ""
 "Si tout est conforme, vous pouvez procéder à la suppression des anciens "
 "volumes :"
 msgstr ""
+"Once your instance has started, you can connect to it and check that the "
+"installation has been reset to the desired state. If all is in order, you "
+"can proceed to delete the old volumes:"
 
 #: ../../docs-gofast-technical/gofast-community-install.rst:372
 #: 31585149d04443d79b1223ea940d31ce
@@ -1137,4 +1163,3 @@ msgstr ""
 
 #~ msgid "Instructions (par image)"
 #~ msgstr "Instructions (per image)"
-
