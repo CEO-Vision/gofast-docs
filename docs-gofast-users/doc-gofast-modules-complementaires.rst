@@ -280,7 +280,7 @@ Vous pouvez choisir de conserver certaines données personnelles en les déséle
 Pour publier les modifications, sélectionnez « Créer une publication anonymisée ». Vous pourrez ensuite choisir les lieux où vous souhaitez déposer votre publication.
 
 
-**Pluggin GoFAST AI  dans OnlyOffice**
+**Plugin GoFAST AI  dans OnlyOffice**
 
 Dans un document OnlyOffice, après avoir sélectionné un texte, avec un clic droit et «GoFAST AI» :
 
