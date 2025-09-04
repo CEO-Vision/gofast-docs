@@ -1231,7 +1231,7 @@ Cette méthode permet de récupérer les membres d’un espace.
 Action : restore
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Depuis: ``4.4.0_R2``
+Depuis: ``4.5.0``
 
 Cette action permet de restaurer un espace supprimé et ses contenus
 
