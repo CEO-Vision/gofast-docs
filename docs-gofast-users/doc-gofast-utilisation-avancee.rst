@@ -23,15 +23,20 @@ Ces outils complémentaires permettent :
 
 Couplage messagerie BlueMind et GoFAST
 --------------------------------------
-Il est désormais possible de synchroniser vos conférences et réunions créées dans BlueMind avec votre calendrier GoFast. Cette fonctionnalité vous permet également de générer des liens de conférence Jitsi.
+Il est possible de synchroniser vos conférences et réunions créées dans BlueMind avec votre calendrier GoFast. Cette fonctionnalité vous permet également de générer des liens de conférence Jitsi.
 
 Pour lier votre compte BlueMind à GoFast, suivez ces étapes :
-1.	Rendez-vous sur la page de votre profil GoFast. 
-2.	Cliquez sur la roue dentée à côté de votre nom pour accéder aux paramètres. 
-3.	Faites défiler jusqu'en bas et sélectionnez l'option GoFast BlueMind. 
-4.	Saisissez votre adresse e-mail et votre mot de passe BlueMind. 
-5.	Activez la synchronisation en cochant l'option correspondante. 
-6.	Cliquez sur Enregistrer pour appliquer les modifications. 
+ 1.	Rendez-vous sur la page de votre profil GoFast 
+ 2.	Cliquez sur la roue dentée à côté de votre nom pour accéder aux paramètres 
+ 3.	Faites défiler jusqu'en bas et sélectionnez l'option GoFast BlueMind 
+ 4.	Saisissez votre adresse e-mail BlueMind 
+ 5. Allez sur BlueMind, dans les paramaètres de votre profil, générez et copiez votre clé API 
+
+.. figure:: media-guide/couplage3.png  
+
+ 6. Retournez sur votre profil GoFAST et collez votre clé API 
+ 7.	Activez la synchronisation en cochant l'option correspondante 
+ 8.	Cliquez sur Enregistrer pour appliquer les modifications 
 
 .. figure:: media-guide/couplage2.png  
 
@@ -40,9 +45,9 @@ Création d'un événement dans BlueMind
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Après avoir activé la synchronisation, vous pouvez créer un nouvel événement dans l'agenda BlueMind :
-1.	Ajoutez tous les participants nécessaires à l'événement.
-2.	Rendez-vous dans le calendrier de votre espace personnel GoFast.
-3.	Cliquez sur l'icône représentant un carré avec une flèche et sélectionnez Synchroniser le calendrier BlueMind.
+ 1.	Ajoutez tous les participants nécessaires à l'événement.
+ 2.	Rendez-vous dans le calendrier de votre espace personnel GoFast.
+ 3.	Cliquez sur l'icône représentant un carré avec une flèche et sélectionnez Synchroniser le calendrier BlueMind.
 Les événements ajoutés dans BlueMind apparaîtront désormais dans votre calendrier GoFast avec un lien de conférence Jitsi intégré, visible également dans BlueMind. 
 
 
@@ -314,3 +319,4 @@ Vous pouvez faire toute opération, comme des copier-coller de documents ou de r
 
 .. figure:: media-guide/copier-coller-webdav.png
    :alt:
+
