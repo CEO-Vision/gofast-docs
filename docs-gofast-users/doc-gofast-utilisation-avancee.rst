@@ -26,17 +26,18 @@ Couplage messagerie BlueMind et GoFAST
 Il est possible de synchroniser vos conférences et réunions créées dans BlueMind avec votre calendrier GoFast. Cette fonctionnalité vous permet également de générer des liens de conférence Jitsi.
 
 Pour lier votre compte BlueMind à GoFast, suivez ces étapes :
- 1.	Rendez-vous sur la page de votre profil GoFast 
- 2.	Cliquez sur la roue dentée à côté de votre nom pour accéder aux paramètres 
- 3.	Faites défiler jusqu'en bas et sélectionnez l'option GoFast BlueMind 
- 4.	Saisissez votre adresse e-mail BlueMind 
- 5. Allez sur BlueMind, dans les paramaètres de votre profil, générez et copiez votre clé API 
+
+1.	Rendez-vous sur la page de votre profil GoFast 
+2.	Cliquez sur la roue dentée à côté de votre nom pour accéder aux paramètres 
+3.	Faites défiler jusqu'en bas et sélectionnez l'option GoFast BlueMind 
+4.	Saisissez votre adresse e-mail BlueMind 
+5. Allez sur BlueMind, dans les paramaètres de votre profil, générez et copiez votre clé API 
 
 .. figure:: media-guide/couplage3.png  
 
- 6. Retournez sur votre profil GoFAST et collez votre clé API 
- 7.	Activez la synchronisation en cochant l'option correspondante 
- 8.	Cliquez sur Enregistrer pour appliquer les modifications 
+6. Retournez sur votre profil GoFAST et collez votre clé API 
+7.	Activez la synchronisation en cochant l'option correspondante 
+8.	Cliquez sur Enregistrer pour appliquer les modifications 
 
 .. figure:: media-guide/couplage2.png  
 
@@ -319,4 +320,5 @@ Vous pouvez faire toute opération, comme des copier-coller de documents ou de r
 
 .. figure:: media-guide/copier-coller-webdav.png
    :alt:
+
 
