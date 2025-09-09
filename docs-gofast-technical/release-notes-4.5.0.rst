@@ -37,7 +37,7 @@ Améliorations
     "GOFAST-12037","[TECHNIQUE] MàJ Jitsi 2.0.10184 "
     "GOFAST-12274","[ONLY OFFICE] Pouvoir modifier le contenu d'un PDF en ligne "
     "GOFAST-12460","Depot des documents broadcasté dans un repertoire dedié "
-    "GOFAST-12527","Amélioration de la sélection des emplacements de signature lors de la création d'un workflow (Digitalsign) "
+    "GOFAST-12527","[DIGITALSIGN] Amélioration de la sélection des emplacements de signature lors de la création d'un workflow (Digitalsign) "
     "GOFAST-12591","Ajout de la métadonnée ""Responsable"" sur les espaces et documents "
     "GOFAST-12616","Ajout de l'option de partage par email pour les formulaires "
     "GOFAST-12790","Ajout de la classification de confidentialité dans les métadonnées d’espace "
