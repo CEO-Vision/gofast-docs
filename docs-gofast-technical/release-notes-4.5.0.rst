@@ -12,7 +12,6 @@ Nouvelles fonctionnalités
    :widths: 1000, 60000
 
     "GOFAST-13032","Ajout d'un accès direct aux formulaires sur mobile"
-    "GOFAST-12449","Dans le tableau de bord, ajout de la vue ""Espaces à ma charge"" basée sur la métadonnée ""Responsable"" associée à l’utilisateur"
     "GOFAST-12461","Duplication des métadonnées de l'espace parent à l'espace enfant"
     "GOFAST-13160","[IA] Intégration d’un Chat avec un Chatbot IA (Prompt Mistral dans Element)"
     "GOFAST-13158","[IA] Pouvoir limiter l'usage du module IA à certains espaces"
@@ -38,7 +37,7 @@ Améliorations
     "GOFAST-12274","[ONLY OFFICE] Pouvoir modifier le contenu d'un PDF en ligne "
     "GOFAST-12460","Depot des documents broadcasté dans un repertoire dedié "
     "GOFAST-12527","[DIGITALSIGN] Amélioration de la sélection des emplacements de signature lors de la création d'un workflow (Digitalsign) "
-    "GOFAST-12591","Ajout de la métadonnée ""Responsable"" sur les espaces et documents "
+    "GOFAST-12591","Ajout de la métadonnée ""Responsable"" sur les espaces "
     "GOFAST-12616","Ajout de l'option de partage par email pour les formulaires "
     "GOFAST-12790","Ajout de la classification de confidentialité dans les métadonnées d’espace "
     "GOFAST-12823","Ajout de la métadonnée ""Date d’échéance"" pour les espaces "
