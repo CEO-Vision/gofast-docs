@@ -369,11 +369,11 @@ le bloc dédié.
 
 **Certaines métadonnées sont modifiables par l'administrateur de l’espace :**
  - État
- - Référence documentaire ( le libellé est personnalisable)
+ - Référence documentaire (le libellé est personnalisable)
  - Échéance
  - Classification 
- - Date ( le libellé est personnalisable)
- - Responsable : cette métadonnée et non seulement modifiable par les administrateurs de l’espace, mais aussi par le responsable actuellement désigné. Par défaut, elle est initialement attribuée au créateur de l’espace
+ - Date (le libellé est personnalisable)
+ - Responsable : cette métadonnée est non seulement modifiable par les administrateurs de l’espace, mais aussi par le responsable actuellement désigné. Par défaut, elle est initialement attribuée au créateur de l’espace
 
  **D’autres métadonnées sont générées automatiquement par le système et ne peuvent pas être modifiées :** 
   - Type
