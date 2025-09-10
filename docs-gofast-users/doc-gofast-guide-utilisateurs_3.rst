@@ -381,6 +381,11 @@ le bloc dédié.
   - Créé par 
   - Modif. le
 
+.. note::
+
+   * Lors de la création d’un espace, le champ État est automatiquement défini sur « En cours ».
+   * Lors de la création d’un sous-espace, celui-ci hérite automatiquement des métadonnées de son espace parent.
+
 
 Espaces confidentiels
 ---------------------
