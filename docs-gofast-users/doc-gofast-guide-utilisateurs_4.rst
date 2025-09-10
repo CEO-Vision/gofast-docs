@@ -472,6 +472,12 @@ Lorsque vous sélectionnez un ou plusieurs espaces, un menu burger apparaît en 
 .. NOTE::
    En fonction de la configuration de la plateforme et de vos droits d'accès, vous pourrez accéder à la totalité ou à une partie des espaces existants.
 
+**Pour restaurer un espace supprimé :**
+ *	Filtrer par « statut » supprimer. 
+ *	Sélectionner l’espace à restaurer. 
+ *	Dans le menu burger, sélectionner « Restaurer ».
+
+
 Annuaire des Contacts
 -------------------------------------------
 
