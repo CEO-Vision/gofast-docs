@@ -914,13 +914,20 @@ Dans ce champs, vous pouvez donner un nom au champ optionnel de la date.
 
 .. figure:: media-guide/document-configg2.png
 
+Remplir les métadonnées avant le téléchargement des documents
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Pour inviter vos utilisateurs à remplir les métadonnées à la création d’un document, cochez « Si une fenêtre de métadonnées s'affiche avant le téléversement des documents ou non ».
+
+.. figure:: media-guide/fenetre.metadonnées.png
+
+Une fenêtre de métadonnée s’affichera alors dès qu’un utilisateur déposera un document, et ce par tout moyen .
+
+.. figure:: media-guide/fenetre.metadonnées.2.png
+
 Sécurité des documents
 ~~~~~~~~~~~~~~~~~~~~~
 –	Liste blanche pour le filtrage XSS : Une liste d’articles ou de page d ‘accueil d’espaces qui serait non soumise au filtrage XSS ( filtrage de sécurité qui interdit l’utilisation de certaines balises HTML)
-
-DUA
-~~~~
-Liste actuelle des archivistes de la plateforme : Les utilisateurs qui seront notifiés une fois la DUA sera atteinte.
 
 Liens externes
 ~~~~~~~~~~~~~~~~
