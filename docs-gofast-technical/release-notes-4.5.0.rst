@@ -42,7 +42,7 @@ Améliorations
     "GOFAST-12790","Ajout de la classification de confidentialité dans les métadonnées d’espace "
     "GOFAST-12823","Ajout de la métadonnée ""Date d’échéance"" pour les espaces "
     "GOFAST-12829","Ajout de la métadonnée ""État"" pour les espaces "
-    "GOFAST-12878","La valeur ""En cours"" peut être automatiquement attribuée à la métadonnée ""État"" lors de la création d’un espace. "
+    "GOFAST-12878","La valeur ""En cours"" est automatiquement attribuée à la métadonnée ""État"" lors de la création d’un espace. "
     "GOFAST-13146","[TECHNIQUE] MàJ Onlyoffice 9.x : Nouveaux thèmes d'interface, correction de différents bugs... "
     "GOFAST-7280","Ajout de restrictions supplémentaires sur les contenus confidentiels (édition et impression) "
     "GOFAST-7643","[YOUSIGN] Refus explicite de la signature dans une notification de refus de signature Yousign"
