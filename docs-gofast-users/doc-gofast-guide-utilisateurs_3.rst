@@ -22,7 +22,7 @@ Onglets disponibles sur la page d’un Espace Collaboratif
 .. figure:: media-guide/accueil.png
    :alt: 
 
-- **Statistiques :** avec les statistiques de l’activité des membres de l’espace, ainsi que les statistiques documentaires.
+- **Statistiques et Audit :** avec les statistiques de l’activité des membres de l’espace, ainsi que les statistiques documentaires.
 
 .. figure:: media-guide/statistique1.png
    :alt: 
@@ -34,7 +34,7 @@ Merci de consulter également la rubrique : « Onglet Statistiques dans un Espac
 
 Mais en cliquant sur l'onglet statistique, il est aussi possible de d'accéder à **l'audit** de l'espace. 
 
-.. NOTE:: L'audit de l'espace est uniquement disponible pour les administrateurs d'espace. 
+.. NOTE:: L'audit de l'espace est uniquement disponible pour les administrateurs d'espace. Un export est possible. 
 
 .. figure:: media-guide/audit_espace.png
 
