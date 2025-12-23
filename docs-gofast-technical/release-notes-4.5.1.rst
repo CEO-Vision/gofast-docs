@@ -19,7 +19,7 @@ Nouvelles fonctionnalités
   "GOFAST-13032","Ajout d’un accès direct aux formulaires sur mobile"
   "GOFAST-12462","Pouvoir exporter au format Excel ou CSV l’audit d’un espace depuis l’onglet dédié"
   "GOFAST-12461","Duplication des métadonnées de l’espace parent à l’espace enfant"
- "GOFAST-12449","Dans le tableau de bord, ajout de la vue ""Espaces à ma charge"" basée sur la métadonnée ""Responsable"""
+ "GOFAST-12449","Nouveau widget disponible pour le Tableau de bord des espaces dont on est ""Responsable"""
   "GOFAST-12447","Pouvoir afficher systématiquement le formulaire de métadonnées lors de la création d’un document"
  "GOFAST-12441","Profil ""Qualification habilité Confidentiel"" pour accès aux espaces confidentiels"
 
@@ -34,7 +34,7 @@ Améliorations
   "GOFAST-13656","Amélioration du score d'indexation sur la métadonnée ""Titre"" du document"
   "GOFAST-13536","Ajout de points infos dans la statistique pour les bloc indexation et ""activité des utilisateurs"""
   "GOFAST-13438","Amélioration des performances d'affichage des arborescences"
-  "GOFAST-13146","MàJ Onlyoffice 9.x : Nouveaux thèmes d'interface, correction de différents bugs..."
+   "GOFAST-13766","MàJ OnlyOffice 9.2.1 : Nouveaux thèmes d'interface, correction de différents bugs..."
   "GOFAST-12958","""Ne notifier que les participants ajoutés ou retirés de la réunion"" n'est plus coché par défaut"
   "GOFAST-12878","La valeur ""En cours"" peut être automatiquement attribuée à la métadonnée ""État"" lors de la création d’un espace."
   "GOFAST-12829","Ajout de la métadonnée ""État"" pour les espaces"
