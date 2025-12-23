@@ -11,7 +11,7 @@ Nouvelles fonctionnalités
  :widths: 1000, 60000
 
   "GOFAST-7774","Prévisualisation des fichiers Markdown"
-  "GOFAST-6706","Tableau de bord Taches (Workflow et Kanban) : vue pilotage"
+  "GOFAST-6706","Tableau de bord Tâches (Workflow et Kanban) : vue pilotage"
   "GOFAST-5316","Restauration d'espaces supprimés"
   "GOFAST-13292","Ajout de l’allemand aux langues disponibles."
   "GOFAST-13160","Intégration d’un Chat avec Chatbot IA (Prompt Mistral dans Element)"
