@@ -74,7 +74,6 @@ Améliorations
     "GOFAST-12460","Depot des documents broadcasté dans un repertoire dedié"
     "GOFAST-12527","[DIGITALSIGN] : Améliorer la sélection de l'emplacement de signature lors de la création du WF"
     "GOFAST-12338","Pouvoir comparer les versions des documents html"
-    "GOFAST-12441","Profil Qualification habilité ""Confidentiel"""
     "GOFAST-12447","Toujours afficher le formulaire de remplissage des métadonnées d'un document"
     "GOFAST-12449","Tableau de bord : avoir une vue globale des espaces dont on est Responsable (métadonnée sur Espace)"
     "GOFAST-12461","Duplication des métadonnées de l'espace parent à l'espace enfant"

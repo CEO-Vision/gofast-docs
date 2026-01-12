@@ -21,7 +21,7 @@ Nouvelles fonctionnalités
   "GOFAST-12461","Duplication des métadonnées de l’espace parent à l’espace enfant"
  "GOFAST-12449","Nouveau widget disponible pour le Tableau de bord des espaces dont on est ""Responsable"""
   "GOFAST-12447","Pouvoir afficher systématiquement le formulaire de métadonnées lors de la création d’un document"
- "GOFAST-12441","Profil ""Qualification habilité Confidentiel"" pour accès aux espaces confidentiels"
+ "GOFAST-12441","Gestion de la confidentialité des espaces et habilitation confidentielle"
 
 Améliorations 
 ******************************
