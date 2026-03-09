@@ -24,7 +24,7 @@ La méthode d'authentification par token est utilisée pour générer une sessio
 
 Elle utilise la ressource *login*, l'action *token* et la méthode *GET*.
 
-.. CAUTION:: L'action *token* n'est pas disponible depuis l'API externe de GoFAST, elle est utilisée entre les composants internes de la plateforme.
+.. CAUTION:: L'action *token* n'est pas disponible depuis l'API externe de GoFAST par défaut. Elle est utilisée entre les composants internes de la plateforme. Il est cependant possible de configurer un serveur du réseau interne pour qu'il soit autorisé à générer des tokens via cette action.
 
 Ressources
 ############################################
@@ -39,12 +39,12 @@ Action : token
 
 Cette action permet d'intéragir avec le système d'authentification par token.
 
-.. CAUTION:: L'action *token* n'est pas disponible depuis l'API externe de GoFAST, elle est utilisée entre les composants internes de la plateforme.
+.. CAUTION:: L'action *token* n'est pas disponible depuis l'API externe de GoFAST par défaut. Elle est utilisée entre les composants internes de la plateforme. Un serveur du réseau interne peut être configuré pour être autorisé à utiliser cette action.
 
 GET
 __________
 
-Cette méthode permet de récupérer un token d'authentification. Ce dernier est valable pendant 3 minutes.
+Cette méthode permet de récupérer un token d'authentification. Ce dernier est valable pendant 1 jour.
 
 *GET: /api/login/token*
 
@@ -1791,3 +1791,42 @@ Cette méthode permet d'ajouter un membre à la liste d'utilisateurs.
 +=======================+======================================================================+
 |status                 |Statut de l'ajout                                                     |
 +-----------------------+----------------------------------------------------------------------+
+
+Ressource : alfresco
+**********************
+
+Cette ressource permet d'intéragir avec la GED Alfresco intégrée à GoFAST.
+
+Action : token
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Cette action permet de récupérer un jeton de session Alfresco pour l'utilisateur authentifié. Ce jeton peut ensuite être utilisé pour interagir directement avec les API Alfresco.
+
+GET
+__________
+
+Cette méthode permet de récupérer le jeton de session Alfresco de l'utilisateur effectuant la requête.
+
+*GET: /api/alfresco/token*
+
++-------------------+--------------------------+
+|  Header           |   Valeur                 |
++===================+==========================+
+|Content-Type       | application/json         |
++-------------------+--------------------------+
+
+.. NOTE:: Cette méthode ne prend aucun paramètre. Le jeton est généré pour l'utilisateur authentifié.
+
+*Retour:*
+
++-------------------+----------------------------------------+
+|   Header          |   Valeur                               |
++===================+========================================+
+|Content-Type       | application/json                       |
++-------------------+----------------------------------------+
+
++-----------------------+----------------------------------------------------+
+|   Clé                 |   Valeur                                           |
++=======================+====================================================+
+|token                  | Jeton de session Alfresco                          |
++-----------------------+----------------------------------------------------+
