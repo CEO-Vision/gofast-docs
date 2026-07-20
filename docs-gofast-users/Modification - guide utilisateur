@@ -1,1 +1,57 @@
+Tableau des processus 
+-------------------------------
 
+Le tableau de bord des tâches peut afficher tous les processus et cartes kanban existants (en cours ou terminés). Il est est accessible uniquement dans l'interface Plus, dans le bandeau de gauche, via l'entrée « Processus et tâches ».
+
+Info : quand vous arrivez sur le « Tableau de bord des tâches », les tâches qui vous sont assignées sont affichées par défaut.
+
+image
+
+Vous pouvez également cliquez sur l’icône « Processus » dans ce menu principal de gauche. 
+
+.. figure:: media-guide/Dashboard-workflow.jpg.png
+
+Par défaut, quand vous arrivez sur le Tableau des Processus, seuls les processus en cours sont listés. 
+
+.. figure:: media-guide/Dashboard-workflow-listing.jpg.
+   :alt:
+
+
+Filtrer la liste des processus 
+~~~~~~~~~~~~~~~~~~~~~~~
+
+Le tableau de bord offre divers filtres afin de rechercher un processus. 
+
+**La recherche se fait avec un ou plusieurs critère(s) :**
+
+ - Titre du processus : Nom complet du processus.
+ - Démarré après le :  Date après le démarrage du processus.
+ - Échéance avant le :  Date d‘échéance avant la fin du processus.
+ - Type de processus : Il est possible de faire le tri avec deux types de processus « Diffusion de document » et « Sous processus de diffusion de document ».
+ - État du processus : Deux états sont disponibles « En cours » et « Terminé ».
+ - Démarré par : Ce champs permet de renseigner le nom de l’utilisateur qui a démarré le processus (suggestions si on saisit au moins 3 caractères du nom/prénom).
+ - Documents associés : Document(s) lié(s) au processus recherché (suggestions si on saisit au moins 3 caractères du titre). 
+ - Utilisateurs associés : Dans ce champ, vous pouvez renseigner les utilisateurs assignés aux différentes tâches du processus recherché (suggestions si on saisit au moins 3 caractères du nom/prénom).
+
+Pour lancer la requête de recherche, ne pas oublier d’appuyer sur le bouton « Rechercher ».
+
+
+Afficher les détails d'un processus
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Pour consulter les détails d’un processus, il suffit de cliquer sur le nom de ce dernier dans les Résultats de recherche. 
+
+**Trois sections sont disponibles :**
+
+1- Tâches du processus 
+
+
+2- Documents dans ce processus
+
+.. figure:: media-guide/Dashboard-workflow-doc-linked.jpg
+   :alt:
+
+3- Historique du processus
+
+.. figure:: media-guide/Dashboard-workflows-history.jpg
+   :alt:
