@@ -888,59 +888,58 @@ Pour consulter les détails d'un processus terminé, il suffit de cliquer sur l�
 Tableau des processus 
 -------------------------------
 
-Le tableau des processus affiche tous les processus existants (en cours ou terminés), selon ses droits d’accès : créés par l’utilisateur et que ceux qui lui ont été assignés. 
+Le tableau de bord des tâches peut afficher tous les processus et cartes kanban existants (en cours ou terminés). Il est est accessible uniquement dans l'interface Plus, dans le bandeau de gauche, via l'entrée « Processus et tâches ».
 
-Pour accéder au Tableau des Processus :
- - Dépliez le menu principal de gauche
- - Allez dans « Processus et Tâches » 
-Vous pouvez également cliquez sur l’icône « Processus » dans ce menu principal de gauche. 
+Info : quand vous arrivez sur le « Tableau de bord des tâches », les tâches qui vous sont assignées sont affichées par défaut.
 
-.. figure:: media-guide/Dashboard-workflow.jpg.png
+Statistiques 
+~~~~~~~~~~~~~~~~~~~~~~~
+image
 
-Par défaut, quand vous arrivez sur le Tableau des Processus, seuls les processus en cours sont listés. 
-
-.. figure:: media-guide/Dashboard-workflow-listing.jpg.
-   :alt:
-
+Le Tableau de bord des tâches comprend une section statistique divisée en 2 parties, filtrables par état : 
+- Le bloc « Mes tâches » concerne les tâches qui vous sont assignées ;
+- Le bloc « Tâches assignées » concerne celles qui sont assignées aux autres utilisateurs ; vous pouvez filtrer sur un utilisateur en particulier (le calcul ne prend pas en compte l'utilisateur connecté).
 
 Filtrer la liste des processus 
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-Le tableau de bord offre divers filtres afin de rechercher un processus. 
+Le tableau de bord offre divers filtres afin de rechercher une tâche.
+Les boutons "Mes tâches en cours" et "Tâches en cours que j'ai assignées" préfiltrent le tableau.
 
-**La recherche se fait avec un ou plusieurs critère(s) :**
+Image
 
- - Titre du processus : Nom complet du processus.
- - Démarré après le :  Date après le démarrage du processus.
- - Échéance avant le :  Date d‘échéance avant la fin du processus.
- - Type de processus : Il est possible de faire le tri avec deux types de processus « Diffusion de document » et « Sous processus de diffusion de document ».
- - État du processus : Deux états sont disponibles « En cours » et « Terminé ».
- - Démarré par : Ce champs permet de renseigner le nom de l’utilisateur qui a démarré le processus (suggestions si on saisit au moins 3 caractères du nom/prénom).
- - Documents associés : Document(s) lié(s) au processus recherché (suggestions si on saisit au moins 3 caractères du titre). 
- - Utilisateurs associés : Dans ce champ, vous pouvez renseigner les utilisateurs assignés aux différentes tâches du processus recherché (suggestions si on saisit au moins 3 caractères du nom/prénom).
+**Filtres disponibles:**
 
-Pour lancer la requête de recherche, ne pas oublier d’appuyer sur le bouton « Rechercher ».
-
+- Type : Tâche de processus, Tâches kanban, Tâches de processus archivées
+- Nom de la tâche : nom de la tâche de processus ou de l'élément de la to-do list de la carte
+- Nom du processus ou de la carte
+- Responsable : utilisateur auquel la tâche est assignée ; au survol, les autres participants sont affichés
+- Initiateur : initiateur du processus ou créateur de la carte
+- Échéance de la tâche
+- Date de début : date d'initiation du processus ou de création de la carte
+- Délai : temps restant ou passé depuis l'échéance de la carte
+- Statut : statut de la tâche
+- Terminé le : date où la tâche a été réalisée
+- Espace : espace de la carte kanban
 
 Afficher les détails d'un processus
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Pour consulter les détails d’un processus, il suffit de cliquer sur le nom de ce dernier dans les Résultats de recherche. 
+Pour consulter les détails d’un processus, cliquez sur le nom de ce dernier dans le tableau des tâches.
 
 **Trois sections sont disponibles :**
 
+image
+
 1- Tâches du processus 
 
+Reprend les étapes du processus effectuées et en cours, leur état, leur nom, leur date d'échéance et de réalisation.
 
 2- Documents dans ce processus
 
-.. figure:: media-guide/Dashboard-workflow-doc-linked.jpg
-   :alt:
+Retrouvez les documents du processus et effectuez-y votre étape de processus.
 
 3- Historique du processus
-
-.. figure:: media-guide/Dashboard-workflows-history.jpg
-   :alt:
 
 
 Tâches collaboratives - Kanban
