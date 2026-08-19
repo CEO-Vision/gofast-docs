@@ -884,8 +884,47 @@ Pour consulter les détails d'un processus terminé, il suffit de cliquer sur l�
 .. figure:: media-guide/Ecran-GoFAST_Workflows_processus-archive-historique.png	
    :alt:
 
+Tableau de bord des tâches
+------------------------------------------------------
 
-Tableau des processus 
+Le tableau de bord des tâches peut afficher tous les processus et cartes kanban existants (en cours ou terminés). Il est accessible uniquement dans l'interface Plus, dans le bandeau de gauche, via l'entrée « Processus et tâches ».
+
+.. NOTE::
+   Quand vous arrivez sur le « Tableau de bord des tâches », les tâches qui vous sont assignées sont affichées par défaut.
+
+Statistiques
+~~~~~~~~~~~~
+.. figure:: media-guide/TdB_Recherche1.png
+
+Le Tableau de bord des tâches comprend une section statistique divisée en 2 parties, filtrables par état :
+
+  - Le bloc « Mes tâches » concerne les tâches qui vous sont assignées ;
+  - Le bloc « Tâches assignées » concerne celles qui sont assignées aux autres utilisateurs ; vous pouvez filtrer sur un utilisateur en particulier (le calcul ne prend pas en compte l'utilisateur connecté).
+
+Filtrer la liste des processus
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Le tableau de bord propose divers filtres afin de rechercher une tâche.
+Les boutons « Mes tâches en cours » et « Tâches en cours que j'ai assignées » préfiltrent le tableau.
+
+.. figure:: media-guide/TdB_taches.png
+
+**Filtres disponibles :**
+
+ - Type : Tâche de processus, Tâches kanban, Tâches de processus archivées
+ - Nom de la tâche : nom de la tâche de processus ou de l'élément de la to-do list de la carte
+ - Nom du processus ou de la carte
+ - Responsable : utilisateur auquel la tâche est assignée ; au survol, les autres participants sont affichés
+ - Initiateur : initiateur du processus ou créateur de la carte
+ - Échéance de la tâche
+ - Date de début : date d'initiation du processus ou de création de la carte
+ - Délai : temps restant ou passé depuis l'échéance de la carte
+ - Statut : statut de la tâche
+ - Terminé le : date où la tâche a été réalisée
+ - Espace : espace de la carte kanban
+
+
+Tableau des processus (ancien) 
 -------------------------------
 
 Le tableau des processus affiche tous les processus existants (en cours ou terminés), selon ses droits d’accès : créés par l’utilisateur et que ceux qui lui ont été assignés. 
@@ -925,22 +964,23 @@ Pour lancer la requête de recherche, ne pas oublier d’appuyer sur le bouton �
 Afficher les détails d'un processus
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Pour consulter les détails d’un processus, il suffit de cliquer sur le nom de ce dernier dans les Résultats de recherche. 
+Pour consulter les détails d’un processus, il suffit de cliquer sur le nom de ce dernier dans les résultats de recherche. 
 
 **Trois sections sont disponibles :**
 
+.. figure:: media-guide/taches_sections.png
+
 1- Tâches du processus 
 
+Reprend les étapes du processus effectuées et en cours, leur état, leur nom, leur date d'échéance et de réalisation.
 
 2- Documents dans ce processus
 
-.. figure:: media-guide/Dashboard-workflow-doc-linked.jpg
-   :alt:
+Retrouvez les documents du processus et effectuez-y votre étape de processus.
+
 
 3- Historique du processus
 
-.. figure:: media-guide/Dashboard-workflows-history.jpg
-   :alt:
 
 
 Tâches collaboratives - Kanban
