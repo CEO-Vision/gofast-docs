@@ -319,8 +319,6 @@ Le contenu de cet Espace apparaîtra comme archivé et ne sera plus visible lors
 Supprimer un Espace Collaboratif 
 --------------------------------------------
 
-.. NOTE:: 
-   Supprimer un Espace est une action définitive : il n’y a pas de possibilité de le restaurer. Une fois supprimé, l’Espace ne sera plus visible nulle part. 
 
 **Pour supprimer un espace :**
 
@@ -330,7 +328,8 @@ Supprimer un Espace Collaboratif
  - Confirmez en cliquant sur « Supprimer ».
 
 .. NOTE:: 
-   Lors de la suppression d’un Espace, plusieurs opérations sont automatiquement réalisées : traitement des contenus « multifilés » (ceux qui ont d’autres emplacements dans d’autres Espaces), la suppression des contenus non « multifilés », la suppression des dossiers. Si vous souhaitez conserver les contenus tout en mettant l’Espace en Lecture Seule, privilégiez l’action « Archiver ». 
+   Pour restaurer un espace, veuillez passer par l’annuaire des espaces.
+   Lors de la suppression d’un Espace, plusieurs traitement des contenus « multifilés » (ceux qui ont d’autres emplacements dans d’autres Espaces) sont automatiquement réalisées et irréversibles. Si vous souhaitez conserver les contenus tout en mettant l’Espace en Lecture Seule, privilégiez l’action « Archiver ». 
 
 S’abonner ou se désabonner d’un Espace Collaboratif 
 -------------------------------------------------------------
