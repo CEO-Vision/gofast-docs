@@ -93,7 +93,7 @@ Les actions réservées aux administrateurs d’espaces sont précisées avec un
 .. NOTE:: 
    Les onglets d’un espace affichent des éléments liés à l’espace sur lequel on se trouve. Le titre de l’espace et le chemin d’accès s’actualisent juste au-dessus des onglets.
 
-Merci de consulter aussi la rubrique : « Créer un Espace Collaboratif »
+Merci de consulter aussi la rubrique : « Créer un Espace Collaboratif » et « Annuaire d’espace ».
 
 Être membre d’un Espace (dont rôles possibles)
 ------------------------------------------------------------
