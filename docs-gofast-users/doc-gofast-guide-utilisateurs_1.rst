@@ -939,7 +939,7 @@ Importance
 ~~~~~~~~~~~~~~~
 Vous pouvez signaler l’importance d’un document dans les métadonnées et son niveau : critique, haute, normale, basse et autres niveaux de confidentialités. 
 Certains niveaux permettent de restreindre le partage et le téléchargement d’un document afin de garantir un niveau de sécurité de la donnée plus élevée.
-      - Niveau « Donnée confidentielle », le document associé à ce type d’importance ne peut pas être ni téléchargé ni partagé. 
+      - Niveau « Donnée confidentielle », le document associé à ce type d’importance ne peut pas être téléchargé, partagé, édité en local ou imprimé. 
       - Niveau « Diffusion Interne » le document ne peut pas être partagé ou téléchargé dans un Espace Extranet.
 
 Allez au niveau « Importance » dans les métadonnées du document, cliquez sur le champ puis choisissez le niveau d’importance.
