@@ -32,12 +32,15 @@ Onglets disponibles sur la page d’un Espace Collaboratif
 
 Merci de consulter également la rubrique : « Onglet Statistiques dans un Espace » (dans « Statistiques ») 
 
-Mais en cliquant sur l'onglet statistique, il est aussi possible de d'accéder à **l'audit** de l'espace. 
+- **Audit :** 
+
+En cliquant sur l'onglet statistique, il est aussi possible de d'accéder à **l'audit** de l'espace. 
 
 .. NOTE:: L'audit de l'espace est uniquement disponible pour les administrateurs d'espace. 
 
 .. figure:: media-guide/audit_espace.png
 
+L’audit d’espace peut être exporté.
 
 **Documents :** explorateur de fichiers positionné au niveau de l’arborescence de l’Espace. 
 
