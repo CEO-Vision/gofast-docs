@@ -32,12 +32,15 @@ Onglets disponibles sur la page d’un Espace Collaboratif
 
 Merci de consulter également la rubrique : « Onglet Statistiques dans un Espace » (dans « Statistiques ») 
 
-Mais en cliquant sur l'onglet statistique, il est aussi possible de d'accéder à **l'audit** de l'espace. 
+- **Audit :** 
+
+En cliquant sur l'onglet statistique, il est aussi possible de d'accéder à **l'audit** de l'espace. 
 
 .. NOTE:: L'audit de l'espace est uniquement disponible pour les administrateurs d'espace. 
 
 .. figure:: media-guide/audit_espace.png
 
+L’audit d’espace peut être exporté.
 
 **Documents :** explorateur de fichiers positionné au niveau de l’arborescence de l’Espace. 
 
@@ -93,7 +96,7 @@ Les actions réservées aux administrateurs d’espaces sont précisées avec un
 .. NOTE:: 
    Les onglets d’un espace affichent des éléments liés à l’espace sur lequel on se trouve. Le titre de l’espace et le chemin d’accès s’actualisent juste au-dessus des onglets.
 
-Merci de consulter aussi la rubrique : « Créer un Espace Collaboratif »
+Merci de consulter aussi la rubrique : « Créer un Espace Collaboratif » et « Annuaire d’espace ».
 
 Être membre d’un Espace (dont rôles possibles)
 ------------------------------------------------------------
@@ -319,8 +322,6 @@ Le contenu de cet Espace apparaîtra comme archivé et ne sera plus visible lors
 Supprimer un Espace Collaboratif 
 --------------------------------------------
 
-.. NOTE:: 
-   Supprimer un Espace est une action définitive : il n’y a pas de possibilité de le restaurer. Une fois supprimé, l’Espace ne sera plus visible nulle part. 
 
 **Pour supprimer un espace :**
 
@@ -330,7 +331,8 @@ Supprimer un Espace Collaboratif
  - Confirmez en cliquant sur « Supprimer ».
 
 .. NOTE:: 
-   Lors de la suppression d’un Espace, plusieurs opérations sont automatiquement réalisées : traitement des contenus « multifilés » (ceux qui ont d’autres emplacements dans d’autres Espaces), la suppression des contenus non « multifilés », la suppression des dossiers. Si vous souhaitez conserver les contenus tout en mettant l’Espace en Lecture Seule, privilégiez l’action « Archiver ». 
+   Pour restaurer un espace, veuillez passer par l’annuaire des espaces.
+   Lors de la suppression d’un Espace, plusieurs traitement des contenus « multifilés » (ceux qui ont d’autres emplacements dans d’autres Espaces) sont automatiquement réalisées et irréversibles. Si vous souhaitez conserver les contenus tout en mettant l’Espace en Lecture Seule, privilégiez l’action « Archiver ». 
 
 S’abonner ou se désabonner d’un Espace Collaboratif 
 -------------------------------------------------------------
@@ -381,6 +383,10 @@ le bloc dédié.
   - Créé par 
   - Modif. le
 
+.. note::
+
+   * Lors de la création d'un espace, le champ État est automatiquement défini sur « En cours ».
+   * Lors de la création d'un sous-espace, celui-ci hérite automatiquement des métadonnées de son espace parent.
 
 Espaces confidentiels
 ---------------------
@@ -884,8 +890,47 @@ Pour consulter les détails d'un processus terminé, il suffit de cliquer sur l�
 .. figure:: media-guide/Ecran-GoFAST_Workflows_processus-archive-historique.png	
    :alt:
 
+Tableau de bord des tâches
+------------------------------------------------------
 
-Tableau des processus 
+Le tableau de bord des tâches peut afficher tous les processus et cartes kanban existants (en cours ou terminés). Il est accessible uniquement dans l'interface Plus, dans le bandeau de gauche, via l'entrée « Processus et tâches ».
+
+.. NOTE::
+   Quand vous arrivez sur le « Tableau de bord des tâches », les tâches qui vous sont assignées sont affichées par défaut.
+
+Statistiques
+~~~~~~~~~~~~
+.. figure:: media-guide/TdB_Recherche1.png
+
+Le Tableau de bord des tâches comprend une section statistique divisée en 2 parties, filtrables par état :
+
+  - Le bloc « Mes tâches » concerne les tâches qui vous sont assignées ;
+  - Le bloc « Tâches assignées » concerne celles qui sont assignées aux autres utilisateurs ; vous pouvez filtrer sur un utilisateur en particulier (le calcul ne prend pas en compte l'utilisateur connecté).
+
+Filtrer la liste des processus
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Le tableau de bord propose divers filtres afin de rechercher une tâche.
+Les boutons « Mes tâches en cours » et « Tâches en cours que j'ai assignées » préfiltrent le tableau.
+
+.. figure:: media-guide/TdB_taches.png
+
+**Filtres disponibles :**
+
+ - Type : Tâche de processus, Tâches kanban, Tâches de processus archivées
+ - Nom de la tâche : nom de la tâche de processus ou de l'élément de la to-do list de la carte
+ - Nom du processus ou de la carte
+ - Responsable : utilisateur auquel la tâche est assignée ; au survol, les autres participants sont affichés
+ - Initiateur : initiateur du processus ou créateur de la carte
+ - Échéance de la tâche
+ - Date de début : date d'initiation du processus ou de création de la carte
+ - Délai : temps restant ou passé depuis l'échéance de la carte
+ - Statut : statut de la tâche
+ - Terminé le : date où la tâche a été réalisée
+ - Espace : espace de la carte kanban
+
+
+Tableau des processus (ancien) 
 -------------------------------
 
 Le tableau des processus affiche tous les processus existants (en cours ou terminés), selon ses droits d’accès : créés par l’utilisateur et que ceux qui lui ont été assignés. 
@@ -925,22 +970,23 @@ Pour lancer la requête de recherche, ne pas oublier d’appuyer sur le bouton �
 Afficher les détails d'un processus
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Pour consulter les détails d’un processus, il suffit de cliquer sur le nom de ce dernier dans les Résultats de recherche. 
+Pour consulter les détails d’un processus, il suffit de cliquer sur le nom de ce dernier dans les résultats de recherche. 
 
 **Trois sections sont disponibles :**
 
+.. figure:: media-guide/taches_sections.png
+
 1- Tâches du processus 
 
+Reprend les étapes du processus effectuées et en cours, leur état, leur nom, leur date d'échéance et de réalisation.
 
 2- Documents dans ce processus
 
-.. figure:: media-guide/Dashboard-workflow-doc-linked.jpg
-   :alt:
+Retrouvez les documents du processus et effectuez-y votre étape de processus.
+
 
 3- Historique du processus
 
-.. figure:: media-guide/Dashboard-workflows-history.jpg
-   :alt:
 
 
 Tâches collaboratives - Kanban
