@@ -468,6 +468,7 @@ Lorsque vous sélectionnez un ou plusieurs espaces, un menu burger apparaît en 
 - Ajouter membres/Liste d'utilisateurs : Cette fonctionnalité est accessible uniquement aux administrateurs de l'espace sélectionné.
 - Demander à rejoindre ces espaces : une demande est alors envoyée aux administrateurs métiers de l'Espace.
 - Pré-ajouter des membres/liste d'utilisateurs : une demande est alors envoyée aux administrateurs métiers de l'Espace.
+- Restaurer un espace supprimé 
 
 .. NOTE::
    En fonction de la configuration de la plateforme et de vos droits d'accès, vous pourrez accéder à la totalité ou à une partie des espaces existants.

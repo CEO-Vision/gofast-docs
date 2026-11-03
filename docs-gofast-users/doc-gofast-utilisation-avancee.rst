@@ -184,6 +184,34 @@ L'identifiant et le mot de passe à renseigner sont ceux que vous utilisez pour 
 
 |image22|
 
+Retrouver la clé de récupération Element
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.. figure:: media-guide/mobile-cle-session.png
+
+Element X ou Element mobile peut demander une clé de récupération pour vérifier votre compte. Pour retrouver cette clé :
+
+**Depuis votre ordinateur :**
+
+#. Connectez-vous à votre compte GoFAST.
+#. Ouvrez votre profil utilisateur.
+#. Cliquez sur l'icône « Paramètres du compte » située à côté de votre photo de profil.
+
+.. figure:: media-guide/acces-profile.png
+
+#. Faites défiler la page.
+#. Repérez la section « Paramètres du Chat Element » contenant la clé de récupération.
+#. Récupérez cette clé.
+
+.. figure:: media-guide/cle-de-recuperation.png
+
+#. Saisissez la clé dans le champ prévu sur votre mobile.
+
+**Depuis votre téléphone :**
+
+.. figure:: media-guide/cle-de-recuperation-mobile.png
+
+Connectez-vous à GoFAST via votre navigateur Internet, accédez à votre profil dans le panneau de gauche puis aux Paramètres. La procédure est ensuite identique à celle sur ordinateur. Vous pouvez ensuite poursuivre les étapes indiquées.
+
 Signature électronique unitaire des PDF
 -----------------------------------------
 
